@@ -958,8 +958,9 @@ if st.session_state.selected_section == "Comparative Study":
     if "selected_comparative_ticker" not in st.session_state:
         st.session_state.selected_comparative_ticker = tickers[0]
 
-    comp_cols = st.columns(len(tickers))
-    for col, t in zip(comp_cols, tickers):
+    comp_nav_items = tickers + ["All"]
+    comp_cols = st.columns(len(comp_nav_items))
+    for col, t in zip(comp_cols, comp_nav_items):
         with col:
             is_selected = st.session_state.selected_comparative_ticker == t
             if st.button(
@@ -967,13 +968,57 @@ if st.session_state.selected_section == "Comparative Study":
                 key=f"compnavbtn_{t}",
                 use_container_width=True,
                 type="primary" if is_selected else "secondary",
-                help=ticker_labels[t],
+                help=ticker_labels.get(t, "All tickers — rating overview"),
             ):
                 st.session_state.selected_comparative_ticker = t
 
     st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
 
     comp_ticker = st.session_state.selected_comparative_ticker
+
+    if comp_ticker == "All":
+        # Overview grid: one column per ticker, one dot per observation
+        # (top = earliest quarter). Dot color reflects the two Comparative
+        # Study answers for that observation -- green when both are the
+        # fully-positive answer, red when neither question has been rated
+        # yet, orange for every in-between combination.
+        def _comp_dot_color(answer):
+            q1 = answer.get("q1", "Not yet rated")
+            q2 = answer.get("q2", "Not yet rated")
+            if q1 == "Not yet rated" and q2 == "Not yet rated":
+                return "#e74c3c"
+            if q1 == "True" and q2 == "Accurate":
+                return "#2ecc71"
+            return "#f39c12"
+
+        st.markdown(
+            "<div class='quarter-header' style='font-size:1.4rem; text-align:center;'>"
+            "All Tickers — Rating Overview</div>",
+            unsafe_allow_html=True,
+        )
+        st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+        all_cols = st.columns(len(tickers))
+        for col, t in zip(all_cols, tickers):
+            with col:
+                t_sub = df[df["ticker"] == t].reset_index(drop=True)
+                dots_html = (
+                    f"<div style='text-align:center; font-weight:600; "
+                    f"color:#f4c542; margin-bottom:0.5rem;'>{t}</div>"
+                )
+                for _, row in t_sub.iterrows():
+                    note_key = f"{row['ticker']}_{row['fiscal_yearquarter']}"
+                    answer = comparative_answers_lookup.get(note_key, {})
+                    color = _comp_dot_color(answer)
+                    dots_html += (
+                        f"<div title='{row['fiscal_yearquarter'].upper()}' "
+                        f"style='width:14px; height:14px; border-radius:50%; "
+                        f"background:{color}; margin:4px auto;'></div>"
+                    )
+                st.markdown(dots_html, unsafe_allow_html=True)
+
+        st.stop()
+
     comp_sub = df[df["ticker"] == comp_ticker].reset_index(drop=True)
     comp_company_name = comp_sub["company_name"].iloc[0]
 
@@ -1074,6 +1119,15 @@ render_price_chart(selected_ticker, price_history, sub)
 
 st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
 
+# S&P 500's own 2-day return for each quarter's earnings date, for display
+# in the quarter header next to the stock's own 2-day return -- built once
+# here rather than inside the loop below.
+sp_df_for_headers = None
+if price_history is not None:
+    sp_df_for_headers = pd.DataFrame(price_history["sp500"])
+    sp_df_for_headers["date"] = pd.to_datetime(sp_df_for_headers["date"])
+    sp_df_for_headers = sp_df_for_headers.sort_values("date").reset_index(drop=True)
+
 # ── Per-quarter loop: one earnings report per iteration, rendering the
 # "Visualize" chart toggle followed by the left/right column comparison. ──
 for idx, row in sub.iterrows():
@@ -1081,12 +1135,18 @@ for idx, row in sub.iterrows():
     ret_pct = row["ret_2day"] * 100
     ret_str = f"{ret_pct:+.2f}%"
 
+    sp_ret_str = "n/a"
+    if sp_df_for_headers is not None:
+        sp_ret = sp_return_2day(sp_df_for_headers, row["earnings_date"])
+        if sp_ret is not None:
+            sp_ret_str = f"{sp_ret:+.2f}%"
+
     st.html(f"<div id='{anchor_id(row['ticker'], row['fiscal_yearquarter'])}'></div>")
 
     st.markdown(
         f"<div class='quarter-header' style='text-align:center;'>{row['fiscal_yearquarter'].upper()} "
         f"&nbsp;|&nbsp; earnings {row['earnings_date'].strftime('%Y-%m-%d')} "
-        f"&nbsp;|&nbsp; 2-day return {ret_str}</div>",
+        f"&nbsp;|&nbsp; 2-day return {ret_str} &nbsp;|&nbsp; S&amp;P 2-day return {sp_ret_str}</div>",
         unsafe_allow_html=True,
     )
 

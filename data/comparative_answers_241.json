@@ -1,1 +1,306 @@
-{}
+{
+  "AAON_2017q3": {
+    "q1": "True",
+    "q2": "Partially accurate"
+  },
+  "AAON_2018q4": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "AAON_2019q2": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "AAON_2019q4": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "AAON_2020q1": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "AAON_2020q2": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "AAON_2021q4": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "AAON_2022q3": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "AAON_2023q1": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "AAON_2024q1": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "AAON_2024q4": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ABM_2018q1": {
+    "q1": "True",
+    "q2": "Partially accurate"
+  },
+  "ABM_2018q2": {
+    "q1": "True",
+    "q2": "Partially accurate"
+  },
+  "ABM_2018q4": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ABM_2018q3": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ABM_2019q1": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ABM_2019q2": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ABM_2019q3": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ABM_2019q4": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ABM_2020q1": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ABM_2020q2": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ABM_2020q3": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ABM_2020q4": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ADMA_2017q2": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ADMA_2017q4": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ADMA_2018q1": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ADMA_2018q2": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ACVA_2021q4": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ACVA_2023q1": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ACMR_2019q2": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ACMR_2019q3": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ACMR_2020q1": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ACMR_2022q4": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ACMR_2024q1": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ACCO_2019q3": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ACCO_2019q4": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ACCO_2020q1": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ACCO_2021q1": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ACCO_2021q2": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ACCO_2022q1": {
+    "q1": "True",
+    "q2": "Inaccurate"
+  },
+  "ACCO_2022q2": {
+    "q1": "True",
+    "q2": "Inaccurate"
+  },
+  "ACCO_2023q1": {
+    "q1": "True",
+    "q2": "Partially accurate"
+  },
+  "ACCO_2023q2": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ACCO_2024q1": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ABSI_2022q3": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ABM_2021q1": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ABM_2021q2": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ABM_2021q3": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ABM_2021q4": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ABM_2022q1": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "POWW_2021q2": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "POWW_2022q2": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "POWW_2022q3": {
+    "q1": "True",
+    "q2": "Inaccurate"
+  },
+  "POWW_2022q4": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "POWW_2023q1": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "POWW_2023q2": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "POWW_2024q1": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ANIP_2017q1": {
+    "q1": "True",
+    "q2": "Partially accurate"
+  },
+  "ANIP_2018q4": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ANIP_2018q3": {
+    "q1": "True",
+    "q2": "Partially accurate"
+  },
+  "ANIP_2019q1": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ANIP_2019q2": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ANIP_2020q1": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ANIP_2020q2": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ANIP_2021q2": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ANIP_2021q4": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ANIP_2022q1": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "AKA_2022q1": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "AKA_2022q2": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ADMA_2018q4": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ADMA_2019q1": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ADMA_2019q2": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ADMA_2021q2": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ADMA_2023q2": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ADMA_2024q1": {
+    "q1": "True",
+    "q2": "Accurate"
+  },
+  "ADMA_2024q3": {
+    "q1": "True",
+    "q2": "Accurate"
+  }
+}
