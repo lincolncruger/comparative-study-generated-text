@@ -1,0 +1,1186 @@
+{
+  "MSFT_2016q2": {
+    "ticker": "MSFT",
+    "group": "Group 1",
+    "company_name": "Microsoft",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-21",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Microsoft was deep in its transition from packaged software and phone hardware toward Office 365 and Azure. Investors needed the cloud businesses to grow fast enough to offset weaker legacy licensing and mobile revenue.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Microsoft: Microsoft Cloud Strength Highlights Second Quarter Results",
+                  "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2016-Q2/press-release-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q3 non-GAAP revenue was **$22.1 billion** and non-GAAP EPS was **$0.62**. Revenue was essentially in line with consensus, but EPS missed the roughly **$0.64** expectation. Commercial cloud annualized revenue run rate exceeded **$10 billion**, Azure revenue grew about **120%**, and Office 365 continued expanding rapidly.",
+              "sources": []
+            },
+            {
+              "text": "The problem was the rest of the mix. On-premise server and Office commercial licensing were softer, phone revenue collapsed, and management's fiscal-Q4 revenue guidance came in below expectations. The quarter therefore showed excellent cloud momentum but insufficient near-term earnings conversion to offset legacy weakness.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Microsoft: Microsoft Cloud Strength Highlights Third Quarter Results",
+                  "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2016-Q3/press-release-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares fell sharply because EPS and Q4 revenue guidance missed expectations.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Azure and Office 365 were growing very quickly, but cloud strength could not yet fully offset weaker legacy software and phone revenue.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** The market wanted clearer evidence that the cloud transition would expand—not merely preserve—profitability.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Microsoft Corporation Stock Drops As Cloud Demand Breaks $10 Billion",
+                  "url": "https://www.fool.com/investing/general/2016/04/22/tickercoveragemicrosoft-plunges-as-cloud-demand-br.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Microsoft/MSFT identity, the correct earnings event, publication date, timing window and source origin. Microsoft Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Microsoft: Microsoft Cloud Strength Highlights Second Quarter Results",
+          "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2016-Q2/press-release-webcast"
+        },
+        {
+          "label": "Microsoft: Microsoft Cloud Strength Highlights Third Quarter Results",
+          "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2016-Q3/press-release-webcast"
+        },
+        {
+          "label": "The Motley Fool: Microsoft Corporation Stock Drops As Cloud Demand Breaks $10 Billion",
+          "url": "https://www.fool.com/investing/general/2016/04/22/tickercoveragemicrosoft-plunges-as-cloud-demand-br.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Microsoft's fiscal third-quarter 2016 report centered on a specific deceleration story: Intelligent Cloud segment revenue grew 3% (8% in constant currency) with Azure up 120% in constant currency, but the article emphasizes this was a slowdown from the immediately prior quarter, when the same segment had grown 5% (11% constant currency) and Azure had grown 140%. Pacific Crest analyst Brendan Barnicle called it \"deceleration, for sure,\" though he tempered that by noting Azure was still a small, early-stage business. Adjusted per-share profit was flat at 62 cents, 2 cents below the Thomson Reuters analyst consensus; CFO Amy Hood attributed the miss to a \"catch up\" tax adjustment reflecting an expected higher full-year tax rate, saying earnings were \"closer to 66 cents when you take out the tax.\" The article detailed several bright spots that offset the cloud slowdown narrative: the More Personal Computing segment (including Windows) posted operating profit growth of 57% despite revenue up just 0.9%, and Surface revenue rose 61% in constant currency, topping $1 billion for a second consecutive quarter — notably the first time that had happened outside of a holiday quarter. Windows revenue from PC makers still declined 2% in constant currency despite rapid adoption of Windows 10 (270 million active devices, though many were free, non-revenue-generating upgrades). Office 365 showed strong subscriber growth (consumer users up 79%, commercial up 57%), which Hood said \"helps pull along new usage of Azure,\" and the article included an anecdote about Fruit of the Loom's CIO praising Azure's security features as the company began migrating disaster-recovery workloads there. Guidance for the following quarter across all three segments came in below analyst expectations.",
+      "why_moved": "The article states shares fell about 5.5% in after-hours trading to $52.70, and ties that decline directly to the combination of factors detailed above: the cloud-growth deceleration (Azure slowing from 140% to 120% constant-currency growth, and the Intelligent Cloud segment slowing from 5% to 3% headline growth) landing alongside a 2-cent EPS miss, even though Hood attributed the miss to a one-time tax item rather than an operating shortfall. The article explicitly says \"the slowing growth in cloud computing coupled with the earnings miss spooked investors,\" making clear that it was the combination of both factors, not either alone, that the piece identifies as the trigger for the selloff. The below-consensus guidance for the following quarter across Productivity and Business Processes, Intelligent Cloud, and More Personal Computing likely compounded the reaction by signaling the deceleration was expected to continue rather than being a one-quarter blip.",
+      "sources": [
+        {
+          "filename": "Microsoft’s Cloud Business Slows - WSJ.pdf",
+          "title": "Microsoft’s Cloud Business Slows Per-share earnings fall short of Wall Street expectations",
+          "published_date": "2016-04-21",
+          "text": "Microsoft’s Cloud Business Slows - WSJ 2026-08-28, 3:15 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/microsofts-profit-slides-25-1461270478\nTECH\nMicrosoft’s Cloud Business Slows\nPer-share earnings fall short of Wall Street expectations\nBy Jay Greene\nUpdated April 21, 2016 at 9:46 pm ET\nMicrosoft’s own Surface line of computers remains a bright spot. DAN HIMBRECHTS/EUROPEAN PRESSPHOTO AGENCY\nMicrosoft Corp., MSFT 1.76% a rare tech stalwart that has appeared to be making a\ndeft transition to the new world of Web-based, on-demand computing, faltered in the\nmost recent quarter as the growth of its cloud business slowed.\nRevenue from Microsoft’s Intelligent Cloud segment, which includes its Azure on-\ndemand computing services as well as its older server software sales, grew 3% to $6.1\nbillion. The gain was 8% in constant currency, and the company said that Azure grew\n120% in constant currency.\nBut just one quarter earlier, the same segment grew 5%, or 11% in constant currency,\nhttps://www.wsj.com/articles/microsofts-profit-slides-25-1461270478 Page 1 of 5\nMicrosoft’s Cloud Business Slows - WSJ 2026-08-28, 3:15 PM\nand Azure was up 140%.\n“That’s deceleration, for sure,” said Brendan Barnicle, an analyst at Pacific Crest\nSecurities. However, Mr. Barnicle noted that Azure represents only a fraction of\noverall revenue and is relatively new. “Those numbers are still so small, and it’s still so\nearly,” he said.\nMicrosoft also missed analyst forecasts for profit in its third quarter. Adjusted per-\nshare profit was flat at 62 cents, 2 cents below what analysts surveyed by Thomson\nReuters expected.\nMicrosoft Chief Financial Officer Amy Hood attributed the miss to a “catch up” tax\nadjustment to account for an expected increase in the full-year tax rate. Earnings per\nshare are “closer to 66 cents when you take out the tax,” Ms. Hood said in an interview.\nThe slowing growth in cloud computing coupled with the earnings miss spooked\ninvestors. Shares traded after hours fell about 5.5% to $52.70.\nSales of Windows have tracked the declining PC industry, though the company’s More\nPersonal Computing segment, which includes the flagship operating system, has been\na bit more resilient. Revenue in the segment edged up 0.9% to $9.46 billion, while\noperating profit jumped 57%.\nUptake of Windows 10, the latest version, has been more rapid than any previous\nversion. Still, Windows revenue from computer makers declined 2% in constant\ncurrency. Microsoft last month said 270 million active devices run the new version,\nthough many of those are free upgrades that bring no revenue.\nMicrosoft’s own Surface line of computers remains a bright spot. Surface revenue\nincreased 61% in constant currency and topped $1 billion for the second straight\nquarter for the first time outside of a holiday period, the company said.\nIn the segment that includes Microsoft’s popular Office productivity software\nhttps://www.wsj.com/articles/microsofts-profit-slides-25-1461270478 Page 2 of 5\nMicrosoft’s Cloud Business Slows - WSJ 2026-08-28, 3:15 PM\nfranchise, sales rose 1% to $6.52 billion—but profit declined 6.6%.\nOne of the big growth engines for Microsoft has been its Office 365, the cloud version\nof its productivity software suite. (Revenue from Office 365 is lumped with the on-\npremises version of Office, not with other cloud businesses.)\nConsumer users of Office 365 grew 79% year-over-year, while the number of\ncommercial users climbed 57%, the company said.\nOffice 365’s growth is an important metric because Microsoft is working hard to upsell\nthose customers to other cloud services. Ms. Hood said Office 365 “helps pull along\nnew usage of Azure.”\nOne of those customers, Fruit of the Loom Inc., moved its email to Office 365 two years\nago and started tinkering with Azure, using it for external websites and software\ndevelopment and testing.\nThe Bowling Green, Ky., apparel company was impressed with Azure’s security and\nmanagement features, enough that it began moving the disaster-and-recovery service\nfor its business-management software to Azure in January, said Chris Krebs, Fruit of\nthe Loom’s chief information officer.\n“Microsoft understands enterprise customer needs,” he said.\nFor its fourth quarter, Microsoft projected its Productivity and Business Processes\nrevenue at $6.5 billion to $6.7 billion “with continued annuity shift to the cloud,\noffsetting the impact of a weaker PC market,” Ms. Hood said during a conference call\nwith analysts.\nRevenue for the Intelligent Cloud segment should come in between $6.5 billion and\n$6.7 billion. And Microsoft expects revenue in the More Personal Computing segment\nof $8.7 billion to $9 billion. All of those estimates are below analyst expectations.\nhttps://www.wsj.com/articles/microsofts-profit-slides-25-1461270478 Page 3 of 5\nMicrosoft’s Cloud Business Slows - WSJ 2026-08-28, 3:15 PM\nOverall, Microsoft said its third-quarter net income fell to $3.76 billion, or 47 cents a\nshare, down from $4.99 billion, or 61 cents a share, a year earlier. Revenue slid 5.5% to\n$20.5 billion, and on an adjusted basis rose 1.6% to $22.08 billion.\nWrite to Jay Greene at Jay.Greene@wsj.com\nCorrections & Amplifications\nOne of the big growth engines for Microsoft has been its Office 365. An earlier version\nof this article incorrectly called the product Office 360 in one reference.\nAppeared in the April 22, 2016, print edition as 'Microsoft’s Cloud Business Slows'.\nJay Greene formerly wrote about Microsoft, Oracle, Amazon Web Services and the growing business of cloud\ncomputing for The Wall Street Journal. Before joining the Journal, Jay was Seattle bureau chief for BusinessWeek,\nreported on technology for the Seattle Times and was an investigative reporter at CNET. He authored the book…\n\"Design Is How It Works,\" and has been a McGraw Fellow at the City University of New York and an Immigration\nFollow\nJournalism Fellow with the French-American Foundation.\nhttps://www.wsj.com/articles/microsofts-profit-slides-25-1461270478 Page 4 of 5\nMicrosoft’s Cloud Business Slows - WSJ 2026-08-28, 3:15 PM\nhttps://www.wsj.com/articles/microsofts-profit-slides-25-1461270478 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "MSFT_2016q3": {
+    "ticker": "MSFT",
+    "group": "Group 1",
+    "company_name": "Microsoft",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-07-19",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After the April selloff, Microsoft had a lower expectations bar. The key test was whether Azure and Office 365 could convert their rapid growth into stronger company-wide earnings.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Microsoft: Microsoft Cloud Strength Highlights Third Quarter Results",
+                  "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2016-Q3/press-release-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q4 non-GAAP revenue reached **$22.6 billion** and non-GAAP EPS **$0.69**, versus expectations near $22.1 billion and $0.58. Intelligent Cloud revenue rose to **$6.7 billion**, while Azure revenue increased **102%** year over year and commercial cloud ARR reached **$12.1 billion**.",
+              "sources": []
+            },
+            {
+              "text": "Office 365 commercial revenue also grew strongly, and free cash flow improved. More Personal Computing remained pressured by the collapse in phone revenue, but the quarter showed that cloud and subscription businesses were becoming large enough to dominate the earnings narrative.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Microsoft: Microsoft Cloud Strength Highlights Fourth Quarter Results",
+                  "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2016-Q4/press-release-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock rose because revenue and EPS beat expectations by a wide margin.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Azure’s 102% growth confirmed Microsoft’s cloud transition was accelerating.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Stronger free cash flow showed the shift toward subscriptions was improving earnings quality.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TechCrunch: Microsoft’s Q4 earnings beat Street with $22.6B in revenue, $0.69 EPS",
+                  "url": "https://techcrunch.com/2016/07/19/microsofts-q4-earnings-beat-with-22-6b-in-revenue-0-69-eps/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Microsoft/MSFT identity, the correct earnings event, publication date, timing window and source origin. Microsoft Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Microsoft: Microsoft Cloud Strength Highlights Third Quarter Results",
+          "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2016-Q3/press-release-webcast"
+        },
+        {
+          "label": "Microsoft: Microsoft Cloud Strength Highlights Fourth Quarter Results",
+          "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2016-Q4/press-release-webcast"
+        },
+        {
+          "label": "TechCrunch: Microsoft’s Q4 earnings beat Street with $22.6B in revenue, $0.69 EPS",
+          "url": "https://techcrunch.com/2016/07/19/microsofts-q4-earnings-beat-with-22-6b-in-revenue-0-69-eps/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Microsoft's fiscal fourth-quarter 2016 report contained a notable historical marker buried within otherwise positive results: full-year fiscal 2016 revenue fell 8.8% to $85.32 billion, the company's first annual revenue decline since 2009, driven by Microsoft's continued retreat from its mobile-phone bet (a further $1.1 billion charge tied to unwinding the Nokia handset acquisition, which CFO Amy Hood said \"reflects all of our judgments today\") and the ongoing decline in Windows/PC sales. The article frames this decline as not troubling investors, quoting Stifel's Brad Reback saying \"it's really important to focus on what's growing and what's falling... Everything that matters grew and grew at a good clip.\" Azure revenue alone grew 102% (108% in constant currency) year over year, part of an Intelligent Cloud segment that grew 6.6% (9.6% constant currency) to $6.71 billion, while the Office/Dynamics segment grew 4.6% (7.6% constant currency) to $6.97 billion, including 54% growth in commercial Office 365 revenue. The article also flagged a specific margin cost tied to the cloud transition: gross margins fell 14% to $12.64 billion, reflecting that cloud subscription revenue carries thinner margins than the legacy software-license model, with Hood indicating margins would likely decline further over the next year even as she said Microsoft expected to begin \"reaping the rewards\" of scale from its prior infrastructure investment. Net income of $3.12 billion (39 cents a share) compared favorably against a prior-year loss of $3.2 billion, though that comparison was skewed by $8.4 billion in mobile-related charges taken a year earlier; adjusted EPS of 69 cents and revenue of $22.64 billion (adjusted) beat the Thomson Reuters consensus of 58 cents and $22.1 billion.",
+      "why_moved": "The article reports Microsoft shares rose 4% in after-hours trading, and attributes that reaction to the beat on both adjusted EPS and revenue detailed above (69 cents versus 58 cents expected, $22.64 billion versus $22.1 billion expected), with the strength concentrated specifically in Azure's 102% growth, which Stifel's Reback framed as evidence that \"they are effectively getting their customers to transition to the cloud.\" Despite the historically notable first annual revenue decline since 2009 discussed above, the article makes clear investors were not troubled by that headline figure because the underlying growth drivers — cloud and Office 365 — were performing strongly, consistent with Reback's framing that what mattered was \"what's growing,\" not the aggregate top line. The gross-margin compression flagged in the article (down 14% to $12.64 billion) does not appear to have weighed on the reaction, suggesting investors were willing to accept lower near-term margins as the cost of the cloud transition given the growth being delivered.",
+      "sources": [
+        {
+          "filename": "Microsoft Gets Lift From Cloud Gains - WSJ.pdf",
+          "title": "Microsoft Gets Lift From Cloud Gains Software giant’s Azure service offsets decline in Windows segment and struggling mobile-phone business",
+          "published_date": "2016-07-19",
+          "text": "Microsoft Gets Lift From Cloud Gains - WSJ 2026-08-28, 3:17 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/microsoft-annual-revenue-falls-but-quarterly-profit-beats-expectations-1468960330\nTECH\nMicrosoft Gets Lift From Cloud Gains\nSoftware giant’s Azure service offsets decline in Windows segment and struggling\nmobile-phone business\nBy Jay Greene\nUpdated July 19, 2016 at 7:13 pm ET\nThe strength of Microsoft’s cloud business surprised investors. Shares rose 4% in after-hours trading. REUTERS\nMicrosoft Corp. remains a distant second to Amazon.com Inc. in cloud computing, but\nthe software giant’s latest quarterly results suggest that it is effectively managing the\ntransition from selling software licenses to selling on-demand computing services.\nIn its fiscal fourth quarter, sales of the Redmond, Wash., company’s Azure cloud\ncomputing service more than doubled, offsetting a decline in the segment that\nincludes its flagship Windows operating system and its struggling mobile-phone\nbusiness.\nhttps://www.wsj.com/articles/microsoft-annual-revenue-falls-but-quarterly-profit-beats-expectations-1468960330 Page 1 of 5\nMicrosoft Gets Lift From Cloud Gains - WSJ 2026-08-28, 3:17 PM\nThe strength of Microsoft’s cloud business surprised investors. The company beat\nexpectations for both sales and profit, which spurred a 4% rise in Microsoft’s shares in\nafter-hours trading.\nMicrosoft has proved especially adept at selling its cloud services to existing\ncustomers, taking advantage of longstanding relationships with companies that have\nrun its software in their own data centers.\n“They are effectively getting their customers to transition to the cloud,” Stifel\nNicolaus & Co. analyst Brad Reback said.\nMicrosoft’s transition to the cloud comes with an important cost: eroded margins.\nWhen the company relied on software licenses sold to companies every few years, it\nregistered fat profits. But margins on cloud services, which are sold by subscription,\nare slimmer.\nFor the quarter, gross margins slid 14% to $12.64 billion.\nMicrosoft Chief Financial Officer Amy Hood expected margins to decline slightly in the\nnext year as well, she said in an interview.\nChief Executive Satya Nadella in his two years on the job has orchestrated the shift. In\nthe process, he has pulled Microsoft back from its mobile-phone investments\nchampioned by his predecessor Steve Ballmer.\nIn May, Microsoft further dismantled the acquisition of Nokia Corp.’s handset\nbusiness, contributing to a $1.1 billion charge in the quarter. Ms. Hood said the charge\n“reflects all of our judgments today” about the business.\nMicrosoft’s decision to roll back the phone business—along with a continuing decline\nin sales of personal computers that run its Windows operating system—led the\ncompany to post its first decline in annual revenue since 2009. Sales fell 8.8% to $85.32\nbillion in fiscal 2016.\nhttps://www.wsj.com/articles/microsoft-annual-revenue-falls-but-quarterly-profit-beats-expectations-1468960330 Page 2 of 5\nMicrosoft Gets Lift From Cloud Gains - WSJ 2026-08-28, 3:17 PM\nFor the year, revenue from the reporting segment that includes Windows and mobile\nphones fell 6.3% to $40.46 billion. For the fourth quarter, sales in that segment fell to\n$8.9 billion, a decline of 3.7% year over year (2% in constant currency), even as\nrevenue from sales of Windows to computer makers rose 11%.\nThe decline in annual revenue didn’t trouble investors.\n“It’s really important to focus on what’s growing and what’s falling,” Mr. Reback said.\n“Everything that matters grew and grew at a good clip.”\nThe biggest gains came in the segment that includes the Azure cloud computing\nservices. There, revenue amounted to $6.71 billion, a rise of 6.6%, or 9.6% in constant\ncurrency. Notably, revenue for Azure alone grew 102% (108% in constant currency)\nyear over year.\nThe other big gain came in the segment that includes Microsoft’s Office productivity\ntools as well as its Dynamics business programs. That segment posted sales of $6.97\nbillion, a year-over-year gain of 4.6%, or 7.6% in constant currency. Revenue from\ncommercial sales of the cloud-based Office 365 jumped 54%.\nMs. Hood said that with some investments in cloud infrastructure in the rear-view\nmirror, she expected Microsoft to begin reaping economies of scale.\n“We have invested heavily to build [market] share, expand geographically and ensure\nworld-class support and reliability for our commercial customers,” she said. “Going\nforward, we expect those investments to provide benefits of scale. We also anticipate\nour cloud capital expenditure growth curve will slow.”\nMicrosoft posted $3.12 billion in fourth-quarter net income, or 39 cents a share,\ncompared with a loss of $3.2 billion, or 40 cents a share, a year ago. The year-earlier\nresults included $8.4 billion in charges related to the company’s mobile-phone\noperation.\nhttps://www.wsj.com/articles/microsoft-annual-revenue-falls-but-quarterly-profit-beats-expectations-1468960330 Page 3 of 5\nMicrosoft Gets Lift From Cloud Gains - WSJ 2026-08-28, 3:17 PM\nExcluding the impact of revenue deferrals and restructuring charges, adjusted\nearnings rose to 69 cents from 62 cents a year earlier. Revenue slid 7.1% to $20.61\nbillion and was $22.64 billion on an adjusted basis.\nAnalysts surveyed by Thomson Reuters had expected Microsoft to report adjusted\nearnings per share of 58 cents and sales of $22.1 billion.\nWrite to Jay Greene at Jay.Greene@wsj.com\nAppeared in the July 20, 2016, print edition as 'Microsoft Gets Lift From Cloud Gains'.\nJay Greene formerly wrote about Microsoft, Oracle, Amazon Web Services and the growing business of cloud\ncomputing for The Wall Street Journal. Before joining the Journal, Jay was Seattle bureau chief for BusinessWeek,\nreported on technology for the Seattle Times and was an investigative reporter at CNET. He authored the book…\n\"Design Is How It Works,\" and has been a McGraw Fellow at the City University of New York and an Immigration\nFollow\nJournalism Fellow with the French-American Foundation.\nhttps://www.wsj.com/articles/microsoft-annual-revenue-falls-but-quarterly-profit-beats-expectations-1468960330 Page 4 of 5"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "MSFT_2016q4": {
+    "ticker": "MSFT",
+    "group": "Group 1",
+    "company_name": "Microsoft",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-10-20",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Microsoft entered fiscal 2017 with the market increasingly willing to value it as a cloud and subscription company rather than a PC software vendor.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Microsoft: Microsoft Cloud Strength Highlights Fourth Quarter Results",
+                  "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2016-Q4/press-release-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q1 non-GAAP revenue was **$22.3 billion** and non-GAAP EPS **$0.76**, both above consensus. Azure revenue surged **116%**, Office 365 commercial revenue grew strongly, and commercial cloud ARR exceeded **$13 billion**.",
+              "sources": []
+            },
+            {
+              "text": "Meanwhile, phone revenue declined **72%**, but Windows OEM revenue was roughly stable and slightly better than the PC market. The release reinforced a major change in the earnings mix: legacy mobile hardware was becoming irrelevant while Azure, Office 365 and recurring enterprise revenue were driving growth.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Microsoft: Microsoft Cloud Strength Highlights First Quarter Results",
+                  "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2017-Q1/press-release-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares rose to record levels because the earnings beat was powered by exceptional cloud growth.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Azure growth above 100% made cloud the clearest incremental earnings engine.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Stable Windows OEM performance reduced concern that PC weakness would offset cloud gains.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TechCrunch: Microsoft’s cloud business bets pay off in Q1 as stock hits an all time high",
+                  "url": "https://techcrunch.com/2016/10/20/microsoft-beats-on-strong-growth-in-cloud-business/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Microsoft/MSFT identity, the correct earnings event, publication date, timing window and source origin. Microsoft Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Microsoft: Microsoft Cloud Strength Highlights Fourth Quarter Results",
+          "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2016-Q4/press-release-webcast"
+        },
+        {
+          "label": "Microsoft: Microsoft Cloud Strength Highlights First Quarter Results",
+          "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2017-Q1/press-release-webcast"
+        },
+        {
+          "label": "TechCrunch: Microsoft’s cloud business bets pay off in Q1 as stock hits an all time high",
+          "url": "https://techcrunch.com/2016/10/20/microsoft-beats-on-strong-growth-in-cloud-business/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Microsoft's fiscal first-quarter 2017 report marked a turning point after five consecutive quarters of revenue declines, with the article noting a specific historical benchmark: shares' after-hours gain would, if it held, push Microsoft's stock past its dot-com-era all-time high of $59.56 set in 1999. Azure revenue more than doubled (up 116%, 121% in constant currency), and CFO Amy Hood said Azure compute usage had also more than doubled. The article contextualized Microsoft's cloud position competitively, noting the company held 11% of the infrastructure-as-a-service market against Amazon's 31% share (Synergy Research), while highlighting a specific profitability data point: Microsoft's combined \"commercial cloud\" businesses (Azure, Office 365, Dynamics) posted 49% gross margins, which Stifel's Brad Reback said demonstrated the company could generate real profit in the cloud despite the erosion of its legacy on-premises licensing revenue. CEO Satya Nadella framed the results around enterprise digital transformation broadly, telling analysts \"it's not just the Silicon Valley startups anymore, it is the core enterprise that is also becoming a digital company... we are well positioned to serve them.\" The Productivity and Business Processes segment (including Office) grew 6% (8% constant currency) to $6.7 billion, with commercial Office 365 revenue up 51% (54% constant currency) and Dynamics up 11% (13% constant currency). Even the legacy Windows business showed relative strength: PC-maker Windows revenue was flat, but that outperformed the broader PC market, which fell 3.9% in the same quarter (IDC). Net income of $4.69 billion (60 cents a share) and adjusted EPS of 76 cents on $22.33 billion adjusted revenue beat the Thomson Reuters consensus of 68 cents and $21.7 billion.",
+      "why_moved": "The article reports Microsoft shares rose 6% in after-hours trading to $60.77, and ties that reaction directly to the beat on both sales and profit detailed above (76 cents adjusted EPS versus 68 cents expected, $22.33 billion versus $21.7 billion expected), specifically driven by the acceleration in Azure (116% growth) that exceeded what investors had been modeling after prior quarters of steady but less dramatic gains. The historical framing the article emphasizes — that this move would push shares to a new all-time high, surpassing the 1999 dot-com peak — underscores just how significant a re-rating this represented for a stock that had spent seventeen years below that mark, reinforcing that the market read this quarter as validation of Nadella's broader cloud-transition strategy rather than just a single good print. The relative resilience in Windows revenue (flat, but beating a declining PC market) likely removed a secondary concern that might otherwise have tempered the reaction.",
+      "sources": [
+        {
+          "filename": "Microsoft’s Cloud Buoys Earnings - WSJ.pdf",
+          "title": "Microsoft’s Cloud Buoys Earnings Shares hit all-time high in after-hours trading, as results top Wall Street expectations",
+          "published_date": "2016-10-20",
+          "text": "Microsoft’s Cloud Buoys Earnings - WSJ 2026-08-28, 3:20 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/microsofts-cloud-buoys-earnings-1476995257\nTECH\nMicrosoft’s Cloud Buoys Earnings\nShares hit all-time high in after-hours trading, as results top Wall Street expectations\nBy Jay Greene\nUpdated Oct. 20, 2016 at 7:08 pm ET\nMicrosoft posted solid gains in its Office 365 and Azure cloud-computing service in the fiscal first quarter, even as\nWindows revenue growth was flat. REUTERS\nMicrosoft Corp.’s MSFT 1.81% cloud-computing businesses kicked into high gear as\nsales of the software giant’s Azure service more than doubled.\nOverall revenue, which has slid for each of the past five quarters, also grew in the\nperiod. The Redmond, Wash., company beat analyst expectations for both sales and\nprofit in the first quarter, which sparked a 6% rise in its share price to $60.77 in after-\nhours trading.\nIf Microsoft shares trade that high on Friday, the price will surpass the company’s all-\nhttps://www.wsj.com/articles/microsofts-cloud-buoys-earnings-1476995257 Page 1 of 4\nMicrosoft’s Cloud Buoys Earnings - WSJ 2026-08-28, 3:20 PM\ntime high of $59.56 during the dot-com boom in 1999.\nMicrosoft ranks second in selling computing power and data storage capacity on\ndemand over the internet. Amazon.com Inc., which pioneered the business, has a huge\nlead with 31% of the market, according to a recent survey from Synergy Research\nGroup. But with an 11% share of the market for what is known as infrastructure as a\nservice, Microsoft Azure is Amazon Web Services’ stiffest competition.\nMicrosoft is capitalizing on massive investments it has made building data centers\naround the globe to handle its cloud-computing traffic. The company spent $2.3 billion\nin capital expenditures in the first quarter.\n“A lot of the investments they made in capital expenditures are paying off this quarter\nand should only accelerate,” said Stifel Nicolaus & Co. analyst Brad Reback.\nMoreover, Microsoft posted 49% gross margins in the businesses it lumps together\nunder the heading commercial cloud—not a reporting segment—which includes\nAzure as well as the cloud-based Office 365 productivity suite and Dynamics software\nfor sales professionals. Mr. Reback said this shows the company can generate sizable\nprofits in the cloud despite declines in the lucrative business of licensing software\nthat customers install on computers on their own premises.\nThe company is taking advantage of the wave of digital technology washing over\nmainstream businesses, said Microsoft Chief Executive Satya Nadella. “It’s not just\nthe Silicon Valley startups anymore, it is the core enterprise that is also becoming a\ndigital company,” Mr. Nadella said during a Thursday conference call with analysts.\n“And we are well positioned to serve them and that’s good to see.”\nRevenue from Azure grew 116%, or 121% in constant currency, the company said. Chief\nFinancial Officer Amy Hood noted that use of Azure’s compute service more than\ndoubled as well.\nMicrosoft posted big gains in the reporting segment it calls productivity and business\nhttps://www.wsj.com/articles/microsofts-cloud-buoys-earnings-1476995257 Page 2 of 4\nMicrosoft’s Cloud Buoys Earnings - WSJ 2026-08-28, 3:20 PM\nprocesses, which includes both online and on-premises versions of Office and\nDynamics. There, sales climbed 6% to $6.7 billion. In constant currency, revenue grew\n8%. Revenue from commercial sales of the cloud-based Office 365 jumped 51%, or 54%\nin constant currency.\nAnd Dynamics revenue grew 11%, or 13% in constant currency, driven by online\nrevenue growth, the company said.\nEven Microsoft’s Windows business, which has shrunk over the years, showed\nsurprising vigor. Windows revenue from computer makers was flat in the quarter, but\nthat beat the world-wide PC market as a whole, which slid 3.9% in the quarter that\nended in September, according to International Data Corp.\nFor the quarter, revenue from the segment known as more personal computing, which\nincludes Windows, as well as Microsoft’s mobile phone and gaming businesses, fell 2%\nto $9.3 billion, a 1% decline in constant currency.\nMicrosoft posted $4.69 billion in first-quarter net income, or 60 cents a share,\ncompared with a $4.9 billion profit, or 61 cents a share, a year ago.\nExcluding the impact of revenue deferrals and restructuring charges, adjusted\nearnings were 76 cents. Revenue rose 0.4% to $20.45 billion and was $22.33 billion on\nan adjusted basis.\nAnalysts surveyed by Thomson Reuters expected Microsoft to report adjusted\nearnings per share of 68 cents on sales of $21.7 billion.\nWrite to Jay Greene at Jay.Greene@wsj.com\nAppeared in the October 21, 2016, print edition as 'Microsoft Soars on Cloud Gains'.\nhttps://www.wsj.com/articles/microsofts-cloud-buoys-earnings-1476995257 Page 3 of 4\nMicrosoft’s Cloud Buoys Earnings - WSJ 2026-08-28, 3:20 PM\nJay Greene formerly wrote about Microsoft, Oracle, Amazon Web Services and the growing business of cloud\ncomputing for The Wall Street Journal. Before joining the Journal, Jay was Seattle bureau chief for BusinessWeek,\nreported on technology for the Seattle Times and was an investigative reporter at CNET. He authored the book…\n\"Design Is How It Works,\" and has been a McGraw Fellow at the City University of New York and an Immigration\nFollow\nJournalism Fellow with the French-American Foundation.\nhttps://www.wsj.com/articles/microsofts-cloud-buoys-earnings-1476995257 Page 4 of 4"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "The article, published the day after Microsoft's fiscal first-quarter earnings release, reports that Microsoft shares jumped to $60.30, up 5.3%, surpassing the company's previous all-time high of $59.97 set in December 1999. It ties this surge directly to continued momentum in Microsoft's cloud business following the quarter's results, and frames the move as validation of CEO Satya Nadella's multi-year strategic pivot away from predecessor Steve Ballmer's approach -- including ending Ballmer's unsuccessful Nokia handset acquisition and refocusing the company on Azure cloud services. The piece cites Azure revenue as having doubled year over year in each recent quarter, with the cloud business's annualized revenue exceeding $13 billion and management targeting $20 billion in cloud revenue by fiscal 2018. Nadella is quoted saying that \"once enterprise customers choose one of our cloud services, they continue to adopt more services,\" underscoring the expansion pattern within existing cloud customers. The article situates Microsoft as the primary competitor to Amazon in cloud services, even though Amazon remains the market leader, and notes the stock's sustained rally since Ballmer's departure was announced in mid-2013.",
+      "why_moved": "The article attributes the rally explicitly to the prior day's earnings report, describing shares jumping 5.3% to $60.30 -- a new all-time high -- following results that showed continued strength in Microsoft's cloud business. It links the move to the broader narrative of Nadella's strategic turnaround, in which the company's pivot toward Azure and away from the earlier Nokia handset venture is credited with driving investor enthusiasm. The article cites Azure's continued year-over-year revenue doubling and the cloud unit's growing annualized revenue run rate as the substantive business drivers behind the positive market reaction. It also quotes Nadella describing expanding enterprise adoption within existing cloud customers as a factor underpinning confidence in the business.",
+      "sources": [
+        {
+          "title": "Microsoft Shares Hit All-Time High",
+          "url": "https://www.foxbusiness.com/features/microsoft-shares-hit-all-time-high"
+        }
+      ]
+    }
+  },
+  "MSFT_2017q1": {
+    "ticker": "MSFT",
+    "group": "Group 1",
+    "company_name": "Microsoft",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-01-26",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "The LinkedIn acquisition had just closed in December, adding a new growth platform but also near-term integration costs. Investors were watching whether Azure and Office 365 could keep the core earnings story strong enough to absorb LinkedIn.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Microsoft: Microsoft Cloud Strength Highlights First Quarter Results",
+                  "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2017-Q1/press-release-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q2 revenue was about **$25.8 billion** on an adjusted basis and adjusted EPS about **$0.83**, both ahead of consensus. Azure revenue grew **93%**, Office 365 commercial revenue grew **47%**, and commercial cloud ARR reached roughly **$14 billion**.",
+              "sources": []
+            },
+            {
+              "text": "LinkedIn contributed **$228 million** of revenue for the partial quarter and reduced EPS by about $0.01. Windows OEM revenue also grew 5%. The quarter showed broad execution across cloud, Office and Windows while LinkedIn entered the financial statements with manageable dilution.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Microsoft: Microsoft Cloud Strength Highlights Second Quarter Results",
+                  "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2017-Q2/press-release-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares rose because adjusted revenue and EPS beat expectations and Azure nearly doubled again.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Office 365 reinforced the recurring-revenue shift beyond Azure.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** LinkedIn integration costs were modest relative to the strength of the core business.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Microsoft Corporation's Cloud-Computing Business Is Surging",
+                  "url": "https://www.fool.com/investing/2017/01/28/microsoft-corporations-cloud-computing-business-is.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Microsoft/MSFT identity, the correct earnings event, publication date, timing window and source origin. Microsoft Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Microsoft: Microsoft Cloud Strength Highlights First Quarter Results",
+          "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2017-Q1/press-release-webcast"
+        },
+        {
+          "label": "Microsoft: Microsoft Cloud Strength Highlights Second Quarter Results",
+          "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2017-Q2/press-release-webcast"
+        },
+        {
+          "label": "The Motley Fool: Microsoft Corporation's Cloud-Computing Business Is Surging",
+          "url": "https://www.fool.com/investing/2017/01/28/microsoft-corporations-cloud-computing-business-is.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Microsoft's fiscal second-quarter 2017 report included a specific competitive comparison to Amazon Web Services, noting that AWS grew sales 55% to $3.23 billion in its most recently reported quarter versus Azure's own 93% growth, with the caveat that the two companies define cloud revenue differently; Microsoft disclosed that its cloud run-rate (most recent month's sales annualized) exceeded $14 billion. Stifel's Brad Reback offered pointed positioning commentary, calling Microsoft \"a very strong No. 2, and distancing themselves from Google Cloud,\" a comparison made concrete by the fact that Alphabet, reporting the same day, disclosed nonadvertising revenue (including its cloud business) growing 62% to $3.4 billion. CFO Amy Hood candidly acknowledged the growth rate would keep decelerating simply due to the business's increasing size, telling the Journal \"you will see those numbers trend down,\" while still calling the results \"really great numbers.\" This was the first quarter incorporating LinkedIn, which Microsoft's regulatory filing disclosed it ultimately paid $27 billion for, up from the $26.2 billion figure given when the deal was announced; LinkedIn contributed $228 million in revenue but posted a $201 million operating loss in its first weeks under Microsoft ownership, with Reback predicting investors would give the company time to integrate it, and Nadella outlining plans to weave LinkedIn data into the Dynamics CRM product. Elsewhere, the article noted the Productivity and Business Processes segment (Office) grew 10% to $7.4 billion, while More Personal Computing fell 5% to $11.8 billion amid a 1.5% decline in the global PC market (IDC), though Nadella said on the call that the consumer PC market was \"stabilizing.\" Adjusted EPS of 83 cents and revenue of $26.07 billion (adjusted) beat the Thomson Reuters consensus of 79 cents and $25.3 billion.",
+      "why_moved": "The article notes Microsoft shares, already trading at a record high of $64.27 heading into the print, rose a further 0.4% in after-hours trading, a modest additional gain on top of the earnings beat described above (83 cents versus 79 cents adjusted EPS expected, $26.07 billion versus $25.3 billion adjusted revenue expected). This muted incremental reaction is consistent with Hood's own candid framing that Azure's growth rate would continue decelerating as the business scaled — investors appear to have treated another strong-but-slowing quarter as confirmation of an already-understood trend rather than a surprise requiring a large re-rating, especially with shares already near records. The LinkedIn integration, still in its very early days with a modest operating loss, does not appear from the article to have been a swing factor in either direction for the stock reaction, consistent with Reback's expectation that investors would extend patience on that front.",
+      "sources": [
+        {
+          "filename": "Microsoft’s Profit Rises, Buoyed by Cloud Business - WSJ.pdf",
+          "title": "Microsoft’s Profit Rises, Buoyed by Cloud Business Results for the first time included LinkedIn, which contributed $228 million in revenue",
+          "published_date": "2017-01-26",
+          "text": "Microsoft’s Profit Rises, Buoyed by Cloud Business - WSJ 2026-08-28, 3:22 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/microsofts-profit-rises-buoyed-by-online-business-1485465887\nTECH\nMicrosoft’s Profit Rises, Buoyed by Cloud Business\nResults for the first time included LinkedIn, which contributed $228 million in revenue\nBy Jay Greene\nUpdated Jan. 26, 2017 at 6:48 pm ET\nMicrosoft CEO Satya Nadella speaks at the Microsoft annual shareholders meeting last year. JASON REDMOND/\nAGENCE FRANCE-PRESSE/GETTY IMAGES\nMicrosoft Corp. MSFT 1.76% is securing its spot as the second most important cloud-\ncomputing company.\nThe software giant Thursday posted big fiscal second-quarter gains in its web-based,\non-demand computing business, emerging as the stiffest competitor to Amazon.com\nInc.’s AMZN 3.53% market-leading cloud unit.\nRevenue for Microsoft’s Intelligent Cloud segment, which includes its Azure cloud\nbusiness, rose 8% to $6.9 billion. The gain was 10% when adjusting for currency\nhttps://www.wsj.com/articles/microsofts-profit-rises-buoyed-by-online-business-1485465887?mod=author_content_page_4_pos_29 Page 1 of 4\nMicrosoft’s Profit Rises, Buoyed by Cloud Business - WSJ 2026-08-28, 3:22 PM\nfluctuations. The company said Azure revenue increased 93% as the usage of Azure\ncomputing services more than doubled from the year-ago period.\nMicrosoft doesn’t break out revenue for its cloud-computing operations. But it said\nthe unit’s annualized run-rate—sales from the most recent month multiplied by 12—\n“exceeded $14 billion.”\nIn its third quarter that ended in September, Amazon said its Amazon Web Services\nunit increased sales by 55% to $3.23 billion, though each company defines cloud-\ncomputing businesses and revenue that gets counted toward them differently.\n“It’s clear that Microsoft is a very strong No. 2, and distancing themselves from\nGoogle Cloud,” said Stifel Nicolaus & Co. analyst Brad Reback.\nAlphabet Inc.’s Google, which reported results Thursday, said its nonadvertising\nrevenue, which includes its cloud business as well as hardware sales, increased 62% to\n$3.4 billion.\nAzure sales growth had more than doubled in recent quarters. The slightly slower\ngrowth rate reflects the size of the overall business, Microsoft finance chief Amy Hood\nsaid in an interview.\n“You will see those numbers trend down,” she said, though she called the results\n“really great numbers.”\nThis was the first quarter in which Microsoft included results from LinkedIn Corp. In a\nregulatory filing, Microsoft said it paid $27 billion for the professional social network,\nup from the $26.2 billion it reported when announcing the deal last June.\nLinkedIn contributed $228 million in revenue and posted a $201 million operating loss\nsince the deal closed Dec. 8. Mr. Reback anticipates investors will give Microsoft time\nto integrate the company.\nhttps://www.wsj.com/articles/microsofts-profit-rises-buoyed-by-online-business-1485465887?mod=author_content_page_4_pos_29 Page 2 of 4\nMicrosoft’s Profit Rises, Buoyed by Cloud Business - WSJ 2026-08-28, 3:22 PM\nIn a conference call with investors, Microsoft Chief Executive Satya Nadella said one\nof the company’s first moves will be to weave LinkedIn into its Dynamics customer-\nrelationship management products.\nMicrosoft’s results also benefited from gains in its Productivity and Business\nProcesses segment, which includes the Office productivity-software franchise. Sales\nclimbed 10% to $7.4 billion.\nRevenue from the More Personal Computing segment, which includes the Windows\noperating system as well as Microsoft’s mobile-phone and gaming businesses, fell 5%\nto $11.8 billion.\nThe world-wide PC market as a whole slid 1.5% in the quarter that ended in December,\naccording to International Data Corp. Sales have declined for years, but on the\nconference call, Mr. Nadella said the consumer PC market is stabilizing.\nThe holiday quarter is particularly important to Microsoft’s Xbox videogame\nbusiness. In the period, gaming revenue, which includes sales of the Xbox console,\nXbox Live subscriptions and transactions, and game and accessory sales, fell 3%.\nMicrosoft posted $5.2 billion in second-quarter net income, or 66 cents a share,\ncompared with a profit of $5.02 billion, or 62 cents a share, a year ago.\nExcluding the impact of revenue deferrals and other items, adjusted earnings rose to\n83 cents from 78 cents a year earlier. Revenue gained 1.2% to $24.09 billion, and was\n$26.07 billion on an adjusted basis.\nAnalysts surveyed by Thomson Reuters expected Microsoft to report adjusted per-\nshare earnings of 79 cents on $25.3 billion in revenue.\nMicrosoft shares, which hit a record in October nearly 17 years after setting its\nprevious high-water mark, closed at a new high of $64.27, up 59 cents. Shares rose\nanother 0.4% after hours.\nhttps://www.wsj.com/articles/microsofts-profit-rises-buoyed-by-online-business-1485465887?mod=author_content_page_4_pos_29 Page 3 of 4\nMicrosoft’s Profit Rises, Buoyed by Cloud Business - WSJ 2026-08-28, 3:22 PM\nWrite to Jay Greene at Jay.Greene@wsj.com\nAppeared in the January 27, 2017, print edition as 'Microsoft Earnings Improve'.\nJay Greene formerly wrote about Microsoft, Oracle, Amazon Web Services and the growing business of cloud\ncomputing for The Wall Street Journal. Before joining the Journal, Jay was Seattle bureau chief for BusinessWeek,\nreported on technology for the Seattle Times and was an investigative reporter at CNET. He authored the book…\n\"Design Is How It Works,\" and has been a McGraw Fellow at the City University of New York and an Immigration\nFollow\nJournalism Fellow with the French-American Foundation.\nhttps://www.wsj.com/articles/microsofts-profit-rises-buoyed-by-online-business-1485465887?mod=author_content_page_4_pos_29 Page 4 of 4"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "MSFT_2017q2": {
+    "ticker": "MSFT",
+    "group": "Group 1",
+    "company_name": "Microsoft",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-04-27",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Q3 was the first full quarter including LinkedIn. Investors wanted to see whether the $26 billion acquisition could contribute meaningful revenue without overwhelming margins.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Microsoft: Microsoft Cloud Strength Highlights Second Quarter Results",
+                  "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2017-Q2/press-release-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q3 adjusted revenue was about **$23.6 billion** and adjusted EPS **$0.73**, essentially in line to slightly above expectations. Azure revenue increased **93%**, Office 365 commercial revenue grew **45%**, and LinkedIn contributed **$975 million** of revenue.",
+              "sources": []
+            },
+            {
+              "text": "The weak spot was hardware: Surface revenue fell **26%**, while More Personal Computing declined 7% overall, largely because of phones. The market initially reacted cautiously because the headline quarter was good rather than exceptional, and LinkedIn plus cloud growth were partly offset by Surface weakness and continued legacy declines.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Microsoft: Microsoft Cloud Strength Highlights Third Quarter Results",
+                  "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2017-Q3/press-release-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock finished only modestly higher because cloud and LinkedIn strength were offset by weak Surface and legacy hardware.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Azure remained near 100% growth and kept the long-term cloud thesis intact.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** LinkedIn revenue slightly exceeded expectations, but integration costs limited near-term margin contribution.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TechCrunch: Microsoft meets expectations with $23.6B in revenue, Azure revenue up 93%",
+                  "url": "https://techcrunch.com/2017/04/27/microsoft-meets-expectations-with-23-6b-in-revenue-azure-revenue-up-93/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Microsoft/MSFT identity, the correct earnings event, publication date, timing window and source origin. Microsoft Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Microsoft: Microsoft Cloud Strength Highlights Second Quarter Results",
+          "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2017-Q2/press-release-webcast"
+        },
+        {
+          "label": "Microsoft: Microsoft Cloud Strength Highlights Third Quarter Results",
+          "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2017-Q3/press-release-webcast"
+        },
+        {
+          "label": "TechCrunch: Microsoft meets expectations with $23.6B in revenue, Azure revenue up 93%",
+          "url": "https://techcrunch.com/2017/04/27/microsoft-meets-expectations-with-23-6b-in-revenue-azure-revenue-up-93/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Microsoft's fiscal third-quarter 2017 report showed continued cloud strength (Intelligent Cloud up 11% to $6.76 billion, Productivity and Business Processes up 22% to $7.96 billion, including the first full quarter of LinkedIn, which added $975 million in revenue against a $386 million operating loss) set against a notable weak spot: the More Personal Computing segment fell 7% to $8.84 billion, driven by a steep 26% decline in Surface revenue. CFO Amy Hood attributed the Surface weakness specifically to older models still sitting in the channel combined with heightened price competition, telling the Journal \"it had more impact than we anticipated\" — a rare instance of a Microsoft executive acknowledging a result came in worse than the company's own internal expectations. The article provided useful market-sizing context for the cloud opportunity, citing Gartner's projection that the cloud-infrastructure market would grow to $71.55 billion by 2020 from $25.29 billion the prior year, framing Microsoft's Azure and Office 365 growth against that larger competitive backdrop with Amazon and Google. Windows revenue from PC makers actually grew 5%, outperforming a roughly flat (0.6% growth) global PC market (IDC). Net income of $4.8 billion (61 cents a share) and adjusted EPS of 73 cents on $23.56 billion adjusted revenue were measured against a Thomson Reuters consensus of 70 cents and $23.62 billion — meaning the company beat on earnings per share but fell just short on the adjusted revenue line. Stifel's Brad Reback summarized the quarter dismissively as \"a lather, rinse, repeat quarter,\" implying it was a solid but unsurprising continuation of the established cloud-growth narrative rather than anything that changed the story.",
+      "why_moved": "The article explicitly states that shares fell 1.4% to $67.34 in after-hours trading, attributing that decline specifically to the fact that \"adjusted per-share earnings beat expectations and revenue fell just short of expectations\" — the precise revenue shortfall against the $23.62 billion consensus described above, compounded by the notably weak 26% drop in Surface revenue that Hood herself said came in worse than anticipated.",
+      "sources": [
+        {
+          "filename": "Microsoft’s Office 365, Cloud Businesses Power Earnings - WSJ.pdf",
+          "title": "Microsoft’s Office 365, Cloud Businesses Power Earnings The Azure business again posted torrid growth as company reports net income of $4.8 billion in its fiscal third quarter",
+          "published_date": "2017-04-27",
+          "text": "Microsoft’s Office 365, Cloud Businesses Power Earnings - WSJ 2026-08-28, 3:23 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/microsofts-office-365-cloud-businesses-power-earnings-1493324798\nTECH\nMicrosoft’s Office 365, Cloud Businesses Power\nEarnings\nThe Azure business again posted torrid growth as company reports net income of $4.8\nbillion in its fiscal third quarter\nBy Jay Greene\nUpdated April 27, 2017 at 5:48 pm ET\nAn employee assists a customer at a Microsoft Corp. store in Bellevue, Washington, U.S., on Thursday, Jan. 26.\nGrowth in Microsoft’s Azure and Office 365 businesses helped power earnings in its most recent quarter. DAVID\nRYDER/BLOOMBERG NEWS\nMicrosoft Corp.’s MSFT 1.69% cloud business surged in the fiscal third quarter,\ncontinuing the company’s transition from legacy vendor of packaged software to a\nleader in the booming business of web-based, on-demand computing.\nMicrosoft’s Azure business again posted torrid growth as corporate customers adopt\nthe cloud service to handle larger pieces of their computing operations. And Office\nhttps://www.wsj.com/articles/microsofts-office-365-cloud-businesses-power-earnings-1493324798?mod=author_content_page_4_pos_12 Page 1 of 4\nMicrosoft’s Office 365, Cloud Businesses Power Earnings - WSJ 2026-08-28, 3:23 PM\n365, the online version of Microsoft’s widely used productivity software, reported\nhuge gains as well as businesses increasingly subscribe to email, word-processing and\nspreadsheet applications that run in Microsoft’s data centers.\nEven as the Windows operating-system franchise continues to generate big profits,\nthe cloud gains are crucial as Microsoft battles Amazon.com Inc. and Alphabet Inc.’s\nGoogle for a piece of the so-called cloud-infrastructure market that is expected to\nreach $71.55 billion in 2020, up from $25.29 billion last year, according to market-\nresearch firm Gartner Inc.\nRevenue from the Redmond, Wash., company’s Intelligent Cloud segment, which\nincludes Azure, rose 11% to $6.76 billion. In the Productivity and Business Processes\nsegment, which includes the Office franchise, revenue climbed 22% to $7.96 billion.\nThe biggest blemish came in the More Personal Computing segment, where revenue\nfell 7% to $8.84 billion. Microsoft’s Surface line of computers was hit hard, with\nrevenue dropping 26%.\nIn an interview, financial chief Amy Hood attributed the decline to older Surface\ncomputers in the market, as well as increased price competition. “It had more impact\nthan we anticipated,” she said.\nAt the same time, Windows revenue from PC makers grew 5%. That is better than the\nmarket for world-wide PC shipments as a whole, which inched up 0.6% in the quarter\nthat ended in March, according to International Data Corp.\nThis was the first full quarter in which Microsoft included results from LinkedIn\nCorp., the professional social network it acquired in December for $27 billion.\nLinkedIn added $975 million in revenue in the quarter, but Microsoft reported it had a\n$386 million operating loss. Microsoft acquired LinkedIn, in part, so it can weave data\nabout the network’s members into its own offerings. That would allow Microsoft, for\nexample, to provide more insight on potential prospects to sales representatives using\nhttps://www.wsj.com/articles/microsofts-office-365-cloud-businesses-power-earnings-1493324798?mod=author_content_page_4_pos_12 Page 2 of 4\nMicrosoft’s Office 365, Cloud Businesses Power Earnings - WSJ 2026-08-28, 3:23 PM\nits Dynamics software for managing customer relationships.\nMicrosoft doled out $2.1 billion in capital spending in the quarter, most of it to\nsupport “growth in our cloud offerings.” The lion’s share of that support goes toward\nbuilding massive, expensive data centers around the globe to keep pace with Amazon\nand Google. In the year earlier period, Microsoft had $2.3 billion in capital spending.\nOverall, Microsoft posted $4.8 billion in third-quarter net income, or 61 cents a share,\ncompared with a profit of $3.76 billion, or 47 cents a share, a year ago.\nExcluding the impact of revenue deferrals and other items, adjusted earnings rose to\n73 cents a share. A year earlier, Microsoft reported adjusted earnings of 63 cents a\nshare. Revenue gained 7.6% to $22.1 billion and was $23.56 billion on an adjusted basis.\nShares fell 1.4% to $67.34 in after-hours trading as adjusted per-share earnings beat\nexpectations and revenue fell just short of expectations. Analysts surveyed by\nThomson Reuters expected Microsoft to report adjusted per-share earnings of 70\ncents on $23.62 billion in adjusted revenue.\n“This is a lather, rinse, repeat quarter,” Stifel Nicolaus & Co. analyst Brad Reback said.\nWrite to Jay Greene at Jay.Greene@wsj.com\nAppeared in the April 28, 2017, print edition as 'Cloud Lifts Microsoft’s Net'.\nJay Greene formerly wrote about Microsoft, Oracle, Amazon Web Services and the growing business of cloud\ncomputing for The Wall Street Journal. Before joining the Journal, Jay was Seattle bureau chief for BusinessWeek,\nreported on technology for the Seattle Times and was an investigative reporter at CNET. He authored the book…\n\"Design Is How It Works,\" and has been a McGraw Fellow at the City University of New York and an Immigration\nFollow\nJournalism Fellow with the French-American Foundation.\nhttps://www.wsj.com/articles/microsofts-office-365-cloud-businesses-power-earnings-1493324798?mod=author_content_page_4_pos_12 Page 3 of 4\nMicrosoft’s Office 365, Cloud Businesses Power Earnings - WSJ 2026-08-28, 3:23 PM\nhttps://www.wsj.com/articles/microsofts-office-365-cloud-businesses-power-earnings-1493324798?mod=author_content_page_4_pos_12 Page 4 of 4"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "Microsoft reported fiscal third-quarter net income of $4.8 billion, or $0.61 per share, up from $3.76 billion, or $0.47 per share, a year earlier, with adjusted earnings of $0.73 per share beating the $0.63 analysts expected. Revenue grew 7.6% to $22.1 billion, and on an adjusted basis reached $23.56 billion, slightly below the $23.62 billion analysts had forecast. By segment, Intelligent Cloud (which includes Azure) revenue rose 11% to $6.76 billion, Productivity and Business Processes (the Office franchise) rose 22% to $7.96 billion, and More Personal Computing fell 7% to $8.84 billion as Surface revenue dropped 26%. This was the first full quarter including LinkedIn, acquired in December 2016 for $27 billion, which contributed $975 million in revenue but a $386 million operating loss. Windows revenue from PC makers grew 5%, outpacing the broader PC market's 0.6% growth, while capital spending totaled $2.1 billion, mostly for cloud infrastructure. CFO Amy Hood was quoted describing the Surface headwinds as having had \"more impact than we anticipated.\"",
+      "why_moved": "The article reports that Microsoft shares fell 1.4% to $67.34 in after-hours trading following the release. It links this decline to adjusted revenue of $23.56 billion coming in slightly below the $23.62 billion analysts had expected, even though adjusted per-share earnings beat estimates. The steep 26% drop in Surface revenue and CFO Amy Hood's comment that the Surface headwinds had \"more impact than we anticipated\" are presented as contributing factors within the More Personal Computing segment's 7% revenue decline. LinkedIn's $386 million operating loss in its first full quarter under Microsoft is also noted as a drag within the results the article describes.",
+      "sources": [
+        {
+          "title": "Microsoft's Office 365, Cloud Businesses Power Earnings -- 2nd Update",
+          "url": "https://www.foxbusiness.com/features/microsofts-office-365-cloud-businesses-power-earnings-2nd-update.amp"
+        }
+      ]
+    }
+  },
+  "MSFT_2017q3": {
+    "ticker": "MSFT",
+    "group": "Group 1",
+    "company_name": "Microsoft",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-20",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "By fiscal year-end, Microsoft’s commercial cloud run rate was approaching the $20 billion target originally set for fiscal 2018. Expectations were therefore high and the stock was near an all-time high.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Microsoft: Microsoft Cloud Strength Highlights Third Quarter Results",
+                  "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2017-Q3/press-release-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q4 non-GAAP revenue was **$24.7 billion** and non-GAAP EPS **$0.98**, both well above consensus. Azure revenue grew **97%**, Office 365 commercial revenue **43%**, and commercial cloud ARR reached **$18.9 billion**. LinkedIn contributed **$1.1 billion** of revenue.",
+              "sources": []
+            },
+            {
+              "text": "The current-quarter numbers were strong, but LinkedIn still generated a sizable operating loss and Surface revenue remained slightly down. Contemporaneous coverage showed that the initial post-release rally faded. The supplied next-session return is only slightly negative, so this is better characterized as a muted/flat reaction to a strong report than a meaningful earnings selloff.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Microsoft: Microsoft Cloud Strength Highlights Fourth Quarter Results",
+                  "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2017-Q4/press-release-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The full-session reaction was essentially flat despite a strong beat because expectations were already high.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Azure and Office 365 remained excellent, supporting the long-term thesis.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** LinkedIn costs and weak Surface performance limited incremental margin enthusiasm.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "Phys.org / AFP: Microsoft profit rises on shift to cloud computing",
+                  "url": "https://phys.org/news/2017-07-microsoft-profit-shift-cloud.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Microsoft/MSFT identity, the correct earnings event, publication date, timing window and source origin. Microsoft Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Microsoft: Microsoft Cloud Strength Highlights Third Quarter Results",
+          "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2017-Q3/press-release-webcast"
+        },
+        {
+          "label": "Microsoft: Microsoft Cloud Strength Highlights Fourth Quarter Results",
+          "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2017-Q4/press-release-webcast"
+        },
+        {
+          "label": "Phys.org / AFP: Microsoft profit rises on shift to cloud computing",
+          "url": "https://phys.org/news/2017-07-microsoft-profit-shift-cloud.html"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Microsoft's fiscal fourth-quarter 2017 report showed Azure revenue growth of 97% and Office 365 revenue growth of 43%, with CFO Amy Hood specifically calling out Azure as the standout, saying \"Azure was the primary source of our outperformance in the quarter... It's higher than I was expecting\" — a notably candid acknowledgment that even the company's own finance chief was surprised by the strength. Net income of $6.51 billion (83 cents a share) roughly doubled the prior year's $3.12 billion (39 cents), though the article notes the comparison benefited from a prior-year period weighed down by mobile-related charges; adjusted EPS of 98 cents included a 23-cent tax benefit tied to winding down the mobile-phone business, and beat the S&P Global consensus of 71 cents (excluding that benefit) on $24.29 billion in adjusted revenue. The article gave important historical framing on Microsoft's cloud trajectory: two years earlier, Nadella had set a target for the commercial-cloud run-rate to exceed $20 billion by the end of fiscal 2018, and the run-rate stood at $18.9 billion at quarter-end, with Hood saying she felt \"pretty confident\" of hitting the target; Stifel's Brad Reback declared Microsoft \"the undisputed No. 2 in the hyperscale public cloud market,\" explicitly noting it was \"extraordinarily difficult for anyone to catch them,\" pulling away specifically from Google as the next-closest rival. The article also detailed a recovery in the previously weak Surface business, with revenue down just 2% (a sharp improvement from the prior quarter's 26% decline), aided by the late-quarter launch of a new Surface Laptop and updated Surface Pro. More Personal Computing revenue fell 2% to $8.8 billion amid PC shipment declines of 3.3%-4.3% (IDC/Gartner), and LinkedIn added $1.07 billion in revenue against a $361 million operating loss.",
+      "why_moved": "The article explicitly states shares rose 3.1% to $76.50 in after-hours trading, a record close, attributing that gain to results that beat expectations broadly, driven specifically by the Azure outperformance Hood herself flagged as exceeding her own expectations, as detailed above. The framing that Microsoft was \"undisputed No. 2\" and pulling away from Google in cloud infrastructure, combined with the company appearing on track to hit its two-year-old $20 billion run-rate target, reinforced a narrative of sustained execution rather than a single good quarter.",
+      "sources": [
+        {
+          "filename": "Microsoft Profit Jumps, Fueled by Cloud Computing - WSJ.pdf",
+          "title": "Microsoft Profit Jumps, Fueled by Cloud Computing The software giant’s results beat expectations, with strong gains in selling web-based services to corporate customers",
+          "published_date": "2017-07-20",
+          "text": "Microsoft Profit Jumps, Fueled by Cloud Computing - WSJ 2026-08-28, 3:24 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/cloud-computing-helps-power-microsoft-earnings-1500583095\nTECH\nMicrosoft Profit Jumps, Fueled by Cloud Computing\nThe software giant’s results beat expectations, with strong gains in selling web-based\nservices to corporate customers\nBy Jay Greene\nUpdated July 20, 2017 at 7:20 pm ET\nA Microsoft retail store in San Diego. The company released earnings Thursday that beat market expectations. MIKE\nBLAKE/REUTERS\nMicrosoft Corp. continued its rebirth as a force in cloud-computing, posting stronger-\nthan-expected gains in its business of selling web-based services to corporate\ncustomers.\nThe software giant has been working to expand the business selling web-based\nservices to corporate customers, and now has solidified its spot as the No. 2 provider\nof on-demand computing processing and storage behind market pioneer Amazon.com\nInc. In its fiscal fourth quarter, Microsoft notched gains in its Azure cloud-computing\nhttps://www.wsj.com/articles/cloud-computing-helps-power-microsoft-earnings-1500583095 Page 1 of 5\nMicrosoft Profit Jumps, Fueled by Cloud Computing - WSJ 2026-08-28, 3:24 PM\nbusiness and Office 365, the online version of its widely used productivity software.\nThe Redmond, Wash., company said Thursday that its Intelligent Cloud segment,\nwhich includes Azure, rose 11% to $7.4 billion. In the Productivity and Business\nProcesses segment, which includes the Office franchise, revenue climbed 21% to $8.4\nbillion.\nMicrosoft doesn’t disclose revenue figures for its Azure and Office 365 businesses, but\nit said Azure revenue jumped 97% and Office 365 revenue rose 43%.\n“Azure was the primary source of our outperformance in the quarter,” Microsoft\nfinance chief Amy Hood said in an interview. “It’s higher than I was expecting.”\nOverall, Microsoft posted $6.51 billion in fourth-quarter net income, or 83 cents a\nshare, compared with a profit of $3.12 billion, or 39 cents a share, a year ago. Excluding\nthe impact of revenue deferrals and other items, adjusted earnings climbed to 98\ncents from 69 cents a year earlier. Per-share earnings in the most recent quarter\nincluded a 23-cent tax benefit related to Microsoft winding down its mobile-phone\nbusiness.\nRevenue rose 13% to $23.32 billion and was $24.7 billion when adjusted to reflect\nWindows 10 revenue deferrals.\nAnalysts surveyed by S&P Global Market Intelligence expected Microsoft to report\nadjusted per-share earnings of 71 cents, a figure that didn’t include the 23-cent tax\nbenefit, on $24.29 billion in adjusted revenue.\nShares rose 3.1% to $76.50 in after-hours trading after results beat expectations. The\nsoftware giant’s shares closed at a record on Thursday, after setting its previous high\na day earlier.\nMicrosoft’s growth in the so-called hyperscale public cloud market was faster in the\nquarter than investors anticipated. The cloud unit is still smaller than Amazon in the\nhttps://www.wsj.com/articles/cloud-computing-helps-power-microsoft-earnings-1500583095 Page 2 of 5\nMicrosoft Profit Jumps, Fueled by Cloud Computing - WSJ 2026-08-28, 3:24 PM\nmarket but appears to be pulling away from its nearest rival, Alphabet Inc.’s Google,\nsaid Stifel Nicolaus & Co. analyst Brad Reback.\n“They are the undisputed No. 2 in the hyperscale public cloud market, and it will be\nextraordinarily difficult for anyone to catch them,” Mr. Reback said.\nTwo years ago, Microsoft forecast its commercial-cloud run-rate—the last month of\nsales of its Azure and Office 365 products, multiplied by 12—would top $20 billion in\nthe 2018 fiscal year that began July 1. At the end of the fourth quarter, the run-rate\nstood at $18.9 billion.\n“Obviously, we’re feeling pretty confident about hitting” the target, Ms. Hood said.\nThe strides Microsoft has made in the cloud come as its legacy Windows operating-\nsystem business shrinks. Revenue in its More Personal Computing segment, which\nincludes Windows as well as the mobile-phone and gaming businesses, slid 2% to $8.8\nbillion. Last week, International Data Corp. reported world-wide PC shipments fell\n3.3% in the second quarter, while Gartner Inc. estimated the drop at 4.3%.\nRevenue for Microsoft’s Surface line of computers also fell 2%. Three months ago, that\nbusiness was hit hard, registering a 26% revenue decline, which the company\nattributed to older Surface computers in the market, as well as increased price\ncompetition.\nSince then, Microsoft has introduced a new Surface laptop for the education market\nand an update to its Surface Pro tablet-laptop hybrid device, though those products\nmade their debut with just a few weeks left in the quarter.\nLinkedIn Corp., the professional social network Microsoft acquired last December for\n$27 billion, added $1.07 billion in revenue and posted a $361 million operating loss.\nMicrosoft is working to connect its business products to LinkedIn, giving sales\nrepresentatives using its Dynamics software, for example, tools to easily mine the\nprofessional social network to prospect for leads.\nhttps://www.wsj.com/articles/cloud-computing-helps-power-microsoft-earnings-1500583095 Page 3 of 5\nMicrosoft Profit Jumps, Fueled by Cloud Computing - WSJ 2026-08-28, 3:24 PM\nLike its cloud rivals Amazon and Alphabet Inc.’s Google, Microsoft is spending lavishly\nto build giant and expensive data centers around the world to deliver its cloud\nservices. In the quarter, Microsoft spent $3.3 billion on capital expenses, with much of\nthat money going toward its data center expansion. A year ago, Microsoft had $3.1\nbillion in capital expenses.\nIn the current quarter, Microsoft expects revenue in its Intelligent Cloud business of\nbetween $6.9 billion and $7.1 billion, up from $6.38 billion a year earlier. Revenue in its\nProductivity and Business Processes segment should land between $8.1 billion and\n$8.3 billion, including about $1.1 billion from LinkedIn. A year earlier, that segment\nposted $6.66 billion. Microsoft said the More Personal Computing segment’s revenue\nwill be between $8.6 billion and $8.9 billion, compared with $9.29 billion a year ago.\nWrite to Jay Greene at Jay.Greene@wsj.com\nAppeared in the July 21, 2017, print edition as 'Microsoft Forges Ahead In Cloud'.\nJay Greene formerly wrote about Microsoft, Oracle, Amazon Web Services and the growing business of cloud\ncomputing for The Wall Street Journal. Before joining the Journal, Jay was Seattle bureau chief for BusinessWeek,\nreported on technology for the Seattle Times and was an investigative reporter at CNET. He authored the book…\n\"Design Is How It Works,\" and has been a McGraw Fellow at the City University of New York and an Immigration\nFollow\nJournalism Fellow with the French-American Foundation.\nhttps://www.wsj.com/articles/cloud-computing-helps-power-microsoft-earnings-1500583095 Page 4 of 5\nMicrosoft Profit Jumps, Fueled by Cloud Computing - WSJ 2026-08-28, 3:24 PM\nhttps://www.wsj.com/articles/cloud-computing-helps-power-microsoft-earnings-1500583095 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "This is a pre-earnings preview article, published the morning Microsoft was due to report fiscal fourth-quarter results after market close, rather than a post-earnings reaction story. It notes Microsoft shares had closed the prior day at an all-time high of $73.86, and that analysts expected adjusted EPS of 71 cents (up from 69 cents a year earlier) on adjusted revenue of $24.29 billion, versus $22.64 billion previously. The piece highlights Azure as a key area to watch, with Stifel Nicolaus analyst Brad Reback estimating the business was \"continuing to close the gap\" with Amazon and projecting the combined Azure/Office 365 commercial-cloud run rate would reach $18 billion, up 49% year over year. It also flags data-center capital spending, noting Microsoft, Amazon and Google together spent $31.54 billion on capex in 2016, up 22%, with Microsoft itself expected to spend roughly $3 billion quarterly. Additional areas of investor focus cited are the prior quarter's 26% Surface revenue decline and continued industry-wide PC shipment weakness, with Morgan Stanley estimating More Personal Computing segment revenue fell 4.3% to $8.52 billion and Windows sales to PC makers dropped 2%.",
+      "why_moved": "Because this is a pre-earnings preview published before the results were released, the article does not report an actual stock price reaction or explain what drove Microsoft shares to move after the quarter's numbers came out. It instead lays out what analysts were watching for -- adjusted EPS and revenue forecasts, Azure's growth trajectory, cloud capital spending trends, and continued weakness in Surface and Windows PC-related revenue -- as the factors likely to matter for the market's response once results were announced. No post-earnings reaction is described in this text.",
+      "sources": [
+        {
+          "title": "Microsoft earnings: What to watch",
+          "url": "https://www.foxbusiness.com/markets/microsoft-earnings-what-to-watch"
+        }
+      ]
+    }
+  },
+  "MSFT_2017q4": {
+    "ticker": "MSFT",
+    "group": "Group 1",
+    "company_name": "Microsoft",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-10-26",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Microsoft entered fiscal 2018 with cloud momentum already well understood. The major benchmark was its promise to reach a $20 billion commercial-cloud run rate by mid-2018.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Microsoft: Microsoft Cloud Strength Highlights Fourth Quarter Results",
+                  "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2017-Q4/press-release-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q1 revenue was **$24.5 billion**, up 12%, and EPS was **$0.84**, both well above consensus. Commercial cloud ARR reached **$20.4 billion**, surpassing Microsoft’s target ahead of schedule. Azure revenue increased **90%**, Office 365 commercial revenue grew **42%**, and LinkedIn contributed **$1.1 billion**.",
+              "sources": []
+            },
+            {
+              "text": "The breadth of growth also improved: Windows commercial, Dynamics 365 and Office all contributed. This was no longer a story of one fast-growing cloud product offsetting legacy declines; multiple subscription and enterprise businesses were compounding together.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Microsoft: Microsoft Cloud Continues to Grow, Powers First Quarter Results",
+                  "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2018-q1/press-release-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares surged because Microsoft beat revenue/EPS expectations and exceeded its $20 billion cloud target early.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Azure’s 90% growth confirmed sustained enterprise demand at much larger scale.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Office 365, Dynamics and LinkedIn made the growth mix increasingly diversified.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TechCrunch: Microsoft easily beats the Street as its cloud run rate passes $20B a year early",
+                  "url": "https://techcrunch.com/2017/10/26/microsoft-easily-beats-the-street-as-its-cloud-run-rate-passes-20b-a-year-early/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Microsoft/MSFT identity, the correct earnings event, publication date, timing window and source origin. Microsoft Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Microsoft: Microsoft Cloud Strength Highlights Fourth Quarter Results",
+          "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2017-Q4/press-release-webcast"
+        },
+        {
+          "label": "Microsoft: Microsoft Cloud Continues to Grow, Powers First Quarter Results",
+          "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2018-q1/press-release-webcast"
+        },
+        {
+          "label": "TechCrunch: Microsoft easily beats the Street as its cloud run rate passes $20B a year early",
+          "url": "https://techcrunch.com/2017/10/26/microsoft-easily-beats-the-street-as-its-cloud-run-rate-passes-20b-a-year-early/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Microsoft's fiscal first-quarter 2018 report showed the two core cloud businesses accelerating sharply: Azure revenue rose 90% and Office 365 revenue rose 42%, pushing Microsoft's commercial-cloud run-rate to $20.4 billion. The article supplied important historical framing for that figure: two years earlier, when the run-rate stood at just $6.3 billion, Nadella had set a target of reaching $20 billion by the end of fiscal 2018 — a target the company had now already exceeded ahead of schedule, prompting Stifel's Brad Reback to say simply, \"they crushed it again... these were really strong growth rates.\" The Intelligent Cloud segment grew 14% to $6.92 billion and Productivity and Business Processes (including Office) grew 28% to $8.24 billion, with Dynamics revenue, which competes directly with Salesforce, up 13%. Hood tied the strength to Microsoft's \"hybrid cloud\" positioning, telling the Journal \"we were built for hybrid from the beginning... we do believe that it resonates with customers\" — a strategic explanation for why Microsoft's legacy relationships with enterprise customers were translating into cloud share gains. LinkedIn, nearly a year into Microsoft ownership, added $1.14 billion in revenue against a $294 million operating loss, with Nadella telling analysts the unit was \"ahead of plan\" and previewing more product integration in fiscal 2018. Even the legacy Windows-containing More Personal Computing segment held roughly flat around $9.4 billion despite a 0.5% decline in global PC shipments (IDC), and Microsoft's refreshed Surface lineup, including a new laptop aimed at competing with Apple's MacBook Air, contributed to a 12% rise in Surface revenue. Net income of $6.58 billion (84 cents a share) and revenue of $24.54 billion (up 12%) beat the S&P Global consensus of 72 cents and $23.56 billion.",
+      "why_moved": "The article reports shares rose 4.2% to $82.05 in after-hours trading, a level that would represent an all-time high if it held into the next session, and ties that reaction directly to the broad beat on both earnings and revenue detailed above (84 cents versus 72 cents expected, $24.54 billion versus $23.56 billion expected), anchored by the cloud run-rate hitting $20.4 billion two years ahead of the original internal timeline implied by Nadella's target. Reback's exclamation that Microsoft \"crushed it again\" captures the article's framing that this was not merely an incremental beat but a case of the company outrunning its own previously stated ambitions, which likely amplified the positive reaction beyond what the raw EPS and revenue beat alone might have produced. The relative resilience in the Windows-linked More Personal Computing segment, holding flat against a declining PC market, removed what might otherwise have been a offsetting concern.",
+      "sources": [
+        {
+          "filename": "Microsoft’s Services Revenue Lifts Quarterly Results - WSJ.pdf",
+          "title": "Microsoft’s Services Revenue Lifts Quarterly Results Company’s cloud-computing operations Azure and Office 365 saw revenue soar in fiscal first quarter",
+          "published_date": "2017-10-26",
+          "text": "Microsoft’s Services Revenue Lifts Quarterly Results - WSJ 2026-08-28, 3:25 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/microsofts-services-revenue-lifts-quarterly-results-1509051454\nTECH\nMicrosoft’s Services Revenue Lifts Quarterly Results\nCompany’s cloud-computing operations Azure and Office 365 saw revenue soar in fiscal\nfirst quarter\nBy Jay Greene\nUpdated Oct. 26, 2017 at 6:59 pm ET\nThe Microsoft flagship store on in New York. Microsoft reported quarterly gains Thursday in its cloud-computing\noperations that continued to o\"set the company’s Windows PC operating-system franchise, which has slowed in\nrecent years. RICHARD B. LEVINE/ZUMA PRESS\nMicrosoft Corp. MSFT 1.65% has ridden the cloud-computing wave for several\nquarters, and once again its revenue surged on the strength of its emerging business\nof selling web-based, on-demand computing services.\nIn the fiscal first quarter, the two biggest pieces of Microsoft’s cloud-computing\noperations—its Azure infrastructure services and Office 365 online-productivity\nbusiness—saw revenue soar 90% and 42%, respectively.\nhttps://www.wsj.com/articles/microsofts-services-revenue-lifts-quarterly-results-1509051454 Page 1 of 5\nMicrosoft’s Services Revenue Lifts Quarterly Results - WSJ 2026-08-28, 3:25 PM\nWhile the software giant doesn’t disclose revenue figures for those businesses, it said\nits commercial-cloud run rate—the last month of sales of its Azure and Office 365\nproducts, multiplied by 12—hit $20.4 billion.\nTwo years ago, when the company’s commercial cloud run-rate was $6.3 billion,\nMicrosoft Chief Executive Satya Nadella set a $20 billion goal for the end of the 2018\nfiscal year.\n“They crushed it again,” said Stifel Nicolaus & Co. analyst Brad Reback. “These were\nreally strong growth rates.”\nThose gains continued to offset the company’s Windows PC operating-system\nfranchise, which has slowed in recent years. Revenue in Microsoft’s More Personal\nComputing segment, which includes Windows as well as the mobile-phone and\ngaming businesses, stayed flat at about $9.4 billion. Microsoft doesn’t break out\nrevenue for its Windows business. Earlier in October, International Data Corp.\nreported world-wide PC shipments fell 0.5% in the third quarter.\nOverall, Microsoft posted $6.58 billion in net income, or 84 cents a share, compared\nwith a profit of $5.67 billion, or 72 cents a share, a year ago.\nRevenue gained 12% to $24.54 billion.\nAnalysts surveyed by S&P Global Market Intelligence expected Microsoft to report\nper-share earnings of 72 cents on $23.56 billion in revenue.\nShares rose 4.2% to $82.05 in after-hours trading Thursday after results beat\nexpectations. If Microsoft shares stay at these levels when markets open Friday, it\nwould be an all-time high. The stock has gained 27% so far this year.\nThe engines of Microsoft’s growth have been its Intelligent Cloud segment, which\nincludes Azure, and its Productivity and Business Processes segment, which includes\nthe Office franchise. Revenue in Intelligent Cloud rose 14% to $6.92 billion, while\nhttps://www.wsj.com/articles/microsofts-services-revenue-lifts-quarterly-results-1509051454 Page 2 of 5\nMicrosoft’s Services Revenue Lifts Quarterly Results - WSJ 2026-08-28, 3:25 PM\nrevenue in Productivity and Business Processes climbed 28% to $8.24 billion.\nMicrosoft’s cloud growth has been fueled in large part by the so-called hybrid cloud, in\nwhich customers mix cloud computing services with software running on servers in\ntheir own data centers. It is a particular strength of Microsoft’s given its history of\nselling software to corporate customers. Microsoft finance chief Amy Hood cited the\nhybrid offerings as a driver of the company’s cloud growth.\n“We were built for hybrid from the beginning,” Ms. Hood said in an interview. “We do\nbelieve that it resonates with customers.\nThe Productivity and Business Processes unit also includes Microsoft’s Dynamics\nbusiness, which sells software and services to help sales representatives manage\ncustomer relationships and finance departments manage corporate resources. It is a\nmarket where Microsoft competes with Salesforce.com Inc., among others, and one in\nwhich the company has placed growing emphasis. Dynamics revenue grew 13%,\nthough the company didn’t disclose a revenue figure.\nMicrosoft purchased LinkedIn, the professional social network, in December for $27\nbillion, in part, to boost the Dynamics business. In the quarter, LinkedIn added $1.14\nbillion in revenue and posted a $294 million operating loss.\nDuring a conference call with financial analysts, Mr. Nadella said that Microsoft is\n“ahead of plan” for LinkedIn’s financial contributions to the software giant’s results.\nMicrosoft has integrated LinkedIn with a few Microsoft products, particularly those in\nits Dynamics business.\n“You’ll see more product integration in fiscal ’18 as we continue to accelerate our\ninnovation to connect the world’s leading professional cloud with the world’s leading\nprofessional network,” Mr. Nadella said.\nTo support its growing cloud business, Microsoft is doling out huge sums to build\nexpensive data centers around the world. In the quarter, Microsoft spent $2.7 billion\nhttps://www.wsj.com/articles/microsofts-services-revenue-lifts-quarterly-results-1509051454 Page 3 of 5\nMicrosoft’s Services Revenue Lifts Quarterly Results - WSJ 2026-08-28, 3:25 PM\nin capital expenses, with much of that money going toward its data-center expansion.\nA year ago, Microsoft recorded $2.3 billion in capital expenses.\nMicrosoft launched a bevy of new Surface computers earlier this year, including a\nrefreshed Surface Pro tablet-laptop hybrid and a lightweight laptop to compete with\nApple’s MacBook Air.\nMicrosoft didn’t break out specific revenue figures for the devices, but noted that\nSurface revenue gained 12% in the quarter.\nFor the fiscal second quarter, Microsoft expects More Personal Computing revenue of\n$11.7 billion to $12.1 billion, compared with $11.82 billion in the year-earlier period.\nProductivity and Business Processes should hit $8.75 billion to $8.95 billion, up from\n$7.38 billion in the second quarter of fiscal 2017. Microsoft expects the Intelligent\nCloud unit to register $7.35 billion to $7.55 billion, up from $6.86 billion in the year-\nearlier quarter.\nWrite to Jay Greene at Jay.Greene@wsj.com\nJay Greene formerly wrote about Microsoft, Oracle, Amazon Web Services and the growing business of cloud\ncomputing for The Wall Street Journal. Before joining the Journal, Jay was Seattle bureau chief for BusinessWeek,\nreported on technology for the Seattle Times and was an investigative reporter at CNET. He authored the book…\n\"Design Is How It Works,\" and has been a McGraw Fellow at the City University of New York and an Immigration\nFollow\nJournalism Fellow with the French-American Foundation.\nhttps://www.wsj.com/articles/microsofts-services-revenue-lifts-quarterly-results-1509051454 Page 4 of 5\nMicrosoft’s Services Revenue Lifts Quarterly Results - WSJ 2026-08-28, 3:25 PM\nhttps://www.wsj.com/articles/microsofts-services-revenue-lifts-quarterly-results-1509051454 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "Microsoft reported fiscal first-quarter net income of $6.58 billion, or $0.84 per share, up from $5.67 billion, or $0.72 per share, a year earlier, with revenue climbing 12% to $24.54 billion, beating the $23.56 billion in revenue and $0.72 EPS analysts had expected. Azure infrastructure services grew 90% and Office 365 expanded 42%, pushing the combined commercial-cloud run rate to $20.4 billion -- reaching the $20 billion goal Satya Nadella had set two years earlier -- while the Intelligent Cloud segment overall rose 14% to $6.92 billion. The Productivity and Business Processes unit, which includes Office and the Dynamics software competing with Salesforce, generated $8.24 billion, up 28%, and LinkedIn contributed $1.14 billion in revenue against a $294 million operating loss. More Personal Computing revenue was flat at $9.4 billion despite new Surface devices posting 12% revenue growth. Analyst Brad Reback was quoted saying Microsoft \"crushed it again ... really strong growth rates,\" and the company guided next-quarter segment revenue to $11.7-$12.1 billion for Personal Computing, $8.75-$8.95 billion for Productivity/Business Processes, and $7.35-$7.55 billion for Intelligent Cloud, while investing $2.7 billion in capital expenditures largely for data centers.",
+      "why_moved": "The article states that Microsoft's stock price rose 4.2% to $82.05 in after-hours trading following the results. It ties this gain directly to revenue and profit both topping analyst expectations, with commercial-cloud run-rate growth reaching Nadella's long-stated $20 billion target and Azure and Office 365 posting 90% and 41-42% growth respectively. Analyst Brad Reback's quoted reaction -- that Microsoft \"crushed it again\" with \"really strong growth rates\" -- is presented as reflecting the market's positive read on the quarter. The article frames the beat across both the top and bottom line, combined with continued cloud momentum, as the substance behind the after-hours share gain.",
+      "sources": [
+        {
+          "title": "Microsoft's Services Revenue Lifts Quarterly Results -- Update",
+          "url": "https://www.foxbusiness.com/features/microsofts-services-revenue-lifts-quarterly-results-update"
+        }
+      ]
+    }
+  },
+  "MSFT_2018q1": {
+    "ticker": "MSFT",
+    "group": "Group 1",
+    "company_name": "Microsoft",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-01-31",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After the October breakout, Microsoft’s valuation incorporated a lot of confidence in cloud execution. Tax reform also introduced major accounting noise into the quarter.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Microsoft: Microsoft Cloud Continues to Grow, Powers First Quarter Results",
+                  "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2018-q1/press-release-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q2 revenue rose **12% to $28.9 billion** and adjusted EPS reached **$0.96**, both above consensus. Azure revenue increased **98%**, commercial cloud revenue grew **56% to $5.3 billion**, and LinkedIn contributed **$1.3 billion** with continued engagement growth.",
+              "sources": []
+            },
+            {
+              "text": "GAAP results showed a large loss because Microsoft recorded a **$13.8 billion tax-reform charge**; this was not an operating deterioration. The operating quarter was strong, but the stock finished the next session modestly lower. With expectations already elevated and the tax/accounting presentation complex, the report produced little incremental rerating despite excellent cloud metrics.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Microsoft: Microsoft Cloud Growth Fuels Second Quarter Results",
+                  "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2018-q2/press-release-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The reaction was slightly negative despite a beat because the strong cloud numbers were largely expected.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Azure growth of 98% showed no meaningful slowdown in cloud demand.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** The $13.8 billion tax charge distorted GAAP earnings but did not change underlying operations.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TechCrunch: Microsoft’s Azure revenue nearly doubled year-over-year in its second quarter",
+                  "url": "https://techcrunch.com/2018/01/31/microsofts-azure-revenue-nearly-doubled-year-over-year-in-its-second-quarter/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Microsoft/MSFT identity, the correct earnings event, publication date, timing window and source origin. Microsoft Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Microsoft: Microsoft Cloud Continues to Grow, Powers First Quarter Results",
+          "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2018-q1/press-release-webcast"
+        },
+        {
+          "label": "Microsoft: Microsoft Cloud Growth Fuels Second Quarter Results",
+          "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2018-q2/press-release-webcast"
+        },
+        {
+          "label": "TechCrunch: Microsoft’s Azure revenue nearly doubled year-over-year in its second quarter",
+          "url": "https://techcrunch.com/2018/01/31/microsofts-azure-revenue-nearly-doubled-year-over-year-in-its-second-quarter/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Microsoft's fiscal second-quarter 2018 report was dominated by a large one-time item: a $13.8 billion charge tied to the new U.S. tax law that pushed the company to a reported loss of $6.3 billion (82 cents a share), versus a profit of $6.27 billion (80 cents) a year earlier, even as revenue rose 12% to $28.92 billion. Excluding the tax charge, Microsoft actually earned $7.5 billion (96 cents a share), beating the S&P Global consensus of 86 cents on $28.41 billion in revenue. The article detailed continued cloud strength, with Azure revenue up 98% (an acceleration from 90% the prior quarter) and Office 365 revenue up 41% (roughly flat with 42% the prior quarter); Intelligent Cloud grew 15% to $7.8 billion and Productivity and Business Processes grew 25% to $8.95 billion. On the tax charge specifically, CFO Amy Hood declined to specify when Microsoft might repatriate any of its $142.8 billion cash pile, most of it held overseas, but noted the company had been \"one of the leading returners of capital to shareholders,\" historically relying on debt to help finance buybacks, and suggested the newly available cash could reduce future reliance on debt markets; she guided to an adjusted tax rate around 16% (plus or minus 2 points) for the second half of the fiscal year, trending toward the new 21% federal corporate rate in fiscal 2019. The article also noted Microsoft's response to the Spectre and Meltdown chip vulnerabilities, with Nadella crediting the company's Windows 10 security investments for enabling it \"to move quickly to protect customers in the face of these threats.\" Elsewhere, gaming revenue rose 8% in the critical holiday quarter, boosted by the November launch of the Xbox One X console, and LinkedIn, now a year into Microsoft ownership, added $1.31 billion in revenue.",
+      "why_moved": "The article explicitly states shares \"fell a penny to $95 in after-hours trading,\" describing an essentially flat reaction despite the earnings beat on an adjusted basis (96 cents versus 86 cents expected) and the strong Azure acceleration (98% growth) detailed above, noting shares had already climbed nearly 50% over the prior year to reach record levels heading into the print — implying the market had already priced in much of the good news.",
+      "sources": [
+        {
+          "filename": "Microsoft Reports Gains in Cloud-Computing Business - WSJ.pdf",
+          "title": "Microsoft Reports Gains in Cloud-Computing Business Company recorded a $13.8 billion charge related to changes in U.S. tax law",
+          "published_date": "2018-01-31",
+          "text": "Microsoft Reports Gains in Cloud-Computing Business - WSJ 2026-08-28, 3:27 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/microsoft-reports-gains-in-cloud-computing-business-1517434433\nTECH\nMicrosoft Reports Gains in Cloud-Computing\nBusiness\nCompany recorded a $13.8 billion charge related to changes in U.S. tax law\nBy Jay Greene\nUpdated Jan. 31, 2018 at 6:42 pm ET\nCloud computing was a source of strength in Microsoft’s latest earnings report. ALTAF QADRI/ASSOCIATED PRESS\nMicrosoft Corp. MSFT 1.63% took a $13.8 billion charge related to the new U.S. tax\nlaw but reported significant growth in its cloud operations, the business fueling the\ncompany’s resurgence.\nMicrosoft keeps overseas the vast majority of its cash, which rose to $142.8 billion in\nthe quarter. In an interview, Chief Financial Officer Amy Hood declined to say when\nthe company might bring home some of that money.\nMs. Hood said Microsoft has been “one of the leading returners of capital to\nhttps://www.wsj.com/articles/microsoft-reports-gains-in-cloud-computing-business-1517434433 Page 1 of 4\nMicrosoft Reports Gains in Cloud-Computing Business - WSJ 2026-08-28, 3:27 PM\nshareholders” in recent years, using debt to finance much of that. She said the cash\nwould mitigate the need to turn to debt markets to pay for stock repurchases.\nMicrosoft already has carved a spot for itself as the No. 2 company behind\nAmazon.com Inc. in renting computing power and storage over the web. For its fiscal\nsecond quarter, the company reported strong gains in the two biggest pieces of its\ncloud-computing business: its Azure infrastructure services and Office 365 online-\nproductivity business.\nThough Microsoft doesn’t disclose revenue for those businesses, it said Azure jumped\n98% and Office 365 grew 41%. In the previous quarter, Azure gained 90% and Office 365\ngrew 42%.\nIts Intelligent Cloud segment, which includes Azure, climbed 15% to $7.8 billion. Its\nProductivity and Business Processes segment, which includes Office, gained 25% to\n$8.95 billion.\nOverall, Microsoft posted a loss of $6.3 billion, or 82 cents a share, compared with a\nprofit of $6.27 billion, or 80 cents a share, a year earlier. Revenue grew 12% to $28.92\nbillion.\nExcluding the impact of the tax law, Microsoft reported a profit of $7.5 billion, or 96\ncents a share.\nAnalysts surveyed by S&P Global Market Intelligence expected Microsoft to report\nper-share earnings of 86 cents on revenue of $28.41 billion.\nShares, which have climbed nearly 50% in the past year to set records, fell a penny to\n$95 in after-hours trading.\nThe company’s adjusted tax rate, which doesn’t count the big charge, was 18%, up\nslightly from a year ago. Looking ahead, Ms. Hood said it expects a 16% tax rate for the\nsecond half of the fiscal year, plus or minus 2 percentage points. For fiscal 2019, the\nhttps://www.wsj.com/articles/microsoft-reports-gains-in-cloud-computing-business-1517434433 Page 2 of 4\nMicrosoft Reports Gains in Cloud-Computing Business - WSJ 2026-08-28, 3:27 PM\ncompany expects the tax rate to be slightly below the new U.S. corporate rate of 21%.\nMicrosoft rose to its former tech dominance on the strength of Windows, its PC\noperating system. And while the More Personal Computing segment that includes\nWindows is Microsoft’s largest, it is also the company’s slowest growing.\nThat is in part because growth in world-wide PC sales remains sluggish, inching up\nonly 0.7% in the last quarter, according to International Data Corp. More Personal\nComputing, though, gained 2% to $12.17 billion in the latest period.\nIn a conference call with Wall Street analysts, Chief Executive Satya Nadella said\ninvestments in security technology helped Microsoft quickly address the recent\nthreats from the Spectre and Meltdown processor vulnerabilities.\n“Our investments to make Windows 10 the most secure, always up-to-date operating\nsystem enabled us to move quickly to protect customers in the face of these threats,”\nMr. Nadella said.\nThe More Personal Computing segment also includes Microsoft’s Xbox videogame\nbusiness. The holiday quarter is particularly important for gaming at Microsoft, even\nmore so after the company released its new Xbox One X console in November. In the\nperiod, gaming revenue—which includes sales of the Xbox console, Xbox Live\nsubscriptions and transactions, and game and accessory sales—rose 8%.\nIt has been a year since Microsoft purchased LinkedIn Corp., the professional social\nnetwork, for $27 billion. In the quarter, LinkedIn added $1.31 billion in revenue.\nWrite to Jay Greene at Jay.Greene@wsj.com\nJay Greene formerly wrote about Microsoft, Oracle, Amazon Web Services and the growing business of cloud\ncomputing for The Wall Street Journal. Before joining the Journal, Jay was Seattle bureau chief for BusinessWeek,\nreported on technology for the Seattle Times and was an investigative reporter at CNET. He authored the book…\n\"Design Is How It Works,\" and has been a McGraw Fellow at the City University of New York and an Immigration\nFollow\nJournalism Fellow with the French-American Foundation.\nhttps://www.wsj.com/articles/microsoft-reports-gains-in-cloud-computing-business-1517434433 Page 3 of 4\nMicrosoft Reports Gains in Cloud-Computing Business - WSJ 2026-08-28, 3:27 PM\nhttps://www.wsj.com/articles/microsoft-reports-gains-in-cloud-computing-business-1517434433 Page 4 of 4"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "Microsoft reported fiscal second-quarter total revenue of $28.92 billion, up 12% year over year, with Azure infrastructure services growing 98% and Office 365 up 41%. The Intelligent Cloud segment, which houses Azure, rose 15% to $7.8 billion, while the Productivity and Business Processes division, containing Office products, gained 25% to $8.95 billion, reinforcing the company's position as the second-largest cloud provider behind Amazon. However, Microsoft recorded a $13.8 billion charge tied to U.S. tax-law changes, which pushed the company to a net loss of $6.3 billion, or $0.82 per share, on a GAAP basis. Excluding that tax impact, adjusted earnings were $0.96 per share, above the $0.86 analysts had projected on expected revenue of $28.41 billion.",
+      "why_moved": "The article states that Microsoft shares declined 2% to $93.30 in after-hours trading following the earnings release, despite the stock having climbed nearly 50% over the preceding year. It presents this decline alongside the $13.8 billion tax-law charge that drove the company to a GAAP net loss, even though adjusted earnings of $0.96 per share beat the $0.86 analysts had expected. The juxtaposition in the article -- strong adjusted results and continued cloud growth on one hand, a large tax-related GAAP loss on the other -- is the explanation the piece offers for the after-hours share decline, without further elaboration on which factor investors weighted more heavily.",
+      "sources": [
+        {
+          "title": "Microsoft reports gains in cloud-computing business",
+          "url": "https://www.foxbusiness.com/markets/microsoft-reports-gains-in-cloud-computing-business"
+        }
+      ]
+    }
+  },
+  "MSFT_2018q2": {
+    "ticker": "MSFT",
+    "group": "Group 1",
+    "company_name": "Microsoft",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-04-26",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "By Q3, the question had shifted from whether Microsoft’s cloud strategy worked to how long near-100% Azure growth and margin improvement could persist at scale.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Microsoft: Microsoft Cloud Growth Fuels Second Quarter Results",
+                  "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2018-q2/press-release-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q3 revenue rose **16% to $26.8 billion** and EPS increased **36% to $0.95**, versus consensus around $0.85. Commercial cloud revenue grew **58%**, Azure revenue **93%**, Office 365 commercial revenue **42%**, and LinkedIn revenue **37%**.",
+              "sources": []
+            },
+            {
+              "text": "Operating income increased **23%**, showing that Microsoft was converting cloud growth into profit rather than sacrificing margins indefinitely. Surface also rebounded strongly. The quarter was broad-based across cloud, productivity, LinkedIn and devices.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Microsoft: Microsoft Cloud Strength Highlights Third Quarter Results",
+                  "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2018-Q3/press-release-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares rose because revenue and EPS beat expectations while cloud growth remained exceptional.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Operating income growth confirmed real margin leverage from the cloud transition.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** LinkedIn and Surface improvements broadened the earnings contribution beyond Azure and Office.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TechCrunch: By keeping its head in the cloud, Microsoft makes it rain on shareholders",
+                  "url": "https://techcrunch.com/2018/04/26/by-keeping-its-head-in-the-cloud-microsoft-makes-it-rain-on-shareholders/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Microsoft/MSFT identity, the correct earnings event, publication date, timing window and source origin. Microsoft Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Microsoft: Microsoft Cloud Growth Fuels Second Quarter Results",
+          "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2018-q2/press-release-webcast"
+        },
+        {
+          "label": "Microsoft: Microsoft Cloud Strength Highlights Third Quarter Results",
+          "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2018-Q3/press-release-webcast"
+        },
+        {
+          "label": "TechCrunch: By keeping its head in the cloud, Microsoft makes it rain on shareholders",
+          "url": "https://techcrunch.com/2018/04/26/by-keeping-its-head-in-the-cloud-microsoft-makes-it-rain-on-shareholders/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Microsoft's fiscal third-quarter 2018 report highlighted a specific historical consistency marker for Azure: the article notes Azure \"has never grown slower than 90%\" since Microsoft began reporting the metric in October 2015, and this quarter's 93% growth extended that streak. Combined, Azure and commercial Office 365 (up 42%) generated about $6 billion in revenue, up 58%, which CFO Amy Hood attributed to \"better-than-expected demand,\" while also citing 20% growth in server-products and cloud-services revenue as evidence of Microsoft's hybrid-cloud strategy resonating with customers who mix on-premises and cloud infrastructure. The article provided sharp competitive market-share context: in the cloud-infrastructure market, Amazon held 31.7% share in early 2018 versus Microsoft's 16% and Google's 7.4% (Canalys research), prompting Stifel's Brad Reback to observe that \"two years ago, there was a clear No. 1 with no clear No. 2,\" but that Microsoft had since \"put significant distance between themselves and all of the other\" Amazon rivals. Profit rose 35% to $7.42 billion (95 cents a share) and revenue rose 16% to $26.82 billion, beating the S&P Global consensus of 85 cents and $25.78 billion. The article's key forward-looking detail is that the stock's after-hours move was driven specifically by guidance rather than the quarter itself: Hood projected roughly 13% growth for Productivity and Business Processes, about 16% growth for Intelligent Cloud, and about 13% growth for More Personal Computing in the coming quarter — all strong figures that the article frames as the proximate driver of the reaction. It also noted Windows had been organizationally split into two engineering divisions the prior month, described as \"a recognition\" that Windows now plays \"a supporting role\" to Microsoft's cloud efforts, while Surface revenue jumped 32% to $1.10 billion and LinkedIn revenue grew 37% to $1.34 billion, with Nadella saying LinkedIn's results were \"ahead of expectations across all lines.\"",
+      "why_moved": "The article states the stock climbed 3.2% in after-hours trading to $97.41, and is explicit that this move came specifically \"after the company provided strong guidance for the current fiscal fourth quarter\" — distinguishing the driver from the already-solid but perhaps more expected quarterly beat itself (95 cents versus 85 cents adjusted EPS expected, as detailed above). This is a useful distinction the article draws directly: strong current-quarter results plus market-share momentum against Amazon (as Reback's comments underscore) established the baseline positive sentiment, but it was the forward guidance across all three segments — Intelligent Cloud in particular, guided to roughly 16% growth — that the article credits with pushing shares higher after hours specifically. The extension of the \"never grown slower than 90%\" Azure streak reinforced that the guidance was credible given the pattern of consistent execution the article had tracked over prior quarters.",
+      "sources": [
+        {
+          "filename": "Microsoft Rides Cloud Strength and Signals More to Come - WSJ.pdf",
+          "title": "Microsoft Rides Cloud Strength and Signals More to Come Azure’s revenue jumps 93% as company becomes chief cloud rival to Amazon",
+          "published_date": "2018-04-26",
+          "text": "Microsoft Rides Cloud Strength and Signals More to Come - WSJ 2026-08-28, 3:28 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/cloud-business-boosts-microsofts-earnings-1524774601\nTECH\nMicrosoft Rides Cloud Strength and Signals More to\nCome\nAzure’s revenue jumps 93% as company becomes chief cloud rival to Amazon\nBy Jay Greene\nApril 26, 2018\nMicrosoft said its fiscal third-quarter profit rose 35% as revenue from Azure, its cloud business, surged 93%. DAVID\nPAUL MORRIS/BLOOMBERG NEWS\nMicrosoft Corp. MSFT 1.66% extended its streak of wins in the latest quarter and\nsignaled further strength in the months ahead as the software giant moves into an era\nwhere its venerable Windows franchise plays a supporting role to its burgeoning\ncloud-computing operations.\nThe cloud business, called Azure, jumped 93% in the fiscal third quarter, Microsoft\nreported Thursday. The business has never grown slower than 90% since the company\nhttps://www.wsj.com/articles/cloud-business-boosts-microsofts-earnings-1524774601 Page 1 of 5\nMicrosoft Rides Cloud Strength and Signals More to Come - WSJ 2026-08-28, 3:28 PM\nbegan reporting the metric in October 2015. The other big piece of the company’s\ncloud operations, the commercial version of its Office 365 online-productivity service,\ngrew 42%.\nMicrosoft doesn’t disclose revenue for either business, but in the preceding second\nquarter it said Azure jumped 98% and commercial Office 365 grew 41%.\nThe two businesses combined accounted for $6 billion in revenue, up 58% on what\nMicrosoft financial chief Amy Hood said was “better-than-expected demand.”\nMs. Hood pointed to 20% growth in Microsoft’s server-products and cloud-services\nrevenue as a reflection of its focus on the hybrid cloud, in which customers mix cloud\nservices with software running on servers in their own data centers.\nMicrosoft has capitalized on its legacy as a seller of server software to win over its\nlongtime customers who choose to gradually move their operations to the cloud.\nThat growth has propelled Microsoft into the role of chief cloud rival to Amazon.com\nInc., which pioneered the business of renting out computing power and storage a\ndecade ago. In the first three months of 2018, Amazon held a 31.7% share of that cloud\ninfrastructure market, while Microsoft had 16% and Google 7.4%, according to the\nresearch firm Canalys.\n“Two years ago, there was a clear No. 1 with no clear No. 2,” said Stifel Nicolaus & Co.\nanalyst Brad Reback. “There is no doubt that Microsoft has put significant distance\nbetween themselves and all of the other” Amazon rivals.\nThe surging cloud business led Microsoft to post a profit increase of 35% to $7.42\nbillion, or 95 cents a share. Revenue rose 16% to $26.82 billion. Analysts surveyed by\nS&P Global Market Intelligence expected Microsoft to report per-share earnings of 85\ncents on revenue of $25.78 billion.\nMicrosoft no longer reports adjusted figures, reflecting accounting changes it adopted\nhttps://www.wsj.com/articles/cloud-business-boosts-microsofts-earnings-1524774601 Page 2 of 5\nMicrosoft Rides Cloud Strength and Signals More to Come - WSJ 2026-08-28, 3:28 PM\nat the start of the fiscal year. The year-ago figure reflects that change.\nThe stock climbed 3.2% in after-hours trading to $97.41 after the company provided\nstrong guidance for the current fiscal fourth quarter.\nMs. Hood expects the Productivity and Business Processes segment, which includes\nOffice, to grow roughly 13% from a year before to between $9.55 billion and $9.75\nbillion. The unit that includes Azure, the Intelligent Cloud segment, should climb\nabout 16% to $8.95 billion to $9.15 billion.\nShe projected the often-sluggish More Personal Computing segment that includes\nMicrosoft’s Windows franchise would have revenue of between $10.3 billion and $10.6\nbillion, representing roughly 13% growth.\nLast month, Microsoft shares hit an all-time high of $96.77, a gain of nearly 40% over\nthe past year. The company has jostled with Alphabet Inc. and Amazon for the No. 2\nspot behind Apple Inc. as the world’s most valuable company as measured by market\ncapitalization.\nRevenue from the Intelligent Cloud segment rose 17% to $7.9 billion. Productivity and\nBusiness Processes segment revenue climbed 17% to $9.01 billion.\nThe company continues to dole out huge sums building massive data centers around\nthe globe to battle Amazon and others. In the quarter, Microsoft had $3.5 billion in\ncapital expenses, with much of that money going toward its data-center expansion. A\nyear ago, Microsoft had $2.1 billion in capital expenditures\nMicrosoft doesn’t break out revenue for its Windows business. Earlier this month,\nInternational Data Corp. reported world-wide PC shipments showed no growth in the\nmost recent quarter.\nRevenue in Microsoft’s More Personal Computing segment, which includes Windows\nas well as the mobile-phone and Xbox gaming businesses, gained 13% to $9.92 billion.\nhttps://www.wsj.com/articles/cloud-business-boosts-microsofts-earnings-1524774601 Page 3 of 5\nMicrosoft Rides Cloud Strength and Signals More to Come - WSJ 2026-08-28, 3:28 PM\nA month ago, Microsoft split the engineering group that develops products under the\nWindows banner among two separate divisions. It was a recognition that the product\nthat had been synonymous with Microsoft for most of its 43 years will now play a\nsupporting role to the company’s cloud-computing efforts.\nEven as Microsoft has shifted its focus away from Windows, the operating system\nshowed surprising resiliency. Revenue in the version of Windows that Microsoft\ngenerally sells to corporate customers, known as OEM Pro, grew 11%. And revenue\nfrom Microsoft’s Surface line of computers jumped 32% to $1.10 billion.\nLinkedIn, the professional social network Microsoft bought for $27 billion more than a\nyear ago, grew rapidly, with revenue climbing 37% to $1.34 billion.\n“Results are ahead of expectations across all lines” of LinkedIn’s business, Microsoft\nChief Executive Satya Nadella said during a call with analysts. That has boosted\nadvertising revenue for the business, he said.\nWrite to Jay Greene at Jay.Greene@wsj.com\nCorrections & Amplifications\nMicrosoft estimates for revenue in its current quarter indicate that its Productivity\nand Business Processes segment will grow about 13% from a year earlier, its\nIntelligent Cloud segment will grow about 16%, and its More Personal Computing\nsegment will grow about 13%. An earlier version of this article gave incorrect\ncalculations for those growth rates. (April 27)\nAppeared in the April 27, 2018, print edition as 'Microsoft Buoyed by Cloud'.\nJay Greene formerly wrote about Microsoft, Oracle, Amazon Web Services and the growing business of cloud\ncomputing for The Wall Street Journal. Before joining the Journal, Jay was Seattle bureau chief for BusinessWeek,\nreported on technology for the Seattle Times and was an investigative reporter at CNET. He authored the book…\n\"Design Is How It Works,\" and has been a McGraw Fellow at the City University of New York and an Immigration\nFollow\nJournalism Fellow with the French-American Foundation.\nhttps://www.wsj.com/articles/cloud-business-boosts-microsofts-earnings-1524774601 Page 4 of 5\nMicrosoft Rides Cloud Strength and Signals More to Come - WSJ 2026-08-28, 3:28 PM\nhttps://www.wsj.com/articles/cloud-business-boosts-microsofts-earnings-1524774601 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "MSFT_2018q3": {
+    "ticker": "MSFT",
+    "group": "Group 1",
+    "company_name": "Microsoft",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-19",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Microsoft entered fiscal Q4 after a year in which the cloud transition had become the dominant explanation for the stock’s rerating. The hurdle was now high: investors expected both double-digit revenue growth and strong margin conversion.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Microsoft: Microsoft Cloud Strength Highlights Third Quarter Results",
+                  "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2018-Q3/press-release-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q4 revenue reached **$30.1 billion**, up 17%, and non-GAAP EPS was **$1.13**. Both exceeded expectations. Intelligent Cloud revenue rose **23%**, Azure revenue **89%**, Office 365 commercial revenue remained strong, and LinkedIn revenue increased **37%**.",
+              "sources": []
+            },
+            {
+              "text": "The quarter was broad-based: Windows commercial, gaming, Surface and search all grew as well. Microsoft finished fiscal 2018 above **$110 billion of annual revenue**, with operating income up 21% for the year. The release showed that Microsoft could sustain double-digit company growth even as Azure’s percentage growth naturally moderated from triple digits.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Microsoft: Microsoft Cloud Drives Record Fourth Quarter Results",
+                  "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2018-q4/press-release-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares rose because Microsoft beat both revenue and EPS expectations with strength across every major segment.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Azure remained near 90% growth despite a much larger revenue base.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** LinkedIn, gaming, Surface and Windows made the growth mix unusually broad.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Microsoft Corporation's Impressive Growth in 5 Metrics",
+                  "url": "https://www.fool.com/investing/2018/07/20/microsoft-corporations-impressive-growth-in-5-metr.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Microsoft/MSFT identity, the correct earnings event, publication date, timing window and source origin. Microsoft Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Microsoft: Microsoft Cloud Strength Highlights Third Quarter Results",
+          "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2018-Q3/press-release-webcast"
+        },
+        {
+          "label": "Microsoft: Microsoft Cloud Drives Record Fourth Quarter Results",
+          "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2018-q4/press-release-webcast"
+        },
+        {
+          "label": "The Motley Fool: Microsoft Corporation's Impressive Growth in 5 Metrics",
+          "url": "https://www.fool.com/investing/2018/07/20/microsoft-corporations-impressive-growth-in-5-metr.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Microsoft's fiscal fourth-quarter 2018 report marked a notable milestone: the company topped $100 billion in annual revenue for the first time, which the article frames as evidence of Microsoft's successful remake \"from a legacy software provider into a power player in cloud computing\" under CEO Satya Nadella, after years of struggling with a slow-growing PC business and being late to mobile and web search. The article specifically credits Microsoft's hybrid-cloud strategy — persuading customers running Microsoft software in their own data centers to blend in cloud services — as the mechanism behind this growth, noting that Walmart had announced a five-year cloud deal with Microsoft just that week, cited as a concrete example of the hybrid pitch working with a marquee enterprise customer. Server-products and cloud-services revenue, the article's proxy for hybrid-cloud performance, rose 26%; Stifel's Brad Reback estimated the category at roughly $7.9 billion in revenue, calling the growth \"massive\" and saying Microsoft was \"playing from their strength\" by using its server-software legacy to pull existing customers toward the cloud. The report also contained a specific deceleration data point worth noting: Azure revenue grew 89%, down from 93% the prior quarter — the first time Azure's growth rate had dipped below 90% since Microsoft began disclosing the metric in October 2015, an inflection point after several quarters in this batch where the article coverage had emphasized that streak's persistence. Commercial Office 365 growth also decelerated slightly, to 38% from 42%. Overall revenue rose 17% to $30.09 billion and net income was $8.87 billion ($1.14 a share), beating the S&P Global consensus of $1.08 and $29.23 billion. The article noted regular-session shares actually finished down less than 1% at $104.40, just off a record $106.40 set two days earlier, with the stock up more than 40% over the preceding year and Microsoft's market capitalization topping $800 billion.",
+      "why_moved": "The article is explicit that the stock's reaction split into two distinct phases: shares \"moved little\" in response to the quarterly results themselves — consistent with the deceleration in both Azure (down to 89% growth, first time below 90%) and Office 365 (down to 38% growth) detailed above, which likely tempered enthusiasm for the headline numbers despite the milestone $100 billion revenue figure — but then \"jumped more than 3% during after-hours trading\" specifically when Hood delivered a strong outlook for the current quarter, with those forward projections beating Wall Street's expectations. This pattern, where the guidance rather than the reported quarter itself drove the stock reaction, mirrors the dynamic the article describes in the immediately preceding quarter's coverage, reinforcing that investors had come to treat Microsoft's in-line cloud growth as expected and were instead trading on the trajectory implied by management's forward commentary. The Walmart cloud deal and the \"massive\" server-and-cloud-services growth Reback highlighted likely supported confidence in that guidance being achievable rather than aspirational.",
+      "sources": [
+        {
+          "filename": "Microsoft’s Revenue Gets Lift From Cloud - WSJ.pdf",
+          "title": "Microsoft’s Revenue Gets Lift From Cloud Software giant exceeds $100 billion in annual revenue for first time",
+          "published_date": "2018-07-19",
+          "text": "Microsoft’s Revenue Gets Lift From Cloud - WSJ 2026-08-28, 3:31 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/microsofts-cloud-continues-to-fuel-growth-1532032095\nTECH\nMicrosoft’s Revenue Gets Lift From Cloud\nSoftware giant exceeds $100 billion in annual revenue for first time\nBy Jay Greene\nUpdated July 19, 2018 at 7:48 pm ET\nMicrosoft software on display at the company's flagship store in New York. MARK KAUZLARICH/BLOOMBERG NEWS\nMicrosoft Corp. MSFT 1.62% topped $100 billion in annual revenue for the first time\nas the software giant remakes itself from a legacy software provider into a power\nplayer in cloud computing.\nMuch of that growth has come from persuading customers who run Microsoft’s\nsoftware in their own data centers to mix in cloud services, a business known as\nhybrid-cloud computing. Microsoft remains a distant No. 2 in the cloud business\nbehind Amazon.com Inc., but has established itself as a viable option for companies\nbeginning the transition.\nhttps://www.wsj.com/articles/microsofts-cloud-continues-to-fuel-growth-1532032095 Page 1 of 4\nMicrosoft’s Revenue Gets Lift From Cloud - WSJ 2026-08-28, 3:31 PM\nMicrosoft’s success in building out its cloud business has driven up shares of the\ncompany more than 40% in the past year. The company’s market capitalization tops\n$800 billion, putting it in a league with internet giants Apple Inc., Amazon and\nAlphabet Inc.\nMicrosoft shares moved little after the company reported robust fiscal fourth-quarter\nresults, but jumped more than 3% during after-hours trading when finance chief Amy\nHood gave Wall Street analysts a strong outlook for the current quarter.\nThe 43-year-old company struggled for years as it wrestled with a slow-growing\npersonal-computer business, which hampered its Windows operating-system\nfranchise. Microsoft was late to tectonic industry shifts, including mobile devices and\nweb search.\nBut the company has reversed its fortunes, largely under the direction of Chief\nExecutive Satya Nadella, by focusing on the booming cloud-computing market. Earlier\nthis week, Walmart Inc. announced a five-year deal to use Microsoft’s cloud services.\nIn the fourth quarter, revenue from server products and cloud services, a category\nthat reflects Microsoft’s performance in the hybrid cloud, rose 26%. The company\ndoesn’t disclose revenue for the segment.\nStifel Nicolaus & Co. analyst Brad Reback estimates revenue in the category hit $7.9\nbillion—“massive” growth, he said. Microsoft is “playing from their strength,” he\nsaid, by using traditional server software to lure longtime customers to the cloud.\nThose sales helped Microsoft generate $30.09 billion in revenue, a 17% gain from a\nyear earlier, when measured using a new accounting standard the company adopted\nat the beginning of its fiscal year. Mr. Nadella, in the company’s call with analysts,\ncited Microsoft’s “hybrid value proposition” as a reason for its quarterly growth.\nOverall, Microsoft had $8.87 billion in net income, or $1.14 a share. When using the\nnew accounting standard, Microsoft’s net income a year ago hit $8.07 billion.\nhttps://www.wsj.com/articles/microsofts-cloud-continues-to-fuel-growth-1532032095 Page 2 of 4\nMicrosoft’s Revenue Gets Lift From Cloud - WSJ 2026-08-28, 3:31 PM\nThe performance of Microsoft’s Azure cloud-computing services, as well as its Office\n365 online-productivity service for businesses, has pushed Microsoft shares to record\nhighs over the past two weeks. Shares finished Thursday down less than 1% at $104.40,\njust off their peak of $106.40 set Tuesday.\nAfter hours, shares touched record highs above $108 following Ms. Hood’s guidance\nfor segments that include Azure and Windows. The projections topped Wall Street’s\nexpectations.\nIn the fourth quarter, revenue from the company’s Intelligent Cloud segment, which\nincludes its Azure business, rose 23% to $9.61 billion. Azure revenue increased 89%,\ncompared with 93% three months ago—the first time the business has grown slower\nthan 90% since Microsoft began reporting the metric in October 2015.\nRevenue in the Office franchise, part of the Productivity and Business Processes\nsegment, climbed 13% to $9.67 billion. The commercial version of its Office 365 online-\nproductivity service climbed 38%, compared with 42% growth three months ago.\nRevenue in Microsoft’s More Personal Computing segment, which includes the\ncompany’s venerable Windows franchise as well as the mobile-phone and games\nbusinesses, gained 17% to $10.81 billion. Microsoft doesn’t break out revenue for its\nWindows business, but the company said sales of the operating system to corporate\nbuyers rose 14% in the period.\nThe market-research firms Gartner Inc. and International Data Corp. earlier this\nmonth reported the strongest showing in PC shipments in six years, partly because\ncorporate buyers are upgrading to Windows 10 before support for Windows 7 expires\nin January 2020.\nAnalysts surveyed by S&P Global Market Intelligence expected Microsoft to report\nper-share earnings of $1.08 on revenue of $29.23 billion.\nWrite to Jay Greene at Jay.Greene@wsj.com\nhttps://www.wsj.com/articles/microsofts-cloud-continues-to-fuel-growth-1532032095 Page 3 of 4\nMicrosoft’s Revenue Gets Lift From Cloud - WSJ 2026-08-28, 3:31 PM\nAppeared in the July 20, 2018, print edition as 'Microsoft Revenue Pushed Up By Cloud'.\nJay Greene formerly wrote about Microsoft, Oracle, Amazon Web Services and the growing business of cloud\ncomputing for The Wall Street Journal. Before joining the Journal, Jay was Seattle bureau chief for BusinessWeek,\nreported on technology for the Seattle Times and was an investigative reporter at CNET. He authored the book…\n\"Design Is How It Works,\" and has been a McGraw Fellow at the City University of New York and an Immigration\nFollow\nJournalism Fellow with the French-American Foundation.\nhttps://www.wsj.com/articles/microsofts-cloud-continues-to-fuel-growth-1532032095 Page 4 of 4"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "The available text for this article is brief and reads as a condensed earnings brief rather than a full narrative story, but it does contain substantive figures: Microsoft's fiscal fourth-quarter revenue reached $30.09 billion, a 17% year-over-year gain, driven partly by server products and cloud services revenue growing 26% (no further breakdown of that figure is given). Net income was $8.87 billion, or $1.14 per share, under generally accepted accounting principles, beating the $1.08 per share and $29.23 billion in revenue analysts had projected. The piece attributes the results to continued momentum in Microsoft's cloud business, consistent with the pattern described in the company's other recent quarters, but it does not include executive quotes, forward guidance, or a detailed segment-by-segment breakdown beyond the server/cloud growth figure.",
+      "why_moved": "The article's text does not include a reliable, dateable statement of the stock's reaction to these results within its narrative prose; the only price figure present on the page appears in what looks like a live quote-ticker element rather than the article's own written reaction coverage, so it is not treated here as the article's stated reaction. Beyond confirming that revenue and EPS both beat analyst expectations and that cloud/server growth was a driver, the fetched text does not explain, in its own words, what specifically drove the stock's move following the report.",
+      "sources": [
+        {
+          "title": "Microsoft's cloud continues to fuel growth",
+          "url": "https://www.foxbusiness.com/technology/microsofts-cloud-continues-to-fuel-growth"
+        }
+      ]
+    }
+  }
+}

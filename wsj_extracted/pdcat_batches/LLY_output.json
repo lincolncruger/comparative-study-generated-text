@@ -1,0 +1,952 @@
+{
+  "LLY_2016q2": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Management also revised reported guidance for Venezuela-related foreign-exchange effects."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Lilly reported $4.87 billion of revenue, up 5% year over year, and non-GAAP EPS of $0.83."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. New products generated about $325 million of revenue and were the main source of volume growth, led by diabetes products such as Trulicity and Jardiance."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Lilly reported $4.87 billion of revenue, up 5% year over year, and non-GAAP EPS of $0.83."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. Operating expenses increased as Lilly funded launches and late-stage R&D."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Separately, Lilly cut its unadjusted full-year profit guidance to $2.68-$2.78 per share from $2.83-$2.93 because of a $203.9 million charge tied to the Venezuelan."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Eli Lilly's first-quarter 2016 report, released April 26, showed revenue up 4.7% to $4.87 billion, edging past the $4.82 billion analysts had projected."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The article credits much of the top-line growth to six products launched since the start of 2014."
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. Adjusted earnings per share of 83 cents fell short of the 85 cents Wall Street expected and was down from 87 cents a year earlier."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "negative",
+        "reason": "Management struck a cautious tone. A dynamic management said it did not expect to persist."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. 31% U.S. growth on higher pricing partly offset by a 13% international decline tied to currency."
+      }
+    },
+    "djnw": null
+  },
+  "LLY_2016q3": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Trulicity, Cyramza and Humalog were central to that outlook."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q2 revenue increased 9% to $5.40 billion, driven primarily by an 8% increase in volume."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. New-product volume growth validated the post-patent-cliff recovery strategy."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Non-GAAP EPS was $0.86, essentially in line with consensus."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. Lilly laid out expectations through the remainder of the decade: at least 5% average annual revenue growth on a constant-currency basis."
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Lilly left its full-year guidance unchanged at $2.68-$2.78 unadjusted EPS and $20.6-$21.1 billion revenue."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Lilly's second-quarter 2016 report, published July 26, showed revenue growing 8.6% to $5.4 billion, well above the $5.15 billion analysts had projected."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. CEO John Lechleiter described the period as one of the most productive stretches of new product launches in the company's history."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Adjusted EPS of 86 cents matched the 86 cents Wall Street expected exactly."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. 5% domestic growth on higher demand despite lower realized prices and 11% international growth partly offset by unfavorable currency."
+      }
+    },
+    "djnw": null
+  },
+  "LLY_2016q4": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. The stock recovered to close higher because investors looked past the quarterly miss toward reaffirmed guidance and new-product/pipeline growth."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q3 revenue increased 5% to $5.19 billion and non-GAAP EPS was $0.88."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Pharmaceutical volume increased 7%, primarily from newer products."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Q3 revenue increased 5% to $5.19 billion and non-GAAP EPS was $0.88."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. The miss reflected near-term pricing, patent-loss and cost pressure rather than a collapse in new-product demand."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Lilly held its full-year adjusted EPS guidance at $3.50-$3.60."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. Lilly's third-quarter 2016 results, reported October 25, showed revenue up 4.7% to $5.19 billion, missing the $5.28 billion analysts had projected."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. It frames this as a straightforward miss-driven selloff: weaker sales of key products combined with the earnings shortfall were enough to outweigh any offsetting."
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. Adjusted EPS of 88 cents fell well short of the 96 cents Wall Street expected and was down sharply from $1 a year earlier."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. The article attributes the profit shortfall to higher research and development costs and lower net gains on investments."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. CEO Lechleiter said growth was led by recently approved drugs."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": null
+  },
+  "LLY_2017q1": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Fourth-quarter revenue increased 7% to $5.76 billion, driven heavily by Trulicity and other newer products."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Fourth-quarter revenue increased 7% to $5.76 billion, driven heavily by Trulicity and other newer products."
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. Non-GAAP EPS was $0.95, a few cents below consensus."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. The quarter demonstrated strong pharmaceutical volume growth with operating expenses broadly flat."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. A deal that led the company to cut its unadjusted profit guidance sharply."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Lilly's fourth-quarter 2016 report, published January 31, 2017, showed revenue up 7.2% to $5.76 billion, well ahead of the $5.55 billion analysts had projected."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Older products Alimta, Zyprexa and Cymbalta dragged on volumes."
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. Adjusted EPS of 95 cents fell just short of the 98 cents Wall Street expected."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": null
+  },
+  "LLY_2017q2": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Lilly reaffirmed non-GAAP full-year EPS guidance rather than raising it."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q1 revenue increased 7% to $5.23 billion, and non-GAAP EPS rose 18% to $0.98, slightly above consensus."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. However, the product-level details were mixed."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Q1 revenue increased 7% to $5.23 billion, and non-GAAP EPS rose 18% to $0.98, slightly above consensus."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. It cut its unadjusted 2017 profit forecast for a second consecutive quarter, to $2.60-$2.70 a share from $2.69-$2.79."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Lilly's first-quarter 2017 report, published April 25, showed revenue up 7.5% to $5.23 billion, roughly matching the $5.22 billion analysts expected."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Adjusted EPS of 98 cents beat the 96 cents Wall Street projected."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. The swing to a GAAP loss and a second consecutive cut to unadjusted profit guidance in as many quarters may have unsettled investors focused on the cost-cutting narrative."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": null
+  },
+  "LLY_2017q3": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Higher EPS guidance could not fully offset the loss of near-term pipeline value."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q2 revenue increased 8% to $5.82 billion and non-GAAP EPS rose 29% to $1.11, both above consensus."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. New products—especially Trulicity and Taltz—drove the volume increase, and Lilly raised its non-GAAP 2017 EPS range to $4.10–$4.20."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Q2 revenue increased 8% to $5.82 billion and non-GAAP EPS rose 29% to $1.11, both above consensus."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": "positive",
+        "reason": "The legal development was favorable. The same-day regulatory update dominated the stock."
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": null,
+    "djnw": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. The article noting that Lilly \"reported better-than-forecast quarterly earnings.\" The roundup does not provide Lilly's actual revenue."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. The article noting that Lilly \"reported better-than-forecast quarterly earnings.\" The roundup does not provide Lilly's actual revenue."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Rather than a dedicated Eli Lilly earnings story."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": "positive",
+        "reason": "The legal development was favorable. Rather than a dedicated Eli Lilly earnings story."
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    }
+  },
+  "LLY_2017q4": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q3 revenue increased 9% to $5.66 billion and non-GAAP EPS rose 19% to $1.05, both slightly above expectations."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. New pharmaceutical products drove 14% volume growth and represented nearly 22% of total revenue."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Q3 revenue increased 9% to $5.66 billion and non-GAAP EPS rose 19% to $1.05, both slightly above expectations."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. The strategic review signaled that management saw portfolio restructuring as necessary to improve long-run focus."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. The company cut its GAAP EPS guidance for the year to $1.73-$1.83 from $2.51-$2.61 due to restructuring charges."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. A unit that had contributed 15% of Lilly's revenue the prior year but faced rising competition."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Driven mainly by newer pharmaceutical products including Trulicity and Basaglar."
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. GAAP EPS fell to 53 cents from 73 cents a year earlier."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. The company cut its GAAP EPS guidance for the year to $1.73-$1.83 from $2.51-$2.61 due to restructuring charges."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. CEO Dave Ricks said in an interview that investors have repeatedly questioned whether Elanco makes sense inside the company."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. Within Elanco, livestock revenue fell 6% on competitive pressure in the U.S."
+      }
+    },
+    "djnw": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Lilly lowered full-year EPS guidance to $1.73-$1.83 due to restructuring charges while raising its adjusted full-year outlook to $4.15-$4.25."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Which generated 15% of company revenue and posted quarterly revenue of $740.6 million."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. On the earnings side, quarterly EPS fell to $0.53 from $0.73 a year earlier."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. The article does not discuss whether the lowered full-year EPS guidance (tied to restructuring charges) played any role in the stock's reaction."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. Cattle-industry competition while companion-animal revenue jumped 35%."
+      }
+    }
+  },
+  "LLY_2018q1": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Lilly also increased 2018 non-GAAP EPS guidance to $4.81–$4.91, partly reflecting U.S."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q4 revenue increased 7% to $6.16 billion and non-GAAP EPS was $1.14, both above consensus."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. New products drove 12% volume growth and represented 23% of total revenue."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Q4 revenue increased 7% to $6.16 billion and non-GAAP EPS was $1.14, both above consensus."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": null,
+    "djnw": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. For 2018, Lilly guided to adjusted EPS of $4.81-$4.91, representing 12-15% growth, on revenue of $23-$23.5 billion."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Total revenue rose 6.9% to $6.16 billion."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Product-level results were mixed: diabetes drug Trulicity jumped 93% to $649 million while flagship Humalog fell 4.6% to $782.2 million."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. The company also indicated it may use more than $9 billion in cash from operations because of modified rules on overseas profits."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Driven primarily by roughly $1 billion in charges tied to cost-cutting initiatives and a $1.94 billion expense from recent U.S."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    }
+  },
+  "LLY_2018q2": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Lilly raised 2018 non-GAAP EPS guidance to $5.10–$5.20."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q1 revenue increased 9% to $5.70 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Pharmaceutical revenue increased 11%, and newer products accounted for roughly 25% of total revenue while driving 11% volume growth."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Non-GAAP EPS rose 37% to $1.34, well above consensus around $1.13."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Operating expenses actually declined 5%."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": null,
+    "djnw": null
+  },
+  "LLY_2018q3": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Lilly raised non-GAAP 2018 EPS guidance to $5.40–$5.50."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q2 revenue increased 9% to $6.36 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. New pharmaceutical products represented 28% of total revenue and drove 12% volume growth."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Non-GAAP EPS jumped 35% to $1.50."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Operating expenses also declined."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Elanco recorded about $3.1 billion in sales last year, 13% of total Lilly revenue."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Total revenue growth of 9.1% was driven by the core human-pharmaceutical products."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Carries a roughly $40 billion market cap and a price-to-earnings ratio more than double Pfizer's."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. Smiley said the animal-health market is expected to grow about 5% annually."
+      }
+    },
+    "djnw": null
+  }
+}

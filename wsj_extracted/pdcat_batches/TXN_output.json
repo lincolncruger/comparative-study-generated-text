@@ -1,0 +1,772 @@
+{
+  "TXN_2016q2": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. TI reported $3.01 billion of revenue, down 5% year over year, and $0.65 of EPS."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Gross margin reached roughly 59.9%, reflecting TI’s product mix and the structural manufacturing-cost advantage from 300-mm Analog production."
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. TI reported $3.01 billion of revenue, down 5% year over year, and $0.65 of EPS."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. Gross margin reached roughly 59.9%, reflecting TI’s product mix and the structural manufacturing-cost advantage from 300-mm Analog production."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. Higher core-segment margins and 300-mm economics kept the underlying earnings quality strong."
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Reports the company's second-quarter guidance of 67 to 77 cents a share on $3.07 billion to $3.33 billion in revenue."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. The article reports that Texas Instruments posted slightly higher profit for the first quarter even as sales fell in its personal-electronics segment."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The latter used in products ranging from electric toothbrushes to driver-assistance systems."
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. The article reports that Texas Instruments posted slightly higher profit for the first quarter even as sales fell in its personal-electronics segment."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": null
+  },
+  "TXN_2016q3": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Revenue and EPS both landed in the upper half of TI’s own guidance."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q2 revenue rose to $3.27 billion and EPS reached $0.76, above consensus near $3.20 billion and $0.72."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Q2 revenue rose to $3.27 billion and EPS reached $0.76, above consensus near $3.20 billion and $0.72."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Versus an analyst consensus of 81 cents on $3.4 billion."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Versus an analyst consensus of 81 cents on $3.4 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. CEO Rich Templeton is quoted saying demand for TI's products \"continued to be strong\" in automotive and \"grew\" in industrial and communications equipment."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Versus an analyst consensus of 81 cents on $3.4 billion."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": null
+  },
+  "TXN_2016q4": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Q4 revenue guidance of $3.17–$3.43 billion and EPS guidance of $0.76–$0.86 were broadly in line with expectations."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q3 revenue reached $3.68 billion and EPS $0.94, both above consensus and slightly above TI’s expected range."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Q3 revenue reached $3.68 billion and EPS $0.94, both above consensus and slightly above TI’s expected range."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": "positive",
+        "reason": "Capital management was supportive. Analog revenue grew strongly, core margins continued to expand, and TI announced a 32% dividend increase to $0.50 per quarter."
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. The article reports that Texas Instruments' profit jumped 21% in the third quarter as continued strong demand in the automotive and industrial sectors helped the company."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Analog chip sales rose 6.5% to $2.32 billion and embedded processor sales rose 10% to $795 million."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. The article reports that Texas Instruments' profit jumped 21% in the third quarter as continued strong demand in the automotive and industrial sectors helped the company."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": "positive",
+        "reason": "Capital management was supportive. It also issued current-quarter guidance in line with analyst estimates and raised its quarterly dividend 32% to 50 cents a share, or $2 a year."
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. CEO Rich Templeton said demand \"continued to be strong\" in automotive, \"improved\" in industrial, and \"remained even\" in personal electronics."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": null
+  },
+  "TXN_2017q1": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. EPS included a $0.14 benefit from items outside the original guidance."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q4 revenue increased 7% to $3.41 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. EPS included a $0.14 benefit from items outside the original guidance."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": "positive",
+        "reason": "Capital management was supportive. Strong free cash flow supported continued dividends and buybacks."
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Above the 75 cents analysts had forecast."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Revenue guidance of $3.17 billion to $3.43 billion bracketing the analyst consensus of $3.21 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. The article reports that Texas Instruments' profit rose 26% in the fourth quarter as continued strength in the automotive market drove top-line improvement."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. CEO Rich Templeton said demand continued to be strong in automotive, improved in industrial."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": null
+  },
+  "TXN_2017q2": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Management said demand was strong across industrial and automotive markets and guided Q2 revenue to $3.40–$3.70 billion and EPS to $0.89–$1.01."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q1 revenue rose 13% to $3.40 billion, the company’s first quarter of double-digit revenue growth since 2010."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. EPS was $0.97, including an $0.08 discrete tax benefit."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. Management said demand was strong across industrial and automotive markets and guided Q2 revenue to $3.40–$3.70 billion and EPS to $0.89–$1.01."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": null,
+    "djnw": null
+  },
+  "TXN_2017q3": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. TI guided Q3 revenue to $3.74–$4.06 billion and EPS to $1.04–$1.18."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q2 revenue increased 13% to $3.69 billion and EPS rose to $1.03."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Q2 revenue increased 13% to $3.69 billion and EPS rose to $1.03."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": null,
+    "djnw": null
+  },
+  "TXN_2017q4": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q3 revenue reached $4.12 billion, up 12%, and EPS was $1.26, both comfortably above consensus."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Q3 revenue reached $4.12 billion, up 12%, and EPS was $1.26, both comfortably above consensus."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": null,
+    "djnw": null
+  },
+  "TXN_2018q1": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. The key negative was the Q1 revenue outlook, which the market viewed as modest relative to expectations."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q4 revenue increased 10% to $3.75 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Reported EPS was only $0.34 because the new U.S. tax law created $0.75 per share of tax-related expense."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. Reported EPS was only $0.34 because the new U.S. tax law created $0.75 per share of tax-related expense."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": null,
+    "djnw": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. The article frames the post-market decline as occurring alongside otherwise in-line first-quarter guidance."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. The article reports that Texas Instruments posted fourth-quarter revenue growth alongside a significant tax-related charge that hurt short-term profitability."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. The article reports that Texas Instruments posted fourth-quarter revenue growth alongside a significant tax-related charge that hurt short-term profitability."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    }
+  },
+  "TXN_2018q2": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. The most important information was the Q2 outlook: revenue of $3.78–$4.10 billion and EPS of $1.19–$1.39 were better than feared."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q1 revenue increased 11% to $3.79 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. EPS reached $1.35, including $0.14 of tax benefits outside the original guide."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": null,
+    "djnw": null
+  },
+  "TXN_2018q3": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Management guided Q3 revenue and EPS roughly in line with expectations."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q2 revenue increased 9% to $4.02 billion and EPS reached $1.40, including a $0.03 discrete tax benefit."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Q2 revenue increased 9% to $4.02 billion and EPS reached $1.40, including a $0.03 discrete tax benefit."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. TI guided to profit of $1.41 to $1.63 a share on revenue of $4.11 billion to $4.45 billion."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Which together account for more than half of company revenue and drove a 9% revenue increase to $4 billion in the second quarter."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. The company reported a 33% profit increase to $1.41 billion, or $1.40 a share, on $4.02 billion in revenue."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": null
+  }
+}

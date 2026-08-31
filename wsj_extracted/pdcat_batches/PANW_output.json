@@ -1,0 +1,727 @@
+{
+  "PANW_2016q2": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. The problem was forward guidance."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Fiscal Q3 revenue grew 48% to $345.8 million, billings increased 61% to $486.2 million, and non-GAAP EPS was $0.42, in line with consensus."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Subscription and support revenue rose 63%, improving the recurring-revenue mix."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Fiscal Q3 revenue grew 48% to $345.8 million, billings increased 61% to $486.2 million, and non-GAAP EPS was $0.42, in line with consensus."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. Management also acknowledged a more volatile macro environment."
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. The article reports that Palo Alto Networks posted a wider net loss on rising expenses and issued a downbeat outlook for the current quarter."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Against analyst expectations of 50 cents on $389 million in revenue."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Notes its products can integrate with a customer's existing security technology rather than requiring a full replacement."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Projected revenue of $386 million to $390 million and adjusted per-share earnings of 48 to 50 cents, against analyst expectations of 50 cents on $389 million in revenue."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. Total operating expenses rose even faster, up 50% to $309.5 million."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": null
+  },
+  "PANW_2016q3": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. However, fiscal Q1 guidance again disappointed."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Fiscal Q4 revenue rose 41% to $400.8 million and non-GAAP EPS was $0.50, both around or above expectations."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Fiscal Q4 revenue rose 41% to $400.8 million and non-GAAP EPS was $0.50, both around or above expectations."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": "positive",
+        "reason": "Capital management was supportive. Billings increased 45%, and the company authorized a $500 million share repurchase."
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. The article reports that Palo Alto Networks gave a mixed financial outlook as both revenue and expenses surged."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. The article reports that Palo Alto Networks gave a mixed financial outlook as both revenue and expenses surged."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. For the full fiscal year, the company projected adjusted per-share profit of $2.75 to $2.80, above the average analyst estimate of $2.64."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. Operating expenses rose 41% to $344.5 million."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": "positive",
+        "reason": "Capital management was supportive. The article notes the board had authorized an additional $500 million in share buybacks the prior week."
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": null
+  },
+  "PANW_2016q4": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Revenue landed below the midpoint of PANW's prior guide even though EPS exceeded guidance."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Fiscal Q1 revenue increased 34% to $398.1 million."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Product revenue increased only about 11%."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Non-GAAP EPS rose 62% to $0.55."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. The company guided to 61 to 63 cents in adjusted profit on $426 million to $432 million in revenue."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. The article reports that Palo Alto Networks' revenue jumped in the fiscal first quarter ended October 31."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Adjusted profit rose to 55 cents from 34 cents."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. A sharp rise in stock-based compensation, up 55% year over year to $116.5 million, and other expenses continued to widen the company's losses."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": null
+  },
+  "PANW_2017q1": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Fiscal Q2 revenue rose 26% to $422.6 million, below PANW's own $426–$432 million guidance."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. Fiscal Q2 revenue rose 26% to $422.6 million, below PANW's own $426–$432 million guidance."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Product revenue declined year over year."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Adjusted EPS of $0.63 was near the high end of guidance."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Grew 26% year over year -- the slowest pace on record for the company -- and that management forecast growth of just 17% to 20% for the current quarter."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Grew 26% year over year -- the slowest pace on record for the company -- and that management forecast growth of just 17% to 20% for the current quarter."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Given Cisco's ability to bundle security technology with its broader array of networking products and services."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. The column recalls that on the previous earnings call in November, Palo Alto had already warned that larger customers were taking longer to make purchasing decisions."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. It observes that sales and marketing expenses have consumed about 56% of Palo Alto's revenue over the trailing four quarters."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. The column adds that the sell-off was reinforced the next day by multiple analyst downgrades that cited intensifying competition from Cisco Systems as a further."
+      }
+    },
+    "djnw": null
+  },
+  "PANW_2017q2": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Fiscal Q3 revenue reached $431.8 million, well above guidance of $406–$416 million, and adjusted EPS was $0.61, above guidance of $0.54–$0.56."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Fiscal Q3 revenue reached $431.8 million, well above guidance of $406–$416 million, and adjusted EPS was $0.61, above guidance of $0.54–$0.56."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Subscription and support revenue grew 46%."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Fiscal Q3 revenue reached $431.8 million, well above guidance of $406–$416 million, and adjusted EPS was $0.61, above guidance of $0.54–$0.56."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. Management said the execution issues were improving and guided fiscal Q4 revenue to $481–$491 million with EPS of $0.78–$0.80."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": null,
+    "djnw": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Noting mixed employment signals, since private-sector hiring beat forecasts but jobless claims hit a five-week high."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": null,
+        "reason": null
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. This is roundup coverage rather than a dedicated Palo Alto Networks earnings story: it is a MarketWatch/Dow Jones Newswires market snapshot describing U.S."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    }
+  },
+  "PANW_2017q3": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Fiscal-2018 guidance called for revenue growth of 21%–23% and adjusted EPS of $3.24–$3.34."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Fiscal Q4 revenue grew 27% to $509.1 million, nearly $22 million above consensus, and adjusted EPS was $0.92, about $0.13 above expectations."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Product revenue grew 11% and subscription/support revenue 42%."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Fiscal Q4 revenue grew 27% to $509.1 million, nearly $22 million above consensus, and adjusted EPS was $0.92, about $0.13 above expectations."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": null,
+    "djnw": null
+  },
+  "PANW_2017q4": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Management raised fiscal-2018 guidance to $2.145–$2.185 billion of revenue and $3.35–$3.41 of non-GAAP EPS."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Fiscal Q1 revenue rose 27% to $505.5 million, product revenue increased 14%, and subscription/support revenue grew 36%."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Fiscal Q1 revenue rose 27% to $505.5 million, product revenue increased 14%, and subscription/support revenue grew 36%."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Management raised fiscal-2018 guidance to $2.145–$2.185 billion of revenue and $3.35–$3.41 of non-GAAP EPS."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": null,
+    "djnw": null
+  },
+  "PANW_2018q1": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Adjusted EPS was $0.97, ahead of forecasts near $0.79."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Fiscal Q2 revenue increased 28% to $542.4 million, product revenue grew 20%, subscription/support revenue 34%, and billings 20%."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Fiscal Q2 revenue increased 28% to $542.4 million, product revenue grew 20%, subscription/support revenue 34%, and billings 20%."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Adjusted EPS was $0.97, ahead of forecasts near $0.79."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": null,
+    "djnw": null
+  },
+  "PANW_2018q2": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. On June 4, PANW reported adjusted EPS of $0.99, well above prior guidance of $0.94–$0.96."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. The preannounced Q3 numbers were strong: revenue rose 31% to $567.1 million, product revenue 31% to $215.2 million, and billings 33% to $721.0 million."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The preannounced Q3 numbers were strong: revenue rose 31% to $567.1 million, product revenue 31% to $215.2 million, and billings 33% to $721.0 million."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. On June 4, PANW reported adjusted EPS of $0.99, well above prior guidance of $0.94–$0.96."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": null,
+    "djnw": null
+  },
+  "PANW_2018q3": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Management guided fiscal Q1 2019 revenue to $625–$635 million under the new accounting standard."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Fiscal Q4 revenue increased 29% to $658.1 million, billings rose 29% to $868.1 million, and adjusted EPS reached $1.28."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Subscription and support revenue grew 32%."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Fiscal Q4 revenue increased 29% to $658.1 million, billings rose 29% to $868.1 million, and adjusted EPS reached $1.28."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": null,
+    "djnw": null
+  }
+}

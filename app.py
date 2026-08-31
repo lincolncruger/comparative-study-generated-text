@@ -76,6 +76,7 @@ GROUP_CONTEXT_PATH = os.path.join(HERE, "data", "group_context.json")
 GROUP_WSJ_COVERAGE_PATH = os.path.join(HERE, "data", "group_wsj_coverage.json")
 GROUP_DJNW_COVERAGE_PATH = os.path.join(HERE, "data", "group_djnw_coverage.json")
 GROUP_PD_CATEGORIES_PATH = os.path.join(HERE, "data", "group_pd_categories.json")
+GROUP_FIRST_ORDER_CATEGORIES_PATH = os.path.join(HERE, "data", "group_first_order_categories.json")
 # The 11 fixed categories each of the 3 coverage sources (Contextualized
 # interpretation / WSJ / DJNW) is independently rated against, per
 # observation -- lets a viewer see whether all 3 sources actually surface
@@ -88,7 +89,7 @@ PD_CATEGORIES = [
     "Guidance",
     "Order book / order backlog",
     "Revenue",
-    "Product",
+    "Product / Users",
     "Profits and profitability",
     "Costs",
     "Debt, leverage and capital raise",
@@ -596,6 +597,14 @@ def load_group_pd_categories(mtime_marker):
         return json.load(f)
 
 
+@st.cache_data
+def load_group_first_order_categories(mtime_marker):
+    if not os.path.exists(GROUP_FIRST_ORDER_CATEGORIES_PATH):
+        return {}
+    with open(GROUP_FIRST_ORDER_CATEGORIES_PATH) as f:
+        return json.load(f)
+
+
 def render_wsj_pdf_link_html(source, static_slug):
     """Returns HTML for a plain link that opens the source PDF in a new
     browser tab, served from Streamlit's static/ folder (see
@@ -663,7 +672,7 @@ def _show_pd_categories_dialog(note_key):
     if not entry:
         st.info(
             "No PD Data Categories analysis available yet for this observation. "
-            "This feature is currently only built out for NVDA's first quarter (2016q2) as a test."
+            "The analysis is available for the complete 300-observation dashboard dataset."
         )
         return
 
@@ -721,6 +730,75 @@ def _show_pd_categories_dialog(note_key):
 
     st.markdown(
         "<div style='display:grid; grid-template-columns: 1fr 1fr 1fr; "
+        "column-gap:1.5rem; align-items:start;'>" + "".join(grid_parts) + "</div>",
+        unsafe_allow_html=True,
+    )
+
+
+@st.dialog(" ", width="large")
+def _show_first_order_categories_dialog(note_key):
+    st.markdown("<h2 style='text-align:center;'>First Order Categories</h2>", unsafe_allow_html=True)
+    abnormal = group_abnormal_returns_lookup.get(note_key, {})
+    market_adjusted = abnormal.get("market_adjusted") or {}
+    market_model = abnormal.get("market_model") or {}
+    excess = market_adjusted.get("excess_return_pct")
+    excess_z = market_adjusted.get("z_score")
+    abnormal_return = market_model.get("abnormal_return_pct")
+    abnormal_z = market_model.get("z_score")
+
+    def metric(value, z_score):
+        if value is None or z_score is None:
+            return "n/a"
+        return f"{value:+.2f}% ({z_score:+.2f}σ)"
+
+    st.markdown(
+        "<div style='text-align:center; font-size:1rem; margin-bottom:1.2rem; opacity:0.9;'>"
+        f"Market-adjusted excess return: <b>{metric(excess, excess_z)}</b>"
+        " &nbsp;|&nbsp; "
+        f"Beta-adjusted abnormal return: <b>{metric(abnormal_return, abnormal_z)}</b>"
+        "</div>",
+        unsafe_allow_html=True,
+    )
+
+    entry = group_first_order_categories_lookup.get(note_key)
+    if not entry:
+        st.info("No First Order Categories analysis is available for this observation.")
+        return
+
+    grid_parts = []
+    for col_i, (source_key, source_label) in enumerate(PD_CATEGORY_SOURCES, start=1):
+        grid_parts.append(
+            f"<div style='grid-column:{col_i}; grid-row:1; text-align:center; "
+            f"font-weight:bold; font-size:1.15rem;'>{source_label}</div>"
+        )
+        categories = entry.get(source_key)
+        if not categories:
+            grid_parts.append(
+                f"<div style='grid-column:{col_i}; grid-row:2;'>"
+                "<p style='font-size:0.95rem; font-style:italic; opacity:0.75;'>"
+                "No first-order category implied by this coverage.</p></div>"
+            )
+            continue
+        cells = []
+        for item in categories[:2]:
+            rating = item.get("rating")
+            badge = (
+                "<span style='color:#5FBF6E;'>&#9679; Positive</span>"
+                if rating == "positive"
+                else "<span style='color:#E06C6C;'>&#9679; Negative</span>"
+            )
+            cells.append(
+                "<div style='margin-bottom:1rem;'>"
+                f"<div style='font-size:1rem; font-weight:600;'>{item['category']} {badge}</div>"
+                f"<div style='font-size:0.9rem; opacity:0.85; line-height:1.3;'>"
+                f"{render_inline_markdown(item.get('reason', ''))}</div></div>"
+            )
+        grid_parts.append(
+            f"<div style='grid-column:{col_i}; grid-row:2;'>{''.join(cells)}</div>"
+        )
+
+    st.markdown(
+        "<div style='display:grid; grid-template-columns:1fr 1fr 1fr; "
         "column-gap:1.5rem; align-items:start;'>" + "".join(grid_parts) + "</div>",
         unsafe_allow_html=True,
     )
@@ -1285,6 +1363,9 @@ group_abnormal_returns_lookup = load_group_abnormal_returns(_mtime(GROUP_ABNORMA
 group_wsj_coverage_lookup = load_group_wsj_coverage(_mtime(GROUP_WSJ_COVERAGE_PATH))
 group_djnw_coverage_lookup = load_group_djnw_coverage(_mtime(GROUP_DJNW_COVERAGE_PATH))
 group_pd_categories_lookup = load_group_pd_categories(_mtime(GROUP_PD_CATEGORIES_PATH))
+group_first_order_categories_lookup = load_group_first_order_categories(
+    _mtime(GROUP_FIRST_ORDER_CATEGORIES_PATH)
+)
 
 tickers = sorted(df["ticker"].unique())
 ticker_labels = {
@@ -1613,10 +1694,19 @@ if st.session_state.selected_section == "Data Visualization 2":
             "</div>"
         )
 
-        g_pdcat_spacer_l, g_pdcat_btn_col, g_pdcat_spacer_r = st.columns([2, 1, 2])
+        g_action_spacer_l, g_pdcat_btn_col, g_first_order_btn_col, g_action_spacer_r = st.columns(
+            [1.5, 1, 1, 1.5]
+        )
         with g_pdcat_btn_col:
             if st.button("PD Data Categories", key=f"pdcat_btn_{g_note_key}", use_container_width=True):
                 _show_pd_categories_dialog(g_context_key)
+        with g_first_order_btn_col:
+            if st.button(
+                "First Order Categories",
+                key=f"first_order_btn_{g_note_key}",
+                use_container_width=True,
+            ):
+                _show_first_order_categories_dialog(g_context_key)
 
         st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
 

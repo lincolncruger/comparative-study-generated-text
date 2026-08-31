@@ -1,0 +1,1177 @@
+{
+  "CAT_2016q2": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Caterpillar lowered its 2016 sales outlook to $40–$42 billion and cut adjusted profit guidance to about $3.70 per share from $4.00."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. Caterpillar reported $9.46 billion of sales and revenue, down from $12.7 billion a year earlier."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. Adjusted profit excluding restructuring costs was $0.67 per share, missing consensus by about one cent even though revenue slightly exceeded expectations."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. Cost reductions of nearly $500 million helped."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Trimming $2 billion off the top end of its revenue forecast to a range of $40 billion to $42 billion and lowering its per-share profit outlook to $3.00."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. As sales fell 26% to $9.5 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. Caterpillar reported a first-quarter profit of $271 million."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Or $3.70 excluding restructuring costs."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "negative",
+        "reason": "Management struck a cautious tone. CEO Doug Oberhelman struck a cautiously more upbeat note on China."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. CEO Doug Oberhelman struck a cautiously more upbeat note on China."
+      }
+    },
+    "djnw": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. The article reports that Caterpillar cut its 2016 financial forecasts, citing weak equipment demand across construction, mining, and energy markets."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. The company narrowed its full-year revenue outlook to $40 billion to $42 billion, down from a prior $40 billion to $44 billion range."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. Lowered its earnings guidance to $3 per share ($3.70 excluding restructuring costs) from a previous $3.50 ($4 adjusted)."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Lowered its earnings guidance to $3 per share ($3.70 excluding restructuring costs) from a previous $3.50 ($4 adjusted)."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. The piece details where the weakness was concentrated, noting Latin American sales plunged 43% amid economic distress in Brazil and Mexico."
+      }
+    }
+  },
+  "CAT_2016q3": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Management still described most end markets as difficult and kept the full-year sales outlook subdued."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. Q2 sales and revenue were $10.34 billion, down 16% year over year."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Adjusted profit was $1.09 per share."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Caterpillar’s restructuring and cost-control efforts produced better decremental margins than the magnitude of the sales decline would normally imply."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. The company simultaneously cut its full-year profit outlook to about $2.75 a share."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Caterpillar topped second-quarter profit and sales expectations, reporting earnings per share of $1.09 excluding restructuring costs."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Caterpillar topped second-quarter profit and sales expectations, reporting earnings per share of $1.09 excluding restructuring costs."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Said restructuring expenses for the year would rise to about $700 million from an earlier $550 million estimate."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. The attempted coup in Turkey."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. We're a little more negative on the world economy."
+      }
+    },
+    "djnw": null
+  },
+  "CAT_2016q4": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Revenue remained weak and management lowered its 2016 outlook again."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Caterpillar reported $9.16 billion of sales and revenue and adjusted profit of $0.85 per share."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Caterpillar reported $9.16 billion of sales and revenue and adjusted profit of $0.85 per share."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. China construction showed some improvement."
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. The company trimmed its full-year profit outlook to earnings per share of $2.35, or $3.25 excluding restructuring costs."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. As revenue fell 16% to $9.2 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. Caterpillar reported third-quarter profit of $283 million."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Executives flagged a potential fourth-quarter noncash hit tied to pension and postretirement benefit costs of up to $2 billion after tax."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "negative",
+        "reason": "Management struck a cautious tone. Outgoing CEO Doug Oberhelman, who announced he would step down, said We've been through an awful, rough period the last four years."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": null
+  },
+  "CAT_2017q1": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. The disappointing part was the 2017 outlook."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. Q4 sales and revenue were about $9.6 billion, below consensus."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. On an adjusted basis, profit was substantially better than the headline loss suggested."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. The GAAP loss of $2.00 per share was heavily affected by noncash and restructuring charges."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Revenue of $9.6 billion missed the $9.8 billion analysts had forecast."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. As revenue fell to $9.6 billion from $11 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. New CEO Jim Umpleby said, We continue to execute in a challenging economic environment and are focused on improving operating margins, profitability and shareholder returns."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. Excluding higher-than-expected restructuring costs, pension and retirement-benefit losses."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. Most reductions in the U.S. Executives struck an optimistic tone about the incoming Trump administration's proposed infrastructure spending, tax cuts."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. Dollar following President Trump's election could hurt export-dependent sales."
+      }
+    },
+    "djnw": null
+  },
+  "CAT_2017q2": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Caterpillar raised its 2017 sales outlook to $38–$41 billion."
+      },
+      "Order book / order backlog": {
+        "rating": "positive",
+        "reason": "Demand visibility was encouraging. Backlog increased about $2.7 billion from year-end."
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q1 sales and revenue rose to $9.82 billion, the first year-over-year increase in 10 quarters."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Adjusted profit was $1.28 per share, far above both the prior year and consensus expectations."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. Resource Industries sales increased as mining conditions improved, and China construction demand strengthened."
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Caterpillar reported its first quarterly sales increase since 2015 for the period ended March 31 and raised its full-year revenue outlook to as much as $41 billion."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Caterpillar reported its first quarterly sales increase since 2015 for the period ended March 31 and raised its full-year revenue outlook to as much as $41 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. Weakness in key markets,\" calling his first quarter as CEO \"eventful.\" Overall profit was $192 million."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. Excluding restructuring costs, the company earned $1.28 a share versus 64 cents."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "negative",
+        "reason": "Management struck a cautious tone. Weakness in key markets,\" calling his first quarter as CEO \"eventful.\" Overall profit was $192 million."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Notes the company raised its full-year revenue and profit forecasts as a result."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. The article reports Caterpillar's first quarterly sales increase since 2015, describing it as a signal of recovery after years of declining demand."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Notes the company raised its full-year revenue and profit forecasts as a result."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. Earnings-per-share guidance excluding restructuring costs jumped to $3.75 from $2.90."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "negative",
+        "reason": "Management struck a cautious tone. It quotes CEO Jim Umpleby saying there are just a lot of positive things happening in our segments,' while cautioning about uncertainty across the globe."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    }
+  },
+  "CAT_2017q3": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Caterpillar raised its full-year outlook again."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q2 sales and revenue increased to $11.3 billion from $10.3 billion a year earlier."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Adjusted profit reached $1.49 per share versus $1.09."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. Particularly strong China construction activity and North American gas-compression demand."
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Caterpillar raised its full-year revenue outlook to $42 billion to $44 billion."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Which if achieved would mark the company's first year-over-year revenue increase since 2012."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Second-quarter revenue jumped 10% from a year earlier to $11.3 billion and profit of $802 million beat Wall Street's expectations."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "negative",
+        "reason": "Management struck a cautious tone. Executives cautioned that some of the improvement, particularly in mining, followed years of steep declines and remained well off earlier-decade highs."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. The company pointed to growing demand in China's construction sector, tied to government infrastructure spending."
+      }
+    },
+    "djnw": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. The company raised its full-year 2017 revenue forecast to a range of $42 billion to $44 billion."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. The article reports Caterpillar's second-quarter revenue rose 10% to $11.3 billion with profit of $802 million."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Translating to earnings per share of $1.35 that surpassed analyst expectations of $1.26 adjusted."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. The piece cites growing demand in China's construction sector, a revitalizing mining industry."
+      }
+    }
+  },
+  "CAT_2017q4": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Caterpillar raised its full-year sales outlook to roughly $44 billion and adjusted EPS guidance to about $6.25."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q3 sales and revenue reached about $11.4 billion, up roughly 25% year over year."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Adjusted profit increased to $1.95 per share from $0.85."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Caterpillar raised its full-year sales and profit forecast, now expecting roughly $44 billion in revenue, up from a July forecast of $43 billion."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Caterpillar raised its full-year sales and profit forecast, now expecting roughly $44 billion in revenue, up from a July forecast of $43 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Caterpillar raised its full-year sales and profit forecast, now expecting roughly $44 billion in revenue, up from a July forecast of $43 billion."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. Crediting the benefits of years of layoffs and plant closures: They were very hard — hard for us to figure out how to do it but."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. CEO Jim Umpleby, in his first year at the helm, said his priority was \"profitable growth\" rather than simply revenue and market share."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. Particularly from an improving North American oil-and-gas industry and demand for large excavators in China."
+      }
+    },
+    "djnw": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Lifted adjusted profit-per-share guidance to $6.25 from $5."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Revenue climbed 25% to $11.41 billion, exceeding analyst expectations of $10.65 billion in revenue and $1.27 in adjusted EPS."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Profit of $1.06 billion, or $1.77 per share, up from $283 million, or 48 cents, a year earlier."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. The piece also notes restructuring costs were raised to $1.3 billion from $1.2 billion and that Caterpillar plans a pricing restructuring beginning the following year."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "positive",
+        "reason": "Capital investment was constructive. Higher capital spending among mining customers."
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    }
+  },
+  "CAT_2018q1": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Adjusted profit was about $2.16 per share, and Caterpillar introduced 2018 adjusted EPS guidance of $8.25–$9.25, above the prevailing consensus."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q4 sales and revenue jumped 35% to $12.9 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Adjusted profit was about $2.16 per share, and Caterpillar introduced 2018 adjusted EPS guidance of $8.25–$9.25, above the prevailing consensus."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. Contemporaneous coverage emphasized trade-war/currency concerns and the exceptionally high expectations already embedded in the stock."
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Nearly every region of the world expected to grow in 2018, though the company did not offer a formal 2018 revenue forecast."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. Caterpillar reported that annual revenue jumped 18% to $45.5 billion in 2017, breaking a four-year streak of declining sales."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. Versus a year-earlier loss of $1.17 billion."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "negative",
+        "reason": "Management struck a cautious tone. Caterpillar said it expects an effective tax rate of 24% this year, down from 28% in 2017."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. The largest gains coming from North America and, in Asia-Pacific, from China amid increased building construction and infrastructure investment."
+      }
+    },
+    "djnw": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Fourth-quarter revenue alone rose 35% year-over-year to $12.9 billion, topping a $12 billion analyst forecast."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. For the full year, revenue surged 18% to $45.5 billion, which the article says ended four consecutive years of sales declines."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Adjusted earnings, excluding that charge and restructuring items, came to $2.16 per share, above analyst expectations of $1.79."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. Adjusted earnings, excluding that charge and restructuring items, came to $2.16 per share, above analyst expectations of $1.79."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. To a stabilizing Latin America even as construction there remained weak."
+      }
+    }
+  },
+  "CAT_2018q2": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Caterpillar raised 2018 adjusted EPS guidance to $10.25–$11.25 and announced a $500 million share repurchase."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q1 sales and revenue jumped 31% to $12.9 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Adjusted profit reached $2.82 per share versus $1.28 a year earlier."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Management warned that higher steel and other material costs would become a larger headwind and said first-quarter adjusted profit per share would likely be the “high water."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": "positive",
+        "reason": "Capital management was supportive. Caterpillar raised 2018 adjusted EPS guidance to $10.25–$11.25 and announced a $500 million share repurchase."
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "negative",
+        "reason": "Management struck a cautious tone. Management warned that higher steel and other material costs would become a larger headwind and said first-quarter adjusted profit per share would likely be the."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. On an adjusted basis earnings more than doubled to $2.82 a share."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Caterpillar reported that first-quarter sales rose 31% on strong global construction and mining activity."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Overall profit more than doubling to $1.67 billion, or $2.74 a share, from $192 million, or 32 cents a share, a year earlier."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. Flagged rising raw-material and steel costs."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. On the analyst call, top executives said the quarter could prove to be a \"high-water mark\" for the year."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. Director of investor relations Amy Campbell saying demand for 10-ton excavators in China was now expected to rise 30% this year, up from an earlier 8% forecast."
+      }
+    },
+    "djnw": null
+  },
+  "CAT_2018q3": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Caterpillar raised full-year adjusted EPS guidance to $11–$12."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q2 sales and revenue increased 24% to $14.0 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Adjusted profit reached $2.97 per share."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Including an expected $100–$200 million of incremental tariff-related costs for the remainder of the year."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": "positive",
+        "reason": "Capital management was supportive. Repurchased roughly $750 million of stock and increased its dividend."
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Total sales, including financial products, rose 24% to $14.01 billion versus the $13.88 billion analysts polled by Thomson Reuters had forecast."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. As equipment sales rose 25% on strong demand from oil."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Total sales, including financial products, rose 24% to $14.01 billion versus the $13.88 billion analysts polled by Thomson Reuters had forecast."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Caterpillar reported second-quarter profit that more than doubled from a year earlier."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. Also disclosed that new Trump-administration tariffs on imported metals and components would raise its material costs by $100 million to $200 million over the rest of."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": "positive",
+        "reason": "Capital management was supportive. Announced a new $10 billion share-buyback program to begin next year, on top of $4.5 billion remaining under its current program."
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": null
+  }
+}

@@ -1,0 +1,1087 @@
+{
+  "GOOGL_2016q2": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Alphabet reported $20.26 billion of revenue, up 17%, and adjusted EPS of $7.50."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Alphabet reported $20.26 billion of revenue, up 17%, and adjusted EPS of $7.50."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Aggregate cost-per-click declined again as usage shifted toward mobile and YouTube."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. The WSJ framed Alphabet's first-quarter 2016 report around the idea that \"even a small miss can have big consequences\": revenue of $20.26 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. Non-GAAP earnings of $7.50 a share missed the $7.97 analysts expected."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Pointing instead to a combination of slightly lower revenue and slightly higher expenses."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": "positive",
+        "reason": "The legal development was favorable. EU regulators had filed formal antitrust charges against Google over Android."
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": null
+  },
+  "GOOGL_2016q3": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q2 revenue increased 21% to $21.5 billion and adjusted EPS reached $8.42, both comfortably above consensus."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Q2 revenue increased 21% to $21.5 billion and adjusted EPS reached $8.42, both comfortably above consensus."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Revenue rose 21% to $21.5 billion, beating the average analyst estimate of $20.76 billion (Thomson Reuters)."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Alphabet's second-quarter 2016 report was described as part of a two-day pattern of \"blockbuster earnings\" from internet giants riding the mobile shift."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. The article detailed the click/price dynamic underlying the beat: paid clicks rose 29% (a fourth straight quarter above 22% growth) while average cost per click fell."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "negative",
+        "reason": "Management struck a cautious tone. CEO Sundar Pichai told analysts \"the strength of the quarter is about mobile,\" and RBC's Mark Mahaney offered pointed comparative framing."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. It also flagged competitive context."
+      }
+    },
+    "djnw": null
+  },
+  "GOOGL_2016q4": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Alphabet posted $22.45 billion of revenue, up 20%, and adjusted EPS of about $9.06, both above consensus."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Alphabet posted $22.45 billion of revenue, up 20%, and adjusted EPS of about $9.06, both above consensus."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Paid clicks remained very strong even as cost-per-click fell another roughly 11% year over year."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Revenue rose 20% to $22.45 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Alphabet's third-quarter 2016 results showed profit surging 27%."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. The article also detailed a persistent margin pressure: cost per click fell 11% in the quarter."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": null
+  },
+  "GOOGL_2017q1": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q4 revenue increased 22% to $26.06 billion, above consensus."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. Adjusted EPS of roughly $9.36 missed expectations near $9.67."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. The mixed result mattered because the market was beginning to focus less on gross revenue growth and more on the cost required to generate it."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Alphabet's fourth-quarter 2016 report presented a split picture: revenue grew 22% to $26.1 billion, surpassing estimates."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Nonadvertising sales surging 62% to $3.4 billion, boosted by the fourth-quarter launch of three new hardware products."
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. Profit grew only 8.3% to $5.33 billion, missing Wall Street estimates — a gap the article says Alphabet blamed on a one-time tax adjustment."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "positive",
+        "reason": "Capital investment was constructive. Capital expenditures jumped nearly $1 billion to $3.08 billion, partly to build data centers to compete with Amazon and Microsoft in cloud."
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. Noting Google's advertising business had posted 20%-plus annual growth (ex-currency) for 20 consecutive quarters."
+      }
+    },
+    "djnw": null
+  },
+  "GOOGL_2017q2": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Alphabet delivered $24.75 billion of revenue, up 22%, and EPS of $7.73."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Alphabet delivered $24.75 billion of revenue, up 22%, and EPS of $7.73."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Alphabet's first-quarter 2017 report showed net revenue rising 22% to $24.75 billion, beating the Wall Street estimate of $24.22 billion (Thomson Reuters)."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Profit rose 29% to $5.43 billion ($7.73 a share, versus $4.21 billion a year earlier), beating the $7.39 analysts expected."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Average cost per click fell 19%, which the article attributes to the continued mix shift toward lower-priced mobile and YouTube inventory."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. According to Pivotal Research's Brian Wieser."
+      }
+    },
+    "djnw": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. It reports revenue climbed 22% to $24.75 billion, beating analyst expectations on both profit and sales."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. This dedicated Dow Jones Newswires analysis by Mike Shields covers Alphabet's first-quarter 2017 results and their implications for advertisers rather than functioning as a."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "negative",
+        "reason": "Management struck a cautious tone. CEO Sundar Pichai said the company had taken significant steps' to address advertiser concerns."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    }
+  },
+  "GOOGL_2017q3": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q2 revenue rose 21% to $26.01 billion, above consensus."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Excluding the $2.7 billion European Commission fine, adjusted earnings were also well ahead of expectations."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. The problem was cost structure."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": "negative",
+        "reason": "Legal risk was a negative. Shares fell because rising TAC and the EU antitrust fine overshadowed better-than-expected revenue and underlying earnings."
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Rose 28% year over year to a record $5.1 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Even accounting for that framing, underlying operating income growth of 15% year over year was described as the company's slowest pace in two years."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. A dynamic the headline explicitly calls \"traffic costs jam up Google.\" The column closes by noting Alphabet stock had run up 26% year to date heading into the report."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. The piece's central argument is that click growth of this magnitude is not costless."
+      }
+    },
+    "djnw": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. This is a brief Dow Jones Newswires tech-sector roundup rather than a dedicated Alphabet earnings story."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. This is a brief Dow Jones Newswires tech-sector roundup rather than a dedicated Alphabet earnings story."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    }
+  },
+  "GOOGL_2017q4": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q3 revenue rose 24% to $27.77 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Operating income increased strongly and consolidated operating margin improved to 28%."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. The quarter therefore directly answered the July concern: higher traffic costs were real."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": null,
+    "djnw": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. On revenue that climbed 24% to $27.77 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. This dedicated Alphabet earnings story by Jack Nicas reports third-quarter net profit of $6.73 billion."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. The aggregate cost-per-click -- what advertisers pay for user clicks -- dropping 18% during the quarter."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    }
+  },
+  "GOOGL_2018q1": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q4 revenue increased 24% to $32.32 billion, above consensus."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. Adjusted EPS of $9.70 missed expectations near $9.98."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. The more important issue was cost growth."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Revenue grew 24% to $32.32 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Excluding the tax charge, profit actually rose 28% to $6.84 billion."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. RBC's Mark Mahaney attributed the earnings miss specifically to traffic acquisition costs."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": "positive",
+        "reason": "Capital management was supportive. Alphabet authorized a new $8.59 billion buyback, its first since a 2016 program."
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": null
+  },
+  "GOOGL_2018q2": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q1 revenue surged 26% to $31.15 billion, beating consensus, and underlying EPS also exceeded expectations."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Q1 revenue surged 26% to $31.15 billion, beating consensus, and underlying EPS also exceeded expectations."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. Costs accelerated even faster."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "positive",
+        "reason": "Capital investment was constructive. Capital spending jumped to about $7.3 billion."
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Advertising revenue, still nearly all of the company's top line, rose 24% to $26.6 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Alphabet's first-quarter 2018 report showed net profit surging 73% to $9.4 billion."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. The piece also detailed rising cost pressure: traffic acquisition costs rose 35% to $6.3 billion, representing about one-fifth of revenue for five consecutive quarters."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "negative",
+        "reason": "Capital spending was a concern. Capital expenditures nearly tripled to $7.3 billion."
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. Noted a backdrop of intensifying privacy scrutiny (GDPR taking effect May 25) that CEO Sundar Pichai said Google was prepared for."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": null
+  },
+  "GOOGL_2018q3": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q2 revenue increased 26% to $32.66 billion, above consensus."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Excluding the new $5.1 billion Android antitrust fine, adjusted EPS was roughly $11.75, comfortably ahead of expectations."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. Traffic-acquisition costs were still elevated."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": "positive",
+        "reason": "The legal development was favorable. Excluding the new $5.1 billion Android antitrust fine, adjusted EPS was roughly $11.75, comfortably ahead of expectations."
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Revenue excluding traffic acquisition costs rose 25% to $26.24 billion, beating the $25.6 billion analysts expected (FactSet)."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. Which the article says caused reported profit to fall 9% to $3.2 billion."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. A detail suggesting the margin pressure from traffic acquisition costs that had weighed on prior quarters' coverage was easing somewhat."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. Attributes that reaction to the revenue and adjusted-EPS beats detailed above."
+      },
+      "Litigation": {
+        "rating": "negative",
+        "reason": "Legal risk was a negative. Alphabet's second-quarter 2018 report landed against a backdrop of regulatory pressure."
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Excluding traffic-acquisition costs."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. This dedicated Alphabet earnings story reports that reported second-quarter earnings declined 9.3%."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. Excluding traffic-acquisition costs."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": "negative",
+        "reason": "Legal risk was a negative. This dedicated Alphabet earnings story reports that reported second-quarter earnings declined 9.3%."
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    }
+  }
+}

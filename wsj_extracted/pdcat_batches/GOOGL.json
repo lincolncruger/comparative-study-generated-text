@@ -1,0 +1,1157 @@
+{
+  "GOOGL_2016q2": {
+    "ticker": "GOOGL",
+    "group": "Group 1",
+    "company_name": "Alphabet",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-21",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Alphabet was only a few months into its new segment-reporting structure, which separated Google from Other Bets. Investors were focused on whether mobile search and YouTube could preserve ad growth despite structurally lower mobile cost-per-click.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Alphabet Investor Relations: Getting ready for segment reporting",
+                  "url": "https://abc.xyz/investor/news/2016/0128/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Alphabet reported **$20.26 billion of revenue**, up 17%, and adjusted EPS of **$7.50**. Both missed consensus, which was around $20.3–$20.4 billion of revenue and roughly $7.96 EPS. Paid clicks continued to grow rapidly, but aggregate cost-per-click declined again as usage shifted toward mobile and YouTube.",
+              "sources": []
+            },
+            {
+              "text": "The quarter therefore exposed a tension in Google’s ad model: volume remained strong, but the value per click was falling. Other Bets also produced substantial operating losses. With the stock near record highs before the print, a modest miss on both revenue and earnings was enough to trigger a sharp reset.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "SEC / Alphabet: Alphabet Announces First Quarter 2016 Results",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204416000015/googexhibit991q12016.htm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock fell because both revenue and EPS missed expectations.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Falling cost-per-click kept pressure on the quality of mobile-driven ad growth.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** High pre-earnings expectations amplified the impact of an otherwise still-strong growth quarter.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TechCrunch: Alphabet slides 5% after missing earnings expectations on revenue of $20.3B",
+                  "url": "https://techcrunch.com/2016/04/21/alphabet-slides-6-after-missing-earnings-expectations/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Alphabet/GOOGL identity, the correct earnings event, publication date, timing window and source origin. SEC/Alphabet Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Alphabet Investor Relations: Getting ready for segment reporting",
+          "url": "https://abc.xyz/investor/news/2016/0128/"
+        },
+        {
+          "label": "SEC / Alphabet: Alphabet Announces First Quarter 2016 Results",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204416000015/googexhibit991q12016.htm"
+        },
+        {
+          "label": "TechCrunch: Alphabet slides 5% after missing earnings expectations on revenue of $20.3B",
+          "url": "https://techcrunch.com/2016/04/21/alphabet-slides-6-after-missing-earnings-expectations/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The WSJ framed Alphabet's first-quarter 2016 report around the idea that \"even a small miss can have big consequences\": revenue of $20.26 billion, up 17% year over year, came in just below the average analyst estimate of $20.37 billion (Thomson Reuters), and non-GAAP earnings of $7.50 a share missed the $7.97 analysts expected. Net income itself rose to $4.21 billion ($6.02 a share) from $3.52 billion ($5.10) a year earlier, so the underlying business was healthy; the article says there was \"no single reason\" for the miss, pointing instead to a combination of slightly lower revenue and slightly higher expenses, particularly rising personnel costs and growing payments to advertising partners as more ad revenue shifted to mobile and flowed through middlemen. CFO Ruth Porat told analysts the results \"underscored the great momentum of our businesses globally,\" attributing it primarily to increased mobile search use, while Macquarie's Ben Schachter noted Google was \"showing more ads in a smaller space\" on phones, driving higher click-through but lower revenue per click (cost per click fell 9% year over year). The article also detailed Alphabet's \"Other Bets\" segment, the second quarter it reported those figures separately: operating losses widened to $802 million from $633 million even as segment revenue more than doubled to $166 million, and Porat cautioned investors to expect \"lumpiness\" in that unit's results quarter to quarter. Total costs and expenses grew 16.4%, slower than revenue, which the piece attributed to expense discipline under Porat alongside continued hiring (2,300 net new employees). The report also noted that the day before earnings, EU regulators had filed formal antitrust charges against Google over Android, adding a fresh regulatory overhang on top of an existing EU shopping-service case.",
+      "why_moved": "The article states Alphabet shares fell 6% in after-hours trading, and ties that reaction directly to the modest revenue and EPS misses detailed above ($20.26 billion versus $20.37 billion expected, $7.50 versus $7.97 a share) rather than to any single identifiable cause, explicitly noting there was \"no single reason.\" The framing device the article opens with — that a small miss can have outsized consequences — reflects that this was a business still growing at double-digit rates, but doing so after a 46% rally in Alphabet shares over the prior year had raised the bar for what would satisfy investors. The widening Other Bets losses ($802 million from $633 million) and the fresh EU antitrust charges reported the day before add to a mildly negative backdrop but are not framed by the article as primary drivers of the stock reaction; the piece keeps the emphasis on the expectations miss itself.",
+      "sources": [
+        {
+          "filename": "Google Parent’s Earnings Fall Short of Expectations - WSJ.pdf",
+          "title": "Google Parent’s Earnings Fall Short of Expectations Alphabet says operating loss from its other bets widened to $802 million from $633 million",
+          "published_date": "2016-04-21",
+          "text": "Google Parent’s Earnings Fall Short of Expectations - WSJ 2026-08-28, 2:42 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/google-earnings-fall-short-of-expectations-1461270082\nTECH\nGoogle Parent’s Earnings Fall Short of Expectations\nAlphabet says operating loss from its other bets widened to $802 million from $633\nmillion\nBy Jack Nicas\nUpdated April 21, 2016 at 9:22 pm ET\nGoogle has benefited as more advertisers shift online, particularly to smartphones, where Internet users spend a\ngrowing share of their time. VIRGINIA MAYO/ASSOCIATED PRESS\nFor Google parent Alphabet Inc., GOOG 1.56% even a small miss can have big\nconsequences.\nOn Thursday, Alphabet posted healthy increases in first-quarter revenue and profits,\ndriven by the growing strength of its core Google business on mobile devices.\nThe company missed Wall Street estimates, in part because of growing losses from its\nlong-term “bets” on blue-sky projects such as driverless cars and home automation.\nhttps://www.wsj.com/articles/google-earnings-fall-short-of-expectations-1461270082 Page 1 of 5\nGoogle Parent’s Earnings Fall Short of Expectations - WSJ 2026-08-28, 2:42 PM\nAlphabet shares fell 6% in after-hours trading, taking some steam out of a rally that\nhad lifted them 46% over the past year. Alphabet remains the world’s second-most-\nvaluable company, after Apple Inc., with a market capitalization exceeding $500\nbillion.\nThere was no single reason why earnings fell short of expectations. Revenue was a bit\nlower than expected, while expenses were a bit higher.\nAlphabet executives pointed to increasing personnel costs and higher payments to\nadvertising partners as more of Google’s ad revenue comes from mobile devices and\nthrough middlemen.\nGoogle is the leading digital-ad platform, and is capitalizing on the global shift to\nmobile by both users and advertisers, to access the Internet through mobile devices.\nGoogle’s search engine is the default on the vast majority of mobile devices. Last fall,\nit added a third ad atop mobile-search results, shortly after it announced that\nsearches on mobile devices surpassed those on traditional computers for the first\ntime.\nAlphabet doesn’t break out its results for mobile, but digital-marketing firm Merkle\nInc. said clicks on Google’s mobile-search ads more than doubled in the first quarter.\nThis year, for the first time, researcher eMarketer projects that a majority of Google’s\nad revenue will come from such devices.\n“Google is showing more ads in a smaller space” and thus “people are clicking them\nmore often,” said Macquarie Research analyst Ben Schachter.\nThe shift to mobile comes with downsides. Each ad generates less revenue, because\nusers are less likely to follow through with purchases on a phone’s small screen.\nAlphabet said the average cost of a click on one of its ads, across all devices, fell 9%,\ncompared with a year earlier. Moreover, Google must share more of its ad revenue on\nhttps://www.wsj.com/articles/google-earnings-fall-short-of-expectations-1461270082 Page 2 of 5\nGoogle Parent’s Earnings Fall Short of Expectations - WSJ 2026-08-28, 2:42 PM\nsmartphones with device makers and telecom carriers.\nThe company’s first-quarter results “underscored the great momentum of our\nbusinesses globally,” Alphabet Chief Financial Officer Ruth Porat told investors on a\nconference call. “The primary driver was the increased use of mobile search by\nconsumers.”\nMs. Porat’s move to Alphabet from Morgan Stanley last year was cheered by investors,\nwho hoped the former Wall Street executive would step up scrutiny of spending at the\nInternet-search giant.\nThere were some signs of spending restraint. Alphabet’s total costs and expenses\ngrew 16.4%, more slowly than revenue, to $14.92 billion. Executives attributed the\nexpense growth to robust hiring. Google added 2,300 employees during the quarter,\nfor a total of 64,115.\nA few months after Ms. Porat arrived, the company restructured itself as Alphabet, a\nmove designed to split its profitable Google core business from its money-losing so-\ncalled other bets, such as home-automation company Nest and experimental lab X.\nThursday marked the second time the company has reported financial results for\nthose other bets, and the unit’s operating loss grew to $802 million from $633 million.\nRevenue more than doubled to $166 million.\nThe new structure also was designed to provide more insight into Alphabet’s finances,\nbut the range of businesses in the “other bets” group, and the unpredictability of their\nrevenue, has puzzled analysts and investors.\n“There is likely to be lumpiness in the reported results from quarter to quarter,” Ms.\nPorat said on the conference call. She said Nest, Internet provider Fiber and health\nfirm Verily account for the majority of the group’s revenue, while most other projects\nare “pre-revenue.”\nhttps://www.wsj.com/articles/google-earnings-fall-short-of-expectations-1461270082 Page 3 of 5\nGoogle Parent’s Earnings Fall Short of Expectations - WSJ 2026-08-28, 2:42 PM\nFor the quarter, Alphabet reported net income of $4.21 billion, or $6.02 a share, up\nfrom $3.52 billion, or $5.10 a share, a year earlier.\nExcluding certain items, Alphabet said it would have earned $7.50 a share. Analysts\nhad expected earnings of $7.97 a share on that basis, according to Thomson Reuters.\nRevenue rose 17%, to $20.26 billion from $17.26 billion, falling below the average\nanalyst estimate of $20.37 billion, according to Thomson Reuters. Excluding\npayments of $3.79 billion to advertising partners, revenue was $16.47 billion.\nOn a constant-currency basis, total revenue increased 23%. Google’s advertising\nrevenue rose 16% to $18.02 billion.\nAlphabet spent $2.4 billion on capital expenditures in the quarter, down 17% from a\nyear earlier, and less than the $2.6 billion expected by analysts. Building new data\ncenters and infrastructure for its Fiber Internet business partly drove the spending.\nAmid the strong financial results, Alphabet faces increasing regulatory pressures. On\nWednesday, European antitrust regulators filed formal charges against the company\nfor allegedly using its dominant Android mobile operating system to benefit its search\nand advertising business on smartphones. The European Union is also pursuing a case\nagainst Alphabet for allegedly using its search rankings to favor its own shopping\nservice. Alphabet has contested the allegations.\nWrite to Jack Nicas at jack.nicas@wsj.com\nAppeared in the April 22, 2016, print edition as 'Big ‘Bets’ Temper Google’s Profit tk'.\nJack Nicas covered Google and other companies owned by Alphabet Inc. He was based in The Wall Street Journal's\nSan Francisco bureau.\nHe previously wrote about emerging technologies, including robotics, drones, artificial intelligence and virtual realit…\nJack joined the Journal in 2011 in Chicago, where he covered aviation and national news in the Midwest.\nJaFcokl hloaws previously written for the Boston Globe and the St. Petersburg Times. He is a Massachusetts native and\ngraduated from Boston University.\nhttps://www.wsj.com/articles/google-earnings-fall-short-of-expectations-1461270082 Page 4 of 5\nGoogle Parent’s Earnings Fall Short of Expectations - WSJ 2026-08-28, 2:42 PM\nhttps://www.wsj.com/articles/google-earnings-fall-short-of-expectations-1461270082 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "GOOGL_2016q3": {
+    "ticker": "GOOGL",
+    "group": "Group 1",
+    "company_name": "Alphabet",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-07-28",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After the April miss, Alphabet needed to prove that mobile monetization was improving and that lower cost-per-click could be offset by much faster click growth.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "SEC / Alphabet: Alphabet Announces First Quarter 2016 Results",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204416000015/googexhibit991q12016.htm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q2 revenue increased **21% to $21.5 billion** and adjusted EPS reached **$8.42**, both comfortably above consensus. Google advertising revenue rose **19%**, aggregate paid clicks increased **29%**, and paid clicks on Google properties rose **37%**.",
+              "sources": []
+            },
+            {
+              "text": "The quarter showed that mobile search and YouTube could generate enough incremental volume to offset lower pricing per click. Google’s non-advertising revenue—Cloud, Play and hardware—also grew strongly, providing early evidence of revenue diversification.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Alphabet Investor Relations: Alphabet Announces Second Quarter 2016 Results",
+                  "url": "https://abc.xyz/investor/news/2016/0728/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares rose because revenue and EPS beat expectations by a clear margin.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Rapid paid-click growth showed mobile usage was more than offsetting lower ad pricing.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Cloud, Play and hardware growth strengthened the non-search revenue story.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TechCrunch: Alphabet’s huge Q2 shows its ads business may not be so challenged after all",
+                  "url": "https://techcrunch.com/2016/07/28/alphabets-business-keeps-chugging-with-a-big-second-quarter/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Alphabet/GOOGL identity, the correct earnings event, publication date, timing window and source origin. SEC/Alphabet Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "SEC / Alphabet: Alphabet Announces First Quarter 2016 Results",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204416000015/googexhibit991q12016.htm"
+        },
+        {
+          "label": "Alphabet Investor Relations: Alphabet Announces Second Quarter 2016 Results",
+          "url": "https://abc.xyz/investor/news/2016/0728/"
+        },
+        {
+          "label": "TechCrunch: Alphabet’s huge Q2 shows its ads business may not be so challenged after all",
+          "url": "https://techcrunch.com/2016/07/28/alphabets-business-keeps-chugging-with-a-big-second-quarter/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Alphabet's second-quarter 2016 report was described as part of a two-day pattern of \"blockbuster earnings\" from internet giants riding the mobile shift, with Facebook having reported its own strong quarter the day before. Revenue rose 21% to $21.5 billion, beating the average analyst estimate of $20.76 billion (Thomson Reuters), while profit surged 24% to $4.88 billion ($7 a share, up from $3.93 billion/$4.93 a year earlier); non-GAAP EPS of $8.42 beat the $8.04 consensus. CEO Sundar Pichai told analysts \"the strength of the quarter is about mobile,\" and RBC's Mark Mahaney offered pointed comparative framing, saying the results countered a persistent Wall Street narrative that \"Google's best days are behind it and that search is a dramatically maturing business\" — a notable rebuttal given that Alphabet had missed analyst estimates in eight of the prior twelve quarters. The article detailed the click/price dynamic underlying the beat: paid clicks rose 29% (a fourth straight quarter above 22% growth) while average cost per click fell only modestly, with analysts noting early signs that mobile ad bidding was strengthening. It also flagged competitive context, noting Google and Facebook together captured roughly 77%-to-99%-type dominance of ad-market growth (specifically that the two firms captured 99% of the online ad industry's revenue growth in 2016 per Pivotal Research's Brian Wieser, with Facebook's ad market share rising to 12% from 8.6% in 2014 even as Google held about 31% of the broader digital-ad market). Nonadvertising revenue, primarily cloud, accelerated to 33% growth to $2.17 billion, while Other Bets revenue jumped to $185 million from $74 million even as its operating loss widened to $859 million from $660 million; total expenses grew 20%, a touch slower than revenue, continuing the cost discipline theme under CFO Ruth Porat.",
+      "why_moved": "The article reports Alphabet shares jumped 4% in after-hours trading, and links that reaction explicitly to the revenue and EPS beats described above ($21.5 billion versus $20.76 billion expected, $8.42 versus $8.04 a share) alongside Mahaney's framing that the results rebutted the \"Google is maturing\" bear case that had built up after eight quarters of misses in the prior twelve. The 29% growth in paid clicks and the deceleration in mobile Facebook comparisons together painted a picture of Google's mobile transition succeeding rather than cannibalizing growth, which is consistent with the reported rally. Given that Alphabet stock had actually been down 1.6% for the year heading into the print, the beat represented a meaningful reset of sentiment. The accelerating cloud/nonadvertising growth (33%, up from prior quarters) also supported the diversification narrative the article highlights as a secondary driver of investor enthusiasm beyond the core ad beat.",
+      "sources": [
+        {
+          "filename": "Google Profits Surge on Strong Ad Demand - WSJ.pdf",
+          "title": "Google Profits Surge on Strong Ad Demand Internet giant continues to capture users and advertisers as they shift to mobile",
+          "published_date": "2016-07-28",
+          "text": "Google Profits Surge on Strong Ad Demand - WSJ 2026-08-28, 2:43 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/google-profits-surge-on-strong-ad-demand-1469736762\nTECH\nGoogle Profits Surge on Strong Ad Demand\nInternet giant continues to capture users and advertisers as they shift to mobile\nBy Jack Nicas\nUpdated July 28, 2016 at 7:19 pm ET\nSearch ads remain Google’s main moneymaker, but there are signs of a slight deceleration in spending on those ads.\nBLOOMBERG NEWS\nGoogle parent Alphabet Inc. said quarterly profit soared 24%, the second internet\ngiant in two days to report blockbuster earnings driven by consumers’ rapid shift to\nmobile devices.\nAlphabet said growth continued as companies bought more ads on its search engine\nand other products, while users increasingly clicked on those ads. Revenue, fueled by\nGoogle’s advertising business, rose 21% to $21.5 billion in the second quarter from a\nyear ago, beating analysts’ average estimate of $20.76 billion.\nhttps://www.wsj.com/articles/google-profits-surge-on-strong-ad-demand-1469736762 Page 1 of 5\nGoogle Profits Surge on Strong Ad Demand - WSJ 2026-08-28, 2:43 PM\nThe rise of smartphones has put internet-connected computers in the pockets of more\nthan a billion people world-wide, leading to a surge in internet use—and a major boost\nto the bottom lines of tech giants such as Google and Facebook Inc. As consumers use\nthe companies’ wildly popular free services more, Google and Facebook can sell more\nads to companies trying to reach those users.\n“The strength of the quarter is about mobile,” Google Chief Executive Sundar Pichai\nsaid Thursday. “Our investment in mobile now underlines everything that we do\ntoday, from search and YouTube to Android and advertising.”\nAlphabet stock, which had slid 1.6% in 2016 through Thursday’s close, jumped 4% in\nafter-hours trading. The company had recently struggled to meet investor\nexpectations, with earnings missing analysts’ estimates in eight of the past 12\nquarters.\n“The big overhang of concern on Wall Street was that Google’s best days are behind it\nand that search is a dramatically maturing business. I think they just proved that’s not\nthe case,” said Mark Mahaney, an analyst with RBC Capital Markets. The shift to\nmobile phones has revitalized Google’s business, he said. “More smartphones means\nmore use of Google, and YouTube, too.”\nFacebook, Google’s chief rival, also is gaining strength from mobile. Facebook said\nWednesday that its second-quarter profit nearly tripled from a year earlier to $2.1\nbillion, easily beating Wall Street estimates. Mobile accounted for 84% of its $6.2\nbillion in second-quarter advertising sales.\nWhile Google still controls about 31% of the roughly $187 billion world-wide digital-ad\nmarket, Facebook’s market share has risen to 12% from 8.6% in 2014, according to\nresearch firm eMarketer.\nGoogle’s success capturing advertisers and users as they shift to mobile devices from\ntraditional personal computers is helped by its Android smartphone software, which\nhttps://www.wsj.com/articles/google-profits-surge-on-strong-ad-demand-1469736762 Page 2 of 5\nGoogle Profits Surge on Strong Ad Demand - WSJ 2026-08-28, 2:43 PM\ngives its search engine and other services top billing on more than a billion devices.\nGoogle also pays Apple Inc. to make Google the default search engine on iPhones.\nGoogle said last year that more than half of its searches now come on mobile devices,\nand some analysts estimate more than half of its revenue comes from mobile.\nAdvertisers’ spending on mobile search ads increased 63% in the second quarter over\na year prior, while overall search-ad spending rose just 10% over the period, according\nto marketing-technology firm Kenshoo Ltd.\nAlphabet on Thursday said net profit in the quarter that ended June 30 rose to $4.88\nbillion, or $7 a share, from $3.93 billion, or $4.93 a share, a year earlier. Excluding\ncertain items, Alphabet earned $8.42 a share, beating analysts’ estimates of $8.04 a\nshare.\nClicks on ads that Google shows users increased 29% in the second quarter over a year\nprior, the fourth consecutive quarter with growth above 22% after a year of slower\ngrowth.\nGoogle said it is now reaping the rewards from the shift to mobile because companies\nare increasingly willing to advertise on smartphones. That is in part because Google is\nadding new mobile ad formats and better measuring the efficacy of such ads,\nincluding tracking users’ locations to see if they visit a physical store after seeing an\nad for the store on their phones, Google said.\nOne downside to mobile’s rise for Google has been a simultaneous decline in the\naverage amount that advertisers pay Google per ad click. Mobile ads are generally less\nexpensive than desktop ads, so as the number of mobile ads has increased,\nadvertisers’ overall cost per click has declined.\nBut analysts say there are some signs ad buyers are bidding more for mobile ads, and\non Thursday Google said advertisers’ cost per click decreased 7% in the second\nquarter over a year prior, compared with a 9% decline in the first quarter and steeper\nhttps://www.wsj.com/articles/google-profits-surge-on-strong-ad-demand-1469736762 Page 3 of 5\nGoogle Profits Surge on Strong Ad Demand - WSJ 2026-08-28, 2:43 PM\ndeclines before that.\nGoogle’s 19% growth in advertising revenues was outpaced by nonadvertising sales,\nwhich grew 33% to $2.17 billion over a year prior. That jump was an acceleration for\nGoogle’s nonadvertising business, which executives said was primarily driven by its\ncloud business of hosting other companies’ data and processing on its servers.\nGoogle is betting the cloud can become a major revenue driver over the next several\nyears and is investing hundreds of millions of dollars in building new data centers.\nOther nonadvertising businesses include hardware sales and Google’s share of app\nsales in its Play Store.\nThursday’s results are the third time the firm reported as Alphabet, a parent company\ncreated in October to house Google and a series of “other bets,” from home-\nautomation firm Nest to the research lab X, which is working on long-term projects\nsuch as self-driving cars, internet-beaming balloons and delivery drones.\nWhile the Google unit accounts for virtually all of Alphabet’s revenue, analysts and\ninvestors have closely watched financial results of the other initiatives for a sense of\nhow much money they are losing. Revenue for those other bets increased to $185\nmillion from $74 million a year ago, and the operating loss widened to $859 million\nfrom $660 million.\nCost controls have also been a recent focus since the arrival of former Morgan Stanley\nexecutive Ruth Porat as finance chief last year. Investors cheered Ms. Porat’s hire,\nhoping she would step up scrutiny of Alphabet’s costs. Second-quarter total expenses\nincreased 20% to $15.53 billion, a slightly slower pace than revenue grew.\nWrite to Jack Nicas at jack.nicas@wsj.com\nAppeared in the July 29, 2016, print edition as 'Strength in Mobile Propels Alphabet'.\nhttps://www.wsj.com/articles/google-profits-surge-on-strong-ad-demand-1469736762 Page 4 of 5\nGoogle Profits Surge on Strong Ad Demand - WSJ 2026-08-28, 2:43 PM\nJack Nicas covered Google and other companies owned by Alphabet Inc. He was based in The Wall Street Journal's\nSan Francisco bureau.\nHe previously wrote about emerging technologies, including robotics, drones, artificial intelligence and virtual realit…\nJack joined the Journal in 2011 in Chicago, where he covered aviation and national news in the Midwest.\nJaFcokl hloaws previously written for the Boston Globe and the St. Petersburg Times. He is a Massachusetts native and\ngraduated from Boston University.\nhttps://www.wsj.com/articles/google-profits-surge-on-strong-ad-demand-1469736762 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "GOOGL_2016q4": {
+    "ticker": "GOOGL",
+    "group": "Group 1",
+    "company_name": "Alphabet",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-10-27",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "By Q3, investors had become more comfortable with declining mobile ad prices as long as click volume and overall revenue kept accelerating. The next question was whether newer Google businesses could add another layer of growth.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Alphabet Investor Relations: Alphabet Announces Second Quarter 2016 Results",
+                  "url": "https://abc.xyz/investor/news/2016/0728/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Alphabet posted **$22.45 billion of revenue**, up **20%**, and adjusted EPS of about **$9.06**, both above consensus. Mobile search and YouTube were the main advertising engines. Paid clicks remained very strong even as cost-per-click fell another roughly **11%** year over year.",
+              "sources": []
+            },
+            {
+              "text": "Google “other revenues,” including Cloud, Play and hardware, also expanded quickly. The quarter confirmed that the core ad business could grow through volume while newer businesses began contributing more materially.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "SEC / Alphabet: Alphabet Announces Third Quarter 2016 Results",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204416000035/googexhibit991q32016.htm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The positive reaction reflected a clean revenue/EPS beat.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Mobile search and YouTube volume continued to overcome lower cost-per-click.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Faster growth in Cloud, Play and hardware broadened the earnings base.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TechCrunch: Alphabet reports a strong third quarter despite free-falling advertising values",
+                  "url": "https://techcrunch.com/2016/10/27/wall-street-seems-totally-fine-with-alphabets-ad-strategy-after-it-reports-a-strong-third-quarter/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Alphabet/GOOGL identity, the correct earnings event, publication date, timing window and source origin. SEC/Alphabet Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Alphabet Investor Relations: Alphabet Announces Second Quarter 2016 Results",
+          "url": "https://abc.xyz/investor/news/2016/0728/"
+        },
+        {
+          "label": "SEC / Alphabet: Alphabet Announces Third Quarter 2016 Results",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204416000035/googexhibit991q32016.htm"
+        },
+        {
+          "label": "TechCrunch: Alphabet reports a strong third quarter despite free-falling advertising values",
+          "url": "https://techcrunch.com/2016/10/27/wall-street-seems-totally-fine-with-alphabets-ad-strategy-after-it-reports-a-strong-third-quarter/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Alphabet's third-quarter 2016 results showed profit surging 27%, with the article emphasizing a historical marker: clicks on Google ads rose 33% year over year, the fastest increase in four years, which the piece attributed to Google's dominant position on Android (87% of world smartphones per IDC) and its 95% share of mobile search versus 78% on desktop (Merkle). CEO Sundar Pichai compared Google's role to \"prime time\" television, telling analysts the company's mobile properties are \"where people turn when they're actively interested in something.\" Net income rose to $5.06 billion ($7.25 a share, up from $3.98 billion/$5.73 a year earlier), and non-GAAP EPS of $9.06 beat the $8.62 analyst estimate (FactSet); revenue rose 20% to $22.45 billion. The article also detailed a persistent margin pressure: cost per click fell 11% in the quarter, an acceleration from the 7% decline in Q2, reflecting the continued mix shift toward cheaper mobile and YouTube ads. It provided useful comparative framing on Alphabet's stock performance specifically, noting shares had risen just 5% for the year, lagging both Facebook and Apple, and that Facebook's profit had nearly tripled to $2.1 billion the prior quarter with 84% of its ad revenue from mobile. On the Other Bets side, the piece noted real turmoil — the head of Google Fiber had stepped down days earlier as the unit suspended expansion in 11 cities and cut 9% of staff, and executives had also departed from Nest and the self-driving-car, drone, and balloon projects — even as the segment's operating loss narrowed to $865 million from $980 million on higher revenue ($197 million versus $141 million), which CFO Ruth Porat attributed partly to cloud growth.",
+      "why_moved": "The article reports Alphabet shares rose only 1% in after-hours trading despite the EPS beat described above ($9.06 versus $8.62 expected) and the 20% revenue growth, a comparatively muted reaction given the size of the beat. This modest response is consistent with the article's own framing that Alphabet shares had lagged peers for the year (up just 5% versus Facebook's much stronger run), suggesting the market had already priced in solid ad growth and was less impressed by an already-familiar growth story. The Google Fiber layoffs and leadership departures reported alongside the results, plus the still-sizable $865 million Other Bets operating loss, may have tempered enthusiasm even as that loss narrowed year over year.",
+      "sources": [
+        {
+          "filename": "Google Parent Alphabet Gets Boost From Ads - WSJ.pdf",
+          "title": "Google Parent Alphabet Gets Boost From Ads Tech giant benefits from rise in phone use, which is drawing companies to spend more on mobile ads",
+          "published_date": "2016-10-27",
+          "text": "Google Parent Alphabet Gets Boost From Ads - WSJ 2026-08-28, 2:43 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/google-strength-drives-alphabet-profit-higher-1477598953\nTECH\nGoogle Parent Alphabet Gets Boost From Ads\nTech giant benefits from rise in phone use, which is drawing companies to spend more on\nmobile ads\nBy Jack Nicas\nUpdated Oct. 27, 2016 at 6:24 pm ET\nAlphabet Inc., the parent company of Google, reported financial results Thursday. Shown here is Google's\nheadquarters in Mountain View, Calif. ASSOCIATED PRESS\nInvestors once feared that the rise of mobile devices would cripple Google. Instead,\nsmartphones are giving the search giant second life.\nGoogle parent Alphabet Inc. reported a 27% surge in third-quarter profit Thursday,\nextending a strong streak as users spend more time on smartphones and advertisers\nspend more dollars to reach them there.\nAlphabet—the world’s No. 2 company by market value, after Apple Inc.—continues\nhttps://www.wsj.com/articles/google-strength-drives-alphabet-profit-higher-1477598953 Page 1 of 5\nGoogle Parent Alphabet Gets Boost From Ads - WSJ 2026-08-28, 2:43 PM\nAAPL 1.61% to grow at a steady clip largely because billions of people now carry\nthese handheld computers almost everywhere they go.\nClicks on Google ads rose 33% in the quarter over a year prior, the fastest increase in\nfour years. That growth is fueled by Google’s strong position on smartphones across\nthe world, as well as its control over a series of other products increasingly central to\nmany users’ lives, from email to maps to YouTube.\nGoogle’s pitch to advertisers “is simple and is resonating: our mobile properties like\nsearch, YouTube, maps and Google Play are where people turn when they’re actively\ninterested in something,” said Google Chief Executive Sundar Pichai to analysts.\nComparing Google’s online role to the heyday of prime-time television, he added, “Our\nservices are prime time for the mobile world.”\nIndeed, Google is at the center of most smartphones. It pre-installs its services on\nphones that use its Android mobile operating system, which backs roughly 87% of the\nworld’s smartphones, according to IDC.\nGoogle controls 95% of the mobile-search market, compared with 78% on personal\ncomputers, according to digital-marketing firm Merkle Inc., because it is the default\nsearch engine on both Apple’s iPhones and Android devices.\nMobile users click on search ads at a higher rate than desktop users, Merkle said, in\npart because mobile ads take up virtually the entire screen for some searches.\nSome analysts now estimate more than half of Alphabet’s revenue comes from ads on\nmobile devices. Google executives said last year that search traffic on mobile phones\nhad surpassed traffic from personal computers.\nThe rise of smartphones also poses challenges for Google. Mobile ads—and ads for\nYouTube, which is viewed largely on mobile devices—are generally cheaper than\ndesktop ads. That is reducing the average price advertisers pay Google. In the third\nquarter, Google said the average cost per click fell 11%, faster than the 7% decline in\nhttps://www.wsj.com/articles/google-strength-drives-alphabet-profit-higher-1477598953 Page 2 of 5\nGoogle Parent Alphabet Gets Boost From Ads - WSJ 2026-08-28, 2:43 PM\nthe second quarter.\nFor the quarter, Alphabet said net income rose to $5.06 billion, or $7.25 a share, from\n$3.98 billion, or $5.73 a share, in the same quarter a year ago. Excluding certain\nexpenses, Alphabet said it would have earned $9.06 a share, beating analysts’\nestimates of $8.62 a share on that basis, according to FactSet.\nAlphabet revenue, driven almost entirely by its advertising business, rose 20% to\n$22.45 billion. Factoring out payments to advertising partners, total revenue was\n$18.27 billion. In after-hours trading, Alphabet shares rose 1%.\nAlphabet shares have risen just 5% this year, lagging rivals Facebook Inc. and Apple\nInc. Facebook, in particular, is proving to be a tough competitor for digital ads; its\nprofit nearly tripled to $2.1 billion in the second quarter, with 84% of its $6.2 billion in\nad revenue coming from mobile. Facebook reports third-quarter earnings next week.\nThere also has been tumult outside of Alphabet’s core Google business, in the\ncompany’s “other bets.”\nOn Tuesday, the head of Alphabet’s high-speed internet business, Google Fiber,\nstepped down as the service suspended expansion plans for 11 cities and said it would\nlay off 9% of staff. Executives have also recently departed from Alphabet’s home-\nautomation firm Nest and projects to build self-driving cars, delivery drones and\ninternet-beaming balloons.\nAlphabet executives have said Chief Financial Officer Ruth Porat, who joined the\ncompany in May 2015 from Morgan Stanley, has helped lead an effort to rein in costs.\nOperating loss in the other-bets unit narrowed to $865 million from $980 million a\nyear prior, while revenues increased to $197 million from $141 million. Google Fiber,\nNest and life-sciences unit Verily account for most of the revenue. Ms. Porat cautioned\nagainst examining the other bets units on a quarterly basis because their results are\nvolatile. Google’s non-advertising revenue increased 39% to $2.43 billion over a year\nhttps://www.wsj.com/articles/google-strength-drives-alphabet-profit-higher-1477598953 Page 3 of 5\nGoogle Parent Alphabet Gets Boost From Ads - WSJ 2026-08-28, 2:43 PM\nprior. Ms. Porat attributed much of that increase to “substantial revenue growth” in\nGoogle’s business of hosting other companies’ data and systems on its computers,\nknown as the cloud. Google is making a push into the cloud industry, hoping to steal\nmarket share from leaders Amazon.com Inc. and Microsoft Corp.\nAlphabet said it would repurchase roughly $7 billion in shares, though it didn’t specify\na time period for the program. Alphabet reported holding about $83 billion in cash\nand investments.\nThursday’s results also showed success in Google’s efforts to diversify from being a\npure advertising company.\nWrite to Jack Nicas at jack.nicas@wsj.com\nAppeared in the October 28, 2016, print edition as 'Ads Boost Alphabet, Fueled by Phone Use'.\nJack Nicas covered Google and other companies owned by Alphabet Inc. He was based in The Wall Street Journal's\nSan Francisco bureau.\nHe previously wrote about emerging technologies, including robotics, drones, artificial intelligence and virtual realit…\nJack joined the Journal in 2011 in Chicago, where he covered aviation and national news in the Midwest.\nJaFcokl hloaws previously written for the Boston Globe and the St. Petersburg Times. He is a Massachusetts native and\ngraduated from Boston University.\nhttps://www.wsj.com/articles/google-strength-drives-alphabet-profit-higher-1477598953 Page 4 of 5\nGoogle Parent Alphabet Gets Boost From Ads - WSJ 2026-08-28, 2:43 PM\nhttps://www.wsj.com/articles/google-strength-drives-alphabet-profit-higher-1477598953 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "GOOGL_2017q1": {
+    "ticker": "GOOGL",
+    "group": "Group 1",
+    "company_name": "Alphabet",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-01-26",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Alphabet entered Q4 after three strong quarters, but the stock had already rallied. Investors were also paying closer attention to traffic-acquisition costs and whether newer businesses could justify their investment burden.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "SEC / Alphabet: Alphabet Announces Third Quarter 2016 Results",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204416000035/googexhibit991q32016.htm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q4 revenue increased **22% to $26.06 billion**, above consensus, while adjusted EPS of roughly **$9.36** missed expectations near $9.67. Google advertising remained strong, and Google “other revenues” rose **62% to $3.4 billion**, reflecting momentum in Cloud, Play and hardware.",
+              "sources": []
+            },
+            {
+              "text": "The mixed result mattered because the market was beginning to focus less on gross revenue growth and more on the cost required to generate it. Alphabet still produced excellent top-line growth, but the EPS miss and pressure from traffic-acquisition and investment costs limited enthusiasm.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "SEC / Alphabet: Alphabet Announces Fourth Quarter and Fiscal Year 2016 Results",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204417000005/googexhibit991q42016.htm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares slipped because the EPS miss outweighed the revenue beat.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Rising traffic and investment costs reduced the conversion of revenue growth into earnings.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Cloud, Play and hardware growth remained a strong strategic positive.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TechCrunch: Alphabet's bets beyond search are starting to pay off",
+                  "url": "https://techcrunch.com/2017/01/26/alphabets-bets-beyond-search-are-starting-to-look-better/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Alphabet/GOOGL identity, the correct earnings event, publication date, timing window and source origin. SEC/Alphabet Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "SEC / Alphabet: Alphabet Announces Third Quarter 2016 Results",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204416000035/googexhibit991q32016.htm"
+        },
+        {
+          "label": "SEC / Alphabet: Alphabet Announces Fourth Quarter and Fiscal Year 2016 Results",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204417000005/googexhibit991q42016.htm"
+        },
+        {
+          "label": "TechCrunch: Alphabet's bets beyond search are starting to pay off",
+          "url": "https://techcrunch.com/2017/01/26/alphabets-bets-beyond-search-are-starting-to-look-better/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Alphabet's fourth-quarter 2016 report presented a split picture: revenue grew 22% to $26.1 billion, surpassing estimates, but profit grew only 8.3% to $5.33 billion, missing Wall Street estimates — a gap the article says Alphabet blamed on a one-time tax adjustment. The piece highlighted the widening divergence between ad volume and ad pricing as a specific point of concern: ad clicks rose 36% year over year while advertisers' prices for those ads fell 15%, with the article noting both figures were the highest in at least three years, and attributing the pricing decline specifically to the growing share of YouTube ads, which generally earn less than ads shown above Google search results. CFO Ruth Porat told analysts that newer ad formats — mobile search, YouTube, and automated ad buying — had \"only begun to scratch the surface,\" citing \"sizable opportunities that have not yet been tapped,\" while JMP Securities analyst Ron Josey called YouTube the \"heir apparent to search.\" The article detailed Alphabet's diversification progress in concrete terms: advertising fell to 85.9% of revenue from 89.4% a year prior, with nonadvertising sales surging 62% to $3.4 billion, boosted by the fourth-quarter launch of three new hardware products (Pixel smartphones, Google Home, and VR headsets). Capital expenditures jumped nearly $1 billion to $3.08 billion, partly to build data centers to compete with Amazon and Microsoft in cloud. Other Bets revenue rose 75% to $262 million with the operating loss narrowing 10% to $1.09 billion, mostly from Nest, Google Fiber, and Verily (which separately disclosed an $800 million investment from Temasek). RBC's Mark Mahaney provided historical framing, noting Google's advertising business had posted 20%-plus annual growth (ex-currency) for 20 consecutive quarters, calling it \"the strongest it's ever been.\"",
+      "why_moved": "The article reports Alphabet shares fell 2.1% in after-hours trading, tying that decline directly to the profit miss described above ($5.33 billion, below Wall Street estimates) despite the stronger-than-expected revenue growth of 22% to $26.1 billion. Even though Alphabet attributed the shortfall to a one-time tax item rather than operating weakness, and even though Mahaney's 20-consecutive-quarter growth framing underscored the durability of the core ad business, the market's initial reaction still registered as a miss on the headline profit number. The widening gap between the 36% rise in ad clicks and the 15% decline in ad prices — attributed to the YouTube mix shift discussed above — may have compounded concerns about margin durability even as volume growth stayed strong.",
+      "sources": [
+        {
+          "filename": "Google Parent Alphabet Finds New Growth Beyond Search - WSJ.pdf",
+          "title": "Google Parent Alphabet Finds New Growth Beyond Search Profit falls short of views on higher-than-seen tax adjustment",
+          "published_date": "2017-01-26",
+          "text": "Google Parent Alphabet Finds New Growth Beyond Search - WSJ 2026-08-28, 2:45 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/google-parent-alphabet-reports-jump-in-earnings-1485465426\nTECH\nGoogle Parent Alphabet Finds New Growth Beyond\nSearch\nProfit falls short of views on higher-than-seen tax adjustment\nBy Jack Nicas\nUpdated Jan. 26, 2017 at 8:11 pm ET\nGoogle’s results have been lifted in recent years by increasing internet usage across the globe, fueled by the rise of\nsmartphones. BLOOMBERG NEWS\nGoogle parent Alphabet Inc. said fourth-quarter revenue increased nearly three times\nas fast as profit, as it cast about for new sources of growth beyond its traditional\nsearch advertising.\nFourth-quarter profit grew 8.3% to $5.33 billion, missing Wall Street estimates, while\na 22% jump in revenue to $26.1 billion surpassed estimates. Alphabet blamed the\nearnings miss on a one-time tax adjustment. Its shares fell 2.1% in after-hours trading.\nGoogle has built the world’s largest advertising business on the back of its search\nengine, and users are clicking more of those ads thanks to increasing internet usage in\nhttps://www.wsj.com/articles/google-parent-alphabet-reports-jump-in-earnings-1485465426 Page 1 of 4\nGoogle Parent Alphabet Finds New Growth Beyond Search - WSJ 2026-08-28, 2:45 PM\nthe smartphone era. To keep up its strong growth, Google is also looking to its popular\nYouTube video service.\n“YouTube takes such a center stage on quarterly calls because that is the heir\napparent to search,” said JMP Securities analyst Ron Josey.\nNewer forms of advertising on Google—such as mobile search, YouTube and\nautomated ad buying—have “only begun to scratch the surface,” Alphabet Chief\nFinancial Officer Ruth Porat said on a call with analysts. There are “sizable\nopportunities that have not yet been tapped.”\nThe search for new ad revenue comes with a downside: Users are seeing more ads, but\nadvertisers are paying less for them. While ad clicks increased 36% in the quarter over\na year ago, advertisers’ prices for those ads fell 15%. Both figures were the highest in\nat least three years.\nThe gap between the prevalence of ads and their prices was previously driven by the\nincreasing share of mobile searches, because advertisers pay less for mobile-search\nads than desktop ones. In the fourth quarter, the company attributed the gap to the\ngrowing share of YouTube ads, which generally earn less than ads shown above\nGoogle search results.\nOther new businesses—the cloud, hardware and YouTube subscriptions—could be\n“major revenue drivers for Google in the next several years,” Ms. Porat added. To get\nthere, the company is investing heavily: Capital expenditures soared by nearly a\nbillion dollars to $3.08 billion in the quarter. Much of that spending is for building new\ndata centers, in part to help the company compete against Amazon.com Inc. and\nMicrosoft Corp. in its cloud business of selling computing power and data storage\nover the internet.\nAlphabet is making progress in diversifying from its advertising business, which\naccounted for 85.9% of its revenue in the quarter, compared with 89.4% a year prior.\nhttps://www.wsj.com/articles/google-parent-alphabet-reports-jump-in-earnings-1485465426 Page 2 of 4\nGoogle Parent Alphabet Finds New Growth Beyond Search - WSJ 2026-08-28, 2:45 PM\nThe company reported a 62% surge in its nonadvertising sales to $3.4 billion—driven\nby its cloud, app-store and hardware businesses— though any profitability for the\nsegment is unclear. Some of the boost came from the launch of three new hardware\nproducts in the fourth quarter: its Pixel smartphones, Google Home voice-controlled\nspeakers and virtual-reality headsets for smartphones.\nAlphabet also shrank losses at its Other Bets, the collection of experimental\nbusinesses that make up the company outside of Google, including self-driving-car\nfirm Waymo, connected-device maker Nest, and research lab X. Other Bets’ revenue\nrose 75% to $262 million, while its operating loss narrowed 10% to $1.09 billion from a\nyear prior. Most of the Other Bets revenue came from Nest, high-speed internet\nprovider Google Fiber, and Verily, the life-sciences startup that said on Thursday it is\ngetting an $800 million investment from Singapore state investment firm Temasek\nHoldings.\nAlphabet executives are trying to tamp down expenses at the Other Bets and make\nthem stand-alone businesses, including a recent scaling back of Google Fiber, which\nwas one of the segment’s biggest costs. Still, growing sales accounted almost entirely\nfor the smaller loss in the segment.\nDespite its new ventures, Alphabet remains highly dependent on the advertising\nbusiness that made it a tech juggernaut. Google has now posted annual growth of 20%\nor more in its advertising business for 20 consecutive quarters, excluding the impact\nof foreign-exchange rate changes, said Mark Mahaney, an analyst at RBC Capital\nMarkets.\n“We think the [advertising business] is the strongest it’s ever been, and the growth is\nshockingly consistent,” he said.\nWrite to Jack Nicas at jack.nicas@wsj.com\nAppeared in the January 27, 2017, print edition as 'Alphabet Profit Rises, but Misses Mark'.\nhttps://www.wsj.com/articles/google-parent-alphabet-reports-jump-in-earnings-1485465426 Page 3 of 4\nGoogle Parent Alphabet Finds New Growth Beyond Search - WSJ 2026-08-28, 2:45 PM\nJack Nicas covered Google and other companies owned by Alphabet Inc. He was based in The Wall Street Journal's\nSan Francisco bureau.\nHe previously wrote about emerging technologies, including robotics, drones, artificial intelligence and virtual realit…\nJack joined the Journal in 2011 in Chicago, where he covered aviation and national news in the Midwest.\nJaFcokl hloaws previously written for the Boston Globe and the St. Petersburg Times. He is a Massachusetts native and\ngraduated from Boston University.\nhttps://www.wsj.com/articles/google-parent-alphabet-reports-jump-in-earnings-1485465426 Page 4 of 4"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "GOOGL_2017q2": {
+    "ticker": "GOOGL",
+    "group": "Group 1",
+    "company_name": "Alphabet",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-04-27",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After the January EPS miss, investors wanted stronger profit conversion. At the same time, a short-lived advertiser boycott of YouTube raised concern about brand safety and ad demand.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "SEC / Alphabet: Alphabet Announces Fourth Quarter and Fiscal Year 2016 Results",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204417000005/googexhibit991q42016.htm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Alphabet delivered **$24.75 billion of revenue**, up **22%**, and EPS of **$7.73**. Both beat consensus. Google operating income rose 22%, and operating margin expanded to about **27%**.",
+              "sources": []
+            },
+            {
+              "text": "Mobile search and YouTube drove the core ad business, while newer areas such as Google Home, Pixel, Cloud and Play strengthened Google’s other-revenue growth. The quarter also suggested the YouTube advertiser controversy had not materially damaged demand.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "SEC / Alphabet: Alphabet Announces First Quarter 2017 Results",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204417000011/googexhibit991q12017.htm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares jumped because both revenue and EPS beat expectations.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Margin expansion showed better profit conversion after the prior quarter’s EPS miss.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Strong mobile, YouTube and hardware/cloud trends reduced concern about the advertiser boycott.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: What Happened in the Stock Market Today",
+                  "url": "https://www.fool.com/investing/2017/04/28/what-happened-in-the-stock-market-today.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Alphabet/GOOGL identity, the correct earnings event, publication date, timing window and source origin. SEC/Alphabet Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "SEC / Alphabet: Alphabet Announces Fourth Quarter and Fiscal Year 2016 Results",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204417000005/googexhibit991q42016.htm"
+        },
+        {
+          "label": "SEC / Alphabet: Alphabet Announces First Quarter 2017 Results",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204417000011/googexhibit991q12017.htm"
+        },
+        {
+          "label": "The Motley Fool: What Happened in the Stock Market Today",
+          "url": "https://www.fool.com/investing/2017/04/28/what-happened-in-the-stock-market-today.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Alphabet's first-quarter 2017 report showed net revenue rising 22% to $24.75 billion, beating the Wall Street estimate of $24.22 billion (Thomson Reuters), while profit rose 29% to $5.43 billion ($7.73 a share, versus $4.21 billion a year earlier), beating the $7.39 analysts expected. The article's key contextual detail is that this beat came despite an active advertiser boycott: major brands including Coca-Cola and Wal-Mart had pulled spending from non-search Google advertising (i.e., YouTube and display) after their ads appeared alongside offensive content, and analysts had expected this to weigh on the quarter's ad revenue. YouTube responded by giving advertisers more control over ad placement, and the strong results suggest the boycott's financial impact was limited, at least in this reporting period — the headline is explicitly framed as growth continuing \"seemingly unscathed\" by the boycotts. Paid clicks rose 44% year over year, though average cost per click fell 19%, which the article attributes to the continued mix shift toward lower-priced mobile and YouTube inventory. The piece also supplied useful competitive-market framing: Google and Facebook together captured an estimated 77% of gross global ad spending in 2016 (up from 72% the year before) and 99% of the online ad industry's entire revenue growth that year, according to Pivotal Research's Brian Wieser, effectively squeezing out the rest of the industry. On diversification, the \"other revenues\" segment that includes cloud grew 49% to $3.1 billion, while Other Bets revenue rose to $244 million from $165 million even as its operating loss grew to $855 million from $774 million.",
+      "why_moved": "The article states Alphabet shares traded 4.4% higher after the close of regular trading, and ties that reaction directly to the revenue and EPS beats detailed above ($24.75 billion versus $24.22 billion expected, $7.73 versus $7.39 a share). The framing that growth continued despite the Coca-Cola/Wal-Mart boycotts appears central to the positive reaction: investors had gone into the print bracing for a possible hit to YouTube-adjacent ad revenue from that controversy, and the fact that paid clicks still grew 44% and overall revenue still beat estimates likely removed a specific overhang rather than just delivering a generic beat. The 49% growth in the cloud-inclusive \"other revenues\" segment reinforced the diversification narrative that had been a recurring theme in prior quarters' coverage, adding a secondary positive alongside the core ad beat.",
+      "sources": [
+        {
+          "filename": "Google Parent Alphabet’s Revenue Continues to March Higher - WSJ.pdf",
+          "title": "Google Parent Alphabet’s Revenue Continues to March Higher Shares of the tech giant climb after hours",
+          "published_date": "2017-04-27",
+          "text": "Google Parent Alphabet’s Revenue Continues to March Higher - WSJ 2026-08-28, 2:46 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/google-parent-alphabets-revenue-continues-to-march-higher-1493324287\nTECH\nGoogle Parent Alphabet’s Revenue Continues to\nMarch Higher\nShares of the tech giant climb after hours\nBy Rolfe Winkler\nUpdated April 27, 2017 at 4:24 pm ET\nTwo people visit the Google stand on the second day of the Mobile World Congress in Barcelona this February.\nAGENCE FRANCE-PRESSE/GETTY IMAGES\nGoogle parent Alphabet Inc. GOOG 1.65% on Thursday posted a sharp increase in\nfirst-quarter revenue, continuing a trend of rapid growth seemingly unscathed by\nboycotts from some of its major advertisers.\nAlphabet said net revenue rose 22% to $24.75 billion from a year earlier, beating Wall\nStreet estimates of $24.22 billion, according to Thomson Reuters. First-quarter profit\nrose 29% to $5.43 billion, or $7.73 a share, from $4.21 billion in the same quarter last\nhttps://www.wsj.com/articles/google-parent-alphabets-revenue-continues-to-march-higher-1493324287 Page 1 of 4\nGoogle Parent Alphabet’s Revenue Continues to March Higher - WSJ 2026-08-28, 2:46 PM\nyear. Analysts had expected $7.39 per share.\nAlphabet’s shares traded 4.4% higher after the close of regular Thursday trading.\nThe company has benefited from rising internet usage across the globe thanks to the\nsmartphone revolution. That is seen most notably in the consistently high growth of\npaid clicks on Google’s ads, which increased 44% in the first quarter compared with\nthe year-ago period.\nA portion of that growth is offset by the falling average price each click, which\ndropped 19% in the first quarter, owing to the lower price Google is able to charge for\nads on smartphones and its YouTube video site.\nAnalysts had expected Google’s advertising revenue to have taken a hit in the first\nquarter because major advertisers, including Coca-Cola Co. and Wal-Mart Stores Inc.,\npulled their spending on all Google advertising except targeted search ads after they\nwere spliced in with offensive content. YouTube responded by giving them more\ncontrols over where not to place their ads. Growth in YouTube advertising has\npropelled Alphabet’s earnings in recent quarters.\nGoogle has come to dominate the online advertising market along with Facebook Inc.\nThe digital giants gobbled up an estimated 77% of the gross advertising spend in 2016,\nup from 72% the year before, said Pivotal Research analyst Brian Wieser analyzing\ndata published by the Interactive Advertising Bureau.\nGoogle and Facebook captured 99% of the online ad industry’s revenue growth in\n2016, estimated Mr. Wieser. On balance the rest of the industry was flat.\nAlphabet is trying to diversify its business beyond online advertising, and its “cloud”\nbusiness that competes with Amazon Inc.’s web services unit is a key focus. Google\nexecutives are so optimistic about the tech giant’s cloud business, selling computing\npower to companies over the internet, they say it can one day eclipse Google’s massive\nadvertising business. Google doesn’t break out its cloud revenues, but sales in the\nhttps://www.wsj.com/articles/google-parent-alphabets-revenue-continues-to-march-higher-1493324287 Page 2 of 4\nGoogle Parent Alphabet’s Revenue Continues to March Higher - WSJ 2026-08-28, 2:46 PM\n“other revenues” segment it falls into grew 49% to $3.1 billion in the first quarter.\nAlphabet’s “Other Bets” revenue rose to $244 million from $165 million, while its\noperating loss grew to $855 million from $774 million. Most of the Other Bets revenue\ncame from Nest, high-speed internet provider Google Fiber and Verily, its life-sciences\nstartup. The segment also includes its Waymo self-driving car unit and its “X”\nresearch lab.\nWrite to Rolfe Winkler at rolfe.winkler@wsj.com\nAppeared in the April 28, 2017, print edition as 'Alphabet’s Revenue Continues to Soar'.\nRolfe Winkler is a technology reporter covering Apple for The Wall Street Journal in San Francisco. He previously\ncovered digital health companies for the Journal, leading investigations into internet companies that exploited\nsocial media and e-commerce strategies to peddle dangerous drugs. This work sparked government probes into…\nCerebral and federal criminal charges against executives at Done Global, companies that sold Adderall online. He\nRolfe previously broke news about the feature roadmap for the Apple Watch and uncovered Elon Musk's brain-\nalsFoo lplorowfiled men who weren't given adequate warnings before they bought drugs from Hims and Hers Health, and\ncomputer interface company Neuralink. His 2017 investigation into the Chicago startup Outcome Health led directly\nlater suffered debilitating side effects.\nto federal felony convictions or guilty pleas of six people including Outcome's top four executives.\nRolfe has received awards from the National Press Club, the New York Press Club, Scripps-Howard and the Society\nfor Advancing Business Editing and Writing. Before his journalism career, he was a CFA Charterholder and a\nmember of Actor's Equity Association.\nhttps://www.wsj.com/articles/google-parent-alphabets-revenue-continues-to-march-higher-1493324287 Page 3 of 4\nGoogle Parent Alphabet’s Revenue Continues to March Higher - WSJ 2026-08-28, 2:46 PM\nhttps://www.wsj.com/articles/google-parent-alphabets-revenue-continues-to-march-higher-1493324287 Page 4 of 4"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "This dedicated Dow Jones Newswires analysis by Mike Shields covers Alphabet's first-quarter 2017 results and their implications for advertisers rather than functioning as a standard earnings recap. It reports revenue climbed 22% to $24.75 billion, beating analyst expectations on both profit and sales, and frames the results as reassurance for investors following advertiser concerns about brand safety on YouTube after major brands boycotted non-search ad spending in mid-March when ads appeared alongside extremist content. The article lays out five advertiser takeaways: YouTube appeared resilient, with CFO Ruth Porat saying video-platform revenue 'continued to grow at a significant rate' even though the article cautions that financial damage from the boycott might not fully appear until the following quarter; CEO Sundar Pichai said the company had 'taken significant steps' to address advertiser concerns; mobile search was 'the biggest contributor to growth' per Porat, illustrated by Williams Sonoma's 70% year-over-year mobile sales increase; Pichai highlighted a 'smart bidding' machine-learning tool being adopted by retailers and app companies; and YouTube TV, then available in only five cities, remained an early-stage priority even as Pichai noted traditional TV ads 'have not evolved at the same speed' as digital offerings.",
+      "why_moved": "The article does not report a specific stock-price reaction figure or explain a share-price move; it focuses instead on the earnings beat itself and on management's commentary addressing advertiser brand-safety concerns following the YouTube ad boycotts, without describing how the market responded to the results.",
+      "sources": [
+        {
+          "title": "Here's What Advertisers Should Note From Google Parent Alphabet's Earnings",
+          "url": "https://www.foxbusiness.com/features/heres-what-advertisers-should-note-from-google-parent-alphabets-earnings"
+        }
+      ]
+    }
+  },
+  "GOOGL_2017q3": {
+    "ticker": "GOOGL",
+    "group": "Group 1",
+    "company_name": "Alphabet",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-24",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Alphabet had rallied strongly into Q2, and expectations were high after the April beat. Investors were increasingly focused on traffic-acquisition costs as mobile and programmatic advertising became a larger share of growth.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "SEC / Alphabet: Alphabet Announces First Quarter 2017 Results",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204417000011/googexhibit991q12017.htm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q2 revenue rose **21% to $26.01 billion**, above consensus. Excluding the **$2.7 billion European Commission fine**, adjusted earnings were also well ahead of expectations. The underlying Google business remained strong.",
+              "sources": []
+            },
+            {
+              "text": "The problem was cost structure. Traffic-acquisition costs rose **28%** to about **$5.09 billion**, exceeding expectations and reaching roughly 22% of ad revenue. With the stock up more than 25% year to date, investors treated that margin pressure—and the EU fine—as enough to overshadow the operating beat.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "SEC / Alphabet: Alphabet Announces Second Quarter 2017 Results",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204417000024/googexhibit991q22017.htm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares fell because rising TAC and the EU antitrust fine overshadowed better-than-expected revenue and underlying earnings.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Mobile and programmatic growth carried structurally higher partner-acquisition costs.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** A high valuation left little room for cost surprises.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: Alphabet Shares Fall as Earnings Take a Hit From Record-Breaking EU Fine",
+                  "url": "https://www.thestreet.com/investing/stocks/alphabet-stock-higher-following-q2-earnings-revenue-beat-14240346"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Alphabet/GOOGL identity, the correct earnings event, publication date, timing window and source origin. SEC/Alphabet Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "SEC / Alphabet: Alphabet Announces First Quarter 2017 Results",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204417000011/googexhibit991q12017.htm"
+        },
+        {
+          "label": "SEC / Alphabet: Alphabet Announces Second Quarter 2017 Results",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204417000024/googexhibit991q22017.htm"
+        },
+        {
+          "label": "TheStreet: Alphabet Shares Fall as Earnings Take a Hit From Record-Breaking EU Fine",
+          "url": "https://www.thestreet.com/investing/stocks/alphabet-stock-higher-following-q2-earnings-revenue-beat-14240346"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "This Heard on the Street column on Alphabet's second-quarter 2017 results emphasized a specific historical marker: traffic acquisition costs (TAC) — what Google pays partners like Apple to route search traffic to it — rose 28% year over year to a record $5.1 billion, and for the first time in five years, TAC growth outpaced revenue growth. The column contrasted this against otherwise strong headline metrics: paid clicks surged 52% year over year, the biggest jump in at least seven years, which the piece called notable given the company's ad revenue base had grown nearly fourfold over that same period. The article also isolated the effect of a one-time item on profitability: operating income would have hit a record $6.9 billion were it not for a $2.7 billion fine levied by the European Union, and even accounting for that framing, underlying operating income growth of 15% year over year was described as the company's slowest pace in two years. The piece's central argument is that click growth of this magnitude is not costless — Google's ability to generate \"an unprecedented ability to generate economic activity\" from search comes bundled with rising distribution costs that increasingly eat into margin expansion, a dynamic the headline explicitly calls \"traffic costs jam up Google.\" The column closes by noting Alphabet stock had run up 26% year to date heading into the report, providing valuation context for how investors might react even to solid underlying growth.",
+      "why_moved": "The column reports Alphabet shares slipped 3% on the Monday following the results, and explicitly attributes that decline to two specific factors laid out above: the earnings deceleration (15% underlying operating income growth, the slowest in two years, driven by TAC growth outpacing revenue for the first time in five years) and the stock's already-large 26% run-up for the year, which had left less room for a merely solid quarter to satisfy expectations. In other words, the piece frames this less as a reaction to a \"miss\" in the traditional sense — paid clicks actually grew at the fastest rate in seven years — and more as a valuation-driven pullback once investors focused on the rising traffic-cost dynamic described above. The column's closing framing, that \"growth has its price,\" directly describes the TAC-versus-revenue dynamic as the mechanism connecting the underlying business results to the stock's decline.",
+      "sources": [
+        {
+          "filename": "Traffic Costs Jam Up Google - WSJ.pdf",
+          "title": "HEARD ON THE STREET Follow Traffic Costs Jam Up Google Cost of getting users to click ads outpaces revenue growth, pressuring bottom line",
+          "published_date": "2017-07-24",
+          "text": "Traffic Costs Jam Up Google - WSJ 2026-08-28, 2:47 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/traffic-costs-jam-up-google-1500935189\nHEARD ON THE STREET Follow\nTraffic Costs Jam Up Google\nCost of getting users to click ads outpaces revenue growth, pressuring bottom line\nBy Dan Gallagher\nJuly 24, 2017 at 6:26 pm ET\nTraffic acquisition spending outpaced revenue growth for the first time in five years. MARCIO JOSE SANCHEZ/\nASSOCIATED PRESS\nGoogle generates a lot of clicks. But they aren’t free—nor always cheap.\nSecond-quarter results from parent company Alphabet Inc. were a good reminder of\nboth. Google showed an unprecedented ability to generate economic activity out of its\nmassive internet search engine. Paid clicks, which measure the frequency that Google\nusers click on advertisements, surged 52% year over year. That is the biggest jump in\nat least seven years—notable considering the company’s advertising revenue base has\ngrown nearly fourfold in that time.\nhttps://www.wsj.com/articles/traffic-costs-jam-up-google-1500935189 Page 1 of 3\nTraffic Costs Jam Up Google - WSJ 2026-08-28, 2:47 PM\nBut that growth comes with a cost—$5.1 billion in this case. That is what Google\nexpended for the quarter in traffic acquisition costs, which was also a record high.\nMore important, traffic acquisition costs, which rose 28% in the second quarter\ncompared with last year, outpaced revenue growth for the first time in five years.\nTraffic acquisition costs are what Google pays to drive people to its ads. For example,\nGoogle pays Apple when iPhone users search with Google. These costs have been\nrising as more of the company’s traffic comes from mobile devices.\nOperating income would have hit a record $6.9 billion if not for the record-setting $2.7\nbillion fine from the European Union. But that represents growth of only 15% year over\nyear—the company’s slowest in two years.\nAlphabet’s shares slipped 3% Monday following the results, reflecting both the\nearnings deceleration and the stock’s 26% run so far this year. Investors shouldn’t\npanic, as Google is still an unmatched profit machine relative to most of its internet\npeers. But it is worth remembering that growth has its price.\nWrite to Dan Gallagher at dan.gallagher@wsj.com\nAppeared in the July 25, 2017, print edition as 'Traffic Costs Jam Results At Google'.\nDan Gallagher is a former columnist for The Wall Street Journal’s Heard on the Street, where he covered the\ntechnology and media industries. His work for the Heard column spanned the businesses of artificial intelligence,\nsemiconductors, internet, software, hardware, advertising, streaming TV and film. Dan also wrote WSJ's AI &…\nBusiness newsletter.\nHeF joollionwed the column in 2013 after nearly two decades covering tech as a news reporter—starting well before\nsmartphones got smart.\nDan previously spent 10 years at MarketWatch, where he built a data news team and served as technology editor.\nhttps://www.wsj.com/articles/traffic-costs-jam-up-google-1500935189 Page 2 of 3\nTraffic Costs Jam Up Google - WSJ 2026-08-28, 2:47 PM\nhttps://www.wsj.com/articles/traffic-costs-jam-up-google-1500935189 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "This is a brief Dow Jones Newswires tech-sector roundup rather than a dedicated Alphabet earnings story, and its Alphabet-specific content is limited to a single line: 'Shares of Google parent Alphabet fell after the search giant's per-click income declined somewhat.' No revenue, profit, margin, or other financial figures for Alphabet are given anywhere in the piece. The rest of the roundup covers unrelated names and stories -- Seagate Technology shares falling on a fourth-quarter miss and a CEO departure, reports that SoftBank was interested in investing billions in Uber, a public dispute between Elon Musk and Mark Zuckerberg over artificial intelligence's workplace impact, and Adobe's plan to discontinue Flash support.",
+      "why_moved": "The article states plainly that shares of Alphabet fell after the company's per-click income declined somewhat -- that single line is the entirety of the explanation offered. As a brief wire roundup rather than a dedicated earnings story, the piece provides no supporting figures, percentages, or further context for the decline beyond that one sentence.",
+      "sources": [
+        {
+          "title": "Tech Lower After Alphabet Earnings -- Tech Roundup",
+          "url": "https://www.foxbusiness.com/features/tech-lower-after-alphabet-earnings-tech-roundup.amp"
+        }
+      ]
+    }
+  },
+  "GOOGL_2017q4": {
+    "ticker": "GOOGL",
+    "group": "Group 1",
+    "company_name": "Alphabet",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-10-26",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Following the July selloff, the market wanted proof that higher TAC would not prevent Google from expanding profit. Cloud, hardware and YouTube also needed to remain strong enough to diversify the model.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "SEC / Alphabet: Alphabet Announces Second Quarter 2017 Results",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204417000024/googexhibit991q22017.htm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q3 revenue rose **24% to $27.77 billion**, while EPS reached **$9.57**. Both were well above consensus. Google advertising revenue increased more than 21%, and Google other revenue—Cloud, Play and hardware—grew about **40%**.",
+              "sources": []
+            },
+            {
+              "text": "Operating income increased strongly and consolidated operating margin improved to **28%**. The quarter therefore directly answered the July concern: higher traffic costs were real, but they were not preventing Alphabet from producing faster profit growth.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "SEC / Alphabet: Alphabet Announces Third Quarter 2017 Results",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204417000039/googexhibit991q32017.htm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock rose on a broad revenue and earnings beat.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Strong operating income showed that higher TAC was not overwhelming profitability.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Cloud, Play and hardware growth improved diversification beyond search advertising.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Why Alphabet, Inc. Stock Popped Today",
+                  "url": "https://www.fool.com/investing/2017/10/27/why-alphabet-inc-stock-popped-today.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Alphabet/GOOGL identity, the correct earnings event, publication date, timing window and source origin. SEC/Alphabet Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "SEC / Alphabet: Alphabet Announces Second Quarter 2017 Results",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204417000024/googexhibit991q22017.htm"
+        },
+        {
+          "label": "SEC / Alphabet: Alphabet Announces Third Quarter 2017 Results",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204417000039/googexhibit991q32017.htm"
+        },
+        {
+          "label": "The Motley Fool: Why Alphabet, Inc. Stock Popped Today",
+          "url": "https://www.fool.com/investing/2017/10/27/why-alphabet-inc-stock-popped-today.aspx"
+        }
+      ]
+    },
+    "wsj": null,
+    "djnw": {
+      "summary_analysis": "This dedicated Alphabet earnings story by Jack Nicas reports third-quarter net profit of $6.73 billion, up 33% from $5.06 billion a year earlier, on revenue that climbed 24% to $27.77 billion. Earnings per share of $9.57 surpassed Wall Street's expectation of $8.31. The article notes the results came despite continued headwinds from declining advertising rates, with the aggregate cost-per-click -- what advertisers pay for user clicks -- dropping 18% during the quarter. It explains this pressure as a structural shift: Alphabet's business increasingly depends on mobile search results and YouTube pre-roll advertising, both of which generate lower margins than traditional desktop search ads, and this shift drives up what the article calls 'traffic acquisition costs' -- payments to smartphone manufacturers for prominent placement of Google's search engine and apps, plus payments to video creators and website owners hosting Google ads. The piece frames these traffic acquisition costs as an ongoing constraint on margins as the business model evolves.",
+      "why_moved": "The article states that Alphabet's stock price rose 4.2% in after-hours trading, building on gains of roughly 25% for the year to that point. It ties the move to results that beat expectations on both profit (up 33% to $6.73 billion) and earnings per share ($9.57 versus the $8.31 consensus), even as the article notes that an 18% drop in cost-per-click and rising traffic acquisition costs continued to pressure margins.",
+      "sources": [
+        {
+          "title": "Google Parent Alphabet's Profit Grows 33%",
+          "url": "https://www.foxbusiness.com/features/google-parent-alphabets-profit-grows-33"
+        }
+      ]
+    }
+  },
+  "GOOGL_2018q1": {
+    "ticker": "GOOGL",
+    "group": "Group 1",
+    "company_name": "Alphabet",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-02-01",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Alphabet entered Q4 after a strong run and a very good Q3. The market had become increasingly sensitive to traffic-acquisition costs and the amount of investment required to support mobile, YouTube and newer businesses.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "SEC / Alphabet: Alphabet Announces Third Quarter 2017 Results",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204417000039/googexhibit991q32017.htm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q4 revenue increased **24% to $32.32 billion**, above consensus, while adjusted EPS of **$9.70** missed expectations near $9.98. The reported GAAP loss was driven by the one-time U.S. tax-reform charge and was not an operating signal.",
+              "sources": []
+            },
+            {
+              "text": "The more important issue was cost growth. Traffic-acquisition costs remained elevated, and expenses were rising faster as Alphabet invested in data centers, content, Cloud and hardware. The quarter therefore combined excellent revenue growth with weaker-than-expected earnings conversion.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Alphabet Investor Relations: Alphabet Announces Fourth Quarter and Fiscal Year 2017 Results",
+                  "url": "https://abc.xyz/investor/news/2018/0201/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares fell because the EPS miss and rising costs overshadowed the revenue beat.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** TAC remained a structural margin pressure as growth shifted toward mobile and programmatic.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Heavy investment in Cloud, YouTube and hardware increased the near-term cost base.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Why Alphabet Inc. Stock Fell Today",
+                  "url": "https://www.fool.com/investing/2018/02/02/why-alphabet-inc-stock-fell-today.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Alphabet/GOOGL identity, the correct earnings event, publication date, timing window and source origin. SEC/Alphabet Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "SEC / Alphabet: Alphabet Announces Third Quarter 2017 Results",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204417000039/googexhibit991q32017.htm"
+        },
+        {
+          "label": "Alphabet Investor Relations: Alphabet Announces Fourth Quarter and Fiscal Year 2017 Results",
+          "url": "https://abc.xyz/investor/news/2018/0201/"
+        },
+        {
+          "label": "The Motley Fool: Why Alphabet Inc. Stock Fell Today",
+          "url": "https://www.fool.com/investing/2018/02/02/why-alphabet-inc-stock-fell-today.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Alphabet's fourth-quarter 2017 report was dominated by a one-time item: a $9.9 billion charge tied to the new U.S. tax law that swung the company to a reported $3.02 billion net loss for the quarter, even as revenue grew 24% to $32.32 billion. Excluding the tax charge, profit actually rose 28% to $6.84 billion, but earnings of $9.70 a share on that adjusted basis missed the $9.98 analysts expected (FactSet). RBC's Mark Mahaney attributed the earnings miss specifically to traffic acquisition costs, which rose 33% to $6.45 billion and grew to 24% of ad revenue from 23% the prior quarter; he was quoted directly asking, \"How much revenue is this company having to give away to maintain these growth rates?\" CFO Ruth Porat explained the TAC increase was concentrated in Alphabet's highest-growth areas — mobile search and programmatic ad placements — which carry structurally higher fees, and said she expected some easing after the first quarter. The article also detailed decelerating volume/price metrics: ad clicks rose 43% in the quarter, down from 47% growth the prior quarter, while revenue per click fell 14%, an improvement from an 18% decline the prior quarter. Separately, the piece noted Alphabet's $101 billion overseas cash pile, the appointment of new chairman John Hennessy (former Stanford president, replacing Eric Schmidt), a fresh $2.71 billion EU fine over shopping-comparison bias, and marketer backlash over YouTube ad placement next to objectionable content. Other Bets posted a $916 million operating loss on $409 million revenue, an improvement from the prior year's $1.09 billion loss on $262 million revenue, and Alphabet authorized a new $8.59 billion buyback, its first since a 2016 program.",
+      "why_moved": "The article reports Alphabet shares fell 2% in after-hours trading, and ties that decline to the adjusted EPS miss discussed above ($9.70 versus the $9.98 analysts expected), despite the 24% revenue growth beating expectations and the net loss itself being explained away as a one-time tax item rather than an operating problem. Mahaney's specific framing — that rising traffic-acquisition costs (up to 24% of ad revenue, as detailed above) represent revenue Alphabet must \"give away\" to sustain its growth rate — appears to be the analytical thread the article uses to explain why investors focused on the EPS shortfall rather than shrugging it off, since it points to a structural margin question rather than a one-off item. The decelerating click growth (43% versus 47% the prior quarter) reinforces that framing by suggesting the volume side of the business was also cooling somewhat, even as the price-per-click decline was moderating.",
+      "sources": [
+        {
+          "filename": "Google Parent Alphabet’s Revenue Rises, but Profit Comes Up Short - WSJ.pdf",
+          "title": "Google Parent Alphabet’s Revenue Rises, but Profit Comes Up Short One-time tax hit caused a $3 billion loss in quarter, but revenue rose 24%; EPS miss",
+          "published_date": "2018-02-01",
+          "text": "Google Parent Alphabet’s Revenue Rises, but Profit Comes Up Short - WSJ 2026-08-28, 2:49 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/alphabet-revenue-rises-as-it-reports-loss-due-to-tax-charge-1517519959\nTECH\nGoogle Parent Alphabet’s Revenue Rises, but Profit\nComes Up Short\nOne-time tax hit caused a $3 billion loss in quarter, but revenue rose 24%; EPS miss\nBy Jack Nicas\nFebruary 1, 2018\nASSOCIATED PRESS\nGoogle parent Alphabet Inc. GOOG 1.56% swung to a loss after taking a $9.9 billion\ncharge related to the new U.S. tax law, though its core advertising business continued\nits strong run even as criticism grows over how the company monitors its clout and\ncontent.\nAlphabet said the one-time tax hit caused a $3.02 billion loss in the fourth quarter.\nRevenue rose 24% to $32.32 billion from a year earlier.\nThe company keeps most of its $101 billion cash pile overseas, but it didn’t say\nhttps://www.wsj.com/articles/alphabet-revenue-rises-as-it-reports-loss-due-to-tax-charge-1517519959 Page 1 of 5\nGoogle Parent Alphabet’s Revenue Rises, but Profit Comes Up Short - WSJ 2026-08-28, 2:49 PM\nThursday when or if it would bring that cash to the U.S. On a call with analysts, Chief\nFinancial Officer Ruth Porat said the company’s spending plans are “unchanged from\nour prior discussions.”\nSeparately, Alphabet said its board had appointed director John Hennessy, the former\npresident of Stanford University, as its chairman. Longtime Executive Chairman Eric\nSchmidt stepped down from the post in December but remains on the board.\nExcluding the impact of the tax charge, Alphabet reported a 28% increase in profit to\n$6.84 billion compared with the year before. Without the tax charge, its profit of $9.70\na share missed estimates of $9.98 a share, according to analysts polled by FactSet.\nShares were down 2% after hours.\nRBC Capital Markets analyst Mark Mahaney attributed the earnings miss to higher\nexpenses related to so-called traffic-acquisition costs, or fees Alphabet pays to such\npartners as Apple Inc. to put its services front and center on their devices. Those fees\nrose 33% to $6.45 billion from a year earlier. That amounts to 24% of Google’s overall\nad revenue, up from 23% in the prior quarter.\n“The negative is expenses came in heavier than expected,” he said. “That raises a\nquestion: How much revenue is this company having to give away to maintain these\ngrowth rates?”\nMs. Porat blamed the rise in traffic-acquisition costs on the company’s highest-growth\nareas—mobile search and so-called programmatic ads where Google places ads on\npartners’ content—which carry higher fees. Ms. Porat said some of these costs would\nease after the first quarter.\nAlphabet also increased sales and marketing spending by 38% to $4.31 billion,\nreflecting marketing around Google’s new line of hardware devices during the\nholidays.\nStill, over the past 32 quarters, Alphabet has averaged revenue growth of at least 20%,\nhttps://www.wsj.com/articles/alphabet-revenue-rises-as-it-reports-loss-due-to-tax-charge-1517519959 Page 2 of 5\nGoogle Parent Alphabet’s Revenue Rises, but Profit Comes Up Short - WSJ 2026-08-28, 2:49 PM\nwhen adjusting for currency movements, Mr. Mahaney said.\nAlphabet has been able to sustain such growth because its core Google unit handles\nnearly 92% of internet searches, according to tech-data firm StatCounter. Google also\nowns the world’s dominant video site, YouTube, which the company said has helped\ndrive growth in recent years.\nGoogle makes most of its money when users click on the ads it serves across the web,\nincluding atop its search results, before YouTube videos and on millions of third-party\nwebsites. And as people continue to use the internet even more, those clicks keep\npiling up. Google said clicks on its ads rose 43% in the fourth quarter from the prior\nyear, after having 47% growth in the third quarter.\nYet the amount of money Google rakes in for each ad click has fallen steadily in recent\nyears. It earns less from mobile-search and YouTube ads, which are rapidly growing,\nthan from traditional desktop search ads. Google said its revenue per click fell 14% in\nthe quarter from a year earlier, after an 18% decline in the third quarter.\nThe results, including another record for revenue and what would have been record\nprofit were it not for the tax charge, come as Alphabet faces criticism on several\nfronts. Google’s supremacy in search drew it a $2.71 billion fine from European\nregulators who said the company favored its comparison-shopping service over rivals.\nYouTube, meanwhile, is grappling with a backlash from marketers over the placement\nof their ads in front of undesirable videos, including YouTube’s curated lineup of\n“preferred” content.\nGoogle’s dominant ad business accounts for the vast majority of Alphabet’s profits,\nbut the company is trying to change that. Alphabet is investing in a dozen units\noutside of Google, including its self-driving firm Waymo and life-sciences startup\nVerily, hoping at least a few of them will become big businesses down the road.\nThese “Other Bets,” though, are far from commercial successes yet. Alphabet said\nhttps://www.wsj.com/articles/alphabet-revenue-rises-as-it-reports-loss-due-to-tax-charge-1517519959 Page 3 of 5\nGoogle Parent Alphabet’s Revenue Rises, but Profit Comes Up Short - WSJ 2026-08-28, 2:49 PM\nthey posted a $916 million operating loss in the fourth quarter on $409 million in\nrevenue, compared with a $1.09 billion loss on $262 million in revenue a year ago.\nThe more near-term bet to diversify its business comes from inside Google. The unit is\ninvesting heavily in cloud and hardware efforts, though it still trails rivals in both\nareas. Those businesses, along with sales from its Google Play app and media store,\nare combined in Google’s “other revenue” segment, which grew by nearly 38% to $4.69\nbillion from a year ago.\nAlphabet also said Thursday its board authorized $8.59 billion in share repurchases,\nits first since a $7 billion buyback that began in late 2016.\nWrite to Jack Nicas at jack.nicas@wsj.com\nCorrections & Amplifications\nOver the past 32 quarters, Alphabet has averaged revenue growth of at least 20%,\nwhen adjusting for currency movements. An earlier version of this article incorrectly\nsaid Alphabet had 32 consecutive quarters of revenue growth of at least 20%. (Feb. 12,\n2018)\nAppeared in the February 2, 2018, print edition as 'Alphabet Posts Loss, but Revenue Climbs'.\nJack Nicas covered Google and other companies owned by Alphabet Inc. He was based in The Wall Street Journal's\nSan Francisco bureau.\nHe previously wrote about emerging technologies, including robotics, drones, artificial intelligence and virtual realit…\nJack joined the Journal in 2011 in Chicago, where he covered aviation and national news in the Midwest.\nJaFcokl hloaws previously written for the Boston Globe and the St. Petersburg Times. He is a Massachusetts native and\ngraduated from Boston University.\nhttps://www.wsj.com/articles/alphabet-revenue-rises-as-it-reports-loss-due-to-tax-charge-1517519959 Page 4 of 5\nGoogle Parent Alphabet’s Revenue Rises, but Profit Comes Up Short - WSJ 2026-08-28, 2:49 PM\nhttps://www.wsj.com/articles/alphabet-revenue-rises-as-it-reports-loss-due-to-tax-charge-1517519959 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "GOOGL_2018q2": {
+    "ticker": "GOOGL",
+    "group": "Group 1",
+    "company_name": "Alphabet",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-04-23",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "By April, investors were already concerned about rising traffic costs and spending. Privacy scrutiny across the technology sector added another uncertainty, even though Google’s ad demand remained strong.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Alphabet Investor Relations: Alphabet Announces Fourth Quarter and Fiscal Year 2017 Results",
+                  "url": "https://abc.xyz/investor/news/2018/0201/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q1 revenue surged **26% to $31.15 billion**, beating consensus, and underlying EPS also exceeded expectations. Google Sites revenue rose 26%, led by mobile search and YouTube, while Google other revenue grew **36%** on Cloud, Play and hardware.",
+              "sources": []
+            },
+            {
+              "text": "But costs accelerated even faster. Total costs and expenses rose **33%**, traffic-acquisition costs increased roughly **36%**, and capital spending jumped to about **$7.3 billion**, partly because of the Chelsea Market purchase but also because Alphabet was expanding data centers and compute infrastructure. Operating margin fell to **22% from 27%** a year earlier. The report therefore delivered excellent growth but much weaker incremental margins.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "SEC / Alphabet: Alphabet Announces First Quarter 2018 Results",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204418000011/googexhibit991q12018.htm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock fell because the spending surge and margin compression outweighed the revenue/earnings beat.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Higher TAC made mobile and programmatic growth more expensive to monetize.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Cloud, AI and infrastructure investments raised long-run opportunity but reduced near-term free-cash-flow leverage.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "CBS San Francisco / CNN Money: Google's Spending Spree Rattles Wall Street",
+                  "url": "https://www.cbsnews.com/sanfrancisco/news/googles-spending-spree-rattles-wall-street/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Alphabet/GOOGL identity, the correct earnings event, publication date, timing window and source origin. SEC/Alphabet Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Alphabet Investor Relations: Alphabet Announces Fourth Quarter and Fiscal Year 2017 Results",
+          "url": "https://abc.xyz/investor/news/2018/0201/"
+        },
+        {
+          "label": "SEC / Alphabet: Alphabet Announces First Quarter 2018 Results",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204418000011/googexhibit991q12018.htm"
+        },
+        {
+          "label": "CBS San Francisco / CNN Money: Google's Spending Spree Rattles Wall Street",
+          "url": "https://www.cbsnews.com/sanfrancisco/news/googles-spending-spree-rattles-wall-street/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Alphabet's first-quarter 2018 report showed net profit surging 73% to $9.4 billion, which the article describes as the company's strongest earnings growth since the fourth quarter of 2009 — a striking historical comparison. Advertising revenue, still nearly all of the company's top line, rose 24% to $26.6 billion. Critically, the article details that roughly $3 billion of the profit increase came not from operations but from a change in accounting rules requiring Alphabet to report the current fair value of nonmarketable securities, most notably its stake in Uber; the company did not disclose how much of that $3 billion was Uber specifically, but the article notes Uber's implied valuation was itself uncertain, having last priced at a $48 billion valuation in a December share sale led by SoftBank — a roughly 30% discount to the $68 billion valuation from Uber's last primary funding round. The piece also detailed rising cost pressure: traffic acquisition costs rose 35% to $6.3 billion, representing about one-fifth of revenue for five consecutive quarters, with Pivotal Research's Brian Wieser noting that Google's partner-driven ad revenue \"is growing faster, which helps their top line, but is lower margin.\" Capital expenditures nearly tripled to $7.3 billion, including a $2.4 billion purchase of a building in Manhattan's Chelsea Market, which CFO Ruth Porat said \"reflects the demand we are seeing\" rather than one-off spending. The article also gave a rare look at Nest's standalone financials — $726 million in revenue across all of 2017, about 60% of total Other Bets revenue that year — while noting Nest had been moved back into the core Google unit and had been \"upstaged\" by smart speakers like Amazon Echo and Google Home. It also flagged that YouTube's revenue remains undisclosed, with analysts estimating $11 billion to $20 billion, and noted a backdrop of intensifying privacy scrutiny (GDPR taking effect May 25) that CEO Sundar Pichai said Google was prepared for.",
+      "why_moved": "The article explicitly states that \"Alphabet's shares were little changed in after-hours trading\" following the report, framing the results as a solid but not surprising beat given the unusual accounting boost from the Uber stake revaluation described above, which investors may have partly discounted as non-operational. The tripled capital expenditures and 35% rise in traffic acquisition costs discussed above raised questions about margin pressure even amid the headline profit beat, though the article characterizes the immediate market response to the results as muted rather than as a reaction to those cost pressures specifically.",
+      "sources": [
+        {
+          "filename": "Google Parent Posts Surge in Profit, but Expenses Also Jump - WSJ.pdf",
+          "title": "Google Parent Posts Surge in Profit, but Expenses Also Jump Alphabet’s earnings got multibillion-dollar boost from stakes in startups including Uber",
+          "published_date": "2018-04-23",
+          "text": "Google Parent Posts Surge in Profit, but Expenses Also Jump - WSJ 2026-08-28, 2:51 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/alphabets-earnings-soar-as-sales-continue-to-climb-1524514801\nTECH\nGoogle Parent Posts Surge in Profit, but Expenses\nAlso Jump\nAlphabet’s earnings got multibillion-dollar boost from stakes in startups including Uber\nBy Douglas MacMillan\nApril 23, 2018\nGoogle parent Alphabet reported first-quarter profit soared. MATT ROURKE/ASSOCIATED PRESS\nGoogle parent Alphabet Inc. GOOGL 1.72% posted surging profits as advertisers kept\nswarming to the search giant amid a global debate about internet privacy that\nthreatens to affect its main revenue generator.\nAlphabet’s earnings also got a multibillion-dollar boost from the company’s stakes in\nstartups including Uber Technologies Inc. but were tempered by the costliest\nspending spree in its 14-year history as a public company.\nhttps://www.wsj.com/articles/alphabets-earnings-soar-as-sales-continue-to-climb-1524514801 Page 1 of 6\nGoogle Parent Posts Surge in Profit, but Expenses Also Jump - WSJ 2026-08-28, 2:51 PM\nNet profit jumped 73% to $9.4 billion in the first quarter, up from $5.4 billion in the\nsame period last year, a performance that highlights the firm’s huge lead in the global\nmarket for online ads. The earnings growth was Alphabet’s strongest since the fourth\nquarter of 2009.\nAdvertising revenue, which accounts for nearly all of the company’s top line, soared\n24% to $26.6 billion. Revenue from “Other Bets,” a segment which includes Waymo\nself-driving cars, totaled $150 million, an increase of 14% from the same period last\nyear.\nThe results landed while regulators in Washington are considering getting tougher on\ninternet privacy. While most of the attention on the issue has focused on Facebook\nInc., many observers believe Google’s dominant role online means the firm will also be\nsubject to tougher scrutiny. The European Union is also moving forward with a\nsweeping set of rules called the General Data Protection Regulation, which goes into\neffect May 25. The new law could affect the revenue of Alphabet, which has already\nannounced some changes to the way it collects consent from visitors of sites\ndisplaying its ads.\nCompanies found in violation of the sweeping regulation will face fines of up to 4% of\ntheir annual global revenue.\nAsked about the impact of the European regulations on a call with analysts Monday,\nChief Executive Sundar Pichai said Google has spent more than a year preparing to be\ncompliant. Because Google derives most of its revenue from search ads, which rely\nless on personal targeting, much of its business won’t be affected by the changes, he\nsaid.\nAlphabet’s first-quarter earnings received a boost from a change in accounting rules\nthat caused the company to begin reporting the current fair value of nonmarketable\nsecurities, including its valuable stake in ride-hailing giant Uber.\nhttps://www.wsj.com/articles/alphabets-earnings-soar-as-sales-continue-to-climb-1524514801 Page 2 of 6\nGoogle Parent Posts Surge in Profit, but Expenses Also Jump - WSJ 2026-08-28, 2:51 PM\nAlphabet attributed about $3 billion of its net profit increase to the value of those\nsecurities, though the company didn’t break out individual holdings or disclose what\nportion of that increase was made up by Uber.\nThe fair value of Uber shares is something of a mystery. Last December, Uber backers\nand employees sold shares to a group of investors led by SoftBank Group Corp. at a\n$48 billion valuation—a roughly 30% discount to the last time it sold new shares to\ninvestors, at a $68 billion valuation.\nAlphabet’s earnings boost helped offset the rising costs it pays partners such as Apple\nInc. to direct more smartphone users to Google’s search engine. Those costs have\nraised concerns that the company has to give up chunks of its revenue to maintain its\nlevel of growth.\nBrian Wieser, an analyst at Pivotal Research, said the advertising business not based\non Google’s home page search activity—which comes from partners—“is growing\nfaster, which helps their top line, but is lower margin.”\nTraffic costs rose to $6.3 billion, up 35% from a year earlier and have made up one-fifth\nof the company’s revenue for five consecutive quarters.\nThe company also drastically increased its spending in other areas. Alphabet spent\n$7.3 billion on capital expenditures in the first quarter of the year, more than triple the\namount it spent a year earlier. That included its $2.4 billion purchase of a building in\nNew York’s Chelsea Market as well as investments in data centers and undersea\ncables.\nThe spending caps several quarters of rising costs at Alphabet, which is investing in\nthe infrastructure the company says is critical to maintaining its lead in future\ntechnologies such as machine learning, a branch of computer science dedicated to\nhelping computers find patterns in data.\nAlphabet Chief Financial Officer Ruth Porat suggested the spending could continue,\nhttps://www.wsj.com/articles/alphabets-earnings-soar-as-sales-continue-to-climb-1524514801 Page 3 of 6\nGoogle Parent Posts Surge in Profit, but Expenses Also Jump - WSJ 2026-08-28, 2:51 PM\nsaying “it reflects the demand we are seeing” and not one-off expenses.\nAlphabet’s shares were little changed in after-hours trading.\nGoogle has maintained its lead in the global market for online ads despite its massive\nsize and growing competition from fast-expanding challengers. Google is expected to\ncontrol 31% of the global ad market this year, down slightly from 31.7%, according to\nestimates from eMarketer.\nGoogle’s ad business accounts for the vast majority of revenue but the company is\nincreasingly looking to emerging areas, such as Waymo and high-tech health-care\ndivision Calico, for continued growth.\nAlphabet generally doesn’t disclose results from those units individually, but it did\ngive investors a rare glimpse at the financials of Nest Labs, the pioneer in internet-\nconnected home devices such as thermostats and home security cameras that the\ncompany acquired for $3.2 billion in 2014.\nIn all four quarters of 2017 combined, Nest generated $726 million in revenue, or\nabout 60% of the total sales of the “Other Bets” segment over that period, according to\nAlphabet’s data. Nest was moved from “Other Bets” to the Google unit earlier this\nyear, a move seen a retrenchment of Alphabet’s strategy to let more units grow as\nindependent businesses.\nNest has been slow to release new products and has been upstaged by talking speakers\nwith embedded virtual assistants—mainly the Amazon Echo and Google Home—\nwhich have become the hubs for connected homes.\nAlphabet doesn’t share results for a much bigger driver of revenue, YouTube. Some\ninvestors and others have renewed calls for more transparency from YouTube, which\nanalysts estimate will generate from $11 billion to $20 billion this year, representing\nbetween 10% and 18% of Alphabet’s overall revenue.\nhttps://www.wsj.com/articles/alphabets-earnings-soar-as-sales-continue-to-climb-1524514801 Page 4 of 6\nGoogle Parent Posts Surge in Profit, but Expenses Also Jump - WSJ 2026-08-28, 2:51 PM\nThe company said the product was part of a broader suite of ad-supported businesses.\nWrite to Douglas MacMillan at douglas.macmillan@wsj.com\nCorrections & Amplifications\nAlphabet moved its Nest business from its “Other Bets” division to the Google unit\nearlier this year. An earlier version of this story said that move happened last year.\n(April 24, 2018)\nAppeared in the April 24, 2018, print edition as 'Google Parent’s Profit Soars As Spending Spree Continues'.\nDouglas MacMillan is a former reporter in The Wall Street Journal's tech bureau in San Francisco. He covered\nGoogle and its many o\"shoots. Previously, he reported on the rise of startups including Uber and Airbnb and the\ndecline of aging internet pioneer Yahoo. Before joining WSJ in 2013, Douglas covered technology for Bloomberg…\nNews and Bloomberg Businessweek. He completed Columbia University's Knight-Bagehot Fellowship in Economics\nFollow\nand Business Journalism in 2017.\nhttps://www.wsj.com/articles/alphabets-earnings-soar-as-sales-continue-to-climb-1524514801 Page 5 of 6\nGoogle Parent Posts Surge in Profit, but Expenses Also Jump - WSJ 2026-08-28, 2:51 PM\nhttps://www.wsj.com/articles/alphabets-earnings-soar-as-sales-continue-to-climb-1524514801 Page 6 of 6"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "GOOGL_2018q3": {
+    "ticker": "GOOGL",
+    "group": "Group 1",
+    "company_name": "Alphabet",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-23",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After the April cost-driven selloff, investors needed evidence that Alphabet could keep accelerating revenue while controlling the margin consequences of its infrastructure build.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "SEC / Alphabet: Alphabet Announces First Quarter 2018 Results",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204418000011/googexhibit991q12018.htm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q2 revenue increased **26% to $32.66 billion**, above consensus. Excluding the new **$5.1 billion Android antitrust fine**, adjusted EPS was roughly **$11.75**, comfortably ahead of expectations. Google Sites revenue rose strongly on mobile search and YouTube, while Google other revenue increased **37%** on Cloud, Play and hardware.",
+              "sources": []
+            },
+            {
+              "text": "Traffic-acquisition costs were still elevated, but TAC as a share of ad revenue improved slightly from the prior quarter. The combination of accelerating revenue growth and better-than-feared cost dynamics restored confidence after April.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "SEC / Alphabet: Alphabet Announces Second Quarter 2018 Results",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204418000025/goog8-kq22018.htm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares rose because revenue and underlying EPS beat expectations despite the large EU fine.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Search, YouTube and Cloud all contributed to stronger growth.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Slightly better TAC dynamics reduced concern that growth was becoming progressively less profitable.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Q2 Earnings: How Alphabet Crushed It",
+                  "url": "https://www.fool.com/investing/2018/07/24/q2-earnings-how-alphabet-crushed-it.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Alphabet/GOOGL identity, the correct earnings event, publication date, timing window and source origin. SEC/Alphabet Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "SEC / Alphabet: Alphabet Announces First Quarter 2018 Results",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204418000011/googexhibit991q12018.htm"
+        },
+        {
+          "label": "SEC / Alphabet: Alphabet Announces Second Quarter 2018 Results",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204418000025/goog8-kq22018.htm"
+        },
+        {
+          "label": "The Motley Fool: Q2 Earnings: How Alphabet Crushed It",
+          "url": "https://www.fool.com/investing/2018/07/24/q2-earnings-how-alphabet-crushed-it.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Alphabet's second-quarter 2018 report landed against a backdrop of regulatory pressure, with the company having taken a $5 billion European Union fine over alleged abuse of Android's market dominance the prior week (Google is appealing), which the article says caused reported profit to fall 9% to $3.2 billion. Excluding that fine, the underlying performance was strong: earnings of $11.75 a share, well above the $8.90 posted a year earlier and the $9.66 consensus estimate (FactSet), while revenue excluding traffic acquisition costs rose 25% to $26.24 billion, beating the $25.6 billion analysts expected (FactSet). Portfolio manager Sean Stannard-Stockton of Ensemble Capital, a Google shareholder, called the business \"unbelievably steady for a business of this size.\" The article highlighted a specific favorable trend reversal in distribution costs: payments to partners like Apple rose 49% but slipped to 13% of website-driven ad revenue from 13.2% the prior quarter — the first sequential decline in that metric in three years, a detail suggesting the margin pressure from traffic acquisition costs that had weighed on prior quarters' coverage was easing somewhat. The piece also detailed a nuanced take on the regulatory backdrop: Pivotal Research's Brian Wieser argued the EU's new privacy rules (GDPR) may have actually benefited Google by making it \"a safe choice\" for advertisers relative to smaller ad-tech players facing more compliance uncertainty. On the Android antitrust ruling specifically, the article noted European regulators ordered Google to stop bundling Search and Chrome with the Play Store on Android devices, which could let phone makers extract payments from Google to keep pre-installing those apps; CEO Sundar Pichai said he was working \"to find a solution above all that preserves the tremendous benefits of Android to users.\"",
+      "why_moved": "The article reports Google shares rose 3.9% in after-hours trading to $1,267, an all-time high, and attributes that reaction to the revenue and adjusted-EPS beats detailed above ($26.24 billion versus $25.6 billion expected, and $11.75 versus $9.66 a share) even as the EU fine dragged reported net profit down 9%. The framing throughout the piece is that the market chose to look past the one-time regulatory fine and focus on the underlying operating strength — consistent with the observation that \"even while Silicon Valley's leading tech firms are ensnared in a range of controversies, the underlying businesses are mightier than ever.\" The improvement in the traffic-acquisition-cost ratio (the first sequential decline in three years, as noted above) likely reinforced this positive reaction by addressing a specific margin concern that had weighed on sentiment in prior quarters covered in this batch.",
+      "sources": [
+        {
+          "filename": "Google Earnings Hit by European Fine - WSJ.pdf",
+          "title": "Google Earnings Hit by European Fine Shares of parent Alphabet jump in after-hours trading on rising revenue and ad sales",
+          "published_date": "2018-07-23",
+          "text": "Google Earnings Hit by European Fine - WSJ 2026-08-28, 2:52 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/google-earnings-hit-by-european-fine-1532376669\nTECH\nGoogle Earnings Hit by European Fine\nShares of parent Alphabet jump in after-hours trading on rising revenue and ad sales\nBy Douglas MacMillan\nJuly 23, 2018\nGoogle is facing more pressure from regulators seeking to rein in the power of the internet giant, and investors are\nworried that new laws and restrictions will impede its growth. KRISZTIAN BOCSI/BLOOMBERG NEWS\nGoogle’s advertising machine keeps racing ahead even as regulators try to construct\nnew guardrails to curtail the internet giant’s global dominance.\nAlphabet Inc., Google’s parent, reported sales and profit surpassing analysts’\nestimates on Monday, a sign the company’s strength in online ads will help offset the\nimpact of sweeping new European regulations for online privacy and perceived\nabuses of its position in the market.\nThe results highlight how even while Silicon Valley’s leading tech firms are ensnared\nhttps://www.wsj.com/articles/google-earnings-hit-by-european-fine-1532376669 Page 1 of 6\nGoogle Earnings Hit by European Fine - WSJ 2026-08-28, 2:52 PM\nin a range of controversies, the underlying businesses are mightier than ever.\nShares of Google rose 3.9% to $1,267 in after-hours trading, reaching an all-time high.\nAdvertisers have shrugged off negative headlines surrounding Google and tech rival\nFacebook Inc., which for months has grappled with criticism about its data privacy\npractices. Facebook is expected to report a sharp increase in revenue when it reports\nsecond-quarter results Wednesday as companies continue to buy ads on the social-\nmedia site and its Instagram unit.\nAdding Up\nAlphabet's second-quarter segment revenue\n$35.billion\n30\n25\n20 Other bets\nOther Google\nrevenue*\n15\nGoogle ad revenue\n10\n5\n0\n2015 ’16 ’17 ’18\n*Other Google revenue includes hardware, cloud and app-store sales\nSource: the company\n“Between Google and Facebook, the two of them keep taking share of an industry that\ndoesn’t grow as much as they are,” said Pivotal Research analyst Brian Wieser.\nhttps://www.wsj.com/articles/google-earnings-hit-by-european-fine-1532376669 Page 2 of 6\nGoogle Earnings Hit by European Fine - WSJ 2026-08-28, 2:52 PM\nGoogle is expected to control 31% of the global digital ad market this year, down\nslightly from 31.7% in 2017, according to estimates from eMarketer.\nThe company on Monday said its second-quarter profit fell 9% to $3.2 billion because\nof a $5 billion fine levied last week by the European Union, which said Google has\nabused the dominance of its Android mobile operating system. Android is used by\nmore than 80% of the world’s smartphones. Google said it is appealing the charges.\nExcluding the impact of the fine, the company reported per-share earnings of $11.75,\ncompared with a year-earlier figure of $8.90 and the consensus analyst estimate of\n$9.66, according to analysts polled by FactSet.\nRevenue, excluding traffic costs paid to partners, rose 25% from a year earlier to\n$26.24 billion. Analysts were expecting $25.6 billion, according to a poll by FactSet.\n“Google continues to be an online ad business that’s a fantastic business,” said Sean\nStannard-Stockton, a portfolio manager at Ensemble Capital, which owns shares in\nGoogle. “It is unbelievably steady for a business of this size.”\nOne closely watched measure in the company’s earnings reports is how much Google\nis paying to maintain its leadership position in the ad market, especially as more users\nshift to mobile phones.\nGoogle pays fees to smartphone partners, such as Apple Inc., AAPL 1.47% to be the\ndefault search engine on smartphones. Payments to distribution partners rose 49% in\nthe second quarter, and now account for 13% of the revenue generated by the\ncompany’s website traffic. That is down slightly from 13.2% in the first quarter,\nmarking the first sequential decline for this important measure in three years.\nGoogle’s capital expenditures nearly doubled to $5.5 billion from a year earlier, as the\ncompany spends on workers and infrastructure to maintain its lead in emerging\ntechnologies. Those expenses have risen the past four consecutive quarters.\nhttps://www.wsj.com/articles/google-earnings-hit-by-european-fine-1532376669 Page 3 of 6\nGoogle Earnings Hit by European Fine - WSJ 2026-08-28, 2:52 PM\nThe biggest increase in spending was on research and development and on boosting\nthe ranks of technical workers, Chief Financial Officer Ruth Porat said Monday on a\ncall with analysts. Alphabet has 89,000 employees, an increase of 4,000 from the first\nquarter.\nAs Google faces more pressure from regulators seeking to rein in the power of the\ninternet giant, investors are worried that new laws and restrictions will impede its\ngrowth. In addition to the fine related to Android, European regulators this year began\nenforcing a new privacy regulation forcing Google and other internet companies to\nget consent from web users to collect their data and target ads to them.\nThe privacy law may have even benefited Google by making its offerings more\nappealing than those by smaller players in the market.\n“It was a safe choice to buy [advertising] using Google’s tools and inventory,” Mr.\nWieser said.\nThere have also been increasing calls from U.S. lawmakers to curtail Google’s\ndominance but no legislation is imminent on Capitol Hill.\nIt’s too early to tell whether the EU’s charges against Google’s use of Android will\nforce the company to change its business deals. The regulator ordered Google to stop\nforcing Android handset makers to bundle Google’s Search and Chrome apps on\ndevices that also include the Google Play store for third-party apps, a ruling which\ncould give handset makers leverage to extract payments from Google to pre-install\nthose apps.\nAsked about whether Google sees any changes to its Android business, Chief\nExecutive Sundar Pichai said he is working “to find a solution above all that preserves\nthe tremendous benefits of Android to users.”\nAndroid, which is free to handset makers, “creates more choice for everyone, not less,”\nMr. Pichai said.\nhttps://www.wsj.com/articles/google-earnings-hit-by-european-fine-1532376669 Page 4 of 6\nGoogle Earnings Hit by European Fine - WSJ 2026-08-28, 2:52 PM\nWrite to Douglas MacMillan at douglas.macmillan@wsj.com\nCorrections & Amplifications\nAlphabet Inc.’s Google is expected to control 31% of the global market for digital ads\nthis year, according to eMarketer. An earlier version of this article incorrectly cited\nthat figure as Google’s share of the overall ad market. Separately, analysts were\nexpecting Alphabet to generate $25.6 billion in second-quarter revenue, excluding\npayments to advertising partners, according to a poll by FactSet. An earlier version of\nthis article incorrectly said the analyst estimate was $20.9 billion. (July 25)\nAppeared in the July 24, 2018, print edition as 'Google Blasts Through Hurdles'.\nDouglas MacMillan is a former reporter in The Wall Street Journal's tech bureau in San Francisco. He covered\nGoogle and its many o!shoots. Previously, he reported on the rise of startups including Uber and Airbnb and the\ndecline of aging internet pioneer Yahoo. Before joining WSJ in 2013, Douglas covered technology for Bloomberg…\nNews and Bloomberg Businessweek. He completed Columbia University's Knight-Bagehot Fellowship in Economics\nFollow\nand Business Journalism in 2017.\nhttps://www.wsj.com/articles/google-earnings-hit-by-european-fine-1532376669 Page 5 of 6\nGoogle Earnings Hit by European Fine - WSJ 2026-08-28, 2:52 PM\nhttps://www.wsj.com/articles/google-earnings-hit-by-european-fine-1532376669 Page 6 of 6"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "This dedicated Alphabet earnings story reports that reported second-quarter earnings declined 9.3%, weighed down by a $5 billion charge tied to a European Union antitrust fine over alleged abuse of Android's dominance -- a platform the article says is used by more than 80% of smartphones globally, with Google stating it planned to contest the fine. Excluding the fine, the article reports adjusted per-share earnings of $11.75, up from $8.90 a year earlier and above the $9.66 analysts had expected, according to FactSet data. Advertising revenue, excluding traffic-acquisition costs, grew 25% to $26.24 billion despite the rollout of new European privacy regulations that year requiring user consent before companies could collect data for ad targeting. The article notes investor concern that additional forthcoming regulation and restrictions in Europe could further constrain the company's growth going forward.",
+      "why_moved": "The article states that Alphabet shares increased 5.9% to $1,282 in after-hours trading. It attributes this to the adjusted earnings figure -- $11.75 per share excluding the EU fine -- coming in well above the $9.66 analysts had expected, together with 25% growth in advertising revenue, even though the reported (unadjusted) profit fell 9.3% because of the $5 billion antitrust charge.",
+      "sources": [
+        {
+          "title": "Google earnings hit by European fine",
+          "url": "https://www.foxbusiness.com/technology/google-earnings-hit-by-european-fine"
+        }
+      ]
+    }
+  }
+}

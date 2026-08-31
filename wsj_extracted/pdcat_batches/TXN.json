@@ -1,0 +1,1085 @@
+{
+  "TXN_2016q2": {
+    "ticker": "TXN",
+    "group": "Group 2",
+    "company_name": "Texas Instruments",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-27",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "TI entered Q1 with strength in automotive and improving industrial demand, but weakness in a portion of personal electronics had already been flagged in January. The key issue was whether Analog and Embedded Processing margins could keep improving despite the softer consumer mix.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Texas Instruments: TI reports 4Q15 and 2015 financial results and shareholder returns",
+                  "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-4q15-and-2015-financial-results-and-shareholder"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "TI reported **$3.01 billion of revenue**, down 5% year over year, and **$0.65 of EPS**. Revenue landed in the upper half of management’s range. Automotive remained strong, industrial and communications equipment improved, while personal electronics declined as expected.",
+              "sources": []
+            },
+            {
+              "text": "The more important quality signal was profitability. Analog and Embedded Processing together represented **87% of revenue**, and operating margin increased in both businesses despite lower consolidated revenue. Gross margin reached roughly **59.9%**, reflecting TI’s product mix and the structural manufacturing-cost advantage from 300-mm Analog production.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Texas Instruments: TI reports 1Q16 financial results and shareholder returns",
+                  "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-1q16-financial-results-and-shareholder-returns"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The next session was only modestly negative; there was no clear contemporaneous evidence of an earnings-driven selloff.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Personal-electronics weakness offset better automotive and industrial demand.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Higher core-segment margins and 300-mm economics kept the underlying earnings quality strong.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source No reaction source included; the driver language is deliberately limited to supported inference.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Texas Instruments/TXN identity, the correct earnings event or directly relevant same-window catalyst, publication date, timing window and source origin. Texas Instruments Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **SUPPORTED_INFERENCE**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Texas Instruments: TI reports 4Q15 and 2015 financial results and shareholder returns",
+          "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-4q15-and-2015-financial-results-and-shareholder"
+        },
+        {
+          "label": "Texas Instruments: TI reports 1Q16 financial results and shareholder returns",
+          "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-1q16-financial-results-and-shareholder-returns"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The article reports that Texas Instruments posted slightly higher profit for the first quarter even as sales fell in its personal-electronics segment, a decline the company had already warned investors about. It describes TI's focus on high-margin analog chips and embedded processors, the latter used in products ranging from electric toothbrushes to driver-assistance systems, and notes Apple accounted for about 11% of TI's 2015 revenue, largely within the analog segment. In the quarter, analog chip sales fell 8% to $1.88 billion while embedded processor sales rose 8% to $729 million. Overall profit was $668 million, or 65 cents a share, compared with $656 million, or 61 cents, a year earlier. Revenue fell 4.5% to $3.01 billion, largely on the personal-electronics weakness, which the article notes came within the company's own guided range of 57 to 67 cents in earnings on $2.85 billion to $3.09 billion in revenue. Gross margin improved to 60.6% from 57.7%. The article observes that the first and fourth quarters are historically TI's weakest, and reports the company's second-quarter guidance of 67 to 77 cents a share on $3.07 billion to $3.33 billion in revenue, versus an analyst consensus of 71 cents on $3.18 billion.",
+      "why_moved": "The article states that shares rose 1.5% to $60.80 in after-hours trading. It frames this as a reaction to results that landed within the company's previously guided range despite the pre-flagged personal-electronics weakness, along with the improvement in gross margin, though it does not elaborate further on what specifically drove the after-hours gain.",
+      "sources": [
+        {
+          "filename": "Texas Instruments Reports Slightly Higher Profit - WSJ.pdf",
+          "title": "Texas Instruments Reports Slightly Higher Profit Chip maker's sales fell in personal-electronics segment",
+          "published_date": "2016-04-27",
+          "text": "Texas Instruments Reports Slightly Higher Profit - WSJ 2026-08-29, 6:59 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/texas-instruments-reports-slightly-higher-profit-1461793485\nTECH\nTexas Instruments Reports Slightly Higher Profit\nChip maker’s sales fell in personal-electronics segment\nBy Maria Armental\nApril 27, 2016 at 5:44 pm ET\nTexas Instruments Inc. TXN -2.96% on Wednesday reported slightly higher profit for\nthe first three months of the year, even as sales fell in its personal-electronics\nsegment.\nThe Dallas-based chip maker had already warned first-quarter revenue would decline\non weakness in the personal-electronics market, which includes mobile phones and\nso-called wearables that integrate technology into jewelry and clothes.\nShares, up 8% over the past 12 months, rose 1.5%, to $60.80, in after-hours trading.\nFounded in 1930 as Geophysical Service Inc., the company initially focused on\nreflection seismography, which is used to search for oil. It now counts itself among\nsuppliers for Apple Inc.\nTI, which makes chips used in everything from cellphones to industrial equipment,\nfocuses on analog chips, which have a high profit margin, and embedded processors,\nthe “brains” of many electronic devices from electric toothbrushes to driver-\nassistance systems that help drivers, for example, to maintain adequate distance\nbetween cars and park.\nIn the latest period, sales of analog chips fell 8%, to $1.88 billion, while sales of\nembedded processors improved 8%, to $729 million.\nhttps://www.wsj.com/articles/texas-instruments-reports-slightly-higher-profit-1461793485 Page 1 of 3\nTexas Instruments Reports Slightly Higher Profit - WSJ 2026-08-29, 6:59 PM\nApple accounted for about 11% of TI’s revenue in 2015, largely in its analog segment.\nOver all, TI reported a profit of $668 million, or 65 cents a share, compared with $656\nmillion, or 61 cents a share, a year earlier.\nRevenue fell 4.5%, to $3.01 billion, largely because of weakness in the personal-\nelectronics market.\nTI had projected profit of 57 cents to 67 cents a share on $2.85 billion to $3.09 billion\nin revenue.\nHistorically, the first and fourth quarters are the company’s weakest.\nGross profit margin improved to 60.6% from 57.7%.\nTI projects second-quarter profit of 67 cents to 77 cents a share on $3.07 billion to\n$3.33 billion in revenue, compared with analysts’ projected 71 cents a share on $3.18\nbillion in revenue, according to Thomson Reuters.\nWrite to Maria Armental at maria.armental@wsj.com\nMaria Armental covers private equity for The Wall Street Journal, with a focus on tech and health. Her coverage\nexamines a wide-ranging and influential industry and some of its top dealmakers.\nBefore joining the Journal, Maria was a reporter for the Providence Journal.…\nAn award-winning journalist, Maria previously wrote about financial crime, corporate and regulatory matters,\nFollow\npolitics, the environment and immigration.\nMaria is a native Spanish speaker who reads, writes and interviews in Portuguese and French and reads Italian.\nShe studied journalism and computer programming and holds a master’s degree from Rutgers University’s Division\nof Global A\"airs, where she researched political economy, identity and global governance.\nhttps://www.wsj.com/articles/texas-instruments-reports-slightly-higher-profit-1461793485 Page 2 of 3\nTexas Instruments Reports Slightly Higher Profit - WSJ 2026-08-29, 6:59 PM\nhttps://www.wsj.com/articles/texas-instruments-reports-slightly-higher-profit-1461793485 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "TXN_2016q3": {
+    "ticker": "TXN",
+    "group": "Group 2",
+    "company_name": "Texas Instruments",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-07-25",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After Q1, investors wanted confirmation that industrial demand was improving and that TI’s margin expansion could continue as personal-electronics weakness eased.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Texas Instruments: TI reports 1Q16 financial results and shareholder returns",
+                  "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-1q16-financial-results-and-shareholder-returns"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q2 revenue rose to **$3.27 billion** and EPS reached **$0.76**, above consensus near $3.20 billion and $0.72. Revenue and EPS both landed in the upper half of TI’s own guidance. Automotive remained strong, industrial and communications equipment improved, and personal electronics grew sequentially even though it was still down year over year.",
+              "sources": []
+            },
+            {
+              "text": "Gross margin rose to **61.2%**, and operating margin increased in both Analog and Embedded Processing. Q3 guidance of **$3.34–$3.62 billion** of revenue and **$0.81–$0.91 EPS** was also solid.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Texas Instruments: TI reports 2Q16 financial results and shareholder returns",
+                  "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-2q16-financial-results-and-shareholder-returns"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares surged because both earnings and revenue beat expectations and the Q3 outlook was strong.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Automotive and industrial demand broadened the growth base.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Continued gross-margin expansion strengthened the free-cash-flow story.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: Texas Instruments (TXN) Stock Soars After Q2 Beat",
+                  "url": "https://www.thestreet.com/markets/texas-instruments-txn-stock-soars-after-q2-beat-13652304"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Texas Instruments/TXN identity, the correct earnings event or directly relevant same-window catalyst, publication date, timing window and source origin. Texas Instruments Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Texas Instruments: TI reports 1Q16 financial results and shareholder returns",
+          "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-1q16-financial-results-and-shareholder-returns"
+        },
+        {
+          "label": "Texas Instruments: TI reports 2Q16 financial results and shareholder returns",
+          "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-2q16-financial-results-and-shareholder-returns"
+        },
+        {
+          "label": "TheStreet: Texas Instruments (TXN) Stock Soars After Q2 Beat",
+          "url": "https://www.thestreet.com/markets/texas-instruments-txn-stock-soars-after-q2-beat-13652304"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The article reports that demand in the automotive, industrial and communications sectors helped Texas Instruments post revenue and profit in the upper range of its own estimates and issue strong guidance for the current quarter: revenue of $3.3 billion to $3.6 billion and earnings of 81 to 91 cents a share, versus an analyst consensus of 81 cents on $3.4 billion. CEO Rich Templeton is quoted saying demand for TI's products \"continued to be strong\" in automotive and \"grew\" in industrial and communications equipment markets, while personal-electronics demand remained down from a year earlier despite sequential growth. The article cites a research note from RBC Capital Markets analysts warning that headwinds could pick up in the back half of the year if growth in electronic content within the auto and industrial end markets slowed. In the quarter, analog chip sales were flat at $2 billion while embedded processor sales rose 9% to $755 million. Overall profit was $779 million, or 76 cents a share, up from $696 million, or 65 cents, a year earlier, on revenue up 1.2% to $3.3 billion -- beating the company's own prior guidance of 67 to 77 cents on $3.07 billion to $3.33 billion in revenue, versus an analyst estimate of 72 cents on $3.2 billion.",
+      "why_moved": "The article states that shares rose 5.8% to $70.04 in after-hours trading. It attributes this to results landing in the upper range of the company's own estimates and to the strong current-quarter guidance, which topped analyst expectations, driven by continued demand strength in the automotive, industrial and communications end markets.",
+      "sources": [
+        {
+          "filename": "Texas Instruments Issues Strong Guidance Boosted by Auto, Industrial Demand - WSJ.pdf",
+          "title": "Texas Instruments Issues Strong Guidance Boosted by Auto, Industrial Demand Sales of embedded processors up 9%",
+          "published_date": "2016-07-25",
+          "text": "Texas Instruments Issues Strong Guidance Boosted by Auto, Industrial Demand - WSJ 2026-08-29, 7:00 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/texas-instruments-issues-strong-guidance-boosted-by-auto-industrial-demand-1469482708\nTECH\nTexas Instruments Issues Strong Guidance Boosted by\nAuto, Industrial Demand\nSales of embedded processors up 9%\nBy Ezequiel Minaya\nJuly 25, 2016 at 5:38 pm ET\nTexas Instruments Inc. TXN -2.96% said Monday that demand in the automotive,\nindustrial and communications sectors helped the chip maker post revenue and profit\nin the upper range of its estimates and issue strong guidance for the current quarter.\nShares, up 35% over the past 12 months, rose 5.8% to $70.04 in after-hours trading.\nFor the current quarter, TI sees revenue in the range of $3.3 billion to $3.6 billion with\nearnings on a per-share basis between 81 cents and 91 cents. Analysts surveyed by\nThomson Reuters expect earnings of 81 cents a share on revenue of $3.4 billion.\n“Compared with a year ago, demand for our products continued to be strong in the\nautomotive market, and grew in the industrial and communications equipment\nmarkets,” said Rich Templeton, chief executive of the company. “Despite sequential\ngrowth, demand in the personal electronics market was down from a year ago.”\nThe Dallas-based company is among suppliers for Apple Inc. TI, which makes chips\nused in everything from cellphones to industrial equipment, has focused on analog\nchips, which have a high-profit margin, and embedded processors, the “brains” of\nmany electronic devices from electric toothbrushes to driver-assistance systems in\nautos.\nhttps://www.wsj.com/articles/texas-instruments-issues-strong-guidance-boosted-by-auto-industrial-demand-1469482708 Page 1 of 3\nTexas Instruments Issues Strong Guidance Boosted by Auto, Industrial Demand - WSJ 2026-08-29, 7:00 PM\nAnalysts for RBC Capital Markets believe headwinds could pick up in the second half\nof the year. Among other reasons, the analysts see possible weakness in auto and\nindustrial markets, which have so far boosted the company’s results.\n“Over the past 5-10 years, acceleration in electronic content in the auto and industrial\nend markets has maintained analog semiconductor unit growth,” the RBC analysts\nsaid in a research note Friday. “A slowdown or pause in the growth rates of\nsemiconductor content in these end markets could reduce top-line growth at analog\ncompanies.”\nIn the latest period, sales of analog chips were flat at $2 billion, while sales of\nembedded processors improved 9%, to $755 million.\nOver all, TI reported a profit of $779 million, or 76 cents a share, compared with $696\nmillion, or 65 cents a share, a year earlier.\nRevenue climbed 1.2%, to $3.3 billion\nTI had projected second-quarter profit of 67 cents to 77 cents a share on $3.07 billion\nto $3.33 billion in revenue, compared with analysts’ projected 72 cents a share on $3.2\nbillion in revenue, according to Thomson Reuters.\nWrite to Ezequiel Minaya at ezequiel.minaya@wsj.com\nEzequiel Minaya is a former reporter for The Wall Street Journal. He is no longer with the Journal. A New York City\nnative, Ezequiel worked at the Los Angeles Times; McClatchy newspapers in Fresno and Modesto; and The Press-\nEnterprise near Los Angeles. He also reported for the Houston Chronicle. He spent 13 months as an embedded war…\ncorrespondent in Iraq writing for Stars and Stripes. Ezequiel spent nearly five years covering Venezuela for The Wall\nStFreoellto wJournal before transferring to the Real-Time news desk. Ezequiel received his bachelors degree from Guilford\nCollege, N.C., and a masters in journalism with an emphasis in Latin American studies from the University of\nCalifornia at Berkeley.\nhttps://www.wsj.com/articles/texas-instruments-issues-strong-guidance-boosted-by-auto-industrial-demand-1469482708 Page 2 of 3\nTexas Instruments Issues Strong Guidance Boosted by Auto, Industrial Demand - WSJ 2026-08-29, 7:00 PM\nhttps://www.wsj.com/articles/texas-instruments-issues-strong-guidance-boosted-by-auto-industrial-demand-1469482708 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "TXN_2016q4": {
+    "ticker": "TXN",
+    "group": "Group 2",
+    "company_name": "Texas Instruments",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-10-26",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "By Q3, TI was increasingly being valued as a durable industrial/automotive compounder rather than a consumer-electronics semiconductor name. Investors were also rewarding its strong cash-return policy.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Texas Instruments: TI reports 2Q16 financial results and shareholder returns",
+                  "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-2q16-financial-results-and-shareholder-returns"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q3 revenue reached **$3.68 billion** and EPS **$0.94**, both above consensus and slightly above TI’s expected range. Automotive demand remained strong and industrial demand improved, while personal electronics was roughly flat year over year.",
+              "sources": []
+            },
+            {
+              "text": "Analog revenue grew strongly, core margins continued to expand, and TI announced a **32% dividend increase** to $0.50 per quarter. Q4 revenue guidance of **$3.17–$3.43 billion** and EPS guidance of **$0.76–$0.86** were broadly in line with expectations.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Texas Instruments: TI reports 3Q16 financial results and shareholder returns, including 32% dividend increase",
+                  "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-3q16-financial-results-and-shareholder-returns"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The post-release session was essentially flat because the beat was balanced by an in-line forward outlook.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Automotive and industrial strength confirmed a favorable end-market mix.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** The 32% dividend increase reinforced TI’s capital-return appeal.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: How Will Texas Instruments (TXN) Stock React to Q3 Beat?",
+                  "url": "https://www.thestreet.com/markets/how-will-texas-instruments-txn-stock-react-to-q3-beat-13868838"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Texas Instruments/TXN identity, the correct earnings event or directly relevant same-window catalyst, publication date, timing window and source origin. Texas Instruments Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Texas Instruments: TI reports 2Q16 financial results and shareholder returns",
+          "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-2q16-financial-results-and-shareholder-returns"
+        },
+        {
+          "label": "Texas Instruments: TI reports 3Q16 financial results and shareholder returns, including 32% dividend increase",
+          "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-3q16-financial-results-and-shareholder-returns"
+        },
+        {
+          "label": "TheStreet: How Will Texas Instruments (TXN) Stock React to Q3 Beat?",
+          "url": "https://www.thestreet.com/markets/how-will-texas-instruments-txn-stock-react-to-q3-beat-13868838"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The article reports that Texas Instruments' profit jumped 21% in the third quarter as continued strong demand in the automotive and industrial sectors helped the company post results just above its own forecast, while it also issued current-quarter guidance in line with analyst estimates and raised its quarterly dividend 32% to 50 cents a share, or $2 a year. It notes that analysts had previously warned headwinds could pick up in the second half amid possible weakness in auto and industrial markets, but CEO Rich Templeton said demand \"continued to be strong\" in automotive, \"improved\" in industrial, and \"remained even\" in personal electronics. Analog chip sales rose 6.5% to $2.32 billion and embedded processor sales rose 10% to $795 million. Overall profit was $968 million, or 94 cents a share, up from $798 million, or 76 cents, a year earlier, on revenue up 7.2% to $3.68 billion, beating TI's own guidance of 81 to 91 cents. For the fourth quarter, TI guided to 76 to 86 cents a share on $3.17 billion to $3.43 billion in revenue, versus an analyst consensus of 79 cents on $3.3 billion.",
+      "why_moved": "The article states that shares lost 1% to $71 in after-hours trading, even though the reported profit beat the company's own forecast, the dividend was raised sharply, and current-quarter guidance matched analyst estimates. The article does not offer further explanation for the modest after-hours decline beyond noting that guidance simply lined up with, rather than exceeded, what analysts had already expected.",
+      "sources": [
+        {
+          "filename": "Texas Instruments Reports Higher Profit - WSJ.pdf",
+          "title": "Texas Instruments Reports Higher Profit TI boosted its quarterly dividend to 50 cents a share and issued guidance in line with analyst estimates",
+          "published_date": "2016-10-26",
+          "text": "Texas Instruments Reports Higher Profit - WSJ 2026-08-29, 7:01 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/texas-instruments-reports-higher-profit-1477516604\nBUSINESS EARNINGS\nTexas Instruments Reports Higher Profit\nTI boosted its quarterly dividend to 50 cents a share and issued guidance in line with\nanalyst estimates\nBy Anne Steele\nOct. 26, 2016 at 5:16 pm ET\nTexas Instruments reported third-quarter results on Wednesday. PALM BEACH POST/ZUMA PRESS\nTexas Instruments Inc. TXN -2.96% said profit shot up 21% in the latest quarter as\ncontinued strong demand in the automotive and industrial sectors helped the chip\nmaker report results just above its forecast.\nThe company also issued guidance for the current quarter in line with analyst\nestimates, and it increased its quarterly dividend by 32% to 50 cents a share, or $2 a\nyear.\nShares, up 31% so far this year through Wednesday’s close, lost 1% to $71 in after-\nhttps://www.wsj.com/articles/texas-instruments-reports-higher-profit-1477516604 Page 1 of 3\nTexas Instruments Reports Higher Profit - WSJ 2026-08-29, 7:01 PM\nhours trading.\nThe Dallas-based company is among the suppliers for Apple Inc. TI, maker of chips\nused in everything from cellphones to industrial equipment, has focused on analog\nchips--which have a high-profit margin--and embedded processors, the “brains” of\nmany electronic devices from electric toothbrushes to driver-assistance systems in\nautos.\nAnalysts have said headwinds could pick up in the second half of the year amid\npossible weakness in auto and industrial markets, which have so far boosted the\ncompany’s results.\nBut on Wednesday Chief Executive Rich Templeton said demand continued to be\nstrong in the automotive market, improved in the industrial market and remained\neven in the personal electronics market.\nIn the latest period, sales of analog chips improved 6.5% to $2.32 billion, while sales of\nembedded processors rose 10% to $795 million.\nOver all for the September quarter, TI reported a profit of $968 million, or 94 cents a\nshare, up from $798 million, or 76 cents a share, a year earlier. Revenue climbed 7.2%\nto $3.68 billion\nTI had guided for earnings between 81 cents and 91 cents a share on revenue between\n$3.3 billion and $3.6 billion.\nFor the fourth quarter, TI said it expects earnings of 76 cents to 86 cents a share on\nrevenue of $3.17 billion to $3.43 billion. Analysts polled by Thomson Reuters have\npredicted 79 cents a share in earnings on $3.3 billion in revenue.\nWrite to Anne Steele at Anne.Steele@wsj.com\nhttps://www.wsj.com/articles/texas-instruments-reports-higher-profit-1477516604 Page 2 of 3\nTexas Instruments Reports Higher Profit - WSJ 2026-08-29, 7:01 PM\nAnne Steele covers the music industry for The Wall Street Journal's entertainment bureau in Los Angeles. She was\npreviously a breaking corporate news reporter in New York, and got her start at the Journal as an intern in the\nDetroit bureau covering the auto industry. Anne writes about the people and the companies that release, distribute…\nand license music; the concert business and live-event ticketing; and podcasting, radio and the changing ways\nlisFteonlleowrs consume audio. She has covered extensively the rise of streaming and subsequent soaring value of music\nassets, including the catalog acquisition space and new money pouring into the business. She grew up in\nMassachusetts and graduated from Northeastern University.\nhttps://www.wsj.com/articles/texas-instruments-reports-higher-profit-1477516604 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "TXN_2017q1": {
+    "ticker": "TXN",
+    "group": "Group 2",
+    "company_name": "Texas Instruments",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-01-24",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "TI entered year-end with improving industrial demand, strong automotive growth and record profitability. The investment case increasingly centered on durable analog content growth and cash returns.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Texas Instruments: TI reports 3Q16 financial results and shareholder returns, including 32% dividend increase",
+                  "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-3q16-financial-results-and-shareholder-returns"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q4 revenue increased **7% to $3.41 billion**, while EPS reached **$1.02**. EPS included a **$0.14 benefit** from items outside the original guidance, but underlying operating performance was also strong: Analog revenue grew **10%**, Embedded Processing **6%**, and operating margin increased in both.",
+              "sources": []
+            },
+            {
+              "text": "Gross margin reached **62.5%**, while trailing-twelve-month free cash flow rose to **$4.08 billion**, or 30.5% of revenue. Q1 guidance was broadly constructive, supported by industrial and automotive demand.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Texas Instruments: TI reports 4Q16 and 2016 financial results and shareholder returns",
+                  "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-4q16-and-2016-financial-results-and-shareholder"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares rose as investors rewarded double-digit profit growth and continued strength in Analog and Embedded Processing.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Industrial recovery joined automotive as a major demand engine.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Strong free cash flow supported continued dividends and buybacks.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: Dow Sets New Record After Smashing Through 20,000 Milestone",
+                  "url": "https://www.thestreet.com/investing/dow-sets-new-record-high-after-smashing-through-20-000-milestone-13966798"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Texas Instruments/TXN identity, the correct earnings event or directly relevant same-window catalyst, publication date, timing window and source origin. Texas Instruments Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Texas Instruments: TI reports 3Q16 financial results and shareholder returns, including 32% dividend increase",
+          "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-3q16-financial-results-and-shareholder-returns"
+        },
+        {
+          "label": "Texas Instruments: TI reports 4Q16 and 2016 financial results and shareholder returns",
+          "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-4q16-and-2016-financial-results-and-shareholder"
+        },
+        {
+          "label": "TheStreet: Dow Sets New Record After Smashing Through 20,000 Milestone",
+          "url": "https://www.thestreet.com/investing/dow-sets-new-record-high-after-smashing-through-20-000-milestone-13966798"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The article reports that Texas Instruments' profit rose 26% in the fourth quarter as continued strength in the automotive market drove top-line improvement. For the current quarter, the company guided to earnings of 78 to 88 cents a share, including an estimated 4-cent tax benefit tied to a new accounting standard for stock compensation, above the 75 cents analysts had forecast, with revenue guidance of $3.17 billion to $3.43 billion bracketing the analyst consensus of $3.21 billion. CEO Rich Templeton said demand continued to be strong in automotive, improved in industrial, but was down slightly in personal electronics. Analog chip sales, the largest revenue contributor, rose 10% to $2.29 billion, while embedded processor sales rose 6.3% to $744 million. Overall profit was $1.05 billion, or $1.02 a share, up from $836 million, or 80 cents, a year earlier, which included a 14-cent benefit not contemplated in the company's original guidance of 76 to 86 cents. Revenue rose 7.1% to $3.41 billion, near the top of the guided range of $3.17 billion to $3.43 billion.",
+      "why_moved": "The article states that shares slipped 1.1% after hours to $76.20. It does not provide further explanation for the decline beyond reporting the results themselves, which had come in near the top of the company's guided revenue range and above analyst earnings expectations once the unplanned tax benefit is set aside; the article does not attribute the after-hours move to any specific factor.",
+      "sources": [
+        {
+          "filename": "Texas Instruments’ Profit, Revenue Rise - WSJ.pdf",
+          "title": "Texas Instruments' Profit, Revenue Rise Continued strength in the automotive market drove improvement in top line",
+          "published_date": "2017-01-24",
+          "text": "Texas Instruments’ Profit, Revenue Rise - WSJ 2026-08-29, 7:02 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/texas-instruments-profit-revenue-rise-1485297385\nBUSINESS EARNINGS\nTexas Instruments’ Profit, Revenue Rise\nContinued strength in the automotive market drove improvement in top line\nBy Anne Steele\nUpdated Jan. 24, 2017 at 6:18 pm ET\nTexas Instruments Inc.’s TXN -2.96% profit rose 26% in the latest quarter as\ncontinued strength in the automotive market drove improvement in the chip maker’s\ntop line.\nFor the current quarter, TI said it expects earnings between 78 and 88 cents, including\na 4-cent estimated tax benefit related to a new accounting standard for stock\ncompensation. Analysts polled by Thomson Reuters had forecast 75 cents a share. The\ncompany anticipates revenue in the range of $3.17 billion to $3.43 billion, bracketing\nthe average analyst estimate for $3.21 billion.\nThe Dallas-based company is among the suppliers for Apple Inc. TI, maker of chips\nused in everything from cellphones to industrial equipment, has focused on analog\nchips, which have a high profit margin, and embedded processors, the brains of many\nelectronic devices ranging from electric toothbrushes to driver-assistance systems in\nautos.\nOn Tuesday, Chief Executive Rich Templeton said demand continued to be strong in\nthe automotive market and improved in the industrial market, but was down slightly\nin the personal electronics market.\nDuring the latest period, sales of analog chips, which are the largest contributor to the\ntop line, improved 10% to $2.29 billion, while sales of embedded processors climbed\nhttps://www.wsj.com/articles/texas-instruments-profit-revenue-rise-1485297385 Page 1 of 3\nTexas Instruments’ Profit, Revenue Rise - WSJ 2026-08-29, 7:02 PM\n6.3% to $744 million.\nIn all for the December quarter, TI reported a profit of $1.05 billion, or $1.02 a share,\nup from $836 million, or 80 cents a share, a year earlier. TI had forecast earnings\nbetween 76 cents and 86 cents, but the results include a 14-cent benefit not in the\ncompany’s original outlook.\nRevenue rose 7.1% to $3.41 billion, near the top end of the company’s guidance of $3.17\nbillion to $3.43 billion.\nShares slipped 1.1% after hours to $76.20.\nWrite to Anne Steele at Anne.Steele@wsj.com\nAnne Steele covers the music industry for The Wall Street Journal's entertainment bureau in Los Angeles. She was\npreviously a breaking corporate news reporter in New York, and got her start at the Journal as an intern in the\nDetroit bureau covering the auto industry. Anne writes about the people and the companies that release, distribute…\nand license music; the concert business and live-event ticketing; and podcasting, radio and the changing ways\nlisteners consume audio. She has covered extensively the rise of streaming and subsequent soaring value of music\nassets, including the catalog acquisition space and new money pouring into the business. She grew up in\nMassachusetts and graduated from Northeastern University.\nhttps://www.wsj.com/articles/texas-instruments-profit-revenue-rise-1485297385 Page 2 of 3\nTexas Instruments’ Profit, Revenue Rise - WSJ 2026-08-29, 7:02 PM\nhttps://www.wsj.com/articles/texas-instruments-profit-revenue-rise-1485297385 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "TXN_2017q2": {
+    "ticker": "TXN",
+    "group": "Group 2",
+    "company_name": "Texas Instruments",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-04-25",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After a strong Q4, the key debate was whether the semiconductor upcycle was broadening or nearing a peak. TI’s unusually diversified customer base made its industrial and automotive commentary especially important.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Texas Instruments: TI reports 4Q16 and 2016 financial results and shareholder returns",
+                  "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-4q16-and-2016-financial-results-and-shareholder"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q1 revenue rose **13% to $3.40 billion**, the company’s first quarter of double-digit revenue growth since 2010. EPS was **$0.97**, including an $0.08 discrete tax benefit. Analog revenue grew **20%** and Embedded Processing **10%**, with operating margin increasing in both.",
+              "sources": []
+            },
+            {
+              "text": "Management said demand was strong across industrial and automotive markets and guided Q2 revenue to **$3.40–$3.70 billion** and EPS to **$0.89–$1.01**, a range that was at least as strong as consensus. The operating report was therefore very good despite the slightly negative next-session return.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Texas Instruments: TI reports 1Q17 financial results and shareholder returns",
+                  "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-1q17-financial-results-and-shareholder-returns"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** No clean contemporaneous source tied the -1.5% next-day move to deteriorating fundamentals; the report itself was strong.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Industrial and automotive demand was accelerating broadly.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** The small selloff is best treated as positioning/expectations rather than a verified negative earnings catalyst.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "Dallas Morning News: Texas Instruments sees strong demand across industries for chips",
+                  "url": "https://www.dallasnews.com/business/local-companies/2017/04/26/texas-instruments-sees-strong-demand-across-industries-for-chips/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Texas Instruments/TXN identity, the correct earnings event or directly relevant same-window catalyst, publication date, timing window and source origin. Texas Instruments Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **SUPPORTED_INFERENCE**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Texas Instruments: TI reports 4Q16 and 2016 financial results and shareholder returns",
+          "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-4q16-and-2016-financial-results-and-shareholder"
+        },
+        {
+          "label": "Texas Instruments: TI reports 1Q17 financial results and shareholder returns",
+          "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-1q17-financial-results-and-shareholder-returns"
+        },
+        {
+          "label": "Dallas Morning News: Texas Instruments sees strong demand across industries for chips",
+          "url": "https://www.dallasnews.com/business/local-companies/2017/04/26/texas-instruments-sees-strong-demand-across-industries-for-chips/"
+        }
+      ]
+    },
+    "wsj": null,
+    "djnw": null
+  },
+  "TXN_2017q3": {
+    "ticker": "TXN",
+    "group": "Group 2",
+    "company_name": "Texas Instruments",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-25",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "TI’s first-quarter report had confirmed a broad semiconductor upcycle. Q2 tested whether Analog and Embedded Processing could sustain high-teens growth without sacrificing margins.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Texas Instruments: TI reports 1Q17 financial results and shareholder returns",
+                  "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-1q17-financial-results-and-shareholder-returns"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q2 revenue increased **13% to $3.69 billion** and EPS rose to **$1.03**. Analog revenue grew **18%**, Embedded Processing **15%**, and operating profit in those businesses increased even faster. Gross margin reached **64.3%**.",
+              "sources": []
+            },
+            {
+              "text": "TI guided Q3 revenue to **$3.74–$4.06 billion** and EPS to **$1.04–$1.18**. The only notable cash-flow drag was unusually high tax payments, which reduced quarterly free cash flow but did not indicate weaker operating demand.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Texas Instruments: TI reports 2Q17 financial results and shareholder returns",
+                  "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-2q17-financial-results-and-shareholder-returns"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares rose because the quarter met or exceeded guidance and the next-quarter outlook remained strong.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Automotive and industrial demand continued to drive broad-based growth.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** The temporary cash-tax hit did not undermine the underlying margin and earnings trajectory.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Texas Instruments, Inc. Shrugs Off a Big Tax Bill (for All the Right Reasons)",
+                  "url": "https://www.fool.com/investing/2017/07/26/texas-instruments-inc-shrugs-off-a-big-tax-bill-fo.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Texas Instruments/TXN identity, the correct earnings event or directly relevant same-window catalyst, publication date, timing window and source origin. Texas Instruments Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Texas Instruments: TI reports 1Q17 financial results and shareholder returns",
+          "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-1q17-financial-results-and-shareholder-returns"
+        },
+        {
+          "label": "Texas Instruments: TI reports 2Q17 financial results and shareholder returns",
+          "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-2q17-financial-results-and-shareholder-returns"
+        },
+        {
+          "label": "The Motley Fool: Texas Instruments, Inc. Shrugs Off a Big Tax Bill (for All the Right Reasons)",
+          "url": "https://www.fool.com/investing/2017/07/26/texas-instruments-inc-shrugs-off-a-big-tax-bill-fo.aspx"
+        }
+      ]
+    },
+    "wsj": null,
+    "djnw": null
+  },
+  "TXN_2017q4": {
+    "ticker": "TXN",
+    "group": "Group 2",
+    "company_name": "Texas Instruments",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-10-24",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "TI entered Q3 after several quarters of strong industrial and automotive demand. The market was increasingly focused on how long the analog upcycle could persist.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Texas Instruments: TI reports 2Q17 financial results and shareholder returns",
+                  "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-2q17-financial-results-and-shareholder-returns"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q3 revenue reached **$4.12 billion**, up **12%**, and EPS was **$1.26**, both comfortably above consensus. Analog revenue grew **16%**, Embedded Processing **17%**, and operating margins expanded in both businesses.",
+              "sources": []
+            },
+            {
+              "text": "Gross margin was **64.5%**, and free cash flow continued to grow. The report was a clear operating beat, but the first full session was essentially flat, suggesting that a great deal of cyclical strength was already reflected in the stock.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Texas Instruments: TI reports 3Q17 financial results and shareholder returns",
+                  "url": "https://investor.ti.com/node/24401"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The reaction was essentially flat despite a large beat, indicating a very high expectations bar.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Industrial and automotive remained the main growth engines.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Strong margins and cash generation supported the long-term thesis even without a major stock move.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Texas Instruments, Inc. Beat the Street Again",
+                  "url": "https://www.fool.com/investing/2017/10/25/texas-instruments-inc-beat-the-street-again.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Texas Instruments/TXN identity, the correct earnings event or directly relevant same-window catalyst, publication date, timing window and source origin. Texas Instruments Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Texas Instruments: TI reports 2Q17 financial results and shareholder returns",
+          "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-2q17-financial-results-and-shareholder-returns"
+        },
+        {
+          "label": "Texas Instruments: TI reports 3Q17 financial results and shareholder returns",
+          "url": "https://investor.ti.com/node/24401"
+        },
+        {
+          "label": "The Motley Fool: Texas Instruments, Inc. Beat the Street Again",
+          "url": "https://www.fool.com/investing/2017/10/25/texas-instruments-inc-beat-the-street-again.aspx"
+        }
+      ]
+    },
+    "wsj": null,
+    "djnw": null
+  },
+  "TXN_2018q1": {
+    "ticker": "TXN",
+    "group": "Group 2",
+    "company_name": "Texas Instruments",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-01-23",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After a very strong 2017, TXN entered the quarter at a high valuation and investors were alert to any sign that the semiconductor cycle was peaking.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Texas Instruments: TI reports 3Q17 financial results and shareholder returns",
+                  "url": "https://investor.ti.com/node/24401"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q4 revenue increased **10% to $3.75 billion**. Reported EPS was only **$0.34** because the new U.S. tax law created **$0.75 per share of tax-related expense**; excluding that transition charge, the operating quarter remained strong. Analog revenue grew **11%**, Embedded Processing **20%**, and margins expanded.",
+              "sources": []
+            },
+            {
+              "text": "The key negative was the **Q1 revenue outlook**, which the market viewed as modest relative to expectations. Contemporaneous coverage explicitly cited disappointment with the current-quarter revenue forecast as the reason for the sharp selloff.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Texas Instruments: TI reports 4Q17 and 2017 financial results and shareholder returns",
+                  "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-4q17-and-2017-financial-results-and-shareholder"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The 8%+ decline was driven by a modest Q1 revenue outlook, not by the one-time tax charge.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** The stock had already priced in a prolonged semiconductor upcycle, making guidance sensitivity unusually high.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Analog and Embedded Processing fundamentals were still strong, which is why the selloff was primarily forward-looking.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Journal Record: Technology stocks sink, pulling indexes lower; dollar falls",
+                  "url": "https://journalrecord.com/2018/01/24/technology-stocks-sink-pulling-indexes-lower-dollar-falls/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Texas Instruments/TXN identity, the correct earnings event or directly relevant same-window catalyst, publication date, timing window and source origin. Texas Instruments Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Texas Instruments: TI reports 3Q17 financial results and shareholder returns",
+          "url": "https://investor.ti.com/node/24401"
+        },
+        {
+          "label": "Texas Instruments: TI reports 4Q17 and 2017 financial results and shareholder returns",
+          "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-4q17-and-2017-financial-results-and-shareholder"
+        },
+        {
+          "label": "The Journal Record: Technology stocks sink, pulling indexes lower; dollar falls",
+          "url": "https://journalrecord.com/2018/01/24/technology-stocks-sink-pulling-indexes-lower-dollar-falls/"
+        }
+      ]
+    },
+    "wsj": null,
+    "djnw": {
+      "summary_analysis": "The article reports that Texas Instruments posted fourth-quarter revenue growth alongside a significant tax-related charge that hurt short-term profitability. Q4 profit fell to $344 million, or 34 cents per share, from $1.05 billion, or $1.02 per share, a year earlier, while revenue rose 9.8% to $3.75 billion, slightly ahead of the $3.74 billion analysts had expected. A $730 million discrete tax charge tied to the new tax legislation reduced quarterly earnings, though the company said the law would lower its annual tax rate to 18% in 2019 from 31% in 2017, with management stating this would help demonstrate \"the benefit of exports and having manufacturing, R&D and intellectual property in the United States.\" Analog chip sales, the company's largest revenue driver, grew 11% to $2.54 billion, and embedded processor sales climbed 20% to $896 million. For the first quarter, TI projected revenue of $3.49 billion to $3.79 billion, in line with the $3.63 billion analyst consensus, and earnings per share of $1.01 to $1.17, including a $30 million tax benefit.",
+      "why_moved": "The article states that Texas Instruments shares declined 5.3% in post-market trading to $113.78, despite the stock's 58% twelve-month gain. It ties this to the $730 million discrete tax charge that dragged reported quarterly profit down to 34 cents per share from $1.02 a year earlier, even though revenue of $3.75 billion topped analyst expectations of $3.74 billion and both analog and embedded processor chip sales posted double-digit growth. The article frames the post-market decline as occurring alongside otherwise in-line first-quarter guidance, with revenue and earnings projections both roughly matching analyst consensus. No further explanation of the share reaction beyond the tax charge and these results is offered.",
+      "sources": [
+        {
+          "title": "Texas Instruments Sees Charge From Tax Law",
+          "url": "https://www.foxbusiness.com/features/texas-instruments-sees-charge-from-tax-law"
+        }
+      ]
+    }
+  },
+  "TXN_2018q2": {
+    "ticker": "TXN",
+    "group": "Group 2",
+    "company_name": "Texas Instruments",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-04-24",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "January’s selloff had introduced fears that the semiconductor cycle was rolling over. Q1 therefore became a direct test of whether industrial and automotive demand was still expanding.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Texas Instruments: TI reports 4Q17 and 2017 financial results and shareholder returns",
+                  "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-4q17-and-2017-financial-results-and-shareholder"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q1 revenue increased **11% to $3.79 billion**, while EPS reached **$1.35**, including $0.14 of tax benefits outside the original guide. Both exceeded consensus. Industrial and automotive demand remained strong across Analog and Embedded Processing.",
+              "sources": []
+            },
+            {
+              "text": "The most important information was the Q2 outlook: revenue of **$3.78–$4.10 billion** and EPS of **$1.19–$1.39** were better than feared. Trailing-twelve-month free cash flow also rose **17% to $4.9 billion**, or 32.1% of revenue.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Texas Instruments: TI reports 1Q18 financial results and shareholder returns",
+                  "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-1q18-financial-results-and-shareholder-returns"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares jumped because the Q2 outlook directly contradicted fears of an imminent semiconductor slowdown.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Industrial and automotive demand remained broad and resilient.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Strong free-cash-flow growth reinforced the quality of the earnings beat.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "Dallas Morning News: Texas Instruments' rosy outlook diffuses fears of tech slowdown",
+                  "url": "https://www.dallasnews.com/business/technology/2018/04/25/texas-instruments-rosy-outlook-diffuses-fears-of-tech-slowdown/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Texas Instruments/TXN identity, the correct earnings event or directly relevant same-window catalyst, publication date, timing window and source origin. Texas Instruments Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Texas Instruments: TI reports 4Q17 and 2017 financial results and shareholder returns",
+          "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-4q17-and-2017-financial-results-and-shareholder"
+        },
+        {
+          "label": "Texas Instruments: TI reports 1Q18 financial results and shareholder returns",
+          "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-1q18-financial-results-and-shareholder-returns"
+        },
+        {
+          "label": "Dallas Morning News: Texas Instruments' rosy outlook diffuses fears of tech slowdown",
+          "url": "https://www.dallasnews.com/business/technology/2018/04/25/texas-instruments-rosy-outlook-diffuses-fears-of-tech-slowdown/"
+        }
+      ]
+    },
+    "wsj": null,
+    "djnw": null
+  },
+  "TXN_2018q3": {
+    "ticker": "TXN",
+    "group": "Group 2",
+    "company_name": "Texas Instruments",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-24",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "A week before earnings, newly appointed CEO Brian Crutcher resigned for code-of-conduct violations and Rich Templeton reassumed the CEO role. TI simultaneously preannounced the quarter, removing much of the numerical surprise before the formal release.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Texas Instruments: TI reports 1Q18 financial results and shareholder returns",
+                  "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-1q18-financial-results-and-shareholder-returns"
+                },
+                {
+                  "label": "Texas Instruments: Rich Templeton to reassume President and CEO roles; Brian Crutcher resigned as CEO",
+                  "url": "https://investor.ti.com/investor-news?df278d998f97c55fab455026d61c0400b10674de32641ccd219550fdefb18e62_year%5Bvalue%5D=2018"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q2 revenue increased **9% to $4.02 billion** and EPS reached **$1.40**, including a $0.03 discrete tax benefit. Industrial and automotive demand remained strong, while Analog and Embedded Processing continued to generate high margins. Trailing-twelve-month free cash flow climbed to **$5.7 billion**, or **36.6% of revenue**.",
+              "sources": []
+            },
+            {
+              "text": "Management guided Q3 revenue and EPS roughly in line with expectations. Because the headline Q2 numbers had already been disclosed with the CEO-change announcement, the formal print contained little incremental upside surprise. The next-day decline was modest rather than a major earnings rejection.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Texas Instruments: TI reports 2Q18 financial results and shareholder returns",
+                  "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-2q18-financial-results-and-shareholder-returns"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The modest decline followed an essentially in-line outlook after the quarter had already been preannounced.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** The sudden CEO reversal remained a governance overhang even though operations were stable.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Industrial, automotive and free-cash-flow trends remained healthy, limiting the downside.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: Texas Instruments's First Earnings Report After its CEO Change Is Drama-Free",
+                  "url": "https://www.thestreet.com/investing/texas-instruments-s-first-earnings-report-after-its-ceo-change-is-drama-free-14661059"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Texas Instruments/TXN identity, the correct earnings event or directly relevant same-window catalyst, publication date, timing window and source origin. Texas Instruments Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **SUPPORTED_INFERENCE**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Texas Instruments: TI reports 1Q18 financial results and shareholder returns",
+          "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-1q18-financial-results-and-shareholder-returns"
+        },
+        {
+          "label": "Texas Instruments: Rich Templeton to reassume President and CEO roles; Brian Crutcher resigned as CEO",
+          "url": "https://investor.ti.com/investor-news?df278d998f97c55fab455026d61c0400b10674de32641ccd219550fdefb18e62_year%5Bvalue%5D=2018"
+        },
+        {
+          "label": "Texas Instruments: TI reports 2Q18 financial results and shareholder returns",
+          "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-2q18-financial-results-and-shareholder-returns"
+        },
+        {
+          "label": "TheStreet: Texas Instruments's First Earnings Report After its CEO Change Is Drama-Free",
+          "url": "https://www.thestreet.com/investing/texas-instruments-s-first-earnings-report-after-its-ceo-change-is-drama-free-14661059"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The article reports that Texas Instruments expects strong growth to continue in its industrial and automotive businesses, which together account for more than half of company revenue and drove a 9% revenue increase to $4 billion in the second quarter. The results were announced by CEO Rich Templeton, who had returned to the role the previous week after Brian Crutcher resigned less than two months into the position over what the company described as code-of-conduct violations related to personal behavior, without further elaboration; TI had already released preliminary second-quarter figures the prior week alongside the announcement of Crutcher's resignation. The company reported a 33% profit increase to $1.41 billion, or $1.40 a share, on $4.02 billion in revenue, with gross margin improving to 65.2% from 64.3% a year earlier and research-and-development spending up 1.6% as the company continues investing to expand market share. For the current quarter, TI guided to profit of $1.41 to $1.63 a share on revenue of $4.11 billion to $4.45 billion, versus a consensus estimate of $1.48 a share on $4.27 billion, according to analysts surveyed by Thomson Reuters.",
+      "why_moved": "The article states that shares were up 0.9% to $114.79 in post-market trading. It frames this modest gain in the context of the quarter's results and guidance landing around the outlook already partly disclosed in the preliminary figures released the prior week alongside news of the CEO transition, meaning much of the underlying numbers were not new information to the market by the time of the full report.",
+      "sources": [
+        {
+          "filename": "Texas Instruments Forecasts Strong Third Quarter - WSJ.pdf",
+          "title": "Texas Instruments Forecasts Strong Third Quarter Continued strength of industrial and automotive markets fueled chip maker's revenue",
+          "published_date": "2018-07-24",
+          "text": "Texas Instruments Forecasts Strong Third Quarter - WSJ 2026-08-29, 7:07 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/texas-instruments-forecasts-strong-third-quarter-1532466252\nBUSINESS EARNINGS\nTexas Instruments Forecasts Strong Third Quarter\nContinued strength of industrial and automotive markets fueled chip maker’s revenue\nBy Maria Armental\nJuly 24, 2018 at 5:04 pm ET\n¡TEXASSINSTRUMENTS\nTexas Instruments reported a 9% revenue increase in the second quarter. LM OTERO/ASSOCIATED PRESS\nTexas Instruments Inc. TXN -2.96% said it expects strong growth to continue in its\nindustrial and automotive businesses, which the chip maker has singled out as two\nkey growth areas.\nThe two markets drove the 9% revenue increase to $4 billion in the second quarter.\nWhen combined, they account for more than half of the company’s revenue and serve\na broad range of sectors from space and defense to car maker’s “infotainment\nsystems.” The company’s quarterly results were announced Tuesday by Chief\nExecutive Rich Templeton, who returned to the helm last week after Brian Crutcher\nhttps://www.wsj.com/articles/texas-instruments-forecasts-strong-third-quarter-1532466252 Page 1 of 3\nTexas Instruments Forecasts Strong Third Quarter - WSJ 2026-08-29, 7:07 PM\nresigned less than two months into the role over what the company qualified as code-\nof-conduct violations.\nThe company hasn’t elaborated on the alleged violations beyond saying that they\nrelated to personal behavior.\nThe Dallas-based company, which had released preliminary second-quarter results\nlast week as it announced Mr. Crutcher’s resignation, on Tuesday reported a 33%\nprofit increase to $1.41 billion, or $1.40 a share, on $4.02 billion in revenue.\nGross profit margin, a key indicator of underlying profitability, improved to 65.2%\nfrom 64.3% a year earlier.\nResearch and development expenses increased 1.6% as the company continues to\nramp up spending to expand market share.\nThis quarter, the company projects profit of $1.41 to $1.63 a share on $4.11 billion to\n$4.45 billion in revenue, compared with the consensus estimate of $1.48 a share on\n$4.27 billion in revenue, according to analysts surveyed by Thomson Reuters.\nFounded in 1930 as an oil-and-gas company, Texas Instruments took its current name\nin the 1950s as it shifted into the burgeoning semiconductor business. Today, it is one\nof the world’s largest chip companies with a market value of more than $111 billion.\nShares, which have outperformed the market with a 41% increase over the past 12\nmonths, were up 0.9% to $114.79 in post-market trading.\nWrite to Maria Armental at maria.armental@wsj.com\nAppeared in the July 25, 2018, print edition as 'Texas Instruments Expects A Strong Third Quarter'.\nhttps://www.wsj.com/articles/texas-instruments-forecasts-strong-third-quarter-1532466252 Page 2 of 3\nTexas Instruments Forecasts Strong Third Quarter - WSJ 2026-08-29, 7:07 PM\nMaria Armental covers private equity for The Wall Street Journal, with a focus on tech and health. Her coverage\nexamines a wide-ranging and influential industry and some of its top dealmakers.\nBefore joining the Journal, Maria was a reporter for the Providence Journal.…\nAn award-winning journalist, Maria previously wrote about financial crime, corporate and regulatory matters,\nFollow\npolitics, the environment and immigration.\nMaria is a native Spanish speaker who reads, writes and interviews in Portuguese and French and reads Italian.\nShe studied journalism and computer programming and holds a master’s degree from Rutgers University’s Division\nof Global A\"airs, where she researched political economy, identity and global governance.\nhttps://www.wsj.com/articles/texas-instruments-forecasts-strong-third-quarter-1532466252 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": null
+  }
+}

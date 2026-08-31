@@ -1,0 +1,1177 @@
+{
+  "AAPL_2016q2": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. The most important information was the forward guide: Apple projected fiscal Q3 revenue of only $41–$43 billion."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. Apple reported fiscal Q2 revenue of $50.6 billion, down from $58.0 billion a year earlier, and diluted EPS of $1.90."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. IPhone sales fell sharply year over year, and Greater China revenue also declined materially."
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. Apple reported fiscal Q2 revenue of $50.6 billion, down from $58.0 billion a year earlier, and diluted EPS of $1.90."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. IPhone sales fell sharply year over year, and Greater China revenue also declined materially."
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Guidance was the more severe blow: Apple projected current-quarter revenue of just $41 billion to $43 billion against a $47.3 billion analyst consensus."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. The article documents Apple's first quarterly revenue decline in 13 years and the first-ever decline in iPhone sales since the product's 2007 introduction."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. The article documents Apple's first quarterly revenue decline in 13 years and the first-ever decline in iPhone sales since the product's 2007 introduction."
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. Revenue down 13% to $50.55 billion from $58 billion and profit of $10.52 billion ($1.90 a share) versus $13.57 billion ($2.33) a year earlier."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": "positive",
+        "reason": "Capital management was supportive. Raising the dividend 10% and lifting the buyback authorization to $175 billion from $140 billion."
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "negative",
+        "reason": "Management struck a cautious tone. CEO Tim Cook, quoted directly, called it a challenging quarter but insisted it doesn't change the future."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. A strong dollar, difficult economic conditions, and tough comparisons contributed to the slowdown."
+      }
+    },
+    "djnw": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. The article reports Apple's fiscal second-quarter profit of $1.90 per share, missing Wall Street's $2.00 forecast."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. Quarterly revenue dropping 13% to $50.55 billion against analyst expectations of $51.97 billion -- the company's first revenue decline in 13 years."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. The article reports Apple's fiscal second-quarter profit of $1.90 per share, missing Wall Street's $2.00 forecast."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    }
+  },
+  "AAPL_2016q3": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Apple reported $42.4 billion of revenue and $1.42 EPS, both ahead of modest Wall Street expectations and within/above the company’s own guidance framework."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Apple reported $42.4 billion of revenue and $1.42 EPS, both ahead of modest Wall Street expectations and within/above the company’s own guidance framework."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The lower-priced iPhone SE supported demand, while Services revenue grew 19% year over year."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Apple reported $42.4 billion of revenue and $1.42 EPS, both ahead of modest Wall Street expectations and within/above the company’s own guidance framework."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. Management said demand and business performance were stronger than it had anticipated at the start of the quarter."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. The article explicitly states results and the outlook for the current quarter \"were better than what Wall Street feared."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. The article reports Apple's profit fell 27% and revenue declined for a second straight quarter amid the first prolonged iPhone sales slump since the product's 2007."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. The article reports Apple's profit fell 27% and revenue declined for a second straight quarter amid the first prolonged iPhone sales slump since the product's."
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. The article reports Apple's profit fell 27% and revenue declined for a second straight quarter amid the first prolonged iPhone sales slump since the product's 2007 launch."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. Tim Cook said customer demand and business performance were stronger than Apple anticipated at the quarter's start."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. Up 25% year over year — was gaining ground globally and increasingly threatens Apple from below with cheaper phones that later move upmarket."
+      }
+    },
+    "djnw": null
+  },
+  "AAPL_2016q4": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Apple guided holiday-quarter revenue to $76–$78 billion, implying a return to growth."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Fiscal Q4 revenue was $46.9 billion and EPS $1.67, roughly in line to slightly above expectations."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. IPhone shipments were 45.5 million, still down from 48.0 million a year earlier."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Fiscal Q4 revenue was $46.9 billion and EPS $1.67, roughly in line to slightly above expectations."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Apple's holiday-quarter gross-margin outlook of 38%–38.5% was slightly below investor expectations."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. The article's most notable detail is the current-quarter guidance, which projected revenue of $76 billion to $78 billion."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. Quarterly revenue fell 9% to $46.9 billion, contributing to Apple's first annual revenue decline in 15 years."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Revenue fell 9% to $46.9 billion, largely because the new iPhone 7 went on sale only a week before the quarter closed."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Apple earned $1.67 a share versus the $1.65 analysts expected, while net income fell 19%."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. Tim Cook forecast holiday-quarter growth despite supply shortages and highlighted 24% Services growth."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. Greater China sales fell 30% to $8.8 billion after growing 99% in the prior-year quarter."
+      }
+    },
+    "djnw": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Saying the customer response has really been off the charts,' and the company guided for current-quarter revenue of $76 billion to $78 billion."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. Marking Apple's first annual revenue drop since 2001."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. IPhone unit sales fell to 45.5 million from a year-earlier period 2.5 million higher."
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. This is a dedicated Apple earnings story reporting the company's third consecutive quarter of revenue and profit decline, marking Apple's first annual revenue drop since 2001."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. Tim Cook described iPhone 7 customer response as off the charts and guided revenue above consensus."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. Greater China sales fell 30% to $8.8 billion after growing 99% one year earlier."
+      }
+    }
+  },
+  "AAPL_2017q1": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Next-quarter revenue guidance was slightly softer than consensus."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Apple delivered record fiscal Q1 revenue of $78.4 billion and EPS of $3.36, both above contemporaneous consensus."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. IPhone shipments reached a record 78.3 million, also above expectations."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Apple delivered record fiscal Q1 revenue of $78.4 billion and EPS of $3.36, both above contemporaneous consensus."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Total revenue rose 3% to a record $78.4 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Total revenue rose 3% to a record $78.4 billion."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Profit fell 2.6% to $17.9 billion ($3.38 a share), beating the $3.22 a share analysts surveyed by Thomson Reuters had expected on revenue of $77.4 billion, also a beat."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "negative",
+        "reason": "Management struck a cautious tone. Tim Cook said Apple underestimated iPhone 7 Plus demand and missed sales because of product shortages."
+      },
+      "Litigation": {
+        "rating": "negative",
+        "reason": "Legal risk was a negative. The article reported new Apple lawsuits against Qualcomm concerning patent-licensing fees."
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. That Greater China sales fell 12% to $16.2 billion (though showing signs of stabilizing)."
+      }
+    },
+    "djnw": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Fiscal first-quarter revenue reached $78.4 billion after three consecutive quarters of year-over-year declines."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Total iPhone shipments rose 5% to 78.2 million units on strength from the iPhone 7 line."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. EPS of $3.38 exceeded the $3.22 analyst consensus even though total profit declined slightly year over year."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Gross margin narrowed to 38.5% from 40.1% on higher costs tied to features like extended battery life and additional memory."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. Continued weakness in Greater China, where sales fell 12% to $16.2 billion as local rivals Oppo and Huawei gained share."
+      }
+    }
+  },
+  "AAPL_2017q2": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. Fiscal Q2 revenue was $52.9 billion versus consensus just under $53.0 billion."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Revenue was slightly below expectations and iPhone shipments of 50.8 million missed estimates."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Fiscal Q2 revenue was $52.9 billion and EPS $2.10."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": "positive",
+        "reason": "Capital management was supportive. Apple raised its dividend 10.5% and expanded its buyback authorization by $35 billion to $210 billion."
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. It rose 4.6% to $52.90 billion, slightly ahead of consensus, despite softer iPhone shipments."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. The article reports Apple extended its rebound with rising profit and revenue even as iPhone shipments slipped 1% year over year to 50.8 million."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. EPS of $2.10 topped the $2.02 consensus, and profit rose 4.9% to $11.03 billion."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": "positive",
+        "reason": "Capital management was supportive. Apple increased its dividend 10.5% and lifted the buyback authorization by $35 billion to $210 billion."
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. A fifth consecutive quarterly China sales decline (down 14% to $10.73 billion)."
+      }
+    },
+    "djnw": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": null,
+        "reason": null
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Within that roundup, the article reports that Apple posted increased profits but disappointed investors with tepid iPhone demand."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Profit increased, but the positive earnings result was overshadowed by tepid iPhone demand and weakness across Apple suppliers."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    }
+  },
+  "AAPL_2017q3": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Apple projected $49–$52 billion of fiscal Q4 revenue, with the midpoint above consensus."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Fiscal Q3 revenue increased 7% to $45.4 billion and EPS rose 17% to $1.67, both above consensus."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Revenue increased across product categories."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Fiscal Q3 revenue increased 7% to $45.4 billion and EPS rose 17% to $1.67, both above consensus."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Which he said \"probably bodes well for the future.\" Guidance for the current quarter of $49 billion to $52 billion \"mostly eclipsed\" the $49.2 billion analyst consensus."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Revenue was stronger than expected in a seasonally weak quarter, supporting confidence ahead of the next iPhone launch."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Total revenue up 7.2% year over year — its best growth rate in seven quarters — as iPhone shipments rose 1.6% to 41.03 million."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Profit rose 12% to $8.72 billion, a second consecutive quarterly earnings increase after a yearlong downturn."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. Tim Cook's inventory comments suggested Apple was not encountering major production problems with upcoming iPhones."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. Greater China sales fell 9.5% to $8 billion, the first time in five quarters the decline wasn't in double digits."
+      }
+    },
+    "djnw": null
+  },
+  "AAPL_2017q4": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Management’s outlook and early iPhone X demand supported confidence in the next quarter."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Fiscal Q4 revenue increased 12% to $52.6 billion and EPS rose 24% to $2.07, both above consensus."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Services reached an all-time high, and revenue grew across the major product categories."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Fiscal Q4 revenue increased 12% to $52.6 billion and EPS rose 24% to $2.07, both above consensus."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Guidance for the holiday quarter of $84 billion to $87 billion was well above the prior record of $78.35 billion set the year before."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. A fourth consecutive quarterly revenue increase and third consecutive profit increase (profit up 19% to $10.71 billion), iPhone shipments up 2.6% to 46.7 million."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. IPhone shipments up 2.6% to 46.7 million."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. A fourth consecutive quarterly revenue increase and third consecutive profit increase (profit up 19% to $10.71 billion), iPhone shipments up 2.6% to 46.7 million."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. Cook, interviewed directly, called demand for the X very strong and said the ramp."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. Management said launching three iPhone models on staggered dates made demand unusually difficult to predict."
+      }
+    },
+    "djnw": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. The roundup described Apple's results as its best quarterly growth in two years, and shares rose 2.6%."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": null,
+        "reason": null
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    }
+  },
+  "AAPL_2018q1": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Apple projected $60–$62 billion of fiscal Q2 revenue versus consensus near $66.5 billion."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Fiscal Q1 revenue was $88.3 billion even though iPhone unit shipments fell short of investor expectations."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. IPhone shipments were 77.3 million, below the roughly 80 million units many investors expected."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Apple reported record fiscal Q1 revenue and EPS of $3.89, supported by a richer iPhone mix."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. It also documents weaker-than-expected $60-62 billion guidance (versus the $66.54 billion consensus) and signs of softer-than-hoped iPhone X demand."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. The $1,000 iPhone X lifted average selling prices enough to offset lower unit sales."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Its $1,000 price helped lift the average iPhone selling price by nearly 15%."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Higher iPhone average selling prices supported earnings despite lower handset volumes."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": "negative",
+        "reason": "Legal risk was a negative. Regulatory pressure over youth-smartphone addiction and the \"batterygate\" throttling controversy."
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": null
+  },
+  "AAPL_2018q2": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Shares rose sharply because revenue, EPS and guidance beat expectations and iPhone X demand proved better than feared."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Fiscal Q2 revenue increased 16% to $61.1 billion and EPS rose 30% to $2.73, both above consensus."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Apple said iPhone X had been its best-selling iPhone every week of the quarter, directly contradicting the most bearish supply-chain narratives."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Fiscal Q2 revenue increased 16% to $61.1 billion and EPS rose 30% to $2.73, both above consensus."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": "positive",
+        "reason": "Capital management was supportive. Apple also authorized a new $100 billion share-repurchase program and raised its dividend 16%."
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. The $51.5–$53.5 billion revenue range bracketed the $51.9 billion analyst consensus."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Underlying results were also strong: iPhone revenue rose 14% to $38 billion despite only 3% unit-shipment growth."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Underlying results were also strong: iPhone revenue rose 14% to $38 billion despite only 3% unit-shipment growth."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Total revenue rose 16% to $61.14 billion and profit rose 25% to $13.82 billion, the highest ever for a March quarter."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": "positive",
+        "reason": "Capital management was supportive. The article's headline news is Apple's record $100 billion stock buyback plan."
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": null
+  },
+  "AAPL_2018q3": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Apple guided fiscal Q4 revenue to $60–$62 billion, above the then-consensus expectation."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Fiscal Q3 revenue increased 17% to $53.3 billion and EPS rose 40% to $2.34, both above consensus."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Services set a record and higher iPhone pricing supported growth despite limited unit gains."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Fiscal Q3 revenue increased 17% to $53.3 billion and EPS rose 40% to $2.34, both above consensus."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Above Wall Street expectations and near the high end of Apple's own guidance."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Apple delivered record fiscal Q3 revenue of $53.3 billion, near the high end of its guidance."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. IPhone demand holding up despite a contracting global smartphone market and app-store/services revenue reaching a record."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Profit rose 32% to $11.52 billion ($2.34 a share), also above analysts' consensus."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. The article flagged possible tariffs on Apple's China exposure and criticism from Chinese state media."
+      }
+    },
+    "djnw": null
+  }
+}

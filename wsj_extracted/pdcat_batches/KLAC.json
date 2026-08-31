@@ -1,0 +1,993 @@
+{
+  "KLAC_2016q2": {
+    "ticker": "KLAC",
+    "group": "Group 2",
+    "company_name": "KLA Corporation",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-26",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "KLAC was trading under an agreed acquisition by Lam Research, approved by shareholders in February. That meant the stock was not a pure standalone earnings security: the merger consideration and Lam’s share price could mute or distort the reaction to KLAC’s own quarterly numbers.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "KLA-Tencor / Lam Research: Lam Research Stockholders and KLA-Tencor Stockholders Approve Acquisition of KLA-Tencor by Lam Research",
+                  "url": "https://ir.kla.com/news-events/press-releases/detail/125/lam-research-stockholders-and-kla-tencor-stockholders"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "KLA-Tencor reported fiscal Q3 revenue of **$712 million**, GAAP EPS of **$1.12** and non-GAAP EPS of **$1.15**. Revenue was essentially flat sequentially but below the prior-year quarter, while earnings improved meaningfully from the December quarter. The company was still operating under the pending Lam Research transaction and had suspended its normal quarterly earnings calls.",
+              "sources": []
+            },
+            {
+              "text": "The operating picture was therefore one of improving profitability in a subdued revenue environment. Process-control demand remained tied to leading-edge semiconductor investment, but because the acquisition price effectively linked KLAC to Lam Research, the nearly flat first full post-release session is not strong evidence that investors judged the quarter itself as neutral.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "KLA-Tencor / PR Newswire: KLA-Tencor Reports Fiscal 2016 Third Quarter Results",
+                  "url": "https://www.prnewswire.com/news-releases/kla-tencor-reports-fiscal-2016-third-quarter-results-300257830.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The post-release move was essentially flat; no valid contemporaneous source supports a stronger causal attribution.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Improving EPS on roughly stable revenue suggested better operating leverage.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** The pending Lam transaction mechanically reduced the usefulness of KLAC’s standalone return as an earnings signal.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source No valid contemporaneous reaction article included; the driver language is intentionally conservative.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for KLA-Tencor/KLAC identity, the correct earnings event or directly relevant setup, publication date, timing window and source origin. KLA Investor Relations / PR Newswire is the factual anchor. Where no valid contemporaneous reaction article was found, the workbook explicitly avoids claiming a definitive causal explanation. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "KLA-Tencor / Lam Research: Lam Research Stockholders and KLA-Tencor Stockholders Approve Acquisition of KLA-Tencor by Lam Research",
+          "url": "https://ir.kla.com/news-events/press-releases/detail/125/lam-research-stockholders-and-kla-tencor-stockholders"
+        },
+        {
+          "label": "KLA-Tencor / PR Newswire: KLA-Tencor Reports Fiscal 2016 Third Quarter Results",
+          "url": "https://www.prnewswire.com/news-releases/kla-tencor-reports-fiscal-2016-third-quarter-results-300257830.html"
+        }
+      ]
+    },
+    "wsj": null,
+    "djnw": null
+  },
+  "KLAC_2016q3": {
+    "ticker": "KLAC",
+    "group": "Group 2",
+    "company_name": "KLA Corporation",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-07-28",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "The Lam Research acquisition was still pending, while wafer-fab-equipment demand had improved and KLAC was rolling out a new generation of inspection products. Investors were evaluating the quarter partly through the merger spread rather than solely on standalone fundamentals.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "KLA-Tencor / PR Newswire: KLA-Tencor Reports Fiscal 2016 Third Quarter Results",
+                  "url": "https://www.prnewswire.com/news-releases/kla-tencor-reports-fiscal-2016-third-quarter-results-300257830.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q4 revenue reached **$919 million**, up sharply from $712 million in Q3 and above the roughly **$842 million** consensus cited by contemporaneous Zacks coverage. Non-GAAP EPS was **$1.77**, far above the approximately **$1.43** consensus. Shipments and profitability improved substantially.",
+              "sources": []
+            },
+            {
+              "text": "On a standalone basis, this was an excellent quarter. Yet KLAC’s first full post-release session fell **2.51%** in the supplied data. Because the company was still subject to the Lam deal, and the contemporaneous Zacks article focused on the earnings beat and the pending merger rather than a negative operating development, the cleanest conclusion is that the negative stock move cannot confidently be attributed to weak earnings.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2016 Fourth Quarter And Full Year Results",
+                  "url": "https://ir.kla.com/news-events/press-releases/detail/119/kla-tencor-reports-fiscal-2016-fourth-quarter-and-full-year"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The quarter beat estimates decisively, so the negative stock reaction should not be labeled an earnings disappointment.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Merger-spread and Lam-share movements likely contaminated the standalone KLAC reaction.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Strong shipments and EPS showed substantial improvement in the underlying process-control business.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "Zacks / Investing.com: KLA-Tencor (KLAC) Tops On Q4 Earnings, Merger In Progress",
+                  "url": "https://www.investing.com/analysis/kla-tencor-%28klac%29-tops-on-q4-earnings%2C-merger-in-progress-200145475"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for KLA-Tencor/KLAC identity, the correct earnings event or directly relevant setup, publication date, timing window and source origin. KLA Investor Relations / PR Newswire is the factual anchor. Where no valid contemporaneous reaction article was found, the workbook explicitly avoids claiming a definitive causal explanation. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "KLA-Tencor / PR Newswire: KLA-Tencor Reports Fiscal 2016 Third Quarter Results",
+          "url": "https://www.prnewswire.com/news-releases/kla-tencor-reports-fiscal-2016-third-quarter-results-300257830.html"
+        },
+        {
+          "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2016 Fourth Quarter And Full Year Results",
+          "url": "https://ir.kla.com/news-events/press-releases/detail/119/kla-tencor-reports-fiscal-2016-fourth-quarter-and-full-year"
+        },
+        {
+          "label": "Zacks / Investing.com: KLA-Tencor (KLAC) Tops On Q4 Earnings, Merger In Progress",
+          "url": "https://www.investing.com/analysis/kla-tencor-%28klac%29-tops-on-q4-earnings%2C-merger-in-progress-200145475"
+        }
+      ]
+    },
+    "wsj": null,
+    "djnw": null
+  },
+  "KLAC_2016q4": {
+    "ticker": "KLAC",
+    "group": "Group 2",
+    "company_name": "KLA Corporation",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-10-20",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Two weeks before earnings, KLAC and Lam Research terminated their planned merger after regulatory opposition. This was the first earnings report after KLAC abruptly returned to being a fully standalone company.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "KLA-Tencor Investor Relations: KLA-Tencor Announces Termination Of Merger Agreement With Lam Research",
+                  "url": "https://ir.kla.com/news-events/press-releases/detail/115/kla-tencor-announces-termination-of-merger-agreement-with"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q1 2017 revenue was **$751 million**, GAAP EPS **$1.13** and non-GAAP EPS **$1.16**. Management said shipments and revenue finished above the midpoint of guidance and non-GAAP EPS exceeded its guidance range. Revenue was up about **17% year over year**.",
+              "sources": []
+            },
+            {
+              "text": "The most important context was the company’s restored strategic independence. KLA emphasized strong acceptance of new products, operating leverage and cash returns. The first full post-release session rose **2.30%**, which is directionally consistent with an above-guidance quarter and confidence that the standalone business retained strong momentum after the failed transaction.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2017 First Quarter Results",
+                  "url": "https://ir.kla.com/news-events/press-releases/detail/113/kla-tencor-reports-fiscal-2017-first-quarter-results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Above-guidance revenue/EPS supported the positive standalone repricing after the Lam deal ended.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** New-product adoption improved confidence in process-control demand.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** The merger termination removed deal-spread mechanics, making this return cleaner than the prior two events.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source No valid contemporaneous reaction article included; the driver language is intentionally conservative.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for KLA-Tencor/KLAC identity, the correct earnings event or directly relevant setup, publication date, timing window and source origin. KLA Investor Relations / PR Newswire is the factual anchor. Where no valid contemporaneous reaction article was found, the workbook explicitly avoids claiming a definitive causal explanation. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "KLA-Tencor Investor Relations: KLA-Tencor Announces Termination Of Merger Agreement With Lam Research",
+          "url": "https://ir.kla.com/news-events/press-releases/detail/115/kla-tencor-announces-termination-of-merger-agreement-with"
+        },
+        {
+          "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2017 First Quarter Results",
+          "url": "https://ir.kla.com/news-events/press-releases/detail/113/kla-tencor-reports-fiscal-2017-first-quarter-results"
+        }
+      ]
+    },
+    "wsj": null,
+    "djnw": null
+  },
+  "KLAC_2017q1": {
+    "ticker": "KLAC",
+    "group": "Group 2",
+    "company_name": "KLA Corporation",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-01-26",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After the Lam deal collapsed, investors were refocusing on KLAC’s independent growth prospects. Wafer-fab-equipment spending was strengthening, particularly at the leading edge, and process-control intensity was increasing.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2017 First Quarter Results",
+                  "url": "https://ir.kla.com/news-events/press-releases/detail/113/kla-tencor-reports-fiscal-2017-first-quarter-results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q2 revenue rose to **$877 million** from $751 million sequentially and $710 million a year earlier. GAAP and non-GAAP EPS were both **$1.52**. Management said shipments, revenue and non-GAAP EPS all **exceeded guidance**, while new orders topped **$1 billion for the first time**.",
+              "sources": []
+            },
+            {
+              "text": "That order milestone was especially important: it indicated that demand was strengthening beyond the current quarter and that process-control spending was participating fully in the wafer-fab-equipment upcycle. The first full post-release session gained **3.66%**, consistent with the combination of an above-guidance quarter and a stronger backlog/order signal.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2017 Second Quarter Results",
+                  "url": "https://ir.kla.com/news-events/press-releases/detail/109/kla-tencor-reports-fiscal-2017-second-quarter-results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock rose after KLAC exceeded its own revenue, shipment and EPS guidance.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Orders above $1 billion pointed to sustained leading-edge demand.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Strong operating leverage reinforced the value of KLAC as a standalone company.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source No valid contemporaneous reaction article included; the driver language is intentionally conservative.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for KLA-Tencor/KLAC identity, the correct earnings event or directly relevant setup, publication date, timing window and source origin. KLA Investor Relations / PR Newswire is the factual anchor. Where no valid contemporaneous reaction article was found, the workbook explicitly avoids claiming a definitive causal explanation. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2017 First Quarter Results",
+          "url": "https://ir.kla.com/news-events/press-releases/detail/113/kla-tencor-reports-fiscal-2017-first-quarter-results"
+        },
+        {
+          "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2017 Second Quarter Results",
+          "url": "https://ir.kla.com/news-events/press-releases/detail/109/kla-tencor-reports-fiscal-2017-second-quarter-results"
+        }
+      ]
+    },
+    "wsj": null,
+    "djnw": null
+  },
+  "KLAC_2017q2": {
+    "ticker": "KLAC",
+    "group": "Group 2",
+    "company_name": "KLA Corporation",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-04-27",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "By April, KLAC had delivered several strong quarters and semiconductor-equipment stocks had already rerated sharply. The expectations bar was therefore materially higher than it had been immediately after the Lam merger collapsed.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2017 Second Quarter Results",
+                  "url": "https://ir.kla.com/news-events/press-releases/detail/109/kla-tencor-reports-fiscal-2017-second-quarter-results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q3 revenue increased **28% year over year to $913.8 million**, above the roughly **$894 million** consensus. Non-GAAP EPS was **$1.62**, beating consensus by about $0.08 and reaching the top end of company guidance. Product demand and new-system acceptance remained strong.",
+              "sources": []
+            },
+            {
+              "text": "However, contemporaneous Zacks coverage noted that the shares fell in after-hours trading despite the beat. Management’s Q4 revenue and EPS ranges were broadly around consensus rather than another major upside surprise, while operating expenses were set to remain elevated as KLAC invested in **3D NAND, EUV inspection and metrology**. The next full session fell **4.92%**. Because the available source does not identify a single definitive cause, the safest interpretation is an expectations reset rather than an operating failure.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2017 Third Quarter Results",
+                  "url": "https://ir.kla.com/news-events/press-releases/detail/104/kla-tencor-reports-fiscal-2017-third-quarter-results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares fell despite the beat; the most defensible interpretation is that an in-line forward outlook failed to clear a very high expectations bar.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Higher R&D investment in 3D NAND and EUV limited near-term operating leverage.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** The current quarter itself was strong, so the decline should not be described as a revenue/EPS miss.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "Zacks / Investing.com: KLA-Tencor (KLAC) Beats Earnings And Revenue Estimates In Q3",
+                  "url": "https://www.investing.com/analysis/kla-tencor-%28klac%29-beats-earnings-and-revenue-estimates-in-q3-200186019"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for KLA-Tencor/KLAC identity, the correct earnings event or directly relevant setup, publication date, timing window and source origin. KLA Investor Relations / PR Newswire is the factual anchor. Where no valid contemporaneous reaction article was found, the workbook explicitly avoids claiming a definitive causal explanation. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2017 Second Quarter Results",
+          "url": "https://ir.kla.com/news-events/press-releases/detail/109/kla-tencor-reports-fiscal-2017-second-quarter-results"
+        },
+        {
+          "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2017 Third Quarter Results",
+          "url": "https://ir.kla.com/news-events/press-releases/detail/104/kla-tencor-reports-fiscal-2017-third-quarter-results"
+        },
+        {
+          "label": "Zacks / Investing.com: KLA-Tencor (KLAC) Beats Earnings And Revenue Estimates In Q3",
+          "url": "https://www.investing.com/analysis/kla-tencor-%28klac%29-beats-earnings-and-revenue-estimates-in-q3-200186019"
+        }
+      ]
+    },
+    "wsj": null,
+    "djnw": null
+  },
+  "KLAC_2017q3": {
+    "ticker": "KLAC",
+    "group": "Group 2",
+    "company_name": "KLA Corporation",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-27",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "KLAC entered fiscal Q4 amid very strong semiconductor-capital-equipment demand. Orders had repeatedly exceeded $1 billion and investors had already priced in substantial growth from memory and leading-edge logic spending.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2017 Third Quarter Results",
+                  "url": "https://ir.kla.com/news-events/press-releases/detail/104/kla-tencor-reports-fiscal-2017-third-quarter-results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q4 revenue reached **$939 million**, above consensus near **$920 million**, and non-GAAP EPS was **$1.64** versus roughly **$1.59** expected. New orders again exceeded **$1 billion**, shipments hit a record **$971 million**, and management described demand as exceptionally strong.",
+              "sources": []
+            },
+            {
+              "text": "Nevertheless, the first full post-release session dropped **5.43%**. The valid contemporaneous Zacks article documents a clear earnings and revenue beat but does not identify a company-specific negative shock large enough to explain that decline. Accordingly, the workbook does not infer that the print was weak. A high expectations bar and broader semiconductor-equipment positioning are more plausible, but remain inference rather than explicit attribution.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2017 Fourth Quarter And Full Year Results",
+                  "url": "https://ir.kla.com/news-events/press-releases/detail/99/kla-tencor-reports-fiscal-2017-fourth-quarter-and-full-year"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The selloff occurred despite a beat; no valid source supports calling it an earnings disappointment.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Record shipments and >$1 billion of orders confirmed very strong underlying demand.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** The negative move is best treated as an expectations/positioning reaction unless stronger contemporaneous attribution is found.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "Zacks / Investing.com: KLA-Tencor (KLAC) Q4 Earnings & Revenues Beat Estimates",
+                  "url": "https://www.investing.com/analysis/kla-tencor-%28klac%29-q4-earnings---revenues-beat-estimates-200204272"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for KLA-Tencor/KLAC identity, the correct earnings event or directly relevant setup, publication date, timing window and source origin. KLA Investor Relations / PR Newswire is the factual anchor. Where no valid contemporaneous reaction article was found, the workbook explicitly avoids claiming a definitive causal explanation. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2017 Third Quarter Results",
+          "url": "https://ir.kla.com/news-events/press-releases/detail/104/kla-tencor-reports-fiscal-2017-third-quarter-results"
+        },
+        {
+          "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2017 Fourth Quarter And Full Year Results",
+          "url": "https://ir.kla.com/news-events/press-releases/detail/99/kla-tencor-reports-fiscal-2017-fourth-quarter-and-full-year"
+        },
+        {
+          "label": "Zacks / Investing.com: KLA-Tencor (KLAC) Q4 Earnings & Revenues Beat Estimates",
+          "url": "https://www.investing.com/analysis/kla-tencor-%28klac%29-q4-earnings---revenues-beat-estimates-200204272"
+        }
+      ]
+    },
+    "wsj": null,
+    "djnw": null
+  },
+  "KLAC_2017q4": {
+    "ticker": "KLAC",
+    "group": "Group 2",
+    "company_name": "KLA Corporation",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-10-26",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Semiconductor-equipment demand remained strong, but the sector had already experienced a large rally. KLAC needed not just growth, but continued upside surprises in revenue, margins and orders.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2017 Fourth Quarter And Full Year Results",
+                  "url": "https://ir.kla.com/news-events/press-releases/detail/99/kla-tencor-reports-fiscal-2017-fourth-quarter-and-full-year"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q1 2018 revenue rose **29% year over year to $969.6 million**, comfortably above consensus around **$943 million**. Non-GAAP EPS was **$1.80**, beating consensus by roughly $0.17. Product revenue grew more than 35%, services also expanded, and management highlighted record shipments, revenue and non-GAAP EPS.",
+              "sources": []
+            },
+            {
+              "text": "The print was fundamentally excellent, yet the first full post-release session declined **1.48%**. The date-matched Zacks article documents the beat but does not provide a credible negative operating catalyst. The proper treatment is therefore a modest negative market reaction to a strong print, likely reflecting elevated expectations rather than deteriorating fundamentals.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2018 First Quarter Results",
+                  "url": "https://ir.kla.com/news-events/press-releases/detail/93/kla-tencor-reports-fiscal-2018-first-quarter-results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock slipped despite a clear beat; there is no evidence that weak reported fundamentals caused the move.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Record product shipments and strong service growth showed broad demand strength.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** The modest decline is more consistent with expectations/valuation than with an earnings miss.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "Zacks / Investing.com: KLA-Tencor (KLAC) Beats Earnings And Revenue Estimates In Q1",
+                  "url": "https://www.investing.com/analysis/klatencor-klac-beats-earnings-and-revenue-estimates-in-q1-200221418"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for KLA-Tencor/KLAC identity, the correct earnings event or directly relevant setup, publication date, timing window and source origin. KLA Investor Relations / PR Newswire is the factual anchor. Where no valid contemporaneous reaction article was found, the workbook explicitly avoids claiming a definitive causal explanation. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2017 Fourth Quarter And Full Year Results",
+          "url": "https://ir.kla.com/news-events/press-releases/detail/99/kla-tencor-reports-fiscal-2017-fourth-quarter-and-full-year"
+        },
+        {
+          "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2018 First Quarter Results",
+          "url": "https://ir.kla.com/news-events/press-releases/detail/93/kla-tencor-reports-fiscal-2018-first-quarter-results"
+        },
+        {
+          "label": "Zacks / Investing.com: KLA-Tencor (KLAC) Beats Earnings And Revenue Estimates In Q1",
+          "url": "https://www.investing.com/analysis/klatencor-klac-beats-earnings-and-revenue-estimates-in-q1-200221418"
+        }
+      ]
+    },
+    "wsj": null,
+    "djnw": null
+  },
+  "KLAC_2018q1": {
+    "ticker": "KLAC",
+    "group": "Group 2",
+    "company_name": "KLA Corporation",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-01-25",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "KLAC had beaten consensus repeatedly through 2017. Before the January print, Zacks emphasized demand for more efficient manufacturing and increasingly complex yield-control requirements as the main drivers.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2018 First Quarter Results",
+                  "url": "https://ir.kla.com/news-events/press-releases/detail/93/kla-tencor-reports-fiscal-2018-first-quarter-results"
+                },
+                {
+                  "label": "Zacks / Investing.com: KLA-Tencor (KLAC) Q2 Earnings To Gain From Product Strength",
+                  "url": "https://www.investing.com/analysis/klatencor-klac-q2-earnings-to-gain-from-product-strength-200282642"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q2 revenue reached a record **$976 million**, up 11% year over year. Non-GAAP EPS was a record **$1.97**, substantially above the approximately **$1.72–$1.73** consensus. The GAAP result was a **$0.86 loss per share**, but that was driven by discrete tax effects rather than the underlying business.",
+              "sources": []
+            },
+            {
+              "text": "Management said calendar 2017 set records for shipments, revenue, gross margin, non-GAAP EPS and free cash flow. Despite that operating strength, the first full post-release session edged down **0.69%**. No valid reaction article in the permitted window explicitly attributes the move, so it is not appropriate to manufacture a negative earnings explanation.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2018 Second Quarter Results",
+                  "url": "https://ir.kla.com/news-events/press-releases/detail/88/kla-tencor-reports-fiscal-2018-second-quarter-results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The operating quarter was a strong beat; the small stock decline lacks a verified company-specific negative attribution.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** The GAAP loss was tax-related and should not be mistaken for an operating collapse.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Record margins and free cash flow reinforced the strength of the process-control cycle.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source No valid contemporaneous reaction article included; the driver language is intentionally conservative.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for KLA-Tencor/KLAC identity, the correct earnings event or directly relevant setup, publication date, timing window and source origin. KLA Investor Relations / PR Newswire is the factual anchor. Where no valid contemporaneous reaction article was found, the workbook explicitly avoids claiming a definitive causal explanation. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2018 First Quarter Results",
+          "url": "https://ir.kla.com/news-events/press-releases/detail/93/kla-tencor-reports-fiscal-2018-first-quarter-results"
+        },
+        {
+          "label": "Zacks / Investing.com: KLA-Tencor (KLAC) Q2 Earnings To Gain From Product Strength",
+          "url": "https://www.investing.com/analysis/klatencor-klac-q2-earnings-to-gain-from-product-strength-200282642"
+        },
+        {
+          "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2018 Second Quarter Results",
+          "url": "https://ir.kla.com/news-events/press-releases/detail/88/kla-tencor-reports-fiscal-2018-second-quarter-results"
+        }
+      ]
+    },
+    "wsj": null,
+    "djnw": null
+  },
+  "KLAC_2018q2": {
+    "ticker": "KLAC",
+    "group": "Group 2",
+    "company_name": "KLA Corporation",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-04-26",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Going into fiscal Q3, KLAC had exceeded consensus in four consecutive quarters. Investors expected strong process-control demand from 3D NAND, advanced logic and increasingly difficult yield-management requirements.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2018 Second Quarter Results",
+                  "url": "https://ir.kla.com/news-events/press-releases/detail/88/kla-tencor-reports-fiscal-2018-second-quarter-results"
+                },
+                {
+                  "label": "Zacks / Investing.com: Is A Beat In The Cards For KLA-Tencor (KLAC) In Q3 Earnings?",
+                  "url": "https://www.investing.com/analysis/is-a-beat-in-the-cards-for-klatencor-klac-in-q3-earnings-200308523"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q3 revenue topped **$1.0 billion for the first time**, reaching **$1.021 billion** near the upper end of guidance. GAAP EPS was **$1.95** and non-GAAP EPS **$2.02**. Revenue increased about 12% year over year, and management said momentum was broad across major product groups and services.",
+              "sources": []
+            },
+            {
+              "text": "The company was also preparing to acquire **Orbotech**, extending KLA into printed-circuit-board, flat-panel-display and packaging inspection. The first full post-release session rose **1.27%**. Given the record revenue and broad demand commentary, the positive direction is consistent with continued confidence in the growth cycle, although the move was modest relative to some earlier quarters.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2018 Third Quarter Results",
+                  "url": "https://ir.kla.com/news-events/press-releases/detail/81/kla-tencor-reports-fiscal-2018-third-quarter-results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Record revenue and another EPS beat supported the positive reaction.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Broad strength across product groups and services reduced reliance on a single end market.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** The Orbotech deal added a strategic diversification angle but also introduced integration risk.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source No valid contemporaneous reaction article included; the driver language is intentionally conservative.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for KLA-Tencor/KLAC identity, the correct earnings event or directly relevant setup, publication date, timing window and source origin. KLA Investor Relations / PR Newswire is the factual anchor. Where no valid contemporaneous reaction article was found, the workbook explicitly avoids claiming a definitive causal explanation. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2018 Second Quarter Results",
+          "url": "https://ir.kla.com/news-events/press-releases/detail/88/kla-tencor-reports-fiscal-2018-second-quarter-results"
+        },
+        {
+          "label": "Zacks / Investing.com: Is A Beat In The Cards For KLA-Tencor (KLAC) In Q3 Earnings?",
+          "url": "https://www.investing.com/analysis/is-a-beat-in-the-cards-for-klatencor-klac-in-q3-earnings-200308523"
+        },
+        {
+          "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2018 Third Quarter Results",
+          "url": "https://ir.kla.com/news-events/press-releases/detail/81/kla-tencor-reports-fiscal-2018-third-quarter-results"
+        }
+      ]
+    },
+    "wsj": null,
+    "djnw": null
+  },
+  "KLAC_2018q3": {
+    "ticker": "KLAC",
+    "group": "Group 2",
+    "company_name": "KLA Corporation",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-30",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "By the June quarter, semiconductor investors were becoming more cautious about memory spending and the durability of the equipment cycle. KLAC therefore entered the print with a lower expectations bar than earlier in 2017.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2018 Third Quarter Results",
+                  "url": "https://ir.kla.com/news-events/press-releases/detail/81/kla-tencor-reports-fiscal-2018-third-quarter-results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q4 revenue rose **14% to $1.07 billion**, about $20–$25 million above consensus. Non-GAAP EPS reached **$2.22**, roughly $0.08–$0.10 above expectations and up sharply from $1.64 a year earlier. Both product and service revenue grew about 14%.",
+              "sources": []
+            },
+            {
+              "text": "The reaction was unambiguous: Motley Fool reported that KLAC shares jumped roughly **10%–11% intraday** after the results, matching the supplied **+9.91%** first full post-release return. The beat reassured investors that process-control demand and profitability remained resilient despite growing concern about the broader semiconductor-equipment cycle.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2018 Fourth Quarter And Full Year Results",
+                  "url": "https://ir.kla.com/news-events/press-releases/detail/75/kla-tencor-reports-fiscal-2018-fourth-quarter-and-full-year"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares surged because KLAC beat both revenue and EPS expectations.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Double-digit growth in both products and services showed broad business resilience.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** The beat was particularly powerful because semiconductor-equipment expectations had become more cautious.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Why Shares of KLA-Tencor Corp. Are Surging Today",
+                  "url": "https://www.fool.com/investing/2018/07/31/why-shares-of-kla-tencor-corp-are-surging-today.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for KLA-Tencor/KLAC identity, the correct earnings event or directly relevant setup, publication date, timing window and source origin. KLA Investor Relations / PR Newswire is the factual anchor. Where no valid contemporaneous reaction article was found, the workbook explicitly avoids claiming a definitive causal explanation. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2018 Third Quarter Results",
+          "url": "https://ir.kla.com/news-events/press-releases/detail/81/kla-tencor-reports-fiscal-2018-third-quarter-results"
+        },
+        {
+          "label": "KLA-Tencor Investor Relations: KLA-Tencor Reports Fiscal 2018 Fourth Quarter And Full Year Results",
+          "url": "https://ir.kla.com/news-events/press-releases/detail/75/kla-tencor-reports-fiscal-2018-fourth-quarter-and-full-year"
+        },
+        {
+          "label": "The Motley Fool: Why Shares of KLA-Tencor Corp. Are Surging Today",
+          "url": "https://www.fool.com/investing/2018/07/31/why-shares-of-kla-tencor-corp-are-surging-today.aspx"
+        }
+      ]
+    },
+    "wsj": null,
+    "djnw": null
+  }
+}

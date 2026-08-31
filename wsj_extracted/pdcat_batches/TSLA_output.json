@@ -1,0 +1,1087 @@
+{
+  "TSLA_2016q2": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. Tesla reported non-GAAP revenue of about $1.6 billion, roughly in line with expectations, and an adjusted loss of about $0.57 per share, better than consensus."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Production reached a new quarterly high."
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. Q1 earnings themselves were not weak enough to explain the selloff."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "positive",
+        "reason": "Capital investment was constructive. That dramatically increased the required pace of factory expansion, engineering execution and capital spending."
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Which the column calls an abrupt reversal' since Tesla had said as recently as February that it wouldn't need to raise additional capital."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Reaffirmed that Model 3 production would begin in late 2017, following preorders that had exceeded even the most optimistic projections."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Reaffirmed that Model 3 production would begin in late 2017, following preorders that had exceeded even the most optimistic projections."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Closes by observing that at more than 50 times projected 2018 earnings."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "positive",
+        "reason": "Capital investment was constructive. Which the column calls an abrupt reversal' since Tesla had said as recently as February that it wouldn't need to raise additional capital."
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. Is on CEO Elon Musk's newly accelerated promises: Tesla raised its delivery target to 500,000 vehicles by 2018."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": null
+  },
+  "TSLA_2016q3": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. Tesla reported roughly $1.56 billion of non-GAAP revenue and an adjusted loss of $1.06 per share, both worse than Wall Street expectations."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Nearly half of the quarter's production occurred in the final four weeks as Tesla worked through manufacturing constraints."
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. The next-session gain reflected relief that Tesla maintained its delivery and Model 3 targets despite the earnings miss."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Yet had spent just over $500 million so far that year."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. This Heard on the Street column reports that Tesla's second-quarter 2016 results included $1.6 billion in adjusted revenue and an adjusted loss of $1.06 a share."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": null,
+        "reason": null
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "negative",
+        "reason": "Capital spending was a concern. This Heard on the Street column reports that Tesla's second-quarter 2016 results included $1.6 billion in adjusted revenue and an adjusted loss of $1.06 a share."
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": null
+  },
+  "TSLA_2016q4": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Management's Q4 profitability outlook made the improvement look more durable than a one-quarter anomaly."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Tesla delivered a rare GAAP profit in Q3 and positive free cash flow while setting records for production, deliveries and revenue."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Tesla delivered a rare GAAP profit in Q3 and positive free cash flow while setting records for production, deliveries and revenue."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Tesla delivered a rare GAAP profit in Q3 and positive free cash flow while setting records for production, deliveries and revenue."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. Automotive gross margin improved materially, and management said the result was not driven by broad vehicle discounting."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Paired with his forecast for a great fourth quarter' as well."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Revenue that rose to $2.3 billion from $936.8 million."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Tesla's third-quarter 2016 report marked what the article calls a surprise $22 million profit."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. Musk pushed back directly against the idea that the profit had simply pulled sales forward from the following quarter."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": "positive",
+        "reason": "The legal development was favorable. Well above UBS analyst Colin Langan's estimate of just $30 million for the quarter."
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": null
+  },
+  "TSLA_2017q1": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Fourth-quarter revenue was about $2.29 billion, above consensus."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Tesla said Model 3 production remained scheduled to begin in July and expected $2.0–$2.5 billion of capital expenditure before the launch."
+      },
+      "Profits and profitability": {
+        "rating": null,
+        "reason": null
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "positive",
+        "reason": "Capital investment was constructive. Tesla said Model 3 production remained scheduled to begin in July and expected $2.0–$2.5 billion of capital expenditure before the launch."
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Showed revenue jumping 88% to $2.28 billion -- described as ahead of analysts' expectations' -- alongside a narrowed loss of $121.3 million."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The news piece details Tesla's aggressive production plan for the Model 3."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Showed revenue jumping 88% to $2.28 billion -- described as ahead of analysts' expectations' -- alongside a narrowed loss of $121.3 million."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "negative",
+        "reason": "Capital spending was a concern. Ending the quarter with $3.39 billion in cash."
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": null
+  },
+  "TSLA_2017q2": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Tesla reported record revenue of about $2.7 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Expected more than $2 billion of capital expenditures ahead of launch."
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. A large pre-earnings stock rally made the valuation unusually sensitive to any earnings disappointment."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. Higher R&D and SG&A spending showed the heavy cost of preparing Model 3 and scaling Tesla's infrastructure."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "positive",
+        "reason": "Capital investment was constructive. Expected more than $2 billion of capital expenditures ahead of launch."
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Showed revenue more than doubling to $2.7 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Headlined by Musk's assurance that the company remained on track to begin Model 3 production in July."
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. We don't think earnings matters."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": "positive",
+        "reason": "Capital management was supportive. Tesla ended the quarter with $4 billion in cash, the highest level in its history, after raising $1.22 billion in new debt and stock."
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "negative",
+        "reason": "Management struck a cautious tone. The stock seems so disconnected from any form of fundamentals."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Revenue doubled to $2.7 billion, ahead of the $2.61 billion consensus estimate."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. The piece details CEO Elon Musk's expansion plans, including starting Model 3 production in July, ramping to 5,000 weekly units by the fourth quarter."
+      },
+      "Profits and profitability": {
+        "rating": null,
+        "reason": null
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": "positive",
+        "reason": "Capital management was supportive. Tesla ended March with $4 billion in cash after raising more than $1 billion through new debt and equity offerings."
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    }
+  },
+  "TSLA_2017q3": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q2 revenue rose to about $2.79 billion, above consensus near $2.51 billion."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Investors treated those demand and production signals as more important than widening GAAP losses."
+      },
+      "Profits and profitability": {
+        "rating": null,
+        "reason": null
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "positive",
+        "reason": "Capital investment was constructive. Tesla ended the quarter with slightly more than $3 billion in cash despite heavy capex."
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Revenue more than doubled to $2.79 billion, ahead of the $2.51 billion analysts on average had projected."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. The rally occurred despite Musk reiterating his manufacturing hell' language about the Model 3 ramp."
+      },
+      "Profits and profitability": {
+        "rating": null,
+        "reason": null
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Revenue more than doubled to $2.79 billion, ahead of the $2.51 billion consensus."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Including the handover of the first 30 vehicles and Musk's comments on the production process."
+      },
+      "Profits and profitability": {
+        "rating": null,
+        "reason": null
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "positive",
+        "reason": "Capital investment was constructive. Capital spending totaled $959 million against a planned $2 billion annual target."
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    }
+  },
+  "TSLA_2017q4": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Tesla reported Q3 revenue of about $2.98 billion, slightly above consensus."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Cash burn was heavy and automotive gross margin fell sharply as low-volume Model 3 production carried high initial costs."
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. Cash burn was heavy and automotive gross margin fell sharply as low-volume Model 3 production carried high initial costs."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Cash burn was heavy and automotive gross margin fell sharply as low-volume Model 3 production carried high initial costs."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Revenue itself beat expectations."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Layered on top was a second consecutive delay to Tesla's flagship Model 3 production ramp: the 5,000-vehicles-per-week target."
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. Tesla's third-quarter 2017 report combined what the article calls the company's worst financial quarter ever' -- a loss of $619 million attributable to common shareholders."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "negative",
+        "reason": "Capital spending was a concern. Ultimately describing a strategic choice between growth and capital spending' and saying."
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. No further company-specific detail on revenue or other metrics is given beyond linking the drop to the size of the loss and the production delays."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Delays affecting the Model 3 production timeline."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. This is a Dow Jones Newswires market-wide roundup covering the broader U.S. stock market on November 2, 2017, rather than a dedicated Tesla earnings story."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": "positive",
+        "reason": "The legal development was favorable. Facebook's earnings beat despite regulatory concerns."
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. Without suggesting those macro factors were the direct cause of Tesla's individual stock move."
+      }
+    }
+  },
+  "TSLA_2018q1": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": null,
+        "reason": null
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Tesla's adjusted Q4 loss was narrower than expected, and management reaffirmed the recently revised Model 3 production targets."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Tesla expected Model 3 gross margin to remain negative in Q1."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. The concern was cash economics."
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. As detailed above) and a full-year 2018 profit outlook among analysts that had swung from an expected profit to an expected loss over the preceding year."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": null,
+        "reason": null
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Set against continued Model 3 production shortfalls."
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. Musk struck what the article calls an optimistic tone' reversal."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "positive",
+        "reason": "Capital investment was constructive. Aided by delayed Model 3 capital spending."
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. On one hand, the company posted a record dollar loss of $675 million, its largest ever and well above the $121 million loss a year earlier."
+      }
+    },
+    "djnw": null
+  },
+  "TSLA_2018q2": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. Tesla reported record quarterly revenue of about $3.4 billion and an adjusted loss of $3.35 per share, slightly better than consensus."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Better-than-expected revenue and adjusted loss were insufficient because investors were focused on liquidity and production economics."
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. However, the GAAP net loss reached a record roughly $785 million, cash fell to about $2.7 billion, and Model 3 gross margin was still slightly negative."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. Better-than-expected revenue and adjusted loss were insufficient because investors were focused on liquidity and production economics."
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Management guided to positive cash flow in the second half of the year and profitability in the third and fourth quarters."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. They're killing me.' Revenue rose about 26% to $3.41 billion, beating the $3.28 billion analysts had expected."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Keeping investor attention squarely on whether Tesla could hit its twice-delayed Model 3 production milestone without external financing."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. A twice-postponed goal the article describes as critical for reaching profitability."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "negative",
+        "reason": "Capital spending was a concern. I specifically don't want to,' and later cut off two other analysts asking about capital expenditures and Model 3 reservations, calling their questions so dry."
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": null
+  },
+  "TSLA_2018q3": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. The forward outlook drove the reaction."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q2 revenue rose 43% to about $4.0 billion, above consensus."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Said Model 3 gross margin should improve significantly as production stabilized."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Tesla said it expected to be GAAP profitable and cash-flow positive in Q3 and Q4, excluding certain debt repayments."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": "positive",
+        "reason": "Capital management was supportive. Tesla said it expected to be GAAP profitable and cash-flow positive in Q3 and Q4, excluding certain debt repayments."
+      },
+      "Capex": {
+        "rating": "positive",
+        "reason": "Capital investment was constructive. Management also reduced planned capital spending."
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. Stable Model 3 production near 5,000 per week made positive unit economics more credible."
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Total deliveries reached 40,740 vehicles, up sharply from more than 22,000 a year earlier, including about 18,440 Model 3s."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Possibly even a severe one' given the production costs incurred late in the quarter that likely weren't matched by deliveries until the third quarter."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. To become both sustainably profitable and cash flow positive,' and told analysts on the call."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Possibly even a severe one' given the production costs incurred late in the quarter that likely weren't matched by deliveries until the third quarter."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": "negative",
+        "reason": "The capital position was a concern. The answer is no,' adding that Tesla had no plans to issue new equity and would instead focus on paying down existing debt."
+      },
+      "Capex": {
+        "rating": "negative",
+        "reason": "Capital spending was a concern. The company also disclosed a 9% workforce reduction in June and further cuts to planned 2018 capital expenditures, to less than $2.5 billion."
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "djnw": null
+  }
+}

@@ -1,0 +1,1165 @@
+{
+  "TSLA_2016q2": {
+    "ticker": "TSLA",
+    "group": "Group 1",
+    "company_name": "Tesla",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-05-04",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Tesla entered Q1 with two contradictory signals: Model 3 reservations had exploded after the March unveiling, but Q1 Model S/X deliveries had missed guidance because of Model X supplier and production problems. The earnings event therefore centered less on the quarter itself than on whether Tesla could credibly scale manufacturing.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Tesla Investor Relations: Tesla Releases Fourth Quarter and Full Year 2015 Financial Results",
+                  "url": "https://ir.tesla.com/press-release/tesla-releases-fourth-quarter-and-full-year-2015-financial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Tesla reported non-GAAP revenue of about **$1.6 billion**, roughly in line with expectations, and an adjusted loss of about **$0.57 per share**, better than consensus. Production reached a new quarterly high, but Model X ramp problems had already caused the company to miss its Q1 delivery target.",
+              "sources": []
+            },
+            {
+              "text": "The major new information was strategic. Tesla **accelerated its 500,000-vehicle annual production target to 2018**, two years earlier than previously planned, in response to unexpectedly strong Model 3 demand. That dramatically increased the required pace of factory expansion, engineering execution and capital spending. Shares initially rose after hours, but the next full session reversed sharply as investors reassessed the financing and execution risk implied by the accelerated plan.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Tesla Investor Relations: Tesla Releases First Quarter 2016 Financial Results",
+                  "url": "https://ir.tesla.com/press-release/tesla-releases-first-quarter-2016-financial-results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock fell the next session because the 500,000-unit 2018 target materially increased execution and capital-raising risk.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Q1 earnings themselves were not weak enough to explain the selloff; the adjusted loss was actually better than expected.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Model X production problems made investors more skeptical that Tesla could scale Model 3 at the newly promised pace.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Tesla Downshifts and Fitbit Inc. Slumps on a Flat Day for Stocks",
+                  "url": "https://www.fool.com/investing/general/2016/05/05/tesla-downshifts-and-fitbit-inc-slumps-on-a-flat-d.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Tesla/TSLA identity, the correct earnings event, publication date, timing window and source origin. Tesla Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Tesla Investor Relations: Tesla Releases Fourth Quarter and Full Year 2015 Financial Results",
+          "url": "https://ir.tesla.com/press-release/tesla-releases-fourth-quarter-and-full-year-2015-financial"
+        },
+        {
+          "label": "Tesla Investor Relations: Tesla Releases First Quarter 2016 Financial Results",
+          "url": "https://ir.tesla.com/press-release/tesla-releases-first-quarter-2016-financial-results"
+        },
+        {
+          "label": "The Motley Fool: Tesla Downshifts and Fitbit Inc. Slumps on a Flat Day for Stocks",
+          "url": "https://www.fool.com/investing/general/2016/05/05/tesla-downshifts-and-fitbit-inc-slumps-on-a-flat-d.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "This Heard on the Street column covers Tesla's first-quarter 2016 results, in which the company reported revenue of $1.15 billion and an adjusted loss of 57 cents a share -- a figure the article says 'narrowly topped consensus expectations.' The column's focus, however, is on CEO Elon Musk's newly accelerated promises: Tesla raised its delivery target to 500,000 vehicles by 2018, two years earlier than the previous goal, and reaffirmed that Model 3 production would begin in late 2017, following preorders that had exceeded even the most optimistic projections. The article treats these more ambitious targets skeptically, noting that meeting production deadlines 'has never been Tesla's strong suit,' pointing specifically to quality issues that plagued the Model X SUV's rollout, which arrived years after originally promised, and to the departure of two senior manufacturing executives around the same time. It also flags a financial reversal: Musk said the new plan 'will likely require additional capital' and guided 2016 capital expenditures 50% higher than the previous $1.5 billion guidance, which the column calls an 'abrupt reversal' since Tesla had said as recently as February that it wouldn't need to raise additional capital. The piece further notes, with some alarm, that Tesla was using refundable Model 3 customer deposits to pay down its asset-backed line of credit, and closes by observing that at more than 50 times projected 2018 earnings, Tesla shares were 'priced for perfection.'",
+      "why_moved": "Tesla shares fell sharply over the following days even though the reported results themselves 'narrowly topped consensus,' as the article states, and the column's skeptical framing supplies the likely explanation: rather than reassuring investors, the newly accelerated 500,000-vehicle target seems to have raised the bar Tesla would need to clear against a track record the article calls into question via the Model X's own delayed, quality-plagued launch and the exit of two senior manufacturing executives. The 'abrupt reversal' on capital needs -- guiding capital expenditures 50% higher just months after saying no capital raise would be necessary -- combined with the eyebrow-raising use of Model 3 deposits to pay down a credit line, gave the column concrete reasons to argue that Musk's more ambitious 2018 goals deserved 'thorough scrutiny' rather than celebration, a skeptical framing consistent with the stock's decline despite the narrow quarterly beat.",
+      "sources": [
+        {
+          "filename": "Tesla Earnings: It’s All About the Dream - WSJ.pdf",
+          "title": "HEARD ON THE STREET Follow Tesla Earnings: It’s All About the Dream Company's earnings came with more ambitious goals, but investors have to stay focused on the fundamentals",
+          "published_date": "2016-05-04",
+          "text": "Tesla Earnings: It’s All About the Dream - WSJ 2026-08-28, 4:55 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/tesla-earnings-its-all-about-the-dream-1462400165\nHEARD ON THE STREET Follow\nTesla Earnings: It’s All About the Dream\nCompany's earnings came with more ambitious goals, but investors have to stay focused\non the fundamentals\nBy Charley Grant\nMay 4, 2016 at 6:16 pm ET\nTesla Motors CEO Elon Musk has made big promises. PATRICK T. FALLON/REUTERS\nEnthusiasm for the Model 3 mass-market car has powered Tesla Motors TSLA -1.71%\nto lofty heights. But first-quarter results should remind investors that the future isn’t\ntoo far away.\nTesla reported revenue of $1.15 billion and an adjusted loss per share of 57 cents\nWednesday. That narrowly topped consensus expectations.\nBut, expectations for the future, rather than current performance, tend to dictate\nwhat eventually happens to stock prices. That is especially true for Tesla.\nhttps://www.wsj.com/articles/tesla-earnings-its-all-about-the-dream-1462400165 Page 1 of 3\nTesla Earnings: It’s All About the Dream - WSJ 2026-08-28, 4:55 PM\nChief Executive Elon Musk, as usual, made big promises. Tesla now expects to deliver\n500,000 vehicles by 2018, two years earlier than the previous goal. And the company\naffirmed that Model 3 production will begin late next year. This comes after Model 3\npreorders exceeded even the most optimistic projections.\nMore ambitious goals should be great news, but the new plan deserves thorough\nscrutiny. Meeting production deadlines has never been Tesla’s strong suit. Quality\nissues have plagued the rollout of the Model X sport-utility vehicle, which came to\nmarket years after originally promised. Meanwhile, two senior manufacturing\nexecutives are leaving the company.\nMr. Musk also said the new goal “will likely require additional capital.” He added that\n2016 capital expenditures will likely be 50% higher than the previous guidance of $1.5\nbillion. This marks an abrupt reversal, since Tesla said it wouldn’t need to raise\nadditional capital back in February. Tesla’s use of Model 3 deposits to pay down its\nasset-backed line of credit should also raises eyebrows.\nAnd, as always, at more than 50 times projected 2018 earnings, Tesla shares are priced\nfor perfection.\nHope for a bright future still drives the stock. That hope will be put to the test—and\nsoon.\nWrite to Charley Grant at charles.grant@wsj.com\nAppeared in the May 5, 2016, print edition as 'Tesla: It’s All About The Dream'.\nhttps://www.wsj.com/articles/tesla-earnings-its-all-about-the-dream-1462400165 Page 2 of 3\nTesla Earnings: It’s All About the Dream - WSJ 2026-08-28, 4:55 PM\nhttps://www.wsj.com/articles/tesla-earnings-its-all-about-the-dream-1462400165 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "TSLA_2016q3": {
+    "ticker": "TSLA",
+    "group": "Group 1",
+    "company_name": "Tesla",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-08-03",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Tesla had spent the spring raising capital, opening the Gigafactory and preparing Model 3, while Q2 deliveries again fell short of prior targets. The market was already aware that near-term profitability would be sacrificed for scale.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Tesla Investor Relations: Tesla Releases First Quarter 2016 Financial Results",
+                  "url": "https://ir.tesla.com/press-release/tesla-releases-first-quarter-2016-financial-results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Tesla reported roughly **$1.56 billion of non-GAAP revenue** and an adjusted loss of **$1.06 per share**, both worse than Wall Street expectations. Q2 deliveries were **14,402 vehicles**, and nearly half of the quarter's production occurred in the final four weeks as Tesla worked through manufacturing constraints.",
+              "sources": []
+            },
+            {
+              "text": "Despite the miss, management **kept its second-half delivery target of about 50,000 vehicles** and maintained confidence in the Model 3 timetable. About 5,000 vehicles were still in transit at quarter-end, providing a concrete explanation for part of the delivery shortfall. With expectations already low, investors focused more on production acceleration and Model 3 readiness than on the reported loss.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Tesla Investor Relations: Tesla Releases Second Quarter 2016 Financial Results",
+                  "url": "https://ir.tesla.com/press-release/tesla-releases-second-quarter-2016-financial-results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The next-session gain reflected relief that Tesla maintained its delivery and Model 3 targets despite the earnings miss.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** A late-quarter production ramp suggested some of the Q2 delivery weakness was timing rather than demand.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** The market was increasingly valuing Tesla on Model 3 execution rather than current-quarter profitability.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TechCrunch: Tesla misses Q2 earnings, delivers 14,402 vehicles",
+                  "url": "https://techcrunch.com/2016/08/03/tesla-misses-q2-earnings-delivers-14402-vehicles/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Tesla/TSLA identity, the correct earnings event, publication date, timing window and source origin. Tesla Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Tesla Investor Relations: Tesla Releases First Quarter 2016 Financial Results",
+          "url": "https://ir.tesla.com/press-release/tesla-releases-first-quarter-2016-financial-results"
+        },
+        {
+          "label": "Tesla Investor Relations: Tesla Releases Second Quarter 2016 Financial Results",
+          "url": "https://ir.tesla.com/press-release/tesla-releases-second-quarter-2016-financial-results"
+        },
+        {
+          "label": "TechCrunch: Tesla misses Q2 earnings, delivers 14,402 vehicles",
+          "url": "https://techcrunch.com/2016/08/03/tesla-misses-q2-earnings-delivers-14402-vehicles/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "This Heard on the Street column reports that Tesla's second-quarter 2016 results included $1.6 billion in adjusted revenue and an adjusted loss of $1.06 a share, a figure the article says 'fell short of analysts' estimates.' The seemingly encouraging detail was on the cash-flow side: Tesla reported operating cash flow of $150 million against $295 million in capital spending, producing a free cash outflow of just $145 million -- the company's best quarterly cash-flow performance in more than two years. But the column's central argument, reflected in its headline, is that this improvement is a 'mirage.' It notes that refundable customer deposits for the Model 3 were included in operating cash flow, which could reverse sharply if orders are later refunded, and separately flags that Tesla went silent on updating its Model 3 order count -- more than two months had passed since the company last disclosed roughly 373,000 orders. The article also stresses that capital spending is set to rise significantly: Tesla had guided in May to about $2.25 billion in 2016 capital expenditures related to Model 3 readiness, yet had spent just over $500 million so far that year, implying a steep ramp still ahead. While Tesla had raised $1.7 billion in a May equity sale and held $3.2 billion on its balance sheet as a cushion, the column argues that spending on the company's 'huge automotive ambitions' is not optional, and notes the pending SolarCity acquisition -- which the article describes as burning 'prodigious amounts of cash' -- would add further strain rather than relief.",
+      "why_moved": "The stock's reaction over the following days was close to flat, a pattern the article does not directly explain, since its own report is that the quarterly loss 'fell short of analysts' estimates' -- a miss that might on its own suggest a more negative reaction than the muted move that occurred. The column's skeptical thesis, that the improved free-cash-flow figure benefited from including reversible Model 3 deposits and masked a looming capital-spending ramp alongside the cash-hungry SolarCity deal, offers a plausible reason for cautious rather than enthusiastic investor sentiment, but the article does not state that these specific concerns drove the observed price action; it stops at arguing 'shareholders shouldn't put away their wallets just yet' as a forward-looking caution rather than an explanation tied to the quarter's actual stock move, which should be treated as unclear based on what the article itself says.",
+      "sources": [
+        {
+          "filename": "False Dawn at Tesla - WSJ.pdf",
+          "title": "HEARD ON THE STREET Follow False Dawn at Tesla An improved cash-flow picture at Tesla is likely a mirage",
+          "published_date": "2016-08-03",
+          "text": "False Dawn at Tesla - WSJ 2026-08-28, 4:56 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/false-dawn-at-tesla-1470262892\nHEARD ON THE STREET Follow\nFalse Dawn at Tesla\nAn improved cash-flow picture at Tesla is likely a mirage\nBy Charley Grant\nAug. 3, 2016 at 6:21 pm ET\nElon Musk, CEO of Tesla Motors Inc., is shown on July 26, 2016. RICH PEDRONCELLI/ASSOCIATED PRESS\nThe cash-flow picture brightened at Tesla Motors in the second quarter. Don’t expect\nthat improvement to last.\nTesla reported $1.6 billion in adjusted revenue and an adjusted loss of $1.06 a share\nWednesday, which fell short of analysts’ estimates. On the bright side, Tesla reported\noperating cash flow of $150 million and said it spent $295 million on capital needs.\nThe result was a free cash outflow of $145 million, good for the best quarterly\nperformance in more than two years.\nhttps://www.wsj.com/articles/false-dawn-at-tesla-1470262892 Page 1 of 3\nFalse Dawn at Tesla - WSJ 2026-08-28, 4:56 PM\nThe best way to read the report is to look at what was included and what wasn’t.\nRefundable customer deposits for the Model 3 were included in operating cash flow.\nThat could mean a big reversal later. But Tesla left out any updates about the $1,000\ndeposits. That is more than two months of silence since the company said it had\nreceived orders for 373,000 cars.\nMeanwhile, capital expenditures are due to increase significantly in coming quarters.\nThe company said in May it expects to spend about $2.25 billion in 2016 to help get the\nModel 3 ready for mass production. Tesla has spent just over $500 million on capital\nneeds so far this year.\nTesla raised $1.7 billion in May from an equity sale, and now has $3.2 billion on its\nbalance sheet, which offers some cushion. But those spending needs are hardly\noptional to meet the company’s huge automotive ambitions. And the company’s\nproposed acquisition of solar energy company SolarCity, which burns prodigious\namounts of cash, won’t help.\nShareholders shouldn’t put away their wallets just yet.\nWrite to Charley Grant at charles.grant@wsj.com\nAppeared in the August 4, 2016, print edition as 'False Dawn In Tesla’s Earnings'.\nCharley Grant is a banking reporter at The Wall Street Journal based in New York. Previously, he was a Heard on the\nStreet columnist. He is a CFA charter holder.\nFollow\nhttps://www.wsj.com/articles/false-dawn-at-tesla-1470262892 Page 2 of 3\nFalse Dawn at Tesla - WSJ 2026-08-28, 4:56 PM\nhttps://www.wsj.com/articles/false-dawn-at-tesla-1470262892 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "TSLA_2016q4": {
+    "ticker": "TSLA",
+    "group": "Group 1",
+    "company_name": "Tesla",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-10-26",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Q3 followed a record delivery quarter and came just before Tesla's planned SolarCity acquisition vote. Investors wanted proof that higher volume could finally produce positive cash flow and profit rather than simply larger losses.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Tesla Investor Relations: Tesla Releases Second Quarter 2016 Financial Results",
+                  "url": "https://ir.tesla.com/press-release/tesla-releases-second-quarter-2016-financial-results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Tesla delivered a rare **GAAP profit** in Q3 and positive free cash flow while setting records for production, deliveries and revenue. Automotive gross margin improved materially, and management said the result was not driven by broad vehicle discounting.",
+              "sources": []
+            },
+            {
+              "text": "The report was especially important because Tesla also said it expected **Q4 to remain profitable excluding stock-based compensation**, even with negligible ZEV-credit sales. That weakened the argument that Q3 profitability was only a one-quarter accounting or credit effect.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Tesla Investor Relations: Tesla Releases Third Quarter 2016 Financial Results",
+                  "url": "https://ir.tesla.com/press-release/tesla-releases-third-quarter-2016-financial-results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares rose because Tesla unexpectedly produced GAAP profit and positive free cash flow.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Higher production and deliveries translated into better automotive gross margin.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Management's Q4 profitability outlook made the improvement look more durable than a one-quarter anomaly.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TechCrunch: Tesla says it actually posted a profit this quarter",
+                  "url": "https://techcrunch.com/2016/10/26/tesla-says-it-actually-posted-a-profit-this-quarter/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Tesla/TSLA identity, the correct earnings event, publication date, timing window and source origin. Tesla Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Tesla Investor Relations: Tesla Releases Second Quarter 2016 Financial Results",
+          "url": "https://ir.tesla.com/press-release/tesla-releases-second-quarter-2016-financial-results"
+        },
+        {
+          "label": "Tesla Investor Relations: Tesla Releases Third Quarter 2016 Financial Results",
+          "url": "https://ir.tesla.com/press-release/tesla-releases-third-quarter-2016-financial-results"
+        },
+        {
+          "label": "TechCrunch: Tesla says it actually posted a profit this quarter",
+          "url": "https://techcrunch.com/2016/10/26/tesla-says-it-actually-posted-a-profit-this-quarter/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Tesla's third-quarter 2016 report marked what the article calls a surprise $22 million profit, only the second profitable quarter in the company's history and its first after twelve consecutive quarterly losses, driven by record deliveries of 24,821 combined Model S and Model X vehicles, more than double the year-earlier figure, and revenue that rose to $2.3 billion from $936.8 million. A specific line item stood out: gross profit from selling regulatory pollution tax credits to other automakers soared to $139 million from $39 million a year earlier, well above UBS analyst Colin Langan's estimate of just $30 million for the quarter. On the earnings call, Musk pushed back directly against the idea that the profit had simply pulled sales forward from the following quarter, telling analysts, 'One of the criticisms I've seen out there is that perhaps Q3 was at the expense of Q4 -- this is not true,' and predicting Tesla was 'headed to have a great fourth quarter,' potentially profitable even without adjustments. The article notes the results arrive just ahead of a shareholder vote on Tesla's proposed merger with SolarCity, scheduled for November 17, with Oppenheimer estimating the combined companies may ultimately need to raise $12.5 billion through 2018. Even amid the good news, Musk acknowledged Tesla's cash position could get 'a little scary in terms of how much capital we have in the bank relative to our sales volume' and left open the possibility of raising money, cautioning that 'there could be unexpected negative things that occur.' The quarter's strength was aided by a new $66,000 version of the Model S, which the article notes was sold for a first full quarter during this period.",
+      "why_moved": "Tesla shares rose 5% to $212.05 in after-hours trading, and the article connects this reaction to the specific surprise elements described above: a rare profitable quarter -- only the second in company history -- built on record deliveries and reinforced by a regulatory tax-credit windfall that beat even UBS's above-consensus estimate. Musk's explicit, on-record rebuttal of the pull-forward criticism, paired with his forecast for 'a great fourth quarter' as well, appears to have reassured investors that the profit was not simply a one-time accounting benefit ahead of the looming SolarCity merger vote, a reassurance the article frames as particularly important given the company's continued need to raise billions more in capital to fund the Model 3 rollout and Nevada battery factory construction described later in the piece.",
+      "sources": [
+        {
+          "filename": "Tesla Generates a Profit - WSJ.pdf",
+          "title": "Tesla Generates a Profit Electric-car maker’s deliveries more than double ahead of vote on SolarCity merger",
+          "published_date": "2016-10-26",
+          "text": "Tesla Generates a Profit - WSJ 2026-08-28, 4:59 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/tesla-posts-second-profitable-quarter-ever-1477513454\nTECH\nTesla Generates a Profit\nElectric-car maker’s deliveries more than double ahead of vote on SolarCity merger\nBy Tim Higgins\nUpdated Oct. 26, 2016 at 8:27 pm ET\nREUTERS\nTesla Motors Inc. posted a surprise $22 million profit in its latest period, buoyed by\nrecord sales of its pricey electric cars and boosting Chief Executive Elon Musk’s plan\nto sharply lift output ahead of its release of a sedan to compete against mass-market\nrivals.\nThe Palo Alto, Calif., company reported its first profit after 12 quarterly losses amid a\npush to generate cash for building its $35,000 Model 3. The company has pledged to\nlift annual production to 500,000 cars in 2018, from about 50,000 last year.\nThe quarter’s profit—a record and only the second time ever—was driven higher by\nhttps://www.wsj.com/articles/tesla-posts-second-profitable-quarter-ever-1477513454 Page 1 of 3\nTesla Generates a Profit - WSJ 2026-08-28, 4:59 PM\nimproved sales of the Model S sedan and Model X sport-utility vehicle, a reduction in\nspending and a boost from selling pollution tax credits to other auto makers. Gross\nprofit from the credits soared to $139 million from $39 million a year ago—above UBS\nanalyst Colin Langan’s estimate for $30 million during the quarter.\n“One of the criticisms I’ve seen out there is that perhaps Q3 was at the expense of Q4\n—this is not true,” Mr. Musk told analysts on Wednesday. The company in the current\nquarter may be profitable on an adjusted basis and maybe without adjustments, he\nsaid. “We are headed to have a great fourth quarter.”\nRevenue shot up to $2.3 billion from $936.8 million a year earlier. Tesla delivered\n24,821 of its Model S sedans and Model X sport-utility vehicles combined, more than\ndouble the year-ago figure.\nIts shares were up 5% to $212.05 in after-hours trading on Wednesday.\nTesla said it generated free cash flow, repaid $600 million in debt and finished\nSeptember with $3.1 billion in cash, a decline of $162 million from the end of June.\nTesla needs about $2.5 billion through the end of 2017 for the Model 3 rollout and the\ncompletion of a huge battery factory in Nevada, according to Brian Johnson, an\nautomotive analyst at Barclays.\nThe improved results also could help Mr. Musk make the case that he can handle\nmerging Tesla with SolarCity Corp., which could require additional cash. The\ncombined companies ultimately may need to raise $12.5 billion for spending through\n2018, according to Oppenheimer & Co. Tesla and SolarCity shareholders are scheduled\nto vote on a merger Nov. 17.\nMr. Musk reiterated on Wednesday that Tesla doesn’t need to raise money this year,\nadding that the plan to bring out the Model 3 doesn’t include doing so. But he left the\ndoor open, noting that the modest war chest could get “a little scary in terms of how\nmuch capital we have in the bank relative to our sales volume.”\nhttps://www.wsj.com/articles/tesla-posts-second-profitable-quarter-ever-1477513454 Page 2 of 3\nTesla Generates a Profit - WSJ 2026-08-28, 4:59 PM\n“There could be unexpected negative things that occur; there could be some global,\nmacroeconomic slowdown…Who knows what could happen?” Mr. Musk said.\nSales were likely helped by a new $66,000 version of the Model S, analysts said. The\nSeptember quarter was the first full quarter in which Tesla offered that vehicle.\nTesla also lowered its forecast for capital spending this year to $1.8 billion from $2.25\nbillion. About $1 billion of that spending could occur in the fourth quarter, it said.\nWrite to Tim Higgins at Tim.Higgins@WSJ.com\nAppeared in the October 27, 2016, print edition as 'Tesla Posts Surprise Profit of $22 Million'.\nhttps://www.wsj.com/articles/tesla-posts-second-profitable-quarter-ever-1477513454 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "TSLA_2017q1": {
+    "ticker": "TSLA",
+    "group": "Group 1",
+    "company_name": "Tesla",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-02-22",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Tesla had ended 2016 with strong Model S/X demand but production timing problems. The stock then rallied more than 50% into February as investors anticipated the Model 3 launch, leaving a very high expectations bar.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Tesla Investor Relations: Tesla Q4 2016 Production and Deliveries",
+                  "url": "https://ir.tesla.com/press-release/tesla-q4-2016-production-and-deliveries"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fourth-quarter revenue was about **$2.29 billion**, above consensus, while the adjusted loss of roughly **$0.69 per share** was wider than expected. Tesla said Model 3 production remained scheduled to begin in July and expected **$2.0–$2.5 billion of capital expenditure** before the launch.",
+              "sources": []
+            },
+            {
+              "text": "The decisive issue was liquidity. Elon Musk said it would probably make sense to **raise additional capital to reduce risk**, even though Tesla had about $3.4 billion of cash. CFO Jason Wheeler also announced his departure. Shares initially rose after hours on the Model 3 update but reversed sharply during the next session as investors focused on cash burn and financing needs.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Tesla Investor Relations: Tesla Releases Fourth Quarter and Full Year 2016 Financial Results",
+                  "url": "https://ir.tesla.com/press-release/tesla-releases-fourth-quarter-and-full-year-2016-financial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock fell because Model 3 capex and cash burn made another capital raise increasingly likely.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** The adjusted loss was wider than expected despite a revenue beat.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** The CFO transition added uncertainty at the exact point when Tesla faced its largest manufacturing investment.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: Tesla's Q4 Report Provides Ammo for Both Bulls and Bears: What Wall Street's Saying",
+                  "url": "https://www.thestreet.com/investing/stocks/tesla-s-q4-report-provides-ammo-for-both-bulls-and-bears-what-wall-street-s-saying-14013474"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Tesla/TSLA identity, the correct earnings event, publication date, timing window and source origin. Tesla Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Tesla Investor Relations: Tesla Q4 2016 Production and Deliveries",
+          "url": "https://ir.tesla.com/press-release/tesla-q4-2016-production-and-deliveries"
+        },
+        {
+          "label": "Tesla Investor Relations: Tesla Releases Fourth Quarter and Full Year 2016 Financial Results",
+          "url": "https://ir.tesla.com/press-release/tesla-releases-fourth-quarter-and-full-year-2016-financial"
+        },
+        {
+          "label": "TheStreet: Tesla's Q4 Report Provides Ammo for Both Bulls and Bears: What Wall Street's Saying",
+          "url": "https://www.thestreet.com/investing/stocks/tesla-s-q4-report-provides-ammo-for-both-bulls-and-bears-what-wall-street-s-saying-14013474"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Tesla's fourth-quarter 2016 results, covered by both a news article and a skeptical Heard on the Street column, showed revenue jumping 88% to $2.28 billion -- described as 'ahead of analysts' expectations' -- alongside a narrowed loss of $121.3 million, a reversion to red ink following the prior quarter's surprise profit. The news piece details Tesla's aggressive production plan for the Model 3, targeting a July production start and a ramp to 5,000 vehicles a week by the fourth quarter of 2017, with Musk telling analysts that while the plan itself doesn't require additional funds, the company's cash pile would drop 'close to the edge' and that 'it probably makes sense to raise capital to reduce risk.' Notably, Tesla had spent only about half its projected $1 billion in fourth-quarter capital expenditures by deferring payments to equipment suppliers in exchange for better terms, ending the quarter with $3.39 billion in cash. The Heard on the Street column takes a more pointed view of the balance sheet, noting that total liabilities had ballooned to nearly $17 billion from $7 billion a year earlier following the SolarCity acquisition, against cash of just $3.4 billion, and that free cash outflow widened to nearly $1 billion for the quarter -- a figure the column notes was artificially reduced by the deferred vendor payments described above. The column also flags the same-week resignation of Tesla's chief financial officer, who was replaced by a previous CFO who had left the company in 2015, and highlights that Tesla shares had surged roughly 50% since December 1 even as the stock traded at more than 200 times expected 2018 earnings.",
+      "why_moved": "The two articles present a split picture that is not explicitly reconciled with the stock's sharply negative multi-day move: the reported revenue beat expectations and the Heard on the Street column even notes shares were initially 'higher in late trading' following the release. What the column does supply as concrete concerns -- the SolarCity-driven surge in total liabilities to nearly $17 billion, free cash outflow nearing $1 billion for the quarter (aided by the deferred vendor payments noted above), Musk's own acknowledgment that the cash pile would run 'close to the edge' and that raising capital 'probably makes sense,' and the same-week departure of the sitting CFO -- collectively support the column's overall warning that investors should 'prepare for the day when the market loses faith in Mr. Musk.' However, neither article explicitly states that these specific factors, rather than the underlying beat, are what caused the several-day decline that followed, so the connection between the articles' cautionary content and the observed negative return should be read as suggestive context rather than a stated explanation.",
+      "sources": [
+        {
+          "filename": "Tesla Drives on the Edge - WSJ.pdf",
+          "title": "HEARD ON THE STREET Follow Tesla Drives on the Edge Tesla’s recent stock surge is a gift investors should accept",
+          "published_date": "2017-02-22",
+          "text": "Tesla Drives on the Edge - WSJ 2026-08-28, 5:00 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/tesla-drives-on-the-edge-1487803083\nHEARD ON THE STREET Follow\nTesla Drives on the Edge\nTesla’s recent stock surge is a gift investors should accept\nBy Charley Grant\nFeb. 22, 2017 at 5:38 pm ET\nA Tesla showroom in Brooklyn, N.Y. The auto maker’s total liabilities now stand at nearly $17 billion compared with\n$7 billion a year ago. ANDREW GOMBERT/EUROPEAN PRESSPHOTO AGENCY\nDespite a furious recent rally, Tesla Inc. is running on fumes.\nThe electric-car and clean-energy company reported fourth-quarter sales of $2.3\nbillion and an adjusted loss of 69 cents a share on Wednesday. Sales topped analyst\nestimates, and the stock price was higher in late trading.\nBut as usual with Tesla, the future matters more than the recent past. Whether Tesla\ncan meet Chief Executive Elon Musk’s ambitious timeline to deliver its mass market\nModel 3 Sedan will dictate whether the share price can stay high.\nhttps://www.wsj.com/articles/tesla-drives-on-the-edge-1487803083 Page 1 of 3\nTesla Drives on the Edge - WSJ 2026-08-28, 5:00 PM\nTesla announced it expects to deliver about 50,000 of its older Model X and Model S\nvehicles in the first half of the year. It also said it expects “volume production” of the\nModel 3 in the fall, in addition to its new solar roofing product.\nThat sounds promising, but the prediction comes with some caveats. Tesla has\ndeveloped a record of delayed product launches, and it warned that even a small shift\nin production timing could have a “meaningful impact on total deliveries.”\nThe risk for Tesla is running out of fuel to power its growth. Total liabilities now stand\nat nearly $17 billion compared with $7 billion a year ago, before Tesla’s acquisition of\nSolarCity, Mr. Musk’s solar power venture. Meanwhile, total cash and equivalents on\nhand amount to just $3.4 billion. And while another equity issuance seems likely to\nboost the cash balance in the near future, that cash is likely to go quickly.\nTo ramp up production of the Model 3 as promised, Tesla needs to boost capital\nspending. Tesla’s free cash outflow swelled to nearly $1 billion in the quarter, despite\nlighter capital spending than expected. Spending was light because Tesla has deferred\npayment on some capital equipment. It says it is negotiating terms with some vendors\nand hopes to make some payments after production starts.\nDire finances have never troubled shareholders before. Tesla needs to maintain\ninvestor confidence to get whatever cash it needs. The latest test is the resignation of\nthe company’s chief financial officer on Thursday. He will be replaced by the old CFO,\nwho left in 2015. But the recent stock surge of about 50% since Dec. 1 shows that faith\nin Mr. Musk will be tough to shake.\nStill, the dodgy balance sheet, looming electric vehicle competition from traditional\nmanufacturers, and the stock’s exorbitant valuation—more than 200 times expected\n2018 earnings—mean investors ought to prepare for the day when the market loses\nfaith in Mr. Musk.\nAppeared in the February 23, 2017, print edition as 'Tesla Is Still Driving on the Edge'.\nhttps://www.wsj.com/articles/tesla-drives-on-the-edge-1487803083 Page 2 of 3\nTesla Drives on the Edge - WSJ 2026-08-28, 5:00 PM\nCharley Grant is a banking reporter at The Wall Street Journal based in New York. Previously, he was a Heard on the\nStreet columnist. He is a CFA charter holder.\nFollow\nhttps://www.wsj.com/articles/tesla-drives-on-the-edge-1487803083 Page 3 of 3"
+        },
+        {
+          "filename": "Tesla Sets Aggressive Production Plan for Model 3 - WSJ.pdf",
+          "title": "Tesla Sets Aggressive Production Plan for Model 3 Company also reports 88% revenue increase for the fourth quarter",
+          "published_date": "2017-02-22",
+          "text": "Tesla Sets Aggressive Production Plan for Model 3 - WSJ 2026-08-28, 4:59 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/tesla-loss-narrows-in-fourth-quarter-1487798522\nTECH\nTesla Sets Aggressive Production Plan for Model 3\nCompany also reports 88% revenue increase for the fourth quarter\nBy Tim Higgins\nUpdated Feb. 22, 2017 at 8:21 pm ET\nA Tesla Model X sits in Monaco Ville, Monaco, earlier this month. Tesla reported financial results for the fourth\nquarter on Wednesday. CHEN YICHEN/ZUMA PRESS\nTesla Inc. laid out an aggressive production plan to bring out the new Model 3 sedan\nby year’s end, raising the likelihood the auto maker will need to raise more cash to\nsupport the rollout.\nThe Silicon Valley auto maker said Wednesday it is on track to begin production in\nJuly on the car, and announced plans to ramp up to 5,000 vehicles a week in the fourth\nquarter.\nTesla chief Elon Musk faces intense scrutiny over whether he can debut the Model 3\nhttps://www.wsj.com/articles/tesla-loss-narrows-in-fourth-quarter-1487798522 Page 1 of 4\nTesla Sets Aggressive Production Plan for Model 3 - WSJ 2026-08-28, 4:59 PM\non time after years of delays. The $35,000 sedan is part of Mr. Musk’s bet to transform\nTesla from a luxury car maker into a sustainable energy company that sells electric\nvehicles to the masses, offers solar power to generate energy, and produces large\nbatteries to store that power at home and offices.\nMr. Musk’s bold projections have ignited investors’ excitement, pushing the\ncompany’s market value to within reach of Ford Motor Co., which is 100 years older.\nTesla’s share price has risen about 50% since the company acquired solar panel maker\nSolarCity Corp., where Mr. Musk was also a major shareholder. The inflated market\nvalue could help the auto maker raise as much as $2.5 billion, said Barclays analyst\nBrian Johnson.\nTesla’s projections Wednesday came as it reported its fourth-quarter loss narrowed to\n$121.3 million, a return to red ink after posting its first quarterly profit three months\nago. Revenue jumped 88% to $2.28 billion, ahead of analysts’ expectations.\nMr. Musk told analysts on a conference call Wednesday that while his plan to bring out\nthe Model 3 doesn’t require additional money, the company’s cash pile will drop “close\nto the edge.”\n“We are considering a number of options, but I think it probably makes sense to raise\ncapital to reduce risk,” Mr. Musk said.\nTesla revealed that it spent only about half the $1 billion it projected to spend in the\nfourth quarter to prepare for production of the Model 3. The company said it shifted\nsome payments with its capital equipment suppliers closer to Model 3 production to\nsecure more favorable terms.\nThe approach helped Tesla reserve its cash pile, which has concerned investors as\nTesla was buying SolarCity just as it would need to spend big to produce the Model 3.\nTesla finished the quarter with $3.39 billion in cash, up from $3 billion three months\nhttps://www.wsj.com/articles/tesla-loss-narrows-in-fourth-quarter-1487798522 Page 2 of 4\nTesla Sets Aggressive Production Plan for Model 3 - WSJ 2026-08-28, 4:59 PM\nearlier. Tesla plans to spend between $2 billion and $2.5 billion this year ahead of\nModel 3 production.\nThe company said it plans to finalize the location for two or three locations for its\nmassive battery factories, called “gigafactories,” later this year. Tesla is finishing its\nfirst gigafactory in Nevada, which will have the capacity to make batteries for a\nmillion vehicles a year, Mr. Musk has said.\nOn the call, Mr. Musk reiterated Tesla can build a half-million vehicles next year, and\none million in 2020.\nTesla struck a cautionary tone with its 2017 guidance, given the uncertainty of\nbringing out a new product, limiting its forecast for vehicle sales to the first half. The\ncompany expects to sell between 47,000 to 50,000 Model S and Model X vehicles in the\nperiod, roughly the same amount as in the previous six months.\nA new challenge emerging for Mr. Musk at the assembly plant is the possibility of\nlabor unrest. A worker this month began making the case publicly about why the\nUnited Auto Workers union would be beneficial to hourly laborers. Mr. Musk said\nWednesday that the UAW is making a “strong effort” to unionize the factory in\nFremont, Calif.\nTesla also said its financial chief, Jason Wheeler, is stepping down in April to pursue\npublic policy. Deepak Ahuja, who retired as Tesla’s CFO in 2015, will replace Mr.\nWheeler.\nWrite to Tim Higgins at Tim.Higgins@WSJ.com\nAppeared in the February 23, 2017, print edition as 'Tesla Sets Targets for Model 3 Production'.\nhttps://www.wsj.com/articles/tesla-loss-narrows-in-fourth-quarter-1487798522 Page 3 of 4\nTesla Sets Aggressive Production Plan for Model 3 - WSJ 2026-08-28, 4:59 PM\nTim Higgins is a business columnist for The Wall Street Journal, frequent contributor to CNBC, and author of books\nabout Apple (“iWar”) and Tesla (“Power Play”). He also co-hosts “Bold Names,” the Journal’s weekly interview\npodcast with top business leaders. His weekly column focuses on influential companies and their leaders, such as…\nElon Musk, Tim Cook and Mark Zuckerberg. Tim became a columnist in 2023 after working for more than two\nA Missouri School of Journalism grad, Tim also earned an M.B.A. from Michigan State University. He lives in San\ndeFcoaldloews as an award-winning reporter, covering everything from the bankruptcy of General Motors to the\nFrancisco.\npresidential campaigns of 2016.\nhttps://www.wsj.com/articles/tesla-loss-narrows-in-fourth-quarter-1487798522 Page 4 of 4"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "TSLA_2017q2": {
+    "ticker": "TSLA",
+    "group": "Group 1",
+    "company_name": "Tesla",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-05-03",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "By May, Tesla shares had risen dramatically on Model 3 optimism. The valuation assumed a successful July launch and rapid scale-up, so even modest financial weakness could trigger a large reaction.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Tesla Investor Relations: Tesla Releases Fourth Quarter and Full Year 2016 Financial Results",
+                  "url": "https://ir.tesla.com/press-release/tesla-releases-fourth-quarter-and-full-year-2016-financial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Tesla reported record revenue of about **$2.7 billion**, but its adjusted loss of **$1.33 per share** was substantially wider than consensus near $0.83. The miss was driven largely by higher R&D and SG&A spending as Tesla prepared Model 3, expanded service infrastructure and integrated SolarCity.",
+              "sources": []
+            },
+            {
+              "text": "Operationally, Tesla reaffirmed that **Model 3 production would begin in July**, ended the quarter with about **$4 billion of cash**, and expected more than $2 billion of capital expenditures ahead of launch. The core long-term plan remained intact, but the quarterly loss showed how expensive the transition would be.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Tesla Investor Relations: Tesla Releases First Quarter 2017 Financial Results",
+                  "url": "https://ir.tesla.com/press-release/tesla-releases-first-quarter-2017-financial-results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares fell because the loss was materially wider than expected.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Higher R&D and SG&A spending showed the heavy cost of preparing Model 3 and scaling Tesla's infrastructure.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** A large pre-earnings stock rally made the valuation unusually sensitive to any earnings disappointment.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Why Tesla, Inc. Is Down Today",
+                  "url": "https://www.fool.com/investing/2017/05/04/why-tesla-inc-is-down-today.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Tesla/TSLA identity, the correct earnings event, publication date, timing window and source origin. Tesla Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Tesla Investor Relations: Tesla Releases Fourth Quarter and Full Year 2016 Financial Results",
+          "url": "https://ir.tesla.com/press-release/tesla-releases-fourth-quarter-and-full-year-2016-financial"
+        },
+        {
+          "label": "Tesla Investor Relations: Tesla Releases First Quarter 2017 Financial Results",
+          "url": "https://ir.tesla.com/press-release/tesla-releases-first-quarter-2017-financial-results"
+        },
+        {
+          "label": "The Motley Fool: Why Tesla, Inc. Is Down Today",
+          "url": "https://www.fool.com/investing/2017/05/04/why-tesla-inc-is-down-today.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Tesla's first-quarter 2017 report, headlined by Musk's assurance that the company remained on track to begin Model 3 production in July, showed revenue more than doubling to $2.7 billion, alongside a widened loss attributable to common shareholders of $330 million, up from $283 million a year earlier. Notably, the adjusted per-share loss of $1.33 'missed the 81-cent-a-share loss predicted by a consensus estimate of analysts,' meaning the closely watched adjusted loss figure came in significantly wider than expected even as revenue and deliveries -- roughly 25,000 Model S and X vehicles combined, a 69% increase and the company's best quarter ever -- beat historical norms. The article situates Tesla's results within a broader auto-industry backdrop: General Motors and Ford both reported disappointing April U.S. sales figures, marking a fourth consecutive month of year-over-year declines for the traditional industry, a contrast the piece uses to frame Tesla and Silicon Valley more broadly as 'reviving lagging interest in car buying.' Barclays analyst Brian Johnson is quoted telling clients ahead of the report, 'We don't think earnings matters... the stock seems so disconnected from any form of fundamentals, and right now is purely driven by momentum -- making earnings less relevant.' The article also notes a specific bearish counterpoint from hedge fund manager David Einhorn of Greenlight Capital, a longtime General Motors shareholder who had shorted Tesla, who said on a call with his own investors that 'investors remain hypnotized by Tesla's CEO' and expressed doubt the Model 3 can reach mass-market scale sufficient to justify the company's valuation. Tesla ended the quarter with $4 billion in cash, the highest level in its history, after raising $1.22 billion in new debt and stock.",
+      "why_moved": "Tesla's stock fell more than 7% over the two days following the report even though revenue more than doubled, a divergence the article's own figures help explain: the adjusted per-share loss of $1.33 missed -- came in far wider than -- the 81-cent consensus loss estimate described above, making the quarter's most closely watched profitability metric a clear disappointment despite record vehicle deliveries. The article's framing of Tesla as a stock 'purely driven by momentum' and 'disconnected from any form of fundamentals,' per Barclays' Brian Johnson, alongside David Einhorn's public skepticism the same day about the Model 3's ability to justify Tesla's valuation, both point toward sentiment-driven vulnerability that could compound a fundamental miss. That said, the article does not explicitly identify which of these factors was the direct cause of the sell-off, so while the wider-than-expected adjusted loss is the clearest concrete miss reported, the precise driver behind the size of the decline is not stated outright by the piece.",
+      "sources": [
+        {
+          "filename": "Musk Says Tesla on Track to Meet Model 3 Production Goal - WSJ.pdf",
+          "title": "Musk Says Tesla on Track to Meet Model 3 Production Goal The car company posted a wider loss despite more than doubling revenue",
+          "published_date": "2017-05-03",
+          "text": "Musk Says Tesla on Track to Meet Model 3 Production Goal - WSJ 2026-08-28, 5:00 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/tesla-posts-wider-loss-despite-doubling-its-revenue-1493842943\nTECH\nMusk Says Tesla on Track to Meet Model 3 Production\nGoal\nThe car company posted a wider loss despite more than doubling revenue\nBy Tim Higgins\nUpdated May 3, 2017 at 7:46 pm ET\nWith just weeks left for Tesla Inc. TSLA -1.71% to meet his tight production deadline\nfor its first mass-market vehicle, Chief Executive Elon Musk sounded confident the\ngoal will be met.\nMr. Musk said Wednesday in a quarterly letter to shareholders that Tesla is on track to\nbegin production of the Model 3 sedan in July in what will be a critical test for the\ncompany to shift from a niche luxury brand to a mainstream auto maker.\nBuyer enthusiasm for the $35,000 electric car is mounting, and investors are pouring\ninto Tesla as Wall Street sours on traditional auto makers, fearing their swelling\ninventories are a prelude to a cyclical downturn after seven consecutive years of\nrobust U.S. sales. Tuesday was just another reminder as General Motors Co. joined\nFord Motor Co. and other car companies in reporting disappointing U.S. sales results\nfor April, the fourth consecutive month of year-over-year of declines.\nTesla, which is coming off its best quarterly sales period, is helping fuel the belief that\nSilicon Valley can revive lagging interest in car buying, igniting imaginations about a\nfuture where vehicles drive themselves. At stake is a U.S. auto industry that generates\nsome $2 trillion in annual revenue.\n“Model 3 vehicle development is nearly complete as we approach the start of\nhttps://www.wsj.com/articles/tesla-posts-wider-loss-despite-doubling-its-revenue-1493842943 Page 1 of 5\nMusk Says Tesla on Track to Meet Model 3 Production Goal - WSJ 2026-08-28, 5:00 PM\nproduction,” Mr. Musk wrote in the letter. “Preparations at our production facilities\nare on track to support the ramp of Model 3 production to 5,000 vehicles per week at\nsome point in 2017, and to 10,000 vehicles per week at some point in 2018.”\nShares of Tesla have risen this year by 50%, pushing its market value to greater\nheights than both GM and Ford, the two largest U.S. auto makers by sales. Tesla\ncurrently owns the market-value crown despite the fact the company sells a fraction\nof 10 million vehicles GM sold last year, is deeply in debt and has never turned an\nannual profit.\n“We don’t think earnings matters,” Brian Johnson, an analyst with Barclays, advised\nclients in a note Wednesday ahead of Tesla reporting. “…The stock seems so\ndisconnected from any form of fundamentals, and right now is purely driven by\nmomentum—making earnings less relevant.”\nTesla continued its unprofitable ways during the first three months of the year despite\nmore than doubling revenue to $2.7 billion. The company said Wednesday its loss\nattributable to common shareholders widened to $330 million from $283 million a\nyear earlier as it moves toward Model 3 production.\nOn an adjusted basis, the company’s per-share loss of $1.33 missed the 81-cent-a-share\nloss predicted by a consensus estimate of analysts surveyed by Thomson Reuters.\nTesla’s automotive business was helped by a 69% increase in the sale of Model S\nsedans and Model X sport-utility vehicles during the quarter compared with a year\nearlier. The company delivered about 25,000 vehicles in the January through March\nperiod, its best ever and a remarkable change of fortune from a year earlier when Mr.\nMusk was struggling to work out the kinks in the new Model X SUV, which had been\nplagued with production and quality issues.\nThe sales growth puts the company on pace to meet Mr. Musk’s goal of selling 50,000\nvehicles in the first half of the year. He aims to begin initial production of the Model 3,\nhttps://www.wsj.com/articles/tesla-posts-wider-loss-despite-doubling-its-revenue-1493842943 Page 2 of 5\nMusk Says Tesla on Track to Meet Model 3 Production Goal - WSJ 2026-08-28, 5:00 PM\nits first mass-market electric sedan, in July with the goal of ramping up production to\n5,000 a week during the fourth quarter.\nOn a call with analysts, Mr. Musk suggested he aims for Tesla to build 100,000 Model X\nand S vehicles this year, though he gave some wiggle room in the shareholder letter.\n“Given that we will be ramping Model 3 production so quickly, as we’ve noted before,\neven a couple-week shift in timing can have a meaningful impact on total deliveries,”\nMr. Musk wrote.\nMr. Musk is betting the Model 3, a four-door sedan, will broaden the company’s appeal\nand help increase production to 500,000 vehicles next year toward a goal of 1 million\nin 2020. Tesla made about 84,000 vehicles last year.\nThat 1 million goal is dependent on Tesla bringing out another vehicle, the Model Y, a\ncompact SUV, in late 2019 or 2020, Mr. Musk told analysts.\nHedge-fund manager David Einhorn, a longtime shareholder of GM who has shorted\nTesla’s stock, on Wednesday expressed doubt that Tesla will be able to reach a mass\nmarket with its Model 3 at a level that would justify its market value. “For the time\nbeing, investors remain hypnotized by Tesla’s CEO,” said Mr. Einhorn, the founder of\nhedge fund Greenlight Capital Inc., on a conference call with his firm’s investors.\nTo support plans to spend more than $2 billion ahead of the Model 3 rollout, Mr. Musk\nworked in the first quarter to shore up a continuing issue for Tesla—its cash balance.\nDuring the quarter, Tesla raised $1.22 billion by issuing new debt and stock.\nTesla spent $553 million during the period on expenses for the Model 3 and giant\nbattery factory in Nevada, finishing the quarter with $4 billion in cash, which is the\nhighest amount in its 13-year history.\nMr. Musk received a vote of confidence this year when Tencent Holdings Ltd., China’s\nmost valuable company, revealed it had taken a 5% stake in Tesla.\nhttps://www.wsj.com/articles/tesla-posts-wider-loss-despite-doubling-its-revenue-1493842943 Page 3 of 5\nMusk Says Tesla on Track to Meet Model 3 Production Goal - WSJ 2026-08-28, 5:00 PM\nTo prepare for more people driving Tesla cars, Mr. Musk said he plans to add almost\n100 retail, delivery and service facilities, a 30% increase. Tesla will also add more\nmobile repair trucks during this quarter to address customers concerns in the field.\nThose efforts comes after announcing plans to at least double the number of fast\nchargers across its network for cars, following complaints about crowded stations.\nWrite to Tim Higgins at tim.higgins@wsj.com\nAppeared in the May 4, 2017, print edition as 'Tesla Presses Ahead With Model 3'.\nTim Higgins is a business columnist for The Wall Street Journal, frequent contributor to CNBC, and author of books\nabout Apple (“iWar”) and Tesla (“Power Play”). He also co-hosts “Bold Names,” the Journal’s weekly interview\npodcast with top business leaders. His weekly column focuses on influential companies and their leaders, such as…\nElon Musk, Tim Cook and Mark Zuckerberg. Tim became a columnist in 2023 after working for more than two\nA Missouri School of Journalism grad, Tim also earned an M.B.A. from Michigan State University. He lives in San\ndeFcoaldloews as an award-winning reporter, covering everything from the bankruptcy of General Motors to the\nFrancisco.\npresidential campaigns of 2016.\nhttps://www.wsj.com/articles/tesla-posts-wider-loss-despite-doubling-its-revenue-1493842943 Page 4 of 5\nMusk Says Tesla on Track to Meet Model 3 Production Goal - WSJ 2026-08-28, 5:00 PM\nhttps://www.wsj.com/articles/tesla-posts-wider-loss-despite-doubling-its-revenue-1493842943 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "Tesla reported a first-quarter net loss of $330.3 million, or $2.04 per share, wider than the $283 million, or $2.13 per share, loss a year earlier; on an adjusted basis the per-share loss was $1.33, better than the 81-cent loss analysts had expected. Revenue doubled to $2.7 billion, ahead of the $2.61 billion consensus estimate. Model S and Model X sales rose 69%, with roughly 25,000 vehicles delivered in what the article calls the company's best quarter ever for deliveries, and Tesla ended March with $4 billion in cash after raising more than $1 billion through new debt and equity offerings; the article also notes Tencent Holdings had disclosed a 5% stake around the same time. The piece details CEO Elon Musk's expansion plans, including starting Model 3 production in July, ramping to 5,000 weekly units by the fourth quarter, and reaching 500,000 vehicles annually the following year, describing the $35,000 Model 3 as the vehicle marking Tesla's shift \"from a niche luxury brand to a mainstream auto maker.\"",
+      "why_moved": "The article states that Tesla shares declined 1.8% to $313.20 in after-hours trading, despite the stock having risen roughly 50% year-to-date at that point. It presents this decline in the context of a wider-than-expected net loss even though the adjusted per-share loss and revenue both beat analyst estimates, suggesting the headline loss figure weighed on sentiment despite the underlying beat. The article does not offer further explanation connecting specific elements of the results, such as the Model 3 production timeline or cash position, directly to the share-price decline.",
+      "sources": [
+        {
+          "title": "Tesla Shares Fall on Wider Loss",
+          "url": "https://www.foxbusiness.com/markets/tesla-shares-fall-on-wider-loss"
+        }
+      ]
+    }
+  },
+  "TSLA_2017q3": {
+    "ticker": "TSLA",
+    "group": "Group 1",
+    "company_name": "Tesla",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-08-02",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Tesla had just delivered the first 30 Model 3s and entered what Musk called 'production hell.' Investors cared far more about the Model 3 ramp, reservation demand and liquidity than about near-term GAAP profit.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Tesla Investor Relations: Tesla Releases First Quarter 2017 Financial Results",
+                  "url": "https://ir.tesla.com/press-release/tesla-releases-first-quarter-2017-financial-results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q2 revenue rose to about **$2.79 billion**, above consensus near $2.51 billion, while the adjusted loss of **$1.33 per share** was narrower than the roughly $1.83 loss expected. Tesla ended the quarter with slightly more than **$3 billion in cash** despite heavy capex.",
+              "sources": []
+            },
+            {
+              "text": "The most important update was Model 3. Net reservations were about **455,000**, with roughly **1,800 new reservations per day**, and Tesla maintained a target of reaching **5,000 Model 3s per week by year-end**. Management also expected Model S/X second-half deliveries to exceed the first half. Investors treated those demand and production signals as more important than widening GAAP losses.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Tesla Investor Relations: Tesla Releases Second Quarter 2017 Financial Results",
+                  "url": "https://ir.tesla.com/press-release/tesla-releases-second-quarter-2017-financial-results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares surged because revenue and the adjusted loss were better than expected while Model 3 demand remained extremely strong.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Tesla reaffirmed the 5,000-per-week Model 3 target, supporting confidence in the production ramp.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Better-than-feared cash and capex trends reduced near-term financing anxiety.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "Fortune: Why Tesla Shares Are Rising Even As Its Losses Widen",
+                  "url": "https://fortune.com/2017/08/03/tesla-shares-rising/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Tesla/TSLA identity, the correct earnings event, publication date, timing window and source origin. Tesla Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Tesla Investor Relations: Tesla Releases First Quarter 2017 Financial Results",
+          "url": "https://ir.tesla.com/press-release/tesla-releases-first-quarter-2017-financial-results"
+        },
+        {
+          "label": "Tesla Investor Relations: Tesla Releases Second Quarter 2017 Financial Results",
+          "url": "https://ir.tesla.com/press-release/tesla-releases-second-quarter-2017-financial-results"
+        },
+        {
+          "label": "Fortune: Why Tesla Shares Are Rising Even As Its Losses Widen",
+          "url": "https://fortune.com/2017/08/03/tesla-shares-rising/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Tesla's second-quarter 2017 report showed a widened net loss of $336 million, up from $239 million a year earlier, but the adjusted per-share loss of $1.33 'beat the $1.82-a-share loss predicted by a consensus estimate of analysts,' a substantial beat, while revenue more than doubled to $2.79 billion, ahead of the $2.51 billion analysts on average had projected. The article frames these results as an explicit answer to a specific fear that had knocked roughly 13% off Tesla's stock in the weeks before the report: that anticipation for the new, cheaper Model 3 sedan would cannibalize sales of the pricier Model S and Model X, a worry that had been stoked when July's earlier release of second-quarter delivery figures for those older models came up short of analysts' expectations. Tesla reported that orders for the Model S and Model X in July had actually risen 15% above the company's average weekly order rate during the second quarter, with Model S orders increasing further after an event celebrating the handoff of the first 30 Model 3s; Musk's shareholder letter stated, 'this growing demand gives us even more reason to expect increased deliveries of Model S and Model X in the second half of the year.' Analyst James Albertine of Consumer Edge Research is quoted calling it 'a better-than-expected quarter.' The piece also details Model 3 pricing for the first time -- a base of $35,000 rising to as much as $59,500 with a long-range battery and premium features -- positioning it against BMW's 3 Series (averaging $43,023) and Mercedes-Benz's C-Class (averaging $48,571), according to Edmunds data cited in the article. Musk reiterated his 'manufacturing hell' warning about the Model 3 ramp-up on the call but told analysts they should not expect 'any significant negative surprises.'",
+      "why_moved": "Tesla's stock rose over 8% in after-hours trading, and the roughly 9% multi-day rally tracks closely with the specific beats detailed above: the adjusted loss of $1.33 a share came in well ahead of the $1.82 consensus loss expected, and revenue of $2.79 billion beat the $2.51 billion average analyst projection, prompting Consumer Edge's James Albertine to call it 'a better-than-expected quarter.' Just as important, given that the stock had already fallen roughly 13% on cannibalization fears in the weeks prior as noted above, the article frames the report as directly resolving that specific concern by showing Model S and Model X orders actually accelerating 15% above the prior quarter's pace in July, with Musk's own letter citing that demand data as reason for confidence in stronger second-half deliveries of the older vehicles. The rally occurred despite Musk reiterating his 'manufacturing hell' language about the Model 3 ramp, suggesting investors weighted the resolved cannibalization fear and the double beat on loss and revenue more heavily than the acknowledged production risk still ahead.",
+      "sources": [
+        {
+          "filename": "Tesla Loss Widens But Beats Expectations - WSJ.pdf",
+          "title": "Tesla Loss Widens But Beats Expectations Results come as auto maker ramps up production of mass-market Model 3",
+          "published_date": "2017-08-02",
+          "text": "Tesla Loss Widens But Beats Expectations - WSJ 2026-08-28, 6:18 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/tesla-loss-widens-but-beats-expectations-1501706863\nTECH\nTesla Loss Widens But Beats Expectations\nResults come as auto maker ramps up production of mass-market Model 3\nBy Tim Higgins\nUpdated Aug. 2, 2017 at 9:28 pm ET\nTesla moved the Model 3 into production in July. HANDOUT ./REUTERS\nTesla Inc. worked to calm investor nerves Wednesday, stressing that orders for its two\nolder and more expensive vehicles have accelerated lately despite the arrival of the\ncheaper Model 3 compact car.\nIn its second-quarter report, the Silicon Valley electric-car company reiterated it\nplans to sell more of the Model S sedans and Model X sport-utility vehicles during the\nsecond half than the first six months of the year, and it expects revenue to swell while\noperating costs hold steady.\nThe company ended the quarter with $3 billion in cash on hand after spending less\nhttps://www.wsj.com/articles/tesla-loss-widens-but-beats-expectations-1501706863 Page 1 of 5\nTesla Loss Widens But Beats Expectations - WSJ 2026-08-28, 6:18 PM\nduring the April through June period than expected. That along with cash being\ngenerated during the second half should provide enough money to pay for Tesla’s\nambitious spending projects and give it enough flexibility during the Model 3 ramp up,\nChief Executive Elon Musk told shareholders in a letter. He later signaled to analysts\non a conference call that Tesla may tap the debt market again for more cash.\nTesla’s stock has been on a tear this year—rising more than 50% this year and sending\nits market value above that of Ford Motor Co. and, at times, General Motors Co.--amid\nenthusiasm for the Model 3. The new car, which Tesla moved into production in July,\nis designed to remake the company as a more mainstream auto maker, ushering in an\nage of more affordable and popular electric cars.\nBut investors and analysts have expressed concern that buyers’ anticipation for the\n$35,000 Model 3 could cannibalize sales of the older models. Those concerns were\nstoked in July when Tesla reported second-quarter deliveries of the Model S sedan\nand Model X sport-utility vehicle came up short of analysts’ expectations. The shares\nfell about 13% since then ahead of Wednesday’s announcement.\nTesla said Wednesday the orders for the two older vehicles in July rose 15% higher\nthan the company’s average weekly order rate during the second quarter, and orders\nfor the Model S were increasing even more in the days after an event Friday\ncelebrating the handoff of the first 30 Model 3s. “This growing demand gives us even\nmore reason to expect increased deliveries of Model S and Model X in the second half\nof the year,” Mr. Musk told shareholders.\nInvestors liked what they heard on Wednesday, sending Tesla’s stock up over 8% in\nafter-hours trading.\n“We believe this was a better-than-expected quarter,” James Albertine, an analyst for\nConsumer Edge Research, said in a note.\nMr. Musk was further helped by a second-quarter loss that was narrower than\nhttps://www.wsj.com/articles/tesla-loss-widens-but-beats-expectations-1501706863 Page 2 of 5\nTesla Loss Widens But Beats Expectations - WSJ 2026-08-28, 6:18 PM\nanalysts’ expectations. The Palo, Alto, Calif., company reported a loss of $336 million,\ncompared with a loss of $239 million a year earlier. On an adjusted basis, the\ncompany’s per-share loss of $1.33 beat the $1.82-a-share loss predicted by a consensus\nestimate of analysts surveyed by Thomson Reuters.\nRevenue more than doubled to $2.79 billion, besting the analysts’ average projection\nof $2.51 billion. Tesla said it cut its operating costs during the second quarter from the\nfirst quarter while facing higher currency costs, which contributed to its net loss\nincreasing from the first quarter.\nIn recent weeks, Mr. Musk has worked to tamp down expectations for the Model 3,\nwarning fans at Friday’s event that the auto maker was entering “manufacturing hell”\nfor the next six months as he ramps up assembly. He reiterated that comment on\nWednesday’s earnings call—”When I meant production hell, I meant it”--but said\ninvestors shouldn’t expect any significant negative surprises.\nMr. Musk said Friday Tesla has more than 500,000 reservations for the Model 3 and\nreiterated that new orders wouldn’t be filled until late next year. On Wednesday, he\nsaid he misspoke. Instead, the company said it had a gross figure of 518,000\nreservations and a net of 455,000 orders, suggesting 63,000 cancellations.\nGreater pricing details revealed last week show buyers can pay as much as $59,500 for\na version of the Model 3 with a long-range battery and other premium features. The\nlong-range Model 3 costs $44,000 and can go 310 miles per charge, more than General\nMotors Co.’s Chevrolet Bolt and more than the lowest priced Model S.\nIn many ways, the Model 3 is aimed at the buyers of BMW AG and Daimler AG’s\nMercedes-Benz compact cars. The average transaction price of an entry-level luxury\ncar in July in the U.S. was $41,831 while BMW’s 3 Series sold on average for $43,023\nand the Mercedes-Benz C-Class sold for $48,571, according to researcher Edmunds,\nwhich tracks new car sales.\nhttps://www.wsj.com/articles/tesla-loss-widens-but-beats-expectations-1501706863 Page 3 of 5\nTesla Loss Widens But Beats Expectations - WSJ 2026-08-28, 6:18 PM\nFollowing the event, Tesla said it was averaging 1,800 Model 3 reservations per day.\nTesla had said Friday that nonemployee customers may receive the first Model 3s in\nSeptember or October. But on Wednesday, Tesla said deliveries to nonemployees will\nbegin in the fourth quarter. International deliveries will begin in late 2018, starting\nwith left-hand drive markets followed by right-hand drive markets in 2019, according\nto Tesla.\nThe company didn’t spend as much capital to prepare for production of the Model 3 in\nthe first half as expected. In May, Tesla said it planned to spend $2 billion in capital\nexpenditures but ended up spending $959 million in the second quarter after\nspending $553 million during the first quarter. The lower- than-expected spending\nwas primarily because of the timing of milestone-based cash payments, Tesla said.\nTesla expects to spend $2 billion during the second half as those payments become\ndue and as it expands its infrastructure.\nWrite to Tim Higgins at Tim.Higgins@WSJ.com\nAppeared in the August 3, 2017, print edition as 'Tesla Attempts to Calm Investors'.\nTim Higgins is a business columnist for The Wall Street Journal, frequent contributor to CNBC, and author of books\nabout Apple (“iWar”) and Tesla (“Power Play”). He also co-hosts “Bold Names,” the Journal’s weekly interview\npodcast with top business leaders. His weekly column focuses on influential companies and their leaders, such as…\nElon Musk, Tim Cook and Mark Zuckerberg. Tim became a columnist in 2023 after working for more than two\nA Missouri School of Journalism grad, Tim also earned an M.B.A. from Michigan State University. He lives in San\ndeFcoaldloews as an award-winning reporter, covering everything from the bankruptcy of General Motors to the\nFrancisco.\npresidential campaigns of 2016.\nhttps://www.wsj.com/articles/tesla-loss-widens-but-beats-expectations-1501706863 Page 4 of 5\nTesla Loss Widens But Beats Expectations - WSJ 2026-08-28, 6:18 PM\nhttps://www.wsj.com/articles/tesla-loss-widens-but-beats-expectations-1501706863 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "Tesla reported a second-quarter net loss of $336 million, wider than the prior year's $239 million loss, though the adjusted per-share loss of $1.33 beat the $1.82 loss analysts had expected. Revenue more than doubled to $2.79 billion, ahead of the $2.51 billion consensus. Combined Model S and Model X deliveries reached about 22,000 units, up 53% year over year but slightly below the roughly 23,655-unit analyst average. The article highlights that Tesla handed over the first 30 Model 3 vehicles to employees in late July, with CEO Elon Musk describing the company as entering \"manufacturing hell\" for the following six months during the ramp-up; Tesla was averaging about 1,800 Model 3 reservations daily with more than 500,000 total reservations. Capital spending totaled $959 million against a planned $2 billion annual target, with the company deferring some milestone-based payments to the second half of the year.",
+      "why_moved": "The article states that Tesla shares rose 6.3% to $346.54 in after-hours trading following the initial results, and climbed more than 8% after the company's shareholder letter reassured investors about Model S and Model X demand. It frames the gain as reflecting the adjusted per-share loss and revenue both beating analyst expectations, combined with reassurance in the shareholder letter about demand for Tesla's existing vehicle lineup. The article also connects investor attention to progress on the Model 3 ramp, including the handover of the first 30 vehicles and Musk's comments on the production process, as part of the backdrop for the positive reaction.",
+      "sources": [
+        {
+          "title": "Tesla Loss Widens But Beats Expectations - 2nd Update",
+          "url": "https://www.foxbusiness.com/features/tesla-loss-widens-but-beats-expectations-2nd-update.amp"
+        }
+      ]
+    }
+  },
+  "TSLA_2017q4": {
+    "ticker": "TSLA",
+    "group": "Group 1",
+    "company_name": "Tesla",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-11-01",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Q3 was the first quarter in which Model 3 production was supposed to become visible. Instead, Tesla had already disclosed only 220 Model 3 deliveries, so the earnings event became a direct test of whether the bottlenecks were temporary.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Tesla Investor Relations: Tesla Releases Second Quarter 2017 Financial Results",
+                  "url": "https://ir.tesla.com/press-release/tesla-releases-second-quarter-2017-financial-results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Tesla reported Q3 revenue of about **$2.98 billion**, slightly above consensus, but an adjusted loss of **$2.92 per share**, worse than the roughly $2.31 expected. Cash burn was heavy and automotive gross margin fell sharply as low-volume Model 3 production carried high initial costs.",
+              "sources": []
+            },
+            {
+              "text": "The major negative was the production schedule. Tesla pushed its target of **5,000 Model 3s per week from year-end 2017 to late Q1 2018**, citing manufacturing bottlenecks. Model 3 production was only 260 units in the quarter. This converted the vague idea of 'production hell' into a measurable delay in the company's most important growth program.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Tesla Investor Relations: Tesla Releases Third Quarter 2017 Financial Results",
+                  "url": "https://ir.tesla.com/press-release/tesla-releases-third-quarter-2017-financial-results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock fell because Model 3's 5,000-per-week target was delayed by roughly three months.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** The adjusted loss was wider than expected and cash burn remained very high.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Low-volume Model 3 production depressed automotive margin, linking execution problems directly to financial performance.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Ouch! Why Tesla, Inc. Stock Got Slammed Thursday",
+                  "url": "https://www.fool.com/investing/2017/11/02/ouch-why-tesla-inc-stock-got-slammed-thursday.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Tesla/TSLA identity, the correct earnings event, publication date, timing window and source origin. Tesla Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Tesla Investor Relations: Tesla Releases Second Quarter 2017 Financial Results",
+          "url": "https://ir.tesla.com/press-release/tesla-releases-second-quarter-2017-financial-results"
+        },
+        {
+          "label": "Tesla Investor Relations: Tesla Releases Third Quarter 2017 Financial Results",
+          "url": "https://ir.tesla.com/press-release/tesla-releases-third-quarter-2017-financial-results"
+        },
+        {
+          "label": "The Motley Fool: Ouch! Why Tesla, Inc. Stock Got Slammed Thursday",
+          "url": "https://www.fool.com/investing/2017/11/02/ouch-why-tesla-inc-stock-got-slammed-thursday.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Tesla's third-quarter 2017 report combined what the article calls the company's 'worst financial quarter ever' -- a loss of $619 million attributable to common shareholders, compared with a rare $22 million profit a year earlier -- with an adjusted per-share loss of $2.92 that was 'wider than the $2.28 consensus estimate,' a clear miss on the most closely watched profitability figure. Layered on top was a second consecutive delay to Tesla's flagship Model 3 production ramp: the 5,000-vehicles-per-week target, previously expected by the end of 2017, was pushed to 'late' the first quarter of 2018, with Musk attributing the shortfall in his shareholder letter to 'the combined complexity of module design and its automated manufacturing process' at the battery-pack assembly line near the company's Nevada factory. On the earnings call, Musk paused for 12 seconds and appeared uncharacteristically uncertain when asked about the timeline for reaching 10,000 vehicles a week, ultimately describing a 'strategic choice between growth and capital spending' and saying, 'we want to make sure we know what to scale before we spend money on it.' Bernstein Research analyst Toni Sacconaghi told Musk directly, 'quite frankly, I think it's really the first time that I've heard you talk about that potential trade-off,' and asked whether Tesla was concerned about running out of cash or attempting too much simultaneously; Musk responded by describing Tesla's growth rate as 'faster than the Model T, which is the fastest in history' and calling them 'nutty growth rates.' Notably, revenue itself beat expectations, rising 30% to $2.98 billion from $2.3 billion, ahead of the $2.95 billion analysts had projected, helped by a 36% increase in Model X sales, and Tesla ended the quarter with $3.5 billion in cash after issuing $1.8 billion in new bonds.",
+      "why_moved": "Tesla shares fell roughly 10% over the two days following the report, a decline well explained by the combination established above: the adjusted per-share loss of $2.92 missed the $2.28 consensus by a wide margin in what the article calls the company's worst financial quarter ever, arriving alongside the second consecutive delay to the 5,000-per-week Model 3 milestone, this time traced to a specific battery-pack assembly bottleneck at the Nevada factory. Compounding the numerical miss, Musk's uncharacteristic 12-second pause and hedged answer about the 'strategic choice between growth and capital spending' when pressed on the 10,000-per-week goal, plus Bernstein's Toni Sacconaghi noting on the record that this was the first time Musk had openly discussed that trade-off, reads in the article as a notable break from Musk's usual bravado that plausibly rattled investors independent of the headline numbers. That said, the article does not explicitly quantify how much of the decline owed to the adjusted-loss miss versus the production delay versus the change in Musk's tone on the call -- and notably, revenue of $2.98 billion actually beat the $2.95 billion analysts expected -- so while the loss miss and delay are the clearest concrete negatives reported, the precise weighting behind the size of the stock's decline is not stated outright by the piece.",
+      "sources": [
+        {
+          "filename": "Tesla Posts Loss, Boosting Pressure to Speed Output of Model 3 - WSJ.pdf",
+          "title": "Tesla Posts Loss, Boosting Pressure to Speed Output of Model 3 Gains in sales of Tesla’s Model X sport-utility vehicle helped boost revenue 30%",
+          "published_date": "2017-11-01",
+          "text": "Tesla Posts Loss, Boosting Pressure to Speed Output of Model 3 - WSJ 2026-08-28, 6:19 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/tesla-posts-loss-boosting-pressure-to-speed-output-of-model-3-1509569093\nTECH\nTesla Posts Loss, Boosting Pressure to Speed Output\nof Model 3\nGains in sales of Tesla’s Model X sport-utility vehicle helped boost revenue 30%\nBy Tim Higgins\nUpdated Nov. 1, 2017 at 9:18 pm ET\nA Tesla Model 3 rolls out of the assembly line in Fremont, Calif., in July. The auto maker reported results Wednesday.\nREUTERS\nElon Musk’s usual bravado as the billionaire leader of Tesla Inc. seemed to waver on\nWednesday as he warned of monthslong delays in the production of the Model 3 sedan\nand raised the possibility the electric-car company could pump the brakes on planned\ngrowth.\nThe Silicon Valley auto maker had aimed to make 5,000 Model 3 sedans a week by the\nend of this year but said it won’t reach the milestone until late in the first quarter of\nnext year.\nhttps://www.wsj.com/articles/tesla-posts-loss-boosting-pressure-to-speed-output-of-model-3-1509569093 Page 1 of 6\nTesla Posts Loss, Boosting Pressure to Speed Output of Model 3 - WSJ 2026-08-28, 6:19 PM\nTesla also reported its worst financial quarter ever, posting a loss of $619 million\nattributed to common shareholders in the three months that ended on Sept. 30,\ncompared with a rare profit of $22 million a year ago. On an adjusted basis, the\ncompany’s per-share loss of $2.92 was wider than the $2.28 consensus estimate of\nanalysts surveyed by Thomson Reuters.\nThe company attributed the primary delay of ramping up the Model 3, which began\nproduction in July, to battery-pack assembly at its factory near Reno, Nev.\n“The combined complexity of module design and its automated manufacturing\nprocess has taken this line longer to ramp than expected,” Mr. Musk said in a\nshareholder letter detailing the company’s third quarter.\nMr. Musk, who on a conference call with analysts said he was struggling with a cold,\nseemed at a loss of words when asked about when Tesla might reach the rate of\nbuilding 10,000 Model 3s a week. After a 12-second delay, he suggested it was too early\nto say because Tesla is still learning to build the Model 3 and later added the company\nfaces a strategic choice between growth and capital spending.\n“We want to make sure we know what to scale before we spend money on it,” Mr.\nMusk said.\nHis comments surprised some analysts. “Quite frankly, I think it’s really the first time\nthat I’ve heard you talk about that potential trade-off,” Toni Sacconaghi, an analyst for\nBernstein Research, told Mr. Musk. Mr. Sacconaghi asked whether Tesla is concerned\nit might run out of cash or is trying to do too much too quickly.\nTesla Chief Financial Officer Deepak Ahuja responded that Tesla had a “certain sense\nof fiduciary responsibility that we have in addition to just growing like crazy.” Added\nMr. Musk: “We’re talking about a rate of growth faster than the Model T, which is the\nfastest in history. These are nutty growth rates.”\nExpectations for the Model 3, which starts at $35,000, have helped push Tesla’s shares\nhttps://www.wsj.com/articles/tesla-posts-loss-boosting-pressure-to-speed-output-of-model-3-1509569093 Page 2 of 6\nTesla Posts Loss, Boosting Pressure to Speed Output of Model 3 - WSJ 2026-08-28, 6:19 PM\nup more than 50% this year, giving it a market value that rivals General Motors Co.\ndespite Tesla having never turned an annual profit nor built more than 84,000\nvehicles in a year.\nMr. Musk’s ability to defy the odds by making Tesla into a global luxury brand is being\ntested anew with the Model 3, a midprice sedan that he hopes will move the company\nmore into the mainstream.\nA year ago, Mr. Musk was suggesting that Tesla would begin volume production of the\nfour-door car in July of this year and make, perhaps, as many as 200,000 units in the\nsecond half of 2017. In regulatory filings in March, Tesla was promising 500,000\nvehicles in 2018, including the Model 3, Model X and Model S sedan.\nBut as the deadline to start assembly grew closer this year, Mr. Musk’s publicly stated\ngoals began to diminish to the point of him warning in July that Tesla faced six\nmonths of manufacturing “hell.”\nHe predicted making more than 1,500 Model 3s in the third quarter and reaching\n5,000 a week by year’s end and 10,000 a week sometime in 2018.\nLast month, Tesla surprised investors with disappointing news: It badly missed the\nthird-quarter production target, making just 260 Model 3s. The auto maker attributed\nthe miss to an unspecified production bottleneck while saying there are “no\nfundamental issues” with the car’s production or supply chain.\nThe Wall Street Journal has reported that Tesla’s body shop wasn’t ready when\nproduction began and that workers were hand-making portions of the Model 3 as\nrecently as early September.\nOn Wednesday, Tesla said some parts of the car factory have been able to demonstrate\nan ability to make more than 1,000 units per week “during burst builds of short\nduration” while others have demonstrated burst builds of 500 units per week.\nhttps://www.wsj.com/articles/tesla-posts-loss-boosting-pressure-to-speed-output-of-model-3-1509569093 Page 3 of 6\nTesla Posts Loss, Boosting Pressure to Speed Output of Model 3 - WSJ 2026-08-28, 6:19 PM\nSocial-media posts by Mr. Musk in recent days also suggested issues at the battery\nfactory near Reno. He posted a picture of himself at a campfire on the factory’s roof at\nnight along with a video of himself apparently drinking whiskey, roasting a\nmarshmallow and singing a Johnny Cash song.\nHe later followed with another social-media posting to say that he was camping on the\nroof “because it was less time than driving to a hotel room in Reno” and noted\n“production hell.”\nA little more than a year ago, the average analysts surveyed by FactSet were\npredicting Tesla would turn a profit during the third quarter, but those forecasts grew\ncloudier as time went on.\nNow, Mr. Musk finds himself in a familiar situation: running low on cash amid a make-\nor-break effort to push out a new car.\nIf he is successful, money will flow in and all the hiccups will be mostly forgotten. Two\nyears ago, Tesla was struggling to ramp up production of the Model X, another\ntroubled period in the company’s short history. The company has since fixed those\nproblems and sales have surged.\nA 36% gain in sales of Tesla’s Model X sport-utility vehicle during the latest quarter\nhelped boost revenue 30% to $2.98 billion from $2.3 billion a year earlier. The results\nexceeded the $2.95 billion expected by analysts.\nMr. Musk took steps in the third quarter to boost his cash pile, issuing $1.8 billion in\nbonds. But starting production on a new vehicle is expensive, and he ended the period\nwith $3.5 billion in cash—$500 million more than at the end of the second quarter.\n“The cash burn situation looks horrible right now but should improve in 2018 once\nModel 3 gets to bigger volumes,” said David Whiston, an analyst for Morningstar\nResearch Services.\nhttps://www.wsj.com/articles/tesla-posts-loss-boosting-pressure-to-speed-output-of-model-3-1509569093 Page 4 of 6\nTesla Posts Loss, Boosting Pressure to Speed Output of Model 3 - WSJ 2026-08-28, 6:19 PM\nTesla said on Wednesday it plans $1 billion in capital expenditures during the fourth\nquarter after spending $1.1 billion in the third quarter, for a total slightly more than\nthe $2 billion planned during the second half as detailed at the end of the second\nquarter.\nTesla has suggested it needs a minimum of $1 billion each quarter for working capital.\nThe company has about $1.4 billion in debt due by the end of next year and has talked\nabout plans for new factories in Europe and China. On Wednesday, Mr. Musk\nsuggested capital spending next year could be similar to this year, which is on track to\ntotal $3.6 billion.\n“Between cash on hand, future cash flows and available lines of credit, we believe that\nwe are well capitalized to accommodate the revised ramp of Model 3 production to\n5,000 per week,” Mr. Musk wrote. “Upon achieving this production level, we expect to\ngenerate significant cash flows from operating activities.”\nWrite to Tim Higgins at Tim.Higgins@WSJ.com\nAppeared in the November 2, 2017, print edition as 'Tesla Rolls Back Goal On Sedan Amid Loss'.\nTim Higgins is a business columnist for The Wall Street Journal, frequent contributor to CNBC, and author of books\nabout Apple (“iWar”) and Tesla (“Power Play”). He also co-hosts “Bold Names,” the Journal’s weekly interview\npodcast with top business leaders. His weekly column focuses on influential companies and their leaders, such as…\nElon Musk, Tim Cook and Mark Zuckerberg. Tim became a columnist in 2023 after working for more than two\nA Missouri School of Journalism grad, Tim also earned an M.B.A. from Michigan State University. He lives in San\ndeFcoaldloews as an award-winning reporter, covering everything from the bankruptcy of General Motors to the\nFrancisco.\npresidential campaigns of 2016.\nhttps://www.wsj.com/articles/tesla-posts-loss-boosting-pressure-to-speed-output-of-model-3-1509569093 Page 5 of 6\nTesla Posts Loss, Boosting Pressure to Speed Output of Model 3 - WSJ 2026-08-28, 6:19 PM\nhttps://www.wsj.com/articles/tesla-posts-loss-boosting-pressure-to-speed-output-of-model-3-1509569093 Page 6 of 6"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "This is a Dow Jones Newswires market-wide roundup covering the broader U.S. stock market on November 2, 2017, rather than a dedicated Tesla earnings story, but it directly addresses Tesla's results and stock reaction. It states that Tesla \"dropped 5.9% ahead of the open after the electric car maker late Wednesday reported a wider-than-expected loss,\" and describes the report as reflecting what the company itself characterized as its worst quarterly performance, with delays affecting the Model 3 production timeline. The roundup situates this within a wider set of market drivers for the day, including the unveiling of the House Republican tax bill, President Trump's expected announcement of Jerome Powell as the likely next Fed chair, the Bank of England's anticipated first rate increase since 2007, Facebook's earnings beat despite regulatory concerns, and Qualcomm's profit plunging 89%. U.S. stock futures were shown modestly lower, with the Dow, S&P 500 and Nasdaq-100 all down slightly ahead of the open.",
+      "why_moved": "The article attributes Tesla's premarket decline of 5.9% directly to the company reporting a wider-than-expected loss, describing the quarter as what Tesla itself called its worst yet, compounded by delays in the Model 3 production ramp. No further company-specific detail on revenue or other metrics is given beyond linking the drop to the size of the loss and the production delays. The article situates this decline within a broader market backdrop of modestly lower futures ahead of tax-legislation and Fed-related news that day, without suggesting those macro factors were the direct cause of Tesla's individual stock move.",
+      "sources": [
+        {
+          "title": "MARKET SNAPSHOT: U.S. Stocks On Track To Pull Back, With Tax Bill On Deck",
+          "url": "https://www.foxbusiness.com/features/market-snapshot-u-s-stocks-on-track-to-pull-back-with-tax-bill-on-deck"
+        }
+      ]
+    }
+  },
+  "TSLA_2018q1": {
+    "ticker": "TSLA",
+    "group": "Group 1",
+    "company_name": "Tesla",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-02-07",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Tesla had reset Model 3 guidance in January to 2,500 units per week by the end of Q1 and 5,000 by the end of Q2. The quarter therefore tested whether manufacturing bottlenecks were finally easing without exhausting liquidity.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Tesla Investor Relations: Tesla Releases Third Quarter 2017 Financial Results",
+                  "url": "https://ir.tesla.com/press-release/tesla-releases-third-quarter-2017-financial-results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Tesla's adjusted Q4 loss was **narrower than expected**, and management reaffirmed the recently revised Model 3 production targets. Q4 Model S/X deliveries were strong, but Model 3 production remained far below the original 2017 plan.",
+              "sources": []
+            },
+            {
+              "text": "The concern was cash economics. Tesla expected **Model 3 gross margin to remain negative in Q1**, while free cash flow was also expected to stay negative as production spending continued. The company needed to prove that rising Model 3 output would soon improve both unit margin and cash generation. The next-session decline shows investors were not fully reassured by unchanged production targets alone.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Tesla Investor Relations: Tesla Releases Fourth Quarter and Full Year 2017 Financial Results",
+                  "url": "https://ir.tesla.com/press-release/tesla-releases-fourth-quarter-and-full-year-2017-financial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares fell because cash burn and negative near-term Model 3 margin overshadowed the narrower-than-expected loss.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Reaffirming production targets was positive but did not eliminate execution risk after repeated delays.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Investors increasingly demanded evidence that Model 3 volume would convert into positive cash flow, not merely higher output.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Why Tesla, Inc. Stock Fell Thursday",
+                  "url": "https://www.fool.com/investing/2018/02/08/why-tesla-inc-stock-fell-thursday.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Tesla/TSLA identity, the correct earnings event, publication date, timing window and source origin. Tesla Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Tesla Investor Relations: Tesla Releases Third Quarter 2017 Financial Results",
+          "url": "https://ir.tesla.com/press-release/tesla-releases-third-quarter-2017-financial-results"
+        },
+        {
+          "label": "Tesla Investor Relations: Tesla Releases Fourth Quarter and Full Year 2017 Financial Results",
+          "url": "https://ir.tesla.com/press-release/tesla-releases-fourth-quarter-and-full-year-2017-financial"
+        },
+        {
+          "label": "The Motley Fool: Why Tesla, Inc. Stock Fell Thursday",
+          "url": "https://www.fool.com/investing/2018/02/08/why-tesla-inc-stock-fell-thursday.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Tesla's fourth-quarter 2017 report presented a genuinely mixed picture that the article itself frames as a reversal in tone from the prior quarter's warnings. On one hand, the company posted a record dollar loss of $675 million, its largest ever and well above the $121 million loss a year earlier; on the other, the adjusted per-share loss of $3.04 actually 'beat the $3.11 predicted by a consensus estimate of analysts surveyed by FactSet,' a beat on the metric investors watch most closely. Cash burn improved sharply too: Tesla burned just $277 million in free cash during the quarter, aided by delayed Model 3 capital spending, a sell-down of Model S and Model X inventory, and a 24% quarter-over-quarter increase in customer deposits. Musk struck what the article calls an 'optimistic tone' reversal, writing that 2018 'will be a transformative year for Tesla' and that 'our quarterly operating income should turn sustainably positive at some point in 2018,' while the company reiterated its twice-postponed goal of reaching 5,000 Model 3s a week by the end of the second quarter of 2018. Yet the article also documents continued, specific shortfalls: Tesla sold only about 1,550 Model 3 sedans in the fourth quarter, missing the year-end 5,000-a-week goal entirely, and roughly 2,400 total Model 3 units were built in the quarter against a target Musk had floated in 2016 of as much as 200,000 for the same period a year earlier. The piece further notes that FactSet's consensus for Tesla's full-year 2018 adjusted profit had swung dramatically over the prior twelve months, from an expected $1.46-per-share profit a year earlier to a projected $4.16-per-share loss by the time of this report, alongside the disclosure that Tesla's full 2017 loss totaled $1.96 billion, or $11.83 a share.",
+      "why_moved": "The reported return pattern for this event is itself mixed -- a solidly positive one-day move alongside modestly negative two-day, three-day, and more negative five-day figures -- and the article does not resolve this pattern with an explicit statement of cause. What it does offer is a genuinely split set of facts consistent with an ambiguous reaction: a beat on the closely watched adjusted per-share loss ($3.04 versus a $3.11 consensus) and sharply better-than-feared cash burn, set against continued Model 3 production shortfalls (roughly 2,400 units built against a much larger prior expectation for the same period, as detailed above) and a full-year 2018 profit outlook among analysts that had swung from an expected profit to an expected loss over the preceding year. Given that the article documents both a genuine beat on the headline profitability metric and genuine continued execution problems on the Model 3 without stating which one drove the market's reaction, the connection between the article's content and the specific, internally inconsistent pattern of returns should be treated as unclear rather than a stated causal relationship.",
+      "sources": [
+        {
+          "filename": "Tesla Says It Is Making Progress on Model 3 Production Issues - WSJ.pdf",
+          "title": "Tesla Says It Is Making Progress on Model 3 Production Issues Electric car maker’s loss widens to $675 million as it projects a sustained operating profit sometime in 2018",
+          "published_date": "2018-02-07",
+          "text": "Tesla Says It Is Making Progress on Model 3 Production Issues - WSJ 2026-08-28, 6:19 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/tesla-posts-smaller-than-expected-loss-1518039313\nTECH\nTesla Says It Is Making Progress on Model 3\nProduction Issues\nElectric car maker’s loss widens to $675 million as it projects a sustained operating profit\nsometime in 2018\nBy Tim Higgins\nUpdated Feb. 7, 2018 at 11:59 pm ET\nTesla’s fourth-quarter loss was smaller than expected but still a record loss for the company. HANNAH MCKAY/\nREUTERS\nTesla Inc. on Wednesday signaled it is making progress in overcoming its early\nproduction troubles building the Model 3 sedan, telling shareholders it expects to\ngenerate its first sustained operating profit sometime this year.\nThe Silicon Valley auto maker said in its quarterly financial report that is on track to\nreach a milestone of making 5,000 Model 3 sedans a week by the end of the second\nquarter—a twice postponed goal—and that it is addressing bottlenecks that have\nhttps://www.wsj.com/articles/tesla-posts-smaller-than-expected-loss-1518039313 Page 1 of 6\nTesla Says It Is Making Progress on Model 3 Production Issues - WSJ 2026-08-28, 6:19 PM\nderailed production.\nThe optimistic tone is a reversal from last quarter’s report, when Tesla warned of\nmonthslong delays in the production of the Model 3 and raised the possibility the\ncompany could pump the brakes on planned growth. Tesla on Wednesday reported yet\nanother record loss—$675 million attributable to common shareholders—but unlike\nthree months ago, the loss on an adjusted basis was narrower than what analysts were\nexpecting.\nThis year “will be a transformative year for Tesla, with a high level of operational\nscaling,” Chief Executive Elon Musk wrote Wednesday in a letter to shareholders. “As\nwe ramp production of both Model 3 and our energy products while keeping tight\ncontrol of operating expenses, our quarterly operating income should turn\nsustainably positive at some point in 2018.”\nTesla also improved its cash flow during the quarter—burning just $277 million in free\ncash—crediting a delay in investments for the Model 3, a sell-down of inventories of\nModel S sedans and Model X sport-utility vehicles and a 24% increase in customer\ndeposits from three months earlier. While the company doesn’t break out which\nproducts collected those reservations during the quarter, Tesla revealed a new\nsemitrailer truck and a high-end sports car that will cost as much as $250,000.\nIn after-hours trading on Wednesday, Tesla’s shares fluctuated around the $345\nclosing price, after rising 3.3% during regular hours.\nAmid the buoyant predictions, Tesla cautioned shareholders that the company has\nencountered “difficulty of accurately forecasting specific production rates at specific\npoints in time.” The company often misses its targets, as it did with the Model 3 in the\nfourth quarter, when it sold only about 1,550 of the sedans, and fell short of hitting the\n5,000-a-week goal by the end of the year.\nDeliveries of the Model S sedan and Model X sport-utility vehicle helped boost unit\nhttps://www.wsj.com/articles/tesla-posts-smaller-than-expected-loss-1518039313 Page 2 of 6\nTesla Says It Is Making Progress on Model 3 Production Issues - WSJ 2026-08-28, 6:19 PM\nsales by 35% during the fourth quarter from a year earlier. Tesla sold a record 102,807\nvehicles last year mainly on the back of those two pricey cars, which typically sell for\nabout $100,000.\nBut investor attention is focused heavily on the Model 3, which starts at $35,000 and\nis a key pillar of Mr. Musk’s strategy to remake the luxury auto maker as a more\nmainstream company that offers electric cars, solar panels and batteries for power\nstorage.\nLast November, Tesla acknowledged it was struggling to ramp up the Model 3 due to\nthe complexity of the battery-pack assembly and its automated manufacturing\nprocess. It has suffered from bottlenecks at the assembly plant in Fremont, Calif., and\nat the battery factory near Reno, Nev.\nCars are assembled by robots at Tesla’s factory in Fremont, Calif. JOSEPH WHITE/REUTERS\nTesla has received about 500,000 reservations to buy the Model 3, so the question is\nhow quickly it can crank up production to meet the demand. The company’s website\ncurrently says it will take about 12 to 18 months to get a Model 3 delivered if reserved\ntoday.\nIn 2016, Mr. Musk had said he expected to make as many as 200,000 Model 3s in the\nhttps://www.wsj.com/articles/tesla-posts-smaller-than-expected-loss-1518039313 Page 3 of 6\nTesla Says It Is Making Progress on Model 3 Production Issues - WSJ 2026-08-28, 6:19 PM\nsecond half of 2017 and that the company would reach 500,000 total production in\n2018. Instead, Tesla, which began production of the compact car in July, built roughly\n2,400 Model 3s in the fourth quarter, making Mr. Musk’s dream of producing a half\nmillion vehicles a year, including the Model S and Model X, look unlikely anytime\nsoon.\nModel 3 delays threaten to eat into Tesla’s limited cash. Tesla ended 2017 with $3.4\nbillion in cash on hand after spending $787 million on capital expenditures for Model\n3 and battery production during the fourth quarter. That was less than Tesla had\nforecast in November when it said it planned to spend about $1 billion. The company\nsaid it delayed spending on the Model 3 until the first quarter.\nTesla plans to spend slightly more on capital expenditures this year compared with\nthe $3.4 billion spent in 2017, the company said. The auto maker plans to add capacity\nat its assembly plant to be able to make 10,000 Model 3 sedans a week after reaching\nthe 5,000-a-week milestone, Mr. Musk wrote.\nAnalysts expect Tesla will have to raise additional money this year, and with the\ndelays, their expectations for the company’s ability to turn a profit have deflated.\nAbout a year ago, the consensus among analysts surveyed by FactSet estimated Tesla\nturning an annual adjusted profit of $1.46-a-share in 2018, a view that has flipped to a\nloss of $4.16 a share. In 2017, the company, which has never posted an annual profit,\nlost $1.96 billion, or $11.83 a share.\nDespite the hurdles, Mr. Musk continues to stoke enthusiasm among investors and\nfans. Shares of the company have soared more than 7% this year so far, giving it a\nmarket value that rivals General Motors Co., the largest U.S. auto maker by sales.\nTesla also seems to benefit from Mr. Musk’s involvement with his other company,\nSpace Exploration Technologies Corp., which on Tuesday launched the world’s most\npowerful rocket in almost five decades that carried a Tesla sports car as a test-\npayload.\nhttps://www.wsj.com/articles/tesla-posts-smaller-than-expected-loss-1518039313 Page 4 of 6\nTesla Says It Is Making Progress on Model 3 Production Issues - WSJ 2026-08-28, 6:19 PM\nLast month, Tesla announced that the company’s board had approved a compensation\npackage for Mr. Musk that aims for the company to reach a market value of $650\nbillion, about 10 times its current value.\nIn the fourth quarter, Tesla’s $675 million loss attributable to common shareholders\ncompared with $121 million a year ago. On an adjusted basis, the company recorded a\nper-share loss of $3.04, beating the $3.11 predicted by a consensus estimate of\nanalysts surveyed by FactSet.\nAutomotive revenue, which makes up the bulk of Tesla’s total revenue, rose 36% to\n$2.7 billion from a year ago.\nWrite to Tim Higgins at Tim.Higgins@WSJ.com\nAppeared in the February 8, 2018, print edition as 'Tesla Signals Better Model 3 Output'.\nTim Higgins is a business columnist for The Wall Street Journal, frequent contributor to CNBC, and author of books\nabout Apple (“iWar”) and Tesla (“Power Play”). He also co-hosts “Bold Names,” the Journal’s weekly interview\npodcast with top business leaders. His weekly column focuses on influential companies and their leaders, such as…\nElon Musk, Tim Cook and Mark Zuckerberg. Tim became a columnist in 2023 after working for more than two\nA Missouri School of Journalism grad, Tim also earned an M.B.A. from Michigan State University. He lives in San\ndeFcoaldloews as an award-winning reporter, covering everything from the bankruptcy of General Motors to the\nFrancisco.\npresidential campaigns of 2016.\nhttps://www.wsj.com/articles/tesla-posts-smaller-than-expected-loss-1518039313 Page 5 of 6\nTesla Says It Is Making Progress on Model 3 Production Issues - WSJ 2026-08-28, 6:19 PM\nhttps://www.wsj.com/articles/tesla-posts-smaller-than-expected-loss-1518039313 Page 6 of 6"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "TSLA_2018q2": {
+    "ticker": "TSLA",
+    "group": "Group 1",
+    "company_name": "Tesla",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-05-02",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Tesla entered Q1 under intense scrutiny over Model 3 production, liquidity and whether it would need to raise capital. Production had improved, but sustained 5,000-per-week output remained unproven.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Tesla Investor Relations: Tesla Releases Fourth Quarter and Full Year 2017 Financial Results",
+                  "url": "https://ir.tesla.com/press-release/tesla-releases-fourth-quarter-and-full-year-2017-financial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Tesla reported record quarterly revenue of about **$3.4 billion** and an adjusted loss of **$3.35 per share**, slightly better than consensus. However, the GAAP net loss reached a record roughly **$785 million**, cash fell to about **$2.7 billion**, and Model 3 gross margin was still slightly negative.",
+              "sources": []
+            },
+            {
+              "text": "Tesla said it had sustained more than **2,000 Model 3s per week** for several weeks in April and still aimed for around 5,000 per week. The earnings call then became a major part of the market reaction: Elon Musk dismissed analysts' questions about capital requirements and reservations as 'boring' or 'bonehead,' creating additional uncertainty about governance and financing communication.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Tesla Investor Relations: Tesla Releases First Quarter 2018 Financial Results",
+                  "url": "https://ir.tesla.com/press-release/tesla-releases-first-quarter-2018-financial-results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock fell because record losses and Model 3's still-negative margin reinforced cash-burn concerns.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Musk's combative treatment of analyst questions worsened the reaction by raising communication and governance concerns.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Better-than-expected revenue and adjusted loss were insufficient because investors were focused on liquidity and production economics.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Why Tesla Stock Was Slammed Today",
+                  "url": "https://www.fool.com/investing/2018/05/03/why-tesla-stock-was-slammed-today.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Tesla/TSLA identity, the correct earnings event, publication date, timing window and source origin. Tesla Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Tesla Investor Relations: Tesla Releases Fourth Quarter and Full Year 2017 Financial Results",
+          "url": "https://ir.tesla.com/press-release/tesla-releases-fourth-quarter-and-full-year-2017-financial"
+        },
+        {
+          "label": "Tesla Investor Relations: Tesla Releases First Quarter 2018 Financial Results",
+          "url": "https://ir.tesla.com/press-release/tesla-releases-first-quarter-2018-financial-results"
+        },
+        {
+          "label": "The Motley Fool: Why Tesla Stock Was Slammed Today",
+          "url": "https://www.fool.com/investing/2018/05/03/why-tesla-stock-was-slammed-today.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Tesla's first-quarter 2018 report showed free cash flow widening to a negative $1 billion, a sharp reversal from the $277 million burned in the fourth quarter of 2017 -- a figure the article notes was 'unusually low' at the time due to delayed spending and a customer-deposit boost. Musk indicated Tesla would not need to raise additional capital, citing the company's continued path toward making 5,000 Model 3 sedans a week by around the end of the second quarter, a twice-postponed goal the article describes as critical for reaching profitability; management guided to positive cash flow in the second half of the year and profitability in the third and fourth quarters. The quarter's loss attributable to common shareholders was $710 million, the company's fifth consecutive quarterly record loss, though the adjusted per-share loss of $3.35 was 'narrower than analysts' average expectations,' expectations the article notes had 'been lowered significantly in recent months.' The article gives extensive, specific detail on a combative exchange during the earnings call: when Morgan Stanley analyst Adam Jonas asked whether it would be prudent to raise capital anyway even if not strictly necessary, Musk replied curtly, 'No... I specifically don't want to,' and later cut off two other analysts asking about capital expenditures and Model 3 reservations, calling their questions 'so dry. They're killing me.' Revenue rose about 26% to $3.41 billion, beating the $3.28 billion analysts had expected, while total deliveries rose 20% to 29,997 vehicles including 8,812 Model 3s, even as combined Model S and Model X deliveries fell about 13% year over year. Tesla ended the quarter with $2.7 billion in cash, down from $3.4 billion, and said it was cutting planned 2018 capital expenditures to 'slightly less' than $3 billion.",
+      "why_moved": "The article directly ties the timing of the stock's decline to a specific moment on the call rather than to the headline numbers: shares fell as much as 6% intraday in after-hours trading before settling down 4.6%, a slide the article connects to Musk's combative exchange with analysts described above, in which he flatly refused Morgan Stanley's suggestion to raise capital as a precaution and dismissed other analysts' questions about capex and reservations as 'so dry. They're killing me.' This occurred even though the underlying quarterly numbers were mixed-to-positive by the article's own account -- revenue beat consensus and the adjusted loss per share was narrower than expectations (albeit expectations that had already been lowered, as noted above) -- while free cash flow burn widened sharply to roughly $1 billion, keeping investor attention squarely on whether Tesla could hit its twice-delayed Model 3 production milestone without external financing. The article's framing suggests Musk's on-call demeanor, more than the headline revenue and loss figures, is what it identifies as driving the negative reaction.",
+      "sources": [
+        {
+          "filename": "Tesla Continues to Burn Through Cash - WSJ.pdf",
+          "title": "Tesla Continues to Burn Through Cash CEO Elon Musk reiterates that Tesla is still on pace to make about 5,000 Model 3s in a single week",
+          "published_date": "2018-05-02",
+          "text": "Tesla Continues to Burn Through Cash - WSJ 2026-08-28, 6:21 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/tesla-continues-to-burn-through-cash-1525293204\nTECH\nTesla Continues to Burn Through Cash\nCEO Elon Musk reiterates that Tesla is still on pace to make about 5,000 Model 3s in a\nsingle week\nBy Tim Higgins\nUpdated May 2, 2018 at 9:55 pm ET\nTesla has struggled to ramp up production of the Model 3 sedan. JEFF CHIU/ASSOCIATED PRESS\nTSLA -1.71% Tesla Inc. TSLA -1.71% burned through cash at a greater rate than\nanalysts expected during the first quarter, intensifying pressure on the Silicon Valley\nauto maker to raise more capital if it continues to struggle ramping up production of\nthe Model 3 sedan.\nThe company’s free cash flow widened to about a negative $1 billion after burning\n$277 million in the final three months of last year, a figure that was unusually low\nthanks, in part, to delays in spending and customer deposits.\nhttps://www.wsj.com/articles/tesla-continues-to-burn-through-cash-1525293204 Page 1 of 5\nTesla Continues to Burn Through Cash - WSJ 2026-08-28, 6:21 PM\nDespite the increased spending, Chief\nExecutive Elon Musk indicated the company\nwon’t need to raise more money because it is\nstill on pace to make about 5,000 Model 3s in\na single week by around the end of the\nsecond quarter. The twice postponed goal is\ncritical, analysts say, for Tesla to generate\ncash and reach profitability.\nThe increased rate of production, coupled\nwith plans to reduce capital expenditures,\nshould help Tesla become cash-flow positive\nin the second half of the year and profitable\nin the third and fourth quarters, the\ncompany said.\nThat would be a big reversal from the first\nquarter, when Tesla posted a loss\nattributable to common shareholders of $710 million, its fifth consecutive quarter of\nrecord losses. Tesla’s per-share loss of $3.35 was narrower than analysts’ average\nexpectations, according to FactSet, but those projections were lowered significantly in\nrecent months.\nDuring a combative conference call with analysts on Wednesday, Mr. Musk answered\ncurtly when Adam Jonas of Morgan Stanley asked whether it would be prudent for\nTesla to raise more capital while it can even if it doesn’t need it. “No,” Mr. Musk\nreplied. “I specifically don’t want to.”\nLater on the call, Mr. Musk cut off two analysts who were asking about Tesla’s\nbusiness—specifically capital expenditures and Model 3 reservations—calling the\nquestions “so dry. They’re killing me.”\nhttps://www.wsj.com/articles/tesla-continues-to-burn-through-cash-1525293204 Page 2 of 5\nTesla Continues to Burn Through Cash - WSJ 2026-08-28, 6:21 PM\nAs Mr. Musk deflected some questions, the stock started sliding in after-hours\ntrading, falling as much as 6% in about a 20-minute period, before settling down 4.6%\nat 8 p.m. EDT. Tesla’s stock had fallen more than 3% in 2018.\nProduction of the Model 3 sedan, which began in July, has bedeviled Mr. Musk at the\ncompany’s Fremont, Calif., factory, where in recent weeks he has conceded to relying\ntoo much on automation to make the vehicle that was supposed to start at $35,000 but\ninstead goes for $49,000 in the U.S. The lower-priced version, with a shorter battery\nrange, isn’t expected to reach the market until later this year.\nThe Model 3 is part of Mr. Musk’s vision of bringing electric cars to the masses and\nturning Tesla into something more than a luxury car company selling Model S sedans\nand Model X sport-utility vehicles that average for $100,000.\nHis gamble of remaking the automotive landscape, however, is facing a critical make-\nor-break period as the company struggles with the Model 3. The company has little\nwiggle room and needs to begin generating cash or else raise more money.\nLast month, Tesla said it won’t need to raise any debt or equity this year, apart from\nstandard credit lines.\nTesla on Wednesday said it expects to cut back on spending and generate positive\ncash flow in the third and fourth quarters, “including the inflow of cash that we\nreceive in the normal course of our business from financing activities on leased\nvehicle and solar products.”\nAnalysts surveyed by FactSet on average predicted a negative free cash flow of $889\nmillion during the first quarter. The company averaged a negative free cash burn of\n$900 million a quarter last year. These totals don’t include payments for solar energy\nsystems.\nTesla finished the first quarter with $2.7 billion in cash on hand, compared with $3.4\nbillion at the end of last year. Customer deposits, for vehicles such as the Model 3 and\nhttps://www.wsj.com/articles/tesla-continues-to-burn-through-cash-1525293204 Page 3 of 5\nTesla Continues to Burn Through Cash - WSJ 2026-08-28, 6:21 PM\nRoadster, rose about 15% to $985 million from the end of last year.\nThe cash levels put Tesla “in good shape providing they do start generating cash later\nthis year,” said David Whiston, an analyst for Morningstar Research Services LLC.\nTesla said it was cutting back on capital expenditures this year to “slightly” less than\n$3 billion from $3.4 billion last year. “We have significantly cut back our capex\nprojections by focusing on the critical near-term needs that benefit us primarily in the\nnext couple of years,” Mr. Musk wrote in a letter to shareholders on Wednesday.\nTesla’s total vehicle deliveries, announced last month, rose 20% to 29,997, including\n8,812 Model 3 vehicles. Deliveries of the higher-priced Model S sedan and Model X\nsport-utility vehicle, however, fell about 13% combined compared with a year\nago. Revenue rose about 26% to $3.41 billion, beating analyst expectations of $3.28\nbillion.\nTesla made 9,766 Model 3s during the first quarter and fell short of its goal of making\n2,500 in a single week. In April, it said that it reached a rate of 2,000 in a seven-day\nperiod that included two days of the second quarter.\nMr. Musk had once suggested the company could make as many as 200,000 Model 3s\nin the second half of last year.\nWhile he had warned in July that the Model 3 ramp-up would be hard, Mr. Musk has\nsaid it has been worse than expected. He has retaken control of production and said\nearlier this year that he was sleeping sometimes at the factory.\nHe has directed the factory to work 24 hours, seven days a week and aims to make as\nmany 4,000 Model 3s in a single week this month followed by some additional\nupgrades to the factory so they can make as many 6,000 a week by the end of June.\nHe set the goal of making 5,000 a week by the end of the second quarter, a milestone\nthat has twice been delayed. Mr. Musk recently told “CBS This Morning” that he\nhttps://www.wsj.com/articles/tesla-continues-to-burn-through-cash-1525293204 Page 4 of 5\nTesla Continues to Burn Through Cash - WSJ 2026-08-28, 6:21 PM\nfinally sees a way through the challenges.\nWrite to Tim Higgins at Tim.Higgins@WSJ.com\nAppeared in the May 3, 2018, print edition as 'Tesla Spends Heavily but Sees Profits Ahead'.\nTim Higgins is a business columnist for The Wall Street Journal, frequent contributor to CNBC, and author of books\nabout Apple (“iWar”) and Tesla (“Power Play”). He also co-hosts “Bold Names,” the Journal’s weekly interview\npodcast with top business leaders. His weekly column focuses on influential companies and their leaders, such as…\nElon Musk, Tim Cook and Mark Zuckerberg. Tim became a columnist in 2023 after working for more than two\nA Missouri School of Journalism grad, Tim also earned an M.B.A. from Michigan State University. He lives in San\ndeFcoaldloews as an award-winning reporter, covering everything from the bankruptcy of General Motors to the\nFrancisco.\npresidential campaigns of 2016.\nhttps://www.wsj.com/articles/tesla-continues-to-burn-through-cash-1525293204 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "TSLA_2018q3": {
+    "ticker": "TSLA",
+    "group": "Group 1",
+    "company_name": "Tesla",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-08-01",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "By Q2, Tesla had finally reached roughly 5,000 Model 3s in the final week of June. Investors now needed evidence that this production milestone could produce positive gross margin and cash flow rather than simply accelerate losses.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Tesla Investor Relations: Tesla Releases First Quarter 2018 Financial Results",
+                  "url": "https://ir.tesla.com/press-release/tesla-releases-first-quarter-2018-financial-results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q2 revenue rose **43% to about $4.0 billion**, above consensus, while the adjusted loss of **$3.06 per share** was slightly wider than expected but improved sequentially. Free-cash-flow burn of roughly **$740 million** was better than feared, and Tesla ended the quarter with about **$2.2 billion in cash**.",
+              "sources": []
+            },
+            {
+              "text": "The forward outlook drove the reaction. Tesla said it expected to be **GAAP profitable and cash-flow positive in Q3 and Q4**, excluding certain debt repayments, and said Model 3 gross margin should improve significantly as production stabilized. Management also reduced planned capital spending. Musk apologized for his behavior on the prior call, removing one nonfinancial overhang.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Tesla Investor Relations: Tesla Releases Second Quarter 2018 Financial Results",
+                  "url": "https://ir.tesla.com/press-release/tesla-releases-second-quarter-2018-financial-results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares surged because lower-than-feared cash burn and a Q3/Q4 profit-and-cash-flow outlook changed the financing narrative.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Stable Model 3 production near 5,000 per week made positive unit economics more credible.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Lower capex plans and Musk's apology reduced both liquidity and governance concerns.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Why Tesla, Inc. Stock Has Jumped Thursday",
+                  "url": "https://www.fool.com/investing/2018/08/02/why-tesla-inc-stock-jumped-thursday.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Tesla/TSLA identity, the correct earnings event, publication date, timing window and source origin. Tesla Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Tesla Investor Relations: Tesla Releases First Quarter 2018 Financial Results",
+          "url": "https://ir.tesla.com/press-release/tesla-releases-first-quarter-2018-financial-results"
+        },
+        {
+          "label": "Tesla Investor Relations: Tesla Releases Second Quarter 2018 Financial Results",
+          "url": "https://ir.tesla.com/press-release/tesla-releases-second-quarter-2018-financial-results"
+        },
+        {
+          "label": "The Motley Fool: Why Tesla, Inc. Stock Has Jumped Thursday",
+          "url": "https://www.fool.com/investing/2018/08/02/why-tesla-inc-stock-jumped-thursday.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Tesla's second-quarter 2018 report described a net loss that more than doubled year over year to $717.5 million, the company's seventh consecutive quarterly loss, but the article frames the quarter as a turning point on two specific fronts. First, Tesla finally reached its long-delayed goal of building 5,000 Model 3 sedans in a single week during the final days of June, a milestone that had been postponed twice before. Second, free cash flow came in negative about $740 million, which the article says was 'lower than what a consensus of analysts expected'; Morningstar analyst David Whiston is quoted saying he 'was expecting more cash burn, possibly even a severe one' given the production costs incurred late in the quarter that likely weren't matched by deliveries until the third quarter. Musk wrote to shareholders, 'in the second half of 2018, we expect, for the first time in our history, to become both sustainably profitable and cash flow positive,' and told analysts on the call, 'are we running low on money? The answer is no,' adding that Tesla had no plans to issue new equity and would instead focus on paying down existing debt. The article explicitly contrasts the tone of this call with the prior quarter's, noting that the previous quarter's combative exchanges with analysts 'sent shares plummeting,' whereas this time Musk apologized to those same analysts and sounded 'upbeat -- if tired.' Revenue rose 44% to $4 billion, and total deliveries reached 40,740 vehicles, up sharply from more than 22,000 a year earlier, including about 18,440 Model 3s; the company also disclosed a 9% workforce reduction in June and further cuts to planned 2018 capital expenditures, to less than $2.5 billion.",
+      "why_moved": "Tesla shares jumped nearly 9% to $327.70 in after-hours trading, and the nearly 17% two-day rally (extending to almost 20% over three days) tracks closely to the two concrete beats described above: finally hitting the 5,000-Model-3-per-week production milestone after two prior delays, and a smaller-than-expected free cash flow burn that surprised even a bullish analyst like Morningstar's David Whiston, who had braced for a 'severe' cash-burn quarter. Just as significant, the article explicitly frames this call's tone as a deliberate reversal from the prior quarter, when Musk's combative answers to analysts 'sent shares plummeting' as noted above; this time Musk apologized to the same analysts and made a specific, dated commitment to become 'sustainably profitable and cash flow positive' for the first time in company history in the second half of 2018, directly addressing the capital-raise fears that had weighed on the stock the previous quarter. The combination of hitting the production milestone, beating cash-burn expectations, and replacing an adversarial call demeanor with a reassuring one is what the article connects to the sharp positive reaction, even though the quarter's net loss itself widened further.",
+      "sources": [
+        {
+          "filename": "Tesla Doubles Loss, but Burns Less Cash Than Expected - WSJ.pdf",
+          "title": "Tesla Doubles Loss, but Burns Less Cash Than Expected Electric-car maker finished the second quarter with $2.2 billion in cash",
+          "published_date": "2018-08-01",
+          "text": "Tesla Doubles Loss, but Burns Less Cash Than Expected - WSJ 2026-08-28, 6:21 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/tesla-doubles-loss-but-burns-less-cash-than-expected-1533155913\nTECH\nTesla Doubles Loss, but Burns Less Cash Than\nExpected\nElectric-car maker finished the second quarter with $2.2 billion in cash\nBy Tim Higgins\nUpdated Aug. 1, 2018 at 8:04 pm ET\nTesla Inc. TSLA -1.71% reassured investors it would achieve a profit later this year, as\na rush of Model 3 sales in the second quarter helped the electric-car maker burn less\ncash than expected.\nThe results, which sent Tesla’s shares soaring in after-hours trading Wednesday,\nshould give Chief Executive Elon Musk some wiggle room to prove that a continued\nproduction rate of more than 5,000 Model 3s a week during the third quarter can\nmake the auto maker cash-flow positive and profitable. He made that promise earlier\nthis year and reiterated it Wednesday in a letter to shareholders, though many\nanalysts doubt it can be kept.\nTesla more than doubled its loss from last year’s second quarter to $717.5 million, its\nseventh consecutive quarterly loss during an period intensely focused on ramping up\nproduction of the Model 3. Tesla reached the long-delayed goal of making 5,000 Model\n3 sedans in a single week during the final days of June. Now the test is whether it can\nsustain that production to generate necessary cash and eventually prove it is no\nlonger a niche luxury brand but one capable of building millions of cars a year.\n“It took 15 years to execute on our initial goal to produce an affordable, long-range\nelectric vehicle that can also be highly profitable,” Mr. Musk wrote in Wednesday’s\nhttps://www.wsj.com/articles/tesla-doubles-loss-but-burns-less-cash-than-expected-1533155913 Page 1 of 5\nTesla Doubles Loss, but Burns Less Cash Than Expected - WSJ 2026-08-28, 6:21 PM\nshareholder letter. “In the second half of 2018, we expect, for the first time in our\nhistory, to become both sustainably profitable and cash flow positive.”\nLater on a call with analysts, Mr. Musk said he expects Tesla will record a profit in all\nsubsequent quarters—except perhaps if the economy collapses or the company pays\nback a big loan, he said.\nIf Mr. Musk begins to fulfill that promise, he could calm investors and analysts\nconcerned by Tesla’s dwindling cash pile. Mr. Musk has bristled at the idea of raising\nmore cash, and on Wednesday told analysts he doesn’t plan to issue new equity.\nInstead, Mr. Musk said he plans to focus on paying down the company’s debt—not\nrefinancing it. He expects a new factory proposed for Shanghai will cost $2 billion and\nwill be financed with debt in China.\n“Are we running low on money? The answer is no,” Mr. Musk said on the call. His tone\nof the call differed greatly from the prior quarter when he sparred with analysts,\nsending shares plummeting. Mr. Musk apologized to those analysts on the call\nWednesday and generally sounded upbeat—if tired.\nTesla finished the second quarter with $2.2 billion of cash. Its negative free cash flow\nof about $740 million was lower than what a consensus of analysts expected. The\ncompany previously said it needed to keep a minimum cash balance of $1 billion, and\nseveral analysts had said Tesla would need to raise more money.\nThe quarterly report, and Mr. Musk’s subsequent comments, sent Tesla’s shares up\nnearly 9% to $327.70 in after-hours trading on Wednesday. The shares were down\nmore than 3% this year ahead of Tesla’s quarterly report.\n“I was expecting more cash burn, possibly even a severe one because there were a lot\nof production costs at the end of the quarter to meet the 5,000/week target but many\nof those vehicles likely were not delivered until Q3,” David Whiston, an analyst for\nMorningstar Research Services, wrote.\nhttps://www.wsj.com/articles/tesla-doubles-loss-but-burns-less-cash-than-expected-1533155913 Page 2 of 5\nTesla Doubles Loss, but Burns Less Cash Than Expected - WSJ 2026-08-28, 6:21 PM\nMr. Musk remains optimistic that Tesla can make 1 million vehicles in 2020, though he\nexpressed new caution saying it “seems pretty likely” the company will make 700,000\nto 800,000 that year. He said Tesla’s Fremont, Calif., assembly plant and Nevada\nbattery factory should be able to produce about 600,000 a year plus 100,000 to\n200,000 at the new Shanghai facility, which is supposed to begin production that year.\nThe company had previously said it would begin China production in 2020 while in\nTesla’s shareholder letter the company said the first cars would roll off the line in\nabout three years, which would put it at 2021.\nTesla reiterated it expects to produce 6,000 Model 3s sedans in a week by late August.\nThe company said it plans to build 50,000 to 55,000 of the sedans during the third\nquarter and that it remains on target to make a total of 100,000 Model S sedans and\nModel X sport-utility vehicles for the year.\nMr. Musk has sought to cut costs in the pursuit of profitability. The company slashed\n9% of its workforce in June, and Mr. Musk promised a management reorganization\nafter his engineering chief stepped aside.\nThe company on Wednesday cut back further on planned capital expenditures as part\nof a strategy to focus building out its existing infrastructure for making the Model 3. It\nnow plans to spend less than $2.5 billion this year, lower than a $3 billion projection in\nMay, which itself was down from the $3.4 billion previously announced and spent last\nyear.\nRevenue during the second quarter rose 44% to $4 billion. Tesla said last month that\ntotal vehicle deliveries reached 40,740, a dramatic increase from more than 22,000\nvehicles a year earlier thanks to increased production of the Model 3 sedan. Tesla sold\nabout 18,440 Model 3s during the period.\nEarlier in the day, Mr. Musk had a little fun with a prominent short seller. David\nEinhorn, the president of hedge fund Greenlight Capital, criticized Tesla and its CEO\nhttps://www.wsj.com/articles/tesla-doubles-loss-but-burns-less-cash-than-expected-1533155913 Page 3 of 5\nTesla Doubles Loss, but Burns Less Cash Than Expected - WSJ 2026-08-28, 6:21 PM\nin a letter to investors Tuesday and wrote that he “is happy that his Model S lease\nended” and was “happy to switch to an electric Jaguar.”\nMr. Musk wrote on Twitter: “Tragic. Will send Einhorn a box of short shorts to\ncomfort him through this difficult time.”\nWrite to Tim Higgins at Tim.Higgins@WSJ.com\nAppeared in the August 2, 2018, print edition as 'Tesla Puts Profit in Its Sights This Year'.\nTim Higgins is a business columnist for The Wall Street Journal, frequent contributor to CNBC, and author of books\nabout Apple (“iWar”) and Tesla (“Power Play”). He also co-hosts “Bold Names,” the Journal’s weekly interview\npodcast with top business leaders. His weekly column focuses on influential companies and their leaders, such as…\nElon Musk, Tim Cook and Mark Zuckerberg. Tim became a columnist in 2023 after working for more than two\nA Missouri School of Journalism grad, Tim also earned an M.B.A. from Michigan State University. He lives in San\ndeFcoaldloews as an award-winning reporter, covering everything from the bankruptcy of General Motors to the\nFrancisco.\npresidential campaigns of 2016.\nhttps://www.wsj.com/articles/tesla-doubles-loss-but-burns-less-cash-than-expected-1533155913 Page 4 of 5\nTesla Doubles Loss, but Burns Less Cash Than Expected - WSJ 2026-08-28, 6:21 PM\nhttps://www.wsj.com/articles/tesla-doubles-loss-but-burns-less-cash-than-expected-1533155913 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": null
+  }
+}

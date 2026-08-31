@@ -1,0 +1,1120 @@
+{
+  "AVGO_2016q2": {
+    "ticker": "AVGO",
+    "group": "Group 1",
+    "company_name": "Broadcom",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-06-02",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "This was the first full quarter after Avago completed its acquisition of Broadcom Corporation and adopted the Broadcom name. Investors were testing whether the $37 billion combination could deliver synergies quickly enough to offset weak smartphone demand.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source No prior source included: no page was added merely to satisfy a source-count target.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Broadcom reported **$3.56 billion of non-GAAP revenue** and **$2.53 of non-GAAP EPS**. EPS was above the roughly $2.38 consensus cited by contemporaneous coverage. The combined company generated **$622 million of operating cash flow**, while non-GAAP gross margin held near **60%** despite heavy acquisition accounting.",
+              "sources": []
+            },
+            {
+              "text": "Wired infrastructure had become the largest segment and offset weaker wireless and enterprise-storage demand. Management guided fiscal Q3 non-GAAP revenue to about **$3.75 billion ± $75 million**, expecting a robust wireless rebound and continued wired strength.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Broadcom: Broadcom Limited Announces Second Quarter Fiscal Year 2016 Financial Results and Interim Dividend",
+                  "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-second-quarter-fiscal-year-2016"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares jumped because adjusted EPS beat expectations and Q3 guidance was strong.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Early merger synergies supported margins despite acquisition-related GAAP losses.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Wired strength reduced dependence on the weak smartphone cycle.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "Fortune: Shares of Apple Supplier Broadcom Jump Despite iPhone Sales Dip",
+                  "url": "https://fortune.com/2016/06/03/apple-supplier-broadcom-iphone-sales-dip/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Broadcom/AVGO identity, the correct event, publication date, timing window and source origin. Broadcom Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Broadcom: Broadcom Limited Announces Second Quarter Fiscal Year 2016 Financial Results and Interim Dividend",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-second-quarter-fiscal-year-2016"
+        },
+        {
+          "label": "Fortune: Shares of Apple Supplier Broadcom Jump Despite iPhone Sales Dip",
+          "url": "https://fortune.com/2016/06/03/apple-supplier-broadcom-iphone-sales-dip/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "A preview published the morning of the report confirmed the exact consensus figures the reaction piece would later cite: analysts expected revenue of about $3.6 billion and earnings of $2.38 a share for the quarter ended May 1, versus $1.6 billion in revenue and $1.21 a share a year earlier for standalone Avago. The preview flagged two things to watch: progress toward the merged company's stated goal of $750 million in annual cost savings, and debt paydown following the $9 billion borrowed to fund the deal, set against an unprecedented slowdown in Apple's iPhone -- a major outlet for Broadcom's signal-filtering chips, representing about 15% of the combined company's revenue per RBC Capital's Amit Daryanani. The preview's counterargument was that the merger itself was a hedge against that smartphone risk: analysts expected the wireless segment to fall to about 25% of combined revenue this fiscal year, down from 37% for standalone Avago the year before, with the added communications and data-center business carrying a better growth outlook, and the stock trading at a relative-bargain 13 times forward earnings, down from 16 times a year earlier. Tess Stynes's reaction piece, covering Broadcom Ltd.'s first quarterly report as the combined company, shows results landing ahead of that framework: adjusted per-share earnings from continuing operations rose to $2.53 from $2.13 a year earlier, beating the $2.38 consensus the preview had cited, even as the company posted a GAAP loss of $3.02 a share on acquisition- and restructuring-related charges. Revenue more than doubled to $3.54 billion, with continuing-operations revenue of $3.56 billion landing \"on the higher end of Broadcom's projections.\" Gross margin from continuing operations slipped to 60% from 61%. CEO Hock Tan attributed resilience to the deal's added scale and diversity, with strong wired-infrastructure product cycles offsetting weaker enterprise-storage and wireless demand -- directly validating the preview's diversification thesis. The company raised its quarterly dividend a penny to 50 cents and guided next-quarter revenue to $3.75 billion, plus or minus $75 million, above the $3.71 billion analysts polled by Thomson Reuters expected.",
+      "why_moved": "The roughly 5% share gain reflects the adjusted-earnings beat detailed above ($2.53 versus the $2.38 consensus the preview had already flagged), combined with revenue landing at the high end of guidance and a next-quarter outlook of $3.75 billion that itself topped the $3.71 billion consensus -- the reaction article states directly that shares rose \"as the company offered a rosy outlook for the current quarter.\" As detailed above, the preview piece had specifically framed this report as a test of whether the Avago-Broadcom merger's diversification thesis could offset the iPhone slowdown it was designed to hedge against; Tan's commentary on wired infrastructure offsetting wireless and storage softness reads as a direct confirmation of that pre-earnings thesis, not just a generic beat. The dividend increase, though modest at a penny per share, reinforced a message of financial confidence alongside the earnings beat, and the stock's cheap starting valuation (13 times forward earnings per the preview) may have left more room for a positive re-rating than a richly valued stock would have had on the same results -- a plausible inference from the preview's own framing, though neither article states that valuation cushion explicitly as a driver of the reaction.",
+      "sources": [
+        {
+          "filename": "Broadcom Adjusted Earnings Beat Views - WSJ.pdf",
+          "title": "Broadcom Adjusted Earnings Beat Views In its first quarter as a combined company, the chip maker posted a loss",
+          "published_date": "2016-06-02",
+          "text": "Broadcom Adjusted Earnings Beat Views - WSJ 2026-08-28, 4:15 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/broadcom-adjusted-earnings-beat-views-1464903264\nBUSINESS EARNINGS\nBroadcom Adjusted Earnings Beat Views\nIn its first quarter as a combined company, the chip maker posted a loss\nBy Tess Stynes\nJune 2, 2016 at 5:34 pm ET\nBroadcom reported better-than-expected adjusted earnings on Thursday. Above, an office building in Rancho\nBernardo, Calif. REUTERS\nBroadcom Ltd. AVGO -0.82% on Thursday reported adjusted earnings that beat\nexpectations for its first quarter as a merged company, though overall the chip maker\nposted a loss.\nShares rose 6.5% to $165.02 in after-hours trading as the company offered a rosy\noutlook for the current quarter.\nThe company also raised the quarterly dividend to 50 cents a share, up a penny a\nshare.\nhttps://www.wsj.com/articles/broadcom-adjusted-earnings-beat-views-1464903264 Page 1 of 3\nBroadcom Adjusted Earnings Beat Views - WSJ 2026-08-28, 4:15 PM\nChip maker Avago Technologies Ltd. completed its roughly $37 billion acquisition of\nrival Broadcom Corp. in February, with the combined company retaining the\nBroadcom name and AVGO ticker symbol.\nThe combined company is in the early stages of integration, and executives hope to\nachieve annual cost savings of $750 million.\nThe deal, one of the largest mergers ever in the chip sector, melds together\ncomplementary product lines, including chips that handle different chores in\nsmartphones from Apple Inc. and Samsung Electronics Co. However, the combination\nleaves the company less reliant on the smartphone sector, where sales growth has\nbeen slowing.\nOn Wednesday, research firm International Data Corp. projected that annual\nshipments of iPhones would decline this year for the first time. Supplying chips that\nfilter signal interference in phones operating on several different spectra is a major\nbusiness for Broadcom.\nThe combined company also boasts a segment that sells chips used in\ncommunications and data-center equipment, where growth prospects are stronger.\nBroadcom Chief Executive Hock Tan said that the company’s increased scale and\ndiversity are proving resilient, as strong product cycles in its largest segment—wired\ninfrastructure—is offsetting weaker demand in its enterprise storage and wireless\nsegments.\nFor the period ended May 1, Broadcom reported a loss of $1.19 million, or $3.02 a\nshare, compared with a year-earlier profit of $344 million, or $1.21 a share. The latest\nperiod includes results of the combined company, while the year-earlier period relates\nsolely to Avago.\nExcluding acquisition- and restructuring-related charges and other items, adjusted\nper-share earnings from continuing operations rose to $2.53 from $2.13. Analysts\nhttps://www.wsj.com/articles/broadcom-adjusted-earnings-beat-views-1464903264 Page 2 of 3\nBroadcom Adjusted Earnings Beat Views - WSJ 2026-08-28, 4:15 PM\nexpected per-share profit of $2.38.\nRevenue more than doubled to $3.54 billion. Net revenue from continuing operations\nalso surged, reaching $3.56 billion—on the higher end of Broadcom’s projections.\nGross margin from continuing operations fell to 60% from 61%.\nFor the current quarter, Broadcom forecast net revenue from continuing operations of\n$3.75 billion, plus or minus $75 million. Analysts polled by Thomson Reuters expected\nrevenue of $3.71 billion.\nWrite to Tess Stynes at tess.stynes@wsj.com\nhttps://www.wsj.com/articles/broadcom-adjusted-earnings-beat-views-1464903264 Page 3 of 3"
+        },
+        {
+          "filename": "Broadcom: It’s Better to Branch Out - WSJ.pdf",
+          "title": "Broadcom: It’s Better to Branch Out Diversifying from smartphones helps as the chip maker digests a huge merger",
+          "published_date": "2016-06-01",
+          "text": "Broadcom: It’s Better to Branch Out - WSJ 2026-08-28, 4:14 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/broadcom-its-better-to-branch-out-1464807225\nSTOCKS\nBroadcom: It’s Better to Branch Out\nDiversifying from smartphones helps as the chip maker digests a huge merger\nBy Dan Gallagher\nJune 1, 2016 at 2:53 pm ET\nBroadcom is scheduled to report quarterly results Thursday. MIKE BLAKE/REUTERS\nThe company now known as Broadcom owes much of its fortune to its ability to\nseparate signal from noise. That will come in handy in the months ahead.\nThe company, formerly known as Avago, is in the early days of integrating the largest\nmerger ever in the chip industry. The $37 billion combination between Avago and\nBroadcom, announced a year ago, was completed in February. Fiscal second-quarter\nresults due Thursday will be the first to reflect the combined business.\nAnalysts expect revenue of about $3.6 billion with earnings of $2.38 a share for the\nquarter ended May 1. Avago, which assumed Broadcom’s corporate identity with the\nhttps://www.wsj.com/articles/broadcom-its-better-to-branch-out-1464807225 Page 1 of 3\nBroadcom: It’s Better to Branch Out - WSJ 2026-08-28, 4:14 PM\ndeal, posted revenue of $1.6 billion with per-share earnings of $1.21 from continuing\noperations in the same period last year as a stand-alone business.\nOf key interest will be Broadcom’s progress on its stated goal of achieving $750\nmillion in annual cost savings. It also has promised to rapidly pay down debt, of which\n$9 billion was incurred to get the deal done.\nThat is challenging at the best of times. But it also comes during an unprecedented\nslowdown for Apple’s iPhone, a major outlet for Broadcom’s chips that filter signal\ninterference common in phones that operate on several different spectrum bands.\nApple represents about 15% of the combined company’s revenue, Amit Daryanani of\nRBC Capital estimates.\nAvago brings a strong operating history that suggests it is up to the tasks ahead. It\nhelps that the combination makes the company much less reliant on the cyclical\nsmartphone business.\nAnalysts expect the wireless segment to account for about 25% of the combined\ncompany’s revenue this fiscal year compared with 37% for stand-alone Avago last year.\nThe addition of Broadcom’s business also beefs up the segment the sells chips used in\ncommunications and data-center equipment, which has a better growth outlook.\nIt also helps that Broadcom shares are a relative bargain at 13 times forward earnings,\ndown from 16 times a year ago. Its discount to peers gives the stock breathing room as\nthe company hustles to work through the merger and stay ahead of rivals.\nThat signal should resonate.\nWrite to Dan Gallagher at dan.gallagher@wsj.com\nAppeared in the June 2, 2016, print edition as 'Broadcom: Best to Branch Out'.\nhttps://www.wsj.com/articles/broadcom-its-better-to-branch-out-1464807225 Page 2 of 3\nBroadcom: It’s Better to Branch Out - WSJ 2026-08-28, 4:14 PM\nhttps://www.wsj.com/articles/broadcom-its-better-to-branch-out-1464807225 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "AVGO_2016q3": {
+    "ticker": "AVGO",
+    "group": "Group 1",
+    "company_name": "Broadcom",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-09-01",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After the June beat, the market expected both merger synergies and a seasonal smartphone ramp to lift earnings. Wireless content at Apple/Samsung and wired networking were the main growth variables.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Broadcom: Broadcom Limited Announces Second Quarter Fiscal Year 2016 Financial Results and Interim Dividend",
+                  "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-second-quarter-fiscal-year-2016"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q3 non-GAAP revenue reached about **$3.80 billion**, up 7% sequentially, and non-GAAP EPS was **$2.89**. Both topped consensus. Wireless accelerated with the premium-smartphone build, while wired infrastructure remained the largest segment. Non-GAAP gross margin improved to **60.4%**.",
+              "sources": []
+            },
+            {
+              "text": "The less favorable detail was in set-top-box connectivity: contemporaneous coverage highlighted **supply constraints** that limited sales in that business. Broadcom's guidance was still slightly above expectations, but the stock had already risen about 22% year to date and was near record highs, leaving very little tolerance for even a small operational blemish.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Broadcom: Broadcom Limited Announces Third Quarter Fiscal Year 2016 Financial Results and Interim Dividend",
+                  "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-third-quarter-fiscal-year-2016"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock fell despite the beat because set-top supply constraints and an already-high expectations bar overshadowed the otherwise strong report.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Wireless demand from the iPhone ramp was strong, so the selloff was not evidence of broad semiconductor weakness.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** After a large pre-earnings run, merely beating estimates was insufficient to support another rerating.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: Broadcom's Set-Top Issues Are Overshadowing a Big iPhone 7 Ramp",
+                  "url": "https://www.thestreet.com/investing/stocks/broadcom-s-set-top-issues-are-overshadowing-a-big-iphone-7-ramp-13692903"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Broadcom/AVGO identity, the correct event, publication date, timing window and source origin. Broadcom Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Broadcom: Broadcom Limited Announces Second Quarter Fiscal Year 2016 Financial Results and Interim Dividend",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-second-quarter-fiscal-year-2016"
+        },
+        {
+          "label": "Broadcom: Broadcom Limited Announces Third Quarter Fiscal Year 2016 Financial Results and Interim Dividend",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-third-quarter-fiscal-year-2016"
+        },
+        {
+          "label": "TheStreet: Broadcom's Set-Top Issues Are Overshadowing a Big iPhone 7 Ramp",
+          "url": "https://www.thestreet.com/investing/stocks/broadcom-s-set-top-issues-are-overshadowing-a-big-iphone-7-ramp-13692903"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Tess Stynes's article reports Broadcom's second quarter as a merged company: adjusted per-share earnings of $2.89 beat both the year-earlier $2.24 figure and the $2.77 analysts polled by Thomson Reuters expected, while revenue more than doubled to $3.79 billion, with net revenue from continuing operations of $3.8 billion landing 'in line with Broadcom's projections.' The company nonetheless reported a GAAP loss of $298 million, or 75 cents a share, versus a year-earlier profit of $240 million, or 91 cents a share — again a standalone-Avago comparison, since the combined entity didn't exist a year prior. The piece notes shares had hit an all-time high just two days before the report. Guidance for the current quarter called for net revenue of $4.09 billion, plus or minus $75 million, above the $4.06 billion analysts expected. The article repeats the strategic framing from the prior quarter: the $37 billion Avago-Broadcom merger reduced reliance on smartphone chips, a segment IDC cut its 2016 shipment forecast for again that same day, citing expected sales declines in developed markets including the U.S. and Western Europe. Broadcom also raised its quarterly dividend a penny to 51 cents a share.",
+      "why_moved": "This is a case where the article's reported figures — an adjusted EPS beat of $2.89 versus $2.77 expected, and forward guidance above consensus at $4.09 billion versus $4.06 billion expected — do not obviously explain the stock's decline. The article itself states shares fell 2.1% to $173.40 in after-hours trading 'though the chip maker's revenue outlook for the current quarter topped Wall Street estimates,' explicitly flagging the disconnect between the beat-and-raise result and the negative price reaction without offering a specific explanation for it. Possible contributing factors the article does mention — the stock having just hit an all-time high two days earlier, raising the bar for what would be read as good news, and IDC's same-day cut to its 2016 global smartphone shipment outlook — are plausible context, but the piece does not draw an explicit causal line from either to the share-price drop. The GAAP net loss, while expected given ongoing acquisition and restructuring charges, is also not identified in the article as a driver of the decline. In short, the article documents a fundamentally positive quarter accompanied by a negative stock reaction, and does not itself supply the bridge between the two.",
+      "sources": [
+        {
+          "filename": "Broadcom’s Adjusted Profit Beats Expectations - WSJ.pdf",
+          "title": "Broadcom’s Adjusted Profit Beats Expectations But the newly expanded chip maker swung to a loss in the latest quarter",
+          "published_date": "2016-09-01",
+          "text": "Broadcom’s Adjusted Profit Beats Expectations - WSJ 2026-08-28, 4:15 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/broadcoms-adjusted-profit-beats-expectations-1472766325\nBUSINESS EARNINGS\nBroadcom’s Adjusted Profit Beats Expectations\nBut the newly expanded chip maker swung to a loss in the latest quarter\nBy Tess Stynes\nSept. 1, 2016 at 5:45 pm ET\nThe Broadcom office in Rancho Bernardo, Calif., on May 12, 2016. blake/Reuters MIKE BLADE/REUTERS\nBroadcom Ltd. AVGO -0.74% (AVGO) swung to a loss in the latest quarter, but its\nadjusted earnings—which excludes acquisition and restructuring-related expenses,\namong other items—beat expectations.\nThe company’s shares, which hit an all-time high on Tuesday, fell 2.1% to $173.40 in\nrecent after-hours trading, though the chip maker’s revenue outlook for the current\nquarter topped Wall Street estimates.\nChip maker Avago Technologies Ltd. completed its roughly $37 billion acquisition of\nrival Broadcom Corp. in February, with the combined company retaining the\nhttps://www.wsj.com/articles/broadcoms-adjusted-profit-beats-expectations-1472766325 Page 1 of 3\nBroadcom’s Adjusted Profit Beats Expectations - WSJ 2026-08-28, 4:15 PM\nBroadcom name and AVGO ticker symbol.\nThe deal, one of the largest mergers in the chip sector, brought together\ncomplementary product lines, including chips that handle different chores in\nsmartphones from Apple Inc. and Samsung Electronics Co. Since the combination,\nBroadcom also is less reliant on the smartphone sector, where sales growth has been\nslowing.\nEarlier on Thursday, research firm International Data Corp. again cut its global\nsmartphone shipment outlook for 2016, mostly on expectations that sales would\ndecline this year in developed markets, including the U.S. and Western Europe.\nBroadcom, in its second quarter as a merged company, also declared a quarterly\ndividend of 51 cents a share, an increase of a penny a share from its previous quarterly\npayout to shareholders.\nFor the current quarter, Broadcom projected net revenue of $4.09 billion, plus or\nminus $75 million. Analysts polled by Thomson Reuters expected revenue of $4.06\nbillion.\nFor the period ended July 31, Broadcom reported a loss of $298 million, or 75 cents a\nshare, compared with a year-earlier profit of $240 million, or 91 cents a share. The\nlatest period includes results of the combined company, while the year-earlier period\nrelates solely to Avago.\nExcluding acquisition and restructuring-related charges and other items, adjusted\nper-share earnings from continuing operations rose to $2.89 from $2.24. Analysts\nexpected per-share profit of $2.77.\nRevenue more than doubled to $3.79 billion. Net revenue from continuing operations\nalso more than doubled, reaching $3.8 billion—in line with Broadcom’s projections.\nWrite to Tess Stynes at tess.stynes@wsj.com\nhttps://www.wsj.com/articles/broadcoms-adjusted-profit-beats-expectations-1472766325 Page 2 of 3\nBroadcom’s Adjusted Profit Beats Expectations - WSJ 2026-08-28, 4:15 PM\nhttps://www.wsj.com/articles/broadcoms-adjusted-profit-beats-expectations-1472766325 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "AVGO_2016q4": {
+    "ticker": "AVGO",
+    "group": "Group 1",
+    "company_name": "Broadcom",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-12-08",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "By year-end, Broadcom had already shown that integration was progressing faster than initially feared. The key question was whether margin and cash-flow gains could continue as the company scaled.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Broadcom: Broadcom Limited Announces Third Quarter Fiscal Year 2016 Financial Results and Interim Dividend",
+                  "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-third-quarter-fiscal-year-2016"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q4 revenue was about **$4.14 billion** and non-GAAP EPS **$3.47**, both modestly above consensus. Broadcom continued to improve its operating model after the Avago/Broadcom merger and maintained strong cash generation.",
+              "sources": []
+            },
+            {
+              "text": "The capital-return signal was unusually important: Broadcom **doubled the quarterly dividend to $1.02**. The release also reinforced confidence in wireless, wired infrastructure and continued integration savings.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Broadcom: Broadcom Limited Announces Fourth Quarter and Fiscal Year 2016 Financial Results and Interim Dividend",
+                  "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-fourth-quarter-and-fiscal-year-2016"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock rose on an earnings/revenue beat plus a large dividend increase.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Ongoing merger synergies supported further margin expansion.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Wireless and wired demand broadened the growth base.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: Broadcom's (AVGO) Big Earnings Beat: What Wall Street's Saying",
+                  "url": "https://www.thestreet.com/investing/stocks/broadcom-s-big-earnings-beat-what-wall-street-s-saying-13920731"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Broadcom/AVGO identity, the correct event, publication date, timing window and source origin. Broadcom Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Broadcom: Broadcom Limited Announces Third Quarter Fiscal Year 2016 Financial Results and Interim Dividend",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-third-quarter-fiscal-year-2016"
+        },
+        {
+          "label": "Broadcom: Broadcom Limited Announces Fourth Quarter and Fiscal Year 2016 Financial Results and Interim Dividend",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-fourth-quarter-and-fiscal-year-2016"
+        },
+        {
+          "label": "TheStreet: Broadcom's (AVGO) Big Earnings Beat: What Wall Street's Saying",
+          "url": "https://www.thestreet.com/investing/stocks/broadcom-s-big-earnings-beat-what-wall-street-s-saying-13920731"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Tess Stynes's article covers Broadcom's fiscal fourth-quarter 2016 results, in which the company reported a GAAP loss of $632 million, or $1.59 a share, versus a year-earlier profit of $429 million, or $1.49 a share, while adjusted per-share earnings rose to $3.47 from $2.51, beating the $3.38 analysts expected. Revenue more than doubled to $4.136 billion, with net revenue including certain acquisition-related adjustments at $4.146 billion, in line with the company's own $4.1 billion-$4.175 billion guided range. Gross margin fell to 52.5% from 54.2% a year earlier. The article highlights two announcements beyond the headline numbers: the board doubled the quarterly dividend to $1.02 a share, and, reported the prior month, Broadcom had agreed to acquire Brocade Communications Systems for $5.5 billion, a deal the piece frames as helping 'further reduce its reliance on sales of wireless chips for smartphones, a market that has slowed lately.' For the current quarter, Broadcom guided to revenue of $4.075 billion, plus or minus $75 million, above the $3.96 billion analysts polled by Thomson Reuters expected. The article notes shares were already up 18% for the year heading into the report.",
+      "why_moved": "The roughly 5.5% two-day gain reflects the adjusted-earnings beat ($3.47 versus $3.38 expected) combined with forward guidance of $4.075 billion that came in well above the $3.96 billion analyst consensus cited above — the article states directly that shares rose 'as the chip maker gave a positive outlook for the current quarter.' The doubled dividend, a concrete capital-return signal, likely reinforced investor confidence alongside the earnings and guidance beat, particularly for income-oriented holders given the raise took the payout from 51 cents to $1.02 a share. The Brocade acquisition, framed in the article as a strategic move to diversify further away from the 'slowed' smartphone-chip market, adds context for why investors may have been receptive to the results even amid ongoing GAAP losses tied to acquisition and restructuring charges — the piece positions Broadcom's continued portfolio diversification as a response to a wireless-chip market headwind investors were already aware of.",
+      "sources": [
+        {
+          "filename": "Broadcom Gives a Rosy Outlook, Doubles Quarterly Dividend - WSJ.pdf",
+          "title": "Broadcom Gives a Rosy Outlook, Doubles Quarterly Dividend Chip maker’s revenue more than doubles",
+          "published_date": "2016-12-08",
+          "text": "Broadcom Gives a Rosy Outlook, Doubles Quarterly Dividend - WSJ 2026-08-28, 4:17 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/broadcom-gives-a-rosy-outlook-doubles-quarterly-dividend-1481233930\nBUSINESS EARNINGS\nBroadcom Gives a Rosy Outlook, Doubles Quarterly\nDividend\nChip maker’s revenue more than doubles\nBy Tess Stynes\nDec. 8, 2016 at 4:52 pm ET\nFor the current quarter, Broadcom forecast revenue of $4.075 billion, plus or minus $75 million. MIKE BLAKE/REUTERS\nBroadcom Ltd. AVGO -0.74% said it swung to a loss in the latest quarter, though the\nchip maker gave a positive outlook for the current quarter and its board doubled its\ndividend.\nShares, up 18% this year, rose 3.1% to $176 in recent after-hours trading.\nFor the current quarter, the company forecast revenue of $4.075 billion, plus or minus\n$75 million. Analysts polled by Thomson Reuters expected adjusted revenue of $3.96\nhttps://www.wsj.com/articles/broadcom-gives-a-rosy-outlook-doubles-quarterly-dividend-1481233930?mod=article_inline Page 1 of 3\nBroadcom Gives a Rosy Outlook, Doubles Quarterly Dividend - WSJ 2026-08-28, 4:17 PM\nbillion.\nChip maker Avago Technologies Ltd. completed its roughly $37 billion acquisition of\nrival Broadcom Corp. in February, with the combined company retaining the\nBroadcom name and AVGO ticker symbol. The deal, one of the largest mergers in the\nchip sector, brought together complementary product lines, including chips that\nhandle different tasks in smartphones from Apple Inc. and Samsung Electronics Co.\nLast month, Broadcom agreed to a $5.5 billion deal for Brocade Communications\nSystems Inc., a planned acquisition that stands to help Broadcom further reduce its\nreliance on sales of wireless chips for smartphones, a market that has slowed lately.\nFor the period ended Oct. 30, Broadcom reported a loss of $632 million, or $1.59 a\nshare, compared with a year-earlier profit of $429 million, or $1.49 a share. Excluding\nitems, adjusted per-share earnings rose to $3.47 from $2.51. Analysts expected per-\nshare profit of $3.38.\nRevenue more than doubled to $4.136 billion. Net revenue including certain\nacquisition-related adjustments reached $4.146 billion, in line with expectations for\n$4.1 billion to $4.175 billion.\nGross margin fell to 52.5% from 54.2%.\nAfter the increase, the company’s quarterly dividend will stand at $1.02 a share.\nWrite to Tess Stynes at tess.stynes@wsj.com\nhttps://www.wsj.com/articles/broadcom-gives-a-rosy-outlook-doubles-quarterly-dividend-1481233930?mod=article_inline Page 2 of 3\nBroadcom Gives a Rosy Outlook, Doubles Quarterly Dividend - WSJ 2026-08-28, 4:17 PM\nhttps://www.wsj.com/articles/broadcom-gives-a-rosy-outlook-doubles-quarterly-dividend-1481233930?mod=article_inline Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "AVGO_2017q1": {
+    "ticker": "AVGO",
+    "group": "Group 1",
+    "company_name": "Broadcom",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-03-01",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "With the integration story largely accepted, investors were shifting attention toward organic growth. The main question was whether Broadcom could sustain strong earnings through normal early-year smartphone seasonality.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Broadcom: Broadcom Limited Announces Fourth Quarter and Fiscal Year 2016 Financial Results and Interim Dividend",
+                  "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-fourth-quarter-and-fiscal-year-2016"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q1 non-GAAP revenue was about **$4.15 billion** and non-GAAP EPS **$3.63**, up from $2.41 a year earlier. Wireless declined sequentially with seasonality, but enterprise storage improved and overall margins remained strong.",
+              "sources": []
+            },
+            {
+              "text": "Management emphasized continued data-center/networking demand and framed the business around **double-digit organic growth**. The report suggested the earnings story was moving beyond merger cost cuts toward underlying portfolio growth.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Broadcom: Broadcom Limited Announces First Quarter Fiscal Year 2017 Financial Results and Interim Dividend",
+                  "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-first-quarter-fiscal-year-2017"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Strong earnings and an organic-growth outlook supported the positive reaction.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Data-center and storage demand offset normal wireless seasonality.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** The thesis was shifting from cost synergies toward organic growth.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "Fox Business / Motley Fool: Broadcom Guides for Double-Digit Organic Revenue Growth",
+                  "url": "https://www.foxbusiness.com/markets/broadcom-guides-for-double-digit-organic-revenue-growth"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Broadcom/AVGO identity, the correct event, publication date, timing window and source origin. Broadcom Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Broadcom: Broadcom Limited Announces Fourth Quarter and Fiscal Year 2016 Financial Results and Interim Dividend",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-fourth-quarter-and-fiscal-year-2016"
+        },
+        {
+          "label": "Broadcom: Broadcom Limited Announces First Quarter Fiscal Year 2017 Financial Results and Interim Dividend",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-first-quarter-fiscal-year-2017"
+        },
+        {
+          "label": "Fox Business / Motley Fool: Broadcom Guides for Double-Digit Organic Revenue Growth",
+          "url": "https://www.foxbusiness.com/markets/broadcom-guides-for-double-digit-organic-revenue-growth"
+        }
+      ]
+    },
+    "wsj": null,
+    "djnw": null
+  },
+  "AVGO_2017q2": {
+    "ticker": "AVGO",
+    "group": "Group 1",
+    "company_name": "Broadcom",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-06-01",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Broadcom entered Q2 with high expectations for data-center networking and the second-half smartphone ramp. Investors also expected further gross-margin expansion.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Broadcom: Broadcom Limited Announces First Quarter Fiscal Year 2017 Financial Results and Interim Dividend",
+                  "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-first-quarter-fiscal-year-2017"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q2 revenue was about **$4.20 billion**, up 18% year over year, and non-GAAP EPS reached **$3.69**. Both beat consensus; contemporaneous coverage cited expectations near $4.11 billion of revenue and $3.50 EPS. Non-GAAP gross margin was **63.1%**.",
+              "sources": []
+            },
+            {
+              "text": "Broadcom guided fiscal Q3 revenue to roughly **$4.38–$4.50 billion**, above consensus around $4.27 billion, with wired growth and a seasonal wireless ramp expected to drive the increase.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Broadcom: Broadcom Limited Announces Second Quarter Fiscal Year 2017 Financial Results and Interim Dividend",
+                  "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-second-quarter-fiscal-year-2017"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares surged because Broadcom beat revenue/EPS expectations and guided above consensus.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Gross-margin expansion showed strong operating leverage.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Data-center demand and the coming smartphone ramp provided two growth catalysts.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: Broadcom Shares Pop on Strong 2Q Results: What Wall Street's Saying",
+                  "url": "https://www.thestreet.com/investing/stocks/broadcom-shares-pop-on-strong-q2-results-what-wall-street-s-saying-14160335"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Broadcom/AVGO identity, the correct event, publication date, timing window and source origin. Broadcom Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Broadcom: Broadcom Limited Announces First Quarter Fiscal Year 2017 Financial Results and Interim Dividend",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-first-quarter-fiscal-year-2017"
+        },
+        {
+          "label": "Broadcom: Broadcom Limited Announces Second Quarter Fiscal Year 2017 Financial Results and Interim Dividend",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-second-quarter-fiscal-year-2017"
+        },
+        {
+          "label": "TheStreet: Broadcom Shares Pop on Strong 2Q Results: What Wall Street's Saying",
+          "url": "https://www.thestreet.com/investing/stocks/broadcom-shares-pop-on-strong-q2-results-what-wall-street-s-saying-14160335"
+        }
+      ]
+    },
+    "wsj": null,
+    "djnw": {
+      "summary_analysis": "This is Dow Jones Newswires market-roundup coverage of a session in which the S&P 500 hit a record intraday high of 2,433.33, the Dow rose 20 points to 21,164, and the Nasdaq climbed 22 points to 6,269, following a weaker-than-expected May jobs report showing only 138,000 jobs added and an unemployment rate that fell to 4.3% largely because of workforce shrinkage rather than job creation, with April and March figures revised downward. Within that roundup, the article's only mention of Broadcom is a single line: 'Shares of Broadcom Limited (AVGO) jumped by 6% after reporting earnings.' No further detail on the company's actual results, guidance, or drivers is provided in this piece -- it is roundup coverage rather than a dedicated earnings story, and the substantive discussion is devoted to broader market and jobs-report context, including energy and financial-sector weakness and declines in Goldman Sachs and J.P. Morgan Chase.",
+      "why_moved": "The article states only that Broadcom shares 'jumped by 6% after reporting earnings,' without providing any further detail on which results or guidance elements drove that move. As a brief market-roundup mention rather than a dedicated earnings story, the piece offers no additional explanation for the reaction.",
+      "sources": [
+        {
+          "title": "MARKET SNAPSHOT: Stock Market Hits Records After Jobs Report",
+          "url": "https://www.foxbusiness.com/features/market-snapshot-stock-market-hits-records-after-jobs-report"
+        }
+      ]
+    }
+  },
+  "AVGO_2017q3": {
+    "ticker": "AVGO",
+    "group": "Group 1",
+    "company_name": "Broadcom",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-08-24",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "The stock had rallied strongly into the quarter, and investors widely expected a large guidance raise from the upcoming iPhone 8/X production ramp. The expectations bar was therefore unusually high.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Broadcom: Broadcom Limited Announces Second Quarter Fiscal Year 2017 Financial Results and Interim Dividend",
+                  "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-second-quarter-fiscal-year-2017"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q3 revenue rose to about **$4.46 billion**, up 18% year over year, and non-GAAP EPS reached **$4.10**. Wireless revenue increased 12% sequentially and 27% year over year as premium-smartphone production accelerated.",
+              "sources": []
+            },
+            {
+              "text": "The reported quarter was strong. The issue was fiscal Q4 guidance: it was positive, but not sufficiently above the aggressive expectations already embedded in the stock around Apple’s new-phone cycle.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Broadcom: Broadcom Limited Announces Third Quarter Fiscal Year 2017 Financial Results",
+                  "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-third-quarter-fiscal-year-2017-0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares fell because guidance did not clear very high iPhone-ramp expectations.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Current wireless demand was strong; this was an expectations problem, not a weak quarter.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** AVGO had become increasingly sensitive to incremental Apple-content assumptions.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "InvestorPlace: Broadcom Ltd (AVGO): Selling the News Works for Me",
+                  "url": "https://investorplace.com/2017/08/broadcom-ltd-avgo-selling-the-news-works-for-me/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Broadcom/AVGO identity, the correct event, publication date, timing window and source origin. Broadcom Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Broadcom: Broadcom Limited Announces Second Quarter Fiscal Year 2017 Financial Results and Interim Dividend",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-second-quarter-fiscal-year-2017"
+        },
+        {
+          "label": "Broadcom: Broadcom Limited Announces Third Quarter Fiscal Year 2017 Financial Results",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-third-quarter-fiscal-year-2017-0"
+        },
+        {
+          "label": "InvestorPlace: Broadcom Ltd (AVGO): Selling the News Works for Me",
+          "url": "https://investorplace.com/2017/08/broadcom-ltd-avgo-selling-the-news-works-for-me/"
+        }
+      ]
+    },
+    "wsj": null,
+    "djnw": null
+  },
+  "AVGO_2017q4": {
+    "ticker": "AVGO",
+    "group": "Group 1",
+    "company_name": "Broadcom",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-12-06",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "The earnings report came while Broadcom was pursuing a $130 billion proposal for Qualcomm and shortly after closing Brocade. Investors were balancing acquisition risk with very strong iPhone X and data-center demand.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Broadcom: Broadcom Proposes to Acquire Qualcomm for $70.00 per Share in Cash and Stock in Transaction Valued at $130 Billion",
+                  "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-proposes-acquire-qualcomm-7000-share-cash-and-stock-0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q4 revenue was **$4.84 billion** and non-GAAP EPS **$4.59**, both above consensus. Broadcom guided fiscal Q1 revenue to about **$5.3 billion**, well above pre-report expectations even allowing for a partial Brocade contribution.",
+              "sources": []
+            },
+            {
+              "text": "Broadcom also raised the quarterly dividend **72% to $1.75** and increased its long-term free-cash-flow target to **40% of revenue**. The report was fundamentally strong and shares initially opened sharply higher the next morning, but that rally faded during the session and the stock finished modestly lower in the supplied return series.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Broadcom: Broadcom Limited Announces Fourth Quarter and Fiscal Year 2017 Financial Results and Interim Dividend",
+                  "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-fourth-quarter-and-fiscal-year-2017-0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The full-session reaction was slightly negative because investors sold the initial post-earnings rally despite a strong beat and guide.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** iPhone X and data-center demand supported fundamentals, so the reversal was not driven by a weak operating print.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** The large Qualcomm bid and the stock's prior run likely increased sensitivity to valuation and positioning.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet Pro: Broadcom Traders Need to Remain Cautious as Rallies Get Sold",
+                  "url": "https://pro.thestreet.com/investing/broadcom-traders-need-remain-cautious-rallies-get-sold"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Broadcom/AVGO identity, the correct event, publication date, timing window and source origin. Broadcom Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Broadcom: Broadcom Proposes to Acquire Qualcomm for $70.00 per Share in Cash and Stock in Transaction Valued at $130 Billion",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-proposes-acquire-qualcomm-7000-share-cash-and-stock-0"
+        },
+        {
+          "label": "Broadcom: Broadcom Limited Announces Fourth Quarter and Fiscal Year 2017 Financial Results and Interim Dividend",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-fourth-quarter-and-fiscal-year-2017-0"
+        },
+        {
+          "label": "TheStreet Pro: Broadcom Traders Need to Remain Cautious as Rallies Get Sold",
+          "url": "https://pro.thestreet.com/investing/broadcom-traders-need-remain-cautious-rallies-get-sold"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Imani Moise and Ted Greenwald's article covers Broadcom's fiscal fourth-quarter 2017 results against the backdrop of its hostile $105 billion takeover bid for Qualcomm, which had turned confrontational just days earlier when Broadcom nominated a slate of candidates to overhaul Qualcomm's board after Qualcomm rejected the unsolicited offer. On the earnings call, Broadcom offered little detail on the bid beyond saying it aimed to 'engage in a constructive dialogue,' had received positive shareholder and customer reactions, and believed it could close a deal, including regulatory approvals, within 12 months, while declining to answer questions about the bid or its planned relocation from Singapore to the U.S. On the operating results, profit swung to $636 million, or $1.50 a share, from a year-earlier loss of $632 million, or $1.59 a share; adjusted earnings rose to $4.59 a share from $3.47, beating the $4.52 analysts had projected. Revenue rose 8.5% to $4.84 billion, roughly in line with the $4.83 billion analysts expected. The article attributes the earnings strength specifically to smartphone-parts sales to 'a large North American smartphone customer,' implicitly Apple, which offset weakness in the core wired-infrastructure business; CEO Hock Tan said he expected wireless growth to continue into the current quarter because that customer's new products 'had been ‘pushed out’ compared with prior years,' referencing the October iPhone X preorders following September's iPhone 8 launch. Wireless communications, over a third of revenue, grew 33%, while wired infrastructure, 45% of sales, rose just 3%. Guidance for the current quarter, which for the first time included contributions from the newly acquired Brocade Communications Systems, called for revenue of $5.22 billion-$5.37 billion, well above the $4.83 billion analysts had forecast. The board also raised the quarterly dividend to $1.75 a share from $1.02.",
+      "why_moved": "The article reports shares rose 4.2% to $274.92 in after-hours trading, adding to a 0.9% gain during the regular session, driven by the adjusted-EPS beat and the guidance jump described above — a forecast of $5.22 billion-$5.37 billion in revenue that towered over the $4.83 billion analysts had penciled in, aided by the newly consolidated Brocade contribution and continued wireless strength tied to the delayed iPhone X cycle. However, the recorded returns show that initial pop largely faded: the one-day return was a modest +0.99%, and the five-day return actually turned negative at -2.02%, meaning the after-hours enthusiasm the article captured did not persist through the following days. The article does not explain this fade, since it reports only the immediate post-earnings reaction; it does note the company's studied silence on the increasingly contentious Qualcomm bid, which was actively evolving with board nominations and a rejected offer in the same news cycle, and it is plausible that renewed uncertainty around that unresolved, high-stakes takeover fight — rather than anything in the earnings themselves — weighed on the stock in the days that followed, though this is not something the article itself states.",
+      "sources": [
+        {
+          "filename": "Smartphone Parts Boost Broadcom’s Earnings - WSJ.pdf",
+          "title": "Smartphone Parts Boost Broadcom’s Earnings Chip maker has been trying to rally investor support for $105 billion takeover of Qualcomm",
+          "published_date": "2017-12-06",
+          "text": "Smartphone Parts Boost Broadcom’s Earnings - WSJ 2026-08-28, 4:25 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/smartphone-parts-boost-broadcoms-earnings-1512597261\nTECH\nSmartphone Parts Boost Broadcom’s Earnings\nChip maker has been trying to rally investor support for $105 billion takeover of\nQualcomm\nBy Imani Moise and Ted Greenwald\nUpdated Dec. 6, 2017 at 7:15 pm ET\nBroadcom’s bid to take over Qualcomm turned hostile this week. MIKE BLAKE/REUTERS\nBroadcom Ltd. AVGO -0.74% reported higher-than-expected earnings in the most\nrecent quarter as the chip maker looks to convince Qualcomm Inc.’s QCOM -0.36%\nshareholders to back its $105 billion takeover bid.\nIn a conference call with analysts, Broadcom offered little about the hostile bid aside\nfrom saying it aims to “engage in a constructive dialogue,” has received positive\nshareholder and customer reactions, and believes it can complete a transaction,\nincluding regulatory approvals, within 12 months of striking a deal.\nhttps://www.wsj.com/articles/smartphone-parts-boost-broadcoms-earnings-1512597261 Page 1 of 4\nSmartphone Parts Boost Broadcom’s Earnings - WSJ 2026-08-28, 4:25 PM\nThe company said it wouldn’t answer questions about the bid or its planned move\nfrom Singapore to the U.S.\nBroadcom’s profit was boosted by sales of smartphone parts to “a large North\nAmerican smartphone customer,” presumably Apple Inc., which offset weakness in its\ncore wired-infrastructure business. Chief Executive Hock Tan said he expected\nwireless growth to continue into the current quarter as that customer’s new products\nhad been “pushed out” compared with prior years. The iPhone X preorders began in\nOctober, while the iPhone 8 launched in September.\nSales in Broadcom’s wireless-communications unit, which brings in more than a third\nof revenue, grew 33%, while sales in wired infrastructure, which account for 45% of\nsales, edged up 3%.\nBroadcom also provided an upbeat outlook in its current quarter, forecasting revenue\nbetween $5.22 billion and $5.37 billion. The forecast includes sales from its recent\nacquisition of Brocade Communications Systems Inc. Analysts polled by Thomson\nReuters had forecast $4.83 billion in sales.\nBroadcom’s takeover bid for Qualcomm turned hostile earlier this week when\nBroadcom nominated candidates to overhaul its target’s board of directors after\nQualcomm rejected its unsolicited offer. Broadcom has been working to convince\ninvestors that its offer of $70 a share provides the most value to shareholders.\nQualcomm said Broadcom’s proposal undervalued it, touting its leadership in\ninnovative markets such as next-generation cellular technologies, and comes with\nsubstantial risk of regulatory interference.\nIn the fourth quarter, Broadcom swung to a profit of $636 million, or $1.50 a share,\ncompared with a loss of $632 million, or $1.59 per share, a year earlier. On an adjusted\nbasis, earnings grew to $4.59 per share from $3.47 a year ago.\nRevenue jumped 8.5% to $4.84 billion.\nhttps://www.wsj.com/articles/smartphone-parts-boost-broadcoms-earnings-1512597261 Page 2 of 4\nSmartphone Parts Boost Broadcom’s Earnings - WSJ 2026-08-28, 4:25 PM\nAnalysts had projected adjusted earnings of $4.52 a share on $4.83 billion in revenue.\nBroadcom also said Wednesday it would raise its quarterly dividend to $1.75 a share\nfrom $1.02 a share.\nShares rose 4.2% to $274.92 after hours, adding to the 0.9% gain logged during\nWednesday trading.\nWrite to Imani Moise at imani.moise@wsj.com and Ted Greenwald at\nTed.Greenwald@wsj.com\nAppeared in the December 7, 2017, print edition as 'Chip Maker Broadcom Swings To Profit'.\nImani Moise is an award-winning journalist and audio host at The Wall Street Journal, where she is developing new\ncoverage and storytelling around personal finance. Previously, she reported on how technology was reshaping the\nway consumers spend, save and invest for the Journal’s personal finance team.…\nBefore joining the Journal, Moise covered the largest U.S. banks for Financial Times and Reuters and edited a weekly\nFollow\nfintech newsletter. Her reporting on the banking industry has prompted a public apology from a CEO, been cited\nduring congressional hearings and featured on late-night television.\nShe began her career as an intern in the Journal’s Atlanta bureau covering the logistics industry before joining the\npaper’s real-time news desk, where she was part of the team recognized for coverage of the Amazon–Whole Foods\nmerger. She graduated from Duke University with a bachelor’s degree in public policy.\nhttps://www.wsj.com/articles/smartphone-parts-boost-broadcoms-earnings-1512597261 Page 3 of 4\nSmartphone Parts Boost Broadcom’s Earnings - WSJ 2026-08-28, 4:25 PM\nhttps://www.wsj.com/articles/smartphone-parts-boost-broadcoms-earnings-1512597261 Page 4 of 4"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "This dedicated Broadcom earnings story reports that the company exceeded earnings expectations, with profit boosted significantly by smartphone-component sales to a major North American customer the article says is 'widely understood to be Apple Inc.' Adjusted earnings came in at $4.59 per share, above the $4.52 analysts expected, on revenue of $4.84 billion, up 8.5% year over year and above the $4.83 billion consensus. The company swung to a profit of $636 million, or $1.50 per share, from a loss of $632 million a year earlier. The wireless-communications unit, more than a third of revenue, grew 33%, while the wired-infrastructure segment, 45% of sales, grew a more modest 3%. Broadcom guided current-quarter revenue to $5.22 billion to $5.37 billion, well above the $4.83 billion analysts expected, and raised its quarterly dividend to $1.75 per share from $1.02. CEO Hock Tan is quoted attributing continued wireless growth into the current quarter to the fact that 'that customer's new products had been pushed out compared with prior years,' referencing a staggered iPhone launch schedule.",
+      "why_moved": "The article states that Broadcom shares rose 4.2% in after-hours trading to $274.92, building on a 0.9% gain during the regular session. It attributes this to the adjusted EPS beat ($4.59 versus the $4.52 expected), an 8.5% revenue increase driven by smartphone-component sales to a major customer widely understood to be Apple, and forward guidance that came in well above analyst expectations, alongside the dividend increase to $1.75 per share from $1.02.",
+      "sources": [
+        {
+          "title": "Smartphone Parts Boost Broadcom's Earnings -- Update",
+          "url": "https://www.foxbusiness.com/features/smartphone-parts-boost-broadcoms-earnings-update"
+        }
+      ]
+    }
+  },
+  "AVGO_2018q1": {
+    "ticker": "AVGO",
+    "group": "Group 1",
+    "company_name": "Broadcom",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-03-15",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Days before earnings, the U.S. government blocked Broadcom’s proposed Qualcomm acquisition. That abruptly removed a major M&A catalyst and changed the context of the earnings event.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Broadcom: Broadcom Limited Announces Fourth Quarter and Fiscal Year 2017 Financial Results and Interim Dividend",
+                  "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-fourth-quarter-and-fiscal-year-2017-0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q1 non-GAAP revenue was **$5.33 billion**, up 28% year over year, and non-GAAP EPS was **$5.12**. Wireless revenue surged **88% year over year** to $2.21 billion, helped by the delayed iPhone X cycle, while Brocade boosted enterprise storage. Non-GAAP operating margin expanded to **48.2%**.",
+              "sources": []
+            },
+            {
+              "text": "Broadcom guided Q2 revenue to about **$5.0 billion**, expecting data-center and storage strength to offset a sharp seasonal wireless decline. The operating report itself was strong, but investors were simultaneously repricing Broadcom after the failed Qualcomm bid.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Broadcom: Broadcom Limited Announces First Quarter Fiscal Year 2018 Financial Results and Interim Dividend",
+                  "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-first-quarter-fiscal-year-2018-0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The decline was mainly an M&A/expectations reset despite strong earnings.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** iPhone-driven wireless strength was expected to reverse seasonally in Q2.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Data-center and Brocade storage demand kept the core outlook healthy.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet Pro: Broadcom Shares Pressured After Latest Results",
+                  "url": "https://pro.thestreet.com/portfolio/broadcom-shares-pressured-after-latest-results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Broadcom/AVGO identity, the correct event, publication date, timing window and source origin. Broadcom Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Broadcom: Broadcom Limited Announces Fourth Quarter and Fiscal Year 2017 Financial Results and Interim Dividend",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-fourth-quarter-and-fiscal-year-2017-0"
+        },
+        {
+          "label": "Broadcom: Broadcom Limited Announces First Quarter Fiscal Year 2018 Financial Results and Interim Dividend",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-first-quarter-fiscal-year-2018-0"
+        },
+        {
+          "label": "TheStreet Pro: Broadcom Shares Pressured After Latest Results",
+          "url": "https://pro.thestreet.com/portfolio/broadcom-shares-pressured-after-latest-results"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "A \"Heard on the Street\" preview published the afternoon before the report -- itself dominated by the fresh news that Broadcom had been ordered by President Trump the prior Monday to abandon its unsolicited takeover bid for Qualcomm on national-security grounds, which the company agreed to on Wednesday morning -- framed the earnings release mainly as a test of Broadcom's standalone financial strength now that the roughly $105 billion Qualcomm deal was off the table. Notably, the preview reveals that Broadcom had already pre-disclosed preliminary results in January: revenue in the range of $5.3-5.35 billion (29% year-over-year growth at the midpoint) and free cash flow expected to surge 81% to nearly $1.9 billion. The preview also noted the stock traded at only 13 times forward earnings, a then-record 21% discount to the PHLX Semiconductor Index, and that CEO Hock Tan -- with the Qualcomm deal dead -- was left considering smaller alternative targets such as Mellanox, Marvell or Xilinx, none of which would add more than 13% to Broadcom's revenue. The reaction piece, published the day of the report, shows results landing within that already-disclosed range: net revenue rose 28% to $5.33 billion, within the $5.3-5.35 billion range and above the $5.32 billion analyst consensus. Quarterly profit surged to $6.23 billion ($14.62 a share) from $239 million a year earlier, driven substantially by a one-time $6 billion tax benefit from the U.S. tax overhaul; excluding that and other items, adjusted profit of $5.12 a share modestly beat both Broadcom's own guidance of $5.10 and the $5.04 consensus. Wireless communications, boosted by an extra week in the quarter and the Brocade acquisition, surged 88% to overtake wired infrastructure as the largest segment for the first time. Tan said the company expects to \"sustain top-line momentum\" via data-center and storage demand offsetting a seasonal wireless decline. The article also flags cash falling to $7.08 billion from $11.2 billion the prior quarter, while long-term debt of $17.48 billion ticked up slightly.",
+      "why_moved": "The reaction article states shares closed up on the reporting day at $267.76, up 19% over the trailing 12 months, consistent with the recorded one-day return of +2.97%, reflecting the modest beats on adjusted EPS and revenue described above alongside Tan's upbeat commentary on data-center and storage momentum. However, that initial gain did not hold: the two-day return turned negative at -2.24% and the five-day return fell further to -5.71%, a reversal that neither article explains directly. As detailed above, the preview piece adds a relevant fact worth weighing: Broadcom had already pre-announced this quarter's approximate revenue and free-cash-flow figures back in January, meaning the actual results carried comparatively little new information relative to a typical earnings report -- a plausible contributing factor to why an initial modest pop failed to hold over the following sessions, though this is an inference from combining the two articles' facts, not something either piece states as an explanation for the multi-day decline. The preview's framing of the report as fundamentally about the Qualcomm bid's collapse and Broadcom's next strategic move, rather than about the quarter's numbers themselves, similarly suggests investors may have been more focused on reassessing capital-allocation plans than on the incremental, largely pre-telegraphed earnings beat -- again a plausible bridge between the two articles' content rather than a stated causal claim in either one.",
+      "sources": [
+        {
+          "filename": "Broadcom Profit Surges in First Report After Qualcomm Deal Withdrawal - WSJ.pdf",
+          "title": "Broadcom Profit Surges in First Report After Qualcomm Deal Withdrawal The chip maker booked a one-time benefit of nearly $6 billion tied to the U.S. tax bill",
+          "published_date": "2018-03-15",
+          "text": "Broadcom Profit Surges in First Report After Qualcomm Deal Withdrawal - WSJ 2026-08-28, 4:28 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/broadcom-profit-surges-in-first-report-after-qualcomm-deal-withdrawal-1521147920\nTECH\nBroadcom Profit Surges in First Report After\nQualcomm Deal Withdrawal\nThe chip maker booked a one-time benefit of nearly $6 billion tied to the U.S. tax bill\nBy Maria Armental\nMarch 15, 2018 at 5:05 pm ET\nBroadcom formally withdrew its unsolicited bid for U.S.-based Qualcomm and its slate of nominees to Qualcomm’s\nboard on Wednesday. MIKE BLAKE/REUTERS\nBroadcom Ltd., AVGO -0.74% the Singapore-based company that spent much of the\npast four months attempting to acquire fellow chip maker Qualcomm Inc., on\nThursday said quarterly profit surged as it booked a one-time benefit of nearly $6\nbillion tied to the U.S. tax overhaul.\nThe company, which is in the process of moving its headquarters to the U.S., formally\nwithdrew its unsolicited bid for U.S.-based Qualcomm and its slate of nominees to\nhttps://www.wsj.com/articles/broadcom-profit-surges-in-first-report-after-qualcomm-deal-withdrawal-1521147920 Page 1 of 4\nBroadcom Profit Surges in First Report After Qualcomm Deal Withdrawal - WSJ 2026-08-28, 4:28 PM\nQualcomm’s board on Wednesday. The move followed President Doanld Trump’s\norder for Broadcom to walk away after a U.S. panel that vets foreign deals said\nBroadcom’s ownership could threaten Qualcomm’s innovative prowess and, by\nextension, the U.S.’s clout against China and its tech juggernaut, Huawei Technologies\nCo.\nIn the most recent period, which included an extra week and contributions from\nBrocade Communications Systems, sales in Broadcom’s wireless-communications\nunit surged 88%, overcoming wired infrastructure as its largest segment by revenue.\nOverall, first-quarter profit surged to $6.23 billion, or $14.62 a share, from $239\nmillion, or 57 cents a share, a year earlier. Excluding the tax-law impact and other\nitems, profit rose to $5.12 a share from $3.63 a share a year earlier.\nNet revenue, including certain acquisition-related adjustments, rose 28% to $5.33\nbillion.\nBroadcom had said in January it expected to report adjusted profit of $5.10 a share\nand $5.3 billion to $5.35 billion in revenue.\nAnalysts expected adjusted profit of $5.04 a share on revenue of $5.32 billion.\nFor the current quarter, Broadcom still expects about $5 billion in adjusted net\nrevenue.\n“We expect to sustain top-line momentum with strong data center demand for our\nnetworking and enterprise storage products, and a seasonal recovery in broadband\naccess, to offset a sharp seasonal decline in wireless,” CEO Hock Tan said in a\nstatement. “Importantly, we expect gross margin to expand and drive free cash flow\nabove our long term target of 40% percent of revenue.”\nThe company, which had been building its cash coffers, ended the quarter with $7.08\nbillion, down from $11.2 billion in the previous quarter. That was more than twice the\nhttps://www.wsj.com/articles/broadcom-profit-surges-in-first-report-after-qualcomm-deal-withdrawal-1521147920 Page 2 of 4\nBroadcom Profit Surges in First Report After Qualcomm Deal Withdrawal - WSJ 2026-08-28, 4:28 PM\namount of cash it had reported as of the third quarter.\nMeanwhile, Broadcom reported $17.48 billion in long-term debt, up slightly from the\nprevious quarter.\nShares closed up Thursday at $267.76, up 19% over the past 12 months.\nWrite to Maria Armental at maria.armental@wsj.com\nMaria Armental covers private equity for The Wall Street Journal, with a focus on tech and health. Her coverage\nexamines a wide-ranging and influential industry and some of its top dealmakers.\nBefore joining the Journal, Maria was a reporter for the Providence Journal.…\nAn award-winning journalist, Maria previously wrote about financial crime, corporate and regulatory matters,\nFollow\npolitics, the environment and immigration.\nMaria is a native Spanish speaker who reads, writes and interviews in Portuguese and French and reads Italian.\nShe studied journalism and computer programming and holds a master’s degree from Rutgers University’s Division\nof Global A\"airs, where she researched political economy, identity and global governance.\nhttps://www.wsj.com/articles/broadcom-profit-surges-in-first-report-after-qualcomm-deal-withdrawal-1521147920 Page 3 of 4\nBroadcom Profit Surges in First Report After Qualcomm Deal Withdrawal - WSJ 2026-08-28, 4:28 PM\nhttps://www.wsj.com/articles/broadcom-profit-surges-in-first-report-after-qualcomm-deal-withdrawal-1521147920 Page 4 of 4"
+        },
+        {
+          "filename": "Broadcom Lives Well to Fight Another Day - WSJ.pdf",
+          "title": "Broadcom Lives Well to Fight Another Day Chipmaker’s strong earnings and cash flow—and cheap stock—give it time to plot its next move",
+          "published_date": "2018-03-14",
+          "text": "Broadcom Lives Well to Fight Another Day - WSJ 2026-08-28, 4:26 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/broadcom-lives-well-to-fight-another-day-1521043362\nHEARD ON THE STREET Follow\nBroadcom Lives Well to Fight Another Day\nChipmaker’s strong earnings and cash flow—and cheap stock—give it time to plot its next\nmove\nBy Dan Gallagher\nUpdated March 14, 2018 at 2:20 pm ET\nHock Tan isn’t easily dissuaded. It is a quality that has served the Broadcom CEO very\nwell over the last few years as he has cobbled together one of the largest and most\nsuccessful chip companies in the world.\nBut there is a time to stand down or, in the case of Mr. Tan, to live to fight another day.\nHis dogged pursuit of Qualcomm—a notably larger company in both employees and\nrevenue—was a bold gambit that would have made Broadcom the world’s third largest\nchip maker, trailing only Samsung and Intel Corp. But Broadcom was ordered Monday\nby President Trump to desist in the name of national security, which the company\nbegrudgingly agreed to do on Wednesday morning.\nThat leaves Broadcom with the problem of what to do with itself now. Mr. Tan has\nspent the last several years building up a chip empire that now owns strong positions\nin several key markets such as smartphones, data centers and networking gear. Mr.\nTan’s deft management of these entities has allowed the company to grow revenue,\nearnings and cash flow consistently. But M&A always has been a key part of that plan.\nThe company, once known as Avago, has swallowed up several large chip businesses in\nthe last five years, including LSI Corp. in 2014 and its $37 billion takeover of Broadcom\nthat wrapped up two years ago and gave the company its new identity.\nhttps://www.wsj.com/articles/broadcom-lives-well-to-fight-another-day-1521043362 Page 1 of 3\nBroadcom Lives Well to Fight Another Day - WSJ 2026-08-28, 4:26 PM\nQualcomm would have been the most ambitious move to date. The loss of that deal\nfrees up Mr. Tan to consider others, with the obvious drawback being that almost\nanything else at this point will seem small by comparison. Analysts have pointed to\ncompanies such as Mellanox, Marvell and Xilinx as potential targets, but even the\nlargest of those only would add 13% to Broadcom’s current revenue. Qualcomm’s\nchipset business alone would have nearly doubled the company’s top line.\nBut Broadcom’s next move may not be apparent for a while. The company is currently\nin the process of re-domiciling to the U.S., a process it expects to complete by May 6.\nThat should help with the heightened government scrutiny that now accompanies\ntech deal making in the U.S.\nIn the meantime, Broadcom’s strong financial performance should give it a strong line\nof credit with investors as it plots its next move. Broadcom’s fiscal first quarter results\ndue Thursday afternoon will show revenue in the range of $5.3 to $5.35 billion,\naccording to a preliminary results reported by the company in January. That\nrepresents growth of 29% year over year at the midpoint. Free cash flow for the\nquarter is expected to have surged 81% to nearly $1.9 billion. With Broadcom’s stock\nprice now fetching only 13 times forward earnings—a record discount of 21% to the\nPHLX Semiconductor Index—investors shouldn’t need audacious deals to make this\nbet pay off.\nAppeared in the March 15, 2018, print edition as 'Broadcom Plots Its Next Move'.\nDan Gallagher is a former columnist for The Wall Street Journal’s Heard on the Street, where he covered the\ntechnology and media industries. His work for the Heard column spanned the businesses of artificial intelligence,\nsemiconductors, internet, software, hardware, advertising, streaming TV and film. Dan also wrote WSJ's AI &…\nBusiness newsletter.\nHeF joollionwed the column in 2013 after nearly two decades covering tech as a news reporter—starting well before\nsmartphones got smart.\nDan previously spent 10 years at MarketWatch, where he built a data news team and served as technology editor.\nhttps://www.wsj.com/articles/broadcom-lives-well-to-fight-another-day-1521043362 Page 2 of 3\nBroadcom Lives Well to Fight Another Day - WSJ 2026-08-28, 4:26 PM\nhttps://www.wsj.com/articles/broadcom-lives-well-to-fight-another-day-1521043362 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "AVGO_2018q2": {
+    "ticker": "AVGO",
+    "group": "Group 1",
+    "company_name": "Broadcom",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-06-07",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After Qualcomm, Broadcom’s thesis shifted toward organic cash generation and smaller acquisitions. Investors wanted data-center growth to offset the seasonal decline in Apple-related wireless revenue.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Broadcom: Broadcom Limited Announces First Quarter Fiscal Year 2018 Financial Results and Interim Dividend",
+                  "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-first-quarter-fiscal-year-2018-0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q2 non-GAAP revenue was **$5.02 billion**, up 19% year over year, and non-GAAP EPS was **$4.88**. Non-GAAP gross margin reached a record **66.6%**, while free cash flow was **$2.12 billion**, roughly **42% of revenue**.",
+              "sources": []
+            },
+            {
+              "text": "Wired infrastructure revenue rose strongly while wireless declined seasonally. Broadcom also repurchased **$1.5 billion of stock** in the six weeks through June 1. The quarter demonstrated exceptional margin and cash conversion despite a sequential revenue decline.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Broadcom: Broadcom Inc. Announces Second Quarter Fiscal Year 2018 Financial Results and Quarterly Dividend",
+                  "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2018-0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock weakened despite upbeat results as investors focused on the slower near-term growth mix.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Record gross margin and 42% FCF conversion showed very strong operating quality.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Wired/data-center growth cushioned but did not eliminate wireless-seasonality concerns.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "Benzinga: 7 Stocks To Watch For June 8, 2018",
+                  "url": "https://www.benzinga.com/news/earnings/18/06/11851263/7-stocks-to-watch-for-june-8-2018"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Broadcom/AVGO identity, the correct event, publication date, timing window and source origin. Broadcom Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Broadcom: Broadcom Limited Announces First Quarter Fiscal Year 2018 Financial Results and Interim Dividend",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-limited-announces-first-quarter-fiscal-year-2018-0"
+        },
+        {
+          "label": "Broadcom: Broadcom Inc. Announces Second Quarter Fiscal Year 2018 Financial Results and Quarterly Dividend",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2018-0"
+        },
+        {
+          "label": "Benzinga: 7 Stocks To Watch For June 8, 2018",
+          "url": "https://www.benzinga.com/news/earnings/18/06/11851263/7-stocks-to-watch-for-june-8-2018"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "This Dan Gallagher Heard on the Street column is an opinion/analysis piece rather than a straight news report, and frames Broadcom's fiscal second-quarter 2018 results against the aftermath of President Trump formally blocking its roughly $117 billion bid to acquire Qualcomm in March. The column opens with the line 'Sometimes saving $117 billion can be costly,' noting Broadcom's stock was up only 3% for the year at the time of writing, making it 'among the worst performers' in the PHLX Semiconductor Index, which had risen 14%, though the column notes 'that Qualcomm's shares have done even worse is some consolation.' On the actual results, revenue rose 20% year-over-year to $5 billion, which the column says was 'in line with the chipmaker's pre-announcement a month ago,' meaning the company had already signaled the top-line figure in advance, while operating income more than doubled to $1.2 billion. Notably, the column states this was achieved 'despite a sharp reduction in shipments to the ‘large North America customer’,' understood to be Apple, which analyst Stacy Rasgon of Bernstein estimated at about 20% of Broadcom's business, meaning operating income growth outpaced revenue growth even with a headwind from a major customer. Free cash flow surged 58% year-over-year to a record $2.1 billion, and the column notes the failed Qualcomm deal 'freed up more cash to distribute': Broadcom announced a $12 billion buyback in mid-April and had already executed $1.5 billion of it, alongside a dividend yield of 2.6%, among the highest of chip-sector peers. The column concludes that Broadcom shares, at under 14 times forward earnings, were 'the cheapest among large-capitalization chipmakers' for 'a company whose solo act is going strong.'",
+      "why_moved": "Because the second-quarter revenue figure was 'in line with the chipmaker's pre-announcement a month ago,' as the column states, this was not really a surprise data point capable of moving the stock on its own — the market had already had a month to price in the top-line number, which helps explain why a fundamentally solid quarter, with operating income more than doubling despite the Apple shipment headwind, record free cash flow, and an active buyback, did not translate into a share-price gain; the two-day return was actually negative. The column's own framing, that the stock has 'languished' and remains one of the worst performers in its semiconductor peer group even as 'performance remains solid,' is itself an acknowledgment that the fundamentals described are not fully explaining the price action, which the piece attributes more to lingering investor uncertainty about Broadcom's acquisition strategy after the Qualcomm deal's collapse than to anything specific in this quarter's numbers, quoting that 'investors still seem to be wondering what to do with the hyper-acquisitive Broadcom in an environment in which huge global deals have become much harder to pull off.' As an opinion column rather than a news report, the piece is explicitly making the bullish case that the stock's cheap valuation is unwarranted given the results, but it does not claim, and the return data does not support, that this particular earnings report itself lifted the shares; if anything the disconnect between 'solid' results and a 'languished' stock is the column's central thesis.",
+      "sources": [
+        {
+          "filename": "Broadcom Doing Just Fine on its Own - WSJ.pdf",
+          "title": "HEARD ON THE STREET Follow Broadcom Doing Just Fine on its Own Chipmaker’s stock has languished since Qualcomm effort killed, but performance remains solid",
+          "published_date": "2018-06-07",
+          "text": "Broadcom Doing Just Fine on its Own - WSJ 2026-08-28, 4:31 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/broadcom-doing-just-fine-on-its-own-1528411332\nHEARD ON THE STREET Follow\nBroadcom Doing Just Fine on its Own\nChipmaker’s stock has languished since Qualcomm effort killed, but performance\nremains solid\nBy Dan Gallagher\nJune 7, 2018 at 6:42 pm ET\nBroadcom Ltd. reported that second-quarter revenue jumped 20%. PATRICK T. FALLON/BLOOMBERG NEWS\nSometimes saving $117 billion can be costly.\nTake Broadcom AVGO -0.74% , whose share price has only recently recovered from\nthe beating it took after President Donald Trumpformally barred the company from\nbuying Qualcomm QCOM -0.36% back in March. Its 3% gain for the year leaves it\namong the worst performers among constituents of the PHLX Semiconductor Index,\nwhich has risen by 14%. That Qualcomm’s shares have done even worse is some\nconsolation, but investors still seem to be wondering what to do with the hyper-\nhttps://www.wsj.com/articles/broadcom-doing-just-fine-on-its-own-1528411332 Page 1 of 4\nBroadcom Doing Just Fine on its Own - WSJ 2026-08-28, 4:31 PM\nacquisitive Broadcom in an environment in which huge global deals have become\nmuch harder to pull off.\nChipped O\"\nRelative share price performance, last two years\nQualcomm deal killed\n120%\n100\nPHLX\nSemiconductor\nIndex\n80\n60\nBroadcom\n40\n20\nQualcomm\n0\n-20\n2017 ’18\nSource: FactSet\nBroadcom’s fiscal second-quarter results reported Thursday afternoon should provide\nat least some clue. Revenue jumped 20% year-over-year to $5 billion, in line with the\nchipmaker’s pre-announcement a month ago. Operating income more than doubled to\n$1.2 billion. This was despite a sharp reduction in shipments to the “large North\nAmerica customer” that is code-speak for Apple Inc. The iPhone maker accounts for\nabout 20% of Broadcom’s business, estimates Stacy Rasgon of Bernstein.\nPulling off such a performance despite pressure from such a large buyer is notable,\nand Broadcom remains a cash machine with free cash flow surging 58% year-over-year\nhttps://www.wsj.com/articles/broadcom-doing-just-fine-on-its-own-1528411332 Page 2 of 4\nBroadcom Doing Just Fine on its Own - WSJ 2026-08-28, 4:31 PM\nto a new record of $2.1 billion for the quarter. Losing the Qualcomm deal also freed up\nmore cash to distribute. Broadcom announced a $12 billion buyback in mid-April and\nalready has gone through $1.5 billion of that program. Broadcom’s dividend yield of\n2.6% also is one of the highest of its chip peers.\nFor all this, Broadcom shares are fetching less than 14 times forward earnings—the\ncheapest among large-capitalization chipmakers. That isn’t a bad price for a company\nwhose solo act is going strong.\nWrite to Dan Gallagher at dan.gallagher@wsj.com\nDan Gallagher is a former columnist for The Wall Street Journal’s Heard on the Street, where he covered the\ntechnology and media industries. His work for the Heard column spanned the businesses of artificial intelligence,\nsemiconductors, internet, software, hardware, advertising, streaming TV and film. Dan also wrote WSJ's AI &…\nBusiness newsletter.\nHeF joollionwed the column in 2013 after nearly two decades covering tech as a news reporter—starting well before\nsmartphones got smart.\nDan previously spent 10 years at MarketWatch, where he built a data news team and served as technology editor.\nhttps://www.wsj.com/articles/broadcom-doing-just-fine-on-its-own-1528411332 Page 3 of 4\nBroadcom Doing Just Fine on its Own - WSJ 2026-08-28, 4:31 PM\nhttps://www.wsj.com/articles/broadcom-doing-just-fine-on-its-own-1528411332 Page 4 of 4"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "AVGO_2018q3": {
+    "ticker": "AVGO",
+    "group": "Group 1",
+    "company_name": "Broadcom",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-09-06",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "In July, Broadcom agreed to acquire CA Technologies, surprising investors by expanding from semiconductors into enterprise software. Q3 therefore tested whether the core chip business remained healthy during that strategic shift.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Broadcom: Broadcom Inc. Announces Second Quarter Fiscal Year 2018 Financial Results and Quarterly Dividend",
+                  "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2018-0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q3 revenue rose **13% to $5.06 billion** and non-GAAP EPS increased **21% to $4.98**. Free cash flow again exceeded **$2.1 billion**. Management said data-center demand was driving strong growth across more than half of consolidated revenue, while wireless was comparatively weak.",
+              "sources": []
+            },
+            {
+              "text": "The Q4 outlook remained solid despite lower expected wireless revenue. The result reassured investors that data-center networking and storage remained strong as Broadcom prepared to integrate CA Technologies.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Broadcom: Broadcom Inc. Announces Third Quarter Fiscal Year 2018 Financial Results and Quarterly Dividend",
+                  "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2018-financial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares jumped because earnings, cash flow and data-center demand were stronger than feared.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Growth was shifting toward data-center networking and storage rather than smartphones.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Strong core results reduced concern that the CA deal reflected semiconductor weakness.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Why Barnes & Noble, Five Below, and Broadcom Jumped Today",
+                  "url": "https://www.fool.com/investing/2018/09/07/why-barnes-noble-five-below-and-broadcom-jumped-to.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for Broadcom/AVGO identity, the correct event, publication date, timing window and source origin. Broadcom Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Broadcom: Broadcom Inc. Announces Second Quarter Fiscal Year 2018 Financial Results and Quarterly Dividend",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2018-0"
+        },
+        {
+          "label": "Broadcom: Broadcom Inc. Announces Third Quarter Fiscal Year 2018 Financial Results and Quarterly Dividend",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2018-financial"
+        },
+        {
+          "label": "The Motley Fool: Why Barnes & Noble, Five Below, and Broadcom Jumped Today",
+          "url": "https://www.fool.com/investing/2018/09/07/why-barnes-noble-five-below-and-broadcom-jumped-to.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Maria Armental's article covers Broadcom's fiscal third-quarter 2018 results, marking a sixth consecutive quarter of more-than-doubled profit, alongside plans to substantially raise shareholder payouts. The dominant storyline is the company's first earnings call since announcing its proposed $19 billion acquisition of software company CA Inc., a deal that 'had hit Broadcom's stock hard,' with CEO Hock Tan defending the move, calling CA a 'big doorway' and a 'new and huge opportunity,' saying 'we're buying CA because of their customers and [CA's] importance to these customers... CA sells mission-critical software to virtually all of the world's largest enterprises.' The article frames this as roughly tripling Broadcom's addressable opportunity in the estimated $200 billion infrastructure-technology market, per comments finance chief Tom Krause had previously given the Journal, and notes the deal came only months after Broadcom's $117 billion-plus hostile Qualcomm bid was blocked by President Trump. On operating performance, profit surged to $1.2 billion, or $2.71 a share, from $481 million, or $1.14 a share, a year earlier; profit from continuing operations rose to $4.98 a share, or $4.83 adjusted, from $4.10, beating the $2.70 GAAP / $4.83 adjusted consensus analysts expected on $5.07 billion in revenue, up 13%, which itself matched estimates. Gross margin improved to 51.7% from 48.2%. The article details segment dynamics: enterprise storage revenue rose 70%, boosted heavily by the prior year's Brocade acquisition, though Tan said storage was 'robust year-over-year' even stripping that out, with growth expected to accelerate in the fourth quarter, while wireless communications remained a drag, with Tan and Krause saying that segment wouldn't return to double-digit growth until fiscal 2020 after 'a temporary dip in fiscal 2019.' Guidance called for about $5.4 billion in current-quarter revenue, above the $5.35 billion analysts projected. Krause said the strong free cash flow performance, over $2.13 billion as of early August, would support 'another substantial increase' in the dividend, following December's raise to $1.75 a share from $1.02. The article notes shares had lagged the market with a 16% decline for the year heading into the report.",
+      "why_moved": "The roughly 5.7% two-day gain reflects the combination of the adjusted-EPS and revenue beats detailed above, plus above-consensus fourth-quarter guidance of $5.4 billion versus $5.35 billion expected, and the signal of 'another substantial increase' in the dividend, as Krause indicated — concrete, forward-looking capital-return language on top of an already-strong quarter. Given that the CA acquisition announcement 'had hit Broadcom's stock hard' in the weeks before this report, as the article states, Tan's extended on-call defense of the deal's strategic logic, tripling the addressable infrastructure-software market, appears to have helped address the specific overhang the article identifies, alongside Krause's reassurance that the company saw 'no fundamental changes in its long-term growth rate.' The 70% enterprise-storage growth and Tan's comment that underlying, ex-Brocade, storage growth was expected to 'accelerate in the fourth quarter' offered a concrete offset to the wireless segment's acknowledged weakness, which the article notes wouldn't meaningfully recover until fiscal 2020, giving investors a specific, dated growth narrative to weigh against the near-term wireless drag. That the stock still gained despite entering the report down 16% for the year suggests this combination of beat, raise, dividend signal, and CA-deal reassurance was enough to reverse at least part of the year's underperformance, even though the one-day return itself was slightly negative at -2.06%, pointing to some initial digestion before the gain solidified over the following day.",
+      "sources": [
+        {
+          "filename": "Broadcom Profit Surges as Enterprise Storage Business Grows - WSJ.pdf",
+          "title": "Broadcom Profit Surges as Enterprise Storage Business Grows Broadcom’s third-quarter profit rose to $1.2 billion from $481 million a year earlier",
+          "published_date": "2018-09-06",
+          "text": "Broadcom Profit Surges as Enterprise Storage Business Grows - WSJ 2026-08-28, 4:32 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/broadcom-profit-surges-as-enterprise-storage-business-grows-1536272588\nBUSINESS EARNINGS\nBroadcom Profit Surges as Enterprise Storage\nBusiness Grows\nBroadcom’s third-quarter profit rose to $1.2 billion from $481 million a year earlier\nBy Maria Armental\nUpdated Sept. 6, 2018 at 8:59 pm ET\nBroadcom posted a sixth straight quarter of profit on Thursday. PATRICK T. FALLON/BLOOMBERG NEWS\nBroadcom Inc. AVGO -0.74% plans to substantially raise payouts to shareholders on\nthe back of strong results that mark the sixth straight quarter of more-than-doubled\nprofit.\nIn the first earnings call since the company announced plans to buy software\ncompanyCA Inc., news that had hit Broadcom’s stock hard, Chief Executive Hock Tan\ndefended the proposed deal saying that CA offers a “big doorway,” a “new and huge\nopportunity.”\nhttps://www.wsj.com/articles/broadcom-profit-surges-as-enterprise-storage-business-grows-1536272588 Page 1 of 4\nBroadcom Profit Surges as Enterprise Storage Business Grows - WSJ 2026-08-28, 4:32 PM\n“We’re buying CA because of their customers and [CA’s] importance to these\ncustomers,” Mr. Tan said in the Thursday call reviewing third-quarter results. “CA\nsells mission-critical software to virtually all of the world’s largest enterprises.”\nThe proposed $19 billion takeover, months after its $117 billion-plus hostile bid for\nQualcomm Inc. QCOM -0.36% was blocked by President Trump, represents a\nstrategic move for Broadcom and would roughly triple the size of its current\nopportunity in the estimated $200 billion market for infrastructure technology,\nBroadcom finance chief Tom Krause had previously told The Wall Street Journal in an\ninterview.\nMeanwhile, enterprise storage revenue, up nearly 60% three quarters into the\ncompany’s business year, has been bolstered by last year’s Brocade acquisition.\nStripping out the Brocade contribution, Mr. Tan told analysts in June, that the\nbusiness would be roughly flat year-over-year.\nOn Thursday’s call, Mr. Krause said the company had fielded questions and stressed\nthat the company doesn’t see any fundamental changes in its long-term growth rate\nor that of its core business.\nIn the most recent quarter, company officials said, the wired infrastructure and\nenterprise storage segments again drove revenue growth, offsetting continued\nweakness in wireless communications segment. The wireless communications\nsegment, Messrs. Tan and Krause said Thursday, is expected to return to double-digit\nrevenue growth in fiscal 2020, following a temporary dip in fiscal 2019.\nThe enterprise storage segment, which got a big revenue boost from the Brocade\nacquisition, saw revenue in the latest period increase 70% from the year-ago period.\nBut even without the Brocade contribution, Mr. Tan said, “storage was robust year-\nover-year in the third quarter” and storage revenue growth is expected to accelerate\nin the fourth quarter.\nhttps://www.wsj.com/articles/broadcom-profit-surges-as-enterprise-storage-business-grows-1536272588 Page 2 of 4\nBroadcom Profit Surges as Enterprise Storage Business Grows - WSJ 2026-08-28, 4:32 PM\nOverall, Broadcom’s third-quarter profit surged to $1.2 billion, or $2.71 a share, from\n$481 million, or $1.14 a share, a year earlier. Profit from continuing operations rose to\n$4.98 a share from $4.10 a share a year earlier, while revenue from continuing\noperations rose 13% to $5.07 billion.\nAnalysts surveyed by Thomson Reuters expected a profit of $2.70 a share, or $4.83 as\nadjusted, on $5.07 billion in revenue.\nGross profit margin improved to 51.7% from 48.2% a year earlier.\nThis quarter, Broadcom expects about $5.4 billion in revenue, compared with analysts’\nprojected $5.35 billion.\nBased on that forecast and the company’s performance for the first nine months of the\nyear, Mr. Krause said Broadcom anticipates “another substantial increase” in\nquarterly dividend payouts.\nIn December, Broadcom raised the dividend payouts to $1.75 a share from $1.02 a\nshare.\nBroadcom’s policy is to distribute half of its prior fiscal year free cash flow to\nshareholders through cash dividends, with the remainder of the money typically being\nused for acquisitions or to buy back stock.\nAs of Aug. 5, Broadcom reported more than $2 billion///$2.13 billion ///in free cash\nflow.\nShares, which lag the market with a 16% decline this year, rose 3.7% to $223.94 in\nafter-hours trading.\nWrite to Maria Armental at maria.armental@wsj.com\nhttps://www.wsj.com/articles/broadcom-profit-surges-as-enterprise-storage-business-grows-1536272588 Page 3 of 4\nBroadcom Profit Surges as Enterprise Storage Business Grows - WSJ 2026-08-28, 4:32 PM\nMaria Armental covers private equity for The Wall Street Journal, with a focus on tech and health. Her coverage\nexamines a wide-ranging and influential industry and some of its top dealmakers.\nBefore joining the Journal, Maria was a reporter for the Providence Journal.…\nAn award-winning journalist, Maria previously wrote about financial crime, corporate and regulatory matters,\nFollow\npolitics, the environment and immigration.\nMaria is a native Spanish speaker who reads, writes and interviews in Portuguese and French and reads Italian.\nShe studied journalism and computer programming and holds a master’s degree from Rutgers University’s Division\nof Global A\"airs, where she researched political economy, identity and global governance.\nhttps://www.wsj.com/articles/broadcom-profit-surges-as-enterprise-storage-business-grows-1536272588 Page 4 of 4"
+        }
+      ]
+    },
+    "djnw": null
+  }
+}

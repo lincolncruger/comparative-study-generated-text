@@ -1,0 +1,1177 @@
+{
+  "AMZN_2016q2": {
+    "ticker": "AMZN",
+    "group": "Group 1",
+    "company_name": "Amazon",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-28",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "The January quarter had disappointed investors despite record profit because both revenue and EPS missed expectations. Going into April, the key question was whether Amazon could keep accelerating revenue while proving that AWS and the North American retail business could generate enough operating profit to offset continued investment.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Amazon: Amazon.com Announces Fourth Quarter Sales up 22% to $35.7 Billion",
+                  "url": "https://ir.aboutamazon.com/news-release/news-release-details/2016/Amazoncom-Announces-Fourth-Quarter-Sales-up-22-to-357-Billion/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Amazon reported **$29.1 billion of revenue**, up 28% year over year, and **$1.07 of EPS**. Both were far above contemporaneous expectations of roughly $28.0 billion of revenue and $0.58 EPS. The profit surprise was especially important because Amazon had historically prioritized growth over near-term earnings.",
+              "sources": []
+            },
+            {
+              "text": "The most important mix shift came from **AWS**. AWS revenue rose about **64% to $2.57 billion**, while segment operating income reached roughly **$604 million**, exceeding North America retail operating income despite AWS being much smaller in revenue. North America also improved materially, showing that profitability was no longer coming from only one segment. Q2 revenue guidance of **$28.0–$30.5 billion** kept growth expectations strong.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Amazon: Amazon.com Announces First Quarter Sales up 28% to $29.1 Billion",
+                  "url": "https://ir.aboutamazon.com/news-release/news-release-details/2016/Amazoncom-Announces-First-Quarter-Sales-up-28-to-291-Billion/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** A large revenue/EPS beat showed that Amazon could sustain rapid growth while producing materially more profit than expected.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** AWS became the clearest incremental earnings engine, with very high growth and disproportionate operating profit.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Better North America profitability suggested operating leverage was broadening beyond AWS.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TechCrunch: Amazon’s Web Services are shining in its latest earnings beat",
+                  "url": "https://techcrunch.com/2016/04/28/amazon-is-spiking-after-posting-a-huge-earnings-beat/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Amazon/AMZN identity, the correct earnings event, publication date, timing window, and source-origin restrictions. No Reuters, Dow Jones, WSJ, or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Amazon: Amazon.com Announces Fourth Quarter Sales up 22% to $35.7 Billion",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2016/Amazoncom-Announces-Fourth-Quarter-Sales-up-22-to-357-Billion/default.aspx"
+        },
+        {
+          "label": "Amazon: Amazon.com Announces First Quarter Sales up 28% to $29.1 Billion",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2016/Amazoncom-Announces-First-Quarter-Sales-up-28-to-291-Billion/default.aspx"
+        },
+        {
+          "label": "TechCrunch: Amazon’s Web Services are shining in its latest earnings beat",
+          "url": "https://techcrunch.com/2016/04/28/amazon-is-spiking-after-posting-a-huge-earnings-beat/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "This Heard on the Street column by Dan Gallagher frames Amazon's first-quarter 2016 results around the growing importance of Amazon Web Services to the company's overall profitability. AWS revenue jumped 64% year over year to about $2.6 billion, and while the cloud unit still represented just 9% of Amazon's total revenue base, it accounted for a striking 56% of the company's operating profits for the period. Overall company revenue climbed 28% to $29 billion, and net income totaled $513 million versus a loss of $57 million in the same quarter a year earlier — results the article says beat Wall Street's projections and fueled an after-hours surge in the stock. The article frames AWS's current strength against its own history of volatility, noting that two years earlier a series of sharp price cuts and heavy capital spending had slashed the unit's operating margin to 8% from 23% within a single quarter, a reminder that today's profitability isn't guaranteed to persist. The column cites RBC Capital analyst Jonathan Atkin's assessment that AWS had avoided major price cuts over the past year while still carrying some of the lowest prices in the cloud segment, which the article argues may reduce the near-term risk of another margin-eroding price war. The piece also grounds the results in valuation context: Amazon's market value had doubled in the year since it began disclosing AWS results separately, and the stock traded around 100 times forward earnings, meaning Wall Street's expectation of continued rapid profit growth left the company, in the column's words, unable to 'let its cloud burst.'",
+      "why_moved": "The stock's roughly 10% two-day rally reflects that both the AWS growth rate (64%) and overall company profitability (a swing to $513 million in net income from a year-earlier loss) beat Wall Street's projections, as the article states directly. Because, as the piece emphasizes, AWS supplied 56% of operating profit from just 9% of revenue, the segment's strength did outsized work in flipping the whole company profitable and validating the profit assumptions embedded in Amazon's rich valuation. The article's framing that Amazon 'can't afford to let its cloud burst' underscores why AWS's continued momentum, rather than the retail business, was the key swing factor investors were watching, and its acceleration removed a source of uncertainty around the multiple the market was already paying. The historical margin-collapse example the article cites — AWS's operating margin falling from 23% to 8% two years prior — suggests the market may have been pricing in some risk of a repeat, and this quarter's results, with prices held steady per RBC's Atkin, appear to have alleviated that concern for the moment.",
+      "sources": [
+        {
+          "filename": "Amazon’s Cloud Keeps Making It Rain - WSJ.pdf",
+          "title": "HEARD ON THE STREET Follow Amazon’s Cloud Keeps Making It Rain A strong performance by Amazon Web Services swelled Amazon.com’s bottom line and helped maintain its pricey valuation",
+          "published_date": "2016-04-28",
+          "text": "Amazon’s Cloud Keeps Making It Rain - WSJ 2026-08-28, 3:33 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/amazons-cloud-keeps-making-it-rain-1461881410\nHEARD ON THE STREET Follow\nAmazon’s Cloud Keeps Making It Rain\nA strong performance by Amazon Web Services swelled Amazon.com’s bottom line and\nhelped maintain its pricey valuation\nBy Dan Gallagher\nUpdated April 28, 2016 at 6:53 pm ET\nAmazon Web Services recorded a 64% jump in first-quarter revenue. KRISTOFFER TRIPPLAAR/SIPA USA\nAmazon.com’s AMZN 3.72% cloud continues to swell. That is helpful to investors who\nhave based a rather large bet on that continuing for the long haul.\nFirst-quarter revenue for the company’s Amazon Web Services segment jumped 64%\nyear over year to about $2.6 billion. The cloud still represents just 9% of Amazon’s\ntotal revenue base, but it accounted for 56% of the company’s operating profits for the\nperiod.\nAmazon’s overall revenue climbed 28% to $29 billion in the quarter, and net income\nhttps://www.wsj.com/articles/amazons-cloud-keeps-making-it-rain-1461881410 Page 1 of 3\nAmazon’s Cloud Keeps Making It Rain - WSJ 2026-08-28, 3:33 PM\ntotaled $513 million versus a loss of $57 million in the same period a year earlier.\nThose results beat Wall Street’s projections and fueled an after-hours surge in\nAmazon’s stock.\nSustainability is a fair question. Amazon’s history over the past two decades has many\ninstances of “investment mode” that pinch the bottom line. That happened with AWS\ntwo years ago, when a series of sharp price reductions and capital spending cut the\nunit’s operating margin to 8% from 23% within a single quarter.\nBut AWS now has a strong lead over cloud competitors. It has avoided major price\ncuts over the past year and still carries some of the lowest prices in the cloud\nsegment, according to an analysis by Jonathan Atkin of RBC Capital. That may lessen\nthe need for major actions anytime soon.\nAWS is key to the investment case for Amazon right now. The company’s market value\nhas doubled since it began disclosing results for its cloud business a year ago, and the\nstock trades around 100 times forward earnings. Wall Street expects Amazon’s profits\nto keep growing at a rapid clip for the foreseeable future. That means it can’t afford to\nlet its cloud burst.\nWrite to Dan Gallagher at dan.gallagher@wsj.com\nAppeared in the April 29, 2016, print edition as 'Amazon’s Cloud Makes More Rain'.\nhttps://www.wsj.com/articles/amazons-cloud-keeps-making-it-rain-1461881410 Page 2 of 3\nAmazon’s Cloud Keeps Making It Rain - WSJ 2026-08-28, 3:33 PM\nhttps://www.wsj.com/articles/amazons-cloud-keeps-making-it-rain-1461881410 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "AMZN_2016q3": {
+    "ticker": "AMZN",
+    "group": "Group 1",
+    "company_name": "Amazon",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-07-28",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "The April report had reset the Amazon story around two simultaneous engines: high-growth retail and a rapidly scaling, highly profitable AWS business. Q2 therefore tested whether that profitability was durable rather than a one-quarter surprise.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Amazon: Amazon.com Announces First Quarter Sales up 28% to $29.1 Billion",
+                  "url": "https://ir.aboutamazon.com/news-release/news-release-details/2016/Amazoncom-Announces-First-Quarter-Sales-up-28-to-291-Billion/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Amazon delivered **$30.4 billion of revenue**, up 31%, and **$1.78 of EPS**, versus only $0.19 a year earlier. Operating income rose to **$1.3 billion**, well above Amazon’s own prior high-end guidance of $975 million. Trailing-twelve-month operating cash flow and free cash flow also increased sharply.",
+              "sources": []
+            },
+            {
+              "text": "AWS again led the economics: cloud revenue grew **59%**, and the segment accounted for roughly **41% of operating income**. North American and international retail sales both grew around 30%. The one caution was Q3 operating-income guidance of only **$50–$650 million**, signaling that Amazon intended to reinvest aggressively rather than maximize near-term profit.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Amazon: Amazon.com Announces Second Quarter Sales up 31% to $30.4 Billion",
+                  "url": "https://ir.aboutamazon.com/news-release/news-release-details/2016/Amazoncom-Announces-Second-Quarter-Sales-up-31-to-304-Billion/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Profitability again exceeded expectations, confirming that the April earnings surge was not a one-off.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** AWS remained the highest-quality growth engine and an increasingly large share of operating income.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Cautious Q3 profit guidance limited the upside by reminding investors that Amazon would continue reinvesting heavily.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Amazon.com, Inc. Earnings: It's All About Web Services",
+                  "url": "https://www.fool.com/investing/2016/07/29/amazoncom-inc-earnings-its-all-about-web-services.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Amazon/AMZN identity, the correct earnings event, publication date, timing window, and source-origin restrictions. No Reuters, Dow Jones, WSJ, or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Amazon: Amazon.com Announces First Quarter Sales up 28% to $29.1 Billion",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2016/Amazoncom-Announces-First-Quarter-Sales-up-28-to-291-Billion/default.aspx"
+        },
+        {
+          "label": "Amazon: Amazon.com Announces Second Quarter Sales up 31% to $30.4 Billion",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2016/Amazoncom-Announces-Second-Quarter-Sales-up-31-to-304-Billion/default.aspx"
+        },
+        {
+          "label": "The Motley Fool: Amazon.com, Inc. Earnings: It's All About Web Services",
+          "url": "https://www.fool.com/investing/2016/07/29/amazoncom-inc-earnings-its-all-about-web-services.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The WSJ's Greg Bensinger reports Amazon's third consecutive record profit and fifth straight quarter in the black, a streak the company hadn't achieved since 2012. Second-quarter earnings reached $857 million, or $1.78 a share, well above the $1.11 a share analysts had expected, on sales of $30.4 billion versus $23.19 billion a year earlier. Revenue rose 31%, including a 58% jump at AWS to $2.89 billion from $1.82 billion, keeping the cloud unit on track to exceed CEO Jeff Bezos's goal of $10 billion in AWS sales for the year. Operating margin more than doubled to 4.2% from 2% a year earlier. Robert W. Baird analyst Colin Sebastian is quoted calling the 'accelerating revenue growth...a pleasant surprise,' while cautioning that 'people may be expecting quarters like this now' — that is, that consistent beats were starting to reset the bar. CFO Brian Olsavsky stressed the company's investment philosophy hadn't changed, noting Amazon planned to add 18 new warehouses in the third quarter versus six a year earlier, even as shipping costs jumped 44% to $3.36 billion. The article also details Amazon's broader strategic moves: it had recently overtaken Walmart by market value, was opening physical bookstores, extending Prime to India with a $5 billion investment pledge, and rolling out monthly (rather than only annual) Prime and video subscriptions. For the coming quarter, Amazon guided to $31 billion-$33.5 billion in sales, above analysts' $31.63 billion consensus.",
+      "why_moved": "The roughly 2-3% share gain reflects a straightforward beat-and-raise: EPS of $1.78 crushed the $1.11 analysts expected, as noted above, while the third-quarter revenue guidance of up to $33.5 billion also topped the $31.63 billion Wall Street was modeling. Sebastian's quoted caution that expectations may now reset higher hints at why the reaction, while positive, was more measured rather than explosive — investors were already primed for strong results after two prior blowout quarters. The 58% AWS growth cited above continued to do heavy lifting on the profit side, reinforcing the margin-expansion story that had already been rewarded in the prior quarter's stock reaction. Olsavsky's comments defending continued heavy warehouse investment, including 18 new facilities and rising shipping costs, suggest the market was, for now, comfortable trading near-term margin pressure for the sales and profit beat actually delivered.",
+      "sources": [
+        {
+          "filename": "Amazon Posts Another Blockbuster Profit - WSJ.pdf",
+          "title": "Amazon Posts Another Blockbuster Profit The latest quarter is Amazon’s fifth-straight period in the black",
+          "published_date": "2016-07-28",
+          "text": "Amazon Posts Another Blockbuster Profit - WSJ 2026-08-28, 3:38 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/amazon-posts-another-blockbuster-profit-1469736704\nTECH\nAmazon Posts Another Blockbuster Profit\nThe latest quarter is Amazon’s fifth-straight period in the black\nBy Greg Bensinger\nUpdated July 28, 2016 at 11:09 pm ET\nA UPS driver delivers packages from Amazon.com in Palo Alto, Calif. ASSOCIATED PRESS\nAmazon.com Inc. AMZN 3.77% on Thursday reported in its third consecutive record\nprofit, nearly doubling its prior high-water mark, and its fifth straight quarter in the\nblack.\nAmazon’s revenue jumped 31% including a 58% gain at its Amazon Web Services cloud\ncomputing unit. The company also more than doubled its operating margin, which\nhistorically has been razor thin, and issued a cheery outlook for the coming quarter.\nShares of the company rose another 2% in after-hours trading after finishing up $15.94\nat $752.61 in 4 p.m. trading on the Nasdaq Stock Market on Thursday.\nhttps://www.wsj.com/articles/amazon-posts-another-blockbuster-profit-1469736704 Page 1 of 4\nAmazon Posts Another Blockbuster Profit - WSJ 2026-08-28, 3:38 PM\n“The accelerating revenue growth was a pleasant surprise,” said Colin Sebastian, a\nRobert W. Baird & Co. analyst. “But people may be expecting quarters like this now.”\nThe results show Amazon moving toward investors’ long-held hope of consistent\nprofitability after a lengthy period of heavy investments and quarterly losses. The\nSeattle company hasn’t had five consecutive profitable quarters since 2012 as it\npumped much of its revenue gains back into product development and operations,\nincluding massive warehouses to speed products to customers.\nChief Financial Officer Brian Olsavsky said Amazon isn’t changing its investment\nphilosophy, noting the company plans to add 18 new warehouses in the current\nquarter compared with six a year earlier. “We’re very happy with the operational\nperformance of the business,” he said during a call with reporters.\nAmazon’s operating profit margin, a closely watched metric, was 4.2%. That is more\nthan double the 2% year-earlier figure and a sign that the company is controlling\ncosts.\nOverall, Amazon posted a second-quarter $857 million profit, or $1.78 a share,\ncompared with $92 million, or 19 cents a share, a year earlier. Sales rose to $30.4\nbillion from $23.19 billion. Analysts were expecting $1.11 a share on revenue of\nbetween $28 billion and $30.5 billion.\nA big boost to results came from its Amazon Web Services cloud computing division,\nwhich sells access to computing power over the internet. AWS revenue in the quarter\njumped to $2.89 billion, from $1.82 billion a year earlier. The unit appears on track to\nexceed Amazon Chief Executive Jeff Bezos’s goal of reaching $10 billion in sales this\nyear.\nThat business is central to many investors’ faith in the company as it has become the\ngo-to provider for startups, many government agencies and large corporations.\nAmazon has pushed to gain acceptance among large banks and technology firms,\nhttps://www.wsj.com/articles/amazon-posts-another-blockbuster-profit-1469736704 Page 2 of 4\nAmazon Posts Another Blockbuster Profit - WSJ 2026-08-28, 3:38 PM\nparticularly as Alphabet Inc. and Microsoft Corp. ramp up rival cloud computing\nservices.\nIn retailing, Amazon’s power is spilling over the confines of the online world. the\ncompany overtook Wal-Mart Stores Inc. by market value a year ago and is pushing\ninto brick-and-mortar outlets with a bookstore in its hometown of Seattle and several\nothers planned across the U.S. The retailer is a major focal point for brands and\nmanufacturers betting that consumers are willing to buy more staples online.\nThe $99-per-year Prime unlimited shipping membership has proven a big driver of\nonline sales. Amazon has beefed up the program with exclusive streaming television\nshows and music as well as a one-hour delivery service for some goods in a number of\ncities. It said this month it will offer Prime for the first time to customers in India,\nwhere it has pledged $5 billion in investment since 2014.\nIt also rolled out month-by-month subscription offerings for both Prime and its\nstreaming video service, which Mr. Olsavsky said had been performing well, without\nproviding specifics. Amazon is expected to introduce a monthly unlimited streaming\nmusic service in coming months.\nAmazon has been casting about to find new ways to contain shipping costs that have\naccelerated more quickly than sales in recent quarters. That expense jumped 42%\njump in this year’s first three months and 37% in 2015’s holiday quarter. For the\nsecond quarter, Amazon reported a 44% rise in shipping expenses to $3.36 billion.\nThe company has taken over more of its own delivery, including the expensive final leg\nof a package’s journey, known as the last mile. It is leasing 40 planes to carry goods\nand bought branded truck trailers.\nAs a result of its warehouse expansion, in particular, Amazon boosted its employment\nto 268,900, up 9.6% compared with the first quarter.\nIt forecast third quarter sales of between $31 billion and $33.5 billion, compared with\nhttps://www.wsj.com/articles/amazon-posts-another-blockbuster-profit-1469736704 Page 3 of 4\nAmazon Posts Another Blockbuster Profit - WSJ 2026-08-28, 3:38 PM\nanalysts’ views of $31.63 billion.\nWrite to Greg Bensinger at greg.bensinger@wsj.com\nAppeared in the July 29, 2016, print edition as 'Sales Jump Extends Amazon’s Streak'.\nGreg Bensinger formerly wrote about technology for the Wall Street Journal's San Francisco bureau. His coverage\nincluded companies such as Uber, Lyft and Airbnb, as well as the on-demand economy broadly. Greg previously\ncovered e-commerce for the newspaper, including Amazon and eBay and worked for Bloomberg News in New York…\nwriting about telecommunications and the U.S. auto industry.\nFollow\nhttps://www.wsj.com/articles/amazon-posts-another-blockbuster-profit-1469736704 Page 4 of 4"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "AMZN_2016q4": {
+    "ticker": "AMZN",
+    "group": "Group 1",
+    "company_name": "Amazon",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-10-27",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Amazon entered Q3 after two unusually profitable quarters, so investors had begun expecting both very high revenue growth and improving earnings. That raised the bar just as Amazon was spending heavily on fulfillment, video, India and AWS infrastructure.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Amazon: Amazon.com Announces Second Quarter Sales up 31% to $30.4 Billion",
+                  "url": "https://ir.aboutamazon.com/news-release/news-release-details/2016/Amazoncom-Announces-Second-Quarter-Sales-up-31-to-304-Billion/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q3 revenue rose **29% to $32.7 billion**, broadly consistent with expectations, while AWS revenue jumped **55% to $3.23 billion**. Operating cash flow and free cash flow remained strong, and AWS operating income continued to grow rapidly.",
+              "sources": []
+            },
+            {
+              "text": "The disappointment was the bottom line. EPS of **$0.52** was well below consensus near $0.78, while North America operating margin fell sharply from Q2 as spending accelerated. More importantly, Amazon guided Q4 operating income to a very wide **$0–$1.25 billion** range, below what the market had been expecting. The report therefore changed the near-term story from “rapid growth plus expanding profit” back toward “rapid growth funded by heavy reinvestment.”",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Amazon: Amazon.com Announces Third Quarter Sales up 29% to $32.7 Billion",
+                  "url": "https://ir.aboutamazon.com/news-release/news-release-details/2016/Amazoncom-Announces-Third-Quarter-Sales-up-29-to-327-Billion/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The negative reaction came from a large EPS miss and weaker-than-expected holiday-quarter profit guidance.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Higher fulfillment, content and infrastructure investment compressed North America profitability.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** AWS remained very strong, but its profit growth could not fully offset the renewed spending cycle.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Amazon.com Inc. Earnings: AWS Takes the Lead Again",
+                  "url": "https://www.fool.com/investing/2016/10/28/amazoncom-inc-earnings-aws-takes-the-lead-again.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Amazon/AMZN identity, the correct earnings event, publication date, timing window, and source-origin restrictions. No Reuters, Dow Jones, WSJ, or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Amazon: Amazon.com Announces Second Quarter Sales up 31% to $30.4 Billion",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2016/Amazoncom-Announces-Second-Quarter-Sales-up-31-to-304-Billion/default.aspx"
+        },
+        {
+          "label": "Amazon: Amazon.com Announces Third Quarter Sales up 29% to $32.7 Billion",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2016/Amazoncom-Announces-Third-Quarter-Sales-up-29-to-327-Billion/default.aspx"
+        },
+        {
+          "label": "The Motley Fool: Amazon.com Inc. Earnings: AWS Takes the Lead Again",
+          "url": "https://www.fool.com/investing/2016/10/28/amazoncom-inc-earnings-aws-takes-the-lead-again.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "A preview piece published the afternoon before the report set the stage: with Amazon's stock trading above $800 after surging roughly 70% since February, about 90% of covering analysts rated it a \"buy\" -- the most bullish Wall Street had been on the stock since the dot-com boom, with at least four analysts carrying price targets of $1,000 or higher. The preview's framing was that a simple beat-or-miss on the quarter wouldn't be enough; investors needed evidence the core retail business could eventually be highly profitable in its own right, not just AWS, given that cloud computing (already facing rising competition from Google, IBM and Microsoft) was the source of more than half of Amazon's pretax operating income. The reaction piece, published the day of the report, shows the results falling short of that bar: Amazon posted its lowest quarterly profit in a year, with heavy investment in new warehouses and faster delivery sharply increasing costs. The company opened 23 new warehouses since July (versus just three in the first half of the year), and CFO Brian Olsavsky called the expansion \"a big undertaking\" for the holiday season. Reported earnings were $252 million, or 52 cents a share -- well below the 78 cents analysts surveyed by Thomson Reuters had expected -- even as sales rose to $32.7 billion. Operating expenses climbed 29% to $32.1 billion, nearly eclipsing revenue and pushing operating margin down to 1.8% from 4.2% the prior quarter. Shipping costs rose 43% to $3.9 billion as Prime's faster delivery options expanded; Olsavsky acknowledged \"that's expensive,\" but added \"customers love it.\" The international segment posted a steeper loss of $541 million (versus $208 million a year earlier), which Olsavsky attributed to expansion spending including in India. AWS remained a bright spot, growing sales 55% to $3.23 billion, still tracking toward Bezos's $10 billion target. Robert W. Baird's Colin Sebastian warned that \"Amazon is still in investment mode, and the Street should not necessarily expect linear growth in profitability.\" For the holiday quarter, Amazon guided to $42-45.5 billion in revenue, below the $44.6 billion analysts had expected.",
+      "why_moved": "Shares fell more than 6% in after-hours trading, as the reaction article states, on the combination of the profit miss (52 cents versus 78 cents expected) and a fourth-quarter revenue outlook below the $44.6 billion Wall Street had modeled. As detailed above, the preview piece had explicitly set a high bar -- near-unanimous bullish analyst sentiment, a stock already up 70% for the year, and a specific ask that Amazon show its retail business (not just AWS) could become durably profitable -- which this quarter's results directly disappointed, with operating margin falling to 1.8% from 4.2% on a 29% surge in operating expenses concentrated in new-warehouse and shipping costs. Sebastian's quoted warning that investors \"should not necessarily expect linear growth in profitability\" captures the market repricing away from the profitability narrative the preview piece said investors were specifically looking to confirm. The steeper-than-expected international loss, tied by Olsavsky to India expansion spending, adds another concrete cost pressure layered on top of the warehouse and shipping buildout the preview had flagged as the key swing factor to watch.",
+      "sources": [
+        {
+          "filename": "Amazon Takes Hit as Costs Surge - WSJ.pdf",
+          "title": "Amazon Takes Hit as Costs Surge Results disappoint as retail giant invests heavily on warehouses, trimming delivery times",
+          "published_date": "2016-10-27",
+          "text": "Amazon Takes Hit as Costs Surge - WSJ 2026-08-28, 3:43 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/amazon-posts-smaller-than-expected-profit-1477599108\nTECH\nAmazon Takes Hit as Costs Surge\nResults disappoint as retail giant invests heavily on warehouses, trimming delivery times\nBy Laura Stevens\nUpdated Oct. 27, 2016 at 7:28 pm ET\nAmazon is targeting new growth markets like fashion and beauty, where analysts expect quick gains due to its\nrelatively small market share. ROSS D. FRANKLIN/ASSOCIATED PRESS\nAmazon.com Inc. posted its lowest quarterly profit in a year as it invested heavily to\nmeet consumer demand for more orders delivered faster.\nThe online retail giant said Thursday that opening new warehouses and shipping\nitems with shorter delivery times caused its costs to soar in the third quarter. The\ncompany predicts heavy investments will continue through the rest of the year.\nAmazon opened 23 warehouses world-wide to fill orders since July, after opening just\nthree in the first half of the year.\nhttps://www.wsj.com/articles/amazon-posts-smaller-than-expected-profit-1477599108 Page 1 of 5\nAmazon Takes Hit as Costs Surge - WSJ 2026-08-28, 3:43 PM\nAdding those warehouses “was a big undertaking,” said Chief Financial Officer Brian\nOlsavsky on a media call Thursday. But he said it puts the retail giant in a good\nposition to handle the flood of holiday orders in the fourth quarter.\nThe company’s shares fell more than 6% in after-hours trading on concerns about the\nhigher spending, as well as a holiday outlook that fell short of expectations.\nThe results show “Amazon is still in investment mode, and the Street should not\nnecessarily expect linear growth in profitability,” said Robert W. Baird & Co. analyst\nColin Sebastian.\nThe company has been pushing its $99-a-year Prime membership program to broaden\nits base of loyal shoppers who often spend double their non-Prime counterparts on\nthe site, analysts estimate. Prime promises free, fast shipping on millions of items on\nits site and access to video content and other perks. As the membership grows,\nAmazon is getting more items to the front door in as fast as an hour, increasing its\nshipping costs 43% in the third quarter to $3.9 billion.\n“We acknowledge that’s expensive,” Mr. Olsavsky said. But “customers love it.”\nThe retail giant has started laying the groundwork for its own shipping business to\nadd more delivery capacity for the holidays, with the grander ambition of one day\nhauling and delivering packages for itself, other retailers and consumers, according to\npeople familiar with the matter.\nIt is leasing 40 planes to carry goods and buying branded truck trailers, but the\ninvestments it is making to build its own logistics operations generally break even or\nsave on costs, Mr. Olsavsky said. “We want to control our own destiny,” he added.\nAmazon accelerated its investments in its own transportation capabilities after the\nmajor delivery carriers during the 2013 holiday season failed to deliver all its orders in\ntime.\nhttps://www.wsj.com/articles/amazon-posts-smaller-than-expected-profit-1477599108 Page 2 of 5\nAmazon Takes Hit as Costs Surge - WSJ 2026-08-28, 3:43 PM\nThis year, Amazon has added delivery capabilities of its own, as well as arranging\ncapacity with its partners, Mr. Olsavsky said on an analyst call.\nAmazon also is shipping more units because it has expanded a program to handle\nthird-party seller merchandise, Fulfillment by Amazon. The company has been adding\nwarehouses in part to accommodate that increase.\nThe quarter marked Amazon’s sixth consecutive of profit after seesawing in and out of\nthe black since its stock market listing nearly 20 years ago, despite reporting robust\nsales increases.\nIn all, its earnings rose to $252 million in the third quarter, or 52 cents a share, from\n$79 million, or 17 cents a share, a year earlier. Analysts surveyed by Thomson Reuters\nexpected earnings of 78 cents a share.\nSales of $32.7 billion were nearly eclipsed by operating expenses which climbed 29%\nto $32.1 billion. The investments caused Amazon’s operating margin to come in at\n1.8%, below the second quarter’s 4.2%.\nOther areas where Amazon significantly increased its spending include promoting its\nvideo content. It is also building out teams for its Amazon Web Services cloud-\ncomputing division, and its Echo speaker device and Alexa artificial-intelligence\nassistant, as well as investing in its operations in India.\nAWS, which has become a major factor in Amazon’s profitability, increased sales by\n55% to $3.23 billion. Chief Executive Jeff Bezos has said he expects AWS, which rents\ncomputing power to a variety of startups, government agencies and other\ncorporations, to reach $10 billion in sales this year, even amid competition from\nMicrosoft Corp. and Alphabet Inc.\nAmazon issued revenue guidance of $42 billion to $45.5 billion for the fourth quarter,\nwhen holiday sales—and its ability to deliver those orders on time—are critical to its\nsuccess. Analysts were looking for $44.6 billion, according to Thomson Reuters.\nhttps://www.wsj.com/articles/amazon-posts-smaller-than-expected-profit-1477599108 Page 3 of 5\nAmazon Takes Hit as Costs Surge - WSJ 2026-08-28, 3:43 PM\nAmazon reported a loss of $541 million for its international segment, steeper than its\nloss of $208 million a year ago. On the conference call with analysts, Mr. Olsavsky\nattributed that to spending on expansion, including in India, something that should\ncontinue into the fourth quarter. “By far, the biggest individual thing [affecting\nmargins] is the investment that we continue to make,” he added.\nWrite to Laura Stevens at laura.stevens@wsj.com\nAppeared in the October 28, 2016, print edition as 'Amazon Takes Hit as Costs Surge'.\nLaura Stevens is a former reporter for The Wall Street Journal in San Francisco, where she covered e-commerce.\nPreviously, she covered freight and transportation in Atlanta and German banking and other news out of the\nJournal's bureau in Frankfurt.…\nShFeo gllorawduated from the University of Central Florida and was a Fulbright U.S. Young Journalist Program participant.\nhttps://www.wsj.com/articles/amazon-posts-smaller-than-expected-profit-1477599108 Page 4 of 5"
+        },
+        {
+          "filename": "Amazon.com Can’t Neglect Its Retail Roots - WSJ.pdf",
+          "title": "Amazon.com Can’t Neglect Its Retail Roots Amazon.com’s success in the cloud is well documented, but it must show its core retail business can eventually be highly profitable, too",
+          "published_date": "2016-10-26",
+          "text": "Amazon.com Can’t Neglect Its Retail Roots - WSJ 2026-08-28, 3:42 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/amazon-com-cant-neglect-its-retail-roots-1477510402\nSTOCKS\nAmazon.com Can’t Neglect Its Retail Roots\nAmazon.com’s success in the cloud is well documented, but it must show its core retail\nbusiness can eventually be highly profitable, too\nBy Steven Russolillo\nUpdated Oct. 26, 2016 at 3:54 pm ET\nAmazon.com Chief Executive Je! Bezos BLOOMBERG NEWS\nAmazon.com Inc. AMZN 3.91% boss Jeff Bezos is fond of saying “your margin is my\nopportunity.”\nTraditional retailers who scoffed at him 19 years ago when Amazon went public aren’t\nany more. Shareholders who stuck with the company, on the other hand, are laughing\nall the way to the bank with a 2,400% gain in the past decade.\nYet, with the e-commerce giant set to report its sixth consecutive quarter in the black\non Thursday, the source of more than half of its pretax operating earnings in its most\nhttps://www.wsj.com/articles/amazon-com-cant-neglect-its-retail-roots-1477510402 Page 1 of 3\nAmazon.com Can’t Neglect Its Retail Roots - WSJ 2026-08-28, 3:42 PM\nrecent report, is someone else’s opportunity.\nAmazon Web Services, the cloud-computing unit, will be affected by the offsetting\ntrends of rapid growth and brutal competition that has left much of the market\ncommoditized. Competitors such as Alphabet Inc.’s Google, International Business\nMachines Corp. and Microsoft Corp. are no dowdy brick-and-mortar merchants.\nWhat’s more, AWS might fetch far less as a stand-alone company than what its profits\nhave helped tack onto Amazon’s market value.\nInvestors therefore need to do more than see if Amazon misses or beats analyst\nconsensus third-quarter estimates Thursday. They will look for signs that its core\nretail business can eventually be highly profitable.\nMassive investment in Amazon’s warehouse and delivery infrastructure makes its\nposition increasingly difficult to challenge. Newer endeavors into music, groceries and\napparel are starting to pay off, too. Amazon is expected to top Macy’s Inc. next year as\nthe biggest apparel seller in the U.S., according to Cowen & Co.\nAmazon’s Prime membership program also is growing significantly. As of last month,\nAmazon is estimated to have 65 million U.S. Prime members, more than double what it\nhad two years ago, according to Consumer Intelligence Research Partners. The\nresearch firm estimates Prime members spend about twice as much as non-Prime\ncustomers.\nBut the stock trades above $800, having surged about 70% since February. About 90%\nof analysts who cover Amazon rate the stock a “buy,” the most bullish Wall Street has\nbeen on it since the dot-com boom. At least four have price targets of at least $1,000.\nHovering in this rarefied territory could leave the stock susceptible in the short run.\nEvidence of coming retail profitability, though, could put it in prime position.\nWrite to Steven Russolillo at steven.russolillo@wsj.com\nhttps://www.wsj.com/articles/amazon-com-cant-neglect-its-retail-roots-1477510402 Page 2 of 3\nAmazon.com Can’t Neglect Its Retail Roots - WSJ 2026-08-28, 3:42 PM\nAppeared in the October 27, 2016, print edition as 'Amazon Can’t Ignore Its Roots'.\nSteven Russolillo is a former deputy coverage chief on the Speed & Trending desk, a team focused on breaking news\nand covering trending stories and topics across search and social media.\nHe was previously strategy editor for the Journal's business and corporate coverage, responsible for driving digital…\ninnovation and using audience metrics to improve the reader experience.\nBefore that, Steven was a foreign correspondent for WSJ based in Hong Kong, where he covered stocks and\nFollow\ncryptocurrencies as a global markets reporter. He starred in the Journal's first original documentary: WSJCoin: To\nUnderstand Cryptocurrencies, We Created One.\nPrior to his stint in Hong Kong, Steven was the Ahead of the Tape columnist for the Journal's Heard on the Street\nteam in New York.\nSteven rejoined WSJ after working as a financial writer for Goldman Sachs Asset Management. Prior to that, he\nwas a MoneyBeat reporter for the Journal and the lead author of WSJ's daily markets newsletter.\nSteven has an MBA in finance from Baruch College in New York and a B.A. in history from the University of\nDelaware.\nhttps://www.wsj.com/articles/amazon-com-cant-neglect-its-retail-roots-1477510402 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "AMZN_2017q1": {
+    "ticker": "AMZN",
+    "group": "Group 1",
+    "company_name": "Amazon",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-02-02",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "The October selloff had already shown that investors would penalize Amazon when reinvestment overwhelmed the income statement. By February, the stock had recovered and expectations were again high, especially for holiday retail revenue and AWS growth.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Amazon: Amazon.com Announces Third Quarter Sales up 29% to $32.7 Billion",
+                  "url": "https://ir.aboutamazon.com/news-release/news-release-details/2016/Amazoncom-Announces-Third-Quarter-Sales-up-29-to-327-Billion/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Amazon reported holiday-quarter revenue of **$43.7 billion**, up 22%, and EPS of **$1.54**. EPS exceeded consensus near $1.35, but revenue was below the roughly $44.7 billion analysts expected. AWS continued to grow rapidly and Amazon finished 2016 with substantially higher annual operating income and net income.",
+              "sources": []
+            },
+            {
+              "text": "The problem was the forward growth signal. Amazon guided Q1 revenue to **$33.25–$35.75 billion**, which implied slower growth than investors had hoped for. Because the shares had rallied strongly into the print, a modest top-line miss carried more weight than the better-than-expected EPS.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Amazon: Amazon.com Announces Fourth Quarter Sales up 22% to $43.7 Billion",
+                  "url": "https://ir.aboutamazon.com/news-release/news-release-details/2017/Amazoncom-Announces-Fourth-Quarter-Sales-up-22-to-437-Billion/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Revenue missed expectations and the Q1 sales outlook was softer than the market wanted.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** EPS was better than expected, so the concern was growth quality rather than current profitability.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** High expectations after the pre-earnings rally amplified the impact of the top-line disappointment.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TechCrunch: Amazon fumbles earnings amidst high expectations",
+                  "url": "https://techcrunch.com/2017/02/02/amazon-fumbles-earnings-amidst-high-expectations/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Amazon/AMZN identity, the correct earnings event, publication date, timing window, and source-origin restrictions. No Reuters, Dow Jones, WSJ, or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Amazon: Amazon.com Announces Third Quarter Sales up 29% to $32.7 Billion",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2016/Amazoncom-Announces-Third-Quarter-Sales-up-29-to-327-Billion/default.aspx"
+        },
+        {
+          "label": "Amazon: Amazon.com Announces Fourth Quarter Sales up 22% to $43.7 Billion",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2017/Amazoncom-Announces-Fourth-Quarter-Sales-up-22-to-437-Billion/default.aspx"
+        },
+        {
+          "label": "TechCrunch: Amazon fumbles earnings amidst high expectations",
+          "url": "https://techcrunch.com/2017/02/02/amazon-fumbles-earnings-amidst-high-expectations/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Laura Stevens's article frames Amazon's fourth-quarter 2016 results as evidence of newfound spending discipline: profit jumped 55% to $749 million, topping the company's own guidance, even as revenue growth of 22% to $43.7 billion hit only the midpoint of Amazon's target range and came in below analysts' expectations. CFO Brian Olsavsky is quoted saying the company focuses on 'the things we can directly control: for us that's price, selection, customer experience,' while calling holiday promotions 'a cost of doing business' that weren't a major factor in the quarter. The piece contrasts Amazon favorably with traditional retailers like Target and Macy's, which had to warn on profits and report weak holiday sales after resorting to heavy discounting. Analysts cited in the article attribute Amazon's improved margins partly to a rising share of third-party seller sales, which carry near-pure profit margin since Amazon doesn't have to buy or hold that inventory. Moody's lead retail analyst Charlie O'Shea said Amazon has 'plenty of runway to continue with the present investment cycle.' The article notes Amazon captured an estimated 42% of total holiday online spending growth, versus Apple's 5%, per Slice Intelligence, extending a seven-quarter streak of profitability. It also flags upcoming investment pressures: a pledge to add 100,000 U.S. jobs by mid-2018, a new $1.5 billion air cargo hub in Kentucky, and an entry into ocean freight — all suggesting the profitability streak 'may come under pressure as the company enters a heavier period of investment.'",
+      "why_moved": "The stock traded down more than 4% after-hours, as the article reports, driven by the combination of revenue that only hit the midpoint of Amazon's own guidance and came in below analyst expectations, plus 'softer-than-expected guidance for the first quarter,' as stated in the piece. This is notable given that profit itself, as detailed above, actually beat Amazon's own guidance by a wide margin — the market's negative reaction centered specifically on the top-line growth shortfall and forward guidance rather than the bottom line. The article's closing emphasis on Amazon's pending 'heavier period of investment' — the 100,000-job pledge, the new Kentucky air hub, and expanding freight ambitions — provides context for why investors may have discounted the profit beat: the piece explicitly frames the seven-quarter profitability streak as one that 'may come under pressure' going forward, suggesting the market was already looking past this quarter's numbers toward higher spending ahead.",
+      "sources": [
+        {
+          "filename": "Amazon’s Profit Jumps, but Sales Growth Disappoints - WSJ.pdf",
+          "title": "Amazon’s Profit Jumps, but Sales Growth Disappoints Shares slide as company also issues lackluster sales guidance for current quarter",
+          "published_date": "2017-02-02",
+          "text": "Amazon’s Profit Jumps, but Sales Growth Disappoints - WSJ 2026-08-28, 3:58 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/amazons-profit-jumps-but-sales-growth-disappoints-1486070027\nTECH\nAmazon’s Profit Jumps, but Sales Growth\nDisappoints\nShares slide as company also issues lackluster sales guidance for current quarter\nBy Laura Stevens\nUpdated Feb. 2, 2017 at 7:21 pm ET\nAmazon reported its seventh straight profitable quarter. REUTERS\nAmazon.com Inc.’s AMZN 4.01% revenue growth and investments have for years\ncome at the expense of profit. Now, the retail giant appears to have exhibited more\ndiscipline to preserve its bottom line.\nThe Seattle-based retail giant on Thursday said fourth-quarter profit jumped 55% to\n$749 million, topping the company’s own guidance. On the other hand, revenue\nincreased 22% to $43.7 billion, hitting the midpoint of Amazon’s target, and below\nanalysts’ expectations.\n“There’s always a number of things that can impact customer spending, both\npositively and negatively during any quarter,” said CFO Brian Olsavsky on a\nhttps://www.wsj.com/articles/amazons-profit-jumps-but-sales-growth-disappoints-1486070027 Page 1 of 4\nAmazon’s Profit Jumps, but Sales Growth Disappoints - WSJ 2026-08-28, 3:58 PM\nconference call. “What we do, is continue to focus on the things we can directly\ncontrol: for us that’s price, selection, customer experience. And on those dimensions\nwe felt we made great progress.”\nMany retailers resorted to heavy promotions during the critical holiday season last\nyear. As a result, traditional brick-and-mortar chains ranging from Target Corp.\nTGT -1.60% to Macy’s Inc. have warned on profits and reported disappointing sales.\nAmazon said promotions—which Mr. Olsavsky called “a cost of doing business”—\nweren’t a major factor in fourth-quarter revenue.\nAmazon’s stronger margins likely reflect more discipline in spending and fewer\npromotions at the expense of profit, as well as a larger percentage of sales stemming\nfrom its third-party sellers, analysts said. Those sales are nearly pure profit margin\nbecause Amazon doesn’t have to buy and hold the product itself. It also gets paid for\nitems that sellers ship in for Amazon to fulfill.\nThe company has “plenty of runway to continue with the present investment cycle,”\nsaid Charlie O’Shea, lead retail analyst at Moody’s Investors Service.\nAmazon’s stock was trading down more than 4% after-hours Thursday on\ndisappointing fourth-quarter revenue and softer-than-expected guidance for the first\nquarter.\nAmazon often has bucked retail trends by dominating online sales. It commanded an\nestimated 42% of total holiday online spending growth last year, according to Slice\nIntelligence, which analyzes customer receipts. Apple Inc. was second, accounting for\n5% of holiday e-commerce growth.\nGrowth and investments have been Amazon’s priorities since it was a startup. In his\nfirst letter to shareholders in 1997, Chief Executive Jeff Bezos declared that his\nstrategy for creating shareholder value prioritized customer and revenue growth\n“because we believe that scale is central to achieving the potential of our business\nhttps://www.wsj.com/articles/amazons-profit-jumps-but-sales-growth-disappoints-1486070027 Page 2 of 4\nAmazon’s Profit Jumps, but Sales Growth Disappoints - WSJ 2026-08-28, 3:58 PM\nmodel.”\nBut the Amazon’s streak of seven profitable quarters—with a big jump in the most\nrecent period— may come under pressure as the company enters a heavier period of\ninvestment.\nLast month, Amazon pledged to create 100,000 full-time jobs in the U.S. by mid-2018—\na tip of the hat to President Donald Trump’s employment drive. That would require\nbuilding many more warehouses, some of which have been planned or announced.\nMoreover, the retail giant has started laying the groundwork for its own shipping\nbusiness to add more delivery capacity for the holidays, with the grander ambition of\none day hauling and delivering packages for itself, other retailers and consumers,\naccording to people familiar with the matter.\nAmazon this week announced it is building its first air cargo hub in Kentucky, a $1.5\nbillion project. It also recently made its debut in the ocean-freight sector, handling\nshipment of goods to its U.S. warehouses from Chinese merchants selling on its site. It\nis taking on a role it previously left to global freight-transportation companies.\nThose investments come in addition to Amazon’s branching out into industries other\nthan retail, including web services, smart-home devices and music and video content.\nIt recently became the first tech company to receive an Academy Award nomination\nfor Best Picture.\nAmazon is reaping the rewards of one project it has plowed money into: Prime, its $99\nannual membership program that includes perks such as free, two-day shipping, and\nmusic and video content.\nMr. Olsavsky, noting the tens of millions of customers who joined Prime last year, said,\n“We’re pleased with the results we’re seeing.”\nWrite to Laura Stevens at laura.stevens@wsj.com\nhttps://www.wsj.com/articles/amazons-profit-jumps-but-sales-growth-disappoints-1486070027 Page 3 of 4\nAmazon’s Profit Jumps, but Sales Growth Disappoints - WSJ 2026-08-28, 3:58 PM\nAppeared in the February 3, 2017, print edition as 'Amazon’s Profit Exceeds Target'.\nLaura Stevens is a former reporter for The Wall Street Journal in San Francisco, where she covered e-commerce.\nPreviously, she covered freight and transportation in Atlanta and German banking and other news out of the\nJournal's bureau in Frankfurt.…\nShFeo gllorawduated from the University of Central Florida and was a Fulbright U.S. Young Journalist Program participant.\nhttps://www.wsj.com/articles/amazons-profit-jumps-but-sales-growth-disappoints-1486070027 Page 4 of 4"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "AMZN_2017q2": {
+    "ticker": "AMZN",
+    "group": "Group 1",
+    "company_name": "Amazon",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-04-27",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After February’s revenue miss, Amazon needed to show that the slowdown was not becoming structural. Investors were also watching whether AWS margins could remain strong despite price cuts and infrastructure expansion.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Amazon: Amazon.com Announces Fourth Quarter Sales up 22% to $43.7 Billion",
+                  "url": "https://ir.aboutamazon.com/news-release/news-release-details/2017/Amazoncom-Announces-Fourth-Quarter-Sales-up-22-to-437-Billion/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q1 revenue increased **23% to $35.7 billion** and EPS rose to **$1.48** from $1.07. Amazon comfortably exceeded its own revenue and operating-income guidance. AWS revenue rose **43%**, while AWS operating income increased even faster to about **$890 million**.",
+              "sources": []
+            },
+            {
+              "text": "North America remained profitable, while International losses widened as Amazon invested heavily in India and other markets. That mix mattered: the company was showing strong consolidated earnings despite deliberately subsidizing long-term international growth. Q2 guidance still implied lower operating income year over year, keeping reinvestment risk visible.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Amazon: Amazon.com Announces First Quarter Sales up 23% to $35.7 Billion",
+                  "url": "https://ir.aboutamazon.com/news-release/news-release-details/2017/Amazoncom-Announces-First-Quarter-Sales-up-23-to-357-Billion/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Amazon beat its own revenue and operating-profit targets by a wide margin.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** AWS profit growth outpaced revenue growth, demonstrating resilient cloud economics despite price competition.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** International losses remained the main drag as Amazon funded expansion in India and other markets.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: How Amazon.com, Inc. Crushed Its Own Q1 Targets",
+                  "url": "https://www.fool.com/investing/2017/04/28/how-amazoncom-inc-crushed-its-own-q1-targets.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Amazon/AMZN identity, the correct earnings event, publication date, timing window, and source-origin restrictions. No Reuters, Dow Jones, WSJ, or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Amazon: Amazon.com Announces Fourth Quarter Sales up 22% to $43.7 Billion",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2017/Amazoncom-Announces-Fourth-Quarter-Sales-up-22-to-437-Billion/default.aspx"
+        },
+        {
+          "label": "Amazon: Amazon.com Announces First Quarter Sales up 23% to $35.7 Billion",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2017/Amazoncom-Announces-First-Quarter-Sales-up-23-to-357-Billion/default.aspx"
+        },
+        {
+          "label": "The Motley Fool: How Amazon.com, Inc. Crushed Its Own Q1 Targets",
+          "url": "https://www.fool.com/investing/2017/04/28/how-amazoncom-inc-crushed-its-own-q1-targets.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Laura Stevens reports Amazon's first-quarter 2017 profit rose 41% to $724 million, or $1.48 a share, comfortably beating the $1.12 a share analysts surveyed by Thomson Reuters had expected. Sales of $35.71 billion landed within Amazon's own guidance range of $33.25 billion-$35.75 billion and above the $35.3 billion analyst consensus. The stock rose 4.1% in after-hours trading following a session in which shares had already finished up 1%, extending a roughly 22% year-to-date gain. The article documents a new phase of 'heightened investment' that analysts expected to run at least through mid-2018, tied to Amazon's pledge to hire 130,000 U.S. workers in that window, international expansion into markets like Mexico and India (where Flipkart, backed partly by eBay, had just raised $1.4 billion), and a newly announced push into Australia. The international segment's operating loss widened slightly to $481 million on sales of $11.06 billion, up from $9.57 billion. The piece also details Amazon's buildout of its own logistics network — a first air cargo hub in Kentucky, 40 leased planes, more than 4,000 dedicated truck trailer hitches, and one-hour delivery now available in over 40 cities — which contributed to a 34% rise in shipping costs to $4.38 billion. AWS revenue grew 43% to $3.66 billion, though the article notes the unit 'is facing tougher competition from both Microsoft Corp. and Alphabet Inc.'s Google...amid price wars.' For the second quarter, Amazon guided to $35.25 billion-$37.75 billion in revenue, above the $36.87 billion analysts expected at the low end, with operating income guidance of $425 million-$1.08 billion.",
+      "why_moved": "The roughly 2-4% gain across the reaction window reflects the straightforward beat on both lines described above — EPS of $1.48 versus $1.12 expected, and sales above the $35.3 billion consensus — plus second-quarter revenue guidance that cleared the $36.87 billion analysts were modeling. That the stock rose despite the article's extensive documentation of 'heightened investment,' including international losses, the 34% jump in shipping costs, the new Kentucky air hub, and the multiyear hiring pledge, suggests investors were, at this point, willing to look past elevated spending as long as both current results and the growth trajectory continued to beat expectations. The article's closing note about AWS facing 'tougher competition' and cloud 'price wars' reads as a forward risk the piece flags rather than something that weighed on this particular reaction, since AWS's 43% growth this quarter still came in strong.",
+      "sources": [
+        {
+          "filename": "Amazon Posts Bigger-Than-Expected Increase in Profit - WSJ.pdf",
+          "title": "Amazon Posts Bigger-Than-Expected Increase in Profit Shares surge after hours as the online retailer’s results top consensus forecasts",
+          "published_date": "2017-04-27",
+          "text": "Amazon Posts Bigger-Than-Expected Increase in Profit - WSJ 2026-08-28, 4:01 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/amazon-posts-bigger-than-expected-increase-in-profit-1493323741\nTECH\nAmazon Posts Bigger-Than-Expected Increase in\nProfit\nShares surge after hours as the online retailer’s results top consensus forecasts\nBy Laura Stevens\nUpdated April 27, 2017 at 4:25 pm ET\nAmazon has long plowed most of its profits back into product development, warehouse expansion and delivery\ninfrastructure, though in recent periods it has shown some spending discipline. REUTERS\nAmazon.com Inc. posted a 41% rise in first-quarter profit, even as the company is\nspending heavily on everything from international expansion to video content.\nEarnings rose to $724 million, or $1.48 a share, from $513 million, or $1.07 a share, a\nyear earlier. Analysts surveyed by Thomson Reuters expected earnings, excluding\none-time items, of $1.12 a share.\nSales of $35.71 billion, up from $29.13 billion, were within Amazon’s own forecast of\nhttps://www.wsj.com/articles/amazon-posts-bigger-than-expected-increase-in-profit-1493323741 Page 1 of 4\nAmazon Posts Bigger-Than-Expected Increase in Profit - WSJ 2026-08-28, 4:01 PM\n$33.25 billion to $35.75 billion and above analysts’ expectations of $35.3 billion.\nAmazon’s shares rose 4.1% in after-hours trading after finishing up 1% at $918.38 on\nThursday. The stock has risen about 22% year-to-date through the close.\nThe Seattle-based online retailer has long plowed most of its profits back into product\ndevelopment, warehouse expansion and delivery infrastructure. In recent periods\nAmazon had shown some spending discipline, but the company has entered a new\nphase of heightened investment by expanding overseas, bolstering its shipping\noperations and broadening its video content.\nAnalysts expect the phase to last at least through mid-2018, in part due to Amazon’s\npromise to hire 130,000 U.S. workers during that time frame.\nA big piece of that spending is coming in international markets like Mexico and India,\nwhere the company is building out its Prime offerings and competing against heavily\nentrenched incumbents. Flipkart, Amazon’s main competitor in India, just drew\nanother big round of funding totaling $1.4 billion, including from U.S. rival eBay Inc.\nLast week, Amazon said it would be expanding its retail footprint to Australia.\nThe international business has been stuck in the red in recent quarters. That\nremained the case in the first quarter, as the division reported an operating loss of\n$481 million. Sales increased to $11.06 billion, from $9.57 billion a year ago.\nThe retail giant has also started laying the groundwork for its own shipping business\nto add capacity for itself, with the grander ambition of one-day hauling and delivering\npackages for itself, other retailers and consumers. In the first quarter, Amazon said it\nis building its first air hub in Kentucky and is also planning to add airfreight capacity\nfor Chinese customers. The company is leasing 40 planes and has more than 4,000\ndedicated truck trailer hitches as it aims to move more of its goods itself. And it has\nrolled out delivery in as little as an hour to more than 40 cities.\nBut that fast shipping likely contributed to the company’s shipping costs rising 34% in\nhttps://www.wsj.com/articles/amazon-posts-bigger-than-expected-increase-in-profit-1493323741 Page 2 of 4\nAmazon Posts Bigger-Than-Expected Increase in Profit - WSJ 2026-08-28, 4:01 PM\nthe first quarter to $4.38 billion.\nAmazon’s device business has been a bright spot for the company, with Chief\nExecutive Jeff Bezoswriting in his annual shareholder letter that it has been difficult\nto keep its artificial intelligence-powered Echo speakers in stock.\nThe company on Wednesday said it was introducing the Echo Look, a new version of\nthe device that includes a camera and offers fashion critiques.\nAnd analysts have said that high margin streams of revenue like those from its\nadvertising, subscription and credit card businesses are expected to continue to grow\nand help offset higher spending.\nAmazon offered guidance of operating income between $425 million and $1.08 billion\non revenue of between $35.25 billion and $37.75 billion for the second quarter.\nAnalysts polled by Thomson Reuters were looking for $36.87 billion in revenue.\nThe online retailer’s bottom line in the first quarter was boosted by its Amazon Web\nServices cloud computing division, which increased sales by 43% to $3.66 billion. The\nunit, which rents computing power to a variety of startups, government agencies and\nother corporations, has become a major factor in Amazon’s recent streak of\nprofitability.\nStill, the division is facing tougher competition from both Microsoft Corp. and\nAlphabet Inc.’s Google, prompting some concerns about whether the growth can\ncontinue on pace—especially amid price wars.\nWrite to Laura Stevens at laura.stevens@wsj.com\nAppeared in the April 28, 2017, print edition as 'Amazon Quarterly Profit Rises 41%'.\nhttps://www.wsj.com/articles/amazon-posts-bigger-than-expected-increase-in-profit-1493323741 Page 3 of 4\nAmazon Posts Bigger-Than-Expected Increase in Profit - WSJ 2026-08-28, 4:01 PM\nLaura Stevens is a former reporter for The Wall Street Journal in San Francisco, where she covered e-commerce.\nPreviously, she covered freight and transportation in Atlanta and German banking and other news out of the\nJournal's bureau in Frankfurt.…\nShFeo gllorawduated from the University of Central Florida and was a Fulbright U.S. Young Journalist Program participant.\nhttps://www.wsj.com/articles/amazon-posts-bigger-than-expected-increase-in-profit-1493323741 Page 4 of 4"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "This is a Dow Jones Newswires earnings preview published before Amazon's first-quarter 2017 results were released, so it does not report actual results or a market reaction. It previews analyst expectations of adjusted earnings of $1.12 per share, up from $1.07 a year earlier, and revenue of $35.3 billion versus $29.1 billion in the prior-year period. The piece flags that Amazon had shown 'more discipline to preserve its bottom line' in the fourth quarter but was entering 'a period of heavy investments,' including plans to add 130,000 U.S. jobs and expand warehouse capacity. It highlights international expansion as a theme to watch -- Amazon had launched Prime in Mexico and retail operations in Australia during the quarter, with international sales of $43.98 billion (up 24% year over year) that nonetheless posted an operating loss. The article also flags Amazon's construction of its first air hub in Kentucky and added airfreight capacity for Chinese customers as signals of its ambitions as an 'end-to-end transportation provider,' plus its first Oscar nomination and awards for 'Manchester by the Sea' as a potential draw for Prime subscriptions.",
+      "why_moved": "This article is a pre-earnings preview published before the results came out, so it does not report or explain any stock-price reaction; no such information is present in the piece.",
+      "sources": [
+        {
+          "title": "Amazon Earnings: What to Watch",
+          "url": "https://www.foxbusiness.com/features/amazon-earnings-what-to-watch"
+        }
+      ]
+    }
+  },
+  "AMZN_2017q3": {
+    "ticker": "AMZN",
+    "group": "Group 1",
+    "company_name": "Amazon",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-27",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Revenue growth remained strong, but Amazon was entering another major investment phase across fulfillment, video, Alexa, India and AWS capacity. The market therefore needed to decide how much near-term profit compression it was willing to tolerate for future growth.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Amazon: Amazon.com Announces First Quarter Sales up 23% to $35.7 Billion",
+                  "url": "https://ir.aboutamazon.com/news-release/news-release-details/2017/Amazoncom-Announces-First-Quarter-Sales-up-23-to-357-Billion/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q2 revenue increased **25% to $38.0 billion**, above expectations and above the top end of Amazon’s prior guidance. But net income fell nearly 80% to **$197 million**, or only **$0.40 per share**, versus analyst expectations around $1.41.",
+              "sources": []
+            },
+            {
+              "text": "The earnings shortfall was not caused by weak demand. North America revenue grew strongly and AWS revenue rose **42%** to about $4.1 billion. Instead, Amazon sharply increased spending on fulfillment capacity, logistics, digital video, Alexa, India and AWS infrastructure. AWS operating income of about **$916 million** also fell slightly short of expectations. Q3 operating-income guidance allowed for a loss, confirming that investment intensity would remain elevated.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Amazon: Amazon.com Announces Second Quarter Sales up 25% to $38.0 Billion",
+                  "url": "https://ir.aboutamazon.com/news-release/news-release-details/2017/Amazoncom-Announces-Second-Quarter-Sales-up-25-to-380-Billion/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock fell because EPS missed by roughly $1 per share despite strong revenue growth.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Heavy reinvestment—not weak demand—was the main reason consolidated profit collapsed.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** AWS remained strong, but even cloud profit was slightly below the market’s elevated expectations.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Not Even AWS Could Save Amazon.com's Bottom Line",
+                  "url": "https://www.fool.com/investing/2017/07/28/not-even-aws-could-save-amazoncoms-bottom-line.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Amazon/AMZN identity, the correct earnings event, publication date, timing window, and source-origin restrictions. No Reuters, Dow Jones, WSJ, or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Amazon: Amazon.com Announces First Quarter Sales up 23% to $35.7 Billion",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2017/Amazoncom-Announces-First-Quarter-Sales-up-23-to-357-Billion/default.aspx"
+        },
+        {
+          "label": "Amazon: Amazon.com Announces Second Quarter Sales up 25% to $38.0 Billion",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2017/Amazoncom-Announces-Second-Quarter-Sales-up-25-to-380-Billion/default.aspx"
+        },
+        {
+          "label": "The Motley Fool: Not Even AWS Could Save Amazon.com's Bottom Line",
+          "url": "https://www.fool.com/investing/2017/07/28/not-even-aws-could-save-amazoncoms-bottom-line.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Laura Stevens's article centers on Amazon's second-quarter 2017 profit falling 77% to $197 million — its smallest quarterly profit in nearly two years — even as sales jumped 25% to $38 billion. CFO Brian Olsavsky frames the spending as strategic, quoted saying the company invests in businesses where 'customers love them, they can grow to be large, they have strong financial returns and they are durable and can last for decades.' The piece explicitly states Amazon 'missed profit and guidance expectations,' and notes the stock's 2.3% after-hours decline was 'a tempered reaction given that other retail stocks often drop in the double digits when Amazon makes a move to compete in the same market' — framing this as relatively muted by Amazon's own standards. The article situates the results against Amazon's broader disruption of traditional retail: Gullane Capital's Trip Miller is quoted saying 'I would hate to be the competition in anything they get involved in,' and the piece cites Amazon's roughly 40-cents-of-every-online-dollar share (Slice Intelligence) versus Walmart's 1.7%, and 55% of product searches starting on Amazon versus 28% on search engines (BloomReach). It highlights the freshly announced $13.7 billion Whole Foods acquisition, noting Whole Foods' own comparable sales had fallen again, and reports Amazon becoming an official seller for Nike and Sears' Kenmore brand. On a symbolic note, the article records that Amazon's morning stock spike briefly made Jeff Bezos the world's richest person, with a net worth of $90.6 billion, before shares retreated by the close. AWS operating income of $916 million topped the entire company's $628 million operating income, even as the unit logged its fifth consecutive quarter of decelerating operating income growth (28%). Amazon guided to a potential operating loss in the third quarter, citing heavier holiday-season warehouse and hiring costs tied to its 130,000-worker pledge.",
+      "why_moved": "The roughly 2-3% pullback reflects the profit and guidance miss the article states directly, compounding the 77% profit decline described above with a warning that operating income 'could swing to a loss in the next quarter.' Yet the piece is explicit that the market's reaction was unusually restrained for Amazon — down only 2.3% after-hours — compared with the 'double digits' hit that rival retailers typically take when Amazon expands into their markets, suggesting investors were already conditioned to accept lower near-term profitability from Amazon in exchange for the dominant market-share gains and disruption narrative documented throughout the article, including the 40-cents-per-dollar online share and the 55% search-origination figure. The fifth consecutive quarter of decelerating AWS operating income growth cited above is a detail the article surfaces but does not explicitly connect to the share reaction, leaving it as a data point rather than an established driver.",
+      "sources": [
+        {
+          "filename": "Amazon’s Expansion Costs Take a Toll as Profit Falls 77% - WSJ.pdf",
+          "title": "Amazon’s Expansion Costs Take a Toll as Profit Falls 77% Retailer pours funds into new warehouses, data centers and Alexa service",
+          "published_date": "2017-07-27",
+          "text": "Amazon’s Expansion Costs Take a Toll as Profit Falls 77% - WSJ 2026-08-28, 4:01 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/amazons-revenue-rises-25-on-retail-dominance-1501187486\nTECH\nAmazon’s Expansion Costs Take a Toll as Profit Falls\n77%\nRetailer pours funds into new warehouses, data centers and Alexa service\nBy Laura Stevens\nUpdated July 27, 2017 at 7:32 pm ET\nPrepared orders sit ready for shipping at the Amazon Prime Now fulfillment center in Singapore. ORE HUIYING/\nBLOOMBERG NEWS\nAmazon.com Inc. AMZN 3.97% said quarterly profit fell 77% even as sales jumped, a\nsign of the high cost of its increasing dominance of retail.\nThe Seattle-based retailer eked out its smallest quarterly profit in nearly two years.\nThe company reported $197 million in profit on $38 billion in sales in the second\nquarter as it spent on new warehouses and delivery capacity for its retail business and\ndata centers for its cloud services business. The company also poured funds into\nhttps://www.wsj.com/articles/amazons-revenue-rises-25-on-retail-dominance-1501187486 Page 1 of 5\nAmazon’s Expansion Costs Take a Toll as Profit Falls 77% - WSJ 2026-08-28, 4:01 PM\nhiring engineers to work on its artificial intelligence Alexa service as well as\nwarehouse workers.\n“We are continuing to invest in businesses that will achieve four goals...Customers\nlove them, they can grow to be large, they have strong financial returns and they are\ndurable and can last for decades,” Chief Financial Officer Brian Olsavsky said on a\nmedia call. “That is, in essence, our investment philosophy.”\nAmazon’s 25% sales growth comes at the expense of traditional retailers, which are\nstruggling with declining foot traffic and the shift of consumer spending online. At a\ntime when Amazon is investing heavily and expanding, other retailers are saddled\nwith high debt loads and falling sales, forcing them to close stores and cut jobs—and\nextending Amazon’s advantage.\n“Amazon is a great disrupter in traditional\nretail,” said Trip Miller, founder and\nmanaging partner at Amazon investor\nGullane Capital LLC. “Everyone is pivoting\nand trying to change their game to deal with\nAmazon. I would hate to be the competition\nin anything they get involved in.”\nAmazon’s stock price was down 2.3% in after-\nhour trading as the company missed profit and guidance expectations, a tempered\nreaction given that other retail stocks often drop in the double digits when Amazon\nmakes a move to compete in the same market. Amazon shares, which finished\nThursday at $1,046, were up about 39% year-to-date at the close.\nHigh expectations for Amazon temporarily made founder and Chief Executive Jeff\nBezosthe world’s richest person on Thursday. Amazon’s stock hit a record in the\nmorning ahead of the results, edging Mr. Bezos in front of Microsoft Corp. founder Bill\nGates, before closing down. According to Forbes, which tracks a list of billionaires, Mr.\nhttps://www.wsj.com/articles/amazons-revenue-rises-25-on-retail-dominance-1501187486 Page 2 of 5\nAmazon’s Expansion Costs Take a Toll as Profit Falls 77% - WSJ 2026-08-28, 4:01 PM\nBezos reached a net worth of $90.6 billion as the market opened.\nAmazon is now making a big push into brick-and-mortar, something expected to\nfurther hurt traditional retail competitors. Last month, Amazon announced a $13.7\nbillion including debt acquisition of Whole Foods Market Inc., immediately\ncatapulting it into a major player in brick-and-mortar retail and grocery. Whole Foods\nreported Wednesday that comparable sales fell again in its latest quarter, a trend it\nhas promised to reverse by September.\nAdding Whole Foods “will be a big boost for us as we expand our offerings in\nconsumables and grocery,” Mr. Olsavsky said.\nThe shift from shopping in-store to online has left many powerful brands unable to\nignore Amazon, increasing the retailer’s dominance. Fifty-five percent of product\nsearches now start at Amazon, according to personalization platform company\nBloomReach, compared with 28% on search engines. In recent weeks, Amazon has\nbecome an official seller for Nike Inc. and Sears Holding Corp.’s Kenmore brand of\nappliances.\nAmazon has claimed more than 40 cents out of every dollar spent online over the past\nyear, according to receipt tracker Slice Intelligence, which has an online shopping\npanel of more than 5 million. Wal-Mart Stores Inc., in comparison, claimed about 1.7%\nof online spending over the same period.\nAmazon is now the second-largest apparel seller behind Wal-Mart after taking market\nshare from Target Corp. and several department stores, according to a research note\npublished by Morgan Stanley in April.\nBut the company’s outsize retail muscle is raising concerns about its growing size and\ninfluence. Amazon’s acquisition of Whole Foods has prompted roughly a dozen\nmembers of Congress to call for a close review of the deal. The Consumer Watchdog\ngroup is lobbying the Federal Trade Commission to block it on allegations that\nhttps://www.wsj.com/articles/amazons-revenue-rises-25-on-retail-dominance-1501187486 Page 3 of 5\nAmazon’s Expansion Costs Take a Toll as Profit Falls 77% - WSJ 2026-08-28, 4:01 PM\nAmazon’s pricing discounts are misleading, assertions Amazon has called “flat out\nwrong.”\nMr. Olsavsky said Amazon isn’t as dominant as it may appear. “The businesses we’re\nin are all very large market segments, with lots of very serious competition,” Mr.\nOlsavsky said. “Generally the number one thing that we’ll do at all times is align\nourselves with customers and continue to invent on their behalf.”\nDepartment stores are expected to post a 12% decline in earnings when they report in\ncoming weeks, according to FactSet, while apparel retailers are forecast to see profits\ndrop 8.5%.\nAmazon said it will continue to spend heavily on its growth, signaling a period of\nlower profit. That is particularly the case in the third quarter, Mr. Olsavsky said,\nbecause Amazon bulks up on warehouse staff and delivery capacity ahead of the all-\nimportant holiday season. Amazon said its operating income could swing to a loss in\nthe next quarter.\nOne of the bigger costs for the quarter will come from hiring new employees, part of\nits pledge to hire 130,000 U.S. workers through mid-2018. The company said on\nWednesday it plans to host a giant job fair next week to hire for its 50,000 current U.S.\nwarehouse openings. Amazon said Thursday that its global workforce rose by more\nthan 31,000 in the second quarter to 382,400.\nThe company may also have to pay its new warehouse hires more thanks to a tight\nlabor market in many logistics hubs as retailers and delivery companies compete for\nthe same small pool of workers.\nAmazon’s cloud-computing division continues to be the engine behind the retail\ngiant’s profits. Amazon Web Services’ operating income of $916 million topped total\noperating income for the entire company, which hit $628 million in the period. Even\nso, AWS, which competes against Microsoft and Alphabet Inc.’s Google, marked the\nhttps://www.wsj.com/articles/amazons-revenue-rises-25-on-retail-dominance-1501187486 Page 4 of 5\nAmazon’s Expansion Costs Take a Toll as Profit Falls 77% - WSJ 2026-08-28, 4:01 PM\nfifth consecutive quarter of declining operating income growth, which gained 28%.\n—Jay Greene contributed to this article.\nWrite to Laura Stevens at laura.stevens@wsj.com\nAppeared in the July 28, 2017, print edition as 'Amazon’s Expansion Costs Take a Toll'.\nLaura Stevens is a former reporter for The Wall Street Journal in San Francisco, where she covered e-commerce.\nPreviously, she covered freight and transportation in Atlanta and German banking and other news out of the\nJournal's bureau in Frankfurt.…\nShFeo gllorawduated from the University of Central Florida and was a Fulbright U.S. Young Journalist Program participant.\nhttps://www.wsj.com/articles/amazons-revenue-rises-25-on-retail-dominance-1501187486 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "This dedicated Amazon earnings story reports sales of $38 billion for the quarter, up 25% year over year, alongside a steep 77% drop in net income to $197 million -- described as the company's smallest quarterly profit in nearly two years. CFO Brian Olsavsky is quoted explaining the investment strategy behind the profit decline: 'We are continuing to invest in businesses that will achieve four goals...Customers love them, they can grow to be large, they have strong financial returns and they are durable and can last for decades.' The article details where that spending went -- warehouse and delivery infrastructure, data-center expansion for AWS, engineering talent for AI-powered Alexa development, and workforce growth, including more than 31,000 new global employees added in the quarter with plans to hire 130,000 U.S. workers through mid-2018. It also notes AWS generated $916 million in operating income, exceeding the company's total operating income of $628 million, though AWS operating-income growth (28%) marked a fifth consecutive quarter of deceleration. The piece frames Amazon's scale by noting it captured more than 40 cents of every online dollar spent and that 55% of product searches began on Amazon rather than traditional search engines, alongside its $13.7 billion Whole Foods acquisition.",
+      "why_moved": "The article does not state a specific stock-price reaction figure. It explains that net income plunged 77% to $197 million despite the 25% revenue growth, attributing the profit decline to heavy spending across warehouse and delivery infrastructure, AWS data-center capacity, Alexa-related engineering, and workforce expansion -- investments CFO Brian Olsavsky described as targeting businesses that are durable and can 'last for decades.' Beyond that explanation of the spending behind the profit drop, the article gives no explicit description of how the shares responded.",
+      "sources": [
+        {
+          "title": "Amazon's Revenue Rises 25%, But Profit Falls on Heavy Spending -- 2nd Update",
+          "url": "https://www.foxbusiness.com/features/amazons-revenue-rises-25-but-profit-falls-on-heavy-spending-2nd-update"
+        }
+      ]
+    }
+  },
+  "AMZN_2017q4": {
+    "ticker": "AMZN",
+    "group": "Group 1",
+    "company_name": "Amazon",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-10-26",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After the July profit miss, expectations for near-term earnings had been cut sharply. Amazon also closed the Whole Foods acquisition during Q3, adding a new physical-retail channel just as the market was questioning how much investment would be required to sustain growth.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Amazon: Amazon.com Announces Second Quarter Sales up 25% to $38.0 Billion",
+                  "url": "https://ir.aboutamazon.com/news-release/news-release-details/2017/Amazoncom-Announces-Second-Quarter-Sales-up-25-to-380-Billion/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q3 net sales jumped **34% to $43.7 billion**. Whole Foods contributed about $1.3 billion, but even excluding Whole Foods and currency effects, Amazon still landed above its prior revenue-guidance range. EPS was **$0.52**, dramatically above the tiny consensus expectation of roughly $0.03.",
+              "sources": []
+            },
+            {
+              "text": "The report also improved the forward picture. Amazon’s Q4 sales guidance had a midpoint around **$68 billion**, well above the roughly $59 billion analysts had expected, although part of the difference reflected Whole Foods. AWS revenue increased about **42%**, and Amazon exceeded its operating-profit target despite continued heavy investment.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Amazon: Amazon.com Announces Third Quarter Sales up 34% to $43.7 Billion",
+                  "url": "https://ir.aboutamazon.com/news-release/news-release-details/2017/Amazoncom-Announces-Third-Quarter-Sales-up-34-to-437-Billion/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** A massive earnings surprise and stronger-than-expected sales drove the sharp positive repricing.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Whole Foods added scale, but the core Amazon business also exceeded prior guidance.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Strong holiday-quarter guidance suggested the investment cycle was translating into faster growth.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Why Amazon.com Shares Are Soaring Today",
+                  "url": "https://www.fool.com/investing/2017/10/27/why-amazoncom-shares-are-soaring-today.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Amazon/AMZN identity, the correct earnings event, publication date, timing window, and source-origin restrictions. No Reuters, Dow Jones, WSJ, or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Amazon: Amazon.com Announces Second Quarter Sales up 25% to $38.0 Billion",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2017/Amazoncom-Announces-Second-Quarter-Sales-up-25-to-380-Billion/default.aspx"
+        },
+        {
+          "label": "Amazon: Amazon.com Announces Third Quarter Sales up 34% to $43.7 Billion",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2017/Amazoncom-Announces-Third-Quarter-Sales-up-34-to-437-Billion/default.aspx"
+        },
+        {
+          "label": "The Motley Fool: Why Amazon.com Shares Are Soaring Today",
+          "url": "https://www.fool.com/investing/2017/10/27/why-amazoncom-shares-are-soaring-today.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Laura Stevens reports Amazon's third-quarter 2017 revenue soared 34% to a record $43.74 billion — a first for a non-holiday period — narrowly topping the prior record set in the previous year's fourth quarter. The results 'enabled Amazon to surprise investors with a small profit increase to $256 million despite its costs bulging by 35%, a five-year high,' per the article, with CFO Brian Olsavsky attributing rising costs to investment in AWS, devices, and order fulfillment. This was the first quarter to include Whole Foods, which contributed about $1.28 billion in sales after the deal closed August 28; Olsavsky hinted at deeper integration ahead, saying 'over time you'll see more cooperation and more working together between AmazonFresh, Prime Now and Whole Foods.' Olsavsky also credited Prime Day in July — which 'especially grew overseas' — for strong sales growth. The article details a 42% jump in AWS revenue to $4.58 billion, continuing to anchor Amazon's profitability though 'facing tougher competition from both Microsoft Corp. and Google.' Notably, Amazon's advertising and co-branded credit-card category grew 58% in the quarter, with analysts quoted expecting it to become 'a potential threat to Alphabet Inc.'s Google and Facebook Inc.' over time. The piece also covers Amazon's broader ambitions, including a same-day Journal report that CVS was in talks to buy Aetna, Amazon's own reported interest in pharmaceuticals, and a leadership shake-up at Amazon Studios following the departure of Roy Price amid sexual-harassment allegations — though executives said they still planned to increase video investment 'next year' because it 'makes customers sign up for' Prime.",
+      "why_moved": "The roughly 12% two-day surge reflects that revenue not only grew 34% but 'beat estimates,' as the headline states, while profit still rose despite record cost growth — a combination the article frames as a genuine surprise ('enabled Amazon to surprise investors'). The 42% AWS growth and 58% advertising-category growth cited above gave investors visibility into two high-margin growth engines beyond the core retail business, reinforcing the profitability narrative even as overall costs hit a five-year high. The Whole Foods contribution, while modest in absolute dollars at $1.28 billion, signaled the acquisition was already additive to both sales and operating income — a detail the headline itself highlights, citing '$21 million to operating income' — which likely eased earlier investor uncertainty about the deal's near-term financial impact.",
+      "sources": [
+        {
+          "filename": "Amazon Revenue Rises 34%, Beating Estimates - WSJ.pdf",
+          "title": "Amazon Revenue Rises 34%, Beating Estimates Whole Foods adds $21 million to operating income and $1.3 billion in sales; shares up",
+          "published_date": "2017-10-26",
+          "text": "Amazon Revenue Rises 34%, Beating Estimates - WSJ 2026-08-28, 4:02 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/amazon-revenue-rises-34-beating-estimates-1509049892\nTECH\nAmazon Revenue Rises 34%, Beating Estimates\nWhole Foods adds $21 million to operating income and $1.3 billion in sales; shares up\nBy Laura Stevens\nUpdated Oct. 26, 2017 at 6:56 pm ET\nMarketing research firm eMarketer estimates that Amazon will command about 43.5% of total e-commerce sales\nthis year, compared with 38.1% last year. PATRICK SEMANSKY/ASSOCIATED PRESS\nAmazon.com Inc.’s revenue in the third quarter soared 34% to a record, a first for a\nnon-holiday period, as the internet retail giant spread its ambitions with the\nacquisition of grocer Whole Foods Market Inc. and widened its lead in cloud\ncomputing.\nThe sales of $43.74 billion, which barely topped the previous record set in last year’s\nfourth quarter, enabled Amazon to surprise investors with a small profit increase to\n$256 million despite its costs bulging by 35%, a five-year high.\nhttps://www.wsj.com/articles/amazon-revenue-rises-34-beating-estimates-1509049892 Page 1 of 4\nAmazon Revenue Rises 34%, Beating Estimates - WSJ 2026-08-28, 4:02 PM\n“Certainly costs are going up as we invest in some very key areas,” said Chief Financial\nOfficer Brian Olsavsky, citing such areas as Amazon Web Services, which rents\ncomputing power to other companies, and its devices business and order fulfillment.\nHead count increased 77% from a year earlier to 541,900 as the company added Whole\nFoods employees as well as tens of thousands of warehouse workers.\nThe third quarter is typically a period of heavy spending, as Amazon opens new\nwarehouses to get them up and running for the holidays. Amazon also hired 50,000\nworkers over the period to fill open positions following an August job fair, a feat\nbecoming more expensive as competition for labor increases in logistics hot spots.\nShares of the company rose 8% to $1,050.50 in after-hours trading after finishing\n$972.43 on Thursday. Shares were up about 30% year-to-date.\nMr. Olsavsky attributed strong sales growth to the company’s annual Prime Day in\nJuly when it offers deals, an event that especially grew overseas. Amazon is also\nseeing growth from an increase in Prime memberships as the company adds to those\nbenefits.\nThis was the first quarter where Amazon included Whole Foods results, which\ncontributed about $1.28 billion to sales after the acquisition closed on Aug. 28. Since\ntaking over the brick-and-mortar grocer, Amazon has slashed some in-store prices\nand said it plans to add Prime membership benefits to the payment system to reward\nloyalty. It is also selling Whole Foods private labels online.\nMr. Olsavsky hinted that Whole Foods may soon play a bigger role in the online retail\ngiant’s own delivery services.\n“I think over time you’ll see more cooperation and more working together between\nAmazonFresh, Prime Now and Whole Foods as we explore different ways to serve the\ncustomer,” he said.\nCurrently, Whole Foods partners with Instacart on grocery delivery, although analysts\nhttps://www.wsj.com/articles/amazon-revenue-rises-34-beating-estimates-1509049892 Page 2 of 4\nAmazon Revenue Rises 34%, Beating Estimates - WSJ 2026-08-28, 4:02 PM\nhave speculated Amazon could incorporate its new grocery subsidiary into its one-\nand two-hour Prime Now delivery options.\nAmazon also experienced growth in its category that includes its high-margin\nadvertising and co-branded credit card businesses, which grew 58% in the quarter.\nAnalysts expect the business line to keep growing and become an important driver of\nprofitability for the retail giant, and eventually a potential threat to Alphabet Inc.’s\nGoogle and Facebook Inc.\nThe online retailer’s bottom line was boosted by Amazon Web Services, which\nincreased sales by 42% to $4.58 billion. The cloud-computing unit has become a major\nfactor in Amazon’s recent streak of profitability.\nStill, the division is facing tougher competition from both Microsoft Corp. and Google,\nprompting some concerns about whether the growth can continue at the current pace.\nAmazon over the years has ventured far from its roots as an online bookseller in a bid\nto upend industry incumbents. Besides buying hundreds of brick-and-mortar stores\nfrom Whole Foods and developing cloud-data services, it is developing its own\ndelivery network and has become a significant video content creator.\nAmazon has also pushed into the business-to-business space, offering products to\nhospitals, labs and government agencies, and it is exploring selling pharmaceuticals\nto people, according to a person familiar with the matter. On Thursday, The Wall\nStreet Journal reported that drug retailer CVS Health Corp. is in talks to buy health\ninsurer Aetna Inc.\nAmazon Studios, another area of emphasis for the online retail giant, recently\nunderwent a shake-up after the departure of its head, Roy Price, following allegations\nof mismanagement and sexual harassment.\nStill, executives said that the company plans to continue to pour money into video,\nincreasing investments next year. That’s because it makes customers sign up for the\nhttps://www.wsj.com/articles/amazon-revenue-rises-34-beating-estimates-1509049892 Page 3 of 4\nAmazon Revenue Rises 34%, Beating Estimates - WSJ 2026-08-28, 4:02 PM\ncompany’s Prime membership.\n“We also know Prime members who watch video also spend more on Amazon,” added\nMr. Olsavsky.\nWrite to Laura Stevens at laura.stevens@wsj.com\nAppeared in the October 27, 2017, print edition as 'Amazon Revenue Up 34% in Quarter'.\nLaura Stevens is a former reporter for The Wall Street Journal in San Francisco, where she covered e-commerce.\nPreviously, she covered freight and transportation in Atlanta and German banking and other news out of the\nJournal's bureau in Frankfurt.…\nShFeo gllorawduated from the University of Central Florida and was a Fulbright U.S. Young Journalist Program participant.\nhttps://www.wsj.com/articles/amazon-revenue-rises-34-beating-estimates-1509049892 Page 4 of 4"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "This dedicated Amazon earnings story reports third-quarter sales of $43.74 billion, up 34% from $32.71 billion a year earlier and above both the company's own guidance of $39.25 billion to $41.75 billion and analyst expectations of $42.14 billion. Net income was $256 million, up slightly from $252 million a year earlier, translating to 52 cents per share versus a consensus estimate of just 8 cents. The article credits Whole Foods Market, acquired for $13.5 billion and integrated in late August, with contributing $1.3 billion in sales and $21 million in operating income, alongside price cuts at the grocer and the introduction of Prime benefits there. Amazon Web Services grew sales 42% to $4.58 billion, though the article notes rising competition from Microsoft and Alphabet's Google. Workforce expanded to 541,900 employees from 382,400 the prior quarter, partly reflecting Whole Foods' roughly 87,000-person addition, plus 50,000 new logistics hires. The company guided fourth-quarter operating income of $300 million to $1.65 billion on revenue of $56 billion to $60.5 billion.",
+      "why_moved": "The article states that shares climbed 7% to $1,041.50 in after-hours trading from Thursday's $972.43 close, with the stock up 30% year-to-date. It ties this reaction to results that beat both the company's own guidance and analyst revenue expectations, with earnings per share of 52 cents far exceeding the 8-cent consensus estimate, along with strong AWS growth (up 42%) and the contribution from the newly integrated Whole Foods acquisition.",
+      "sources": [
+        {
+          "title": "Amazon Revenue Rises 34%, Beating Estimates",
+          "url": "https://www.foxbusiness.com/features/amazon-revenue-rises-34-beating-estimates"
+        }
+      ]
+    }
+  },
+  "AMZN_2018q1": {
+    "ticker": "AMZN",
+    "group": "Group 1",
+    "company_name": "Amazon",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-02-01",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "The October quarter had restored confidence that Amazon could exceed expectations even while integrating Whole Foods. Holiday results therefore had to confirm that the combination of core e-commerce, AWS and the new physical-store business could sustain unusually high growth.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Amazon: Amazon.com Announces Third Quarter Sales up 34% to $43.7 Billion",
+                  "url": "https://ir.aboutamazon.com/news-release/news-release-details/2017/Amazoncom-Announces-Third-Quarter-Sales-up-34-to-437-Billion/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Holiday-quarter revenue rose **38% to $60.5 billion**, near the high end of Amazon’s guidance and above consensus. Operating income increased **69%**, and adjusted EPS excluding a one-time tax benefit was about **$2.19**, above expectations near $1.85.",
+              "sources": []
+            },
+            {
+              "text": "AWS remained central to the quality of the result, while Whole Foods contributed a full quarter of physical-store revenue. Amazon also guided Q1 revenue to **$47.75–$50.75 billion**, implying 34%–42% growth. The combination of very high sales growth and a step-up in underlying operating profit weakened the longstanding argument that Amazon could grow only by suppressing earnings.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Amazon: Amazon.com Announces Fourth Quarter Sales up 38% to $60.5 Billion",
+                  "url": "https://ir.aboutamazon.com/news-release/news-release-details/2018/Amazoncom-Announces-Fourth-Quarter-Sales-up-38-to-605-Billion/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Revenue and adjusted earnings both beat expectations, producing a high-quality holiday-quarter surprise.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Operating income accelerated, showing better profit conversion at scale.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Strong Q1 sales guidance kept the growth trajectory unusually high even after Whole Foods entered the base.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Why Amazon.com, Inc. Shares Jumped 8% Higher Today",
+                  "url": "https://www.fool.com/investing/2018/02/02/why-amazoncom-inc-shares-jumped-8-higher-today.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Amazon/AMZN identity, the correct earnings event, publication date, timing window, and source-origin restrictions. No Reuters, Dow Jones, WSJ, or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Amazon: Amazon.com Announces Third Quarter Sales up 34% to $43.7 Billion",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2017/Amazoncom-Announces-Third-Quarter-Sales-up-34-to-437-Billion/default.aspx"
+        },
+        {
+          "label": "Amazon: Amazon.com Announces Fourth Quarter Sales up 38% to $60.5 Billion",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2018/Amazoncom-Announces-Fourth-Quarter-Sales-up-38-to-605-Billion/default.aspx"
+        },
+        {
+          "label": "The Motley Fool: Why Amazon.com, Inc. Shares Jumped 8% Higher Today",
+          "url": "https://www.fool.com/investing/2018/02/02/why-amazoncom-inc-shares-jumped-8-higher-today.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Laura Stevens's article reports Amazon's fourth-quarter 2017 profit topped $1 billion for the first time, more than doubling to $1.9 billion, aided by a $789 million one-time tax benefit from the new U.S. tax overhaul. Beyond the tax item, the piece attributes the profit strength to 'strong performances by its cloud-computing division, growth in advertising services such as product placement in search results and better efficiency at its warehouses amid record holiday sales,' with CFO Brian Olsavsky citing 'constant cost reduction and productivity efforts...specifically in our warehouses.' Revenue rose 38% to $60.5 billion, at the top end of Amazon's own forecast and above the $59.83 billion analysts expected. The article states shares rose more than 6% in after-hours trading to $1,476, extending a roughly 65% one-year gain. It details the first full quarter of Whole Foods ownership, with 'physical stores' revenue of $4.52 billion (about 7% of total revenue), and notes Amazon's cashierless Amazon Go store had just opened after delays. AWS revenue grew 45% to $5.11 billion with operating income up about 46% to $1.35 billion, though the piece again flags 'tougher competition from both Microsoft Corp. and Alphabet Inc.'s Google.' The article also covers Amazon's newly announced health-care venture with JPMorgan and Berkshire Hathaway, and notes shipping costs grew 31% — a lower growth rate than in recent quarters — 'especially notable during the holiday season when costs tend to rise.' Guidance for the first quarter called for $47.75 billion-$50.75 billion in sales (34%-42% growth) and $300 million-$1 billion in operating income.",
+      "why_moved": "The article states shares rose more than 6% in after-hours trading to $1,476, on the combination described above -- revenue above the top of guidance, profit topping $1 billion for the first time, and moderating shipping-cost growth. It frames that as a straightforward beat-and-raise reaction: strong core retail execution alongside AWS's continued high-margin growth. The article does not cover anything beyond that immediate after-hours move, since it was written and published before the next trading session occurred, so it offers no information about how the reaction evolved afterward.",
+      "sources": [
+        {
+          "filename": "Amazon’s Quarterly Profit Tops $1 Billion for First Time - WSJ.pdf",
+          "title": "Amazon’s Quarterly Profit Tops $1 Billion for First Time Company’s profit was helped by a tax benefit of $789 million as part of the new tax overhaul",
+          "published_date": "2018-02-01",
+          "text": "Amazon’s Quarterly Profit Tops $1 Billion for First Time - WSJ 2026-08-28, 4:06 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/amazons-quarterly-profit-tops-1-billion-1517519407\nTECH\nAmazon’s Quarterly Profit Tops $1 Billion for First\nTime\nCompany’s profit was helped by a tax benefit of $789 million as part of the new tax\noverhaul\nBy Laura Stevens\nUpdated Feb. 1, 2018 at 6:38 pm ET\nA clerk rolls a cart full of customer orders while a bicyclist with a backpack of orders prepares to leave the Amazon\nPrime warehouse in New York in December. MARK LENNIHAN/ASSOCIATED PRESS\nAmazon.com Inc.’s AMZN 3.97% quarterly profit topped $1 billion for the first time,\nreflecting the company’s push to exhibit stronger fiscal discipline while\nsimultaneously broadening its ambitions beyond online retailing.\nThe Seattle company’s profit more than doubled to $1.9 billion during the all-\nimportant holiday quarter, extending its streak of profitability over two and a half\nyears. The company has long plowed most of the money it makes to build products,\nhttps://www.wsj.com/articles/amazons-quarterly-profit-tops-1-billion-1517519407 Page 1 of 5\nAmazon’s Quarterly Profit Tops $1 Billion for First Time - WSJ 2026-08-28, 4:06 PM\nroll out services and construct warehouses, but it is no longer racking up a string of\nlosses.\nIts profit was helped by a tax benefit of $789 million as part of the new tax overhaul.\nAmazon also attributed the black ink to strong performances by its cloud-computing\ndivision, growth in advertising services such as product placement in search results\nand better efficiency at its warehouses amid record holiday sales.\n“There’s certainly constant cost reduction and productivity efforts underway in many\nareas of the company, but specifically in our warehouses,” said Brian Olsavsky,\nAmazon’s chief financial officer.\nAmazon’s revenue during the fourth quarter rose 38% to $60.5 billion, at the top end\nof the company’s own forecast and above analysts’ expectations of $59.83 billion.\nIn after-hours trading on Thursday, the company’s shares rose more than 6% to\n$1,476. The stock is up about 65% over the past 12 months.\nThe revenue jump reflects the growing scale and scope of Amazon’s business from its\nstart as an online bookseller more than two decades ago in founder Jeff Bezos’s\ngarage.\nThe company now commands roughly three quarters of the smart-speaker market\nwith its Echo devices and has built out a major Hollywood studio. It is delivering its\nown packages and dominates the cloud-computing services space, with Amazon Web\nServices comprising more than 40% of the market.\nAmazon also transformed into a brick-and-mortar retailer overnight in August when\nit acquired Whole Foods and its roughly 470 stores for about $13.5 billion. Amazon\nannounced it would cut prices and add lockers, but hasn’t made too many drastic\nchanges yet. Initial traffic was up, and the acquisition is also helping Amazon sell\nmore groceries.\nhttps://www.wsj.com/articles/amazons-quarterly-profit-tops-1-billion-1517519407 Page 2 of 5\nAmazon’s Quarterly Profit Tops $1 Billion for First Time - WSJ 2026-08-28, 4:06 PM\nThe fourth quarter was Whole Foods’s first full period in the hands of Amazon. Sales\nof “physical stores,” which mostly include Whole Foods and a few other Amazon-\nowned retail outlets, were $4.52 billion, representing about 7% of the company’s total\nrevenue. Amazon didn’t provide a year-ago comparison, though Whole Foods\nreported roughly $3.5 billion a year ago.\nAmazon is growing its core retail business, opening its cashierless convenience store\nAmazon Go last month after delays and building out its private label brands. The\ncompany now commands north of 40 cents of each dollar spent online in the U.S.,\naccording to marketing-research firm eMarketer.\nEarlier this week, Amazon said it was teaming up with JPMorgan Chase & Co. and\nBerkshire Hathaway Inc. to form a new company to help lower health-care costs. That\nis increasingly important as Amazon grows, with its number of employees reaching\n566,000, up from 541,900 in the third quarter.\nAmazon’s increasing size and might have drawn criticism—most notably from\nPresident Donald Trump. In December, the president tweeted that the U.S. Postal\nService should charge Amazon and other companies more to deliver packages.\nAnd its trove of consumer data, from stored Echo device requests to a new camera\nsecurity system allowing Amazon to let itself into consumers’ houses, has raised\nconcerns among some consumers and privacy advocates. Amazon has said it installed\nmany layers of protections into the Echo and its in-home delivery system.\nBut revenue growth still outpaced costs, while shipping expenses, which rose 31%,\nrecorded lower growth than levels in recent quarters, especially notable during the\nholiday season when costs tend to rise.\nContinuing its streak of helping boost the tech giant’s bottom line, its Amazon Web\nServices division increased sales by 45% to $5.11 billion. The unit, which rents\ncomputing power to a variety of startups, government agencies and other\nhttps://www.wsj.com/articles/amazons-quarterly-profit-tops-1-billion-1517519407 Page 3 of 5\nAmazon’s Quarterly Profit Tops $1 Billion for First Time - WSJ 2026-08-28, 4:06 PM\ncorporations, has become a major factor in keeping Amazon in the black. Operating\nincome for the unit rose about 46% to $1.35 billion.\nStill, the division is facing tougher competition from both Microsoft Corp. and\nAlphabet Inc.’s Google, prompting some concerns about whether the growth can\ncontinue at the current pace.\nAmazon said it expects first-quarter sales of between $47.75 billion and $50.75 billion,\nwhich would be up 34% to 42% from a year earlier. It projects operating income for the\ncurrent quarter of $300 million to $1 billion, compared with $1 billion a year ago.\nWrite to Laura Stevens at laura.stevens@wsj.com\nAppeared in the February 2, 2018, print edition as 'Amazon Earnings Surpass $1 Billion'.\nLaura Stevens is a former reporter for The Wall Street Journal in San Francisco, where she covered e-commerce.\nPreviously, she covered freight and transportation in Atlanta and German banking and other news out of the\nJournal's bureau in Frankfurt.…\nShFeo gllorawduated from the University of Central Florida and was a Fulbright U.S. Young Journalist Program participant.\nhttps://www.wsj.com/articles/amazons-quarterly-profit-tops-1-billion-1517519407 Page 4 of 5\nAmazon’s Quarterly Profit Tops $1 Billion for First Time - WSJ 2026-08-28, 4:06 PM\nhttps://www.wsj.com/articles/amazons-quarterly-profit-tops-1-billion-1517519407 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "AMZN_2018q2": {
+    "ticker": "AMZN",
+    "group": "Group 1",
+    "company_name": "Amazon",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-04-26",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Amazon had just delivered a record holiday profit while sustaining extremely high sales growth. The April print therefore tested whether the improvement in profitability was becoming structural rather than simply seasonal.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Amazon: Amazon.com Announces Fourth Quarter Sales up 38% to $60.5 Billion",
+                  "url": "https://ir.aboutamazon.com/news-release/news-release-details/2018/Amazoncom-Announces-Fourth-Quarter-Sales-up-38-to-605-Billion/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q1 revenue surged **43% to $51.0 billion**, above both Amazon’s guidance and Wall Street expectations near $49.9 billion. EPS reached **$3.27**, more than double consensus near $1.27. Operating income rose **92% to $1.9 billion**, almost twice the high end of Amazon’s own guidance.",
+              "sources": []
+            },
+            {
+              "text": "AWS revenue accelerated to **49% growth**, while North America sales increased 46%. Third-party seller services and subscription revenue also grew very rapidly, improving the mix toward higher-margin services. Amazon then guided Q2 operating income to **$1.1–$1.9 billion**, well above the prior-year $628 million. The quarter showed genuine operating leverage alongside continued top-line acceleration.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Amazon: Amazon.com Announces First Quarter Sales up 43% to $51.0 Billion",
+                  "url": "https://ir.aboutamazon.com/news-release/news-release-details/2018/Amazoncom-Announces-First-Quarter-Sales-up-43-to-510-Billion/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Amazon demolished both earnings and revenue expectations while also exceeding its own profit guidance.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** AWS growth accelerated and remained the most important source of operating profit.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Higher-margin seller and subscription services improved the quality of the retail revenue mix.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Amazon Earnings Demolish Expectations: 6 Metrics You Should See",
+                  "url": "https://www.fool.com/investing/2018/04/27/amazon-earnings-demolish-expectations-6-metrics-yo.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Amazon/AMZN identity, the correct earnings event, publication date, timing window, and source-origin restrictions. No Reuters, Dow Jones, WSJ, or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Amazon: Amazon.com Announces Fourth Quarter Sales up 38% to $60.5 Billion",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2018/Amazoncom-Announces-Fourth-Quarter-Sales-up-38-to-605-Billion/default.aspx"
+        },
+        {
+          "label": "Amazon: Amazon.com Announces First Quarter Sales up 43% to $51.0 Billion",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2018/Amazoncom-Announces-First-Quarter-Sales-up-43-to-510-Billion/default.aspx"
+        },
+        {
+          "label": "The Motley Fool: Amazon Earnings Demolish Expectations: 6 Metrics You Should See",
+          "url": "https://www.fool.com/investing/2018/04/27/amazon-earnings-demolish-expectations-6-metrics-yo.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Three WSJ pieces published the same day, April 26, 2018, cover Amazon's first-quarter 2018 results from different angles. The main earnings article by Laura Stevens reports Amazon 'delivered a double punch': its best revenue growth in more than six years (43%, to about $51 billion, the strongest mark since Q3 2011) while topping $1 billion in profit for a second straight quarter, with net profit more than doubling to $1.6 billion — just under the prior quarter's $1.9 billion record. The piece explicitly states this beat expectations: investors 'were already expecting Amazon to post strong numbers,' but 'this quarter, Amazon was expected to post a more modest profit as it refocused on longer-term investments after a blowout holiday period' — meaning the magnitude of the profit beat was itself the surprise. CFO Brian Olsavsky guided operating income could 'potentially more than double to as high as $1.9 billion' in Q2, while cautioning 'we certainly will always have periods of higher investment.' The Dan Gallagher Heard on the Street column adds granular detail: operating income surged 93% to $1.9 billion, more than double the 43% sales growth rate, with AWS revenue up 49% to $5.4 billion and AWS operating profit up 57% to $1.4 billion — AWS now represented about 11% of revenue but generated 22% more profit than the North American retail arm despite that unit's nearly six-times-larger revenue base. The third article details Amazon's announced 20% Prime price increase to $119, its second increase in Prime's 13-year history, with Olsavsky explaining on the earnings call that 'the value of Prime to customers has never been greater' while costs — shipping and streaming content — have also risen; he contrasted today's more than 100 million Prime-eligible items against the roughly 20 million eligible for two-day shipping when the price last rose to $99 in 2014. The earnings piece also directly compares Amazon's $1.6 billion profit against much larger profits from peers reporting the same week: Facebook's nearly $5 billion (up 50% revenue, sending its stock up 9.1%), Microsoft's $7.42 billion (up 35%), and Alphabet's $9.4 billion (up 73%) — underscoring that Amazon's profit, while a record for the company, remained modest by mega-cap tech standards.",
+      "why_moved": "The roughly 7% after-hours pop (shares rose 7.2% to $1,627 per the main article) and the ~6.7% two-day return reflect the scale of the profit beat detailed above — operating income up 93% against 43% sales growth, as the Heard column emphasizes, delivering the 'double punch' of both record revenue growth and doubled profit that Stevens's piece frames as exceeding the 'more modest' profit investors had been bracing for post-holiday. The AWS figures cited above (49% revenue growth, 57% profit growth, generating outsized returns relative to its revenue share) reinforced the same margin-expansion story that has driven prior AMZN rallies, giving investors confidence the profit surge wasn't a one-off. Notably, the market's reaction came despite the same-day Prime price increase to $119 — a move that could have been read as a signal of rising internal cost pressure, since Olsavsky cited shipping and content costs — suggesting investors treated the fee hike as a positive incremental-revenue lever rather than a red flag, especially with over 100 million Prime members already in the base. The explicit comparison to Facebook, Microsoft, and Alphabet's larger absolute profits in the same article suggests the market's enthusiasm was less about closing that gap than about the trajectory, with Olsavsky's own guidance pointing to further growth in Q2 operating income.",
+      "sources": [
+        {
+          "filename": "Amazon Makes Its Biggest Delivery Yet - WSJ.pdf",
+          "title": "HEARD ON THE STREET Follow Amazon Makes Its Biggest Delivery Yet The e-commerce giant valued mainly for sales growth is becoming a profit machine",
+          "published_date": "2018-04-26",
+          "text": "Amazon Makes Its Biggest Delivery Yet - WSJ 2026-08-28, 4:10 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/amazon-makes-its-biggest-delivery-yet-1524780784\nHEARD ON THE STREET Follow\nAmazon Makes Its Biggest Delivery Yet\nThe e-commerce giant valued mainly for sales growth is becoming a profit machine\nBy Dan Gallagher\nApril 26, 2018 at 6:13 pm ET\nAmazon.com’s operating income surged 93% in the first quarter. BLOOMBERG NEWS\nInvestors have come to expect big things from Amazon.com. Profits haven’t always\nbeen among them.\nThat is quickly changing, as shown Thursday with solid first-quarter results.\nOperating income surged 93% year over year to $1.9 billion. That was more than\ndouble the company’s growth in sales, which jumped 43% to $51 billion. Amazon is\nsteadily making more of its money from businesses that are more profitable than\nshipping boxes of goods to consumers.\nhttps://www.wsj.com/articles/amazon-makes-its-biggest-delivery-yet-1524780784 Page 1 of 3\nAmazon Makes Its Biggest Delivery Yet - WSJ 2026-08-28, 4:10 PM\nChief among those is its AWS cloud unit, which generated $5.4 billion in revenue\nduring the quarter. That was up 49% year over year. More notably, operating profits at\nAWS surged by 57% to $1.4 billion.\nAWS now comprises about 11% of Amazon’s total revenue, but it makes 22% more in\nprofits than Amazon’s North American retail arm, which generates nearly six times\nthe revenue. It also doesn’t hurt that Amazon now owns a high-margin grocer in\nWhole Foods. Operating profit for the company’s North American retail unit nearly\ndoubled to $1.1 billion.\nThose numbers will be a relief to investors who already sent Amazon’s stock up 30%\nthis year. And it is worth remembering that Amazon’s growth never comes cheap.\nCapital spending, which includes its outlay for equipment acquired under capital\nleases, jumped 33% year over year to nearly $5.4 billion.\nAnother risk Amazon is facing these days is that Washington is taking more notice of\nthe company’s success. That could grow even sharper in light of the company’s plans\nto boost its Prime membership fee to $119. That price increase may ultimately prove\ncostly.\nDan Gallagher is a former columnist for The Wall Street Journal’s Heard on the Street, where he covered the\ntechnology and media industries. His work for the Heard column spanned the businesses of artificial intelligence,\nsemiconductors, internet, software, hardware, advertising, streaming TV and film. Dan also wrote WSJ's AI &…\nBusiness newsletter.\nHeF joollionwed the column in 2013 after nearly two decades covering tech as a news reporter—starting well before\nsmartphones got smart.\nDan previously spent 10 years at MarketWatch, where he built a data news team and served as technology editor.\nhttps://www.wsj.com/articles/amazon-makes-its-biggest-delivery-yet-1524780784 Page 2 of 3\nAmazon Makes Its Biggest Delivery Yet - WSJ 2026-08-28, 4:10 PM\nhttps://www.wsj.com/articles/amazon-makes-its-biggest-delivery-yet-1524780784 Page 3 of 3"
+        },
+        {
+          "filename": "Amazon Raises Annual Prime Price 20% to $119 - WSJ.pdf",
+          "title": "Amazon Raises Annual Prime Price 20% to $119 Executives cite higher costs for the program’s second price increase in 13 years",
+          "published_date": "2018-04-26",
+          "text": "Amazon Raises Annual Prime Price 20% to $119 - WSJ 2026-08-28, 4:10 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/amazon-raises-annual-prime-price-20-to-119-1524782720\nTECH\nAmazon Raises Annual Prime Price 20% to $119\nExecutives cite higher costs for the program’s second price increase in 13 years\nBy Laura Stevens\nApril 26, 2018 at 6:45 pm ET\nA package from Amazon Prime is loaded for delivery in New York. MARK LENNIHAN/ASSOCIATED PRESS\nAmazon.com Inc. AMZN 3.97% on Thursday said it would raise the annual price of its\nPrime membership program 20% to $119, a sizable leap that could deliver meaningful\nrevenue but also comes amid a sharp jump in fuel prices.\nOn a quarterly earnings call, Amazon’s executives said Prime’s second price increase\nin its 13-year history reflects the program’s rising costs and expanded options,\nspecifically faster shipping and a larger library of streaming music and video titles.\n“The value of Prime to customers has never been greater,” said Chief Financial Officer\nBrian Olsavsky on the call with analysts. “And the cost is also high, as we pointed out\nhttps://www.wsj.com/articles/amazon-raises-annual-prime-price-20-to-119-1524782720 Page 1 of 3\nAmazon Raises Annual Prime Price 20% to $119 - WSJ 2026-08-28, 4:10 PM\nespecially with shipping options and digital benefits.”\nThe price increase will apply to new members starting May 11 and affect renewing\nmembers as of June 16.\nAmazon announced the price change after reporting its quarterly revenue jumped\n43% and its profit more than doubled to $1.6 billion. Its loyal base of Prime members,\nwhich now top over 100 million globally, are estimated to spend far more than the\naverage shopper on the site.\nAmazon has built out its Prime program rapidly over the past decade, adding features\nincluding one- and two-hour delivery, original video content and free Kindle books.\nThe company has cited shipping costs for speedy delivery and video programming in\nparticular as major cost drivers.\nMost recently, the company has added Prime Now delivery of Whole Foods groceries\nto 10 U.S. markets, as well as the option to have packages delivered to customers’\ntrunks in millions of General Motors Co. and Volvo Cars vehicles.\nAmazon floated a price balloon earlier this year, raising the Prime monthly fee to\n$12.99 from $9.99. When the program started in 2005, it cost $75 annually. The last\ntime the company increased the annual price of Prime, to $99 in 2014, there were 20\nmillion items eligible for two-day shipping, Mr. Olsavsky said. Now there are more\nthan 100 million.\n“It’s much different than it was in 2014,” he added. “This is a better reflection of the\ncost value of the program.”\nWrite to Laura Stevens at laura.stevens@wsj.com\nhttps://www.wsj.com/articles/amazon-raises-annual-prime-price-20-to-119-1524782720 Page 2 of 3\nAmazon Raises Annual Prime Price 20% to $119 - WSJ 2026-08-28, 4:10 PM\nLaura Stevens is a former reporter for The Wall Street Journal in San Francisco, where she covered e-commerce.\nPreviously, she covered freight and transportation in Atlanta and German banking and other news out of the\nJournal's bureau in Frankfurt.…\nShFeo gllorawduated from the University of Central Florida and was a Fulbright U.S. Young Journalist Program participant.\nhttps://www.wsj.com/articles/amazon-raises-annual-prime-price-20-to-119-1524782720 Page 3 of 3"
+        },
+        {
+          "filename": "Amazon’s Fiscal Discipline Pays Off as It More Than Doubles Profit - WSJ.pdf",
+          "title": "Amazon’s Fiscal Discipline Pays Off as It More Than Doubles Profit Online retailer currently commands roughly 43 cents of every dollar spent online, according to analyst estimates",
+          "published_date": "2018-04-26",
+          "text": "Amazon’s Fiscal Discipline Pays Off as It More Than Doubles Profit - WSJ 2026-08-28, 4:12 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/amazons-fiscal-discipline-pays-off-as-results-beat-expectations-1524774174\nTECH\nAmazon’s Fiscal Discipline Pays Off as It More Than\nDoubles Profit\nOnline retailer currently commands roughly 43 cents of every dollar spent online,\naccording to analyst estimates\nBy Laura Stevens\nUpdated April 26, 2018 at 7:38 pm ET\nAmazon.com boxes stacked for delivery in New York. The company is launching its own delivery service and has\nscaled up its fast-delivery options. MIKE SEGAR/REUTERS\nAmazon.com Inc. on Thursday delivered a double punch, reporting its best revenue\ngrowth in more than six years while topping $1 billion in profit for the second straight\nquarter.\nThe results surprised investors who were already expecting Amazon to post strong\nnumbers as it extends its dominance in online retailing and builds on gains in cloud-\ncomputing services. But this quarter, Amazon was expected to post a more modest\nhttps://www.wsj.com/articles/amazons-fiscal-discipline-pays-off-as-results-beat-expectations-1524774174 Page 1 of 6\nAmazon’s Fiscal Discipline Pays Off as It More Than Doubles Profit - WSJ 2026-08-28, 4:12 PM\nprofit as it refocused on longer-term investments after a blowout holiday period.\nInstead, Amazon more than doubled its quarterly net profit to $1.6 billion—just under\nits record of $1.9 billion from the holiday quarter—as revenue surged about 43%. The\nprofit feat is an achievement for a company with a reputation for plowing nearly every\ndollar it earns into investments.\nThe revenue growth was Amazon’s best mark since the third quarter of 2011, pushing\nthe total to about $51 billion. The company credited the better-than-expected results\nto its cloud-services division and strong growth in the company’s advertising\nbusiness.\nAmazon’s swelling profitability doesn’t appear to be an anomaly—it expects operating\nincome to potentially more than double to as high as $1.9 billion in the second quarter\n—though Chief Financial Officer Brian Olsavsky cautioned he might not always have\nsuch good news.\n“We certainly will always have periods of higher investment, and through the year we\nexpect investments to increase,” particularly for video content, Mr. Olsavsky said. He\nadded that the company will continue to hire.\nAmazon Chief Executive Jeff Bezos has told investors his company is focused on\ncustomers first, sacrificing short-term profit to keep prices low, urgently ship\npackages and expand into a broad array of services, including cloud computing and\nmovie production. While it still spends heavily on logistics and expansion—its\nexpenses rose 42% to about $49 billion—the company appears no longer satisfied with\nrazor-thin profit margins.\nAmazon’s profit, however, pales in comparison with other technology giants that\ngenerate far less revenue. Facebook Inc. on Wednesday posted a profit of nearly $5\nbillion as its revenue surged 50%; shares in Facebook rose 9.1% on Thursday. Microsoft\nCorp.’s quarterly profit jumped 35% to $7.42 billion, while Google parent Alphabet\nhttps://www.wsj.com/articles/amazons-fiscal-discipline-pays-off-as-results-beat-expectations-1524774174 Page 2 of 6\nAmazon’s Fiscal Discipline Pays Off as It More Than Doubles Profit - WSJ 2026-08-28, 4:12 PM\nInc.’s profit soared 73% to $9.4 billion.\nShares in Amazon rose 7.2% in after-hours trading on Thursday to $1,627. The stock is\nup about 35% this year, propelling Amazon’s market value to over $700 billion and\nputting it neck and neck with Alphabet and Microsoft.\nAmazon’s dominant share of the e-commerce market is fueling revenue growth as\ntraditional brick-and-mortar chains increasingly struggle and close more stores.\nOnline sales are growing faster than overall retail, and Amazon currently commands\nroughly 43 cents of every dollar spent online, according to estimates by research firm\neMarketer. The company’s loyal base of Prime members, who analysts estimate spend\nsignificantly more than the average shopper on the site, now exceeds 100 million\nglobally.\nAmazon said Thursday it will raise Prime’s annual price in the U.S. by $20 to $119,\nmarking the second price increase in the program’s 13-year history.\nStill, Amazon has been spending heavily on building more warehouses and devices, as\nwell as bulking up on assets for its delivery network and video content. During the\nquarter, it started adding one- and two-hour delivery from its newly acquired Whole\nFoods Market grocery stores in a handful of markets, as well as gearing up for the\nlaunches this week of Echo devices for children and the ability to deliver to customers’\ncars.\nThose moves highlight Amazon’s rapid ascent from its roots as an online bookseller to\na conglomerate that offers a competitive line of tablets and voice-activated devices,\nruns a dominant cloud-services business and sells groceries from the neighborhood\nstore. As it expands into new business areas globally and furthers its reach into\nconsumers’ lives—from its Hollywood studios to its recent experimentation into\nhealth care and financial services—it is drawing attention to its growing clout.\nMost visibly, President Donald Trump in recent weeks lashed out at Amazon’s\nhttps://www.wsj.com/articles/amazons-fiscal-discipline-pays-off-as-results-beat-expectations-1524774174 Page 3 of 6\nAmazon’s Fiscal Discipline Pays Off as It More Than Doubles Profit - WSJ 2026-08-28, 4:12 PM\nbusiness practices and economic impact, raising questions about whether his\ncomments will spur lawmakers to take a harsher look at Amazon’s dominance. Other\ntech giants, including Alphabet and Facebook, are facing regulatory scrutiny over\ntheir companies’ vast reach and access to personal data.\nStill, policy experts say that targeting Amazon on anticompetition grounds would be\ndifficult, requiring overturning principles that have guided regulation for decades.\nAmazon has stayed silent on the topic.\nA bag of groceries from a Whole Foods Market in Jackson, Miss. Amazon has started adding one- and two-hour\ndelivery from the grocery stores in a handful of markets. ROGELIO V. SOLIS/ASSOCIATED PRESS\nAmazon has sought to differentiate itself from other tech giants by touting its job\ncreation. Last year, the company announced the creation of 130,000 part- and full-\ntime U.S. jobs through mid-2018, mostly at warehouses. It also launched the search for\na second headquarters, which it has said could bring 50,000 high-paying jobs and\nmore than $5 billion in investments over nearly two decades.\nThe emphasis on warehouse employees means Amazon’s median salary is just\n$28,446, compared with $240,430 at Facebook. In the first quarter, the number of\nglobal employees declined slightly from the fourth quarter to 563,100, although it was\nup 60% year-over-year.\nhttps://www.wsj.com/articles/amazons-fiscal-discipline-pays-off-as-results-beat-expectations-1524774174 Page 4 of 6\nAmazon’s Fiscal Discipline Pays Off as It More Than Doubles Profit - WSJ 2026-08-28, 4:12 PM\nContributing to the number of employees is Amazon’s acquisition of Whole Foods in\nAugust. Amazon has taken actions since buying the chain including lowering some\nprices, adding lockers in store and promising Prime benefits. Still, changes already\nunder way before Amazon acquired the company have caused some strains with\nsuppliers, and some executives have departed in recent months.\nRevenue from physical stores, which primarily reflect Whole Foods but also includes a\nfew Amazon bookstores and other physical locations, was $4.26 billion for the quarter,\nslightly below the fourth quarter’s $4.52 billion.\nAmazon has been heavily investing in transportation, too. The company is launching\nits own delivery service and has scaled up its fast-delivery options. But that comes at a\nprice, as world-wide shipping costs rose 38% to $6.1 billion, compared with the same\nquarter a year earlier.\nAmazon Web Services, the company’s cloud-services division, experienced big\ngrowth. Revenue at the division, which helps drive profit, rose 49% to $5.44 billion,\nwhile operating income increased 57% to $1.4 billion. The division has faced stronger\ncompetition from rivals such as Microsoft and Google in recent months. Microsoft\nsaid Thursday that its cloud-business revenue rose 93%, though it didn’t disclose a\ntotal.\nMr. Bezos called out AWS’s “remarkable acceleration” in growth in the company’s\nnews release, attributing it in part to the company’s seven-year head start and better\nfunctionality.\nThe company forecast revenue of between $51 billion and $54 billion and operating\nincome of between $1.1 billion and $1.9 billion for the second quarter, compared with\n$628 million a year earlier.\nWrite to Laura Stevens at laura.stevens@wsj.com\nAppeared in the April 27, 2018, print edition as 'Amazon Revs Up Profit, Revenue'.\nhttps://www.wsj.com/articles/amazons-fiscal-discipline-pays-off-as-results-beat-expectations-1524774174 Page 5 of 6\nAmazon’s Fiscal Discipline Pays Off as It More Than Doubles Profit - WSJ 2026-08-28, 4:12 PM\nLaura Stevens is a former reporter for The Wall Street Journal in San Francisco, where she covered e-commerce.\nPreviously, she covered freight and transportation in Atlanta and German banking and other news out of the\nJournal's bureau in Frankfurt.…\nShFeo gllorawduated from the University of Central Florida and was a Fulbright U.S. Young Journalist Program participant.\nhttps://www.wsj.com/articles/amazons-fiscal-discipline-pays-off-as-results-beat-expectations-1524774174 Page 6 of 6"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "AMZN_2018q3": {
+    "ticker": "AMZN",
+    "group": "Group 1",
+    "company_name": "Amazon",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-26",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After two consecutive quarters of unusually strong profit conversion, investors were beginning to value Amazon not only for revenue growth but also for its ability to expand margins through AWS, advertising and third-party services.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Amazon: Amazon.com Announces First Quarter Sales up 43% to $51.0 Billion",
+                  "url": "https://ir.aboutamazon.com/news-release/news-release-details/2018/Amazoncom-Announces-First-Quarter-Sales-up-43-to-510-Billion/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q2 revenue increased **39% to $52.9 billion**, slightly below consensus but still above the midpoint of Amazon’s guidance. The key surprise was profitability: operating income rose to **$3.0 billion** from $628 million a year earlier, while EPS surged to **$5.07**, more than double Wall Street expectations.",
+              "sources": []
+            },
+            {
+              "text": "AWS revenue increased **49% to $6.1 billion**, maintaining its acceleration, while higher-margin advertising and third-party services were also scaling rapidly. Amazon guided Q3 operating income to **$1.4–$2.4 billion**, representing several-fold growth from the prior year. The print therefore reinforced a structural shift: Amazon was still growing near 40%, but the marginal dollar of growth was becoming substantially more profitable.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Amazon: Amazon.com Announces Second Quarter Sales up 39% to $52.9 Billion",
+                  "url": "https://ir.aboutamazon.com/news-release/news-release-details/2018/Amazoncom-Announces-Second-Quarter-Sales-up-39-to-529-Billion/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** A huge earnings and operating-profit beat outweighed the small revenue shortfall.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** AWS continued accelerating and remained the primary profit engine.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Advertising and third-party services increasingly improved consolidated margins.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Amazon Earnings Trounce Expectations (Again!): 6 Metrics You Should See",
+                  "url": "https://www.fool.com/investing/2018/07/27/amazon-earnings-trounce-expectations-again-6-metri.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Amazon/AMZN identity, the correct earnings event, publication date, timing window, and source-origin restrictions. No Reuters, Dow Jones, WSJ, or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Amazon: Amazon.com Announces First Quarter Sales up 43% to $51.0 Billion",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2018/Amazoncom-Announces-First-Quarter-Sales-up-43-to-510-Billion/default.aspx"
+        },
+        {
+          "label": "Amazon: Amazon.com Announces Second Quarter Sales up 39% to $52.9 Billion",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2018/Amazoncom-Announces-Second-Quarter-Sales-up-39-to-529-Billion/default.aspx"
+        },
+        {
+          "label": "The Motley Fool: Amazon Earnings Trounce Expectations (Again!): 6 Metrics You Should See",
+          "url": "https://www.fool.com/investing/2018/07/27/amazon-earnings-trounce-expectations-again-6-metri.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Laura Stevens reports Amazon's second-quarter 2018 profit topped $2 billion for the first time ($2.53 billion, up from $197 million a year earlier), marking three straight quarters above $1 billion and extending a three-year profitability streak. The article attributes the jump to 'newer services businesses' — cloud computing, advertising, and third-party seller services — helping offset the traditionally lower-margin core retail business. CFO Brian Olsavsky credited 'a greater-than-expected efficiency in a lot of our spend, in warehouses, in data centers and also in things like marketing,' alongside reduced headcount growth. Operating margin reached 5.6%, the highest in more than a decade. However, the piece is explicit that 'quarterly revenue of $52.89 billion did underwhelm Wall Street, coming in a bit below estimates even if up 39%,' and that guided third-quarter revenue of $54 billion-$57.5 billion was 'also below analysts' consensus estimates' — a genuine top-line miss alongside the profit beat. The article notes online-store revenue growth was slowing, up 12% to $27.17 billion, 'a smaller lift than in the past several quarters,' with third-party sellers now accounting for about 53% of units sold at roughly a 15% take rate for Amazon — a structural shift toward higher-margin marketplace revenue. AWS revenue grew 49% to $6.1 billion, its third straight quarter of accelerating growth despite competition from Microsoft and Google, driven by machine-learning and analytics demand per Olsavsky. The 'other' (mostly advertising) category more than doubled to $2.19 billion, with Olsavsky calling it 'now a multibillion-dollar business for us.' The piece contrasts Amazon's quarter favorably against Facebook's report a day earlier, when Facebook signaled slowing growth and its stock plunged 19% — a reminder, the article says, 'that growth from tech's titans isn't always guaranteed.'",
+      "why_moved": "Despite the after-hours pop described in the article, with shares rising 3.2% to $1,866 immediately following the report, the stock's actual multi-day reaction was negative, down roughly 1.6% over two days, which aligns with the revenue miss the article flags directly — both current-quarter sales and forward guidance came in 'below' Wall Street's estimates, as noted above, even as profit dramatically beat. This is consistent with a pattern seen elsewhere in Amazon's WSJ coverage where the market weighs top-line growth, a proxy for the durability of Amazon's expansion story, more heavily than a single quarter's profit outperformance. The slowing 12% growth in the core online-store segment, explicitly flagged in the article as smaller than 'in the past several quarters,' may have compounded concern about deceleration in Amazon's largest reporting segment even as AWS and advertising continued to accelerate. The article's own juxtaposition with Facebook's growth-scare selloff the day before suggests investors entered Amazon's report already sensitized to growth-deceleration risk across large tech platforms, which likely sharpened the reaction to Amazon's revenue shortfall even though the headline profit number was a record.",
+      "sources": [
+        {
+          "filename": "Amazon’s Profit Soars to Record - WSJ.pdf",
+          "title": "Amazon’s Profit Soars to Record Tally for quarter tops $2 billion with help of newer services businesses",
+          "published_date": "2018-07-26",
+          "text": "Amazon’s Profit Soars to Record - WSJ 2026-08-28, 4:13 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/amazon-continues-profit-streak-1532635804\nTECH\nAmazon’s Profit Soars to Record\nTally for quarter tops $2 billion with help of newer services businesses\nBy Laura Stevens\nUpdated July 26, 2018 at 7:51 pm ET\nAmazon’s results in recent quarters have been boosted by a growing roster of high-margin businesses, o!setting its\ntraditional retail business, which tends to yield lower margins although surging revenue. MIKE SEGAR/REUTERS\nAmazon.com Inc.’s AMZN 3.97% profit topped $2 billion for the first time, powered by\nthe company’s newer services businesses that are ushering the online retail giant into\nan era of swelling profitability.\nFast-growing areas including the company’s cloud-computing business, advertising\nofferings and services it provides to sellers on its site helped propel Amazon to its\nhighest profit margin in years as executives said heavy investments are paying off.\nThose businesses have helped offset its traditional retail business, which tends to\nyield lower margins although still the bulk of its revenue.\nhttps://www.wsj.com/articles/amazon-continues-profit-streak-1532635804 Page 1 of 5\nAmazon’s Profit Soars to Record - WSJ 2026-08-28, 4:13 PM\nThe Seattle-based company on Thursday reported a second-quarter profit of $2.53\nbillion, up from $197 million a year earlier. That makes three straight quarters of\nprofits over $1 billion, and extends Amazon’s profitability streak across three years.\nNo longer is Amazon known for suffering losses or producing razor-thin income by\nplowing every dollar it makes back into investments. Still, other tech giants like\nAlphabet Inc. and Microsoft Corp. deliver much bigger profits.\n“They’re paying attention more to the investor community, where in the past they\nseemed more long-range focused,” said Christian Magoon, chief executive of Amplify\nETFs and portfolio manager for a fund whose investments include Amazon.\nAmazon’s blockbuster quarter contrasted with that of Facebook Inc., which late\nWednesday signaled that its growth was slowing, sending its stock plunging 19% on\nThursday. It was a reminder for investors that growth from tech’s titans isn’t always\nguaranteed.\nAmazon faces its own challenges. President Trump earlier this week again tweeted a\nthreat to the company, expressing his belief that Amazon takes advantage of the U.S.\nPostal Service, which he called its “delivery boy.” And some members of Congress\nhave expressed concern about Amazon’s growing size and power. Many of the\npresident’s tweets have sent stocks down on fears of tougher regulation or even\nantitrust action.\nNone of that is slowing Amazon, though its quarterly revenue of $52.89 billion did\nunderwhelm Wall Street, coming in a bit below estimates even if up 39%. And its\nforecast third-quarter revenue of between $54 billion and $57.5 billion is also below\nanalysts’ consensus estimates.\nBut the star for the period was Amazon’s profitability. Its operating margin was 5.6%,\na big jump from last year’s second quarter and the highest rate in more than a decade.\nOn a media call, finance chief Brian Olsavsky credited the profitability to a\nhttps://www.wsj.com/articles/amazon-continues-profit-streak-1532635804 Page 2 of 5\nAmazon’s Profit Soars to Record - WSJ 2026-08-28, 4:13 PM\ncombination of fiscal discipline and growth in the services businesses. “But it’s been\nmore than that,” he said. “We’ve seen a greater-than-expected efficiency in a lot of our\nspend, in warehouses, in data centers and also in things like marketing.” The company\nhas lowered head-count growth and spending, too. “It’s turning into a lot of\noperational efficiency,” Mr. Olsavsky said.\nThe results sent shares 3.2% higher in after-hours trading to $1,866. Before the late-\nafternoon report, the stock was up 55% this year, and its market value hovered around\n$860 billion. The only company worth more is Apple Inc., which is valued at about\n$946 billion and is scheduled to report its quarterly results on Tuesday.\nAmazon dominates e-commerce, and is now estimated to draw roughly half of every\ndollar spent online in the U.S. But its retail operation’s online-store growth is slowing\n—revenue rose 12% to $27.17 billion, a smaller lift than in the past several quarters.\nThe company has been looking elsewhere for expansion, pushing down the share of\noverall revenue from that segment stores to about half.\nWhile Amazon sells many of the products consumers find on its website, millions of\nsmall businesses, retailers and manufacturers provide the rest. About 53% of products\nsold in the quarter were from independent merchants on the site, helping drive\nprofitability.\nThe company collects roughly 15% on those sales. It also offers the chance for products\nto become eligible for Prime shipping via its network of warehouses for additional\nfees. That is typically cheaper than Amazon having to hold its own inventory.\nAmazon’s acquisition of Whole Foods Market, completed in August, has added a new\nstream of revenue from physical outlets. Amazon reported $4.31 billion in revenue\nfrom brick-and-mortar stores. In May, Amazon added Prime benefits to Whole Foods\nstores including 10% off discounted items and other special deals to juice sales.\nAdding benefits like these also have allowed Amazon to raise the price of its Prime\nhttps://www.wsj.com/articles/amazon-continues-profit-streak-1532635804 Page 3 of 5\nAmazon’s Profit Soars to Record - WSJ 2026-08-28, 4:13 PM\nmembership, recently boosting it 20% to $119 annually. More than 100 million Amazon\nusers are now Prime members, which offers unlimited two-day shipping, video\ncontent and other perks, and helps foster loyalty for customers who typically spend\ntwice the amount of a nonmember.\nOne of Amazon’s biggest profit drivers, Amazon Web Services, kept up its pace of\ngrowth, reporting revenue grew 49% to $6.1 billion. The division’s revenue growth has\naccelerated three straight quarters after shrinking, despite stronger competition from\nrivals including Microsoft and Alphabet’s Google in recent months. AWS offerings\nincluding machine learning, artificial intelligence and analytics have proven popular\nfor customers, Mr. Olsavsky said.\nAmazon also is taking some digital-advertising business, albeit small, away from\nGoogle and Facebook as brands advertise more on the online retailer’s site. Amazon’s\nadvantage is that it can tell advertisers when a consumer bought a product, showing\nan ad’s effectiveness. Amazon also is attracting spending that would have\ntraditionally taken place in brick-and-mortar stores to ensure good shelf placement.\n“Stepping back, it’s now a multibillion-dollar business for us,” Mr. Olsavsky said.\nThe hundreds of thousands of customers buying up ads include merchants and brands\nselling on the site, as well as authors and other advertisers who want to reach Amazon\ncustomers. The company is going to keep working on automating more of the process\nand inventing new products, too.\nAmazon’s “other” category, which is primarily derived from advertising, more than\ndoubled from a year ago to $2.19 billion.\n“The amount of business they’re doing creates room for quite a bit of investment,”\nsays Stephen Lee, founding principal of Logan Capital Management which holds the\nstock in one of its funds. “The numbers have gotten so large, even substantial\ninvestments aren’t the hit to cash and profitability it used to be.”\nhttps://www.wsj.com/articles/amazon-continues-profit-streak-1532635804 Page 4 of 5\nAmazon’s Profit Soars to Record - WSJ 2026-08-28, 4:13 PM\nWrite to Laura Stevens at laura.stevens@wsj.com\nAppeared in the July 27, 2018, print edition as 'Amazon Hits Record Profit On Services'.\nLaura Stevens is a former reporter for The Wall Street Journal in San Francisco, where she covered e-commerce.\nPreviously, she covered freight and transportation in Atlanta and German banking and other news out of the\nJournal's bureau in Frankfurt.…\nShFeo gllorawduated from the University of Central Florida and was a Fulbright U.S. Young Journalist Program participant.\nhttps://www.wsj.com/articles/amazon-continues-profit-streak-1532635804 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": null
+  }
+}

@@ -1,0 +1,1080 @@
+{
+  "AMZN_2016q2": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Amazon guided second-quarter revenue to $28.0–$30.5 billion, keeping growth expectations strong."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Amazon reported $29.1 billion of revenue, up 28% year over year, versus consensus of roughly $28.0 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The underlying release (a cited source) announced the new Kindle Oasis e-reader along with the Echo Dot and Amazon Tap."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. EPS came in at $1.07 versus contemporaneous expectations of about $0.58, a dramatic swing given Amazon's history of prioritizing growth over earnings."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. The underlying release showed worldwide shipping costs up about 42% year over year to $3.3 billion."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "positive",
+        "reason": "Capital investment was constructive. Trailing-twelve-month capex rose only about 5% to $4.9 billion versus 28% revenue growth."
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. CEO Jeff Bezos highlighted strong demand for Amazon devices, saying the company builds premium products at non-premium prices.'."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. Underlying reporting cited growing Prime-linked unearned revenue (up to $3.77 billion) and continued expansion into India."
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Amazon's overall revenue climbed 28% to $29 billion in the quarter."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Net income totaled $513 million versus a loss of $57 million a year earlier, beating Wall Street's projections and fueling an after-hours stock surge."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. RBC's Jonathan Atkin noted AWS had avoided major price cuts over the past year despite already carrying some of the industry's lowest prices."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. The column flags valuation and sustainability risk: at about 100 times forward earnings."
+      }
+    }
+  },
+  "AMZN_2016q3": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. The one caution was Q3 operating-income guidance of only $50–$650 million."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Amazon delivered $30.4 billion of revenue, up 31%, exceeding the prior high-end operating-income guidance context and expectations."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The underlying release detailed new products and features."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. EPS reached $1.78 versus just $0.19 a year earlier."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Shipping costs continued climbing faster than sales, up about 44% year over year to $3.4 billion per the underlying release."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "positive",
+        "reason": "Capital investment was constructive. Trailing twelve-month capex up 17% to $5.4 billion versus 31% revenue growth, consistent with improving operating leverage."
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. Management commentary from CEO Jeff Bezos was upbeat about international momentum: The team in India is inventing at a torrid pace."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. The report highlighted a record second annual Prime Day (60% more orders than 2015) and continued expansion into India."
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Forecasting third-quarter sales of $31 billion to $33.5 billion."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Revenue jumped 31% to $30.4 billion versus $23.19 billion a year earlier, beating the $28 billion to $30.5 billion range analysts expected."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. New monthly (rather than only annual) Prime and video subscription options."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Second-quarter profit reached $857 million ($1.78/share), far above the $1.11 analysts expected."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Shipping costs continued to outpace sales growth, jumping 44% to $3.36 billion as the company added warehouses and last-mile delivery capacity."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "positive",
+        "reason": "Capital investment was constructive. CFO Olsavsky reaffirmed Amazon's investment philosophy was unchanged."
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. CFO Brian Olsavsky defended the investment plan and expressed confidence in operations."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. The article frames Amazon's dominance over traditional retail."
+      }
+    }
+  },
+  "AMZN_2016q4": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Amazon guided Q4 operating income to a very wide $0–$1.25 billion range."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Third-quarter sales rose 29% to $32.7 billion, broadly matching expectations, while AWS revenue grew 55%."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The underlying Q3 release detailed a wave of new product launches."
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. EPS of $0.52 was well below consensus near $0.78, and North America operating margin fell sharply from Q2 as spending accelerated."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Costs rose sharply as spending accelerated: the underlying release showed fulfillment expenses up 34% and trailing shipping costs up 43% year over year."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "negative",
+        "reason": "Capital spending was a concern. Trailing capex up 37% to $6.0 billion, outpacing revenue growth as Amazon expanded fulfillment and AWS infrastructure."
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. CEO Jeff Bezos highlighted Alexa's cultural traction."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. International segment losses widened as Amazon invested heavily in India and other new markets."
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Amazon issued fourth-quarter revenue guidance of $42 billion to $45.5 billion, below the $44.6 billion analysts had expected."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Sales rose to $32.7 billion even though heavy investment caused earnings to miss expectations."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. Operating margin falling to 1.8% from 4.2% in Q2."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Costs surged as Amazon opened 23 new warehouses since July (versus three in the first half of the year) and shipping costs rose 43% to $3.9 billion."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "negative",
+        "reason": "Capital spending was a concern. Heavy warehouse and logistics investment continued, including leasing 40 planes and building a proprietary trucking network."
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. CFO Brian Olsavsky defended the heavy investment as deliberate strategy."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. A bar the disappointing results did not clear."
+      }
+    }
+  },
+  "AMZN_2017q1": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Amazon guided Q1 revenue to $33.25–$35.75 billion."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. Holiday-quarter revenue of $43.7 billion, up 22%, came in below the roughly $44.7 billion analysts expected."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Alexa-related sales up 9x year over year during the holidays and the debut of the Amazon Go checkout-free store concept."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. EPS of $1.54 exceeded consensus near $1.35, and full-year operating and net income both rose substantially."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. The underlying release showing worldwide net shipping costs up about 43% year over year to $2.6 billion."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": "positive",
+        "reason": "Capital management was supportive. Long-term debt actually declined to $7.7 billion from $8.2 billion a year earlier."
+      },
+      "Capex": {
+        "rating": "negative",
+        "reason": "Capital spending was a concern. Capital spending accelerated further, with trailing twelve-month capex up 47% to $6.7 billion, continuing to outpace revenue growth."
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. CEO Jeff Bezos touted expanding Prime value, noting members could choose from over 50 million items with free two-day shipping."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. The underlying release announced a pledge to add more than 100,000 new full-time U.S."
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. The stock fell on softer-than-expected guidance for the first quarter,' as the article states directly, compounding the revenue miss."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. Revenue increased 22% to $43.7 billion, hitting only the midpoint of Amazon's own target range and coming in below analysts' expectations."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Fourth-quarter profit jumped 55% to $749 million, topping the company's own guidance by a wide margin."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. Amazon's stronger margins reflected more spending discipline and fewer promotions, as well as a rising share of high-margin third-party seller sales."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "negative",
+        "reason": "Capital spending was a concern. The article flags a coming heavier period of investment,' including the pledge to create 100,000 U.S."
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. CFO Brian Olsavsky attributed the results to focusing on the things we can directly control: for us that's price."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. Amazon captured an estimated 42% of total holiday online-spending growth versus Apple's 5%."
+      }
+    }
+  },
+  "AMZN_2017q2": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Q2 guidance still implied lower operating income year over year, keeping reinvestment risk visible even after a strong quarter."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q1 revenue increased 23% to $35.7 billion, comfortably exceeding Amazon's own guidance."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The underlying release detailed new product launches including the camera-equipped Echo Look and international expansion of Fire TV Stick to."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. EPS rose to $1.48 from $1.07, with Amazon comfortably exceeding its own operating-income guidance."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "negative",
+        "reason": "Capital spending was a concern. Capital spending kept accelerating, with trailing capex up 51% to $7.4 billion, continuing to outpace revenue growth."
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. CEO Jeff Bezos highlighted rapid progress in India."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. International losses widened as Amazon invested heavily in India and other new markets."
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Amazon's $35.25–$37.75 billion revenue range had a $36.5 billion midpoint versus $36.87 billion consensus."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Sales of $35.71 billion landed within Amazon's own guidance range and above the $35.3 billion analyst consensus."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The article highlights strong device demand."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Profit rose 41% to $724 million ($1.48/share), comfortably beating the $1.12 analysts had expected."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Shipping costs rose 34% in the quarter to $4.38 billion, continuing to climb as fast delivery options expanded."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "negative",
+        "reason": "Capital spending was a concern. The company continued heavy logistics investment, building its first air hub in Kentucky, leasing 40 planes."
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. The piece flags competitive risk: AWS is facing tougher competition from both Microsoft Corp."
+      }
+    },
+    "djnw": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": null,
+        "reason": null
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The preview flagged Amazon's first Oscar nomination and awards win for Manchester by the Sea' as a potential draw for Prime subscriptions."
+      },
+      "Profits and profitability": {
+        "rating": null,
+        "reason": null
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "negative",
+        "reason": "Capital spending was a concern. Including a pledge to add 130,000 U.S. jobs, expanded warehouse capacity, a new Kentucky air-cargo hub."
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. The preview notes Amazon's international segment posted an operating loss despite 24% sales growth."
+      }
+    }
+  },
+  "AMZN_2017q3": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Q3 operating-income guidance allowed for an outright loss, confirming that investment intensity would remain elevated."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q2 revenue increased 25% to $38.0 billion, above expectations and above the top end of Amazon's own guidance."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The underlying release detailed the launch of the video-screen Echo Show and four new Fire tablets."
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. Net income fell nearly 80% to $197 million ($0.40/share), versus analyst expectations around $1.41."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Spending on fulfillment, video, Alexa, India and AWS infrastructure drove the sharp profit shortfall."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "negative",
+        "reason": "Capital spending was a concern. Trailing capex up 52% to $8.2 billion."
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. CEO Jeff Bezos framed the elevated spending positively, saying it's energizing to invent on behalf of customers."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Amazon guided to a potential operating loss in the third quarter, citing heavier holiday-season warehouse and hiring costs."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Sales jumped 25% to $38 billion even as profit fell, underscoring continued strong top-line demand."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. Quarterly profit fell 77% to $197 million, the company's smallest profit in nearly two years, missing profit and guidance expectations."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. The company poured funds into new warehouses, data centers."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "negative",
+        "reason": "Capital spending was a concern. Capital leases and infrastructure investment increased sharply as Amazon spent on new warehouses and data centers for AWS."
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. CFO Brian Olsavsky defended the spending strategy, saying Amazon invests in businesses that customers love them, they can grow to be large."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. Capturing more than 40 cents of every online dollar spent and 55% of product searches."
+      }
+    },
+    "djnw": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Sales grew 25% to $38 billion year over year, a robust headline growth figure even as profit fell."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Profitability was weak. Net income plunged 77% to $197 million, described as the company's smallest quarterly profit in nearly two years."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. The steep profit decline was attributed to heavy spending across warehouse and delivery infrastructure, AWS data-center capacity, Alexa-related engineering."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "negative",
+        "reason": "Capital spending was a concern. AWS data-center capacity expansion was cited as a specific driver of the spending surge behind the profit decline."
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. CFO Brian Olsavsky explained the spending as deliberate investment in durable."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. The article notes AWS operating-income growth of 28% marked a fifth consecutive quarter of deceleration."
+      }
+    }
+  },
+  "AMZN_2017q4": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Amazon's Q4 sales guidance had a midpoint around $68 billion."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q3 net sales jumped 34% to $43.7 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Echo Spot, a new 4K Fire TV."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. EPS was $0.52, dramatically above the tiny consensus expectation of roughly $0.03."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Costs kept climbing with scale: the underlying release showed fulfillment expenses up 48% and technology & content spending up 44% year over year."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": "negative",
+        "reason": "The capital position was a concern. Amazon issued roughly $16.1 billion in long-term debt over the trailing nine months."
+      },
+      "Capex": {
+        "rating": "negative",
+        "reason": "Capital spending was a concern. Capital spending continued to climb, with trailing capex up 49% to $9.0 billion."
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. Contributing about $1.3 billion in sales."
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Revenue soared 34% to a record $43.74 billion, a first for a non-holiday period, beating estimates' as the headline states."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Amazon surprised investors with a small profit increase to $256 million' despite costs bulging 35% (a five-year high), beating expectations."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Costs bulged 35% — a five-year high — as CFO Olsavsky cited investment in AWS, devices, and order fulfillment."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "negative",
+        "reason": "Capital spending was a concern. Headcount surged 77% to 541,900 as Amazon added Whole Foods staff and tens of thousands of warehouse workers ahead of the holiday season."
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. CFO Brian Olsavsky signaled deeper integration ahead for Whole Foods."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. The advertising and co-branded credit-card category grew 58% in the quarter."
+      }
+    },
+    "djnw": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. The article notes results beat both the company's own prior guidance ($39.25–$41.75 billion) and analyst revenue expectations ($42.14 billion)."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Third-quarter sales of $43.74 billion, up 34%, beat both Amazon's own guidance and analyst expectations of $42.14 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Earnings per share of 52 cents far exceeded the 8-cent consensus estimate, with net income up slightly to $256 million."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. The article credits the newly integrated Whole Foods acquisition with contributing $1.3 billion in sales and $21 million in operating income."
+      }
+    }
+  },
+  "AMZN_2018q1": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Amazon guided Q1 revenue to $47.75–$50.75 billion."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Holiday-quarter revenue rose 38% to $60.5 billion, near the high end of Amazon's guidance and above consensus."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The underlying release detailed continued Alexa momentum (30,000 third-party skills) and the public opening of the cashierless Amazon Go store."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Operating income increased 69%, and adjusted EPS excluding a one-time tax benefit was about $2.19, above expectations near $1.85."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Fulfillment expenses rose 28% year over year to $8.97 billion per the underlying release, continuing to climb with scale."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": "negative",
+        "reason": "The capital position was a concern. Long-term debt jumped sharply to $24.7 billion from $7.7 billion."
+      },
+      "Capex": {
+        "rating": "negative",
+        "reason": "Capital spending was a concern. Capital spending kept climbing, with trailing capex up 49% to $10.1 billion."
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. CEO Jeff Bezos was notably bullish on Alexa, saying Our 2017 projections for Alexa were very optimistic, and we far exceeded them."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. Amazon also announced a healthcare venture with JPMorgan Chase and Berkshire Hathaway and narrowed its HQ2 site search to 20 finalist cities."
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Amazon said it expects first-quarter sales of $47.75 billion to $50.75 billion, up 34% to 42% from a year earlier."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Revenue rose 38% to $60.5 billion, at the top end of the company's own forecast and above analysts' expectations of $59.83 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The article highlights Amazon's growing device dominance, commanding roughly three-quarters of the smart-speaker market with Echo."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Quarterly profit topped $1 billion for the first time."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. Shipping costs rose 31%, slower than 38% revenue growth, while warehouse productivity helped profit exceed $1 billion."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. CFO Brian Olsavsky credited constant cost reduction and productivity efforts."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. The piece flags political and privacy scrutiny: President Trump criticized Amazon's use of the Postal Service."
+      }
+    }
+  },
+  "AMZN_2018q2": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Amazon then guided Q2 operating income to $1.1–$1.9 billion."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Q1 revenue surged 43% to $51.0 billion, above both Amazon's guidance and Wall Street expectations near $49.9 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The underlying release detailed new product and service launches including Fire TV Edition smart TVs (with Best Buy)."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. EPS reached $3.27, more than double consensus near $1.27."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Fulfillment expenses jumped 66% year over year to $7.8 billion, materially outpacing revenue growth."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "negative",
+        "reason": "Capital spending was a concern. Capital spending continued to climb, with Q1 capex of $3.1 billion and trailing twelve-month capex reaching $12.9 billion."
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. CEO Jeff Bezos credited AWS's competitive position to its head start."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. Higher-margin third-party seller and subscription revenue both grew very rapidly (44% and 60% respectively per the underlying release)."
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Amazon forecast Q2 revenue of $51 billion to $54 billion and operating income of $1.1 billion to $1.9 billion."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Revenue surged about 43% to roughly $51 billion, the company's best growth mark since the third quarter of 2011."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The articles detail new device rollouts, including Echo devices for children and the ability to deliver packages to customers' cars."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Topping $1 billion in profit for a second straight quarter and surprising investors who had expected a more modest."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Worldwide shipping costs rose 38% year over year to $6.1 billion as Amazon scaled up fast-delivery options."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "negative",
+        "reason": "Capital spending was a concern. Capital spending, including capital-lease equipment, jumped 33% year over year to nearly $5.4 billion, per the Heard on the Street column."
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. CFO Brian Olsavsky cautioned that investment would continue rising, particularly for video content."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. Amazon raised its annual Prime membership price 20% to $119."
+      }
+    }
+  },
+  "AMZN_2018q3": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Amazon guided Q3 operating income to $1.4–$2.4 billion."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. Q2 revenue increased 39% to $52.9 billion, slightly below consensus even though it was still above the midpoint of Amazon's own guidance."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The underlying release detailed continued AWS service launches."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. The key surprise was profitability: operating income rose to $3.0 billion from $628 million a year earlier."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs were a headwind. Fulfillment expenses rose sharply to $7.9 billion from $5.2 billion a year earlier per the underlying release, even as overall profitability improved."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "negative",
+        "reason": "Capital spending was a concern. Capital spending kept climbing, with trailing capex up 39% to $11.4 billion."
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. CEO Jeff Bezos highlighted Alexa's expanding developer ecosystem."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. Amazon's record Prime Day."
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue performance was weak. Quarterly revenue of $52.89 billion did underwhelm Wall Street."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profitability was strong. Profit topped $2 billion for the first time."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. CFO Brian Olsavsky credited a greater-than-expected efficiency in a lot of our spend."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. CFO Brian Olsavsky attributed the profit jump to fiscal discipline and growth in services."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. The article notes core online-store revenue growth was slowing."
+      }
+    }
+  }
+}

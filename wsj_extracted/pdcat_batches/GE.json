@@ -1,0 +1,1210 @@
+{
+  "GE_2016q2": {
+    "ticker": "GE",
+    "group": "Group 2",
+    "company_name": "General Electric",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-22",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "GE was still in the middle of its transformation away from GE Capital and toward a more concentrated industrial company. Investors were watching whether Alstom integration and strength in Aviation/Power could offset weak Oil & Gas and Transportation demand.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "GE Investor Relations: GE 4th Quarter & Total Year 2015 Earnings Webcast",
+                  "url": "https://www.ge.com/investor-relations/events-reports/ge-4th-quarter-total-year-2015-earnings-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "GE reported industrial operating plus Verticals EPS of **$0.21**, above the roughly $0.19 consensus, while adjusted industrial revenue was about **$27.6 billion**, roughly in line with expectations. Total industrial margins excluding Alstom improved to **12.8%**, and GE reaffirmed its full-year EPS framework.",
+              "sources": []
+            },
+            {
+              "text": "The weaker details were in the underlying industrial indicators. **Organic industrial segment revenue declined 1%**, organic orders fell **7%**, and industrial operating profit declined **3%**. Oil & Gas remained especially weak, while Industrial CFOA was only about **$0.4 billion**, down sharply year over year. The quarter therefore beat on EPS but did not resolve doubts about organic growth and cash generation.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "GE Investor Relations: GE 1st Quarter 2016 Earnings Webcast",
+                  "url": "https://www.ge.com/investor-relations/events-reports/ge-1st-quarter-2016-earnings-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock fell because weak organic revenue, orders and industrial profit outweighed the EPS beat.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Oil & Gas and Transportation weakness made the full-year organic-growth target look harder to reach.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Alstom integration and better margins were positives, but they did not fully offset the weak underlying demand signals.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: GE Stock Lower Following Q1 Earnings",
+                  "url": "https://www.thestreet.com/markets/ge-stock-lower-following-q1-earnings-13541161"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for GE identity, the correct earnings event, publication date, timing window and source origin. GE Investor Relations / SEC is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "GE Investor Relations: GE 4th Quarter & Total Year 2015 Earnings Webcast",
+          "url": "https://www.ge.com/investor-relations/events-reports/ge-4th-quarter-total-year-2015-earnings-webcast"
+        },
+        {
+          "label": "GE Investor Relations: GE 1st Quarter 2016 Earnings Webcast",
+          "url": "https://www.ge.com/investor-relations/events-reports/ge-1st-quarter-2016-earnings-webcast"
+        },
+        {
+          "label": "TheStreet: GE Stock Lower Following Q1 Earnings",
+          "url": "https://www.thestreet.com/markets/ge-stock-lower-following-q1-earnings-13541161"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "GE reported first-quarter revenue up 6.1% to $27.85 billion, but profit declines in units making locomotives, power turbines and oil-industry equipment weighed on the bottom line, with core industrial operating profit down 7% to $3.3 billion. CEO Jeff Immelt said the conglomerate's diversity let it withstand a \"very challenging environment,\" especially in oil and gas: \"Most of the portfolio is strong, and we're delivering. There's plenty of business out there to achieve our goals.\" The company maintained its overall annual guidance but cut its outlook specifically for the oil-and-gas unit, now expecting operating profit there to fall as much as 30% on a revenue decline of up to 20%; oil-business profit had already fallen 37% in the quarter with equipment orders down 70%, and CFO Jeffrey Bornstein said \"The first quarter was way softer than we expected it to be,\" noting U.S. active onshore rig counts fell 27% versus GE's expectation of about half that. GE's power business, integrating the Alstom acquisition, saw profit fall 28% excluding Alstom, though the company expected improvement in the second half. The jet-engine business was a bright spot, with profit up 16% despite an orders decline, even as federal regulators issued a safety directive on certain GE engines over ice-buildup risk. GE continued its exit from GE Capital, ahead of schedule, having signed deals for $166 billion of a planned roughly $200 billion in asset sales, and had filed to shed its \"systemically important\" financial-institution designation. Overall, the company posted a net loss of $98 million tied largely to discontinued operations, versus a $13.57 billion loss a year earlier that reflected an $8.94 billion discontinued-operations loss and a $6.3 billion tax provision.",
+      "why_moved": "The article does not report how GE's stock traded in reaction to this release. It frames the quarter as mixed, with headline revenue growth of 6.1% overshadowed in the piece by profit declines across the locomotive, power-turbine and oil-equipment businesses, and centers the story on management's acknowledgment that oil-and-gas conditions were \"softer\" than expected, alongside the maintained overall annual guidance and the accelerated wind-down of GE Capital.",
+      "sources": [
+        {
+          "filename": "Oil Gloom Hurts GE Results - WSJ.pdf",
+          "title": "Oil Gloom Hurts GE Results Conglomerate reports higher revenue but power and oil-industry equipment units weigh on earnings",
+          "published_date": "2016-04-22",
+          "text": "Oil Gloom Hurts GE Results - WSJ 2026-08-29, 5:19 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/ge-posts-revenue-core-earnings-growth-1461322120\nBUSINESS EARNINGS\nOil Gloom Hurts GE Results\nConglomerate reports higher revenue but power and oil-industry equipment units weigh\non earnings\nBy Ted Mann\nUpdated April 22, 2016 at 7:32 pm ET\nGeneral Electric said it is dealing with a ‘very challenging environment.’ ASSOCIATED PRESS\nThe global oil-market rout continued to weigh on General Electric Co., which posted a\nquarterly decline in operating income and orders for its core industrial businesses.\nGE reported a 6.1% gain in revenue for the first three months of 2016, but profit\ndeclines in units making locomotives, power turbines and oil-industry equipment\nhurt its bottom line.\nChief Executive Jeff Immelt said the conglomerate’s diversity enabled it to withstand\na “very challenging environment,” especially in the oil and gas business. The company\nhttps://www.wsj.com/articles/ge-posts-revenue-core-earnings-growth-1461322120 Page 1 of 4\nOil Gloom Hurts GE Results - WSJ 2026-08-29, 5:19 PM\nmaintained its annual guidance for investors but lowered its outlook for the oil unit,\nsaying its operating profit could fall 30% over the course of 2016 on as much as a 20%\ndrop in revenue.\n“Diversity is a key strength during this period of volatility,” Mr. Immelt said on a\nconference call. “Most of the portfolio is strong, and we’re delivering. There’s plenty\nof business out there to achieve our goals.”\nThe collapse in crude oil prices has hit GE in the midst of a generational shift at the\ncompany. Mr. Immelt is selling off the bulk of GE Capital, the financial services arm\nthat once provided half of GE’s profit but became a drag after nearly collapsing during\nthe financial crisis.\nThe exit from the finance business is ahead of schedule, Mr. Immelt said Friday. GE has\nsigned deals for $166 billion of the roughly $200 billion in assets it plans to sell from\nthe unit. GE filed a request to regulators on March 31 that would allow it to shed its\ndesignation as a systemically important financial institution and exit supervision by\nthe Federal Reserve.\nMeanwhile, GE said it is making progress integrating the power-equipment business\nit bought last year from France’s Alstom SA. Profit in the power business, excluding\nAlstom, fell 28% in the first quarter, but the company expects revenue and earnings to\nrise in the second half of the year.\nThe company’s jet-engine business was strong, with profit up 16% despite a decline in\nequipment orders. This week, federal regulators issued a safety directive requiring\nairlines to fix or replace certain GE engine models to prevent ice buildup that could\nlead the engines to shut down.\nThe gloomy performance of the oil business dominated. GE reported declines across\nall the unit’s product lines, which include compressors, flexible risers and valves. The\nbusiness has been hardest hit by drop-offs in subsea oil exploration and onshore oil\nhttps://www.wsj.com/articles/ge-posts-revenue-core-earnings-growth-1461322120 Page 2 of 4\nOil Gloom Hurts GE Results - WSJ 2026-08-29, 5:19 PM\nand gas production in the U.S., said Chief Financial Officer Jeffrey Bornstein.\n“The first quarter was way softer than we expected it to be,” Mr. Bornstein said in an\ninterview. The number of active onshore oil rigs in the U.S. slid by 27% in the first\nquarter, he noted, when GE had expected a drop of half that size for the industry.\nProfit in the company’s oil business fell 37% compared with a year earlier, while\nequipment orders dropped 70%.\nFor the quarter ended March 31, GE reported an operating profit of $3.3 billion for its\ncore industrial business, down 7% from a year earlier.\nOverall, GE posted a net loss of $98 million tied largely to discontinued operations,\nincluding some within its finance unit. A net loss of $13.57 billion in the year-earlier\nfirst quarter reflected an $8.94 billion loss from discontinued operations and a $6.3\nbillion income-tax provision. Revenue in the latest period rose to $27.85 billion.\nOil wasn’t as significant a burden on GE rival Honeywell International Inc., which\nreported a 9% jump in earnings despite a 38% drop in sales in its business unit that\nmakes catalysts and adsorbents for the oil refining and petrochemical industry.\nHoneywell Chief Financial Officer Thomas Szlosek said demand for gasoline and\npetrochemicals remains high, which means customers haven’t interrupted production\ncycles to reinvest in plants and refineries.\n“The customers are running those facilities very hard, not stopping to reload their\ncatalysts,” he said in an interview. “The good news is that has to stop some time. The\nbetter news is we have a nice backlog of orders, particularly in the catalyst business.”\nHoneywell booked a first-quarter profit of $1.19 billion. Revenue increased 3.4% to $9.5\nbillion.\nEarlier this year, Honeywell held merger talks with United Technologies Corp. but\nabandoned its pursuit after it was rebuffed by United Technologies. On Friday,\nhttps://www.wsj.com/articles/ge-posts-revenue-core-earnings-growth-1461322120 Page 3 of 4\nOil Gloom Hurts GE Results - WSJ 2026-08-29, 5:19 PM\nHoneywell CEO David Cote told investors that he had moved on: “It’s done. It’s past. It\nhad its time, and that time has gone.”\n—Anne Steele and Andy Pasztor contributed to this article.\nWrite to Ted Mann at ted.mann@wsj.com\nAppeared in the April 23, 2016, print edition as 'GE Battles Energy Slump'.\nTed Mann was a reporter in the Journal's Washington bureau. He previously covered General Electric and other\nindustrial conglomerates for the corporate bureau in New York, and reported on transportation for the Greater New\nYork section. Before joining the Journal, he covered politics and government in Connecticut.\nFollow\nhttps://www.wsj.com/articles/ge-posts-revenue-core-earnings-growth-1461322120 Page 4 of 4"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "The article reports mixed results for General Electric, with a reported net loss of $98 million, or $0.01 per share, an improvement from a $13.57 billion, or $1.35 per share, loss a year earlier, and revenue up 6.1% to $27.85 billion. Excluding the wind-down of GE Capital, the company posted adjusted earnings of $0.21 per share on revenue of $27.6 billion, ahead of analyst expectations of $0.19 per share on $27.62 billion in revenue. It notes industrial operating profit declined 3% to $2.9 billion and organic orders fell 7% during the quarter, with CEO Jeff Immelt quoted saying 'the company continues to deliver in a volatile environment,' as challenging oil-and-gas conditions were offset by stronger performance elsewhere in the business. The piece also describes GE's continued transformation toward its industrial core and progress unwinding GE Capital, having signed $166 billion in divestiture deals since the plan was announced.",
+      "why_moved": "The article states that GE shares fell 0.4% in premarket trading despite being up 16% over the previous year, and it attributes the modest decline to investor reaction to the overall reported net loss, even though core adjusted earnings exceeded forecasts.",
+      "sources": [
+        {
+          "title": "General Electric Posts Revenue, Core Earnings Growth",
+          "url": "https://www.foxbusiness.com/markets/general-electric-posts-revenue-core-earnings-growth"
+        }
+      ]
+    }
+  },
+  "GE_2016q3": {
+    "ticker": "GE",
+    "group": "Group 2",
+    "company_name": "General Electric",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-07-22",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After Q1, investors wanted stronger industrial cash generation and clearer evidence that GE could achieve its 2016 growth targets despite energy and transportation weakness.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "GE Investor Relations: GE 1st Quarter 2016 Earnings Webcast",
+                  "url": "https://www.ge.com/investor-relations/events-reports/ge-1st-quarter-2016-earnings-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q2 revenue rose to **$33.5 billion** and adjusted EPS reached **$0.51**, both above consensus. Power, Aviation and Healthcare were strong, while the Appliance sale also contributed to reported profit. GE reaffirmed full-year earnings guidance and continued large shareholder returns.",
+              "sources": []
+            },
+            {
+              "text": "The quality of the quarter was less impressive beneath the headline beat. Organic industrial revenue declined about **1%**, equipment orders were weak, Oil & Gas revenue fell **22%**, and Transportation revenue fell **13%**. Contemporaneous coverage also highlighted a roughly **$1 billion shortfall in free cash flow versus expectations**. With the stock near a seven-year high going into the release, investors focused on these weaker internal indicators.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "GE Investor Relations: GE 2nd Quarter 2016 Earnings Webcast",
+                  "url": "https://www.ge.com/investor-relations/events-reports/ge-2nd-quarter-2016-earnings-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares fell despite the beat because cash flow and equipment orders were weaker than investors expected.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Oil & Gas and Transportation remained major cyclical drags.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** The strong pre-earnings run raised the expectations bar and encouraged profit-taking.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: GE on Track for $26 Billion Payout After Profit Beat in 'Volatile' Economy",
+                  "url": "https://www.thestreet.com/story/13647780/1/ge-on-track-for-26-billion-payout-after-profit-beat-in-volatile-economy.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for GE identity, the correct earnings event, publication date, timing window and source origin. GE Investor Relations / SEC is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "GE Investor Relations: GE 1st Quarter 2016 Earnings Webcast",
+          "url": "https://www.ge.com/investor-relations/events-reports/ge-1st-quarter-2016-earnings-webcast"
+        },
+        {
+          "label": "GE Investor Relations: GE 2nd Quarter 2016 Earnings Webcast",
+          "url": "https://www.ge.com/investor-relations/events-reports/ge-2nd-quarter-2016-earnings-webcast"
+        },
+        {
+          "label": "TheStreet: GE on Track for $26 Billion Payout After Profit Beat in 'Volatile' Economy",
+          "url": "https://www.thestreet.com/story/13647780/1/ge-on-track-for-26-billion-payout-after-profit-beat-in-volatile-economy.html"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "GE beat profit forecasts for the second quarter, reporting net income of $2.74 billion compared with a $1.36 billion loss a year earlier, with revenue up 15% to $33.5 billion helped by the prior year's Alstom power-business acquisition. But the company said industrial orders — a gauge of future demand for jet engines, power turbines and oil equipment — fell 16% excluding recent acquisitions, and organic industrial revenue declined 1% for the first half of the year, even as executives stuck by their target of 2% to 4% full-year organic growth. CFO Jeffrey Bornstein attributed the pressure to slow global economic growth and geopolitical turbulence, including the U.K.'s Brexit vote, Middle East turmoil and currency shifts: \"All this uncertainty generally limits growth.\" CEO Jeff Immelt said the company expected organic growth to accelerate in the second half, helped by an anticipated surge in power-turbine shipments, and characterized the broader picture positively: \"85% of our company is in great shape,\" even as he acknowledged the oil-and-gas and transportation businesses remained in \"tough cycles\" and said he saw no likelihood of an oil-market improvement in 2017. Oil-and-gas revenue fell 22% and segment profit dropped 48% in the quarter, with orders down 34%; GE said it was continuing to target $800 million in oil-business cost cuts for the year to offset the declines. Rival Honeywell also reported downbeat revenue the same day, with core organic sales down 2% in the quarter and full-year organic revenue guidance cut to a 1% decline from prior guidance of 1% to 2% growth.",
+      "why_moved": "The article reports that GE's shares, up more than 20% over the prior year, dropped 2.2% to $31.88 (Honeywell fell 3.5% to $114.54 the same day). It attributes the decline to the 16% drop in industrial orders — a forward-looking demand signal — and to continued weakness in the oil-and-gas segment, where revenue fell 22% and profit fell 48%, framing these as having outweighed the quarter's profit beat and the reaffirmed full-year organic-growth target in investors' eyes.",
+      "sources": [
+        {
+          "filename": "General Electric, Honeywell Post Downbeat Revenue - WSJ.pdf",
+          "title": "General Electric, Honeywell Post Downbeat Revenue Industrial giants' results weighed down by slow growth and low oil prices",
+          "published_date": "2016-07-22",
+          "text": "General Electric, Honeywell Post Downbeat Revenue - WSJ 2026-08-29, 5:20 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/ge-reports-15-rise-in-revenue-1469185132\nBUSINESS EARNINGS\nGeneral Electric, Honeywell Post Downbeat Revenue\nIndustrial giants’ results weighed down by slow growth and low oil prices\nBy Ted Mann\nUpdated July 22, 2016 at 2:20 pm ET\nGeneral Electric beat profit forecasts, but said industrial orders fell 16% in the second quarter. REUTERS\nIndustrial giants General Electric Co. GE -0.04% and Honeywell International Inc.\nreported downbeat quarterly revenue Friday, weighed down by slow growth and\ncheap oil, while promising better results going forward.\nGE beat profit forecasts, but said industrial orders—a key measure of future demand\nfor GE’s jet engines, power turbines and oil production equipment—fell 16% in the\nsecond quarter, excluding recent acquisitions. Despite a 1% decline in organic\nindustrial revenue in the first half of the year, executives stuck by their target of 2% to\n4% growth for the year.\nhttps://www.wsj.com/articles/ge-reports-15-rise-in-revenue-1469185132 Page 1 of 4\nGeneral Electric, Honeywell Post Downbeat Revenue - WSJ 2026-08-29, 5:20 PM\nHoneywell, a maker of aerospace systems and building controls, warned it now\nexpects organic revenue to fall 1% for the year, instead of rising between 1% and 2%.\nCore organic sales fell 2% in the quarter.\nShares of Honeywell fell 3.5% to $114.54 in midday trading Friday, while GE’s shares,\nup more than 20% over the past year, dropped 2.2% to $31.88.\nIndustrial companies have been coping for years with anemic macroeconomic growth,\nscouting out spots of demand around the globe for the expensive heavy machinery\nthey sell.\nOn Friday, both conglomerates said their portfolios remained relatively strong, but\nwere held back in the second quarter, especially because of the outsize impact of low\noil prices.\nGE’s challenges are multiple but consistent, Chief Financial Officer Jeffrey Bornstein\nsaid, borne out of slow global economic growth and turbulent geopolitical times—\neverything from the U.K. vote to leave the European Union to Middle East turmoil and\ncurrency shifts.\n“All this uncertainty generally limits growth,” Mr. Bornstein said.\nThe company forecasts revenue will improve over the remainder of the year, helped by\nan anticipated surge in power turbine shipments.\n“Bottom line, we are seeing organic growth accelerating in the second half,” Chief\nExecutive Jeff Immelt said on a conference call Friday. While the company’s oil and\ngas and transportation businesses are in “tough cycles,” he said the outlook for the\nglobal economy “is no better, no worse” than earlier in the year and “85% of our\ncompany is in great shape.”\nThe heaviest drag on GE’s performance continues to be its oil and gas equipment\nbusiness, which has struggled since oil drillers and producers slashed capital\nhttps://www.wsj.com/articles/ge-reports-15-rise-in-revenue-1469185132 Page 2 of 4\nGeneral Electric, Honeywell Post Downbeat Revenue - WSJ 2026-08-29, 5:20 PM\nspending amid the long-term slump in crude oil prices. Mr. Immelt said he saw no\nlikelihood that the oil outlook would improve in 2017.\nRevenue from its oil and gas division fell\n22% and profit dropped 48% in the quarter.\nOrders fell 34% compared with last year.\nGE said it is continuing to target $800\nmillion of cost-cutting in the oil business\nfor the year to offset falling revenue and\nTechnicians are pictured around a LEAP-1A engine profits.\ndeveloped by CFM, a joint venture between France's\nSafran and General Electric. REMY GABALDA/AGENCE Overall for the period ended June 30, GE\nFRANCE-PRESSE/GETTY IMAGES\nreported a profit of $2.74 billion,\ncompared with a $1.36 billion loss a year ago. Revenue rose 15% to $33.5 billion, helped\nby last year’s acquisition of Alstom SA’s power business.\nMeanwhile, Honeywell Chief Financial Officer Thomas Szlosek said in an interview\nthat the pressures on the company’s petroleum processing supply business were\nalready starting to ease, but not before it helped drive the company’s second-quarter\ndecline in core organic revenue, which excludes acquisitions.\nIn addition to oil, Honeywell had to deal with tough comparisons to last year’s big\ndeals, like its sale of hand-held scanning equipment to the U.S. Postal Service, as well\nas a long-anticipated spike in the sales incentives it offers airplane makers in\nexchange for placing its equipment and systems on new planes.\n“Those headwinds stop” after 2016, CEO Dave Cote said. “It’s just a matter of dealing\nwith them as they are today.”\nFor the quarter, Honeywell reported a 7.6% increase in profit to $1.28 billion from a\nyear prior. Total revenue grew 2.2% to $9.99 billion.\n—Anne Steele contributed to this article.\nhttps://www.wsj.com/articles/ge-reports-15-rise-in-revenue-1469185132 Page 3 of 4\nGeneral Electric, Honeywell Post Downbeat Revenue - WSJ 2026-08-29, 5:20 PM\nWrite to Ted Mann at ted.mann@wsj.com\nTed Mann was a reporter in the Journal's Washington bureau. He previously covered General Electric and other\nindustrial conglomerates for the corporate bureau in New York, and reported on transportation for the Greater New\nYork section. Before joining the Journal, he covered politics and government in Connecticut.\nFollow\nhttps://www.wsj.com/articles/ge-reports-15-rise-in-revenue-1469185132 Page 4 of 4"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "GE_2016q4": {
+    "ticker": "GE",
+    "group": "Group 2",
+    "company_name": "General Electric",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-10-21",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "GE had already shown that headline EPS could hold up even while organic industrial demand remained soft. Q3 therefore tested whether revenue growth was finally improving and whether guidance remained credible.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "GE Investor Relations: GE 2nd Quarter 2016 Earnings Webcast",
+                  "url": "https://www.ge.com/investor-relations/events-reports/ge-2nd-quarter-2016-earnings-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q3 revenue increased **4% to $29.27 billion** but missed the roughly **$29.64 billion** consensus. Adjusted EPS of **$0.32** exceeded the approximately $0.30 expectation. GE narrowed its full-year EPS range to **$1.48–$1.52**, essentially surrounding consensus.",
+              "sources": []
+            },
+            {
+              "text": "The key issue was still top-line quality. Revenue missed, while the industrial environment remained uneven. Stronger Aviation, Power and Healthcare could not fully eliminate weakness elsewhere. The quarter was therefore a mixed print: better earnings than expected, but weaker sales and limited evidence of broad organic acceleration.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "GE Investor Relations: GE 3rd Quarter 2016 Earnings Webcast",
+                  "url": "https://www.ge.com/investor-relations/events-reports/ge-3rd-quarter-2016-earnings-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock slipped because the revenue miss outweighed the modest EPS beat.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Persistent uneven industrial demand kept investors skeptical about the quality of growth.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Narrowed guidance reduced uncertainty but did not provide a meaningful upside catalyst.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: GE Stock Slides as Q3 Revenue Missed Estimates",
+                  "url": "https://www.thestreet.com/markets/ge-stock-slides-as-q3-revenue-missed-estimates-13862438"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for GE identity, the correct earnings event, publication date, timing window and source origin. GE Investor Relations / SEC is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "GE Investor Relations: GE 2nd Quarter 2016 Earnings Webcast",
+          "url": "https://www.ge.com/investor-relations/events-reports/ge-2nd-quarter-2016-earnings-webcast"
+        },
+        {
+          "label": "GE Investor Relations: GE 3rd Quarter 2016 Earnings Webcast",
+          "url": "https://www.ge.com/investor-relations/events-reports/ge-3rd-quarter-2016-earnings-webcast"
+        },
+        {
+          "label": "TheStreet: GE Stock Slides as Q3 Revenue Missed Estimates",
+          "url": "https://www.thestreet.com/markets/ge-stock-slides-as-q3-revenue-missed-estimates-13862438"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "GE cut its full-year sales forecast after reporting third-quarter organic orders down 6% and industrial profit down 4.6% to $4.32 billion, now expecting revenue excluding acquisitions and divestitures to be flat to up 2% for the year, versus a prior view of up 2% to 4%. CEO Jeff Immelt said \"Global growth continues, but at a low level... We plan to control our cost even tighter as we navigate this environment,\" and the article notes rival Honeywell had similarly startled investors earlier that month by cutting its own full-year guidance after a surprise September order drop-off. The company reaffirmed a critical 2018 earnings target of $2 a share despite the lower-than-anticipated operating profit this year, even as several analysts had grown skeptical GE could hit that goal, and Immelt noted \"all of our compensation plans\" were tied to reaching it. GE increased its planned share-buyback program by $4 billion to more than $22 billion for the year, a move that came amid pressure from activist investor Trian Fund Management, which holds a roughly $2.5 billion stake and has pushed for increased leverage and buybacks. Oil-and-gas revenue fell 25% and segment profit fell 42% in the quarter, continuing to be the company's biggest drag, though GE said it remained on pace to hit its roughly $800 million cost-cutting target in that unit for the year. Bright spots included a 66% increase in renewable-energy sales and 37% revenue growth in the power-turbine segment. Overall, GE reported third-quarter profit of $2.03 billion, or 22 cents a share after preferred dividends, down from $2.51 billion, or 25 cents a share, a year earlier, on revenue up 4.4% to $29.27 billion.",
+      "why_moved": "The article reports that GE shares, which had already fallen 11% over the three months through the prior day's close, fell a further 1% to $28.73 in trading that day. It frames this as a continuation of a weak trend tied to the cut in full-year sales guidance and the persistent oil-and-gas revenue and profit declines (down 25% and 42%, respectively), even though GE simultaneously reaffirmed its 2018 earnings target and expanded its share-buyback authorization.",
+      "sources": [
+        {
+          "filename": "GE Cuts Full-Year Sales Forecast - WSJ.pdf",
+          "title": "GE Cuts Full-Year Sales Forecast Company reports lower profit on continued weakness in its oil and gas equipment business",
+          "published_date": "2016-10-21",
+          "text": "GE Cuts Full-Year Sales Forecast - WSJ 2026-08-29, 5:22 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law. For\nnon-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/ge-profit-falls-as-revenue-growth-less-than-expected-1477047596\nBUSINESS\nGE Cuts Full-Year Sales Forecast\nCompany reports lower profit on continued weakness in its oil and gas equipment business\nBy Ted Mann and Joshua Jamerson\nUpdated Oct. 21, 2016 at 1:43 pm ET\nThe General Electric logo at a plant in Belfort, France. ASSOCIATED PRESS\nGeneral Electric Co. GE -0.04% cut its full-year sales forecast after reporting declining\nthird-quarter orders and continued weakness in its oil and gas equipment business, the\nlatest sluggish report from an industrial company.\nThe company said third-quarter organic orders—which exclude currency swings,\nacquisitions and dispositions—fell 6%, and industrial profits slipped 4.6% to $4.32 billion\nin the quarter. It now expects revenue excluding acquisitions and divestitures to be flat to\nup 2% this year, from an earlier view of up 2% to 4%.\n“Global growth continues, but at a low level,” Chief Executive Jeff Immelt said on a\nconference call. “We plan to control our cost even tighter as we navigate this\nenvironment.”\nhttps://www.wsj.com/articles/ge-profit-falls-as-revenue-growth-less-than-expected-1477047596 Page 1 of 4\nGE Cuts Full-Year Sales Forecast - WSJ 2026-08-29, 5:22 PM\nenvironment.”\nIt isn’t alone in navigating rough waters. Rival Honeywell International Inc. startled\ninvestors earlier this month when it cut its full-year sales and profit guidance after it was\nsurprised by a drop-off in orders in September.\nBoston-based GE, which makes a range of industrial equipment from jet engines to MRI\nmachines, is under increasing pressure to show that the company’s 2015 pivot away from\nfinancial services and renewed focus on its industrial businesses is yielding benefits to\ninvestors.\nThat task may be more complicated thanks to Trian Fund Management LP, the activist\nfirm that announced a $2.5 billion stake in the company a little more than one year ago.\nTrian has urged the company to return cash to its investors by borrowing up to $20 billion\nand buying back its own shares, and is pushing GE to drive profit growth.\nGE said Friday it plans to increase its share buyback plans by $4 billion to more than $22\nbillion for the year. It also reaffirmed a critical earnings target for 2018 despite lower-\nthan-anticipated operating profit this year.\nShares of the company, which had fallen 11% in the three months through Thursday’s\nclose, fell 1% in recent trading to $28.73.\nThe big problem for sales and earnings continues to be oil. Low prices have triggered the\npostponement or cancellation of major projects in the industry, hurting companies like GE\nthat sell equipment for pumping and drilling.\nOil-and-gas revenue fell 25% in the third quarter, and segment profit fell 42%. GE has\nalready been cutting costs aggressively in the oil and gas unit, closing facilities and trying\nto standardize product offerings to reduce expenses. Chief Financial Officer Jeffrey\nBornstein said the oil and gas business was on pace to hit a cost-cutting target of roughly\n$800 million for the year, with room for more “incremental” cost reduction in the coming\nyear.\nGlobal growth continues, but at a low level.\nhttps://www.wsj.com/articles/ge-profit-falls-as-revenue-growth-less-than-expected-1477047596 Page 2 of 4\nGE Cuts Full-Year Sales Forecast - WSJ 2026-08-29, 5:22 PM\nGlobal growth continues, but at a low level.\n— Jeff Immelt, GE CEO\nGE also will seek other cost-cuts “across the entirety of the company” to help account for\nthe long slide of the oil and gas business and to ensure that GE still hits its target of\nachieving $2 in earnings per share in 2018, Mr. Bornstein said.\nSeveral analysts who cover the company have recently sounded skeptical that GE will be\nable to hit that goal, which Mr. Immelt laid out last year when he announced plans to sell\noff most of its lending business. On Friday, the CEO affirmed it, noting that “all of our\ncompensation plans” are tied to GE hitting that 2018 earnings target.\nGE didn’t offer any update on its planned acquisitions of a pair of European 3-D printing\ncompanies—SLM Solutions Group AG and Arcam AB—that have faced trouble garnering\nenough shareholder support. Mr. Bornstein said GE won’t increase its tender offer for\nSLM, despite opposition from hedge fund Elliott Management Corp., which owns more\nthan 20% of the German firm’s shares. GE could acquire other 3-D printing firms if the\nArcam and SLM deals fall through, he said.\nThere were bright spots elsewhere, including a 66% increase in sales in the company’s\nrenewable-energy business, and revenue from its largest industrial segment, which\nmakes turbines for power plants, rose 37%.\nOverall for the September quarter, GE reported a profit of $2.03 billion, or 22 cents a share\nafter the payout of preferred dividends, compared with $2.51 billion, or 25 cents a share, a\nyear ago. Revenue rose 4.4% to $29.27 billion.\nWrite to Ted Mann at ted.mann@wsj.com and Joshua Jamerson at\njoshua.jamerson@wsj.com\nTed Mann was a reporter in the Journal's Washington bureau. He previously covered General Electric and other industrial\nconglomerates for the corporate bureau in New York, and reported on transportation for the Greater New York section.\nBefore joining the Journal, he covered politics and government in Connecticut.\nFollow\nhttps://www.wsj.com/articles/ge-profit-falls-as-revenue-growth-less-than-expected-1477047596 Page 3 of 4\nGE Cuts Full-Year Sales Forecast - WSJ 2026-08-29, 5:22 PM\nJoshua Jamerson is the The Wall Street Journal's deputy politics editor, based in Washington. Most recently, he was the\nEast Coast bureau chief on the U.S. News desk, leading coverage of national a!airs in major regions of the country\nranging from Boston to Miami and across the Deep South. Previously he was a national politics reporter in Washington. I…\nthat role, Joshua covered the 2022 midterm elections and the future of the U.S. political parties, spending much of his\nJoshua also covered the 2020 presidential election, including the Democratic primary. His campaign-trail reporting won a\ntimFoel loonw the campaign trail.\nSalute to Excellence Award from the National Association of Black Journalists.\nIn 2021, Joshua was a member of the Journal's \"The Tulsa Race Massacre | 100 Years Later\" project, which included his\nreporting from Tulsa, Okla., on Black Americans's struggle to create a thriving business community. The series was a\nfinalist for the 2022 Pulitzer Prize for Explanatory Reporting.\nHe previously covered Congress and the 2018 midterm elections. He first joined the Journal in 2016 to cover breaking\ncorporate news from New York.\nhttps://www.wsj.com/articles/ge-profit-falls-as-revenue-growth-less-than-expected-1477047596 Page 4 of 4"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "GE_2017q1": {
+    "ticker": "GE",
+    "group": "Group 2",
+    "company_name": "General Electric",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-01-20",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "GE entered 2017 after a year of weak organic growth and continued restructuring. Investors wanted evidence that the company’s large Power and Aviation franchises could produce faster organic expansion and stronger cash flow.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "GE Investor Relations: GE 3rd Quarter 2016 Earnings Webcast",
+                  "url": "https://www.ge.com/investor-relations/events-reports/ge-3rd-quarter-2016-earnings-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fourth-quarter revenue was about **$33.1 billion**, slightly below consensus, while adjusted EPS of **$0.46** was essentially in line. Organic industrial segment revenue declined **1%**, and weakness remained concentrated in Oil & Gas, where revenue fell about **22%**.",
+              "sources": []
+            },
+            {
+              "text": "Power revenue increased strongly on a reported basis, helped by Alstom, and Aviation was a bright spot. But the market focused on the lack of underlying organic acceleration. GE reaffirmed 2017 EPS guidance of **$1.60–$1.70**, yet the quarter did little to increase confidence that the industrial portfolio was already inflecting.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "GE Investor Relations: GE 4th Quarter 2016 Earnings Webcast",
+                  "url": "https://www.ge.com/investor-relations/events-reports/ge-4th-quarter-2016-earnings-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares fell because revenue and industrial sales were slightly below expectations while EPS was merely in line.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Oil & Gas weakness continued to drag the portfolio.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Reaffirmed 2017 guidance prevented a larger negative reaction but did not create upside.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet Pro: General Electric: Steady as She Goes",
+                  "url": "https://pro.thestreet.com/portfolio/general-electric-steady-as-she-goes"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for GE identity, the correct earnings event, publication date, timing window and source origin. GE Investor Relations / SEC is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "GE Investor Relations: GE 3rd Quarter 2016 Earnings Webcast",
+          "url": "https://www.ge.com/investor-relations/events-reports/ge-3rd-quarter-2016-earnings-webcast"
+        },
+        {
+          "label": "GE Investor Relations: GE 4th Quarter 2016 Earnings Webcast",
+          "url": "https://www.ge.com/investor-relations/events-reports/ge-4th-quarter-2016-earnings-webcast"
+        },
+        {
+          "label": "TheStreet Pro: General Electric: Steady as She Goes",
+          "url": "https://pro.thestreet.com/portfolio/general-electric-steady-as-she-goes"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "GE reported fourth-quarter revenue down 2% to $33.1 billion, missing analysts' $33.63 billion projection, as the company shipped fewer jet engines and power turbines than planned amid continued weakness in its oil-and-gas business. Oil-and-gas revenue fell 22% and segment profit fell 43% in the quarter; full-year 2016 oil-and-gas sales were $12.9 billion, down from $16.5 billion in 2015 and $19.1 billion in 2014, and GE reiterated that its planned combination of the unit with Baker Hughes, announced in late October, was expected to close by midyear. CEO Jeff Immelt said GE had performed well \"given its exposure to a world economy that is growing slowly,\" and the company touted $8.2 billion in industrial operating cash flow for the quarter as \"the biggest cash quarter in our history,\" with service orders up 20% in the quarter and 13% for the year even as equipment orders fell. GE fell short of its own delivery targets for high-tech products: it shipped only 77 of a planned 100 new LEAP aircraft engines (targeting about 500 in 2017), and CFO Jeffrey Bornstein attributed missed power-turbine shipment goals to complications in difficult markets, including four turbines destined for Bahrain and Iraq that slipped into 2017: \"these were just enormously difficult geographies to get stuff done.\" Renewable-energy sales rose 29% and power-business revenue rose 20%, aided by the Alstom acquisition. Overall fourth-quarter profit fell to $3.67 billion, or 39 cents a share, from $6.28 billion, or 64 cents a share, a year earlier, reflecting the paring back of GE Capital; adjusted earnings of 46 cents a share were in line with the consensus estimate.",
+      "why_moved": "The article reports that GE shares were off nearly 2% in afternoon trading. It attributes the decline to revenue coming in below the $33.63 billion analysts had projected and to the continued drag from the oil-and-gas business, even as it notes CEO Immelt characterized the results as solid given a slow-growth global backdrop and the quarter's record industrial cash flow.",
+      "sources": [
+        {
+          "filename": "GE Revenue Slips, Dragged Down by Oil Woes - WSJ.pdf",
+          "title": "GE Revenue Slips, Dragged Down by Oil Woes Company shipped fewer jet engines and power turbines than originally planned",
+          "published_date": "2017-01-20",
+          "text": "GE Revenue Slips, Dragged Down by Oil Woes - WSJ 2026-08-29, 5:24 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/ge-revenue-slips-dragged-down-by-oil-woes-1484913708\nBUSINESS EARNINGS\nGE Revenue Slips, Dragged Down by Oil Woes\nCompany shipped fewer jet engines and power turbines than originally planned\nBy Ted Mann and Joshua Jamerson\nUpdated Jan. 20, 2017 at 1:33 pm ET\nGeneral Electric reported its fourth-quarter earnings on Friday, with revenue dropping 2%. GE Chief Executive\nJe!rey Immelt is shown at an event last year. STEVEN SENNE/ASSOCIATED PRESS\nGeneral Electric Co.’s GE -0.04% revenue declined 2% in the fourth quarter, as the\ncompany dealt with a depressed oil industry and shipped fewer jet engines and power\nturbines than it had planned.\nAlthough revenue was below investors’ expectations, Chief Executive Jeff Immelt said\nFriday that GE performed well, given its exposure to a world economy that is growing\nslowly, and volatility in the markets in which it operates. GE shares were off nearly 2%\nin afternoon trading.\nhttps://www.wsj.com/articles/ge-revenue-slips-dragged-down-by-oil-woes-1484913708 Page 1 of 5\nGE Revenue Slips, Dragged Down by Oil Woes - WSJ 2026-08-29, 5:24 PM\nOnce again, GE’s biggest problem is oil. The company’s oil-and-gas unit, which makes\nequipment for petroleum exploration and production, has been hammered by the\nmore-than-two-year slump in the price of crude, which prompted customers to rein in\ntheir spending.\nOil-and-gas revenue in the fourth quarter fell 22% from a year earlier, and segment\nprofit fell 43%. GE recorded $12.9 billion in sales in the oil-and-gas business last year,\ndown from $16.5 billion in 2015 and $19.1 billion a year earlier.\nGE remains committed to the oil business, and says it will be poised to profit from an\neventual rebound; but, meanwhile, the company is restructuring and trying to limit\nthe pain. In late October, GE announced a deal to combine its oil-and-gas business\nwith Baker Hughes Inc., a move seen as a cost-effective way for GE to reap the benefits\nof any recovery in the sector. Executives said on Friday’s earnings call that they\nexpect that deal to close midyear.\nThere were bright spots elsewhere, such as a 29% increase in sales in the company’s\nrenewable-energy business, driven by a surge of investment in onshore wind turbines.\nRevenue from GE’s power business, which makes gas turbines for power plants, rose\n20%, helped by the acquisition of Alstom’s power business.\nGE’s industrial operating cash flow of $8.2 billion in the fourth quarter made it “the\nbiggest cash quarter in our history,” Mr. Immelt said. Orders for GE equipment fell, for\nthe quarter and for the year, but orders for services rose by 20% in the fourth quarter\nand 13% for the year.\nStrong service orders bode well for the predictable industrial earnings of the sort Mr.\nImmelt has been seeking in his transformation of GE back into a more traditional\nindustrial company, after years of being powered by its lending arm, GE Capital.\nMr. Immelt shrugged off a question about whether the incoming Trump\nadministration could play havoc with some of those business lines.\nhttps://www.wsj.com/articles/ge-revenue-slips-dragged-down-by-oil-woes-1484913708 Page 2 of 5\nGE Revenue Slips, Dragged Down by Oil Woes - WSJ 2026-08-29, 5:24 PM\nA campaign adviser to Mr. Trump, Continental Resources Inc. CEO Harold Hamm, has\ncalled for the elimination of renewable energy subsidies—a critical factor not just in\nsales of GE’s wind turbines, but also in some of its own energy-finance investments.\nAlso, Mr. Trump and the Republican Congress have pledged to undo the Affordable\nCare Act, generating uncertainty in the health-care industry that could slow sales of\nGE’s medical equipment, like MRI and X-ray machines. And Mr. Trump has pledged a\nresurgence in the coal industry, while GE has positioned itself to benefit as American\nutilities switch from coal to natural gas to generate electricity.\n“You could see some caution around the Affordable Care Act as you go forward,” Mr.\nImmelt said, but the industry hasn’t shown much disruption yet. Tax benefits for\nrenewable energy are “pretty much locked in place,” he said. “I still think the basic\nthesis around gas power in the U.S. remains intact as it pertains to being a base load\ntechnology in the future.”\nThe current challenge for GE, now that it has pivoted away from finance to refocus on\nindustrial businesses, is to meet the demand for its high-tech products, like jet\nengines and power turbines.\nGE delivered only 77 of its new LEAP aircraft engines, made in partnership with\nFrance’s Safran SA, down from a goal of 100 deliveries in 2016. Chief Financial Officer\nJeffrey Bornstein said the company met “all our commercial commitments” after\nconsultations with customers, and will deliver about 500 of the engines in 2017.\nThe company also didn’t meet its goals for power-turbine shipments, a shortfall Mr.\nBornstein attributed to the complicated markets where GE increasingly does\nbusiness. Six turbines that company executives were convinced would be shipped by\nthe end of the year weren’t shipped, Mr. Bornstein said, including four bound for the\nMiddle East.\n“They were going into Bahrain and Iraq, and these were just enormously difficult\ngeographies to get stuff done,” Mr. Bornstein said. “And right up to the end of the year,\nhttps://www.wsj.com/articles/ge-revenue-slips-dragged-down-by-oil-woes-1484913708 Page 3 of 5\nGE Revenue Slips, Dragged Down by Oil Woes - WSJ 2026-08-29, 5:24 PM\nwe thought those transactions were going to go. They didn’t end up going. I think\nwe’re confident they will go in the first half of 2017.”\nOverall for the latest quarter, GE’s profit fell to $3.67 billion, or 39 cents a share, from a\nyear-earlier $6.28 billion, or 64 cents a share, reflecting in part the paring back of GE\nCapital. On an adjusted basis, earnings were 46 cents a share, in-line with the\nconsensus estimate from analysts polled by Thomson Reuters.\nRevenue slipped to $33.1 billion from $33.89 billion in the year-earlier fourth quarter,\nmissing analysts’ projections for $33.63 billion.\nWrite to Ted Mann at ted.mann@wsj.com and Joshua Jamerson at\njoshua.jamerson@wsj.com\nTed Mann was a reporter in the Journal's Washington bureau. He previously covered General Electric and other\nindustrial conglomerates for the corporate bureau in New York, and reported on transportation for the Greater New\nYork section. Before joining the Journal, he covered politics and government in Connecticut.\nFollow\nJoshua Jamerson is the The Wall Street Journal's deputy politics editor, based in Washington. Most recently, he was\nthe East Coast bureau chief on the U.S. News desk, leading coverage of national a!airs in major regions of the\ncountry ranging from Boston to Miami and across the Deep South. Previously he was a national politics reporter in…\nWashington. In that role, Joshua covered the 2022 midterm elections and the future of the U.S. political parties,\nJoshua also covered the 2020 presidential election, including the Democratic primary. His campaign-trail reporting\nspFeonldloinwg much of his time on the campaign trail.\nwon a Salute to Excellence Award from the National Association of Black Journalists.\nIn 2021, Joshua was a member of the Journal's \"The Tulsa Race Massacre | 100 Years Later\" project, which included\nhis reporting from Tulsa, Okla., on Black Americans's struggle to create a thriving business community. The series\nwas a finalist for the 2022 Pulitzer Prize for Explanatory Reporting.\nHe previously covered Congress and the 2018 midterm elections. He first joined the Journal in 2016 to cover\nbreaking corporate news from New York.\nhttps://www.wsj.com/articles/ge-revenue-slips-dragged-down-by-oil-woes-1484913708 Page 4 of 5\nGE Revenue Slips, Dragged Down by Oil Woes - WSJ 2026-08-29, 5:24 PM\nhttps://www.wsj.com/articles/ge-revenue-slips-dragged-down-by-oil-woes-1484913708 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "GE_2017q2": {
+    "ticker": "GE",
+    "group": "Group 2",
+    "company_name": "General Electric",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-04-21",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Cash generation had become one of the market’s most important measures of GE’s transformation. Investors were no longer satisfied with accounting earnings alone; they wanted industrial cash flow to validate the reported profit.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "GE Investor Relations: GE 4th Quarter 2016 Earnings Webcast",
+                  "url": "https://www.ge.com/investor-relations/events-reports/ge-4th-quarter-2016-earnings-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q1 revenue was about **$27.66 billion** and adjusted EPS **$0.21**, both above consensus. Organic industrial revenue increased **7%**, orders rose **10%**, and industrial operating margin expanded about **130 basis points**. On the income statement, this was a strong quarter.",
+              "sources": []
+            },
+            {
+              "text": "The problem was cash. Industrial CFOA was **negative $1.6 billion**, around **$1 billion worse than GE itself had expected**, largely because of working capital and billing timing. GE maintained its full-year cash-flow target, but investors had already become sensitive to the gap between reported earnings and cash conversion. The stock therefore fell despite the top- and bottom-line beat.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "GE Investor Relations: GE 1st Quarter 2017 Earnings Webcast",
+                  "url": "https://www.ge.com/investor-relations/events-reports/ge-1st-quarter-2017-earnings-webcast"
+                },
+                {
+                  "label": "GE 1Q 2017 Earnings Press Release",
+                  "url": "https://www.ge.com/sites/default/files/ge_webcast_pressrelease_04212017.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock fell because industrial cash flow was roughly $1 billion worse than management expected.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** The revenue/EPS beat was strong, but investors questioned the quality of earnings without matching cash conversion.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Reaffirmed full-year cash guidance limited the damage but required a very large second-half recovery.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source No independent reaction article included within the +0 to +3 day window; attribution is therefore labeled as supported inference rather than explicit news attribution.",
+              "sources": []
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for GE identity, the correct earnings event, publication date, timing window and source origin. GE Investor Relations / SEC is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **SUPPORTED_INFERENCE**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "GE Investor Relations: GE 4th Quarter 2016 Earnings Webcast",
+          "url": "https://www.ge.com/investor-relations/events-reports/ge-4th-quarter-2016-earnings-webcast"
+        },
+        {
+          "label": "GE Investor Relations: GE 1st Quarter 2017 Earnings Webcast",
+          "url": "https://www.ge.com/investor-relations/events-reports/ge-1st-quarter-2017-earnings-webcast"
+        },
+        {
+          "label": "GE 1Q 2017 Earnings Press Release",
+          "url": "https://www.ge.com/sites/default/files/ge_webcast_pressrelease_04212017.pdf"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "GE reported first-quarter organic revenue up 7% — a typically slow quarter for the company — with higher profit and industrial orders up 7% excluding deals, beating expectations. CEO Jeff Immelt called it \"a good quarter in a slow growth and volatile environment,\" while flagging that the \"resource sector is challenging,\" and the company backed its full-year outlook of 3% to 5% organic revenue growth and $1.60 to $1.70 in per-share earnings. GE had pledged in March, following discussions with activist investor Trian Fund Management, to double its planned cost cuts to $1 billion in annual industrial expenses for each of the next two years; only about $76 million of savings materialized in the first quarter, with the company saying cuts would \"ramp up as we move throughout the year.\" More notably, industrial operating cash flow was negative $1.63 billion, compared with positive $402 million a year earlier — a miss Citigroup analysts had not expected — and CFO Jeffrey Bornstein said the shortfall missed GE's own expectation by $1 billion but was \"largely related to timing of inventory and orders,\" with the company still targeting $12 billion to $14 billion in cash flow for the year. Oil-and-gas revenue fell 9% and segment profit fell 33%, though Immelt said he was \"encouraged\" by a 9% rise in oil-and-gas orders even as Bornstein cautioned that \"a large degree of uncertainty remains\" around the sector's recovery. Renewable-energy revenue rose 22% and power-turbine revenue rose 17%, with total industrial operating profit up 11%. Net income was $653 million versus $228 million a year earlier, with adjusted earnings of 21 cents a share beating the 17 cents analysts had projected, on revenue of $27.66 billion versus a $26.41 billion estimate.",
+      "why_moved": "The article reports that GE shares, down about 4% year to date, were little changed in early trading at $30.14 (Honeywell, by contrast, jumped 3% the same morning on its own results). It attributes the muted reaction to the negative $1.63 billion industrial cash flow figure, which missed even GE's own reduced internal expectation by $1 billion according to the CFO, framing this as a point of investor concern that offset the profit and organic-revenue beat, alongside continuing weakness in the oil-and-gas segment.",
+      "sources": [
+        {
+          "filename": "General Electric, Still Weighed by Energy, Boosts Profit Amid Cost Cutting Plan - WSJ.pdf",
+          "title": "General Electric, Still Weighed by Energy, Boosts Profit Amid Cost Cutting Plan The Boston-based conglomerate sees a 9% drop in oil-and-gas revenue",
+          "published_date": "2017-04-21",
+          "text": "General Electric, Still Weighed by Energy, Boosts Profit Amid Cost Cutting Plan - WSJ 2026-08-29, 5:24 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/general-electric-still-weighed-by-energy-boosts-profit-amid-cost-cutting-plan-1492773935\nBUSINESS EARNINGS\nGeneral Electric, Still Weighed by Energy, Boosts\nProfit Amid Cost Cutting Plan\nThe Boston-based conglomerate sees a 9% drop in oil-and-gas revenue\nBy Thomas Gryta and Joshua Jamerson\nUpdated April 21, 2017 at 10:20 am ET\nA sign marks a General Electric facility in Medford, Mass., on April 20, 2017. GE said Friday total revenue and profit in\nthe first quarter—typically relatively slow for GE, which sees more business later in the year—beat Wall Street\nexpectations. BRIAN SNYDER/REUTERS\nGeneral Electric Co.’s GE -0.04% first quarter showed strength driven by its core\nindustrial businesses as its oil and gas segment continued to drag on results.\nUnder pressure to cut costs and boost returns, the conglomerate reported higher\nprofit and a 7% jump in organic revenue in the typically sluggish period. Organic\nrevenue excludes currency swings, acquisitions and divestments.\nhttps://www.wsj.com/articles/general-electric-still-weighed-by-energy-boosts-profit-amid-cost-cutting-plan-1492773935 Page 1 of 4\nGeneral Electric, Still Weighed by Energy, Boosts Profit Amid Cost Cutting Plan - WSJ 2026-08-29, 5:24 PM\nIndustrial orders—which give a glimpse at future demand for equipment like jet\nengines, power turbines and oil-related equipment—exceeded expectations, rising 7%\nexcluding deals.\n“GE had a good quarter in a slow growth and volatile environment,” Chief Executive\nJeff Immelt said on a conference call Friday. He noted the “resource sector is\nchallenging” but painted an overall positive picture for the rest of the year. “We see\nglobal growth accelerating while the U.S. continues to improve.”\nGE continues to forecast full-year organic revenue growth of 3% to 5%. It also backed\nfull-year earnings of $1.60 to $1.70 a share.\nShares, which have slipped about 4% year to date, were little changed in early Friday\ntrading at $30.14. Shares of rival Honeywell International Inc. jumped 3% Friday\nmorning after the diversified manufacturer reported higher profits on strength in its\naerospace and energy businesses.\nGE in March pledged to cut $1 billion in annual industrial expenses for each of the next\ntwo years, which is twice the level of cuts originally laid out by Mr. Immelt in a\nJanuary earnings call. The cost-cutting was stepped up following discussions with\nactivist investor Trian Fund Management, which The Wall Street Journal previously\nreported has been frustrated by missed profit goals.\nIn the first quarter, that savings only reached about $76 million but the company said\nit expects cuts “to ramp up as we move throughout the year.”\nNotably, GE reported industrial cash flow from operating activities was negative $1.63\nbillion, compared with positive $402 million a year ago. Citigroup analysts expected a\nflat performance for the period.\nChief Financial Officer Jeffrey Bornstein said the cash flow missed GE’s own\nexpectation by $1 billion but was largely related to timing of inventory and orders, and\nsaid the company remains on track for $12 billion to $14 billion by year end.\nhttps://www.wsj.com/articles/general-electric-still-weighed-by-energy-boosts-profit-amid-cost-cutting-plan-1492773935 Page 2 of 4\nGeneral Electric, Still Weighed by Energy, Boosts Profit Amid Cost Cutting Plan - WSJ 2026-08-29, 5:24 PM\nIn recent years, the company has turned focus to its industrial businesses, shedding\nlow-margin units like home appliances and striking a big oil-and-gas deal with Baker\nHughes Inc. last fall. Still, analysts are wary that GE will reach a long-term goal of\ndelivering $2 a share in profit in 2018.\nA problem for GE during the first quarter continued to be its oil-and-gas business as\nrevenue fell 9% and segment profit fell 33%. Mr. Immelt said he is “encouraged” by a\n9% order increase in the segment.\nMr. Bornstein said a “large degree of uncertainty remains” around the recovery in the\noverall oil market as North American onshore rig counts rose 70% compared with 25%\nlast quarter, but offshore activity has stayed weak. “Crude inventory remain at a five-\nyear highs, and markets are closely watching OPEC output for compliance,” he said.\nThe division, which makes equipment for petroleum exploration and production, has\nweighed on GE during the more-than-two-year slump in crude prices as customer cut\nspending. Plans to combine the business with Baker Hughes into a new majority-\nowned public company remain on track for mid-year.\nThere were several bright spots in other parts of its business, such as a 22% increase\nin revenue in the company’s renewable-energy business, which includes wind turbine\nsales. Also, revenue from its largest industrial segment, which makes turbines for\npower plants, rose 17%. Total industrial profit operating profit rose 11%.\nOverall for the March quarter, GE reported net income of $653 million, compared with\n$228 million a year ago. On a per-share basis, which in the latest quarter was aided by\na lower outstanding share count, GE earned 7 cents, compared to a year-ago loss of a\npenny. On an adjusted basis, earnings were 21 cents a share; analysts, polled by\nThomson Reuters, projected 17 cents a share.\nRevenue slipped 1% to $27.66 billion, topping analysts’ projections for $26.41 billion.\nWrite to Thomas Gryta at thomas.gryta@wsj.com and Joshua Jamerson at\nhttps://www.wsj.com/articles/general-electric-still-weighed-by-energy-boosts-profit-amid-cost-cutting-plan-1492773935 Page 3 of 4\nGeneral Electric, Still Weighed by Energy, Boosts Profit Amid Cost Cutting Plan - WSJ 2026-08-29, 5:24 PM\njoshua.jamerson@wsj.com\nhttps://www.wsj.com/articles/general-electric-still-weighed-by-energy-boosts-profit-amid-cost-cutting-plan-1492773935 Page 4 of 4"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "The article reports General Electric delivered stronger-than-expected results driven by its core industrial operations, with 7% organic revenue growth, net income of $653 million versus $228 million a year earlier, and revenue of $27.66 billion that topped analyst expectations of $26.41 billion. Adjusted earnings of 21 cents per share beat projections of 17 cents, while reported earnings of 7 cents compared with a year-earlier loss of a penny. Management maintained full-year guidance of 3% to 5% organic revenue growth and $1.60 to $1.70 in annual earnings per share. The piece highlights industrial orders rising 7% excluding acquisitions, with renewable-energy revenue up 22% and power-turbine revenue up 17%, alongside continued weakness in oil and gas, where revenue fell 9% and segment profit dropped 33%; CEO Jeff Immelt is quoted calling the 'resource sector... challenging' despite a 9% increase in oil-and-gas orders. It also reports GE pledged $1 billion in annual industrial expense reductions for each of the next two years, having achieved about $76 million in first-quarter savings, but flags that industrial cash flow from operations turned negative at $1.63 billion, compared with positive $402 million a year earlier, missing internal expectations by $1 billion.",
+      "why_moved": "The article states that GE shares were little changed in early trading at $30.14, having already declined roughly 4% year-to-date. It does not tie this muted reaction to a single stated cause, presenting it alongside both the earnings and revenue beat and the reported cash-flow shortfall.",
+      "sources": [
+        {
+          "title": "Industrial Unit Buoys GE",
+          "url": "https://www.foxbusiness.com/features/industrial-unit-buoys-ge-wsj"
+        }
+      ]
+    }
+  },
+  "GE_2017q3": {
+    "ticker": "GE",
+    "group": "Group 2",
+    "company_name": "General Electric",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-21",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "GE’s weak Q1 cash flow had increased pressure on Jeff Immelt just before his planned CEO transition to John Flannery. Q2 needed to demonstrate that cash generation was recovering fast enough to preserve full-year targets.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "GE Investor Relations: GE 1st Quarter 2017 Earnings Webcast",
+                  "url": "https://www.ge.com/investor-relations/events-reports/ge-1st-quarter-2017-earnings-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q2 adjusted EPS was **$0.28**, above consensus near $0.25, and revenue of **$29.6 billion** also topped expectations. Industrial CFOA improved by about **$3.1 billion sequentially**, but first-half industrial cash flow was still slightly negative.",
+              "sources": []
+            },
+            {
+              "text": "Management then lowered the tone of the outlook. Immelt said full-year EPS would likely land toward the **bottom of the prior $1.60–$1.70 range**, and industrial cash flow was expected at the **low end** of the $12–$14 billion framework. Oil & Gas performance was also described as weaker than previously anticipated. The stock fell sharply despite the headline beat.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "GE Investor Relations: GE 2nd Quarter 2017 Earnings Webcast",
+                  "url": "https://www.ge.com/investor-relations/events-reports/ge-2nd-quarter-2017-earnings-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares fell because management effectively guided investors toward the low end of both earnings and cash-flow expectations.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** The profit beat was low quality, helped by lower corporate and restructuring expense rather than broad growth.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** The CEO transition increased uncertainty about how aggressively Flannery would reset targets.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: Stocks Come Off Lows but GE and Energy Sector Remain a Drag",
+                  "url": "https://www.thestreet.com/investing/stocks-hold-lower-as-ge-and-energy-sector-are-big-drags-14238619"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for GE identity, the correct earnings event, publication date, timing window and source origin. GE Investor Relations / SEC is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "GE Investor Relations: GE 1st Quarter 2017 Earnings Webcast",
+          "url": "https://www.ge.com/investor-relations/events-reports/ge-1st-quarter-2017-earnings-webcast"
+        },
+        {
+          "label": "GE Investor Relations: GE 2nd Quarter 2017 Earnings Webcast",
+          "url": "https://www.ge.com/investor-relations/events-reports/ge-2nd-quarter-2017-earnings-webcast"
+        },
+        {
+          "label": "TheStreet: Stocks Come Off Lows but GE and Energy Sector Remain a Drag",
+          "url": "https://www.thestreet.com/investing/stocks-hold-lower-as-ge-and-energy-sector-are-big-drags-14238619"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "GE told investors they would have to wait until a mid-November meeting to hear new CEO-designate John Flannery's strategy for the company, even as it reported improved cash flow and stepped-up cost-cutting in outgoing CEO Jeff Immelt's final quarter. GE backed its prior 2017 forecast of $1.60 to $1.70 a share in earnings and 3% to 5% organic sales growth but warned profit would land at the weak end of that range, with CFO Jeffrey Bornstein telling analysts \"Given our outlook on oil and gas and power, we are trending to the bottom end of the range.\" Industrial cash flow rebounded to a positive $1.5 billion after a negative $1.6 billion first quarter, and GE cut $593 million in annual industrial costs during the quarter, putting it on track to meet or beat its $1 billion full-year savings goal; the company said it would not consider cutting its dividend, which CFO Bornstein called its \"single most important capital allocation item.\" Second-quarter profit fell to $1.19 billion, or 15 cents a share, from $2.76 billion, or 36 cents a share, a year earlier — with much of the drop reflecting a year-earlier boost from the sale of GE's home-appliances business — on revenue down 12% to $29.56 billion. New CEO-designate John Flannery, who is meeting with investors and touring the company's roughly 300,000-employee business units ahead of taking over, told analysts he was \"not worried that we're going to be, you know, dead in the water in the meantime,\" while CFO Bornstein defended the review timeline: \"I don't think asking for four or five months to do this is asking a lot.\" Analysts, however, were skeptical the company could reach its long-term goal of $2 a share in profit for 2018.",
+      "why_moved": "The article reports that GE shares fell nearly 3% (later specified as 2.9%, to $25.91), leaving the stock 18% below where it started the year. It attributes the decline directly to investor frustration at being told to wait four months for Flannery's strategic plan, layered on top of GE trending toward the low end of its already-reduced profit and cash-flow guidance because of continued oil-and-gas and power weakness — a combination one analyst, Brian Langenberg of Langenberg & Co., described on the record as \"almost like a funeral dirge today. There was nothing positive.\"",
+      "sources": [
+        {
+          "filename": "GE Leaves Investors in Limbo - WSJ.pdf",
+          "title": "GE Leaves Investors in Limbo Conglomerate tempers profit expectations for 2017; new boss promises to share his plans in November",
+          "published_date": "2017-07-21",
+          "text": "GE Leaves Investors in Limbo - WSJ 2026-08-29, 5:25 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/general-electric-makes-progress-on-cost-cutting-1500635688\nBUSINESS EARNINGS\nGE Leaves Investors in Limbo\nConglomerate tempers profit expectations for 2017; new boss promises to share his\nplans in November\nBy Thomas Gryta\nUpdated July 21, 2017 at 7:39 pm ET\nGeneral Electric Co.’s offices in Baden, Switzerland. URS FLUEELER/EUROPEAN PRESSPHOTO AGENCY\nGeneral Electric Co., GE -0.04% a company in transition that also is changing its\nCEO, told investors Friday that they would have to wait four months to hear the new\nboss’s strategy for boosting results.\nGE investors, who have missed out on the broader stock market’s rally, were in no\nmood to be patient. Shares of the Boston-based conglomerate fell nearly 3%, leaving\nthe stock 18% below where it started the year.\nhttps://www.wsj.com/articles/general-electric-makes-progress-on-cost-cutting-1500635688 Page 1 of 5\nGE Leaves Investors in Limbo - WSJ 2026-08-29, 5:25 PM\nGE, its profits under pressure, improved its cash flow and ramped up cost-cutting\nefforts—two areas of investor concern—in Chief Executive Jeff Immelt’s last quarter\nat the helm. The bad news from investors’ point of view was that GE tempered profit\nexpectations for the current year and said investors would have to wait until mid-\nNovember for CEO-designate John Flannery to discuss the outlook for 2018.\nIt is unusual for a big company, especially one such as GE that is being pressured by an\nactivist investor to improve its performance, to ask shareholders and customers to\nwait so long to learn about its game plan.\n“This is a strange situation,” said Nicholas Heymann, an analyst with William Blair &\nCo. “This increases the duration of the period of uncertainty.”\nOn a conference call Friday, analyst Deane Dray of RBC Capital Markets asked if GE\nwould be in “limbo” until November. Mr. Flannery said the financial framework for\n2017 is set and that he is “not worried that we’re going to be, you know, dead in the\nwater in the meantime.”\nMr. Immelt will step down at the end of this month after 16 years as CEO.\nGE is under increasing pressure to show that its pivot away from financial services,\nbig bets on the oil industry and a renewed focus on making jet engines and power\nturbines would be good for investors.\nShares fell 2.9% to $25.91 each in Friday trading.\nMr. Flannery, who formerly ran GE’s health-care unit, is meeting with small groups of\ninvestors and visiting the business units of the roughly 300,000-person company.\nJeffrey Bornstein, GE’s chief financial officer, defended the timeline in an interview\nand said the company would have to “play through” any uncertainty created by a\nreview that includes “testing everything we believe.”\nhttps://www.wsj.com/articles/general-electric-makes-progress-on-cost-cutting-1500635688 Page 2 of 5\nGE Leaves Investors in Limbo - WSJ 2026-08-29, 5:25 PM\n“The notion that [Mr. Flannery] is going to get his arms around this in a month is a\nfallacy,” Mr. Bornstein said in an interview. “I don’t think asking for four or five\nmonths to do this is asking a lot.”\nOn Friday, GE backed its prior 2017 projection of earnings of $1.60 to $1.70 a share and\norganic sales growth of 3% to 5%, but it warned that profit would be on the weak side.\n“Given our outlook on oil and gas and power, we are trending to the bottom end of the\nrange,” Mr. Bornstein said on the conference call.\nAnalysts are skeptical that GE will reach a goal of delivering $2 a share in profit in\n2018, but the company said an updated target wouldn’t come until after Mr.\nFlannery’s review.\n“This was almost like a funeral dirge today. There was nothing positive,” said Brian\nLangenberg, industry strategist at Langenberg & Co. “I can’t think of anything in\nNovember that is going to make me thrilled.”\nAlso Friday, industrial conglomerate Honeywell International Inc. reported a stronger\nquarterly profit and raised the low end of its 2017 earnings outlook. The company is\nalso conducting a review of its portfolio under new CEO Darius Adamczyk which it\nexpects to complete in late September or early October.\n“We are very conscious of not letting this slow us down,” said Chief Financial Officer\nTom Szlosek in an interview. “We think we do a good job of keeping our businesses out\nof it.”\nStrength in its aerospace division as well as its home and building-technologies\nbusiness helped Honeywell’s latest results. The company’s profit rose 6% to $1.4 billion\nin the second quarter, while revenue climbed about 1% to $10.08 billion.\nHoneywell shares gained 1% to $136.35 Friday, leaving it up 18% for the year.\nBoth GE and Honeywell are facing pressure from activist investors. GE pledged to\nhttps://www.wsj.com/articles/general-electric-makes-progress-on-cost-cutting-1500635688 Page 3 of 5\nGE Leaves Investors in Limbo - WSJ 2026-08-29, 5:25 PM\nboost its cost-cutting program earlier this year after discussions with Trian Fund\nManagement LP, which has been frustrated by missed profit goals at GE. Third Point\nLLC has called on Honeywell to explore selling or splitting off its aerospace business.\nOn Friday, GE said it cut $593 million in annual industrial costs in the second quarter\nand is on track to meet or beat its $1 billion savings goal by the end of the year. It has\neliminated $670 million in spending this year.\nDespite re-examining its spending, GE said it won’t consider reducing its dividend\npayout, which Mr. Bornstein called the company’s “single most important capital\nallocation item.”\nCash flow in GE’s industrial segment was a positive $1.5 billion after a shocking\nnegative $1.6 billion for the first quarter. The company backed its full-year cash-flow\ntarget of $12 billion to $14 billion but said it would also be at the low end of the\nprojected range.\nIn all, GE’s second-quarter earnings fell less than expected, with much of the drop\nreflecting a year-earlier boost from the sale of its home-appliances business. The\ncompany reported a profit of $1.19 billion, or 15 cents a share, down from $2.76 billion,\nor 36 cents a share, a year earlier. Revenue fell 12% to $29.56 billion.\n—Imani Moise contributed to this article.\nWrite to Thomas Gryta at thomas.gryta@wsj.com\nAppeared in the July 22, 2017, print edition as 'GE, Its Outlook Hazy, Asks Investors to Wait'.\nThomas Gryta is a former technology editor at The Wall Street Journal.\nHe was previously a reporter covering General Electric and corporate news for the Journal, where his coverage\nspanned how companies navigate the changing economy and society along with financial and operational…\nchallenges. He joined Dow Jones in London in 1999 as a news assistant, returning to New York the following year to\nToFmol ilso wa former Knight-Bagehot Fellow at Columbia University and studied history at the University of\ncover breaking corporate news for the Dow Jones Newswires Spot News desk while also writing about markets,\nMassachusetts at Amherst. With Journal colleague Ted Mann, he is co-author of the book “Lights Out: Pride,\ncommodities, and energy. He later covered the biotechnology and pharmaceuticals industry, then moved to the\nDelusion, and the Fall of General Electric,” which details the decline of the former titan of American business.\nhttps://www.wsj.com/articles/general-electric-makes-progress-on-cost-cutting-1500635688 Page 4 of 5\nGE Leaves Investors in Limbo - WSJ 2026-08-29, 5:25 PM\nhttps://www.wsj.com/articles/general-electric-makes-progress-on-cost-cutting-1500635688 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "The article covers General Electric's results in CEO Jeff Immelt's final quarter before his planned departure, describing progress on two closely watched issues: cash flow and cost cutting. It reports profit of $1.19 billion, or 15 cents per share, down from $2.76 billion, or 36 cents, a year earlier -- a decline the article attributes largely to a prior-year gain from the sale of GE's appliances unit -- with adjusted earnings falling to 28 cents from 51 cents but still beating the analyst consensus of 25 cents, and revenue down 12% to $29.56 billion versus a $29.02 billion estimate. Industrial segment cash flow swung to a positive $1.5 billion after a $1.6 billion shortfall in the first quarter, and the company cut $593 million in industrial costs during the quarter, bringing year-to-date cuts to $670 million and keeping it on pace for its $1 billion annual savings target; GE backed its full-year guidance of $12 billion to $14 billion in cash flow and $1.60 to $1.70 in earnings per share. The piece quotes Citigroup analyst Andrew Kaplowitz saying the results 'may not be enough to significantly alleviate negative investor sentiment,' and notes Immelt's imminent replacement by John Flannery, who was expected to conduct a comprehensive business review and deliver updated 2018 guidance in mid-November.",
+      "why_moved": "The article reports that GE stock traded down 16 cents to $26.53 in premarket trading, having already declined roughly 16% year-to-date. It ties the muted reaction to the Citigroup analyst's comment that the quarter's results were unlikely to meaningfully improve negative investor sentiment toward the stock.",
+      "sources": [
+        {
+          "title": "GE Makes Progress on Cost-Cutting, Cash Flow Goals",
+          "url": "https://www.foxbusiness.com/features/ge-makes-progress-on-cost-cutting-cash-flow-goals-update"
+        }
+      ]
+    }
+  },
+  "GE_2017q4": {
+    "ticker": "GE",
+    "group": "Group 2",
+    "company_name": "General Electric",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-10-20",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "This was John Flannery’s first earnings report as CEO, and investors expected a major reset. Power had deteriorated, industrial cash flow was far behind plan, and the dividend had become a central concern.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "GE Investor Relations: GE 2nd Quarter 2017 Earnings Webcast",
+                  "url": "https://www.ge.com/investor-relations/events-reports/ge-2nd-quarter-2017-earnings-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "GE reported adjusted EPS of only **$0.29**, far below consensus near **$0.49**, even though revenue of **$33.47 billion** beat expectations. Power performance was especially poor, with weak market demand, execution problems, project delays and higher costs.",
+              "sources": []
+            },
+            {
+              "text": "Management cut full-year EPS guidance to **$1.05–$1.10** from $1.60–$1.70 and reduced the industrial cash-flow target to about **$7 billion**. Flannery called the results “unacceptable.” The stock initially plunged more than 6% but recovered to finish the earnings day slightly higher. That same-day rebound did not mean the report was viewed positively: dividend fears and analyst downgrades drove a very large decline in the following session.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "GE Investor Relations: GE 3rd Quarter 2017 Earnings Webcast",
+                  "url": "https://www.ge.com/investor-relations/events-reports/ge-3rd-quarter-2017-earnings-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The same-day close was slightly positive only because the initial 6% plunge reversed; the earnings report itself was fundamentally very weak.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Power deterioration and the collapse in cash-flow guidance put the dividend at risk.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** The negative interpretation persisted into the next session as analysts reassessed GE under the new CEO.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Why General Electric Stock Dropped, Then Bounced Back, on Friday",
+                  "url": "https://www.fool.com/investing/2017/10/21/why-general-electric-stock-dropped-then-bounced-ba.aspx"
+                },
+                {
+                  "label": "TheStreet: 'Things Will Not Stay the Same at GE,' New CEO Vows After Dismal Earnings",
+                  "url": "https://www.thestreet.com/investing/stocks/ge-3q-earnings-miss-14349831"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for GE identity, the correct earnings event, publication date, timing window and source origin. GE Investor Relations / SEC is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT_PATH_REVERSAL**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "GE Investor Relations: GE 2nd Quarter 2017 Earnings Webcast",
+          "url": "https://www.ge.com/investor-relations/events-reports/ge-2nd-quarter-2017-earnings-webcast"
+        },
+        {
+          "label": "GE Investor Relations: GE 3rd Quarter 2017 Earnings Webcast",
+          "url": "https://www.ge.com/investor-relations/events-reports/ge-3rd-quarter-2017-earnings-webcast"
+        },
+        {
+          "label": "The Motley Fool: Why General Electric Stock Dropped, Then Bounced Back, on Friday",
+          "url": "https://www.fool.com/investing/2017/10/21/why-general-electric-stock-dropped-then-bounced-ba.aspx"
+        },
+        {
+          "label": "TheStreet: 'Things Will Not Stay the Same at GE,' New CEO Vows After Dismal Earnings",
+          "url": "https://www.thestreet.com/investing/stocks/ge-3q-earnings-miss-14349831"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "New CEO John Flannery slashed GE's 2017 guidance, cutting the adjusted per-share profit target to $1.05-$1.10 from a prior $1.60-$1.70 (versus analysts' then-current estimate of $1.53) and halving the projected 2017 cash flow from operating activities to about $7 billion from a July estimate of $12 billion to $14 billion, with much of the cash-flow cut tied to the power division. Flannery told investors \"Our results are unacceptable to say the least,\" said he was reviewing whether GE could sustain its current dividend, and announced a plan to sell more than $20 billion of assets over one to two years plus cut an additional $1 billion in expenses next year, bringing total planned two-year cost reductions to $3 billion. Third-quarter profit fell to $1.8 billion from $2 billion a year earlier as the company absorbed hefty restructuring charges; adjusted per-share earnings fell to 29 cents from 32 cents, well below Wall Street's roughly 49-cent expectation, even as revenue rose 14% to $33.5 billion, beating a $32.56 billion estimate, boosted by the Baker Hughes oil-and-gas merger. Flannery, in an interview, said he was surprised by the weak results from the power business — GE's largest by revenue — blaming prior management for overestimating demand and carrying too much inventory: \"I'm disappointed in the power business. Deeply... We have not run the business well of late.\" Analyst Scott Davis of Melius Research said \"Expected bad. Got bad,\" adding that \"Pressure to break this up just went through the roof.\" Separately, incoming CFO Jamie Miller promised a \"back to basics\" overhaul of GE's financial reporting — including scrapping the adjusted-earnings metric and revising how cash flow is presented — after Wall Street analysts had long described GE's accounting as \"aggressive\"; the company also disclosed a $500 million correction to cash flow reported earlier in the year, tied to misclassified derivative hedge settlements, and said it would restate 2016 and 2017 results under new revenue-recognition rules for long-term service contracts.",
+      "why_moved": "The reaction story reports that GE shares gained 18 cents to close at $23.76 on the day, after tumbling as much as 7% earlier in the session, with the stock having already fallen 25% for the year to that point. It frames the late-session recovery as reflecting some investor reassurance from Flannery's decisive presentation of a $20 billion asset-sale plan and accounting overhaul even as the company reported results Flannery himself called \"unacceptable\" and slashed guidance sharply. The companion piece on GE's financial-reporting complexity does not report a stock-price reaction; it focuses instead on the promised \"back to basics\" changes to GE's long-criticized accounting practices.",
+      "sources": [
+        {
+          "filename": "New GE Chief Slashes Forecasts, Plans to Exit $20 Billion in Businesses - WSJ.pdf",
+          "title": "New GE Chief Slashes Forecasts, Plans to Exit $20 Billion in Businesses CEO John Flannery has expressed an urgency to reduce costs and rethink the sprawling company",
+          "published_date": "2017-10-20",
+          "text": "New GE Chief Slashes Forecasts, Plans to Exit $20 Billion in Businesses - WSJ 2026-08-29, 5:26 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/ge-earnings-fall-as-new-leadership-picks-up-restructuring-work-1508497764\nBUSINESS EARNINGS\nNew GE Chief Slashes Forecasts, Plans to Exit $20\nBillion in Businesses\nCEO John Flannery has expressed an urgency to reduce costs and rethink the sprawling\ncompany\nBy Thomas Gryta\nUpdated Oct. 20, 2017 at 6:40 pm ET\nTechnicians build LEAP engines for jetliners at a new, highly automated General Electric factory in Lafayette, Ind., in\nMarch. The maker of jet engines, power turbines and locomotives said it is looking to streamline its portfolio by more\nthan $20 billion within the next two years. STAFF/REUTERS\nGeneral Electric Co. GE -0.04% slashed its 2017 projections as new Chief Executive\nJohn Flannery started to outline his plans to restructure the struggling conglomerate,\nsetting a goal to sell more than $20 billion of assets and cut an additional $1 billion in\nspending.\nhttps://www.wsj.com/articles/ge-earnings-fall-as-new-leadership-picks-up-restructuring-work-1508497764?mod=article_inline Page 1 of 6\nNew GE Chief Slashes Forecasts, Plans to Exit $20 Billion in Businesses - WSJ 2026-08-29, 5:26 PM\n“Our results are unacceptable to say the least,” Mr. Flannery said on a conference call\nFriday, noting that he was reviewing whether the company could afford to maintain\nits current dividend payout. “Things will not stay the same at GE.”\nMr. Flannery, who took the job in August and recently became chairman with the early\nexit of Jeff Immelt, has expressed an urgency to reduce costs and rethink the\nsprawling company. In addition to lowering earnings targets by a third, the company\nFriday cut its forecast for 2017 cash flow by half from a July projection.\nGE shares gained 18 cents in Friday trading to $23.76, after tumbling as much as 7%\nearlier in the day. The shares had fallen 25% this year, erasing nearly $80 billion in\nmarket value even as the stock market has surged to record highs.\nThe Boston company’s third-quarter earnings fell as it incurred hefty restructuring\ncharges, reporting a profit of $1.8 billion, down from $2 billion a year earlier.\nExcluding restructuring charges and other items, adjusted per-share earnings fell to\n29 cents from 32 cents, still well below Wall Street expectations of 49 cents.\nMr. Flannery is slated to update investors at a Nov. 13 meeting on the details of his\nstrategic review. He has already been cutting jobs, research operations and executive\nperks, such as corporate jets. On Friday, Mr. Flannery said he planned to cut an\nadditional $1 billion in expenses next year, bringing total reductions to $3 billion over\ntwo years.\nUnder Mr. Immelt, GE pivoted away from financial services that once accounted for\nthe lion’s share of its profits as well as consumer businesses that made it a household\nname. It invested in energy markets and moved deeper into emerging economies. Two\nthirds of its employees and about 70% of its revenue are outside the U.S.\nMr. Immelt sold GE’s ownership of NBCUniversal and shrunk GE Capital, which was\none of the country’s biggest lenders before the financial crisis. He also struck deals\nmeant to diversify, acquiring Alstom SA’s power-plant business and merging GE’s oil-\nhttps://www.wsj.com/articles/ge-earnings-fall-as-new-leadership-picks-up-restructuring-work-1508497764?mod=article_inline Page 2 of 6\nNew GE Chief Slashes Forecasts, Plans to Exit $20 Billion in Businesses - WSJ 2026-08-29, 5:26 PM\nand-gas business with Baker Hughes, an oil-field-services provider.\nBut the company was under pressure from investors, including activist Trian Fund\nManagement LP, to streamline operations and boost profits. GE, which had about\n295,000 employees at the start of the year, is still one of the world’s biggest makers of\njet engines, power-plant turbines, MRI machines and diesel locomotives.\nOn Friday, Mr. Flannery said he is looking to sell off about $20 billion worth of assets\nin the next 1 to 2 years. Mr. Flannery said the company has many strong divisions but\nalso “a number of other businesses which drain investment and management\nresources without the prospects for a substantial reward.”\nThe company lowered its adjusted 2017 per-share profit target to $1.05-$1.10 from a\nprevious view of $1.60-$1.70. Analysts currently expect earnings of $1.53 a share in\n2017.\nThe company now projects cash flow from operating activities to be about $7 billion, a\nsteep revision from the previous view of $12 billion to $14 billion. A big part of the\ndrop is coming from the power division, which primarily makes turbines for gas and\ncoal-fire power plants.\nIn an interview, Mr. Flannery said he was surprised with the results from the power\nbusiness, GE’s largest, and blamed the former management of the division. He said the\nother divisions of the company were “quite strong” when looking at their orders.\n“I’m disappointed in the power business. Deeply,” Mr. Flannery said, noting there was\nan overestimation of demand in the power market, along with too much inventory and\nnot enough cost cuts to adjust to the pressures.\n“We have not run the business well of late,” he said. GE expanded the division, now its\nlargest by revenue, following the Alstom deal.\nThe drop in cash flow has raised questions about how the company will fund its\nhttps://www.wsj.com/articles/ge-earnings-fall-as-new-leadership-picks-up-restructuring-work-1508497764?mod=article_inline Page 3 of 6\nNew GE Chief Slashes Forecasts, Plans to Exit $20 Billion in Businesses - WSJ 2026-08-29, 5:26 PM\ndividend, pensions and capital investments. On Friday, Mr. Flannery said the current\ncash-flow projections aren’t going to be the norm at GE, but the company is looking to\nbalance investing in growth and paying the dividend.\nHe said investors should think of 2018 as a “reset year.” He wouldn’t commit to the\ncompany maintaining its current dividend. Mr. Flannery previously had pledged the\ndividend wouldn’t change, but said Friday that his view is “continuing to evolve.”\n“Expected bad. Got bad,” said analyst Scott Davis, CEO of Melius Research, noting the\nquarterly results raise questions about whether the company is fixable. “Pressure to\nbreak this up just went through the roof.”\nGE cut $500 million in industrial costs in the third quarter and has reduced that\nannual spending by $1.2 billion for the year so far. Earlier this year, GE set a goal to cut\n$1 billion in such costs this year and next, under pressure from Trian, which recently\ngained a seat on the company’s board.\nMr. Flannery said he would look at potential changes to the board, which was mostly\nappointed during Mr. Immelt’s tenure.\n“The board is big at 18 people, there is no doubt about that, and that is one of the\ntopics being discussed,” he said.\nIncoming Chief Financial Officer Jamie Miller said the company would simplify how it\nreports results. It will revise how it measures free cash flow to be in line with others in\nthe industry with a “back to basics approach,” she said.\nMr. Flannery already has called on company leaders to review their divisions and\nplans to streamline the company’s global research efforts. That could include shutting\ndown research centers in Shanghai, Munich and Rio de Janeiro, people familiar with\nthe matter have said.\nGE’s revenue jumped 14% to $33.5 billion in the quarter, up from $29.3 billion a year\nhttps://www.wsj.com/articles/ge-earnings-fall-as-new-leadership-picks-up-restructuring-work-1508497764?mod=article_inline Page 4 of 6\nNew GE Chief Slashes Forecasts, Plans to Exit $20 Billion in Businesses - WSJ 2026-08-29, 5:26 PM\nearlier. Analysts had expected revenue of $32.56 billion, boosted by the Baker Hughes\ndeal.\nOil-and-gas revenue rose 81% from a year ago driven by Baker Hughes; without the\nnew assets, revenue fell 7%. Revenue growth was mixed with aviation and health care\nbusinesses expanding, but power, lighting and transportation all shrinking.\nTransportation revenues dropped 14%.\n—Cara Lombardo contributed to this article.\nWrite to Thomas Gryta at thomas.gryta@wsj.com\nAppeared in the October 21, 2017, print edition as 'GE Vows Changes As View Darkens'.\nThomas Gryta is a former technology editor at The Wall Street Journal.\nHe was previously a reporter covering General Electric and corporate news for the Journal, where his coverage\nspanned how companies navigate the changing economy and society along with financial and operational…\nchallenges. He joined Dow Jones in London in 1999 as a news assistant, returning to New York the following year to\nToFmol ilso wa former Knight-Bagehot Fellow at Columbia University and studied history at the University of\ncover breaking corporate news for the Dow Jones Newswires Spot News desk while also writing about markets,\nMassachusetts at Amherst. With Journal colleague Ted Mann, he is co-author of the book “Lights Out: Pride,\ncommodities, and energy. He later covered the biotechnology and pharmaceuticals industry, then moved to the\nDelusion, and the Fall of General Electric,” which details the decline of the former titan of American business.\nJournal in 2013 to cover telecommunications before shifting to the industrials beat in 2017.\nhttps://www.wsj.com/articles/ge-earnings-fall-as-new-leadership-picks-up-restructuring-work-1508497764?mod=article_inline Page 5 of 6\nNew GE Chief Slashes Forecasts, Plans to Exit $20 Billion in Businesses - WSJ 2026-08-29, 5:26 PM\nhttps://www.wsj.com/articles/ge-earnings-fall-as-new-leadership-picks-up-restructuring-work-1508497764?mod=article_inline Page 6 of 6"
+        },
+        {
+          "filename": "GE’s Other Problem: Complex Financial Reporting - WSJ.pdf",
+          "title": "GE’s Other Problem: Complex Financial Reporting GE’s next finance chief promises to get ‘back to basics’ with the company’s financial reporting",
+          "published_date": "2017-10-20",
+          "text": "GE’s Other Problem: Complex Financial Reporting - WSJ 2026-08-29, 5:26 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/ges-other-problem-complex-financial-reporting-1508551271\nBUSINESS EARNINGS\nGE’s Other Problem: Complex Financial Reporting\nGE’s next finance chief promises to get ‘back to basics’ with the company’s financial\nreporting\nBy Charley Grant\nOct. 20, 2017 at 10:01 pm ET\nA GE logo sits on a panel inside the General Electric power plant in Veresegyhaz, Hungary, on June 13. Wall Street\nanalysts have long expressed frustration with GE’s presentation of financial results, typically describing the\naccounting as ‘aggressive.’ AKOS STILLER/BLOOMBERG NEWS\nGeneral Electric Co.’s next finance chief promised Friday to get “back to basics” with\nthe conglomerate’s financial reporting, after the latest quarterly results highlighted\nthe complexity of the company’s bookkeeping.\nSharp revisions to the company’s forecasts for the current year, just three months\nafter the company had backed them, raised fresh concerns among investors and\nanalysts about the way the company measures its performance.\nhttps://www.wsj.com/articles/ges-other-problem-complex-financial-reporting-1508551271 Page 1 of 4\nGE’s Other Problem: Complex Financial Reporting - WSJ 2026-08-29, 5:26 PM\nThe financial reports will likely be a focus of new CEO John Flannery and incoming\nChief Financial Officer Jamie Miller. In meeting with investors in recent months, the\nnew boss was told that the muddy reporting needed to change. In his letter to\nemployees on his first day, Mr. Flannery said he heard investors “loud and clear.”\nGE GE -0.04% presents its financials to investors in unusual ways. Besides reporting\ntraditional earnings per share under generally accepted accounting principles, GE\nalso reports that figure on an adjusted basis that excludes results of businesses that\nmight be sold in the future.\nThe Boston-based company also reports a key cash-flow metric differently from most\npublic companies. The company adjusts the figure to exclude taxes on the company’s\ndeals, as well as costs to fund its employee pension plan.\nWall Street analysts have long expressed frustration with GE’s presentation of\nfinancial results, typically describing the accounting as “aggressive.” In a recent note\nto clients, William Blair analyst Nicholas Heymann expressed hope that Mr. Flannery’s\nreview would include “replacing aspirational with tangible pragmatic operating\ntargets and simplifying GE’s accounting.”\nMs. Miller promised changes on a conference call with Wall Street analysts on Friday,\nincluding scrapping its adjusted earnings figure and reporting cash flow in line with\nindustry standards.\n“We’re really looking at, how can we report in a much cleaner way, just a much\nsimpler presentation of what you see? I’d kind of call it a back-to-the-basics\napproach,” she said.\nMs. Miller, who previously ran the company’s transportation unit, will take over from\nFinance Chief Jeff Bornstein on Nov. 1. She joined GE in 2008 as chief accounting\nofficer and previously was a finance executive at insurer Anthem Inc. and a partner at\nPricewaterhouseCoopers LLP.\nhttps://www.wsj.com/articles/ges-other-problem-complex-financial-reporting-1508551271 Page 2 of 4\nGE’s Other Problem: Complex Financial Reporting - WSJ 2026-08-29, 5:26 PM\nMr. Bornstein told investors Friday he was leaving because of the company’s poor\nperformance. “We are not living up to our own standards or those of investors, and\nthe buck stops with me,” he said.\nOn Friday, GE cut its profit targets for the year by a third and sliced its forecast for\ncash flow by half. The company’s ability to generate cash has been a question among\ninvestors, nervous about its ability to support its $8 billion annual dividend. Those\nfears have been heightened since the first quarter of the year, when GE surprised\ninvestors with a negative cash flow.\nOne focus of investors has been the ability of the company to use its GE Capital\nbusiness to smooth earnings of the more-cyclical industrial business. As GE has sold\ndown its financial operations, its overall financial performance has declined.\nGE executives told investors the company’s GE Capital business didn’t pay a dividend\nto the parent company—and would halt any such payments until the company\ncompletes an actuarial analysis of claims reserves in the company’s long-term-care\nreinsurance business.\nMr. Bornstein also disclosed the company had made a $500 million correction to the\ncash flow reported in the first half of the year. He said it had been underreported\nbecause derivative hedge settlements had been incorrectly classified.\nThe company has made other changes to its reporting in recent history. In May GE\nchanged the way it calculates the rate that profits convert into free cash flow, a closely\nwatched metric for industrial companies.\nThe effects of the change resulted in more-impressive figures. GE reported a\nconversion rate of 91% for 2016 under the new method, instead of 76% under the old\nmethod.\nWrite to Charley Grant at charles.grant@wsj.com\nhttps://www.wsj.com/articles/ges-other-problem-complex-financial-reporting-1508551271 Page 3 of 4\nGE’s Other Problem: Complex Financial Reporting - WSJ 2026-08-29, 5:26 PM\nAppeared in the October 21, 2017, print edition as '‘Cleaner’ Reports Ahead for Firm'.\nCharley Grant is a banking reporter at The Wall Street Journal based in New York. Previously, he was a Heard on the\nStreet columnist. He is a CFA charter holder.\nFollow\nhttps://www.wsj.com/articles/ges-other-problem-complex-financial-reporting-1508551271 Page 4 of 4"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "The article reports General Electric's profit fell to $1.8 billion, or 21 cents per share, from $2 billion, or 22 cents, a year earlier, with adjusted earnings declining to 29 cents from 32 cents as impairment and restructuring charges reduced per-share earnings by 16 cents. Revenue, however, rose 14% to $33.5 billion from $29.3 billion, beating an analyst estimate of $32.56 billion. It details new CEO John Flannery's restructuring push, including plans to divest more than $20 billion in business assets within one to two years, cost cuts of $500 million in the quarter and $1.2 billion year-to-date toward a target of more than $2 billion in savings within two years, and potential closures of research centers in Shanghai, Munich, and Rio de Janeiro along with grounding the corporate jet fleet. Flannery is quoted saying the company is 'focused on redefining our culture, running our businesses better, and reducing our complexity.' By segment, oil-and-gas revenue surged 81% following the Baker Hughes merger, aviation and healthcare expanded, while power, lighting, and transportation contracted, with transportation revenue down 14%.",
+      "why_moved": "The article states that GE shares dropped 5% in premarket trading on the Friday after the report, following a Thursday close of $23.58, with the stock down 25% year-to-date. It reports this decline alongside the fall in adjusted earnings and the impairment and restructuring charges that weighed on the quarter, without offering a more specific single explanation for the drop.",
+      "sources": [
+        {
+          "title": "GE Earnings Fall as New CEO Picks Up Restructuring Pace",
+          "url": "https://www.foxbusiness.com/features/ge-earnings-fall-as-new-ceo-picks-up-restructuring-pace-update"
+        }
+      ]
+    }
+  },
+  "GE_2018q1": {
+    "ticker": "GE",
+    "group": "Group 2",
+    "company_name": "General Electric",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-01-24",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "By early 2018 GE had already cut its dividend and disclosed a massive insurance-reserve problem. Investors were focused on whether more balance-sheet or accounting problems would emerge under Flannery’s review.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "GE Investor Relations: GE 3rd Quarter 2017 Earnings Webcast",
+                  "url": "https://www.ge.com/investor-relations/events-reports/ge-3rd-quarter-2017-earnings-webcast"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "GE reported adjusted EPS of **$0.27**, below consensus around $0.29, and revenue of about **$31.4 billion**, well below forecasts near $33.8 billion. Power segment profit fell **88%**, while Aviation and Healthcare remained strong.",
+              "sources": []
+            },
+            {
+              "text": "The decisive additional disclosure came on the conference call: GE said the **SEC was investigating** the process behind its insurance-reserve increase as well as revenue recognition and controls for long-term service agreements. Shares initially opened higher but reversed sharply after that disclosure. The quarter therefore combined weak operating results with a new accounting/regulatory risk.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "GE Announces Fourth Quarter 2017 Results",
+                  "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054518000006/ge4q2017ex99.htm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock fell after GE disclosed an SEC investigation tied to insurance reserves and revenue-recognition controls.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Revenue and adjusted EPS both missed expectations.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Power’s 88% profit decline reinforced fears that the turnaround would take years rather than quarters.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: GE Stock Erases Gains After Weak Earnings, SEC Probe",
+                  "url": "https://www.thestreet.com/investing/general-electric-stock-rising-despite-earnings-revenue-miss-14460454"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for GE identity, the correct earnings event, publication date, timing window and source origin. GE Investor Relations / SEC is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "GE Investor Relations: GE 3rd Quarter 2017 Earnings Webcast",
+          "url": "https://www.ge.com/investor-relations/events-reports/ge-3rd-quarter-2017-earnings-webcast"
+        },
+        {
+          "label": "GE Announces Fourth Quarter 2017 Results",
+          "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054518000006/ge4q2017ex99.htm"
+        },
+        {
+          "label": "TheStreet: GE Stock Erases Gains After Weak Earnings, SEC Probe",
+          "url": "https://www.thestreet.com/investing/general-electric-stock-rising-despite-earnings-revenue-miss-14460454"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "GE disclosed that securities regulators had opened a probe into how the company recognized revenue on long-term service contracts — about $15 billion of roughly $28.9 billion in \"contract assets\" on its balance sheet, tied largely to power and aviation businesses — as well as into its insurance business, following a previously disclosed $7.5 billion charge and $15 billion, seven-year reserve-building plan for a legacy long-term-care reinsurance unit within GE Capital. New CFO Jamie Miller called the SEC probe \"very early stages\" and said her own \"deep review\" of GE's finances had not turned up accounting problems, while CEO John Flannery reiterated he was evaluating options including breaking the company into separate public units: \"There will be a GE in the future, but it will look different than it does today... We have a long way to go but the mission is clear.\" Fourth-quarter revenue fell 5.1% to $31.4 billion and GE reported a loss of $9.64 billion, or $1.13 a share, versus a year-earlier profit of $3.67 billion, or 39 cents a share, weighed down by the insurance charge and U.S. tax-overhaul costs; on an adjusted basis the company reported a profit of 27 cents a share. The power division, GE's largest by revenue, saw revenue fall 15% and profit tumble 88% as orders dove 25%, prompting a plan to cut 12,000 jobs, nearly 18% of the unit's workforce. A companion Heard on the Street column argued that even stripping out one-time items, GE's underlying business looked weak: its enterprise-value-to-free-cash-flow ratio was 31% pricier than the median of eight industrial peers, and even in 2016 — GE's best return-on-invested-capital year in a decade — it ranked second-weakest among that peer group, casting doubt on whether the stock, despite a 44% one-year share-price decline, represented a bargain.",
+      "why_moved": "The news article reports that GE shares had rallied as much as 5% in premarket trading but surrendered those gains after the SEC probe was announced, with shares having tumbled 45% over the prior 12 months. The Heard on the Street column, examining the same day's trading, notes that \"horrific earnings and an SEC probe knocked only 3% off the share price,\" framing the net decline as evidence investors have grown \"numb to bad news\" at GE — the premarket rally reflecting relief that results were not worse than already-depressed expectations, before the SEC disclosure erased most of those gains.",
+      "sources": [
+        {
+          "filename": "SEC Has Opened Probe of GE’s Accounting - WSJ.pdf",
+          "title": "SEC Has Opened Probe of GE’s Accounting GE said regulators have sought information about its contract assets and its insurance business",
+          "published_date": "2018-01-24",
+          "text": "SEC Has Opened Probe of GE’s Accounting - WSJ 2026-08-29, 5:28 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/ge-shows-long-road-ahead-in-restructuring-push-1516797761\nBUSINESS EARNINGS\nSEC Has Opened Probe of GE’s Accounting\nGE said regulators have sought information about its contract assets and its insurance\nbusiness\nBy Thomas Gryta\nUpdated Jan. 24, 2018 at 6:52 pm ET\nCEO John Flannery, who took over GE this past August, is working on restructuring the company. RICHARD DREW/\nASSOCIATED PRESS\nGeneral Electric Co. said securities regulators have opened a probe into the company’s\naccounting practices, a new challenge to the conglomerate’s efforts to untangle its\nproblems and turn around its struggling business.\nThe Securities and Exchange Commission is investigating how the company\nrecognized revenue from long-term service contracts for projects like power-plant\nrepairs and jet-engine maintenance, GE said. The Boston-based giant, which reported\nrevenue of $122 billion for 2017, has about $15 billion of such service contracts on its\nhttps://www.wsj.com/articles/ge-shows-long-road-ahead-in-restructuring-push-1516797761?mod=article_inline Page 1 of 6\nSEC Has Opened Probe of GE’s Accounting - WSJ 2026-08-29, 5:28 PM\nbooks.\nThe SEC first inquired about the contract accounting in late November after the\ncompany sharply revised its financial projections, according to a person familiar with\nthe matter. Last week, the agency sought additional information about GE’s review of\nits insurance business after the company disclosed a massive charge, this person said.\nThe U.S. investigation brings more uncertainty to an industrial powerhouse that has\nfallen on hard times, and adds to the obstacles that new CEO John Flannery must\novercome. It also provides fuel for analysts and investors who have long regarded GE’s\naccounting and some of its holdings as a “black box.”\n“If you were concerned about black box issues in the past, aren’t you much more\nconcerned about it today?” said John Inch, an analyst at Deutsche Bank.\nGE’s finance chief, Jamie Miller, who disclosed the probe on an earnings call with\ninvestors Wednesday, said the company is cooperating with the SEC. She said the\nprobe was in “very early stages.” In an interview, Ms. Miller said she has been\nconducting a “deep review” of GE finances and that she hasn’t seen indications of\naccounting problems.\nThe disclosure came after GE reported declines in fourth-quarter revenue and profit.\nShares of GE had rallied as much as 5% in premarket trading, but surrendered those\ngains after the SEC probe was announced. Shares have tumbled 45% over the past 12\nmonths.\nMs. Miller, who used to run GE’s Transportation unit and took over as finance chief on\nNov. 1, played down the specter of additional unexpected charges at GE, noting that\nshe is “pretty well through” her review of the company’s balance sheet. She said she\ncontinues to review GE’s financial processes, systems and past decisions.\nGE’s accounting has long been a subject of scrutiny. The company regularly beat Wall\nStreet’s estimates under former CEO Jack Welch. The precision with which it did so,\nhttps://www.wsj.com/articles/ge-shows-long-road-ahead-in-restructuring-push-1516797761?mod=article_inline Page 2 of 6\nSEC Has Opened Probe of GE’s Accounting - WSJ 2026-08-29, 5:28 PM\nthough, led critics to question the results.\nIn 2009, GE paid $50 million to settle SEC allegations that it had used improper\naccounting methods to boost earnings and revenues in 2002 and 2003. The company\ndidn’t admit or deny the SEC’s allegations in agreeing to the settlement.\nUnder former CEO Jeff Immelt, the company wound down much of its lending\nbusiness in the wake of the financial crisis and made big acquisitions to expand its\npower and oil businesses. But the industrial units struggled in recent years to\ngenerate enough cash to pay the company’s dividend, prompting the company’s move\nin November to cut the investor payout by half.\nGE has a growing portfolio of “contract assets” coming mostly from its core power\nand aviation businesses. These are assets based on revenues GE books on multiyear\ncontracts before it has the cash in hand, for things such as servicing power plants and\nbuilding complex equipment like gas-power systems. The company has said it would\neventually realize all the cash related to those contracts.\nGE’s contract assets on its balance sheet were $28.9 billion at the end of December,\ndown slightly from September but up $3.7 billion from a year ago. A spokesperson said\nabout $15.2 billion of the balance is from long-term service agreements, with the\nremainder related to equipment contracts. The service contracts are generally 10 to\n30 years long.\nThe level of contract assets relies in part on GE’s own estimates and assumptions\nabout how much profit it will ultimately reap from those contracts, and analysts have\nsaid they have little visibility into those estimates. In the first nine months of 2017,\nearnings stemming from the increase in contract assets amounted to $1.93 billion,\naccording to GE, more than half the company’s pretax earnings from continuing\noperations.\nLast week, GE surprised investors when it disclosed it would book a $6.2 billion\nhttps://www.wsj.com/articles/ge-shows-long-road-ahead-in-restructuring-push-1516797761?mod=article_inline Page 3 of 6\nSEC Has Opened Probe of GE’s Accounting - WSJ 2026-08-29, 5:28 PM\ncharge in its fourth quarter related to its insurance operations and needed to set aside\n$15 billion over seven years to bolster insurance reserves at its GE Capital unit.\nMr. Flannery, who took over last summer and slashed GE’s financial projections, has\npromised to simplify the company’s business. Last week, he put the possibility on the\ntable of breaking apart the company, saying he was evaluating whether to separate its\nmajor business units into public companies.\n“There will be a GE in the future, but it will look different than it does today,” Mr.\nFlannery said Wednesday. “We have a long way to go but the mission is clear.”\nHe reiterated that he will do “whatever it takes” to make sure the core businesses are\npositioned for growth. “We are looking at any option we need to think about in that\ncontext,” he said.\nGE already is exploring ways to shed its majority stake in Baker Hughes, which\nincludes GE’s former oil business, as well as sell its century-old Lighting business. The\ncompany also is looking to sell its Transportation unit, which builds locomotives,\naccording to people familiar with the matter.\nOn Wednesday, the company said it is working on more than 20 deals to rearrange its\nportfolio. It aims to shed $20 billion in assets. It expects to cut costs by more than $2\nbillion in 2018—more than the $1.7 billion cut in 2017—and will soon announce a\nrevamped board of directors.\nGE also said it would restate its 2016 and 2017 financial results because of newly\nadopted revenue recognition rules around its long-term service contracts. The change\nwill result in “a lower asset balance and lower earnings going forward,” Ms. Miller\nsaid, but “doesn’t change anything related to our cash balances or cash flows.”\nThe restatement is separate from the SEC inquiry and isn’t related to accounting\nerrors or other reporting problems, a GE spokesperson said. The accounting rule\nchanges require the prior-period results to conform with the new standard.\nhttps://www.wsj.com/articles/ge-shows-long-road-ahead-in-restructuring-push-1516797761?mod=article_inline Page 4 of 6\nSEC Has Opened Probe of GE’s Accounting - WSJ 2026-08-29, 5:28 PM\nThe latest quarterly results show continued woes in GE’s Power business, where\nrevenue fell 15% and profits tumbled 88% from a year ago. The business, GE’s biggest\nby revenue, sells turbines to power plants around the globe. In the quarter, the\ndivision’s orders dove 25%.\nGE revealed the problems in the power business in the fall, detailing how it misjudged\na major shift in the market. Last month, it targeted cutting 12,000 jobs the division,\nnearly 18% of the unit’s workforce.\nFor the fourth quarter, GE reported a loss of $9.64 billion, or $1.13 a share, down from\na profit of $3.67 billion, or 39 cents a share, last year. The results were weighed down\nby the insurance-related charge as well as costs tied to U.S. tax overhaul. Revenue fell\n5.1% from a year ago to $31.4 billion. The company said its quarterly revenue was $33.1\nbillion including assets that the company has put up for sale.\n—Michael Rapoport contributed to this article.\nWrite to Thomas Gryta at thomas.gryta@wsj.com\nCorrections & Amplifications\nOn an adjusted basis, GE reported a profit of 27 cents a share in the latest quarter. An\nearlier version of this article incorrectly stated it was a loss. (Jan. 24, 2018)\nAppeared in the January 25, 2018, print edition as 'GE Faces An SEC Probe of Accounts'.\nThomas Gryta is a former technology editor at The Wall Street Journal.\nHe was previously a reporter covering General Electric and corporate news for the Journal, where his coverage\nspanned how companies navigate the changing economy and society along with financial and operational…\nchallenges. He joined Dow Jones in London in 1999 as a news assistant, returning to New York the following year to\nToFmol ilso wa former Knight-Bagehot Fellow at Columbia University and studied history at the University of\ncover breaking corporate news for the Dow Jones Newswires Spot News desk while also writing about markets,\nMassachusetts at Amherst. With Journal colleague Ted Mann, he is co-author of the book “Lights Out: Pride,\ncommodities, and energy. He later covered the biotechnology and pharmaceuticals industry, then moved to the\nDelusion, and the Fall of General Electric,” which details the decline of the former titan of American business.\nJournal in 2013 to cover telecommunications before shifting to the industrials beat in 2017.\nhttps://www.wsj.com/articles/ge-shows-long-road-ahead-in-restructuring-push-1516797761?mod=article_inline Page 5 of 6\nSEC Has Opened Probe of GE’s Accounting - WSJ 2026-08-29, 5:28 PM\nhttps://www.wsj.com/articles/ge-shows-long-road-ahead-in-restructuring-push-1516797761?mod=article_inline Page 6 of 6"
+        },
+        {
+          "filename": "GE Looks Ugly in Its Underwear - WSJ.pdf",
+          "title": "HEARD ON THE STREET Follow GE Looks Ugly in Its Underwear GE’s new transparency is welcome, but a focus on cash shows the company is probably no bargain even after its swoon",
+          "published_date": "2018-01-24",
+          "text": "GE Looks Ugly in Its Underwear - WSJ 2026-08-29, 5:28 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/ge-looks-ugly-in-its-underwear-1516816477\nHEARD ON THE STREET Follow\nGE Looks Ugly in Its Underwear\nGE’s new transparency is welcome, but a focus on cash shows the company is probably\nno bargain even after its swoon\nBy Spencer Jakab\nUpdated Jan. 24, 2018 at 4:11 pm ET\nInvestors, who have grown numb to bad news at GE, actually celebrated the company’s weak earnings on\nWednesday. THIBAULT CAMUS/ASSOCIATED PRESS\nSunlight may be the best disinfectant, but General Electric is learning that it can leave\nsome nasty burns—particularly for those who have spent too much time in the shade.\nInvestors, who have grown numb to bad news at GE, actually celebrated the\ncompany’s weak earnings on Wednesday and only sold off shares after the disclosure\nof a Securities and Exchange Commission probe into GE’s accounting. What has\nbecome increasingly clear as the bad news mounts at GE is that the company’s\nbusiness is pretty weak.\nhttps://www.wsj.com/articles/ge-looks-ugly-in-its-underwear-1516816477 Page 1 of 3\nGE Looks Ugly in Its Underwear - WSJ 2026-08-29, 5:28 PM\nThe SEC review concerns not only the recent bombshell about the company’s $7.5\nbillion charge for a legacy insurance business but also revenue recognition in its\nindustrial business. That latter item, including so-called contract assets, may lead to\nrestatements of past financials.\nWhile GE is a serial tweaker of financial disclosure, the company is doing the right\nthing by shifting its focus to more transparent free cash flow. Unfortunately, it paints\nan unflattering picture. Even after its shares fell 44% in the past year, and even using\n2016 financial figures, before the recent collapse in earnings in its power unit, a\ncomparison with industrial competitors hardly suggests a screaming bargain. GE’s\nratio of enterprise value to free cash flow is 31% dearer than the median of eight peers.\nAnd, even as GE posted its best return on invested capital in a decade that year, it was\nthe second-weakest of that group in 2016. Today’s numbers, of course, look worse, and\nthere doesn’t appear to be anything in the near future to turn things around.\nGE ended the year with net cash of a little more than $11 billion in its industrial units.\nCutting its dividend in half will preserve a little more than $4 billion this year, but\nsuspending dividends from its GE Capital unit for the foreseeable future as it plugs its\ninsurance hole will offset those savings. And while GE sees its cash balance excluding\n62.5% owned Baker Hughes climbing to about $15 billion by the end of 2018, that\nincludes an anticipated $4 billion to $5 billion in proceeds from disposals. In other\nwords, the actual business of selling and servicing stuff probably won’t generate any\nnet cash this year.\nIn addition to the uncertainty about how much contract assets flattered past earnings,\neven cash flow may have been boosted. GE Capital often buys receivables from its\nindustrial units so cash is received more promptly. As the finance business conserves\ncash to make statutory insurance contributions, that could create a short-term hiccup.\nGE Capital also may be less willing to underwrite riskier deals for industrial\nequipment, sapping revenue.\nIt says something about GE that horrific earnings and an SEC probe knocked only 3%\nhttps://www.wsj.com/articles/ge-looks-ugly-in-its-underwear-1516816477 Page 2 of 3\nGE Looks Ugly in Its Underwear - WSJ 2026-08-29, 5:28 PM\noff the share price. Wednesday’s news could have been worse. It also speaks volumes\nthat bargain hunters have avoided this wounded blue chip. There clearly was a lot less\nthere than met the eye.\nWrite to Spencer Jakab at spencer.jakab@wsj.com\nSpencer Jakab writes the Markets A.M. newsletter, The Wall Street Journal's daily investing outlook.\nHe was previously global editor of Heard on the Street, WSJ's home for financial analysis and commentary, and\nbefore that he wrote the daily investing column Ahead of the Tape and the Lex Column for Britain’s Financial Times…\nPrior to becoming a journalist he was a top-rated equity analyst and later director of an emerging markets research\nteaFmoll oawt Credit Suisse. Spencer is the author of two books on investing published by Penguin Random House.\nhttps://www.wsj.com/articles/ge-looks-ugly-in-its-underwear-1516816477 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "The article reports General Electric posted a quarterly loss of $9.64 billion, or $1.13 per share, compared with a profit of $3.67 billion, or 39 cents per share, a year earlier, with adjusted results also swinging to a loss of 27 cents per share from an adjusted profit of 46 cents; analysts had expected adjusted earnings of 29 cents. It attributes the swing to two major charges: a $0.40-per-share hit from the new U.S. tax law and a $6.2 billion charge tied to insurance operations, alongside an announcement that GE would set aside $15 billion over seven years to bolster reserves at its GE Capital insurance unit. Revenue declined 5.1% to $31.4 billion, with the power segment particularly weak -- revenue down 15% and operating profit down 88% -- while aviation and healthcare posted higher profit and revenue, and oil-and-gas revenue rose 69% even as adjusted profit there fell 25% following the completed Baker Hughes merger. CEO John Flannery, in his role since August, is quoted saying 'we expect market challenges to continue' in the power division, and the article notes he was pursuing restructuring options that could include splitting the company along power, aviation, and healthcare lines.",
+      "why_moved": "The article states that GE shares rose 2.1% in premarket trading despite the large reported loss, noting the stock had still declined 44% over the prior twelve months. It does not spell out a specific reason for the premarket gain beyond reporting it alongside the quarter's results and charges.",
+      "sources": [
+        {
+          "title": "GE Posts $9.64 Billion Loss, With Long Road Ahead in Restructuring Push",
+          "url": "https://www.foxbusiness.com/features/ge-posts-9-64-billion-loss-with-long-road-ahead-in-restructuring-push-update"
+        }
+      ]
+    }
+  },
+  "GE_2018q2": {
+    "ticker": "GE",
+    "group": "Group 2",
+    "company_name": "General Electric",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-04-20",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After the insurance charge, SEC investigation and accounting restatement, expectations for GE had been pushed very low. Investors mainly wanted evidence that the company could avoid another guidance cut and show stabilization in cash flow.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "GE Announces Fourth Quarter 2017 Results",
+                  "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054518000006/ge4q2017ex99.htm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q1 adjusted EPS was **$0.16**, above the roughly $0.12 consensus, while revenue rose about **7% to $28.66 billion**, also above expectations. Adjusted industrial free cash flow was **negative $1.7 billion**, but that was in line with plan and about $1.1 billion better than a year earlier.",
+              "sources": []
+            },
+            {
+              "text": "Aviation and Healthcare were the strongest segments, while Power and Oil & Gas remained difficult. Importantly, GE **reaffirmed full-year EPS and free-cash-flow guidance** rather than cutting it. Against extremely depressed expectations, a quarter that was merely “not another disaster” was enough to produce a large positive stock reaction.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "GE Announces First Quarter 2018 Results",
+                  "url": "https://www.ge.com/sites/default/files/ge_webcast_pressrelease_04202018.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares jumped because GE beat revenue/EPS estimates and, crucially, did not cut 2018 guidance.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Aviation and Healthcare demonstrated that valuable core franchises were still performing well.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Better year-over-year industrial cash flow supported the idea that the turnaround was beginning to stabilize.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: GE Rises on Earnings and Revenue Beats Despite Weakness in Power",
+                  "url": "https://www.thestreet.com/investing/earnings/ge-rises-on-earnings-revenue-beat-14562744"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for GE identity, the correct earnings event, publication date, timing window and source origin. GE Investor Relations / SEC is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "GE Announces Fourth Quarter 2017 Results",
+          "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054518000006/ge4q2017ex99.htm"
+        },
+        {
+          "label": "GE Announces First Quarter 2018 Results",
+          "url": "https://www.ge.com/sites/default/files/ge_webcast_pressrelease_04202018.pdf"
+        },
+        {
+          "label": "TheStreet: GE Rises on Earnings and Revenue Beats Despite Weakness in Power",
+          "url": "https://www.thestreet.com/investing/earnings/ge-rises-on-earnings-revenue-beat-14562744"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "GE reported a first-quarter net loss of $1.18 billion, driven by a $1.5 billion charge tied to a potential settlement of a Justice Department probe into WMC Mortgage, a subprime-lending business once housed in GE Capital — a risk the Journal had flagged the previous month. Excluding the charge, the company said profits were ahead of plan; GE cut $805 million of industrial costs in the quarter and reaffirmed its 2018 financial targets, including per-share earnings of $1.00 to $1.07. CEO John Flannery, nine months into a strategic review, said he was \"encouraged by the progress\" and aimed to \"earn back investor trust in 2018,\" while promising more detail on a possible company breakup by the end of June; he also declined to firmly recommit to the dividend, saying his view \"continues to evolve.\" Adjusted earnings of 16 cents a share beat the 11-cent analyst estimate, and revenue rose 7% to $28.66 billion, beating a $27.45 billion estimate, aided by the prior year's Baker Hughes oil-and-gas merger. The power division continued to struggle: revenue fell 9%, profit fell 38%, and orders dropped 29%, with the company reporting no customers yet for its new H-class turbine and CFO Jamie Miller saying \"The pace of the market decline is greater than the near-term benefit of those [cost-cutting] actions.\" Profits and sales rose in the aviation and health-care units, with aviation profit up 26%. The companion Heard on the Street column called the quarter \"the first time in months\" GE news wasn't dismal, noting there was no fresh bad news about GE Capital or new accounting-probe disclosures, but cautioned that the rally merely returned shares to where they traded in mid-March and that GE remained \"a long way from health,\" with the power business and GE Capital still \"unfixed.\"",
+      "why_moved": "The news article reports that GE's battered shares rallied Friday morning, advancing 5% to $14.70, while the Heard on the Street column, describing the same session, says investors were \"almost euphoric, bidding up GE shares more than 7%, though they quickly sobered up and the gains ebbed from there.\" Both pieces attribute the initial pop to relief that the quarter held no fresh negative surprises — the dividend was untouched, full-year guidance was reaffirmed, and the mortgage charge had already been previewed by prior reporting — rather than to any actual improvement in the still-struggling power division, which the Heard column notes showed no concrete sign of turning around.",
+      "sources": [
+        {
+          "filename": "GE Takes Hit From Old Mortgage Unit but Says Turnaround on Track - WSJ.pdf",
+          "title": "GE Takes Hit From Old Mortgage Unit but Says Turnaround on Track CEO John Flannery says company will exceed cost-cutting goal, stands by 2018 profit goals",
+          "published_date": "2018-04-20",
+          "text": "GE Takes Hit From Old Mortgage Unit but Says Turnaround on Track - WSJ 2026-08-29, 5:29 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/ge-takes-hit-from-old-mortgage-unit-but-says-turnaround-on-track-1524222453\nBUSINESS EARNINGS\nGE Takes Hit From Old Mortgage Unit but Says\nTurnaround on Track\nCEO John Flannery says company will exceed cost-cutting goal, stands by 2018 profit goals\nBy Thomas Gryta\nWSJ PRO Updated April 20, 2018 at 10:44 am ET\nIndustrial Parts\nGE's aviation unit accounted for most of its quarterly profit.\nProfit/loss by segment\n1Q 2017 1Q 2018\n-$0.25 billion $0 $0.25 $0.5 $0.75 $1 $1.25 $1.5 $1.75\nAviation\nHealthcare\nPower\nTransportation\nRenewable energy\nOil and gas\nNote: Excludes lighting which had $1 million profit in 2018 and $10 million in 2017.\nSource: the company\nhttps://www.wsj.com/articles/ge-takes-hit-from-old-mortgage-unit-but-says-turnaround-on-track-1524222453?mod=article_inline Page 1 of 5\nGE Takes Hit From Old Mortgage Unit but Says Turnaround on Track - WSJ 2026-08-29, 5:29 PM\nGeneral Electric Co. reported a quarterly loss on a $1.5 billion charge related to a\nsubprime mortgage business it once owned, but executives said they were making\nprogress on their efforts to turn around its industrial businesses.\nGE cut $805 million of costs in its industrial businesses in the first quarter and\nreaffirmed its 2018 financial targets. There were also no major surprises for investors\nafter a series of setbacks in the last year. The company’s power business continues to\nstruggle, offsetting strength in the company’s jet engine and health care divisions.\nGEs battered shares rallied Friday morning, advancing 5% to $14.70. The stock has\ndropped by half over the past year as the company has embarked on a multiyear\nrestructuring, lowered its profit goals and cut its annual dividend by half.\nIn GE’s Aviation business, which manufactures and services jet engines, sales rose 7% in the quarter and profits\njumped 26%. PHOTO: DANIEL ACKER/BLOOMBERG NEWS\nOn a Friday conference call, Chief Executive John Flannery said he aims to earn back\ninvestor trust in 2018 and is “encouraged by the progress.” Nine months after taking\nover and launching a strategic review, he said he continues to examine the company’s\nstructure and promised to detail his plan in coming months.\nhttps://www.wsj.com/articles/ge-takes-hit-from-old-mortgage-unit-but-says-turnaround-on-track-1524222453?mod=article_inline Page 2 of 5\nGE Takes Hit From Old Mortgage Unit but Says Turnaround on Track - WSJ 2026-08-29, 5:29 PM\nMr. Flannery has said all options remain on the table, including the effective breakup\nof the conglomerate. He also said management is working on a three-year strategic\nplanning process, which it will share with the board by the end of June.\nThe industrial conglomerate said Friday it expects proceeds of $5 billion to $10 billion\nfrom asset sales during 2018. It expects to finalize divestiture plans of its\nTransportation division by the end of June and sell its Lighting business by year-end.\nMr. Flannery said GE is on track to exceed its target to cut $2 billion in expenses this\nyear.\nThe company reported a net loss of $1.18 billion for the first quarter, including the\ncharge for a potential settlement of a government probe of its WMC Mortgage\nbusiness. Last month, The Wall Street Journal highlighted the risk of a charge tied to\nthe talks with the Justice Department over the business, a part of GE Capital that was\na large subprime lender before the financial crisis. Excluding the charge, the company\nsaid its profits were ahead of its plan.\nChief Financial Officer Jamie Miller said the company had settlement discussions with\nthe Justice Department last month. The $1.5 billion reserve amount is based on those\ntalks and a review of similar settlements at other banks, she said. The reserve doesn’t\nchange the company’s plans or view in relation to GE Capital, which it is in the process\nof further shrinking.\nRevenue in its industrials business fell 4% in the period, excluding acquisitions and\ncurrency swings, dragged down by declines in its Power division, which has been\nstruggling with excess capacity and slack demand for its power plant equipment.\nOn an adjusted basis, the company reported a profit of 16 cents a share, up from 14\ncents a year ago. On that basis, analysts polled by Thomson Reuters were expecting\nhttps://www.wsj.com/articles/ge-takes-hit-from-old-mortgage-unit-but-says-turnaround-on-track-1524222453?mod=article_inline Page 3 of 5\nGE Takes Hit From Old Mortgage Unit but Says Turnaround on Track - WSJ 2026-08-29, 5:29 PM\nadjusted earnings of 11 cents a share.\nOverall, GE said revenue in the March quarter rose 7% to $28.66 billion, including a\nboost from the merger of its Oil & Gas business with Baker Hughes last July. GE still\nowns a majority stake in the combined company. Analysts were expecting $27.45\nbillion in total revenue.\nOn Friday, GE stood by its 2018 earnings\nprojection of $1 to $1.07 a share. In February,\nthe company said it was likely to meet the\nlower end of that range and analysts current\nforecast just 95 cents a share for the year.\nRevenue in the Power unit fell 9% in the first\nquarter and the segment’s profit fell 38%. GE\nGE CEO John Flannery said he aims to earn back\nsaid it has closed 17 sites in its power\ninvestor trust in 2018 and is ‘encouraged by the\nprogress.’ PHOTO: RICHARD DREW/\ndivision in the last six months and said\nASSOCIATED PRESS\nFriday it would be “exiting other noncore\nassets” in the division.\nThe power business is looking even worse than GE had planned, executives said\nFriday, a trend it expects to see for the next few years. The company is cutting costs\nbut orders dropped 29% in the quarter and it had no customers for its massive H\nturbine.\n“The pace of the market decline is greater than the near-term benefit of those\nactions,” Ms. Miller said, referring to cost cuts.\nProfits and sales rose in GE’s other two core units, aviation and health care. In the\nAviation business, which manufactures and services jet engines, profits jumped 26%.\nhttps://www.wsj.com/articles/ge-takes-hit-from-old-mortgage-unit-but-says-turnaround-on-track-1524222453?mod=article_inline Page 4 of 5\nGE Takes Hit From Old Mortgage Unit but Says Turnaround on Track - WSJ 2026-08-29, 5:29 PM\nWith $1.6 billion in segment profit, Aviation accounted for more profits than all of the\nother units combined.\nMuch of investor focus and Mr. Flannery’s strategy has been to improve GE’s ability to\ngenerate cash from its operations. The company still aims for $6 billion to $7 billion in\nfree cash flow from its industrial operations. In the latest quarter, those operations\nhad negative free cash flow of $1.7 billion, compared with negative $2.7 billion in the\nyear ago period.\nGE ended March with about in $13 billion in cash and equivalents, down from about\n$19 billion in December. The company said it still expects the end year with more than\n$15 billion in cash. The cash balance excludes its GE Capital unit. The company\nhighlighted that it has more than $40 billion of credit lines at various banks which are\nuntapped.\nWrite to Thomas Gryta at thomas.gryta@wsj.com\nhttps://www.wsj.com/articles/ge-takes-hit-from-old-mortgage-unit-but-says-turnaround-on-track-1524222453?mod=article_inline Page 5 of 5"
+        },
+        {
+          "filename": "No Bad News Counts as Good News at GE - WSJ.pdf",
+          "title": "HEARD ON THE STREET Follow No Bad News Counts as Good News at GE Conglomerate’s recovery will hinge on concrete signs of improvement in cash flow at its power unit",
+          "published_date": "2018-04-20",
+          "text": "No Bad News Counts as Good News at GE - WSJ 2026-08-29, 5:29 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/no-bad-news-counts-as-good-news-at-ge-1524237214\nHEARD ON THE STREET Follow\nNo Bad News Counts as Good News at GE\nConglomerate’s recovery will hinge on concrete signs of improvement in cash flow at its\npower unit\nBy Spencer Jakab\nApril 20, 2018 at 11:13 am ET\nGeneral Electric Co. on Friday beat analysts’ consensus estimate for quarterly earnings and reaffirmed its full-year\nguidance. BRENDAN MCDERMID/REUTERS\nFor the first time in months, an announcement from General Electric wasn’t dismal.\nYet the bounce in the troubled conglomerate’s share price Friday morning merely\nreturned it to where it was in the middle of last month. Recall that just three years ago\ninvestors cheered the company’s radical downsizing of GE Capital and its plan to\nreturn $90 billion in cash by the end of 2018. The sad reality is the cash return was just\n$50 billion and GE’s loss in market value has been twice as much.\nhttps://www.wsj.com/articles/no-bad-news-counts-as-good-news-at-ge-1524237214 Page 1 of 4\nNo Bad News Counts as Good News at GE - WSJ 2026-08-29, 5:29 PM\nBut that was then and this is now. The fact that GE didn’t eliminate its remaining\ndividend, beat analyst’s consensus estimate for first-quarter earnings per share and\neven reaffirmed its full-year guidance of $1.00 to $1.07 a share on Friday counts as\ngreat news relative to the market’s radically recalibrated expectations.\nPower Failure\nChange in first-quarter profit at GE units from a year earlier\n-50% -40 -30 -20 -10 0 10 20 30 40 50\nPower\nOil & gas\nRenewables\nHealth care\nAviation\nTransportation\nSource: the company\nThe other big positive was there was no fresh bad news about GE Capital, no new\ndetails about investigations of the company’s accounting and the company didn’t\nmake any desperate moves to shore up cash. With $20 billion in asset sales under way\nand the company projecting adjusted industrial free cash flow of $6 billion to $7\nbillion, a cash crisis now looks less likely.\nInvestors were almost euphoric, bidding up GE shares more than 7%, though they\nhttps://www.wsj.com/articles/no-bad-news-counts-as-good-news-at-ge-1524237214 Page 2 of 4\nNo Bad News Counts as Good News at GE - WSJ 2026-08-29, 5:29 PM\nquickly sobered up and the gains ebbed from there.\nThe reality is GE is a long way from health. GE Capital and GE Power are still unfixed\nand the company’s record of selling assets isn’t impressive. Aside from successful\nasset sales, the best evidence that new chief John Flannery’s turnaround plan is\nworking would be an improvement in how efficiently the Power division, the\ncompany’s biggest by revenue, converts so-called contract assets—long-term\nequipment and service contracts—into cash. There was scant sign of that in Friday’s\nannouncement and the company noted that the power market “continues to be\nchallenging and hard to predict.”\nWithout any sign of if or when that unit will turn around, the safest assumption is to\ngauge GE’s fair value on current levels of profitability. Applying industry multiples of\nearnings before interest, tax, depreciation and amortization to GE’s five main\nindustrial businesses plus the market price of its 62.5% owned oil services unit, there\nisn’t much reason to chase GE’s stock above $15. This assumes that GE Capital’s value\nis zero, which, while that sounds harsh, is better than some fear.\nAs invigorating as Friday’s results were, GE cleared a low bar. Now comes the hard\npart, and it is likely to be a long, treacherous slog.\nWrite to Spencer Jakab at spencer.jakab@wsj.com\nAppeared in the April 21, 2018, print edition as 'For GE, No Bad News Is Good News'.\nSpencer Jakab writes the Markets A.M. newsletter, The Wall Street Journal's daily investing outlook.\nHe was previously global editor of Heard on the Street, WSJ's home for financial analysis and commentary, and\nbefore that he wrote the daily investing column Ahead of the Tape and the Lex Column for Britain’s Financial Times…\nPrior to becoming a journalist he was a top-rated equity analyst and later director of an emerging markets research\nteaFmoll oawt Credit Suisse. Spencer is the author of two books on investing published by Penguin Random House.\nhttps://www.wsj.com/articles/no-bad-news-counts-as-good-news-at-ge-1524237214 Page 3 of 4\nNo Bad News Counts as Good News at GE - WSJ 2026-08-29, 5:29 PM\nhttps://www.wsj.com/articles/no-bad-news-counts-as-good-news-at-ge-1524237214 Page 4 of 4"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "GE_2018q3": {
+    "ticker": "GE",
+    "group": "Group 2",
+    "company_name": "General Electric",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-20",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "By Q2 GE had completed a strategic review and announced plans to separate Healthcare and reduce its Baker Hughes stake. The remaining question was whether the core Power turnaround and cash-generation plan were progressing.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "GE Announces First Quarter 2018 Results",
+                  "url": "https://www.ge.com/sites/default/files/ge_webcast_pressrelease_04202018.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q2 adjusted EPS was **$0.19**, one cent above consensus, and revenue of **$30.1 billion** exceeded expectations near $29.4 billion. Aviation and Healthcare again performed well.",
+              "sources": []
+            },
+            {
+              "text": "Power remained the central problem: segment revenue fell **19%**, orders dropped **26%**, and profit declined sharply. GE also reduced its industrial free-cash-flow expectation to about **$6 billion**, from the prior $6–$7 billion range. Shares initially rose before the open but reversed and closed sharply lower as the cash-flow cut and Power weakness dominated the modest headline beat.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "GE Announces Second Quarter 2018 Results",
+                  "url": "https://www.ge.com/sites/default/files/ge_webcast_pressrelease_07202018_2.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock fell because GE cut its free-cash-flow outlook despite beating EPS and revenue estimates.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Power orders and revenue showed that the core turnaround was still deteriorating.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Strong Aviation and Healthcare results were not enough to offset the cash-flow and Power concerns.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: General Electric Turns Lower, Trims Cash Flow Guidance",
+                  "url": "https://www.thestreet.com/investing/earnings/general-electric-jumps-on-better-than-expected-quarterly-results-14656873"
+                },
+                {
+                  "label": "CNN Money: GE earnings hurt by its slumping power business",
+                  "url": "https://money.cnn.com/2018/07/20/investing/ge-stock-earnings-power/index.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Included sources were checked for GE identity, the correct earnings event, publication date, timing window and source origin. GE Investor Relations / SEC is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "GE Announces First Quarter 2018 Results",
+          "url": "https://www.ge.com/sites/default/files/ge_webcast_pressrelease_04202018.pdf"
+        },
+        {
+          "label": "GE Announces Second Quarter 2018 Results",
+          "url": "https://www.ge.com/sites/default/files/ge_webcast_pressrelease_07202018_2.pdf"
+        },
+        {
+          "label": "TheStreet: General Electric Turns Lower, Trims Cash Flow Guidance",
+          "url": "https://www.thestreet.com/investing/earnings/general-electric-jumps-on-better-than-expected-quarterly-results-14656873"
+        },
+        {
+          "label": "CNN Money: GE earnings hurt by its slumping power business",
+          "url": "https://money.cnn.com/2018/07/20/investing/ge-stock-earnings-power/index.html"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "GE reported second-quarter profit down 30% from a year earlier, with weakness in the power division continuing to offset growth elsewhere, though the company backed its 2018 profit goal of $1.00 to $1.07 a share (versus an analyst estimate of just 95 cents) while trimming its adjusted free-cash-flow guidance to about $6 billion from a prior $6 billion to $7 billion range. RBC Capital analyst Deane Dray said the underlying challenges weren't new but that GE \"may have spooked investors by highlighting potential downside risks\" in the power division, GE Capital, and trade friction, adding \"It was demonstrably negative in how they framed key assumptions.\" Specifically, GE trimmed its 2018 gas-turbine sales forecast to \"about 50\" from a prior 50-to-55 range, said new tariffs could cost $300 million to $400 million a year (with at least half expected to be offset), and described its GE Capital break-even estimate as \"rough.\" CEO John Flannery said GE was \"meeting or beating our plan in all businesses except for power,\" calling that division \"the biggest challenge facing the company\" and \"a multiyear fix with some volatility.\" Power-division revenue fell 19% to $7.6 billion on a 26% drop in orders, with profit down 58% and gas-turbine sales of 19 units so far this year versus 41 at the same point a year earlier; the company had cut 7,000 of a planned 12,000 jobs in the unit. Adjusted earnings of 19 cents a share beat the 17-cent Street estimate, and revenue of $30.1 billion topped a $29.3 billion consensus. Aviation sales rose 13% and profit rose 7% on strong demand for next-generation jet engines, with orders up 29% and more than $22 billion in new orders booked at the Farnborough airshow, while health-care profit rose 12% to $926 million.",
+      "why_moved": "The article reports that GE's shares fell 4.5%, or 61 cents, to $13.11, extending a 12-month decline of roughly half the stock's value, even though adjusted earnings and revenue both beat analyst estimates. It attributes the drop to the company's \"demonstrably negative\" framing of forward-looking risks — as RBC analyst Deane Dray put it on the record — including trimmed turbine-sales expectations, a new tariff-cost estimate of $300 million to $400 million, a \"rough\" break-even projection for GE Capital, and the reiterated multiyear timeline for fixing the power division.",
+      "sources": [
+        {
+          "filename": "GE's Profit Falls as Power Division Remains a Drag - WSJ.pdf",
+          "title": "GE's Profit Falls as Power Division Remains a Drag Chief executive says the company saw continued strength across segments including aviation and health care",
+          "published_date": "2018-07-20",
+          "text": "GE's Profit Falls as Power Division Remains a Drag - WSJ 2026-08-29, 5:29 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/ge-s-profit-falls-as-power-division-remains-a-drag-1532084387\nBUSINESS EARNINGS\nGE's Profit Falls as Power Division Remains a Drag\nChief executive says the company saw continued strength across segments including\naviation and health care\nBy Thomas Gryta\nUpdated July 20, 2018 at 1:42 pm ET\nGeneral Electric reported its quarterly results Friday. JOHN MINCHILLO/ASSOCIATED PRESS\nGeneral Electric Co.’s second-quarter profit dropped 30% from a year earlier as\nweakness in the company’s power division continued to offset growth in other major\nunits.\nWhile the struggling conglomerate backed its 2018 profit goal, it said free cash flow\nwould be at the low end of its previous estimate. GE reiterated that it will take years to\nturn around the power business, its largest division.\nGE recently unveiled its road map for restructuring under Chief Executive John\nhttps://www.wsj.com/articles/ge-s-profit-falls-as-power-division-remains-a-drag-1532084387 Page 1 of 5\nGE's Profit Falls as Power Division Remains a Drag - WSJ 2026-08-29, 5:29 PM\nFlannery, a series of moves to dismantle the company short of a complete breakup of\nthe onetime bellwether. Over several years, GE plans to hive off its Healthcare unit\ninto a separate company and shed its majority holding in oil-and-gas firm Baker\nHughes.\nGE has reached deals in recent months to spin off its transportation division and sell\nseveral smaller businesses. It said Friday that its plan to sell $20 billion in assets is\n“substantially complete.”\n“The second quarter was an important one for GE,” Mr. Flannery said in a conference\ncall with analysts, noting that GE cut costs in its industrial divisions by $1.1 billion in\nthe first half. “We’ve described 2018 as a reset year and in the quarter we made\nsignificant progress on that journey.”\nThe company’s adjusted earnings of 19 cents a share for the period beat Wall Street\nexpectations for 17 cents a share, according to Thomson Reuters. Revenue of $30.1\nbillion also topped consensus projections of $29.3 billion.\nStill, the company’s shares were off 4.5%, or 61 cents, at $13.11. The stock has lost half\nits value in the past 12 months.\nRBC Capital analyst Deane Dray said that the challenges facing GE aren’t new, but the\ncompany may have spooked investors by highlighting potential downside risks in\nmajor areas including the power division, its financial-services business and the\npotential fallout of ongoing trade friction.\nFor example, the company previously had forecast selling 50 to 55 gas turbines this\nyear but on Friday projected “about 50” for the year. It also said new tariffs could cost\nit $300 million to $400 million a year and that it expects to offset at least half of that\namount. GE Capital is expected to be break-even, but the company stressed that was a\n“rough” estimate.\n“It was demonstrably negative in how they framed key assumptions,” Mr. Dray said.\nhttps://www.wsj.com/articles/ge-s-profit-falls-as-power-division-remains-a-drag-1532084387 Page 2 of 5\nGE's Profit Falls as Power Division Remains a Drag - WSJ 2026-08-29, 5:29 PM\nOn Friday’s call, Mr. Flannery, who took the helm at GE last August, said the company\nis “meeting or beating our plan in all businesses except for power.”\nHe called that division—which makes turbines used in power plants to generate\nelectricity—the biggest challenge facing the company and said the protracted\ndownturn for that market is pressuring cash flow and working capital.\n“The market is challenging but we need to work through that,” Mr Flannery said. “It is\ngoing to be a multiyear fix with some volatility.”\nThe division’s revenue fell 19% from the year-earlier quarter to $7.6 billion on a 26%\ndrop in orders, while profit declined 58%. So far it has sold 19 gas turbines compared\nwith 41 at the same point last year. Orders are usually stronger later in the year, Chief\nFinancial Officer Jamie Miller said, but she noted that some new orders for the\nmassive machines have moved to the second half.\nThe order softness hits GE’s cash flow because payments from customers while the\nturbines are in production are coming in slower when deliveries are delayed, Ms.\nMiller said in an interview.\nGE is continuing to cut costs in the business and close facilities. Last year, it set plans\nto cut 12,000 jobs in the division and has already eliminated 7,000 of those positions,\nMs. Miller said. It cut $565 million in costs during the first half, putting it on track to\ncut $1 billion in the division by year-end.\nGE reported second-quarter net income of $615 million, down from $875 million a\nyear earlier. Overall, GE said revenue in the three months ended June 30 rose 3% from\n$29.1 billion, including a boost from the merger of its Oil & Gas business with Baker\nHughes a year ago. GE still owns a majority stake in the combined company.\nThe company stood by its 2018 earnings projection of $1 to $1.07 a share; it has said it\nwill likely meet the lower end of that range, and analysts currently forecast just 95\ncents a share for the year. The estimate was originally given in November when the\nhttps://www.wsj.com/articles/ge-s-profit-falls-as-power-division-remains-a-drag-1532084387 Page 3 of 5\nGE's Profit Falls as Power Division Remains a Drag - WSJ 2026-08-29, 5:29 PM\ncompany revised its long-held target of $2 a share in earnings for 2018. The company\nexpects restructuring costs of $2.7 billion before taxes for 2018, Ms. Miller said.\nGE now expects adjusted free cash flow of about $6 billion for 2018, compared with a\nprevious projection of $6 billion to $7 billion. The company still expects to end the\nyear with at least $15 billion in cash.\nGE cut its dividend in November, only the second time since the Great Depression, and\ninvestors are focused on its ability to generate cash from its operations. In the latest\nquarter, it had adjusted free cash flow of $258 million from its industrial operations, a\njump from the previous quarter’s negative free cash flow of $1.7 billion but down from\n$369 million a year ago.\nAs power struggled, profits and sales rose in GE’s other two core units, aviation and\nhealth care.\nIn the aviation business, which manufactures and services jet engines, sales rose 13%\nand profit grew 7%. Orders at the division jumped 29% as demand for its next-\ngeneration jet engines remained strong. GE also booked more than $22 billion in new\norders this week at the Farnborough airshow in England, it said.\nAt health care, profit rose 12% to $926 million as revenue grew 6% to about $5 billion.\nProfit at GE Capital, the company’s financial-services division, dropped 20% to $207\nmillion, while revenue fell 1% to $2.4 billion.\nGE continues to contemplate shrinking both the size and risk in the unit. The business\nhas been a source of negative surprises for investors and Mr. Flannery is looking for\noptions to neutralize or exit parts or all of the business, people familiar with the\nmatter say.\nWrite to Thomas Gryta at thomas.gryta@wsj.com\nAppeared in the July 21, 2018, print edition as 'GE Keeps Cutting In Turnaround Bid'.\nhttps://www.wsj.com/articles/ge-s-profit-falls-as-power-division-remains-a-drag-1532084387 Page 4 of 5\nGE's Profit Falls as Power Division Remains a Drag - WSJ 2026-08-29, 5:29 PM\nThomas Gryta is a former technology editor at The Wall Street Journal.\nHe was previously a reporter covering General Electric and corporate news for the Journal, where his coverage\nspanned how companies navigate the changing economy and society along with financial and operational…\nchallenges. He joined Dow Jones in London in 1999 as a news assistant, returning to New York the following year to\nToFmol ilso wa former Knight-Bagehot Fellow at Columbia University and studied history at the University of\ncover breaking corporate news for the Dow Jones Newswires Spot News desk while also writing about markets,\nMassachusetts at Amherst. With Journal colleague Ted Mann, he is co-author of the book “Lights Out: Pride,\ncommodities, and energy. He later covered the biotechnology and pharmaceuticals industry, then moved to the\nDelusion, and the Fall of General Electric,” which details the decline of the former titan of American business.\nJournal in 2013 to cover telecommunications before shifting to the industrials beat in 2017.\nhttps://www.wsj.com/articles/ge-s-profit-falls-as-power-division-remains-a-drag-1532084387 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": null
+  }
+}

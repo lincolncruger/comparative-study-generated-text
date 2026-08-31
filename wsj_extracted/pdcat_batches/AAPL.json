@@ -1,0 +1,1177 @@
+{
+  "AAPL_2016q2": {
+    "ticker": "AAPL",
+    "group": "Group 1",
+    "company_name": "Apple",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-26",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "The January quarter was still a record quarter, but Apple’s own guidance already pointed to a sharp slowdown. The April report was therefore a test of whether the iPhone 6s cycle was merely slowing or had entered a genuine contraction.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Apple: Apple Reports Record First Quarter Results",
+                  "url": "https://www.apple.com/newsroom/2016/01/26Apple-Reports-Record-First-Quarter-Results/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Apple reported fiscal Q2 revenue of **$50.6 billion**, down from $58.0 billion a year earlier, and diluted EPS of **$1.90**. Both missed contemporaneous expectations of roughly $52 billion of revenue and $2.00 EPS. iPhone sales fell sharply year over year, and Greater China revenue also declined materially.",
+              "sources": []
+            },
+            {
+              "text": "The most important information was the **forward guide**: Apple projected fiscal Q3 revenue of only **$41–$43 billion**, far below the prior-year quarter and below Wall Street expectations. Services was a positive and the active-device base remained large, but the release confirmed that the iPhone slowdown would persist for more than one quarter.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Apple: Apple Reports Second Quarter Results",
+                  "url": "https://www.apple.com/ca/newsroom/2016/04/26Apple-Reports-Second-Quarter-Results/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock fell sharply because Apple missed revenue/EPS expectations and issued a much weaker Q3 revenue guide.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** The first year-over-year iPhone contraction made the slowdown look structural rather than merely seasonal.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Services growth helped the long-term thesis but was not yet large enough to offset hardware weakness.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TechCrunch: Why Apple’s stock fell off a cliff today",
+                  "url": "https://techcrunch.com/2016/04/26/why-apples-stock-fell-off-a-cliff-today/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Every included URL was re-checked on the live web on **2026-08-31**. The page had to open successfully and match Apple/AAPL, the correct earnings event, displayed publication date and timing window. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Apple: Apple Reports Record First Quarter Results",
+          "url": "https://www.apple.com/newsroom/2016/01/26Apple-Reports-Record-First-Quarter-Results/"
+        },
+        {
+          "label": "Apple: Apple Reports Second Quarter Results",
+          "url": "https://www.apple.com/ca/newsroom/2016/04/26Apple-Reports-Second-Quarter-Results/"
+        },
+        {
+          "label": "TechCrunch: Why Apple’s stock fell off a cliff today",
+          "url": "https://techcrunch.com/2016/04/26/why-apples-stock-fell-off-a-cliff-today/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The article documents Apple's first quarterly revenue decline in 13 years and the first-ever decline in iPhone sales since the product's 2007 introduction, with revenue down 13% to $50.55 billion from $58 billion and profit of $10.52 billion ($1.90 a share) versus $13.57 billion ($2.33) a year earlier — both missing the $2.00 EPS and $51.97 billion revenue analysts polled by Thomson Reuters had expected. iPhone unit sales of 51.19 million actually topped the 50.4 million analysts had estimated, but the average selling price fell to $641, below the $658 analysts had projected, indicating a mix and pricing shortfall rather than a pure volume miss. Guidance was the more severe blow: Apple projected current-quarter revenue of just $41 billion to $43 billion against a $47.3 billion analyst consensus, and gross margin of 37.5% to 38% versus an expected 39.3%. CEO Tim Cook, quoted directly, called it \"a challenging quarter\" but insisted \"it doesn't change the future. The future is very bright,\" attributing the slump to the strong dollar, difficult economic conditions and tough comparisons, while also citing a planned $2 billion inventory reduction, the lower price point of the new iPhone SE, and overly optimistic Mac forecasts as reasons for the soft guide. Greater China sales fell 26% to $12.49 billion, a dramatic reversal from 71% growth in the same quarter a year earlier, and analyst Abhey Lamba of Mizuho Securities is quoted questioning whether \"Apple can grow again,\" even as Apple simultaneously expanded its capital-return program, raising the dividend 10% and lifting the buyback authorization to $175 billion from $140 billion.",
+      "why_moved": "The article states shares fell 8% to $96.12 in after-hours trading, erasing more than $46 billion of market value — more than the total value of Caterpillar or Netflix at the time. The drop is explained by the historic, multi-part miss detailed above: not just the first revenue decline in 13 years and the first-ever iPhone unit decline, but a guidance range of $41-43 billion that landed roughly 10% below the $47.3 billion Wall Street expected, compounded by a gross-margin guide also below consensus. The capital-return sweeteners — the dividend increase and expanded buyback — were evidently not enough to offset the scale of the guidance shortfall and the historic framing (first sales drop since 2003) that the article emphasizes throughout.",
+      "sources": [
+        {
+          "filename": "AAPL earnings 2016-04-26.pdf",
+          "title": "Apple Reports First Quarterly Sales Drop Since 2003 as iPhone Stumbles Tech giant misses expectations for profit, revenue, but CEO dismisses concerns that it is in decline",
+          "published_date": "2016-04-26",
+          "text": "Apple Reports First Quarterly Sales Drop Since 2003 as iPhone Stumbles - WSJ 2026-08-28, 12:35 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/apple-reports-first-quarterly-sales-drop-since-2003-1461702629\nTECH\nApple Reports First Quarterly Sales Drop Since 2003\nas iPhone Stumbles\nTech giant misses expectations for profit, revenue, but CEO dismisses concerns that it is\nin decline\nBy Daisuke Wakabayashi\nUpdated April 26, 2016 at 9:29 pm ET\nApple Inc. posted its first quarterly decline in revenue in 13 years, ending a historically\ngreat run for the world’s most valuable company and stoking questions about whether\nits best days are behind it.\nThe slowdown reflects the challenge facing Tim Cook, who took over as chief\nexecutive from Steve Jobs in 2011 with the iPhone a success, the iPad booming and the\nApple Watch in development.\nNow, iPhone sales are slowing, along with the rest of the smartphone market, the iPad\nhas slumped for more than two years, and the Apple Watch is in its early days.\nThe company has struggled to maintain the sales surge that followed the introduction\nof its larger-screen smartphones in late 2014. The 2015 successors to those models\nhaven’t generated as much enthusiasm from consumers.\nApple’s revenue and profit for the fiscal second quarter ended March 26 both missed\nanalysts’ expectations. The company also projected that revenue in the current\nquarter would fall far short of expectations.\nBut for all of the concerns about Apple’s growth, the company still generated profits in\nhttps://www.wsj.com/articles/apple-reports-first-quarterly-sales-drop-since-2003-1461702629 Page 1 of 6\nApple Reports First Quarterly Sales Drop Since 2003 as iPhone Stumbles - WSJ 2026-08-28, 12:35 PM\nthe March quarter that are expected to exceed the combined earnings of technology\npeers Alphabet Inc., Facebook Inc. and Amazon.com Inc.\nIn an interview with The Wall Street Journal, Mr. Cook said it was “a challenging\nquarter,” but he dismissed concerns that Apple was in decline. He attributed the\nslump to short-term factors such as the strong dollar, difficult economic conditions,\nand difficult comparisons for iPhone sales.\n“It’s a tough bar to hurdle, but it doesn’t change the future. The future is very bright,”\nhe said.\nThe iPhone was the main culprit in the revenue decline. After an unbroken eight-year\nrun of growth since the device’s introduction in 2007, Apple reported the first-ever\nslide in iPhone sales. The company said it sold 51.19 million iPhones in the quarter,\ndown from 61.17 million units a year earlier.\nMr. Cook said fewer iPhone users were upgrading because the iPhone 6 was so\npopular. But he said Apple continues to do well with new smartphone buyers as well\nas customers switching from phones running Alphabet’s Android operating system.\nApple said more Android users switched to iPhones in the first six months of its fiscal\nyear starting in October than any previous six-month period.\nIn many ways, Apple is a victim of its own success, particularly with the iPhone.\nDuring the 13 years since Apple last reported a quarterly revenue decline, it has\npopularized the iPod and introduced the iPhone and iPad. And its market value has\ngrown to $579 billion, as of Tuesday’s close, from $5 billion.\nThat leaves Apple confronting the challenge of extending or replicating the iPhone’s\nsuccess, much like the issues faced by Microsoft Corp. with its Windows operating\nsystem and Alphabet’s Google search engine. The iPhone accounted for 65% of Apple’s\ntotal revenue in the March quarter.\nhttps://www.wsj.com/articles/apple-reports-first-quarterly-sales-drop-since-2003-1461702629 Page 2 of 6\nApple Reports First Quarterly Sales Drop Since 2003 as iPhone Stumbles - WSJ 2026-08-28, 12:35 PM\nApple reported profit of $10.52 billion, or $1.90 a share, for the quarter, compared with\n$13.57 billion, or $2.33 a share, a year earlier. Revenue declined 13% to $50.55 billion\nfrom $58 billion.\nAnalysts polled by Thomson Reuters had expected Apple to post earnings of $2 a\nshare on revenue of $51.97 billion.\nApple’s shares, down 20% over the past year, fell 8% to $96.12 in after-hours trading\nTuesday. The decline erased more than $46 billion of the company’s market\ncapitalization, more than the total value of Caterpillar Inc. or Netflix Inc.\nSmartphone sales are slowing globally, and Apple has fewer obvious moves left to\nsustain the iPhone’s growth, which it did in the past by expanding its lineup with\nbigger displays and breaking into new markets like China.\nThese days, Apple’s challenge is less about finding new smartphone customers and\nmore about converting existing smartphone users to the iPhone.\nApple’s iPhone sales topped analysts’ estimates of 50.4 million units during the\nquarter, according to analysts polled by FactSet. But the average selling price fell to\n$641, below analysts’ projections of $658.\nThese figures didn’t include sales from Apple’s latest iPhone SE, a phone with a\nsmaller 4-inch display to replace the iPhone 5S. It began shipping on March 31.\nStarting at $400, it is the least expensive new iPhone that Apple has ever introduced.\nMr. Cook said demand for the new phone is very strong.\n“Can Apple grow again? That’s the big question. We don’t think it’s proven that it\ncan,” said Abhey Lamba, analyst at Mizuho Securities. Still, Mr. Lamba said investors\ndon’t fully appreciate now much revenue Apple can generate from its users.\nTo find new areas of growth, Apple is pushing into new, but uncertain markets,\nincluding electric vehicles and augmented reality. Apple is also expanding its services\nhttps://www.wsj.com/articles/apple-reports-first-quarterly-sales-drop-since-2003-1461702629 Page 3 of 6\nApple Reports First Quarterly Sales Drop Since 2003 as iPhone Stumbles - WSJ 2026-08-28, 12:35 PM\nbusiness linked to the strength of the iPhone. Apple said services revenue, including\nits App Store and Apple Pay, rose 20% to $5.99 billion. It said its streaming music\nservice now has 13 million subscribers, up from 11 million in January.\nFor the current quarter, Apple expects revenue of $41 billion to $43 billion. Analysts\nhad been projecting revenue of $47.3 billion.\nThe company also projected gross margin, a closely watched measure of profitability\nreflecting the percentage of revenue that remains after manufacturing costs, of 37.5%\nto 38%, shy of analysts’ projections of 39.3%.\nMr. Cook said the lower-than-expected revenue forecast for the current quarter\nreflects Apple’s plan to reduce inventory by $2 billion, because of the difficult\neconomy, the lower average selling price of the iPhone SE and overly optimistic\nforecasts for sales of Mac computers during the back-to-school shopping season.\nApple said it was still feeling the impact of the strong dollar in its global sales, noting\nthat the revenue decline would have narrowed by 4 percentage points without the\ncurrency’s impact. In addition, the price increases that the company implemented to\ndeal with the dollar’s appreciation hurt demand for its products.\nSales to Greater China, which includes Hong Kong and Taiwan, fell 26% to $12.49\nbillion. In the same quarter a year earlier, Apple’s Greater China sales rose 71%.\nAs iPhone revenue slows, sales of Apple’s other products haven’t compensated for the\nshortfall. Apple said iPad sales fell for a ninth-straight quarter. Apple said it sold 10.25\nmillion iPads during the quarter, down 19%. Its newest product, the Watch, generated\n$6 billion in sales in its first year, by some analysts’ estimates. However, that barely\nregisters on the company’s annual revenue of $233 billion.\nApple also said it is expanding its capital-return program, which includes dividends\nand share repurchases. The company said it is now planning to return $250 billion in\ncash to shareholders by the end of March 2018, up from its prior plan to return $200\nhttps://www.wsj.com/articles/apple-reports-first-quarterly-sales-drop-since-2003-1461702629 Page 4 of 6\nApple Reports First Quarterly Sales Drop Since 2003 as iPhone Stumbles - WSJ 2026-08-28, 12:35 PM\nbillion by March 2017.\nApple said it would raise its quarterly dividend by 10% to 57 cents and increase its\nstock-buyback plan to $175 billion from the $140 billion announced last year.\nSince it started returning cash to shareholders in 2012, Apple has paid out $163 billion\nthrough March.\nWrite to Daisuke Wakabayashi at Daisuke.Wakabayashi@wsj.com\nAppeared in the April 27, 2016, print edition as 'Apple Sinks on iPhone Stumble'.\nDaisuke Wakabayashi covered technology and Apple from the Wall Street Journal's San Francisco bureau. Prior to\nmoving to cover the Apple beat, Daisuke worked for the Journal in Tokyo reporting on technology, electronics, and\nvideo games.\nFollow\nhttps://www.wsj.com/articles/apple-reports-first-quarterly-sales-drop-since-2003-1461702629 Page 5 of 6\nApple Reports First Quarterly Sales Drop Since 2003 as iPhone Stumbles - WSJ 2026-08-28, 12:35 PM\nhttps://www.wsj.com/articles/apple-reports-first-quarterly-sales-drop-since-2003-1461702629 Page 6 of 6"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "This is Dow Jones Newswires market-roundup coverage rather than a dedicated Apple story, but it devotes a specific section to Apple's results within a broader look at Wednesday's market action. The article reports Apple's fiscal second-quarter profit of $1.90 per share, missing Wall Street's $2.00 forecast, with quarterly revenue dropping 13% to $50.55 billion against analyst expectations of $51.97 billion -- the company's first revenue decline in 13 years. CEO Tim Cook is quoted calling the period 'a challenging quarter' and describing it as 'a pause in our growth.' The piece places Apple's stumble within a session where the S&P 500 slipped and technology led losses at down 1.2%, while the Dow held roughly flat and the Nasdaq fell 0.8%. It also notes other earnings that day, including Twitter falling 16% on disappointing revenue and guidance, Comcast beating expectations, and Chipotle and H&R Block disappointing investors. The broader market backdrop was investors positioning ahead of the Federal Reserve's 2 p.m. policy statement, with defensive sectors such as utilities and telecoms outperforming.",
+      "why_moved": "The article states that Apple shares sold off following the disappointing quarterly results, with the stock described as having plummeted 5.8% (and separately noted as down 6.2% among S&P 500 decliners). It attributes the decline to the profit miss ($1.90 versus the $2.00 forecast) and the 13% revenue drop to $50.55 billion, which came in below the $51.97 billion analysts expected and marked the company's first revenue decline in 13 years. The article also cites Tim Cook's characterization of the quarter as 'challenging' and a 'pause in our growth' as part of the narrative around the stock's reaction. No further explanation beyond the earnings miss itself is given in the piece.",
+      "sources": [
+        {
+          "title": "Dow Battles For Gains; U.S. Stocks Under Pressure As Apple Slumps",
+          "url": "https://www.foxbusiness.com/markets/dow-battles-for-gains-u-s-stocks-under-pressure-as-apple-slumps.amp"
+        }
+      ]
+    }
+  },
+  "AAPL_2016q3": {
+    "ticker": "AAPL",
+    "group": "Group 1",
+    "company_name": "Apple",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-07-26",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After the April collapse, expectations were much lower. Apple had guided to $41–$43 billion of revenue, so the key question was whether the iPhone decline was stabilizing rather than whether the company had returned to growth.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Apple: Apple Reports Second Quarter Results",
+                  "url": "https://www.apple.com/ca/newsroom/2016/04/26Apple-Reports-Second-Quarter-Results/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Apple reported **$42.4 billion of revenue** and **$1.42 EPS**, both ahead of modest Wall Street expectations and within/above the company’s own guidance framework. Management said demand and business performance were stronger than it had anticipated at the start of the quarter.",
+              "sources": []
+            },
+            {
+              "text": "The mix also improved. **Services revenue grew 19%**, while the lower-priced iPhone SE helped support unit demand. iPhone units were still down year over year, but the contraction was less severe than feared, which mattered because the market had already repriced Apple for a deep hardware downturn.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Apple: Apple Reports Third Quarter Results",
+                  "url": "https://www.apple.com/newsroom/2016/07/apple-reports-third-quarter-results/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Results were better than feared, driving a strong positive repricing after April’s reset.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Better-than-expected iPhone SE demand reduced the severity of the unit decline.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Services growth strengthened the case that Apple’s installed base could cushion hardware cycles.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Apple Outperforms Expectations on Strong iPhone SE Sales",
+                  "url": "https://www.fool.com/investing/2016/07/27/apple-outperforms-expectations-on-strong-iphone-se.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Every included URL was re-checked on the live web on **2026-08-31**. The page had to open successfully and match Apple/AAPL, the correct earnings event, displayed publication date and timing window. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Apple: Apple Reports Second Quarter Results",
+          "url": "https://www.apple.com/ca/newsroom/2016/04/26Apple-Reports-Second-Quarter-Results/"
+        },
+        {
+          "label": "Apple: Apple Reports Third Quarter Results",
+          "url": "https://www.apple.com/newsroom/2016/07/apple-reports-third-quarter-results/"
+        },
+        {
+          "label": "The Motley Fool: Apple Outperforms Expectations on Strong iPhone SE Sales",
+          "url": "https://www.fool.com/investing/2016/07/27/apple-outperforms-expectations-on-strong-iphone-se.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The article reports Apple's profit fell 27% and revenue declined for a second straight quarter amid the first prolonged iPhone sales slump since the product's 2007 launch, with net income of $7.8 billion ($1.42 a share) versus $10.68 billion ($1.85) a year earlier and revenue down 14.6% to $42.36 billion from $49.6 billion. Despite those year-over-year declines, the results narrowly beat what Wall Street had modeled: analysts polled by Thomson Reuters had expected $1.38 a share on $42.1 billion in revenue, and iPhone unit sales of 40.4 million came in slightly above the roughly 40 million analysts had estimated via FactSet. The article supplies significant competitive context, noting Chinese rival Huawei Technologies — whose consumer products head Richard Yu expressed confidence in a target to ship 140 million smartphones in 2016, up 30% from 2015, after shipping 60.6 million in the first half, up 25% year over year — was gaining ground globally and increasingly threatens Apple from below with cheaper phones that later move upmarket. CEO Tim Cook, interviewed by the Journal, argued iPhone demand was actually better than the sales figures suggested because Apple had cut retail-channel inventory by more than four million units, and he cited encouraging signs including iPad revenue returning to growth for the first time in ten quarters and continued double-digit growth in Apple's services business, which rose 19% to $5.98 billion. Greater China sales fell 33% to $8.85 billion, a sharp reversal from 112% growth a year earlier, though Cook said sales excluding currency effects were down only 2% and reiterated he remained \"very bullish\" on China over the long haul.",
+      "why_moved": "The article explicitly states results and the outlook for the current quarter \"were better than what Wall Street feared,\" and shares rose more than 6% in after-hours trading. Building on the detail above, this reads as a classic relief rally rather than a strength narrative: EPS and revenue both edged past a consensus that had already been lowered after the prior quarter's historic miss, iPhone units came in slightly ahead of expectations, and management offered several \"encouraging signs\" — the iPad's return to growth after ten straight quarterly declines and steady services growth — that collectively suggested the worst of the iPhone downturn might be stabilizing even though the headline numbers were still down sharply year over year.",
+      "sources": [
+        {
+          "filename": "2016-07-26.pdf",
+          "title": "Apple Earnings Fall on iPhone Slump Revenue drops for second straight quarter, but shares rise as results still top views",
+          "published_date": "2016-07-26",
+          "text": "Apple Earnings Fall on iPhone Slump - WSJ 2026-08-28, 12:59 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/apple-earnings-fall-on-iphone-slump-1469565018\nTECH\nApple Earnings Fall on iPhone Slump\nRevenue drops for second straight quarter, but shares rise as results still top views\nBy Daisuke Wakabayashi\nUpdated July 26, 2016 at 7:20 pm ET\nApple Inc. AAPL 2.02% said its quarterly profit fell 27% as the company grappled\nwith the first prolonged slump in iPhone sales since the product was introduced in\n2007.\nRevenue fell for a second straight quarter, along with sales of its flagship smartphone,\nwhich is awaiting an expected refresh in September.\nWhile the company reported strong sales of the smaller iPhone SE launched in March,\noverall its current models have failed to meet the booming sales of its first batch of\nlarge-screen iPhones, sapped in part by cooling demand in China and U.S. customers\nholding on to handsets for longer because of changes in carrier contracts.\nThe results, and Apple’s expectations for the current quarter ending September, were\nbetter than what Wall Street feared, and the stock rose more than 6% in after-hours\ntrading. Apple shares had been down 22% over the past year as of Tuesday’s close.\nApple said net income was $7.8 billion in the fiscal third quarter that ended June 25,\ndown from $10.68 billion in the year-ago period. Earnings per share fell to $1.42 from\n$1.85. Revenue declined 14.6% to $42.36 billion from $49.6 billion a year earlier.\nAnalysts polled by Thomson Reuters estimated that Apple would post earnings of\n$1.38 a share on revenue of $42.1 billion.\nhttps://www.wsj.com/articles/apple-earnings-fall-on-iphone-slump-1469565018 Page 1 of 6\nApple Earnings Fall on iPhone Slump - WSJ 2026-08-28, 12:59 PM\nApple’s iPhone doldrums come as Chinese rival Huawei Technologies Co. gains ground\nin the global smartphone market, challenging Apple and Samsung Electronics Co.\nRichard Yu, Huawei’s head of consumer products, on Tuesday expressed confidence it\nwould reach its target to ship 140 million smartphones this year, up 30% from 2015.\nHuawei said it shipped 60.6 million smartphones in the six months through June, up\n25% from a year earlier.\nHuawei’s success speaks to the competitive pressures facing the iPhone. Apple doesn’t\nchallenge competitors in the low-price end of the smartphone market, but brands like\nHuawei that initially find success with less-expensive phones often later challenge\nApple with more premium models.\nApple said it sold 40.4 million iPhones during the three-month period, compared with\nsales of 47.5 million units a year earlier. That followed a decline in March that broke an\neight-year run of growing iPhone sales. The latest quarter’s figure came in slightly\nabove analysts’ average estimates of 40 million iPhones, according to 30 analysts\npolled by FactSet.\nIn an interview, Apple Chief Executive Tim Cook said iPhone demand was better than\nthe sales figures showed, because it reduced inventory of the smartphone by more\nthan four million units in its retail channels. He said he also was encouraged by iPad\nrevenue returning to growth for the first time in 10 quarters and the continued strong\ngrowth in revenue for Apple’s services.\n“There are a number of encouraging signs in the results,” Mr. Cook told The Wall\nStreet Journal. “This last quarter was surprising because it was better than we\nexpected from so many different points of view, not just one thing.”\nWith revenue slumping after a 13-year run of growth, Apple is at a critical juncture in\nits history. It remains the most valuable company in the world by market\ncapitalization and generates more profit than any company around, but its main\nhardware products—the iPhone, iPad and Mac—are in decline, its new products aren’t\nhttps://www.wsj.com/articles/apple-earnings-fall-on-iphone-slump-1469565018 Page 2 of 6\nApple Earnings Fall on iPhone Slump - WSJ 2026-08-28, 12:59 PM\nsuccessful enough yet to pick up the slack, and there are concerns that it has lost its\ninnovative touch.\nAt the same time, Apple faces many aggressive competitors in China—including\nHuawei—where the government is taking a more critical view toward the company. In\nEurope, Apple is facing a tax probe that may result in a tax bill in the billions, and it\nhas publicly clashed with the U.S. government over its stance on privacy. Apple has\nsaid it pays taxes in accordance with the laws in whatever markets it operates in.\nMr. Cook said he doesn’t buy the contention of some observers that Apple’s best days\nare behind it. “People always doubted us,” he said in the interview. “That’s not a new\nthing and that ebbs and flows with the stock market, so we don’t get too uptight about\nthat.”\nA bright spot was Apple’s revenue for services, including subscriptions to Apple\nMusic, fees from Apple Pay and sales of apps. The company said services revenue rose\n19% to $5.98 billion.\nThe iPhone accounts for two-thirds of Apple’s revenue and is the biggest profit driver in the company. ASSOCIATED\nPRESS\nApple said services revenue generated $23 billion in the past 12 months. Mr. Cook said\nhttps://www.wsj.com/articles/apple-earnings-fall-on-iphone-slump-1469565018 Page 3 of 6\nApple Earnings Fall on iPhone Slump - WSJ 2026-08-28, 12:59 PM\nhe expects that the services business next year will generate enough revenue that it\nwould be a Fortune 100 company if it was an independent company. That works out to\na forecast of 22% growth, because the 100th-ranked company on the Fortune 500 is\nNorthwestern Mutual with annual revenue of $28.1 billion.\nStill, sales of Apple’s other products haven’t compensated for the shortfall from the\niPhone.\nWhile iPad revenue increased 7% because of its pricier iPad Pro, unit sales fell for a\n10th-straight quarter, down 9% to 9.95 million. Sales of Mac computers fell 11%,\nmarking a third-straight quarter of decline.\nApple had a boost in sales from the March 31 introduction of the small iPhone SE, a\nless-expensive model with a four-inch display. But the iPhone SE’s lower price\ndragged on gross margins, a closely watched measure of profitability reflecting the\npercentage of revenue remaining after manufacturing costs. The iPhone SE starts at\n$399 without a two-year contract, compared with $649 for the iPhone 6S. The lower\nprice pushed down the average selling price of all iPhones to $595 in the quarter from\n$662 a year earlier.\nApple said its gross margin was 38% in the latest quarter, in line with its estimated\nrange of 37.5% to 38%. It gave that same estimated range for the current quarter\nending in September, and said it anticipates revenue coming in between $45.5 billion\nand $47.5 billion, which would mark another decline from last year. Analysts\nestimated revenue of $45.7 billion for the September quarter with a gross margin of\n$38.4%.\nThe recent decrease in revenue also reflected slowing sales growth in China, where\nsales had been prospering. Sales to Greater China, which includes Hong Kong and\nTaiwan, fell 33% to $8.85 billion. In the same quarter a year earlier, Apple’s Greater\nChina sales rose 112%.\nhttps://www.wsj.com/articles/apple-earnings-fall-on-iphone-slump-1469565018 Page 4 of 6\nApple Earnings Fall on iPhone Slump - WSJ 2026-08-28, 12:59 PM\nMr. Cook said that stripping out currency impacts, sales in mainland China were down\n2% in the quarter. Considering last year’s massive surge, Mr. Cook said he is still\noptimistic about the market.\n“Over the long haul, we’re very bullish in China,” said Mr. Cook. “There will be some\npotholes along the way and speed bumps, but I think China is an unbelievable place\nand I haven’t seen anything that causes me pause on that.”\nCorrections & Amplifications:\nApple was expected to sell 40 million iPhones during the June quarter, according to 30\nanalysts polled by FactSet. An earlier version of this article incorrectly stated the\nestimate was for the March quarter.\nWrite to Daisuke Wakabayashi at Daisuke.Wakabayashi@wsj.com\nAppeared in the July 27, 2016, print edition as 'Apple Sales Cool Off As Foes Heat Up'.\nDaisuke Wakabayashi covered technology and Apple from the Wall Street Journal's San Francisco bureau. Prior to\nmoving to cover the Apple beat, Daisuke worked for the Journal in Tokyo reporting on technology, electronics, and\nvideo games.\nFollow\nhttps://www.wsj.com/articles/apple-earnings-fall-on-iphone-slump-1469565018 Page 5 of 6\nApple Earnings Fall on iPhone Slump - WSJ 2026-08-28, 12:59 PM\nhttps://www.wsj.com/articles/apple-earnings-fall-on-iphone-slump-1469565018 Page 6 of 6"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "AAPL_2016q4": {
+    "ticker": "AAPL",
+    "group": "Group 1",
+    "company_name": "Apple",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-10-25",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "The July quarter showed that Apple could beat a depressed expectations bar. By October, attention had shifted to the iPhone 7 launch and whether the holiday quarter would finally return the company to year-over-year revenue growth.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Apple: Apple Reports Third Quarter Results",
+                  "url": "https://www.apple.com/newsroom/2016/07/apple-reports-third-quarter-results/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q4 revenue was **$46.9 billion** and EPS **$1.67**, roughly in line to slightly above expectations. iPhone shipments were **45.5 million**, still down from 48.0 million a year earlier, while Services revenue increased **24% to $6.3 billion**.",
+              "sources": []
+            },
+            {
+              "text": "Apple guided holiday-quarter revenue to **$76–$78 billion**, implying a return to growth. But the gross-margin outlook was only **38%–38.5%**, and the stock had already rallied substantially into the report. The result was therefore good, but not good enough relative to the expectations embedded in the price.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Apple: Apple Reports Fourth Quarter Results",
+                  "url": "https://www.apple.com/newsroom/2016/10/apple-reports-fourth-quarter-results/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares fell because a decent quarter and positive revenue guide did not clear the elevated expectations bar.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** The gross-margin outlook was slightly disappointing and limited expected earnings leverage.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** iPhone units were still declining year over year even as Services hit a record.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: Apple's Results and Guidance Were Decent, but Markets Wanted More",
+                  "url": "https://www.thestreet.com/investing/stocks/apple-s-results-and-guidance-were-decent-but-markets-wanted-more-13866938"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Every included URL was re-checked on the live web on **2026-08-31**. The page had to open successfully and match Apple/AAPL, the correct earnings event, displayed publication date and timing window. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Apple: Apple Reports Third Quarter Results",
+          "url": "https://www.apple.com/newsroom/2016/07/apple-reports-third-quarter-results/"
+        },
+        {
+          "label": "Apple: Apple Reports Fourth Quarter Results",
+          "url": "https://www.apple.com/newsroom/2016/10/apple-reports-fourth-quarter-results/"
+        },
+        {
+          "label": "TheStreet: Apple's Results and Guidance Were Decent, but Markets Wanted More",
+          "url": "https://www.thestreet.com/investing/stocks/apple-s-results-and-guidance-were-decent-but-markets-wanted-more-13866938"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The article reports Apple's first annual revenue decline in 15 years alongside a third consecutive quarterly decline in both revenue and profit: net income fell 19% to $9 billion ($1.67 a share) from $11.1 billion ($1.96), narrowly beating the $1.65 a share analysts had expected, while revenue fell 9% to $46.9 billion, largely because the new iPhone 7 went on sale only a week before the quarter closed. iPhone unit sales of 45.5 million were 2.5 million fewer than a year earlier. The article's most notable detail is the current-quarter guidance, which projected revenue of $76 billion to $78 billion — above both the year-earlier $75.9 billion and the $74.9 billion analysts had been expecting — with CEO Tim Cook saying the company would \"return to growth in the quarter despite the supply shortages\" and describing the response to the iPhone 7 as \"off the charts,\" including an eight-week wait for some iPhone 7 Plus models cited by independent analyst Neil Cybart. Weak spots included Mac sales down 17%, iPad sales flat, and Apple Watch and other products down 22% year over year, while services revenue (Apple Music, iTunes, the App Store) grew 24%, which Cook called \"our huge highlight.\" Greater China sales fell 30% to $8.8 billion versus 99% growth a year earlier, and the piece notes Apple may be benefiting from Samsung's decision to cancel its Galaxy Note 7 after battery-fire incidents, with Cook citing a \"large number of Android switchers.\"",
+      "why_moved": "The article states shares fell 2.8% in after-hours trading even though EPS beat estimates and revenue guidance of $76-78 billion topped the $74.9 billion consensus described above, and it directly attributes the drop to elevated expectations: analyst Toni Sacconaghi of Sanford C. Bernstein is quoted saying investors may have been disappointed that Apple's projections for the current quarter \"weren't even more bullish,\" after the stock had already rallied more than 20% over the prior three months on optimism about the iPhone 7 and Samsung's troubles. This is a \"sell the news\" dynamic explicitly identified in the source text rather than inferred, even though the underlying quarter's numbers and forward guide were, on their face, better than what Wall Street had modeled.",
+      "sources": [
+        {
+          "filename": "2016-10-25.pdf",
+          "title": "Apple Pins Hopes on iPhone 7 as Profit, Revenue Decline Full-year top and bottom lines decline for the first time since 2001, but the tech giant’s forecast for current-quarter revenue is bullish",
+          "published_date": "2016-10-25",
+          "text": "Apple Pins Hopes on iPhone 7 as Profit, Revenue Decline - WSJ 2026-08-28, 1:04 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/apple-profit-and-revenue-slide-as-it-copes-with-dwindling-iphone-sales-1477427419\nTECH\nApple Pins Hopes on iPhone 7 as Profit, Revenue\nDecline\nFull-year top and bottom lines decline for the first time since 2001, but the tech giant’s\nforecast for current-quarter revenue is bullish\nBy Robert McMillan\nUpdated Oct. 25, 2016 at 7:10 pm ET\nApple Inc. posted its first annual revenue decline in 15 years, but projected a return to\ngrowth in the current quarter behind strong sales of its new iPhone 7.\nApple has grown to be the most valuable company in the world over the past decade\non the tremendous success of the iPhone. But that formula proved less effective in the\npast year amid lukewarm sales of the iPhone 6S models and slowing growth in\nsmartphone sales world-wide, especially in China, Apple’s biggest growth market in\nrecent years.\nFor its fiscal fourth quarter, ended Sept. 24, Apple reported its third consecutive\ndecline in revenue and profit. Net income fell 19% to $9 billion, or $1.67 a share, from\n$11.1 billion, or $1.96 a share, in the same period a year earlier. Analysts polled by\nThomson Reuters had expected earnings of $1.65 a share.\nRevenue fell 9%, to $46.9 billion, mostly ahead of the launch of the iPhone 7, which\nwent on sale a week before the end of the quarter.\nThe iPhone accounted for 63% of Apple’s revenue in the just-completed fiscal year, but\ngrowth in the smartphone market has slowed recently and consumer buying habits\nare changing. In the fourth quarter, Apple said it sold 45.5 million iPhones, 2.5 million\nhttps://www.wsj.com/articles/apple-profit-and-revenue-slide-as-it-copes-with-dwindling-iphone-sales-1477427419 Page 1 of 4\nApple Pins Hopes on iPhone 7 as Profit, Revenue Decline - WSJ 2026-08-28, 1:04 PM\nfewer than a year earlier.\nBut Apple projected revenue of $76 billion to $78 billion in the current quarter, which\nincludes the holiday-shopping season and sales of the new phone. That would be an\nincrease from $75.9 billion in the same period a year earlier. Before Apple’s\nannouncement, analysts had been expecting revenue in the current quarter of $74.9\nbillion, according to FactSet.\nApple also projected gross margin, a closely watched measure of profitability, of 38%\nto 38.5%, ever so slightly up from 38% in the just-completed quarter.\n“We return to growth in the quarter despite the supply shortages that we’ve currently\ngot,” said Apple Chief Executive Tim Cook.\nMr. Cook said the response to the iPhone 7, released in September “has really been off\nthe charts.” He said there are waits for some models, particularly the high-end iPhone\n7 Plus. Neil Cybart, an independent analyst who follows Apple, said there is an eight-\nweek wait for some models.\nMr. Cook also touted improvements in the company’s services business, which\nincludes Apple Music, iTunes and the App Store, where revenue grew 24% from a year\nearlier. Apple Music revenue rose 22%, Mr. Cook said, calling services “our huge\nhighlight in the quarter.”\nApple faces multiple challenges as it looks to augment the success of the iPhone. Sales\nof Macintosh computers, for which Apple is expected to introduce new models later\nthis week, fell 17% from a year earlier. IPad sales, which have fallen in recent years,\nwere flat. Sales of Apple’s “other products” category, which include the Apple Watch,\nfell 22% from a year earlier. And Apple’s secretive automotive project has yet to\nproduce results.\nStill, Apple remains the most profitable U.S. company, with net income of $45.7 billion\nfor the fiscal year it just ended. The company reported holding $237.6 billion in cash\nhttps://www.wsj.com/articles/apple-profit-and-revenue-slide-as-it-copes-with-dwindling-iphone-sales-1477427419 Page 2 of 4\nApple Pins Hopes on iPhone 7 as Profit, Revenue Decline - WSJ 2026-08-28, 1:04 PM\nand investments, up from $231.5 billion three months earlier.\nIt also may be benefiting from rival Samsung Electronics Co.’s decision to cancel its\nGalaxy Note 7 smartphone after a series of battery fires and overheating incidents.\nAsked in an interview how Samsung’s problems influenced Apple’s outlook, Mr. Cook\nsaid, “We’ve had a large number of Android switchers that are looking for better\nexperiences. We want to offer anybody who would like to come over a great\nexperience.”\nIn after-hours trading, Apple shares fell 2.8%, after rallying more than 20% over the\npast three months amid growing optimism about the iPhone 7 and Samsung’s travails.\nToni Sacconaghi, an analyst at Sanford C. Bernstein & Co., said investors may have\nbeen disappointed that Apple’s projections for the current quarter weren’t even more\nbullish.\nMr. Cybart, the independent analyst, said the revenue projection for the current\nquarter implies that Apple expects iPhone unit sales to increase more than 5% from a\nyear earlier, when the iPhone 6S was its newest model.\nApple is running out of large untapped markets where it could reproduce its\nbreakneck success in China in recent years. Sales in greater China, which includes\nHong Kong and Taiwan, declined 30% to $8.8 billion in the most-recent quarter. In the\nsame quarter a year earlier, Apple sales to the region grew 99%.\nUBS Securities LLC says 80% to 90% of China’s potential high-end smartphone buyers\nalready have a phone.\nMr. Cook hopes India, where iPhone sales grew by more than 50% during the most\nrecent year, will prove to be another giant market.\n“We still believe we’re just kind of scratching the surface there,” he said. Apple\nhttps://www.wsj.com/articles/apple-profit-and-revenue-slide-as-it-copes-with-dwindling-iphone-sales-1477427419 Page 3 of 4\nApple Pins Hopes on iPhone 7 as Profit, Revenue Decline - WSJ 2026-08-28, 1:04 PM\nincludes India in its Asia Pacific region, which reported $2.7 billion in sales, roughly\neven with a year earlier.\nWrite to Robert McMillan at Robert.Mcmillan@wsj.com\nAppeared in the October 26, 2016, print edition as 'Apple Sags but Pins Hope on iPhone'.\nRobert McMillan writes about computer security, hackers and privacy from The Wall Street Journal’s San Francisco\nbureau. Previously, he was a writer at Wired, the IDG News Service and Linux Magazine, where he covered cloud\ncomputing, business technology, bitcoin, artificial intelligence and open-source software.…\nHe was the host of Hack Me if You Can, a three-part podcast profile of the Russian hacker Dmitry Smilyanets,\nFollow\nproduced by the Journal.\nhttps://www.wsj.com/articles/apple-profit-and-revenue-slide-as-it-copes-with-dwindling-iphone-sales-1477427419 Page 4 of 4"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "This is a dedicated Apple earnings story reporting the company's third consecutive quarter of revenue and profit decline, marking Apple's first annual revenue drop since 2001. For the fiscal fourth quarter ended September 24, net income fell 19% to $9 billion, or $1.67 per share, versus $11.1 billion ($1.96 per share) a year earlier, while quarterly revenue declined 9% to $46.9 billion. The article notes Apple remained the most profitable U.S. company with $45.7 billion in annual net income, even as iPhone unit sales fell to 45.5 million from a year-earlier period 2.5 million higher, with iPhone representing 63% of fiscal-year revenue. Greater China sales plunged 30% to $8.8 billion, a sharp reversal from 99% growth in the prior year, while India was a bright spot with iPhone sales up more than 50%, and Mac sales declined 17% to $5.7 billion. CEO Tim Cook struck an optimistic tone about the newly launched iPhone 7, saying 'the customer response has really been off the charts,' and the company guided for current-quarter revenue of $76 billion to $78 billion, above the $74.9 billion analysts expected, with gross margin guided to 38% to 38.5%.",
+      "why_moved": "The article states that Apple shares fell 1.5% in after-hours trading following the announcement. It does not elaborate further on the specific reasoning behind that after-hours move beyond the results themselves -- the first annual revenue decline since 2001, a 19% drop in quarterly net income, and a 9% revenue decline -- set against management's optimistic commentary on iPhone 7 demand and above-consensus guidance for the following quarter.",
+      "sources": [
+        {
+          "title": "Apple Sees First Annual Revenue Fall Since '01",
+          "url": "https://www.foxbusiness.com/markets/apple-sees-first-annual-revenue-fall-since-01"
+        }
+      ]
+    }
+  },
+  "AAPL_2017q1": {
+    "ticker": "AAPL",
+    "group": "Group 1",
+    "company_name": "Apple",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-01-31",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Apple entered the holiday quarter expecting its first return to year-over-year revenue growth after three declining quarters. The key question was whether the iPhone 7/7 Plus cycle could create a genuine growth inflection.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Apple: Apple Reports Fourth Quarter Results",
+                  "url": "https://www.apple.com/newsroom/2016/10/apple-reports-fourth-quarter-results/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Apple delivered record fiscal Q1 revenue of **$78.4 billion** and EPS of **$3.36**, both above contemporaneous consensus. iPhone shipments reached a record **78.3 million**, also above expectations. Services, Mac and Apple Watch revenue all set records.",
+              "sources": []
+            },
+            {
+              "text": "The quality of the result came from both volume and mix. Strong iPhone 7 Plus demand supported revenue, while Services continued to scale. Next-quarter revenue guidance was slightly softer than consensus, but the market focused on the return to top-line growth and the stronger-than-expected holiday iPhone performance.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Apple: Apple Reports Record First Quarter Results",
+                  "url": "https://www.apple.com/newsroom/2017/01/apple-reports-record-first-quarter-results/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock rose on a broad revenue, EPS and iPhone-unit beat.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Higher-end iPhone mix improved revenue quality.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Record Services revenue reinforced the installed-base monetization story.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TechCrunch: Apple shares up 3% after company beats earnings expectations",
+                  "url": "https://techcrunch.com/2017/01/31/apple-shares-up-3-after-company-beats-earnings-expectations/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Every included URL was re-checked on the live web on **2026-08-31**. The page had to open successfully and match Apple/AAPL, the correct earnings event, displayed publication date and timing window. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Apple: Apple Reports Fourth Quarter Results",
+          "url": "https://www.apple.com/newsroom/2016/10/apple-reports-fourth-quarter-results/"
+        },
+        {
+          "label": "Apple: Apple Reports Record First Quarter Results",
+          "url": "https://www.apple.com/newsroom/2017/01/apple-reports-record-first-quarter-results/"
+        },
+        {
+          "label": "TechCrunch: Apple shares up 3% after company beats earnings expectations",
+          "url": "https://techcrunch.com/2017/01/31/apple-shares-up-3-after-company-beats-earnings-expectations/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The article reports Apple broke a streak of three straight quarterly revenue declines as iPhone 7 demand pushed shipments up 5% year over year to a record for the December quarter, and total revenue rose 3% to a record $78.4 billion. Profit fell 2.6% to $17.9 billion ($3.38 a share), beating the $3.22 a share analysts surveyed by Thomson Reuters had expected on revenue of $77.4 billion, also a beat. The piece notes services revenue jumped 18% to $7.2 billion — nearly triple Netflix's revenue in the same period — with Cook telling the Journal he expects services revenue to double over the next four years and declaring \"there's a lot to feel great about.\" Analyst David Rolfe of Wedgewood Partners, Apple's largest holding, is quoted with a memorable framing: Apple is \"like an eight-cylinder sports car... firing on seven out of eight cylinders which is very, very impressive in the context of expectations.\" The article tempers the good news, however, noting the iPhone 7's shipment growth of only 5% was far more modest than past launch quarters — the iPhone 6 launch quarter saw unit shipments jump 46% in 2014 — and that Greater China sales fell 12% to $16.2 billion (though showing signs of stabilizing), with Cook acknowledging the company is \"not without challenges there.\" It also details supply shortages on the Apple Watch, AirPods and iPhone 7 Plus, with Cook admitting Apple \"under-called\" 7 Plus demand and \"clearly missed some sales because of that,\" and it notes gross margin narrowed to 38.5% from 40.1% amid new lawsuits against Qualcomm over patent-licensing fees.",
+      "why_moved": "The article states shares rose more than 3% in after-hours trading. Building on the detail above, the beat on both EPS ($3.38 versus $3.22 expected) and revenue (a record $78.4 billion, ending the three-quarter decline streak) is the article's explicit anchor for the reaction, reinforced by the strong 18% services growth and record iPhone shipments — even though the piece is careful to note the growth rate itself was modest by the standards of past iPhone launches and that China and supply constraints remained live concerns, factors that likely explain why the stated reaction, while positive, was more restrained than some of Nvidia's larger beat-driven after-hours moves in this data set.",
+      "sources": [
+        {
+          "filename": "2017-01-31.pdf",
+          "title": "Apple Breaks Losing Streak, as Sales of iPhone 7 Shine Tech giant’s top line rises, ending a string of three straight quarters of decline, though margins are pressured",
+          "published_date": "2017-02-01",
+          "text": "Apple Breaks Losing Streak, as Sales of iPhone 7 Shine - WSJ 2026-08-28, 1:12 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/iphone-sales-bolster-apples-revenue-1485898217\nTECH\nApple Breaks Losing Streak, as Sales of iPhone 7\nShine\nTech giant’s top line rises, ending a string of three straight quarters of decline, though\nmargins are pressured\nBy Tripp Mickle\nUpdated Feb. 1, 2017 at 9:18 am ET\nThe Apple store on New York’s Fifth Avenue is pictured in December. The company reported quarterly earnings\nresults on Tuesday. RICHARD B. LEVINE/ZUMA PRESS\nApple Inc. snapped out of three straight quarters of falling revenue as strong demand\nfor the iPhone 7 raised investors’ hopes that the technology giant is emerging from its\nroughest period since it reinvented the market for mobile devices.\nSales of the new smartphone model, which Apple unveiled in September, propelled\ntotal iPhone shipments 5% higher to a record during the three months through\nDecember. iPhones, which account for two-thirds of Apple’s sales, helped boost total\nhttps://www.wsj.com/articles/iphone-sales-bolster-apples-revenue-1485898217?mod=article_inline Page 1 of 5\nApple Breaks Losing Streak, as Sales of iPhone 7 Shine - WSJ 2026-08-28, 1:12 PM\nrevenue 3% to a record $78.4 billion.\nApple’s services business—which includes its App Store sales and its music and\npayments services—continued to boom. Revenue in that segment jumped 18% from a\nyear ago to $7.2 billion, making it bigger than many large companies. It had nearly\nthree times the sales of Netflix Inc. during the same period.\nApple Chief Executive Tim Cook said in an interview he expects services revenue to\ndouble over the next four years.\n“There’s a lot to feel great about,” Mr. Cook said.\nApple’s shares rose more than 3% after normal trading hours Tuesday to more than\n$125 each. The stock is now only about 6% off its all-time closing high of $133 reached\nin February 2015, after having fallen to about $90 last May.\n“If they’re an eight-cylinder sports car, then they’re firing on seven out of eight\ncylinders which is very, very impressive in the context of expectations,” said David\nRolfe, chief investment officer at Wedgewood Partners Inc., a St. Louis firm that\ncounts Apple as its largest holding.\nStill, the results overall showed that Apple continues to struggle to regain the type of\nmomentum that made it the world’s most valuable company. The iPhone 7, while it\nhelped results, didn’t spark the double-digit increase in overall sales of iPhones that\nprevious new models did in their first full quarter on the market. Unit shipments of\nthe iPhone jumped 46% in the October-December quarter of 2014 after the launch of\nthe iPhone 6, for example.\nApple’s China business remains a soft spot, though it showed signs of stabilizing.\nCompetition in that market, long a growth driver, has intensified and Apple lost\nmarket share to less expensive smartphones from local rivals like Oppo Electronics\nand Huawei Technologies Co.\nhttps://www.wsj.com/articles/iphone-sales-bolster-apples-revenue-1485898217?mod=article_inline Page 2 of 5\nApple Breaks Losing Streak, as Sales of iPhone 7 Shine - WSJ 2026-08-28, 1:12 PM\nSales in Greater China, the world’s largest smartphone market, fell 12% to $16.2 billion\nin the quarter, Apple said. Executives blamed part of that on currency effects and\npointed to positives such as services sales.\n“I’m encouraged with the significant improvement but we’re not without challenges\nthere,” Mr. Cook said on a conference call.\nMr. Cook, who used to run Apple’s supply chain before taking the top job,\nacknowledged some operational missteps in the latest period that cost Apple\nadditional sales. The company said several of its biggest products suffered from\ninsufficient supply, including the Apple Watch, its new AirPods wireless earbuds and\nthe iPhone 7 Plus. Demand for the larger, pricier version of its new smartphone was\n“the most we’ve ever seen by far and we under-called it,” Mr. Cook said. “We clearly\nmissed some sales because of that.”\nProfit in the quarter fell 2.6% to $17.9 billion, or $3.38 a share. Analysts surveyed by\nThomson Reuters had expected earnings of $3.22 a share and $77.4 billion in revenue\nfor the quarter.\nApple’s gross margin, a closely watched measure of profitability, narrowed to 38.5%\nfrom 40.1% a year ago as new iPhone features like longer battery life and more\nmemory increased costs. Over the past year, the company has pushed suppliers to cut\ncomponent costs to protect margins as iPhone shipments stagnate. More recently, it\nfiled lawsuits in the U.S. and China against Qualcomm Inc., challenging the chip\nmakers’ patent fees, which amount to as much as 5% of the average price of an iPhone.\nQualcomm has called Apple’s claims baseless.\nThe latest results follow one of Apple’s poorest performances in years as it missed\ninternal revenue goals in its latest fiscal year for the first time since at least 2009,\nleading to a pay cut for Mr. Cook.\nUnder Mr. Cook, Apple has quadrupled its research-and-development spending as it\nhttps://www.wsj.com/articles/iphone-sales-bolster-apples-revenue-1485898217?mod=article_inline Page 3 of 5\nApple Breaks Losing Streak, as Sales of iPhone 7 Shine - WSJ 2026-08-28, 1:12 PM\nlooks to find new growth areas. The company is working on autonomous vehicles and\nhinted at its interest in augmented reality, but its secrecy makes it difficult to predict\nif or when products would debut that could ease reliance on the iPhone.\nThe modest increase in iPhone sales in the latest period came as Apple’s biggest rival,\nSamsung Electronics Co., issued a recall for its Galaxy Note 7 after some caught fire.\nBut sales of Samsung devices remained strong, particularly in the U.S., where they\nclaimed a 29% share of smartphone sales in the quarter compared with Apple’s 31%\nshare, according to consumer-analytics firm Kantar Worldpanel.\nApple benefited from rising demand for the iPhone 7 Plus, which helped lift the\niPhone’s average-selling price in the latest period to a record $695 from $691 a year\nago, the company said.\nThe willingness of customers to pay more for the 7 Plus offers encouragement for\nApple, showing consumers will pay more for devices loaded with extras—in this case,\na dual-camera system and additional random access memory. That is encouraging as\nApple looks to set prices in the months ahead for its much-anticipated 10th\nanniversary iPhone later this year.\nApple said the total number of iPhone users increased by a double-digit percentage in\nthe quarter. That statistic is closely watched by analysts because the estimated value\nof an iPhone customer in profit over the two-to-three-year lifespan of an iPhone is\nabout $1,000, said Abhey Lamba, senior technology analyst with Mizuho Securities.\n“There are very few people who switch away from iPhones,” he added.\nWrite to Tripp Mickle at Tripp.Mickle@wsj.com\nAppeared in the February 1, 2017, print edition as 'Apple Breaks Losing Streak, As Sales of iPhone 7 Shine'.\nhttps://www.wsj.com/articles/iphone-sales-bolster-apples-revenue-1485898217?mod=article_inline Page 4 of 5\nApple Breaks Losing Streak, as Sales of iPhone 7 Shine - WSJ 2026-08-28, 1:12 PM\nTripp Mickle covered Google and its parent company Alphabet for The Wall Street Journal. He previously served as\nthe Journal's reporter on Apple, following a stint covering the alcohol and tobacco industries. Prior to joining the\nJournal, Tripp worked as a sportswriter at Sports Business Journal and Newsday. He is a graduate of Wake Forest…\nUniversity.\nFollow\nhttps://www.wsj.com/articles/iphone-sales-bolster-apples-revenue-1485898217?mod=article_inline Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "This dedicated Apple earnings story reports record fiscal first-quarter revenue of $78.4 billion, ending three consecutive quarters of year-over-year decline. Total iPhone shipments rose 5% to 78.2 million units on strength from the iPhone 7 line, while profit fell 2.6% to $17.9 billion, or $3.38 per share, beating analyst expectations of $3.22 per share. The article credits much of the shipment growth to the iPhone 7 Plus specifically, citing a Cowen & Co. estimate of 24.5 million units sold, up 55% year over year, as consumers paid a $120 premium for features including the dual-camera system; average selling price hit a record $695, up from $691. Gross margin narrowed to 38.5% from 40.1% on higher costs tied to features like extended battery life and additional memory, with Apple guiding to 38%-39% margin for the current quarter. The article also highlights services revenue of $7.2 billion, up 18% and nearly triple Netflix's comparable revenue, alongside continued weakness in Greater China, where sales fell 12% to $16.2 billion as local rivals Oppo and Huawei gained share, while Mac sales rose just 1% and iPad shipments fell 19%.",
+      "why_moved": "The article states that Apple shares rose 2.8% to $124.79 in after-hours trading. It ties this reaction to the record quarterly revenue and the EPS beat ($3.38 versus the $3.22 analysts expected), driven by stronger-than-anticipated iPhone 7 and iPhone 7 Plus shipments, even though profit itself declined slightly and gross margin narrowed year over year.",
+      "sources": [
+        {
+          "title": "IPhone Sales Bolster Apple's Revenue, Shares Rise",
+          "url": "https://www.foxbusiness.com/markets/iphone-sales-bolster-apples-revenue-shares-rise"
+        }
+      ]
+    }
+  },
+  "AAPL_2017q2": {
+    "ticker": "AAPL",
+    "group": "Group 1",
+    "company_name": "Apple",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-05-02",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Following the record holiday quarter, Apple shares had rallied strongly. Expectations were increasingly influenced by anticipation of the next flagship iPhone, creating a risk that customers would delay upgrades.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Apple: Apple Reports Record First Quarter Results",
+                  "url": "https://www.apple.com/newsroom/2017/01/apple-reports-record-first-quarter-results/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q2 revenue was **$52.9 billion** and EPS **$2.10**. EPS beat consensus, but revenue was slightly below expectations and iPhone shipments of **50.8 million** missed estimates. Management attributed part of the softness to customers delaying purchases ahead of widely discussed future iPhones.",
+              "sources": []
+            },
+            {
+              "text": "Services remained strong and Apple expanded its capital-return program to **$300 billion**. The quarter therefore combined a modest iPhone/revenue disappointment with solid profitability, Services growth and larger capital returns. Consistent with that mixed picture, the first full post-release session was essentially flat.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Apple: Apple Reports Second Quarter Results",
+                  "url": "https://www.apple.com/newsroom/2017/05/apple-reports-second-quarter-results/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The reaction was essentially flat because the iPhone/revenue miss was offset by solid EPS and capital returns.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Upgrade deferral ahead of the next iPhone likely weighed on unit demand.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Services growth and the enlarged capital-return program limited the downside.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: Apple Analysts Remain Bullish Despite Mixed Second-Quarter Results",
+                  "url": "https://www.thestreet.com/investing/stocks/apple-analysts-remain-bullish-despite-mixed-q2-results-what-wall-street-s-saying-14116429"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Every included URL was re-checked on the live web on **2026-08-31**. The page had to open successfully and match Apple/AAPL, the correct earnings event, displayed publication date and timing window. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Apple: Apple Reports Record First Quarter Results",
+          "url": "https://www.apple.com/newsroom/2017/01/apple-reports-record-first-quarter-results/"
+        },
+        {
+          "label": "Apple: Apple Reports Second Quarter Results",
+          "url": "https://www.apple.com/newsroom/2017/05/apple-reports-second-quarter-results/"
+        },
+        {
+          "label": "TheStreet: Apple Analysts Remain Bullish Despite Mixed Second-Quarter Results",
+          "url": "https://www.thestreet.com/investing/stocks/apple-analysts-remain-bullish-despite-mixed-q2-results-what-wall-street-s-saying-14116429"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The article reports Apple extended its rebound with rising profit and revenue even as iPhone shipments slipped 1% year over year to 50.8 million, which it attributes to continued weakness in China and customers waiting for the anticipated 10th-anniversary phone; total revenue rose 4.6% to $52.90 billion and profit rose 4.9% to $11.03 billion, Apple's first quarterly earnings increase in more than a year. Both figures beat expectations: EPS of $2.10 topped the $2.02 analysts surveyed by Thomson Reuters had projected, on revenue of $52.97 billion also ahead of consensus. Cook is quoted directly acknowledging the demand softness: \"We're seeing what we believe to be a pause in purchases on iPhone, which we believe are due to the earlier and much more frequent reports about future iPhones.\" The article details a major capital-return announcement — a 10.5% dividend increase and a $35 billion expansion of the buyback program to $210 billion, part of a new commitment to return $300 billion to shareholders through March 2019, up from a prior $250 billion pledge — alongside cash reserves that swelled to $256.8 billion, described as exceeding the market value of 26 of the 30 Dow Jones Industrial Average companies. It also covers competitive pressure from Huawei, Oppo and Samsung's newly released Galaxy S8, a fifth consecutive quarterly China sales decline (down 14% to $10.73 billion), a bright spot in Mac revenue (+14% to $5.84 billion on the new MacBook), and a 13th straight quarterly iPad shipment decline despite a $28.7 million national ad campaign.",
+      "why_moved": "The article states shares fell 1.9% in after-hours trading despite the EPS and revenue beats detailed above, and it identifies the specific driver: Cook's own disclosure of an iPhone purchase \"pause\" tied to anticipation of the next iPhone, combined with the 1% year-over-year shipment decline and a fifth straight quarterly China sales drop. The article was published on the earnings date itself and does not address how the stock traded in the sessions that followed, so it offers no account of any subsequent recovery.",
+      "sources": [
+        {
+          "filename": "2017-05-02.pdf",
+          "title": "Apple Continues Its Comeback Campaign, but iPhone Worries Persist Revenue has now risen in two consecutive quarters following a slump",
+          "published_date": "2017-05-02",
+          "text": "Apple Continues Its Comeback Campaign, but iPhone Worries Persist - WSJ 2026-08-28, 1:16 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/apple-continues-its-comeback-campaign-but-iphone-worries-persist-1493757017\nTECH\nApple Continues Its Comeback Campaign, but iPhone\nWorries Persist\nRevenue has now risen in two consecutive quarters following a slump\nBy Tripp Mickle\nUpdated May 2, 2017 at 8:55 pm ET\nApple Inc. extended its rebound in the latest quarter with rising profit and revenue,\nbut reported tepid iPhone demand that adds pressure on the technology giant to\ndeliver a hit with its new 10th-anniversary handset later this year.\nShipments of its flagship product slipped 1% from a year earlier to 50.8 million\niPhones, owing partly to continued weakness in China and to customers waiting for\nthe forthcoming phone model, which is expected in the autumn. Within the overall\nlackluster trend, sales of the iPhone 7, which Apple released last September, were\nrelatively strong, which helped push up average selling prices and drive a 4.6%\nincrease in total revenue to $52.90 billion.\nProfit in the three months through April 1 rose 4.9% to $11.03 billion—Apple’s first\nquarterly increase in earnings in more than a year.\nThe overall performance adds evidence that the world’s most valuable company has\nstabilized its business after a slump in its last fiscal year, during which weak sales of\nits core products and rising competition sent revenue and profit tumbling. The latest\nquarter’s increase in revenue was the second in a row, following three consecutive\nquarterly declines.\nReflecting its continued strength, Apple said its cash reserves swelled to $256.8 billion\nhttps://www.wsj.com/articles/apple-continues-its-comeback-campaign-but-iphone-worries-persist-1493757017 Page 1 of 6\nApple Continues Its Comeback Campaign, but iPhone Worries Persist - WSJ 2026-08-28, 1:16 PM\nduring the quarter, an unrivaled milestone\nfor a nonfinancial corporation. The total\nexceeds the market value of 26 of the 30\ncompanies that make up the Dow Jones\nIndustrial Average.\nApple has been sending more cash to\nshareholders. In just the past six months, it\nreturned $25 billion in buybacks and\ndividends—more than the annual revenue of McDonald’s Corp. Apple on Tuesday\nboosted its dividend by 10.5% and its share-repurchase program by $35 billion, to $210\nbillion—comparable to increases a year ago—and committed to return $300 billion to\nshareholders through buybacks and dividends through March 2019. It had previously\npromised $250 billion by 2018.\nApple’s cash hoard has soared behind the iPhone, which has sold more than 1 billion\nunits since its introduction a decade ago. The product accounts for 91% of smartphone\nprofits world-wide and remains popular among users because of its proprietary mix of\nhardware and software.\nThe current flagship model, the iPhone 7, has helped Apple keep its position at the top\nof the smartphone market despite criticism from some reviewers saying it offered\nonly incremental improvements over its predecessors. The average selling price of the\niPhone overall rose to nearly $655 from about $641 a year ago.\nIn an interview, Chief Executive Tim Cook said sales of the larger iPhone 7 Plus\nincreased significantly in the latest quarter and noted that its higher price of $769,\nabout $100 more than the iPhone 7, helped boost average selling price.\nHowever, Mr. Cook also said that anticipation of the next iPhone—which Apple hasn’t\npublicly discussed—is hurting current sales.\nhttps://www.wsj.com/articles/apple-continues-its-comeback-campaign-but-iphone-worries-persist-1493757017 Page 2 of 6\nApple Continues Its Comeback Campaign, but iPhone Worries Persist - WSJ 2026-08-28, 1:16 PM\n“We’re seeing what we believe to be a pause in purchases on iPhone, which we believe\nare due to the earlier and much more frequent reports about future iPhones,” Mr.\nCook told analysts. Apple also said unit shipments in the latest quarter fell because of\na decrease in inventories.\nApple’s shares fell 1.9% in after-hours trading after finishing up 0.6% on Tuesday. The\nstock has soared to record highs this year behind investors’ expectations for increased\ncapital returns and optimism that the 10th-anniversary iPhone will build on Apple’s\nrenewed momentum.\nThe much-anticipated 10th-anniversary device is expected to feature an upgraded\ndisplay, wireless charging and augmented reality, according to analysts, who are\nprojecting double-digit sales increases in the next fiscal year.\n“Right now, it’s really about the upcoming iPhone cycle and how that plays out\ntowards the year’s end,” said Brian Fox, senior vice president at Boston-based\nStandard Life Investments, which counts Apple among its $350 billion in assets.\nApple has been losing market share in recent years to a wave of less-expensive\nChinese brands such as Huawei and Oppo. It also faces pressure from Samsung\nElectronics Co., which released a Galaxy S8 last month with a display and form some\ncritics favored over the iPhone.\nApple’s sales in Greater China fell 14% to $10.73 billion in the quarter. Sales have\ndeclined from a year earlier for five straight quarters in the region, which includes\nHong Kong and Taiwan. Many Chinese consumers are holding on to their iPhones\nlonger, awaiting a new handset with different features and a new look.\n“They’re not abandoning” Apple, said Ben Bajarin, an analyst with the technology\nfirm Creative Strategies. “They’re just waiting for a product to splurge on.”\nThe Mac was a bright spot for Apple in the quarter as sales of the company’s new\nMacBook propelled a 14% increase in revenue to $5.84 billion.\nhttps://www.wsj.com/articles/apple-continues-its-comeback-campaign-but-iphone-worries-persist-1493757017 Page 3 of 6\nApple Continues Its Comeback Campaign, but iPhone Worries Persist - WSJ 2026-08-28, 1:16 PM\nThe iPad, however, the company’s third-largest product by sales, recorded another\ndecline in unit shipments, extending its long downturn. Shipments declined 13% to 8.9\nmillion units despite Apple spending an estimated $28.7 million on a national TV\nadvertising campaign during the quarter, according to advertising analysis by\niSpot.tv.\nPeople wait for the sales launch of Apple’s iPhone 7 outside a store in Tokyo in September. The company reported\nquarterly earnings on Tuesday. YUYA SHINO/BLOOMBERG\nMr. Cook told analysts that iPad results exceeded expectations and said the product\ngained market share in several markets, including the U.S. and Japan.\nApple’s services business—which includes the App Store and its music and payment\nservices—delivered another strong quarter of double-digit growth, rising to $7.04\nbillion from nearly $6 billion a year earlier.\nThe services business has accelerated as the total number of people with iPhones has\nsoared to more than 600 million, according to analysts. Those users increasingly\ndownload apps, games and pay for subscriptions on those devices, and Apple retains\nas much as 30% of what they spend.\nOn a per-share basis, earnings in the latest quarter totaled $2.10. Analysts surveyed\nhttps://www.wsj.com/articles/apple-continues-its-comeback-campaign-but-iphone-worries-persist-1493757017 Page 4 of 6\nApple Continues Its Comeback Campaign, but iPhone Worries Persist - WSJ 2026-08-28, 1:16 PM\nby Thomson Reuters expected earnings of $2.02 a share and $52.97 billion in revenue\nfor the quarter.\nFor the current quarter, Apple expects revenue of $43.5 billion to $45.5 billion. It also\nprojected gross margin, a closely watched measure of profitability reflecting the\npercentage of revenue that remains after manufacturing costs, of 37.5% to 38.5%.\nWrite to Tripp Mickle at Tripp.Mickle@wsj.com\nAppeared in the May 3, 2017, print edition as 'Apple Profit Rises but iPhone Slips'.\nTripp Mickle covered Google and its parent company Alphabet for The Wall Street Journal. He previously served as\nthe Journal's reporter on Apple, following a stint covering the alcohol and tobacco industries. Prior to joining the\nJournal, Tripp worked as a sportswriter at Sports Business Journal and Newsday. He is a graduate of Wake Forest…\nUniversity.\nFollow\nhttps://www.wsj.com/articles/apple-continues-its-comeback-campaign-but-iphone-worries-persist-1493757017 Page 5 of 6\nApple Continues Its Comeback Campaign, but iPhone Worries Persist - WSJ 2026-08-28, 1:16 PM\nhttps://www.wsj.com/articles/apple-continues-its-comeback-campaign-but-iphone-worries-persist-1493757017 Page 6 of 6"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "This is Dow Jones Newswires market-roundup coverage of a session in which major indices edged lower ahead of the Federal Reserve's policy announcement -- the Dow fell 38 points (0.2%) to 20,912, the S&P 500 slipped 0.2%, and the Nasdaq declined 0.4%. Within that roundup, the article reports that Apple posted increased profits but disappointed investors with 'tepid iPhone demand,' and notes the weakness rippled through the supply chain, with component makers STMicroelectronics down 1.7% and Dialog Semiconductor off 2.6%. An unnamed analyst is quoted saying 'there's quite a lot of optimism built into tech -- it was slightly less positive than people were hoping for.' The piece frames Apple's reaction against a backdrop where first-quarter earnings overall had been strong and helped keep equities resilient, with the S&P 500 sitting just 0.2% below its record close, and where the Fed was expected to hold rates steady, with market pricing showing less than a 5% chance of a hike at that meeting.",
+      "why_moved": "The article states that Apple shares fell 1.6% after the company posted increased profits but disappointed investors with 'tepid iPhone demand.' It also notes that component suppliers such as STMicroelectronics and Dialog Semiconductor declined in sympathy. The cited analyst commentary frames the reaction as a case of high built-in optimism for tech meeting results that, while decent, were 'slightly less positive than people were hoping for' -- this framing of elevated expectations is the explanation the article offers beyond the iPhone demand point itself.",
+      "sources": [
+        {
+          "title": "Stocks Edge Lower Ahead of Fed",
+          "url": "https://www.foxbusiness.com/features/stocks-edge-lower-ahead-of-fed"
+        }
+      ]
+    }
+  },
+  "AAPL_2017q3": {
+    "ticker": "AAPL",
+    "group": "Group 1",
+    "company_name": "Apple",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-08-01",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "The May quarter was stable but slightly disappointing on iPhone units. By August, investors wanted evidence that Services, iPad and the installed base could sustain growth before the next major iPhone launch.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Apple: Apple Reports Second Quarter Results",
+                  "url": "https://www.apple.com/newsroom/2017/05/apple-reports-second-quarter-results/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q3 revenue increased **7% to $45.4 billion** and EPS rose **17% to $1.67**, both above consensus. Services reached another quarterly record, while revenue increased across product categories.",
+              "sources": []
+            },
+            {
+              "text": "The most important part was guidance. Apple projected fiscal Q4 revenue of **$49–$52 billion**, with the midpoint above the then-consensus estimate. That suggested accelerating company-wide growth immediately before the new iPhone cycle and reduced concern that upgrade deferral would create a weak bridge quarter.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Apple: Apple Reports Third Quarter Results",
+                  "url": "https://www.apple.com/newsroom/2017/08/apple-reports-third-quarter-results/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares jumped because revenue, EPS and forward guidance all beat expectations.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Record Services revenue showed improving growth outside the iPhone.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Strong guidance reduced concern about customers waiting for the next iPhone.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Why Apple, Inc. Stock Jumped on Wednesday",
+                  "url": "https://www.fool.com/investing/2017/08/02/why-apple-inc-stock-jumped-on-wednesday.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Every included URL was re-checked on the live web on **2026-08-31**. The page had to open successfully and match Apple/AAPL, the correct earnings event, displayed publication date and timing window. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Apple: Apple Reports Second Quarter Results",
+          "url": "https://www.apple.com/newsroom/2017/05/apple-reports-second-quarter-results/"
+        },
+        {
+          "label": "Apple: Apple Reports Third Quarter Results",
+          "url": "https://www.apple.com/newsroom/2017/08/apple-reports-third-quarter-results/"
+        },
+        {
+          "label": "The Motley Fool: Why Apple, Inc. Stock Jumped on Wednesday",
+          "url": "https://www.fool.com/investing/2017/08/02/why-apple-inc-stock-jumped-on-wednesday.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The article reports Apple delivered strong revenue in its typically weakest quarter, with total revenue up 7.2% year over year — its best growth rate in seven quarters — as iPhone shipments rose 1.6% to 41.03 million, Mac sales rose 6.7% for a third consecutive quarterly gain, and iPad shipments grew for the first time in 14 quarters, up 15% to 11.42 million units on strong sales to schools and businesses. Profit rose 12% to $8.72 billion, a second consecutive quarterly earnings increase after a yearlong downturn, and EPS of $1.67 beat the $1.57 analysts surveyed by Thomson Reuters had expected on revenue of $44.9 billion. Cook is quoted saying \"we've got some momentum\" and that \"a lot of things we've been working on a long time are beginning to show in the results,\" while also acknowledging \"we believe there is a pause\" in iPhone purchases ahead of the fall launch, which he said \"probably bodes well for the future.\" Guidance for the current quarter of $49 billion to $52 billion \"mostly eclipsed\" the $49.2 billion analyst consensus, a signal analyst Brian White of Drexel Hamilton said suggested Apple was not running into production problems with its upcoming iPhones. Greater China sales fell 9.5% to $8 billion, the first time in five quarters the decline wasn't in double digits, with Cook citing flat mainland China sales and 20% growth in Taiwan; the article also notes gross margin of 38.5% beat the 38.2% analysts expected even as industrywide memory-price inflation pressured margins broadly, and it details a new $1 billion U.S. manufacturing investment fund amid pressure from the Trump administration.",
+      "why_moved": "Notably, this article never states the stock's after-hours or next-day reaction anywhere in the text — unlike nearly every other Apple report in this set, there is no explicit percentage move mentioned, so the source text itself does not explain why the stock moved as it did. What it does establish, as detailed above, is a genuinely strong quarter on several fronts: EPS and revenue both beat consensus, gross margin beat expectations, and forward guidance mostly cleared the Street's estimate. The article gives no stated reaction to tie to that strength, so any connection between the fundamentals and the stock's subsequent move would be inference rather than something the source text itself asserts.",
+      "sources": [
+        {
+          "filename": "2017-08-01.pdf",
+          "title": "Apple Sales Rise, Pushed by Purchases of iPads and Macs Sales of iPhones remain steady as consumers anticipate a new phone later this year",
+          "published_date": "2017-08-01",
+          "text": "Apple Sales Rise, Pushed by Purchases of iPads and Macs - WSJ 2026-08-28, 1:19 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/apple-sales-rise-pushed-by-sales-of-ipads-and-macs-1501619719\nTECH\nApple Sales Rise, Pushed by Purchases of iPads and\nMacs\nSales of iPhones remain steady as consumers anticipate a new phone later this year\nBy Tripp Mickle\nUpdated Aug. 1, 2017 at 6:09 pm ET\nRICHARD B. LEVINE/ZUMA PRESS\nApple Inc. AAPL 1.80% delivered strong revenue in the June quarter, typically its\nweakest period, by re-energizing iPad and Mac sales and keeping purchases of\niPhones steady as consumers anticipate a new phone this fall.\nThe company’s revenue jumped 7.2% from a year earlier, its best growth in seven\nquarters, as shipments of Apple’s flagship product rose 1.6% to 41.03 million iPhones.\nhttps://www.wsj.com/articles/apple-sales-rise-pushed-by-sales-of-ipads-and-macs-1501619719?tesla=y&mod=article_inline Page 1 of 7\nApple Sales Rise, Pushed by Purchases of iPads and Macs - WSJ 2026-08-28, 1:19 PM\nThe biggest surprise was a revival of the iPad business, and the continued momentum\nof the Mac, which both had waned in recent years as consumers shifted more money\ninto smartphones. Mac sales rose 6.7%, the third consecutive quarter of gains, while\niPads avoided a fourth consecutive quarterly slide with 1.9% growth. For the first time\nin 14 quarters iPad shipments increased, rising 15% to 11.42 million units amid strong\nsales to schools and businesses.\nProfit for the period rose 12% to $8.72 billion—the company’s second consecutive\nquarterly increase in earnings after a yearlong downturn.\n“We’ve got some momentum,” Chief Executive Tim Cook said. “A lot of things we’ve\nbeen working on a long time are beginning to show in the results.”\nThe results came during what is historically Apple’s softest quarter—a time when\nconsumers often hold off buying iPhones in anticipation of an autumn release of a new\ndevice.\nMr. Cook said discussions of future iPhones was greater than normal and affected\nsales, particularly of its highest priced devices, the iPhone 7 and iPhone 7 Plus. “We\nbelieve there is a pause, but that probably bodes well for the future,” he said.\nThe iPad’s resurgence and Mac’s\nmomentum helped bring balance to Apple\nresults that had grown increasingly\ndependent on the iPhone in recent years.\nThe iPad benefited from a recent refresh of\nthe product line, including the\nintroduction in March of an upgraded,\nbasic iPad and in June a new, iPad Pro, Mr.\nCook said. He said he expects the introduction of a new mobile operating system this\nfall, iOS 11, will strengthen sales as it introduces features such as file storage and drag-\nhttps://www.wsj.com/articles/apple-sales-rise-pushed-by-sales-of-ipads-and-macs-1501619719?tesla=y&mod=article_inline Page 2 of 7\nApple Sales Rise, Pushed by Purchases of iPads and Macs - WSJ 2026-08-28, 1:19 PM\nand-drop that are common on laptops.\nMac sales increased despite a 4% contraction in PC sales world-wide, Mr. Cook said.\nApple projected a wide revenue range of $49 billion to $52 billion for the current\nquarter, mostly eclipsing the analysts’ consensus estimate of $49.2 billion in sales,\naccording to Thomson Reuters. Had the company’s estimates fallen short of analysts’\nexpectations it would have indicated the company may be running into production\nproblems with the next iPhone, said Brian White, an analyst with Drexel Hamilton. But\nthe estimates suggest at least some of the product will be delivered on time in late\nSeptember, rather than slipping entirely into the holiday quarter.\nApple last gave a $3 billion range for its September quarter in 2014 when it released\nthe iPhone 6 and iPhone 6 Plus, the first time it brought two phones to market. Sales of\nthose devices were initially limited by supply constraints.\nThe company is widely expected to release three phones instead of the usual two—\nupdated versions of the current iPhone 7 and 7 Plus as well as a special 10th-\nanniversary iPhone with a different display and new features like wireless charging\nand facial recognition technology.\nThe complexities of the new hardware led several analysts to predict for months that\nthe iPhone would run into production challenges and supply constraints. Analysts\nhave largely shrugged off that possibility, believing the iPhone will be delivered in\ntime for Christmas and loyalists will wait for it to arrive in stores.\n“In a way, that could be a marketing tool for them—a way to flame more excitement\naround the iPhone 8 because anything you can’t get you want more,” Mr. White said.\nhttps://www.wsj.com/articles/apple-sales-rise-pushed-by-sales-of-ipads-and-macs-1501619719?tesla=y&mod=article_inline Page 3 of 7\nApple Sales Rise, Pushed by Purchases of iPads and Macs - WSJ 2026-08-28, 1:19 PM\nApple’s revenue jumped 7.2% from a year earlier, and iPhone shipments rose 1.6% to 41.03 million. KIICHIRO SATO/\nASSOCIATED PRESS\nApple showed some improvement in Greater China. Sales there fell 9.5% to $8 billion\nin the quarter, marking the first time in five quarters the company hasn’t reported a\ndouble-digit sales decline in the region, which includes Hong Kong and Taiwan.\nThe company has run into a host of challenges in China as many Chinese consumers\nhold on to their iPhones longer and others switch to lower-priced devices from rivals\nlike Huawei Technologies Co. and BBK Electronics Corp. The market, which accounts\nfor about 20% of total sales, is seen as critical to the success of the next iPhone.\nMr. Cook said sales were flat in mainland China and rose 20% in Taiwan but fell in\nHong Kong, where a strong currency has cut into tourism and shopping.\nUnderscoring the market’s importance, Apple recently named its first executive with\noversight of its China business, Isabel Ge Mahe. She will manage government\nrelations and help develop new operating-system features with local appeal, such as a\nfunction that allows iPhone owners to filter text-message scams common in China.\n“One of the things we like about Apple is once you become an Apple customer you stay\nfor the long haul, but that seems more difficult in China because there’s more\nhttps://www.wsj.com/articles/apple-sales-rise-pushed-by-sales-of-ipads-and-macs-1501619719?tesla=y&mod=article_inline Page 4 of 7\nApple Sales Rise, Pushed by Purchases of iPads and Macs - WSJ 2026-08-28, 1:19 PM\ncompetition,” said Jeff Dillon, chief executive of Dillon & Associates, a Jackson, Mich.-\nbased investment firm and Apple investor with $300 million in assets. He said he was\nencouraged to see Apple “stabilizing that business and starting to right the ship.”\nIn addition to facing pressure in China, Apple has run into pressure in its local market\nwhere President Donald Trump renewed his push for the company to start\nmanufacturing more products in the U.S. Mr. Trump last week said Mr. Cook promised\nto build three plants in the U.S., something the company hasn’t done in more than a\ndecade.\nMr. Cook declined to comment on Mr. Trump’s remarks. A White House aide referred\nrequests for clarification on Mr. Trump’s remarks to the company.\nIn May, Apple announced a $1 billion investment fund for advanced manufacturing in\nthe U.S. and injected $200 million of that into a Corning Inc. facility in Harrodsburg,\nKy.\n“There will be more—a lot more than three,” Mr. Cook said, speaking to future\ninvestments in U.S. manufacturing. “There will be many.”\nApple’s cash reserves continued to swell during the quarter to $261.5 billion,\ncompared with $237.6 billion at year-end. About 94% of that cash is held overseas, and\ninvestor hopes have been rising that the Trump administration’s plan for a tax holiday\nwould allow Apple to bring the cash home without paying steep taxes.\nApple’s services business—which includes the App Store and its music and payment\nservices—delivered another strong quarter of double-digit growth, rising 22% to $7.27\nbillion. The business has become a major driver of the company’s growth over the past\nyear and a key part of its success in keeping more than 600 million iPhone customers\nworld-wide. Analysts say iPhone users are less likely to ditch the device after loading\nit up with apps and using Apple Pay.\nMr. Cook credited the rise in popularity of subscription services such as Apple Music,\nhttps://www.wsj.com/articles/apple-sales-rise-pushed-by-sales-of-ipads-and-macs-1501619719?tesla=y&mod=article_inline Page 5 of 7\nApple Sales Rise, Pushed by Purchases of iPads and Macs - WSJ 2026-08-28, 1:19 PM\nNetflix and HBO Now for propelling the App Store’s growth. Subscriptions rose 12% in\na 90-day period to more than 185 million subscribers world-wide.\n“We reached the size of a Fortune 100 company before we thought we would,” Mr.\nCook said, noting that services revenue eclipsed $27.8 billion over the past four\nquarters.\nApple’s gross margin—a closely watched measure of profitability reflecting the\npercentage of revenue that remains after manufacturing costs—moved up to 38.5%\nfrom 38% a year ago. Analysts expected a margin of 38.2%, according to FactSet. For\nthe current quarter, Apple projected a gross margin of 37.5% to 38%.\nMargins across the smartphone industry have been pressured by a surge in memory\nprices, which have risen more than 50% on the spot market over the past year,\naccording to DRAMeXchange, which tracks sales and prices. The rise in component\ncosts helped Samsung top Apple in net profit in the June quarter with $9.9 billion.\nHigh expectations for sales of the new phone have sent Apple’s stock up 28% so far\nthis year, nearly three times as much as the S&P 500. The number of iPhone owners\ndue for an upgrade is at peak levels and the phone is expected to cost as much as\n$1,000, a total that would likely lift average-selling prices and boost profits.\nOn a per-share basis, earnings in Apple’s third quarter totaled $1.67. Analysts\nsurveyed by Thomson Reuters expected per-share earnings of $1.57 and $44.9 billion\nin revenue for the quarter.\nWrite to Tripp Mickle at Tripp.Mickle@wsj.com\nCorrections & Amplifications\nApple delivered the second-best revenue in company history for the June quarter. An\nearlier version of this article incorrectly said it was the second-best revenue for the\nSeptember quarter. (August 1)\nhttps://www.wsj.com/articles/apple-sales-rise-pushed-by-sales-of-ipads-and-macs-1501619719?tesla=y&mod=article_inline Page 6 of 7\nApple Sales Rise, Pushed by Purchases of iPads and Macs - WSJ 2026-08-28, 1:19 PM\nAppeared in the August 2, 2017, print edition as 'Apple Powers Up on Mac and iPad Sales'.\nTripp Mickle covered Google and its parent company Alphabet for The Wall Street Journal. He previously served as\nthe Journal's reporter on Apple, following a stint covering the alcohol and tobacco industries. Prior to joining the\nJournal, Tripp worked as a sportswriter at Sports Business Journal and Newsday. He is a graduate of Wake Forest…\nUniversity.\nFollow\nhttps://www.wsj.com/articles/apple-sales-rise-pushed-by-sales-of-ipads-and-macs-1501619719?tesla=y&mod=article_inline Page 7 of 7"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "AAPL_2017q4": {
+    "ticker": "AAPL",
+    "group": "Group 1",
+    "company_name": "Apple",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-11-02",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "The August quarter had re-established accelerating growth. Going into November, investors focused on whether the iPhone 8/8 Plus and imminent iPhone X could sustain that momentum despite supply constraints.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Apple: Apple Reports Third Quarter Results",
+                  "url": "https://www.apple.com/newsroom/2017/08/apple-reports-third-quarter-results/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q4 revenue increased **12% to $52.6 billion** and EPS rose **24% to $2.07**, both above consensus. Services reached an all-time high, and revenue grew across the major product categories.",
+              "sources": []
+            },
+            {
+              "text": "The key detail was that the strong quarter occurred **before iPhone X had begun shipping**. Apple therefore entered the holiday quarter with momentum already in place, while management’s outlook and early iPhone X demand supported confidence in the next quarter.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Apple: Apple Reports Fourth Quarter Results",
+                  "url": "https://www.apple.com/newsroom/2017/11/apple-reports-fourth-quarter-results/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock rose on a broad earnings beat and strong holiday-quarter expectations.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Growth was broad-based across iPhone, iPad, Mac, Services and other products.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Strong pre-iPhone-X performance reduced concern that supply constraints would derail the holiday period.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: What Happened in the Stock Market Today",
+                  "url": "https://www.fool.com/investing/2017/11/03/what-happened-in-the-stock-market-today.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Every included URL was re-checked on the live web on **2026-08-31**. The page had to open successfully and match Apple/AAPL, the correct earnings event, displayed publication date and timing window. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Apple: Apple Reports Third Quarter Results",
+          "url": "https://www.apple.com/newsroom/2017/08/apple-reports-third-quarter-results/"
+        },
+        {
+          "label": "Apple: Apple Reports Fourth Quarter Results",
+          "url": "https://www.apple.com/newsroom/2017/11/apple-reports-fourth-quarter-results/"
+        },
+        {
+          "label": "The Motley Fool: What Happened in the Stock Market Today",
+          "url": "https://www.fool.com/investing/2017/11/03/what-happened-in-the-stock-market-today.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The article reports Apple's best quarterly growth in two years, with a fourth consecutive quarterly revenue increase and third consecutive profit increase (profit up 19% to $10.71 billion), iPhone shipments up 2.6% to 46.7 million, and China sales rising for the first time since early 2016. Fiscal fourth-quarter EPS of $2.07 beat the $1.87 analysts had expected, on revenue up 12% to $52.58 billion, though annual revenue of $229.23 billion, up 6% for the year, remained below its fiscal 2015 peak. Guidance for the holiday quarter of $84 billion to $87 billion was well above the prior record of $78.35 billion set the year before. The piece devotes substantial space to iPhone X launch risk: the iPhone 8 and 8 Plus, which began shipping September 22, had \"the weakest initial sales of any new iPhone in years\" according to market-research estimates, and the iPhone X — shipping the day after this report, delayed more than a month by production issues — faced slashed unit projections (Strategy Analytics cut its estimate to fewer than 30 million units from 60 million earlier in the year) and long shipping delays for early online orders. Cook, interviewed directly, called demand for the X \"very strong\" and said \"the ramp... is going well\" since otherwise \"we wouldn't be able to guide\" for record revenue, while acknowledging launching three iPhone models with a staggered schedule made forecasting \"complex\" and that Apple doesn't \"profess to be able to do it perfectly.\" Greater China revenue rose 12% to $9.8 billion after six straight quarterly declines, even as Apple's China unit market share slipped to 8.5% from 10% amid low-cost local competition, and services revenue surged 34% to $8.5 billion.",
+      "why_moved": "The article states shares rose about 3% in after-hours trading. As detailed above, the article ties the reaction to the EPS beat ($2.07 versus $1.87 expected) and a forward guide of $84-87 billion that topped the prior holiday-quarter record, along with the China revenue rebound after six consecutive declines. The roughly 3% move is comparatively restrained given the scale of the beat, which is plausibly connected to the countervailing concerns the same article raises — weak initial iPhone 8 demand and the iPhone X's production delays and slashed unit forecasts — though the article does not explicitly state that these risks tempered the stock's reaction; it reports the positive after-hours move and the iPhone X uncertainties as separate facts rather than drawing that connection itself.",
+      "sources": [
+        {
+          "filename": "2017-11-02.pdf",
+          "title": "iPhone Demand Charges Apple’s Results Revenue and profit increase by double digits amid sales rise in China, and the company said it expects record revenue in the current period",
+          "published_date": "2017-11-02",
+          "text": "iPhone Demand Charges Apple’s Results - WSJ 2026-08-28, 1:23 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/iphone-demand-charges-apples-results-1509654759\nTECH\niPhone Demand Charges Apple’s Results\nRevenue and profit increase by double digits amid sales rise in China, and the company\nsaid it expects record revenue in the current period\nBy Tripp Mickle\nUpdated Nov. 2, 2017 at 4:48 pm ET\nThe Apple logo at a store in Miami Beach, Fla. Apple posted double-digit increases in revenue and profit in the latest\nquarter. ALAN DIAZ/ASSOCIATED PRESS\nApple Inc. delivered its best quarterly growth in two years with strong sales in all of\nits key products and a rebound in the critical China market as it prepares to start\nshipping its most important new iPhone model in a decade.\nDemand for the iPhone, which accounts for about two-thirds of total sales, along with\nan upturn in sales of Mac computers and iPad tablets helped Apple deliver its fourth-\nconsecutive quarterly increase in revenue and third quarterly increase in profit, which\nrose 19% to $10.71 billion. Shipments of the iPhone rose 2.6% from a year earlier to 46.7\nhttps://www.wsj.com/articles/iphone-demand-charges-apples-results-1509654759 Page 1 of 6\niPhone Demand Charges Apple’s Results - WSJ 2026-08-28, 1:23 PM\nmillion units, and China sales rose for the first time since early 2016.\nConsistent revenue gains, combined with anticipation for a jump in iPhone sales in\n2018, have helped send Apple’s stock up about 50% over the past year through\nThursday’s close and pushed its market value to over $860 billion, after a steep\ndecline in 2016 because of weak China revenue and iPhone 6s sales.\nShares rose about 3% in after-hours trading.\nQuestions remain about Apple’s immediate future. The iPhone 8 and 8 Plus, which\nstarted shipping to customers Sept. 22, had the weakest initial sales of any new\niPhone in years, according to estimates by market-research firms.\nThe iPhone X, which ships Friday and features facial recognition and an edge-to-edge\ndisplay, has been dogged by production challenges that delayed manufacturing at\nleast one month and hounded by questions about its $999 price tag. Customers who\nordered iPhone Xs online in advance of Friday were told there would be long shipping\ndelays.\nApple Chief Executive Tim Cook said the two iPhone 8s have outsold other models\nsince shipping but added that he never expected sales to exceed initial sales of last\nyear’s iPhone 7 and 7 Plus because it is releasing three phones this year. He said that\nApple had earlier planned to release the iPhone X even later than Nov. 2, but decided\nto “be very bold and do it sooner.” He declined to offer specifics.\nMr. Cook acknowledged that Apple’s approach this year has brought challenges.\n“Having three models is new,” he said in an interview. “The staggered launch is new.\nThere’s a lot of firsts here. So yes, it is complex [to forecast] and we don’t profess to be\nable to do it perfectly.”\nStill, he said orders for the iPhone X are “very strong” and that Apple is making\nheadway on production.\nhttps://www.wsj.com/articles/iphone-demand-charges-apples-results-1509654759 Page 2 of 6\niPhone Demand Charges Apple’s Results - WSJ 2026-08-28, 1:23 PM\n“The ramp, especially considering how advanced the product is, is going well,” Mr.\nCook said. “Obviously, if it wasn’t, we wouldn’t be able to guide” for record revenue\nfor the current quarter.\nApple expects revenue of $84 billion to $87 billion in the current quarter, far above the\ncompany’s previous record of $78.35 billion in the final three months of 2016.\n“Apple has moved past that funk,” said Michael Frazier, president of Bedell Frazier\nInvestment Counselling, which manages about $500 million and counts Apple among\nits largest holdings. “Things are back on track.”\nChina has posed the biggest test for Apple. The iPhone, which surged in sales in 2015\nand 2016 behind the iPhone 6, declined in market share during the September quarter\nto 8.5% from 10% a year earlier as low-cost Chinese smartphone makers gained,\naccording to Counterpoint Research.\nStill, revenue from Greater China—which had declined each of the previous six\nquarters—rose 12% in the latest period to $9.8 billion. Mr. Cook said Apple increased\nits market share for products including the iPhone, which he said increased unit\nshipments by a double-digit percentage.\nTarun Pathak, Counterpoint’s associate director, said he expects demand for the X\nmodel among China’s 100 million iPhone users to be strong enough to lift volumes and\nsales in the quarters ahead.\nSupply-chain issues have caused analysts to slash iPhone X sales projections for the\ncritical holiday sales period this year. Market-research firm Strategy Analytics cut its\nprojections to fewer than 30 million units from 60 million earlier this year.\nWhile some investors worry the delay could lead some Apple customers to buy a less-\ncostly $699 iPhone 8 or $549 iPhone 7, few said they fear Apple will lose sales to rivals\nsuch as Samsung Electronics Co. About 95% of iPhone owners who plan to buy a new\ndevice say they will buy another iPhone, according to UBS, much higher than the 53%\nhttps://www.wsj.com/articles/iphone-demand-charges-apples-results-1509654759 Page 3 of 6\niPhone Demand Charges Apple’s Results - WSJ 2026-08-28, 1:23 PM\nof Samsung customers who say they plan to buy another device from the South\nKorean phone maker.\nApple’s services business—which includes the App Store and its music and payment\nservices—delivered another strong quarter of double-digit growth, surging 34% to\n$8.5 billion. Mr. Cook said the company now has 210 million subscriptions to Apple\nand third-party services, an increase of 25 million over the past 90 days. Apple\ntypically collects a 15% fee on subscriptions for products such as Netflix and HBO if\nusers sign up through its App Store.\nFor its fiscal fourth quarter ended Sept. 30, Apple’s revenue rose 12% to $52.58 billion,\nand per-share profit jumped 24% to $2.07 a share from $1.67 a share in the same\nperiod a year earlier. Analysts polled by Thomson Reuters had expected earnings of\n$1.87 a share. Annual revenue rose 6% in the latest fiscal year to $229.23 billion, still\nbelow the peak in fiscal 2015.\nSales of Mac computers jumped 25% in the quarter to $7.17 billion, capping the\nproduct lines’ best year. Shipments of the iPad—which rose in the June quarter for the\nfirst time in more than three years—rose 11% to 10.3 million units in the latest period.\nShipments of Apple Watch rose 50% from the prior quarter.\nApple said cash reserves swelled to $268.9 billion. It also projected gross margin, a\nclosely watched measure of profitability reflecting the percentage of revenue that\nremains after manufacturing costs, of 38% to 38.5%.\nApple has been locked in a legal battle with Qualcomm Inc. centering on the chip\ncompany’s patent-licensing prices and practices. The Wall Street Journal reported\nthis week that Apple is designing iPhones and iPads for next year that would jettison\nQualcomm components entirely in favor of those from rivals including Intel Corp.\nQualcomm on Wednesday sued Apple for breach of contract, alleging Apple failed to\nprotect software Qualcomm provided to help Apple engineers develop iPhones that\nhttps://www.wsj.com/articles/iphone-demand-charges-apples-results-1509654759 Page 4 of 6\niPhone Demand Charges Apple’s Results - WSJ 2026-08-28, 1:23 PM\nuse Qualcomm chips, and tried to share some information with an Intel engineer.\nThe suit, filed in state superior court in San Diego, alleges that Apple broke an\nagreement with Qualcomm by failing to properly restrict access to its development\nsoftware. The complaint states that Apple copied an Intel engineer in an emailed\nrequest for details about Qualcomm’s technology. The suit further alleges that Apple\nrefused to cooperate with an audit of Apple engineers’ access to the software, which\nQualcomm says it requested in February and which it claims the device maker is\nobligated to perform under the agreement.\nApple declined to comment on the suit.\nWrite to Tripp Mickle at Tripp.Mickle@wsj.com\nAppeared in the November 3, 2017, print edition as 'Apple Shows Greatest Strength in Years'.\nTripp Mickle covered Google and its parent company Alphabet for The Wall Street Journal. He previously served as\nthe Journal's reporter on Apple, following a stint covering the alcohol and tobacco industries. Prior to joining the\nJournal, Tripp worked as a sportswriter at Sports Business Journal and Newsday. He is a graduate of Wake Forest…\nUniversity.\nFollow\nhttps://www.wsj.com/articles/iphone-demand-charges-apples-results-1509654759 Page 5 of 6\niPhone Demand Charges Apple’s Results - WSJ 2026-08-28, 1:23 PM\nhttps://www.wsj.com/articles/iphone-demand-charges-apples-results-1509654759 Page 6 of 6"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "This is Dow Jones Newswires market-roundup coverage of a session driven by technology shares and Apple's earnings, published the Friday after Apple's report. The Nasdaq Composite gained 0.7% to notch its 62nd record close of the year, matching 1980's record for most annual closing highs, while the S&P 500 and Dow rose 0.3% and 0.1% respectively. Within that roundup, the article states Apple shares surged following earnings that showed 'its best quarterly growth in two years,' with the stock's year-to-date gain reaching nearly 50%. The broader market strength is attributed to several concurrent developments the article cites: Republican tax-reform proposals, Jerome Powell's nomination as Federal Reserve chair, and an October jobs report showing 261,000 new jobs, below the 315,000 economists expected, with wage growth slowing to 2.4% annually. European tech stocks and chip-related names rose as well, Tencent hit a record high in Asian trading, and a strategist is quoted saying, 'whether the new Fed chair, the tax reform plan, or the nonfarm payrolls today, the market keeps grinding higher.'",
+      "why_moved": "The article states that Apple shares surged 2.6% following earnings that delivered 'its best quarterly growth in two years,' helping push the Nasdaq to its 62nd record close of the year and extending the stock's year-to-date gain to nearly 50%. Beyond describing the results as the best quarterly growth in two years, the article does not provide further specifics on what within the results drove the reaction.",
+      "sources": [
+        {
+          "title": "Apple Results, Jobs Report Buoy Stocks",
+          "url": "https://www.foxbusiness.com/features/apple-results-jobs-report-buoy-stocks"
+        }
+      ]
+    }
+  },
+  "AAPL_2018q1": {
+    "ticker": "AAPL",
+    "group": "Group 1",
+    "company_name": "Apple",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-02-01",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Apple entered the holiday quarter with enormous expectations for the iPhone X. The central debate was whether the premium device would create a true unit ‘supercycle’ or mainly lift average selling prices.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Apple: Apple Reports Fourth Quarter Results",
+                  "url": "https://www.apple.com/newsroom/2017/11/apple-reports-fourth-quarter-results/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Apple reported record fiscal Q1 revenue of **$88.3 billion** and EPS of **$3.89**. iPhone shipments were **77.3 million**, below the roughly 80 million units many investors expected, but iPhone average selling price rose sharply because of the iPhone X. Services also posted another record.",
+              "sources": []
+            },
+            {
+              "text": "The weaker signal was the **March-quarter revenue guide of $60–$62 billion**, which came in below the level implied by supercycle expectations. The report showed that premium pricing could generate record revenue, but it weakened the thesis that iPhone X would trigger an exceptional unit-upgrade wave.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Apple: Apple Reports First Quarter Results",
+                  "url": "https://www.apple.com/newsroom/2018/02/apple-reports-first-quarter-results/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares fell because iPhone unit demand and March-quarter expectations were weaker than the supercycle narrative.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Higher iPhone ASP protected revenue despite softer unit volume.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** A broad market selloff amplified the negative earnings reaction on the next trading day.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Why Apple, Alphabet, and Chevron Slumped Today",
+                  "url": "https://www.fool.com/investing/2018/02/02/why-apple-alphabet-and-chevron-slumped-today.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Every included URL was re-checked on the live web on **2026-08-31**. The page had to open successfully and match Apple/AAPL, the correct earnings event, displayed publication date and timing window. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Apple: Apple Reports Fourth Quarter Results",
+          "url": "https://www.apple.com/newsroom/2017/11/apple-reports-fourth-quarter-results/"
+        },
+        {
+          "label": "Apple: Apple Reports First Quarter Results",
+          "url": "https://www.apple.com/newsroom/2018/02/apple-reports-first-quarter-results/"
+        },
+        {
+          "label": "The Motley Fool: Why Apple, Alphabet, and Chevron Slumped Today",
+          "url": "https://www.fool.com/investing/2018/02/02/why-apple-alphabet-and-chevron-slumped-today.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The article reports Apple posted record quarterly revenue and profit even as the number of iPhones sold fell, driven by the $1,000 iPhone X lifting the average iPhone selling price by nearly 15%; total revenue rose 13% to an all-time high of $88.29 billion (in a quarter one week shorter than the year-earlier period) even as iPhone units fell 1% to 77.3 million, and profit rose 12% to a record $20.07 billion. The article's central tension is the current-quarter guide of $60 billion to $62 billion, which it describes as \"well below\" analysts' recent consensus of $66.54 billion — a consensus that had already been falling for weeks on concerns about iPhone X demand and uncertainty around the iPhone 8 and 8 Plus. CFO Luca Maestri said the iPhone X had been the best-selling iPhone since release, telling the Journal \"we're really, really happy with the way it's going,\" but the piece cites Canalys estimating Apple shipped about 29 million iPhone X units in the December quarter, roughly 6 million fewer than the company's targeted production, and quotes a consumer, Stephen Fleming, who chose a cheaper iPhone 8 Plus over the X to save about $200, saying \"there was nothing about the X that said: I have to have this thing.\" The article also covers services revenue rising 18% to $8.47 billion, regulatory pressure over youth-smartphone addiction and the \"batterygate\" throttling controversy, and a $38 billion one-time repatriation tax tied to the new U.S. tax law.",
+      "why_moved": "The article states shares gained more than 3% in after-hours trading Thursday, describing this as a rebound after the stock had been falling over the prior two weeks. The article does not address how the stock traded in the days following the report; it also documents weaker-than-expected $60-62 billion guidance (versus the $66.54 billion consensus) and signs of softer-than-hoped iPhone X demand, which are plausible candidates the market may have weighed in subsequent sessions, though the article does not itself draw that connection.",
+      "sources": [
+        {
+          "filename": "2018-02-01.pdf",
+          "title": "Apple Posts Record Results Even With Fewer iPhones Sold Tech giant says smartphone revenue rose 13% but projects weaker-than-expected sales for current quarter",
+          "published_date": "2018-02-01",
+          "text": "Apple Posts Record Results Even With Fewer iPhones Sold - WSJ 2026-08-28, 1:25 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/apple-posts-record-results-with-help-from-iphone-sales-1517521218\nTECH\nApple Posts Record Results Even With Fewer iPhones\nSold\nTech giant says smartphone revenue rose 13% but projects weaker-than-expected sales\nfor current quarter\nBy Tripp Mickle\nUpdated Feb. 1, 2018 at 11:59 pm ET\nSales of the iPhone X lifted the average selling price for iPhones by nearly 15%. RICHARD B. LEVINE/ZUMA PRESS\nApple Inc.’s AAPL 1.61% move to raise prices on the iPhone paid off with record\nquarterly revenue and profit even though the world’s most valuable company sold\nfewer of its most important product.\nSales of the iPhone X—released in November at a starting price of $1,000—lifted the\naverage selling price for iPhones by nearly 15%, Apple said on Thursday. That helped\npropel total revenue up 13% to an all-time high of $88.29 billion in the quarter, which\nhttps://www.wsj.com/articles/apple-posts-record-results-with-help-from-iphone-sales-1517521218 Page 1 of 5\nApple Posts Record Results Even With Fewer iPhones Sold - WSJ 2026-08-28, 1:25 PM\nwas a week shorter than the same period a year earlier, even though the number of\niPhones sold actually fell 1% to 77.3 million units. Apple’s profit rose 12% to $20.07\nbillion, also a record.\nApple tempered the positive news with a weaker-than-expected revenue forecast for\nthe current quarter of between $60 billion and $62 billion. That would represent a\nhealthy rise from a year earlier, but was well below analysts’ recent consensus\nestimate of $66.54 billion, a number that had fallen over the past several weeks on\nconcerns about demand for the iPhone X and uncertainty around the new iPhone 8\nand 8 Plus models launched in September.\nStill, the results offered hope that Apple can sustain its solid performance even amid\nstagnating global demand for smartphones. Analysts and investors have worried the\ncompany is too dependent on the iPhone, which accounts for about two-thirds of its\nsales, in part because many customers are holding on to their phones longer. Annual\nsales of iPhones in Apple’s latest fiscal year, through September, were still well below\ntheir peak two years ago, and no other product has caught on with nearly the same\nintensity.\nBut Apple is showing steady progress in growing other lines of business—especially\nits services arm, which includes the App Store and its music and payment services.\nResults in the latest period also were buoyed by strong growth in the division that\nincludes its smartwatch and AirPods wireless earbuds.\nShares gained more than 3% in after-hours trading Thursday, after falling over the\npast two weeks.\nApple’s share price soared more than 45% last year as many investors bet that the\nfeature-rich X model, launched to commemorate the iPhone’s 10th anniversary, would\nreignite the kind of boom in sales that recent models have failed to deliver. At an\nunveiling event in September, Apple marketed the iPhone X as the smartphone of the\nfuture and touted its improved display and facial-recognition system.\nhttps://www.wsj.com/articles/apple-posts-record-results-with-help-from-iphone-sales-1517521218 Page 2 of 5\nApple Posts Record Results Even With Fewer iPhones Sold - WSJ 2026-08-28, 1:25 PM\nIn an interview, Chief Financial Officer Luca Maestri said the X model has been the\nbest-selling of Apple’s iPhones since its release. “We’re really, really happy with the\nway it’s going,” he said.\nApple doesn’t break out for shipments by model, but analysts have said that sales of\nthe X are softer than the company anticipated. Canalys, a market-research firm,\nestimated before Thursday’s results that Apple shipped 29 million units of the iPhone\nX in the three months through December, about 6 million fewer than it says the\ncompany targeted for production during the period. It said shipments were generally\nlower than the company’s projections because some consumers are choosing less-\nexpensive iPhones.\nStephen Fleming, a 55-year-old education administrator in Tucson, Ariz., said he\npreferred to save about $200 by buying an iPhone 8 Plus, which was released in\nSeptember. “I could have easily bought the X but there was nothing about the X that\nsaid: I have to have this thing,” said Mr. Fleming.\nWith overall lackluster overall demand for smartphones and growing competitive\npressure, some analysts and investors have worried about Apple’s reliance on the\niPhone.\n“They have to figure out how to get recurring revenue streams so they’re not holding\ntheir breath on each new product launch,” said Tom Plumb, president of SVA Plumb\nFinancial, a Madison, Wis.-based wealth-management firm with $2.7 billion in assets\nthat counts Apple among its top holdings.\nApple has more than tripled spending on research and development under Mr. Cook to\n$11.58 billion last year but its products like smartwatches and wireless earbuds\nhaven’t delivered enough revenue to reduce its iPhone dependency. And efforts to\npush into autonomous vehicles, augmented reality and health aren’t expected to\ngenerate revenue anytime soon.\nhttps://www.wsj.com/articles/apple-posts-record-results-with-help-from-iphone-sales-1517521218 Page 3 of 5\nApple Posts Record Results Even With Fewer iPhones Sold - WSJ 2026-08-28, 1:25 PM\nThe sheer number of devices it has sold, though, already is helping its efforts to\ndiversify. Apple now has 1.3 billion iPhones and other devices in active use, Mr.\nMaestri said, a 30% increase over the past two years. That helped the services\nbusiness report an 18% increase in revenue to $8.47 billion in the period—accounting\nfor a 10th of total revenue in the period. The number of paid subscriptions across\nApple and third-party services passed 240 million in the quarter, an increase of 30\nmillion over the past 90 days.\nLike other big tech companies, Apple is contending with a backlash from lawmakers,\ninvestors and others over its clout and the impact of its products.\nThe company received a letter in early January from leading activist investor Jana\nPartners LLC and the California State Teachers’ Retirement System, or Calstrs, which\ncontrol about $2 billion of Apple shares, urging the company to address a potential\nhealth crisis due to youth-smartphone addiction. Apple said it plans to continue\nenhancing the parental controls on the iPhone it has had for years.\nApple also is facing investigations from regulators and lawmakers in the U.S. and\nEurope over a software update that throttled back performance on older iPhones to\npreserve battery life. The company in December said it had made the change to avoid\nsudden shutdowns of such phones, but the news angered many customers. The\ncompany later apologized for the issue and slashed the price of an iPhone battery\nreplacement, hoping to win back customer goodwill.\nAfter years of criticism about how it outsources manufacturing to China and parks its\nglobal profits offshore, Apple in mid-January said it would pay $38 billion in taxes on\nthe cash it held overseas in response to the major U.S. tax overhaul that President\nDonald Trump signed into law late last year.\nMr. Maestri said Apple will discuss specific plans for its pile of overseas cash when it\nreports results for the current quarter, which runs through March. But he said Apple’s\ngoal is to target a “net cash neutral” position over time, compared with the large gap\nhttps://www.wsj.com/articles/apple-posts-record-results-with-help-from-iphone-sales-1517521218 Page 4 of 5\nApple Posts Record Results Even With Fewer iPhones Sold - WSJ 2026-08-28, 1:25 PM\nbetween its current holdings of $285 billion in cash and $122 billion in debt.\n“We can now really look at a more optimal capital structure for our company,” Mr.\nMaestri said.\nWrite to Tripp Mickle at Tripp.Mickle@wsj.com\nAppeared in the February 2, 2018, print edition as 'Apple Results Soar on Pricey iPhones'.\nTripp Mickle covered Google and its parent company Alphabet for The Wall Street Journal. He previously served as\nthe Journal's reporter on Apple, following a stint covering the alcohol and tobacco industries. Prior to joining the\nJournal, Tripp worked as a sportswriter at Sports Business Journal and Newsday. He is a graduate of Wake Forest…\nUniversity.\nFollow\nhttps://www.wsj.com/articles/apple-posts-record-results-with-help-from-iphone-sales-1517521218 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "AAPL_2018q2": {
+    "ticker": "AAPL",
+    "group": "Group 1",
+    "company_name": "Apple",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-05-01",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After February, investors were skeptical about iPhone X demand and feared a sharp slowdown. Tax reform also made Apple’s overseas cash more accessible, putting capital returns at the center of the investment case.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Apple: Apple Reports First Quarter Results",
+                  "url": "https://www.apple.com/newsroom/2018/02/apple-reports-first-quarter-results/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q2 revenue increased **16% to $61.1 billion** and EPS rose **30% to $2.73**, both above consensus. Apple said iPhone X had been its best-selling iPhone every week of the quarter, directly contradicting the most bearish supply-chain narratives. Services revenue increased **31%**.",
+              "sources": []
+            },
+            {
+              "text": "Apple also authorized a new **$100 billion share-repurchase program** and raised its dividend **16%**. The release therefore combined an operating beat, evidence of resilient premium-iPhone demand and a major increase in shareholder returns.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Apple: Apple Reports Second Quarter Results",
+                  "url": "https://www.apple.com/newsroom/2018/05/apple-reports-second-quarter-results/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares rose sharply because revenue, EPS and guidance beat expectations and iPhone X demand proved better than feared.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Services growth broadened the earnings story beyond handset units.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** The $100 billion buyback materially strengthened the capital-return thesis.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Why Apple, Inc. Stock Popped 5% Wednesday",
+                  "url": "https://www.fool.com/investing/2018/05/02/why-apple-inc-stock-popped-5-wednesday.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Every included URL was re-checked on the live web on **2026-08-31**. The page had to open successfully and match Apple/AAPL, the correct earnings event, displayed publication date and timing window. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Apple: Apple Reports First Quarter Results",
+          "url": "https://www.apple.com/newsroom/2018/02/apple-reports-first-quarter-results/"
+        },
+        {
+          "label": "Apple: Apple Reports Second Quarter Results",
+          "url": "https://www.apple.com/newsroom/2018/05/apple-reports-second-quarter-results/"
+        },
+        {
+          "label": "The Motley Fool: Why Apple, Inc. Stock Popped 5% Wednesday",
+          "url": "https://www.fool.com/investing/2018/05/02/why-apple-inc-stock-popped-5-wednesday.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The article's headline news is Apple's record $100 billion stock buyback plan, described as the largest ever announced by a U.S. company according to Birinyi Associates data, alongside a 16% dividend increase, bringing total capital returned to shareholders since 2012 to $275 billion, including $200 billion in buybacks. Underlying results were also strong: iPhone revenue rose 14% to $38 billion despite only 3% unit-shipment growth, powered by higher average prices from the $1,000 iPhone X; total revenue rose 16% to $61.14 billion and profit rose 25% to $13.82 billion, the highest ever for a March quarter. Services revenue accelerated to $9.19 billion, up nearly a third and faster than the prior quarter's pace, with paid subscriptions reaching 270 million, up 100 million in a year, and the article cites Apple's goal of $50 billion in annual services revenue by 2020 (from $30 billion the prior fiscal year) and a Morgan Stanley estimate that services could drive 60% of Apple's revenue growth over the next five years. Guidance for the current quarter of $51.5 billion to $53.5 billion was described as \"on track with\" the $51.9 billion analyst consensus — an in-line rather than beat-or-miss figure. Analyst Arif Karim of Ensemble Capital is quoted saying the high end of the smartphone market is \"very mature\" and that the era of huge iPhone shipment increases is \"dead,\" while Greater China sales accelerated to 21% growth, reaching $13 billion, and analyst Daniel Morgan of Synovus Trust said Apple is \"reinventing the growth story.\"",
+      "why_moved": "The article states shares rose more than 3% in after-hours trading, and it explicitly frames this as a response to the unprecedented $100 billion buyback and dividend increase layered on top of the profit beat (a 25% increase to a March-quarter record) and the accelerating services growth detailed above. The article speaks only to that immediate after-hours reaction and does not describe how the stock traded in subsequent sessions.",
+      "sources": [
+        {
+          "filename": "2018-05-01.pdf",
+          "title": "Apple Allays iPhone Worries, Adds $100 Billion to Buyback Plans Smartphone revenue rises 14% as pricier iPhone X offsets slowing growth in shipments",
+          "published_date": "2018-05-01",
+          "text": "Apple Allays iPhone Worries, Adds $100 Billion to Buyback Plans - WSJ 2026-08-28, 1:27 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/apple-adds-100-billion-to-buyback-plans-1525206725\nTECH\nApple Allays iPhone Worries, Adds $100 Billion to\nBuyback Plans\nSmartphone revenue rises 14% as pricier iPhone X o\"sets slowing growth in shipments\nBy Tripp Mickle\nUpdated May 1, 2018 at 7:39 pm ET\nApple staved o! recent concerns about the future of its iPhone business with a quarter of solid sales. Above, an\nApple store in San Francisco. JOSH EDELSON/AGENCE FRANCE-PRESSE/GETTY IMAGES\nApple Inc. AAPL 1.66% flexed its financial muscle with a record $100 billion plan to\nbuy back stock from investors, as it reported strong gains in revenue and profit even\nas growth in the number of iPhones sold remained weak.\nThe results for Apple’s fiscal second quarter reflect a fundamental transformation\nreshaping the world’s most valuable company, turning a business centered on how\nmany devices it ships into one built around high-end features and services for those\nhttps://www.wsj.com/articles/apple-adds-100-billion-to-buyback-plans-1525206725 Page 1 of 8\nApple Allays iPhone Worries, Adds $100 Billion to Buyback Plans - WSJ 2026-08-28, 1:27 PM\ndevices.\nApple’s report Tuesday capped a string of strong earnings from U.S. tech giants\nincluding Amazon.com Inc., Google parent Alphabet Inc., and Facebook Inc., all of\nwhich continued to thrive despite business challenges and rising concern from\nregulators, politicians and others about the technology industry’s power and\npractices. On average, the four companies saw their revenue rise 28% in the first three\nmonths from a year ago.\nRevenue from the iPhone, which still accounts for most of Apple’s sales and profit,\nrose 14% to $38 billion in the quarter, which ended in March. That came despite a\nmodest 3% increase in the number of iPhones shipped, thanks to higher average prices\ndriven by the $1,000 iPhone X launched last year.\nApple further assuaged concerns about its future with a forecast for total revenue in\nthe current quarter of between $51.5 billion and $53.5 billion, which would represent a\nhealthy increase from a year ago.\nMeanwhile, Apple said the number of paid subscriptions for services ranging from\nHBO to Apple Music rose to 270 million in the period, an increase of 100 million people\nin a year. Revenue from the services business jumped by nearly a third to $9.19 billion,\naccelerating from the previous quarter.\nThe combination drove total revenue up 16% to $61.14 billion in the latest period,\nApple said. Profit rose 25% to $13.82 billion, its highest level for a March quarter.\n“With the services that we have now and others that we are working on, I think that\nthis is just a huge opportunity for us and feel very good about the track that we’re on,”\nChief Executive Tim Cook said during a call with analysts.\nApple’s $100 billion share-repurchase plan is the largest ever announced by a U.S.\ncompany, according to data from research firm Birinyi Associates. Apple said its board\nalso approved a 16% increase in its quarterly dividend. That put it on track to spend\nhttps://www.wsj.com/articles/apple-adds-100-billion-to-buyback-plans-1525206725 Page 2 of 8\nApple Allays iPhone Worries, Adds $100 Billion to Buyback Plans - WSJ 2026-08-28, 1:27 PM\nApple's Revenue $14.82 billion a year in dividends, making it\nQuarterly sales and share from the iPhone\nthe largest dividend payer, according to S&P\niPhone revenue Other Apple revenue Dow Jones Indices.\n$100.billion Apple already had paid out $275 billion to\nshareholders through March since it\n90\nresumed returning capital to them in 2012,\n80\nincluding $200 billion in share repurchases.\n70\n60\n50\n40\n30\n20\n10\n0\nFY2013 ’14 ’15 ’16 ’17 ’18\nSource: the company\nBuyback King\nApple has announced five of the 10 largest buybacks, totaling $200 billion. Microsoft\nhas four on the list, totaling $150 billion.\nhttps://www.wsj.com/articles/apple-adds-100-billion-to-buyback-plans-1525206725 Page 3 of 8\nApple Allays iPhone Worries, Adds $100 Billion to Buyback Plans - WSJ 2026-08-28, 1:27 PM\nCompany Date announced Amount\nApple April 2018 $100\nApple April 2013 50 billion\nApple April 2015 50\nGE April 2015 50\nMicrosoft Sept. 2008 40\nMicrosoft Sept. 2013 40\nMicrosoft Sept. 2016 40\nApple April 2016 35\nApple May 2017 35\nApple April 2014 30\nMicrosoft July 2004 30\nProcter & Gamble Aug. 2007 30\nWhat Apple has spent, per quarter, in repurchasing shares since\nannouncing in 2013 plans to buy back $50 billion of stock\n$25\nbillion\n20\n15\n10\n5\n0\n2013 2014 2015 2016 2017 2018\nNote: Time periods for implementing buybacks may vary. Apple's quarterly payments are based on\nthe calendar year.\nSource: Birinyi Associates (biggest buybacks); S&P Dow Jones Indices\nThe increase in Apple’s capital return comes after it announced in January it would\nbring the majority of its $269 billion in overseas cash holdings back to the U.S. That\nfollowed the major U.S. tax overhaul President Donald Trump signed into law late last\nyear, which requires companies to pay a one-time tax of 15.5% on overseas profits held\nin cash.\nApple didn’t give a timetable for implementing the new buybacks. Luca Maestri,\nApple’s chief financial officer, said in an interview that given the size of the planned\nbuybacks “it’s going to take us some time to execute,” but “our plan is to do it at a fast\npace.”\nhttps://www.wsj.com/articles/apple-adds-100-billion-to-buyback-plans-1525206725 Page 4 of 8\nApple Allays iPhone Worries, Adds $100 Billion to Buyback Plans - WSJ 2026-08-28, 1:27 PM\nSluggish growth in the number of iPhones shipped over the past six months has fueled\ninvestor concerns about the outlook for Apple’s marquee business, as people hold on\nto smartphones longer and competition from homegrown rivals intensifies in China,\nonce its fastest-growing market.\nApple’s stock has stalled this year, after investors sent its share price up 45% last year\non hopes that the feature-rich X model would help recharge growth. The device’s price\ntag has damped demand, say analysts, who now expect another year of low, single-\ndigit growth in the number of iPhones Apple ships.\nApple shares closed at $169.10 on Tuesday ahead of the earnings report, even as\nshares in other tech giants including Amazon Inc. have continued to rise. The shares\nrose more than 3% in after-hours trading.\n“The high end of the smartphone market where Apple is dominant is very mature,”\nsaid Arif Karim, a senior investment analyst at Ensemble Capital Management, a\nBurlingame, Calif., wealth manager that counts Apple among its largest holdings. He\nsaid the huge shipment increases the iPhone once enjoyed are “dead.”\nThe price tag for the iPhone X, though, has counteracted that.\nApple’s revenue forecast of between $51.5 billion and $53.5 billion for the current\nquarter is on track with analysts’ recent consensus estimate of $51.9 billion, a number\nthat has fallen in recent weeks as Apple suppliers such as Broadcom Inc. and Taiwan\nSemiconductor Manufacturing Co. warned of slowing smartphone sales world-wide.\nhttps://www.wsj.com/articles/apple-adds-100-billion-to-buyback-plans-1525206725 Page 5 of 8\nApple Allays iPhone Worries, Adds $100 Billion to Buyback Plans - WSJ 2026-08-28, 1:27 PM\nApple’s capital-return plan is the largest a technology company has announced since the recent U.S. tax changes.\nAbove, Apple advertises the iPhone X in Ukraine in December. SERGII KHARCHENKO/ZUMA PRESS\nGrowth in China, which cratered in 2016 after soaring the year before, continued to\naccelerate. Sales in Greater China, which includes Hong Kong and Taiwan, rose 21% to\n$13 billion.\nMr. Cook played down concerns about recent trade tensions between the U.S. and\nChina, saying he was optimistic that the U.S. and China can find a way to that both can\nwin economically and grow the global pie, “not just allocate it differently.”\nThe services business has become one of Apple’s biggest growth engines, with\nrevenue in its last fiscal year rising 23% to $30 billion. Apple aims to lift that number\nto $50 billion by 2020.\nThe company has 1.3 billion iPhones and other devices in active use and earns an\nestimated $30 per device on music subscriptions, app store purchases and other\nservices, according to Morgan Stanley, which expects services to account for about\n60% of Apple’s revenue growth over the next five years.\nThe division that includes Apple’s smartwatches and AirPods wireless earbuds also\nposted another period of strong gains, with sales rising 38% to $3.95 billion in the\nhttps://www.wsj.com/articles/apple-adds-100-billion-to-buyback-plans-1525206725 Page 6 of 8\nApple Allays iPhone Worries, Adds $100 Billion to Buyback Plans - WSJ 2026-08-28, 1:27 PM\nperiod.\n“They are reinventing the growth story,” said Daniel Morgan, vice president at\nSynovus Trust Company, which has $14 billion under management and counts Apple\namong its largest holdings. “They see the iPhone numbers like everyone else does and\nknow they have to grow other aspects of their business.”\nWrite to Tripp Mickle at Tripp.Mickle@wsj.com\nAppeared in the May 2, 2018, print edition as 'Apple Allays iPhone Worries'.\nTripp Mickle covered Google and its parent company Alphabet for The Wall Street Journal. He previously served as\nthe Journal's reporter on Apple, following a stint covering the alcohol and tobacco industries. Prior to joining the\nJournal, Tripp worked as a sportswriter at Sports Business Journal and Newsday. He is a graduate of Wake Forest…\nUniversity.\nFollow\nhttps://www.wsj.com/articles/apple-adds-100-billion-to-buyback-plans-1525206725 Page 7 of 8\nApple Allays iPhone Worries, Adds $100 Billion to Buyback Plans - WSJ 2026-08-28, 1:27 PM\nhttps://www.wsj.com/articles/apple-adds-100-billion-to-buyback-plans-1525206725 Page 8 of 8"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "AAPL_2018q3": {
+    "ticker": "AAPL",
+    "group": "Group 1",
+    "company_name": "Apple",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-31",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "The May quarter had relieved iPhone X demand fears and introduced a massive new buyback. By July, the key question was whether Apple could sustain double-digit growth with mature iPhone units.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Apple: Apple Reports Second Quarter Results",
+                  "url": "https://www.apple.com/newsroom/2018/05/apple-reports-second-quarter-results/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q3 revenue increased **17% to $53.3 billion** and EPS rose **40% to $2.34**, both above consensus. Services reached a new all-time high. iPhone unit growth was limited, but higher average selling prices allowed the handset business to generate more revenue from a relatively stable unit base.",
+              "sources": []
+            },
+            {
+              "text": "Apple guided fiscal Q4 revenue to **$60–$62 billion**, above the then-consensus expectation. The quarter demonstrated that Apple no longer required rapid iPhone unit growth to produce strong company-wide revenue and EPS growth.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Apple: Apple Reports Third Quarter Results",
+                  "url": "https://www.apple.com/newsroom/2018/07/apple-reports-third-quarter-results/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares jumped because revenue, EPS and forward guidance all exceeded expectations.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Higher iPhone pricing compensated for mature unit volumes.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Record Services growth reinforced the transition toward a more diversified earnings mix.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Why Apple, Inc. Stock Jumped Today",
+                  "url": "https://www.fool.com/investing/2018/08/01/why-apple-inc-stock-jumped-today.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "Every included URL was re-checked on the live web on **2026-08-31**. The page had to open successfully and match Apple/AAPL, the correct earnings event, displayed publication date and timing window. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Apple: Apple Reports Second Quarter Results",
+          "url": "https://www.apple.com/newsroom/2018/05/apple-reports-second-quarter-results/"
+        },
+        {
+          "label": "Apple: Apple Reports Third Quarter Results",
+          "url": "https://www.apple.com/newsroom/2018/07/apple-reports-third-quarter-results/"
+        },
+        {
+          "label": "The Motley Fool: Why Apple, Inc. Stock Jumped Today",
+          "url": "https://www.fool.com/investing/2018/08/01/why-apple-inc-stock-jumped-today.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The article reports Apple delivered its best-ever revenue for its typically weakest fiscal quarter, with iPhone demand holding up despite a contracting global smartphone market and app-store/services revenue reaching a record. iPhone revenue rose 20% to $29.91 billion even as unit shipments rose less than 1% to 41.3 million, reflecting an average selling price up roughly 20% to about $724, which the article attributes partly to the $999 iPhone X making up an estimated one-quarter of iPhones sold. Total revenue rose 17% for a seventh straight quarter of accelerating growth, to $53.27 billion, above Wall Street expectations and near the high end of Apple's own guidance, while profit rose 32% to $11.52 billion ($2.34 a share), also above analysts' consensus. Cook is quoted saying \"we're expanding our reach into emerging markets and seeing strong double-digit growth in revenue,\" and CFO Luca Maestri noted demand had remained consistent for the iPhone X, 8 and 8 Plus even in a seasonally weak period. Services revenue hit a record $9.55 billion, up 31%, and the article notes Apple's market value was approaching $950 billion, putting it \"on the cusp of becoming the first $1 trillion U.S. company.\" It also flags real risks: escalating U.S.-China trade tensions that could expose Apple's roughly one-fifth China revenue exposure to tariffs, criticism from Chinese state media (including Xinhua and CCTV) over iMessage spam and App Store gambling apps, and Huawei having overtaken Apple as the world's second-largest smartphone vendor by shipments, according to Strategy Analytics.",
+      "why_moved": "The article states shares rose 3.7% to $197.33 in after-hours trading. Building on the detail above, the article ties the reaction to revenue and profit both beating expectations — profit up 32%, revenue near the high end of guidance — combined with resilient iPhone demand in a contracting global market and record 31% services growth, with the ASP-driven iPhone revenue growth on essentially flat unit shipments underscoring the pricing-power narrative the piece repeatedly emphasizes. The trade-war and Chinese-regulatory risks the article also details are presented as separate overhangs rather than something explicitly tied to tempering the immediate stock reaction.",
+      "sources": [
+        {
+          "filename": "2018-07-31.pdf",
+          "title": "Apple’s iPhones Power Revenue, Earnings Demand for the smartphones stays strong even as global market contracts; app-store sales reach record",
+          "published_date": "2018-07-31",
+          "text": "Apple’s iPhones Power Revenue, Earnings - WSJ 2026-08-28, 1:31 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/apples-revenue-earnings-top-estimates-1533069011\nTECH\nApple’s iPhones Power Revenue, Earnings\nDemand for the smartphones stays strong even as global market contracts; app-store\nsales reach record\nBy Tripp Mickle\nUpdated July 31, 2018 at 7:40 pm ET\nApple’s third-quarter revenue from iPhone sales increased 20% from a year earlier to $29.91 billion. ITALY PHOTO\nPRESS/ZUMA PRESS\nApple Inc. AAPL 1.68% delivered its best-ever revenue for what is typically its\nweakest quarter, as demand for high-price iPhones remained resilient and services\nsuch as app-store sales swelled to a record.\nThe results for Apple’s fiscal third quarter show how the iPhone maker is finding ways\nto grow amid a contracting global smartphone market that is roiling its rivals.\n“We’re expanding our reach into emerging markets and seeing strong double-digit\nhttps://www.wsj.com/articles/apples-revenue-earnings-top-estimates-1533069011 Page 1 of 7\nApple’s iPhones Power Revenue, Earnings - WSJ 2026-08-28, 1:31 PM\ngrowth in revenue, and we’re making great progress toward our goal of significantly\nexpanding our services business,” Chief Executive Tim Cook said during a call with\nanalysts.\nThough iPhone sales usually weaken in the\nStreaming Service\nspring and summer as anticipation builds for\nApple's services business has become one of\nits biggest growth engines. new devices expected in September, Apple\nfinance chief Luca Maestri said demand has\nChange from previous year\nremained consistent, particularly for the\niPhone Apple services/apps\niPhone X, 8 and 8 Plus.\n70%\nShares of Apple, up 28% over the past year,\n60\nrose 3.7% to $197.33 in after-hours trading.\n50\nWith a market value above $950 billion if\n40\nafter-hours gains extend to Wednesday’s\n30\ntrading day, Apple is on the cusp of becoming\n20 the first $1 trillion U.S. company.\n10\nApple’s move to raise iPhone prices\n0\ncontinued to pay off in the period, with sales\n-10\nof the company’s flagship product rising 20%\n-20\nto $29.91 billion even as shipments rose less\n-30\nthan 1% to 41.3 million. The company’s\nFY2014 ’15 ’16 ’17 ’18\nservices business reported record revenue of\nSource: the company\n$9.55 billion, a 31% increase from a year\nearlier, strengthening the case that Apple is in the midst of a transformation from a\ndevice-driven business into one increasingly reliant on sales of subscriptions and\nsoftware.\nRevenue growth accelerated for the seventh straight quarter, jumping 17% to $53.27\nbillion in the latest period, above Wall Street expectations and near the high end of its\nown guidance. Profit rose 32% to $11.52 billion, or $2.34 a share, also above analysts’\nhttps://www.wsj.com/articles/apples-revenue-earnings-top-estimates-1533069011 Page 2 of 7\nApple’s iPhones Power Revenue, Earnings - WSJ 2026-08-28, 1:31 PM\nconsensus estimates.\n“The larger business plan is on track,” said Robert Nichols, chief executive at\nWindward Capital Management Co., a Los Angeles-based firm with more than $750\nmillion under management that counts Apple among its largest holdings. “They’ve\ncreated this device vehicle to push entertainment and data through, and it’s almost\nlike having a cash register and waiting for sales.”\nApple’s report Tuesday capped a string of strong earnings from U.S. technology giants\nAmazon.com Inc., Google parent Alphabet Inc. and Microsoft Corp., which continue to\npost robust results in the face of increasing scrutiny from regulators over their\ninfluence on business and society. Facebook Inc. remained the outlier, with its shares\nsuffering the biggest-ever one-day loss last week after it warned of slowing growth\namid new regulatory pressures and public scrutiny of its privacy practices.\nStill, escalating trade tensions between the\nU.S. and China pose a greater threat to Apple\nthan its peers. The company depends on\nChina for about one-fifth of sales, making it\nBehind the Glass: How The iPhone vulnerable to potential retaliation by the\nWas Born\nChinese government, trade experts said, and\nits iPhones would be hit by tariffs if\nOn the iPhone’s 10th birthday, former Apple\nexecutives Scott Forstall, Tony Fadell and Greg\nPresident Trump follows through on a recent\nChristie recount the arduous process of turning Steve\nJobs’s vision into one of the best-selling products\nthreat to put tariffs on some $500 billion in\never made. Watch the full documentary at\nwsj.com/docs. (Originally Published June 28, 2017)\nChinese exports to the U.S.\nApple hasn’t been affected by any U.S. tariffs on imports from China to date, but Mr.\nCook said the company is evaluating the planned tariffs for potential business impact.\nHe said Apple will provide public comment after it has had a chance to evaluate the\npotential tariffs. Still, Mr. Cook said he is optimistic “this will get sorted out because\nthere’s an inescapable mutuality between the U.S. and China.”\nhttps://www.wsj.com/articles/apples-revenue-earnings-top-estimates-1533069011 Page 3 of 7\nApple’s iPhones Power Revenue, Earnings - WSJ 2026-08-28, 1:31 PM\nApple also faces criticism from Chinese state-controlled media, which has turned up\nattacks on Apple over the past week, with at least five state supported outlets\nincluding Xinhua criticizing the tech giant’s iMessage service for failing to do more to\nblock spam messages. CCTV jumped in Tuesday, saying Apple’s app store allows\nillegal gambling apps.\nApple’s sales continue to grow in Greater China, rising 19% to $9.55 billion. But new\nnumbers from market researcher Strategy Analytics found that Huawei Technologies\nCo. of China has overtaken Apple for the first time as the world’s second-largest\nsmartphone maker, with 54 million devices shipped in the June quarter.\nApple’s chief rival, Samsung Electronics Co., remains the largest smartphone vendor,\nbut has struggled lately. The South Korean company, which also has raised\nsmartphone prices to nearly $1,000, reported a big decline in mobile-phone profit on\nTuesday as consumers hold on to devices longer and balk at higher prices. Its market\nshare in China has declined as homegrown rivals such as Huawei increase sales.\nApple signaled it expects to sustain strong iPhone sales in the current quarter with a\nforecast for total revenue of between $60 billion and $62 billion, which would\nrepresent a healthy 14% to 18% increase from a year earlier. Analysts say the likely\njump reflects a small boost from the following three new devices Apple is expected to\nrelease in September: an update to the $999 iPhone X; the company’s first oversize\nphone with an organic light-emitting diode, or OLED, display; and a 6.1-inch liquid-\ncrystal-display phone with facial-recognition technology.\nThe new phones are projected to be priced between $699 for the LCD device and\n$1,099 for the plus-size handset, according to UBS, potentially ensuring another year\nof higher average iPhone prices to lift Apple’s total revenue.\nAnalysts had estimated the $999 iPhone X made up one-quarter of total iPhones sold,\nwhich helped boost average selling prices per iPhone by nearly 20% to about $724.\nhttps://www.wsj.com/articles/apples-revenue-earnings-top-estimates-1533069011 Page 4 of 7\nApple’s iPhones Power Revenue, Earnings - WSJ 2026-08-28, 1:31 PM\nGiven consumer sensitivity to higher smartphone prices, future iPhone “pricing will\nbe important going forward,” said Mike Frazier, president of Bedell Frazier\nInvestment Counselling, a Walnut Creek, Calif.-based firm with about $500 million\nunder management. Apple is among the firm’s largest holdings.\n“Expectations are pretty high for the next phone launch and people won’t want to pay\na grand unless it’s full of new innovative functions,” he added.\nThe services business has become one of Apple’s biggest growth engines. The\ncompany is making progress toward its goal of $50 billion in annual sales behind\ngrowth in subscriptions to iCloud storage, its streaming-music service and offerings\nsuch as Netflix and HBO. Paid subscriptions now exceed 300 million, a 60% increase in\nthe period, Mr. Maestri said.\nThe division that includes Apple’s smartwatches and AirPods wireless earbuds also\nposted another period of strong gains, with sales rising 37% to $3.74 billion in the\nJune quarter. The company doesn’t break out smartwatch sales, but it is expected to\nincrease shipments 14% this year to 20.2 million watches, according to International\nData Corp., a market-research firm.\n“This is a product category that essentially didn’t exist three years ago,” Mr. Maestri\nsaid.\nSales of iPads and Macs were the only weak areas for Apple, as revenue for both\nproducts fell 5% in the period.\nApple continued to flex its financial muscle during the period, repurchasing $20\nbillion of shares. The company promised in May to spend a record $100 billion on\nbuybacks. The buybacks could move Apple shares 24% higher over the next three\nyears, according to Loup Ventures, a research-focused venture-capital firm.\nIn January, the company announced a plan to return the majority of more than $250\nbillion in overseas cash holdings to the U.S. That followed the U.S. tax overhaul Mr.\nhttps://www.wsj.com/articles/apples-revenue-earnings-top-estimates-1533069011 Page 5 of 7\nApple’s iPhones Power Revenue, Earnings - WSJ 2026-08-28, 1:31 PM\nTrump signed into law late last year, which requires companies to pay a one-time tax\nof 15.5% on overseas profits held in cash.\nApple, which will pay $38 billion in taxes, has said it aims to become net-cash neutral\nin the future, and it reduced the gap between cash on hand and debt to $129 billion,\nMr. Maestri said.\n“There’s still a long way to go in our share-repurchase program,” Mr. Maestri said.\nCorrections & Amplifications\nApple’s revenue from sales of iPhones rose 20% in the third quarter. An earlier version\nof this article incorrectly stated the percentage increase.\nWrite to Tripp Mickle at Tripp.Mickle@wsj.com\nAppeared in the August 1, 2018, print edition as 'Apple’s iPhones Power Results'.\nTripp Mickle covered Google and its parent company Alphabet for The Wall Street Journal. He previously served as\nthe Journal's reporter on Apple, following a stint covering the alcohol and tobacco industries. Prior to joining the\nJournal, Tripp worked as a sportswriter at Sports Business Journal and Newsday. He is a graduate of Wake Forest…\nUniversity.\nFollow\nhttps://www.wsj.com/articles/apples-revenue-earnings-top-estimates-1533069011 Page 6 of 7\nApple’s iPhones Power Revenue, Earnings - WSJ 2026-08-28, 1:31 PM\nhttps://www.wsj.com/articles/apples-revenue-earnings-top-estimates-1533069011 Page 7 of 7"
+        }
+      ]
+    },
+    "djnw": null
+  }
+}

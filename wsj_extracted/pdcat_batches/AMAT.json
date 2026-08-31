@@ -1,0 +1,1146 @@
+{
+  "AMAT_2016q2": {
+    "ticker": "AMAT",
+    "group": "Group 2",
+    "company_name": "Applied Materials",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-05-19",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Applied Materials entered fiscal Q2 after a weak semiconductor-cap-equipment environment and the failed Tokyo Electron merger. Investors were looking for evidence that the company could generate a new growth cycle through NAND, OLED/display and cost discipline.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Applied Materials: Q1 2016 Applied Materials Earnings Conference Call / News Release",
+                  "url": "https://ir.appliedmaterials.com/events/event-details/q1-2016-applied-materials-earnings-conference-call"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Applied reported **$2.45 billion of revenue** and **$0.34 of non-GAAP EPS**, both above consensus. The decisive signal was orders: new orders surged **52% sequentially and 37% year over year to $3.45 billion**, the strongest quarterly order level in 15 years. Display orders reached about **$700 million**, while NAND-related demand also accelerated sharply.",
+              "sources": []
+            },
+            {
+              "text": "Guidance was even stronger than the reported quarter. Applied expected fiscal Q3 revenue to rise **14%–18% sequentially**, versus roughly 2% growth expected by analysts, and guided non-GAAP EPS to **$0.46–$0.50** versus consensus near $0.36. The release therefore indicated a genuine demand inflection rather than a small earnings beat.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Applied Materials: Applied Materials Announces Second Quarter 2016 Results",
+                  "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-second-quarter-2016-results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares surged because orders and forward guidance were dramatically stronger than expected.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** OLED/display and 3D NAND created new equipment-demand pools beyond traditional foundry/DRAM spending.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Cost reductions improved earnings leverage as revenue began to accelerate.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Why Applied Materials Stock Surged Today",
+                  "url": "https://www.fool.com/investing/general/2016/05/20/why-applied-materials-stock-surged-today.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "The **market-reaction direction in this narrative comes from the contemporaneous reaction source**, not automatically from the supplied return columns. For this event, verified direction = **UP**; supplied `ret_1daypost_pct` direction = **UP**; consistency = **MATCH**.",
+              "sources": []
+            },
+            {
+              "text": "All included sources were checked for Applied Materials/AMAT identity, exact event, publication date, timing window and source origin. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Applied Materials: Q1 2016 Applied Materials Earnings Conference Call / News Release",
+          "url": "https://ir.appliedmaterials.com/events/event-details/q1-2016-applied-materials-earnings-conference-call"
+        },
+        {
+          "label": "Applied Materials: Applied Materials Announces Second Quarter 2016 Results",
+          "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-second-quarter-2016-results"
+        },
+        {
+          "label": "The Motley Fool: Why Applied Materials Stock Surged Today",
+          "url": "https://www.fool.com/investing/general/2016/05/20/why-applied-materials-stock-surged-today.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The article reports that Applied Materials said orders hit a 15-year high in the fiscal second quarter, prompting the semiconductor-equipment maker to project a major business rebound later in the year as those orders convert to revenue. Second-quarter results topped expectations, as did the projection for the fiscal third quarter. The company attributed the gains primarily to spending on new tools to produce memory chips using 3-D NAND -- a manufacturing approach that stacks layers of circuitry rather than shrinking individual transistors -- and to displays using organic light-emitting diode, or OLED, technology rather than liquid-crystal displays, along with strong demand from customers in China building new manufacturing capacity. CEO Gary Dickerson is quoted calling these \"big inflections, big waves that we think are sustainable over the next few years.\" Net income declined 12% to $320 million from $364 million, though per-share earnings were flat at 29 cents because of a lower share count, on revenue essentially flat at $2.45 billion versus $2.44 billion. Orders surged 37% year over year and 52% sequentially to $3.5 billion. Excluding restructuring charges and other items, adjusted per-share profit was 34 cents versus an analyst estimate of 32 cents on $2.43 billion in revenue. For the current quarter, the company guided to 46 to 50 cents in adjusted earnings, well above the 36 cents analysts had anticipated, and to $2.84 billion in sales, above the $2.51 billion analysts had predicted.",
+      "why_moved": "The article states that shares rose nearly 8% in after-hours trading. It attributes this to the 15-year-high order level -- up 37% year over year and 52% sequentially -- and to guidance for the coming quarter that came in far above what analysts had been expecting on both earnings and revenue, driven by the 3-D NAND memory tooling shift, growing OLED display demand, and Chinese capacity expansion.",
+      "sources": [
+        {
+          "filename": "Applied Materials Issues Upbeat Guidance as New Orders Surge - WSJ.pdf",
+          "title": "Applied Materials Issues Upbeat Guidance as New Orders Surge Cites strong demand from China, and gains in spending on new machines to produce memory chips and displays",
+          "published_date": "2016-05-19",
+          "text": "Applied Materials Issues Upbeat Guidance as New Orders Surge - WSJ 2026-08-29, 7:20 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/applied-materials-issues-upbeat-guidance-as-new-orders-surge-1463691309\nBUSINESS EARNINGS\nApplied Materials Issues Upbeat Guidance as New\nOrders Surge\nCites strong demand from China, and gains in spending on new machines to produce\nmemory chips and displays\nBy Lisa Beilfuss\nUpdated May 19, 2016 at 6:12 pm ET\nSanta Clara, Calif.-based Applied Materials supplies companies that make things like mobile phones and televisions.\nBLOOMBERG NEWS\nApplied Materials Inc. said orders hit a 15-year high in its latest quarter, prompting\nthe maker of semiconductor manufacturing tools to project a major rebound in its\nbusiness later this year as those transactions are completed.\nThe company’s second-quarter results topped expectations, as did a projection for\nfiscal third-quarter results.\nhttps://www.wsj.com/articles/applied-materials-issues-upbeat-guidance-as-new-orders-surge-1463691309 Page 1 of 3\nApplied Materials Issues Upbeat Guidance as New Orders Surge - WSJ 2026-08-29, 7:20 PM\nApplied attributed the gains primarily to spending on new machines to produce\nmemory chips and displays. Strong demand from customers in China was cited as\nanother factor.\nThe company’s shares rose nearly 8% in after-hours trading.\nThe Santa Clara, Calif., company sells equipment to make chips used in a wide range of\nproducts, including mobile phones. Its machines are also used to make displays for\nTVs and other products.\nThe company reported that second-quarter net income declined 12% and revenue was\nflat. But orders surged 37% from a year earlier and 52% from the previous quarter,\nhitting $3.5 billion.\nGary Dickerson, Applied’s chief executive, said one key driver is a shift in the way\ncompanies plan to make the NAND flash memory chips that are used in most mobile\ndevices. The new approach, called 3-D NAND, involves stacking layers of circuitry\nrather than trying to make each transistor smaller. That requires new production\ntools sold by Applied and others.\nAnother factor is the growing demand for displays built using organic light-emitting\ndiode, or OLED, technology, rather than liquid-crystal displays.\nIn China, meanwhile, both domestic companies and those based elsewhere are\nbuilding new manufacturing capacity, Mr. Dickerson said.\n“These are big inflections, big waves that we think are sustainable over the next few\nyears,” Mr. Dickerson said in an interview.\nApplied reported a profit of $320 million for the quarter ended May 1, down from $364\nmillion a year earlier. On a per-share basis, earnings were flat at 29 cents because of a\nlower share count. Revenue of $2.45 billion compared with $2.44 billion in the year-\nearlier period.\nhttps://www.wsj.com/articles/applied-materials-issues-upbeat-guidance-as-new-orders-surge-1463691309 Page 2 of 3\nApplied Materials Issues Upbeat Guidance as New Orders Surge - WSJ 2026-08-29, 7:20 PM\nExcluding restructuring charges, among other items, profit per share came to 34\ncents. On that basis, analysts had projected 32 cents on revenue of $2.43 billion.\nFor the current quarter, the company said it expects 46 cents to 50 cents in adjusted\nearnings per share, well above the 36 cents analysts had anticipated. Sales will rise\n14% from a year earlier, the company said, translating to $2.84 billion. Analysts had\npredicted $2.51 billion in sales for the July period.\nWrite to Don Clark at don.clark@wsj.com and Lisa Beilfuss at lisa.beilfuss@wsj.com\nhttps://www.wsj.com/articles/applied-materials-issues-upbeat-guidance-as-new-orders-surge-1463691309 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "AMAT_2016q3": {
+    "ticker": "AMAT",
+    "group": "Group 2",
+    "company_name": "Applied Materials",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-08-18",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After May’s order surge, expectations had risen materially. Q3 needed to show that the order inflection was converting into revenue and that the semiconductor/display cycle had enough breadth to continue.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Applied Materials: Applied Materials Announces Second Quarter 2016 Results",
+                  "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-second-quarter-2016-results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q3 revenue reached **$2.82 billion**, up about 13% year over year, and non-GAAP EPS was **$0.50**, above consensus near $0.48. Applied continued to benefit from strong NAND and display demand, while operating margins expanded.",
+              "sources": []
+            },
+            {
+              "text": "The more important information was the fiscal Q4 outlook. Management guided non-GAAP EPS to **$0.61–$0.69**, well above prior expectations, and revenue guidance also implied continued strong growth. The report reinforced that the May order spike was translating into a sustained earnings cycle rather than a one-quarter phenomenon.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Applied Materials: Q3 2016 Applied Materials Earnings Conference Call / News Release",
+                  "url": "https://ir.appliedmaterials.com/events/event-details/q3-2016-applied-materials-earnings-conference-call/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock rose because EPS beat and Q4 guidance was well above expectations.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** NAND and OLED/display spending continued to broaden equipment demand.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Margin expansion showed that revenue growth was converting efficiently into earnings.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: Applied Materials Stock Higher, Pacific Crest Raises Price Target",
+                  "url": "https://www.thestreet.com/markets/applied-materials-amat-stock-higher-pacific-crest-raises-price-target-13680120"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "The **market-reaction direction in this narrative comes from the contemporaneous reaction source**, not automatically from the supplied return columns. For this event, verified direction = **UP**; supplied `ret_1daypost_pct` direction = **UP**; consistency = **MATCH**.",
+              "sources": []
+            },
+            {
+              "text": "All included sources were checked for Applied Materials/AMAT identity, exact event, publication date, timing window and source origin. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Applied Materials: Applied Materials Announces Second Quarter 2016 Results",
+          "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-second-quarter-2016-results"
+        },
+        {
+          "label": "Applied Materials: Q3 2016 Applied Materials Earnings Conference Call / News Release",
+          "url": "https://ir.appliedmaterials.com/events/event-details/q3-2016-applied-materials-earnings-conference-call/"
+        },
+        {
+          "label": "TheStreet: Applied Materials Stock Higher, Pacific Crest Raises Price Target",
+          "url": "https://www.thestreet.com/markets/applied-materials-amat-stock-higher-pacific-crest-raises-price-target-13680120"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The article reports that Applied Materials said orders reached another record high in the fiscal third quarter, building on the 15-year high of the previous quarter, as profit surged and stirred hope for robust results in coming quarters. For the fiscal fourth quarter, the company guided to adjusted earnings of 61 to 69 cents a share, well above the 48 cents analysts surveyed by Thomson Reuters expected, with management citing the record order backlog as support for the outlook. Third-quarter orders of $3.66 billion came in well above the roughly $2.71 billion analysts had expected, a 26.5% jump from a year earlier, following a second quarter in which orders had also topped estimates by 41%, at $3.45 billion, partly attributed to a shift in mobile-device chip manufacturing methods toward stacking layers of circuitry rather than shrinking transistors. Profit for the quarter rose to $505 million from $329 million a year earlier, with per-share earnings up to 46 cents from 27 cents, aided by a lower share count, though the article notes revenue itself \"disappointed the market,\" rising 13.3% to $2.82 billion versus the company's own forecast of roughly $2.84 billion in revenue and 46 to 50 cents in adjusted earnings, with analysts having projected 48 cents on $2.84 billion -- essentially in line. The article notes a fresh $2 billion share-buyback program was set in June following completion of a prior $3 billion program.",
+      "why_moved": "The article states that the share price climbed 5.5% after hours to $29.20. It attributes this to the stronger-than-expected profit and, in particular, to the record order level and the fiscal fourth-quarter guidance far exceeding the analyst consensus of 48 cents, even though the article notes that revenue itself had disappointed the market relative to what investors had been hoping for.",
+      "sources": [
+        {
+          "filename": "Applied Materials Orders Hit Record High, as Profit Surges - WSJ.pdf",
+          "title": "Applied Materials Orders Hit Record High, as Profit Surges Share price jumps on news, as company offers strong guidance for current quarter",
+          "published_date": "2016-08-18",
+          "text": "Applied Materials Orders Hit Record High, as Profit Surges - WSJ 2026-08-29, 7:21 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/applied-materials-orders-hit-record-high-as-profit-surges-1471554955\nBUSINESS EARNINGS\nApplied Materials Orders Hit Record High, as Profit\nSurges\nShare price jumps on news, as company offers strong guidance for current quarter\nBy Ezequiel Minaya\nAug. 18, 2016 at 5:15 pm ET\nApplied Materials Inc. AMAT -4.29% on Thursday said orders reached another record\nhigh in its third quarter, following a 15-year high the previous three months, as profit\nsurged, stirring hope for robust results in coming quarters.\nThe price of shares in the company has risen 67% over the past 12 months, and it\nclimbed 5.5% after hours to $29.20, also boosted by strong guidance for the current\nquarter.\nFor the October quarter, the company said it expects adjusted earnings per share of\nbetween 61 cents and 69 cents, while analysts surveyed by Thomson Reuters expect a\nmore-modest 48 cents. The maker of semiconductor manufacturing tools said record-\nhigh orders bode well for results in coming months.\nThe buoyant order momentum continued into the third quarter from the previous\nthree months. Analysts had expected orders in the period to be around $2.71 billion,\nwhich was well below the $3.66 billion actually posted by the company, a 26.5% jump\nfrom a year ago.\nIn the second quarter, orders exceeded the average of analysts’ expectations on\nFactSet by 41% at $3.45 billion, a 37% jump from a year earlier. Company officials had\nhttps://www.wsj.com/articles/applied-materials-orders-hit-record-high-as-profit-surges-1471554955 Page 1 of 3\nApplied Materials Orders Hit Record High, as Profit Surges - WSJ 2026-08-29, 7:21 PM\nattributed that order surge in part to shifting manufacturing methods for certain\nchips used in mobile devices that call for stacking layers of circuitry rather than\nshrinking transistors.\nThe Santa Clara, Calif., company sells equipment to make chips used in a wide range of\nproducts, including mobile phones. Its machines are also used to make displays for\nTVs and other products.\nProfit for the latest quarter was stronger-than-expected, though revenue\ndisappointed the market. Applied said profit rose to $505 million from $329 million a\nyear earlier. On a per-share basis, earnings rose to 46 cents from 27 cents a year\nearlier, in part reflecting a lower share count. Revenue rose 13.3% to $2.82 billion.\nExcluding certain items, per-share profit rose to 50 cents from 33 cents a year ago.\nThe company had forecast adjusted earnings for the third quarter of between 46 cents\nand 50 cents, with revenue at about $2.84 billion. Analysts had projected adjusted\nearnings of 48 cents on revenue of $2.84 billion.\nIn June, Applied set a fresh $2 billion share-buyback program, following the\ncompletion of its $3 billion program initiated last year. It didn’t provide a time frame\nfor when it plans to repurchase its shares.\nWrite to Ezequiel Minaya at ezequiel.minaya@wsj.com\nEzequiel Minaya is a former reporter for The Wall Street Journal. He is no longer with the Journal. A New York City\nnative, Ezequiel worked at the Los Angeles Times; McClatchy newspapers in Fresno and Modesto; and The Press-\nEnterprise near Los Angeles. He also reported for the Houston Chronicle. He spent 13 months as an embedded war…\ncorrespondent in Iraq writing for Stars and Stripes. Ezequiel spent nearly five years covering Venezuela for The Wall\nStFreoellto wJournal before transferring to the Real-Time news desk. Ezequiel received his bachelors degree from Guilford\nCollege, N.C., and a masters in journalism with an emphasis in Latin American studies from the University of\nCalifornia at Berkeley.\nhttps://www.wsj.com/articles/applied-materials-orders-hit-record-high-as-profit-surges-1471554955 Page 2 of 3\nApplied Materials Orders Hit Record High, as Profit Surges - WSJ 2026-08-29, 7:21 PM\nhttps://www.wsj.com/articles/applied-materials-orders-hit-record-high-as-profit-surges-1471554955 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "AMAT_2016q4": {
+    "ticker": "AMAT",
+    "group": "Group 2",
+    "company_name": "Applied Materials",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-11-17",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Applied had already delivered two strong quarters, so investors entered fiscal Q4 expecting another record period. The hurdle was high, and order momentum mattered as much as reported earnings.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Applied Materials: Q3 2016 Applied Materials Earnings Conference Call / News Release",
+                  "url": "https://ir.appliedmaterials.com/events/event-details/q3-2016-applied-materials-earnings-conference-call/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q4 revenue rose **39% year over year to $3.30 billion**, while non-GAAP EPS reached **$0.66**, slightly above consensus. Backlog ended the year at **$4.58 billion**, up 46% year over year, and Applied’s semiconductor, services and display businesses all posted major annual gains.",
+              "sources": []
+            },
+            {
+              "text": "The quarter was mixed relative to expectations. Revenue was slightly below consensus and new orders declined sequentially from the very high Q3 level, but fiscal Q1 guidance of **$0.62–$0.70 EPS** was above the roughly $0.59 consensus. Contemporaneous coverage described AMAT as roughly flat to slightly positive during the following session.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Applied Materials: Applied Materials Delivers Record Quarterly and Annual Revenue and Earnings Per Share",
+                  "url": "https://investors.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-record-quarterly-and-annual-revenue"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The reaction was muted because a revenue miss and lower sequential orders offset strong EPS and guidance.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Record backlog still supported the view that the equipment up-cycle remained intact.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Strong Q1 EPS guidance prevented the small revenue miss from becoming a larger negative catalyst.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: Stocks Drive Lower in Unsettled Session as Retailers Drop",
+                  "url": "https://www.thestreet.com/investing/stocks-little-changed-after-series-of-retail-earnings-disappointments-13899333"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "The **market-reaction direction in this narrative comes from the contemporaneous reaction source**, not automatically from the supplied return columns. For this event, verified direction = **FLAT**; supplied `ret_1daypost_pct` direction = **UP**; consistency = **MISMATCH**.",
+              "sources": []
+            },
+            {
+              "text": "All included sources were checked for Applied Materials/AMAT identity, exact event, publication date, timing window and source origin. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Applied Materials: Q3 2016 Applied Materials Earnings Conference Call / News Release",
+          "url": "https://ir.appliedmaterials.com/events/event-details/q3-2016-applied-materials-earnings-conference-call/"
+        },
+        {
+          "label": "Applied Materials: Applied Materials Delivers Record Quarterly and Annual Revenue and Earnings Per Share",
+          "url": "https://investors.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-record-quarterly-and-annual-revenue"
+        },
+        {
+          "label": "TheStreet: Stocks Drive Lower in Unsettled Session as Retailers Drop",
+          "url": "https://www.thestreet.com/investing/stocks-little-changed-after-series-of-retail-earnings-disappointments-13899333"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The article reports that Applied Materials' earnings jumped sharply in the fiscal fourth quarter, but new orders missed expectations. New orders rose 25% to $3.03 billion, below the $3.21 billion analysts had expected according to FactSet, a miss following two consecutive quarters in which orders had beaten estimates. The article frames Applied's business as dependent on a relatively small number of large chip makers whose spending can vary greatly depending on where they sit in their own production cycles. For the quarter ended October 30, profit was $610 million, or 56 cents a share, up from $336 million, or 28 cents, a year earlier; excluding stock-based compensation and other items, adjusted per-share earnings rose to 66 cents from 29 cents. Revenue increased 39% to $3.3 billion, up 17% sequentially, beating the company's own guidance of 61 to 69 cents in earnings and 15% to 19% sequential revenue growth. For the current quarter, the company guided to 62 to 70 cents a share on $3.20 billion to $3.34 billion in revenue, above the 58 cents on $3.12 billion analysts polled by Thomson Reuters had expected.",
+      "why_moved": "The article states that shares fell 4.9% to $29.15 in after-hours trading. It attributes this decline explicitly to new orders missing analyst expectations -- $3.03 billion against a forecast of $3.21 billion -- even though the quarter's profit and revenue beat both the company's own guidance and analyst forecasts, and despite above-consensus guidance issued for the following quarter.",
+      "sources": [
+        {
+          "filename": "Applied Materials Profit Rises 21% But New Orders Miss Expectations - WSJ.pdf",
+          "title": "Applied Materials Profit Rises 21% But New Orders Miss Expectations New orders rose 25% to $3.03 billion in the latest quarter, below a forecast by analysts of $3.21 billion",
+          "published_date": "2016-11-17",
+          "text": "Applied Materials Profit Rises 21% But New Orders Miss Expectations - WSJ 2026-08-29, 7:21 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/applied-materials-profit-rises-21-but-new-orders-miss-expectations-1479419141\nBUSINESS EARNINGS\nApplied Materials Profit Rises 21% But New Orders\nMiss Expectations\nNew orders rose 25% to $3.03 billion in the latest quarter, below a forecast by analysts of\n$3.21 billion\nBy Tess Stynes\nUpdated Nov. 17, 2016 at 7:27 pm ET\nBLOOMBERG NEWS\nApplied Materials Inc. AMAT -4.29% said its earnings jumped sharply in the three\nmonths ended in October, but the chip-gear maker’s new orders missed expectations,\nsending shares lower.\nIn recent after-hours trading, Applied Material’s shares fell 4.9% to $29.15.\nApplied makes equipment used in the manufacturing of semiconductors, which\ndepends on a relatively small number of chip makers that write very big checks. But\nthe size of those checks can vary greatly, depending on where those chip makers are in\ntheir production cycles.\nhttps://www.wsj.com/articles/applied-materials-profit-rises-21-but-new-orders-miss-expectations-1479419141 Page 1 of 3\nApplied Materials Profit Rises 21% But New Orders Miss Expectations - WSJ 2026-08-29, 7:21 PM\nIn the latest quarter, new orders rose 25% to $3.03 billion. Analysts had expected new\norders to reach $3.21 billion, according to FactSet.\nFor the period ended Oct. 30, Applied Materials reported a profit of $610 million, or 56\ncents a share, up from $336 million, or 28 cents a share, a year earlier. Excluding\nshare-based compensation and other items, adjusted per-share earnings rose to 66\ncents from 29 cents. Revenue increased 39% to $3.3 billion and climbed 17%\nsequentially.\nThe company expected per-share profit of 61 cents to 69 cents and revenue growth of\n15% to 19% sequentially.\nFor the current quarter, the company forecasted per-share earnings of 62 cents to 70\ncents and revenue of $3.20 billion to $3.34 billion. Analysts polled by Thomson\nReuters expected per-share profit of 58 cents and revenue of $3.12 billion.\nCorrections & Amplifications:\nAn earlier version of this article incorrectly compared Applied Materials’ financial\nresults to the previous quarter but said they were compared to the prior year.\nWrite to Tess Stynes at tess.stynes@wsj.com\nhttps://www.wsj.com/articles/applied-materials-profit-rises-21-but-new-orders-miss-expectations-1479419141 Page 2 of 3\nApplied Materials Profit Rises 21% But New Orders Miss Expectations - WSJ 2026-08-29, 7:21 PM\nhttps://www.wsj.com/articles/applied-materials-profit-rises-21-but-new-orders-miss-expectations-1479419141 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "AMAT_2017q1": {
+    "ticker": "AMAT",
+    "group": "Group 2",
+    "company_name": "Applied Materials",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-02-15",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "By early 2017, Applied was benefiting from synchronized spending in 3D NAND, foundry/logic and OLED displays. The question was whether this broad cycle could persist after several quarters of accelerating orders.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Applied Materials: Applied Materials Delivers Record Quarterly and Annual Revenue and Earnings Per Share",
+                  "url": "https://investors.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-record-quarterly-and-annual-revenue"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q1 net sales were **$3.28 billion**, up **45% year over year**, and non-GAAP EPS reached a record **$0.67**, up 158%. New orders hit a record **$4.24 billion**, up 86% year over year. Semiconductor Systems orders were particularly strong in flash and foundry, while Display orders remained elevated.",
+              "sources": []
+            },
+            {
+              "text": "Applied guided Q2 revenue to **$3.45–$3.60 billion** and non-GAAP EPS to **$0.72–$0.80**, implying another record quarter. The release therefore combined record current demand with another step-up in forward earnings power.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Applied Materials: Applied Materials Delivers Record Earnings Per Share",
+                  "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-record-earnings-share"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The market response was positive because record orders and record earnings were followed by another strong guide.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** 3D NAND and OLED investment were the clearest secular growth drivers.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Rising gross and operating margins reinforced the sustainability of the earnings expansion.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "Tematica Research: Applied Material’s Outlook for OLEDs Boosts Our Universal Display Price Target",
+                  "url": "https://www.tematicaresearch.com/digital-lifestyle-theme/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "The **market-reaction direction in this narrative comes from the contemporaneous reaction source**, not automatically from the supplied return columns. For this event, verified direction = **UP**; supplied `ret_1daypost_pct` direction = **DOWN**; consistency = **MISMATCH**.",
+              "sources": []
+            },
+            {
+              "text": "All included sources were checked for Applied Materials/AMAT identity, exact event, publication date, timing window and source origin. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Applied Materials: Applied Materials Delivers Record Quarterly and Annual Revenue and Earnings Per Share",
+          "url": "https://investors.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-record-quarterly-and-annual-revenue"
+        },
+        {
+          "label": "Applied Materials: Applied Materials Delivers Record Earnings Per Share",
+          "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-record-earnings-share"
+        },
+        {
+          "label": "Tematica Research: Applied Material’s Outlook for OLEDs Boosts Our Universal Display Price Target",
+          "url": "https://www.tematicaresearch.com/digital-lifestyle-theme/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The Heard on the Street column reports that Applied Materials' business, tied to the spending patterns of a handful of large semiconductor and display customers, has historically swung between booms and significant busts, though fears of a downturn had eased over the prior year amid steady demand across customer groups, including OLED display makers said to be gearing up for the next iPhone. The column says a sharp jump in new equipment orders for the fiscal first quarter, reported Wednesday, renewed concerns: orders jumped 86% year over year to a record $4.2 billion, the biggest surge for the company in seven years according to Capital IQ data. It notes Wall Street, per FactSet, expects new equipment orders to decline over the next two quarters as customers digest those purchases. The column's own view is that investors should not be too worried, citing analysts who see strong growth drivers over the next three years, Cowen & Co.'s Timothy Arcuri projecting \"massive increases\" in capital return supported by growing free cash flow, and the stock trading at 13.8 times forward earnings -- a discount to peers and to its own five-year average of 15 times.",
+      "why_moved": "The article states that the stock \"slipped a bit after the report.\" It attributes this modest dip to investor concern that the record 86% surge in new orders -- the largest in seven years -- signals an unsustainable peak, with Wall Street expecting new orders to decline over the following two quarters as customers work through recent purchases, even though the column itself argues that concern is overstated given the company's cash-return prospects and below-average valuation.",
+      "sources": [
+        {
+          "filename": "Applied Materials: Storm Ahead of the Calm - WSJ.pdf",
+          "title": "HEARD ON THE STREET Follow Applied Materials: Storm Ahead of the Calm Surge in new equipment orders has investors worried about a coming slowdown",
+          "published_date": "2017-02-17",
+          "text": "Applied Materials: Storm Ahead of the Calm - WSJ 2026-08-29, 7:23 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/applied-materials-storm-ahead-of-the-calm-1487365883\nHEARD ON THE STREET Follow\nApplied Materials: Storm Ahead of the Calm\nSurge in new equipment orders has investors worried about a coming slowdown\nBy Dan Gallagher\nUpdated Feb. 17, 2017 at 7:25 pm ET\nTechnicians working on machinery at the Applied Materials facility in Santa Clara, Calif. DAVID PAUL MORRIS/\nBLOOMBERG\nAt Applied Materials AMAT -4.29% , there is a definite sense that one actually can\nhave too much of a good thing.\nThe company, which makes the expensive equipment used to produce semiconductors\nas well as displays for TVs and smartphones, is a well established giant in what\ntypically has been a highly cyclical industry. Its business depends on the spending\npatterns of a few large customers who write big checks so periods of boom naturally\nhave been followed by some pretty significant busts.\nFears of a downturn have subsided somewhat over the past year as Applied has\nhttps://www.wsj.com/articles/applied-materials-storm-ahead-of-the-calm-1487365883 Page 1 of 3\nApplied Materials: Storm Ahead of the Calm - WSJ 2026-08-29, 7:23 PM\nenjoyed steadily strong demand across different customer groups, including OLED\ndisplay makers reportedly gearing up for the next iPhone. But a sharp jump in new\nequipment orders for the fiscal first quarter reported Wednesday renewed some\nconcerns. Orders jumped 86% year over year to a record of $4.2 billion. That is the\nbiggest surge Applied has seen in seven years, according to data from Capital IQ.\nThat has analysts worried about an inevitable slowdown, as Applied’s customers\ndigest those purchases. Wall Street is expecting new equipment orders to fall over the\nnext two quarters, based on FactSet. The stock, which has doubled in value over the\npast year, slipped a bit after the report.\nBut investors shouldn’t be too worried. Even if near-term orders moderate, analysts\nsee strong drivers that will keep sales growing over the next three years. Timothy\nArcuri of Cowen & Co. also projects “massive increases” in capital return supported\nby growing free cash flow. And, at 13.8 times forward earnings, Applied trades at a\ndiscount to peers and to its own five-year average of 15 times. Not a bad place to stack\nup a few more chips.\nWrite to Dan Gallagher at dan.gallagher@wsj.com\nAppeared in the February 18, 2017, print edition as 'Storm Ahead Of the Calm For Applied'.\nhttps://www.wsj.com/articles/applied-materials-storm-ahead-of-the-calm-1487365883 Page 2 of 3\nApplied Materials: Storm Ahead of the Calm - WSJ 2026-08-29, 7:23 PM\nhttps://www.wsj.com/articles/applied-materials-storm-ahead-of-the-calm-1487365883 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "AMAT_2017q2": {
+    "ticker": "AMAT",
+    "group": "Group 2",
+    "company_name": "Applied Materials",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-05-18",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Expectations were extremely high after record Q1 orders. Investors wanted evidence that record bookings were converting into revenue without a deterioration in margin or forward demand.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Applied Materials: Applied Materials Delivers Record Earnings Per Share",
+                  "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-record-earnings-share"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q2 revenue increased **45% to a record $3.55 billion** and non-GAAP EPS rose **132% to $0.79**. Gross margin expanded to **46.3%** on a non-GAAP basis, while operating margin reached **27.8%**. Applied generated $898 million of operating cash flow.",
+              "sources": []
+            },
+            {
+              "text": "Management said its markets were “strong and getting stronger” and guided Q3 to continued revenue and EPS growth. Contemporaneous coverage reported that AMAT shares moved higher after the release and outlook topped expectations. This is important because the supplied `ret_1daypost_pct` field is negative; the verified market reaction was positive.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Applied Materials: Applied Materials Delivers Record Revenue and Earnings Per Share",
+                  "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-record-revenue-and-earnings-share"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares rose because Applied delivered record revenue/EPS and a strong outlook.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Margin expansion showed that the up-cycle was improving profitability, not just sales.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Strength across semiconductor and display markets supported confidence that demand was broad-based.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "InvestorPlace: Applied Materials Stock Is the REAL Winner in Semiconductors",
+                  "url": "https://investorplace.com/2017/05/applied-materials-inc-amat-stock-is-the-real-winner-in-semiconductors/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "The **market-reaction direction in this narrative comes from the contemporaneous reaction source**, not automatically from the supplied return columns. For this event, verified direction = **UP**; supplied `ret_1daypost_pct` direction = **DOWN**; consistency = **MISMATCH**.",
+              "sources": []
+            },
+            {
+              "text": "All included sources were checked for Applied Materials/AMAT identity, exact event, publication date, timing window and source origin. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Applied Materials: Applied Materials Delivers Record Earnings Per Share",
+          "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-record-earnings-share"
+        },
+        {
+          "label": "Applied Materials: Applied Materials Delivers Record Revenue and Earnings Per Share",
+          "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-record-revenue-and-earnings-share"
+        },
+        {
+          "label": "InvestorPlace: Applied Materials Stock Is the REAL Winner in Semiconductors",
+          "url": "https://investorplace.com/2017/05/applied-materials-inc-amat-stock-is-the-real-winner-in-semiconductors/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The Heard on the Street column reports that Applied Materials posted another strong quarterly report, released late Thursday, along with a forecast that easily topped Wall Street's expectations. Revenue surged 45% year over year to $3.5 billion, and operating income more than doubled to $940 million, giving the quarter ended April 30 an operating margin of 27% -- the company's highest in at least seven years, according to Capital IQ data. The column notes the stock had risen over the prior 18 months to Thursday's closing price of $43.91 from around $15, part of a broader rally in chip-equipment names tracking strong purchasing activity from customers such as Samsung, Intel and TSMC, which are racing to keep up with demand for components including memory chips and OLED smartphone displays; Applied's Flash memory equipment sales jumped 19% year over year to about $793 million. The column observes that with the share price at its highest level in 17 years, fears of a cyclical downturn would be understandable, but argues that pricing and demand for Flash and DRAM memory were expected to stay strong through the year and that Applied's own forecast projected another quarter of solid double-digit growth, with the stock's forward earnings multiple of about 15.6 times still in line with the PHLX Semiconductor Index.",
+      "why_moved": "The article does not report how shares specifically reacted to this earnings release; it discusses the stock's roughly 18-month climb to Thursday's closing price of $43.91 ahead of the report but does not state a price move tied to the announcement itself.",
+      "sources": [
+        {
+          "filename": "Applied Materials: Plenty of Flash Left in the Pan - WSJ.pdf",
+          "title": "HEARD ON THE STREET Follow Applied Materials: Plenty of Flash Left in the Pan Semiconductor-tool maker posts another strong quarter and forecast—easing fears of a peak",
+          "published_date": "2017-05-18",
+          "text": "Applied Materials: Plenty of Flash Left in the Pan - WSJ 2026-08-29, 7:23 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/applied-materials-plenty-of-flash-left-in-the-pan-1495145542\nHEARD ON THE STREET Follow\nApplied Materials: Plenty of Flash Left in the Pan\nSemiconductor-tool maker posts another strong quarter and forecast—easing fears of a\npeak\nBy Dan Gallagher\nMay 18, 2017 at 6:12 pm ET\nInvestors worried about developing a case of altitude sickness with Applied Materials\nAMAT -4.29% can breath a little easier now.\nThe maker of semiconductor-manufacturing gear posted another strong quarterly\nreport late Thursday, along with a forecast that easily topped Wall Street’s\nexpectations. Revenue surged 45% year over year, to $3.5 billion, and operating\nincome more than doubled, to $940 million. Applied’s operating margin of 27% for the\nquarter ended April 30 was the company’s highest in at least seven years, according to\ndata from Capital IQ.\nThat will come as some relief to investors who have been rallying around the once-\ntemperamental stock. Over the last 18 months, Applied has risen to Thursday’s closing\nprice of $43.91 from around $15. This has tracked a generally strong interest in chip-\nequipment companies that have been buoyed by strong purchasing activity from their\ncustomers.\nThose customers, like Samsung, Intel and TSMC, are rushing to keep up with demand\nfor components such as memory chips and organic light emitting diode, or OLED,\ndisplays for smartphones. Applied’s sales of Flash memory equipment jumped 19%\nyear over year to about $793 million.\nhttps://www.wsj.com/articles/applied-materials-plenty-of-flash-left-in-the-pan-1495145542 Page 1 of 3\nApplied Materials: Plenty of Flash Left in the Pan - WSJ 2026-08-29, 7:23 PM\nApplied’s share price is now at its highest\nmark in 17 years, which will likely spark\nunderstandable fears of a downturn given\nthe cyclical nature of this industry. But\npricing and demand for Flash and DRAM\nmemory are expected to stay strong\nthroughout the year, and Applied’s own\nforecast projects yet another quarter of solid\nAn Applied Materials Inc. sign outside a facility in\ndouble-digit growth.\nSanta Clara, Calif. DAVID PAUL MORRIS/\nBLOOMBERG NEWS\nThe company’s expanded earnings have kept\nthe multiple in check at around 15.6 times forward earnings—in line with the PHLX\nSemiconductor Index. Applied’s peak, in other words, isn’t yet at hand.\nWrite to Dan Gallagher at dan.gallagher@wsj.com\nhttps://www.wsj.com/articles/applied-materials-plenty-of-flash-left-in-the-pan-1495145542 Page 2 of 3\nApplied Materials: Plenty of Flash Left in the Pan - WSJ 2026-08-29, 7:23 PM\nhttps://www.wsj.com/articles/applied-materials-plenty-of-flash-left-in-the-pan-1495145542 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "The Dow Jones Newswires Market Talk item reports that Applied Materials delivered stronger-than-expected quarterly results, with adjusted earnings of 79 cents per share on revenue of $3.55 billion, topping analyst expectations of 76 cents and $3.54 billion. The article emphasizes that management's guidance for the current period was equally upbeat, with projected adjusted EPS of 79 to 87 cents and revenue of $3.6 billion to $3.75 billion, both above consensus analyst estimates. It frames the beat-and-raise as a reflection of strong demand across the semiconductor and display-manufacturing equipment markets the company serves, noting Applied Materials makes the sophisticated equipment used in chip production as well as in television and smartphone display manufacturing. The piece also notes the stock had already climbed roughly 36% year-to-date through the regular session close on the day of the report, underscoring the strength of the run heading into the print.",
+      "why_moved": "The article states that Applied Materials shares rose 3% to $45.17 in after-hours trading following the release. It ties this reaction directly to the quarter's earnings and revenue beat combined with third-quarter guidance that came in above Wall Street's consensus on both the top and bottom lines.",
+      "sources": [
+        {
+          "title": "Applied Materials Beats Street, 3Q View Tops Consensus -- Market Talk",
+          "url": "https://www.foxbusiness.com/features/applied-materials-beats-street-3q-view-tops-consensus-market-talk"
+        }
+      ]
+    }
+  },
+  "AMAT_2017q3": {
+    "ticker": "AMAT",
+    "group": "Group 2",
+    "company_name": "Applied Materials",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-08-17",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Applied entered Q3 after four consecutive record-earnings quarters. The main risk was that investors might view the semiconductor cycle as peaking despite continued strength in memory and display spending.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Applied Materials: Applied Materials Delivers Record Revenue and Earnings Per Share",
+                  "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-record-revenue-and-earnings-share"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q3 revenue rose **33% to a record $3.74 billion**, GAAP EPS increased **85% to $0.85**, and non-GAAP EPS rose **72% to $0.86**. Operating cash flow reached a record **$1.37 billion**, equal to 36% of revenue.",
+              "sources": []
+            },
+            {
+              "text": "Management guided fiscal Q4 revenue to **$3.85–$4.0 billion** and non-GAAP EPS to **$0.86–$0.94**, both above expectations. DRAM and OLED demand were highlighted by contemporaneous analyst coverage. The result indicated that the cycle was still expanding rather than plateauing.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Applied Materials: Applied Materials Delivers the Best Quarter in Its 50-Year History",
+                  "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-best-quarter-its-50-year-history"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock rose because earnings beat and Q4 guidance exceeded expectations.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** DRAM and OLED spending added breadth to the already-strong NAND cycle.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Record cash generation strengthened confidence in the quality of earnings.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: Applied Materials Stock to Rally More Than 40%: Analysts",
+                  "url": "https://www.thestreet.com/investing/stocks/applied-materials-stock-can-rally-more-than-40-analysts-14276253"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "The **market-reaction direction in this narrative comes from the contemporaneous reaction source**, not automatically from the supplied return columns. For this event, verified direction = **UP**; supplied `ret_1daypost_pct` direction = **UP**; consistency = **MATCH**.",
+              "sources": []
+            },
+            {
+              "text": "All included sources were checked for Applied Materials/AMAT identity, exact event, publication date, timing window and source origin. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Applied Materials: Applied Materials Delivers Record Revenue and Earnings Per Share",
+          "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-record-revenue-and-earnings-share"
+        },
+        {
+          "label": "Applied Materials: Applied Materials Delivers the Best Quarter in Its 50-Year History",
+          "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-best-quarter-its-50-year-history"
+        },
+        {
+          "label": "TheStreet: Applied Materials Stock to Rally More Than 40%: Analysts",
+          "url": "https://www.thestreet.com/investing/stocks/applied-materials-stock-can-rally-more-than-40-analysts-14276253"
+        }
+      ]
+    },
+    "wsj": null,
+    "djnw": {
+      "summary_analysis": "This is Dow Jones Newswires market-roundup coverage of a broader U.S. stock selloff on August 18, 2017, rather than a dedicated Applied Materials earnings story, so the company's mentions are limited to a few lines within the wider piece. The article describes major indexes opening lower that Friday, extending losses from the prior session's sharp decline, which it attributes to a terrorist attack in Barcelona and rumors (later denied by the White House) that economic adviser Gary Cohn planned to resign. Within that context, the article singles out Applied Materials as a notable counterpoint to the market's weakness, describing it as a chip-equipment supplier whose shares climbed after it released quarterly results that exceeded expectations. The piece explicitly credits those gains with helping to limit losses on the tech-heavy Nasdaq that day.",
+      "why_moved": "The article states that Applied Materials shares climbed 4.4% after the company released quarterly results that exceeded expectations, and it says those gains were helping to limit the Nasdaq's losses amid the broader market selloff. No further detail on the earnings themselves is given in this roundup piece.",
+      "sources": [
+        {
+          "title": "Stock market extends losses after worst one-day tumble in 3 months",
+          "url": "https://www.foxbusiness.com/markets/stock-market-extends-losses-after-worst-one-day-tumble-in-3-months.amp"
+        }
+      ]
+    }
+  },
+  "AMAT_2017q4": {
+    "ticker": "AMAT",
+    "group": "Group 2",
+    "company_name": "Applied Materials",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-11-16",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "By fiscal Q4, the stock had roughly doubled over the prior year. The fundamental backdrop remained strong, but the valuation embedded expectations for another beat-and-raise.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Applied Materials: Applied Materials Delivers the Best Quarter in Its 50-Year History",
+                  "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-best-quarter-its-50-year-history"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Applied reported record quarterly revenue of **$3.97 billion**, up **20%**, and non-GAAP EPS of **$0.93**, up 41%. Full-year revenue and operating profit reached records across all major segments, while year-end backlog rose **32% to $6.03 billion**.",
+              "sources": []
+            },
+            {
+              "text": "Management’s outlook remained upbeat, emphasizing AI, high-performance computing, memory and display technology transitions. Schaeffer’s reported AMAT hitting a **record high** the next morning after another earnings beat and favorable forecast. Again, this verified reaction conflicts with the negative supplied `ret_1daypost_pct` field.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Applied Materials: Applied Materials Delivers All-Time Record Performance",
+                  "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-all-time-record-performance"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares rose because another record quarter and favorable guidance sustained the growth thesis.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Record backlog reduced concern that the equipment cycle was about to roll over.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** AI, memory and advanced-display spending broadened the long-term narrative beyond a normal cyclical peak.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "Schaeffer's Investment Research: SPLK, AMAT Stocks Rally After Earnings; Shoe Carnival Stock Burns Shorts",
+                  "url": "https://www.schaeffersresearch.com/content/news/2017/11/17/splk-amat-stocks-rally-after-earnings-shoe-carnival-stock-burns-shorts"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "The **market-reaction direction in this narrative comes from the contemporaneous reaction source**, not automatically from the supplied return columns. For this event, verified direction = **UP**; supplied `ret_1daypost_pct` direction = **DOWN**; consistency = **MISMATCH**.",
+              "sources": []
+            },
+            {
+              "text": "All included sources were checked for Applied Materials/AMAT identity, exact event, publication date, timing window and source origin. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Applied Materials: Applied Materials Delivers the Best Quarter in Its 50-Year History",
+          "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-best-quarter-its-50-year-history"
+        },
+        {
+          "label": "Applied Materials: Applied Materials Delivers All-Time Record Performance",
+          "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-all-time-record-performance"
+        },
+        {
+          "label": "Schaeffer's Investment Research: SPLK, AMAT Stocks Rally After Earnings; Shoe Carnival Stock Burns Shorts",
+          "url": "https://www.schaeffersresearch.com/content/news/2017/11/17/splk-amat-stocks-rally-after-earnings-shoe-carnival-stock-burns-shorts"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The Heard on the Street column reports that Applied Materials' fiscal fourth-quarter earnings report, released Thursday, showed revenue up 20% year over year to $3.97 billion, marking the company's sixth consecutive quarter of double-digit sales growth, helped by strong memory-chip prices and growing demand for display production equipment. Operating income hit a record $1.1 billion, up 41% year over year. The column reports that CEO Gary Dickerson gave an early look at fiscal 2018, saying the company was \"confident\" in delivering \"strong double-digit growth\" for the year, with the fiscal first quarter, ending in January, expected to see revenue grow about 25% at the midpoint of guidance, exceeding the 21% growth analysts had expected. It notes the chip-equipment business remains highly cyclical, dependent on a handful of large customers who can curtail spending quickly, but that the largest chip makers are still catching up to soaring demand while upgrading their manufacturing lines; it cites Samsung Electronics having boosted planned 2017 capital expenditures on semiconductor and display equipment to more than $26 billion, up from about $11.4 billion the prior year, an estimate attributed to Wes Twigg of KeyBanc Capital Markets.",
+      "why_moved": "The article does not report a specific share-price reaction to this earnings release. It notes only that Applied's shares were up nearly 80% for the year at that point, and closes by suggesting the strong results should reassure investors who had shifted from fear of missing out to fear of staying in too long, without stating how the stock moved in response to the report itself.",
+      "sources": [
+        {
+          "filename": "Applied Materials Tools Up for More Chip Demand - WSJ.pdf",
+          "title": "HEARD ON THE STREET Follow Applied Materials Tools Up for More Chip Demand Spending cycle by chip makers expected to stay strong into next year",
+          "published_date": "2017-11-16",
+          "text": "Applied Materials Tools Up for More Chip Demand - WSJ 2026-08-29, 7:25 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/applied-materials-tools-up-for-more-chip-demand-1510872281\nHEARD ON THE STREET Follow\nApplied Materials Tools Up for More Chip Demand\nSpending cycle by chip makers expected to stay strong into next year\nBy Dan Gallagher\nNov. 16, 2017 at 5:50 pm ET\nEven Applied Materials AMAT -4.29% knows the party can’t last forever. But the\ncompany doesn’t see the bash ending anytime soon.\nIn its fiscal fourth quarter earnings report Thursday, the maker of semiconductor\nmanufacturing gear showed revenue jumping 20% year over year to $3.97 billion. That\nmakes for the company’s sixth straight quarter of double-digit sales growth, helped\nby strong prices for memory chips as well as growing demand for display production\nequipment. Operating income hit a record of $1.1 billion, up 41% year over year.\nApplied Materials gave an early peek into fiscal 2018. CEO Gary Dickerson said the\ncompany is “confident” in delivering “strong double-digit growth” for the year. The\nfirst quarter, ending in January, is expected to see revenue grow about 25% at the\nmidpoint of the company’s forecast, exceeding the 21% growth expected by analysts.\nChip equipment is a highly cyclical business that depends on a handful of large\ncustomers who tend to curtail their spending quickly when demand shifts. That\ndynamic hasn’t gone away, but the largest chip makers are still working to catch up\nwith soaring demand as well as update their manufacturing lines with the latest\nprocesses. Last month, Samsung Electronics boosted its planned capital expenditures\nto more than $26 billion in semiconductor and display for this year. That compares\nwith about $11.4 billion spent in these areas last year, estimates Wes Twigg of\nhttps://www.wsj.com/articles/applied-materials-tools-up-for-more-chip-demand-1510872281 Page 1 of 2\nApplied Materials Tools Up for More Chip Demand - WSJ 2026-08-29, 7:25 PM\nKeyBanc Capital Markets.\nApplied’s shares are up nearly 80% already this year. The results should help investors\nfor whom the fear of missing out has been supplanted by the fear of staying in too\nlong.\nWrite to Dan Gallagher at dan.gallagher@wsj.com\nAppeared in the November 17, 2017, print edition as 'Applied Materials Tools Up'.\nDan Gallagher is a former columnist for The Wall Street Journal’s Heard on the Street, where he covered the\ntechnology and media industries. His work for the Heard column spanned the businesses of artificial intelligence,\nsemiconductors, internet, software, hardware, advertising, streaming TV and film. Dan also wrote WSJ's AI &…\nBusiness newsletter.\nHeF joollionwed the column in 2013 after nearly two decades covering tech as a news reporter—starting well before\nsmartphones got smart.\nDan previously spent 10 years at MarketWatch, where he built a data news team and served as technology editor.\nhttps://www.wsj.com/articles/applied-materials-tools-up-for-more-chip-demand-1510872281 Page 2 of 2"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "AMAT_2018q1": {
+    "ticker": "AMAT",
+    "group": "Group 2",
+    "company_name": "Applied Materials",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-02-14",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Investors entered fiscal Q1 debating whether semiconductor-equipment spending was near a cyclical top. Applied needed to show that AI, big data, memory and OLED transitions could support another year of growth.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Applied Materials: Applied Materials Delivers All-Time Record Performance",
+                  "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-all-time-record-performance"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q1 revenue rose **28% to a record $4.20 billion**, while non-GAAP EPS increased **58% to $1.06**, above consensus. Non-GAAP operating income grew 46% and operating cash flow increased **85% to $1.47 billion**.",
+              "sources": []
+            },
+            {
+              "text": "Applied also **doubled its quarterly dividend to $0.20** and added **$6 billion** to its share-repurchase authorization. Management said all three major business segments could deliver strong double-digit growth in 2018. The stock initially sold off the next morning but recovered and finished the session sharply higher.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Applied Materials: Applied Materials Delivers Strong Year-on-Year Growth in Quarterly Revenue and Operating Profit",
+                  "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-strong-year-year-growth-quarterly/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares ultimately rose because the beat-and-raise quarter confirmed strong growth and cash generation.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** The dividend doubling and larger buyback materially strengthened capital returns.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Broad segment growth reduced fears that the cycle depended on a single end market.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "InvestorPlace: Applied Materials Stock Is a Screaming Buy Right Now!",
+                  "url": "https://investorplace.com/2018/02/applied-materials-amat-stock-screaming-buy/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "The **market-reaction direction in this narrative comes from the contemporaneous reaction source**, not automatically from the supplied return columns. For this event, verified direction = **UP**; supplied `ret_1daypost_pct` direction = **UP**; consistency = **MATCH**.",
+              "sources": []
+            },
+            {
+              "text": "All included sources were checked for Applied Materials/AMAT identity, exact event, publication date, timing window and source origin. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Applied Materials: Applied Materials Delivers All-Time Record Performance",
+          "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-all-time-record-performance"
+        },
+        {
+          "label": "Applied Materials: Applied Materials Delivers Strong Year-on-Year Growth in Quarterly Revenue and Operating Profit",
+          "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-strong-year-year-growth-quarterly/"
+        },
+        {
+          "label": "InvestorPlace: Applied Materials Stock Is a Screaming Buy Right Now!",
+          "url": "https://investorplace.com/2018/02/applied-materials-amat-stock-screaming-buy/"
+        }
+      ]
+    },
+    "wsj": null,
+    "djnw": null
+  },
+  "AMAT_2018q2": {
+    "ticker": "AMAT",
+    "group": "Group 2",
+    "company_name": "Applied Materials",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-05-17",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "By May, concern was shifting from the strength of the current semiconductor cycle to the timing of future customer projects—especially OLED displays and NAND capacity for high-end smartphones.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Applied Materials: Applied Materials Delivers Strong Year-on-Year Growth in Quarterly Revenue and Operating Profit",
+                  "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-strong-year-year-growth-quarterly/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q2 revenue rose **29% to a record $4.57 billion** and non-GAAP EPS increased **54% to $1.22**, both above consensus. Non-GAAP operating margin reached **30.2%**, and Applied returned **$2.6 billion** to shareholders during the quarter.",
+              "sources": []
+            },
+            {
+              "text": "Despite the excellent reported numbers, management’s Q3 revenue outlook of **$4.33–$4.53 billion** disappointed investors, and management discussed delays/slower spending in display and memory projects tied to high-end smartphones. The market treated this as an inflection in the forward demand cycle rather than a problem with the just-reported quarter.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Applied Materials: Applied Materials Delivers Strong Year-On-Year Growth in Quarterly Revenue and Earnings Per Share",
+                  "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-strong-year-year-growth-quarterly-1/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares plunged because the forward revenue outlook and smartphone-related display/memory commentary disappointed.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** The selloff occurred despite a clear current-quarter beat, making this a forward-cycle reset.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Concerns about OLED/display timing and NAND project delays raised fears that peak equipment growth was passing.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Why Shares of Applied Materials, Inc. Plunged 10% Today",
+                  "url": "https://www.fool.com/investing/2018/05/18/why-shares-of-applied-materials-inc-plunged-10-tod.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "The **market-reaction direction in this narrative comes from the contemporaneous reaction source**, not automatically from the supplied return columns. For this event, verified direction = **DOWN**; supplied `ret_1daypost_pct` direction = **DOWN**; consistency = **MATCH**.",
+              "sources": []
+            },
+            {
+              "text": "All included sources were checked for Applied Materials/AMAT identity, exact event, publication date, timing window and source origin. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Applied Materials: Applied Materials Delivers Strong Year-on-Year Growth in Quarterly Revenue and Operating Profit",
+          "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-strong-year-year-growth-quarterly/"
+        },
+        {
+          "label": "Applied Materials: Applied Materials Delivers Strong Year-On-Year Growth in Quarterly Revenue and Earnings Per Share",
+          "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-strong-year-year-growth-quarterly-1/"
+        },
+        {
+          "label": "The Motley Fool: Why Shares of Applied Materials, Inc. Plunged 10% Today",
+          "url": "https://www.fool.com/investing/2018/05/18/why-shares-of-applied-materials-inc-plunged-10-tod.aspx"
+        }
+      ]
+    },
+    "wsj": null,
+    "djnw": null
+  },
+  "AMAT_2018q3": {
+    "ticker": "AMAT",
+    "group": "Group 2",
+    "company_name": "Applied Materials",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-08-16",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After May’s guidance-driven collapse, investors needed evidence that the slowdown was temporary. Foundry, memory and display customer timing had become the central risk.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Applied Materials: Applied Materials Delivers Strong Year-On-Year Growth in Quarterly Revenue and Earnings Per Share",
+                  "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-strong-year-year-growth-quarterly-1/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q3 revenue increased **19% to $4.47 billion** and non-GAAP EPS rose **40% to $1.20**, both better than consensus. Applied Global Services and Display posted record revenue and operating income, while the company returned **$1.45 billion** to shareholders.",
+              "sources": []
+            },
+            {
+              "text": "The problem again was the outlook. Management acknowledged **near-term adjustments in customer spending**, and fiscal Q4 guidance was below what investors wanted. Contemporaneous analyst commentary cited uncertainty in memory and foundry spending and customer shipment timing. The second consecutive weak guide confirmed that the slowdown was broader than a single-quarter display issue.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Applied Materials: Applied Materials Delivers Strong Year-On-Year Growth in Quarterly Revenue and Operating Income",
+                  "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-strong-year-year-growth-quarterly-2/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares fell sharply because weak Q4 guidance outweighed the earnings beat.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Memory and foundry spending uncertainty made the slowdown look broader than the May display issue.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Record services/display results supported the long-term story but could not offset near-term capex-cycle concerns.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Why Applied Materials, Tesla, and Dean Foods Slumped Today",
+                  "url": "https://www.fool.com/investing/2018/08/17/why-applied-materials-tesla-and-dean-foods-slumped.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "The **market-reaction direction in this narrative comes from the contemporaneous reaction source**, not automatically from the supplied return columns. For this event, verified direction = **DOWN**; supplied `ret_1daypost_pct` direction = **DOWN**; consistency = **MATCH**.",
+              "sources": []
+            },
+            {
+              "text": "All included sources were checked for Applied Materials/AMAT identity, exact event, publication date, timing window and source origin. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Applied Materials: Applied Materials Delivers Strong Year-On-Year Growth in Quarterly Revenue and Earnings Per Share",
+          "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-strong-year-year-growth-quarterly-1/"
+        },
+        {
+          "label": "Applied Materials: Applied Materials Delivers Strong Year-On-Year Growth in Quarterly Revenue and Operating Income",
+          "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-delivers-strong-year-year-growth-quarterly-2/"
+        },
+        {
+          "label": "The Motley Fool: Why Applied Materials, Tesla, and Dean Foods Slumped Today",
+          "url": "https://www.fool.com/investing/2018/08/17/why-applied-materials-tesla-and-dean-foods-slumped.aspx"
+        }
+      ]
+    },
+    "wsj": null,
+    "djnw": null
+  }
+}

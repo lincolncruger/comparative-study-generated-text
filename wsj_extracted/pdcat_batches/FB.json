@@ -1,0 +1,1163 @@
+{
+  "FB_2016q2": {
+    "ticker": "FB",
+    "group": "Group 1",
+    "company_name": "Meta Platforms",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-27",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Facebook entered Q1 with extraordinary mobile-ad momentum and accelerating user engagement. The main question was whether the company could keep monetizing mobile at very high rates while maintaining user growth and margins.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Facebook / Meta IR: Facebook Reports Fourth Quarter and Full Year 2015 Results",
+                  "url": "https://investor.atmeta.com/investor-news/press-release-details/2016/Facebook-Reports-Fourth-Quarter-and-Full-Year-2015-Results/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Facebook reported **$5.38 billion of revenue**, up 52% year over year, and non-GAAP EPS of **$0.77**, both above consensus. Advertising revenue rose sharply, with mobile already representing about **82% of ad revenue**. Monthly active users reached **1.65 billion** and daily active users **1.09 billion**, while net income expanded rapidly.",
+              "sources": []
+            },
+            {
+              "text": "The quarter was notable because growth was not coming from one metric alone: users, engagement, mobile monetization and margins all improved together. Facebook also proposed a new non-voting share class designed to preserve Mark Zuckerberg’s voting control, but the immediate market focus remained the operating beat.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Facebook / Meta IR: Facebook Reports First Quarter 2016 Results and Announces Proposal for New Class of Stock",
+                  "url": "https://investor.atmeta.com/investor-news/press-release-details/2016/Facebook-Reports-First-Quarter-2016-Results-and-Announces-Proposal-for-New-Class-of-Stock/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares surged because revenue, EPS and user growth all beat expectations.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Mobile advertising had become the dominant revenue engine and was still growing exceptionally fast.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Strong engagement showed monetization gains were not being achieved at the expense of user growth.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TechCrunch: Facebook swells to 1.65B users and beats Q1 estimates with $5.38B revenue",
+                  "url": "https://techcrunch.com/2016/04/27/facebook-q1-2016-earnings/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Facebook/FB identity, the correct earnings event, publication date, timing window and source origin. Facebook/Meta Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Facebook / Meta IR: Facebook Reports Fourth Quarter and Full Year 2015 Results",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2016/Facebook-Reports-Fourth-Quarter-and-Full-Year-2015-Results/default.aspx"
+        },
+        {
+          "label": "Facebook / Meta IR: Facebook Reports First Quarter 2016 Results and Announces Proposal for New Class of Stock",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2016/Facebook-Reports-First-Quarter-2016-Results-and-Announces-Proposal-for-New-Class-of-Stock/default.aspx"
+        },
+        {
+          "label": "TechCrunch: Facebook swells to 1.65B users and beats Q1 estimates with $5.38B revenue",
+          "url": "https://techcrunch.com/2016/04/27/facebook-q1-2016-earnings/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Facebook's first-quarter 2016 report, covered in both a news story and a Heard on the Street column, described a blowout quarter that stood in sharp contrast to weak results from Silicon Valley peers. Revenue rose 52% year over year to $5.38 billion, ahead of the $5.26 billion analysts polled by Thomson Reuters expected, while adjusted earnings of 77 cents a share beat the 62-cent consensus; GAAP net profit of $1.51 billion nearly tripled the $512 million earned a year earlier. Advertising revenue jumped 57% to $5.2 billion, with mobile ads making up roughly four-fifths of that total, and average revenue per user climbed 33% to $3.32 as monthly active users grew 15% to 1.65 billion. COO Sheryl Sandberg said growth was 'broad-based' but singled out video ads as a strong spot, while CFO David Wehner cautioned that growth rates could slow later in the year as the company faces tougher year-over-year comparisons against 2015's accelerating ad revenue. The article explicitly frames Facebook's results as bucking a broader industry trend: Apple had just reported its first quarterly revenue decline in 13 years, Twitter's revenue fell short of expectations, and Alphabet had missed analysts' targets the week before. Facebook also announced a new nonvoting Class C share structure, mirroring a similar 2014 move by Google, that would let CEO Mark Zuckerberg sell or give away shares without diluting his majority voting control, a move he tied to his and his wife's pledge to give away 99% of their shares over their lifetimes.",
+      "why_moved": "Shares jumped 8.8% in after-hours trading, and the coverage ties that reaction directly to the scale of the beat described above: revenue and adjusted earnings both topped Wall Street's consensus figures at a moment when comparable tech giants were disappointing investors across the board. The Heard on the Street piece frames the governance news about the new nonvoting share class -- a move that could be read as entrenching Zuckerberg's control at shareholders' expense -- as unlikely to trouble investors specifically because the underlying business results were so strong, concluding that 'with Facebook's business hurtling forward, investors may not even notice a share-class speed bump.' In other words, the article explicitly subordinates the governance story to the earnings beat as the driver of the stock's reaction, even as it flags Zuckerberg's plan to sell up to $1 billion of stock annually as a longer-term overhang worth watching.",
+      "sources": [
+        {
+          "filename": "Facebook Results: Investors Like Living in Zuckerberg’s World - WSJ.pdf",
+          "title": "HEARD ON THE STREET Follow Facebook Results: Investors Like Living in Zuckerberg’s World Facebook’s new class of shares is a reminder of Mark Zuckerberg’s control, but company’s strong results mean investors don’t mind",
+          "published_date": "2016-04-27",
+          "text": "Facebook Results: Investors Like Living in Zuckerberg’s World - WSJ 2026-08-28, 4:36 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/facebook-results-investors-like-living-in-zuckerbergs-world-1461793800\nHEARD ON THE STREET Follow\nFacebook Results: Investors Like Living in\nZuckerberg’s World\nFacebook’s new class of shares is a reminder of Mark Zuckerberg’s control, but company’s\nstrong results mean investors don’t mind\nBy Miriam Gottfried\nApril 27, 2016 at 5:50 pm ET\nMark Zuckerberg maintains a unique control over Facebook. ERIC RISBERG/ASSOCIATED PRESS\nFacebook may be a public company, but it is Mark Zuckerberg’s public company.\nInvestors got a fresh reminder of that Wednesday when the company released\nblowout first-quarter results that contrasted sharply with earnings disappointments\nfrom other tech giants, such as Apple.\nThe social network said it would create a new class of nonvoting stock that would\nallow Mr. Zuckerberg, Facebook’s chief executive and founder, to sell shares without\nhttps://www.wsj.com/articles/facebook-results-investors-like-living-in-zuckerbergs-world-1461793800 Page 1 of 3\nFacebook Results: Investors Like Living in Zuckerberg’s World - WSJ 2026-08-28, 4:36 PM\ndiluting his majority voting control. The move comes after he and his wife announced\na plan in December to give away 99% of their shares during their lives.\nFor public investors, the fact Mr. Zuckerberg will be a seller of Facebook shares could\nput some pressure on the stock over the long term. He has said he plans to sell or give\naway no more than $1 billion of stock annually for the next three years.\nMany investors awoke to the power Mr. Zuckerberg has over the company’s direction\nwhen he decided to buy messaging service WhatsApp for what ended up being around\n$21 billion in stock. On a call Wednesday to discuss his company’s results, he argued\nthe company’s founder-controlled structure has helped it make big winning bets, such\nas its purchase of Instagram, and defend itself against takeover offers.\nIndeed, the news isn’t likely to faze investors for now, thanks to the strength of\nFacebook’s results. Even after a robust fourth quarter, the company managed to beat\nanalyst expectations.\nIt posted year-over-year revenue growth of 52% and earnings that nearly tripled.\nFacebook’s monthly active users grew 15% to 1.65 billion, and average revenue per\nuser climbed 33%, year over year to $3.32. Shares jumped in after-hours trading.\nWith Facebook’s business hurtling forward, investors may not even notice a share-\nclass speed bump.\nWrite to Miriam Gottfried at Miriam.Gottfried@wsj.com\nAppeared in the April 28, 2016, print edition as 'No Stopping Facebook’s Ad Machine'.\nMiriam Gottfried covers investing and wealth management for The Wall Street Journal's Personal Finance team in\nNew York and is co-host of WSJ's \"Take On the Week\" podcast, a weekly show about money and investing. Her\nreporting focuses on how individuals build and maintain their wealth.…\nMiriam spent more than eight years covering private equity and private markets for the Journal, following the\nFollow\nindustry as it evolved from targeting institutions and the super-wealthy to marketing its funds to the masses.\nBefore that, she wrote investment commentary for the Journal's Heard on the Street column, focusing on media,\nhttps://www.wsj.com/articles/facebook-results-investors-like-living-in-zuckerbergs-world-1461793800 Page 2 of 3\nFacebook Results: Investors Like Living in Zuckerberg’s World - WSJ 2026-08-28, 4:36 PM\nhttps://www.wsj.com/articles/facebook-results-investors-like-living-in-zuckerbergs-world-1461793800 Page 3 of 3"
+        },
+        {
+          "filename": "Facebook Revenue Soars on Ad Growth - WSJ.pdf",
+          "title": "Facebook Revenue Soars on Ad Growth Social network also announces proposal to create new class of nonvoting stock",
+          "published_date": "2016-04-28",
+          "text": "Facebook Revenue Soars on Ad Growth - WSJ 2026-08-28, 4:36 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/facebook-revenue-soars-on-ad-growth-1461787856\nTECH\nFacebook Revenue Soars on Ad Growth\nSocial network also announces proposal to create new class of nonvoting stock\nBy Deepa Seetharaman\nUpdated April 28, 2016 at 12:59 am ET\nFacebook Inc. reinforced its standing as a mobile-advertising powerhouse, nearly\ntripling its quarterly profit at a time when its Silicon Valley rivals are\nunderperforming.\nThe social network on Wednesday said advertising revenue jumped 57% in the first\nquarter to $5.2 billion from $3.3 billion. Mobile ads, which command a higher price\nthan those shown on desktops, accounted for roughly four-fifths of that revenue.\n“Businesses are no longer asking if they should market on mobile, they’re asking\nhow,” Chief Operating Officer Sheryl Sandberg said in an interview. “This is a shift\nthat we think we’re very well-positioned to take advantage of and build on.”\nFacebook’s user ranks grew to 1.65 billion from 1.44 billion in the first quarter last\nyear. The company derived more revenue from each of them—an average of $3.32,\ncompared with $2.50 a year earlier.\nThe stronger than expected results drove Facebook shares up 8.8% in after-hours\ntrading, lifting the company’s market valuation above $330 billion.\nFacebook also said its board had proposed creating a new class of nonvoting shares,\ndesigned to further cement founder and Chief Executive Mark Zuckerberg’s control\nover the company. The new Class C shares would have the same economic rights as\nhttps://www.wsj.com/articles/facebook-revenue-soars-on-ad-growth-1461787856?mod=djemalertTECH&mod=article_inline Page 1 of 5\nFacebook Revenue Soars on Ad Growth - WSJ 2026-08-28, 4:36 PM\nother shares but wouldn’t have voting rights, allowing Facebook to distribute them to\nemployees and through acquisitions without diluting Mr. Zuckerberg’s control.\nGoogle—now Alphabet Inc.—made a similar move in 2014.\nFacebook’s results bucked a trend of disappointing results from other tech companies.\nTuesday, Apple Inc. reported its first quarterly drop in revenue in 13 years, while\nTwitter Inc.’s first-quarter revenue fell short of expectations. Alphabet missed\nanalysts’ expectations last week.\nThe results offered further evidence that Facebook is gaining traction with\nadvertisers at a time when many are shifting funds from their print and television\nbudgets to digital offerings. Ad companies, including Interpublic Group’s Magna\nGlobal, project digital media will surpass television as the world’s largest advertising\nmedium as soon as next year.\nFacebook is expected to garner about 12% of the $186.8 billion global digital-\nadvertising market this year, up from 10.7% last year and 8.6% in 2014, according to\ndata firm eMarketer. By contrast, Google’s share is projected to decline to 31% from\n33% in 2015 and 35% two years ago.\nMs. Sandberg said Facebook’s revenue growth was “broad-based” but highlighted\nvideo ads as a strong spot. Not all video ad revenue is “incremental” because such ads\ntake the place of others in the Facebook news feed, she added.\nFor the quarter, Facebook reported net profit of $1.51 billion, or 52 cents a share—\nalmost triple the $512 million, or 18 cents a share, it earned in the same period a year\nearlier.\nExcluding certain expenses, the company said it would have earned 77 cents a share,\nup from 42 cents a year earlier. Analysts polled by Thomson Reuters were expecting\n62 cents a share on that basis.\nRevenue rose 52% to $5.38 billion from $3.54 billion. Analysts expected revenue of\nhttps://www.wsj.com/articles/facebook-revenue-soars-on-ad-growth-1461787856?mod=djemalertTECH&mod=article_inline Page 2 of 5\nFacebook Revenue Soars on Ad Growth - WSJ 2026-08-28, 4:36 PM\n$5.26 billion.\nFacebook said average ad prices increased 5% in the first quarter, as advertisers\nbought more mobile ads. Marketing-technology company Kenshoo said mobile ads\ncost about $4.39 per 1,000 impressions in the first quarter, more than double the $2.17\ncost on desktop.\nOver the past year, Facebook has launched several new ad types, such as dynamic\nproduct ads, which allow users to scroll through items in a company’s product catalog.\nIt also made it easier for companies to buy ads on its Instagram image-sharing\nnetwork; those ads are inserted in users’ feeds. In a note, Piper Jaffray analyst Gene\nMunster said Instagram ads accounted for the increased share of revenue on mobile\ndevices.\nThe company is “definitely” showing more ads to users compared with a few years\nago, Chief Financial Officer David Wehner told investors on a conference call, without\nsharing a specific figure. Mr. Wehner said Facebook’s ability to target ads allowed the\ncompany to show more ads without frustrating users.\nVideo ads gained momentum as well. Facebook has been vying for a piece of television\nad budgets by promoting high-quality video content in its news feed. Video ads on\nFacebook cost about $4 per 1,000 views during the first quarter, up from $3.44 a year\nago and higher than the $3.14 average across Facebook, according to data analyzed by\nKenshoo.\nMr. Wehner offered a cautionary note on the conference call, warning that growth\nrates may slow later in the year. “We expect that the main drivers of advertising\nrevenue growth will continue throughout 2016, but we will face tougher comparable\nas the year progresses given the accelerating ad revenue growth we experienced\nthroughout 2015,” he said.\nFacebook’s spending on capital projects, including new data centers in Texas and\nhttps://www.wsj.com/articles/facebook-revenue-soars-on-ad-growth-1461787856?mod=djemalertTECH&mod=article_inline Page 3 of 5\nFacebook Revenue Soars on Ad Growth - WSJ 2026-08-28, 4:36 PM\nIreland, more than doubled, to $1.1 billion in the quarter. Mr. Wehner said capital\nexpenditures this year will be “at the high end” of Facebook’s projected $4 billion to\n$4.5 billion range.\nExecutives also faced questions about the way people use the social network.\nFacebook has been trying to encourage users to share more personal content, with\nnews feed prompts and tools to help users create content, such as a potential camera\napp under development. Mr. Zuckerberg said overall sharing as well as sharing per\nuser was up across Facebook and its suite of apps, but the way users are sharing has\nchanged. Some of that stems from users’ shift to mobile phones from desktops, he\nsaid. For example, people tend to share more videos from their mobile devices.\nWrite to Deepa Seetharaman at Deepa.Seetharaman@wsj.com\nCorrections & Amplifications:\nAn earlier version of this article incorrectly stated Sheryl Sandberg’s compensation.\nThe value of her total pay rose 20% to $18.7 million, not billion.\nAppeared in the April 28, 2016, print edition as 'Facebook Gains Defy Chill in Silicon Valley'.\nDeepa Seetharaman is a former reporter covering artificial intelligence from The Wall Street Journal’s tech bureau\nin San Francisco. Her stories explored the way AI is changing business and society.\nPreviously, she covered the intersection of technology and politics and was the Journal's beat reporter covering…\nFacebook (now Meta). She has written about Instagram's e\"ect on teen girls and how AI systems struggle with\nDeFeopllao wjoined the Journal in 2015 from Reuters, where she covered e-commerce, focusing on Amazon, as well as the\nracist and hateful content. She has covered antitrust issues and profiled some of the most influential executives in\nU.S. auto industry and labor unions. She has won several awards for her coverage including the George Polk Award\nSilicon Valley.\nfor Business Reporting and the Gerald Loeb Award in Beat Reporting.\nhttps://www.wsj.com/articles/facebook-revenue-soars-on-ad-growth-1461787856?mod=djemalertTECH&mod=article_inline Page 4 of 5\nFacebook Revenue Soars on Ad Growth - WSJ 2026-08-28, 4:36 PM\nhttps://www.wsj.com/articles/facebook-revenue-soars-on-ad-growth-1461787856?mod=djemalertTECH&mod=article_inline Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "FB_2016q3": {
+    "ticker": "FB",
+    "group": "Group 1",
+    "company_name": "Meta Platforms",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-07-27",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After the April blowout, the expectations bar rose sharply. Investors wanted evidence that Facebook could keep compounding users, mobile ad revenue and profit without an obvious slowdown.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Facebook / Meta IR: Facebook Reports First Quarter 2016 Results and Announces Proposal for New Class of Stock",
+                  "url": "https://investor.atmeta.com/investor-news/press-release-details/2016/Facebook-Reports-First-Quarter-2016-Results-and-Announces-Proposal-for-New-Class-of-Stock/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q2 revenue reached **$6.44 billion**, up **59%** year over year, while non-GAAP EPS was **$0.97** versus consensus around $0.82. Facebook reached **1.71 billion monthly users** and **1.13 billion daily users**; mobile ad revenue represented **84%** of advertising revenue.",
+              "sources": []
+            },
+            {
+              "text": "The quarter also showed very strong operating leverage. Advertising revenue increased 63%, while operating income more than doubled on a GAAP basis. That combination—very high revenue growth plus expanding profitability—made the result stronger than a simple user-growth story.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Facebook / Meta IR: Facebook Reports Second Quarter 2016 Results",
+                  "url": "https://investor.atmeta.com/investor-news/press-release-details/2016/Facebook-Reports-Second-Quarter-2016-Results/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** A broad revenue/EPS beat supported the positive post-release move.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Mobile monetization remained exceptionally strong even as Facebook’s user base became very large.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Rising engagement and operating leverage improved the quality of the growth.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Facebook Delivers a Blowout Quarter",
+                  "url": "https://www.fool.com/investing/2016/07/27/facebook-delivers-a-blowout-quarter.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Facebook/FB identity, the correct earnings event, publication date, timing window and source origin. Facebook/Meta Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Facebook / Meta IR: Facebook Reports First Quarter 2016 Results and Announces Proposal for New Class of Stock",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2016/Facebook-Reports-First-Quarter-2016-Results-and-Announces-Proposal-for-New-Class-of-Stock/default.aspx"
+        },
+        {
+          "label": "Facebook / Meta IR: Facebook Reports Second Quarter 2016 Results",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2016/Facebook-Reports-Second-Quarter-2016-Results/default.aspx"
+        },
+        {
+          "label": "The Motley Fool: Facebook Delivers a Blowout Quarter",
+          "url": "https://www.fool.com/investing/2016/07/27/facebook-delivers-a-blowout-quarter.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Facebook's second-quarter 2016 report described a company hitting profit milestones at an accelerating pace: quarterly profit crossed $2 billion for the first time, just six months after first crossing $1 billion, with net income of $2.06 billion (71 cents a share) nearly tripling the $719 million earned a year earlier. The article explicitly frames this against Google's history, noting both companies reached $2 billion in quarterly profit twelve years after founding, but where Google took three and a half years to go from $1 billion to $2 billion, Facebook did it in about six months. Monthly active users grew by 220 million to 1.71 billion, with more than 90% now on mobile, and mobile advertising -- which commands higher prices -- made up 84% of the quarter's $6.2 billion in ad sales; mobile ad revenue itself jumped 80%, faster than the company's overall 59% ad growth rate. Revenue per user rose to $3.82 from $2.76, helped by a 9% increase in average ad prices as users spent more time in the mobile app, where Facebook shows only higher-priced news feed ads rather than the lower-priced right-rail ads shown on desktop. The piece contrasts Facebook's momentum with struggling rivals: Twitter added just 9 million users while posting its smallest-ever quarterly revenue gain, and Yahoo generated only $504 million from its combined mobile, video, native and social ad business. Executives signaled the next growth lever is video, with CEO Mark Zuckerberg describing plans to make Facebook 'video-first' and predicting that within roughly five years most online consumption will be video, while also flagging that growth is expected to slow later in the year as comparisons against a stronger back half of 2015 get tougher.",
+      "why_moved": "Shares rose 3% to a new high of $127.06 in the trading session described in the article, crowning Facebook the fourth most valuable listed U.S. company at roughly $370 billion, and the piece ties this reaction to results that beat Wall Street's estimates on both the top and bottom lines, as its own headline states. The comparison to Twitter's and Yahoo's much weaker growth reinforces the article's framing, echoed by Ideal Asset Management's Rahul Shah, that Facebook was 'stealing ad dollars from every other source there is' rather than simply benefiting from overall market growth, undercutting the 'law of large numbers' concern that some investors might otherwise apply to a company already generating $2 billion in quarterly profit. The comparatively modest 3% single-day pop, smaller than some other Facebook earnings reactions in this period, is consistent with management's own guidance in the article that growth would decelerate later in the year as tougher 2015 comparisons set in.",
+      "sources": [
+        {
+          "filename": "Facebook Posts Strong Profit and Revenue Growth - WSJ.pdf",
+          "title": "Facebook Posts Strong Profit and Revenue Growth Shares climb as both the top and bottom lines beat Wall Street’s estimates",
+          "published_date": "2016-07-27",
+          "text": "Facebook Posts Strong Profit and Revenue Growth - WSJ 2026-08-28, 4:39 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/facebook-posts-strong-profit-and-revenue-growth-1469650289\nTECH\nFacebook Posts Strong Profit and Revenue Growth\nShares climb as both the top and bottom lines beat Wall Street’s estimates\nBy Deepa Seetharaman\nUpdated July 27, 2016 at 10:21 pm ET\nFacebook Inc.’s mobile bet has shrunk the time it takes the social network to leap from\none milestone to the next: On Wednesday, Facebook topped $2 billion in quarterly\nprofit, six months after crossing the billion dollar mark for the first time.\nThe number of new users—and the ad dollars that follow them—surged in the second\nquarter.\nFacebook added 220 million monthly active users in the past year, bringing the total\naudience to 1.71 billion users. More than 90% of Facebook’s users are on mobile\ndevices, where Facebook rakes in the bulk of its ad dollars.\nAdvertising on mobile devices accounted for 84% of Facebook’s $6.2 billion in\nadvertising sales in the latest quarter.\nRevenue generated from mobile ads jumped 80% in the second quarter, faster than\nFacebook’s overall 59% advertising growth rate.\n“Mobile continues to be the strength,” Facebook Chief Financial Officer Dave Wehner\nsaid in an interview.\nThe banner results drove Facebook’s shares to a new high, crowning it the fourth most\nvaluable listed company in the U.S. In Thursday trading, the stock price rose 3% to\n$127.06, giving the company a market capitalization of around $370 billion.\nhttps://www.wsj.com/articles/facebook-posts-strong-profit-and-revenue-growth-1469650289 Page 1 of 4\nFacebook Posts Strong Profit and Revenue Growth - WSJ 2026-08-28, 4:39 PM\nExecutives said they expect growth to slow over the rest of the year, as the company\nlaps the second half of 2015, when revenue growth began to accelerate. But it has its\nnext growth move planned: video.\nFor now, mobile is enabling an acceleration of growth. Facebook and Google—now\nknown as Alphabet Inc.—each hit $2 billion in quarterly profit 12 years after their\nfounding. But it took Google 3 ½ years to go from $1 billion to $2 billion—something\nFacebook accomplished in a half a year.\nThe social network said net income in the second quarter totaled $2.06 billion, or 71\ncents a share, nearly tripling the $719 million in profit a year ago.\nFacebook is outpacing its competitors in advertising and user growth.\nOn Tuesday, Twitter Inc. said it has added nine million users in the past year, as it\nreported its smallest quarterly gain in revenue. Yahoo Inc. generated $504 million in\nsales last quarter from its mobile, video, native and social ads.\nFacebook’s market share in mobile advertising, where it is the second-biggest player\nafter Google, is expected to jump to 12% this year from 8.6% two years ago, according\nto research firm eMarketer. Twitter and Yahoo both trail, with less than a 2% market\nshare this year.\n“There’s a common misconception that the law of large numbers will prevent\nFacebook from growing further,” said Rahul Shah, chief executive of Ideal Asset\nManagement, who says Facebook accounts for about 40% of his allocation. “But I\nthink what they’re missing is that they’re stealing ad dollars from every other source\nthere is. Pricing will continue to rise and they’ll continue to beat estimates.”\nFacebook generated $3.82 in revenue per user in the second quarter, up from $2.76 a\nyear ago. Its average price per ad rose 9% as users spent more time on their mobile\napp, where Facebook only shows higher-priced news feed ads, Mr. Wehner said.\nhttps://www.wsj.com/articles/facebook-posts-strong-profit-and-revenue-growth-1469650289 Page 2 of 4\nFacebook Posts Strong Profit and Revenue Growth - WSJ 2026-08-28, 4:39 PM\nOn desktop, Facebook shows a mix of news feed ads as well as lower-priced ads on the\nright-hand side of the news feed.\nFacebook’s success in mobile is the result of efforts started back in 2012, when the\ncompany was struggling with users’ transition to smartphones.\nAt the time, CEO Mark Zuckerberg told his team to prioritize mobile-first products,\nand said he kicked out anybody who proposed features tailored for desktop.\nWednesday, Mr. Zuckerberg said Facebook would apply that same focus to becoming\n“video-first.” The company is pouring big money into this effort and Mr. Zuckerberg\npredicted that within five years or so most of what people consume online will be\nvideo.\nFacebook will have to make it easier to watch videos as well as offer tools to create\nthem. Mr. Zuckerberg said the company is looking to build video products for its\nmessaging apps such as Facebook Messenger and WhatsApp, both of which have than\na billion users apiece.\nOver the past six months, the company has been promoting its live-video product,\nFacebook Live. Last month, The Wall Street Journal reported that Facebook was\npaying more than $50 million to nearly 140 media companies and public figures to\nbroadcast live.\nThis effort could help Facebook persuade advertisers to divert their television ad\nbudgets to buy video ads on the social network. Video is “one of the big things that if\nwe get right I think it’s going to unlock a lot of sharing and opportunity,” Mr.\nZuckerberg said.\nFacebook is testing models so creators can make money from videos posted on\nFacebook, but nothing has been widely rolled out.\nWrite to Deepa Seetharaman at Deepa.Seetharaman@wsj.com\nhttps://www.wsj.com/articles/facebook-posts-strong-profit-and-revenue-growth-1469650289 Page 3 of 4\nFacebook Posts Strong Profit and Revenue Growth - WSJ 2026-08-28, 4:39 PM\nAppeared in the July 28, 2016, print edition as 'Facebook Rides Mobile-Ad Surge'.\nDeepa Seetharaman is a former reporter covering artificial intelligence from The Wall Street Journal’s tech bureau\nin San Francisco. Her stories explored the way AI is changing business and society.\nPreviously, she covered the intersection of technology and politics and was the Journal's beat reporter covering…\nFacebook (now Meta). She has written about Instagram's e\"ect on teen girls and how AI systems struggle with\nDeFeopllao wjoined the Journal in 2015 from Reuters, where she covered e-commerce, focusing on Amazon, as well as the\nracist and hateful content. She has covered antitrust issues and profiled some of the most influential executives in\nU.S. auto industry and labor unions. She has won several awards for her coverage including the George Polk Award\nSilicon Valley.\nfor Business Reporting and the Gerald Loeb Award in Beat Reporting.\nhttps://www.wsj.com/articles/facebook-posts-strong-profit-and-revenue-growth-1469650289 Page 4 of 4"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "This dedicated Facebook earnings story reports second-quarter 2016 net income of $2.06 billion, or 71 cents per share, up from $719 million, or 25 cents per share, a year earlier. On an adjusted basis, earnings reached 97 cents per share versus 50 cents a year earlier, beating the average analyst estimate of 82 cents. Revenue jumped 59% to $6.43 billion from $4.04 billion, above the average analyst projection of $6.02 billion. The article cites marketing-technology firm Kenshoo's finding that its clients spent 47% more on Facebook and Instagram ads in the quarter versus a year earlier, and GlobalWebIndex research showing nearly two-thirds of internet-using adults outside China access Facebook monthly, double the share in early 2013. CEO Mark Zuckerberg is quoted saying the company was 'particularly pleased with our progress in video as we move towards a world where video is at the heart of all our services.' The piece frames Facebook's performance against weaker results from peers that same period, noting Apple reported a 27% profit decline and a second consecutive quarterly revenue drop, while Twitter posted only minimal revenue gains.",
+      "why_moved": "The article states that Facebook shares climbed 6.6% to $131.45 in after-hours trading following the earnings announcement. It ties the move to the adjusted EPS beat (97 cents versus the 82-cent estimate) and the 59% revenue growth to $6.43 billion, which came in above the $6.02 billion analysts had projected, with the underlying strength attributed to mobile advertising demand, including Kenshoo's data point that clients increased Facebook and Instagram ad spending 47% year over year.",
+      "sources": [
+        {
+          "title": "Facebook Posts Strong Profit and Revenue Growth",
+          "url": "https://www.foxbusiness.com/features/facebook-posts-strong-profit-and-revenue-growth"
+        }
+      ]
+    }
+  },
+  "FB_2016q4": {
+    "ticker": "FB",
+    "group": "Group 1",
+    "company_name": "Meta Platforms",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-11-02",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Facebook had beaten estimates repeatedly, but management had already warned that News Feed ad load could not increase indefinitely. Q3 therefore tested whether pricing, engagement and new formats could offset a future limit on the number of ads shown.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Facebook / Meta IR: Facebook Reports Second Quarter 2016 Results",
+                  "url": "https://investor.atmeta.com/investor-news/press-release-details/2016/Facebook-Reports-Second-Quarter-2016-Results/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Facebook reported **$7.01 billion of revenue**, up **56%**, and adjusted EPS of about **$1.09**, both above consensus. Monthly users reached **1.79 billion**, daily users **1.18 billion**, and mobile represented **84%** of ad revenue. Current-quarter economics were therefore excellent.",
+              "sources": []
+            },
+            {
+              "text": "The negative information arrived on the call. CFO David Wehner reiterated that ad load would become a much smaller contributor to growth after mid-2017, meaning ad-revenue growth would **decelerate meaningfully**. Management also described 2017 as an aggressive investment year. The market therefore shifted attention from the Q3 beat to the expected slowdown in monetization growth and higher expenses.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Facebook / Meta IR: Facebook Reports Third Quarter 2016 Results",
+                  "url": "https://investor.atmeta.com/investor-news/press-release-details/2016/Facebook-Reports-Third-Quarter-2016-Results/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock fell because Facebook warned of a meaningful ad-revenue slowdown despite beating Q3 estimates.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Reaching maximum News Feed ad load removed an important historical growth lever.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Higher planned investment implied slower profit growth even if user engagement remained strong.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: Facebook Stock Tumbles in After-Hours Trading on Outlook",
+                  "url": "https://www.thestreet.com/markets/facebook-fb-stock-higher-in-after-hours-trading-on-q3-beat-13878308"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Facebook/FB identity, the correct earnings event, publication date, timing window and source origin. Facebook/Meta Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Facebook / Meta IR: Facebook Reports Second Quarter 2016 Results",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2016/Facebook-Reports-Second-Quarter-2016-Results/default.aspx"
+        },
+        {
+          "label": "Facebook / Meta IR: Facebook Reports Third Quarter 2016 Results",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2016/Facebook-Reports-Third-Quarter-2016-Results/default.aspx"
+        },
+        {
+          "label": "TheStreet: Facebook Stock Tumbles in After-Hours Trading on Outlook",
+          "url": "https://www.thestreet.com/markets/facebook-fb-stock-higher-in-after-hours-trading-on-q3-beat-13878308"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Facebook's third-quarter 2016 report combined a striking beat with an explicit warning about the durability of its growth engine. Revenue soared 56% to $7 billion and profit nearly tripled to $2.38 billion, putting the company on pace for $27 billion in annual revenue; the article cites Standard & Poor's Capital IQ data showing Facebook's top-line growth rate was double that of any other U.S. company with revenue of $20 billion or more that wasn't growing through acquisitions. But the article's central point is a specific piece of forward guidance: starting in the middle of 2017, Facebook said it would stop increasing the number of ads shown in users' news feeds -- the tactic that had driven revenue growth for the prior two years -- with CFO Dave Wehner telling analysts that advertising growth would 'come down meaningfully' as a result and that the company expects 'a much smaller contribution from this important factor going forward.' Pivotal Research analyst Brian Wieser is quoted calling this inevitable given the 'law of large numbers,' adding that 'nobody was expecting the company to grow at the same rate.' The piece also frames Facebook's dominance within a broader duopoly narrative: together with Google, Facebook captured 68% of U.S. online ad spending growth in the second quarter, and Digital Content Next's Jason Kint is quoted warning that 'no one is able to collect data on the scale they can,' a concern about two companies capturing nearly all ad-market growth. Mobile made up 84% of the quarter's ad revenue, monthly active users reached 1.79 billion (93% mobile), and executives again pointed to video -- and Zuckerberg's ambition to make Facebook 'video-first' -- as the next growth lever, aimed partly at the roughly $70 billion U.S. television ad market.",
+      "why_moved": "Facebook's stock fell more than 7% in after-hours trading, and the article ties this decline specifically to the ad-load guidance described above rather than to the reported results themselves, which beat handily on both revenue and profit. The explicit warning that the primary driver of ad revenue growth over the prior two years was being phased out starting mid-2017, combined with CFO Wehner's statement that growth would 'come down meaningfully,' gave investors a concrete reason to discount the backward-looking beat in favor of a more conservative forward growth outlook -- reinforced by analyst Brian Wieser's comment that slower growth was structurally inevitable given the company's size. The article also notes Facebook's plans to increase spending on data centers and engineering hiring next year, adding a margin concern on top of the revenue-growth deceleration flagged by management, both factors the piece connects to the stock's decline despite otherwise blowout underlying numbers.",
+      "sources": [
+        {
+          "filename": "Facebook Profit Soars, but Growth Concerns Emerge - WSJ.pdf",
+          "title": "Facebook Profit Soars, but Growth Concerns Emerge Shares slide after hours over caution about advertising growth",
+          "published_date": "2016-11-02",
+          "text": "Facebook Profit Soars, but Growth Concerns Emerge - WSJ 2026-08-28, 4:41 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/facebook-profit-jumps-sharply-1478117646\nTECH\nFacebook Profit Soars, but Growth Concerns Emerge\nShares slide after hours over caution about advertising growth\nBy Deepa Seetharaman\nUpdated Nov. 2, 2016 at 8:07 pm ET\nFacebook Inc., now on pace to reach $27 billion in revenue this year, is defying the\nslowdown in growth that usually comes with increasing size.\nThe social media giant said Wednesday that third-quarter revenue soared 56% to $7\nbillion and its quarterly profit nearly tripled to $2.38 billion, as it reaps the spoils of\nits dominance in mobile advertising.\nFacebook’s top-line growth rate is double any other U.S. company with revenue of $20\nbillion or more, excluding those growing through acquisitions, according to data from\nStandard & Poor’s Capital IQ.\nYet Facebook said that it can’t maintain its current pace. Starting in the middle of next\nyear, Facebook will stop showing users more ads in their news feed, the tactic it has\nbeen using to juice revenue growth for the past two years, the company said\nWednesday. As a result, advertising growth will “come down meaningfully,” Chief\nFinancial Officer Dave Wehner said during a call with analysts.\nFacebook now expects a “much smaller contribution from this important factor going\nforward,” he said. He added that Facebook expects to power growth by adding more\nusers and boosting the amount of time they spend on the social network. Video is key\nto that strategy.\nhttps://www.wsj.com/articles/facebook-profit-jumps-sharply-1478117646 Page 1 of 5\nFacebook Profit Soars, but Growth Concerns Emerge - WSJ 2026-08-28, 4:41 PM\n“The growth rate has to be slower; it’s a law of large numbers, if nothing else,” Pivotal\nResearch analyst Brian Wieser said. “Nobody was expecting the company to grow at\nthe same rate.”\nFacebook’s stock price was down more than 7% in after-hours trading because of the\ncaution about advertising growth. Facebook also plans to spend more on data centers\nand hiring engineers next year.\nFacebook’s growth outstrips its only rival in online advertising, Google parent\nAlphabet Inc., which last week said quarterly revenue grew 20%.\nFacebook and Google together garnered 68% of spending on U.S. online advertising in\nthe second quarter—accounting for all the growth, Mr. Wieser said. When excluding\nthose two companies, revenue generated by other players in the U.S. digital ad market\nshrank 5%, according to his estimates.\n“What should be a concern for everyone is the dominance of just two companies,\nGoogle and Facebook, who are capturing all of the growth in the ad marketplace,” said\nJason Kint, chief executive at Digital Content Next, a trade organization that\nrepresents digital publishers such as Condé Nast, Business Insider, the Washington\nPost and Wall Street Journal owner News Corp. “No one is able to collect data on the\nscale they can.”\nMobile accounts for nearly half of all the advertising purchased online in the first half\nof 2016, according to the Interactive Advertising Bureau, and mobile ads recorded the\nfastest growth of any category compared with the first six months of 2015.\nAs Facebook turned its focus to its mobile app in 2012, it tapped into a huge market of\nbusinesses eager to reach consumers. Mobile advertising made up 84% of Facebook’s\nadvertising revenue in the third quarter, an acceleration from the previous year.\n“People are moving to mobile and marketers know that,” Sheryl Sandberg, Facebook’s\nchief operating officer, said in an interview. In the past year, Facebook added 270\nhttps://www.wsj.com/articles/facebook-profit-jumps-sharply-1478117646 Page 2 of 5\nFacebook Profit Soars, but Growth Concerns Emerge - WSJ 2026-08-28, 4:41 PM\nmillion new mobile users who log in at least once a month. Of its 1.79 billion monthly\nusers across all platforms, 93% are on mobile.\nFacebook makes money by slotting ads into the news feed, the main scroll of pictures,\nvideos and posts. But putting too many ads in the news feed could turn off users.\nExecutives have said they are seeking “the right balance” of ads and other content in\nthe news feed.\nMark Zuckerberg, in Barcelona earlier this year, said that Facebook would evolve into a ‘video-first’ company. AGENCE\nFRANCE-PRESSE/GETTY IMAGES\nVideo could provide the next avenue for growth. Chief Executive Mark Zuckerberg\nsaid that Facebook would evolve into a “video-first” company by making video core to\neach of its apps. Executives predict that within five years, most of what people\nconsume online will be video.\nAdding more video to Facebook’s news feed could boost the amount of time users\nspend on the site. That, in turn, could give Facebook the opportunity to sell more\nlucrative video ads and potentially divert dollars from what advertisers currently\nspend on television ads. TV ads are a roughly $70 billion market in the U.S., according\nto eMarketer.\nhttps://www.wsj.com/articles/facebook-profit-jumps-sharply-1478117646 Page 3 of 5\nFacebook Profit Soars, but Growth Concerns Emerge - WSJ 2026-08-28, 4:41 PM\nFacebook and Google have made a strong case that their audiences and ad products\nare competitive with television advertising in their ability to sell products, said\nDonald Williams, chief digital officer at the ad buying firm Horizon Media. “They’ve\nbeen trying to appeal to brand marketers and they’re getting better at it all the time.”\n—Mike Shields contributed to this article.\nWrite to Deepa Seetharaman at Deepa.Seetharaman@wsj.com\nAppeared in the November 3, 2016, print edition as 'Facebook Soars, but Warns on Pace'.\nDeepa Seetharaman is a former reporter covering artificial intelligence from The Wall Street Journal’s tech bureau\nin San Francisco. Her stories explored the way AI is changing business and society.\nPreviously, she covered the intersection of technology and politics and was the Journal's beat reporter covering…\nFacebook (now Meta). She has written about Instagram's effect on teen girls and how AI systems struggle with\nDeFeopllao wjoined the Journal in 2015 from Reuters, where she covered e-commerce, focusing on Amazon, as well as the\nracist and hateful content. She has covered antitrust issues and profiled some of the most influential executives in\nU.S. auto industry and labor unions. She has won several awards for her coverage including the George Polk Award\nSilicon Valley.\nfor Business Reporting and the Gerald Loeb Award in Beat Reporting.\nhttps://www.wsj.com/articles/facebook-profit-jumps-sharply-1478117646 Page 4 of 5"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "FB_2017q1": {
+    "ticker": "FB",
+    "group": "Group 1",
+    "company_name": "Meta Platforms",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-02-01",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After November’s warning, investors knew revenue growth would decelerate as ad-load gains faded. The key question was whether stronger pricing, user growth and Instagram could offset that structural slowdown.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Facebook / Meta IR: Facebook Reports Third Quarter 2016 Results",
+                  "url": "https://investor.atmeta.com/investor-news/press-release-details/2016/Facebook-Reports-Third-Quarter-2016-Results/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Facebook delivered **$8.81 billion of revenue** and adjusted EPS of about **$1.41**, both above consensus. Revenue grew **51%**, mobile advertising reached **84%** of ad revenue, and monthly active users increased to **1.86 billion**. The quarter was operationally very strong.",
+              "sources": []
+            },
+            {
+              "text": "However, management reiterated that ad-revenue growth would slow meaningfully during 2017 and projected **47%–57% expense growth** on a non-GAAP basis. Shares initially jumped after the headline beat, but the rally faded during the call and the stock finished the next full session lower. The earnings event therefore became a classic “great quarter, weaker forward earnings structure” case.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Facebook / Meta IR: Facebook Reports Fourth Quarter and Full Year 2016 Results",
+                  "url": "https://investor.atmeta.com/investor-news/press-release-details/2017/Facebook-Reports-Fourth-Quarter-and-Full-Year-2016-Results/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The next-session decline reflected concern about ad-load-driven deceleration and sharply higher 2017 expenses.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** The current quarter itself was a clear beat, so the negative reaction was forward-looking rather than operational.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Instagram and ad pricing remained important offsets, but investors expected slower consolidated profit growth.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: Here's the Surprising Number That Knocked Facebook's Stock Off Its All-Time High",
+                  "url": "https://www.thestreet.com/story/13975472/1/facebook-shares-advance-as-fourth-quarter-results-top-street-estimates.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Facebook/FB identity, the correct earnings event, publication date, timing window and source origin. Facebook/Meta Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Facebook / Meta IR: Facebook Reports Third Quarter 2016 Results",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2016/Facebook-Reports-Third-Quarter-2016-Results/default.aspx"
+        },
+        {
+          "label": "Facebook / Meta IR: Facebook Reports Fourth Quarter and Full Year 2016 Results",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2017/Facebook-Reports-Fourth-Quarter-and-Full-Year-2016-Results/default.aspx"
+        },
+        {
+          "label": "TheStreet: Here's the Surprising Number That Knocked Facebook's Stock Off Its All-Time High",
+          "url": "https://www.thestreet.com/story/13975472/1/facebook-shares-advance-as-fourth-quarter-results-top-street-estimates.html"
+        }
+      ]
+    },
+    "wsj": null,
+    "djnw": null
+  },
+  "FB_2017q2": {
+    "ticker": "FB",
+    "group": "Group 1",
+    "company_name": "Meta Platforms",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-05-03",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Facebook entered Q1 with the market already prepared for slower ad-load growth. Investors were increasingly focused on ad pricing, Instagram, video and the company’s ability to preserve margins while investing heavily.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Facebook / Meta IR: Facebook Reports Fourth Quarter and Full Year 2016 Results",
+                  "url": "https://investor.atmeta.com/investor-news/press-release-details/2017/Facebook-Reports-Fourth-Quarter-and-Full-Year-2016-Results/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q1 revenue rose **49% to $8.03 billion**, above consensus near $7.83 billion, while GAAP EPS was **$1.04** versus roughly $0.87 expected. Advertising revenue increased **51%**, mobile reached **85%** of ad revenue, and monthly users rose to **1.94 billion**.",
+              "sources": []
+            },
+            {
+              "text": "Despite the beat, management repeated that ad-revenue growth would come down meaningfully in the second half as ad-load growth faded. The company was also stepping up investment in content review and infrastructure. The stock finished the next session only modestly lower, indicating that much of this deceleration risk was already understood.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Facebook / Meta IR: Facebook Reports First Quarter 2017 Results",
+                  "url": "https://investor.atmeta.com/investor-news/press-release-details/2017/Facebook-Reports-First-Quarter-2017-Results/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares edged lower because the forward ad-growth slowdown overshadowed another earnings beat.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Strong pricing and mobile ad growth showed the core monetization engine was still healthy.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Higher investment needs limited the margin upside from the revenue beat.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: Facebook Shares Fall Despite Q1 Beat: What Wall Street's Saying",
+                  "url": "https://www.thestreet.com/investing/stocks/facebook-shares-fall-despite-q1-beat-what-wall-street-s-saying-14118881"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Facebook/FB identity, the correct earnings event, publication date, timing window and source origin. Facebook/Meta Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Facebook / Meta IR: Facebook Reports Fourth Quarter and Full Year 2016 Results",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2017/Facebook-Reports-Fourth-Quarter-and-Full-Year-2016-Results/default.aspx"
+        },
+        {
+          "label": "Facebook / Meta IR: Facebook Reports First Quarter 2017 Results",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2017/Facebook-Reports-First-Quarter-2017-Results/default.aspx"
+        },
+        {
+          "label": "TheStreet: Facebook Shares Fall Despite Q1 Beat: What Wall Street's Saying",
+          "url": "https://www.thestreet.com/investing/stocks/facebook-shares-fall-despite-q1-beat-what-wall-street-s-saying-14118881"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Facebook's first-quarter 2017 results, as described in the article, 'allayed concerns' that had built up around two specific issues: questions about video-ad performance measurement and criticism over the spread of violent and graphic content on the platform. Profit surged 76% to $3.06 billion and revenue jumped 49% to $8.03 billion, a result the piece frames as echoing Alphabet's own 29% profit growth despite a brand-safety backlash affecting YouTube. Ad prices rose 14% during the quarter while ad impressions grew about a third, with CFO David Wehner attributing the strength to continued mobile usage growth; monthly active users reached 1.94 billion. Even so, Wehner reiterated a warning first raised the prior quarter that ad revenue growth would 'come down meaningfully over the course of 2017' as ad load -- the number of ads shown per user in the news feed -- plays a smaller role in driving growth after mid-2017, pushing the company toward newer, less-proven formats: mid-roll 'ad breaks' in videos, ads on Messenger, and eventually WhatsApp monetization. The article details specific skepticism around this pivot, citing a GroupM/WPP report finding that for every 20 video ads served in the news feed, only one was watched for 10 seconds or longer and just three were watched for at least three seconds -- with some of that skepticism explicitly traced back to Facebook's disclosure the previous fall that it had vastly overestimated average video-ad viewing time for two years. Concerns about violent content on Facebook Live, including a cited case of a Cleveland man's fatal shooting being broadcast, are also described as a factor that could give advertisers pause, prompting Zuckerberg's same-day pledge to hire 3,000 more content reviewers over the next year.",
+      "why_moved": "Facebook's share price 'slipped in after-hours trading' despite the strong headline beat described above, and the article ties this specifically to unresolved doubt about whether the newer ad formats can replace the news-feed ad-load growth that Wehner again cautioned would 'come down meaningfully' through the rest of 2017 -- the same warning issued the prior quarter, now repeated with the deceleration presumably closer at hand. The GroupM findings that so few video ads are actually watched for a meaningful duration, combined with the lingering credibility hit from Facebook's earlier video-metrics overstatement, gave investors concrete reasons to question the video and messaging pivot even as current-quarter numbers beat expectations. The article suggests advertiser sentiment remained more cautious than the headline growth implied, noting that marketing executives were 'concerned about fake news and the problems Facebook has had with live video' even though that concern had not yet visibly affected ad spending, a dynamic consistent with a stock that slipped modestly on strong results accompanied by a familiar growth-deceleration warning.",
+      "sources": [
+        {
+          "filename": "Facebook Revenue Surges, Fueled by Mobile - WSJ.pdf",
+          "title": "Facebook Revenue Surges, Fueled by Mobile Increase is a sign of how marketers are increasingly embracing Facebook and Instagram",
+          "published_date": "2017-05-03",
+          "text": "Facebook Revenue Surges, Fueled by Mobile - WSJ 2026-08-28, 4:43 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/facebook-revenue-surges-fueled-by-mobile-1493842875\nTECH\nFacebook Revenue Surges, Fueled by Mobile\nIncrease is a sign of how marketers are increasingly embracing Facebook and Instagram\nBy Deepa Seetharaman\nUpdated May 3, 2017 at 7:33 pm ET\nFacebook posted a sharp increase in revenue on Wednesday as more advertisers flocked to platform. PHILIPPE\nWOJAZER/REUTERS\nFacebook Inc. continues to sweep digital advertising, alongside rival Google, despite\nunrest among marketers about how their advertising is handled.\nFacebook on Wednesday said first-quarter profit surged 76% to $3.06 billion, allaying\nconcerns that questions over video-ad performance and the spread of violent and\ngraphic content would mar growth. The social network’s soaring results echoed\nstrength at Google parent Alphabet Inc., which last week reported 29% growth in net\nprofit despite a backlash that began late in the quarter from companies upset about\ntheir brands being advertised against objectionable videos on its YouTube video\nhttps://www.wsj.com/articles/facebook-revenue-surges-fueled-by-mobile-1493842875 Page 1 of 5\nFacebook Revenue Surges, Fueled by Mobile - WSJ 2026-08-28, 4:43 PM\nplatform.\nFacebook and its photo-sharing app, Instagram, are the “two most important mobile-\nad platforms,” Chief Financial Officer David Wehner said in an interview.\nFacebook and Google dominate the online advertising market. The two tech giants\nsnatched 99% of the online-ad industry’s revenue growth last year, estimated Pivotal\nResearch analyst Brian Wieser using data published by the Interactive Advertising\nBureau. Facebook holds 16% of the global digital-ad market, behind Google’s 33%\nshare, says forecasting firm eMarketer.\nMarketing executives “acknowledge they’re concerned about fake news and the\nproblems Facebook has had with live video,” said eMarketer principal analyst Debra\nAho Williamson. “They’re concerned that at some point this will affect users—but\nthey haven’t seen that yet. So that’s why spending keeps going up.”\nFacebook’s growing market share in digital advertising has helped drive its stock up\n29% over the past year. Other metrics were also strong: the number of users who\ncheck into Facebook at least once a month rose to 1.94 billion, for example. However,\nits share price slipped in after-hours trading on concerns about whether new ad\nformats will be able to replace the booming growth it has experienced with its news\nfeed ads.\nThe 49% jump in quarterly revenue to $8.03 billion was a sign of how marketers are\nincreasingly embracing Facebook and Instagram. Marketing-technology company\nKenshoo, which manages about $6 billion in marketing spending a year, said its clients\nwere spending 41% more on social-media ads, largely Facebook.\nYears ago, Chief Executive Mark Zuckerberg put mobile at the heart of the company, a\nfocus that has fueled Facebook’s growth for years. Facebook’s ad prices jumped 14%\nduring the first quarter, while the number of ad impressions increased by about a\nthird, as users spent more time on their mobile apps. “Mobile continues to be the\nhttps://www.wsj.com/articles/facebook-revenue-surges-fueled-by-mobile-1493842875 Page 2 of 5\nFacebook Revenue Surges, Fueled by Mobile - WSJ 2026-08-28, 4:43 PM\ndriver of our business,” Mr. Wehner said.\nNow Mr. Zuckerberg is weaving more video throughout Facebook’s products, adding\nmore opportunities for Facebook to show more-expensive video ads—but also\ncreating new uncertainties.\nVideo and Instagram could pick up the slack from an anticipated slowdown in\nadvertising in the news feed. On Wednesday, Mr. Wehner reiterated his warning from\nlast year that Facebook’s ad revenue growth will “come down meaningfully over the\ncourse of 2017.” Facebook also expects the ad load—the number of ads it can jam into\nits main news feed—will play a smaller role in driving revenue growth after mid-2017.\nFacebook is fielding pitches for TV-like original programming, in the hopes that\nweekly shows on Facebook will change the way people currently use the platform and\neventually draw marketing dollars that have traditionally gone to television.\nFacebook is now testing a way to profit from those longer videos through “ad breaks”\n—ads that appear in the middle of a video—in both live broadcasts and on-demand\nvideos. It also tweaked a setting so sound is on by default in some videos, a move\ndesigned to appease advertisers.\nIf successful, these “ad breaks” will help Facebook convince publishers to create\nlonger videos without the platform paying them outright, executives said. Advertisers\nare concerned that users will drop off a video once they see an ad in the middle of a\nvideo. In addition, Facebook users aren’t accustomed to watching longer videos on the\nsite.\nBut advertisers aren’t entirely sold on Facebook’s nascent video-ad products.\nFacebook’s video product remains “uncertain ground,” according to a new report by\nGroupM, the ad-buying unit of WPP PLC. For every 20 video ads served in the news\nfeed, just one was watched for 10 seconds or longer and three watched for at least\nthree seconds, the report said.\nhttps://www.wsj.com/articles/facebook-revenue-surges-fueled-by-mobile-1493842875 Page 3 of 5\nFacebook Revenue Surges, Fueled by Mobile - WSJ 2026-08-28, 4:43 PM\nSome of that skepticism lingers from concerns over how Facebook measures video-ad\nperformance, sparked by the company’s disclosure last fall that it had vastly\noverestimated average viewing time for video ads on its platform for two years.\nIn addition, concerns about Facebook’s handling of violent, graphic content,\nespecially on its live-video product, could give advertisers pause, some analysts said.\nFacebook Live, the venue for some of the new video advertising, has been the subject\nof recent controversy after users broadcast violent videos such as a Cleveland man\nfatally shooting another man.\nEarlier Wednesday, Chief Executive Mark Zuckerberg pledged to hire 3,000 more\ncontent reviewers over the next year so inappropriate material is removed from the\nsite more quickly. Last month, Facebook promised to conduct a review of its reporting\nprocess.\nBut demand for Facebook ads isn’t expected to decline anytime soon. According to a\nRBC Capital Markets survey, 65% of advertisers buying Facebook ads plan to spend\neven more. Nearly 40% told RBC that they spend more than a fifth of their online\nbudgets on the social network, up from 31% in February 2016, according to the survey\npublished in late March.\nWrite to Deepa Seetharaman at Deepa.Seetharaman@wsj.com\nAppeared in the May 4, 2017, print edition as 'Advertisers Stream Into Facebook'.\nDeepa Seetharaman is a former reporter covering artificial intelligence from The Wall Street Journal’s tech bureau\nin San Francisco. Her stories explored the way AI is changing business and society.\nPreviously, she covered the intersection of technology and politics and was the Journal's beat reporter covering…\nFacebook (now Meta). She has written about Instagram's e\"ect on teen girls and how AI systems struggle with\nDeFeopllao wjoined the Journal in 2015 from Reuters, where she covered e-commerce, focusing on Amazon, as well as the\nracist and hateful content. She has covered antitrust issues and profiled some of the most influential executives in\nU.S. auto industry and labor unions. She has won several awards for her coverage including the George Polk Award\nSilicon Valley.\nfor Business Reporting and the Gerald Loeb Award in Beat Reporting.\nhttps://www.wsj.com/articles/facebook-revenue-surges-fueled-by-mobile-1493842875 Page 4 of 5\nFacebook Revenue Surges, Fueled by Mobile - WSJ 2026-08-28, 4:43 PM\nhttps://www.wsj.com/articles/facebook-revenue-surges-fueled-by-mobile-1493842875 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "This is a dedicated, more analytical Dow Jones Newswires piece by Dan Gallagher examining why Facebook's stock reaction disappointed despite strong first-quarter 2017 results. The article reports revenue climbed 49% to $8 billion, beating Wall Street's 46% growth forecast, and operating income surged 66% to $3.3 billion, with the platform adding roughly 57 million daily active users in the quarter -- serving, the article notes, roughly one-quarter of the global population. It explains that investors focused on an apparent earnings-per-share miss versus consensus, a comparison the article says didn't properly account for stock-based compensation that Facebook now includes in its reporting. The piece places this reaction in the context of Facebook's rich valuation heading into the report -- the stock had already rallied 32% since the start of 2017 and traded at roughly 33 times forward earnings, making it, per the article, the world's fifth most valuable company with little margin for disappointment. It also notes the company had warned of slowing growth ahead and acknowledged rising costs tied to addressing problematic content at its scale.",
+      "why_moved": "The article states that Facebook's stock declined roughly 3% following the earnings announcement, despite the 49% revenue growth and 66% operating-income growth. It explains the decline by noting investors appeared to focus on an EPS figure that seemed to miss consensus -- a comparison the article says failed to account for stock-based compensation Facebook now properly includes -- combined with the stock's already-rich valuation (a 32% run-up since the start of 2017 and about 33 times forward earnings), which the article says left little room for even a modest disappointment.",
+      "sources": [
+        {
+          "title": "Facebook's Social Climbing Has Its Price",
+          "url": "https://www.foxbusiness.com/features/facebooks-social-climbing-has-its-price"
+        }
+      ]
+    }
+  },
+  "FB_2017q3": {
+    "ticker": "FB",
+    "group": "Group 1",
+    "company_name": "Meta Platforms",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-26",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "With ad-load growth nearing its ceiling, Facebook needed price increases and engagement to carry revenue growth. Investors were also watching whether Instagram and video could become larger monetization engines.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Facebook / Meta IR: Facebook Reports First Quarter 2017 Results",
+                  "url": "https://investor.atmeta.com/investor-news/press-release-details/2017/Facebook-Reports-First-Quarter-2017-Results/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q2 revenue was **$9.32 billion** and GAAP EPS **$1.32**, both above consensus. Revenue grew about **45%**, daily users reached **1.32 billion**, monthly users crossed **2.0 billion**, and operating margin expanded to **47%**.",
+              "sources": []
+            },
+            {
+              "text": "The quality of the beat came from monetization rather than faster user growth. Facebook’s user-growth rate slowed modestly, but average revenue per user and ad pricing remained strong. This demonstrated that Facebook could keep generating very high revenue and profit growth even as its core platform matured.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Facebook / Meta IR: Facebook Reports Second Quarter 2017 Results",
+                  "url": "https://investor.atmeta.com/investor-news/press-release-details/2017/Facebook-Reports-Second-Quarter-2017-Results/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The positive reaction reflected another revenue/EPS beat with strong margins.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Better monetization offset slower incremental user growth.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Instagram and video increased the number of surfaces available for future ad growth.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TechCrunch: Facebook beats in Q2 with $9.32B revenue despite slower user growth",
+                  "url": "https://techcrunch.com/2017/07/26/facebook-earnings-q2-2017/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Facebook/FB identity, the correct earnings event, publication date, timing window and source origin. Facebook/Meta Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Facebook / Meta IR: Facebook Reports First Quarter 2017 Results",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2017/Facebook-Reports-First-Quarter-2017-Results/default.aspx"
+        },
+        {
+          "label": "Facebook / Meta IR: Facebook Reports Second Quarter 2017 Results",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2017/Facebook-Reports-Second-Quarter-2017-Results/default.aspx"
+        },
+        {
+          "label": "TechCrunch: Facebook beats in Q2 with $9.32B revenue despite slower user growth",
+          "url": "https://techcrunch.com/2017/07/26/facebook-earnings-q2-2017/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Facebook's second-quarter 2017 report showed profit spiking 71% and net income of $3.9 billion actually surpassing larger rival Alphabet's bottom line, which had been hit by a European Union fine; revenue jumped 45% to $9.3 billion, boosted by a 24% increase in the average ad price. But the article's framing is less about the beat than about a structural constraint: Facebook's news feed, its primary and most profitable source of ad revenue, is 'hitting a ceiling' on how many ads it can show without alienating users, with analyst Jan Dawson of Jackdaw Research noting that already one of every seven to ten posts in the feed is an ad. In response, Zuckerberg told analysts he expects video to become the largest driver of Facebook's business over the next two to three years and messaging (Messenger and WhatsApp, the latter now used by 1 billion people daily) to yield returns within five years, while artificial intelligence could improve ad targeting. Executives acknowledged on the call that these newer formats -- mid-roll video ads and the newly launched Messenger ads -- carry lower margins than news feed ads, partly because Facebook shares ad revenue with video creators, prompting Zuckerberg's own admission that 'there are real questions there that we need to manage well' regarding the video pivot, tempered by his statement that 'I want to see us move a little faster here, but I'm confident that we're going to get this right over the long term.' COO Sheryl Sandberg told analysts that television ads simply 'do not work as well as ads that are natively mobile,' comparing advertisers' current adjustment to the early, awkward days of television advertising itself, and noted many marketers were still repurposing TV creative rather than building mobile-native ads.",
+      "why_moved": "Facebook's stock rose 3.7% in after-hours trading, building on a 44% year-to-date gain, a reaction the article frames as more measured than the size of the underlying beat (profit up 71%, revenue up 45%, average ad prices up 24%) might otherwise suggest. Consistent with the 'ceiling' framing established above, the more modest post-earnings pop appears tied to the article's emphasis that Facebook's most lucrative ad inventory is running out of room to expand, forcing a shift toward video and messaging formats that management itself acknowledged carry structurally lower margins and, in Zuckerberg's own words, 'real questions' still to be resolved. The article does not attribute the stock's reaction to a single explicit cause, but the juxtaposition of the strong current-quarter numbers against management's candid acknowledgment of margin pressure and execution risk in the pivot to video and messaging is the clearest throughline it offers for a gain that, while positive, was smaller than the magnitude of the earnings beat itself.",
+      "sources": [
+        {
+          "filename": "Facebook Searches for New Ad Slots as Profit Spikes 71% - WSJ.pdf",
+          "title": "Facebook Searches for New Ad Slots as Profit Spikes 71% Social media giant is turning to higher prices and new ad formats for videos and its messaging apps",
+          "published_date": "2017-07-26",
+          "text": "Facebook Searches for New Ad Slots as Profit Spikes 71% - WSJ 2026-08-28, 4:48 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/facebook-profit-jumps-71-1501100844\nTECH\nFacebook Searches for New Ad Slots as Profit Spikes\n71%\nSocial media giant is turning to higher prices and new ad formats for videos and its\nmessaging apps\nBy Deepa Seetharaman\nUpdated July 26, 2017 at 8:39 pm ET\nFacebook warned that the number of ads in the news feed—its primary source of revenue—is hitting a ceiling. MATT\nROURKE/ASSOCIATED PRESS\nFacebook Inc.’s news feed is running out of room for advertisements, but the social\nmedia giant is making up for it with higher prices and new slots for ads in videos and\nits messaging apps.\nThe company on Wednesday said profit spiked 71% in the second quarter. While\ngrowth is still rapid, Facebook warned that the number of ads in the news feed—its\nprimary source of revenue—is hitting a ceiling.\nhttps://www.wsj.com/articles/facebook-profit-jumps-71-1501100844 Page 1 of 5\nFacebook Searches for New Ad Slots as Profit Spikes 71% - WSJ 2026-08-28, 4:48 PM\nFacebook and Google revamped advertising by making digital the dominant platform\nover the past decade. Google, part of Alphabet Inc., and Facebook together accounted\nfor 99% of the online ad industry’s growth last year, according to Pivotal Research. But\nnow both tech giants are trying to figure out the next generation of online advertising.\nGoogle said earlier this week that it is serving up more ads on smartphones and on\nYouTube, its video platform. While the newer ad formats drove a 52% surge in the\nnumber of clicks, they are less lucrative than search ads, Google’s legacy business.\nFacebook, meanwhile, is looking beyond the highly profitable news feed to the rising\nconsumption of video and its two chat apps, Messenger and WhatsApp, for growth.\nChief Executive Mark Zuckerberg predicted video would become the largest driver of\nFacebook’s business over the next two to three years, while messaging could yield\ndividends within five years. He added that artificial intelligence could help advertisers\nfigure out which audiences to target on Facebook.\nThat shift isn’t without risk to Facebook. These emerging ad formats don’t earn\nFacebook as much money as ones shown in its news feed, executives said. They also\nneed tobuild new types of ads that can work outside the standard stream of posts that\nmake up Facebook’s news feed and its photo-sharing app Instagram, which together\ndrive nearly all of the company’s revenue.\n“There are real questions there that we need to manage well,” Mr. Zuckerberg said, of\nthe company’s embrace of video as a future source of ad revenue. Facebook recently\nstarted testing mid-roll ads, which appear at some point during a video on the social\nnetwork.\nMr. Zuckerberg also showed newfound urgency to cash in on messaging. WhatsApp,\nhe said, is now used by 1 billion people a day. This month, Facebook introduced ads on\nMessenger, a rollout that will inform how Facebook monetizes WhatsApp, executives\nsaid.\nhttps://www.wsj.com/articles/facebook-profit-jumps-71-1501100844 Page 2 of 5\nFacebook Searches for New Ad Slots as Profit Spikes 71% - WSJ 2026-08-28, 4:48 PM\n“I want to see us move a little faster here, but I’m confident that we’re going to get this\nright over the long term,” he said during a conference call with analysts.\nFacebook’s stock was 3.7% higher in after-hours trading, building on a 44% increase\nsince the beginning of the year.\nIn the second quarter, net income totaled $3.9 billion, surpassing its larger rival\nAlphabet, whose bottom line was hit by a fine from European regulators. Revenue\njumped 45% to $9.3 billion, boosted by a 24% increase in Facebook’s average ad price,\nexecutives said during the call.\nShowing too many ads could turn off the\nmore than two billion people who check\nFacebook at least once a month. Today,\none of every seven to 10 posts is an ad in\nFacebook’s news feed, said Jan Dawson,\nsenior analyst with Jackdaw Research.\nThe company is buying original video\nprogramming—some shows as long as 30\nminutes an episode—that could in turn\noffer opportunities for advertising as part\nof Mr. Zuckerberg’s broader desire to\ntransform Facebook into a “video-first”\ncompany. “Video is part of what’s going to\nexpand the inventory of ads on Facebook,”\nMr. Dawson said. “A half an hour of video\nMark Zuckerberg DAVID PAUL MORRIS/BLOOMBERG\nNEWS is potential for more ads.”\nThe mid-roll video ads Facebook has been testing have lower margins than news feed\nads, executives said on the call. Facebook shares a portion of the ad revenue with the\ncreator in this model.\nhttps://www.wsj.com/articles/facebook-profit-jumps-71-1501100844 Page 3 of 5\nFacebook Searches for New Ad Slots as Profit Spikes 71% - WSJ 2026-08-28, 4:48 PM\nThe success of ad breaks “will depend both on the ad breaks and on the content,” Chief\nOperating Officer Sheryl Sandberg said in an interview. Many advertisers are still\nrepurposing television ads to use on Facebook.\nThe television ads “do not work as well as ads that are natively mobile,” Ms. Sandberg\ntold analysts Wednesday. Ads that are developed for mobile, Facebook’s primary\nformat, are shorter and the brand is mentioned faster than in TV spots, she said. She\ncompared the strategy to the early days of TV ads when people read ads in front of a\nmicrophone on screen.\nWrite to Deepa Seetharaman at Deepa.Seetharaman@wsj.com\nAppeared in the July 27, 2017, print edition as 'Facebook’s Ad Shifts Power Its Earnings'.\nDeepa Seetharaman is a former reporter covering artificial intelligence from The Wall Street Journal’s tech bureau\nin San Francisco. Her stories explored the way AI is changing business and society.\nPreviously, she covered the intersection of technology and politics and was the Journal's beat reporter covering…\nFacebook (now Meta). She has written about Instagram's e\"ect on teen girls and how AI systems struggle with\nDeFeopllao wjoined the Journal in 2015 from Reuters, where she covered e-commerce, focusing on Amazon, as well as the\nracist and hateful content. She has covered antitrust issues and profiled some of the most influential executives in\nU.S. auto industry and labor unions. She has won several awards for her coverage including the George Polk Award\nSilicon Valley.\nfor Business Reporting and the Gerald Loeb Award in Beat Reporting.\nhttps://www.wsj.com/articles/facebook-profit-jumps-71-1501100844 Page 4 of 5\nFacebook Searches for New Ad Slots as Profit Spikes 71% - WSJ 2026-08-28, 4:48 PM\nhttps://www.wsj.com/articles/facebook-profit-jumps-71-1501100844 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "This dedicated Facebook earnings story reports second-quarter 2017 earnings per share of $1.32, up from 78 cents a year earlier and above the $1.12 analysts expected, with net profit reaching $3.9 billion, up from $2.3 billion. Revenue climbed 45% to $9.3 billion from $6.4 billion, exceeding the $9.2 billion analysts anticipated. The article cites Pivotal Research data showing Facebook and Alphabet's Google captured 99% of online ad industry growth the prior year, but notes Facebook warned that ads in its core news feed -- its primary revenue source -- were approaching saturation, with growth expected to decelerate in the second half of 2017. It details Facebook's response: expanding ad formats across Messenger, Marketplace, video ad breaks and Instagram, plus new household-level targeting tools that the article says command premium pricing. The piece also covers Facebook's plan to increase spending by up to 50% annually, including original programming budgeted at up to $3 million per episode as part of a 'video-first' strategy, and rising ad costs reported by Kenshoo (up 39%) and Merkle (up 57%) for some Facebook ads.",
+      "why_moved": "The article states that Facebook's stock price rose approximately 1-2% in after-hours trading. It attributes this to the earnings beat -- EPS of $1.32 versus the $1.12 expected and 45% revenue growth to $9.3 billion versus the $9.2 billion consensus -- even as the company signaled that core news-feed ad growth was approaching saturation and would slow in the back half of the year.",
+      "sources": [
+        {
+          "title": "Facebook Profit Jumps 71% -- Update",
+          "url": "https://www.foxbusiness.com/features/facebook-profit-jumps-71-update"
+        }
+      ]
+    }
+  },
+  "FB_2017q4": {
+    "ticker": "FB",
+    "group": "Group 1",
+    "company_name": "Meta Platforms",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-11-01",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Q3 arrived amid scrutiny over Russian political ads and platform abuse. Investors knew security spending would rise, but the magnitude of that investment—and its effect on margins—was uncertain.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Facebook / Meta IR: Facebook Reports Second Quarter 2017 Results",
+                  "url": "https://investor.atmeta.com/investor-news/press-release-details/2017/Facebook-Reports-Second-Quarter-2017-Results/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Facebook reported **$10.33 billion of revenue** and **$1.59 of GAAP EPS**, both far above consensus. Advertising revenue rose **49%**, operating margin reached **50%**, and daily users climbed to **1.37 billion**. The reported quarter was one of Facebook’s strongest.",
+              "sources": []
+            },
+            {
+              "text": "The call changed the interpretation. Mark Zuckerberg said Facebook would prioritize security and platform integrity over maximizing near-term profit. CFO David Wehner projected **45%–60% operating-expense growth in 2018** and roughly doubled capital spending. The stock therefore fell in the next session despite the blowout numbers.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Facebook / Meta IR: Facebook Reports Third Quarter 2017 Results",
+                  "url": "https://investor.atmeta.com/investor-news/press-release-details/2017/Facebook-Reports-Third-Quarter-2017-Results/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares fell because the 2018 expense outlook implied a major margin reset.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Security, content review and infrastructure—not weak ad demand—were the source of the expected profit pressure.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Strong ad pricing and engagement kept the long-term growth thesis intact despite the near-term cost shock.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Facebook Investors Freak Out About Expense Guidance (Again)",
+                  "url": "https://www.fool.com/investing/2017/11/02/facebook-investors-freak-out-about-expense-guidanc.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Facebook/FB identity, the correct earnings event, publication date, timing window and source origin. Facebook/Meta Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Facebook / Meta IR: Facebook Reports Second Quarter 2017 Results",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2017/Facebook-Reports-Second-Quarter-2017-Results/default.aspx"
+        },
+        {
+          "label": "Facebook / Meta IR: Facebook Reports Third Quarter 2017 Results",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2017/Facebook-Reports-Third-Quarter-2017-Results/default.aspx"
+        },
+        {
+          "label": "The Motley Fool: Facebook Investors Freak Out About Expense Guidance (Again)",
+          "url": "https://www.fool.com/investing/2017/11/02/facebook-investors-freak-out-about-expense-guidanc.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Facebook's third-quarter 2017 report described a 79% jump in profit and revenue rising from $7.01 billion to $10.33 billion, with earnings per share of $1.59 versus 90 cents a year earlier and monthly active users climbing to 2.07 billion. The article's real focus, however, is the collision between those results and the political scrutiny Facebook faced the same day: the earnings release coincided with congressional hearings in which lawmakers grilled Facebook, Twitter and Google executives over Russian propagandists' use of their platforms during the 2016 election, with Facebook disclosing that 146 million users had seen posts from accounts linked to the Internet Research Agency, a pro-Kremlin outfit. In direct response, Zuckerberg announced Facebook would double its safety and security staff to 20,000 people by the end of 2018, warning investors that 2018 expenses could rise by as much as 60% and that this would 'significantly impact our profitability going forward,' adding, 'I am dead serious about this.' Pivotal Research analyst Brian Wieser is quoted framing the stakes in trust terms: 'the underlying issue is whether Facebook can be sufficiently trusted by stakeholders... lack of trust creates friction, lack of trust creates rules and those rules come with costs.' The article also notes that advertisers were separately wary of Facebook's video ad products following prior measurement missteps, and details several of the company's remediation efforts, including a commitment to hire a total of 4,000 content and ad reviewers, testing a feature to disclose more about who is behind an ad, and building new AI systems to detect what Zuckerberg called 'bad content and bad actors.'",
+      "why_moved": "Facebook shares fell about 2% in after-hours trading despite the 79% profit jump and clear revenue beat described above, but the article does not draw an explicit causal line between the decline and any single factor -- it lays out the strong results and the congressional scrutiny in parallel rather than stating that one caused the stock's move. The plausible connection, given the article's own emphasis, runs through Zuckerberg's warning that safety and security spending would 'significantly impact profitability going forward' with expenses potentially rising 60% in 2018, echoed by Wieser's comment about the costs that come with 'friction' and new 'rules' when trust is in question -- but this is an inference drawn from the juxtaposition the article presents rather than something the piece states outright. The return series itself is modest and mixed (a small after-hours decline alongside a positive next-day figure), consistent with an article that documents genuine cross-currents -- strong financial results against a serious regulatory and reputational overhang -- without pinning the stock's specific reaction to either one.",
+      "sources": [
+        {
+          "filename": "Facebook Profit Jumps 79%, Revenue Up - WSJ.pdf",
+          "title": "Facebook Profit Jumps 79%, Revenue Up Still, company remains under scrutiny over Russian activity",
+          "published_date": "2017-11-01",
+          "text": "Facebook Profit Jumps 79%, Revenue Up - WSJ 2026-08-28, 4:48 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/facebook-profit-jumps-79-revenue-up-1509568694\nTECH\nFacebook Profit Jumps 79%, Revenue Up\nStill, company remains under scrutiny over Russian activity\nBy Deepa Seetharaman\nUpdated Nov. 1, 2017 at 7:52 pm ET\nFacebook CEO Mark Zuckerberg ERIC RISBERG/ASSOCIATED PRESS\nFacebook Inc. extended its dominance in online advertising in the third quarter but\nsaid it would sacrifice some future growth to invest more heavily in its safety and\nsecurity operations to address the growing scrutiny of its power and influence.\nThe social-media giant reported a 79% jump in third-quarter profit on Wednesday, the\nsame day lawmakers grilled executives from Facebook, Twitter Inc. and Alphabet\nInc.’s Google during congressional hearings that focused on alleged Russian\npropagandists’ activity during the election. Facebook and Google together capture the\nbulk of the growth in digital advertising.\nhttps://www.wsj.com/articles/facebook-profit-jumps-79-revenue-up-1509568694 Page 1 of 4\nFacebook Profit Jumps 79%, Revenue Up - WSJ 2026-08-28, 4:48 PM\nFacebook plans to double the number of employees and contractors who handle safety\nand security issues to 20,000 by the end of 2018. It is also redoubling security-focused\nengineering efforts in some areas and building new artificial-intelligence systems to\ndetect what Chief Executive Mark Zuckerberg described as “bad content and bad\nactors.” Facebook’s 2018 expenses could rise as much as 60% compared with 2017.\n“I am dead serious about this,” Mr. Zuckerberg told investors. “I’ve directed our teams\nto invest so much in security on top of the other investments we’re making that it will\nsignificantly impact our profitability going forward.”\nFacebook is confronting one of the toughest periods in its 13-year history. This week,\nFacebook’s general counsel faced a series of hostile questions from U.S. lawmakers\nover its failure to detect the way Russian propagandists used its platform to spread\ndivisive content through ads, free posts and event listings.\nThe grilling raises the specter of regulation and added scrutiny, which could slow\nFacebook’s growth and ability to rapidly develop new products. The crisis also put\nFacebook in the awkward position of playing down the effectiveness of the Russian\nads while touting the strength of its ad targeting and reach to legitimate advertisers.\nAdvertisers, too, are wary of Facebook’s video ad products after a series of missteps in\ncalculating advertising performance.\n“The underlying issue is whether Facebook can be sufficiently trusted by\nstakeholders,” said Pivotal Research analyst Brian Weiser. “There’s always been this\nconcern that at the top of the company they’re not taking these matters seriously\nenough. Lack of trust creates friction, lack of trust creates rules and those rules come\nwith costs.”\nFacebook reported a third-quarter profit of $1.59 a share, up from 90 cents a share a\nyear ago. The company also generated $10.33 billion in revenue, up from $7.01 billion\nin the prior year’s quarter.\nhttps://www.wsj.com/articles/facebook-profit-jumps-79-revenue-up-1509568694 Page 2 of 4\nFacebook Profit Jumps 79%, Revenue Up - WSJ 2026-08-28, 4:48 PM\nThe firestorm about Russia hasn’t hurt Facebook’s popularity. The company increased\nits monthly active user base to 2.07 billion.\nIts shares were down 2% in after-hours trading. The stock price is up more than 59%\nthis year through Wednesday’s close.\nSince the 2016 U.S. presidential election, Facebook has faced immense criticism for\nallowing misinformation, propaganda and violent videos to proliferate on its service\nand shape political discourse around the world.\nFacebook reinvigorated the debate two months ago after it disclosed that Russian-\nlinked Facebook accounts bought thousands of ads that sought to inflame social and\npolitical tensions before and after election.\nIn congressional hearings on Tuesday and Wednesday, General Counsel Colin Stretch\nfaced questions that went beyond Facebook’s role in the 2016 election and touched on\nits ad-targeting capabilities and content policies.\nFacebook said 146 million users saw posts from accounts linked to the Internet\nResearch Agency, a pro-Kremlin outfit that sought to use Facebook to amplify social\ndivisions in the U.S.\nFacebook is relying on both human oversight and nascent technology, like artificial\nintelligence, to address concerns. Earlier this year, Facebook committed to hire a total\nof 4,000 people to review content and ads. The company is testing a feature that\nwould show some Facebook users more information about the entities behind ads on\nits platform. Chief Operating Officer Sheryl Sandberg said the company was exploring\nsimilar steps to inform users about the people behind political pages on Facebook.\nIn March, Facebook added staff and started working on new technology to more\nquickly detect live broadcasts on its platform that show a user who might hurt him or\nherself. Facebook, which largely relies on users to flag the videos, now reviews them\nwithin 10 minutes, Mr. Zuckerberg said Wednesday.\nhttps://www.wsj.com/articles/facebook-profit-jumps-79-revenue-up-1509568694 Page 3 of 4\nFacebook Profit Jumps 79%, Revenue Up - WSJ 2026-08-28, 4:48 PM\nWrite to Deepa Seetharaman at Deepa.Seetharaman@wsj.com\nAppeared in the November 2, 2017, print edition as 'Facebook Vows to Sacrifice Growth for Secure Operations'.\nDeepa Seetharaman is a former reporter covering artificial intelligence from The Wall Street Journal’s tech bureau\nin San Francisco. Her stories explored the way AI is changing business and society.\nPreviously, she covered the intersection of technology and politics and was the Journal's beat reporter covering…\nFacebook (now Meta). She has written about Instagram's e\"ect on teen girls and how AI systems struggle with\nDeFeopllao wjoined the Journal in 2015 from Reuters, where she covered e-commerce, focusing on Amazon, as well as the\nracist and hateful content. She has covered antitrust issues and profiled some of the most influential executives in\nU.S. auto industry and labor unions. She has won several awards for her coverage including the George Polk Award\nSilicon Valley.\nfor Business Reporting and the Gerald Loeb Award in Beat Reporting.\nhttps://www.wsj.com/articles/facebook-profit-jumps-79-revenue-up-1509568694 Page 4 of 4"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "FB_2018q1": {
+    "ticker": "FB",
+    "group": "Group 1",
+    "company_name": "Meta Platforms",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-01-31",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Facebook entered the quarter after announcing major News Feed changes intended to improve well-being and emphasize meaningful social interactions. Investors feared those changes could reduce engagement and advertising inventory.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Facebook / Meta IR: Facebook Reports Third Quarter 2017 Results",
+                  "url": "https://investor.atmeta.com/investor-news/press-release-details/2017/Facebook-Reports-Third-Quarter-2017-Results/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q4 revenue increased **47% to $12.97 billion**. Adjusted EPS excluding the one-time U.S. tax-reform charge was about **$2.21**, above consensus. Facebook reached **1.40 billion daily users** and **2.13 billion monthly users**.",
+              "sources": []
+            },
+            {
+              "text": "The most striking operating disclosure was that News Feed changes had already reduced time spent on Facebook by roughly **50 million hours per day**, and U.S./Canada daily users declined for the first time. Yet advertising revenue and ARPU remained extremely strong, and management expressed confidence that more meaningful interactions would improve the platform over time. Investors ultimately treated the monetization resilience as more important than the engagement decline.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Facebook / Meta IR: Facebook Reports Fourth Quarter and Full Year 2017 Results",
+                  "url": "https://investor.atmeta.com/investor-news/press-release-details/2018/Facebook-Reports-Fourth-Quarter-and-Full-Year-2017-Results/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares rose because revenue and underlying earnings stayed exceptionally strong despite intentional reductions in time spent.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Higher ad pricing and ARPU offset slower engagement growth.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** The market accepted the News Feed changes as a long-term quality trade-off rather than an immediate revenue break.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: 4 Things Facebook Management Wants You to Know",
+                  "url": "https://www.fool.com/investing/2018/02/01/4-things-facebook-management-wants-you-to-know.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Facebook/FB identity, the correct earnings event, publication date, timing window and source origin. Facebook/Meta Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Facebook / Meta IR: Facebook Reports Third Quarter 2017 Results",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2017/Facebook-Reports-Third-Quarter-2017-Results/default.aspx"
+        },
+        {
+          "label": "Facebook / Meta IR: Facebook Reports Fourth Quarter and Full Year 2017 Results",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2018/Facebook-Reports-Fourth-Quarter-and-Full-Year-2017-Results/default.aspx"
+        },
+        {
+          "label": "The Motley Fool: 4 Things Facebook Management Wants You to Know",
+          "url": "https://www.fool.com/investing/2018/02/01/4-things-facebook-management-wants-you-to-know.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "This Heard on the Street column examines Facebook's fourth-quarter 2017 results through the lens of CEO Mark Zuckerberg's stated 2018 goal of 'fixing' the social network, including an overhaul of the News Feed and video efforts, which he had warned could hurt usage since 'protecting our community is more important than maximizing our profit.' The column finds Zuckerberg 'half right' so far: usage did take a real hit, with daily active users reaching 1.4 billion, up only 2.4% sequentially -- the lowest sequential growth on record for that metric and down sharply from 4.1% growth a year earlier -- and the 33 million net new daily users added in the quarter came in below the 46 million Wall Street analysts had expected. Yet the article stresses that the financial results told the opposite story: revenue jumped 47% year over year to just under $13 billion, operating income surged 61% to $7.4 billion, and Facebook wasn't cutting spending to protect margins either, with 2017 capital expenditures soaring 49% to $6.7 billion. The column adds a comparative data point on profitability, noting that on a trailing twelve-month basis Facebook generates about 50 cents of operating profit per dollar of revenue, roughly twice the margin of megacap peers Microsoft, Apple and Alphabet. The piece's forward-looking conclusion is explicitly cautionary rather than descriptive of the quarter itself: it argues investors should 'get ready for a slightly less profitable Facebook' once the more significant product changes -- and their effects on advertisers -- are fully reflected in future results.",
+      "why_moved": "As a Heard on the Street opinion column, the piece does not report an after-hours trading reaction or attribute the stock's actual multi-day move to any specific figure; it instead lays out the tension between a clear engagement miss (33 million new daily users versus the 46 million analysts expected, the slowest sequential DAU growth on record) and record financial strength (47% revenue growth, 61% operating income growth) without stating which side the market weighted more heavily. Given that the stock rose over the following days, it is a reasonable inference that investors leaned toward the financial-strength side of that split described above rather than the engagement slowdown, but the article itself offers no explicit statement connecting its content to the specific positive price reaction -- it stays focused on warning that the true financial cost of Zuckerberg's 'fixing Facebook' agenda has not yet arrived, a caution about the future rather than an explanation of the immediate move.",
+      "sources": [
+        {
+          "filename": "No Bill Yet for Facebook’s Fixes - WSJ.pdf",
+          "title": "HEARD ON THE STREET Follow No Bill Yet for Facebook’s Fixes The social network’s changes slow user growth but financials stay strong",
+          "published_date": "2018-01-31",
+          "text": "No Bill Yet for Facebook’s Fixes - WSJ 2026-08-28, 4:49 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/no-bill-yet-for-facebooks-fixes-1517440332\nHEARD ON THE STREET Follow\nNo Bill Yet for Facebook’s Fixes\nThe social network’s changes slow user growth but financials stay strong\nBy Dan Gallagher\nJan. 31, 2018 at 6:12 pm ET\nCEO Mark Zuckerberg has made ‘fixing’ Facebook his goal for 2018. MARK SCHIEFELBEIN/ASSOCIATED PRESS\nSo what will it cost to “fix” Facebook? The company’s fourth-quarter results reported\nWednesday offered an early clue.\nCEO Mark Zuckerberg has made “fixing” the social network his top goal for the new\nyear. He has previously outlined several efforts in this direction—including an\noverhaul to the company’s key News Feed tool and video efforts. He also has warned\nthat the changes could affect the site’s usage, but added that “protecting our\ncommunity is more important than maximizing our profit.”\nhttps://www.wsj.com/articles/no-bill-yet-for-facebooks-fixes-1517440332 Page 1 of 3\nNo Bill Yet for Facebook’s Fixes - WSJ 2026-08-28, 4:49 PM\nResults reported Wednesday afternoon showed Mr. Zuckerberg was half right, at least\nfor now. Usage indeed took a hit in the fourth quarter, reflecting some of the changes\nthe company had put in place. Facebook reported 1.4 billion daily average users for the\nperiod, an increase of only 2.4% from the third quarter. That was the lowest sequential\ngrowth on record for this key engagement metric—and down notably from the 4.1%\ngrowth the company reported at this time last year. The 33 million daily average users\nadded in the quarter was below the 46 million expected by Wall Street analysts.\nBut Facebook’s fixes are still invisible in its financial statements. In fact, the fourth\nquarter was the company’s strongest on record in many respects. Revenue jumped\n47% year over year to just under $13 billion, fueled by a strong mobile-advertising\nbusiness. Operating income surged 61% to $7.4 billion. And Facebook isn’t exactly\npinching pennies to goose the bottom line: Capital expenditures soared to $6.7 billion\nin 2017—a 49% jump from the previous year.\nFacebook’s profits can be deemed the envy of the tech world. On a trailing 12-month\nbasis, Facebook now generates about 50 cents in operating profit per dollar of\nrevenue. That is roughly twice as much as its megacap tech peers Microsoft Corp.,\nApple Inc. and Google parent Alphabet Inc.\nBut investors should still get ready for a slightly less profitable Facebook. Some of the\ncompany’s more significant changes have yet to be fully reflected, and the changes\nalready in effect may not have hit advertisers’ radar. When both hit, that may be the\ntruest test of Mr. Zuckerberg’s resolve—and that of his investors.\nAppeared in the February 1, 2018, print edition as 'No Bill Yet for Facebook’s Fixes'.\nDan Gallagher is a former columnist for The Wall Street Journal’s Heard on the Street, where he covered the\ntechnology and media industries. His work for the Heard column spanned the businesses of artificial intelligence,\nsemiconductors, internet, software, hardware, advertising, streaming TV and film. Dan also wrote WSJ's AI &…\nBusiness newsletter.\nHeF joollionwed the column in 2013 after nearly two decades covering tech as a news reporter—starting well before\nsmartphones got smart.\nDan previously spent 10 years at MarketWatch, where he built a data news team and served as technology editor.\nhttps://www.wsj.com/articles/no-bill-yet-for-facebooks-fixes-1517440332 Page 2 of 3\nNo Bill Yet for Facebook’s Fixes - WSJ 2026-08-28, 4:49 PM\nhttps://www.wsj.com/articles/no-bill-yet-for-facebooks-fixes-1517440332 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "This dedicated Facebook earnings story reports fourth-quarter operating profit up 61% to $7.35 billion, with revenue up 47% to $12.97 billion during the peak holiday advertising season. Net profit totaled $4.27 billion, or $1.44 per share, after a $3.19 billion tax charge, of which $2.27 billion (77 cents per share) stemmed from the new congressional tax overhaul. The article notes Facebook's user base had grown to more than 2 billion people globally. CEO Mark Zuckerberg is quoted describing 2017 as 'a strong year for Facebook, but it was also a hard one,' and saying he intended to address user concerns about passive newsfeed content consumption. The piece situates the results against a backdrop of mounting criticism of the platform from lawmakers, customers, and voices within the company itself, questioning Facebook's broader societal impact even as its core advertising business continued to dominate.",
+      "why_moved": "The article states that Facebook shares, which had gained 43% over the preceding year, declined 4% to $179.38 in after-hours trading following the earnings announcement, despite the 61% operating-profit growth and 47% revenue growth. It frames this against the large one-time tax charge that cut into net profit and the mounting criticism of Facebook's societal impact referenced in the piece, without offering further specific explanation for the decline.",
+      "sources": [
+        {
+          "title": "Facebook Posts 61% Rise in Operating Profit in the Fourth Quarter",
+          "url": "https://www.foxbusiness.com/markets/facebook-posts-61-rise-in-operating-profit-in-the-fourth-quarter"
+        }
+      ]
+    }
+  },
+  "FB_2018q2": {
+    "ticker": "FB",
+    "group": "Group 1",
+    "company_name": "Meta Platforms",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-04-25",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "The quarter was dominated by Cambridge Analytica, congressional testimony and fears that privacy regulation or user backlash could damage Facebook’s advertising business. Expectations for user and revenue growth had therefore fallen sharply before the print.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Facebook / Meta IR: Facebook Reports Fourth Quarter and Full Year 2017 Results",
+                  "url": "https://investor.atmeta.com/investor-news/press-release-details/2018/Facebook-Reports-Fourth-Quarter-and-Full-Year-2017-Results/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Facebook reported **$11.97 billion of revenue** and **$1.69 EPS**, comfortably above consensus near $11.41 billion and $1.35. Daily users increased to **1.45 billion** and monthly users to **2.20 billion**. U.S./Canada daily users recovered to 185 million after the prior quarter’s decline.",
+              "sources": []
+            },
+            {
+              "text": "Advertising revenue grew **50%**, mobile represented **91%** of ad revenue, and operating margin improved to **46%**. Facebook also increased its share-repurchase authorization by $9 billion. The report showed that the Cambridge Analytica controversy had not yet produced a material advertiser or user exodus.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Facebook / Meta IR: Facebook Reports First Quarter 2018 Results",
+                  "url": "https://investor.atmeta.com/investor-news/press-release-details/2018/Facebook-Reports-First-Quarter-2018-Results/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock surged because the core ad business and user metrics proved far more resilient than feared.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** U.S./Canada daily users recovered, directly countering fears of a user backlash.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** The larger buyback reinforced management’s confidence after the pre-earnings selloff.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TechCrunch: Facebook beats in Q1 and boosts daily user growth to 1.45B amidst backlash",
+                  "url": "https://techcrunch.com/2018/04/25/facebook-q1-2018-earnings/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Facebook/FB identity, the correct earnings event, publication date, timing window and source origin. Facebook/Meta Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Facebook / Meta IR: Facebook Reports Fourth Quarter and Full Year 2017 Results",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2018/Facebook-Reports-Fourth-Quarter-and-Full-Year-2017-Results/default.aspx"
+        },
+        {
+          "label": "Facebook / Meta IR: Facebook Reports First Quarter 2018 Results",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2018/Facebook-Reports-First-Quarter-2018-Results/default.aspx"
+        },
+        {
+          "label": "TechCrunch: Facebook beats in Q1 and boosts daily user growth to 1.45B amidst backlash",
+          "url": "https://techcrunch.com/2018/04/25/facebook-q1-2018-earnings/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Described in the article as Facebook's 'first snapshot' of how the Cambridge Analytica data-privacy scandal was affecting its underlying business, the first-quarter 2018 report showed earnings per share of $1.69 versus $1.04 a year earlier, revenue up nearly 50% to $11.97 billion, and net income up 63% to nearly $5 billion from $3.06 billion -- results the article says 'topped analyst expectations.' Monthly active users grew by about 70 million to 2.2 billion, and the company announced an additional $9 billion in share buybacks on top of a previously authorized $6 billion. The scandal itself is described in detail: Cambridge Analytica, which aided the Trump campaign in 2016, allegedly obtained data on tens of millions of Facebook users from an outside developer, sparking a #deletefacebook backlash and prompting Zuckerberg to testify before Congress twice earlier in the month. On the earnings call, COO Sheryl Sandberg directly addressed the central investor question, stating the company hadn't seen a 'meaningful trend' of advertisers fleeing the platform; Merkle's Andy Taylor is quoted saying major advertisers were aware of the controversy and in a 'wait-and-see mode' but had not made significant moves, contrasting this relatively muted reaction with the more damaging backlash Alphabet's YouTube had faced over ad placement next to objectionable content. The article also flags real forward risk: CFO David Wehner warned that European user growth could go flat or decline once new GDPR privacy rules take effect in May, and most analysts and investors, per the piece, believe additional regulation is 'inevitable,' with Zuckerberg telling lawmakers he was open to some regulation but wary of rules that could hinder U.S. companies competing against Chinese rivals.",
+      "why_moved": "Facebook shares rose about 7% in after-hours trading, and the article frames this explicitly as a relief rally: shares had fallen more than 18% from a record high in early February heading into the report, reflecting investor fear that the Cambridge Analytica fallout described above would visibly damage the ad business, but the 50% revenue growth and 63% net income growth, combined with Sandberg's direct statement that no 'meaningful trend' of advertiser defection had emerged, addressed that fear head-on. The contrast the article draws with Alphabet -- which beat its own first-quarter expectations the same week but saw shares fall 4.8%, its worst session in more than two months, on separate expense concerns -- reinforces that Facebook's rally was specifically about the market concluding the privacy scandal had not yet dented the underlying advertising business, even as the piece is careful to note that much of the Cambridge Analytica fallout happened after the quarter closed in March and that the looming GDPR-driven European user risk flagged by Wehner remained an unresolved overhang.",
+      "sources": [
+        {
+          "filename": "Facebook Posts Surge in Revenue as It Tackles User-Data Crisis - WSJ.pdf",
+          "title": "Facebook Posts Surge in Revenue as It Tackles User-Data Crisis Results suggest advertisers were undeterred by uproar around Cambridge Analytica incident",
+          "published_date": "2018-04-25",
+          "text": "Facebook Posts Surge in Revenue as It Tackles User-Data Crisis - WSJ 2026-08-28, 4:50 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/facebook-reports-higher-revenue-earnings-1524687694\nTECH\nFacebook Posts Surge in Revenue as It Tackles User-\nData Crisis\nResults suggest advertisers were undeterred by uproar around Cambridge Analytica incident\nBy Deepa Seetharaman\nWSJ PRO Updated April 25, 2018 at 8:04 pm ET\nFacebook’s earnings report marks the first snapshot of how the company’s ties to Cambridge Analytica are a\"ecting\nits business. PHOTO: SHAWN THEW/EPA/SHUTTERSTOCK\nFacebook Inc., in its first earnings report after touching off widespread data-privacy\nconcerns, posted soaring revenue and profit that highlighted the company’s central\nplace in the digital economy.\nThe social-media giant has weathered one crisis after another in the 17 months since\nthe 2016 presidential election, but its business—at least for now—is still thriving.\nhttps://www.wsj.com/articles/facebook-reports-higher-revenue-earnings-1524687694 Page 1 of 5\nFacebook Posts Surge in Revenue as It Tackles User-Data Crisis - WSJ 2026-08-28, 4:50 PM\nFacebook reported quarterly per share profit of $1.69, up from $1.04 a year earlier,\nwhile revenue rose nearly 50% to $11.97 billion. Net income rose 63% to nearly $5\nbillion, compared with $3.06 billion a year ago.\nThose results topped analyst expectations.\nExecutives acknowledged that Facebook must better police its platform, but insisted\nthey could do so without overhauling its lucrative advertising business, dismantling\ntools for targeting consumers, or offering a paid version of the service.\n“We are taking a broader view of our responsibility and investing to make sure our\ntools are used for good,” Chief Executive Mark Zuckerberg said during a call with\nanalysts. “And we also need to keep moving forward, building new tools to help people\nconnect, build community and bring the world closer together.”\nFacebook added about 70 million monthly users during the first three months of the\nyear bringing its overall user base to 2.2 billion, up from 2.13 billion at the end of 2017.\nThe Menlo Park, Calif., company also said it would buy back an additional $9 billion in\nshares, adding to the $6 billion previously authorized.\nIn after-hours trading Wednesday, Facebook shares rose about 7%. Since a record high\nin early February, the company’s shares had fallen more than 18% before the earnings\nrelease.\nFacebook’s earnings report marks the first snapshot of how the company’s ties to\npolitical-data firm Cambridge Analytica are affecting the Silicon Valley giant’s\nbusiness.\nCambridge Analytica aided the Trump campaign in 2016 and allegedly bought data\nabout tens of millions of Facebook users from an outside developer. The incident,\nhttps://www.wsj.com/articles/facebook-reports-higher-revenue-earnings-1524687694 Page 2 of 5\nFacebook Posts Surge in Revenue as It Tackles User-Data Crisis - WSJ 2026-08-28, 4:50 PM\ndisclosed in mid-March, highlighted Facebook’s at times lax oversight of how outside\ndevelopers handled user data they extracted from the platform.\nIt also sparked anger toward the site and prompted a ffdeletefacebook campaign.\nCambridge Analytica has denied wrongdoing.\nMuch of the fallout happened after the quarter ended in March and isn’t fully reflected\nin the earnings report. But Facebook Chief Operating Officer Sheryl Sandberg said\nWednesday that the company hadn’t seen a “meaningful trend” of advertisers fleeing\nthe platform amid the criticism of its privacy practices.\nMajor advertisers “were very aware of the controversies swirling and wanted to know\nmore about what other brands were doing,” said Andy Taylor, associate director of\nresearch at data marketing firm Merkle. “But really, in terms of making moves,\nadvertisers are more in a wait-and-see mode.”\nMr. Taylor added that most advertisers generally remain happy with Facebook’s\nproducts. He noted that its struggles haven’t yet provoked the same kind of outrage\ntoward advertisers as last year’s controversy surrounding Alphabet Inc.’s YouTube\nand its placement of ads adjacent to videos with objectionable content.\nThe uproar over Cambridge Analytica is the latest episode to spur questions over\nFacebook’s reach. The period since the 2016 election has been tumultuous, with users,\nadvertisers and lawmakers questioning whether the company sacrificed security and\nprivacy in pursuit of relentless growth.\nOn Wednesday, executives uniformly defended Facebook’s business model, saying it\nwas possible to deliver targeted advertising without violating users’ privacy.\nFacebook allows users to turn off some targeted ads, but not all.\nhttps://www.wsj.com/articles/facebook-reports-higher-revenue-earnings-1524687694 Page 3 of 5\nFacebook Posts Surge in Revenue as It Tackles User-Data Crisis - WSJ 2026-08-28, 4:50 PM\n“Advertising and protecting people’s information are not at odds,” Ms. Sandberg said.\n“We do both.”\nMr. Zuckerberg appeared twice in front of U.S. lawmakers this month in hearings\ncentered on the Cambridge Analytica episode, and Facebook has redoubled efforts to\nstamp out abuse.\nStill, most analysts and investors believe additional regulation is inevitable, although\nit isn’t clear what form it will take or what impact it would have on Facebook’s bottom\nline.\nMr. Zuckerberg told lawmakers that he was open to some forms of regulation but\nadded that too many rules could impede American tech companies from competing\nhead-to-head with Chinese rivals.\nIn one indication of how tougher oversight could limit growth, Facebook Chief\nFinancial Officer David Wehner said Wednesday that average monthly and daily user\ngrowth in Europe could be flat or down as a result of new privacy regulations\nscheduled to go into effect there in May.\nEarlier this week, Google’s parent company, Alphabet—Facebook’s biggest rival in the\nonline-ad space—reported a profit for the first three months of the year that topped\nexpectations, but investors grappling with the company’s higher expenses sent the\nshares down 4.8%, the stock’s worst session in more than two months.\nHowever, Alphabet executives played down the expected impact of the European\nrules, saying its search ads rely less on the type of personal targeting that will be\nlimited by the regulation.\nWrite to Deepa Seetharaman at Deepa.Seetharaman@wsj.com\nhttps://www.wsj.com/articles/facebook-reports-higher-revenue-earnings-1524687694 Page 4 of 5\nFacebook Posts Surge in Revenue as It Tackles User-Data Crisis - WSJ 2026-08-28, 4:50 PM\nAppeared in the April 26, 2018, print edition as 'Facebook Earnings Climb Despite Crisis'.\nhttps://www.wsj.com/articles/facebook-reports-higher-revenue-earnings-1524687694 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "FB_2018q3": {
+    "ticker": "FB",
+    "group": "Group 1",
+    "company_name": "Meta Platforms",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-25",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After the April relief rally, Facebook again carried a high expectations bar. Investors were watching whether GDPR, News Feed changes and privacy investments would finally slow users, revenue or margins.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Facebook / Meta IR: Facebook Reports First Quarter 2018 Results",
+                  "url": "https://investor.atmeta.com/investor-news/press-release-details/2018/Facebook-Reports-First-Quarter-2018-Results/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q2 revenue grew **42% to $13.23 billion**, but it missed consensus near $13.4 billion. Daily and monthly users each grew **11% year over year**, with the slowest quarter-over-quarter daily-user growth Facebook had reported and a user decline in Europe.",
+              "sources": []
+            },
+            {
+              "text": "The earnings call then produced the decisive negative information. Management said revenue growth would **decelerate significantly** in coming quarters, while operating margin was expected to fall from the mid-40% range toward the **mid-30s** over time as security, privacy, Stories and new products required heavy investment. That combination transformed a modest revenue miss into a fundamental reset of Facebook’s growth-and-margin algorithm.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Facebook / Meta IR: Facebook Reports Second Quarter 2018 Results",
+                  "url": "https://investor.atmeta.com/investor-news/press-release-details/2018/Facebook-Reports-Second-Quarter-2018-Results/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The nearly 19% collapse came from the combination of a revenue miss and a much weaker forward growth/margin outlook.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Slow user growth, especially in Europe, suggested the core Facebook platform was maturing.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Security/privacy investment meant slower revenue growth would coincide with structurally higher costs.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Why Facebook, Inc. Stock Has Plummeted Today",
+                  "url": "https://www.fool.com/investing/2018/07/26/why-facebook-inc-stock-has-plummeted-today.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were opened and checked for Facebook/FB identity, the correct earnings event, publication date, timing window and source origin. Facebook/Meta Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Facebook / Meta IR: Facebook Reports First Quarter 2018 Results",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2018/Facebook-Reports-First-Quarter-2018-Results/default.aspx"
+        },
+        {
+          "label": "Facebook / Meta IR: Facebook Reports Second Quarter 2018 Results",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2018/Facebook-Reports-Second-Quarter-2018-Results/default.aspx"
+        },
+        {
+          "label": "The Motley Fool: Why Facebook, Inc. Stock Has Plummeted Today",
+          "url": "https://www.fool.com/investing/2018/07/26/why-facebook-inc-stock-has-plummeted-today.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Facebook's second-quarter 2018 report triggered what the article describes as an unprecedented reaction: shares dropped as much as 23% in after-hours trading, a decline that would erase roughly $130 billion in market value if it held -- more, the article notes, than the entire market capitalization of McDonald's. The results themselves were mixed rather than uniformly weak: earnings per share of $1.74 edged past the $1.72 analyst consensus, but revenue of $13.23 billion missed the $13.36 billion analysts had expected, according to Thomson Reuters -- the company's first revenue miss since the first quarter of 2015, as the article specifically notes. Management layered a pointed deceleration warning on top of that miss: executives said the revenue growth rate had already fallen seven percentage points quarter over quarter and would decrease by 'high single-digit percentages' in the second half of 2018, while guiding operating margins down from the quarter's 44% to the 'mid-30s' over the next several years due to higher product and infrastructure spending. User trends in lucrative markets also softened: daily active users in the U.S. and Canada were flat at 185 million, while European daily users slipped to 279 million from 282 million, a decline executives attributed to the new European GDPR privacy law taking effect during the quarter. Zuckerberg himself called the results 'another solid quarter' on the call, but the article notes those comments were 'quickly overshadowed' when other executives detailed the growth deceleration and margin guidance, with SocialFlow CEO Jim Anderson quoted wondering whether the results signaled 'an early warning sign that the market's assumptions about tech companies' growth failed to account for the fact that each of us only has 24 hours in a day.'",
+      "why_moved": "The article ties the record plunge directly to the specific combination established above: a rare revenue miss against consensus -- the first since early 2015 -- landing alongside an explicit management warning that revenue growth would keep decelerating by high single digits through the back half of 2018 and that operating margins would compress from 44% toward the mid-30s for years to come. That the softness showed up specifically in Europe, where daily active users actually declined and where executives linked the drop to new GDPR rules, gave the deceleration warning concrete, near-term evidence rather than leaving it as an abstract caution, which the article suggests amplified the market's reaction. Zuckerberg's own characterization of the quarter as 'another solid quarter,' delivered just before the more cautious guidance from his fellow executives took over the narrative, underscores the article's framing that it was the forward-looking guidance and the rare revenue miss -- not the past quarter's underlying growth of 42% -- that investors reacted to so severely.",
+      "sources": [
+        {
+          "filename": "Facebook Shares Tumble as Growth Outlook Darkens - WSJ.pdf",
+          "title": "Facebook Shares Tumble as Growth Outlook Darkens Results suggest the social-media site felt the effects of a series of recent controversies",
+          "published_date": "2018-07-25",
+          "text": "Facebook Shares Tumble as Growth Outlook Darkens - WSJ 2026-08-28, 4:50 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/facebook-revenue-falls-short-of-expectations-1532549650\nTECH\nFacebook Shares Tumble as Growth Outlook Darkens\nResults suggest the social-media site felt the e\"ects of a series of recent controversies\nBy Deepa Seetharaman\nUpdated July 25, 2018 at 8:57 pm ET\nFacebook’s results Wednesday marked the first full quarter results since the scandal broke over Facebook’s privacy\npractices. PHILIPPE WOJAZER/REUTERS\nFacebook Inc. warned that its growth is slowing, sending its stock price plummeting\nas investors feared the social-media titan’s fortunes aren’t immune to the multiple\ncontroversies it has faced this year.\nAfter touching record highs earlier on Wednesday, Facebook shares dropped as much\nas 23% in after-hours trading, a plunge that would wipe roughly $130 billion from the\ncompany’s value if it holds when the markets open on Thursday. That would be more\nthan the entire market value of McDonald’s Corp., MCD 1.90% although after-hours\ndeclines don’t always correspond to market prices the next day.\nhttps://www.wsj.com/articles/facebook-revenue-falls-short-of-expectations-1532549650 Page 1 of 5\nFacebook Shares Tumble as Growth Outlook Darkens - WSJ 2026-08-28, 4:50 PM\nFacebook has shown few business effects from the negative headlines that have\ndogged it in recent months. But winding up a quarter during which its privacy\npractices stirred fresh controversy, the company late Wednesday reported slower-\nthan-expected revenue growth for the period—albeit logging in at more than 40%—\nand said it expected quarterly revenue growth to decline over the rest of the year.\nThe Menlo Park, Calif., firm also showed sluggish user trends in some of its most\nlucrative markets, including the U.S. and Canada, in the second quarter.\nDaily active users in the U.S. and Canada measured at 185 million, flat with the first\nquarter and up slightly from a year earlier. Facebook’s daily user base in Europe edged\ndown to 279 million accounts, from 282 million in the prior quarter. Facebook\nexecutives said that decline stemmed from a tough new European privacy law that\nwent into effect in the second quarter.\nSome worried that the results suggest growth could be threatened not just for\nFacebook but also for other tech companies that depend on consumers spending ever-\nmore time on their digital devices. “I can’t help but wonder if this is an early warning\nsign that the market’s assumptions about tech companies’ growth failed to account\nfor the fact that each of us only has 24 hours in a day,” said Jim Anderson, CEO of\nSocialFlow, a platform for publishers to post stories on Facebook and other social-\nmedia sites.\nPrior to Wednesday’s report, most analysts expected Facebook to continue its streak\nof impressive growth that seemed impervious to controversies about the platform’s\noperations.\nFor the second quarter, Facebook reported earnings per share of $1.74, up from $1.32 a\nyear earlier. Revenue increased 42% to $13.23 billion. Analysts, on average, expected\nearnings of $1.72 a share on revenue of $13.36 billion, according to Thomson Reuters.\nThe last time Facebook missed analyst estimates for revenue was in the first quarter\nhttps://www.wsj.com/articles/facebook-revenue-falls-short-of-expectations-1532549650 Page 2 of 5\nFacebook Shares Tumble as Growth Outlook Darkens - WSJ 2026-08-28, 4:50 PM\nof 2015.\nIn a call with analysts, Facebook Chief Executive Officer Mark Zuckerberg called the\nresults “another solid quarter”—but those comments were quickly overshadowed\nwhen other executives warned that tougher privacy laws, a shift toward less lucrative\nadvertising products and currency headwinds would clip revenue growth.\nThey noted that the revenue growth rate fell seven percentage points in the second\nquarter compared with the first three months of the year and said the company\nexpected quarter-to-quarter revenue growth rates to decrease by “high single-digit\npercentages” in the second half of 2018.\nThe company also said its expenses would rise faster than revenue in 2019 and\nprojected that its operating-margin percentages would be in the mid-30s over the\nnext several years, due to higher spending on product and infrastructure. The second-\nquarter margin was 44%.\nThe results “showed growth but geographically have pockets of softness,” said Daniel\nIves, head of technology research at GBH Insights.\nFacebook’s global reach and impact on the world have been under scrutiny since the\n2016 U.S. presidential election, when the social network attracted criticism for\nallowing fabricated news articles to flourish on the site.\nThose issues intensified in March, when it suspended political analytics firm\nCambridge Analytica for improperly accessing data from as many as 87 million\nFacebook users. That disclosure forced Mr. Zuckerberg to testify in front of lawmakers\non both sides of the Atlantic in early April.\nOn the call Wednesday, Mr. Zuckerberg acknowledged that Facebook needed to invest\nmore in security measures to prevent the platform from being manipulated. He also\npledged that the company wouldn’t stop building new products “because that\nwouldn’t be the right way to serve our community and because we run this company\nhttps://www.wsj.com/articles/facebook-revenue-falls-short-of-expectations-1532549650 Page 3 of 5\nFacebook Shares Tumble as Growth Outlook Darkens - WSJ 2026-08-28, 4:50 PM\nfor the long term, not for the next quarter.”\nDespite those controversies, advertisers broadly speaking have remained on the site,\nlargely because there are few other outlets that can match its reach and ability to\ntarget narrow slices of consumers.\n“It’s going to take a lot more than the scandals they have had to change to the way that\nadvertisers are using their dollars,” said Aaron Goldman, chief marketing officer of\nmarketing technology firm 4C Insights.\nThe support of advertisers was a key reason for continued investor enthusiasm for the\nstock. Before the after-hours plunge, Facebook’s share price was up 26% since the\nCambridgeFacebook Inc. said its revenue growth rate fell seven percentage points in\nthe second quarter compared to the first three months of the year. An earlier version\nof this story incorrectly said revenue fell 7%. Analytica revelations in March.\nWrite to Deepa Seetharaman at Deepa.Seetharaman@wsj.com\nCorrections & Amplifications\nFacebook said its revenue growth rate fell seven percentage points in the second\nquarter compared to the first three months of 2018. An earlier version of this story\nincorrectly said revenue fell 7% from the one quarter to the next. (July 27, 2018)\nAppeared in the July 26, 2018, print edition as 'Facebook Sinks After Growth Warning'.\nDeepa Seetharaman is a former reporter covering artificial intelligence from The Wall Street Journal’s tech bureau\nin San Francisco. Her stories explored the way AI is changing business and society.\nPreviously, she covered the intersection of technology and politics and was the Journal's beat reporter covering…\nFacebook (now Meta). She has written about Instagram's e\"ect on teen girls and how AI systems struggle with\nDeFeopllao wjoined the Journal in 2015 from Reuters, where she covered e-commerce, focusing on Amazon, as well as the\nracist and hateful content. She has covered antitrust issues and profiled some of the most influential executives in\nU.S. auto industry and labor unions. She has won several awards for her coverage including the George Polk Award\nSilicon Valley.\nfor Business Reporting and the Gerald Loeb Award in Beat Reporting.\nhttps://www.wsj.com/articles/facebook-revenue-falls-short-of-expectations-1532549650 Page 4 of 5\nFacebook Shares Tumble as Growth Outlook Darkens - WSJ 2026-08-28, 4:50 PM\nhttps://www.wsj.com/articles/facebook-revenue-falls-short-of-expectations-1532549650 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": null
+  }
+}

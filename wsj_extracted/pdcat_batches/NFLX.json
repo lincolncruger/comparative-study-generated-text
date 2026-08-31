@@ -1,0 +1,1159 @@
+{
+  "NFLX_2016q2": {
+    "ticker": "NFLX",
+    "group": "Group 2",
+    "company_name": "Netflix",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-18",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Netflix had just expanded into more than 130 additional countries, making international subscriber growth the central valuation variable. The market expected that global launch to sustain unusually high net additions.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Netflix IR: Netflix Fourth Quarter 2015 Earnings Interview",
+                  "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2016/Netflix-Fourth-Quarter-2015-Earnings-Interview/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Netflix ended Q1 with more than **81 million members** after adding a record **6.74 million** subscribers: about 2.23 million in the U.S. and 4.51 million internationally. Revenue was about **$1.96 billion** and EPS **$0.06**. The current quarter was therefore strong on subscriber additions.",
+              "sources": []
+            },
+            {
+              "text": "The problem was the **Q2 forecast**. Netflix expected only **500,000 U.S.** and **2.0 million international** net additions, a sharp slowdown from Q1 and below what investors expected after the global rollout. Management also faced the end of grandfathered lower prices for many U.S. subscribers, creating churn risk. The release shifted the debate from “record global expansion” to “how quickly can growth normalize without damaging the long-term thesis?”",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Netflix IR: Netflix First Quarter 2016 Earnings Interview",
+                  "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2016/Netflix-First-Quarter-2016-Earnings-Interview/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares fell sharply because Q2 subscriber guidance implied a much faster slowdown than investors expected.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Price increases created concern that churn would rise as grandfathered plans expired.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Record Q1 additions showed demand was still strong, but the stock was priced for continued acceleration.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheWrap: Netflix Shares Sink 10 Percent in Early Trading After Subscriber Growth Warning",
+                  "url": "https://www.thewrap.com/netflix-shares-sink-on-slowing-member-momentum-in-early-trade/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were checked for Netflix/NFLX identity, the correct earnings event, publication date, timing window and source origin. Netflix Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Netflix IR: Netflix Fourth Quarter 2015 Earnings Interview",
+          "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2016/Netflix-Fourth-Quarter-2015-Earnings-Interview/default.aspx"
+        },
+        {
+          "label": "Netflix IR: Netflix First Quarter 2016 Earnings Interview",
+          "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2016/Netflix-First-Quarter-2016-Earnings-Interview/default.aspx"
+        },
+        {
+          "label": "TheWrap: Netflix Shares Sink 10 Percent in Early Trading After Subscriber Growth Warning",
+          "url": "https://www.thewrap.com/netflix-shares-sink-on-slowing-member-momentum-in-early-trade/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "This is a pre-earnings preview column, published the same day Netflix was due to report first-quarter results, arguing that skepticism about the stock was warranted ahead of the release. Analysts were expecting earnings of 3 cents a share, down from 5 cents a year earlier, and revenue of $1.97 billion, up 25%. The column notes Netflix's stock had surged more than 300% over three years, repeatedly proving skeptics wrong, but that shares had been trading in volatile fashion in recent months amid slowing U.S. subscriber growth, rising content costs and increasing competition from services like Hulu and Amazon Prime Video. It points out Netflix expected to add a net 1.75 million U.S. subscribers in the first quarter, down from 2.28 million a year earlier, and that analysts projected higher churn as a recent price increase phased out \"grandfathered\" pricing for existing customers. The column also flags that streaming content obligations had hit $10.9 billion as of the fourth quarter, the third straight quarter above $10 billion (versus about two-thirds that level two years earlier), and that Netflix's net operating cash flow had turned negative in the prior year for the first time since 2000. With the stock trading at more than 200 times projected next-12-month earnings, the column concludes it \"trades more on faith than fundamentals\" and that, over the prior five years, shares had moved at least 10% following more than half of Netflix's earnings reports.",
+      "why_moved": "This article was published the same day as the earnings release but before the results came out that evening, framed as a preview raising skepticism about slowing U.S. subscriber growth, rising content costs, and a stretched valuation. It does not report the actual quarter's results or how shares moved in reaction, since it was written ahead of that evening's report.",
+      "sources": [
+        {
+          "filename": "Netflix Fans Ignore Worrying Plot Twists - WSJ.pdf",
+          "title": "Netflix Fans Ignore Worrying Plot Twists Netflix's meteoric stock rise has hit the skids in the past several months, which appears warranted before Monday's earnings report",
+          "published_date": "2016-04-18",
+          "text": "Netflix Fans Ignore Worrying Plot Twists - WSJ 2026-08-29, 5:57 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/netflix-fans-ignore-worrying-plot-twists-1460911117\nSTOCKS\nNetflix Fans Ignore Worrying Plot Twists\nNetflix’s meteoric stock rise has hit the skids in the past several months, which appears\nwarranted before Monday’s earnings report\nBy Steven Russolillo\nUpdated April 18, 2016 at 5:00 pm ET\nNetflix reports quarterly earnings Monday. ASSOCIATED PRESS\nSlowing growth, rising costs and increasing competition: That is usually a recipe for\ntrouble on Wall Street.\nThen there is Netflix Inc.\nThe video-streaming service’s meteoric stock rise has defied logic, thanks to its\ngrowing popularity and original programming. That has overshadowed the steep rise\nin the cost of doing business and slowing U.S. subscriber growth. More channels are\ngoing direct-to-consumer through the Internet and rivals such as Hulu and\nhttps://www.wsj.com/articles/netflix-fans-ignore-worrying-plot-twists-1460911117 Page 1 of 3\nNetflix Fans Ignore Worrying Plot Twists - WSJ 2026-08-29, 5:57 PM\nAmazon.com’s Prime Video are ramping up spending on originals of their own.\nNetflix’s stock has surged more than 300% in three years, repeatedly proving\nnaysayers wrong on the ride higher. But with shares waffling in volatile fashion in\nrecent months, doubts about the rally’s sustainability continue to grow. Ahead\nof Monday’s earnings report, the skepticism might be warranted.\nAnalysts expect earnings of 3 cents a share, down from 5 cents a year earlier. Revenue\nis estimated to have increased 25% to $1.97 billion. Over the past five years, Netflix has\nconsistently exceeded expectations, yet shares have moved up or down by at least 10%\nfollowing more than half of those reports.\nMuch of the attention is now focused on Netflix’s overseas opportunities. In January,\nNetflix said it had expanded to an additional 130 countries, tripling its global reach.\nStill, investors shouldn’t lose sight of Netflix’s slowing domestic subscriber growth.\nNetflix expects a net 1.75 million new U.S. subscribers in the first quarter, lower than\nthe 2.28 million added a year earlier. And as its latest price increase takes shape,\nanalysts project higher churn rates, particularly as grandfathered pricing comes to an\nend. Slower growth and higher U.S. churn matter as domestic subscribers may remain\nmore profitable than international ones.\nMeanwhile, streaming content obligations hit $10.9 billion in the fourth quarter, the\nthird consecutive quarter these costs exceeded $10 billion. They were lower by about\none-third two years ago. And Netflix’s net operating cash flow turned negative last\nyear for the first time since 2000.\nFetching more than 200 times projected earnings for the next 12 months, the stock\ntrades more on faith than fundamentals.\nThe product is great, but this stock isn’t worth bingeing on.\nCorrections & Amplifications\nhttps://www.wsj.com/articles/netflix-fans-ignore-worrying-plot-twists-1460911117 Page 2 of 3\nNetflix Fans Ignore Worrying Plot Twists - WSJ 2026-08-29, 5:57 PM\nAmazon.com’s video service is Amazon Prime Video. A previous version of this article\nmisstated the name of the service. (April 18, 2016)\nWrite to Steven Russolillo at steven.russolillo@wsj.com\nAppeared in the April 18, 2016, print edition as 'Netflix Fans Ignore Plot Twists'.\nSteven Russolillo is a former deputy coverage chief on the Speed & Trending desk, a team focused on breaking news\nand covering trending stories and topics across search and social media.\nHe was previously strategy editor for the Journal's business and corporate coverage, responsible for driving digital…\ninnovation and using audience metrics to improve the reader experience.\nBefore that, Steven was a foreign correspondent for WSJ based in Hong Kong, where he covered stocks and\nFollow\ncryptocurrencies as a global markets reporter. He starred in the Journal's first original documentary: WSJCoin: To\nUnderstand Cryptocurrencies, We Created One.\nPrior to his stint in Hong Kong, Steven was the Ahead of the Tape columnist for the Journal's Heard on the Street\nteam in New York.\nSteven rejoined WSJ after working as a financial writer for Goldman Sachs Asset Management. Prior to that, he\nwas a MoneyBeat reporter for the Journal and the lead author of WSJ's daily markets newsletter.\nSteven has an MBA in finance from Baruch College in New York and a B.A. in history from the University of\nDelaware.\nhttps://www.wsj.com/articles/netflix-fans-ignore-worrying-plot-twists-1460911117 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "NFLX_2016q3": {
+    "ticker": "NFLX",
+    "group": "Group 2",
+    "company_name": "Netflix",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-07-18",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After April’s warning, Netflix needed to show that the subscriber slowdown was temporary. Instead, Q2 became a second consecutive test of the company’s forecasting credibility.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Netflix IR: Netflix First Quarter 2016 Earnings Interview",
+                  "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2016/Netflix-First-Quarter-2016-Earnings-Interview/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q2 revenue was about **$2.11 billion** and EPS **$0.09**, but the headline financials were not the issue. Netflix added only **1.7 million** net members versus its own forecast of **2.5 million**. U.S. additions were only about **160,000**, and international additions roughly **1.52 million**.",
+              "sources": []
+            },
+            {
+              "text": "Management said churn rose unexpectedly as press coverage around the price increase caused some members to cancel. Netflix also guided Q3 subscriber additions cautiously. The result therefore damaged confidence in both near-term growth and management’s ability to forecast subscriber behavior during the pricing transition.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Netflix IR: Netflix Second Quarter 2016 Earnings Interview",
+                  "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2016/Netflix-Second-Quarter-2016-Earnings-Interview/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock fell because subscriber additions missed Netflix’s own forecast by a wide margin.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Higher churn around the price increase suggested pricing power was not frictionless.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** A second consecutive subscriber disappointment weakened confidence in management’s forecasting.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: Netflix Stock Is Getting Crushed, but There May Be Reasons for Optimism",
+                  "url": "https://www.thestreet.com/investing/netflix-stock-is-getting-crushed-but-there-may-be-reasons-for-optimism-13644212"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were checked for Netflix/NFLX identity, the correct earnings event, publication date, timing window and source origin. Netflix Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Netflix IR: Netflix First Quarter 2016 Earnings Interview",
+          "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2016/Netflix-First-Quarter-2016-Earnings-Interview/default.aspx"
+        },
+        {
+          "label": "Netflix IR: Netflix Second Quarter 2016 Earnings Interview",
+          "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2016/Netflix-Second-Quarter-2016-Earnings-Interview/default.aspx"
+        },
+        {
+          "label": "TheStreet: Netflix Stock Is Getting Crushed, but There May Be Reasons for Optimism",
+          "url": "https://www.thestreet.com/investing/netflix-stock-is-getting-crushed-but-there-may-be-reasons-for-optimism-13644212"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Netflix reported its weakest subscriber expansion in three years for the second quarter, adding only 160,000 subscribers in the U.S., far below the roughly 500,000 expected, and 1.52 million internationally, versus an expected 2 million, ending the quarter with 83.18 million total subscribers. The company said price increases for previously \"grandfathered\" existing subscribers had led to higher-than-anticipated cancellations, with more than half of U.S. customers being phased into higher rates during the year. CEO Reed Hastings said on the analyst call, \"Whatever the price is for something, people don't like it to go up... We apologize for the volatility; I know it's not easy on everyone... The big picture is very much intact.\" Despite the subscriber miss, revenue jumped 28% to $2.11 billion and earnings beat both analyst estimates and the company's own prior guidance, helped by lower content costs; analyst Tony Wible of Drexel Hamilton argued the higher revenue from price increases more than offset lost subscribers and called the stock's drop a buying opportunity. Netflix projected only a modest 300,000 U.S. subscriber addition for the third quarter, citing the ongoing price-increase phase-in and Olympics coverage that could discourage new sign-ups, while reiterating its long-term U.S. subscriber goal of 60 million to 90 million. Streaming content obligations ballooned to $13.2 billion from $10.1 billion a year earlier, and the company said established international markets launched before 2014 were on track to deliver about $500 million in combined contribution profit and were each individually profitable, with company-wide breakeven expected this year and material profit in 2017.",
+      "why_moved": "The article reports that shares of Netflix, already down 14% for the year, fell 13% in after-hours trading. It attributes the drop directly to the sharp miss on subscriber additions relative to guidance — 160,000 U.S. adds versus an expected 500,000, and 1.52 million international adds versus an expected 2 million — which the article says stemmed from higher-than-anticipated cancellations as previously \"grandfathered\" customers were phased into the company's new, higher prices, even though earnings themselves beat analyst expectations.",
+      "sources": [
+        {
+          "filename": "Netflix Reports Sharp Slowdown in User Growth - WSJ.pdf",
+          "title": "Netflix Reports Sharp Slowdown in User Growth Shares fall as video service reports lowest number of new additions in two years",
+          "published_date": "2016-07-18",
+          "text": "Netflix Reports Sharp Slowdown in User Growth - WSJ 2026-08-29, 5:58 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/netflix-reports-sharp-slowdown-in-user-growth-1468873240\nTECH\nNetflix Reports Sharp Slowdown in User Growth\nShares fall as video service reports lowest number of new additions in two years\nBy Shalini Ramachandran and Maria Armental\nWSJ PRO Updated July 18, 2016 at 10:33 pm ET\nNetflix Inc. NFLX 2.47% on Monday reported its weakest subscriber expansion in\nthree years, as the streaming-video company suffered a sharp slowdown in net\ncustomer additions in the U.S. and abroad.\nShares of Netflix, down 14% this year, fell 13% in after-hours trading.\nDuring the second quarter, Netflix added 160,000 subscribers in the U.S. and 1.52\nmillion in international markets, below expectations of 500,000 in the U.S. and 2\nmillion abroad. It ended the quarter with 83.18 million subscribers.\nThe Los Gatos, Calif.-based company said price increases for existing subscribers led\nto higher service cancellations and contributed to its weaker-than-expected results.\nIn the U.S., more than half its customers had been “grandfathered” under lower prices\nbut will be phased into higher rates this year.\n“Whatever the price is for something, people don’t like it to go up,” Chief Executive\nReed Hastings said on a videoconference call with analysts. “We apologize for the\nvolatility; I know it’s not easy on everyone,” he said. “The big picture is very much\nintact.”\nhttps://www.wsj.com/articles/netflix-reports-sharp-slowdown-in-user-growth-1468873240 Page 1 of 4\nNetflix Reports Sharp Slowdown in User Growth - WSJ 2026-08-29, 5:58 PM\nDrexel Hamilton analyst Tony Wible said investors are missing the bigger picture,\nbecause the higher revenue from the price increase more than outweighs the negative\nof losing some subscribers. Netflix’s revenue in the quarter jumped 28% to $2.11\nbillion.\nMr. Wible said that the hit to Netflix’s stock is a buying opportunity “at a time when\nmost media is facing unsustainable financial pressures.”\nFor the third quarter, Netflix projected a modest increase of 300,000 U.S. customers,\ndue to the phasing in of the price increases and Olympics coverage that could\npotentially discourage new subscriber sign-ups.\nDespite the disappointing subscriber results, Netflix reported earnings growth that\nhandily beat analysts’ earnings estimates and its prior guidance, thanks in part to\nlower content costs.\nIn a letter to shareholders, Netflix said it wasn’t revising its stated U.S. subscriber\ngoals to sign up 60 million to 90 million customers in the long term.\nNetflix’s addition of 1.68 million streaming subscribers in the latest quarter was the\nweakest tally since Netflix added 1.24 million users in the June 2013 quarter.\nThe streaming giant, which is facing increasing competition from Amazon.com Inc.\nand Hulu along with a range of other web TV services, has said it hopes to complete its\nglobal expansion this year. The company said in the letter to shareholders it is still\nexploring an entry into China, but that “the regulatory climate in China for our service\nhas become more challenging.”\nNetflix continues to open its wallet for programming. It streaming content obligations\nballooned to $13.2 billion at the quarter’s end, from $10.1 billion a year ago.\nhttps://www.wsj.com/articles/netflix-reports-sharp-slowdown-in-user-growth-1468873240 Page 2 of 4\nNetflix Reports Sharp Slowdown in User Growth - WSJ 2026-08-29, 5:58 PM\nAlso on Monday, Netflix announced a deal to premiere CBS Corp.’s new “Star Trek”\noriginal series in 188 countries, excluding the U.S. and Canada. The series, which is\nbeing created for CBS’ streaming service CBS All Access, marks the first time Netflix\nhas acquired the international rights for an original show made by a rival streaming\nservice.\nNetflix has started allowing original shows, such as “Club de Cuervos,” “Narcos” and\n“Marseille,” to air on broadcast TV before the next season’s premiere on Netflix. “The\ndanger,“ Netflix acknowledged in the letter, “is diluting the perception that Netflix\noriginal content is only on Netflix, so we are testing cautiously.”\nMr. Hastings said Netflix is studying adding the ability to let users download shows to\nwatch them later, a feature that could help in markets where cellular networks aren’t\nas strong as in the U.S.\nNetflix reported second-quarter profit of $40.8 million, or 9 cents a share, compared\nwith $26.3 million, or 6 cents a share, a year earlier. Excluding certain items, profit fell\nto 7 cents a share from 10 cents a share a year earlier.\nAnalysts surveyed by Thomson Reuters had projected a profit of 2 cents a share on\n$2.11 billion in revenue.\nIn a bright spot, Netflix said the markets that it launched before 2014—which include\nLatin America, Canada, the Nordics, U.K. and Ireland—are on track to deliver a\ncontribution profit of around $500 million this year and are each individually\nprofitable. Netflix hasn’t previously disclosed the health of those individual markets.\nThe company said it expects to run at “break even” this year and “generate material\nprofits in 2017 and beyond” by reducing international losses and continuing to grow in\nthe U.S.\nhttps://www.wsj.com/articles/netflix-reports-sharp-slowdown-in-user-growth-1468873240 Page 3 of 4\nNetflix Reports Sharp Slowdown in User Growth - WSJ 2026-08-29, 5:58 PM\nWrite to Shalini Ramachandran at shalini.ramachandran@wsj.com and Maria\nArmental at maria.armental@wsj.com\nAppeared in the July 19, 2016, print edition as 'Netflix Misses Subscriber Goal; Shares Plunge'.\nhttps://www.wsj.com/articles/netflix-reports-sharp-slowdown-in-user-growth-1468873240 Page 4 of 4"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "NFLX_2016q4": {
+    "ticker": "NFLX",
+    "group": "Group 2",
+    "company_name": "Netflix",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-10-17",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Two subscriber misses had pushed Netflix into a credibility trough. Q3 therefore had a low expectations bar, with investors looking for evidence that churn had stabilized and original content could restore acquisition.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Netflix IR: Netflix Second Quarter 2016 Earnings Interview",
+                  "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2016/Netflix-Second-Quarter-2016-Earnings-Interview/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Netflix reported **3.57 million net subscriber additions**, including **3.2 million internationally**, well above both its own forecast and Wall Street expectations. Global streaming revenue exceeded **$2 billion** for the first time, and total quarterly revenue was about **$2.29 billion**.",
+              "sources": []
+            },
+            {
+              "text": "Management attributed the subscriber outperformance primarily to stronger acquisition from original programming, including *Stranger Things* and *Narcos*. Q4 subscriber guidance also remained healthy. The quarter directly reversed the narrative from the prior two reports: growth had not structurally broken, and original content was proving capable of driving international adoption.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Netflix IR: Netflix Third Quarter 2016 Earnings Interview",
+                  "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2016/Netflix-Third-Quarter-2016-Earnings-Interview/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares surged because subscriber additions beat expectations by a wide margin.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Original content was explicitly credited for stronger-than-forecast acquisition.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** The international business became the clearest source of incremental subscriber growth.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TechCrunch: Netflix adds 3.57M new subscribers, including 3.2M international, beating Wall Street expectations",
+                  "url": "https://techcrunch.com/2016/10/17/netflix-shakes-off-weak-subscriber-growth-and-its-stock-is-skyrocketing/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were checked for Netflix/NFLX identity, the correct earnings event, publication date, timing window and source origin. Netflix Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Netflix IR: Netflix Second Quarter 2016 Earnings Interview",
+          "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2016/Netflix-Second-Quarter-2016-Earnings-Interview/default.aspx"
+        },
+        {
+          "label": "Netflix IR: Netflix Third Quarter 2016 Earnings Interview",
+          "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2016/Netflix-Third-Quarter-2016-Earnings-Interview/default.aspx"
+        },
+        {
+          "label": "TechCrunch: Netflix adds 3.57M new subscribers, including 3.2M international, beating Wall Street expectations",
+          "url": "https://techcrunch.com/2016/10/17/netflix-shakes-off-weak-subscriber-growth-and-its-stock-is-skyrocketing/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Netflix blew through its forecast for subscriber additions in the third quarter, adding 3.2 million international subscribers against guidance of 2 million and 370,000 U.S. subscribers versus a 300,000 target — though the U.S. figure was sharply below the year-earlier quarter's 880,000 additions, reflecting a maturing domestic market. The stronger-than-expected performance came mainly from international markets, where Netflix had completed a near-global expansion earlier in the year; in a shareholder letter, the company said the impact of its original-show premieres, particularly the Latin American drama \"Narcos,\" was \"greater than anticipated\" and had a positive effect on subscriber acquisition across all its markets. CEO Reed Hastings, referencing his apology for stock volatility after the prior quarter's miss, joked on the analyst call, \"We can all see it's time for me to apologize for the volatility again.\" Revenue rose to $2.29 billion from $1.74 billion a year earlier, and quarterly profit rose to $51.5 million, or 12 cents a share, from $29.4 million, or 7 cents a share. Netflix said content spending would rise to $6 billion in 2017 from $5 billion, targeting more than 1,000 hours of original programming, a roughly two-thirds increase, and that it planned to take on more debt in coming weeks; the company reiterated it expects to start delivering material global profit next year. It also said it was exploring licensing its shows to online players in China rather than pursuing a stand-alone service there in the near term, with Hastings acknowledging entry \"doesn't look good\" for now.",
+      "why_moved": "The article reports that shares surged nearly 20% to $119.35 in after-hours trading, noting the stock had fallen 13% for the year to that point. It frames the rally as relief after a weak prior quarter, since Netflix beat its own subscriber guidance in both the U.S. (370,000 adds versus a 300,000 target) and internationally (3.2 million versus a 2 million target), reversing the narrative from the previous quarter's miss — with CEO Hastings drawing a pointed contrast to his prior apology for stock volatility.",
+      "sources": [
+        {
+          "filename": "Netflix Jump in New Users Fuels After-Hours Stock Surge - WSJ.pdf",
+          "title": "Netflix Jump in New Users Fuels After-Hours Stock Surge The better-than-expected results boosts stock price, eases concerns about user growth",
+          "published_date": "2016-10-17",
+          "text": "Netflix Jump in New Users Fuels After-Hours Stock Surge - WSJ 2026-08-29, 5:59 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/netflix-reports-surge-in-new-members-1476735355\nTECH\nNetflix Jump in New Users Fuels After-Hours Stock\nSurge\nThe better-than-expected results boosts stock price, eases concerns about user growth\nBy Shalini Ramachandran and Maria Armental\nUpdated Oct. 17, 2016 at 7:25 pm ET\nNetflix Inc. NFLX 2.35% blew through its forecast for subscriber additions in the\nSeptember quarter, reassuring investors who were skittish about the streaming\ngiant’s growth trajectory and sending its shares soaring 20% in after-hours trading.\nThe better-than-expected performance came mainly in international markets, where\nthe company has completed a massive, near-global expansion this year. Netflix is\nmaking a big bet that the same mix of edgy original content and library programming\nthat has taken the U.S. media world by storm will translate overseas.\nThe company added 3.2 million international subscribers in the quarter, compared\nwith its guidance of 2 million.\nIn the U.S., Netflix added 370,000 subscribers in the period. That is more than 20%\nahead of its forecast of 300,000, though sharply below the year-ago quarter’s 880,000\nadditions, reflecting how the U.S. streaming market is maturing as more consumers\nsign up for Netflix, Amazon.com, Hulu and other services.\nWall Street’s reaction shows that the company’s global rollout across many territories\nat once is creating a foggy business outlook—for itself and investors—and leading to a\nvolatile expectations game.\nhttps://www.wsj.com/articles/netflix-reports-surge-in-new-members-1476735355 Page 1 of 6\nNetflix Jump in New Users Fuels After-Hours Stock Surge - WSJ 2026-08-29, 5:59 PM\nThe September quarter’s performance was better than the year-ago quarter’s 2.74\nmillion international subscriber additions, but in the intervening time Netflix has\nlaunched in more than 130 countries, elevating its growth potential substantially.\nNetflix pointed to “Narcos,” the Latin American drug drama, as a show that had a “positive impact” on adding\nsubscribers across its markets. Above, a scene from the show. ASSOCIATED PRESS\nLast quarter, when Netflix missed its internal estimates for subscriber growth, Netflix\nChief Executive Reed Hastings apologized on the call to investors for the volatility of\nNetflix’s stock, which sank 13% after the results. On Monday, as Netflix shares soared,\nMr. Hastings smiled and said: “We can all see it’s time for me to apologize for the\nvolatility again.”\nShares surged nearly 20% to $119.35 in after-hours trading. Before that, the stock had\nfallen 13% this year as the streaming video giant has struggled to keep up with\ninvestors’ growth expectations.\n“This is a weird year,” said MoffettNathanson analyst Michael Nathanson. “In some\nways, we’re being swung around by our inability to forecast what’s a brand new\nmarket, which is the rest of the world.”\nDespite the subscriber beat this quarter, he said “we’re in the camp that we think\nhttps://www.wsj.com/articles/netflix-reports-surge-in-new-members-1476735355 Page 2 of 6\nNetflix Jump in New Users Fuels After-Hours Stock Surge - WSJ 2026-08-29, 5:59 PM\ninternational is not all it’s cracked up to be,” due to the uneven nature of internet\nservice and regulatory environment around the world.\nLongtime Netflix investor Zevenbergen Capital Investments takes the opposite view.\nIt has taken advantage of recent dips in Netflix’s shares to buy, and says it’s in the\nstock for the “long term.”\n“We realize this is a long process,” said Joe Dennison, Zevenbergen portfolio manager,\nreferring to the global expansion. “If you look at the bigger picture, this is the\ndirection the world is moving and they are really the only global player.”\nNetflix’s report of 3.57 million new streaming subscribers globally, which brings its\ntotal customer base to about 83 million paid users, comes a quarter after it reported\nits weakest subscriber expansion in three years. Growing the customer base is crucial\nfor the company to offset its growing content costs, as it seeks to offer evermore\nshows and movies to appeal to customers all over the world.\nIn a letter to shareholders, Netflix said the impact of its original show premieres was\n“greater than anticipated” in international markets, propelling strong subscriber\nnumbers. The company called out “Narcos,” the Latin American drug drama, as a\nshow that had “positive impact” on subscriber acquisition across all of its markets.\n“We’re having broad success around international,” Mr. Hastings said on a video call\nwith analysts. “We’re continuing to make those investments” but “we’ve got a lot of\nroom to go to improve the service.”\nTurning a profit off the global expansion is the next challenge. Netflix said it expects to\nlose more money from its international operations next quarter as it continues to\ninvest in original content, targeting more than 1,000 hours of original programming\nnext year, a roughly two-thirds increase.\nThe company expects content spending in 2017 to increase to $6 billion from $5 billion\nthis year, and it plans to take on more debt in the coming weeks.\nhttps://www.wsj.com/articles/netflix-reports-surge-in-new-members-1476735355 Page 3 of 6\nNetflix Jump in New Users Fuels After-Hours Stock Surge - WSJ 2026-08-29, 5:59 PM\nBest known for dark dramas and comedies such as “House of Cards” and “Orange is\nthe New Black,” Netflix is branching out into different genres including reality shows.\nOn the call, Netflix Chief Content Officer Ted Sarandos said the recent hire of a well-\nregarded former NBCUniversal executive, Bela Bajaria, was done in part to focus on\ngetting a “good, steady flow of high-quality unscripted programming.”\nOverall, for the third quarter, Netflix reported profit of $51.5 million, or 12 cents a\nshare, up from $29.4 million, or 7 cents a share, a year ago. Revenue rose to $2.29\nbillion from $1.74 billion in the year-ago quarter.\nNetflix reiterated that it expects to start delivering material global profit next year.\nIn the letter to shareholders, Netflix said it is going to explore opportunities to license\nits shows to other online players in China, a way to build Netflix’s brand. Mr. Hastings\nrecently said “it doesn’t look good” for Netflix’s prospects of entering China as a\nstand-alone streaming service in the near term.\nThe video company said the revenue contribution from China licensing will be\n“modest.” In the long term, it still hopes to “serve the Chinese people directly, and\nhope to launch our service in China eventually.”\nNetflix has also been customizing its user interface in markets such as Poland and\nTurkey, accepting payments in local currencies and offering local-language options\nfor navigating its apps and for streaming its content. Netflix said it has seen “nice\ngains” in viewing and retention as a result and is going to expand the initiative in\nother countries.\nIn the U.S., there has been a growth slowdown. But Mr. Hastings said he still thinks\nNetflix can reach 60 million to 90 million subscribers in the U.S., up from 48 million\ntoday. He called out the coming royal drama “The Crown,” one of the most expensive\nshows Netflix has ever made, and said “when you watch that show, it’s going to seem\nquite achievable.”\nhttps://www.wsj.com/articles/netflix-reports-surge-in-new-members-1476735355 Page 4 of 6\nNetflix Jump in New Users Fuels After-Hours Stock Surge - WSJ 2026-08-29, 5:59 PM\nNetflix expects to add 5.2 million subscribers in the fourth quarter, compared with the\n5.59 million it added in the year-ago quarter. Netflix attributed the expected year-\nover-year decline in new subscribers to the uptick in service cancellations by\nconsumers who were temporarily locked into lower-priced packages but now face\nprice increases.\nThat process would be over in the fourth quarter, the company said. Service\ncancellations have been more pronounced in the U.S., where more than half of its\ncustomers had been “grandfathered” at the lower prices.\nMr. Hastings said he’s constantly reminding his employees that even though Netflix is\nclosing in on 100 million world-wide subscribers, Facebook and YouTube have more\nthan a billion daily active users. “We are just so small compared with those other\ninternet video firms,” he said. “I think you have to think big about the future.”\nWrite to Shalini Ramachandran at shalini.ramachandran@wsj.com and Maria\nArmental at maria.armental@wsj.com\nAppeared in the October 18, 2016, print edition as 'Netflix’s Jump in New Users Fuels Stock Rise'.\nShalini Ramachandran is an investigative reporter at The Wall Street Journal. She has worked on investigations on a\nrange of topics, including government accountability, environmental justice, corporate malfeasance, organized\ncrime, workplace discrimination, worker safety and healthcare. She is interested in telling stories with broad impac…\nin the public interest. She has deep experience handling confidential documents and working with whistleblowers.\nHer investigation in 2023 revealing a large network of toxic lead cables left behind by phone companies triggered\nFollow\nmultiple federal-agency investigations and led to additional worker protections and some remediation. In 2025, she\nalong with a team of reporters won the WERT Global Prize from Columbia University for stories on the toxic\nwMoarrkiap lAarcme ceunlttaulr ceo avte trhs ep Wrivoartled eEqcuointyo mfoirc T Fhoeru Wma, lal Ssetrreieest tJhoautr ntraigl, gweirtehd a i nfovceussti ogna ttieocnhs aanndd htheea lothu.s Hteerr ocfo tvheerage\nfeoxuanmdienre. sH ae rw riedcee-nrat nregpinogrt ainngd hinafslu feoncutisael din odnu sthtrey o avnedr psroemscer oipft iitosn t oofp p dseyaclhmoatrkoeprsic. drugs in America.\nSBheafolirnei jwoiansi nag k tehye m Joeumrbnearl, oMf aWriSa Jw taesa ma rse tphoartt:e wr ofonr at hNee Pwr oYvoirdke Pncrees Jso Culrunba al.…ward and a Society of American\nBusiness Editors and Writers (Sabew) award for coverage of cable megamergers; were finalists for the 2019 and\nAn award-winning journalist, Maria previously wrote about financial crime, corporate and regulatory matters,\n20F2o0ll oGwerald Loeb awards; and won the Newswomen's Club of New York's 2020 Nellie Bly award for an investigation\npolitics, the environment and immigration.\nuncovering failures that marred New York's response to the pandemic. Shalini helped conceive a newsroom project\nexploring the far-reaching ramifications of the Tulsa Race Massacre; it was a finalist for the 2022 Pulitzer Prize in\nMaria is a native Spanish speaker who reads, writes and interviews in Portuguese and French and reads Italian.\nExplanatory Journalism for \"stories that vividly reconstructed the 1921 Tulsa Race Massacre and illuminated its\nenduring e\"ects, describing how the destruction of Black wealth and property burdened future generations,\"\nShe studied journalism and computer programming and holds a master’s degree from Rutgers University’s Division\naccording to the judges.\nhttps://www.wsj.com/articles/netflix-reports-surge-in-new-members-1476735355 Page 5 of 6\nNetflix Jump in New Users Fuels After-Hours Stock Surge - WSJ 2026-08-29, 5:59 PM\nhttps://www.wsj.com/articles/netflix-reports-surge-in-new-members-1476735355 Page 6 of 6"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "NFLX_2017q1": {
+    "ticker": "NFLX",
+    "group": "Group 2",
+    "company_name": "Netflix",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-01-18",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After the October recovery, expectations had improved but Netflix still needed to prove that strong international growth could continue through the holiday quarter.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Netflix IR: Netflix Third Quarter 2016 Earnings Interview",
+                  "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2016/Netflix-Third-Quarter-2016-Earnings-Interview/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Netflix added about **7.05 million** net subscribers in Q4: roughly **1.93 million U.S.** and **5.12 million international** additions. Both were far above expectations. Global streaming revenue reached about **$2.35 billion**, and the company ended 2016 with **93.8 million members**.",
+              "sources": []
+            },
+            {
+              "text": "The composition of growth mattered. International additions were accelerating even while Netflix continued investing aggressively in original content. Q1 2017 guidance also pointed to continued growth. The report strengthened the argument that Netflix’s addressable market was global rather than primarily U.S.-centric.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Netflix IR: Netflix Fourth Quarter 2016 Earnings Interview",
+                  "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2017/Netflix-Fourth-Quarter-2016-Earnings-Interview/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock rose because subscriber growth substantially exceeded both company and Wall Street expectations.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** International additions became the dominant growth engine.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Strong results validated aggressive original-content spending despite continued cash burn.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TechCrunch: Netflix’s international growth is exploding as it looks beyond the U.S.",
+                  "url": "https://techcrunch.com/2017/01/18/netflix-blows-out-the-fourth-quarter-after-setting-itself-up-for-a-huge-end-of-the-year/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were checked for Netflix/NFLX identity, the correct earnings event, publication date, timing window and source origin. Netflix Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Netflix IR: Netflix Third Quarter 2016 Earnings Interview",
+          "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2016/Netflix-Third-Quarter-2016-Earnings-Interview/default.aspx"
+        },
+        {
+          "label": "Netflix IR: Netflix Fourth Quarter 2016 Earnings Interview",
+          "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2017/Netflix-Fourth-Quarter-2016-Earnings-Interview/default.aspx"
+        },
+        {
+          "label": "TechCrunch: Netflix’s international growth is exploding as it looks beyond the U.S.",
+          "url": "https://techcrunch.com/2017/01/18/netflix-blows-out-the-fourth-quarter-after-setting-itself-up-for-a-huge-end-of-the-year/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Netflix reported its biggest quarterly subscriber gain in company history for the fourth quarter, adding 5.12 million subscribers abroad and 1.93 million in the U.S., beating both internal and Wall Street targets and ending the year with 93.8 million total subscribers, including 49.4 million in the U.S. CEO Reed Hastings said \"We're thrilled with our global expansion,\" describing the company's ongoing goal as \"spreading and evangelizing this vision of internet TV.\" The company said it would increase 2017 content spending to $6 billion from $5 billion as it pursued international growth, with gross-profit margin improving to 33.2% from 31.5% a year earlier; in a shareholder letter, Netflix said it was \"in no rush to push margins up too quickly\" given the need to keep investing to maintain its lead. Fourth-quarter profit rose 55% to $66.7 million, or 15 cents a share, beating the 13-cent estimate, on revenue up 36% to $2.48 billion, also ahead of the $2.47 billion analysts had projected. International contribution losses narrowed to $67 million from $109 million, with the company expecting the international segment to turn profitable in the first quarter before dipping back to a loss in the second quarter amid continued spending. Netflix cited shows including \"The Crown,\" Marvel's \"Luke Cage,\" and the Brazilian sci-fi series \"3%\" as evidence that \"high-quality content travels well across borders,\" and highlighted the U.S. subscriber reversal — 1.93 million added versus 1.56 million a year earlier — as significant given the domestic market's previously slowing growth.",
+      "why_moved": "The article reports that Netflix shares set a 52-week high during regular trading and then rose an additional 8% in after-hours trading. It attributes the rally to record quarterly subscriber growth, with both domestic and international additions beating Netflix's own internal targets and Wall Street's estimates, alongside a 55% jump in profit and improving gross margins — results the article ties directly to the company's international-expansion strategy paying off.",
+      "sources": [
+        {
+          "filename": "Netflix’s Global Growth Fuels Surge in Subscribers - WSJ.pdf",
+          "title": "Netflix's Global Growth Fuels Surge in Subscribers Streaming-video giant has prioritized expansion over profits, as it pursues its international rollout",
+          "published_date": "2017-01-18",
+          "text": "Netflix’s Global Growth Fuels Surge in Subscribers - WSJ 2026-08-29, 5:59 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/netflix-profit-tops-expectations-helped-by-subscriber-growth-1484773864\nBUSINESS EARNINGS\nNetflix’s Global Growth Fuels Surge in Subscribers\nStreaming-video giant has prioritized expansion over profits, as it pursues its\ninternational rollout\nBy Maria Armental and Joe Flint\nUpdated Jan. 18, 2017 at 4:59 pm ET\nNetflix Inc.’s subscriber additions surged in the fourth quarter, fueled by an\naggressive international expansion, as the streaming giant continues to stock up on\ncontent it hopes will appeal across multiple countries.\nThe company added 5.12 million subscribers abroad in the period and 1.93 million in\nthe U.S., beating both internal and Wall Street targets and delivering the biggest\nquarterly subscription growth in its history. Netflix ended the year with 93.8 million\ntotal subscribers, including 49.4 million in the U.S.\n“We’re thrilled with our global expansion,” Netflix Chief Executive Reed Hastings said\nduring a video chat to discuss the results. The goal during the next few years, he said,\nis to keep “spreading and evangelizing this vision of internet TV.”\nThe streaming video giant has prioritized growth over profit as it pursues its\ninternational rollout—it is now available in almost every country and territory—and\nramps up investments in original programming, with plans to spend $6 billion in 2017\nup from $5 billion last year.\nThose bets have weighed on financial results. Netflix said in a letter Wednesday to\nshareholders it expects to increase profit margins gradually—with improvements\nexpected in the international unit this year.\nhttps://www.wsj.com/articles/netflix-profit-tops-expectations-helped-by-subscriber-growth-1484773864 Page 1 of 4\nNetflix’s Global Growth Fuels Surge in Subscribers - WSJ 2026-08-29, 5:59 PM\nThe company, however, believes the investments are necessary to consolidate its\nadvantage in an increasingly competitive arena. Rivals such as Amazon also are\nseeking global growth and are upping the ante with their own content-buying sprees.\n“We are in no rush to push margins up too quickly, as we want to ensure we are\ninvesting aggressively enough to continue to lead internet TV around the world,”\nNetflix said in the letter.\nIn the latest period, gross-profit margin improved to 33.2% from 31.5% a year earlier.\nThe strategy is playing well with investors. Netflix shares, which on Wednesday set a\n52-week-high during regular trading, rose 8% in after-hours trading.\nOver all, Netflix’s fourth-quarter profit rose 55% to $66.7 million, or 15 cents a share.\nRevenue rose 36% to $2.48 billion. Analysts surveyed by Thomson Reuters had\nprojected earnings of 13 cents a share on $2.47 billion in revenue.\nNetflix ended the quarter with $1.47 billion in cash and about $3.36 billion in debt;\nstreaming content obligations were $14.5 billion, from $14.4 billion in the previous\nquarter and $10.9 billion a year ago.\nThe international streaming business’s\ncontribution loss narrowed to $67 million\nfrom $109 million in the year-ago period.\nNetflix said the international unit would\nrun a profit in the first quarter, then go\nback to a loss in the second quarter as the\ncompany continues its spending drive.\nOne big question for investors has been\nPopular Netflix shows include ‘The Crown,’ a British\nroyal-family drama. NETFLIX whether shows that are popular in one\nNetflix market, such as the U.S. or U.K.,\nwill work well in other parts of the world.\nhttps://www.wsj.com/articles/netflix-profit-tops-expectations-helped-by-subscriber-growth-1484773864 Page 2 of 4\nNetflix’s Global Growth Fuels Surge in Subscribers - WSJ 2026-08-29, 5:59 PM\nSpending big on content makes more\neconomic sense if it can draw in paying\nsubscribers around the world.\nIn its letter to shareholders, Netflix said it\nis having success in that area with shows\nBrazilian sci-fi thriller ‘3%’ NETFLIX such as “The Crown,” a drama about\nBritain’s royal family, Marvel’s “Luke\nCage” and the Brazilian sci-fi thriller “3%,”\nwhich it said has found an audience\nthroughout Latin America and even in the\nU.S.\n“It is clear to us that high-quality content\ntravels well across borders,” Netflix said.\nMarvel’s ‘Luke Cage’ NETFLIX\nIn the earnings discussion, Netflix’s head\nof entertainment, Ted Sarandos, cited the\nservice’s new episodes of the young-adult drama “Gilmore Girls” as having stronger\nthan expected international appeal.\nIn the domestic market, Netflix’s 1.93 million user additions outpaced the 1.56 million\nit added in the year-earlier period. That is significant because the segment, its biggest\nsource of profit, seemed to be slowing. In the second quarter, it added 370,000 U.S.\nsubscribers, sharply down from 880,000 in the previous year.\nNetflix expects the subscriber growth to continue this quarter, projecting an\nadditional 5.2 million members, including 3.7 million abroad and 1.5 million in the U.S.\nTwo areas of programming Netflix has been spending heavily in are stand-up comedy\nand unscripted content. Mr. Sarandos said recent deals with comedians Chris Rock,\nDave Chappelle and Jerry Seinfeld can be a “subscriber acquisition driver.”\nhttps://www.wsj.com/articles/netflix-profit-tops-expectations-helped-by-subscriber-growth-1484773864 Page 3 of 4\nNetflix’s Global Growth Fuels Surge in Subscribers - WSJ 2026-08-29, 5:59 PM\nNetflix has been a high-profile supporter of “net neutrality” regulations that require\nbroadband providers to treat all internet traffic equally and refrain from giving\ncertain services preferential treatment.\nIn the letter, the company said it hopes the new administration of President-elect\nDonald Trump and Congress “will recognize that keeping the network neutral drives\njob growth and innovation.”\nWrite to Maria Armental at maria.armental@wsj.com and Joe Flint at\njoe.flint@wsj.com\nAppeared in the January 19, 2017, print edition as 'Global Growth Fuels Netflix Surge'.\nhttps://www.wsj.com/articles/netflix-profit-tops-expectations-helped-by-subscriber-growth-1484773864 Page 4 of 4"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "NFLX_2017q2": {
+    "ticker": "NFLX",
+    "group": "Group 2",
+    "company_name": "Netflix",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-04-17",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Netflix entered Q1 near record highs, with investors expecting another strong subscriber quarter after the Q4 blowout. That made even a modest subscriber miss important.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Netflix IR: Netflix Fourth Quarter 2016 Earnings Interview",
+                  "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2017/Netflix-Fourth-Quarter-2016-Earnings-Interview/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q1 revenue rose to about **$2.64 billion** and EPS reached **$0.40**, above consensus. However, Netflix added approximately **4.95 million** net subscribers versus its own expectation of roughly **5.2 million** and Wall Street expectations near **5.3 million**.",
+              "sources": []
+            },
+            {
+              "text": "Management argued that the shortfall mainly reflected content timing, with several major releases shifted into Q2, and guided to a strong **3.2 million** Q2 net additions. But Q2 EPS guidance of about **$0.15** was also below consensus. The report therefore combined good current profitability with weaker-than-expected subscriber acquisition and lower near-term earnings.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Netflix IR: Netflix First Quarter 2017 Earnings Interview",
+                  "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2017/Netflix-First-Quarter-2017-Earnings-Interview/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares fell because subscriber additions missed expectations.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Weak Q2 EPS guidance reinforced the disappointment.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Strong Q2 subscriber guidance limited the downside by framing the miss as content timing rather than structural demand weakness.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: Netflix Shares Fall on Weak Subscriber Growth: What Wall Street's Saying",
+                  "url": "https://www.thestreet.com/investing/stocks/netflix-shares-fall-on-weak-subscriber-growth-what-wall-street-s-saying-14090657"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were checked for Netflix/NFLX identity, the correct earnings event, publication date, timing window and source origin. Netflix Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Netflix IR: Netflix Fourth Quarter 2016 Earnings Interview",
+          "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2017/Netflix-Fourth-Quarter-2016-Earnings-Interview/default.aspx"
+        },
+        {
+          "label": "Netflix IR: Netflix First Quarter 2017 Earnings Interview",
+          "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2017/Netflix-First-Quarter-2017-Earnings-Interview/default.aspx"
+        },
+        {
+          "label": "TheStreet: Netflix Shares Fall on Weak Subscriber Growth: What Wall Street's Saying",
+          "url": "https://www.thestreet.com/investing/stocks/netflix-shares-fall-on-weak-subscriber-growth-what-wall-street-s-saying-14090657"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Netflix's U.S. and international subscriber growth slowed in the first quarter, coming in below expectations, even as profit rose on lower-than-anticipated content costs. The company reported 98.75 million total subscribers versus an expected 98.9 million, adding 3.53 million international subscribers against a 3.7 million guidance figure (down from 4.51 million a year earlier) and 1.42 million U.S. subscribers against a 1.5 million target (down from 2.23 million a year earlier). CEO Reed Hastings said on the analyst call that \"every 10 million is a little harder than the last 10 million, but our content keeps getting better so those forces offset each other,\" and called the guidance miss \"nothing that is very concerning to us.\" In its shareholder letter, Netflix told investors that subscriber growth was no longer the best way to measure its progress, urging a focus instead on revenue growth and global operating margins. Profit was $178.2 million, or 40 cents a share, versus $27.7 million, or 6 cents a share, a year earlier, matching the 37-cent estimate, on revenue up 35% to $2.64 billion, in line with expectations. Netflix guided to lower second-quarter profit of $66 million, or 15 cents a share, due to rising content costs including the fifth season of \"House of Cards.\" The company acknowledged its original movie \"Crouching Tiger, Hidden Dragon: Sword of Destiny\" had underperformed expectations, a rare admission, while comedy specials such as \"Dave Chappelle: Collection 1\" were described as its \"most viewed comedy special ever.\" Streaming content obligations stood at $15.3 billion at quarter's end.",
+      "why_moved": "The article reports only a modest after-hours move of 1.2%, with shares closing the regular session at $147.25, up 19% for the year, after having hit a record above $148 on March 30. It frames the muted reaction against subscriber additions that missed the company's own guidance both domestically (1.42 million versus a 1.5 million target) and internationally (3.53 million versus 3.7 million) — a shortfall CEO Hastings downplayed on the call as \"nothing that is very concerning\" — while noting Netflix was itself trying to redirect investor focus away from subscriber counts toward revenue and margin growth, where results were in line with estimates.",
+      "sources": [
+        {
+          "filename": "Netflix’s Subscriber Growth Slows at Home and Abroad - WSJ.pdf",
+          "title": "BUSINESS MEDIA & MARKETING Netflix's Subscriber Growth Slows at Home and Abroad Still, the streaming provider's profit grew, helped by lower costs for content",
+          "published_date": "2017-04-17",
+          "text": "Netflix’s Subscriber Growth Slows at Home and Abroad - WSJ 2026-08-29, 6:02 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/netflixs-subscriber-growth-slows-at-home-and-abroad-1492460461\nBUSINESS MEDIA & MARKETING\nNetflix’s Subscriber Growth Slows at Home and\nAbroad\nStill, the streaming provider’s profit grew, helped by lower costs for content\nBy Shalini Ramachandran and Bowdeya Tweh\nUpdated April 17, 2017 at 11:59 pm ET\nJennifer Hudson and Adam Sandler in a scene from the Netflix original movie ‘Sandy Wexler.’ NETFLIX /COURTESY\nEVERETT COLLECTION\nNetflix Inc.’s NFLX 2.35% U.S. and international subscriber growth slowed in the first\nquarter, coming in below expectations, though profit grew as content costs were\nlower than anticipated.\nThe Los Gatos, Calif., company reported 98.75 million total subscribers, up from 81.5\nmillion a year ago. Analysts polled by Thomson Reuters expected 98.9 million\nsubscribers overall. Netflix said in a shareholder letter that it is on track to surpass\nhttps://www.wsj.com/articles/netflixs-subscriber-growth-slows-at-home-and-abroad-1492460461 Page 1 of 5\nNetflix’s Subscriber Growth Slows at Home and Abroad - WSJ 2026-08-29, 6:02 PM\n100 million subscribers this week.\nThe company added 3.53 million international subscribers in the quarter, missing its\nguidance of 3.7 million. In the year-ago quarter, it added 4.51 million international\ncustomers.\nIts U.S. subscriber growth slowed, as it added 1.42 million customers, missing its\ntarget of 1.5 million. It added 2.23 million U.S. customers in the prior-year period.\nNetflix ended the first quarter with 50.85 million U.S. customers and 47.9 million\ninternational customers.\nThe streaming-video company has been aggressively pursuing international\nexpansion as its core U.S. market matures. Following a battery of launches a year ago,\nNetflix says it now serves customers in more than 190 countries. The company had\nsignaled to Wall Street that it would be tough to sustain the subscriber additions that\ncame with launches in new markets a year ago.\nOn a video interview with analysts, Netflix Chief Executive Reed Hastings said in\nsubscriber additions, “every 10 million is a little harder than the last 10 million, but\nour content keeps getting better so those forces offset each other.” He said he thinks\nNetflix still has runway left to grow in the U.S. and abroad, and missing guidance one\nquarter is “nothing that is very concerning to us.”\nForecasting subscriber growth is tricky, especially given the uncertainty of how\npeople will respond to unproven new shows, Netflix executives said. “We’ve got the\nformula” in Latin America, Europe and North America, Mr. Hastings said. “Asia,\nMiddle East and Africa, we still have a bunch of work to do.”\nIn a letter to shareholders, Netflix said subscriber growth is no longer the best way to\nmeasure the company’s progress, and encouraged investors to focus on revenue\ngrowth and global operating margins as its primary metrics.\nhttps://www.wsj.com/articles/netflixs-subscriber-growth-slows-at-home-and-abroad-1492460461 Page 2 of 5\nNetflix’s Subscriber Growth Slows at Home and Abroad - WSJ 2026-08-29, 6:02 PM\nNetflix’s first-quarter profit was $178.2 million, or 40 cents a share. In the comparable\n2016 period, the company reported a profit of $27.7 million, or 6 cents a share.\nRevenue rose 35% to $2.64 billion.\nAnalysts surveyed by Thomson Reuters had projected earnings of 37 cents a share on\n$2.64 billion in revenue.\nNetflix said that profit will be down in the second quarter because of higher content\ncosts including the debut of the fifth season of “House of Cards” and more original\nmovies. It expects to report a second-quarter profit of $66 million, or 15 cents a share.\nThrough Monday, Netflix shares are up 19% this year, ending the day at $147.25. Shares\nrose 1.2% in after-hours trading Monday. They reached a record on March 30, closing\njust above $148.\nNetflix’s model rests on signing up new subscribers rapidly enough to offset its\nmushrooming content costs as it invests increasingly in local original shows that\ncould have global appeal. Streaming content obligations, a measure of its total current\nand future programming expenses, stood at $15.3 billion at the end of March.\nAs it has ramped up spending in a variety of genres including reality TV and comedy,\nNetflix said early results for comedy specials are promising, with “Dave Chappelle:\nCollection 1” marking its “most viewed comedy special ever.”\nIn a rare admission, Netflix said its original movie “Crouching Tiger, Hidden Dragon:\nSword of Destiny” didn’t perform up to its expectations. It said its slate of original\nAdam Sandler movies and the historical drama “Siege of Jadotville” were successful\nrelative to their cost.\nWall Street has come to expect slowing U.S. customer growth for Netflix and has\npinned hopes for the stock on the company having outsize success internationally.\n“We expect U.S. subscriber growth to be in single digits going forward, reaching the\nlower half of management’s 60 to 90 million subscriber target,” wrote Cantor\nhttps://www.wsj.com/articles/netflixs-subscriber-growth-slows-at-home-and-abroad-1492460461 Page 3 of 5\nNetflix’s Subscriber Growth Slows at Home and Abroad - WSJ 2026-08-29, 6:02 PM\nFitzgerald analysts in a research note last week. “However, international growth\nseems substantially higher.”\nNetflix is facing ever more competitors in the race to attract viewers and their dollars.\nIn the U.S., companies like Hulu and Alphabet Inc.’s YouTube are going more\naggressively into the business of streaming high-quality television content, with live\ntelevision subscription services debuting this year. Internationally, it has to contend\nwith dozens of local streaming rivals that are attracting funding from well-heeled\ncompetitors, like Southeast Asia’s iflix, backed by European pay-TV giants Sky PLC\nand Liberty Global PLC.\nIt also faces the threat of Amazon.com Inc., which late last year launched its video\nservice globally and recently signed a deal to stream a package of NFL Thursday Night\nFootball games. In the letter, Netflix said “that is not a strategy that we think is smart\nfor us since we believe we can earn more viewing and satisfaction from spending that\nmoney on movies and TV shows.”\nOn the call, Mr. Hastings argued that the human need to sleep—and not binge Netflix\n—is as formidable a competitor as Amazon or HBO. “Amazon can do great work” but\n“it’ll be very hard for it to directly affect us,” he said.\nWrite to Shalini Ramachandran at shalini.ramachandran@wsj.com and Bowdeya\nTweh at Bowdeya.Tweh@wsj.com\nAppeared in the April 18, 2017, print edition as 'Netflix Adds Fewer Viewers'.\nShalini Ramachandran is an investigative reporter at The Wall Street Journal. She has worked on investigations on a\nrange of topics, including government accountability, environmental justice, corporate malfeasance, organized\ncrime, workplace discrimination, worker safety and healthcare. She is interested in telling stories with broad impac…\nin the public interest. She has deep experience handling confidential documents and working with whistleblowers.\nHer investigation in 2023 revealing a large network of toxic lead cables left behind by phone companies triggered\nFollow\nmultiple federal-agency investigations and led to additional worker protections and some remediation. In 2025, she\nalong with a team of reporters won the WERT Global Prize from Columbia University for stories on the toxic\nworkplace culture at the World Economic Forum, a series that triggered investigations and the ouster of the\nfounder. Her recent reporting has focused on the overprescription of psychotropic drugs in America.\nhttps://www.wsj.com/articles/netflixs-subscriber-growth-slows-at-home-and-abroad-1492460461 Page 4 of 5\nNetflix’s Subscriber Growth Slows at Home and Abroad - WSJ 2026-08-29, 6:02 PM\nhttps://www.wsj.com/articles/netflixs-subscriber-growth-slows-at-home-and-abroad-1492460461 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "NFLX_2017q3": {
+    "ticker": "NFLX",
+    "group": "Group 2",
+    "company_name": "Netflix",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-17",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "The April subscriber miss had been explained as content timing. Q2 therefore became a direct test of whether delayed programming would actually produce the promised rebound.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Netflix IR: Netflix First Quarter 2017 Earnings Interview",
+                  "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2017/Netflix-First-Quarter-2017-Earnings-Interview/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Netflix added **5.2 million** subscribers in Q2, far above its own **3.2 million** forecast. More than **4 million** of those additions were international. Revenue was about **$2.79 billion**, while EPS of **$0.15** was roughly in line with expectations.",
+              "sources": []
+            },
+            {
+              "text": "The subscriber result was the central signal. Netflix crossed 100 million total members and demonstrated that original content could drive large acquisition bursts globally. The international business was also moving closer to sustained profitability even while content spending remained very high.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Netflix IR: Netflix Second Quarter 2017 Earnings Interview",
+                  "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2017/Netflix-Second-Quarter-2017-Earnings-Interview/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares jumped because subscriber growth exceeded guidance by roughly 2 million users.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** International additions accounted for most of the upside.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** The result validated management’s claim that Q1 weakness was largely a timing issue.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TechCrunch: Netflix’s subscribers are surging as it blows away Wall Street’s expectations",
+                  "url": "https://techcrunch.com/2017/07/17/netflixs-subscribers-are-surging-again-as-it-blows-away-wall-streets-expectations/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were checked for Netflix/NFLX identity, the correct earnings event, publication date, timing window and source origin. Netflix Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Netflix IR: Netflix First Quarter 2017 Earnings Interview",
+          "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2017/Netflix-First-Quarter-2017-Earnings-Interview/default.aspx"
+        },
+        {
+          "label": "Netflix IR: Netflix Second Quarter 2017 Earnings Interview",
+          "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2017/Netflix-Second-Quarter-2017-Earnings-Interview/default.aspx"
+        },
+        {
+          "label": "TechCrunch: Netflix’s subscribers are surging as it blows away Wall Street’s expectations",
+          "url": "https://techcrunch.com/2017/07/17/netflixs-subscribers-are-surging-again-as-it-blows-away-wall-streets-expectations/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Netflix blew through its subscriber-growth estimate for the second quarter, ending with nearly 104 million subscribers globally after adding 5.2 million total users, far more than the 3.2 million it had projected or the 3.5 million Wall Street had expected. Revenue jumped 32% to $2.79 billion, while global operating margin was 4.6%, down from 9.7% in the first quarter. The article notes the unpredictability of Netflix's quarterly results, raising the open question of whether the surge reflected specific show releases or broader underlying momentum; in its shareholder letter, Netflix said it had underestimated the popularity of its growing programming slate, which drove subscriber growth across its major markets, citing 91 Emmy nominations this year, up from 54 in 2016, including best-drama nods for \"Stranger Things,\" \"The Crown\" and \"House of Cards.\" CEO Reed Hastings said, \"When we produce an amazing show like 'Stranger Things,' that's a lot of capital upfront, and then you get a payout over many years... seeing the positive returns on that for the business as a whole is what makes us comfortable that we should continue to invest.\" International subscriber additions of 4.14 million beat a 2.6 million guidance figure, and U.S. additions of 1.07 million beat a 600,000 target. The sequential increase to 5.2 million adds from 5 million in the first quarter ran against normal seasonal patterns, and Netflix projected 4.4 million third-quarter additions while cautioning it had over-forecast in the past and that some growth may have been pulled forward. Second-quarter profit was $66 million, or 15 cents a share, versus $41 million, or 9 cents a share, a year earlier.",
+      "why_moved": "The article reports that shares were up 10% in aftermarket trading, on top of a 30% year-to-date gain. It attributes the jump directly to subscriber additions that blew past both the company's own 3.2 million guidance and Wall Street's 3.5 million estimate, framed around Netflix having underestimated the popularity of its own original-programming slate (citing the jump in Emmy nominations), though it also notes the company itself cautioned that some of the growth may simply have been pulled forward from later quarters rather than reflecting a durable acceleration.",
+      "sources": [
+        {
+          "filename": "Netflix Surprises With Big Subscriber Gains, Shares Soar - WSJ.pdf",
+          "title": "Netflix Surprises With Big Subscriber Gains, Shares Soar Streaming giant's strong growth comes amid stiff competition in the race to attract viewers and their dollars",
+          "published_date": "2017-07-17",
+          "text": "Netflix Surprises With Big Subscriber Gains, Shares Soar - WSJ 2026-08-29, 6:02 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/netflix-rises-on-strong-subscriber-growth-1500324661\nBUSINESS\nNetflix Surprises With Big Subscriber Gains, Shares\nSoar\nStreaming giant’s strong growth comes amid stiff competition in the race to attract\nviewers and their dollars\nBy Austen Hu!ord\nUpdated July 17, 2017 at 7:26 pm ET\nNetflix said Monday it earned 15 cents per share on $2.79 billion in revenue for the second quarter. ELISE AMENDOLA/\nASSOCIATED PRESS\nNetflix Inc. blew through its subscriber-growth estimate in the second quarter,\nshowing that its big bets on original programming and international expansion are\npaying off, even as the streaming market gets more crowded.\nThe Los Gatos, Calif., company ended the quarter with nearly 104 million subscribers\nglobally. It added 5.2 million users in total, far more than the 3.2 million it had\nhttps://www.wsj.com/articles/netflix-rises-on-strong-subscriber-growth-1500324661 Page 1 of 5\nNetflix Surprises With Big Subscriber Gains, Shares Soar - WSJ 2026-08-29, 6:02 PM\nprojected, as well as Wall Street’s estimate of 3.5 million net additions.\nRevenue jumped 32% to $2.79 billion, while the company’s operating profit margin\nglobally was 4.6%, down from 9.7% in the first quarter.\nNetflix has indicated to Wall Street it would like to be judged primarily based on its\nrevenue and global operating-profit margins, as opposed to metrics such as its\nsubscriber additions. But many investors have remained focused on subscriber\ngrowth as a proxy for long-term financial health.\nNetflix shares have risen 30% this year and were up 10% in aftermarket trading on\nMonday.\nThe latest results underscored just how unpredictable Netflix’s quarterly reports are\nbecoming. The company is still trying to understand the precise mix of factors that\npropel fantastic results and those that bring about disappointing ones. One question\nfor Wall Street will be whether the surge in the second quarter was related to specific\nshow releases, or was a sign of underlying momentum.\nIn a letter to shareholders, Netflix said it underestimated the popularity of its growing\nslate of programming, which led to higher-than-expected subscription growth across\nits major markets. This year, Netflix programs got 91 Emmy Award nominations, up\nfrom 54 in 2016, according to Cantor Fitzgerald, including best drama nods for\n“Stranger Things,” “The Crown” and “House of Cards.”\nOn a video chat with an analyst, Netflix Chief Executive Reed Hastings said the\ncompany is reaping the dividends of its big content investments.\n“When we produce an amazing show like ‘Stranger Things,’ that’s a lot of capital\nupfront, and then you get a payout over many years,” he said. “And seeing the positive\nreturns on that for the business as a whole is what makes us comfortable that we\nshould continue to invest.”\nhttps://www.wsj.com/articles/netflix-rises-on-strong-subscriber-growth-1500324661 Page 2 of 5\nNetflix Surprises With Big Subscriber Gains, Shares Soar - WSJ 2026-08-29, 6:02 PM\nThe company said it now has $15.7 billion in streaming-content obligations, a measure\nof current and future costs for content acquisition, licensing and production, up from\n$13.2 billion in the same quarter last year.\nNetflix added 4.14 million international subscribers in the quarter, well above its\nguidance of 2.6 million. It added 1.07 million U.S. subscribers, compared with its\ntarget of 600,000.\nThe company said the sequential increase in new subscribers to 5.2 million in the\nsecond quarter from 5 million in the first quarter went against historic seasonal\ntrends.\nNetflix expects to keep up strong momentum in the third quarter, projecting 4.4\nmillion subscriber additions, but warned that it has over-forecast in the past, and that\nsome subscriber growth could have been pulled forward into the second quarter.\nThe strong growth comes as competition is intensifying in the streaming market. In\nthe U.S., Netflix is battling for wallet-share against rivals Amazon.com Inc. and Hulu,\nas well as “skinny” bundles like Sling TV and YouTube TV that hope to be substitutes\nfor cable. Internationally, Netflix has to contend with dozens of local rivals. Netflix\nalso competes against the biggest TV channels and studios for original programming.\nNetflix posted a second- quarter profit of $66 million, or 15 cents a share, compared\nwith a profit of $41 million, or 9 cents a share, in the same quarter last year.\nAnalysts surveyed by Thomson Reuters had projected earnings of 16 cents a share on\n$2.76 billion in revenue.\nAs with many tech giants in recent years, investors are more concerned with Netflix’s\ngrowth potential than its current earnings. Shares are priced at more than 200 times\nearnings.\nThe streaming-video company said that a majority of its subscribers are now\nhttps://www.wsj.com/articles/netflix-rises-on-strong-subscriber-growth-1500324661 Page 3 of 5\nNetflix Surprises With Big Subscriber Gains, Shares Soar - WSJ 2026-08-29, 6:02 PM\ninternational, and that it expects the international unit to post its first-ever annual\nprofit this year. International customers accounted for under a quarter of the total in\n2013.\nNetflix has been aggressively pursuing global expansion as its core U.S. market\nmatures and as it works to offset growing content costs and original programming\ninvestments.\nFollowing a battery of launches last year, Netflix said it serves customers in more than\n190 countries. The one big market where the service isn’t available is China. Netflix\nhas acknowledged that gaining a foothold there has been difficult.\nIn April, Netflix said it reached a licensing deal with Baidu Inc.’s Chinese video-\nstreaming platform iQiyi to show its original content in China.\nImproving profitability in the company’s more established international markets is\nletting Netflix invest more in newer areas. The company said it was on track to meet\nits operating-margin target of 7%.\nWrite to Austen Hufford at austen.hufford@wsj.com\nAppeared in the July 18, 2017, print edition as 'Netflix Lures Millions Of New Subscribers'.\nAusten Hu\"ord covered national economics for The Wall Street Journal in Washington.\nHe reported on the economy, supply chains and trade, labor policy, regulation and pathways to the middle class.\nBefore joining the D.C. bureau, Austen was based in Chicago as the Journal’s U.S. manufacturing reporter, covering…\nthe future of factories, supply chains and blue-collar labor.\nHe also won a New York Press Club Award and an honorable mention from Sabew for his coverage of the N95 mask\nFollow\nshortage and supply chains during the Covid-19 pandemic.\nHe started his career at the Journal as a breaking business news reporter in New York.\nHe holds a bachelor’s degree in economics from the University of Michigan.\nhttps://www.wsj.com/articles/netflix-rises-on-strong-subscriber-growth-1500324661 Page 4 of 5\nNetflix Surprises With Big Subscriber Gains, Shares Soar - WSJ 2026-08-29, 6:02 PM\nhttps://www.wsj.com/articles/netflix-rises-on-strong-subscriber-growth-1500324661 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "This is Dow Jones Newswires market-roundup coverage of the Nasdaq's seventh straight session of gains, rather than a dedicated Netflix earnings story, so the Netflix content is limited to a short section describing its after-hours reaction. The broader piece reports the Nasdaq Composite rose to 6314.43, nearing its June 8 record close, while the Dow and S&P 500 slipped slightly after Friday's record closes, on relatively light trading volume of 5.1 billion shares as investors awaited a busy earnings week. Within that roundup, the article reports Netflix delivered encouraging results after the market close and that the stock jumped in aftermarket trading after the company said it added more users than projected in the prior quarter, contrasting this with BlackRock, whose shares fell after missing analyst expectations. The piece situates this within a broader rebound in technology shares that month and continued strength in some consumer-discretionary names.",
+      "why_moved": "The article states that Netflix stock jumped more than 10% in aftermarket trading specifically because the company reported that it added more users than projected in the prior quarter. No further detail on the earnings themselves is provided in this roundup piece.",
+      "sources": [
+        {
+          "title": "Nasdaq Rises for Seventh Consecutive Session",
+          "url": "https://www.foxbusiness.com/features/nasdaq-rises-for-seventh-consecutive-session"
+        }
+      ]
+    }
+  },
+  "NFLX_2017q4": {
+    "ticker": "NFLX",
+    "group": "Group 2",
+    "company_name": "Netflix",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-10-16",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Netflix had rallied strongly after the July subscriber beat and then announced price increases in the U.S. and Europe. Investors were testing whether pricing would slow acquisition as the company increased content spending.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Netflix IR: Netflix Second Quarter 2017 Earnings Interview",
+                  "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2017/Netflix-Second-Quarter-2017-Earnings-Interview/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q3 revenue was about **$2.99 billion** and EPS **$0.29**. Netflix added **5.3 million** subscribers versus guidance of **4.4 million**, with 850,000 U.S. and 4.45 million international additions. Revenue, subscriber growth and international performance all exceeded expectations.",
+              "sources": []
+            },
+            {
+              "text": "Netflix also raised its planned 2018 content spending to **$7–$8 billion** and forecast another **6.3 million** subscriber additions in Q4. The report was fundamentally strong, and shares initially moved higher. However, the stock had already risen more than 60% during 2017 and closed at a record before earnings; the next full session finished modestly lower as the initial rally faded.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Netflix IR: Netflix Third Quarter 2017 Earnings Interview",
+                  "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2017/Netflix-Third-Quarter-2017-Earnings-Interview/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The slight decline was a valuation/profit-taking reversal after a strong report rather than an operating disappointment.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Subscriber growth clearly exceeded expectations and supported the long-term thesis.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Rising content spending increased the cash-burn burden even as it supported acquisition.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: How Netflix's Hot Stock Could Fall 50% to $93",
+                  "url": "https://www.thestreet.com/investing/stocks/netflix-stock-could-fall-to-93-wedbush-analyst-14345196"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were checked for Netflix/NFLX identity, the correct earnings event, publication date, timing window and source origin. Netflix Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **SUPPORTED_INFERENCE**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Netflix IR: Netflix Second Quarter 2017 Earnings Interview",
+          "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2017/Netflix-Second-Quarter-2017-Earnings-Interview/default.aspx"
+        },
+        {
+          "label": "Netflix IR: Netflix Third Quarter 2017 Earnings Interview",
+          "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2017/Netflix-Third-Quarter-2017-Earnings-Interview/default.aspx"
+        },
+        {
+          "label": "TheStreet: How Netflix's Hot Stock Could Fall 50% to $93",
+          "url": "https://www.thestreet.com/investing/stocks/netflix-stock-could-fall-to-93-wedbush-analyst-14345196"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Netflix again topped subscriber-growth forecasts in the third quarter, ending with 104 million paid streaming subscribers globally after adding 5.3 million, ahead of its own 4.4 million projection. The company raised its 2018 content-spending plan to as much as $8 billion from a prior $7 billion estimate, far outstripping expected investments from rivals Hulu, Amazon and HBO, with streaming content obligations rising to $17 billion from $14.4 billion a year earlier. The article situates the results against an increasingly competitive landscape, noting Walt Disney's plans for its own streaming service, Hulu's Emmy win for \"The Handmaid's Tale\" as the first such award for a streaming service, and Apple's reported plans to spend roughly $1 billion on original content. In its shareholder letter, Netflix said its \"future largely lies in exclusive original content\" rather than licensed programming, with original content set to account for more than a quarter of spending this year and potentially over half eventually; the company had recently signed producer Shonda Rhimes to a multiyear exclusive deal and made its first acquisition, buying comic publisher Millarworld. International additions of 4.45 million beat a 3.65 million target, and U.S. additions of 850,000 beat a 750,000 target. Operating margin came in at 7% versus a 6.9% target, with 7.3% projected for the fourth quarter. The company also announced a U.S. price increase to take effect the following quarter, guiding to 1.3 million U.S. subscriber additions for the fourth quarter, down from 1.9 million a year earlier, alongside 5.1 million expected abroad. Third-quarter profit was $130 million, or 29 cents a share, versus $52 million, or 12 cents a share, a year earlier.",
+      "why_moved": "The article reports a modest after-hours gain of about 1.3%, noting the stock had already gained 64% for the year. It attributes the move to subscriber growth again beating the company's own forecast — 5.3 million adds versus a 4.4 million target, with both the U.S. and international components individually topping their guidance figures — alongside revenue that slightly exceeded estimates and an operating margin that outperformed the company's own target, even as it notes profit per share came in a touch below the analyst estimate of 32 cents.",
+      "sources": [
+        {
+          "filename": "Netflix Again Tops Forecasts for Subscriber Growth - WSJ.pdf",
+          "title": "Netflix Again Tops Forecasts for Subscriber Growth Company expects to spend as much as $8 billion on programming next year amid fierce competition for viewers",
+          "published_date": "2017-10-16",
+          "text": "Netflix Again Tops Forecasts for Subscriber Growth - WSJ 2026-08-29, 6:03 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/netflix-again-surpasses-subscriber-growth-estimates-1508186507\nBUSINESS EARNINGS\nNetflix Again Tops Forecasts for Subscriber Growth\nCompany expects to spend as much as $8 billion on programming next year amid fierce\ncompetition for viewers\nBy Austen Hu!ord\nUpdated Oct. 16, 2017 at 9:10 pm ET\nNetflix reported its third-quarter financial results on Monday. ELISE AMENDOLA/ASSOCIATED PRESS\nNetflix Inc.’s NFLX 2.35% wagers on original programming and international\nexpansion are paying off as the streaming service again posted strong subscriber\ngrowth amid an increasingly competitive streaming video market.\nThe Los Gatos, Calif., company ended its third quarter with 104 million paid streaming\nsubscribers globally. It added 5.3 million streaming users in total, outpacing the 4.4\nmillion net additions it had projected.\nhttps://www.wsj.com/articles/netflix-again-surpasses-subscriber-growth-estimates-1508186507 Page 1 of 6\nNetflix Again Tops Forecasts for Subscriber Growth - WSJ 2026-08-29, 6:03 PM\nNetflix has been pouring money into original programs such as “Stranger Things” and\n“The Crown” to fend off competition from other streaming services and continue to\nattract new subscribers around the world. The company now says it plans to spend as\nmuch as $8 billion on content next year—up from an earlier estimate of $7 billion—far\noutstripping the investments expected from rivals Hulu, Amazon.com Inc.\nAMZN 3.97% and HBO.\nRevenue increased 30% to $2.99 billion in the third quarter, slightly topping analysts’\nestimates, and the company’s operating margin expanded.\nShares in Netflix rose nearly 1.3% in after-hours trading Monday. The stock has gained\n64% this year though Monday, giving the company a market value of about $87.5\nbillion.\nThe company said it now has $17 billion in streaming-content obligations, a measure\nof current and future costs for content acquisition, licensing and production, an\nincrease from $14.4 billion in the same quarter last year.\nCompetition for viewers’ attention has been getting more fierce. Some content\nowners, such as Walt Disney Co., are planning to offer their own streaming services,\npulling some content from Netflix. Amazon, meanwhile, is boosting its own spending\nto lure talent and create original shows. Hulu took home best drama at this year’s\nEmmy Awards for “The Handmaid’s Tale”—becoming the first streaming service to\nwin the coveted prize. New competitors are on the horizon, with Apple looking to\nspend roughly $1 billion to procure and produce original content over the next year.\nIn a letter to shareholders, Netflix said the “long-term trends are clear” that the\ncompany’s “future largely lies in exclusive original content,” and less on licensing\nprograms from other content suppliers in Hollywood. Netflix said more than one-\nquarter of its content spending will go toward original content this year, an amount\nthat could eventually reach more than 50%.\nhttps://www.wsj.com/articles/netflix-again-surpasses-subscriber-growth-estimates-1508186507 Page 2 of 6\nNetflix Again Tops Forecasts for Subscriber Growth - WSJ 2026-08-29, 6:03 PM\n“It’s an exciting period, and both media and technology companies see the same big\nopportunity as we do,” Netflix said in the letter. “We have a good head start but our\njob is to improve Netflix as rapidly as possible to please our members by earning their\nviewing time and to stay ahead of the competition in the decades to come.”\nIn response to more competition, Netflix has increasingly focused on signing creative\ntalent and owning its own production and intellectual property.\n“You can’t just be a middle man between the viewer and the network,” said Jonathan\nHadad, a research analyst at IBISWorld. “You have to be the network.”\nNetflix recently signed Shonda Rhimes, the creator of ABC hits including “Grey’s\nAnatomy” and “Scandal,” to a multiyear exclusive agreement to develop shows for the\nstreaming service.\n“It gets very competitive for the handful of superstars, but overall player personnel\ncosts are pretty predictable,” Netflix Chief Content Officer Ted Sarandos said on a\nvideo chat with an analyst, using a sports metaphor to refer to how Netflix is able to\nmanage content costs. The company also said that in recent years revenue has grown\nfaster than its content budget.\nNetflix in August announced its first acquisition, buying comic-book publisher\nMillarworld to gain access to production and intellectual property such as “Old Man\nLogan.” On Monday, the company said it would look at deals through a creative and\ncontent lens and not as a way to diversify its business.\nNetflix has been aggressively pursuing global expansion as its core U.S. market\nmatures and as it works to offset growing content costs and original programming\ninvestments.\nThe company added 4.45 million international subscribers in the quarter, compared\nwith its forecast of 3.65 million. It added 850,000 U.S. subscribers, compared with its\ntarget of 750,000.\nhttps://www.wsj.com/articles/netflix-again-surpasses-subscriber-growth-estimates-1508186507 Page 3 of 6\nNetflix Again Tops Forecasts for Subscriber Growth - WSJ 2026-08-29, 6:03 PM\nNetflix’s faster-than-expected growth is notable as traditional pay-television\ndistributors feel the impact of cord-cutting and customers downgrading to less-costly\npackages of channels. Concerns ramped up in recent weeks when AT&T Inc. warned\nthat it lost an estimated 390,000 traditional TV customers in the latest quarter—more\nthan offsetting nearly 300,000 new accounts for its DirecTV Now streaming service.\nComcast Corp. has also said it expects to lose subscribers in the third quarter, in part\nbecause of customers ditching cable for online substitutes.\nMeanwhile, Netflix has increased its promotional activity. In September, T-Mobile US\nInc. started offering new and existing family-plan subscribers free access to Netflix.\nThe company also said it plans to increase its marketing spending in the current\nquarter, which will cut into margins.\nThe high-octane business model puts pressure on Netflix to continue to add\nsubscribers, and periodically raise its prices—especially if the streaming giant hopes\nto increase what until now have been relatively narrow profit margins.\nThe company’s operating margin came in at 7%, compared with its estimate of 6.9%.\nThe fourth quarter is on track for 7.3%, the company said.\nNetflix has indicated to Wall Street it would like to be judged more on its revenue and\nglobal operating-profit margins than metrics such as subscriber additions. But\nsubscriber growth has continued to remain a focus for investors.\nEarlier this month, the company said it would raise prices for its U.S. streaming-video\ncustomers, betting that subscribers will tolerate higher monthly fees and help fuel the\ncompany’s big investments in TV shows and movies. Because the price increase was\nannounced after the quarter ended, the impact won’t be reflected in results until the\nfourth quarter.\nWith the increased prices, the company expects to gain 1.3 million subscribers in the\nU.S. in the fourth quarter, down from the 1.9 million added in that quarter last year.\nhttps://www.wsj.com/articles/netflix-again-surpasses-subscriber-growth-estimates-1508186507 Page 4 of 6\nNetflix Again Tops Forecasts for Subscriber Growth - WSJ 2026-08-29, 6:03 PM\nAbroad, it expects to add 5.1 million.\nNetflix posted a third-quarter profit of $130 million, or 29 cents a share, compared\nwith a profit of $52 million, or 12 cents a share, in the same quarter last year.\nAnalysts surveyed by Thomson Reuters had projected earnings of 32 cents a share on\n$2.97 billion in revenue.\nWrite to Austen Hufford at austen.hufford@wsj.com\nAppeared in the October 17, 2017, print edition as 'Netflix Subscriber Growth Surges'.\nAusten Hu\"ord covered national economics for The Wall Street Journal in Washington.\nHe reported on the economy, supply chains and trade, labor policy, regulation and pathways to the middle class.\nBefore joining the D.C. bureau, Austen was based in Chicago as the Journal’s U.S. manufacturing reporter, covering…\nthe future of factories, supply chains and blue-collar labor.\nHe also won a New York Press Club Award and an honorable mention from Sabew for his coverage of the N95 mask\nFollow\nshortage and supply chains during the Covid-19 pandemic.\nHe started his career at the Journal as a breaking business news reporter in New York.\nHe holds a bachelor’s degree in economics from the University of Michigan.\nhttps://www.wsj.com/articles/netflix-again-surpasses-subscriber-growth-estimates-1508186507 Page 5 of 6\nNetflix Again Tops Forecasts for Subscriber Growth - WSJ 2026-08-29, 6:03 PM\nhttps://www.wsj.com/articles/netflix-again-surpasses-subscriber-growth-estimates-1508186507 Page 6 of 6"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "The article reports Netflix ended the quarter with 104 million paid streaming subscribers globally after adding 5.3 million, exceeding its own projection of 4.4 million, with U.S. additions of 850,000 versus a 750,000 target and international additions of 4.45 million versus a forecast of 3.65 million. Revenue climbed 30% to $2.99 billion, and the company reported profit of $130 million, or 29 cents per share, up from $52 million, or 12 cents, a year earlier, though this came in below a Thomson Reuters analyst estimate of 32 cents on $2.97 billion in revenue; operating margin of 7% slightly exceeded the 6.9% estimate. The piece notes Netflix plans to spend $7 billion to $8 billion on content the following year, with streaming-content obligations rising to $17 billion from $14.4 billion, and quotes the company describing it as 'an exciting period' as both media and technology companies eye the streaming opportunity. It also describes intensifying competition from Disney, Amazon, Hulu, and Apple, and highlights Netflix's recent talent and content acquisitions, including deals with producer Shonda Rhimes and the purchase of Millarworld.",
+      "why_moved": "The article states that, following a recent price-increase announcement, Netflix shares rose 2.5% in after-hours trading, and it notes the stock had already gained more than 60% year-to-date, valuing the company at over $86 billion. It flags that the stock has shown significant volatility, citing 16 instances of 5%-or-greater daily swings over the prior two years, without a more specific causal statement about this particular move beyond the subscriber report and price-increase news.",
+      "sources": [
+        {
+          "title": "Netflix Again Surpasses Subscriber Growth Estimates",
+          "url": "https://www.foxbusiness.com/features/netflix-again-surpasses-subscriber-growth-estimates"
+        }
+      ]
+    }
+  },
+  "NFLX_2018q1": {
+    "ticker": "NFLX",
+    "group": "Group 2",
+    "company_name": "Netflix",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-01-22",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Netflix entered Q4 after raising subscription prices, creating concern that churn could increase. At the same time, the company was spending aggressively on originals to sustain global growth.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Netflix IR: Netflix Third Quarter 2017 Earnings Interview",
+                  "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2017/Netflix-Third-Quarter-2017-Earnings-Interview/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Netflix added a record **8.3 million** net subscribers, more than **30% above** its own target of 6.3 million. Revenue increased about **33% to $3.3 billion**, and EPS was **$0.41**. The subscriber result was substantially stronger than either management or Wall Street expected.",
+              "sources": []
+            },
+            {
+              "text": "The report also demonstrated pricing power: Netflix achieved record acquisition despite recent price increases. Management planned to increase 2018 free-cash-flow burn to roughly **$3–$4 billion** as content investment accelerated, but investors treated that spending as growth capital because acquisition remained exceptional.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Netflix IR: Netflix Fourth Quarter 2017 Earnings Interview",
+                  "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2018/Netflix-Fourth-Quarter-2017-Earnings-Interview/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares surged because subscriber additions massively exceeded expectations.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Strong growth despite price increases demonstrated substantial pricing power.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Higher cash burn was accepted because original-content investment was still producing accelerating membership growth.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Why Netflix, Inc. Stock Jumped 13% This Morning",
+                  "url": "https://www.fool.com/investing/2018/01/23/why-netflix-inc-stock-jumped-13-this-morning.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were checked for Netflix/NFLX identity, the correct earnings event, publication date, timing window and source origin. Netflix Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Netflix IR: Netflix Third Quarter 2017 Earnings Interview",
+          "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2017/Netflix-Third-Quarter-2017-Earnings-Interview/default.aspx"
+        },
+        {
+          "label": "Netflix IR: Netflix Fourth Quarter 2017 Earnings Interview",
+          "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2018/Netflix-Fourth-Quarter-2017-Earnings-Interview/default.aspx"
+        },
+        {
+          "label": "The Motley Fool: Why Netflix, Inc. Stock Jumped 13% This Morning",
+          "url": "https://www.fool.com/investing/2018/01/23/why-netflix-inc-stock-jumped-13-this-morning.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Netflix added 8.3 million streaming subscribers in the fourth quarter, the most it had ever gained in a single quarter and well above its own 6.3 million projection, bringing total paid subscribers to 110.6 million and demonstrating the company could keep growing despite a recent U.S. price increase and mounting competition. The company raised its 2018 content-spending guidance to $7.5 billion to $8 billion, with CEO Reed Hastings telling investors content costs would keep rising in 2019 and 2020; streaming content obligations reached $17.7 billion. Netflix took a rare $39 million noncash charge on unreleased content that CFO David Wells said was \"related to the societal reset around sexual harassment,\" following the company's decision to cut ties with actor Kevin Spacey and continue \"House of Cards\" without him. Marketing spending was set to rise to $2 billion from $1.3 billion, and the company projected negative free cash flow of $3 billion to $4 billion for the year, having already burned $2 billion more cash than it brought in during 2017; it said rising operating profits and slowing growth in content-spending increases would eventually produce positive free cash flow. Evercore ISI analyst Anthony DiClemente said, \"They are spending more on content and burning more cash... However, as long as the revenue growth is accelerating and the net subscriber additions continue, investors will look past the spending.\" International additions of 6.36 million beat a 5.05 million guidance figure, and U.S. additions of 1.98 million beat a 1.25 million target; the international segment contributed positively to full-year profit for the first time. Revenue rose 33% to $3.29 billion, above analyst estimates, with net income of $185.5 million, or 41 cents a share, versus $66.7 million, or 15 cents a share, a year earlier, matching the 41-cent consensus estimate.",
+      "why_moved": "The article reports that shares gained 9% after hours, pushing Netflix's market capitalization above $100 billion. It attributes this to record quarterly subscriber growth — 8.3 million adds, the company's highest ever, versus a 6.3 million guidance figure — which demonstrated Netflix could keep growing even after a U.S. price increase and amid escalating competition, a point the article reinforces with an Evercore analyst's on-record comment that investors would keep tolerating heavier cash burn as long as subscriber growth kept accelerating.",
+      "sources": [
+        {
+          "filename": "Netflix Continues Landing Customers, Even After Increasing Prices - WSJ.pdf",
+          "title": "Netflix Continues Landing Customers, Even After Increasing Prices Netflix subscriber growth continues at home, abroad in latest quarter",
+          "published_date": "2018-01-22",
+          "text": "Netflix Continues Landing Customers, Even After Increasing Prices - WSJ 2026-08-29, 6:04 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/netflix-continues-landing-customers-even-after-increasing-prices-1516656786\nBUSINESS EARNINGS\nNetflix Continues Landing Customers, Even After\nIncreasing Prices\nNetflix subscriber growth continues at home, abroad in latest quarter\nBy Austen Hu!ord\nUpdated Jan. 22, 2018 at 11:59 pm ET\nNetflix said Monday it would spend $7.5 billion to $8 billion on content this year. DANIEL ACKER/BLOOMBERG NEWS\nNetflix Inc. continued its blistering growth in the fourth quarter, as mounting\ninvestments in original shows like “Stranger Things” and movies like “Bright” helped\nthe streaming service sign up subscribers at a record rate.\nThe company added 8.3 million streaming users—the most it has ever gained in a\nquarter—exceeding the 6.3 million net additions it had projected. The growth in the\nU.S. and internationally brought its total paid subscriber count to 110.6 million at the\nend of the fourth quarter.\nhttps://www.wsj.com/articles/netflix-continues-landing-customers-even-after-increasing-prices-1516656786 Page 1 of 5\nNetflix Continues Landing Customers, Even After Increasing Prices - WSJ 2026-08-29, 6:04 PM\nThe results showed Netflix can continue to grow its customer ranks despite price\nincreases in the U.S. and rising competition for viewers and programming from rival\nstreaming services. Netflix shares gained 9% after hours, pushing the company’s\nmarket capitalization above $100 billion.\nIn a letter to shareholders, Netflix acknowledged the emergence of more premium\nvideo content from technology companies like Amazon.com Inc. and Apple Inc., ad-\nsupported platforms such as Facebook and Google’s YouTube, and entertainment\ncompanies like Walt Disney Co., which underscored its direct-to-consumer ambitions\nwhen it agreed to purchase most of 21st Century Fox for $52.4 billion.\n“The market for entertainment time is vast and can support many successful\nservices,” the company said in the letter. “Entertainment services are often\ncomplementary given their unique content offerings.”\nThe expansion of direct-to-consumer video gave viewers an all-time high of 487\nscripted shows across streaming and traditional TV in 2017, according to research\nfrom FX Networks.\nLos Gatos, Calif.-based Netflix has been spending heavily on original programs to\nattract new subscribers. Netflix said Monday it would spend $7.5 billion to $8 billion\non content this year, up from a forecast of $7 billion to $8 billion previously, far\noutstripping investments from rivals including Hulu, Amazon and HBO.\nAnd Netflix Chief Executive Reed Hastings said on the company’s earnings call that\ncontent costs will continue to rise in 2019 and 2020.\nNetflix said it now has $17.7 billion in streaming-content obligations, a measure of\ncurrent and future costs for content acquisition, licensing and production.\nIn a rare move, the company took a $39 million noncash charge in the fourth quarter\non content it decided not to release, which Chief Financial Officer David Wells said\nwas “related to the societal reset around sexual harassment.” Last year, Netflix cut\nhttps://www.wsj.com/articles/netflix-continues-landing-customers-even-after-increasing-prices-1516656786 Page 2 of 5\nNetflix Continues Landing Customers, Even After Increasing Prices - WSJ 2026-08-29, 6:04 PM\nties with actor Kevin Spacey after he was accused of sexual harassment, and the\nstreaming service said it would bring the hit drama “House of Cards” back for one\nfinal season without Mr. Spacey.\nNetflix also said it would boost its spending on technology and increase its marketing\nbudget to $2 billion this year from $1.3 billion.\nThe increased spending comes with a trade-off, as Netflix blew through $2 billion\nmore in cash than it brought in last year, and this year the company projects negative\nfree cash flow of $3 billion to $4 billion. But the company said Monday that rising\noperating profits and slowing growth in original content spending will eventually lead\nto positive free cash flow.\n“They are spending more on content and burning more cash,” Anthony DiClemente,\ninternet analyst at Evercore ISI, said. “However, as long as the revenue growth is\naccelerating and the net subscriber additions continue, investors will look past the\nspending.”\nNetflix shares set a record closing price on Monday at $227.58, about 227 times\nearnings.\nThe company added 6.36 million foreign subscribers in the quarter, compared with its\nforecast of 5.05 million. It added 1.98 million U.S. subscribers, compared with its\noutlook for 1.25 million.\nNetflix expects the growth to continue in the current quarter, projecting net additions\nof 1.45 million U.S. subscribers and 4.9 million international customers.\nNetflix has increased its international investments in recent years. More than half of\nits total subscribers are from countries outside the U.S. and it plans over 30\ninternational-focused original series this year, including in France, Poland, India and\nKorea. Monday, the company said the international segment contributed positively to\nthe company’s full-year profit for the first time.\nhttps://www.wsj.com/articles/netflix-continues-landing-customers-even-after-increasing-prices-1516656786 Page 3 of 5\nNetflix Continues Landing Customers, Even After Increasing Prices - WSJ 2026-08-29, 6:04 PM\nNetflix said revenue increased 33% to $3.29 billion in its fourth quarter, above\nanalysts’ estimates.\nNet income came in at $185.5 million, or 41 cents a share, compared with $66.7 million,\nor 15 cents a share, in the year-earlier quarter.\nAnalysts surveyed by Thomson Reuters had expected earnings of 41 cents a share on\n$3.28 billion in revenue.\nWrite to Austen Hufford at austen.hufford@wsj.com\nAppeared in the January 23, 2018, print edition as 'Netflix Flexes Muscles in Streaming'.\nAusten Hu\"ord covered national economics for The Wall Street Journal in Washington.\nHe reported on the economy, supply chains and trade, labor policy, regulation and pathways to the middle class.\nBefore joining the D.C. bureau, Austen was based in Chicago as the Journal’s U.S. manufacturing reporter, covering…\nthe future of factories, supply chains and blue-collar labor.\nHe also won a New York Press Club Award and an honorable mention from Sabew for his coverage of the N95 mask\nFollow\nshortage and supply chains during the Covid-19 pandemic.\nHe started his career at the Journal as a breaking business news reporter in New York.\nHe holds a bachelor’s degree in economics from the University of Michigan.\nhttps://www.wsj.com/articles/netflix-continues-landing-customers-even-after-increasing-prices-1516656786 Page 4 of 5\nNetflix Continues Landing Customers, Even After Increasing Prices - WSJ 2026-08-29, 6:04 PM\nhttps://www.wsj.com/articles/netflix-continues-landing-customers-even-after-increasing-prices-1516656786 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "This is Dow Jones Newswires market-roundup coverage of a largely flat pre-market session following the end of a three-day government shutdown, rather than a dedicated Netflix earnings story, so the Netflix content appears as one highlighted item within the broader market snapshot. The article describes major index futures little changed, with the Dow flat, the S&P 500 down slightly, and the Nasdaq-100 up marginally, after all three major indexes closed at record highs the prior session once the shutdown was resolved. Within that context, it singles out Netflix as a standout performer after the company beat forecasts for both earnings and new net subscribers, noting the move put the company within reach of a $100 billion market capitalization. The piece also flags a counterbalancing factor, noting that sexual-harassment scandals cost Netflix $39 million, referencing fallout from industry controversies affecting the company's financials.",
+      "why_moved": "The article states that Netflix shares rose approximately 9% in premarket trading, attributing the move to the company beating forecasts for both earnings and new net subscribers. It separately notes that sexual-harassment-related costs of $39 million affected Netflix's financials, without tying that item directly to the stock's premarket reaction.",
+      "sources": [
+        {
+          "title": "MARKET SNAPSHOT: Stocks Poised For Flat Open; Netflix Rallies After Results",
+          "url": "https://www.foxbusiness.com/features/market-snapshot-stocks-poised-for-flat-open-netflix-rallies-after-results"
+        }
+      ]
+    }
+  },
+  "NFLX_2018q2": {
+    "ticker": "NFLX",
+    "group": "Group 2",
+    "company_name": "Netflix",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-04-16",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After the record Q4, Netflix faced an exceptionally high expectations bar. The company needed another subscriber beat to justify the stock’s rapid appreciation.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Netflix IR: Netflix Fourth Quarter 2017 Earnings Interview",
+                  "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2018/Netflix-Fourth-Quarter-2017-Earnings-Interview/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q1 revenue rose to roughly **$3.70 billion** and EPS to **$0.64**. Netflix added approximately **7.4 million** subscribers, above its guidance and among the strongest quarters in company history. U.S. additions were about 1.96 million and international additions about 5.46 million.",
+              "sources": []
+            },
+            {
+              "text": "Netflix also guided Q2 to another strong subscriber quarter and continued expanding operating margin despite heavy content spending. The report reinforced the idea that Netflix had achieved global scale without yet exhausting its subscriber runway.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Netflix IR: Netflix First Quarter 2018 Earnings Interview",
+                  "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2018/Netflix-First-Quarter-2018-Earnings-Interview/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock rose because subscriber additions again exceeded expectations.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** International growth remained the dominant source of upside.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Better operating margins showed that scale was beginning to improve profitability even while content investment remained high.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheWrap: Netflix Shares Jump 8 Percent to All-Time High on Subscriber Surge",
+                  "url": "https://www.thewrap.com/netflix-shares-race-8-percent-to-all-time-high-behind-strong-subscriber-growth/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were checked for Netflix/NFLX identity, the correct earnings event, publication date, timing window and source origin. Netflix Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Netflix IR: Netflix Fourth Quarter 2017 Earnings Interview",
+          "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2018/Netflix-Fourth-Quarter-2017-Earnings-Interview/default.aspx"
+        },
+        {
+          "label": "Netflix IR: Netflix First Quarter 2018 Earnings Interview",
+          "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2018/Netflix-First-Quarter-2018-Earnings-Interview/default.aspx"
+        },
+        {
+          "label": "TheWrap: Netflix Shares Jump 8 Percent to All-Time High on Subscriber Surge",
+          "url": "https://www.thewrap.com/netflix-shares-race-8-percent-to-all-time-high-behind-strong-subscriber-growth/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Netflix added 7.41 million subscribers in the first quarter, including 5.46 million internationally, exceeding the roughly 6.5 million analysts had expected, and guided to 6.2 million net additions for the second quarter versus a 5.6 million analyst estimate. The stock had risen more than 60% so far in 2018 versus a 0.2% gain for the S&P 500, with the article noting Netflix had benefited from investor rotation away from ad-supported technology stocks amid data-privacy concerns at Facebook and Google. CEO Reed Hastings sought to distance the company from that group on the earnings call: \"We're very different from the ad-supported businesses and we've always been very big on protecting all of our members' viewing... I think we're substantially inoculated from the other issues that are happening in the industry,\" adding that, given more than $10 billion in planned content and marketing spending versus $1.3 billion on technology, \"we're much more of a media company in that way than pure tech.\" International subscribers now accounted for 55% of total subscriptions and 50% of revenue, with total membership at 125 million. Netflix reiterated 2018 content-spending guidance of up to $8 billion and continued to project negative free cash flow of $3 billion to $4 billion, warning of \"several more years\" of cash burn. The company announced new distribution partnerships with Comcast, following earlier deals with Sky and T-Mobile, and disclosed a dispute with the Cannes Film Festival, which barred Netflix films from competing for the Palme d'Or over the streaming service's lack of French theatrical distribution; Netflix responded by withdrawing from Cannes entirely. First-quarter profit was $290 million, or 64 cents a share, up from $178 million, or 40 cents a share, a year earlier, matching the 64-cent estimate, with revenue up 40% to $3.7 billion, roughly in line with the $3.69 billion estimate.",
+      "why_moved": "The article reports that shares jumped 4.9% to $322.85 in after-hours trading, reversing a 1.2% regular-session decline that it says reflected investor anxiety over whether Netflix could sustain its growth streak. It attributes the after-hours pop to subscriber additions of 7.41 million, including 5.46 million international, that beat the roughly 6.5 million analyst estimate, plus forward guidance for the current quarter that also topped Wall Street's expectations.",
+      "sources": [
+        {
+          "filename": "Netflix Subscriber Growth Tops Expectations - WSJ.pdf",
+          "title": "Netflix Subscriber Growth Tops Expectations Video-streaming giant added 7.41 million subscribers, including 5.46 million internationally",
+          "published_date": "2018-04-16",
+          "text": "Netflix Subscriber Growth Tops Expectations - WSJ 2026-08-29, 6:05 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/netflix-expands-growth-in-international-markets-1523911999\nBUSINESS EARNINGS\nNetflix Subscriber Growth Tops Expectations\nVideo-streaming giant added 7.41 million subscribers, including 5.46 million\ninternationally\nBy Shalini Ramachandranand Imani Moise\nUpdated April 16, 2018 at 10:46 pm ET\nNetflix shares jumped afterhours Monday after reporting earnings. RYAN ANSON/AGENCE FRANCE-PRESSE/GETTY\nIMAGES\nNetflix Inc. reported another quarter of blockbuster subscriber growth that exceeded\nits own forecast and expectations from Wall Street, illustrating the ongoing demand\nfor a service that now reaches 125 million people globally.\nShares jumped 4.9% to $322.85 in after-hours trading, following a 1.2% decline during\nthe regular session Monday amid concerns about whether the video-streaming\ncompany could keep its growth streak.\nhttps://www.wsj.com/articles/netflix-expands-growth-in-international-markets-1523911999 Page 1 of 5\nNetflix Subscriber Growth Tops Expectations - WSJ 2026-08-29, 6:05 PM\nThe video-streaming giant added 7.41 million subscribers in the first quarter,\nincluding 5.46 million internationally. Analysts expected Netflix to add a little over 6.5\nmillion net new subscribers for the first quarter.\nThe company also expects to increase subscribers at a strong clip in the current\nquarter. Netflix forecast a net addition of 6.2 million users, compared with analysts’\nexpectations of 5.6 million.\nNetflix has been one of the fastest-growing\nstocks on the market so far this year as the\ncompany blew past expectations for U.S. and\ninternational growth. The company’s shares\nhave risen more than 60% in 2018, compared\nwith the 0.2% increase of the S&P 500. Wall\nStreet grew even more bullish earlier this\nyear when Netflix demonstrated in its\nfourth-quarter results that it can still add\ndomestic customers despite raising prices, a\ntrend that continued in the first quarter.\nNetflix stock has outperformed its\ntechnology peers as investors have grown\nconcerned about possible regulation of tech\ngiants like Alphabet Inc.’s Google and\nFacebook Inc. over data privacy concerns. On\nthe earnings call Monday, Netflix Chief Executive Reed Hastings sought to distance\nthe subscription-supported company from other tech giants. “We’re very different\nfrom the ad-supported businesses and we’ve always been very big on protecting all of\nour members’ viewing,” Mr. Hastings said. “I think we’re substantially inoculated\nfrom the other issues that are happening in the industry.”\nNoting that Netflix will spend more than $10 billion on content and marketing this\nhttps://www.wsj.com/articles/netflix-expands-growth-in-international-markets-1523911999 Page 2 of 5\nNetflix Subscriber Growth Tops Expectations - WSJ 2026-08-29, 6:05 PM\nyear versus $1.3 billion on technology, Mr. Hastings said “we’re much more of a media\ncompany in that way than pure tech.”\nInvestors were looking to Monday’s results for evidence that the California-based\ncompany could sustain its rapid global growth as its home market matures. Netflix\nexecutives have highlighted the opportunity as equivalent to all of the broadband\nhomes in the world outside of China—which they estimate at around 700 million,\ngrowing toward one billion. Netflix currently has 118.9 million total paid subscriptions\nand 125 million total memberships. The international segment now accounts for 55%\nof overall subscriptions and 50% of revenue.\nIn its domestic market, Netflix has sought deals with corporate partners to bring on\nmore subscribers. Last week, the company announced a partnership with its former\nrival Comcast Corp. to bundle its service with Comcast’s cable TV and internet plans.\nNetflix struck a similar deal with European pay-TV operator Sky last month and has\nalso bundled its service with wireless carrier T-Mobile.\nThe company has also been investing heavily in its content to lure, and keep\nsubscribers. Netflix reiterated Monday that it expects to spend up to $8 billion on\ncontent this year, more than rivals like HBO and Amazon.com Inc. Due to its high level\nof upfront spending to source original content, Netflix continues to be on track to have\nnegative free cash flow of $3 billion to $4 billion this year. It forecasted “several more\nyears” of negative free cash flow.\nNetflix will have 700 original shows and movies on the service this year, including 80\nseries specific to local, non-English-speaking markets.\nNetflix is also continuing its aggressive hunt for top-notch talent, attracting everyone\nfrom star Hollywood creators to publicists with big paychecks. The streaming service\npoached “Glee” and “American Horror Story” producer Ryan Murphy from 21st\nCentury Fox with a five-year, $300 million production agreement, in addition to\nwooing Shonda Rhimes, the creator of “Scandal,” away from ABC.\nhttps://www.wsj.com/articles/netflix-expands-growth-in-international-markets-1523911999 Page 3 of 5\nNetflix Subscriber Growth Tops Expectations - WSJ 2026-08-29, 6:05 PM\nBut as its content ambitions have grown, the streaming service has jostled with rivals\nat home and abroad who worry it is upending their businesses.\nNetflix is currently embroiled in a tussle with Cannes Film Festival, which announced\nthat it won’t allow Netflix original movies to vie for the Palme d’Or, the highest prize,\nbecause Netflix’s original films don’t have theatrical distribution in France. French\nlaw requires that movies don’t appear on streaming services for 36 months after their\ntheatrical debut—at odds with Netflix, whose entire model is to debut movies on its\nservice for subscribers. Though Cannes executives said Netflix could premiere movies\nout of the competitive running, Netflix responded by pulling out of Cannes completely.\n“We will continue to celebrate our films and filmmakers at other festivals around the\nworld but unfortunately we will have to sit out Cannes for now so that our growing\nFrench membership can continue to enjoy our original films,” Netflix said in a\nshareholder letter Monday.\nOverall for the first quarter, Netflix reported a profit of $290 million, or 64 cents a\nshare, up from $178 million, or 40 cents a share, a year earlier. Revenue jumped 40% to\n$3.7 billion.\nAnalysts polled by Thomson Reuters had forecast earnings of 64 cents a share on\n$3.69 billion in revenue.\nWrite to Shalini Ramachandran at shalini.ramachandran@wsj.com and Imani Moise\nat imani.moise@wsj.com\nAppeared in the April 17, 2018, print edition as 'Netflix Growth Beats Forecast'.\nShalini Ramachandran is an investigative reporter at The Wall Street Journal. She has worked on investigations on a\nrange of topics, including government accountability, environmental justice, corporate malfeasance, organized\ncrime, workplace discrimination, worker safety and healthcare. She is interested in telling stories with broad impac…\nin the public interest. She has deep experience handling confidential documents and working with whistleblowers.\nHer investigation in 2023 revealing a large network of toxic lead cables left behind by phone companies triggered\nFollow\nmultiple federal-agency investigations and led to additional worker protections and some remediation. In 2025, she\nalong with a team of reporters won the WERT Global Prize from Columbia University for stories on the toxic\nhttps://www.wsj.com/articles/netflix-expands-growth-in-international-markets-1523911999 Page 4 of 5\nNetflix Subscriber Growth Tops Expectations - WSJ 2026-08-29, 6:05 PM\nImani Moise is an award-winning journalist and audio host at The Wall Street Journal, where she is developing new\ncoverage and storytelling around personal finance. Previously, she reported on how technology was reshaping the\nway consumers spend, save and invest for the Journal’s personal finance team.…\nBefore joining the Journal, Moise covered the largest U.S. banks for Financial Times and Reuters and edited a weekly\nFollow\nfintech newsletter. Her reporting on the banking industry has prompted a public apology from a CEO, been cited\nduring congressional hearings and featured on late-night television.\nShe began her career as an intern in the Journal’s Atlanta bureau covering the logistics industry before joining the\npaper’s real-time news desk, where she was part of the team recognized for coverage of the Amazon–Whole Foods\nmerger. She graduated from Duke University with a bachelor’s degree in public policy.\nhttps://www.wsj.com/articles/netflix-expands-growth-in-international-markets-1523911999 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "NFLX_2018q3": {
+    "ticker": "NFLX",
+    "group": "Group 2",
+    "company_name": "Netflix",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-16",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Netflix shares had nearly doubled during 2018, leaving the stock dependent on continued subscriber beats. Q2 therefore carried one of the highest expectations bars in the sample.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "Netflix IR: Netflix First Quarter 2018 Earnings Interview",
+                  "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2018/Netflix-First-Quarter-2018-Earnings-Interview/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Q2 revenue increased about **40% to $3.91 billion** and EPS reached **$0.85**, above earnings expectations. But Netflix added only about **5.15 million** subscribers versus its own forecast of **6.2 million**. U.S. additions were roughly 670,000 versus a 1.2 million target, while international additions were about 4.47 million versus roughly 5.0 million expected.",
+              "sources": []
+            },
+            {
+              "text": "Management called the quarter “strong but not stellar” and acknowledged that it had over-forecast subscriber additions. Q3 subscriber guidance also failed to erase the concern. Because Netflix’s valuation depended heavily on sustained membership acceleration, the subscriber miss outweighed otherwise strong revenue and earnings growth.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "Netflix IR: Netflix Second Quarter 2018 Earnings Interview",
+                  "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2018/Netflix-Second-Quarter-2018-Earnings-Interview/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares fell because subscriber growth missed company and market expectations by roughly 1 million users.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Both U.S. and international net additions fell short, making the miss broad-based.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** A very high valuation made subscriber forecasting errors especially costly to the stock.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "CBS News: Netflix shares slip further amid growth concerns",
+                  "url": "https://www.cbsnews.com/news/netflix-shares-slip-further-amid-growth-concerns/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were checked for Netflix/NFLX identity, the correct earnings event, publication date, timing window and source origin. Netflix Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included. Attribution strength: **EXPLICIT**.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "Netflix IR: Netflix First Quarter 2018 Earnings Interview",
+          "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2018/Netflix-First-Quarter-2018-Earnings-Interview/default.aspx"
+        },
+        {
+          "label": "Netflix IR: Netflix Second Quarter 2018 Earnings Interview",
+          "url": "https://ir.netflix.net/investor-news-and-events/investor-events/event-details/2018/Netflix-Second-Quarter-2018-Earnings-Interview/default.aspx"
+        },
+        {
+          "label": "CBS News: Netflix shares slip further amid growth concerns",
+          "url": "https://www.cbsnews.com/news/netflix-shares-slip-further-amid-growth-concerns/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Netflix missed its own subscriber forecast by more than a million users in the second quarter, adding 4.47 million international subscribers versus a 5 million guidance figure and just 670,000 U.S. subscribers versus a 1.2 million target — the third such guidance miss in the past ten quarters. The company blamed \"faulty internal forecasting\" rather than business factors like recent price increases, with CEO Reed Hastings saying \"we've seen this movie\" before, noting Netflix had never fully understood a similar miss two years earlier, calling it \"lumpiness in the business,\" and insisting \"Fundamentals have never been stronger... Our viewing is setting year-over-year records. We're feeling very strong.\" Netflix guided to 5 million net additions for the third quarter, well below the 6.3 million analysts expected. The article situates the results against a wave of media-industry consolidation, including AT&T's completed acquisition of Time Warner and Comcast and Disney both circling 21st Century Fox's entertainment assets; content chief Ted Sarandos said he wasn't concerned about losing Disney and Fox content, noting its share of Netflix viewing had been \"on the decline for several years,\" and that Netflix had long bet major media companies would eventually launch their own streaming services, underpinning its push into original programming. The company reiterated content-spending guidance of up to $8 billion for the year, with analysts estimating total cash content spend closer to $12 billion once future-release content is included. Marketing spending reached $1 billion over the prior six months, up from $546 million a year earlier. Second-quarter profit was $384.3 million, or 85 cents a share, beating a 79-cent estimate, on revenue up 40% to $3.91 billion, slightly below the $3.94 billion estimate.",
+      "why_moved": "The article reports that shares of Netflix, which had more than doubled in 2018, fell 14% to $344.24 in after-hours trading. It attributes the drop directly to Netflix missing its own subscriber-addition forecast by more than a million users — international adds of 4.47 million versus a 5 million guide and U.S. adds of just 670,000 versus a 1.2 million guide — which the company explained on the call as a product of \"faulty internal forecasting\" rather than any change in the underlying business such as the recent price increases, a distinction CEO Hastings emphasized while calling the company's fundamentals \"never...stronger.\"",
+      "sources": [
+        {
+          "filename": "Netflix Reports Weaker-Than-Expected Number of New Subscribers - WSJ.pdf",
+          "title": "Netflix Reports Weaker-Than-Expected Number of New Subscribers Video site blamed faulty internal forecasting, not business reasons like price increases",
+          "published_date": "2018-07-16",
+          "text": "Netflix Reports Weaker-Than-Expected Number of New Subscribers - WSJ 2026-08-29, 6:05 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/netflix-reports-weaker-than-expected-number-of-new-subscribers-1531771717\nTECH\nNetflix Reports Weaker-Than-Expected Number of\nNew Subscribers\nVideo site blamed faulty internal forecasting, not business reasons like price increases\nBy Shalini Ramachandran\nUpdated July 16, 2018 at 7:41 pm ET\nNetflix has been investing heavily in its content to lure and keep subscribers. Above, a scene from its show “The\nCrown.” ROBERT VIGLASKY/NETFLIX/ASSOCIATED PRESS\nNetflix Inc. NFLX 2.35% missed its own forecasts by more than a million subscribers\nin the second quarter, slowing the streaming-video site’s strong momentum this year.\nShares of Netflix, which had more than doubled in 2018, fell 14% to $344.24 in after-\nhours trading Monday.\nNetflix blamed its subscriber miss on faulty internal forecasting and not on business\nreasons, like recent price increases. The company has had such guidance problems in\nhttps://www.wsj.com/articles/netflix-reports-weaker-than-expected-number-of-new-subscribers-1531771717 Page 1 of 5\nNetflix Reports Weaker-Than-Expected Number of New Subscribers - WSJ 2026-08-29, 6:05 PM\npast quarters, missing forecasts three times in the past 10 quarters, each causing\ngyrations to its share price.\nOn a video interview to discuss earnings, Chief Executive Reed Hastings said “we’ve\nseen this movie” before, regarding missed targets. He said Netflix executives never\nquite figured out why they similarly missed a quarterly forecast two years ago. There’s\n“lumpiness in the business,” he said, and the miss doesn’t affect his optimism for the\nbusiness.\n“Fundamentals have never been stronger,” Mr. Hastings said. “Our viewing is setting\nyear-over-year records. We’re feeling very strong.”\nIn the second quarter, the company added 4.47 million international customers, short\nof its guidance of 5 million, and 670,000 streaming customers in the U.S., below its\nestimate of 1.2 million subscribers.\nNetflix executives said the missed forecast isn’t affecting their belief in the\nfundamentals of the business and the size of their addressable global market. The\ncompany added that despite the miss, its subscriber growth in the U.S. through the\nfirst six months of this year is still ahead of the comparable prior-year period.\nThe company forecast adding 5 million new users for the current third quarter, well\nbelow analysts’ expectations of 6.3 million.\nOverall, Netflix has 130 million total members globally, making it a media superpower\nand prompting other major players to look to add scale and breadth. This year, AT&T\nInc. completed its acquisition of Time Warner Inc. and a potential megamerger is\nbrewing with Comcast Corp. and Walt Disney Co. each circling 21st Century Fox’s\nentertainment assets.\nNetflix said Monday that it anticipates more competition but believes “there is room\nfor multiple parties.”\nhttps://www.wsj.com/articles/netflix-reports-weaker-than-expected-number-of-new-subscribers-1531771717 Page 2 of 5\nNetflix Reports Weaker-Than-Expected Number of New Subscribers - WSJ 2026-08-29, 6:05 PM\nIf Disney is successful in sealing a Fox deal, industry executives believe it will pull\nDisney and Fox content from Netflix and use it to stock up its own planned streaming\nservices.\nTed Sarandos, Netflix’s chief content officer, said he isn’t worried, noting that the\npercentage of Netflix viewership coming from Disney and Fox library content is “a\nnumber that’s been on the decline for several years.” He said Netflix made a bet long\nago that big media companies will eventually want to strike out on their own with\nstreaming, and that underpinned its push into original shows and movies.\nNetflix’s sizable membership allows it to invest heavily in content. Netflix reiterated\nthat it expects to book content expenses of up to $8 billion this year. Analysts estimate\nit will spend up to $4 billion more on shows and movies this year that will be released\nin the future, bringing its total cash spend on content to some $12 billion, dwarfing\nrivals like Amazon.com Inc. and HBO.\nIt has been heavily investing in India, eyeing the world’s second-largest country by\npopulation as ground for growth. Netflix said Monday that “Lust Stories,” a new\nIndian original movie, and “Sacred Games,” the company’s first original series there,\nhad strong debuts.\nNetflix also has been spending to get known names to make exclusive content. In May\nthe company signed former U.S. President Barack Obama and the former first lady,\nMichelle Obama, to a multiyear deal to produce Netflix shows and documentaries.\nOverall, Netflix will have 700 original shows and movies on the service this year,\nincluding 80 series specific to local, non-English-speaking markets. The content has\nbeen noticed by rivals. In the U.S., Netflix last week scored 112 Emmy Awards\nnominations, more than any other television network and breaking a streak that HBO\nheld on to for 17 years.\nThe company’s marketing spend is also ballooning. It disclosed Monday that it has\nhttps://www.wsj.com/articles/netflix-reports-weaker-than-expected-number-of-new-subscribers-1531771717 Page 3 of 5\nNetflix Reports Weaker-Than-Expected Number of New Subscribers - WSJ 2026-08-29, 6:05 PM\nspent $1 billion hawking its shows and service in the past six months, up from $546\nmillion in the prior-year period.\nFor the second quarter, Netflix reported a profit of $384.3 million, or 85 cents a share,\nup from $65.6 million, or 15 cents a share, a year earlier. Revenue jumped 40% to $3.91\nbillion.\nAnalysts polled by Thomson Reuters had forecast earnings of 79 cents a share on\n$3.94 billion in revenue.\nNetflix hasn’t been immune to renewed debates across American companies about\nworkplace culture and diversity.\nDuring the quarter, Netflix fired chief communications officer Jonathan Friedland\nafter he used a racial slur in two work conversations. Mr. Friedland said in a series of\ntweets that he spoke insensitively and it came up during a discussion of words that\noffend in comedy. In a memo to employees after the incident, Mr. Hastings blamed his\nown privilege for leading him to minimize race issues and said Netflix had work to do\nto improve.\n—Austen Hufford contributed to this article.\nWrite to Shalini Ramachandran at shalini.ramachandran@wsj.com\nAppeared in the July 17, 2018, print edition as 'Netflix Misses Subscriber Mark'.\nShalini Ramachandran is an investigative reporter at The Wall Street Journal. She has worked on investigations on a\nrange of topics, including government accountability, environmental justice, corporate malfeasance, organized\ncrime, workplace discrimination, worker safety and healthcare. She is interested in telling stories with broad impac…\nin the public interest. She has deep experience handling confidential documents and working with whistleblowers.\nHer investigation in 2023 revealing a large network of toxic lead cables left behind by phone companies triggered\nFollow\nmultiple federal-agency investigations and led to additional worker protections and some remediation. In 2025, she\nalong with a team of reporters won the WERT Global Prize from Columbia University for stories on the toxic\nworkplace culture at the World Economic Forum, a series that triggered investigations and the ouster of the\nfounder. Her recent reporting has focused on the overprescription of psychotropic drugs in America.\nShalini was a key member of WSJ teams that: won a New York Press Club award and a Society of American\nhttps://www.wsj.com/articles/netflix-reports-weaker-than-expected-number-of-new-subscribers-1531771717 Page 4 of 5\nNetflix Reports Weaker-Than-Expected Number of New Subscribers - WSJ 2026-08-29, 6:05 PM\nhttps://www.wsj.com/articles/netflix-reports-weaker-than-expected-number-of-new-subscribers-1531771717 Page 5 of 5"
+        }
+      ]
+    },
+    "djnw": null
+  }
+}

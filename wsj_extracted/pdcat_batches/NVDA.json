@@ -1,0 +1,1076 @@
+{
+  "NVDA_2016q3": {
+    "ticker": "NVDA",
+    "group": "Group 1",
+    "company_name": "NVIDIA",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-08-11",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After the May beat, NVIDIA had already rerated sharply. Q2 needed to show that Pascal gaming demand and early deep-learning adoption could support a structurally higher revenue-growth rate.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "NVIDIA Announces Financial Results for First Quarter Fiscal 2017",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581016000243/form8-kq117.htm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q2 revenue reached **$1.43 billion**, up 24% year over year, while non-GAAP EPS was **$0.53**. Wall Street had expected roughly **$1.35 billion of revenue and $0.37 EPS**. The result was driven by strength across gaming, data center and automotive.",
+              "sources": []
+            },
+            {
+              "text": "The standout was data center, where revenue rose about **110% year over year to $151 million**. NVIDIA then guided Q3 revenue to roughly **$1.68 billion ±2%**, far above consensus near $1.45 billion. This guidance implied a major acceleration rather than a normalization after the strong first half.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2017",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581016000292/form8-kq2fy17.htm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock rose on a clear beat and an unusually strong Q3 revenue guide.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Data-center growth strengthened the deep-learning/AI thesis.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Pascal gaming demand showed the core franchise was accelerating too.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: Nvidia Soars to an All-Time High on Positive Earnings",
+                  "url": "https://www.thestreet.com/investing/stocks/nvidia-gets-a-big-lift-from-ai-projects-microsoft-buys-a-game-streaming-firm-13673513"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were checked for NVIDIA/NVDA identity, the correct earnings event, publication date, timing window and source origin. SEC / NVIDIA Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "NVIDIA Announces Financial Results for First Quarter Fiscal 2017",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581016000243/form8-kq117.htm"
+        },
+        {
+          "label": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2017",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581016000292/form8-kq2fy17.htm"
+        },
+        {
+          "label": "TheStreet: Nvidia Soars to an All-Time High on Positive Earnings",
+          "url": "https://www.thestreet.com/investing/stocks/nvidia-gets-a-big-lift-from-ai-projects-microsoft-buys-a-game-streaming-firm-13673513"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The article describes a second-quarter profit surge for Nvidia, with net income of $253 million (40 cents a share) versus just $26 million (5 cents) a year earlier, as the company exceeded its own revenue guidance and saw strong demand for new products. Revenue rose 24% to $1.43 billion, above the company's prior guidance of $1.35 billion (plus or minus 2%), and adjusted earnings rose to 53 cents a share from 34 cents. The piece gives segment detail: gaming platform revenue was $781 million, up 18%; professional visualization revenue from Quadro rose 22% to $214 million; and automotive revenue from infotainment modules and product-development contracts jumped 68% to $119 million. CEO Jen-Hsun Huang is quoted in prepared remarks attributing the results to \"strong demand for our new Pascal-generation GPUs and surging interest in deep learning.\" Guidance for the third quarter was set at $1.68 billion (plus or minus 2%), far above the $1.45 billion analysts polled by Thomson Reuters had projected. The article also notes Nvidia had unveiled a new Titan X chip the prior month, priced at $1,200 and aimed at both gaming enthusiasts and artificial-intelligence specialists, packing 12 billion transistors compared with about seven billion for a high-end Intel microprocessor — used as a marker of the chip's scale and ambition.",
+      "why_moved": "The article states shares rose 2.5% to $61.29 in after-hours trading. Building on the beat detailed above, the key driver the article points to is guidance: Nvidia's $1.68 billion third-quarter revenue outlook was roughly 16% above the $1.45 billion Wall Street had penciled in, a gap the article frames as a clear signal of accelerating demand tied to the new Pascal architecture and AI-related interest cited by the CEO. That guidance beat, layered on top of revenue already exceeding the company's own prior guidance and broad growth across gaming, Quadro and automotive, provides a coherent, article-grounded explanation for the positive reaction.",
+      "sources": [
+        {
+          "filename": "Nvidia Tops Sales Guidance, Gives Strong Outlook - WSJ.pdf",
+          "title": "Nvidia Tops Sales Guidance, Gives Strong Outlook Chip maker last month unveiled successor to current Titan product",
+          "published_date": "2016-08-11",
+          "text": "Nvidia Tops Sales Guidance, Gives Strong Outlook - WSJ 2026-08-28, 1:41 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/nvidia-tops-sales-guidance-gives-strong-outlook-1470952646\nTECH\nNvidia Tops Sales Guidance, Gives Strong Outlook\nChip maker last month unveiled successor to current Titan product\nBy Josh Beckerman\nUpdated Aug. 11, 2016 at 7:40 pm ET\nNvidia Corp. posted net income of $253 million, or 40 cents a share, for the quarter ended July 31. REUTERS\nNvidia Corp. NVDA -3.96% said its second-quarter profit surged as the chip maker\nexceeded its revenue guidance and saw strong demand for its new products.\nNvidia shares rose 2.5% to $61.29 in after-hours trading.\nThe company projects revenue of $1.68 billion, plus or minus 2%, for the third quarter.\nAnalysts polled by Thomson Reuters projected $1.45 billion.\nNvidia, based in Santa Clara, Calif., is a prominent name in graphics processing units\nused in gaming software. It has expanded in many new sectors ranging from virtual\nhttps://www.wsj.com/articles/nvidia-tops-sales-guidance-gives-strong-outlook-1470952646 Page 1 of 3\nNvidia Tops Sales Guidance, Gives Strong Outlook - WSJ 2026-08-28, 1:41 PM\nreality to self-driving cars.\n“Strong demand for our new Pascal-generation GPUs and surging interest in deep\nlearning drove record results,” Chief Executive Jen-Hsun Huang said in prepared\nremarks.\nFor the quarter ended July 31, net income was $253 million, or 40 cents a share,\ncompared with $26 million, or 5 cents a share, a year earlier. Excluding stock-based\ncompensation and other items, earnings rose to 53 cents a share from 34 cents a share.\nRevenue increased 24% to $1.43 billion, compared with Nvidia’s guidance of $1.35\nbillion, plus or minus 2%.\nGaming platform revenue was $781 million, up 18%, while professional visualization\nrevenue from Quadro rose 22% to $214 million.\nThe company posted $119 million of automotive revenue from infotainment modules\nand product development contracts, a 68% increase.\nLast month, Nvidia unveiled a new chip for well-heeled gaming enthusiasts that it\nhopes will also appeal to artificial-intelligence specialists. The new Titan X chip, the\nsuccessor to a current model under the same name, is packaged on an add-in card for\npersonal computers for $1,200. The chip packs 12 billion transistors on a piece of\nsilicon, compared with around seven billion for a high-end microprocessor of the kind\nsold by Intel Corp.\n—Don Clark contributed to this article.\nWrite to Josh Beckerman at josh.beckerman@wsj.com\nAppeared in the August 12, 2016, print edition as 'Nvidia Puts Up Strong Quarterly Results'.\nhttps://www.wsj.com/articles/nvidia-tops-sales-guidance-gives-strong-outlook-1470952646 Page 2 of 3\nNvidia Tops Sales Guidance, Gives Strong Outlook - WSJ 2026-08-28, 1:41 PM\nhttps://www.wsj.com/articles/nvidia-tops-sales-guidance-gives-strong-outlook-1470952646 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "NVDA_2016q4": {
+    "ticker": "NVDA",
+    "group": "Group 1",
+    "company_name": "NVIDIA",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-11-10",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "By November, NVIDIA had become one of the market’s strongest momentum stocks. Expectations were already high, but Pascal gaming, deep learning and automotive were all accelerating simultaneously.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2017",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581016000292/form8-kq2fy17.htm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q3 revenue jumped **54% to $2.00 billion**. Non-GAAP EPS reached **$0.94**, more than double the prior year. Consensus had been only about **$1.69 billion of revenue and $0.57–$0.69 EPS**, depending on the measure cited, making this an exceptionally large surprise.",
+              "sources": []
+            },
+            {
+              "text": "Growth was broad: gaming revenue increased **63% to $1.24 billion**, data-center revenue surged **193% to $240 million**, and automotive rose **61% to $127 million**. Gross margin also expanded. NVIDIA guided Q4 revenue to about **$2.1 billion**, again well above expectations.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2017",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581016000343/form8-kq3fy17.htm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The nearly 30% jump reflected an extraordinary revenue/EPS beat plus much stronger-than-expected guidance.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Pascal gaming products were gaining share and driving the largest revenue contribution.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Data-center AI growth nearly tripled, transforming NVIDIA’s perceived long-run addressable market.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: NVIDIA Stock Rockets Higher After Blockbuster Results",
+                  "url": "https://www.fool.com/investing/2016/11/11/nvidia-stock-rockets-higher-after-blockbuster-earn.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were checked for NVIDIA/NVDA identity, the correct earnings event, publication date, timing window and source origin. SEC / NVIDIA Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2017",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581016000292/form8-kq2fy17.htm"
+        },
+        {
+          "label": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2017",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581016000343/form8-kq3fy17.htm"
+        },
+        {
+          "label": "The Motley Fool: NVIDIA Stock Rockets Higher After Blockbuster Results",
+          "url": "https://www.fool.com/investing/2016/11/11/nvidia-stock-rockets-higher-after-blockbuster-earn.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The article reports that Nvidia's profit more than doubled in the third quarter as new Pascal-generation GPUs performed well, prompting the company to raise its dividend to 14 cents from 11.5 cents and to add $2 billion to its buyback program, bringing the total to nearly $3 billion. Net income was $542 million (83 cents a share) versus $246 million (44 cents) a year earlier; adjusted earnings rose to 94 cents a share from 46 cents, well above the 57 cents analysts had expected — a beat of roughly two-thirds over consensus. Revenue increased 54% to $2 billion, ahead of Nvidia's own guidance of $1.68 billion (plus or minus 2%), and the company called it a \"breakout quarter\" with strength across all product lines; automotive revenue, primarily from \"infotainment modules,\" rose 61% to $127 million. Fourth-quarter guidance of $2.1 billion (plus or minus 2%) came in far above the $1.69 billion analysts polled by Thomson Reuters had projected — roughly a 24% gap. Analyst Patrick Moorhead of Moor Insights & Strategy is quoted calling it a \"stellar quarter\" and saying \"it's hard to spot a hole right now in their lineup.\" The article also mentions recent products including the Titan X gaming chip and the PX 2, a palm-sized circuit board used for automated-driving and mapping functions, as part of the company's broader push beyond its core gaming business.",
+      "why_moved": "The article states shares rose 16% to $78.30 in after-hours trading — a very large single-session move. As the summary details, the scale of the reaction tracks the scale of the beat: adjusted EPS of 94 cents cleared the 57-cent consensus by roughly 65%, revenue beat the company's own guidance by about 19%, and the fourth-quarter revenue outlook of $2.1 billion topped the $1.69 billion Street estimate by nearly a quarter — one of the largest guidance beats reported across this set of results. The dividend increase and expanded buyback, plus the \"stellar quarter\" characterization from an outside analyst, reinforce a broad-based positive narrative. The article speaks only to the after-hours reaction on the earnings date and does not address the stock's performance in subsequent sessions.",
+      "sources": [
+        {
+          "filename": "Nvidia Profit More Than Doubles as Revenue Tops Guidance - WSJ.pdf",
+          "title": "Nvidia Profit More Than Doubles as Revenue Tops Guidance Chip maker increases dividend to 14 cents and lifts revenue forecast",
+          "published_date": "2016-11-10",
+          "text": "Nvidia Profit More Than Doubles as Revenue Tops Guidance - WSJ 2026-08-28, 1:47 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/nvidia-profit-more-than-doubles-as-revenue-tops-guidance-1478815878\nTECH\nNvidia Profit More Than Doubles as Revenue Tops\nGuidance\nChip maker increases dividend to 14 cents and lifts revenue forecast\nBy Josh Beckerman\nUpdated Nov. 10, 2016 at 8:20 pm ET\nThe logo of technology company Nvidia at its headquarters in Santa Clara, Calif., in 2015. REUTERS\nNvidia Corp.’s NVDA -3.75% robust earnings and revenue growth continued in the\nthird quarter as new products like Pascal graphics processing units fared well.\nThe chip maker’s profit more than doubled and it raised its dividend to 14 cents from\n11.5 cents.\nRevenue was far above the company’s projections, with fourth-quarter sales guidance\nwell above Wall Street estimates.\nThe company had a market value of more than $36 billion as of 4 p.m. Thursday\nafternoon. Its shares rose 16% to $78.30 in after-hours trading.\nhttps://www.wsj.com/articles/nvidia-profit-more-than-doubles-as-revenue-tops-guidance-1478815878 Page 1 of 3\nNvidia Profit More Than Doubles as Revenue Tops Guidance - WSJ 2026-08-28, 1:47 PM\nThe company projects fourth-quarter revenue of $2.1 billion, plus or minus 2%, while\nanalysts polled by Thomson Reuters project $1.69 billion.\nNvidia, based in Santa Clara, Calif., is known for graphics processing units used in\ngaming software, and has expanded in new sectors ranging from virtual reality to self-\ndriving cars.\nThe company said its “breakout quarter” included strength across all product lines.\nAutomotive revenue was $127 million, primarily from “infotainment modules,”\nrepresenting a 61% increase.\nOver all, for the quarter ended Oct. 30, net income was $542 million, or 83 cents a\nshare, compared with $246 million, or 44 cents a share, a year earlier. Excluding\nstock-based compensation and other items, earnings rose to 94 cents a share from 46\ncents. Analysts had expected 57 cents a share.\nRevenue increased 54% to $2 billion, compared with Nvidia’s guidance of $1.68 billion,\nplus or minus 2%.\nPatrick Moorhead, an analyst with Moor Insights & Strategy, said Nvidia “had a stellar\nquarter” and that “it’s hard to spot a hole right now in their lineup.”\nNvidia’s recent products include the Titan X chip for gaming enthusiasts and a palm-\nsized circuit board called PX 2 used for automated-driving and mapping functions.\nThe company also said it added $2 billion to its stock-buyback program, bringing it to\nnearly $3 billion in total.\nWrite to Josh Beckerman at josh.beckerman@wsj.com\nhttps://www.wsj.com/articles/nvidia-profit-more-than-doubles-as-revenue-tops-guidance-1478815878 Page 2 of 3\nNvidia Profit More Than Doubles as Revenue Tops Guidance - WSJ 2026-08-28, 1:47 PM\nhttps://www.wsj.com/articles/nvidia-profit-more-than-doubles-as-revenue-tops-guidance-1478815878 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "NVDA_2017q1": {
+    "ticker": "NVDA",
+    "group": "Group 1",
+    "company_name": "NVIDIA",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-02-09",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "The November blowout had pushed NVIDIA’s valuation and expectations to extreme levels: the stock had risen more than fourfold in roughly a year. The next report therefore had to be exceptional simply to justify the price.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2017",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581016000343/form8-kq3fy17.htm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q4 revenue was **$2.17 billion**, up 55%, while GAAP EPS was **$0.99** and non-GAAP EPS **$1.13**. Both revenue and earnings beat Wall Street forecasts. Gaming grew **66%**, data center rose **205% to $296 million**, and automotive remained strong. Management’s Q1 revenue outlook near **$1.90 billion** was also broadly in line to above consensus.",
+              "sources": []
+            },
+            {
+              "text": "Operationally, the report was excellent. The problem was the expectations bar. After the prior quarter’s enormous surprise and the stock’s massive pre-earnings run, investors were looking for another blowout of similar magnitude. TheStreet specifically described the market response as muted because even very strong growth was already reflected in the valuation.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2017",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581017000016/0001045810-17-000016-index.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares fell because strong results were not strong enough relative to an extreme expectations bar.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Data-center and gaming growth remained exceptional, so the decline was not an operating deterioration.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** A fourfold prior-year stock gain made valuation and positioning unusually important.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: If Nvidia Was Still Trading Below $100, Its Strong Earnings Would Have Sparked a Big Rally",
+                  "url": "https://www.thestreet.com/investing/stocks/if-nvidia-was-still-trading-below-100-its-strong-earnings-would-have-sparked-a-rally-13998065"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were checked for NVIDIA/NVDA identity, the correct earnings event, publication date, timing window and source origin. SEC / NVIDIA Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2017",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581016000343/form8-kq3fy17.htm"
+        },
+        {
+          "label": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2017",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581017000016/0001045810-17-000016-index.html"
+        },
+        {
+          "label": "TheStreet: If Nvidia Was Still Trading Below $100, Its Strong Earnings Would Have Sparked a Big Rally",
+          "url": "https://www.thestreet.com/investing/stocks/if-nvidia-was-still-trading-below-100-its-strong-earnings-would-have-sparked-a-rally-13998065"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The article reports that Nvidia's revenue climbed 55% in the fiscal fourth quarter to a record for a three-month period, with net income of $655 million (99 cents a share) versus $542 million (83 cents) a year earlier. Adjusted earnings rose to $1.13 a share from 94 cents, beating the 83 cents analysts had expected, and revenue of $2.17 billion beat both the company's own guidance range of $2.06 billion to $2.14 billion and the $2.11 billion analysts had projected. For the current quarter, the company guided to revenue of $1.9 billion (plus or minus 2%), which the article describes as \"roughly in line with expectations\" rather than a beat or miss. The piece is comparatively thin on segment or product detail relative to other Nvidia reports in this set — it does not break out gaming, data-center or automotive figures, nor does it quote management or outside analysts. It does note, as context, that Nvidia's shares had \"more than quadrupled in value in the past 12 months,\" underscoring how far the stock had already run before this report.",
+      "why_moved": "The article states shares slipped 2.1% to $113.96 in after-hours trading, and this is one of the clearer cases where the piece does not tie the reaction to a stated cause: despite beating both EPS and revenue estimates, and issuing guidance in line with expectations, the stock fell, and the article offers no explanation for that gap — it simply reports the numbers and the decline without editorializing on why a beat-and-in-line-guide quarter produced a negative reaction. The reference to shares having quadrupled over the prior year is presented as background context, not as an article-stated explanation for the drop, so it should not be read as the piece's account of the move. The article's own content does not supply a clean growth-beat narrative that explains the negative reaction, and that gap is best reported honestly rather than bridged with speculation the source text does not support.",
+      "sources": [
+        {
+          "filename": "Nvidia Sales Climb 55%; Profit Rises - WSJ.pdf",
+          "title": "Nvidia Sales Climb 55%; Profit Rises Revenue in the latest quarter reached a record for a three-month period.",
+          "published_date": "2017-02-09",
+          "text": "Nvidia Sales Climb 55%; Profit Rises - WSJ 2026-08-28, 1:56 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/nvidia-sales-climb-55-profit-rises-1486680114\nBUSINESS EARNINGS\nNvidia Sales Climb 55%; Profit Rises\nRevenue in the latest quarter reached a record for a three-month period.\nBy Ezequiel Minaya\nFeb. 9, 2017 at 5:41 pm ET\n© ROBERT GALBRAITH / REUTERS/REUTERS\nVideogame chip specialist Nvidia Corp. NVDA -3.88% said Thursday that revenue\nclimbed 55% in its latest quarter, reaching a record for a three-month period.\nNvidia, based in Santa Clara, Calif., is known for graphics processing units used in\ngaming software, and has expanded in new sectors ranging from virtual reality to self-\ndriving cars.\nOver all, for the quarter ended Jan. 29, net income was $655 million, or 99 cents a\nshare, compared with $542 million, or 83 cents a share, a year earlier. Excluding\ncertain items, earnings rose to $1.13 a share from 94 cents. Analysts had expected 83\nhttps://www.wsj.com/articles/nvidia-sales-climb-55-profit-rises-1486680114 Page 1 of 3\nNvidia Sales Climb 55%; Profit Rises - WSJ 2026-08-28, 1:56 PM\ncents a share, according to Thomson Reuters.\nRevenue increased 55% to $2.17 billion, compared with Nvidia’s guidance of between\n$2.06 billion and $2.14 billion. Analysts expected $2.11 billion.\nFor the current quarter, the company expects revenue of $1.9 billion, plus or minus\n2%, roughly in line with expectations.\nShares, which have more than quadrupled in value in the past 12 months, slipped 2.1%\nto $113.96 after hours.\nWrite to Ezequiel Minaya at ezequiel.minaya@wsj.com\nEzequiel Minaya is a former reporter for The Wall Street Journal. He is no longer with the Journal. A New York City\nnative, Ezequiel worked at the Los Angeles Times; McClatchy newspapers in Fresno and Modesto; and The Press-\nEnterprise near Los Angeles. He also reported for the Houston Chronicle. He spent 13 months as an embedded war…\ncorrespondent in Iraq writing for Stars and Stripes. Ezequiel spent nearly five years covering Venezuela for The Wall\nStFreoellto wJournal before transferring to the Real-Time news desk. Ezequiel received his bachelors degree from Guilford\nCollege, N.C., and a masters in journalism with an emphasis in Latin American studies from the University of\nCalifornia at Berkeley.\nhttps://www.wsj.com/articles/nvidia-sales-climb-55-profit-rises-1486680114 Page 2 of 3\nNvidia Sales Climb 55%; Profit Rises - WSJ 2026-08-28, 1:56 PM\nhttps://www.wsj.com/articles/nvidia-sales-climb-55-profit-rises-1486680114 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "NVDA_2017q2": {
+    "ticker": "NVDA",
+    "group": "Group 1",
+    "company_name": "NVIDIA",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-05-09",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "Following the February pullback, NVIDIA still needed to prove that AI demand could sustain rapid growth after a seasonally strong holiday gaming quarter. Volta, the next data-center architecture, was also becoming central to the story.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2017",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581017000016/0001045810-17-000016-index.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q1 revenue reached **$1.94 billion**, up **48%**, and non-GAAP EPS was **$0.85**, up 85%. Analysts had expected about **$1.91 billion of revenue and $0.67 EPS**. Net income more than doubled year over year.",
+              "sources": []
+            },
+            {
+              "text": "The quality of growth was broad. Data-center revenue nearly tripled as hyperscale cloud companies adopted GPU deep learning, while gaming remained strong despite the normal sequential post-holiday decline. NVIDIA also introduced the Volta architecture, positioning the company for another step-up in AI training performance.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "NVIDIA Investor Relations: NVIDIA Announces Financial Results for First Quarter Fiscal 2018",
+                  "url": "https://investor.nvidia.com/news/press-release-details/2017/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2018/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares jumped because earnings materially exceeded expectations while revenue growth remained near 50%.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Data-center AI demand proved the prior year’s acceleration was durable.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Volta reinforced NVIDIA’s technology lead and future data-center growth expectations.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Why NVIDIA Corp. Jumped Today",
+                  "url": "https://www.fool.com/investing/2017/05/10/why-nvidia-corp-jumped-today.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were checked for NVIDIA/NVDA identity, the correct earnings event, publication date, timing window and source origin. SEC / NVIDIA Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2017",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581017000016/0001045810-17-000016-index.html"
+        },
+        {
+          "label": "NVIDIA Investor Relations: NVIDIA Announces Financial Results for First Quarter Fiscal 2018",
+          "url": "https://investor.nvidia.com/news/press-release-details/2017/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2018/default.aspx"
+        },
+        {
+          "label": "The Motley Fool: Why NVIDIA Corp. Jumped Today",
+          "url": "https://www.fool.com/investing/2017/05/10/why-nvidia-corp-jumped-today.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Two articles cover this quarter: a pre-earnings preview and a next-day Heard on the Street reaction piece. The preview set expectations at 67 cents adjusted EPS (up 103% year over year) and $1.9 billion in revenue (up 46%), and flagged data center, automotive and gaming as the three areas to watch — noting analyst Matt Ramsay of Canaccord Genuity modeled 112% year-over-year data-center revenue growth for the quarter, analyst Craig Ellis of B. Riley said Nvidia's automotive AI customer engagements were up roughly tenfold year over year, and RBC's Mitch Steves and Amit Daryanani cautioned that gaming typically shows no sequential growth in this seasonally weak quarter. The reaction piece reports that data-center chips \"saved the day, and more\": gaming revenue fell 24% sequentially (though still up 49% year over year, roughly matching the preview's caution about a seasonal dip), while data-center revenue of $409 million came in 29% higher than analysts had expected, pushing trailing-12-month data-center revenue above $1 billion and nearly tripling it year over year. The piece adds valuation and competitive context: Nvidia's stock was already near its all-time high from February, trading near 40 times forward earnings, and the article notes Amazon, Microsoft and Google spent almost $8 billion in combined capital expenditures during the March quarter, with Intel still controlling more than 95% of the server-processor market Nvidia is chasing.",
+      "why_moved": "The Heard on the Street article states the stock rose nearly 15% Wednesday morning. Building on the segment detail above, the article explicitly credits the data-center beat — revenue 29% above analyst expectations — as the driver, even as gaming revenue fell 24% sequentially in line with what the preview piece's analysts had already braced investors to expect, meaning the seasonal gaming dip was not a surprise and did not offset the data-center upside. The article frames this as validation of the AI/cloud growth thesis that had already tripled Nvidia's market value the prior year, suggesting the market's reaction reflected confidence that the data-center franchise could keep outrunning consensus estimates even as the stock traded at a rich ~40 times forward earnings.",
+      "sources": [
+        {
+          "filename": "Nvidia Earnings: What to Watch zz - WSJ.pdf",
+          "title": "Nvidia Earnings: What to Watch Analysts expect higher profits and revenue",
+          "published_date": "2017-05-09",
+          "text": "Nvidia Earnings: What to Watch - WSJ 2026-08-28, 2:35 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/nvidia-earnings-what-to-watch-1494331203\nTECH\nNvidia Earnings: What to Watch\nAnalysts expect higher profits and revenue\nBy Ted Greenwald\nMay 9, 2017 at 8:00 am ET\nNvidia is scheduled to report earnings after the market closes Tuesday. DAVID BECKER/GETTY IMAGES\nAfter the market closes Tuesday, Nvidia Corp. NVDA -4.08% is scheduled to\nannounce earnings for the first quarter that ended in April. Here’s what to look for:\nEARNINGS FORECAST: Analysts expect Nvidia to report unadjusted earnings per\nshare of 67 cents, according to a survey by Thomson Reuters, up 103% from the year-\nearlier quarter. For the full year, they expect it to earn $2.85 per share, up nearly 11%\nfrom the previous year.\nREVENUE FORECAST: Analysts expect total revenue of $1.9 billion for the quarter, up\n46% from the same quarter a year earlier. For the full year, they expect revenue of $8.0\nhttps://www.wsj.com/articles/nvidia-earnings-what-to-watch-1494331203 Page 1 of 3\nNvidia Earnings: What to Watch - WSJ 2026-08-28, 2:35 PM\nbillion, a 16% rise from the previous year.\nWHAT TO WATCH:\nData Center: Nvidia has been riding high on increasing adoption of its graphics\nprocessing units among the big cloud computing providers. Large-scale cloud\noperations have been beefing up their offerings in machine learning, where Nvidia’s\nhardware excels. International Business Machines Corp. IBM -1.36% and Tencent\nHoldings Ltd. 700 1.65% recently added Nvidia GPUs to their cloud offerings,\nfollowing similar build-outs by other major cloud providers. Analyst Matt Ramsay of\nCanaccord Genuity Group Inc. in a recent report modeled a 112% rise in data center\nrevenue for the quarter year on year; he foresaw 60% growth for the full year, slowing\nto 15% the following year.\nAutomotive: The automotive market is a longer-term bet for Nvidia, but the payoff\ncould be huge as cars evolve into rolling data centers and ultimately become capable\nof driving themselves. The company has partnerships with a number of car makers\nincluding Audi AG, the Mercedes-Benz division of Daimler AG and Tesla Inc. Craig\nEllis of B. Riley & Co. LLC estimates that Nvidia’s automotive artificial-intelligence\ncustomer engagements are up by a factor of 10, year on year. Investors will be looking\nfor evidence that the momentum continues to build amid rising competition.\nGaming: The quarter after the winter season’s holiday upgrade cycle traditionally is\nweak for sales of gaming-oriented graphics cards, where Nvidia gets most of its\nrevenue. After the company’s stellar growth in high-end gaming in the previous fiscal\nyear, many investors don’t expect to see sequential growth, according to Mitch Steves\nand Amit Daryanani of RBC Capital Markets LLC. The lower expectations should\nmitigate some of the risk to gaming sales in the quarter, they said.\nhttps://www.wsj.com/articles/nvidia-earnings-what-to-watch-1494331203 Page 2 of 3\nNvidia Earnings: What to Watch - WSJ 2026-08-28, 2:35 PM\nhttps://www.wsj.com/articles/nvidia-earnings-what-to-watch-1494331203 Page 3 of 3"
+        },
+        {
+          "filename": "The Hottest Chip Stock Heats Up Again - WSJ.pdf",
+          "title": "HEARD ON THE STREET Follow The Hottest Chip Stock Heats Up Again Nvidia's fast-growing data center business is offsetting risk from potential gaming downturn",
+          "published_date": "2017-05-10",
+          "text": "The Hottest Chip Stock Heats Up Again - WSJ 2026-08-28, 2:13 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/the-hottest-chip-stock-heats-up-again-1494433229\nHEARD ON THE STREET Follow\nThe Hottest Chip Stock Heats Up Again\nNvidia’s fast-growing data center business is o\"setting risk from potential gaming\ndownturn\nBy Dan Gallagher\nMay 10, 2017 at 12:20 pm ET\nNvidia Corp. NVDA -4.03% investors may have had their heads in the cloud, but at\nleast that cloud is starting to pay off.\nHaving already tripled in market value over the last 12 months, Nvidia looked like a\nrisky bet heading into its fiscal first-quarter earnings report late Tuesday. The\ncompany had enjoyed an unprecedented surge in its gaming chip business last year,\nhelped by the launch of the surprisingly popular Nintendo Switch that uses a custom\nprocessor designed by Nvidia.\nPromising businesses in autos and data centers, while still small relative to Nvidia’s\ngaming chips, generated further hope for the shares.\nOne of those promising business—data-\ncenter chips—saved the day, and more.\nRevenue for Nvidia’s gaming business fell\n24% from the previous quarter, though was\nstill up 49% year over year. But the data-\ncenter business surprised, delivering\nrevenue of $409 million, which was 29%\nhigher than analysts expected. Trailing 12-\nPictured is an Nvidia graphics cards. RICHARD B.\nhttps://www.wsj.com/articles/the-hottest-chip-stock-heats-up-again-1494433229 Page 1 of 3\nThe Hottest Chip Stock Heats Up Again - WSJ 2026-08-28, 2:13 PM\nLEVINE/ZUMA PRESS month revenue for this segment has now\ntopped $1 billion and has nearly tripled from\nthe same period last year.\nThat sent Nvidia’s stock up nearly 15% Wednesday morning, putting it close to its all-\ntime high achieved back in February. It’s valuation is close to 40 times forward\nearnings—one of the most expensive in the semiconductor segment.\nBut while still a lofty valuation for a chipmaker, Nvidia’s strength in the data center\nmakes the stock a bit less risky now. Data centers are still a key area of investment for\ncloud service operators; Amazon.com Inc., Microsoft Corp., and Alphabet Inc.’s Google\nspent nearly $8 billion in combined capital expenditures during the March quarter.\nThose companies are in the market for anything that improves efficiency and\nperformance, as well as alternatives to Intel Corp., which still controls more than 95%\nof the market for key server processors.\nNvidia’s ability to deliver steady growth here, and its promise in autos, will be key to\nliving up to its pricey valuation. The gaming business will likely still account for the\nmajority of revenue for the next few years. But fortunately for investors, Nvidia is\nshowing it can operate on a whole new level.\nWrite to Dan Gallagher at dan.gallagher@wsj.com\nhttps://www.wsj.com/articles/the-hottest-chip-stock-heats-up-again-1494433229 Page 2 of 3\nThe Hottest Chip Stock Heats Up Again - WSJ 2026-08-28, 2:13 PM\nhttps://www.wsj.com/articles/the-hottest-chip-stock-heats-up-again-1494433229 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "This is a pre-earnings preview article published the day Nvidia was set to report results, laying out what analysts expected rather than reporting actual results or a reaction. Analysts were forecasting unadjusted EPS of 67 cents, a 103% year-over-year increase, with full-year EPS expected around $2.85, up roughly 11%. Quarterly revenue was expected at $1.9 billion, up 46% year over year, with full-year revenue projected at $8.0 billion, up 16%. The article highlights data-center growth as a key area to watch, citing Canaccord Genuity analyst Matt Ramsay's model of a 112% year-over-year rise in data-center revenue for the quarter and 60% growth for the full year, driven by cloud providers like IBM and Tencent expanding machine-learning offerings using Nvidia GPUs. It also flags Nvidia's automotive partnerships with Audi, Mercedes-Benz and Tesla as a longer-term opportunity, quoting B. Riley analyst Craig Ellis that Nvidia's automotive AI customer engagements were up by a factor of ten year over year, while noting gaming-segment sales were expected to be seasonally softer post-holiday, per RBC.",
+      "why_moved": "Because this article was published as a preview ahead of the earnings release, it does not contain any actual results or a description of the post-earnings stock reaction; it only lays out analyst expectations for EPS, revenue, data-center growth, and automotive and gaming trends heading into the report. No explanation of what drove the stock's actual move after results came out is present in this text.",
+      "sources": [
+        {
+          "title": "Nvidia Earnings: What to Watch",
+          "url": "https://www.foxbusiness.com/features/nvidia-earnings-what-to-watch"
+        }
+      ]
+    }
+  },
+  "NVDA_2017q3": {
+    "ticker": "NVDA",
+    "group": "Group 1",
+    "company_name": "NVIDIA",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-08-10",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "NVIDIA had risen dramatically after May and expectations were again extremely high. Investors were especially focused on whether data-center revenue would accelerate sequentially as Volta began shipping.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "NVIDIA Investor Relations: NVIDIA Announces Financial Results for First Quarter Fiscal 2018",
+                  "url": "https://investor.nvidia.com/news/press-release-details/2017/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2018/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q2 revenue was a record **$2.23 billion**, up **56%**, and non-GAAP EPS was **$1.01**, up 91%. Consensus was only around **$1.96 billion and $0.70 EPS**. NVIDIA also guided Q3 revenue to about **$2.35 billion**, above consensus.",
+              "sources": []
+            },
+            {
+              "text": "Despite those numbers, data-center revenue of **$416 million** increased only about **2% sequentially**, because some customers appeared to delay purchases ahead of the Volta ramp. Cryptocurrency demand also added an unusual boost to GPU sales, while non-GAAP operating expenses grew 19%. With the stock already priced for extraordinary upside, merely crushing consensus was not sufficient.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "NVIDIA Investor Relations: NVIDIA Announces Financial Results for Second Quarter Fiscal 2018",
+                  "url": "https://investor.nvidia.com/news/press-release-details/2017/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2018/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares fell because the report did not clear NVIDIA’s exceptionally high buy-side expectations.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Data-center revenue barely grew sequentially, creating concern about near-term AI momentum.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Crypto-related demand and higher expenses made some of the headline growth look less durable.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: Why NVIDIA, Dillard's, and Fossil Group Slumped Today",
+                  "url": "https://www.fool.com/investing/2017/08/11/why-nvidia-dillards-and-fossil-group-slumped-today.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were checked for NVIDIA/NVDA identity, the correct earnings event, publication date, timing window and source origin. SEC / NVIDIA Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "NVIDIA Investor Relations: NVIDIA Announces Financial Results for First Quarter Fiscal 2018",
+          "url": "https://investor.nvidia.com/news/press-release-details/2017/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2018/default.aspx"
+        },
+        {
+          "label": "NVIDIA Investor Relations: NVIDIA Announces Financial Results for Second Quarter Fiscal 2018",
+          "url": "https://investor.nvidia.com/news/press-release-details/2017/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2018/default.aspx"
+        },
+        {
+          "label": "The Motley Fool: Why NVIDIA, Dillard's, and Fossil Group Slumped Today",
+          "url": "https://www.fool.com/investing/2017/08/11/why-nvidia-dillards-and-fossil-group-slumped-today.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The preview article set expectations of 70 cents EPS (up 75% from 40 cents a year earlier) and $1.96 billion in revenue (up roughly 37%), and framed data center as the story to watch: analyst Mitch Steves of RBC Capital Markets expected triple-digit year-over-year growth and said Nvidia needed to keep growing sequentially there \"to show they're taking share\" from Intel, while analyst Matt Ramsay of Canaccord expected gaming revenue up about 22% year over year, helped by crypto miners buying up rival AMD's supply and leaving gamers little choice but to buy Nvidia. The Heard on the Street follow-up reports that results were \"excellent by almost any measure\": overall revenue jumped 56% year over year to $2.2 billion with growth in every segment, operating income more than doubled to $688 million, growth exceeded the company's own optimistic forecast, and the outlook for the current quarter was also well above Wall Street's forecasts. But the article identifies the specific disappointment: data-center revenue nearly tripled year over year to $416 million, yet some analysts had expected more, and the piece notes this represented the lowest sequential data-center growth in two years. It adds that Nvidia had been trading near 54 times forward earnings before the report, one of the richest valuations in the chip sector, and cites \"geopolitical instability roiling markets lately\" as an additional headwind for risk appetite generally.",
+      "why_moved": "The article explicitly states Nvidia's stock slipped 7% that Friday despite the strong headline results, and directly explains why: even though data-center revenue nearly tripled, the deceleration to the slowest sequential growth pace in two years disappointed some analysts who had modeled more, and that disappointment landed on a stock already priced at roughly 54 times forward earnings — a valuation the article says left little room for anything short of accelerating growth. The article was published the day after the report and does not address how the stock traded in the following sessions. The piece frames the initial slip as profit-taking on an expensive, high-expectation stock rather than a fundamental deterioration, noting the long-term data-center and AI opportunity remained intact.",
+      "sources": [
+        {
+          "filename": "Nvidia Earnings: What to Watch 12 - WSJ.pdf",
+          "title": "BUSINESS EARNINGS PREVIEW Nvidia Earnings: What to Watch Chip sales to data centers and gaming systems, potential deals with auto makers in focus",
+          "published_date": "2017-08-10",
+          "text": "Nvidia Earnings: What to Watch - WSJ 2026-08-28, 2:36 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/nvidia-earnings-what-to-watch-1502359200\nBUSINESS EARNINGS PREVIEW\nNvidia Earnings: What to Watch\nChip sales to data centers and gaming systems, potential deals with auto makers in focus\nBy Ted Greenwald\nAug. 10, 2017 at 6:00 am ET\nNvidia’s share price has ballooned by around 185% in the past 12 months. TYRONE SIU/REUTERS\nNvidia Corp. NVDA -4.13% is scheduled to announce results for its fiscal second\nquarter after the market closes Thursday. Here’s what to look for:\nEARNINGS FORECAST: For the quarter that ended in July, analysts expect Nvidia to\nreport profit of 70 cents a share, according to a survey by Thomson Reuters, up 75%\nfrom 40 cents the same quarter a year earlier.\nREVENUE FORECAST: Analysts expect total revenue of $1.96 billion for the quarter,\nup roughly 37% from $1.43 billion the same quarter a year earlier.\nhttps://www.wsj.com/articles/nvidia-earnings-what-to-watch-1502359200 Page 1 of 3\nNvidia Earnings: What to Watch - WSJ 2026-08-28, 2:36 PM\nWHAT TO WATCH\nDATA CENTER: Nvidia’s share price has ballooned by around 185% in the past 12\nmonths, largely on rapid growth of sales to data centers. The chip maker, whose\ngraphics processing units have proven especially useful in artificial intelligence, must\nshow that it can sustain the torrid pace as global internet companies build their AI\ncapabilities. Mitch Steves of RBC Capital Markets LLC expects data-center revenue to\ngrow by triple digits year-over-year, and for it to grow quarter-on-quarter, for the rest\nof the fiscal year. “They have to grow sequentially in the data-center business to show\nthey’re taking share” of data-center spending from the likes of Intel Corp., he said.\nGAMING: Graphics chips for gaming systems lately have accounted for more than half\nof Nvidia’s revenue. Investors want to see that business continue to grow in the face of\ncompetition from Advanced Micro Devices Inc. Gaming sales tend to pick up in the\nsecond quarter, and Nvidia’s results may see an extra lift in the quarter because\nminers of internet-based currency bought up the supply of some competing AMD\nunits, leaving gamers little choice but to buy Nvidia. Matt Ramsay of Canaccord\nGenuity Group Inc. expects gaming revenue to be up around 22% year on year.\nAUTOMOTIVE: The automotive market is a major source of potential growth for\nsemiconductor companies, as vehicles require ever greater computational\nhorsepower. Nvidia does a growing business in chips for in-car displays, and it has a\nstrong presence in test vehicles for developing fully autonomous driving. The\nquestion is, can it outdistance Intel and Qualcomm Inc. in supplying systems that let\ncars take on more driving chores and ultimately drive themselves? Investors will be\nlooking for news of deals with auto makers to use Nvidia’s automotive platform in\nproduction models, following an agreement with Toyota Motor Corp. announced\nearlier this year, as well as other new automotive relationships.\nhttps://www.wsj.com/articles/nvidia-earnings-what-to-watch-1502359200 Page 2 of 3\nNvidia Earnings: What to Watch - WSJ 2026-08-28, 2:36 PM\nhttps://www.wsj.com/articles/nvidia-earnings-what-to-watch-1502359200 Page 3 of 3"
+        },
+        {
+          "filename": "Nvidia’s Cloud Still Has a Big Silver Lining - WSJ.pdf",
+          "title": "HEARD ON THE STREET Follow Nvidia’s Cloud Still Has a Big Silver Lining Chipmaker was primed for a selloff, but long-term potential is strong",
+          "published_date": "2017-08-11",
+          "text": "Nvidia’s Cloud Still Has a Big Silver Lining - WSJ 2026-08-28, 2:18 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/nvidias-cloud-still-has-a-big-silver-lining-1502471482\nHEARD ON THE STREET Follow\nNvidia’s Cloud Still Has a Big Silver Lining\nChipmaker was primed for a sello\", but long-term potential is strong\nBy Dan Gallagher\nAug. 11, 2017 at 1:11 pm ET\nA painful lesson for Nvidia NVDA -4.11% on the way to becoming a $100 billion\ncompany: sometimes it’s the little things that count.\nTake, for instance, Nvidia’s business selling chips for data centers. It is small,\naccounting for just 16% of the company’s trailing 12-month revenue. It is also growing\nquickly, more than doubling on a year-over-year basis for the last five quarters. That\nsuccess is central to the belief that Nvidia’s chips will be the key components in\nartificial intelligence systems of the future. This thesis has taken the company’s\nmarket value from $32 billion a year ago to just above $100 billion earlier this week.\nThe breathtaking rise has left some investors gasping, which explains why Nvidia’s\nstock price slipped 7% Friday in the wake of quarterly results that were excellent by\nalmost any measure. Overall revenue jumped 56% year-over-year to $2.2 billion,\ndriven by growth in all of the company’s segments. Operating income more than\ndoubled to $688 million. The growth exceeded the company’s already optimistic\nforecast, and the revenue outlook issued for the current quarter was also well above\nWall Street’s forecasts.\nThe rub was the company’s data-center business, which sells the company’s graphics\nchips to large cloud-service operators like Google and Amazon. Revenue here nearly\ntripled year over year to $416 million—a notable accomplishment given that Nvidia’s\nhttps://www.wsj.com/articles/nvidias-cloud-still-has-a-big-silver-lining-1502471482 Page 1 of 3\nNvidia’s Cloud Still Has a Big Silver Lining - WSJ 2026-08-28, 2:18 PM\nnew Volta chip still was coming into full production during the quarter. But some\nanalysts were expecting more, noting that sequential growth in data centers was the\nlowest seen in two years.\nThere is a difference between taking a few chips off the table and cashing out of the\ngame, though. Nvidia was fetching nearly 54 times forward earnings before the\nreport, making it one of the most expensive chip stocks available. Some profit-taking\ncould be expected, especially given the geopolitical instability roiling markets lately.\nBut Nvidia is also still in front of a big opportunity as artificial intelligence is in the\nearly days of being implemented in data centers and automobiles. The company’s\nlarger videogaming business also is prospering, and it has enjoyed a recent bump in\ndemand from those mining crypto-currencies.\nMeanwhile, investors should expect the data-center business to be lumpy, given that\ncapital spending patterns by large cloud players tend to fluctuate quarter by quarter.\nOver the longer term, though, the cloud still has a big silver lining for Nvidia.\nWrite to Dan Gallagher at dan.gallagher@wsj.com\nDan Gallagher is a former columnist for The Wall Street Journal’s Heard on the Street, where he covered the\ntechnology and media industries. His work for the Heard column spanned the businesses of artificial intelligence,\nsemiconductors, internet, software, hardware, advertising, streaming TV and film. Dan also wrote WSJ's AI &…\nBusiness newsletter.\nHeF joollionwed the column in 2013 after nearly two decades covering tech as a news reporter—starting well before\nsmartphones got smart.\nDan previously spent 10 years at MarketWatch, where he built a data news team and served as technology editor.\nhttps://www.wsj.com/articles/nvidias-cloud-still-has-a-big-silver-lining-1502471482 Page 2 of 3\nNvidia’s Cloud Still Has a Big Silver Lining - WSJ 2026-08-28, 2:18 PM\nhttps://www.wsj.com/articles/nvidias-cloud-still-has-a-big-silver-lining-1502471482 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "This is a Dow Jones Newswires/MarketWatch market-wide roundup rather than a dedicated Nvidia earnings story, but it directly addresses Nvidia's post-earnings stock reaction. The article states that Nvidia shares fell 5.5% even after the chip maker \"posted upbeat earnings late Thursday,\" attributing the drop to the view among some observers that expectations for its server-chip (data-center) business had been set too high heading into the report. It adds context that Nvidia's stock had more than doubled over the prior 12 months, up more than 160%, framing the decline as a reaction to elevated investor expectations rather than to weak absolute results. Beyond this section on Nvidia, the roundup covers the broader U.S. stock market's recovery from a prior sharp selloff while noting the market remained on track for a weekly loss.",
+      "why_moved": "The article states explicitly that Nvidia shares fell 5.5% despite the company posting upbeat earnings, and it attributes the decline to expectations for the server-chip business having run too high relative to what the company actually delivered. It reinforces this framing by noting the stock had already more than doubled over the preceding twelve months, suggesting the move reflected a swings in a richly valued stock reacting to results that, while positive, fell short of an elevated bar rather than to any negative fundamental news. No other company-specific factors are cited in the article as driving the reaction.",
+      "sources": [
+        {
+          "title": "MARKET SNAPSHOT: U.S. Stocks Recover From Rout, But Remain On Track For Sharp Weekly Loss",
+          "url": "https://www.foxbusiness.com/features/market-snapshot-u-s-stocks-recover-from-rout-but-remain-on-track-for-sharp-weekly-loss"
+        }
+      ]
+    }
+  },
+  "NVDA_2017q4": {
+    "ticker": "NVDA",
+    "group": "Group 1",
+    "company_name": "NVIDIA",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-11-09",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After the August disappointment, the market wanted confirmation that Volta shipments would restart data-center acceleration and that gaming could remain strong after the cryptocurrency-driven summer.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "NVIDIA Investor Relations: NVIDIA Announces Financial Results for Second Quarter Fiscal 2018",
+                  "url": "https://investor.nvidia.com/news/press-release-details/2017/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2018/default.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q3 revenue rose **32% to $2.64 billion** and adjusted EPS increased **41% to $1.33**, both far above consensus near **$2.36 billion and $0.94 EPS**. Gaming revenue grew **25% to $1.56 billion**, while data center surged **109% to $501 million**.",
+              "sources": []
+            },
+            {
+              "text": "The data-center acceleration was especially important: Volta shipments were ramping to cloud and hyperscale customers including major internet platforms. Cryptocurrency-specific OEM revenue fell from the prior quarter, yet the company still produced a large beat. NVIDIA also guided Q4 revenue near **$2.65 billion**, above the pre-report consensus.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2018",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581017000164/0001045810-17-000164-index.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares rose because revenue and EPS crushed estimates and data-center growth reaccelerated.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Volta adoption validated the AI-compute growth thesis.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Strong results despite lower crypto revenue improved the perceived quality of growth.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: NVIDIA Earnings: 4 Key Takeaways From the Strong Artificial Intelligence-Fueled Results",
+                  "url": "https://www.fool.com/investing/2017/11/10/nvidia-earnings-4-key-takeaways-from-the-strong-ar.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were checked for NVIDIA/NVDA identity, the correct earnings event, publication date, timing window and source origin. SEC / NVIDIA Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "NVIDIA Investor Relations: NVIDIA Announces Financial Results for Second Quarter Fiscal 2018",
+          "url": "https://investor.nvidia.com/news/press-release-details/2017/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2018/default.aspx"
+        },
+        {
+          "label": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2018",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581017000164/0001045810-17-000164-index.html"
+        },
+        {
+          "label": "The Motley Fool: NVIDIA Earnings: 4 Key Takeaways From the Strong Artificial Intelligence-Fueled Results",
+          "url": "https://www.fool.com/investing/2017/11/10/nvidia-earnings-4-key-takeaways-from-the-strong-ar.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The article reports Nvidia's data-center sales totaled $501 million for the fiscal third quarter ended October 29, more than doubling year over year and beating Wall Street's forecast for the quarter — a result the piece frames as a \"sigh of relief to nervous investors\" after Nvidia's market value had already doubled that year following a tripling the year before. It draws an explicit comparison to the prior quarter, noting that three months earlier the company's data-center sales had missed some projections and sent the stock down initially, whereas this time the data-center gain was stronger. Gaming sales jumped 25% to $1.6 billion, which the article attributes in part to strong demand for the Nintendo Switch console, which uses Nvidia's processor. The piece also situates Nvidia competitively, noting it is now the third most valuable chipmaker in the market, trailing only Intel and Taiwan Semiconductor Manufacturing, and that its valuation above 50 times forward earnings sets a high bar the company has \"shown great proficiency\" meeting so far.",
+      "why_moved": "Unlike several of the other Nvidia notes in this set, this article does not state a specific after-hours percentage move for the stock. What the article does supply is a causal narrative: the data-center beat, framed explicitly as a rebound from the prior quarter's data-center-driven miss and initial stock decline, combined with strong gaming results boosted by Nintendo Switch demand, is presented as the reason sentiment improved. The article frames this as a \"sigh of relief to nervous investors\" rather than a dramatic upside surprise, but it does not quantify the stock's reaction, so its account of the move rests on this qualitative framing rather than a stated percentage figure.",
+      "sources": [
+        {
+          "filename": "Nvidia Keeps Upping Its Game - WSJ.pdf",
+          "title": "HEARD ON THE STREET Follow Nvidia Keeps Upping Its Game Chip maker’s strong gaming and data-center sales help justify its surging market value",
+          "published_date": "2017-11-09",
+          "text": "Nvidia Keeps Upping Its Game - WSJ 2026-08-28, 2:20 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/nvidia-keeps-upping-its-game-1510269855\nHEARD ON THE STREET Follow\nNvidia Keeps Upping Its Game\nChip maker’s strong gaming and data-center sales help justify its surging market value\nBy Dan Gallagher\nNov. 9, 2017 at 6:24 pm ET\nUsing a virtual reality headset at a Nvidia conference this month. SAUL LOEB/AFP/GETTY IMAGES\nNvidia NVDA -4.18% is playing a high-stakes game these days. Fortunately, it\ncontinues to play its hand well.\nThe chip maker has become closely tied to the cloud, most specifically to the sizable\nflow of capital spending by major cloud-service operators that are buying up the\ncompany’s graphics processors that are specially designed to enable artificial\nintelligence in data centers. It’s still a relatively small business for Nvidia, but it’s\nexpanding fast. Nvidia’s sales to the data-center market totaled $501 million for the\nfiscal third quarter ended Oct. 29, more than doubling in size year over year.\nhttps://www.wsj.com/articles/nvidia-keeps-upping-its-game-1510269855 Page 1 of 3\nNvidia Keeps Upping Its Game - WSJ 2026-08-28, 2:20 PM\nThat beat Wall Street’s forecast for the quarter, which should provide a sigh of relief\nto nervous investors. Nvidia’s market value has doubled this year, after having tripled\nlast year, as the company has masterfully positioned itself at the prime slot in the\nmarket for artificial intelligence chips. It has also made Nvidia one of the most\nexpensive stocks on the chip market at more than 50 times forward earnings, which\nsets sky-high expectations the company can’t always meet.\nSuch was the case three months ago, when the company’s data-center sales missed\nsome projections and sent the stock down initially. But the data-center gain was\nstronger this time, and the company’s main business of selling graphics chips used in\ngaming PCs looks good as well. Sales there jumped 25%, to $1.6 billion, which was also\nlikely helped by strong demand for the Nintendo Switch console, which uses Nvidia’s\nprocessor.\nNvidia is now the third most valuable chip maker on the market, lagging behind only\nIntel and Taiwan Semiconductor Manufacturing. That sets a rather high bar, but the\ncompany has shown great proficiency thus far in meeting and beating it.\nWrite to Dan Gallagher at dan.gallagher@wsj.com\nAppeared in the November 10, 2017, print edition as 'Nvidia Keeps Raising Its Chips Game'.\nDan Gallagher is a former columnist for The Wall Street Journal’s Heard on the Street, where he covered the\ntechnology and media industries. His work for the Heard column spanned the businesses of artificial intelligence,\nsemiconductors, internet, software, hardware, advertising, streaming TV and film. Dan also wrote WSJ's AI &…\nBusiness newsletter.\nHeF joollionwed the column in 2013 after nearly two decades covering tech as a news reporter—starting well before\nsmartphones got smart.\nDan previously spent 10 years at MarketWatch, where he built a data news team and served as technology editor.\nhttps://www.wsj.com/articles/nvidia-keeps-upping-its-game-1510269855 Page 2 of 3\nNvidia Keeps Upping Its Game - WSJ 2026-08-28, 2:20 PM\nhttps://www.wsj.com/articles/nvidia-keeps-upping-its-game-1510269855 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": {
+      "summary_analysis": "This is a Dow Jones Newswires tech-sector roundup rather than a dedicated Nvidia earnings story, published the day after Nvidia reported results. It states that Nvidia \"continued its winning run after it reported another increase in demand for its chips and graphics cards, which are used in a range of high-end computing fields.\" The article also addresses concerns about cryptocurrency-mining exposure, noting the company said crypto-currency miners represented \"a relatively small portion of its business,\" which the piece says helped quell worries about the effect of volatile digital-currency prices on the chip maker. Beyond Nvidia, the roundup covers broader tech-sector performance amid uncertainty over Republican tax-cut legislation and its potential effect on companies with large overseas cash holdings, plus unrelated items on an Uber legal ruling in Britain and Musical.ly's acquisition by Beijing Bytedance Technology.",
+      "why_moved": "The article frames Nvidia's continued stock gains as driven by another reported increase in chip and graphics-card demand across high-end computing applications. It also cites Nvidia's own disclosure that cryptocurrency miners made up only a relatively small portion of its business as a factor that quelled investor concerns tied to volatile digital-currency prices, which the article suggests supported the stock's positive reaction. The piece does not provide a specific percentage figure for Nvidia's stock move, focusing instead on these qualitative demand and crypto-exposure explanations within the broader tech-roundup context.",
+      "sources": [
+        {
+          "title": "Tech Shares Flat On Tax-Plan Worries - Tech Roundup",
+          "url": "https://www.foxbusiness.com/features/tech-shares-flat-on-tax-plan-worries-tech-roundup"
+        }
+      ]
+    }
+  },
+  "NVDA_2018q1": {
+    "ticker": "NVDA",
+    "group": "Group 1",
+    "company_name": "NVIDIA",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-02-08",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "NVIDIA entered the holiday quarter with gaming, AI/data center and Nintendo Switch all performing strongly. Cryptocurrency mining had also become a visible but difficult-to-measure source of GPU demand.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2018",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581017000164/0001045810-17-000164-index.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q4 revenue reached **$2.91 billion**, up **34%**, while non-GAAP EPS was **$1.72–$1.78** depending on the adjustment basis cited in contemporaneous coverage, far above consensus around **$1.17**. Gaming revenue reached roughly **$1.74 billion** and data-center revenue more than doubled to **$606 million**.",
+              "sources": []
+            },
+            {
+              "text": "Management acknowledged that cryptocurrency-related demand had **exceeded expectations** and represented a larger share of revenue than in the prior quarter, although precise end-user demand was difficult to identify. The core businesses were still strong enough that the market treated crypto as an incremental tailwind rather than the main earnings engine.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2018",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581018000004/0001045810-18-000004-index.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** The stock rose because earnings and revenue beat expectations by a wide margin.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Data-center revenue more than doubled, reinforcing the AI thesis.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Crypto demand added upside, but also introduced a new source of revenue volatility.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TechCrunch: Nvidia up 10% after Q4 earnings beat, says cryptocurrency demand 'exceeded expectations'",
+                  "url": "https://techcrunch.com/2018/02/08/nvidia-up-10-after-q4-earnings-beat-says-cryptocurrency-demand-exceeded-expectations/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were checked for NVIDIA/NVDA identity, the correct earnings event, publication date, timing window and source origin. SEC / NVIDIA Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2018",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581017000164/0001045810-17-000164-index.html"
+        },
+        {
+          "label": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2018",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581018000004/0001045810-18-000004-index.html"
+        },
+        {
+          "label": "TechCrunch: Nvidia up 10% after Q4 earnings beat, says cryptocurrency demand 'exceeded expectations'",
+          "url": "https://techcrunch.com/2018/02/08/nvidia-up-10-after-q4-earnings-beat-says-cryptocurrency-demand-exceeded-expectations/"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Two WSJ pieces cover this event from opposite sides of the report. A same-morning preview, published before the after-market release, set expectations of $1.16 in per-share earnings (up 17% year over year) and $2.68 billion in revenue (up 23%), and flagged three things to watch: data-center momentum (growth had slowed to 2% in one recent quarter before rebounding to 20% in the next, with RBC's Mitch Steves looking for mid-single to double-digit sequential growth); cryptocurrency mining, described as a \"double-edged sword\" since crypto-related demand embedded in the gaming and OEM segments could disappear if the mining vogue faded, with Stifel's Kevin Cassidy quoted saying Nvidia \"played down importance of crypto because they know it can be fickle\"; and the unannounced launch timing of next-generation Volta gaming cards, which Barclays analyst Blayne Curtis expected to be unveiled around spring. A second piece, a \"Heard on the Street\" column published three days later, reports what actually happened: fiscal-year gaming revenue jumped 33% to a record $5.5 billion, full-year sales rose 41% to a record $9.7 billion, operating income surged 66% to a record $3.2 billion, and the operating margin hit a record 33% (versus 28% the prior year), with data-center sales more than doubling for the year. CEO Jensen Huang told analysts on the Thursday earnings call that the company was working with manufacturing partners to keep up with demand from data centers, gamers, and cryptocurrency miners all competing for the same GPUs. The column also notes Nvidia's market value had just passed IBM's, with shares trading at 37 times forward earnings after surging nearly 90% over the prior 12 months.",
+      "why_moved": "The reaction piece states directly that Nvidia's stock \"defied Friday's turbulence to pick up 7%\" the trading day immediately after the Thursday earnings call. As detailed above, the article ties that gain to results that beat the preview's own expectations framework across the board -- record revenue, record operating income, and a record operating margin, plus explicit management commentary about strong demand from all three of the preview's watch items (data centers, gaming, and crypto) simultaneously, rather than any one of them disappointing as the \"double-edged sword\" framing had worried. Neither article characterizes the announcement day itself: the preview predates the results entirely, and the reaction piece only describes the Friday session that followed. The column also flags a valuation caveat -- at 37 times forward earnings after a 90% rally, \"high expectations can set up disappointments down the road\" -- which is forward-looking commentary rather than an explanation of this specific reaction.",
+      "sources": [
+        {
+          "filename": "Nvidia Earnings: What To Watch - WSJ.pdf",
+          "title": "Nvidia Earnings: What To Watch Analysts expect higher profit, revenue on chips for AI and gaming",
+          "published_date": "2018-02-08",
+          "text": "Nvidia Earnings: What To Watch - WSJ 2026-08-28, 2:33 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/nvidia-earnings-what-to-watch-1518087600\nTECH\nNvidia Earnings: What To Watch\nAnalysts expect higher profit, revenue on chips for AI and gaming\nBy Ted Greenwald\nFeb. 8, 2018 at 6:00 am ET\nSales to giant internet companies are the biggest driver of Nvidia’s stock, analysts say. Shown, a demonstration at\nNvidia’s GPU Technology Conference in Washington, D.C., on Nov. 1. SAUL LOEB/AGENCE FRANCE-PRESSE/GETTY\nIMAGES\nNvidia Corp. NVDA -4.26% is scheduled to announce earnings for its fiscal fourth\nquarter after the market closes Thursday. Here’s what to look for:\nEARNINGS FORECAST: Analysts expect Nvidia to report per-share earnings of $1.16\ncents, according to a survey by Thomson Reuters, up 17% from the same quarter a year\nearlier.\nREVENUE FORECAST: Analysts expect total revenue of $2.68 billion for the quarter,\nhttps://www.wsj.com/articles/nvidia-earnings-what-to-watch-1518087600 Page 1 of 3\nNvidia Earnings: What To Watch - WSJ 2026-08-28, 2:33 PM\nup 23% from a year earlier.\nWHAT TO WATCH:\nCHIPS FOR AI: Sales to giant internet companies are the biggest driver of Nvidia’s\nstock, analysts say. Customers like Alphabet Inc., Amazon.com and Microsoft Corp.\nhave been buying up the company’s graphics chips to drive artificial-intelligence\ncalculations that help them, for instance, auto-tag objects in photos. Data-center\ngrowth, which has increased by double digits from quarter to quarter for most of the\nlast two years, declined to 2% in the second quarter, then rebounded to 20% in the\nthird. Investors will be looking for sustained momentum, said analyst Mitch Steves of\nRBC Capital Markets LLC. He’s looking for mid-single to double-digit sequential\ngrowth in data-center sales.\nCRYPTOCURRENCY MINING: Miners of electronic currencies like Ethereum have\nembraced graphics cards to speed up calculations that unearth the digital coins. But\nsuch sales, which Nvidia reports in its gaming and OEM segments, are a double-edged\nsword for the company, analysts said: They’ve been bringing in substantial revenue in\nrecent quarters, but they might disappear if the vogue for cryptocurrency mining\nwanes. “Nvidia has played down importance of crypto because they know it can be\nfickle depending on the price of the currency, and they want to support their fan base\namong gamers,” said Stifel Financial Corp. analyst Kevin Cassidy. It is hard to\ndifferentiate between online sales to gamers and purchases by miners, he said, but\ninvestors will be looking for clues to crypto-related revenue in the quarter and\nbeyond.\nNEXT-GEN GAMING CARDS: Sales of gaming gear account for more than half of\nNvidia’s annual revenue, propelled by new products. The company has been shipping\ndata-center chips based on its Volta design in significant volume since last summer,\nbut it hasn’t said on when, or even whether, it will roll out gaming cards based on the\nnew architecture. “The timing is something people will be curious about because it\nshould provide a decent tailwind,” said analyst Blayne Curtis of Barclays PLC. He\nhttps://www.wsj.com/articles/nvidia-earnings-what-to-watch-1518087600 Page 2 of 3\nNvidia Earnings: What To Watch - WSJ 2026-08-28, 2:33 PM\nexpects Nvidia to unveil Volta-based gaming products around spring.\nWrite to Ted Greenwald at Ted.Greenwald@wsj.com\nTed Greenwald reported on the chip industry and artificial intelligence for The Wall Street Journal, bringing insights\ngleaned from two decades spent covering Silicon Valley technology and business. Ted previously edited enterprise-\ntech coverage for WSJ and feature stories for Wired, and his writing has appeared in The Atlantic, Fortune, and MI…\nTechnology Review.\nFollow\nhttps://www.wsj.com/articles/nvidia-earnings-what-to-watch-1518087600 Page 3 of 3"
+        },
+        {
+          "filename": "Nvidia’s Cryptic Road Ahead - WSJ.pdf",
+          "title": "Nvidia’s Cryptic Road Ahead Chip maker’s record fiscal year creates high hopes for a repeat",
+          "published_date": "2018-02-11",
+          "text": "Nvidia’s Cryptic Road Ahead - WSJ 2026-08-28, 2:29 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/nvidias-cryptic-road-ahead-1518363000\nHEARD ON THE STREET Follow\nNvidia’s Cryptic Road Ahead\nChip maker’s record fiscal year creates high hopes for a repeat\nBy Dan Gallagher\nFeb. 11, 2018 at 10:30 am ET\nNvidia Corp. GeForce GTX 1070 graphic processing units sit stacked inside a ‘mining rig’ computer, which is used to\nmine the Ethereum cryptocurrency. AKOS STILLER/BLOOMBERG NEWS\nNvidia NVDA -4.24% may have only high-quality problems these days, but it still\nneeds to solve them.\nOne problem the chip maker has is that it seems to be selling all the chips it can make.\nNvidia’s graphics processors, also called GPUs, are in hot demand by everyone from\ngiant tech companies building data centers to videogamers to cryptocurrency\nenthusiasts. The latter two in particular are competing for the type of GPU cards used\nin supercharged PCs, causing a shortage that began last summer but seemed to have\nhttps://www.wsj.com/articles/nvidias-cryptic-road-ahead-1518363000 Page 1 of 3\nNvidia’s Cryptic Road Ahead - WSJ 2026-08-28, 2:29 PM\nworsened later in the year as the value of cryptocurrencies continued to soar.\nThat gave a boost to what was already a strong year for Nvidia. Revenue from the\ncompany’s gaming segment jumped 33% to a record $5.5 billion for the fiscal year\nended Jan. 28. This included an unspecified contribution from crypto demand, as well\nas the chips the company sells to Nintendo that are used in its popular Switch console.\nNvidia is a “fabless” chip company that outsources the actual manufacturing of its\nchips to others. CEO Jensen Huang said on the company’s earnings call Thursday that\nit is working with its partners to “catch up to that demand.”\nThe recently ended fiscal year was the company’s best ever. Sales jumped 41% to a\nrecord $9.7 billion, while operating income surged 66% to $3.2 billion—another\nrecord. The company’s operating margin for the year was also at a record high 33%,\ncompared with 28% the previous year. Data center sales, representing chips sold to\ncompanies such as Google, Amazon and Microsoft to establish artificial intelligence\ncapabilities in their networks, more than doubled during the year.\nThat means Nvidia’s main “problem” for the year ahead is how to improve on\nperfection. Chances are that it can. Capital spending on data centers is expected to\ncontinue growing in the double-digit range this year. Gaming demand will remain\nstrong as well, particularly with Nintendo boosting production of the Switch. Crypto\nis a wild card, with the value of those currencies swinging wildly of late, but Nvidia is\nwisely cautious about those customers, maintaining its focus on its gamer base and\nthe burgeoning data center opportunity.\nStill, the company has a lot to live up to. Its stock defied Friday’s turbulence to pick up\n7% after already having surged nearly 90% in the previous 12 months. Nvidia’s market\nvalue is now ahead of that of IBM’s, with the shares fetching 37 times forward\nearnings. High expectations can set up disappointments down the road. Still, there are\nworse problems to have.\nhttps://www.wsj.com/articles/nvidias-cryptic-road-ahead-1518363000 Page 2 of 3\nNvidia’s Cryptic Road Ahead - WSJ 2026-08-28, 2:29 PM\nWrite to Dan Gallagher at dan.gallagher@wsj.com\nAppeared in the February 12, 2018, print edition as 'Nvidia’s Good Problem to Have'.\nDan Gallagher is a former columnist for The Wall Street Journal’s Heard on the Street, where he covered the\ntechnology and media industries. His work for the Heard column spanned the businesses of artificial intelligence,\nsemiconductors, internet, software, hardware, advertising, streaming TV and film. Dan also wrote WSJ's AI &…\nBusiness newsletter.\nHeF joollionwed the column in 2013 after nearly two decades covering tech as a news reporter—starting well before\nsmartphones got smart.\nDan previously spent 10 years at MarketWatch, where he built a data news team and served as technology editor.\nhttps://www.wsj.com/articles/nvidias-cryptic-road-ahead-1518363000 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "NVDA_2018q2": {
+    "ticker": "NVDA",
+    "group": "Group 1",
+    "company_name": "NVIDIA",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-05-10",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "By May, NVIDIA’s share price was again near highs and cryptocurrency demand had become a major debate. Investors wanted to know how much of gaming growth came from sustainable gamers versus volatile miners.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2018",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581018000004/0001045810-18-000004-index.html"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q1 revenue surged **66% to $3.21 billion** and GAAP EPS reached **$1.98**, both far above consensus around **$2.89 billion and $1.46 EPS**. Gaming revenue rose 68%, data center 71%, and all five reported platforms beat consensus estimates.",
+              "sources": []
+            },
+            {
+              "text": "The negative information came on the call. NVIDIA disclosed **$289 million of cryptocurrency-specific revenue**, around 9% of total sales, and forecast that this business would fall by roughly **two-thirds in Q2**. The company’s overall Q2 revenue guide was still above consensus, but investors became concerned that part of the prior upside had come from a temporary crypto boom.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "NVIDIA Announces Financial Results for First Quarter Fiscal 2019",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581018000052/form8-kq1fy19.htm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares fell because management forecast a sharp decline in cryptocurrency-related sales despite a large beat.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Gaming and data-center fundamentals remained very strong, limiting the decline.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** The new crypto disclosure raised uncertainty about how much recent GPU demand was sustainable.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "TheStreet: Nvidia Slides In Spite of Beating Estimates: 7 Key Takeaways",
+                  "url": "https://www.thestreet.com/investing/nvidia-slides-in-spite-of-beating-estimate-7-key-takeaways-14586825"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were checked for NVIDIA/NVDA identity, the correct earnings event, publication date, timing window and source origin. SEC / NVIDIA Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2018",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581018000004/0001045810-18-000004-index.html"
+        },
+        {
+          "label": "NVIDIA Announces Financial Results for First Quarter Fiscal 2019",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581018000052/form8-kq1fy19.htm"
+        },
+        {
+          "label": "TheStreet: Nvidia Slides In Spite of Beating Estimates: 7 Key Takeaways",
+          "url": "https://www.thestreet.com/investing/nvidia-slides-in-spite-of-beating-estimate-7-key-takeaways-14586825"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "The preview article, published the morning of the report, set expectations of $1.47 EPS (up 86% from a year earlier, when net income was $507 million) and $2.91 billion in revenue (up 50%), and highlighted data center, gaming and cryptocurrency mining as the areas to watch. Stifel's Kevin Cassidy expected 65% data-center growth and said \"they're changing the industry in the data center, and that's the reason to own shares,\" while Raymond James's Chris Caso expected gaming revenue up as much as 68%, aided by miners having snapped up graphics-card supply the prior year and leaving more inventory for gamers this quarter; RBC's Mitch Steves flagged a risk that Bitmain's forthcoming purpose-built mining hardware could eventually displace graphics cards for mining. The Heard on the Street reaction piece reports data-center chip sales soared 71% year over year to $701 million, beating the 60% growth analysts had projected, with data center now about 22% of Nvidia's total business and the primary driver of a stock that had risen more than sevenfold over two years. It notes that roughly 15% of the stock's recent gains had come in just the week before the report, raising the bar for what would count as a strong result, and that on the earnings call the company said crypto-mining demand was expected to decline in the current quarter.",
+      "why_moved": "The article states shares slipped about 3% in after-hours trading despite data-center growth of 71% beating the 60% consensus described above, and it explicitly attributes the muted-to-negative reaction to two factors: roughly 15% of the stock's gains over the prior two years had come in just the week before the report, meaning good news was already largely priced in, and management's disclosure on the call that crypto-mining demand — the wildcard flagged in the preview — was expected to decline in the coming quarter. This combination of a rich, already-run-up valuation (about 40 times forward earnings, per the article) meeting a forward-looking negative signal on crypto demand offers a grounded, article-based explanation for the after-hours decline.",
+      "sources": [
+        {
+          "filename": "Nvidia Is Poised to Report a Strong Lift from AI and Gaming - WSJ.pdf",
+          "title": "Nvidia Is Poised to Report a Strong Lift from AI and Gaming Chip maker’s hardware is popular in cloud computing and cryptomining",
+          "published_date": "2018-05-10",
+          "text": "Nvidia Is Poised to Report a Strong Lift from AI and Gaming - WSJ 2026-08-28, 2:32 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/nvidia-earnings-what-to-watch-1525944600\nTECH\nNvidia Is Poised to Report a Strong Lift from AI and\nGaming\nChip maker’s hardware is popular in cloud computing and cryptomining\nBy Ted Greenwald\nMay 10, 2018 at 5:30 am ET\nNvidia is poised to report a strong lift from AI and gaming when it reports earnings later Thursday. MIKE BLAKE/\nREUTERS\nNvidia Corp. NVDA -4.21% is scheduled to announce earnings for its first quarter\nafter the market closes Thursday. Here’s what to look for:\nEARNINGS FORECAST: Analysts expect Nvidia to report per-share earnings of $1.47,\naccording to a survey by Thomson Reuters, up 86% from the same quarter a year\nearlier. A year ago, the graphics-chip maker reported net income of $507 million.\nREVENUE FORECAST: Analysts expect revenue of $2.91 billion, up 50% from a year\nhttps://www.wsj.com/articles/nvidia-earnings-what-to-watch-1525944600?mod=searchresults&page=1&pos=3&mod=article_inline Page 1 of 3\nNvidia Is Poised to Report a Strong Lift from AI and Gaming - WSJ 2026-08-28, 2:32 PM\nearlier.\nWHAT TO WATCH:\nAI ASCENDANT: Global cloud-computing providers favor Nvidia’s high-end chips for\nsome of their artificial-intelligence calculations. In most quarters over the past two\nyears, Nvidia’s sales to data-center customers such as Amazon.com Inc. and Microsoft\nCorp. have ballooned by triple-digit percentages from the prior year. Analysts expect a\nhigh double-digit increase this time around—slower, yes, but still growing at a torrid\npace and from a higher base. Kevin Cassidy of Stifel Financial Corp. SF 0.81% is\nlooking for 65% growth from the previous year. “They’re changing the industry in the\ndata center,” he said, “and that’s the reason to own shares.”\nGAMING THE SYSTEM: Sales of gaming cards used in personal computers typically\nare weak in the first quarter, immediately following the holiday season. Nonetheless,\nmany analysts believe Nvidia’s gaming revenue in the quarter grew by double digits\nfrom the previous year as Nvidia products command premium prices, and the gaming\nmarket continues to boom with help from cryptocurrency mining. Chris Caso of\nRaymond James Financial Inc. expects gaming revenue to have risen by as much as\n68%. And he expects new gaming cards based on Nvidia’s latest Volta architecture to\narrive this summer, driving further growth in the second half of the year.\nMINING BOOM: Miners of the digital currency ethereum hold a wild card for Nvidia.\nThe company sells a modified version of its gaming technology for cryptocurrency\nmining, but miners use its gaming cards as well. That has worried some investors,\nwho believe such sales may be fleeting. Indeed, miners snapped up the supply of\nNvidia game cards late last year, said Mitch Steves, an analyst at RBC Capital Markets\nLLC. They left more of the inventory for gamers in the first quarter, he said, and pent-\nup demand should be reflected in healthy results. Cryptocurrency could play a smaller\nrole in Nvidia’s revenue going forward, though: The Chinese mining-hardware firm\nBitmain Technologies Ltd. has said it expects later this year to offer products designed\nfor ethereum mining from the ground up, potentially displacing graphics cards for\nhttps://www.wsj.com/articles/nvidia-earnings-what-to-watch-1525944600?mod=searchresults&page=1&pos=3&mod=article_inline Page 2 of 3\nNvidia Is Poised to Report a Strong Lift from AI and Gaming - WSJ 2026-08-28, 2:32 PM\nthat purpose.\nWrite to Ted Greenwald at Ted.Greenwald@wsj.com\nTed Greenwald reported on the chip industry and artificial intelligence for The Wall Street Journal, bringing insights\ngleaned from two decades spent covering Silicon Valley technology and business. Ted previously edited enterprise-\ntech coverage for WSJ and feature stories for Wired, and his writing has appeared in The Atlantic, Fortune, and MI…\nTechnology Review.\nFollow\nhttps://www.wsj.com/articles/nvidia-earnings-what-to-watch-1525944600?mod=searchresults&page=1&pos=3&mod=article_inline Page 3 of 3"
+        },
+        {
+          "filename": "Nvidia’s Cloud Bill Comes Due - WSJ.pdf",
+          "title": "HEARD ON THE STREET Follow Nvidia’s Cloud Bill Comes Due Surging data-center sales are already baked into stock’s recent runup",
+          "published_date": "2018-05-10",
+          "text": "Nvidia’s Cloud Bill Comes Due - WSJ 2026-08-28, 2:33 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/nvidias-cloud-bill-comes-due-1525991059\nHEARD ON THE STREET Follow\nNvidia’s Cloud Bill Comes Due\nSurging data-center sales are already baked into stock’s recent runup\nBy Dan Gallagher\nMay 10, 2018 at 6:24 pm ET\nNvidia’s stock price has surged more than sevenfold over the past two years. AFP/GETTY IMAGES\nThe only thing soaring higher than Nvidia’s NVDA -4.26% cloud business is its share\nprice.\nBoth were apparent following the company’s fiscal first-quarter results Thursday\nafternoon. Sales of graphics-processing chips designed for use in data centers soared\n71% year over year to $701 million—solidly beating the 60% growth analysts had\nprojected. This segment now makes up about 22% of Nvidia’s total business. But it also\nis the primary driver of the company’s stock price, which has surged more than\nsevenfold over the past two years as advances in artificial intelligence have made the\ncompany a key supplier to the Big Tech companies that are aggressively investing in\nthe expansion of their networks.\nhttps://www.wsj.com/articles/nvidias-cloud-bill-comes-due-1525991059 Page 1 of 3\nNvidia’s Cloud Bill Comes Due - WSJ 2026-08-28, 2:33 PM\nAbout 15% of the stock’s recent gains came just in the past week, which set a\nchallenging stage for even a strong report. Nvidia’s share price slipped about 3% in\nafter-hours trading following the results Thursday.\nAt 40 times forward earnings, Nvidia is admittedly one of the richer plays in the chip\nsector. But investors with a longer-term view still shouldn’t worry much. The data-\ncenter segment has plenty of upside remaining, as the largest customers are still\nboosting their spending. Google, Microsoft and Amazon.com alone spent a record\n$16.4 billion in capital expenditures and capital leases during the March quarter, up\n80% year over year. Nvidia’s strong earnings expansion over the past two years also\nsupports the argument that the company can easily grow into its valuation.\nThat only means the stock shouldn’t fall, not that it should rise further. And there are\nreasons to worry about short-term volatility. The company noted in its earnings call\nThursday that demand from cryptocurrency miners is expected to decline in the\ncurrent quarter. That is a market investors never should have counted on lasting. But\nwith the stock’s recent run, every little bit can help, or hurt.\nDan Gallagher is a former columnist for The Wall Street Journal’s Heard on the Street, where he covered the\ntechnology and media industries. His work for the Heard column spanned the businesses of artificial intelligence,\nsemiconductors, internet, software, hardware, advertising, streaming TV and film. Dan also wrote WSJ's AI &…\nBusiness newsletter.\nHeF joollionwed the column in 2013 after nearly two decades covering tech as a news reporter—starting well before\nsmartphones got smart.\nDan previously spent 10 years at MarketWatch, where he built a data news team and served as technology editor.\nhttps://www.wsj.com/articles/nvidias-cloud-bill-comes-due-1525991059 Page 2 of 3\nNvidia’s Cloud Bill Comes Due - WSJ 2026-08-28, 2:33 PM\nhttps://www.wsj.com/articles/nvidias-cloud-bill-comes-due-1525991059 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": null
+  },
+  "NVDA_2018q3": {
+    "ticker": "NVDA",
+    "group": "Group 1",
+    "company_name": "NVIDIA",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-08-16",
+    "contextual_analysis": {
+      "sections": [
+        {
+          "heading": "Prior Context",
+          "paragraphs": [
+            {
+              "text": "After May, the market already expected cryptocurrency demand to fall sharply. The key question was whether gaming and data center could fully absorb that collapse without slowing NVIDIA’s overall growth.",
+              "sources": []
+            },
+            {
+              "text": "Verified prior source",
+              "sources": [
+                {
+                  "label": "NVIDIA Announces Financial Results for First Quarter Fiscal 2019",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581018000052/form8-kq1fy19.htm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Current Earnings Release",
+          "paragraphs": [
+            {
+              "text": "Fiscal Q2 revenue increased **40% to $3.12 billion** and non-GAAP EPS rose **92% to $1.94**, both slightly above consensus. Gaming revenue grew **52% to $1.82 billion** and data-center revenue jumped **83% to $760 million**.",
+              "sources": []
+            },
+            {
+              "text": "Crypto-specific product revenue, however, collapsed to only **$18 million**, versus management’s prior expectation of roughly $100 million. NVIDIA then guided Q3 revenue to **$3.25 billion ±2%**, below Wall Street expectations around $3.3–$3.34 billion, and forecast a lower gross margin as the unusually profitable mining business disappeared.",
+              "sources": []
+            },
+            {
+              "text": "Verified release source",
+              "sources": [
+                {
+                  "label": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2019",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581018000113/q2fy19pr.htm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Possible Drivers",
+          "paragraphs": [
+            {
+              "text": "**First-order driver.** Shares fell because Q3 revenue guidance was below expectations as crypto demand collapsed faster than forecast.",
+              "sources": []
+            },
+            {
+              "text": "**Second-order driver.** Gaming and data-center growth remained strong, so the weakness was concentrated in the crypto-related transition.",
+              "sources": []
+            },
+            {
+              "text": "**Third-order driver.** Lower expected gross margin showed that crypto had contributed disproportionately to recent profitability.",
+              "sources": []
+            },
+            {
+              "text": "Verified reaction source",
+              "sources": [
+                {
+                  "label": "The Motley Fool: NVIDIA Earnings Soar 91%, but Cryptocurrency Bust Spooks the Market",
+                  "url": "https://www.fool.com/investing/2018/08/17/nvidia-earnings-soar-91-but-cryptocurrency-bust-sp.aspx"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Verification Status",
+          "paragraphs": [
+            {
+              "text": "All included pages were checked for NVIDIA/NVDA identity, the correct earnings event, publication date, timing window and source origin. SEC / NVIDIA Investor Relations is the factual anchor. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        {
+          "label": "NVIDIA Announces Financial Results for First Quarter Fiscal 2019",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581018000052/form8-kq1fy19.htm"
+        },
+        {
+          "label": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2019",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581018000113/q2fy19pr.htm"
+        },
+        {
+          "label": "The Motley Fool: NVIDIA Earnings Soar 91%, but Cryptocurrency Bust Spooks the Market",
+          "url": "https://www.fool.com/investing/2018/08/17/nvidia-earnings-soar-91-but-cryptocurrency-bust-sp.aspx"
+        }
+      ]
+    },
+    "wsj": {
+      "summary_analysis": "Two articles cover this report in detail. The Heard on the Street piece and the main earnings story both report that crypto-specific product sales collapsed to just $18 million in the fiscal second quarter ended July 29, down from $289 million the prior quarter, as specialized mining chips reached the market just as cryptocurrency values crashed; CFO Colette Kress is quoted saying \"whereas we had previously anticipated cryptocurrency to be meaningful for the year, we are now projecting no contributions going forward,\" after the company had previously expected roughly $100 million in crypto-related revenue for the quarter. That collapse colored the third-quarter guidance of $3.25 billion, about 3% below Wall Street's estimate. Yet the underlying quarter was described as strong on most other measures: profit almost doubled to $1.1 billion ($1.76 a share), with adjusted EPS of $1.94 beating the $1.85 analyst estimate; revenue rose 40% to $3.12 billion, slightly ahead of the $3.11 billion expected; gaming revenue rose 52% to a record $1.8 billion, about 3% above analyst estimates despite softer Nintendo Switch sales (1.88 million units in the quarter, down from 1.97 million a year earlier); and data-center revenue rose 83% to $760 million, beating the $744 million analysts had modeled.",
+      "why_moved": "The articles report the stock fell in after-hours trading — one cites a 4% decline, the other 3.3%, a discrepancy between the two sources on the exact figure — and both tie the drop not to the reported quarter itself, which beat estimates on EPS, revenue, gaming and data center as detailed above, but to forward guidance: the $3.25 billion third-quarter outlook fell about 3% short of Wall Street's expectations, a shortfall the articles link directly to the crypto-mining collapse from $289 million to $18 million and management's declaration that it now assumes zero crypto-related sales going forward. In other words, the market's negative reaction is portrayed as a reaction to lost future revenue and a reset growth algorithm, not to the quarter that had just been reported.",
+      "sources": [
+        {
+          "filename": "Nvidia Clears Its Crypto Cloud - WSJ.pdf",
+          "title": "HEARD ON THE STREET Follow Nvidia Clears Its Crypto Cloud A volatile crypto market has been a distraction for the chip maker—and its investors",
+          "published_date": "2018-08-16",
+          "text": "Nvidia Clears Its Crypto Cloud - WSJ 2026-08-28, 2:34 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/nvidia-clears-its-crypto-cloud-1534458463\nHEARD ON THE STREET Follow\nNvidia Clears Its Crypto Cloud\nA volatile crypto market has been a distraction for the chip maker—and its investors\nBy Dan Gallagher\nAug. 16, 2018 at 6:27 pm ET\nThere are better reasons to buy Nvidia shares than its cryptocurrency-related products. JUSTIN SULLIVAN/GETTY\nIMAGES\nNvidia NVDA -4.13% has long understood that the cryptocurrency business is one of\neasy come, easy go. But the last part still smarts a little.\nThe chip maker began experiencing a run on its graphics processors last year, as\nbooming value of cryptocurrencies such as Ethereum sparked a rush to build devices\nto “mine” said currencies. But that demand has fallen off sharply, as specialized\ncrypto-mining chips made their way to the market—just in time for a collapse in\ncryptocurrency values. Nvidia said sales of crypto-specific products totaled just $18\nhttps://www.wsj.com/articles/nvidia-clears-its-crypto-cloud-1534458463 Page 1 of 3\nNvidia Clears Its Crypto Cloud - WSJ 2026-08-28, 2:34 PM\nmillion for its second fiscal quarter ended July 29, down from $289 million in the\nprevious period.\nThat colored the company’s outlook issued Thursday with its second-quarter results.\nNvidia projected revenue of $3.25 billion for the third quarter, which was about 3% shy\nof Wall Street’s estimates. The company said it now assumes no crypto-related sales\ngoing forward. Nvidia’s shares slipped 4% after hours following the report, after\nhaving run up 33% this year already.\nInvestors should take the change in stride. Crypto was never going to be a stable long-\nterm business for Nvidia. And its impact is small relative to the company’s much\nlarger—and better-performing—endeavors. The company’s flagship gaming segment\nposted a 52% year-over-year jump in revenue to a record $1.8 billion, while revenue for\ndata centers, a far more important new business for Nvidia than crypto, surged 83%,\naccelerating from the previous quarter to $760 million.\nBoth key segments beat Wall Street’s already generous forecasts for the period. And\nNvidia’s outlook still projects strong double-digit growth ahead. Crypto was a nice\nboost while it lasted, but investors are better advised to see the bigger picture.\nAppeared in the August 17, 2018, print edition as 'For Nvidia, Crypto Isn’t Everything'.\nDan Gallagher is a former columnist for The Wall Street Journal’s Heard on the Street, where he covered the\ntechnology and media industries. His work for the Heard column spanned the businesses of artificial intelligence,\nsemiconductors, internet, software, hardware, advertising, streaming TV and film. Dan also wrote WSJ's AI &…\nBusiness newsletter.\nHeF joollionwed the column in 2013 after nearly two decades covering tech as a news reporter—starting well before\nsmartphones got smart.\nDan previously spent 10 years at MarketWatch, where he built a data news team and served as technology editor.\nhttps://www.wsj.com/articles/nvidia-clears-its-crypto-cloud-1534458463 Page 2 of 3\nNvidia Clears Its Crypto Cloud - WSJ 2026-08-28, 2:34 PM\nhttps://www.wsj.com/articles/nvidia-clears-its-crypto-cloud-1534458463 Page 3 of 3"
+        },
+        {
+          "filename": "Nvidia’s Crypto Business Dries Up, Worrying Investors - WSJ.pdf",
+          "title": "Nvidia’s Crypto Business Dries Up, Worrying Investors Shares of chip maker drop after hours despite robust sales and profits for latest quarter",
+          "published_date": "2018-08-16",
+          "text": "Nvidia’s Crypto Business Dries Up, Worrying Investors - WSJ 2026-08-28, 2:34 PM\nThis copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law.\nFor non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.\nhttps://www.wsj.com/articles/nvidias-crypto-business-dries-up-worrying-investors-1534456595\nTECH\nNvidia’s Crypto Business Dries Up, Worrying\nInvestors\nShares of chip maker drop after hours despite robust sales and profits for latest quarter\nBy Micah Maidenberg\nUpdated Aug. 16, 2018 at 7:21 pm ET\nNVIDIA computer graphic cards on display at a retail store in San Marcos, Calif., earlier this month. MIKE BLAKE/\nREUTERS\nNvidia Corp. NVDA -4.16% reported robust sales and profits during its second\nquarter, but warned that revenue from products geared toward cryptocurrency\nmining would be sharply weaker than expected.\nThe chip maker previously anticipated cryptocurrency-specific products would\ncontribute around $100 million in revenue during the quarter, but those products\nproduced just $18 million in sales, Chief Financial Officer Colette Kress said.\nhttps://www.wsj.com/articles/nvidias-crypto-business-dries-up-worrying-investors-1534456595 Page 1 of 3\nNvidia’s Crypto Business Dries Up, Worrying Investors - WSJ 2026-08-28, 2:34 PM\n“Whereas we had previously anticipated cryptocurrency to be meaningful for the\nyear, we are now projecting no contributions going forward,” Ms. Kress said.\nShares in Nvidia fell 3.3% in after-hours trading as the company also forecast revenue\nfor the current quarter short of analysts’ expectations.\nThe company is best known for developing chips used in everything from\nsupercomputers to video-game systems. Shares of the company’s stock have more\nthan quadrupled over the past two years, in part because Nvidia has developed\nartificial-intelligence products for the fast-growing data-center sector. The company\nhas also developed a technology platform to support self-driving cars.\nFor its quarter ending July 29, profit almost doubled to $1.1 billion, or $1.76 a share.\nExcluding certain costs, the chip maker earned $1.94 a share, surpassing the average\nanalyst estimate of $1.85 a share, according to FactSet.\nRevenue jumped 40% to $3.12 billion, slightly beating the $3.11 billion expected by\nanalysts.\nOverall, Nvidia reported revenue related to gaming rose 52% to $1.8 billion, a total that\nwas almost 3% higher than analysts predicted. Nvidia revenue rose in the segment\ndespite softer sales for Nintendo’s Switch device, which uses the company’s chips.\nDuring the three months ending in June, Nintendo Co. reported selling 1.88 million\nconsoles, down from 1.97 million a year ago.\nNvidia said its data-center business, its fastest-growing segment, booked $760 million\nin sales, up 83% from a year earlier. Analysts polled by FactSet predicted $744 million\nfor the segment. The company’s chips have been in demand as companies like\nMicrosoft Corp. and Amazon.com Inc. have invested in their data-center\ninfrastructure.\nNvidia said it expects revenue of $3.25 billion during its third quarter, less than the\n$3.34 billion average analyst estimate on FactSet.\nhttps://www.wsj.com/articles/nvidias-crypto-business-dries-up-worrying-investors-1534456595 Page 2 of 3\nNvidia’s Crypto Business Dries Up, Worrying Investors - WSJ 2026-08-28, 2:34 PM\nCorrections & Amplifications\nNvidia’s chips have been in demand from companies such as Microsoft Corp. An\nearlier version of this article incorrectly called the company Microsoft Inc.\nWrite to Micah Maidenberg at micah.maidenberg@wsj.com\nAppeared in the August 17, 2018, print edition as 'Nvidia’s Crypto Business Dries Up'.\nMicah Maidenberg is a reporter covering space for The Wall Street Journal, writing about companies ranging from\nSpaceX and Blue Origin to Boeing and start-ups. He frequently reports about the National Aeronautics and Space\nAdministration, the Pentagon and Federal Aviation Administration in his role, tracking the intersection of…\ngovernment policy and space operations.\nPrior to his current position, Maidenberg worked as a breaking news reporter for the Journal and the Dow Jones\nFollow\nNewswires. He began writing about business and economic issues for Crain’s Chicago Business, covering real estate,\nmanufacturing and transportation. Maidenberg earned degrees from Indiana University in Bloomington and\nColumbia University.\nhttps://www.wsj.com/articles/nvidias-crypto-business-dries-up-worrying-investors-1534456595 Page 3 of 3"
+        }
+      ]
+    },
+    "djnw": null
+  }
+}
