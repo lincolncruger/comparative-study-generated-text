@@ -1,0 +1,425 @@
+{
+  "ADBE_2017q2": {
+    "ticker": "ADBE",
+    "company_name": "Adobe",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-06-20",
+    "ret_1day_pct": 1.15,
+    "ret_1daypost_pct": 2.44,
+    "ret_2day_pct": 3.62,
+    "ret_3day_pct": 4.71,
+    "ret_5day_pct": 5.17,
+    "articles": [
+      {
+        "title": "MARKET SNAPSHOT: U.S. Stocks Set For 2nd Day In Red As Oil Extends Bear-market Tumble",
+        "url": "https://www.foxbusiness.com/features/market-snapshot-u-s-stocks-set-for-2nd-day-in-red-as-oil-extends-bear-market-tumble.amp",
+        "publication_date": "2017-06-21 00:00:00",
+        "article_type": "DJNW market roundup",
+        "validation_note": "MarketWatch / Dow Jones Newswires; Adobe rallied after earnings beat forecasts."
+      }
+    ]
+  },
+  "ADBE_2017q4": {
+    "ticker": "ADBE",
+    "company_name": "Adobe",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-12-14",
+    "ret_1day_pct": -0.6,
+    "ret_1daypost_pct": 0.64,
+    "ret_2day_pct": 0.04,
+    "ret_3day_pct": 2.47,
+    "ret_5day_pct": 0.67,
+    "articles": [
+      {
+        "title": "Adobe Raises Annual Revenue Forecast After Results Beat Projections",
+        "url": "https://www.foxbusiness.com/features/adobe-raises-annual-revenue-forecast-after-results-beat-projections",
+        "publication_date": "2017-12-14 00:00:00",
+        "article_type": "Company-specific DJNW",
+        "validation_note": "By Maria Armental, Dow Jones Newswires; results beat, revenue forecast raised and shares rose after hours."
+      }
+    ]
+  },
+  "ADBE_2018q1": {
+    "ticker": "ADBE",
+    "company_name": "Adobe",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-03-15",
+    "ret_1day_pct": 0.42,
+    "ret_1daypost_pct": 2.81,
+    "ret_2day_pct": 3.24,
+    "ret_3day_pct": 3.09,
+    "ret_5day_pct": 6.25,
+    "articles": [
+      {
+        "title": "MORNING BRIEFING - USA/Asien -2-",
+        "url": "https://www.finanznachrichten.de/nachrichten-2018-03/43281496-morning-briefing-usa-asien-2-015.htm",
+        "publication_date": "2018-03-16 00:00:00",
+        "article_type": "DJNW market briefing",
+        "validation_note": "Dow Jones Newswires morning briefing published after the Mar. 15 earnings; explicitly says Adobe beat revenue and EPS expectations and shares rose 3.8% after hours."
+      }
+    ]
+  },
+  "CVS_2016q2": {
+    "ticker": "CVS",
+    "company_name": "CVS Health",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-05-03",
+    "ret_1day_pct": 3.54,
+    "ret_1daypost_pct": 0.6,
+    "ret_2day_pct": 4.16,
+    "ret_3day_pct": 4.45,
+    "ret_5day_pct": 5.08,
+    "articles": [
+      {
+        "title": "Bolsas de NY recuam... / U.S. market report",
+        "url": "https://www.reporterdiario.com.br/noticia/2169413/bolsas-de-ny-recuam-com-retorno-de-preocupacoes-com-crescimento-global/",
+        "publication_date": "2016-05-03 00:00:00",
+        "article_type": "DJNW market article",
+        "validation_note": "Dow Jones Newswires market coverage; CVS rose after quarterly profit beat estimates."
+      }
+    ]
+  },
+  "CVS_2016q3": {
+    "ticker": "CVS",
+    "company_name": "CVS Health",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-08-02",
+    "ret_1day_pct": 5.6,
+    "ret_1daypost_pct": -1.08,
+    "ret_2day_pct": 4.46,
+    "ret_3day_pct": 5.56,
+    "ret_5day_pct": 4.56,
+    "articles": [
+      {
+        "title": "Dow Industrials Log Seventh-Straight Day Of Losses",
+        "url": "https://www.foxbusiness.com/markets/dow-industrials-log-seventh-straight-day-of-losses",
+        "publication_date": "2016-08-02 00:00:00",
+        "article_type": "DJNW market article",
+        "validation_note": "Dow Jones Newswires; CVS jumped more than 5% after quarterly profit beat estimates."
+      }
+    ]
+  },
+  "CVS_2017q2": {
+    "ticker": "CVS",
+    "company_name": "CVS Health",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-05-02",
+    "ret_1day_pct": -3.64,
+    "ret_1daypost_pct": 1.14,
+    "ret_2day_pct": -2.54,
+    "ret_3day_pct": -3.3,
+    "ret_5day_pct": -2.14,
+    "articles": [
+      {
+        "title": "CVS Profit Declines in First Quarter of 'Rebuilding Year'",
+        "url": "https://www.foxbusiness.com/features/cvs-profit-declines-in-first-quarter-of-rebuilding-year",
+        "publication_date": "2017-05-02 00:00:00",
+        "article_type": "Company-specific DJNW",
+        "validation_note": "By Anne Steele, Dow Jones Newswires; weaker retail traffic, generics pressure, revenue/EPS and guidance."
+      }
+    ]
+  },
+  "CVS_2017q3": {
+    "ticker": "CVS",
+    "company_name": "CVS Health",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-08-08",
+    "ret_1day_pct": -0.42,
+    "ret_1daypost_pct": 1.24,
+    "ret_2day_pct": 0.82,
+    "ret_3day_pct": 2.16,
+    "ret_5day_pct": 3.46,
+    "articles": [
+      {
+        "title": "MARKET SNAPSHOT: Dow On Track For 10th Straight Record As Bank Stocks Climb",
+        "url": "https://www.foxbusiness.com/features/market-snapshot-dow-on-track-for-10th-straight-record-as-bank-stocks-climb.amp",
+        "publication_date": "2017-08-08 00:00:00",
+        "article_type": "DJNW market roundup",
+        "validation_note": "MarketWatch / Dow Jones Newswires; CVS earnings/revenue beat but shares fell."
+      },
+      {
+        "title": "MARKET SNAPSHOT: Dow Struggles For 10th Straight Record As Bank Stock Rally Wanes",
+        "url": "https://www.foxbusiness.com/features/market-snapshot-dow-struggles-for-10th-straight-record-as-bank-stock-rally-wanes.amp",
+        "publication_date": "2017-08-08 00:00:00",
+        "article_type": "DJNW market roundup",
+        "validation_note": "MarketWatch / Dow Jones Newswires; CVS beat estimates, with market reaction discussed."
+      },
+      {
+        "title": "MARKET SNAPSHOT: U.S. Stocks Edge Slightly Lower, With Dow's Win Streak In Jeopardy",
+        "url": "https://www.foxbusiness.com/features/market-snapshot-u-s-stocks-edge-slightly-lower-with-dows-win-streak-in-jeopardy",
+        "publication_date": "2017-08-08 00:00:00",
+        "article_type": "DJNW market roundup",
+        "validation_note": "MarketWatch / Dow Jones Newswires; CVS beat earnings/revenue estimates but shares fell."
+      }
+    ]
+  },
+  "CVS_2017q4": {
+    "ticker": "CVS",
+    "company_name": "CVS Health",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-11-06",
+    "ret_1day_pct": -3.75,
+    "ret_1daypost_pct": 3.4,
+    "ret_2day_pct": -0.47,
+    "ret_3day_pct": -0.94,
+    "ret_5day_pct": -0.62,
+    "articles": [
+      {
+        "title": "CVS's Revenue Rises as It Pursues Aetna",
+        "url": "https://www.foxbusiness.com/features/cvss-revenue-rises-as-it-pursues-aetna",
+        "publication_date": "2017-11-06 00:00:00",
+        "article_type": "Company-specific DJNW",
+        "validation_note": "By Cara Lombardo, Dow Jones Newswires; pharmacy growth, weaker retail sales, EPS/guidance and Aetna context."
+      }
+    ]
+  },
+  "F_2016q4": {
+    "ticker": "F",
+    "company_name": "Ford Motor Company",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-10-27",
+    "ret_1day_pct": -0.78,
+    "ret_1daypost_pct": 0.09,
+    "ret_2day_pct": -0.69,
+    "ret_3day_pct": -0.17,
+    "ret_5day_pct": -0.47,
+    "articles": [
+      {
+        "title": "Ford's Profit Falls on Recall Costs",
+        "url": "https://www.foxbusiness.com/markets/fords-profit-falls-on-recall-costs",
+        "publication_date": "2016-10-27 00:00:00",
+        "article_type": "Company-specific DJNW",
+        "validation_note": "Dow Jones Newswires; recall costs, weaker U.S. sales and profit decline."
+      }
+    ]
+  },
+  "F_2017q2": {
+    "ticker": "F",
+    "company_name": "Ford Motor Company",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-04-27",
+    "ret_1day_pct": -1.12,
+    "ret_1daypost_pct": 0.26,
+    "ret_2day_pct": -0.86,
+    "ret_3day_pct": 0.19,
+    "ret_5day_pct": -4.83,
+    "articles": [
+      {
+        "title": "Ford's Profit Falls 35%--Update",
+        "url": "https://www.foxbusiness.com/features/fords-profit-falls-35-update",
+        "publication_date": "2017-04-27 00:00:00",
+        "article_type": "Company-specific DJNW",
+        "validation_note": "By Adrienne Roberts and Christina Rogers, Dow Jones Newswires; recall/engineering/commodity costs and weaker U.S. sales."
+      },
+      {
+        "title": "Ford's Pace Eases After Long, Hot Run -- WSJ",
+        "url": "https://www.foxbusiness.com/features/fords-pace-eases-after-long-hot-run-wsj",
+        "publication_date": "2017-04-28 00:00:00",
+        "article_type": "DJNW/WSJ follow-up",
+        "validation_note": "By Adrienne Roberts and Christina Rogers, Dow Jones Newswires; print follow-up with stock reaction and margin context."
+      }
+    ]
+  },
+  "F_2017q3": {
+    "ticker": "F",
+    "company_name": "Ford Motor Company",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-26",
+    "ret_1day_pct": -1.85,
+    "ret_1daypost_pct": 1.29,
+    "ret_2day_pct": -0.58,
+    "ret_3day_pct": -1.1,
+    "ret_5day_pct": -0.56,
+    "articles": [
+      {
+        "title": "Ford Posts Higher Profit",
+        "url": "https://www.foxbusiness.com/features/ford-posts-higher-profit",
+        "publication_date": "2017-07-26 00:00:00",
+        "article_type": "Company-specific DJNW",
+        "validation_note": "By Christina Rogers, Dow Jones Newswires; profit beat, Ford Credit/truck strength and revised guidance."
+      },
+      {
+        "title": "Ford's Stock Takes Another Hit on Revised Guidance",
+        "url": "https://www.foxbusiness.com/features/fords-stock-takes-another-hit-on-revised-guidance",
+        "publication_date": "2017-07-26 00:00:00",
+        "article_type": "Company-specific DJNW",
+        "validation_note": "By Christina Rogers, Dow Jones Newswires; stock fell as revised guidance disappointed."
+      },
+      {
+        "title": "Ford's Stock Takes Another Hit on Revised Guidance -- 5th Update",
+        "url": "https://www.foxbusiness.com/features/fords-stock-takes-another-hit-on-revised-guidance-5th-update",
+        "publication_date": "2017-07-26 00:00:00",
+        "article_type": "Company-specific DJNW",
+        "validation_note": "Expanded Dow Jones Newswires update on revised guidance and stock reaction."
+      }
+    ]
+  },
+  "F_2017q4": {
+    "ticker": "F",
+    "company_name": "Ford Motor Company",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-10-26",
+    "ret_1day_pct": 1.76,
+    "ret_1daypost_pct": -2.47,
+    "ret_2day_pct": -0.75,
+    "ret_3day_pct": -1.44,
+    "ret_5day_pct": 0.42,
+    "articles": [
+      {
+        "title": "Ford's Profit Jumps 63% on Strong Truck Sales",
+        "url": "https://www.foxbusiness.com/features/fords-profit-jumps-63-on-strong-truck-sales",
+        "publication_date": "2017-10-26 00:00:00",
+        "article_type": "Company-specific DJNW",
+        "validation_note": "By Mike Colias, Dow Jones Newswires; strong truck sales, cost cuts and raised guidance."
+      },
+      {
+        "title": "Ford's Workhorse Trucks Haul In Solid Profit -- WSJ",
+        "url": "https://www.foxbusiness.com/features/fords-workhorse-trucks-haul-in-solid-profit-wsj",
+        "publication_date": "2017-10-27 00:00:00",
+        "article_type": "DJNW/WSJ follow-up",
+        "validation_note": "By Mike Colias and John D. Stoll, Dow Jones Newswires; print follow-up on truck-driven earnings strength."
+      }
+    ]
+  },
+  "F_2018q1": {
+    "ticker": "F",
+    "company_name": "Ford Motor Company",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-01-24",
+    "ret_1day_pct": 0.84,
+    "ret_1daypost_pct": -3.99,
+    "ret_2day_pct": -3.18,
+    "ret_3day_pct": -3.92,
+    "ret_5day_pct": -5.61,
+    "articles": [
+      {
+        "title": "Ford Profit Dented by Swings in Commodities Prices",
+        "url": "https://www.foxbusiness.com/features/ford-profit-dented-by-swings-in-commodities-prices",
+        "publication_date": "2018-01-24 00:00:00",
+        "article_type": "Company-specific DJNW",
+        "validation_note": "By Mike Colias, Dow Jones Newswires; steel/aluminum and FX pressures caused operating-profit miss."
+      },
+      {
+        "title": "Ford Profit Dented by Swings in Commodities Prices -- Update",
+        "url": "https://www.foxbusiness.com/features/ford-profit-dented-by-swings-in-commodities-prices-update.amp",
+        "publication_date": "2018-01-24 00:00:00",
+        "article_type": "Company-specific DJNW",
+        "validation_note": "Expanded Dow Jones Newswires update on disappointing results and 2018 outlook."
+      }
+    ]
+  },
+  "SBUX_2017q2": {
+    "ticker": "SBUX",
+    "company_name": "Starbucks",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-04-27",
+    "ret_1day_pct": -0.42,
+    "ret_1daypost_pct": -1.76,
+    "ret_2day_pct": -2.17,
+    "ret_3day_pct": -1.2,
+    "ret_5day_pct": -0.7,
+    "articles": [
+      {
+        "title": "Starbucks Misses Growth Expectations in U.S. Stores -- Update",
+        "url": "https://www.foxbusiness.com/features/starbucks-misses-growth-expectations-in-u-s-stores-update",
+        "publication_date": "2017-04-27 00:00:00",
+        "article_type": "Company-specific DJNW",
+        "validation_note": "By Julie Jargon, Dow Jones Newswires; lower guidance and weak traffic/sales growth."
+      },
+      {
+        "title": "Starbucks Misses Growth Goals in U.S. Stores, Shares Sink",
+        "url": "https://www.foxbusiness.com/features/starbucks-misses-growth-goals-in-u-s-stores-shares-sink",
+        "publication_date": "2017-04-27 00:00:00",
+        "article_type": "Company-specific DJNW",
+        "validation_note": "By Julie Jargon, Dow Jones Newswires; U.S./global same-store sales missed and shares declined."
+      }
+    ]
+  },
+  "SBUX_2017q3": {
+    "ticker": "SBUX",
+    "company_name": "Starbucks",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-27",
+    "ret_1day_pct": 2.9,
+    "ret_1daypost_pct": -9.14,
+    "ret_2day_pct": -6.5,
+    "ret_3day_pct": -7.47,
+    "ret_5day_pct": -6.35,
+    "articles": [
+      {
+        "title": "Starbucks Brews Stronger U.S. Sales Growth -- 2nd Update",
+        "url": "https://www.foxbusiness.com/features/starbucks-brews-stronger-u-s-sales-growth-2nd-update",
+        "publication_date": "2017-07-27 00:00:00",
+        "article_type": "Company-specific DJNW",
+        "validation_note": "By Julie Jargon, Dow Jones Newswires; expanded update with earnings, traffic, Teavana and China context."
+      },
+      {
+        "title": "Starbucks Brews Stronger U.S. Sales Growth--Update",
+        "url": "https://www.foxbusiness.com/features/starbucks-brews-stronger-u-s-sales-growth-update",
+        "publication_date": "2017-07-27 00:00:00",
+        "article_type": "Company-specific DJNW",
+        "validation_note": "By Julie Jargon, Dow Jones Newswires; U.S. comp recovery but earnings miss and cautious outlook."
+      }
+    ]
+  },
+  "SBUX_2017q4": {
+    "ticker": "SBUX",
+    "company_name": "Starbucks",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-11-02",
+    "ret_1day_pct": -0.51,
+    "ret_1daypost_pct": 1.83,
+    "ret_2day_pct": 1.31,
+    "ret_3day_pct": 1.77,
+    "ret_5day_pct": 3.91,
+    "articles": [
+      {
+        "title": "Starbucks Lowers Long-Term Target, Selling Tazo to Unilever--Update",
+        "url": "https://www.foxbusiness.com/features/starbucks-lowers-long-term-target-selling-tazo-to-unilever-update",
+        "publication_date": "2017-11-02 00:00:00",
+        "article_type": "Company-specific DJNW",
+        "validation_note": "Dow Jones Newswires; weak comps, lower long-term targets and Tazo sale."
+      }
+    ]
+  },
+  "SBUX_2018q1": {
+    "ticker": "SBUX",
+    "company_name": "Starbucks",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-01-25",
+    "ret_1day_pct": -0.47,
+    "ret_1daypost_pct": -5.22,
+    "ret_2day_pct": -5.67,
+    "ret_3day_pct": -6.9,
+    "ret_5day_pct": -6.6,
+    "articles": [
+      {
+        "title": "Starbucks Misses on Revenue Despite Record Quarter -- 2nd Update",
+        "url": "https://www.foxbusiness.com/features/starbucks-misses-on-revenue-despite-record-quarter-2nd-update",
+        "publication_date": "2018-01-25 00:00:00",
+        "article_type": "Company-specific DJNW",
+        "validation_note": "By Julie Jargon and Aisha Al-Muslim, Dow Jones Newswires; revenue miss and U.S. traffic weakness."
+      }
+    ]
+  },
+  "SBUX_2018q3": {
+    "ticker": "SBUX",
+    "company_name": "Starbucks",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-26",
+    "ret_1day_pct": -0.17,
+    "ret_1daypost_pct": 2.13,
+    "ret_2day_pct": 1.95,
+    "ret_3day_pct": 2.0,
+    "ret_5day_pct": 2.48,
+    "articles": [
+      {
+        "title": "M\u00c4RKTE USA/Technologiesektor geht nach Twitter-Baisse in die Knie",
+        "url": "https://www.finanznachrichten.de/nachrichten-2018-07/44396420-maerkte-usa-technologiesektor-geht-nach-twitter-baisse-in-die-knie-015.htm",
+        "publication_date": "2018-07-27 00:00:00",
+        "article_type": "DJNW market article",
+        "validation_note": "Dow Jones Newswires market article published after the Jul. 26 earnings; says Starbucks broadly met market expectations and shares rose 1.4%."
+      }
+    ]
+  }
+}

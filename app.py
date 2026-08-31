@@ -74,6 +74,7 @@ GROUP_PRICE_HISTORY_PATH = os.path.join(HERE, "data", "group_price_history.json"
 GROUP_ABNORMAL_RETURNS_PATH = os.path.join(HERE, "data", "group_abnormal_returns.json")
 GROUP_CONTEXT_PATH = os.path.join(HERE, "data", "group_context.json")
 GROUP_WSJ_COVERAGE_PATH = os.path.join(HERE, "data", "group_wsj_coverage.json")
+GROUP_DJNW_COVERAGE_PATH = os.path.join(HERE, "data", "group_djnw_coverage.json")
 # Streamlit's static-file server (enabled via .streamlit/config.toml's
 # [server] enableStaticServing = true) only serves files placed under a
 # static/ folder next to this script, at the URL path /app/static/<path>.
@@ -548,6 +549,14 @@ def load_group_wsj_coverage(mtime_marker):
         return json.load(f)
 
 
+@st.cache_data
+def load_group_djnw_coverage(mtime_marker):
+    if not os.path.exists(GROUP_DJNW_COVERAGE_PATH):
+        return {}
+    with open(GROUP_DJNW_COVERAGE_PATH) as f:
+        return json.load(f)
+
+
 def render_wsj_pdf_link(source, static_slug):
     """A plain link that opens the source PDF in a new browser tab, served
     from Streamlit's static/ folder (see GROUP_WSJ_STATIC_SLUGS above for
@@ -573,6 +582,27 @@ def render_wsj_pdf_link(source, static_slug):
         f"&#128196; Open PDF: {label_text}</a>"
         f"<a href='{url}' download='{filename}' style='{link_style} font-size:0.78rem; opacity:0.8;'>"
         f"&#11015; Download PDF</a>",
+        unsafe_allow_html=True,
+    )
+
+
+def render_djnw_source_link(source):
+    """A button-styled link to the original Dow Jones Newswires source
+    page. Unlike the WSJ PDFs, these are already public URLs (mirrored on
+    foxbusiness.com/advfn.com/finanznachrichten.de), so it just opens
+    directly -- no local static-file copy needed."""
+    url = source.get("url")
+    if not url:
+        return
+    label = source.get("title") or "View source"
+    button_style = (
+        "display:inline-block; margin-top:0.3rem; margin-bottom:0.3rem; "
+        "padding:0.4rem 0.9rem; border-radius:6px; background:#2E5E8C; "
+        "color:#F0F4F8; font-size:0.85rem; text-decoration:none; font-weight:600;"
+    )
+    st.markdown(
+        f"<a href='{url}' target='_blank' rel='noopener noreferrer' style='{button_style}'>"
+        f"&#128279; View Source: {label}</a>",
         unsafe_allow_html=True,
     )
 
@@ -1105,6 +1135,7 @@ group_price_history = load_group_price_history(_mtime(GROUP_PRICE_HISTORY_PATH))
 group_context_lookup = load_group_context(_mtime(GROUP_CONTEXT_PATH))
 group_abnormal_returns_lookup = load_group_abnormal_returns(_mtime(GROUP_ABNORMAL_RETURNS_PATH))
 group_wsj_coverage_lookup = load_group_wsj_coverage(_mtime(GROUP_WSJ_COVERAGE_PATH))
+group_djnw_coverage_lookup = load_group_djnw_coverage(_mtime(GROUP_DJNW_COVERAGE_PATH))
 
 tickers = sorted(df["ticker"].unique())
 ticker_labels = {
@@ -1278,7 +1309,7 @@ if st.session_state.selected_section == "Data Visualization 2":
                 st.plotly_chart(g_viz_fig, use_container_width=True, key=f"gviz_chart_{g_note_key}")
 
         g_context_key = f"{g_ticker}_{g_row['fiscal_yearquarter']}"
-        g_left, g_right = st.columns(2, gap="large")
+        g_left, g_right, g_djnw_col = st.columns(3, gap="large")
 
         with g_left:
             g_context_sections = group_context_lookup.get(g_context_key)
@@ -1328,6 +1359,32 @@ if st.session_state.selected_section == "Data Visualization 2":
                     render_wsj_pdf_link(g_source, g_static_slug)
             else:
                 st.write("*No WSJ coverage found for this observation.*")
+
+        with g_djnw_col:
+            st.markdown(
+                "<div style='text-align:center; font-weight:bold;'>Dow Jones Newswires Coverage</div>",
+                unsafe_allow_html=True,
+            )
+            g_djnw_entry = group_djnw_coverage_lookup.get(g_context_key)
+            if g_djnw_entry and (g_djnw_entry.get("summary_analysis") or g_djnw_entry.get("why_moved")):
+                g_djnw_paras = ""
+                if g_djnw_entry.get("summary_analysis"):
+                    g_djnw_paras += (
+                        "<div class='context-heading'>Summary Analysis</div>"
+                        f"<p style='margin-bottom:0.8rem; font-size:1.1rem; text-align:justify;'>"
+                        f"{render_inline_markdown(g_djnw_entry['summary_analysis'])}</p>"
+                    )
+                if g_djnw_entry.get("why_moved"):
+                    g_djnw_paras += (
+                        "<div class='context-heading'>Why The Stock Moved</div>"
+                        f"<p style='margin-bottom:0.8rem; font-size:1.1rem; text-align:justify;'>"
+                        f"{render_inline_markdown(g_djnw_entry['why_moved'])}</p>"
+                    )
+                st.html(f"<div class='format-body'>{g_djnw_paras}</div>")
+                for g_djnw_source in g_djnw_entry.get("sources", []):
+                    render_djnw_source_link(g_djnw_source)
+            else:
+                st.write("*No Dow Jones Newswires coverage found for this observation.*")
 
         st.markdown(
             f"<div style='text-align:center; color:rgba(214,228,240,0.85); font-size:0.95rem; "

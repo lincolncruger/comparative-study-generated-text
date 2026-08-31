@@ -1,0 +1,366 @@
+{
+  "ISRG_2017q2": {
+    "ticker": "ISRG",
+    "company_name": "Intuitive Surgical",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-04-18",
+    "ret_1day_pct": -0.91,
+    "ret_1daypost_pct": 6.5,
+    "ret_2day_pct": 5.53,
+    "ret_3day_pct": 5.1,
+    "ret_5day_pct": 5.34,
+    "articles": [
+      {
+        "title": "MARKET SNAPSHOT: Dow Industrials Falls More Than 100 Points As Energy, IBM Drag",
+        "url": "https://www.foxbusiness.com/features/market-snapshot-dow-industrials-falls-more-than-100-points-as-energy-ibm-drag",
+        "publication_date": "2017-04-19 00:00:00",
+        "article_type": "DJNW market roundup",
+        "validation_note": "MarketWatch / Dow Jones Newswires; ISRG rallied 6.9% after the earnings beat."
+      },
+      {
+        "title": "MARKET SNAPSHOT: Dow Industrials Finish More Than 100 Points Lower As Energy, IBM Drag",
+        "url": "https://www.foxbusiness.com/features/market-snapshot-dow-industrials-finish-more-than-100-points-lower-as-energy-ibm-drag",
+        "publication_date": "2017-04-19 00:00:00",
+        "article_type": "DJNW market roundup",
+        "validation_note": "MarketWatch / Dow Jones Newswires; ISRG rallied 6.4% after topping Wall Street estimates."
+      },
+      {
+        "title": "MARKET SNAPSHOT: Stocks Mostly Higher, But Dow Dragged Down By IBM",
+        "url": "https://www.foxbusiness.com/features/market-snapshot-stocks-mostly-higher-but-dow-dragged-down-by-ibm",
+        "publication_date": "2017-04-19 00:00:00",
+        "article_type": "DJNW market roundup",
+        "validation_note": "MarketWatch / Dow Jones Newswires; ISRG rallied 6.8% after topping estimates."
+      }
+    ]
+  },
+  "LMT_2017q2": {
+    "ticker": "LMT",
+    "company_name": "Lockheed Martin",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-04-25",
+    "ret_1day_pct": -2.84,
+    "ret_1daypost_pct": 0.13,
+    "ret_2day_pct": -2.71,
+    "ret_3day_pct": -2.64,
+    "ret_5day_pct": -2.71,
+    "articles": [
+      {
+        "title": "Lockheed Martin Hit By Middle East Charges--Update",
+        "url": "https://www.foxbusiness.com/features/lockheed-martin-hit-by-middle-east-charges-update",
+        "publication_date": "2017-04-25 00:00:00",
+        "article_type": "Company-specific DJNW",
+        "validation_note": "By Doug Cameron, Dow Jones Newswires; Middle East charges dented earnings and shares."
+      },
+      {
+        "title": "Lockheed Martin's Profit and Sales Fall Short of Expectations",
+        "url": "https://www.foxbusiness.com/features/lockheed-martins-profit-and-sales-fall-short-of-expectations",
+        "publication_date": "2017-04-25 00:00:00",
+        "article_type": "Company-specific DJNW",
+        "validation_note": "Dow Jones Newswires; lower profit guidance, sales/earnings shortfall and share decline."
+      }
+    ]
+  },
+  "LMT_2017q3": {
+    "ticker": "LMT",
+    "company_name": "Lockheed Martin",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-18",
+    "ret_1day_pct": -0.64,
+    "ret_1daypost_pct": 0.76,
+    "ret_2day_pct": 0.12,
+    "ret_3day_pct": 0.24,
+    "ret_5day_pct": -0.21,
+    "articles": [
+      {
+        "title": "Lockheed Martin Raises Guidance on Strong Quarter",
+        "url": "https://www.foxbusiness.com/features/lockheed-martin-raises-guidance-on-strong-quarter",
+        "publication_date": "2017-07-18 00:00:00",
+        "article_type": "Company-specific DJNW",
+        "validation_note": "By Ezequiel Minaya, Dow Jones Newswires; results beat expectations, aeronautics/F-35 strength and raised guidance."
+      }
+    ]
+  },
+  "LMT_2017q4": {
+    "ticker": "LMT",
+    "company_name": "Lockheed Martin",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-10-24",
+    "ret_1day_pct": -2.53,
+    "ret_1daypost_pct": 0.31,
+    "ret_2day_pct": -2.23,
+    "ret_3day_pct": -1.59,
+    "ret_5day_pct": -3.86,
+    "articles": [
+      {
+        "title": "Lockheed Forecasts Modest Sales Gain for 2018 -- Update",
+        "url": "https://www.foxbusiness.com/features/lockheed-forecasts-modest-sales-gain-for-2018-update.amp",
+        "publication_date": "2017-10-24 00:00:00",
+        "article_type": "Company-specific DJNW",
+        "validation_note": "Dow Jones Newswires; EPS missed slightly, modest 2018 sales outlook and shares fell."
+      },
+      {
+        "title": "Lockheed Offers Modest Outlook -- WSJ",
+        "url": "https://www.foxbusiness.com/features/lockheed-offers-modest-outlook-wsj",
+        "publication_date": "2017-10-25 00:00:00",
+        "article_type": "DJNW/WSJ follow-up",
+        "validation_note": "By Doug Cameron and Robert Wall, Dow Jones Newswires; print-edition follow-up on earnings and outlook."
+      }
+    ]
+  },
+  "LMT_2018q1": {
+    "ticker": "LMT",
+    "company_name": "Lockheed Martin",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-01-29",
+    "ret_1day_pct": 2.58,
+    "ret_1daypost_pct": 0.73,
+    "ret_2day_pct": 3.33,
+    "ret_3day_pct": 5.44,
+    "ret_5day_pct": 7.56,
+    "articles": [
+      {
+        "title": "Lockheed To Use Savings from Tax Overhaul For Pensions",
+        "url": "https://www.foxbusiness.com/features/lockheed-to-use-savings-from-tax-overhaul-for-pensions",
+        "publication_date": "2018-01-29 00:00:00",
+        "article_type": "Company-specific DJNW",
+        "validation_note": "By Doug Cameron and Allison Prang, Dow Jones Newswires; earnings beat, sales growth, tax/pension implications."
+      }
+    ]
+  },
+  "LOW_2017q3": {
+    "ticker": "LOW",
+    "company_name": "Lowe's",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-08-23",
+    "ret_1day_pct": -3.51,
+    "ret_1daypost_pct": -0.43,
+    "ret_2day_pct": -3.93,
+    "ret_3day_pct": -2.27,
+    "ret_5day_pct": -0.9,
+    "articles": [
+      {
+        "title": "MARKET SNAPSHOT: Dow Rally Fades As Jackson Hole Comes Into Focus",
+        "url": "https://www.foxbusiness.com/features/market-snapshot-dow-rally-fades-as-jackson-hole-comes-into-focus",
+        "publication_date": "2017-08-23 00:00:00",
+        "article_type": "DJNW market roundup",
+        "validation_note": "MarketWatch / Dow Jones Newswires; Lowe's shares slump after earnings miss."
+      },
+      {
+        "title": "Stock Rally Fizzles After Dow's Best Day Since April",
+        "url": "https://www.foxbusiness.com/features/stock-rally-fizzles-after-dows-best-day-since-april",
+        "publication_date": "2017-08-23 00:00:00",
+        "article_type": "DJNW market article",
+        "validation_note": "By Amrith Ramkumar and Riva Gold, Dow Jones Newswires; Lowe's shares fell after earnings."
+      }
+    ]
+  },
+  "LOW_2017q4": {
+    "ticker": "LOW",
+    "company_name": "Lowe's",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-11-21",
+    "ret_1day_pct": -1.72,
+    "ret_1daypost_pct": -1.27,
+    "ret_2day_pct": -2.97,
+    "ret_3day_pct": -1.65,
+    "ret_5day_pct": -1.37,
+    "articles": [
+      {
+        "title": "Lowe's COO to Retire, Earnings Beat Estimates",
+        "url": "https://www.foxbusiness.com/features/lowes-coo-to-retire-earnings-beat-estimates.amp",
+        "publication_date": "2017-11-21 00:00:00",
+        "article_type": "Company-specific DJNW",
+        "validation_note": "By Allison Prang, Dow Jones Newswires; EPS/revenue beat, comps and premarket rise."
+      },
+      {
+        "title": "MARKET SNAPSHOT: Stock-market Indexes Back In Record Territory After Strong Earnings",
+        "url": "https://www.foxbusiness.com/features/market-snapshot-stock-market-indexes-back-in-record-territory-after-strong-earnings",
+        "publication_date": "2017-11-21 00:00:00",
+        "article_type": "DJNW market roundup",
+        "validation_note": "MarketWatch / Dow Jones Newswires; earnings session coverage including Lowe's."
+      }
+    ]
+  },
+  "LOW_2018q3": {
+    "ticker": "LOW",
+    "company_name": "Lowe's",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-08-22",
+    "ret_1day_pct": 5.72,
+    "ret_1daypost_pct": 1.79,
+    "ret_2day_pct": 7.61,
+    "ret_3day_pct": 8.11,
+    "ret_5day_pct": 6.49,
+    "articles": [
+      {
+        "title": "Lowe's to Close Orchard Supply Stores, Recruits CVS Finance Chief -- 2nd Update",
+        "url": "https://br.advfn.com/bolsa-de-valores/nyse/LOW/share-news/78122592/lowes-to-close-orchard-supply-stores-recruits-cvs-finance-chief-2nd-update",
+        "publication_date": "2018-08-22 00:00:00",
+        "article_type": "Company-specific DJNW",
+        "validation_note": "Dow Jones Newswires syndicated copy; stronger sales/profit, closures, management changes, guidance and share rise."
+      }
+    ]
+  },
+  "MAR_2016q4": {
+    "ticker": "MAR",
+    "company_name": "Marriott International",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-11-07",
+    "ret_1day_pct": 0.05,
+    "ret_1daypost_pct": 2.31,
+    "ret_2day_pct": 2.36,
+    "ret_3day_pct": 3.03,
+    "ret_5day_pct": 2.16,
+    "articles": [
+      {
+        "title": "Marriott Profit Falls on Merger-Related Costs",
+        "url": "https://br.advfn.com/noticias/DJN/2016/artigo/72853215",
+        "publication_date": "2016-11-07 00:00:00",
+        "article_type": "Company-specific DJNW",
+        "validation_note": "Dow Jones Newswires; merger-related costs, adjusted EPS/revenue and Starwood integration."
+      }
+    ]
+  },
+  "MAR_2017q2": {
+    "ticker": "MAR",
+    "company_name": "Marriott International",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-05-08",
+    "ret_1day_pct": -0.62,
+    "ret_1daypost_pct": 6.46,
+    "ret_2day_pct": 5.8,
+    "ret_3day_pct": 5.37,
+    "ret_5day_pct": 5.72,
+    "articles": [
+      {
+        "title": "MARKET SNAPSHOT: Dow, S&P 500 Close Lower As Nasdaq Notches Record Finish",
+        "url": "https://www.foxbusiness.com/features/market-snapshot-dow-sp-500-close-lower-as-nasdaq-notches-record-finish.amp",
+        "publication_date": "2017-05-09 00:00:00",
+        "article_type": "DJNW market roundup",
+        "validation_note": "MarketWatch / Dow Jones Newswires; Marriott gained after earnings beat."
+      },
+      {
+        "title": "MARKET SNAPSHOT: S&P 500, Nasdaq Trade In Record Territory After Modest Gains",
+        "url": "https://www.foxbusiness.com/features/market-snapshot-sp-500-nasdaq-trade-in-record-territory-after-modest-gains",
+        "publication_date": "2017-05-09 00:00:00",
+        "article_type": "DJNW market roundup",
+        "validation_note": "MarketWatch / Dow Jones Newswires; Marriott rallied after quarterly earnings topped estimates."
+      }
+    ]
+  },
+  "MAR_2017q3": {
+    "ticker": "MAR",
+    "company_name": "Marriott International",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-08-07",
+    "ret_1day_pct": 0.95,
+    "ret_1daypost_pct": -1.81,
+    "ret_2day_pct": -0.88,
+    "ret_3day_pct": 0.22,
+    "ret_5day_pct": -2.49,
+    "articles": [
+      {
+        "title": "MARKET SNAPSHOT: Dow On Track For 10th Straight Record As Bank Stocks Climb",
+        "url": "https://www.foxbusiness.com/features/market-snapshot-dow-on-track-for-10th-straight-record-as-bank-stocks-climb.amp",
+        "publication_date": "2017-08-08 00:00:00",
+        "article_type": "DJNW market roundup",
+        "validation_note": "MarketWatch / Dow Jones Newswires; Marriott fell after cautious profit guidance."
+      },
+      {
+        "title": "MARKET SNAPSHOT: U.S. Stocks Edge Slightly Lower, With Dow's Win Streak In Jeopardy",
+        "url": "https://www.foxbusiness.com/features/market-snapshot-u-s-stocks-edge-slightly-lower-with-dows-win-streak-in-jeopardy",
+        "publication_date": "2017-08-08 00:00:00",
+        "article_type": "DJNW market roundup",
+        "validation_note": "MarketWatch / Dow Jones Newswires; Marriott fell despite earnings beat because current-quarter guidance was below forecasts."
+      }
+    ]
+  },
+  "TJX_2017q2": {
+    "ticker": "TJX",
+    "company_name": "TJX Companies",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-05-16",
+    "ret_1day_pct": -4.04,
+    "ret_1daypost_pct": 3.18,
+    "ret_2day_pct": -0.99,
+    "ret_3day_pct": -2.07,
+    "ret_5day_pct": -3.79,
+    "articles": [
+      {
+        "title": "U.S. Stocks Little Changed",
+        "url": "https://www.foxbusiness.com/features/u-s-stocks-little-changed",
+        "publication_date": "2017-05-16 00:00:00",
+        "article_type": "DJNW market article",
+        "validation_note": "By Mike Bird and Akane Otani, Dow Jones Newswires; TJX slid 4.1% after Q1 sales missed expectations."
+      },
+      {
+        "title": "U.S. Stocks Turn Lower as Real-Estate Shares Slide",
+        "url": "https://www.foxbusiness.com/features/u-s-stocks-turn-lower-as-real-estate-shares-slide.amp",
+        "publication_date": "2017-05-16 00:00:00",
+        "article_type": "DJNW market article",
+        "validation_note": "By Akane Otani and Mike Bird, Dow Jones Newswires; notes TJX Q1 sales missed expectations."
+      }
+    ]
+  },
+  "TJX_2017q3": {
+    "ticker": "TJX",
+    "company_name": "TJX Companies",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-08-15",
+    "ret_1day_pct": 0.92,
+    "ret_1daypost_pct": 1.82,
+    "ret_2day_pct": 2.76,
+    "ret_3day_pct": -0.35,
+    "ret_5day_pct": -0.33,
+    "articles": [
+      {
+        "title": "Declines in Shares of Retailers Pressure U.S. Stocks",
+        "url": "https://www.foxbusiness.com/features/declines-in-shares-of-retailers-pressure-u-s-stocks",
+        "publication_date": "2017-08-15 00:00:00",
+        "article_type": "DJNW market article",
+        "validation_note": "By Michael Wursthorn, Dow Jones Newswires; TJX gained after strong quarterly sales."
+      },
+      {
+        "title": "MARKET SNAPSHOT: Dow Closes Higher For 3rd Session In A Row, But Broader Market Ends Slightly Lower",
+        "url": "https://www.foxbusiness.com/features/market-snapshot-dow-closes-higher-for-3rd-session-in-a-row-but-broader-market-ends-slightly-lower",
+        "publication_date": "2017-08-15 00:00:00",
+        "article_type": "DJNW market roundup",
+        "validation_note": "MarketWatch / Dow Jones Newswires; TJX rose after earnings and revenue beat expectations."
+      },
+      {
+        "title": "MARKET SNAPSHOT: Stocks Struggle After 2-day Rally; S&P Seen At 'inflection Point'",
+        "url": "https://www.foxbusiness.com/features/market-snapshot-stocks-struggle-after-2-day-rally-sp-seen-at-inflection-point",
+        "publication_date": "2017-08-15 00:00:00",
+        "article_type": "DJNW market roundup",
+        "validation_note": "MarketWatch / Dow Jones Newswires; explicitly ties TJX gain to earnings/revenue beat."
+      }
+    ]
+  },
+  "TJX_2017q4": {
+    "ticker": "TJX",
+    "company_name": "TJX Companies",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-11-14",
+    "ret_1day_pct": -3.73,
+    "ret_1daypost_pct": 2.1,
+    "ret_2day_pct": -1.7,
+    "ret_3day_pct": -0.97,
+    "ret_5day_pct": 1.01,
+    "articles": [
+      {
+        "title": "MARKET SNAPSHOT: Stock Market Trades Lower As Oil Comes Under Pressure",
+        "url": "https://www.foxbusiness.com/features/market-snapshot-stock-market-trades-lower-as-oil-comes-under-pressure",
+        "publication_date": "2017-11-14 00:00:00",
+        "article_type": "DJNW market roundup",
+        "validation_note": "MarketWatch / Dow Jones Newswires; TJX fell 4.3% after revenue and same-store sales missed consensus."
+      },
+      {
+        "title": "Consumer Companies Lower as Target Earnings Offset Retail Data -- Consumer Roundup",
+        "url": "https://www.foxbusiness.com/features/consumer-companies-lower-as-target-earnings-offset-retail-data-consumer-roundup",
+        "publication_date": "2017-11-15 00:00:00",
+        "article_type": "DJNW sector roundup",
+        "validation_note": "Dow Jones Newswires follow-up discussing TJX's disappointing quarter and weather/fashion explanations."
+      }
+    ]
+  }
+}

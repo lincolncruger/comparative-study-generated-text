@@ -1,0 +1,213 @@
+{
+  "ADBE_2017q2": {
+    "summary_analysis": "This is roundup market coverage rather than a dedicated Adobe earnings story: a MarketWatch/Dow Jones Newswires \"Market Snapshot\" piece on the broader U.S. equity session of June 21, 2017, which flagged Adobe as one of the day's premarket movers. It reported that Adobe Systems climbed 4.7% ahead of the opening bell after the software company late Tuesday, June 20, beat Wall Street forecasts with record quarterly revenue. Beyond noting the record revenue figure and the beat versus forecasts, the article did not break out specific EPS numbers, segment detail, or management commentary about the quarter, since its editorial focus was the overall market backdrop rather than Adobe specifically. That backdrop included a second straight day of futures weakness tied to an extending oil-price selloff, with Nasdaq-100 futures down 0.2%, S&P 500 futures off 0.1%, and Dow futures down 4 points, alongside lingering concern about technology-stock valuations after the Nasdaq Composite had fallen 0.8% in the prior session.",
+    "why_moved": "The roundup directly attributes Adobe's premarket strength to its earnings release, stating that shares climbed 4.7% ahead of the bell after the company beat Wall Street forecasts with record quarterly revenue announced the previous evening. It does not break the move down further by specific metric (for example, whether EPS, revenue, or guidance was the larger driver), simply framing the premarket gain as a reaction to the beat-and-record-revenue print. No other explanation for the stock's move is offered in the article.",
+    "sources": [
+      {
+        "title": "MARKET SNAPSHOT: U.S. Stocks Set For 2nd Day In Red As Oil Extends Bear-market Tumble",
+        "url": "https://www.foxbusiness.com/features/market-snapshot-u-s-stocks-set-for-2nd-day-in-red-as-oil-extends-bear-market-tumble.amp"
+      }
+    ]
+  },
+  "ADBE_2017q4": {
+    "summary_analysis": "This is a dedicated Dow Jones Newswires company story on Adobe's fiscal fourth-quarter 2017 results, reported December 14, 2017. Adobe's quarterly profit rose 26% to $501.5 million, or $1.00 per share, with adjusted earnings of $1.26 per share versus $0.90 a year earlier; revenue climbed 25% to $2.1 billion, topping the $1.95 billion in revenue and roughly $0.90 per share that analysts had expected. Subscriptions made up the majority of revenue, and the Creative Cloud business (Photoshop, InDesign, Illustrator and related products) generated $1.16 billion, up sharply from $886 million a year earlier. Adobe raised its full-year revenue guidance to $8.73 billion from a prior $8.7 billion forecast while holding annual profit guidance at $4.40 per share ($5.50 adjusted), and it guided the current quarter to $1.15 per share ($1.27 adjusted) on $2.04 billion of revenue, above the roughly $0.98 adjusted consensus. The company also disclosed it repurchased 1.9 million shares during the quarter and held $2.31 billion in cash.",
+    "why_moved": "The article states that Adobe shares rose 1.7%, to $177.82, in after-hours trading following the release. It ties that move to the quarter's results and outlook: profit and revenue both beat Wall Street estimates, Creative Cloud revenue grew strongly year over year, and the company raised its annual revenue forecast while guiding the following quarter above consensus. The article does not provide further granularity on which single factor most drove the after-hours gain, presenting the beat-and-raise combination as the overall explanation."
+    ,
+    "sources": [
+      {
+        "title": "Adobe Raises Annual Revenue Forecast After Results Beat Projections",
+        "url": "https://www.foxbusiness.com/features/adobe-raises-annual-revenue-forecast-after-results-beat-projections"
+      }
+    ]
+  },
+  "ADBE_2018q1": {
+    "summary_analysis": "The source here is a German-language Dow Jones Newswires \"Morning Briefing USA/Asien\" roundup published March 16, 2018, the morning after Adobe's fiscal first-quarter 2018 report. It states that Adobe exceeded analyst expectations on both earnings and revenue: adjusted earnings per share came in at $1.55 versus a consensus estimate of $1.44, and net income reached $583.1 million, up from $398.5 million a year earlier. Revenue rose roughly 24% to $2.08 billion from $1.68 billion, ahead of the approximately $2.05 billion analysts had projected. As a market briefing rather than a dedicated company profile, the item is brief and does not go into segment-level detail, management quotes, or forward guidance beyond confirming the top- and bottom-line beat.",
+    "why_moved": "The briefing reports that Adobe's stock surged in after-hours trading, gaining 3.8% to $227.20 on Nasdaq, and frames this directly as a reaction to the earnings beat — both adjusted EPS and revenue came in above analyst estimates. It characterizes the move as reflecting investor enthusiasm for the company's operating performance but does not cite any additional driver, such as guidance, beyond the headline beat.",
+    "sources": [
+      {
+        "title": "MORNING BRIEFING - USA/Asien -2-",
+        "url": "https://www.finanznachrichten.de/nachrichten-2018-03/43281496-morning-briefing-usa-asien-2-015.htm"
+      }
+    ]
+  },
+  "CVS_2016q3": {
+    "summary_analysis": "This entry's only accessible article is a Dow Jones Newswires market piece on the broader U.S. equity session of August 2, 2016 (\"Dow Industrials Log Seventh-Straight Day Of Losses\"), not a dedicated CVS Health earnings story, so its CVS-specific detail is limited to a single data point rather than a full breakdown of the release. It reports that CVS Health's quarterly profit exceeded analyst expectations, and that the stock surged more than 5%, closing at $98.57 that day. The article does not provide revenue or EPS figures, guidance, or management commentary for CVS specifically, since its purpose was to cover the overall market's seventh consecutive down session, in which the Dow fell 0.49%, the S&P 500 dropped 0.64%, and the Nasdaq declined 0.9%.",
+    "why_moved": "The article directly attributes CVS's rally to its earnings beat, stating that the drugstore chain's quarterly profit exceeded analyst expectations and that shares surged more than 5% to close at $98.57. It frames this as a notable outlier because the broader market was falling that same day (the Dow, S&P 500, and Nasdaq all declined), making CVS one of the session's standout gainers. No further detail on what within the earnings report drove the beat is given.",
+    "sources": [
+      {
+        "title": "Dow Industrials Log Seventh-Straight Day Of Losses",
+        "url": "https://www.foxbusiness.com/markets/dow-industrials-log-seventh-straight-day-of-losses"
+      }
+    ]
+  },
+  "CVS_2017q2": {
+    "summary_analysis": "This Dow Jones Newswires company story, published May 2, 2017, covers CVS Health's first-quarter 2017 results, which the company itself characterized as part of a \"rebuilding year.\" Profit fell to $952 million, or 92 cents per share, from $1.15 billion, or $1.04 per share, a year earlier, and earnings excluding acquisition-related costs slipped to $1.17 per share from the prior year's figure. Revenue rose 3% to $44.5 billion, above the $44.2 billion analysts expected, but the pharmacy-services segment's 8.5% sales growth to $31.2 billion came alongside pressure from rising generic-drug penetration, while the retail segment fell 3.8% to $19.3 billion on weaker store traffic; front-of-store same-store sales dropped 4.9% and pharmacy same-store sales fell 4.7%, driven by generic substitution, with generic dispensing rates climbing to 87% in pharmacy services and 87.5% in retail. CVS guided second-quarter adjusted EPS to $1.29–$1.33, potentially below the $1.33 analyst consensus, while maintaining its full-year 2017 guidance; CEO Larry Merlo described 2017 as a rebuilding year and said the company would not be satisfied \"until the company returns to sustainable, healthy earnings growth.\"",
+    "why_moved": "The article does not report how the stock actually traded following the release. It centers entirely on the operating results — a year-over-year profit decline, margin pressure in both the pharmacy-services and retail segments from generic-drug penetration and softer store traffic, and second-quarter guidance that may have landed below consensus — without connecting any of that explicitly to a share-price move. Because no market reaction is stated in the source, none can be reported here beyond what the underlying results themselves conveyed."
+    ,
+    "sources": [
+      {
+        "title": "CVS Profit Declines in First Quarter of 'Rebuilding Year'",
+        "url": "https://www.foxbusiness.com/features/cvs-profit-declines-in-first-quarter-of-rebuilding-year"
+      }
+    ]
+  },
+  "CVS_2017q3": {
+    "summary_analysis": "Coverage of this quarter comes from three separate MarketWatch/Dow Jones Newswires \"Market Snapshot\" roundups on the broader U.S. equity session of August 8, 2017, rather than a dedicated CVS earnings story, so the CVS-specific content is limited to how the stock traded around its release rather than a detailed breakdown of results. All three pieces agree on the same core fact: CVS Health reported earnings and revenue that beat analyst estimates ahead of the opening bell, yet the stock declined anyway. None of the roundups provides specific revenue or EPS figures for CVS, or any guidance or management commentary from the company itself; instead they use CVS as an example within a broader discussion of that day's market, quoting analyst James Meyer of Tower Bridge Advisors on why beats were common that earnings season: \"If expectations get low enough, you can beat them.\"",
+    "why_moved": "The roundups report that CVS shares fell over the course of the session despite the earnings and revenue beat, with the three updates citing declines of 1.6% (in an early snapshot, \"Ahead of the open, drugstore operator CVS (CVS) posted earnings and revenue that beat estimates. Shares fell 1.6%\"), 1.4%, and 1.9% at different points in the day's coverage. The articles do not fully explain the disconnect between the beat and the decline beyond the general observation, via the Meyer quote, that with depressed expectations across the sector a beat did not necessarily translate into a higher share price. No other specific driver of the decline is identified in the source material.",
+    "sources": [
+      {
+        "title": "MARKET SNAPSHOT: Dow On Track For 10th Straight Record As Bank Stocks Climb",
+        "url": "https://www.foxbusiness.com/features/market-snapshot-dow-on-track-for-10th-straight-record-as-bank-stocks-climb.amp"
+      },
+      {
+        "title": "MARKET SNAPSHOT: Dow Struggles For 10th Straight Record As Bank Stock Rally Wanes",
+        "url": "https://www.foxbusiness.com/features/market-snapshot-dow-struggles-for-10th-straight-record-as-bank-stock-rally-wanes.amp"
+      },
+      {
+        "title": "MARKET SNAPSHOT: U.S. Stocks Edge Slightly Lower, With Dow's Win Streak In Jeopardy",
+        "url": "https://www.foxbusiness.com/features/market-snapshot-u-s-stocks-edge-slightly-lower-with-dows-win-streak-in-jeopardy"
+      }
+    ]
+  },
+  "CVS_2017q4": {
+    "summary_analysis": "This Dow Jones Newswires company story, published November 6, 2017 (\"CVS's Revenue Rises as It Pursues Aetna\"), covers CVS Health's third-quarter results. Revenue rose 3.5% to $46.2 billion, matching analyst expectations, while net income was $1.3 billion, or $1.26 per share, down from $1.43 per share a year earlier; adjusted earnings of $1.50 per share beat the $1.48 analyst estimate. The pharmacy-services division grew sales 8.1% to $32.9 billion on expanded network claims and specialty-pharmacy volume, while the retail segment declined 2.7% to $19.6 billion amid falling same-store sales and $55 million of hurricane-related costs, mostly in retail. CVS narrowed its full-year adjusted EPS guidance to $5.87–$5.91 from a prior $5.83–$5.93 range. The report landed amid CVS's pursuit of a $66 billion acquisition of health insurer Aetna, which the article frames as an effort to strengthen CVS's negotiating leverage with drugmakers and bolster its prescription business.",
+    "why_moved": "The article states that CVS shares, which were already down 12% year-to-date, rose marginally — less than 1% — in premarket trading on minimal volume following the release. It attributes this muted move to a quarter that beat on adjusted EPS and matched revenue expectations, without describing any stronger reaction; the piece offers no further explanation for why the move was so limited beyond noting the light premarket volume.",
+    "sources": [
+      {
+        "title": "CVS's Revenue Rises as It Pursues Aetna",
+        "url": "https://www.foxbusiness.com/features/cvss-revenue-rises-as-it-pursues-aetna"
+      }
+    ]
+  },
+  "F_2016q4": {
+    "summary_analysis": "This Dow Jones Newswires company story, published October 27, 2016 (\"Ford's Profit Falls on Recall Costs\"), covers Ford's third-quarter 2016 results. Net income fell 56% to nearly $1 billion from $2.2 billion a year earlier, though operating profit of 26 cents per share beat the 20-cent analyst estimate; revenue declined 6% to $35.9 billion as global deliveries slipped slightly. The quarter absorbed a $600 million charge tied to an expanded door-latch recall, and North American margins were squeezed by that recall expense, launch costs, and reduced U.S. volumes, even as China and Europe operations improved. Ford reported a $2 billion cash outflow for the quarter but said it expected positive cash flow in the fourth quarter, reaffirmed its full-year 2016 adjusted pretax profit guidance of $10.2 billion, and said it planned additional production cuts in the fourth quarter to address softer U.S. demand.",
+    "why_moved": "The article contains no information about how Ford's stock traded following the release and includes no management commentary explaining investor reaction. It focuses solely on the reported financial results — the profit decline driven by recall costs, the operating-profit beat, and the reaffirmed full-year guidance — without linking any of it to a share-price move, so no market reaction can be reported from this source."
+    ,
+    "sources": [
+      {
+        "title": "Ford's Profit Falls on Recall Costs",
+        "url": "https://www.foxbusiness.com/markets/fords-profit-falls-on-recall-costs"
+      }
+    ]
+  },
+  "F_2017q2": {
+    "summary_analysis": "Two Dow Jones Newswires pieces cover Ford's first-quarter 2017 results, reported April 27, 2017, and a follow-up published the next day. Net income fell 35% to $1.6 billion from $2.5 billion a year earlier, though adjusted EPS of 39 cents beat the 36-cent consensus; revenue rose 4% to $39.1 billion on a favorable mix toward trucks and SUVs. Adjusted pretax profit fell 42% to $2.2 billion, weighed down by a $295 million recall charge covering about 500,000 vehicles with fire-hazard and door-latch defects, higher engineering costs, elevated commodity costs, a stronger dollar, and weaker Chinese demand. North American operating profit fell 35% to $2 billion as margins compressed to 8.3% from 12.9% a year earlier, even though truck-driven transaction prices rose $1,971 per vehicle; Europe's pretax profit fell to $176 million from $434 million on Brexit-related currency effects, and Asia Pacific profit fell to $124 million from $220 million. Ford confirmed full-year 2017 operating guidance of $9 billion, and CFO Bob Shanks called the results \"solid but... a tough comparison\" to the prior year's record quarter, separately calling the quarter likely Ford's \"toughest\" of 2017.",
+    "why_moved": "The follow-up article states that Ford's stock declined 1.7% in early-afternoon trading following the earnings announcement. It ties the decline to the sharp North American margin compression — operating margin fell to 8.3% from 12.9%, a roughly 460-basis-point deterioration — alongside a 4% drop in U.S. sales and eroding U.S. market share, even though the company posted an adjusted EPS beat and higher truck transaction prices. The article frames the margin erosion and softer U.S. volumes as the key concerns overshadowing the earnings beat.",
+    "sources": [
+      {
+        "title": "Ford's Profit Falls 35%--Update",
+        "url": "https://www.foxbusiness.com/features/fords-profit-falls-35-update"
+      },
+      {
+        "title": "Ford's Pace Eases After Long, Hot Run -- WSJ",
+        "url": "https://www.foxbusiness.com/features/fords-pace-eases-after-long-hot-run-wsj"
+      }
+    ]
+  },
+  "F_2017q3": {
+    "summary_analysis": "Three Dow Jones Newswires articles, all dated July 26, 2017, cover this Ford earnings release together with the market's reaction. Ford reported net income of $2 billion, up 4% year over year, with adjusted EPS of 56 cents beating the 43-cent consensus, on revenue of $39.9 billion versus $39.5 billion a year earlier; operating income nonetheless fell 16% to $2.5 billion due to higher commodity costs, unfavorable foreign-exchange effects in China and Europe, and costs from scrapping a planned Mexican small-car plant. CFO Bob Shanks attributed part of the beat to a lower-than-expected tax rate, while global sales volumes declined, including a 3% U.S. sales drop, even as North America and Ford Credit remained strong. Alongside the results, Ford lowered its full-year 2017 outlook to an adjusted EPS range of $1.65–$1.85 (pretax operating profit of $7.8–$8.7 billion), down from a prior roughly $9 billion forecast and well below the $10.4 billion earned in 2016; new CEO Jim Hackett, who replaced Mark Fields in May, called the quarter \"solid\" but said, \"No one here is satisfied. We know we have a lot of work to do,\" with the guidance cut described as reflecting his early strategic review ahead of a fuller turnaround plan expected that fall.",
+    "why_moved": "The articles report that Ford shares fell roughly 2% to 2.5% on the day despite the broader market being higher, attributing the decline to the lowered full-year guidance rather than the quarterly results themselves, which beat on adjusted EPS. J.P. Morgan analyst Ryan Brinkman is quoted saying, \"We expect a negative reaction to the implicit reduction in pretax profit,\" and characterized the guidance cut as partly \"a bit of 'clearing the decks' following the recent change in leadership.\" The articles frame the reduced 2017 outlook — down to $7.8–$8.7 billion in pretax operating profit from a prior $9 billion forecast — as the specific trigger for the selloff, even as they note the quarter's net income and adjusted EPS both came in ahead of expectations.",
+    "sources": [
+      {
+        "title": "Ford Posts Higher Profit",
+        "url": "https://www.foxbusiness.com/features/ford-posts-higher-profit"
+      },
+      {
+        "title": "Ford's Stock Takes Another Hit on Revised Guidance",
+        "url": "https://www.foxbusiness.com/features/fords-stock-takes-another-hit-on-revised-guidance"
+      },
+      {
+        "title": "Ford's Stock Takes Another Hit on Revised Guidance -- 5th Update",
+        "url": "https://www.foxbusiness.com/features/fords-stock-takes-another-hit-on-revised-guidance-5th-update"
+      }
+    ]
+  },
+  "F_2017q4": {
+    "summary_analysis": "Two Dow Jones Newswires articles, published October 26 and 27, 2017, cover Ford's results. Net income rose 63% to $1.6 billion, with operating income up 40% to $2 billion; adjusted EPS of 43 cents beat the 33-cent consensus, and revenue of $36.5 billion topped the $32.8 billion analysts expected. The beat was driven by strong North American truck and SUV sales, record profit in Asia, a lower tax rate, and cost cuts, with F-Series trucks commanding an average transaction price of $45,400 (versus a $31,200 industry average and $2,800 above year-earlier levels), while General Motors' truck line averaged roughly $43,220 per vehicle. Ford tightened its full-year operating-profit guidance upward to $1.75–$1.85 per share from a prior $1.65–$1.85 range, and CFO Bob Shanks pointed to roughly $700 million of quarterly cost improvements under new CEO Jim Hackett as \"a first down payment (on) good strong cost\" reduction, even as Europe posted an unexpected Brexit-related loss and China saw margin compression from competitive pricing.",
+    "why_moved": "Neither article reports how Ford's stock actually traded following the release or offers any commentary tying the results to a share-price move. Both instead focus on the underlying operating beat — record truck pricing, the North American profit strength, and the raised full-year guidance — without stating whether or how the market reacted, so no article-sourced explanation of the stock's move can be given here."
+    ,
+    "sources": [
+      {
+        "title": "Ford's Profit Jumps 63% on Strong Truck Sales",
+        "url": "https://www.foxbusiness.com/features/fords-profit-jumps-63-on-strong-truck-sales"
+      },
+      {
+        "title": "Ford's Workhorse Trucks Haul In Solid Profit -- WSJ",
+        "url": "https://www.foxbusiness.com/features/fords-workhorse-trucks-haul-in-solid-profit-wsj"
+      }
+    ]
+  },
+  "F_2018q1": {
+    "summary_analysis": "Two Dow Jones Newswires articles, both dated January 24, 2018, cover Ford's fourth-quarter 2017 results. Net income was $2.4 billion, reversing an $800 million loss a year earlier, but operating income fell 19% to $1.7 billion and EPS of 39 cents missed the 42-cent consensus; full-year operating income dropped 18% to about $8.4 billion. Fourth-quarter revenue rose 7% to $41.3 billion, well above the roughly $37 billion analysts expected, but the company faced sharply higher steel and aluminum costs (about two-thirds of its raw-material spend) and unfavorable currency moves, which management estimated would cut 2018 results by $1.6 billion versus 2017; Ford's 5% global operating margin trailed General Motors' 9%. Ford guided 2018 operating income to $1.45–$1.70 per share, implying a profit contraction, and CFO Bob Shanks said the headwinds \"underscores to us the lack of fitness of the company relative to where it should be,\" as CEO Jim Hackett rolled out a company-wide \"fitness plan\" targeting $14 billion in cumulative cost cuts through 2022 and a further pivot toward trucks and SUVs; the company also disclosed roughly $300 million in 2017 losses on autonomous and Smart Mobility initiatives.",
+    "why_moved": "One of the two articles reports that Ford's stock fell to a three-month low earlier in the week and closed at $12.05 on Wednesday, with the company's market value remaining below $50 billion and well behind General Motors. It ties the decline to investor disappointment over the profitability miss — EPS came in at 39 cents versus the 42-cent estimate — despite the revenue beat, and to the steel, aluminum, and currency headwinds that management said would erode 2018 results by an estimated $1.6 billion, reinforcing concerns that Ford's margins lag General Motors'.",
+    "sources": [
+      {
+        "title": "Ford Profit Dented by Swings in Commodities Prices",
+        "url": "https://www.foxbusiness.com/features/ford-profit-dented-by-swings-in-commodities-prices"
+      },
+      {
+        "title": "Ford Profit Dented by Swings in Commodities Prices -- Update",
+        "url": "https://www.foxbusiness.com/features/ford-profit-dented-by-swings-in-commodities-prices-update.amp"
+      }
+    ]
+  },
+  "SBUX_2017q2": {
+    "summary_analysis": "Two Dow Jones Newswires articles, both dated April 27, 2017, cover Starbucks' fiscal second-quarter results. The company earned $653 million, or 45 cents per share (up from 39 cents a year earlier), on revenue up 6% to $5.3 billion, roughly matching the earnings estimate though falling short on the sales line versus a $5.4 billion forecast. Same-store sales grew 3% in both the U.S. and globally, missing analyst expectations of about 3.5% for the Americas and 3.7% globally; the shortfall reflected a 2% decline in customer transactions offset by a 4% rise in average check, though U.S. sales accelerated late in the quarter, posting 4% growth in March. Europe/Middle East/Africa same-store sales fell 1%, while China and Asia Pacific rose 3% overall, with China up 7%. Management lowered full-year EPS guidance to $2.06–$2.10 from $2.09–$2.11, citing planned investments and higher-than-expected Teavana charges, while reiterating 8%–10% revenue growth guidance but expecting the lower end; CEO Kevin Johnson emphasized investment in digital-ordering technology and new lunch offerings (initially in Chicago) to address mobile-ordering bottlenecks, and CFO Scott Maw pointed to an \"acceleration in April\" and expressed confidence in stronger second-half comparable sales.",
+    "why_moved": "One of the two articles states that Starbucks shares fell 2.8% to $58.50 in after-hours trading, while the other simply notes that \"shares declined in after-hours trading.\" Both tie the decline to the same-store sales miss in the U.S. and globally (3% actual growth versus roughly 3.5%–3.7% expected) and to the reduced full-year EPS guidance driven by planned investments and elevated Teavana-related charges, even though headline EPS of 45 cents matched analyst expectations. No further driver of the decline is cited beyond the sales miss and guidance cut.",
+    "sources": [
+      {
+        "title": "Starbucks Misses Growth Expectations in U.S. Stores -- Update",
+        "url": "https://www.foxbusiness.com/features/starbucks-misses-growth-expectations-in-u-s-stores-update"
+      },
+      {
+        "title": "Starbucks Misses Growth Goals in U.S. Stores, Shares Sink",
+        "url": "https://www.foxbusiness.com/features/starbucks-misses-growth-goals-in-u-s-stores-shares-sink"
+      }
+    ]
+  },
+  "SBUX_2017q3": {
+    "summary_analysis": "Two Dow Jones Newswires articles, both dated July 27, 2017, cover Starbucks' fiscal third-quarter results. U.S. same-store sales grew 5%, hitting the company's long-stated target, though the improvement came from higher per-visit spending rather than traffic growth, which stayed flat. Earnings of 47 cents per share missed the 55-cent consensus and fell 7.8% year over year, though adjusted EPS (excluding one-time charges) reached 55 cents; revenue rose 8.1% to $5.66 billion but missed the $5.76 billion estimate. Starbucks announced it would close all 379 mall-based Teavana stores, citing declining mall traffic, generating the one-time charges that weighed on GAAP earnings, and international performance was hurt by weakness in Japan even as China delivered 7% same-store sales growth; the company also announced a $1.3 billion deal to acquire its joint-venture partner's 50% stake in roughly 1,300 East China stores, consolidating control of about 1,500 locations as part of a plan to reach 5,000 China stores by 2021. Management lowered full-year EPS guidance to $1.96–$1.97 from $2.06–$2.10 and guided revenue growth to the low end of its 8%–10% range, with CFO Scott Maw saying the company was \"a bit more cautious\" about the fourth quarter given \"ongoing macro pressures impacting the retail and restaurant sectors.\"",
+    "why_moved": "One of the two articles states that Starbucks shares fell nearly 6% in after-hours trading. It attributes the decline to the earnings and revenue misses — 47 cents per share versus a 55-cent estimate, and $5.66 billion in revenue versus $5.76 billion expected — together with the lowered full-year EPS guidance and management's more cautious tone heading into the fourth quarter, despite U.S. same-store sales having reached the company's 5% target. The Teavana store closures and their associated one-time charges are cited as contributing to the earnings shortfall.",
+    "sources": [
+      {
+        "title": "Starbucks Brews Stronger U.S. Sales Growth -- 2nd Update",
+        "url": "https://www.foxbusiness.com/features/starbucks-brews-stronger-u-s-sales-growth-2nd-update"
+      },
+      {
+        "title": "Starbucks Brews Stronger U.S. Sales Growth--Update",
+        "url": "https://www.foxbusiness.com/features/starbucks-brews-stronger-u-s-sales-growth-update"
+      }
+    ]
+  },
+  "SBUX_2017q4": {
+    "summary_analysis": "This Dow Jones Newswires article, published November 2, 2017, covers Starbucks' fiscal fourth-quarter results. EPS of 54 cents matched analyst expectations, but revenue slipped 0.2% to $5.7 billion and profit fell to $788.5 million from $801 million a year earlier; same-store sales growth was just 2% both globally and in the U.S., well short of the company's historic 5% target, though China remained the strongest market with 8% same-store sales growth. Alongside the results, Starbucks lowered its long-term annual EPS growth target to 12% or greater from a prior 15%–20% range and cut its long-term global same-store sales growth target to 3%–5% from a prior mid-single-digit goal; CEO Kevin Johnson acknowledged, \"We have not consistently delivered against our long-term financial targets.\" The company also announced the sale of its Tazo tea brand to Unilever for $384 million so it could concentrate on the Teavana brand.",
+    "why_moved": "The article states that Starbucks shares fell more than 5% in after-hours trading following the release. It ties the decline to the disappointing same-store sales growth of just 2% against the company's historic 5% target, combined with management's decision to lower its long-term earnings and sales growth targets, which the article frames as the market's response to a diminished long-term growth outlook rather than to the in-line quarterly EPS figure.",
+    "sources": [
+      {
+        "title": "Starbucks Lowers Long-Term Target, Selling Tazo to Unilever--Update",
+        "url": "https://www.foxbusiness.com/features/starbucks-lowers-long-term-target-selling-tazo-to-unilever-update"
+      }
+    ]
+  },
+  "SBUX_2018q1": {
+    "summary_analysis": "This Dow Jones Newswires article, published January 25, 2018, covers Starbucks' fiscal first-quarter results. Reported profit was $2.2 billion, or $1.57 per share, versus $751.8 million, or 51 cents per share, a year earlier, though the figure was boosted by tax benefits and proceeds from the Tazo brand sale; excluding those items, adjusted EPS was 58 cents, a penny above the analyst estimate. Revenue rose 6% to $6.1 billion, but same-store sales grew just 2% both domestically and globally, short of the roughly 3% global and 3.2% Americas growth analysts had expected, with holiday-merchandise underperformance cited as a contributor to the U.S. softness. CEO Kevin Johnson said \"the coffee market has grown crowded,\" pointing to competition from premium gas-station coffee and bottled cold brew in supermarkets, and management said slower U.S. traffic would likely persist into the second fiscal quarter; the company also highlighted 1.4 million new Starbucks Rewards members (bringing the total to 14.2 million, up 11% year over year), plans to open mobile ordering to non-loyalty customers starting in March, and continued strength in China, where same-store sales rose 6% and revenue grew 30% across more than 3,100 company-owned stores.",
+    "why_moved": "The article does not report how Starbucks stock traded following the release. It focuses on the underlying results — an adjusted EPS beat by a penny alongside a same-store sales miss of 2% versus roughly 3% expected, and management's comments about a \"crowded\" coffee market and persistent U.S. traffic softness — without linking any of it explicitly to a share-price move, so no market reaction can be reported from this source."
+    ,
+    "sources": [
+      {
+        "title": "Starbucks Misses on Revenue Despite Record Quarter -- 2nd Update",
+        "url": "https://www.foxbusiness.com/features/starbucks-misses-on-revenue-despite-record-quarter-2nd-update"
+      }
+    ]
+  },
+  "SBUX_2018q3": {
+    "summary_analysis": "The source for this entry is a German-language Dow Jones Newswires market roundup on the broader U.S. equity session of July 27, 2018, the day after Starbucks reported earnings, rather than a dedicated Starbucks earnings story, and its company-specific content is accordingly thin. It states only that Starbucks had largely met market expectations overall with its results, without providing specific revenue, EPS, same-store sales, or guidance figures from the release. The roundup's broader focus was that day's U.S. market session, which also covered technology-sector weakness following a selloff in Twitter shares, with Starbucks mentioned briefly as one of several consumer and tech names whose stocks moved on earnings news.",
+    "why_moved": "The article states that Starbucks shares rose 1.4% after the company's results largely met market expectations. It frames this modest gain as part of a broader pattern that trading day in which the market rewarded companies whose results aligned with consensus, but it does not identify any specific metric or guidance detail as the driver of the move beyond the general characterization that results met expectations.",
+    "sources": [
+      {
+        "title": "MÄRKTE USA/Technologiesektor geht nach Twitter-Baisse in die Knie",
+        "url": "https://www.finanznachrichten.de/nachrichten-2018-07/44396420-maerkte-usa-technologiesektor-geht-nach-twitter-baisse-in-die-knie-015.htm"
+      }
+    ]
+  }
+}
