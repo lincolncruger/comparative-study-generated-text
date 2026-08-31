@@ -1,0 +1,28 @@
+Cleaning report
+===============
+
+=== earnings returns.csv ===
+  rows in / out          : 162842 -> 162842
+  exact duplicate rows dropped        : 0
+  duplicate (gvkey, earningsdate) rows dropped (kept first): 0
+  rows with blank ticker (kept, sorted last) : 1453
+  ret_1day/ret_1daypost converted from gross (1+r) to net (r);
+  ret_5day/ret_3day/ret_2day were already net, left as-is
+
+=== CUPIP_earnings returns.csv ===
+  rows in / out          : 162922 -> 162843
+  exact duplicate rows dropped        : 0
+  duplicate (gvkey, earningsdate) rows dropped (kept first): 79
+  rows with blank ticker (kept, sorted last) : 1453
+  returns already net (r); left as-is
+
+=== gvkey_cik_lookup.csv ===
+  rows in / out          : 5503 -> 5503
+  exact duplicate rows dropped        : 0
+
+Outputs written to Data/:
+  earnings_returns_clean.csv
+  CUPIP_earnings_returns_clean.csv
+  gvkey_cik_lookup_clean.csv
+
+Original files left untouched.

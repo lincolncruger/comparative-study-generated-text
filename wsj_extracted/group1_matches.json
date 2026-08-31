@@ -1,0 +1,794 @@
+{
+  "NVDA_2016q2": {
+    "ticker": "NVDA",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-05-12",
+    "pdfs": [
+      "2016-05-12.pdf"
+    ]
+  },
+  "NVDA_2016q3": {
+    "ticker": "NVDA",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-08-11",
+    "pdfs": [
+      "Nvidia Tops Sales Guidance, Gives Strong Outlook - WSJ.pdf"
+    ]
+  },
+  "NVDA_2016q4": {
+    "ticker": "NVDA",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-11-10",
+    "pdfs": [
+      "Nvidia Profit More Than Doubles as Revenue Tops Guidance - WSJ.pdf"
+    ]
+  },
+  "NVDA_2017q1": {
+    "ticker": "NVDA",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-02-09",
+    "pdfs": [
+      "Nvidia Sales Climb 55%; Profit Rises - WSJ.pdf"
+    ]
+  },
+  "NVDA_2017q2": {
+    "ticker": "NVDA",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-05-09",
+    "pdfs": [
+      "Nvidia Earnings: What to Watch zz - WSJ.pdf",
+      "The Hottest Chip Stock Heats Up Again - WSJ.pdf"
+    ]
+  },
+  "NVDA_2017q3": {
+    "ticker": "NVDA",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-08-10",
+    "pdfs": [
+      "Nvidia Earnings: What to Watch 12 - WSJ.pdf",
+      "Nvidia\u2019s Cloud Still Has a Big Silver Lining - WSJ.pdf"
+    ]
+  },
+  "NVDA_2017q4": {
+    "ticker": "NVDA",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-11-09",
+    "pdfs": [
+      "Nvidia Keeps Upping Its Game - WSJ.pdf"
+    ]
+  },
+  "NVDA_2018q1": {
+    "ticker": "NVDA",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-02-08",
+    "pdfs": [
+      "Nvidia Earnings: What To Watch - WSJ.pdf"
+    ]
+  },
+  "NVDA_2018q2": {
+    "ticker": "NVDA",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-05-10",
+    "pdfs": [
+      "Nvidia Is Poised to Report a Strong Lift from AI and Gaming - WSJ.pdf",
+      "Nvidia\u2019s Cloud Bill Comes Due - WSJ.pdf"
+    ]
+  },
+  "NVDA_2018q3": {
+    "ticker": "NVDA",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-08-16",
+    "pdfs": [
+      "Nvidia Clears Its Crypto Cloud - WSJ.pdf",
+      "Nvidia\u2019s Crypto Business Dries Up, Worrying Investors - WSJ.pdf"
+    ]
+  },
+  "AAPL_2016q2": {
+    "ticker": "AAPL",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-26",
+    "pdfs": [
+      "AAPL earnings 2016-04-26.pdf"
+    ]
+  },
+  "AAPL_2016q3": {
+    "ticker": "AAPL",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-07-26",
+    "pdfs": [
+      "2016-07-26.pdf"
+    ]
+  },
+  "AAPL_2016q4": {
+    "ticker": "AAPL",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-10-25",
+    "pdfs": [
+      "2016-10-25.pdf"
+    ]
+  },
+  "AAPL_2017q1": {
+    "ticker": "AAPL",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-01-31",
+    "pdfs": [
+      "2017-01-31.pdf"
+    ]
+  },
+  "AAPL_2017q2": {
+    "ticker": "AAPL",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-05-02",
+    "pdfs": [
+      "2017-05-02.pdf"
+    ]
+  },
+  "AAPL_2017q3": {
+    "ticker": "AAPL",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-08-01",
+    "pdfs": [
+      "2017-08-01.pdf"
+    ]
+  },
+  "AAPL_2017q4": {
+    "ticker": "AAPL",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-11-02",
+    "pdfs": [
+      "2017-11-02.pdf"
+    ]
+  },
+  "AAPL_2018q1": {
+    "ticker": "AAPL",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-02-01",
+    "pdfs": [
+      "2018-02-01.pdf"
+    ]
+  },
+  "AAPL_2018q2": {
+    "ticker": "AAPL",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-05-01",
+    "pdfs": [
+      "2018-05-01.pdf"
+    ]
+  },
+  "AAPL_2018q3": {
+    "ticker": "AAPL",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-31",
+    "pdfs": [
+      "2018-07-31.pdf"
+    ]
+  },
+  "GOOGL_2016q2": {
+    "ticker": "GOOGL",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-21",
+    "pdfs": [
+      "Google Parent\u2019s Earnings Fall Short of Expectations - WSJ.pdf"
+    ]
+  },
+  "GOOGL_2016q3": {
+    "ticker": "GOOGL",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-07-28",
+    "pdfs": [
+      "Google Profits Surge on Strong Ad Demand - WSJ.pdf"
+    ]
+  },
+  "GOOGL_2016q4": {
+    "ticker": "GOOGL",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-10-27",
+    "pdfs": [
+      "Google Parent Alphabet Gets Boost From Ads - WSJ.pdf"
+    ]
+  },
+  "GOOGL_2017q1": {
+    "ticker": "GOOGL",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-01-26",
+    "pdfs": [
+      "Google Parent Alphabet Finds New Growth Beyond Search - WSJ.pdf"
+    ]
+  },
+  "GOOGL_2017q2": {
+    "ticker": "GOOGL",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-04-27",
+    "pdfs": [
+      "Google Parent Alphabet\u2019s Revenue Continues to March Higher - WSJ.pdf"
+    ]
+  },
+  "GOOGL_2017q3": {
+    "ticker": "GOOGL",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-24",
+    "pdfs": [
+      "Traffic Costs Jam Up Google - WSJ.pdf"
+    ]
+  },
+  "GOOGL_2017q4": {
+    "ticker": "GOOGL",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-10-26",
+    "pdfs": []
+  },
+  "GOOGL_2018q1": {
+    "ticker": "GOOGL",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-02-01",
+    "pdfs": [
+      "Google Parent Alphabet\u2019s Revenue Rises, but Profit Comes Up Short - WSJ.pdf"
+    ]
+  },
+  "GOOGL_2018q2": {
+    "ticker": "GOOGL",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-04-23",
+    "pdfs": [
+      "Google Parent Posts Surge in Profit, but Expenses Also Jump - WSJ.pdf"
+    ]
+  },
+  "GOOGL_2018q3": {
+    "ticker": "GOOGL",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-23",
+    "pdfs": [
+      "Google Earnings Hit by European Fine - WSJ.pdf"
+    ]
+  },
+  "MSFT_2016q2": {
+    "ticker": "MSFT",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-21",
+    "pdfs": [
+      "Microsoft\u2019s Cloud Business Slows - WSJ.pdf"
+    ]
+  },
+  "MSFT_2016q3": {
+    "ticker": "MSFT",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-07-19",
+    "pdfs": [
+      "Microsoft Gets Lift From Cloud Gains - WSJ.pdf"
+    ]
+  },
+  "MSFT_2016q4": {
+    "ticker": "MSFT",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-10-20",
+    "pdfs": [
+      "Microsoft\u2019s Cloud Buoys Earnings - WSJ.pdf"
+    ]
+  },
+  "MSFT_2017q1": {
+    "ticker": "MSFT",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-01-26",
+    "pdfs": [
+      "Microsoft\u2019s Profit Rises, Buoyed by Cloud Business - WSJ.pdf"
+    ]
+  },
+  "MSFT_2017q2": {
+    "ticker": "MSFT",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-04-27",
+    "pdfs": [
+      "Microsoft\u2019s Office 365, Cloud Businesses Power Earnings - WSJ.pdf"
+    ]
+  },
+  "MSFT_2017q3": {
+    "ticker": "MSFT",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-20",
+    "pdfs": [
+      "Microsoft Profit Jumps, Fueled by Cloud Computing - WSJ.pdf"
+    ]
+  },
+  "MSFT_2017q4": {
+    "ticker": "MSFT",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-10-26",
+    "pdfs": [
+      "Microsoft\u2019s Services Revenue Lifts Quarterly Results - WSJ.pdf"
+    ]
+  },
+  "MSFT_2018q1": {
+    "ticker": "MSFT",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-01-31",
+    "pdfs": [
+      "Microsoft Reports Gains in Cloud-Computing Business - WSJ.pdf"
+    ]
+  },
+  "MSFT_2018q2": {
+    "ticker": "MSFT",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-04-26",
+    "pdfs": [
+      "Microsoft Rides Cloud Strength and Signals More to Come - WSJ.pdf"
+    ]
+  },
+  "MSFT_2018q3": {
+    "ticker": "MSFT",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-19",
+    "pdfs": [
+      "Microsoft\u2019s Revenue Gets Lift From Cloud - WSJ.pdf"
+    ]
+  },
+  "AMZN_2016q2": {
+    "ticker": "AMZN",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-28",
+    "pdfs": [
+      "Amazon\u2019s Cloud Keeps Making It Rain - WSJ.pdf"
+    ]
+  },
+  "AMZN_2016q3": {
+    "ticker": "AMZN",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-07-28",
+    "pdfs": [
+      "Amazon Posts Another Blockbuster Profit - WSJ.pdf"
+    ]
+  },
+  "AMZN_2016q4": {
+    "ticker": "AMZN",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-10-27",
+    "pdfs": [
+      "Amazon Takes Hit as Costs Surge - WSJ.pdf"
+    ]
+  },
+  "AMZN_2017q1": {
+    "ticker": "AMZN",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-02-02",
+    "pdfs": [
+      "Amazon\u2019s Profit Jumps, but Sales Growth Disappoints - WSJ.pdf"
+    ]
+  },
+  "AMZN_2017q2": {
+    "ticker": "AMZN",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-04-27",
+    "pdfs": [
+      "Amazon Posts Bigger-Than-Expected Increase in Profit - WSJ.pdf"
+    ]
+  },
+  "AMZN_2017q3": {
+    "ticker": "AMZN",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-27",
+    "pdfs": [
+      "Amazon\u2019s Expansion Costs Take a Toll as Profit Falls 77% - WSJ.pdf"
+    ]
+  },
+  "AMZN_2017q4": {
+    "ticker": "AMZN",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-10-26",
+    "pdfs": [
+      "Amazon Revenue Rises 34%, Beating Estimates - WSJ.pdf"
+    ]
+  },
+  "AMZN_2018q1": {
+    "ticker": "AMZN",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-02-01",
+    "pdfs": [
+      "Amazon\u2019s Quarterly Profit Tops $1 Billion for First Time - WSJ.pdf"
+    ]
+  },
+  "AMZN_2018q2": {
+    "ticker": "AMZN",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-04-26",
+    "pdfs": [
+      "Amazon Makes Its Biggest Delivery Yet - WSJ.pdf",
+      "Amazon Raises Annual Prime Price 20% to $119 - WSJ.pdf",
+      "Amazon\u2019s Fiscal Discipline Pays Off as It More Than Doubles Profit - WSJ.pdf"
+    ]
+  },
+  "AMZN_2018q3": {
+    "ticker": "AMZN",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-26",
+    "pdfs": [
+      "Amazon\u2019s Profit Soars to Record - WSJ.pdf"
+    ]
+  },
+  "AVGO_2016q2": {
+    "ticker": "AVGO",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-06-02",
+    "pdfs": [
+      "Broadcom Adjusted Earnings Beat Views - WSJ.pdf"
+    ]
+  },
+  "AVGO_2016q3": {
+    "ticker": "AVGO",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-09-01",
+    "pdfs": [
+      "Broadcom\u2019s Adjusted Profit Beats Expectations - WSJ.pdf"
+    ]
+  },
+  "AVGO_2016q4": {
+    "ticker": "AVGO",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-12-08",
+    "pdfs": [
+      "Broadcom Gives a Rosy Outlook, Doubles Quarterly Dividend - WSJ.pdf"
+    ]
+  },
+  "AVGO_2017q1": {
+    "ticker": "AVGO",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-03-01",
+    "pdfs": []
+  },
+  "AVGO_2017q2": {
+    "ticker": "AVGO",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-06-01",
+    "pdfs": []
+  },
+  "AVGO_2017q3": {
+    "ticker": "AVGO",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-08-24",
+    "pdfs": []
+  },
+  "AVGO_2017q4": {
+    "ticker": "AVGO",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-12-06",
+    "pdfs": [
+      "Smartphone Parts Boost Broadcom\u2019s Earnings - WSJ.pdf"
+    ]
+  },
+  "AVGO_2018q1": {
+    "ticker": "AVGO",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-03-15",
+    "pdfs": [
+      "Broadcom Profit Surges in First Report After Qualcomm Deal Withdrawal - WSJ.pdf"
+    ]
+  },
+  "AVGO_2018q2": {
+    "ticker": "AVGO",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-06-07",
+    "pdfs": [
+      "Broadcom Doing Just Fine on its Own - WSJ.pdf"
+    ]
+  },
+  "AVGO_2018q3": {
+    "ticker": "AVGO",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-09-06",
+    "pdfs": [
+      "Broadcom Profit Surges as Enterprise Storage Business Grows - WSJ.pdf"
+    ]
+  },
+  "FB_2016q2": {
+    "ticker": "FB",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-27",
+    "pdfs": [
+      "Facebook Results: Investors Like Living in Zuckerberg\u2019s World - WSJ.pdf",
+      "Facebook Revenue Soars on Ad Growth - WSJ.pdf"
+    ]
+  },
+  "FB_2016q3": {
+    "ticker": "FB",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-07-27",
+    "pdfs": [
+      "Facebook Posts Strong Profit and Revenue Growth - WSJ.pdf"
+    ]
+  },
+  "FB_2016q4": {
+    "ticker": "FB",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-11-02",
+    "pdfs": [
+      "Facebook Profit Soars, but Growth Concerns Emerge - WSJ.pdf"
+    ]
+  },
+  "FB_2017q1": {
+    "ticker": "FB",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-02-01",
+    "pdfs": []
+  },
+  "FB_2017q2": {
+    "ticker": "FB",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-05-03",
+    "pdfs": [
+      "Facebook Revenue Surges, Fueled by Mobile - WSJ.pdf"
+    ]
+  },
+  "FB_2017q3": {
+    "ticker": "FB",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-26",
+    "pdfs": [
+      "Facebook Searches for New Ad Slots as Profit Spikes 71% - WSJ.pdf"
+    ]
+  },
+  "FB_2017q4": {
+    "ticker": "FB",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-11-01",
+    "pdfs": [
+      "Facebook Profit Jumps 79%, Revenue Up - WSJ.pdf"
+    ]
+  },
+  "FB_2018q1": {
+    "ticker": "FB",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-01-31",
+    "pdfs": [
+      "No Bill Yet for Facebook\u2019s Fixes - WSJ.pdf"
+    ]
+  },
+  "FB_2018q2": {
+    "ticker": "FB",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-04-25",
+    "pdfs": [
+      "Facebook Posts Surge in Revenue as It Tackles User-Data Crisis - WSJ.pdf"
+    ]
+  },
+  "FB_2018q3": {
+    "ticker": "FB",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-25",
+    "pdfs": [
+      "Facebook Shares Tumble as Growth Outlook Darkens - WSJ.pdf"
+    ]
+  },
+  "TSLA_2016q2": {
+    "ticker": "TSLA",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-05-04",
+    "pdfs": [
+      "Tesla Earnings: It\u2019s All About the Dream - WSJ.pdf"
+    ]
+  },
+  "TSLA_2016q3": {
+    "ticker": "TSLA",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-08-03",
+    "pdfs": [
+      "False Dawn at Tesla - WSJ.pdf"
+    ]
+  },
+  "TSLA_2016q4": {
+    "ticker": "TSLA",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-10-26",
+    "pdfs": [
+      "Tesla Generates a Profit - WSJ.pdf"
+    ]
+  },
+  "TSLA_2017q1": {
+    "ticker": "TSLA",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-02-22",
+    "pdfs": [
+      "Tesla Drives on the Edge - WSJ.pdf",
+      "Tesla Sets Aggressive Production Plan for Model 3 - WSJ.pdf"
+    ]
+  },
+  "TSLA_2017q2": {
+    "ticker": "TSLA",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-05-03",
+    "pdfs": [
+      "Musk Says Tesla on Track to Meet Model 3 Production Goal - WSJ.pdf"
+    ]
+  },
+  "TSLA_2017q3": {
+    "ticker": "TSLA",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-08-02",
+    "pdfs": [
+      "Tesla Loss Widens But Beats Expectations - WSJ.pdf"
+    ]
+  },
+  "TSLA_2017q4": {
+    "ticker": "TSLA",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-11-01",
+    "pdfs": [
+      "Tesla Posts Loss, Boosting Pressure to Speed Output of Model 3 - WSJ.pdf"
+    ]
+  },
+  "TSLA_2018q1": {
+    "ticker": "TSLA",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-02-07",
+    "pdfs": [
+      "Tesla Says It Is Making Progress on Model 3 Production Issues - WSJ.pdf"
+    ]
+  },
+  "TSLA_2018q2": {
+    "ticker": "TSLA",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-05-02",
+    "pdfs": [
+      "Tesla Continues to Burn Through Cash - WSJ.pdf"
+    ]
+  },
+  "TSLA_2018q3": {
+    "ticker": "TSLA",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-08-01",
+    "pdfs": [
+      "Tesla Doubles Loss, but Burns Less Cash Than Expected - WSJ.pdf"
+    ]
+  },
+  "LLY_2016q2": {
+    "ticker": "LLY",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-26",
+    "pdfs": [
+      "Eli Lilly Revenue Boosted by New Drug Sales - WSJ.pdf"
+    ]
+  },
+  "LLY_2016q3": {
+    "ticker": "LLY",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-07-26",
+    "pdfs": [
+      "Eli Lilly Revenue Helped by Sales of New Drugs - WSJ.pdf"
+    ]
+  },
+  "LLY_2016q4": {
+    "ticker": "LLY",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-10-25",
+    "pdfs": [
+      "Eli Lilly\u2019s Profit Dented by Higher Costs - WSJ.pdf"
+    ]
+  },
+  "LLY_2017q1": {
+    "ticker": "LLY",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-01-31",
+    "pdfs": [
+      "Eli Lilly Profit and Revenue Rise on New Drugs - WSJ.pdf"
+    ]
+  },
+  "LLY_2017q2": {
+    "ticker": "LLY",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-04-25",
+    "pdfs": [
+      "Eli Lilly Working to Cut Costs - WSJ.pdf"
+    ]
+  },
+  "LLY_2017q3": {
+    "ticker": "LLY",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-25",
+    "pdfs": []
+  },
+  "LLY_2017q4": {
+    "ticker": "LLY",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-10-24",
+    "pdfs": [
+      "Eli Lilly Exploring Spinoff of Elanco Animal-Health Business - WSJ.pdf"
+    ]
+  },
+  "LLY_2018q1": {
+    "ticker": "LLY",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-01-31",
+    "pdfs": []
+  },
+  "LLY_2018q2": {
+    "ticker": "LLY",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-04-24",
+    "pdfs": []
+  },
+  "LLY_2018q3": {
+    "ticker": "LLY",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-24",
+    "pdfs": [
+      "Eli Lilly to Offer Minority Stake in Animal-Health Business - WSJ.pdf"
+    ]
+  },
+  "WMT_2016q2": {
+    "ticker": "WMT",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-05-19",
+    "pdfs": [
+      "Wal-Mart Cheers Investors With Revenue Growth, Upbeat Outlook - WSJ.pdf"
+    ]
+  },
+  "WMT_2016q3": {
+    "ticker": "WMT",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-08-18",
+    "pdfs": [
+      "Wal-Mart Store Overhauls Help Boost Sales - WSJ.pdf"
+    ]
+  },
+  "WMT_2016q4": {
+    "ticker": "WMT",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-11-17",
+    "pdfs": [
+      "Wal-Mart Sales Edge Up, Though Profit Falls - WSJ.pdf"
+    ]
+  },
+  "WMT_2017q1": {
+    "ticker": "WMT",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-02-21",
+    "pdfs": [
+      "Wal-Mart Posts Strong Holiday Sales, But E-Commerce Battle With Amazon Pinches Profit - WSJ.pdf"
+    ]
+  },
+  "WMT_2017q2": {
+    "ticker": "WMT",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-05-18",
+    "pdfs": [
+      "Wal-Mart Draws Shoppers, Bucks the Retail Slump - WSJ.pdf"
+    ]
+  },
+  "WMT_2017q3": {
+    "ticker": "WMT",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-08-17",
+    "pdfs": [
+      "Wal-Mart Sales Rise as Retailer Dodges Industry Malaise - WSJ.pdf"
+    ]
+  },
+  "WMT_2017q4": {
+    "ticker": "WMT",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-11-16",
+    "pdfs": [
+      "Wal-Mart Posts Strongest U.S. Sales in Years, Powered by Groceries, E-Commerce - WSJ.pdf"
+    ]
+  },
+  "WMT_2018q1": {
+    "ticker": "WMT",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-02-20",
+    "pdfs": [
+      "Walmart Stumbles in Shift to Web Selling - WSJ.pdf"
+    ]
+  },
+  "WMT_2018q2": {
+    "ticker": "WMT",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-05-17",
+    "pdfs": [
+      "Store Changes Help Walmart, Macy\u2019s, but J.C. Penney Falls Further Behind - WSJ.pdf"
+    ]
+  },
+  "WMT_2018q3": {
+    "ticker": "WMT",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-08-16",
+    "pdfs": [
+      "A Big Smiley Face at Walmart - WSJ.pdf"
+    ]
+  }
+}

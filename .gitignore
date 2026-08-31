@@ -2,3 +2,7 @@ __pycache__/
 *.pyc
 .DS_Store
 .streamlit/
+wsj_scraper/venv/
+wsj_scraper/browser_profile/
+wsj_scraper/output/
+static/

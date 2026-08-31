@@ -34,6 +34,7 @@ import json
 import os
 import re
 import textwrap
+from urllib.parse import quote as url_quote
 
 import pandas as pd
 import plotly.graph_objects as go
@@ -48,12 +49,77 @@ DATA_PATH = os.path.join(HERE, "data", "earnings_241.json")
 NOTES_PATH = os.path.join(HERE, "data", "my_notes.json")
 LOGO_PATH = os.path.join(HERE, "assets", "mcgill_logo.png")
 PRICE_HISTORY_PATH = os.path.join(HERE, "data", "price_history.json")
+ABNORMAL_RETURNS_PATH = os.path.join(HERE, "data", "abnormal_returns.json")
 BULLETS_PATH = os.path.join(HERE, "data", "bullets_241.json")
 SOURCES_PATH = os.path.join(HERE, "data", "sources_241.json")
 CONTEXT_SUMMARIES_PATH = os.path.join(HERE, "data", "context_summaries_241.json")
 WEBSEARCH_LONG_PATH = os.path.join(HERE, "data", "websearch_long_241.json")
 COMPANY_INFO_PATH = os.path.join(HERE, "data", "company_info_241.json")
 COMPARATIVE_ANSWERS_PATH = os.path.join(HERE, "data", "comparative_answers_241.json")
+
+# "Data Visualization 2" -- three market-cap-banded groups of large/mega-cap
+# tickers pulled from the full 5,503-company returns panel (see
+# clean_earnings_data.py), NOT part of the original 241-observation pipeline.
+# These have real returns + fetched price history (group_price_history.json,
+# built by fetch_group_price_history.py). Contextual interpretation text
+# exists per-group as it's produced (group_context.json, built by
+# build_group_context.py from a "Context Data Visualization 2/Group_N_*.xlsx"
+# workbook) -- coverage is partial group-by-group, and there is still no
+# AI-generated "final_paragraph" text for these companies (that pipeline only
+# ever ran on the 17 tickers above), so this section shows the contextual
+# interpretation alone, full-width, rather than the original's left/right
+# interpretation-vs-generated-text comparison.
+GROUP_RETURNS_PATH = os.path.join(HERE, "Data - Returns", "earnings_returns_clean.csv")
+GROUP_PRICE_HISTORY_PATH = os.path.join(HERE, "data", "group_price_history.json")
+GROUP_ABNORMAL_RETURNS_PATH = os.path.join(HERE, "data", "group_abnormal_returns.json")
+GROUP_CONTEXT_PATH = os.path.join(HERE, "data", "group_context.json")
+GROUP_WSJ_COVERAGE_PATH = os.path.join(HERE, "data", "group_wsj_coverage.json")
+# Streamlit's static-file server (enabled via .streamlit/config.toml's
+# [server] enableStaticServing = true) only serves files placed under a
+# static/ folder next to this script, at the URL path /app/static/<path>.
+# A PDF opened via a data: URI in a new tab is silently blocked by Chrome
+# (a security restriction on data: URL navigation from link clicks, since
+# Chrome 65) -- confirmed empirically, no error, no tab, nothing happens --
+# so the PDFs are copied into static/ once (see the shell copy that
+# populated this) and linked to as real URLs instead, which have no such
+# restriction.
+GROUP_WSJ_STATIC_SLUGS = {
+    "Group 1": "wsj-group-1",
+    "Group 2": "wsj-group-2",
+    "Group 3": "wsj-group-3",
+}
+
+GROUPS = {
+    # GOOG and META intentionally excluded -- GOOGL and FB already cover
+    # Alphabet and Meta (both are the same company under a ticker-symbol
+    # split; see GROUP_COMPANY_NAMES below), so including both symbols per
+    # company would double-count them.
+    "Group 1": ["NVDA", "AAPL", "GOOGL", "MSFT", "AMZN", "AVGO", "FB", "TSLA", "LLY", "WMT"],
+    "Group 2": ["CAT", "GE", "PG", "NFLX", "HD", "PANW", "PM", "TXN", "KLAC", "AMAT"],
+    "Group 3": ["TJX", "NEM", "ISRG", "LMT", "SBUX", "CVS", "LOW", "ADBE", "MAR", "F"],
+}
+GROUP_MARKET_CAP_LABELS = {
+    # Escaped $ -- st.button()'s label is rendered through the same
+    # markdown/LaTeX pass as st.markdown, where a pair of unescaped $ signs
+    # gets interpreted as inline math (mangling to e.g. "50𝐵–150B" instead
+    # of showing literally). See the same issue/fix for $ in body text below.
+    "Group 1": ">\\$1T",
+    # Upper bound is the highest current market cap in the group (AMAT,
+    # ~$383B as of the last check), rounded up to a clean $400B.
+    "Group 2": "\\$250B to \\$400B",
+    "Group 3": "\\$50B\u2013\\$150B",
+}
+GROUP_COMPANY_NAMES = {
+    "NVDA": "NVIDIA", "AAPL": "Apple", "GOOGL": "Alphabet",
+    "MSFT": "Microsoft", "AMZN": "Amazon", "AVGO": "Broadcom", "FB": "Meta Platforms",
+    "TSLA": "Tesla", "LLY": "Eli Lilly", "WMT": "Walmart",
+    "CAT": "Caterpillar", "GE": "General Electric", "PG": "Procter & Gamble", "NFLX": "Netflix",
+    "HD": "Home Depot", "PANW": "Palo Alto Networks", "PM": "Philip Morris International",
+    "TXN": "Texas Instruments", "KLAC": "KLA Corporation", "AMAT": "Applied Materials",
+    "TJX": "TJX Companies", "NEM": "Newmont", "ISRG": "Intuitive Surgical", "LMT": "Lockheed Martin",
+    "SBUX": "Starbucks", "CVS": "CVS Health", "LOW": "Lowe's", "ADBE": "Adobe",
+    "MAR": "Marriott International", "F": "Ford Motor Company",
+}
 
 # Human-entered ratings comparing the AI-generated text against the grounded
 # context, collected in the "Comparative Study" section and displayed
@@ -365,6 +431,14 @@ def load_price_history(mtime_marker):
 
 
 @st.cache_data
+def load_abnormal_returns(mtime_marker):
+    if not os.path.exists(ABNORMAL_RETURNS_PATH):
+        return {}
+    with open(ABNORMAL_RETURNS_PATH) as f:
+        return json.load(f)
+
+
+@st.cache_data
 def load_bullets(mtime_marker):
     if not os.path.exists(BULLETS_PATH):
         return {}
@@ -424,6 +498,101 @@ def save_comparative_answers(answers):
 
 def anchor_id(ticker, fiscal_yearquarter):
     return f"q_{ticker}_{fiscal_yearquarter}"
+
+
+@st.cache_data
+def load_group_returns(mtime_marker):
+    """Data Visualization 2's underlying data: the cleaned full returns panel,
+    filtered to the group tickers and renamed to match the column names
+    render_price_chart()/build_quarter_visualize_fig() already expect
+    (earnings_date, fiscal_yearquarter), so those two chart functions can be
+    reused as-is for this section too."""
+    if not os.path.exists(GROUP_RETURNS_PATH):
+        return pd.DataFrame()
+    all_group_tickers = [t for tickers in GROUPS.values() for t in tickers]
+    df = pd.read_csv(GROUP_RETURNS_PATH, parse_dates=["earningsdate"])
+    df = df[df["ticker"].isin(all_group_tickers)].copy()
+    df = df.rename(columns={"earningsdate": "earnings_date", "yq": "fiscal_yearquarter"})
+    return df.sort_values(["ticker", "earnings_date"]).reset_index(drop=True)
+
+
+@st.cache_data
+def load_group_price_history(mtime_marker):
+    if not os.path.exists(GROUP_PRICE_HISTORY_PATH):
+        return None
+    with open(GROUP_PRICE_HISTORY_PATH) as f:
+        return json.load(f)
+
+
+@st.cache_data
+def load_group_abnormal_returns(mtime_marker):
+    if not os.path.exists(GROUP_ABNORMAL_RETURNS_PATH):
+        return {}
+    with open(GROUP_ABNORMAL_RETURNS_PATH) as f:
+        return json.load(f)
+
+
+@st.cache_data
+def load_group_context(mtime_marker):
+    if not os.path.exists(GROUP_CONTEXT_PATH):
+        return {}
+    with open(GROUP_CONTEXT_PATH) as f:
+        return json.load(f)
+
+
+@st.cache_data
+def load_group_wsj_coverage(mtime_marker):
+    if not os.path.exists(GROUP_WSJ_COVERAGE_PATH):
+        return {}
+    with open(GROUP_WSJ_COVERAGE_PATH) as f:
+        return json.load(f)
+
+
+def render_wsj_pdf_link(source, static_slug):
+    """A plain link that opens the source PDF in a new browser tab, served
+    from Streamlit's static/ folder (see GROUP_WSJ_STATIC_SLUGS above for
+    why this isn't a data: URI), plus a second "Download PDF" fallback
+    link with the `download` attribute -- in case the viewer's browser or
+    settings don't open the PDF inline (e.g. a PDF viewer extension
+    disabled, or a browser configured to always download PDFs instead of
+    displaying them), this forces a plain file save instead of doing
+    nothing."""
+    filename = source.get("filename")
+    if not filename or static_slug is None:
+        return
+    url = f"/app/static/{static_slug}/{url_quote(filename)}"
+    label = source.get("title") or filename
+    published = source.get("published_date", "")
+    label_text = f"{label} ({published})" if published else label
+    link_style = (
+        "display:block; color:#4A90D9; font-size:0.85rem; "
+        "margin-bottom:0.3rem; text-decoration:none;"
+    )
+    st.markdown(
+        f"<a href='{url}' target='_blank' rel='noopener noreferrer' style='{link_style}'>"
+        f"&#128196; Open PDF: {label_text}</a>"
+        f"<a href='{url}' download='{filename}' style='{link_style} font-size:0.78rem; opacity:0.8;'>"
+        f"&#11015; Download PDF</a>",
+        unsafe_allow_html=True,
+    )
+
+
+GROUP_PERIOD_MIDPOINT = pd.Timestamp("2017-07-01")  # midpoint of the 2010-2024 panel coverage
+
+
+def middle_n_quarters(ticker_df, n=10, anchor=GROUP_PERIOD_MIDPOINT):
+    """Take the n observations closest to the middle of the overall
+    2010-2024 panel period (not the middle of this particular ticker's own
+    row count) -- these tickers have 40-60 quarters each (vs. ~14 for the
+    curated 241-observation set), too many to show at once. Anchoring on the
+    fixed calendar midpoint, rather than each ticker's own coverage span,
+    keeps every ticker's 10 shown quarters comparable across tickers even
+    though a few (PANW, FB) don't cover the full period."""
+    n_rows = len(ticker_df)
+    if n_rows <= n:
+        return ticker_df
+    closest = ticker_df.iloc[(ticker_df["earnings_date"] - anchor).abs().argsort()[:n]]
+    return closest.sort_values("earnings_date")
 
 
 # =============================================================================
@@ -575,6 +744,42 @@ def sp_return_2day(sp_df_sorted, earnings_date):
     start_price = sp_df_sorted.iloc[start_pos]["close"]
     end_price = sp_df_sorted.iloc[end_pos]["close"]
     return (end_price / start_price - 1) * 100
+
+
+def excess_return_str(stock_ret_pct, sp_ret_pct):
+    """Stock's 2-day return in excess of the S&P's own 2-day return over the
+    same window -- how far the stock outperformed (positive) or
+    underperformed (negative) the market, isolating the stock-specific move
+    from whatever the broader market did on the same days."""
+    if sp_ret_pct is None:
+        return "n/a"
+    return f"{stock_ret_pct - sp_ret_pct:+.2f}%"
+
+
+def abnormal_return_str(market_model_info):
+    """Formats the "market_model" half of one entry from
+    abnormal_returns.json / group_abnormal_returns.json (computed by
+    compute_abnormal_returns.py -- beta-adjusted 2-day abnormal return,
+    standardized into a z-score by that stock's own historical volatility,
+    so it's comparable across tickers of very different normal
+    volatility). Returns "n/a" when there wasn't enough price history to
+    estimate it (e.g. a stock's first couple of quarters after IPO)."""
+    if not market_model_info:
+        return "n/a"
+    return f"{market_model_info['abnormal_return_pct']:+.2f}% ({market_model_info['z_score']:+.2f}σ)"
+
+
+def market_adjusted_z_suffix(market_adjusted_info):
+    """Formats the "market_adjusted" half of one entry (the simpler
+    Brown-and-Warner-style method: raw stock-minus-S&P excess return,
+    standardized by that stock's own historical excess-return volatility
+    instead of a beta regression) as a short " (+N.NNσ)" suffix to
+    append after an already-displayed raw excess-return % -- its
+    excess_return_pct is the same number as that display, just recomputed
+    independently as a consistency check. Empty string if unavailable."""
+    if not market_adjusted_info:
+        return ""
+    return f" ({market_adjusted_info['z_score']:+.2f}σ)"
 
 
 def render_price_chart(ticker, price_history, quarters_df):
@@ -887,6 +1092,7 @@ def build_quarter_visualize_fig(ticker, price_history, quarters_df, row_idx, con
 
 df = load_data(_mtime(DATA_PATH))
 price_history = load_price_history(_mtime(PRICE_HISTORY_PATH))
+abnormal_returns_lookup = load_abnormal_returns(_mtime(ABNORMAL_RETURNS_PATH))
 bullets_lookup = load_bullets(_mtime(BULLETS_PATH))
 sources_lookup = load_sources(_mtime(SOURCES_PATH))
 context_summaries_lookup = load_context_summaries(_mtime(CONTEXT_SUMMARIES_PATH))
@@ -894,6 +1100,11 @@ websearch_long_lookup = load_websearch_long(_mtime(WEBSEARCH_LONG_PATH))
 company_info_lookup = load_company_info(_mtime(COMPANY_INFO_PATH))
 comparative_answers_lookup = load_comparative_answers(_mtime(COMPARATIVE_ANSWERS_PATH))
 notes_lookup = load_notes(_mtime(NOTES_PATH))
+group_df = load_group_returns(_mtime(GROUP_RETURNS_PATH))
+group_price_history = load_group_price_history(_mtime(GROUP_PRICE_HISTORY_PATH))
+group_context_lookup = load_group_context(_mtime(GROUP_CONTEXT_PATH))
+group_abnormal_returns_lookup = load_group_abnormal_returns(_mtime(GROUP_ABNORMAL_RETURNS_PATH))
+group_wsj_coverage_lookup = load_group_wsj_coverage(_mtime(GROUP_WSJ_COVERAGE_PATH))
 
 tickers = sorted(df["ticker"].unique())
 ticker_labels = {
@@ -933,7 +1144,7 @@ st.markdown("<hr class='gold-divider'/>", unsafe_allow_html=True)
 if "selected_section" not in st.session_state:
     st.session_state.selected_section = "Data Visualization"
 
-sections = ["Data Visualization", "Comparative Study"]
+sections = ["Data Visualization", "Data Visualization 2", "Comparative Study"]
 section_cols = st.columns(len(sections))
 for col, sec in zip(section_cols, sections):
     with col:
@@ -947,6 +1158,189 @@ for col, sec in zip(section_cols, sections):
             st.session_state.selected_section = sec
 
 st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+if st.session_state.selected_section == "Data Visualization 2":
+    # Three market-cap-banded ticker groups from the full returns panel (see
+    # the GROUPS/GROUP_COMPANY_NAMES comment near the top of the file for
+    # why this section can't show the left/right interpretation-vs-generated
+    # comparison the way Data Visualization does -- that content doesn't
+    # exist for these companies). Same nav-bar-then-chart presentation,
+    # 10 observations per ticker (centered on the panel's 2010-2024
+    # midpoint -- see middle_n_quarters) instead of every quarter, since
+    # these tickers have 40-60 quarters each rather than ~14.
+    if "selected_group" not in st.session_state:
+        st.session_state.selected_group = list(GROUPS.keys())[0]
+
+    group_cols = st.columns(len(GROUPS))
+    for col, g in zip(group_cols, GROUPS.keys()):
+        with col:
+            is_selected = st.session_state.selected_group == g
+            g_label = f"{g} ({GROUP_MARKET_CAP_LABELS[g]})"
+            if st.button(
+                g_label,
+                key=f"groupbtn_{g}",
+                use_container_width=True,
+                type="primary" if is_selected else "secondary",
+            ):
+                st.session_state.selected_group = g
+                # Selecting a new group resets the ticker nav to that
+                # group's first ticker, same as switching sections does.
+                st.session_state.selected_group_ticker = GROUPS[g][0]
+
+    st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+    selected_group = st.session_state.selected_group
+    group_tickers = GROUPS[selected_group]
+
+    if "selected_group_ticker" not in st.session_state or st.session_state.selected_group_ticker not in group_tickers:
+        st.session_state.selected_group_ticker = group_tickers[0]
+
+    group_ticker_cols = st.columns(len(group_tickers))
+    for col, t in zip(group_ticker_cols, group_tickers):
+        with col:
+            is_selected = st.session_state.selected_group_ticker == t
+            if st.button(
+                t,
+                key=f"groupnavbtn_{t}",
+                use_container_width=True,
+                type="primary" if is_selected else "secondary",
+                help=GROUP_COMPANY_NAMES.get(t, t),
+            ):
+                st.session_state.selected_group_ticker = t
+
+    st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+    g_ticker = st.session_state.selected_group_ticker
+    g_sub_full = group_df[group_df["ticker"] == g_ticker].reset_index(drop=True)
+
+    if g_sub_full.empty:
+        st.info(f"No returns data available for {g_ticker}.")
+        st.stop()
+
+    g_sub = middle_n_quarters(g_sub_full, n=10).reset_index(drop=True)
+    g_company_name = GROUP_COMPANY_NAMES.get(g_ticker, g_ticker)
+    g_period_start = g_sub["earnings_date"].min().strftime("%Y-%m-%d")
+    g_period_end = g_sub["earnings_date"].max().strftime("%Y-%m-%d")
+
+    st.markdown(
+        f"<div class='quarter-header' style='font-size:1.4rem; text-align:center;'>{g_ticker} — {g_company_name}</div>",
+        unsafe_allow_html=True,
+    )
+    st.markdown(
+        f"<div style='text-align:center; color:rgba(214,228,240,0.7); font-size:0.85rem;'>"
+        f"Showing {len(g_sub)} of {len(g_sub_full)} quarters covered ({g_sub_full['earnings_date'].min().strftime('%Y-%m-%d')} "
+        f"to {g_sub_full['earnings_date'].max().strftime('%Y-%m-%d')}), centered on {g_period_start} – {g_period_end}</div>",
+        unsafe_allow_html=True,
+    )
+
+    render_price_chart(g_ticker, group_price_history, g_sub)
+
+    st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+    g_sp_df_for_headers = None
+    if group_price_history is not None:
+        g_sp_df_for_headers = pd.DataFrame(group_price_history["sp500"])
+        g_sp_df_for_headers["date"] = pd.to_datetime(g_sp_df_for_headers["date"])
+        g_sp_df_for_headers = g_sp_df_for_headers.sort_values("date").reset_index(drop=True)
+
+    for g_idx, g_row in g_sub.iterrows():
+        g_ret_pct = g_row["ret_2day"] * 100
+        g_ret_str = f"{g_ret_pct:+.2f}%"
+
+        g_sp_ret = sp_return_2day(g_sp_df_for_headers, g_row["earnings_date"]) if g_sp_df_for_headers is not None else None
+        g_sp_ret_str = f"{g_sp_ret:+.2f}%" if g_sp_ret is not None else "n/a"
+        g_excess_str = excess_return_str(g_ret_pct, g_sp_ret)
+        g_note_key_lookup = f"{g_ticker}_{g_row['fiscal_yearquarter']}"
+        g_abnormal_info = group_abnormal_returns_lookup.get(g_note_key_lookup, {})
+        g_abnormal_str = abnormal_return_str(g_abnormal_info.get("market_model"))
+        g_ma_z_suffix = market_adjusted_z_suffix(g_abnormal_info.get("market_adjusted"))
+
+        st.markdown(
+            f"<div class='quarter-header' style='text-align:center;'>{g_row['fiscal_yearquarter'].upper()} "
+            f"&nbsp;|&nbsp; earnings {g_row['earnings_date'].strftime('%Y-%m-%d')}</div>"
+            f"<div class='quarter-header' style='text-align:center;'>2-day return {g_ret_str} "
+            f"&nbsp;|&nbsp; S&amp;P 2-day return {g_sp_ret_str}</div>"
+            f"<div style=\"text-align:center; font-size:1.5rem; font-family:'Cormorant Garamond', serif; color:rgba(214,228,240,0.9); margin-bottom:0.3rem;\">"
+            f"Excess return {g_excess_str}{g_ma_z_suffix} &nbsp;|&nbsp; "
+            f"Beta-adjusted abnormal return {g_abnormal_str}</div>",
+            unsafe_allow_html=True,
+        )
+
+        g_note_key = f"group2_{g_ticker}_{g_row['fiscal_yearquarter']}"
+        with st.container(key=f"gviz_{g_note_key}"):
+            g_viz_toggle_id = f"gviz_toggle_{g_note_key}"
+            st.html(
+                f"<input type='checkbox' id='{g_viz_toggle_id}' class='visualize-checkbox'>"
+                f"<label for='{g_viz_toggle_id}' class='visualize-label'>Visualize</label>"
+            )
+            g_viz_fig = build_quarter_visualize_fig(g_ticker, group_price_history, g_sub, g_idx)
+            if g_viz_fig is not None:
+                st.plotly_chart(g_viz_fig, use_container_width=True, key=f"gviz_chart_{g_note_key}")
+
+        g_context_key = f"{g_ticker}_{g_row['fiscal_yearquarter']}"
+        g_left, g_right = st.columns(2, gap="large")
+
+        with g_left:
+            g_context_sections = group_context_lookup.get(g_context_key)
+            if g_context_sections:
+                st.markdown(
+                    "<div style='text-align:center; font-weight:bold;'>Contextualized interpretation</div>",
+                    unsafe_allow_html=True,
+                )
+                st.html(format_websearch_context(g_context_sections, g_note_key))
+            else:
+                st.markdown(
+                    "<div style='text-align:center; font-weight:bold;'>Contextualized interpretation</div>",
+                    unsafe_allow_html=True,
+                )
+                st.write("*No contextual interpretation available for this observation.*")
+
+        with g_right:
+            st.markdown(
+                "<div style='text-align:center; font-weight:bold;'>WSJ Coverage</div>",
+                unsafe_allow_html=True,
+            )
+            # No spacer needed here (unlike the original Data Visualization
+            # section's right column, which has no heading of its own and
+            # needs a hidden spacer to match the left column's height): this
+            # column's own "Summary Analysis" heading below uses the same
+            # .context-heading style as the left column's "Prior Context"
+            # heading, so the two paragraphs line up from parallel
+            # structure alone.
+            g_wsj_entry = group_wsj_coverage_lookup.get(g_context_key)
+            if g_wsj_entry and (g_wsj_entry.get("summary_analysis") or g_wsj_entry.get("why_moved")):
+                g_wsj_paras = ""
+                if g_wsj_entry.get("summary_analysis"):
+                    g_wsj_paras += (
+                        "<div class='context-heading'>Summary Analysis</div>"
+                        f"<p style='margin-bottom:0.8rem; font-size:1.1rem; text-align:justify;'>"
+                        f"{render_inline_markdown(g_wsj_entry['summary_analysis'])}</p>"
+                    )
+                if g_wsj_entry.get("why_moved"):
+                    g_wsj_paras += (
+                        "<div class='context-heading'>Why The Stock Moved</div>"
+                        f"<p style='margin-bottom:0.8rem; font-size:1.1rem; text-align:justify;'>"
+                        f"{render_inline_markdown(g_wsj_entry['why_moved'])}</p>"
+                    )
+                st.html(f"<div class='format-body'>{g_wsj_paras}</div>")
+                g_static_slug = GROUP_WSJ_STATIC_SLUGS.get(selected_group)
+                for g_source in g_wsj_entry.get("sources", []):
+                    render_wsj_pdf_link(g_source, g_static_slug)
+            else:
+                st.write("*No WSJ coverage found for this observation.*")
+
+        st.markdown(
+            f"<div style='text-align:center; color:rgba(214,228,240,0.85); font-size:0.95rem; "
+            f"margin:0.4rem 0 1rem 0;'>1-day return {g_row['ret_1day']*100:+.2f}%"
+            f"&nbsp;|&nbsp; 1-day post {g_row['ret_1daypost']*100:+.2f}%"
+            f"&nbsp;|&nbsp; 3-day {g_row['ret_3day']*100:+.2f}%"
+            f"&nbsp;|&nbsp; 5-day {g_row['ret_5day']*100:+.2f}%</div>",
+            unsafe_allow_html=True,
+        )
+
+        st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+    st.stop()
 
 if st.session_state.selected_section == "Comparative Study":
     # Same 17-ticker nav bar as Data Visualization, but tracked with its own
@@ -1135,18 +1529,23 @@ for idx, row in sub.iterrows():
     ret_pct = row["ret_2day"] * 100
     ret_str = f"{ret_pct:+.2f}%"
 
-    sp_ret_str = "n/a"
-    if sp_df_for_headers is not None:
-        sp_ret = sp_return_2day(sp_df_for_headers, row["earnings_date"])
-        if sp_ret is not None:
-            sp_ret_str = f"{sp_ret:+.2f}%"
+    sp_ret = sp_return_2day(sp_df_for_headers, row["earnings_date"]) if sp_df_for_headers is not None else None
+    sp_ret_str = f"{sp_ret:+.2f}%" if sp_ret is not None else "n/a"
+    excess_str = excess_return_str(ret_pct, sp_ret)
+    abnormal_info = abnormal_returns_lookup.get(note_key, {})
+    abnormal_str = abnormal_return_str(abnormal_info.get("market_model"))
+    ma_z_suffix = market_adjusted_z_suffix(abnormal_info.get("market_adjusted"))
 
     st.html(f"<div id='{anchor_id(row['ticker'], row['fiscal_yearquarter'])}'></div>")
 
     st.markdown(
         f"<div class='quarter-header' style='text-align:center;'>{row['fiscal_yearquarter'].upper()} "
-        f"&nbsp;|&nbsp; earnings {row['earnings_date'].strftime('%Y-%m-%d')} "
-        f"&nbsp;|&nbsp; 2-day return {ret_str} &nbsp;|&nbsp; S&amp;P 2-day return {sp_ret_str}</div>",
+        f"&nbsp;|&nbsp; earnings {row['earnings_date'].strftime('%Y-%m-%d')}</div>"
+        f"<div class='quarter-header' style='text-align:center;'>2-day return {ret_str} "
+        f"&nbsp;|&nbsp; S&amp;P 2-day return {sp_ret_str}</div>"
+        f"<div style=\"text-align:center; font-size:1.5rem; font-family:'Cormorant Garamond', serif; color:rgba(214,228,240,0.9); margin-bottom:0.3rem;\">"
+        f"Excess return {excess_str}{ma_z_suffix} &nbsp;|&nbsp; "
+        f"Beta-adjusted abnormal return {abnormal_str}</div>",
         unsafe_allow_html=True,
     )
 

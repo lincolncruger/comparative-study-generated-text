@@ -16,7 +16,12 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 EARNINGS_PATH = os.path.join(HERE, "data", "earnings_241.json")
 OUT_PATH = os.path.join(HERE, "data", "price_history.json")
 
-PAD = pd.DateOffset(months=3)
+PAD_END = pd.DateOffset(months=3)
+# Padding before the earliest quarter needs to be wide enough for a beta
+# estimation window (~250 trading days, ending ~46 days before the event --
+# see compute_abnormal_returns.py) even for that ticker's very first shown
+# quarter, not just 3 months.
+PAD_START = pd.DateOffset(months=13)
 
 
 def fetch_series(symbol, start, end):
@@ -37,8 +42,8 @@ def main():
     earnings["earnings_date"] = pd.to_datetime(earnings["earnings_date"])
     spans = earnings.groupby("ticker")["earnings_date"].agg(["min", "max"])
 
-    overall_start = (spans["min"].min() - PAD)
-    overall_end = (spans["max"].max() + PAD)
+    overall_start = (spans["min"].min() - PAD_START)
+    overall_end = (spans["max"].max() + PAD_END)
 
     print(f"Fetching S&P 500 (^GSPC): {overall_start.date()} -> {overall_end.date()}")
     sp500 = fetch_series("^GSPC", overall_start, overall_end)
@@ -47,8 +52,8 @@ def main():
     result = {"sp500": sp500, "tickers": {}}
 
     for ticker in spans.index:
-        window_start = spans.loc[ticker, "min"] - PAD
-        window_end = spans.loc[ticker, "max"] + PAD
+        window_start = spans.loc[ticker, "min"] - PAD_START
+        window_end = spans.loc[ticker, "max"] + PAD_END
         print(f"Fetching {ticker}: {window_start.date()} -> {window_end.date()}")
         series = fetch_series(ticker, window_start, window_end)
         print(f"  {len(series)} rows")

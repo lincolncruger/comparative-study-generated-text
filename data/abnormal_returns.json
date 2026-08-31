@@ -1,0 +1,3587 @@
+{
+  "AAON_2017q3": {
+    "market_model": {
+      "beta": 1.749,
+      "abnormal_return_pct": 3.684,
+      "sigma_pct": 2.042,
+      "z_score": 1.804,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": 3.969,
+      "sigma_pct": 2.123,
+      "z_score": 1.869,
+      "n_obs": 174
+    }
+  },
+  "AAON_2018q4": {
+    "market_model": {
+      "beta": 0.682,
+      "abnormal_return_pct": 12.29,
+      "sigma_pct": 2.541,
+      "z_score": 4.837,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 12.376,
+      "sigma_pct": 2.533,
+      "z_score": 4.886,
+      "n_obs": 175
+    }
+  },
+  "AAON_2019q2": {
+    "market_model": {
+      "beta": 1.043,
+      "abnormal_return_pct": 2.248,
+      "sigma_pct": 2.514,
+      "z_score": 0.895,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": 2.468,
+      "sigma_pct": 2.524,
+      "z_score": 0.978,
+      "n_obs": 174
+    }
+  },
+  "AAON_2019q4": {
+    "market_model": {
+      "beta": 1.319,
+      "abnormal_return_pct": -3.699,
+      "sigma_pct": 2.124,
+      "z_score": -1.742,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -3.101,
+      "sigma_pct": 2.176,
+      "z_score": -1.425,
+      "n_obs": 175
+    }
+  },
+  "AAON_2020q1": {
+    "market_model": {
+      "beta": 1.434,
+      "abnormal_return_pct": 3.186,
+      "sigma_pct": 1.909,
+      "z_score": 1.669,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 4.693,
+      "sigma_pct": 2.004,
+      "z_score": 2.342,
+      "n_obs": 175
+    }
+  },
+  "AAON_2020q2": {
+    "market_model": {
+      "beta": 0.955,
+      "abnormal_return_pct": -0.816,
+      "sigma_pct": 3.782,
+      "z_score": -0.216,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -0.639,
+      "sigma_pct": 3.752,
+      "z_score": -0.17,
+      "n_obs": 175
+    }
+  },
+  "AAON_2021q4": {
+    "market_model": {
+      "beta": 0.7,
+      "abnormal_return_pct": 0.87,
+      "sigma_pct": 2.034,
+      "z_score": 0.428,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 0.557,
+      "sigma_pct": 2.055,
+      "z_score": 0.271,
+      "n_obs": 175
+    }
+  },
+  "AAON_2022q3": {
+    "market_model": {
+      "beta": 0.672,
+      "abnormal_return_pct": -3.394,
+      "sigma_pct": 2.917,
+      "z_score": -1.163,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": -4.097,
+      "sigma_pct": 3.011,
+      "z_score": -1.361,
+      "n_obs": 176
+    }
+  },
+  "AAON_2023q1": {
+    "market_model": {
+      "beta": 0.863,
+      "abnormal_return_pct": 11.613,
+      "sigma_pct": 2.961,
+      "z_score": 3.922,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": 12.309,
+      "sigma_pct": 2.998,
+      "z_score": 4.106,
+      "n_obs": 176
+    }
+  },
+  "AAON_2024q1": {
+    "market_model": {
+      "beta": 1.462,
+      "abnormal_return_pct": -4.3,
+      "sigma_pct": 2.519,
+      "z_score": -1.707,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -3.81,
+      "sigma_pct": 2.538,
+      "z_score": -1.501,
+      "n_obs": 175
+    }
+  },
+  "AAON_2024q4": {
+    "market_model": {
+      "beta": 1.101,
+      "abnormal_return_pct": 12.972,
+      "sigma_pct": 3.338,
+      "z_score": 3.886,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": 13.284,
+      "sigma_pct": 3.312,
+      "z_score": 4.01,
+      "n_obs": 174
+    }
+  },
+  "ABM_2018q1": {
+    "market_model": {
+      "beta": 1.361,
+      "abnormal_return_pct": 2.948,
+      "sigma_pct": 2.237,
+      "z_score": 1.318,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": 2.791,
+      "sigma_pct": 2.231,
+      "z_score": 1.251,
+      "n_obs": 176
+    }
+  },
+  "ABM_2018q2": {
+    "market_model": {
+      "beta": 1.036,
+      "abnormal_return_pct": 11.489,
+      "sigma_pct": 2.336,
+      "z_score": 4.919,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 11.071,
+      "sigma_pct": 2.322,
+      "z_score": 4.768,
+      "n_obs": 175
+    }
+  },
+  "ABM_2018q3": {
+    "market_model": {
+      "beta": 0.932,
+      "abnormal_return_pct": 6.794,
+      "sigma_pct": 2.469,
+      "z_score": 2.751,
+      "n_obs": 173
+    },
+    "market_adjusted": {
+      "excess_return_pct": 6.425,
+      "sigma_pct": 2.443,
+      "z_score": 2.63,
+      "n_obs": 173
+    }
+  },
+  "ABM_2018q4": {
+    "market_model": {
+      "beta": 0.884,
+      "abnormal_return_pct": 23.066,
+      "sigma_pct": 2.374,
+      "z_score": 9.716,
+      "n_obs": 179
+    },
+    "market_adjusted": {
+      "excess_return_pct": 23.317,
+      "sigma_pct": 2.357,
+      "z_score": 9.894,
+      "n_obs": 179
+    }
+  },
+  "ABM_2019q1": {
+    "market_model": {
+      "beta": 0.917,
+      "abnormal_return_pct": -4.651,
+      "sigma_pct": 3.218,
+      "z_score": -1.445,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -4.298,
+      "sigma_pct": 3.233,
+      "z_score": -1.329,
+      "n_obs": 175
+    }
+  },
+  "ABM_2019q2": {
+    "market_model": {
+      "beta": 1.012,
+      "abnormal_return_pct": 2.668,
+      "sigma_pct": 3.155,
+      "z_score": 0.846,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": 2.931,
+      "sigma_pct": 3.17,
+      "z_score": 0.924,
+      "n_obs": 174
+    }
+  },
+  "ABM_2019q3": {
+    "market_model": {
+      "beta": 1.118,
+      "abnormal_return_pct": -5.12,
+      "sigma_pct": 2.871,
+      "z_score": -1.784,
+      "n_obs": 172
+    },
+    "market_adjusted": {
+      "excess_return_pct": -4.854,
+      "sigma_pct": 2.893,
+      "z_score": -1.678,
+      "n_obs": 172
+    }
+  },
+  "ABM_2019q4": {
+    "market_model": {
+      "beta": 1.294,
+      "abnormal_return_pct": 3.515,
+      "sigma_pct": 1.741,
+      "z_score": 2.019,
+      "n_obs": 178
+    },
+    "market_adjusted": {
+      "excess_return_pct": 3.679,
+      "sigma_pct": 1.768,
+      "z_score": 2.081,
+      "n_obs": 178
+    }
+  },
+  "ABM_2020q1": {
+    "market_model": {
+      "beta": 1.199,
+      "abnormal_return_pct": 8.852,
+      "sigma_pct": 1.566,
+      "z_score": 5.653,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": 7.735,
+      "sigma_pct": 1.58,
+      "z_score": 4.895,
+      "n_obs": 176
+    }
+  },
+  "ABM_2020q2": {
+    "market_model": {
+      "beta": 1.113,
+      "abnormal_return_pct": 15.389,
+      "sigma_pct": 3.269,
+      "z_score": 4.708,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 15.277,
+      "sigma_pct": 3.324,
+      "z_score": 4.596,
+      "n_obs": 175
+    }
+  },
+  "ABM_2020q3": {
+    "market_model": {
+      "beta": 1.157,
+      "abnormal_return_pct": 1.19,
+      "sigma_pct": 4.187,
+      "z_score": 0.284,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 1.168,
+      "sigma_pct": 4.236,
+      "z_score": 0.276,
+      "n_obs": 175
+    }
+  },
+  "ABM_2020q4": {
+    "market_model": {
+      "beta": 1.14,
+      "abnormal_return_pct": -2.407,
+      "sigma_pct": 4.312,
+      "z_score": -0.558,
+      "n_obs": 178
+    },
+    "market_adjusted": {
+      "excess_return_pct": -2.333,
+      "sigma_pct": 4.338,
+      "z_score": -0.538,
+      "n_obs": 178
+    }
+  },
+  "ABM_2021q1": {
+    "market_model": {
+      "beta": 1.269,
+      "abnormal_return_pct": 1.703,
+      "sigma_pct": 3.612,
+      "z_score": 0.472,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": 2.059,
+      "sigma_pct": 3.644,
+      "z_score": 0.565,
+      "n_obs": 176
+    }
+  },
+  "ABM_2021q2": {
+    "market_model": {
+      "beta": 1.001,
+      "abnormal_return_pct": -0.363,
+      "sigma_pct": 2.807,
+      "z_score": -0.129,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": -0.209,
+      "sigma_pct": 2.814,
+      "z_score": -0.074,
+      "n_obs": 176
+    }
+  },
+  "ABM_2021q3": {
+    "market_model": {
+      "beta": 1.179,
+      "abnormal_return_pct": -0.669,
+      "sigma_pct": 2.519,
+      "z_score": -0.265,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": -0.94,
+      "sigma_pct": 2.6,
+      "z_score": -0.361,
+      "n_obs": 174
+    }
+  },
+  "ABM_2021q4": {
+    "market_model": {
+      "beta": 1.026,
+      "abnormal_return_pct": -8.818,
+      "sigma_pct": 2.08,
+      "z_score": -4.24,
+      "n_obs": 178
+    },
+    "market_adjusted": {
+      "excess_return_pct": -8.956,
+      "sigma_pct": 2.084,
+      "z_score": -4.298,
+      "n_obs": 178
+    }
+  },
+  "ABM_2022q1": {
+    "market_model": {
+      "beta": 0.817,
+      "abnormal_return_pct": -0.708,
+      "sigma_pct": 2.385,
+      "z_score": -0.297,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": -1.364,
+      "sigma_pct": 2.392,
+      "z_score": -0.57,
+      "n_obs": 177
+    }
+  },
+  "ABM_2022q2": {
+    "market_model": {
+      "beta": 0.515,
+      "abnormal_return_pct": -7.476,
+      "sigma_pct": 2.525,
+      "z_score": -2.961,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": -4.748,
+      "sigma_pct": 2.636,
+      "z_score": -1.801,
+      "n_obs": 176
+    }
+  },
+  "ABM_2022q3": {
+    "market_model": {
+      "beta": 0.756,
+      "abnormal_return_pct": -4.982,
+      "sigma_pct": 3.029,
+      "z_score": -1.645,
+      "n_obs": 173
+    },
+    "market_adjusted": {
+      "excess_return_pct": -4.095,
+      "sigma_pct": 2.989,
+      "z_score": -1.37,
+      "n_obs": 173
+    }
+  },
+  "ABM_2022q4": {
+    "market_model": {
+      "beta": 0.889,
+      "abnormal_return_pct": -0.862,
+      "sigma_pct": 2.608,
+      "z_score": -0.33,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": -0.279,
+      "sigma_pct": 2.571,
+      "z_score": -0.109,
+      "n_obs": 177
+    }
+  },
+  "ABM_2023q1": {
+    "market_model": {
+      "beta": 1.016,
+      "abnormal_return_pct": 1.462,
+      "sigma_pct": 2.282,
+      "z_score": 0.641,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": 1.46,
+      "sigma_pct": 2.265,
+      "z_score": 0.645,
+      "n_obs": 174
+    }
+  },
+  "ABM_2023q2": {
+    "market_model": {
+      "beta": 0.907,
+      "abnormal_return_pct": 5.814,
+      "sigma_pct": 1.825,
+      "z_score": 3.186,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": 5.756,
+      "sigma_pct": 1.831,
+      "z_score": 3.144,
+      "n_obs": 176
+    }
+  },
+  "ABM_2023q3": {
+    "market_model": {
+      "beta": 0.738,
+      "abnormal_return_pct": -12.504,
+      "sigma_pct": 1.875,
+      "z_score": -6.67,
+      "n_obs": 172
+    },
+    "market_adjusted": {
+      "excess_return_pct": -12.855,
+      "sigma_pct": 1.906,
+      "z_score": -6.743,
+      "n_obs": 172
+    }
+  },
+  "ABM_2023q4": {
+    "market_model": {
+      "beta": 0.892,
+      "abnormal_return_pct": 3.567,
+      "sigma_pct": 2.271,
+      "z_score": 1.571,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": 3.344,
+      "sigma_pct": 2.268,
+      "z_score": 1.474,
+      "n_obs": 176
+    }
+  },
+  "ABM_2024q1": {
+    "market_model": {
+      "beta": 1.13,
+      "abnormal_return_pct": 3.453,
+      "sigma_pct": 2.85,
+      "z_score": 1.212,
+      "n_obs": 173
+    },
+    "market_adjusted": {
+      "excess_return_pct": 3.175,
+      "sigma_pct": 2.829,
+      "z_score": 1.122,
+      "n_obs": 173
+    }
+  },
+  "ABM_2024q2": {
+    "market_model": {
+      "beta": 1.168,
+      "abnormal_return_pct": 6.962,
+      "sigma_pct": 2.66,
+      "z_score": 2.617,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": 6.864,
+      "sigma_pct": 2.64,
+      "z_score": 2.6,
+      "n_obs": 174
+    }
+  },
+  "ABM_2024q3": {
+    "market_model": {
+      "beta": 0.938,
+      "abnormal_return_pct": -12.014,
+      "sigma_pct": 2.499,
+      "z_score": -4.808,
+      "n_obs": 172
+    },
+    "market_adjusted": {
+      "excess_return_pct": -11.951,
+      "sigma_pct": 2.476,
+      "z_score": -4.827,
+      "n_obs": 172
+    }
+  },
+  "ABM_2024q4": {
+    "market_model": {
+      "beta": 0.587,
+      "abnormal_return_pct": -4.418,
+      "sigma_pct": 2.076,
+      "z_score": -2.129,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": -4.567,
+      "sigma_pct": 2.122,
+      "z_score": -2.152,
+      "n_obs": 177
+    }
+  },
+  "ABSI_2022q3": {
+    "market_model": {
+      "beta": 1.986,
+      "abnormal_return_pct": 8.173,
+      "sigma_pct": 7.753,
+      "z_score": 1.054,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": 9.773,
+      "sigma_pct": 7.891,
+      "z_score": 1.238,
+      "n_obs": 174
+    }
+  },
+  "ACCO_2019q3": {
+    "market_model": {
+      "beta": 0.897,
+      "abnormal_return_pct": 23.101,
+      "sigma_pct": 3.341,
+      "z_score": 6.915,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 22.982,
+      "sigma_pct": 3.344,
+      "z_score": 6.872,
+      "n_obs": 175
+    }
+  },
+  "ACCO_2019q4": {
+    "market_model": {
+      "beta": 0.996,
+      "abnormal_return_pct": -11.803,
+      "sigma_pct": 3.253,
+      "z_score": -3.628,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": -11.493,
+      "sigma_pct": 3.264,
+      "z_score": -3.521,
+      "n_obs": 177
+    }
+  },
+  "ACCO_2020q1": {
+    "market_model": {
+      "beta": 0.822,
+      "abnormal_return_pct": 11.714,
+      "sigma_pct": 3.29,
+      "z_score": 3.56,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": 11.665,
+      "sigma_pct": 3.298,
+      "z_score": 3.537,
+      "n_obs": 177
+    }
+  },
+  "ACCO_2021q1": {
+    "market_model": {
+      "beta": 1.449,
+      "abnormal_return_pct": -5.428,
+      "sigma_pct": 4.725,
+      "z_score": -1.149,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": -5.522,
+      "sigma_pct": 4.877,
+      "z_score": -1.132,
+      "n_obs": 177
+    }
+  },
+  "ACCO_2021q2": {
+    "market_model": {
+      "beta": 1.193,
+      "abnormal_return_pct": 3.361,
+      "sigma_pct": 3.956,
+      "z_score": 0.85,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": 3.513,
+      "sigma_pct": 4.009,
+      "z_score": 0.876,
+      "n_obs": 176
+    }
+  },
+  "ACCO_2022q1": {
+    "market_model": {
+      "beta": 1.393,
+      "abnormal_return_pct": 9.481,
+      "sigma_pct": 2.603,
+      "z_score": 3.643,
+      "n_obs": 178
+    },
+    "market_adjusted": {
+      "excess_return_pct": 8.508,
+      "sigma_pct": 2.583,
+      "z_score": 3.294,
+      "n_obs": 178
+    }
+  },
+  "ACCO_2022q2": {
+    "market_model": {
+      "beta": 1.04,
+      "abnormal_return_pct": -5.449,
+      "sigma_pct": 2.711,
+      "z_score": -2.01,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": -5.296,
+      "sigma_pct": 2.706,
+      "z_score": -1.958,
+      "n_obs": 177
+    }
+  },
+  "ACCO_2023q1": {
+    "market_model": {
+      "beta": 0.901,
+      "abnormal_return_pct": -2.233,
+      "sigma_pct": 2.909,
+      "z_score": -0.768,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": -2.266,
+      "sigma_pct": 2.913,
+      "z_score": -0.778,
+      "n_obs": 174
+    }
+  },
+  "ACCO_2023q2": {
+    "market_model": {
+      "beta": 0.999,
+      "abnormal_return_pct": 12.86,
+      "sigma_pct": 3.138,
+      "z_score": 4.098,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 12.621,
+      "sigma_pct": 3.132,
+      "z_score": 4.029,
+      "n_obs": 175
+    }
+  },
+  "ACCO_2024q1": {
+    "market_model": {
+      "beta": 1.271,
+      "abnormal_return_pct": -14.918,
+      "sigma_pct": 3.255,
+      "z_score": -4.583,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": -14.679,
+      "sigma_pct": 3.252,
+      "z_score": -4.515,
+      "n_obs": 174
+    }
+  },
+  "ACMR_2019q2": {
+    "market_model": {
+      "beta": 1.313,
+      "abnormal_return_pct": 2.498,
+      "sigma_pct": 5.166,
+      "z_score": 0.484,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": 2.76,
+      "sigma_pct": 5.205,
+      "z_score": 0.53,
+      "n_obs": 176
+    }
+  },
+  "ACMR_2019q3": {
+    "market_model": {
+      "beta": 1.037,
+      "abnormal_return_pct": 8.641,
+      "sigma_pct": 5.242,
+      "z_score": 1.648,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": 9.274,
+      "sigma_pct": 5.318,
+      "z_score": 1.744,
+      "n_obs": 174
+    }
+  },
+  "ACMR_2020q1": {
+    "market_model": {
+      "beta": 1.649,
+      "abnormal_return_pct": -3.06,
+      "sigma_pct": 7.302,
+      "z_score": -0.419,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -4.798,
+      "sigma_pct": 7.502,
+      "z_score": -0.64,
+      "n_obs": 175
+    }
+  },
+  "ACMR_2022q4": {
+    "market_model": {
+      "beta": 1.933,
+      "abnormal_return_pct": 30.255,
+      "sigma_pct": 6.181,
+      "z_score": 4.895,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": 31.626,
+      "sigma_pct": 6.482,
+      "z_score": 4.879,
+      "n_obs": 174
+    }
+  },
+  "ACMR_2024q1": {
+    "market_model": {
+      "beta": 3.067,
+      "abnormal_return_pct": 36.628,
+      "sigma_pct": 5.913,
+      "z_score": 6.195,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 40.03,
+      "sigma_pct": 6.206,
+      "z_score": 6.451,
+      "n_obs": 175
+    }
+  },
+  "ACVA_2021q4": {
+    "market_model": {
+      "beta": 0.879,
+      "abnormal_return_pct": -3.314,
+      "sigma_pct": 4.689,
+      "z_score": -0.707,
+      "n_obs": 128
+    },
+    "market_adjusted": {
+      "excess_return_pct": -4.232,
+      "sigma_pct": 4.667,
+      "z_score": -0.907,
+      "n_obs": 127
+    }
+  },
+  "ACVA_2023q1": {
+    "market_model": {
+      "beta": 1.915,
+      "abnormal_return_pct": 21.315,
+      "sigma_pct": 5.757,
+      "z_score": 3.703,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 20.626,
+      "sigma_pct": 6.216,
+      "z_score": 3.318,
+      "n_obs": 175
+    }
+  },
+  "ADMA_2017q2": {
+    "market_model": {
+      "beta": 0.303,
+      "abnormal_return_pct": 0.409,
+      "sigma_pct": 5.277,
+      "z_score": 0.077,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -0.124,
+      "sigma_pct": 5.318,
+      "z_score": -0.023,
+      "n_obs": 175
+    }
+  },
+  "ADMA_2017q4": {
+    "market_model": {
+      "beta": 0.213,
+      "abnormal_return_pct": -6.691,
+      "sigma_pct": 5.082,
+      "z_score": -1.317,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -7.159,
+      "sigma_pct": 5.13,
+      "z_score": -1.396,
+      "n_obs": 175
+    }
+  },
+  "ADMA_2018q1": {
+    "market_model": {
+      "beta": 0.589,
+      "abnormal_return_pct": -1.712,
+      "sigma_pct": 6.686,
+      "z_score": -0.256,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": -1.904,
+      "sigma_pct": 6.786,
+      "z_score": -0.281,
+      "n_obs": 176
+    }
+  },
+  "ADMA_2018q2": {
+    "market_model": {
+      "beta": 0.731,
+      "abnormal_return_pct": 6.176,
+      "sigma_pct": 6.054,
+      "z_score": 1.02,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": 6.622,
+      "sigma_pct": 6.144,
+      "z_score": 1.078,
+      "n_obs": 177
+    }
+  },
+  "ADMA_2018q4": {
+    "market_model": {
+      "beta": 0.611,
+      "abnormal_return_pct": -6.342,
+      "sigma_pct": 4.851,
+      "z_score": -1.307,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -4.568,
+      "sigma_pct": 4.926,
+      "z_score": -0.927,
+      "n_obs": 175
+    }
+  },
+  "ADMA_2019q1": {
+    "market_model": {
+      "beta": 0.727,
+      "abnormal_return_pct": -0.645,
+      "sigma_pct": 6.614,
+      "z_score": -0.098,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": -0.962,
+      "sigma_pct": 6.73,
+      "z_score": -0.143,
+      "n_obs": 174
+    }
+  },
+  "ADMA_2019q2": {
+    "market_model": {
+      "beta": 0.957,
+      "abnormal_return_pct": 8.079,
+      "sigma_pct": 7.367,
+      "z_score": 1.097,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 8.094,
+      "sigma_pct": 7.537,
+      "z_score": 1.074,
+      "n_obs": 175
+    }
+  },
+  "ADMA_2021q2": {
+    "market_model": {
+      "beta": 0.432,
+      "abnormal_return_pct": -5.914,
+      "sigma_pct": 6.749,
+      "z_score": -0.876,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": -7.864,
+      "sigma_pct": 6.694,
+      "z_score": -1.175,
+      "n_obs": 176
+    }
+  },
+  "ADMA_2023q2": {
+    "market_model": {
+      "beta": 1.494,
+      "abnormal_return_pct": 13.946,
+      "sigma_pct": 4.309,
+      "z_score": 3.237,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": 14.258,
+      "sigma_pct": 4.408,
+      "z_score": 3.234,
+      "n_obs": 176
+    }
+  },
+  "ADMA_2024q1": {
+    "market_model": {
+      "beta": 0.996,
+      "abnormal_return_pct": -4.835,
+      "sigma_pct": 3.826,
+      "z_score": -1.264,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -4.538,
+      "sigma_pct": 3.868,
+      "z_score": -1.173,
+      "n_obs": 175
+    }
+  },
+  "ADMA_2024q3": {
+    "market_model": {
+      "beta": 1.304,
+      "abnormal_return_pct": 34.179,
+      "sigma_pct": 4.106,
+      "z_score": 8.324,
+      "n_obs": 173
+    },
+    "market_adjusted": {
+      "excess_return_pct": 35.499,
+      "sigma_pct": 4.143,
+      "z_score": 8.568,
+      "n_obs": 173
+    }
+  },
+  "ADT_2018q3": {
+    "market_model": {
+      "beta": 0.49,
+      "abnormal_return_pct": -6.445,
+      "sigma_pct": 4.774,
+      "z_score": -1.35,
+      "n_obs": 107
+    },
+    "market_adjusted": {
+      "excess_return_pct": -6.523,
+      "sigma_pct": 4.816,
+      "z_score": -1.354,
+      "n_obs": 106
+    }
+  },
+  "ADT_2018q4": {
+    "market_model": {
+      "beta": 0.553,
+      "abnormal_return_pct": 9.736,
+      "sigma_pct": 4.314,
+      "z_score": 2.257,
+      "n_obs": 170
+    },
+    "market_adjusted": {
+      "excess_return_pct": 10.014,
+      "sigma_pct": 4.34,
+      "z_score": 2.308,
+      "n_obs": 169
+    }
+  },
+  "ADT_2019q1": {
+    "market_model": {
+      "beta": 1.162,
+      "abnormal_return_pct": -13.737,
+      "sigma_pct": 3.272,
+      "z_score": -4.198,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -13.488,
+      "sigma_pct": 3.296,
+      "z_score": -4.092,
+      "n_obs": 175
+    }
+  },
+  "ADT_2019q2": {
+    "market_model": {
+      "beta": 1.183,
+      "abnormal_return_pct": -9.151,
+      "sigma_pct": 3.546,
+      "z_score": -2.581,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": -9.529,
+      "sigma_pct": 3.548,
+      "z_score": -2.686,
+      "n_obs": 176
+    }
+  },
+  "ADT_2019q4": {
+    "market_model": {
+      "beta": 1.58,
+      "abnormal_return_pct": 7.883,
+      "sigma_pct": 3.637,
+      "z_score": 2.167,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": 7.709,
+      "sigma_pct": 3.696,
+      "z_score": 2.085,
+      "n_obs": 177
+    }
+  },
+  "ADT_2020q1": {
+    "market_model": {
+      "beta": 1.256,
+      "abnormal_return_pct": 3.65,
+      "sigma_pct": 3.777,
+      "z_score": 0.966,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 1.298,
+      "sigma_pct": 3.787,
+      "z_score": 0.343,
+      "n_obs": 175
+    }
+  },
+  "ADT_2020q2": {
+    "market_model": {
+      "beta": 0.793,
+      "abnormal_return_pct": -2.29,
+      "sigma_pct": 4.252,
+      "z_score": -0.538,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -2.737,
+      "sigma_pct": 4.146,
+      "z_score": -0.66,
+      "n_obs": 175
+    }
+  },
+  "ADT_2020q3": {
+    "market_model": {
+      "beta": 0.916,
+      "abnormal_return_pct": -8.127,
+      "sigma_pct": 4.547,
+      "z_score": -1.787,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -7.75,
+      "sigma_pct": 4.477,
+      "z_score": -1.731,
+      "n_obs": 175
+    }
+  },
+  "ADT_2020q4": {
+    "market_model": {
+      "beta": 0.971,
+      "abnormal_return_pct": 0.558,
+      "sigma_pct": 7.205,
+      "z_score": 0.077,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 1.098,
+      "sigma_pct": 7.069,
+      "z_score": 0.155,
+      "n_obs": 175
+    }
+  },
+  "ADT_2021q1": {
+    "market_model": {
+      "beta": 1.195,
+      "abnormal_return_pct": -25.854,
+      "sigma_pct": 6.651,
+      "z_score": -3.888,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -25.147,
+      "sigma_pct": 6.532,
+      "z_score": -3.85,
+      "n_obs": 175
+    }
+  },
+  "ADT_2021q2": {
+    "market_model": {
+      "beta": 1.35,
+      "abnormal_return_pct": 0.595,
+      "sigma_pct": 7.208,
+      "z_score": 0.083,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": 1.109,
+      "sigma_pct": 7.084,
+      "z_score": 0.157,
+      "n_obs": 176
+    }
+  },
+  "ADT_2021q3": {
+    "market_model": {
+      "beta": 1.43,
+      "abnormal_return_pct": -14.995,
+      "sigma_pct": 4.245,
+      "z_score": -3.533,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -14.587,
+      "sigma_pct": 4.249,
+      "z_score": -3.433,
+      "n_obs": 175
+    }
+  },
+  "ADT_2021q4": {
+    "market_model": {
+      "beta": 1.496,
+      "abnormal_return_pct": 2.29,
+      "sigma_pct": 4.369,
+      "z_score": 0.524,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": 1.644,
+      "sigma_pct": 4.371,
+      "z_score": 0.376,
+      "n_obs": 177
+    }
+  },
+  "ADT_2022q1": {
+    "market_model": {
+      "beta": 1.201,
+      "abnormal_return_pct": 6.194,
+      "sigma_pct": 3.061,
+      "z_score": 2.023,
+      "n_obs": 178
+    },
+    "market_adjusted": {
+      "excess_return_pct": 6.211,
+      "sigma_pct": 3.048,
+      "z_score": 2.038,
+      "n_obs": 178
+    }
+  },
+  "ADT_2022q2": {
+    "market_model": {
+      "beta": 1.258,
+      "abnormal_return_pct": 6.05,
+      "sigma_pct": 2.992,
+      "z_score": 2.022,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": 4.758,
+      "sigma_pct": 3.013,
+      "z_score": 1.579,
+      "n_obs": 176
+    }
+  },
+  "ADT_2022q3": {
+    "market_model": {
+      "beta": 1.306,
+      "abnormal_return_pct": 10.129,
+      "sigma_pct": 2.654,
+      "z_score": 3.816,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 10.088,
+      "sigma_pct": 2.722,
+      "z_score": 3.705,
+      "n_obs": 175
+    }
+  },
+  "ADT_2022q4": {
+    "market_model": {
+      "beta": 1.225,
+      "abnormal_return_pct": -0.753,
+      "sigma_pct": 2.954,
+      "z_score": -0.255,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": 0.151,
+      "sigma_pct": 3.077,
+      "z_score": 0.049,
+      "n_obs": 174
+    }
+  },
+  "ADT_2023q1": {
+    "market_model": {
+      "beta": 1.085,
+      "abnormal_return_pct": -3.539,
+      "sigma_pct": 2.783,
+      "z_score": -1.272,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": -3.027,
+      "sigma_pct": 2.795,
+      "z_score": -1.083,
+      "n_obs": 176
+    }
+  },
+  "ADT_2023q2": {
+    "market_model": {
+      "beta": 0.987,
+      "abnormal_return_pct": -17.863,
+      "sigma_pct": 2.908,
+      "z_score": -6.143,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": -17.719,
+      "sigma_pct": 2.905,
+      "z_score": -6.1,
+      "n_obs": 177
+    }
+  },
+  "ADT_2023q3": {
+    "market_model": {
+      "beta": 1.188,
+      "abnormal_return_pct": 7.73,
+      "sigma_pct": 3.188,
+      "z_score": 2.425,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 7.027,
+      "sigma_pct": 3.17,
+      "z_score": 2.217,
+      "n_obs": 175
+    }
+  },
+  "ADT_2024q1": {
+    "market_model": {
+      "beta": 1.516,
+      "abnormal_return_pct": 8.772,
+      "sigma_pct": 3.122,
+      "z_score": 2.81,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 9.475,
+      "sigma_pct": 3.225,
+      "z_score": 2.938,
+      "n_obs": 175
+    }
+  },
+  "ADT_2024q2": {
+    "market_model": {
+      "beta": 1.208,
+      "abnormal_return_pct": -1.342,
+      "sigma_pct": 3.315,
+      "z_score": -0.405,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": -1.094,
+      "sigma_pct": 3.301,
+      "z_score": -0.332,
+      "n_obs": 174
+    }
+  },
+  "AES_2017q1": {
+    "market_model": {
+      "beta": 1.246,
+      "abnormal_return_pct": -4.536,
+      "sigma_pct": 2.176,
+      "z_score": -2.085,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": -4.316,
+      "sigma_pct": 2.189,
+      "z_score": -1.971,
+      "n_obs": 177
+    }
+  },
+  "AES_2017q2": {
+    "market_model": {
+      "beta": 1.126,
+      "abnormal_return_pct": 0.537,
+      "sigma_pct": 2.205,
+      "z_score": 0.243,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": 0.347,
+      "sigma_pct": 2.201,
+      "z_score": 0.158,
+      "n_obs": 177
+    }
+  },
+  "AES_2017q3": {
+    "market_model": {
+      "beta": 0.818,
+      "abnormal_return_pct": 3.049,
+      "sigma_pct": 2.023,
+      "z_score": 1.507,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": 3.258,
+      "sigma_pct": 2.013,
+      "z_score": 1.619,
+      "n_obs": 176
+    }
+  },
+  "AES_2017q4": {
+    "market_model": {
+      "beta": 0.546,
+      "abnormal_return_pct": -1.307,
+      "sigma_pct": 1.598,
+      "z_score": -0.818,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -1.518,
+      "sigma_pct": 1.603,
+      "z_score": -0.947,
+      "n_obs": 175
+    }
+  },
+  "AES_2018q1": {
+    "market_model": {
+      "beta": 0.44,
+      "abnormal_return_pct": 7.568,
+      "sigma_pct": 1.516,
+      "z_score": 4.993,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": 8.861,
+      "sigma_pct": 1.52,
+      "z_score": 5.83,
+      "n_obs": 177
+    }
+  },
+  "AES_2018q3": {
+    "market_model": {
+      "beta": 0.479,
+      "abnormal_return_pct": 0.649,
+      "sigma_pct": 2.089,
+      "z_score": 0.311,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": 0.907,
+      "sigma_pct": 2.139,
+      "z_score": 0.424,
+      "n_obs": 176
+    }
+  },
+  "AES_2018q4": {
+    "market_model": {
+      "beta": 0.507,
+      "abnormal_return_pct": -0.334,
+      "sigma_pct": 2.145,
+      "z_score": -0.156,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": -0.938,
+      "sigma_pct": 2.199,
+      "z_score": -0.427,
+      "n_obs": 177
+    }
+  },
+  "AES_2019q1": {
+    "market_model": {
+      "beta": 0.664,
+      "abnormal_return_pct": -0.703,
+      "sigma_pct": 1.896,
+      "z_score": -0.371,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -0.522,
+      "sigma_pct": 1.955,
+      "z_score": -0.267,
+      "n_obs": 175
+    }
+  },
+  "AES_2019q2": {
+    "market_model": {
+      "beta": 0.685,
+      "abnormal_return_pct": -3.332,
+      "sigma_pct": 1.706,
+      "z_score": -1.953,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": -2.755,
+      "sigma_pct": 1.772,
+      "z_score": -1.554,
+      "n_obs": 176
+    }
+  },
+  "AES_2019q3": {
+    "market_model": {
+      "beta": 0.632,
+      "abnormal_return_pct": -6.695,
+      "sigma_pct": 1.702,
+      "z_score": -3.932,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -7.247,
+      "sigma_pct": 1.783,
+      "z_score": -4.065,
+      "n_obs": 175
+    }
+  },
+  "AES_2019q4": {
+    "market_model": {
+      "beta": 0.591,
+      "abnormal_return_pct": 1.617,
+      "sigma_pct": 1.7,
+      "z_score": 0.951,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": 1.421,
+      "sigma_pct": 1.701,
+      "z_score": 0.835,
+      "n_obs": 176
+    }
+  },
+  "AES_2020q1": {
+    "market_model": {
+      "beta": 0.687,
+      "abnormal_return_pct": -4.469,
+      "sigma_pct": 1.692,
+      "z_score": -2.641,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -4.836,
+      "sigma_pct": 1.676,
+      "z_score": -2.886,
+      "n_obs": 175
+    }
+  },
+  "AES_2020q3": {
+    "market_model": {
+      "beta": 1.228,
+      "abnormal_return_pct": 10.649,
+      "sigma_pct": 3.933,
+      "z_score": 2.707,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": 10.582,
+      "sigma_pct": 3.978,
+      "z_score": 2.66,
+      "n_obs": 174
+    }
+  },
+  "AES_2020q4": {
+    "market_model": {
+      "beta": 1.198,
+      "abnormal_return_pct": -2.285,
+      "sigma_pct": 4.176,
+      "z_score": -0.547,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -2.059,
+      "sigma_pct": 4.212,
+      "z_score": -0.489,
+      "n_obs": 175
+    }
+  },
+  "AES_2021q1": {
+    "market_model": {
+      "beta": 1.122,
+      "abnormal_return_pct": -4.675,
+      "sigma_pct": 2.766,
+      "z_score": -1.69,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -3.981,
+      "sigma_pct": 2.804,
+      "z_score": -1.42,
+      "n_obs": 175
+    }
+  },
+  "AES_2021q3": {
+    "market_model": {
+      "beta": 1.223,
+      "abnormal_return_pct": 2.537,
+      "sigma_pct": 2.496,
+      "z_score": 1.016,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 2.824,
+      "sigma_pct": 2.484,
+      "z_score": 1.137,
+      "n_obs": 175
+    }
+  },
+  "AES_2021q4": {
+    "market_model": {
+      "beta": 1.356,
+      "abnormal_return_pct": -2.854,
+      "sigma_pct": 2.341,
+      "z_score": -1.219,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": -2.797,
+      "sigma_pct": 2.352,
+      "z_score": -1.189,
+      "n_obs": 176
+    }
+  },
+  "AES_2022q2": {
+    "market_model": {
+      "beta": 0.909,
+      "abnormal_return_pct": 3.429,
+      "sigma_pct": 1.895,
+      "z_score": 1.81,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": 3.691,
+      "sigma_pct": 1.905,
+      "z_score": 1.937,
+      "n_obs": 176
+    }
+  },
+  "AES_2022q4": {
+    "market_model": {
+      "beta": 0.985,
+      "abnormal_return_pct": -1.816,
+      "sigma_pct": 2.305,
+      "z_score": -0.788,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": -1.42,
+      "sigma_pct": 2.295,
+      "z_score": -0.619,
+      "n_obs": 174
+    }
+  },
+  "AES_2023q1": {
+    "market_model": {
+      "beta": 1.084,
+      "abnormal_return_pct": -2.197,
+      "sigma_pct": 2.388,
+      "z_score": -0.92,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": -1.831,
+      "sigma_pct": 2.396,
+      "z_score": -0.764,
+      "n_obs": 176
+    }
+  },
+  "AES_2023q2": {
+    "market_model": {
+      "beta": 1.05,
+      "abnormal_return_pct": -2.301,
+      "sigma_pct": 2.341,
+      "z_score": -0.983,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -2.113,
+      "sigma_pct": 2.337,
+      "z_score": -0.904,
+      "n_obs": 175
+    }
+  },
+  "AES_2023q3": {
+    "market_model": {
+      "beta": 1.047,
+      "abnormal_return_pct": -6.046,
+      "sigma_pct": 2.06,
+      "z_score": -2.934,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": -6.383,
+      "sigma_pct": 2.055,
+      "z_score": -3.106,
+      "n_obs": 174
+    }
+  },
+  "AES_2023q4": {
+    "market_model": {
+      "beta": 1.179,
+      "abnormal_return_pct": 8.996,
+      "sigma_pct": 2.014,
+      "z_score": 4.466,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": 8.567,
+      "sigma_pct": 2.027,
+      "z_score": 4.227,
+      "n_obs": 174
+    }
+  },
+  "AES_2024q2": {
+    "market_model": {
+      "beta": 1.38,
+      "abnormal_return_pct": -2.065,
+      "sigma_pct": 3.028,
+      "z_score": -0.682,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -1.732,
+      "sigma_pct": 3.026,
+      "z_score": -0.572,
+      "n_obs": 175
+    }
+  },
+  "AES_2024q3": {
+    "market_model": {
+      "beta": 1.285,
+      "abnormal_return_pct": 6.668,
+      "sigma_pct": 3.129,
+      "z_score": 2.131,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": 5.519,
+      "sigma_pct": 3.172,
+      "z_score": 1.74,
+      "n_obs": 174
+    }
+  },
+  "AES_2024q4": {
+    "market_model": {
+      "beta": 1.046,
+      "abnormal_return_pct": -8.18,
+      "sigma_pct": 3.183,
+      "z_score": -2.57,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": -8.33,
+      "sigma_pct": 3.187,
+      "z_score": -2.614,
+      "n_obs": 174
+    }
+  },
+  "AGCO_2017q1": {
+    "market_model": {
+      "beta": 1.436,
+      "abnormal_return_pct": 0.493,
+      "sigma_pct": 1.871,
+      "z_score": 0.263,
+      "n_obs": 179
+    },
+    "market_adjusted": {
+      "excess_return_pct": 0.838,
+      "sigma_pct": 1.935,
+      "z_score": 0.433,
+      "n_obs": 179
+    }
+  },
+  "AGCO_2017q3": {
+    "market_model": {
+      "beta": 1.557,
+      "abnormal_return_pct": 0.627,
+      "sigma_pct": 1.492,
+      "z_score": 0.42,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": 0.704,
+      "sigma_pct": 1.564,
+      "z_score": 0.45,
+      "n_obs": 174
+    }
+  },
+  "AGCO_2017q4": {
+    "market_model": {
+      "beta": 1.643,
+      "abnormal_return_pct": -3.37,
+      "sigma_pct": 1.229,
+      "z_score": -2.741,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": -3.215,
+      "sigma_pct": 1.325,
+      "z_score": -2.426,
+      "n_obs": 177
+    }
+  },
+  "AGCO_2018q1": {
+    "market_model": {
+      "beta": 1.606,
+      "abnormal_return_pct": 3.618,
+      "sigma_pct": 1.425,
+      "z_score": 2.539,
+      "n_obs": 178
+    },
+    "market_adjusted": {
+      "excess_return_pct": 1.041,
+      "sigma_pct": 1.528,
+      "z_score": 0.681,
+      "n_obs": 178
+    }
+  },
+  "AGCO_2018q2": {
+    "market_model": {
+      "beta": 0.746,
+      "abnormal_return_pct": -4.377,
+      "sigma_pct": 1.632,
+      "z_score": -2.683,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": -4.229,
+      "sigma_pct": 1.629,
+      "z_score": -2.597,
+      "n_obs": 177
+    }
+  },
+  "AGCO_2018q3": {
+    "market_model": {
+      "beta": 0.827,
+      "abnormal_return_pct": 1.74,
+      "sigma_pct": 1.807,
+      "z_score": 0.963,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": 1.396,
+      "sigma_pct": 1.803,
+      "z_score": 0.774,
+      "n_obs": 176
+    }
+  },
+  "AGCO_2018q4": {
+    "market_model": {
+      "beta": 0.873,
+      "abnormal_return_pct": 3.807,
+      "sigma_pct": 1.969,
+      "z_score": 1.933,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": 3.259,
+      "sigma_pct": 1.959,
+      "z_score": 1.664,
+      "n_obs": 177
+    }
+  },
+  "AGCO_2019q1": {
+    "market_model": {
+      "beta": 0.97,
+      "abnormal_return_pct": -1.246,
+      "sigma_pct": 2.235,
+      "z_score": -0.557,
+      "n_obs": 178
+    },
+    "market_adjusted": {
+      "excess_return_pct": -1.297,
+      "sigma_pct": 2.225,
+      "z_score": -0.583,
+      "n_obs": 178
+    }
+  },
+  "AGCO_2019q2": {
+    "market_model": {
+      "beta": 0.99,
+      "abnormal_return_pct": 5.182,
+      "sigma_pct": 2.157,
+      "z_score": 2.403,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": 5.281,
+      "sigma_pct": 2.148,
+      "z_score": 2.459,
+      "n_obs": 174
+    }
+  },
+  "AGCO_2019q3": {
+    "market_model": {
+      "beta": 0.967,
+      "abnormal_return_pct": 3.658,
+      "sigma_pct": 2.047,
+      "z_score": 1.787,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 3.976,
+      "sigma_pct": 2.055,
+      "z_score": 1.935,
+      "n_obs": 175
+    }
+  },
+  "AGCO_2019q4": {
+    "market_model": {
+      "beta": 1.371,
+      "abnormal_return_pct": -1.413,
+      "sigma_pct": 2.037,
+      "z_score": -0.694,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": -1.291,
+      "sigma_pct": 2.094,
+      "z_score": -0.617,
+      "n_obs": 177
+    }
+  },
+  "AGCO_2020q1": {
+    "market_model": {
+      "beta": 1.381,
+      "abnormal_return_pct": -8.651,
+      "sigma_pct": 2.046,
+      "z_score": -4.228,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": -8.62,
+      "sigma_pct": 2.089,
+      "z_score": -4.126,
+      "n_obs": 176
+    }
+  },
+  "AGCO_2020q2": {
+    "market_model": {
+      "beta": 1.121,
+      "abnormal_return_pct": -2.762,
+      "sigma_pct": 3.198,
+      "z_score": -0.864,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": -3.032,
+      "sigma_pct": 3.022,
+      "z_score": -1.003,
+      "n_obs": 177
+    }
+  },
+  "AGCO_2020q3": {
+    "market_model": {
+      "beta": 1.13,
+      "abnormal_return_pct": 1.937,
+      "sigma_pct": 3.65,
+      "z_score": 0.531,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": 1.856,
+      "sigma_pct": 3.534,
+      "z_score": 0.525,
+      "n_obs": 174
+    }
+  },
+  "AGCO_2020q4": {
+    "market_model": {
+      "beta": 1.091,
+      "abnormal_return_pct": -0.709,
+      "sigma_pct": 3.974,
+      "z_score": -0.178,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": -0.266,
+      "sigma_pct": 3.862,
+      "z_score": -0.069,
+      "n_obs": 177
+    }
+  },
+  "AGCO_2022q1": {
+    "market_model": {
+      "beta": 1.309,
+      "abnormal_return_pct": 11.311,
+      "sigma_pct": 2.573,
+      "z_score": 4.395,
+      "n_obs": 178
+    },
+    "market_adjusted": {
+      "excess_return_pct": 10.786,
+      "sigma_pct": 2.606,
+      "z_score": 4.139,
+      "n_obs": 178
+    }
+  },
+  "AGCO_2022q2": {
+    "market_model": {
+      "beta": 1.202,
+      "abnormal_return_pct": 2.999,
+      "sigma_pct": 2.834,
+      "z_score": 1.058,
+      "n_obs": 178
+    },
+    "market_adjusted": {
+      "excess_return_pct": 2.901,
+      "sigma_pct": 2.864,
+      "z_score": 1.013,
+      "n_obs": 178
+    }
+  },
+  "AGCO_2022q3": {
+    "market_model": {
+      "beta": 0.998,
+      "abnormal_return_pct": 0.987,
+      "sigma_pct": 3.055,
+      "z_score": 0.323,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 1.149,
+      "sigma_pct": 3.049,
+      "z_score": 0.377,
+      "n_obs": 175
+    }
+  },
+  "AGCO_2022q4": {
+    "market_model": {
+      "beta": 1.077,
+      "abnormal_return_pct": -0.652,
+      "sigma_pct": 3.127,
+      "z_score": -0.209,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": -0.755,
+      "sigma_pct": 3.169,
+      "z_score": -0.238,
+      "n_obs": 176
+    }
+  },
+  "AGCO_2023q1": {
+    "market_model": {
+      "beta": 1.12,
+      "abnormal_return_pct": 1.467,
+      "sigma_pct": 2.683,
+      "z_score": 0.547,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": 1.456,
+      "sigma_pct": 2.688,
+      "z_score": 0.542,
+      "n_obs": 177
+    }
+  },
+  "AGCO_2024q1": {
+    "market_model": {
+      "beta": 1.244,
+      "abnormal_return_pct": -4.485,
+      "sigma_pct": 2.083,
+      "z_score": -2.153,
+      "n_obs": 178
+    },
+    "market_adjusted": {
+      "excess_return_pct": -4.407,
+      "sigma_pct": 2.108,
+      "z_score": -2.091,
+      "n_obs": 178
+    }
+  },
+  "AGCO_2024q2": {
+    "market_model": {
+      "beta": 1.043,
+      "abnormal_return_pct": -4.572,
+      "sigma_pct": 1.963,
+      "z_score": -2.329,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -4.74,
+      "sigma_pct": 1.968,
+      "z_score": -2.408,
+      "n_obs": 175
+    }
+  },
+  "AGCO_2024q3": {
+    "market_model": {
+      "beta": 0.87,
+      "abnormal_return_pct": -8.304,
+      "sigma_pct": 1.974,
+      "z_score": -4.206,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": -8.639,
+      "sigma_pct": 1.968,
+      "z_score": -4.389,
+      "n_obs": 176
+    }
+  },
+  "AGCO_2024q4": {
+    "market_model": {
+      "beta": 0.684,
+      "abnormal_return_pct": -8.98,
+      "sigma_pct": 2.211,
+      "z_score": -4.063,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": -10.383,
+      "sigma_pct": 2.239,
+      "z_score": -4.638,
+      "n_obs": 176
+    }
+  },
+  "AIR_2017q1": {
+    "market_model": {
+      "beta": 1.327,
+      "abnormal_return_pct": 1.418,
+      "sigma_pct": 2.705,
+      "z_score": 0.524,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": 1.695,
+      "sigma_pct": 2.749,
+      "z_score": 0.617,
+      "n_obs": 176
+    }
+  },
+  "AIR_2017q4": {
+    "market_model": {
+      "beta": 1.779,
+      "abnormal_return_pct": -6.554,
+      "sigma_pct": 1.703,
+      "z_score": -3.849,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": -6.615,
+      "sigma_pct": 1.773,
+      "z_score": -3.73,
+      "n_obs": 177
+    }
+  },
+  "AIR_2018q1": {
+    "market_model": {
+      "beta": 1.387,
+      "abnormal_return_pct": 5.719,
+      "sigma_pct": 1.998,
+      "z_score": 2.862,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": 4.643,
+      "sigma_pct": 2.017,
+      "z_score": 2.302,
+      "n_obs": 176
+    }
+  },
+  "AIR_2018q4": {
+    "market_model": {
+      "beta": 1.0,
+      "abnormal_return_pct": 2.891,
+      "sigma_pct": 2.339,
+      "z_score": 1.236,
+      "n_obs": 179
+    },
+    "market_adjusted": {
+      "excess_return_pct": 3.078,
+      "sigma_pct": 2.359,
+      "z_score": 1.305,
+      "n_obs": 179
+    }
+  },
+  "AIR_2019q1": {
+    "market_model": {
+      "beta": 1.091,
+      "abnormal_return_pct": -5.932,
+      "sigma_pct": 2.614,
+      "z_score": -2.27,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -6.015,
+      "sigma_pct": 2.646,
+      "z_score": -2.274,
+      "n_obs": 175
+    }
+  },
+  "AIR_2019q4": {
+    "market_model": {
+      "beta": 1.354,
+      "abnormal_return_pct": 13.097,
+      "sigma_pct": 2.169,
+      "z_score": 6.038,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": 13.341,
+      "sigma_pct": 2.225,
+      "z_score": 5.996,
+      "n_obs": 177
+    }
+  },
+  "AIR_2020q1": {
+    "market_model": {
+      "beta": 1.183,
+      "abnormal_return_pct": 3.758,
+      "sigma_pct": 2.404,
+      "z_score": 1.563,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": 5.379,
+      "sigma_pct": 2.428,
+      "z_score": 2.215,
+      "n_obs": 177
+    }
+  },
+  "AIR_2020q4": {
+    "market_model": {
+      "beta": 1.62,
+      "abnormal_return_pct": 3.661,
+      "sigma_pct": 8.483,
+      "z_score": 0.432,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": 2.739,
+      "sigma_pct": 8.711,
+      "z_score": 0.314,
+      "n_obs": 177
+    }
+  },
+  "AIR_2021q1": {
+    "market_model": {
+      "beta": 1.967,
+      "abnormal_return_pct": -0.232,
+      "sigma_pct": 5.418,
+      "z_score": -0.043,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": 0.064,
+      "sigma_pct": 5.766,
+      "z_score": 0.011,
+      "n_obs": 177
+    }
+  },
+  "AIR_2021q4": {
+    "market_model": {
+      "beta": 1.56,
+      "abnormal_return_pct": 2.227,
+      "sigma_pct": 2.314,
+      "z_score": 0.963,
+      "n_obs": 179
+    },
+    "market_adjusted": {
+      "excess_return_pct": 2.782,
+      "sigma_pct": 2.339,
+      "z_score": 1.189,
+      "n_obs": 179
+    }
+  },
+  "AIR_2022q1": {
+    "market_model": {
+      "beta": 1.23,
+      "abnormal_return_pct": 8.892,
+      "sigma_pct": 2.414,
+      "z_score": 3.684,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": 8.876,
+      "sigma_pct": 2.408,
+      "z_score": 3.686,
+      "n_obs": 177
+    }
+  },
+  "AIR_2022q4": {
+    "market_model": {
+      "beta": 0.964,
+      "abnormal_return_pct": -5.171,
+      "sigma_pct": 2.573,
+      "z_score": -2.01,
+      "n_obs": 178
+    },
+    "market_adjusted": {
+      "excess_return_pct": -4.978,
+      "sigma_pct": 2.563,
+      "z_score": -1.942,
+      "n_obs": 178
+    }
+  },
+  "AIR_2023q1": {
+    "market_model": {
+      "beta": 1.063,
+      "abnormal_return_pct": 8.086,
+      "sigma_pct": 2.347,
+      "z_score": 3.446,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 8.097,
+      "sigma_pct": 2.344,
+      "z_score": 3.455,
+      "n_obs": 175
+    }
+  },
+  "AIR_2023q4": {
+    "market_model": {
+      "beta": 0.901,
+      "abnormal_return_pct": -12.285,
+      "sigma_pct": 1.915,
+      "z_score": -6.414,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": -12.251,
+      "sigma_pct": 1.931,
+      "z_score": -6.344,
+      "n_obs": 176
+    }
+  },
+  "AIR_2024q1": {
+    "market_model": {
+      "beta": 0.887,
+      "abnormal_return_pct": -6.321,
+      "sigma_pct": 2.269,
+      "z_score": -2.786,
+      "n_obs": 173
+    },
+    "market_adjusted": {
+      "excess_return_pct": -6.214,
+      "sigma_pct": 2.281,
+      "z_score": -2.724,
+      "n_obs": 173
+    }
+  },
+  "AKA_2022q1": {
+    "market_model": {
+      "beta": 1.67,
+      "abnormal_return_pct": -34.113,
+      "sigma_pct": 6.023,
+      "z_score": -5.664,
+      "n_obs": 80
+    },
+    "market_adjusted": {
+      "excess_return_pct": -34.041,
+      "sigma_pct": 6.225,
+      "z_score": -5.468,
+      "n_obs": 79
+    }
+  },
+  "AKA_2022q2": {
+    "market_model": {
+      "beta": 1.426,
+      "abnormal_return_pct": -0.463,
+      "sigma_pct": 7.069,
+      "z_score": -0.065,
+      "n_obs": 128
+    },
+    "market_adjusted": {
+      "excess_return_pct": -2.341,
+      "sigma_pct": 7.093,
+      "z_score": -0.33,
+      "n_obs": 127
+    }
+  },
+  "AKA_2022q3": {
+    "market_model": {
+      "beta": 1.683,
+      "abnormal_return_pct": -0.097,
+      "sigma_pct": 6.724,
+      "z_score": -0.014,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 0.258,
+      "sigma_pct": 6.872,
+      "z_score": 0.038,
+      "n_obs": 175
+    }
+  },
+  "AKA_2022q4": {
+    "market_model": {
+      "beta": 1.688,
+      "abnormal_return_pct": 10.563,
+      "sigma_pct": 8.774,
+      "z_score": 1.204,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": 9.623,
+      "sigma_pct": 8.902,
+      "z_score": 1.081,
+      "n_obs": 174
+    }
+  },
+  "AKA_2023q1": {
+    "market_model": {
+      "beta": 1.546,
+      "abnormal_return_pct": -32.509,
+      "sigma_pct": 8.891,
+      "z_score": -3.656,
+      "n_obs": 173
+    },
+    "market_adjusted": {
+      "excess_return_pct": -33.949,
+      "sigma_pct": 9.15,
+      "z_score": -3.71,
+      "n_obs": 173
+    }
+  },
+  "AKA_2023q2": {
+    "market_model": {
+      "beta": 1.19,
+      "abnormal_return_pct": 11.992,
+      "sigma_pct": 10.525,
+      "z_score": 1.139,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": 10.745,
+      "sigma_pct": 10.332,
+      "z_score": 1.04,
+      "n_obs": 176
+    }
+  },
+  "AKA_2023q3": {
+    "market_model": {
+      "beta": 0.866,
+      "abnormal_return_pct": -20.325,
+      "sigma_pct": 9.165,
+      "z_score": -2.218,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": -21.404,
+      "sigma_pct": 8.938,
+      "z_score": -2.395,
+      "n_obs": 174
+    }
+  },
+  "AKA_2023q4": {
+    "market_model": {
+      "beta": 0.274,
+      "abnormal_return_pct": -20.072,
+      "sigma_pct": 9.394,
+      "z_score": -2.137,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -21.31,
+      "sigma_pct": 9.022,
+      "z_score": -2.362,
+      "n_obs": 175
+    }
+  },
+  "AKA_2024q1": {
+    "market_model": {
+      "beta": 1.576,
+      "abnormal_return_pct": -14.341,
+      "sigma_pct": 9.935,
+      "z_score": -1.444,
+      "n_obs": 173
+    },
+    "market_adjusted": {
+      "excess_return_pct": -13.817,
+      "sigma_pct": 10.043,
+      "z_score": -1.376,
+      "n_obs": 173
+    }
+  },
+  "AKA_2024q2": {
+    "market_model": {
+      "beta": 1.048,
+      "abnormal_return_pct": 21.121,
+      "sigma_pct": 10.39,
+      "z_score": 2.033,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": 22.268,
+      "sigma_pct": 10.497,
+      "z_score": 2.121,
+      "n_obs": 176
+    }
+  },
+  "AKA_2024q3": {
+    "market_model": {
+      "beta": 0.645,
+      "abnormal_return_pct": 3.715,
+      "sigma_pct": 11.464,
+      "z_score": 0.324,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": 4.49,
+      "sigma_pct": 11.603,
+      "z_score": 0.387,
+      "n_obs": 174
+    }
+  },
+  "AKA_2024q4": {
+    "market_model": {
+      "beta": 1.774,
+      "abnormal_return_pct": -3.237,
+      "sigma_pct": 10.686,
+      "z_score": -0.303,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": -1.637,
+      "sigma_pct": 10.785,
+      "z_score": -0.152,
+      "n_obs": 174
+    }
+  },
+  "AMC_2017q1": {
+    "market_model": {
+      "beta": 1.052,
+      "abnormal_return_pct": -5.174,
+      "sigma_pct": 2.06,
+      "z_score": -2.512,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": -5.0,
+      "sigma_pct": 2.064,
+      "z_score": -2.422,
+      "n_obs": 177
+    }
+  },
+  "AMC_2017q2": {
+    "market_model": {
+      "beta": 0.933,
+      "abnormal_return_pct": -0.557,
+      "sigma_pct": 2.09,
+      "z_score": -0.267,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": -0.518,
+      "sigma_pct": 2.155,
+      "z_score": -0.24,
+      "n_obs": 177
+    }
+  },
+  "AMC_2017q3": {
+    "market_model": {
+      "beta": 1.113,
+      "abnormal_return_pct": 6.774,
+      "sigma_pct": 2.509,
+      "z_score": 2.7,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": 6.348,
+      "sigma_pct": 2.501,
+      "z_score": 2.538,
+      "n_obs": 174
+    }
+  },
+  "AMC_2017q4": {
+    "market_model": {
+      "beta": 1.246,
+      "abnormal_return_pct": 4.018,
+      "sigma_pct": 4.487,
+      "z_score": 0.895,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": 3.212,
+      "sigma_pct": 4.498,
+      "z_score": 0.714,
+      "n_obs": 177
+    }
+  },
+  "AMC_2018q1": {
+    "market_model": {
+      "beta": 1.406,
+      "abnormal_return_pct": 4.155,
+      "sigma_pct": 5.654,
+      "z_score": 0.735,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 3.952,
+      "sigma_pct": 5.669,
+      "z_score": 0.697,
+      "n_obs": 175
+    }
+  },
+  "AMC_2018q2": {
+    "market_model": {
+      "beta": 0.858,
+      "abnormal_return_pct": 2.196,
+      "sigma_pct": 5.637,
+      "z_score": 0.39,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": 1.68,
+      "sigma_pct": 5.64,
+      "z_score": 0.298,
+      "n_obs": 177
+    }
+  },
+  "AMC_2018q3": {
+    "market_model": {
+      "beta": 0.731,
+      "abnormal_return_pct": 0.385,
+      "sigma_pct": 4.378,
+      "z_score": 0.088,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 0.165,
+      "sigma_pct": 4.394,
+      "z_score": 0.037,
+      "n_obs": 175
+    }
+  },
+  "AMC_2018q4": {
+    "market_model": {
+      "beta": 0.745,
+      "abnormal_return_pct": -11.963,
+      "sigma_pct": 3.215,
+      "z_score": -3.722,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -10.711,
+      "sigma_pct": 3.235,
+      "z_score": -3.311,
+      "n_obs": 175
+    }
+  },
+  "AMC_2019q2": {
+    "market_model": {
+      "beta": 1.094,
+      "abnormal_return_pct": -3.587,
+      "sigma_pct": 3.813,
+      "z_score": -0.941,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": -3.714,
+      "sigma_pct": 3.797,
+      "z_score": -0.978,
+      "n_obs": 174
+    }
+  },
+  "AMC_2019q3": {
+    "market_model": {
+      "beta": 1.046,
+      "abnormal_return_pct": 8.75,
+      "sigma_pct": 4.075,
+      "z_score": 2.147,
+      "n_obs": 173
+    },
+    "market_adjusted": {
+      "excess_return_pct": 8.066,
+      "sigma_pct": 4.045,
+      "z_score": 1.994,
+      "n_obs": 173
+    }
+  },
+  "AMC_2019q4": {
+    "market_model": {
+      "beta": 1.273,
+      "abnormal_return_pct": -0.996,
+      "sigma_pct": 3.704,
+      "z_score": -0.269,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -1.329,
+      "sigma_pct": 3.663,
+      "z_score": -0.363,
+      "n_obs": 175
+    }
+  },
+  "AMC_2020q1": {
+    "market_model": {
+      "beta": 0.935,
+      "abnormal_return_pct": 8.108,
+      "sigma_pct": 3.75,
+      "z_score": 2.162,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 6.949,
+      "sigma_pct": 3.719,
+      "z_score": 1.869,
+      "n_obs": 175
+    }
+  },
+  "AMC_2020q2": {
+    "market_model": {
+      "beta": 1.404,
+      "abnormal_return_pct": 9.165,
+      "sigma_pct": 9.023,
+      "z_score": 1.016,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": 5.537,
+      "sigma_pct": 8.964,
+      "z_score": 0.618,
+      "n_obs": 176
+    }
+  },
+  "AMC_2020q3": {
+    "market_model": {
+      "beta": 1.582,
+      "abnormal_return_pct": 13.46,
+      "sigma_pct": 10.984,
+      "z_score": 1.225,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": 13.562,
+      "sigma_pct": 11.224,
+      "z_score": 1.208,
+      "n_obs": 174
+    }
+  },
+  "AMC_2021q1": {
+    "market_model": {
+      "beta": 1.914,
+      "abnormal_return_pct": -5.884,
+      "sigma_pct": 10.959,
+      "z_score": -0.537,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -5.264,
+      "sigma_pct": 11.007,
+      "z_score": -0.478,
+      "n_obs": 175
+    }
+  },
+  "AMC_2021q2": {
+    "market_model": {
+      "beta": -3.776,
+      "abnormal_return_pct": -4.225,
+      "sigma_pct": 32.969,
+      "z_score": -0.128,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 2.668,
+      "sigma_pct": 30.91,
+      "z_score": 0.086,
+      "n_obs": 175
+    }
+  },
+  "AMC_2021q3": {
+    "market_model": {
+      "beta": -5.072,
+      "abnormal_return_pct": -9.61,
+      "sigma_pct": 35.063,
+      "z_score": -0.274,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": -3.163,
+      "sigma_pct": 33.683,
+      "z_score": -0.094,
+      "n_obs": 176
+    }
+  },
+  "AMC_2022q1": {
+    "market_model": {
+      "beta": 2.17,
+      "abnormal_return_pct": -6.335,
+      "sigma_pct": 15.42,
+      "z_score": -0.411,
+      "n_obs": 178
+    },
+    "market_adjusted": {
+      "excess_return_pct": -3.312,
+      "sigma_pct": 16.17,
+      "z_score": -0.205,
+      "n_obs": 178
+    }
+  },
+  "AMC_2022q2": {
+    "market_model": {
+      "beta": 2.434,
+      "abnormal_return_pct": -6.738,
+      "sigma_pct": 8.265,
+      "z_score": -0.815,
+      "n_obs": 178
+    },
+    "market_adjusted": {
+      "excess_return_pct": -9.314,
+      "sigma_pct": 8.683,
+      "z_score": -1.073,
+      "n_obs": 178
+    }
+  },
+  "AMC_2022q3": {
+    "market_model": {
+      "beta": 2.281,
+      "abnormal_return_pct": 22.928,
+      "sigma_pct": 8.987,
+      "z_score": 2.551,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 22.182,
+      "sigma_pct": 9.457,
+      "z_score": 2.345,
+      "n_obs": 175
+    }
+  },
+  "AMC_2023q1": {
+    "market_model": {
+      "beta": 2.268,
+      "abnormal_return_pct": -13.123,
+      "sigma_pct": 9.421,
+      "z_score": -1.393,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": -13.414,
+      "sigma_pct": 9.961,
+      "z_score": -1.347,
+      "n_obs": 176
+    }
+  },
+  "AMC_2023q3": {
+    "market_model": {
+      "beta": 1.763,
+      "abnormal_return_pct": -1.5,
+      "sigma_pct": 8.913,
+      "z_score": -0.168,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -2.515,
+      "sigma_pct": 9.039,
+      "z_score": -0.278,
+      "n_obs": 175
+    }
+  },
+  "AMC_2023q4": {
+    "market_model": {
+      "beta": 0.869,
+      "abnormal_return_pct": -13.073,
+      "sigma_pct": 12.271,
+      "z_score": -1.065,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -14.646,
+      "sigma_pct": 12.013,
+      "z_score": -1.219,
+      "n_obs": 175
+    }
+  },
+  "AMC_2024q1": {
+    "market_model": {
+      "beta": 1.466,
+      "abnormal_return_pct": -9.958,
+      "sigma_pct": 10.825,
+      "z_score": -0.92,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -11.888,
+      "sigma_pct": 10.456,
+      "z_score": -1.137,
+      "n_obs": 175
+    }
+  },
+  "AMC_2024q2": {
+    "market_model": {
+      "beta": 1.6,
+      "abnormal_return_pct": -4.554,
+      "sigma_pct": 11.171,
+      "z_score": -0.408,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": -7.58,
+      "sigma_pct": 10.77,
+      "z_score": -0.704,
+      "n_obs": 174
+    }
+  },
+  "AMCX_2017q1": {
+    "market_model": {
+      "beta": 0.756,
+      "abnormal_return_pct": 6.096,
+      "sigma_pct": 2.52,
+      "z_score": 2.419,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 5.794,
+      "sigma_pct": 2.539,
+      "z_score": 2.282,
+      "n_obs": 175
+    }
+  },
+  "AMCX_2017q3": {
+    "market_model": {
+      "beta": 0.845,
+      "abnormal_return_pct": -0.694,
+      "sigma_pct": 2.329,
+      "z_score": -0.298,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": -0.768,
+      "sigma_pct": 2.344,
+      "z_score": -0.328,
+      "n_obs": 174
+    }
+  },
+  "AMCX_2017q4": {
+    "market_model": {
+      "beta": 1.11,
+      "abnormal_return_pct": -7.604,
+      "sigma_pct": 2.051,
+      "z_score": -3.708,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -7.586,
+      "sigma_pct": 2.054,
+      "z_score": -3.693,
+      "n_obs": 175
+    }
+  },
+  "AMCX_2018q2": {
+    "market_model": {
+      "beta": 0.831,
+      "abnormal_return_pct": 6.202,
+      "sigma_pct": 2.568,
+      "z_score": 2.415,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 5.985,
+      "sigma_pct": 2.575,
+      "z_score": 2.324,
+      "n_obs": 175
+    }
+  },
+  "AMCX_2018q3": {
+    "market_model": {
+      "beta": 0.817,
+      "abnormal_return_pct": -1.715,
+      "sigma_pct": 2.628,
+      "z_score": -0.652,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": -1.771,
+      "sigma_pct": 2.646,
+      "z_score": -0.669,
+      "n_obs": 174
+    }
+  },
+  "AMCX_2019q1": {
+    "market_model": {
+      "beta": 0.863,
+      "abnormal_return_pct": 3.584,
+      "sigma_pct": 2.453,
+      "z_score": 1.461,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": 3.778,
+      "sigma_pct": 2.442,
+      "z_score": 1.547,
+      "n_obs": 174
+    }
+  },
+  "AMCX_2019q2": {
+    "market_model": {
+      "beta": 0.766,
+      "abnormal_return_pct": -1.42,
+      "sigma_pct": 2.354,
+      "z_score": -0.603,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -1.642,
+      "sigma_pct": 2.356,
+      "z_score": -0.697,
+      "n_obs": 175
+    }
+  },
+  "AMCX_2019q3": {
+    "market_model": {
+      "beta": 0.776,
+      "abnormal_return_pct": 1.327,
+      "sigma_pct": 2.369,
+      "z_score": 0.56,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": 1.498,
+      "sigma_pct": 2.391,
+      "z_score": 0.626,
+      "n_obs": 174
+    }
+  },
+  "AMCX_2020q2": {
+    "market_model": {
+      "beta": 0.555,
+      "abnormal_return_pct": 0.559,
+      "sigma_pct": 3.263,
+      "z_score": 0.171,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": -0.347,
+      "sigma_pct": 3.287,
+      "z_score": -0.105,
+      "n_obs": 177
+    }
+  },
+  "AMCX_2020q3": {
+    "market_model": {
+      "beta": 0.818,
+      "abnormal_return_pct": -6.839,
+      "sigma_pct": 4.745,
+      "z_score": -1.441,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": -7.657,
+      "sigma_pct": 4.665,
+      "z_score": -1.641,
+      "n_obs": 176
+    }
+  },
+  "AMCX_2021q1": {
+    "market_model": {
+      "beta": 0.824,
+      "abnormal_return_pct": 29.665,
+      "sigma_pct": 4.815,
+      "z_score": 6.161,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 29.826,
+      "sigma_pct": 4.763,
+      "z_score": 6.263,
+      "n_obs": 175
+    }
+  },
+  "AMCX_2023q1": {
+    "market_model": {
+      "beta": 1.352,
+      "abnormal_return_pct": 23.294,
+      "sigma_pct": 4.211,
+      "z_score": 5.532,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": 21.862,
+      "sigma_pct": 4.299,
+      "z_score": 5.085,
+      "n_obs": 174
+    }
+  },
+  "AMCX_2024q1": {
+    "market_model": {
+      "beta": 2.147,
+      "abnormal_return_pct": -11.098,
+      "sigma_pct": 5.055,
+      "z_score": -2.196,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -12.944,
+      "sigma_pct": 5.254,
+      "z_score": -2.464,
+      "n_obs": 175
+    }
+  },
+  "AMN_2017q1": {
+    "market_model": {
+      "beta": 1.348,
+      "abnormal_return_pct": 2.813,
+      "sigma_pct": 3.359,
+      "z_score": 0.837,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": 3.124,
+      "sigma_pct": 3.407,
+      "z_score": 0.917,
+      "n_obs": 176
+    }
+  },
+  "AMN_2017q2": {
+    "market_model": {
+      "beta": 1.264,
+      "abnormal_return_pct": -7.781,
+      "sigma_pct": 3.169,
+      "z_score": -2.455,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -7.746,
+      "sigma_pct": 3.209,
+      "z_score": -2.414,
+      "n_obs": 175
+    }
+  },
+  "AMN_2017q3": {
+    "market_model": {
+      "beta": 0.908,
+      "abnormal_return_pct": 0.746,
+      "sigma_pct": 3.048,
+      "z_score": 0.245,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": 0.784,
+      "sigma_pct": 3.093,
+      "z_score": 0.253,
+      "n_obs": 174
+    }
+  },
+  "AMN_2017q4": {
+    "market_model": {
+      "beta": 0.88,
+      "abnormal_return_pct": -4.284,
+      "sigma_pct": 2.405,
+      "z_score": -1.781,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -4.378,
+      "sigma_pct": 2.422,
+      "z_score": -1.807,
+      "n_obs": 175
+    }
+  },
+  "AMN_2018q2": {
+    "market_model": {
+      "beta": 0.793,
+      "abnormal_return_pct": -24.662,
+      "sigma_pct": 2.491,
+      "z_score": -9.899,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -24.548,
+      "sigma_pct": 2.505,
+      "z_score": -9.798,
+      "n_obs": 175
+    }
+  },
+  "AMN_2019q1": {
+    "market_model": {
+      "beta": 0.855,
+      "abnormal_return_pct": -14.556,
+      "sigma_pct": 3.697,
+      "z_score": -3.937,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -14.777,
+      "sigma_pct": 3.685,
+      "z_score": -4.01,
+      "n_obs": 175
+    }
+  },
+  "AMN_2019q2": {
+    "market_model": {
+      "beta": 0.908,
+      "abnormal_return_pct": 0.832,
+      "sigma_pct": 3.379,
+      "z_score": 0.246,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": 0.489,
+      "sigma_pct": 3.344,
+      "z_score": 0.146,
+      "n_obs": 174
+    }
+  },
+  "AMN_2019q3": {
+    "market_model": {
+      "beta": 1.018,
+      "abnormal_return_pct": 4.289,
+      "sigma_pct": 3.002,
+      "z_score": 1.429,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 4.342,
+      "sigma_pct": 2.993,
+      "z_score": 1.451,
+      "n_obs": 175
+    }
+  },
+  "AMN_2019q4": {
+    "market_model": {
+      "beta": 0.996,
+      "abnormal_return_pct": -2.326,
+      "sigma_pct": 2.649,
+      "z_score": -0.878,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -2.505,
+      "sigma_pct": 2.645,
+      "z_score": -0.947,
+      "n_obs": 175
+    }
+  },
+  "AMN_2022q2": {
+    "market_model": {
+      "beta": 0.689,
+      "abnormal_return_pct": -1.354,
+      "sigma_pct": 3.977,
+      "z_score": -0.341,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": -0.023,
+      "sigma_pct": 3.969,
+      "z_score": -0.006,
+      "n_obs": 176
+    }
+  },
+  "AMN_2022q3": {
+    "market_model": {
+      "beta": 0.805,
+      "abnormal_return_pct": 2.043,
+      "sigma_pct": 4.187,
+      "z_score": 0.488,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 2.134,
+      "sigma_pct": 4.162,
+      "z_score": 0.513,
+      "n_obs": 175
+    }
+  },
+  "AMN_2022q4": {
+    "market_model": {
+      "beta": 0.875,
+      "abnormal_return_pct": -10.263,
+      "sigma_pct": 3.678,
+      "z_score": -2.79,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": -10.418,
+      "sigma_pct": 3.66,
+      "z_score": -2.846,
+      "n_obs": 174
+    }
+  },
+  "AMN_2023q1": {
+    "market_model": {
+      "beta": 0.769,
+      "abnormal_return_pct": -0.888,
+      "sigma_pct": 3.281,
+      "z_score": -0.271,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -0.245,
+      "sigma_pct": 3.327,
+      "z_score": -0.073,
+      "n_obs": 175
+    }
+  },
+  "AMN_2023q2": {
+    "market_model": {
+      "beta": 0.642,
+      "abnormal_return_pct": 5.598,
+      "sigma_pct": 3.331,
+      "z_score": 1.681,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 4.662,
+      "sigma_pct": 3.395,
+      "z_score": 1.373,
+      "n_obs": 175
+    }
+  },
+  "AMN_2023q3": {
+    "market_model": {
+      "beta": 0.661,
+      "abnormal_return_pct": -15.949,
+      "sigma_pct": 2.964,
+      "z_score": -5.381,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": -16.186,
+      "sigma_pct": 3.011,
+      "z_score": -5.375,
+      "n_obs": 174
+    }
+  },
+  "AMN_2024q2": {
+    "market_model": {
+      "beta": 0.824,
+      "abnormal_return_pct": -9.34,
+      "sigma_pct": 4.476,
+      "z_score": -2.087,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -9.998,
+      "sigma_pct": 4.415,
+      "z_score": -2.264,
+      "n_obs": 175
+    }
+  },
+  "AMN_2024q4": {
+    "market_model": {
+      "beta": 0.683,
+      "abnormal_return_pct": -30.075,
+      "sigma_pct": 4.8,
+      "z_score": -6.265,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": -30.847,
+      "sigma_pct": 4.783,
+      "z_score": -6.449,
+      "n_obs": 174
+    }
+  },
+  "ANIP_2017q1": {
+    "market_model": {
+      "beta": 1.483,
+      "abnormal_return_pct": -15.481,
+      "sigma_pct": 3.84,
+      "z_score": -4.031,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -15.423,
+      "sigma_pct": 3.899,
+      "z_score": -3.956,
+      "n_obs": 175
+    }
+  },
+  "ANIP_2018q3": {
+    "market_model": {
+      "beta": 0.943,
+      "abnormal_return_pct": -13.336,
+      "sigma_pct": 3.198,
+      "z_score": -4.17,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": -13.079,
+      "sigma_pct": 3.18,
+      "z_score": -4.113,
+      "n_obs": 176
+    }
+  },
+  "ANIP_2018q4": {
+    "market_model": {
+      "beta": 0.876,
+      "abnormal_return_pct": 3.259,
+      "sigma_pct": 2.633,
+      "z_score": 1.238,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": 2.713,
+      "sigma_pct": 2.638,
+      "z_score": 1.029,
+      "n_obs": 177
+    }
+  },
+  "ANIP_2019q1": {
+    "market_model": {
+      "beta": 0.782,
+      "abnormal_return_pct": 7.682,
+      "sigma_pct": 2.95,
+      "z_score": 2.604,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 7.52,
+      "sigma_pct": 2.913,
+      "z_score": 2.581,
+      "n_obs": 175
+    }
+  },
+  "ANIP_2019q2": {
+    "market_model": {
+      "beta": 0.777,
+      "abnormal_return_pct": 4.58,
+      "sigma_pct": 3.049,
+      "z_score": 1.502,
+      "n_obs": 174
+    },
+    "market_adjusted": {
+      "excess_return_pct": 4.991,
+      "sigma_pct": 3.013,
+      "z_score": 1.656,
+      "n_obs": 174
+    }
+  },
+  "ANIP_2020q1": {
+    "market_model": {
+      "beta": 0.644,
+      "abnormal_return_pct": -16.43,
+      "sigma_pct": 3.74,
+      "z_score": -4.393,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -18.013,
+      "sigma_pct": 3.781,
+      "z_score": -4.764,
+      "n_obs": 175
+    }
+  },
+  "ANIP_2020q2": {
+    "market_model": {
+      "beta": 1.157,
+      "abnormal_return_pct": -11.609,
+      "sigma_pct": 5.242,
+      "z_score": -2.215,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -11.716,
+      "sigma_pct": 4.992,
+      "z_score": -2.347,
+      "n_obs": 175
+    }
+  },
+  "ANIP_2021q2": {
+    "market_model": {
+      "beta": 0.903,
+      "abnormal_return_pct": -3.776,
+      "sigma_pct": 3.936,
+      "z_score": -0.959,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": -3.494,
+      "sigma_pct": 3.945,
+      "z_score": -0.886,
+      "n_obs": 175
+    }
+  },
+  "ANIP_2021q4": {
+    "market_model": {
+      "beta": 1.252,
+      "abnormal_return_pct": 50.213,
+      "sigma_pct": 3.555,
+      "z_score": 14.126,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": 50.189,
+      "sigma_pct": 3.641,
+      "z_score": 13.783,
+      "n_obs": 177
+    }
+  },
+  "ANIP_2022q1": {
+    "market_model": {
+      "beta": 1.064,
+      "abnormal_return_pct": -32.259,
+      "sigma_pct": 6.348,
+      "z_score": -5.082,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": -31.844,
+      "sigma_pct": 6.318,
+      "z_score": -5.04,
+      "n_obs": 177
+    }
+  },
+  "POWW_2021q2": {
+    "market_model": {
+      "beta": 0.983,
+      "abnormal_return_pct": 12.726,
+      "sigma_pct": 10.043,
+      "z_score": 1.267,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": 14.083,
+      "sigma_pct": 10.503,
+      "z_score": 1.341,
+      "n_obs": 176
+    }
+  },
+  "POWW_2022q2": {
+    "market_model": {
+      "beta": 1.431,
+      "abnormal_return_pct": -4.694,
+      "sigma_pct": 3.583,
+      "z_score": -1.31,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": -5.124,
+      "sigma_pct": 3.699,
+      "z_score": -1.385,
+      "n_obs": 176
+    }
+  },
+  "POWW_2022q3": {
+    "market_model": {
+      "beta": 1.471,
+      "abnormal_return_pct": -19.929,
+      "sigma_pct": 3.684,
+      "z_score": -5.409,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": -20.366,
+      "sigma_pct": 3.828,
+      "z_score": -5.32,
+      "n_obs": 176
+    }
+  },
+  "POWW_2022q4": {
+    "market_model": {
+      "beta": 1.514,
+      "abnormal_return_pct": -25.211,
+      "sigma_pct": 4.152,
+      "z_score": -6.072,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": -25.212,
+      "sigma_pct": 4.298,
+      "z_score": -5.867,
+      "n_obs": 177
+    }
+  },
+  "POWW_2023q1": {
+    "market_model": {
+      "beta": 1.193,
+      "abnormal_return_pct": -10.425,
+      "sigma_pct": 4.898,
+      "z_score": -2.128,
+      "n_obs": 177
+    },
+    "market_adjusted": {
+      "excess_return_pct": -11.362,
+      "sigma_pct": 4.844,
+      "z_score": -2.345,
+      "n_obs": 177
+    }
+  },
+  "POWW_2023q2": {
+    "market_model": {
+      "beta": 1.197,
+      "abnormal_return_pct": 11.008,
+      "sigma_pct": 5.405,
+      "z_score": 2.037,
+      "n_obs": 175
+    },
+    "market_adjusted": {
+      "excess_return_pct": 10.391,
+      "sigma_pct": 5.417,
+      "z_score": 1.918,
+      "n_obs": 175
+    }
+  },
+  "POWW_2024q1": {
+    "market_model": {
+      "beta": 1.414,
+      "abnormal_return_pct": 14.676,
+      "sigma_pct": 4.586,
+      "z_score": 3.2,
+      "n_obs": 176
+    },
+    "market_adjusted": {
+      "excess_return_pct": 14.805,
+      "sigma_pct": 4.575,
+      "z_score": 3.236,
+      "n_obs": 176
+    }
+  }
+}

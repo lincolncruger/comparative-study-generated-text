@@ -1,0 +1,192 @@
+{
+  "GOOGL_2016q2": {
+    "summary": "Alphabet's first-quarter 2016 report showed healthy year-over-year growth in both revenue and profit, driven by the continued strength of Google's core advertising business on mobile devices, but the results still missed Wall Street's estimates on both the top and bottom lines: revenue of $20.26 billion fell short of the $20.37 billion analysts expected, and adjusted EPS of $7.50 came in well below the $7.97 consensus. Executives attributed the shortfall to a combination of factors rather than one clear cause — revenue running a bit light while expenses, particularly personnel costs and payments to advertising partners tied to the mobile shift, ran a bit high. The average cost per ad click also fell 9% year over year, reflecting the lower revenue Google earns from ads on smaller mobile screens. Compounding the miss, the \"other bets\" unit (self-driving cars, home automation, etc.) reported a widening operating loss of $802 million, up from $633 million a year earlier.\n\nThis combination of a modest revenue/EPS miss and worsening losses in the speculative side businesses is explicitly what the article ties to the stock's reaction: Alphabet shares fell 6% in after-hours trading following the report, consistent with the stock's roughly 4-6% decline over the following days despite the underlying business still growing at a healthy clip.",
+    "sources": [
+      {
+        "filename": "Google Parent’s Earnings Fall Short of Expectations - WSJ.pdf",
+        "title": "Google Parent’s Earnings Fall Short of Expectations Alphabet says operating loss from its other bets widened to $802 million from $633 million",
+        "published_date": "2016-04-21"
+      }
+    ]
+  },
+  "GOOGL_2016q3": {
+    "summary": "Alphabet's second-quarter 2016 results beat expectations across the board: quarterly profit rose 24%, revenue climbed 21% to $21.5 billion versus the $20.76 billion analysts expected, and adjusted EPS of $8.42 topped the $8.04 consensus. The article frames the beat as driven by the accelerating shift of users and advertisers to mobile devices — clicks on Google's ads rose 29%, the fourth straight quarter of growth above 22%, and CEO Sundar Pichai said mobile investment \"underlines everything\" the company does. Analysts quoted in the piece characterized the results as evidence that fears about Google's core search business maturing were overblown, with one RBC analyst saying the quarter proved smartphones were revitalizing rather than threatening Google's business.\n\nThe article directly connects these better-than-expected results to the stock's move: Alphabet shares, which had been essentially flat for the year through the report, jumped 4% in after-hours trading, consistent with the roughly 3-4% two-day gain in the data.",
+    "sources": [
+      {
+        "filename": "Google Profits Surge on Strong Ad Demand - WSJ.pdf",
+        "title": "Google Profits Surge on Strong Ad Demand Internet giant continues to capture users and advertisers as they shift to mobile",
+        "published_date": "2016-07-28"
+      }
+    ]
+  },
+  "GOOGL_2016q4": {
+    "summary": "Alphabet's third-quarter 2016 report showed profit surging 27% as mobile ad clicks rose 33% — the fastest pace in four years — and adjusted EPS of $9.06 beat the $8.62 analyst consensus. The article frames this as a continuation of Google's strength on smartphones, where it controls the large majority of the mobile search market. There were some offsetting notes: cost per click fell 11%, a faster decline than the prior quarter, and there was turmoil in Alphabet's \"other bets\" units, including leadership departures and pullbacks at Google Fiber, Nest, and its self-driving-car and drone projects, though the operating loss in that segment actually narrowed year over year.\n\nGiven the mix of a solid beat and some lingering concerns (decelerating cost-per-click, other-bets turbulence), the market reaction described in the article was muted: Alphabet shares rose just 1% in after-hours trading, which is consistent with the essentially flat ret_2day figure (+0.35%) in the data — the earnings beat was real but not dramatic enough to move the stock much either way.",
+    "sources": [
+      {
+        "filename": "Google Parent Alphabet Gets Boost From Ads - WSJ.pdf",
+        "title": "Google Parent Alphabet Gets Boost From Ads Tech giant benefits from rise in phone use, which is drawing companies to spend more on mobile ads",
+        "published_date": "2016-10-27"
+      }
+    ]
+  },
+  "GOOGL_2017q1": {
+    "summary": "Alphabet's fourth-quarter 2016 report showed revenue growing nearly three times as fast as profit: a 22% jump in revenue to $26.1 billion beat estimates, but profit growth of only 8.3% to $5.33 billion missed Wall Street's expectations. The company attributed the shortfall to a one-time tax adjustment. The article also notes a widening gap between ad-click growth (up 36%) and the price advertisers paid per click (down 15%), which it attributes to the growing mix of lower-priced YouTube ads, as Google looked to new sources of growth — YouTube, cloud, and hardware — beyond its core search-ad business.\n\nThe article directly ties the mixed results to the stock's decline, noting Alphabet shares fell 2.1% in after-hours trading following the report, which lines up with the modest roughly 1-3% pullback seen in the return data over the following days.",
+    "sources": [
+      {
+        "filename": "Google Parent Alphabet Finds New Growth Beyond Search - WSJ.pdf",
+        "title": "Google Parent Alphabet Finds New Growth Beyond Search Profit falls short of views on higher-than-seen tax adjustment",
+        "published_date": "2017-01-26"
+      }
+    ]
+  },
+  "GOOGL_2017q2": {
+    "summary": "Alphabet's first-quarter 2017 results beat Wall Street's expectations on both revenue and profit: net revenue rose 22% to $24.75 billion versus the $24.22 billion analysts expected, and EPS of $7.73 topped the $7.39 consensus. The article notes the growth came despite a boycott by some major advertisers (including Coca-Cola and Wal-Mart) who had pulled ad spending over concerns about ads appearing next to offensive YouTube content — a headwind the company appeared to largely shrug off, with paid clicks up 44% year over year. The piece also highlights Alphabet's push to diversify into cloud computing, with \"other revenues\" (including cloud) up 49%.\n\nThe article directly links the beat to the stock's move, reporting that Alphabet's shares traded 4.4% higher after the close of Thursday trading following the results, consistent with the roughly 4% two-day gain in the data.",
+    "sources": [
+      {
+        "filename": "Google Parent Alphabet’s Revenue Continues to March Higher - WSJ.pdf",
+        "title": "Google Parent Alphabet’s Revenue Continues to March Higher Shares of the tech giant climb after hours",
+        "published_date": "2017-04-27"
+      }
+    ]
+  },
+  "GOOGL_2017q3": {
+    "summary": "This is a \"Heard on the Street\" analysis column rather than a straight results report, and it frames Alphabet's second-quarter 2017 earnings as a cautionary tale about rising costs. Paid clicks surged 52% year over year — the biggest jump in at least seven years — but traffic acquisition costs (what Google pays partners like Apple to drive traffic to its ads) hit a record $5.1 billion and, for the first time in five years, grew faster than revenue (28% versus revenue growth). As a result, operating income growth slowed to just 15% year over year (even excluding a $2.7 billion EU antitrust fine), the company's slowest pace of operating-income growth in two years.\n\nThe column explicitly connects this cost pressure and growth deceleration to the stock's decline, stating that Alphabet's shares slipped 3% the Monday following the results, which it attributes to both the earnings deceleration and the fact that the stock had already run up 26% for the year — consistent with the roughly 3% two-day decline in the data.",
+    "sources": [
+      {
+        "filename": "Traffic Costs Jam Up Google - WSJ.pdf",
+        "title": "HEARD ON THE STREET Follow Traffic Costs Jam Up Google Cost of getting users to click ads outpaces revenue growth, pressuring bottom line",
+        "published_date": "2017-07-24"
+      }
+    ]
+  },
+  "GOOGL_2018q1": {
+    "summary": "Alphabet's fourth-quarter 2017 report swung to a headline loss of $3.02 billion because of a one-time $9.9 billion charge tied to the new U.S. tax law, even though revenue rose a strong 24% to $32.32 billion. Excluding the tax charge, profit actually rose 28% to $6.84 billion, but adjusted EPS of $9.70 missed the $9.98 analyst consensus. An RBC analyst quoted in the piece attributed the underlying miss specifically to higher-than-expected traffic-acquisition costs — fees paid to partners like Apple — which rose 33% year over year to $6.45 billion and now represent 24% of ad revenue, prompting the analyst to question \"how much revenue is this company having to give away to maintain these growth rates.\" The company also raised sales and marketing spending 38% around new hardware launches.\n\nThe article directly ties this cost-driven earnings miss to the stock reaction, noting shares were down 2% after hours following the report, consistent with the roughly 3% two-day decline in the data.",
+    "sources": [
+      {
+        "filename": "Google Parent Alphabet’s Revenue Rises, but Profit Comes Up Short - WSJ.pdf",
+        "title": "Google Parent Alphabet’s Revenue Rises, but Profit Comes Up Short One-time tax hit caused a $3 billion loss in quarter, but revenue rose 24%; EPS miss",
+        "published_date": "2018-02-01"
+      }
+    ]
+  },
+  "GOOGL_2018q2": {
+    "summary": "Alphabet's first-quarter 2018 results showed net profit surging 73% to $9.4 billion and advertising revenue up 24% to $26.6 billion, but the article is careful to note that roughly $3 billion of the profit increase came from a one-time accounting change requiring Alphabet to mark to market its stakes in startups such as Uber, rather than from core operating strength. At the same time, the company logged its \"costliest spending spree\" in its history as a public company, with capital expenditures more than tripling to $7.3 billion (including a $2.4 billion New York building purchase), and traffic-acquisition costs paid to partners like Apple rose 35% to $6.3 billion. The report landed amid a broader industry backdrop of tightening internet-privacy regulation (GDPR) that executives said they were largely prepared for.\n\nNotably, the article states that Alphabet's shares were \"little changed\" in after-hours trading immediately following the release — it does not describe or explain the roughly -3.9% two-day decline the stock ultimately posted. Given the emphasis in the piece on the one-time (non-operating) nature of much of the profit beat, heavier capital spending, and rising traffic costs, these could plausibly have weighed on the stock as investors digested the results over the following sessions, but the article itself does not draw that connection, so this explanation should be treated as inference rather than something the WSJ coverage states directly.",
+    "sources": [
+      {
+        "filename": "Google Parent Posts Surge in Profit, but Expenses Also Jump - WSJ.pdf",
+        "title": "Google Parent Posts Surge in Profit, but Expenses Also Jump Alphabet’s earnings got multibillion-dollar boost from stakes in startups including Uber",
+        "published_date": "2018-04-23"
+      }
+    ]
+  },
+  "GOOGL_2018q3": {
+    "summary": "Alphabet's second-quarter 2018 report showed sales and profit surpassing analysts' estimates, even though headline profit fell 9% to $3.2 billion because of a $5 billion antitrust fine the European Union levied against Google over Android practices during the quarter. Excluding that fine, EPS of $11.75 far exceeded the $9.66 consensus, and ad revenue (net of traffic costs) rose 25% to $26.24 billion versus the $25.6 billion expected. The article frames this as evidence that Google's underlying advertising business remains extremely strong even as it absorbs regulatory blows, with one portfolio manager calling it \"unbelievably steady for a business of this size,\" and notes that payments to distribution partners like Apple actually declined slightly as a share of revenue for the first time in three years — a positive signal on cost trends.\n\nThe article explicitly ties this beat-despite-the-fine narrative to the stock's reaction, reporting that shares rose 3.9% in after-hours trading to an all-time high, consistent with the roughly 4.7% two-day gain in the data.",
+    "sources": [
+      {
+        "filename": "Google Earnings Hit by European Fine - WSJ.pdf",
+        "title": "Google Earnings Hit by European Fine Shares of parent Alphabet jump in after-hours trading on rising revenue and ad sales",
+        "published_date": "2018-07-23"
+      }
+    ]
+  },
+  "MSFT_2016q2": {
+    "summary": "Microsoft's fiscal third-quarter 2016 report centered on a deceleration in the company's cloud business: Intelligent Cloud segment revenue grew just 3% (8% in constant currency), down from 5% (11% constant currency) the prior quarter, and Azure's growth rate slowed to 120% from 140%. Adjusted EPS of 62 cents missed the 64-cent consensus by 2 cents, which CFO Amy Hood attributed to a one-time tax adjustment (she said EPS would have been closer to 66 cents excluding it). Overall revenue slid 5.5% year over year, reflecting declines tied to the shrinking PC market, though the Windows and Surface businesses showed some resilience.\n\nThe article directly attributes the stock's negative reaction to this combination of a cloud-growth slowdown and the EPS miss, stating explicitly that \"the slowing growth in cloud computing coupled with the earnings miss spooked investors,\" sending shares down about 5.5% in after-hours trading — consistent with the roughly 6.5% two-day decline in the data.",
+    "sources": [
+      {
+        "filename": "Microsoft’s Cloud Business Slows - WSJ.pdf",
+        "title": "Microsoft’s Cloud Business Slows Per-share earnings fall short of Wall Street expectations",
+        "published_date": "2016-04-21"
+      }
+    ]
+  },
+  "MSFT_2016q3": {
+    "summary": "Microsoft's fiscal fourth-quarter 2016 results beat Wall Street's expectations for both sales and profit, with adjusted EPS of 69 cents versus a 58-cent consensus and adjusted revenue of $22.64 billion versus the $22.1 billion expected. The article attributes the beat specifically to the strength of the cloud business: Azure revenue more than doubled (up 102% year over year), offsetting declines in the Windows/mobile-phone segment and a $1.1 billion charge tied to further unwinding the Nokia handset acquisition. An analyst quoted in the piece said Microsoft was effectively converting existing enterprise customers to cloud services, and framed the annual revenue decline (Microsoft's first since 2009) as unimportant to investors because \"everything that matters grew.\"\n\nThe article directly connects this cloud-driven beat to the stock's reaction, stating the results \"surprised investors\" and \"spurred a 4% rise in Microsoft's shares in after-hours trading,\" consistent with the roughly 3.4% two-day gain in the data.",
+    "sources": [
+      {
+        "filename": "Microsoft Gets Lift From Cloud Gains - WSJ.pdf",
+        "title": "Microsoft Gets Lift From Cloud Gains Software giant’s Azure service offsets decline in Windows segment and struggling mobile-phone business",
+        "published_date": "2016-07-19"
+      }
+    ]
+  },
+  "MSFT_2016q4": {
+    "summary": "Microsoft's fiscal first-quarter 2017 report beat analyst expectations for both sales and profit, with adjusted EPS of 76 cents versus a 68-cent consensus and adjusted revenue of $22.33 billion versus $21.7 billion expected. As in prior quarters, the article attributes the beat to cloud momentum: Azure revenue grew 116% (121% in constant currency), and the broader \"commercial cloud\" businesses (Azure, Office 365, Dynamics) posted 49% gross margins, which an analyst said demonstrated Microsoft could generate solid profits in cloud despite declining on-premises software licensing. Even the legacy Windows business, historically a drag, held up better than the overall PC market, which the article also notes as a modest positive.\n\nThe article directly ties these results to the stock's move, reporting the beat \"sparked a 6% rise in its share price\" in after-hours trading, pushing shares toward what would be an all-time high — consistent with the roughly 3.9% two-day gain in the data.",
+    "sources": [
+      {
+        "filename": "Microsoft’s Cloud Buoys Earnings - WSJ.pdf",
+        "title": "Microsoft’s Cloud Buoys Earnings Shares hit all-time high in after-hours trading, as results top Wall Street expectations",
+        "published_date": "2016-10-20"
+      }
+    ]
+  },
+  "MSFT_2017q1": {
+    "summary": "Microsoft's fiscal second-quarter 2017 report — the first to include newly acquired LinkedIn — beat expectations, with adjusted EPS of 83 cents versus a 79-cent consensus and adjusted revenue of $26.07 billion versus $25.3 billion expected. The article highlights continued Azure strength (revenue up 93%, with usage more than doubling) as the primary growth driver, alongside gains in the Office productivity segment (up 10%), even as the Windows-related \"More Personal Computing\" segment declined 5%. LinkedIn itself contributed $228 million in revenue but posted an operating loss in its first partial quarter under Microsoft ownership, which an analyst quoted in the piece said investors would likely tolerate while the company integrates the deal.\n\nThe article ties the results to the stock's move, noting shares closed at a new all-time high on the day of the report and rose a further 0.4% after hours, consistent with the roughly 3.6% two-day gain in the data.",
+    "sources": [
+      {
+        "filename": "Microsoft’s Profit Rises, Buoyed by Cloud Business - WSJ.pdf",
+        "title": "Microsoft’s Profit Rises, Buoyed by Cloud Business Results for the first time included LinkedIn, which contributed $228 million in revenue",
+        "published_date": "2017-01-26"
+      }
+    ]
+  },
+  "MSFT_2017q2": {
+    "summary": "Microsoft's fiscal third-quarter 2017 results were mixed relative to expectations: adjusted EPS of 73 cents beat the 70-cent consensus, but adjusted revenue of $23.56 billion fell just short of the $23.62 billion expected. Cloud businesses again drove growth, with the Intelligent Cloud segment up 11% and Productivity and Business Processes (including Office) up 22%, while the Surface computer line was a notable weak spot, with revenue down 26% due to aging products and price competition — a decline CFO Amy Hood said had \"more impact than we anticipated.\" LinkedIn, in its first full quarter under Microsoft, added $975 million in revenue but posted a $386 million operating loss.\n\nNotably, the article states that shares actually fell 1.4% in after-hours trading immediately after the report, attributing that initial dip to the revenue miss despite the EPS beat — a reaction that does not match the roughly +1.2% two-day gain shown in the data. The WSJ coverage does not explain a rebound; it only describes the initial negative after-hours move, so the positive two-day figure appears to reflect a recovery in subsequent trading sessions that this article does not address.",
+    "sources": [
+      {
+        "filename": "Microsoft’s Office 365, Cloud Businesses Power Earnings - WSJ.pdf",
+        "title": "Microsoft’s Office 365, Cloud Businesses Power Earnings The Azure business again posted torrid growth as company reports net income of $4.8 billion in its fiscal third quarter",
+        "published_date": "2017-04-27"
+      }
+    ]
+  },
+  "MSFT_2017q3": {
+    "summary": "Microsoft's fiscal fourth-quarter 2017 results beat expectations by a wide margin: adjusted EPS of 98 cents (including a 23-cent one-time tax benefit) topped the 71-cent consensus, and revenue rose 13% to $23.32 billion, ahead of estimates. The article attributes the strength specifically to Azure, which CFO Amy Hood said was \"higher than I was expecting\" and \"the primary source of our outperformance,\" with Azure revenue up 97% and Office 365 revenue up 43%. An analyst quoted in the piece said Microsoft was pulling further ahead of Google as the clear No. 2 cloud provider behind Amazon.\n\nThe article explicitly ties this beat to a strong immediate reaction, reporting shares rose 3.1% to a record high in after-hours trading. That description does not match the essentially flat (-0.01%) two-day return in the data, so while the article documents a positive initial reaction, it does not explain why that gain evidently did not hold over the following trading day.",
+    "sources": [
+      {
+        "filename": "Microsoft Profit Jumps, Fueled by Cloud Computing - WSJ.pdf",
+        "title": "Microsoft Profit Jumps, Fueled by Cloud Computing The software giant’s results beat expectations, with strong gains in selling web-based services to corporate customers",
+        "published_date": "2017-07-20"
+      }
+    ]
+  },
+  "MSFT_2017q4": {
+    "summary": "Microsoft's fiscal first-quarter 2018 report beat Wall Street's expectations comfortably: EPS of 84 cents versus a 72-cent consensus, and revenue up 12% to $24.54 billion versus $23.56 billion expected. As in the surrounding quarters, the article attributes the beat to cloud momentum — Azure revenue soared 90% and Office 365 revenue rose 42%, pushing the combined commercial-cloud annualized run-rate to $20.4 billion, which an analyst quoted in the piece called crushing the company's own two-year-old $20 billion target (\"these were really strong growth rates\"). The Windows-related segment, by contrast, was flat, reflecting a still-sluggish PC market.\n\nThe article directly ties the cloud-driven beat to the stock's reaction, reporting shares rose 4.2% in after-hours trading to a level that would represent an all-time high, consistent with the roughly 5.7% two-day gain in the data.",
+    "sources": [
+      {
+        "filename": "Microsoft’s Services Revenue Lifts Quarterly Results - WSJ.pdf",
+        "title": "Microsoft’s Services Revenue Lifts Quarterly Results Company’s cloud-computing operations Azure and Office 365 saw revenue soar in fiscal first quarter",
+        "published_date": "2017-10-26"
+      }
+    ]
+  },
+  "MSFT_2018q1": {
+    "summary": "Microsoft's fiscal second-quarter 2018 report showed a headline loss of $6.3 billion because of a $13.8 billion one-time charge tied to the new U.S. tax law, but excluding that charge, profit rose to $7.5 billion, or 96 cents a share, well above the 86-cent analyst consensus, on revenue up 12% to $28.92 billion versus $28.41 billion expected. The article again credits cloud growth as the driver, with Azure up 98% and Office 365 up 41%, alongside management commentary that the company handled the Spectre/Meltdown security vulnerabilities well and that the PC-dependent Windows segment grew a modest 2%.\n\nThe article states that shares fell \"a penny\" (effectively flat) in after-hours trading immediately following the report, which does not fully account for the roughly +1.65% two-day gain in the data. The WSJ coverage documents a solid underlying beat that could plausibly support a modest subsequent rise, but it explicitly describes the immediate after-hours reaction as flat rather than positive, so the two-day gain likely reflects trading in the following session(s) not covered by this article.",
+    "sources": [
+      {
+        "filename": "Microsoft Reports Gains in Cloud-Computing Business - WSJ.pdf",
+        "title": "Microsoft Reports Gains in Cloud-Computing Business Company recorded a $13.8 billion charge related to changes in U.S. tax law",
+        "published_date": "2018-01-31"
+      }
+    ]
+  },
+  "MSFT_2018q2": {
+    "summary": "Microsoft's fiscal third-quarter 2018 results beat expectations solidly: profit rose 35% to $7.42 billion, or 95 cents a share, versus an 85-cent consensus, and revenue rose 16% to $26.82 billion versus $25.78 billion expected. The article attributes the strength to continued torrid Azure growth (up 93%, extending a streak of never growing slower than 90% since the company began disclosing the metric) and 42% growth in commercial Office 365, driven by what CFO Amy Hood called \"better-than-expected demand,\" plus 20% growth in server/cloud hybrid revenue. An analyst quoted in the piece said Microsoft had put \"significant distance\" between itself and other Amazon cloud rivals.\n\nThe article directly ties the results, and especially the company's strong forward guidance for the following quarter across all three of its segments, to the stock's reaction: shares climbed 3.2% in after-hours trading, consistent with the roughly 2.8% two-day gain in the data.",
+    "sources": [
+      {
+        "filename": "Microsoft Rides Cloud Strength and Signals More to Come - WSJ.pdf",
+        "title": "Microsoft Rides Cloud Strength and Signals More to Come Azure’s revenue jumps 93% as company becomes chief cloud rival to Amazon",
+        "published_date": "2018-04-26"
+      }
+    ]
+  },
+  "MSFT_2018q3": {
+    "summary": "Microsoft's fiscal fourth-quarter 2018 report pushed the company's annual revenue above $100 billion for the first time, with quarterly revenue up 17% to $30.09 billion, though the article notes shares \"moved little\" on the strength of the headline results themselves — server-products/cloud-services revenue was up 26% (an analyst estimated roughly $7.9 billion) and Azure revenue grew 89%, its first time growing slower than 90% since Microsoft began disclosing the figure, suggesting the pace of the beat was less dramatic than in recent quarters. The company also highlighted a new five-year cloud deal with Walmart as evidence of continued enterprise adoption.\n\nWhat the article explicitly credits for moving the stock was forward guidance rather than the quarter itself: shares \"jumped more than 3% during after-hours trading when finance chief Amy Hood gave Wall Street analysts a strong outlook for the current quarter,\" pushing shares to fresh highs above $108 — consistent with the modest roughly 1.45% two-day gain in the data, once the initially muted same-day reaction is factored in.",
+    "sources": [
+      {
+        "filename": "Microsoft’s Revenue Gets Lift From Cloud - WSJ.pdf",
+        "title": "Microsoft’s Revenue Gets Lift From Cloud Software giant exceeds $100 billion in annual revenue for first time",
+        "published_date": "2018-07-19"
+      }
+    ]
+  }
+}

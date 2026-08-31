@@ -1,0 +1,221 @@
+{
+  "FB_2016q2": {
+    "summary_analysis": "Facebook reported first-quarter 2016 results that WSJ coverage described as a \"blowout,\" with revenue up 52% year over year to $5.38 billion (versus analyst estimates near $5.26 billion) and net profit nearly tripling to $1.51 billion, or 52 cents a share (77 cents adjusted, versus a 62-cent consensus). Advertising revenue jumped 57% to $5.2 billion, with mobile accounting for roughly four-fifths of that total, while monthly active users grew 15% to 1.65 billion and average revenue per user climbed 33% to $3.32. The results stood in sharp contrast to disappointing quarters just reported by Apple, Twitter and Alphabet, reinforcing the sense that Facebook was a standout performer in an otherwise weak tech earnings season. CFO David Wehner also cautioned on the earnings call that growth rates would face tougher comparisons later in the year.",
+    "why_moved": "Both pieces of WSJ coverage tie the stock's jump directly to this beat: the news article states plainly that \"the stronger than expected results drove Facebook shares up 8.8% in after-hours trading,\" while the Heard on the Street column notes shares \"jumped in after-hours trading\" and frames the reaction as investors' continued comfort with Mark Zuckerberg's control even as the company simultaneously proposed a new nonvoting share class that would let him sell stock without diluting his voting power. The coverage suggests investors were largely unfazed by the governance change because of the strength of the underlying numbers.",
+    "sources": [
+      {
+        "filename": "Facebook Results: Investors Like Living in Zuckerberg’s World - WSJ.pdf",
+        "title": "HEARD ON THE STREET Follow Facebook Results: Investors Like Living in Zuckerberg’s World Facebook’s new class of shares is a reminder of Mark Zuckerberg’s control, but company’s strong results mean investors don’t mind",
+        "published_date": "2016-04-27"
+      },
+      {
+        "filename": "Facebook Revenue Soars on Ad Growth - WSJ.pdf",
+        "title": "Facebook Revenue Soars on Ad Growth Social network also announces proposal to create new class of nonvoting stock",
+        "published_date": "2016-04-28"
+      }
+    ]
+  },
+  "FB_2016q3": {
+    "summary_analysis": "WSJ's coverage of Facebook's second-quarter 2016 results described a \"banner\" quarter in which profit and revenue both beat Wall Street's estimates. Net income totaled $2.06 billion (71 cents a share), nearly tripling year over year, while advertising revenue rose 59% to $6.2 billion, with mobile ads accounting for 84% of that total and growing 80%. Facebook added 220 million monthly active users over the year to reach 1.71 billion, and average revenue per user rose to $3.82 from $2.76. Executives cautioned that growth would slow later in the year given tougher comparisons, but stressed continued momentum from mobile and an emerging push into video.",
+    "why_moved": "The article directly ties the stock's rise to this beat, reporting that \"the banner results drove Facebook's shares to a new high,\" pushing the price up 3% to $127.06 in Thursday trading and making Facebook the fourth most valuable listed U.S. company, with a market capitalization around $370 billion.",
+    "sources": [
+      {
+        "filename": "Facebook Posts Strong Profit and Revenue Growth - WSJ.pdf",
+        "title": "Facebook Posts Strong Profit and Revenue Growth Shares climb as both the top and bottom lines beat Wall Street’s estimates",
+        "published_date": "2016-07-27"
+      }
+    ]
+  },
+  "FB_2016q4": {
+    "summary_analysis": "Facebook's third-quarter 2016 report, as covered by WSJ, showed continued outsized growth — revenue up 56% to $7 billion and profit nearly tripling to $2.38 billion — putting the company on pace for $27 billion in annual revenue and outgrowing every other large U.S. company by S&P Capital IQ's count. Management disclosed that starting in mid-2017 Facebook would stop increasing the number of ads shown in users' news feeds, the main lever it had used to drive ad revenue growth for two years, and CFO Dave Wehner said advertising growth would \"come down meaningfully\" as a result, alongside plans to spend more on data centers and engineering hiring.",
+    "why_moved": "The article frames the stock's decline squarely around this forward guidance, explicitly attributing the share drop to the warning: \"Facebook's stock price was down more than 7% in after-hours trading because of the caution about advertising growth.\" The article quotes an analyst noting slower growth was somewhat inevitable given \"the law of large numbers,\" but the immediate market reaction was driven by the specificity of management's guidance that the key ad-load growth lever was ending, rather than by the strong headline results themselves.",
+    "sources": [
+      {
+        "filename": "Facebook Profit Soars, but Growth Concerns Emerge - WSJ.pdf",
+        "title": "Facebook Profit Soars, but Growth Concerns Emerge Shares slide after hours over caution about advertising growth",
+        "published_date": "2016-11-02"
+      }
+    ]
+  },
+  "FB_2017q2": {
+    "summary_analysis": "WSJ's coverage of Facebook's first-quarter 2017 results described a continuation of the company's dominance in digital advertising: profit surged 76% to $3.06 billion and revenue rose 49% to $8.03 billion, both beating expectations, while monthly active users climbed to 1.94 billion. The results echoed similarly strong numbers from Alphabet reported the prior week and \"allayed concerns\" that controversies around video-ad measurement and objectionable content would hurt growth.",
+    "why_moved": "Despite the beat, the article attributes the stock's slip to forward-looking uncertainty rather than the reported quarter itself: it states shares \"slipped in after-hours trading on concerns about whether new ad formats will be able to replace the booming growth\" Facebook had enjoyed from news-feed ads, as CFO David Wehner reiterated a prior warning that ad-revenue growth would \"come down meaningfully\" over 2017 and that the news-feed ad load would play a smaller role in growth after mid-year. The piece also notes lingering advertiser skepticism about Facebook's newer video-ad products and unresolved concerns about content moderation on Facebook Live, though it does not explicitly tie these to the price move.",
+    "sources": [
+      {
+        "filename": "Facebook Revenue Surges, Fueled by Mobile - WSJ.pdf",
+        "title": "Facebook Revenue Surges, Fueled by Mobile Increase is a sign of how marketers are increasingly embracing Facebook and Instagram",
+        "published_date": "2017-05-03"
+      }
+    ]
+  },
+  "FB_2017q3": {
+    "summary_analysis": "Facebook's second-quarter 2017 results, per WSJ's coverage, showed profit spiking 71% to $3.9 billion — surpassing larger rival Alphabet's bottom line — on a 45% jump in revenue to $9.3 billion, driven by a 24% rise in average ad prices. Management warned that its primary revenue source, ads in the news feed, was \"hitting a ceiling,\" while pivoting toward new ad formats in video, Messenger and WhatsApp to sustain growth, even though those formats currently earn less per ad than news-feed placements. The article frames the results as evidence Facebook was successfully managing this structural challenge.",
+    "why_moved": "The piece directly links the earnings beat to the stock's rise, reporting that \"Facebook's stock was 3.7% higher in after-hours trading, building on a 44% increase since the beginning of the year,\" suggesting investors responded favorably to the combination of the strong headline numbers and management's articulated strategy for finding new ad inventory as the news feed matured.",
+    "sources": [
+      {
+        "filename": "Facebook Searches for New Ad Slots as Profit Spikes 71% - WSJ.pdf",
+        "title": "Facebook Searches for New Ad Slots as Profit Spikes 71% Social media giant is turning to higher prices and new ad formats for videos and its messaging apps",
+        "published_date": "2017-07-26"
+      }
+    ]
+  },
+  "FB_2017q4": {
+    "summary_analysis": "WSJ's coverage of Facebook's third-quarter 2017 report centered on a tension between strong financial results and mounting political scrutiny: profit jumped 79% and revenue rose to $10.33 billion from $7.01 billion, with monthly active users reaching 2.07 billion, even as Facebook's general counsel testified before Congress the same day over Russian-linked disinformation campaigns on the platform. Management announced it would sacrifice future profitability to roughly double its safety and security headcount to 20,000 employees and contractors by the end of 2018, with 2018 expenses potentially rising as much as 60%.",
+    "why_moved": "The article reports Facebook shares were \"down 2% in after-hours trading\" despite the earnings beat, though it does not explicitly state which factor — the congressional scrutiny, the pledge to spend heavily on safety at the expense of margins, or the broader trust concerns raised by an analyst quoted in the piece (\"lack of trust creates friction... and those rules come with costs\") — drove the modest pullback. Given the article's framing, the decline appears most consistent with investor unease over the promised profitability trade-off and the reputational overhang from the Russia hearings, rather than with the underlying financial performance, which the piece describes as strong.",
+    "sources": [
+      {
+        "filename": "Facebook Profit Jumps 79%, Revenue Up - WSJ.pdf",
+        "title": "Facebook Profit Jumps 79%, Revenue Up Still, company remains under scrutiny over Russian activity",
+        "published_date": "2017-11-01"
+      }
+    ]
+  },
+  "FB_2018q1": {
+    "summary_analysis": "This WSJ \"Heard on the Street\" column on Facebook's fourth-quarter 2017 results emphasized a split picture: the company's financials were described as among the strongest on record, with revenue up 47% to just under $13 billion and operating income surging 61% to $7.4 billion, giving Facebook roughly twice the operating margin of peers like Microsoft, Apple and Alphabet. At the same time, daily active user growth slowed sharply to 2.4% sequentially, the lowest on record for that metric and well below the roughly 46-million-user addition Wall Street had expected, which the column links to CEO Mark Zuckerberg's stated 2018 priority of \"fixing\" the platform, including News Feed changes he acknowledged could hurt usage.",
+    "why_moved": "The article does not explicitly state how shares reacted to the report; instead it offers an analytical take that the cost of Zuckerberg's promised changes \"is still invisible in its financial statements\" and cautions that \"investors should still get ready for a slightly less profitable Facebook\" once the fuller effects of the changes and any advertiser response are felt. Given that framing — strong current profitability paired with a warning about costs still to come — the coverage reads as more reassuring than alarming about the near term, consistent with a positive reaction, though the piece itself does not connect its analysis to the stock's actual move.",
+    "sources": [
+      {
+        "filename": "No Bill Yet for Facebook’s Fixes - WSJ.pdf",
+        "title": "HEARD ON THE STREET Follow No Bill Yet for Facebook’s Fixes The social network’s changes slow user growth but financials stay strong",
+        "published_date": "2018-01-31"
+      }
+    ]
+  },
+  "FB_2018q2": {
+    "summary_analysis": "Facebook's first-quarter 2018 report, covered by WSJ as the company's first earnings release since the Cambridge Analytica data-privacy scandal became public, showed profit up 63% to nearly $5 billion and revenue up nearly 50% to $11.97 billion, both topping analyst expectations, while the user base grew to 2.2 billion. The company also authorized an additional $9 billion in share buybacks. COO Sheryl Sandberg said on the earnings call that Facebook \"hadn't seen a 'meaningful trend' of advertisers fleeing the platform\" despite the privacy uproar, and a marketing-industry source quoted in the piece said advertisers remained largely in a \"wait-and-see\" mode rather than pulling spending.",
+    "why_moved": "The article directly ties the stock's jump to this combination of a results beat and reassurance that the scandal wasn't yet hurting the ad business, stating that \"in after-hours trading Wednesday, Facebook shares rose about 7%,\" and noting that the stock had fallen more than 18% from its February high in the run-up to the report — implying the rally partly reflected relief that a worst-case advertiser exodus hadn't materialized.",
+    "sources": [
+      {
+        "filename": "Facebook Posts Surge in Revenue as It Tackles User-Data Crisis - WSJ.pdf",
+        "title": "Facebook Posts Surge in Revenue as It Tackles User-Data Crisis Results suggest advertisers were undeterred by uproar around Cambridge Analytica incident",
+        "published_date": "2018-04-25"
+      }
+    ]
+  },
+  "FB_2018q3": {
+    "summary_analysis": "WSJ's coverage of Facebook's second-quarter 2018 results notes the company's actual quarterly numbers were solid — revenue rose 42% to $13.23 billion and EPS was $1.74, roughly in line with the $13.36 billion/$1.72 consensus (the article notes this was Facebook's first revenue miss since Q1 2015). Executives warned that revenue growth would decelerate by \"high single-digit percentages\" each quarter for the rest of 2018 due to tougher European privacy rules (GDPR), a shift toward less lucrative ad formats, and currency headwinds, and that operating margins would fall from 44% into the \"mid-30s\" over the coming years due to higher spending. The piece also notes softening daily active user trends in the U.S./Canada (flat sequentially) and Europe (down slightly, attributed to the new EU privacy law).",
+    "why_moved": "WSJ's coverage centers on a sharp negative reaction driven almost entirely by this forward guidance rather than the reported quarter itself; the article is explicit that the guidance, not the historical results, drove the reaction: shares \"dropped as much as 23% in after-hours trading,\" a decline the piece calculates would erase roughly $130 billion in market value — more than the entirety of McDonald's market cap — after Facebook had touched record highs earlier the same day. The softening user trends reinforced investor fears that growth was slowing on multiple fronts at once against the backdrop of the year's Cambridge Analytica fallout.",
+    "sources": [
+      {
+        "filename": "Facebook Shares Tumble as Growth Outlook Darkens - WSJ.pdf",
+        "title": "Facebook Shares Tumble as Growth Outlook Darkens Results suggest the social-media site felt the effects of a series of recent controversies",
+        "published_date": "2018-07-25"
+      }
+    ]
+  },
+  "TSLA_2016q2": {
+    "summary_analysis": "This WSJ \"Heard on the Street\" column on Tesla's first-quarter 2016 results is a skeptical opinion piece rather than a neutral recap. It notes the quarter itself was roughly in line — revenue of $1.15 billion and an adjusted loss of 57 cents a share, narrowly topping consensus — but argues that \"expectations for the future, rather than current performance\" drive Tesla's stock, and that CEO Elon Musk's newly accelerated targets (500,000 vehicles by 2018, two years earlier than previously promised, with Model 3 production still slated to begin in late 2017) deserved scrutiny given Tesla's history of missed deadlines, ongoing Model X quality issues, and the departure of two senior manufacturing executives.",
+    "why_moved": "The column flags several red flags it says investors should weigh: Musk said the more ambitious plan \"will likely require additional capital\" and that 2016 capital expenditures would likely run 50% above prior guidance — a reversal from February, when Tesla said it wouldn't need to raise capital — and it notes Tesla was using refundable Model 3 customer deposits to pay down an asset-backed credit line. The piece does not state the specific share-price reaction, but its overall argument — that an in-line quarter was accompanied by a capital-needs reversal, execution risk on aggressive new targets, and a valuation \"priced for perfection\" at more than 50 times projected 2018 earnings — is consistent with the stock's roughly 8% two-day decline, suggesting the capital-raise reversal and credibility concerns weighed more heavily than the results themselves.",
+    "sources": [
+      {
+        "filename": "Tesla Earnings: It’s All About the Dream - WSJ.pdf",
+        "title": "HEARD ON THE STREET Follow Tesla Earnings: It’s All About the Dream Company's earnings came with more ambitious goals, but investors have to stay focused on the fundamentals",
+        "published_date": "2016-05-04"
+      }
+    ]
+  },
+  "TSLA_2016q3": {
+    "summary_analysis": "This WSJ \"Heard on the Street\" column on Tesla's second-quarter 2016 results, titled \"False Dawn at Tesla,\" is a skeptical analysis piece. It reports that Tesla's adjusted revenue of $1.6 billion and adjusted loss of $1.06 a share both fell short of analysts' estimates, but that operating cash flow of $150 million against $295 million of capital spending produced a free cash outflow of just $145 million — the company's best quarterly cash performance in more than two years. The column argues this apparent improvement is misleading: refundable Model 3 customer deposits were counted in operating cash flow (creating risk of a later reversal), Tesla had gone more than two months without updating investors on those deposits, and capital spending was set to rise sharply as the company geared up for Model 3 production and absorbed cash needs from its proposed SolarCity acquisition.",
+    "why_moved": "The article does not state how shares actually reacted, and the stock's roughly flat two-day move is not clearly explained by this piece's skeptical framing, which argued the reported cash-flow improvement understated Tesla's true burn. If anything, the modestly positive reaction sits somewhat at odds with the column's warning that \"shareholders shouldn't put away their wallets just yet\" — the available WSJ coverage here previews the bear case rather than accounting for the market's actual, relatively muted response.",
+    "sources": [
+      {
+        "filename": "False Dawn at Tesla - WSJ.pdf",
+        "title": "HEARD ON THE STREET Follow False Dawn at Tesla An improved cash-flow picture at Tesla is likely a mirage",
+        "published_date": "2016-08-03"
+      }
+    ]
+  },
+  "TSLA_2016q4": {
+    "summary_analysis": "WSJ's coverage of Tesla's third-quarter 2016 results reported a surprise $22 million profit — only the company's second profitable quarter ever, after 12 consecutive quarterly losses — driven by record deliveries of 24,821 combined Model S and Model X vehicles (more than double the year-earlier figure), a reduction in spending, and a boost from selling regulatory credits, which contributed $139 million in gross profit versus an analyst estimate of just $30 million. Revenue jumped to $2.3 billion from $936.8 million a year earlier, and Musk told analysts the company was \"headed to have a great fourth quarter\" as well.",
+    "why_moved": "The article directly links the results to the stock's move, stating shares \"were up 5% to $212.05 in after-hours trading on Wednesday.\" The piece frames the surprise profitability as bolstering Musk's credibility ahead of a shareholder vote on the pending SolarCity merger, since the improved results and free-cash generation supported his case that Tesla could handle the added financial strain of that deal.",
+    "sources": [
+      {
+        "filename": "Tesla Generates a Profit - WSJ.pdf",
+        "title": "Tesla Generates a Profit Electric-car maker’s deliveries more than double ahead of vote on SolarCity merger",
+        "published_date": "2016-10-26"
+      }
+    ]
+  },
+  "TSLA_2017q1": {
+    "summary_analysis": "WSJ's coverage of Tesla's fourth-quarter 2016 results combined a straight news report and a skeptical \"Heard on the Street\" column, both published the same day. Tesla reported fourth-quarter revenue of $2.28 billion (up 88%, ahead of estimates) and a narrowed loss, and laid out an aggressive plan to begin Model 3 production in July and ramp to 5,000 vehicles a week by year-end — though Musk said the company's cash pile would fall \"close to the edge\" and that it \"probably makes sense to raise capital to reduce risk.\" The skeptical column warned that total liabilities had ballooned to nearly $17 billion (from $7 billion a year earlier, largely due to the SolarCity acquisition) against just $3.4 billion in cash, that free cash outflow swelled to nearly $1 billion for the quarter, and that the stock traded at \"more than 200 times expected 2018 earnings.\" Both articles also flag the surprise resignation of Tesla's CFO, announced the day after earnings, as a fresh source of uncertainty.",
+    "why_moved": "The Heard on the Street piece notes that \"sales topped analyst estimates, and the stock price was higher in late trading\" immediately following the report, describing a furious rally of roughly 50% since December. That immediate positive reaction contrasts with the stock's actual negative two-day return, and the coverage points to several factors that could explain a subsequent reversal, including the balance-sheet strain, cash needs, stretched valuation, and the CFO departure. The available coverage suggests the initial after-hours pop faded amid concerns about the balance sheet, cash needs, valuation, and the CFO departure — risks the WSJ pieces raised explicitly — rather than the operating results themselves, which beat expectations.",
+    "sources": [
+      {
+        "filename": "Tesla Drives on the Edge - WSJ.pdf",
+        "title": "HEARD ON THE STREET Follow Tesla Drives on the Edge Tesla’s recent stock surge is a gift investors should accept",
+        "published_date": "2017-02-22"
+      },
+      {
+        "filename": "Tesla Sets Aggressive Production Plan for Model 3 - WSJ.pdf",
+        "title": "Tesla Sets Aggressive Production Plan for Model 3 Company also reports 88% revenue increase for the fourth quarter",
+        "published_date": "2017-02-22"
+      }
+    ]
+  },
+  "TSLA_2017q2": {
+    "summary_analysis": "WSJ's coverage of Tesla's first-quarter 2017 results reported that the company's loss widened to $330 million (from $283 million a year earlier) even as revenue more than doubled to $2.7 billion; on an adjusted basis, the per-share loss of $1.33 missed the 81-cent loss analysts had forecast, a notably worse-than-expected bottom line despite record vehicle deliveries of about 25,000 units. The article quotes a Barclays analyst arguing that fundamentals mattered little to Tesla's stock at the time — \"the stock seems so disconnected from any form of fundamentals... making earnings less relevant\" — and cites hedge-fund manager David Einhorn's public skepticism that the Model 3 could reach mass-market scale justifying Tesla's valuation, alongside continued heavy cash needs.",
+    "why_moved": "The article does not state the specific share-price reaction to the report. Given the wider-than-expected loss and the coverage's emphasis on stretched valuation, ongoing cash burn, and vocal skeptics like Einhorn, the piece's content is broadly consistent with the stock's roughly 7% two-day decline, though the connection between the reported loss miss and the move is inferred rather than explicitly stated in the text.",
+    "sources": [
+      {
+        "filename": "Musk Says Tesla on Track to Meet Model 3 Production Goal - WSJ.pdf",
+        "title": "Musk Says Tesla on Track to Meet Model 3 Production Goal The car company posted a wider loss despite more than doubling revenue",
+        "published_date": "2017-05-03"
+      }
+    ]
+  },
+  "TSLA_2017q3": {
+    "summary_analysis": "WSJ's coverage of Tesla's second-quarter 2017 results reported a loss of $336 million that was narrower than analysts expected on an adjusted per-share basis ($1.33 versus a $1.82 consensus loss), with revenue more than doubling to $2.79 billion, beating the $2.51 billion analysts had projected. The article frames the results as an effort by Tesla \"to calm investor nerves\" after concerns that the newly launched Model 3 would cannibalize sales of the pricier Model S and Model X — concerns that had knocked the stock down about 13% in the weeks before the report, following a second-quarter delivery miss. Management said orders for the older models had actually accelerated, rising 15% above the average weekly order rate, which it said supported expectations for stronger second-half deliveries. The piece also notes Musk's candid warnings of looming \"manufacturing hell\" as Model 3 ramps up.",
+    "why_moved": "The article directly attributes the stock's rise to this reassurance, stating \"investors liked what they heard on Wednesday, sending Tesla's stock up over 8% in after-hours trading,\" and quotes an analyst calling it \"a better-than-expected quarter.\" The piece frames the immediate reaction as driven primarily by the loss and revenue beat combined with evidence that older-model demand wasn't collapsing.",
+    "sources": [
+      {
+        "filename": "Tesla Loss Widens But Beats Expectations - WSJ.pdf",
+        "title": "Tesla Loss Widens But Beats Expectations Results come as auto maker ramps up production of mass-market Model 3",
+        "published_date": "2017-08-02"
+      }
+    ]
+  },
+  "TSLA_2017q4": {
+    "summary_analysis": "WSJ's coverage of Tesla's third-quarter 2017 results described the company's \"worst financial quarter ever,\" with a loss of $619 million attributable to shareholders (versus a profit of $22 million a year earlier) and an adjusted per-share loss of $2.92 that was wider than the $2.28 analysts had expected. The centerpiece of the article is a significant setback in the Model 3 ramp: Tesla said it would not reach its target of 5,000 vehicles a week until late in the first quarter of 2018 rather than by the end of 2017, blaming battery-pack assembly bottlenecks, and Musk struggled visibly on the earnings call — pausing 12 seconds before answering a question about the 10,000-a-week target and acknowledging a \"strategic choice between growth and capital spending\" that surprised at least one analyst. Revenue did rise 30% to $2.98 billion, beating estimates on the strength of Model X sales, and cash on hand grew slightly to $3.5 billion after a $1.8 billion bond issuance.",
+    "why_moved": "The article does not state the specific share-price reaction to the report. Given its emphasis on the delayed production timeline, the record loss, and Musk's uncharacteristically hesitant answers about the path to scale (compounded by widely covered erratic social-media posts from the Gigafactory around this time), the coverage's content is broadly consistent with a sizable negative stock reaction, though the piece does not explicitly connect these details to the reported price move.",
+    "sources": [
+      {
+        "filename": "Tesla Posts Loss, Boosting Pressure to Speed Output of Model 3 - WSJ.pdf",
+        "title": "Tesla Posts Loss, Boosting Pressure to Speed Output of Model 3 Gains in sales of Tesla’s Model X sport-utility vehicle helped boost revenue 30%",
+        "published_date": "2017-11-01"
+      }
+    ]
+  },
+  "TSLA_2018q1": {
+    "summary_analysis": "WSJ's coverage of Tesla's fourth-quarter 2017 results described a shift to a more optimistic tone after the prior quarter's delays: Tesla reported a record loss of $675 million attributable to shareholders, but the adjusted per-share loss beat analyst expectations, and management said it expected to reach its twice-postponed goal of 5,000 Model 3s a week by the end of the second quarter of 2018, with a \"sustained operating profit\" targeted sometime in the year. Free cash burn improved sharply to $277 million, helped by delayed Model 3 investment and a rise in customer deposits. The piece also carries caveats that complicate the picture: it flags Tesla's \"difficulty of accurately forecasting specific production rates,\" notes the company again missed its Model 3 target (building only about 2,400 in the quarter versus a 5,000-per-week goal), and cites analysts' view that Tesla would likely need to raise additional capital during the year, with 2018 profit estimates having flipped from a projected gain to an expected loss over the prior year.",
+    "why_moved": "The article notes shares \"fluctuated around the $345 closing price\" in after-hours trading after rising 3.3% during the regular session that day. The reported intraday gain is consistent with investors initially welcoming the smaller-than-feared loss and improved cash burn, though the article does not address why the broader two-day return turned slightly negative.",
+    "sources": [
+      {
+        "filename": "Tesla Says It Is Making Progress on Model 3 Production Issues - WSJ.pdf",
+        "title": "Tesla Says It Is Making Progress on Model 3 Production Issues Electric car maker’s loss widens to $675 million as it projects a sustained operating profit sometime in 2018",
+        "published_date": "2018-02-07"
+      }
+    ]
+  },
+  "TSLA_2018q2": {
+    "summary_analysis": "WSJ's coverage of Tesla's first-quarter 2018 results reported that free cash flow swung to roughly negative $1 billion, a larger burn than analysts expected, while the company posted a fifth consecutive record loss of $710 million attributable to shareholders — though the adjusted per-share loss of $3.35 was narrower than the (recently lowered) consensus forecast. Management reiterated it remained on pace to hit the long-delayed goal of 5,000 Model 3s a week by around the end of the second quarter and insisted it would not need to raise additional capital.",
+    "why_moved": "The article directly ties the stock's decline to Musk's conduct on the earnings call rather than to the numbers alone: during a \"combative\" call, Musk answered curtly when a Morgan Stanley analyst asked about raising capital as a precaution, then cut off two other analysts' questions about capital expenditures and Model 3 reservations, calling them \"so dry. They're killing me.\" The piece reports that \"as Mr. Musk deflected some questions, the stock started sliding in after-hours trading, falling as much as 6%... before settling down 4.6%,\" explicitly linking the drop to both the wider-than-expected cash burn and investors' reaction to Musk's dismissive, adversarial tone with the analyst community.",
+    "sources": [
+      {
+        "filename": "Tesla Continues to Burn Through Cash - WSJ.pdf",
+        "title": "Tesla Continues to Burn Through Cash CEO Elon Musk reiterates that Tesla is still on pace to make about 5,000 Model 3s in a single week",
+        "published_date": "2018-05-02"
+      }
+    ]
+  },
+  "TSLA_2018q3": {
+    "summary_analysis": "WSJ's coverage of Tesla's second-quarter 2018 results reported the company's loss more than doubled year over year to $717.5 million — a seventh consecutive quarterly loss — but that it burned significantly less cash than expected, with negative free cash flow of about $740 million versus a roughly $889 million consensus estimate, after finally hitting its long-delayed goal of producing 5,000 Model 3s in a single week in late June. Management reiterated a promise to become \"sustainably profitable and cash flow positive\" in the second half of 2018 and said it would not need to issue new equity, focusing instead on paying down debt.",
+    "why_moved": "The article explicitly ties the stock's rally to this combination of better-than-feared cash burn and a marked change in Musk's demeanor: after a contentious prior-quarter call, Musk \"apologized to those analysts on the call Wednesday and generally sounded upbeat,\" telling the market \"are we running low on money? The answer is no.\" The piece states the report and Musk's comments \"sent Tesla's shares up nearly 9% to $327.70 in after-hours trading,\" directly linking the reversal in tone plus the cash-burn beat to the positive reaction, even as it notes lingering skepticism from short-seller David Einhorn and many analysts who doubted Tesla's profitability promise could be kept.",
+    "sources": [
+      {
+        "filename": "Tesla Doubles Loss, but Burns Less Cash Than Expected - WSJ.pdf",
+        "title": "Tesla Doubles Loss, but Burns Less Cash Than Expected Electric-car maker finished the second quarter with $2.2 billion in cash",
+        "published_date": "2018-08-01"
+      }
+    ]
+  }
+}
