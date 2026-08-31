@@ -1305,12 +1305,7 @@ if st.session_state.selected_section == "Data Visualization 2":
     g_period_start = g_sub_middle10["earnings_date"].min().strftime("%Y-%m-%d")
     g_period_end = g_sub_middle10["earnings_date"].max().strftime("%Y-%m-%d")
 
-    g_title_col, g_filter_col1, g_filter_col2 = st.columns([5, 2.3, 3.2])
-    with g_title_col:
-        st.markdown(
-            f"<div class='quarter-header' style='font-size:1.4rem;'>{g_ticker} — {g_company_name}</div>",
-            unsafe_allow_html=True,
-        )
+    g_filter_spacer, g_filter_col1, g_filter_col2 = st.columns([5, 2.3, 3.2])
     with g_filter_col1:
         g_filter_wsj = st.checkbox("Show Context Analysis + WSJ Coverage", key="g_filter_context_wsj")
     with g_filter_col2:
@@ -1318,6 +1313,11 @@ if st.session_state.selected_section == "Data Visualization 2":
             "Show Context Analysis + WSJ Coverage + Dow Jones Newswires Coverage",
             key="g_filter_context_wsj_djnw",
         )
+
+    st.markdown(
+        f"<div class='quarter-header' style='font-size:1.4rem; text-align:center;'>{g_ticker} — {g_company_name}</div>",
+        unsafe_allow_html=True,
+    )
 
     def _quarter_has_coverage(fiscal_yearquarter, need_wsj, need_djnw):
         # Unchecking both filters resets to "All" -- the default -- rather
