@@ -1300,21 +1300,68 @@ if st.session_state.selected_section == "Data Visualization 2":
         st.info(f"No returns data available for {g_ticker}.")
         st.stop()
 
-    g_sub = middle_n_quarters(g_sub_full, n=10).reset_index(drop=True)
+    g_sub_middle10 = middle_n_quarters(g_sub_full, n=10).reset_index(drop=True)
     g_company_name = GROUP_COMPANY_NAMES.get(g_ticker, g_ticker)
-    g_period_start = g_sub["earnings_date"].min().strftime("%Y-%m-%d")
-    g_period_end = g_sub["earnings_date"].max().strftime("%Y-%m-%d")
+    g_period_start = g_sub_middle10["earnings_date"].min().strftime("%Y-%m-%d")
+    g_period_end = g_sub_middle10["earnings_date"].max().strftime("%Y-%m-%d")
+
+    g_title_col, g_filter_col1, g_filter_col2 = st.columns([5, 2.3, 3.2])
+    with g_title_col:
+        st.markdown(
+            f"<div class='quarter-header' style='font-size:1.4rem;'>{g_ticker} — {g_company_name}</div>",
+            unsafe_allow_html=True,
+        )
+    with g_filter_col1:
+        g_filter_wsj = st.checkbox("Show Context Analysis + WSJ Coverage", key="g_filter_context_wsj")
+    with g_filter_col2:
+        g_filter_djnw = st.checkbox(
+            "Show Context Analysis + WSJ Coverage + Dow Jones Newswires Coverage",
+            key="g_filter_context_wsj_djnw",
+        )
+
+    def _quarter_has_coverage(fiscal_yearquarter, need_wsj, need_djnw):
+        # Unchecking both filters resets to "All" -- the default -- rather
+        # than needing a separate "All" option, per how these were asked
+        # for. If both filters are checked at once, the stricter one
+        # (context + WSJ + DJNW) wins, since it's a subset of the other.
+        key = f"{g_ticker}_{fiscal_yearquarter}"
+        if not group_context_lookup.get(key):
+            return False
+        if need_wsj:
+            e = group_wsj_coverage_lookup.get(key)
+            if not (e and (e.get("summary_analysis") or e.get("why_moved"))):
+                return False
+        if need_djnw:
+            e = group_djnw_coverage_lookup.get(key)
+            if not (e and (e.get("summary_analysis") or e.get("why_moved"))):
+                return False
+        return True
+
+    if g_filter_djnw:
+        g_sub = g_sub_middle10[
+            g_sub_middle10["fiscal_yearquarter"].apply(lambda fq: _quarter_has_coverage(fq, True, True))
+        ].reset_index(drop=True)
+    elif g_filter_wsj:
+        g_sub = g_sub_middle10[
+            g_sub_middle10["fiscal_yearquarter"].apply(lambda fq: _quarter_has_coverage(fq, True, False))
+        ].reset_index(drop=True)
+    else:
+        g_sub = g_sub_middle10
 
     st.markdown(
-        f"<div class='quarter-header' style='font-size:1.4rem; text-align:center;'>{g_ticker} — {g_company_name}</div>",
-        unsafe_allow_html=True,
-    )
-    st.markdown(
         f"<div style='text-align:center; color:rgba(214,228,240,0.7); font-size:0.85rem;'>"
-        f"Showing {len(g_sub)} of {len(g_sub_full)} quarters covered ({g_sub_full['earnings_date'].min().strftime('%Y-%m-%d')} "
+        f"Showing {len(g_sub_middle10)} of {len(g_sub_full)} quarters covered ({g_sub_full['earnings_date'].min().strftime('%Y-%m-%d')} "
         f"to {g_sub_full['earnings_date'].max().strftime('%Y-%m-%d')}), centered on {g_period_start} – {g_period_end}</div>",
         unsafe_allow_html=True,
     )
+    if g_filter_wsj or g_filter_djnw:
+        st.markdown(
+            f"<div style='text-align:center; color:rgba(214,228,240,0.6); font-size:0.8rem;'>"
+            f"{len(g_sub)} of these {len(g_sub_middle10)} match the selected coverage filter</div>",
+            unsafe_allow_html=True,
+        )
+        if g_sub.empty:
+            st.info("No quarters in this ticker's displayed window match the selected coverage filter.")
 
     render_price_chart(g_ticker, group_price_history, g_sub)
 
