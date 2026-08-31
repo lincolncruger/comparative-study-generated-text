@@ -1236,7 +1236,8 @@ if st.session_state.selected_section == "Data Visualization 2":
     _cov_covered, _cov_total = _group_wsj_coverage_pct(st.session_state.selected_group)
     _cov_pct = (_cov_covered / _cov_total * 100) if _cov_total else 0.0
     st.markdown(
-        f"<div style='text-align:center; color:rgba(214,228,240,0.85); font-size:0.95rem; margin:0.5rem 0;'>"
+        f"<div style=\"text-align:center; color:rgba(214,228,240,0.9); font-size:1.6rem; "
+        f"font-family:'Cormorant Garamond', serif; margin:0.6rem 0;\">"
         f"WSJ coverage for {st.session_state.selected_group}: {_cov_pct:.0f}% "
         f"({_cov_covered} of {_cov_total} observations)</div>",
         unsafe_allow_html=True,
