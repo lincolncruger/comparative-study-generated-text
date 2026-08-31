@@ -23,8 +23,20 @@ GROUP_TICKERS = {
 }
 ALL_TICKERS = sorted({t for tickers in GROUP_TICKERS.values() for t in tickers})
 
+# Yahoo Finance stopped serving any data at all under the old "FB" symbol
+# after Facebook's 2022 rename to Meta -- confirmed empirically (yf.download
+# ("FB", ...) returns an empty frame for every date range, including pre-
+# rename ones that plainly have real trading history). "META" is the same
+# underlying security and Yahoo keeps its full history there, including the
+# pre-rename years, so FB's series is fetched under that symbol instead
+# while still being stored under the "FB" key (GROUPS/GROUP_COMPANY_NAMES
+# elsewhere in the app use "FB", not "META", to avoid double-counting the
+# same company under two tickers).
+DOWNLOAD_SYMBOL_OVERRIDES = {"FB": "META"}
+
 
 def fetch_series(symbol, start, end):
+    symbol = DOWNLOAD_SYMBOL_OVERRIDES.get(symbol, symbol)
     df = yf.download(symbol, start=start.strftime("%Y-%m-%d"), end=end.strftime("%Y-%m-%d"), progress=False)
     if df.empty:
         return []
