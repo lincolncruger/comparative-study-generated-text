@@ -557,18 +557,21 @@ def load_group_djnw_coverage(mtime_marker):
         return json.load(f)
 
 
-def render_wsj_pdf_link(source, static_slug):
-    """A plain link that opens the source PDF in a new browser tab, served
-    from Streamlit's static/ folder (see GROUP_WSJ_STATIC_SLUGS above for
-    why this isn't a data: URI), plus a second "Download PDF" fallback
-    link with the `download` attribute -- in case the viewer's browser or
-    settings don't open the PDF inline (e.g. a PDF viewer extension
-    disabled, or a browser configured to always download PDFs instead of
-    displaying them), this forces a plain file save instead of doing
-    nothing."""
+def render_wsj_pdf_link_html(source, static_slug):
+    """Returns HTML for a plain link that opens the source PDF in a new
+    browser tab, served from Streamlit's static/ folder (see
+    GROUP_WSJ_STATIC_SLUGS above for why this isn't a data: URI), plus a
+    second "Download PDF" fallback link with the `download` attribute --
+    in case the viewer's browser or settings don't open the PDF inline
+    (e.g. a PDF viewer extension disabled, or a browser configured to
+    always download PDFs instead of displaying them), this forces a
+    plain file save instead of doing nothing. Returns a string (rather
+    than calling st.markdown directly) so the caller can fold it into a
+    larger combined HTML block -- see format_websearch_context_split()'s
+    docstring for why that matters here."""
     filename = source.get("filename")
     if not filename or static_slug is None:
-        return
+        return ""
     url = f"/app/static/{static_slug}/{url_quote(filename)}"
     label = source.get("title") or filename
     published = source.get("published_date", "")
@@ -577,34 +580,29 @@ def render_wsj_pdf_link(source, static_slug):
         "display:block; color:#4A90D9; font-size:0.85rem; "
         "margin-bottom:0.3rem; text-decoration:none;"
     )
-    st.markdown(
+    return (
         f"<a href='{url}' target='_blank' rel='noopener noreferrer' style='{link_style}'>"
         f"&#128196; Open PDF: {label_text}</a>"
         f"<a href='{url}' download='{filename}' style='{link_style} font-size:0.78rem; opacity:0.8;'>"
-        f"&#11015; Download PDF</a>",
-        unsafe_allow_html=True,
+        f"&#11015; Download PDF</a>"
     )
 
 
-def render_djnw_source_link(source):
-    """A button-styled link to the original Dow Jones Newswires source
-    page. Unlike the WSJ PDFs, these are already public URLs (mirrored on
-    foxbusiness.com/advfn.com/finanznachrichten.de), so it just opens
-    directly -- no local static-file copy needed."""
+def render_djnw_source_link_html(source):
+    """Returns HTML for a button-styled link to the original Dow Jones
+    Newswires source page. Unlike the WSJ PDFs, these are already public
+    URLs (mirrored on foxbusiness.com/advfn.com/finanznachrichten.de),
+    so it just opens directly -- no local static-file copy needed."""
     url = source.get("url")
     if not url:
-        return
+        return ""
     label = source.get("title") or "View source"
     button_style = (
         "display:inline-block; margin-top:0.3rem; margin-bottom:0.3rem; "
         "padding:0.4rem 0.9rem; border-radius:6px; background:#2E5E8C; "
         "color:#F0F4F8; font-size:0.85rem; text-decoration:none; font-weight:600;"
     )
-    st.markdown(
-        f"<a href='{url}' target='_blank' rel='noopener noreferrer' style='{button_style}'>"
-        f"&#128279; View Source: {label}</a>",
-        unsafe_allow_html=True,
-    )
+    return f"<a href='{url}' target='_blank' rel='noopener noreferrer' style='{button_style}'>&#128279; View Source: {label}</a>"
 
 
 GROUP_PERIOD_MIDPOINT = pd.Timestamp("2017-07-01")  # midpoint of the 2010-2024 panel coverage
@@ -701,37 +699,66 @@ def render_inline_markdown(text):
     return _ITALIC_RE.sub(r"<em>\1</em>", text)
 
 
+def _render_context_section_html(section, note_key, si):
+    """Render one section (heading + paragraphs, each with its own Verify
+    button when that paragraph cites sources) as an HTML string. `si` is
+    the section's absolute index in the *original* full sections list --
+    callers that split the list (see format_websearch_context_split)
+    must pass the original index, not a position within their slice, so
+    verify-checkbox ids stay unique and stable."""
+    parts = [f"<div class='context-heading'>{section['heading']}</div>"]
+    # Every paragraph in "Possible Drivers" is a First/Second/Third-order
+    # driver item -- indent them slightly so they read as sub-items under
+    # the section heading rather than flush-left like the other sections.
+    indent_style = "padding-left:1.2rem; font-size:0.88rem;" if section["heading"] == "Possible Drivers" else ""
+    for pi, para in enumerate(section["paragraphs"]):
+        parts.append(f"<p style='margin-bottom:0.3rem; {indent_style}'>{render_inline_markdown(para['text'])}</p>")
+        if para["sources"]:
+            links_html = "".join(
+                f"<a href='{s['url']}' target='_blank' rel='noopener noreferrer' "
+                f"style='display:block; color:#4A90D9; font-size:0.78rem; "
+                f"margin-bottom:0.3rem; text-decoration:none;'>{s['label']}</a>"
+                for s in para["sources"]
+            )
+            verify_id = f"verify_{note_key}_{si}_{pi}"
+            parts.append(
+                f"<div class='verify-para-wrap' style='{indent_style}'>"
+                f"<input type='checkbox' id='{verify_id}'>"
+                f"<label for='{verify_id}'>Verify</label>"
+                f"<div class='verify-para-content'>{links_html}</div>"
+                f"</div>"
+            )
+    return "".join(parts)
+
+
 def format_websearch_context(sections, note_key):
     """Render the web-search-sourced context as HTML: each section (Prior
     Context / Current Earnings Release / Possible Drivers) as individual
     paragraphs, each with its own Verify button when that specific
     paragraph cites sources (paragraphs with no citation get none)."""
-    long_parts = []
-    for si, section in enumerate(sections):
-        long_parts.append(f"<div class='context-heading'>{section['heading']}</div>")
-        # Every paragraph in "Possible Drivers" is a First/Second/Third-order
-        # driver item -- indent them slightly so they read as sub-items under
-        # the section heading rather than flush-left like the other sections.
-        indent_style = "padding-left:1.2rem; font-size:0.88rem;" if section["heading"] == "Possible Drivers" else ""
-        for pi, para in enumerate(section["paragraphs"]):
-            long_parts.append(f"<p style='margin-bottom:0.3rem; {indent_style}'>{render_inline_markdown(para['text'])}</p>")
-            if para["sources"]:
-                links_html = "".join(
-                    f"<a href='{s['url']}' target='_blank' rel='noopener noreferrer' "
-                    f"style='display:block; color:#4A90D9; font-size:0.78rem; "
-                    f"margin-bottom:0.3rem; text-decoration:none;'>{s['label']}</a>"
-                    for s in para["sources"]
-                )
-                verify_id = f"verify_{note_key}_{si}_{pi}"
-                long_parts.append(
-                    f"<div class='verify-para-wrap' style='{indent_style}'>"
-                    f"<input type='checkbox' id='{verify_id}'>"
-                    f"<label for='{verify_id}'>Verify</label>"
-                    f"<div class='verify-para-content'>{links_html}</div>"
-                    f"</div>"
-                )
-    long_html = "".join(long_parts)
+    long_html = "".join(_render_context_section_html(s, note_key, si) for si, s in enumerate(sections))
     return f"<div class='format-body'>{long_html}</div>"
+
+
+def format_websearch_context_split(sections, note_key):
+    """Same rendering as format_websearch_context(), split into (pre,
+    post) HTML strings -- each still wrapped in its own 'format-body'
+    div -- at the "Possible Drivers" heading: pre is everything before
+    it, post is "Possible Drivers" onward. Used in Data Visualization 2
+    to align "Possible Drivers" with the WSJ/DJNW columns' "Why The
+    Stock Moved" heading via a shared CSS grid row, since those columns
+    are otherwise independent-height Streamlit containers with no way to
+    match a heading's vertical position to content of unpredictable
+    length in a neighboring column. Every entry in group_context.json
+    has a "Possible Drivers" section (verified across all 300 of them),
+    so this doesn't need a no-such-heading fallback."""
+    split_idx = next((i for i, s in enumerate(sections) if s["heading"] == "Possible Drivers"), len(sections))
+    pre = "".join(_render_context_section_html(s, note_key, si) for si, s in enumerate(sections[:split_idx]))
+    post = "".join(
+        _render_context_section_html(s, note_key, split_idx + si)
+        for si, s in enumerate(sections[split_idx:])
+    )
+    return f"<div class='format-body'>{pre}</div>", f"<div class='format-body'>{post}</div>"
 
 
 # =============================================================================
@@ -1334,82 +1361,88 @@ if st.session_state.selected_section == "Data Visualization 2":
                 st.plotly_chart(g_viz_fig, use_container_width=True, key=f"gviz_chart_{g_note_key}")
 
         g_context_key = f"{g_ticker}_{g_row['fiscal_yearquarter']}"
-        g_left, g_right, g_djnw_col = st.columns(3, gap="large")
 
-        with g_left:
-            g_context_sections = group_context_lookup.get(g_context_key)
-            if g_context_sections:
-                st.markdown(
-                    "<div style='text-align:center; font-weight:bold;'>Contextualized interpretation</div>",
-                    unsafe_allow_html=True,
+        # Rendered as one combined HTML block (a 3-row CSS grid), not three
+        # independent st.columns() -- Streamlit columns are separate DOM
+        # subtrees with independent heights, so there's no way to line up
+        # "Possible Drivers" (left) with "Why The Stock Moved" (WSJ/DJNW)
+        # when the preceding content's length varies per observation.
+        # Row 1 = the three section headers (fixed). Row 2 = everything
+        # before "Possible Drivers"/"Why The Stock Moved". Row 3 = those
+        # sections onward. Each row auto-sizes to its tallest cell, so row
+        # 3 always starts at the same Y in every column -- no JS needed.
+        g_context_sections = group_context_lookup.get(g_context_key)
+        if g_context_sections:
+            g_left_pre, g_left_post = format_websearch_context_split(g_context_sections, g_note_key)
+        else:
+            g_left_pre = "<p><em>No contextual interpretation available for this observation.</em></p>"
+            g_left_post = ""
+
+        g_wsj_entry = group_wsj_coverage_lookup.get(g_context_key)
+        if g_wsj_entry and (g_wsj_entry.get("summary_analysis") or g_wsj_entry.get("why_moved")):
+            g_wsj_pre_inner = ""
+            if g_wsj_entry.get("summary_analysis"):
+                g_wsj_pre_inner = (
+                    "<div class='context-heading'>Summary Analysis</div>"
+                    f"<p style='margin-bottom:0.8rem; font-size:1.1rem; text-align:justify;'>"
+                    f"{render_inline_markdown(g_wsj_entry['summary_analysis'])}</p>"
                 )
-                st.html(format_websearch_context(g_context_sections, g_note_key))
-            else:
-                st.markdown(
-                    "<div style='text-align:center; font-weight:bold;'>Contextualized interpretation</div>",
-                    unsafe_allow_html=True,
+            g_wsj_post_inner = ""
+            if g_wsj_entry.get("why_moved"):
+                g_wsj_post_inner = (
+                    "<div class='context-heading'>Why The Stock Moved</div>"
+                    f"<p style='margin-bottom:0.8rem; font-size:1.1rem; text-align:justify;'>"
+                    f"{render_inline_markdown(g_wsj_entry['why_moved'])}</p>"
                 )
-                st.write("*No contextual interpretation available for this observation.*")
-
-        with g_right:
-            st.markdown(
-                "<div style='text-align:center; font-weight:bold;'>WSJ Coverage</div>",
-                unsafe_allow_html=True,
+            g_static_slug = GROUP_WSJ_STATIC_SLUGS.get(selected_group)
+            g_wsj_post_inner += "".join(
+                render_wsj_pdf_link_html(s, g_static_slug) for s in g_wsj_entry.get("sources", [])
             )
-            # No spacer needed here (unlike the original Data Visualization
-            # section's right column, which has no heading of its own and
-            # needs a hidden spacer to match the left column's height): this
-            # column's own "Summary Analysis" heading below uses the same
-            # .context-heading style as the left column's "Prior Context"
-            # heading, so the two paragraphs line up from parallel
-            # structure alone.
-            g_wsj_entry = group_wsj_coverage_lookup.get(g_context_key)
-            if g_wsj_entry and (g_wsj_entry.get("summary_analysis") or g_wsj_entry.get("why_moved")):
-                g_wsj_paras = ""
-                if g_wsj_entry.get("summary_analysis"):
-                    g_wsj_paras += (
-                        "<div class='context-heading'>Summary Analysis</div>"
-                        f"<p style='margin-bottom:0.8rem; font-size:1.1rem; text-align:justify;'>"
-                        f"{render_inline_markdown(g_wsj_entry['summary_analysis'])}</p>"
-                    )
-                if g_wsj_entry.get("why_moved"):
-                    g_wsj_paras += (
-                        "<div class='context-heading'>Why The Stock Moved</div>"
-                        f"<p style='margin-bottom:0.8rem; font-size:1.1rem; text-align:justify;'>"
-                        f"{render_inline_markdown(g_wsj_entry['why_moved'])}</p>"
-                    )
-                st.html(f"<div class='format-body'>{g_wsj_paras}</div>")
-                g_static_slug = GROUP_WSJ_STATIC_SLUGS.get(selected_group)
-                for g_source in g_wsj_entry.get("sources", []):
-                    render_wsj_pdf_link(g_source, g_static_slug)
-            else:
-                st.write("*No WSJ coverage found for this observation.*")
+            g_wsj_pre = f"<div class='format-body'>{g_wsj_pre_inner}</div>"
+            g_wsj_post = f"<div class='format-body'>{g_wsj_post_inner}</div>"
+        else:
+            g_wsj_pre = "<p><em>No WSJ coverage found for this observation.</em></p>"
+            g_wsj_post = ""
 
-        with g_djnw_col:
-            st.markdown(
-                "<div style='text-align:center; font-weight:bold;'>Dow Jones Newswires Coverage</div>",
-                unsafe_allow_html=True,
-            )
-            g_djnw_entry = group_djnw_coverage_lookup.get(g_context_key)
-            if g_djnw_entry and (g_djnw_entry.get("summary_analysis") or g_djnw_entry.get("why_moved")):
-                g_djnw_paras = ""
-                if g_djnw_entry.get("summary_analysis"):
-                    g_djnw_paras += (
-                        "<div class='context-heading'>Summary Analysis</div>"
-                        f"<p style='margin-bottom:0.8rem; font-size:1.1rem; text-align:justify;'>"
-                        f"{render_inline_markdown(g_djnw_entry['summary_analysis'])}</p>"
-                    )
-                if g_djnw_entry.get("why_moved"):
-                    g_djnw_paras += (
-                        "<div class='context-heading'>Why The Stock Moved</div>"
-                        f"<p style='margin-bottom:0.8rem; font-size:1.1rem; text-align:justify;'>"
-                        f"{render_inline_markdown(g_djnw_entry['why_moved'])}</p>"
-                    )
-                st.html(f"<div class='format-body'>{g_djnw_paras}</div>")
-                for g_djnw_source in g_djnw_entry.get("sources", []):
-                    render_djnw_source_link(g_djnw_source)
-            else:
-                st.write("*No Dow Jones Newswires coverage found for this observation.*")
+        g_djnw_entry = group_djnw_coverage_lookup.get(g_context_key)
+        if g_djnw_entry and (g_djnw_entry.get("summary_analysis") or g_djnw_entry.get("why_moved")):
+            g_djnw_pre_inner = ""
+            if g_djnw_entry.get("summary_analysis"):
+                g_djnw_pre_inner = (
+                    "<div class='context-heading'>Summary Analysis</div>"
+                    f"<p style='margin-bottom:0.8rem; font-size:1.1rem; text-align:justify;'>"
+                    f"{render_inline_markdown(g_djnw_entry['summary_analysis'])}</p>"
+                )
+            g_djnw_post_inner = ""
+            if g_djnw_entry.get("why_moved"):
+                g_djnw_post_inner = (
+                    "<div class='context-heading'>Why The Stock Moved</div>"
+                    f"<p style='margin-bottom:0.8rem; font-size:1.1rem; text-align:justify;'>"
+                    f"{render_inline_markdown(g_djnw_entry['why_moved'])}</p>"
+                )
+            g_djnw_post_inner += "".join(render_djnw_source_link_html(s) for s in g_djnw_entry.get("sources", []))
+            g_djnw_pre = f"<div class='format-body'>{g_djnw_pre_inner}</div>"
+            g_djnw_post = f"<div class='format-body'>{g_djnw_post_inner}</div>"
+        else:
+            g_djnw_pre = "<p><em>No Dow Jones Newswires coverage found for this observation.</em></p>"
+            g_djnw_post = ""
+
+        st.html(
+            "<div style='display:grid; grid-template-columns: 1fr 1fr 1fr; "
+            "column-gap:2.5rem; align-items:start;'>"
+            "<div style='text-align:center; font-weight:bold; grid-column:1; grid-row:1;'>"
+            "Contextualized interpretation</div>"
+            "<div style='text-align:center; font-weight:bold; grid-column:2; grid-row:1;'>WSJ Coverage</div>"
+            "<div style='text-align:center; font-weight:bold; grid-column:3; grid-row:1;'>"
+            "Dow Jones Newswires Coverage</div>"
+            f"<div style='grid-column:1; grid-row:2;'>{g_left_pre}</div>"
+            f"<div style='grid-column:2; grid-row:2;'>{g_wsj_pre}</div>"
+            f"<div style='grid-column:3; grid-row:2;'>{g_djnw_pre}</div>"
+            f"<div style='grid-column:1; grid-row:3;'>{g_left_post}</div>"
+            f"<div style='grid-column:2; grid-row:3;'>{g_wsj_post}</div>"
+            f"<div style='grid-column:3; grid-row:3;'>{g_djnw_post}</div>"
+            "</div>"
+        )
 
         st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
 
