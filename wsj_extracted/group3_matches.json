@@ -1,0 +1,738 @@
+{
+  "TJX_2016q2": {
+    "ticker": "TJX",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-05-17",
+    "pdfs": [
+      "TJX Profit Rises; Guidance Boosted - WSJ.pdf"
+    ]
+  },
+  "TJX_2016q3": {
+    "ticker": "TJX",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-08-16",
+    "pdfs": [
+      "TJX Grabs Market Share From Struggling Retailers - WSJ.pdf"
+    ]
+  },
+  "TJX_2016q4": {
+    "ticker": "TJX",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-11-15",
+    "pdfs": [
+      "TJX Results Top Estimates, but Holiday Quarter View Falls Short - WSJ.pdf"
+    ]
+  },
+  "TJX_2017q1": {
+    "ticker": "TJX",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-02-22",
+    "pdfs": []
+  },
+  "TJX_2017q2": {
+    "ticker": "TJX",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-05-16",
+    "pdfs": [
+      "TJX Is Dinged by Department Store Crash - WSJ.pdf"
+    ]
+  },
+  "TJX_2017q3": {
+    "ticker": "TJX",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-08-15",
+    "pdfs": [
+      "Are Retail Sales Dead? ( TJX )Depends Where You Look - WSJ.pdf"
+    ]
+  },
+  "TJX_2017q4": {
+    "ticker": "TJX",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-11-14",
+    "pdfs": [
+      "TJX Breaks Eight-Year Sales Growth Streak - WSJ.pdf"
+    ]
+  },
+  "TJX_2018q1": {
+    "ticker": "TJX",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-02-28",
+    "pdfs": []
+  },
+  "TJX_2018q2": {
+    "ticker": "TJX",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-05-22",
+    "pdfs": []
+  },
+  "TJX_2018q3": {
+    "ticker": "TJX",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-08-21",
+    "pdfs": []
+  },
+  "NEM_2016q2": {
+    "ticker": "NEM",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-20",
+    "pdfs": [
+      "Newmont Mining\u2019s First-Quarter Profit Down Sharply - WSJ.pdf"
+    ]
+  },
+  "NEM_2016q3": {
+    "ticker": "NEM",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-07-20",
+    "pdfs": []
+  },
+  "NEM_2016q4": {
+    "ticker": "NEM",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-10-26",
+    "pdfs": [
+      "Newmont Mining Swings to a Loss, Revises Dividend Policy - WSJ.pdf"
+    ]
+  },
+  "NEM_2017q1": {
+    "ticker": "NEM",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-02-21",
+    "pdfs": [
+      "Newmont Mining Swings to Annual Loss on Yanacocha Charges - WSJ.pdf"
+    ]
+  },
+  "NEM_2017q2": {
+    "ticker": "NEM",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-04-24",
+    "pdfs": []
+  },
+  "NEM_2017q3": {
+    "ticker": "NEM",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-25",
+    "pdfs": []
+  },
+  "NEM_2017q4": {
+    "ticker": "NEM",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-10-26",
+    "pdfs": []
+  },
+  "NEM_2018q1": {
+    "ticker": "NEM",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-02-22",
+    "pdfs": []
+  },
+  "NEM_2018q2": {
+    "ticker": "NEM",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-04-26",
+    "pdfs": []
+  },
+  "NEM_2018q3": {
+    "ticker": "NEM",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-26",
+    "pdfs": []
+  },
+  "ISRG_2016q2": {
+    "ticker": "ISRG",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-19",
+    "pdfs": [
+      "Maker of Robotic-Assisted Surgical Systems Beats Profit Forecasts - WSJ.pdf"
+    ]
+  },
+  "ISRG_2016q3": {
+    "ticker": "ISRG",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-07-19",
+    "pdfs": [
+      "Intuitive Surgical Tops Expectations - WSJ.pdf"
+    ]
+  },
+  "ISRG_2016q4": {
+    "ticker": "ISRG",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-10-18",
+    "pdfs": []
+  },
+  "ISRG_2017q1": {
+    "ticker": "ISRG",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-01-24",
+    "pdfs": [
+      "Intuitive Surgical Profit Rises 7% - WSJ.pdf"
+    ]
+  },
+  "ISRG_2017q2": {
+    "ticker": "ISRG",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-04-18",
+    "pdfs": []
+  },
+  "ISRG_2017q3": {
+    "ticker": "ISRG",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-20",
+    "pdfs": []
+  },
+  "ISRG_2017q4": {
+    "ticker": "ISRG",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-10-19",
+    "pdfs": []
+  },
+  "ISRG_2018q1": {
+    "ticker": "ISRG",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-01-25",
+    "pdfs": []
+  },
+  "ISRG_2018q2": {
+    "ticker": "ISRG",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-04-17",
+    "pdfs": []
+  },
+  "ISRG_2018q3": {
+    "ticker": "ISRG",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-19",
+    "pdfs": []
+  },
+  "LMT_2016q2": {
+    "ticker": "LMT",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-26",
+    "pdfs": [
+      "Lockheed Martin Lifts Full-Year Guidance - WSJ.pdf"
+    ]
+  },
+  "LMT_2016q3": {
+    "ticker": "LMT",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-07-19",
+    "pdfs": [
+      "Lockheed Martin Says Protracted F-35 Contract Talks Weigh on Cash - WSJ.pdf"
+    ]
+  },
+  "LMT_2016q4": {
+    "ticker": "LMT",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-10-25",
+    "pdfs": [
+      "Lockheed Martin Rides New Wave of Military Spending - WSJ.pdf",
+      "Pentagon Is Expected to Split Lockheed\u2019s Next F-35 Order - WSJ.pdf"
+    ]
+  },
+  "LMT_2017q1": {
+    "ticker": "LMT",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-01-24",
+    "pdfs": [
+      "Lockheed Martin 2017 Guidance Falls Short - WSJ.pdf"
+    ]
+  },
+  "LMT_2017q2": {
+    "ticker": "LMT",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-04-25",
+    "pdfs": [
+      "Lockheed Martin Hit By Middle East Charges - WSJ.pdf"
+    ]
+  },
+  "LMT_2017q3": {
+    "ticker": "LMT",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-18",
+    "pdfs": [
+      "Lockheed Order Book Reaches $100 Billion - WSJ.pdf"
+    ]
+  },
+  "LMT_2017q4": {
+    "ticker": "LMT",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-10-24",
+    "pdfs": [
+      "Lockheed Forecasts Modest Sales Gain for 2018 - WSJ.pdf"
+    ]
+  },
+  "LMT_2018q1": {
+    "ticker": "LMT",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-01-29",
+    "pdfs": []
+  },
+  "LMT_2018q2": {
+    "ticker": "LMT",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-04-24",
+    "pdfs": [
+      "Lockheed Aims to Mend Fences With Pentagon Over F-35 Costs - WSJ.pdf"
+    ]
+  },
+  "LMT_2018q3": {
+    "ticker": "LMT",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-24",
+    "pdfs": [
+      "Pentagon Budget Boosts Feed Lockheed Backlog - WSJ.pdf"
+    ]
+  },
+  "SBUX_2016q2": {
+    "ticker": "SBUX",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-21",
+    "pdfs": [
+      "Starbucks Sales Growth Disappoints - WSJ.pdf"
+    ]
+  },
+  "SBUX_2016q3": {
+    "ticker": "SBUX",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-07-21",
+    "pdfs": [
+      "Starbucks Again Misses Sales Target - WSJ.pdf"
+    ]
+  },
+  "SBUX_2016q4": {
+    "ticker": "SBUX",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-11-03",
+    "pdfs": [
+      "Starbucks Results Top Projections but Hopes for U.S. Sales Rebound - WSJ.pdf"
+    ]
+  },
+  "SBUX_2017q1": {
+    "ticker": "SBUX",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-01-26",
+    "pdfs": [
+      "Starbucks Tempers Revenue Forecast - WSJ.pdf"
+    ]
+  },
+  "SBUX_2017q2": {
+    "ticker": "SBUX",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-04-27",
+    "pdfs": [
+      "Starbucks Misses Growth Expectations in U.S. Stores - WSJ.pdf"
+    ]
+  },
+  "SBUX_2017q3": {
+    "ticker": "SBUX",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-27",
+    "pdfs": [
+      "Starbucks Brews Stronger U.S. Sales Growth - WSJ.pdf"
+    ]
+  },
+  "SBUX_2017q4": {
+    "ticker": "SBUX",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-11-02",
+    "pdfs": [
+      "Starbucks Lowers Long-Term Target, Selling Tazo to Unilever - WSJ.pdf"
+    ]
+  },
+  "SBUX_2018q1": {
+    "ticker": "SBUX",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-01-25",
+    "pdfs": [
+      "Starbucks Misses on Revenue Despite Record Quarter - WSJ.pdf"
+    ]
+  },
+  "SBUX_2018q2": {
+    "ticker": "SBUX",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-04-26",
+    "pdfs": [
+      "Starbucks Chief Vows to Learn From Philadelphia Arrests - WSJ.pdf"
+    ]
+  },
+  "SBUX_2018q3": {
+    "ticker": "SBUX",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-26",
+    "pdfs": [
+      "Starbucks U.S. Sales Bump Up After Price Hike - WSJ.pdf"
+    ]
+  },
+  "CVS_2016q2": {
+    "ticker": "CVS",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-05-03",
+    "pdfs": [
+      "CVS Health\u2019s Results Top Views as Prescription Volumes Climb - WSJ.pdf"
+    ]
+  },
+  "CVS_2016q3": {
+    "ticker": "CVS",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-08-02",
+    "pdfs": [
+      "CVS Drops Coverage of 2 Branded Biotech Drugs in Favor of Copies - WSJ.pdf",
+      "CVS Raises Earnings Outlook, Aided by Pharmacy Benefit Business - WSJ.pdf"
+    ]
+  },
+  "CVS_2016q4": {
+    "ticker": "CVS",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-11-08",
+    "pdfs": [
+      "CVS Warns of Prescriptions Shift, Shares Tumble on Profit Warning - WSJ.pdf"
+    ]
+  },
+  "CVS_2017q1": {
+    "ticker": "CVS",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-02-09",
+    "pdfs": [
+      "CVS Profit Rises, Helped by Pharmacy Strength - WSJ.pdf"
+    ]
+  },
+  "CVS_2017q2": {
+    "ticker": "CVS",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-05-02",
+    "pdfs": [
+      "CVS Profit Declines in First Quarter of \u2018Rebuilding Year\u2019 - WSJ.pdf"
+    ]
+  },
+  "CVS_2017q3": {
+    "ticker": "CVS",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-08-08",
+    "pdfs": [
+      "CVS Moves Deeper Into Doctors\u2019 Turf - WSJ.pdf"
+    ]
+  },
+  "CVS_2017q4": {
+    "ticker": "CVS",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-11-06",
+    "pdfs": [
+      "CVS, With an Eye on Amazon, to Launch Next-Day Delivery - WSJ.pdf"
+    ]
+  },
+  "CVS_2018q1": {
+    "ticker": "CVS",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-02-08",
+    "pdfs": [
+      "CVS to Raise Starting Pay to $11 an Hour - WSJ.pdf"
+    ]
+  },
+  "CVS_2018q2": {
+    "ticker": "CVS",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-05-02",
+    "pdfs": [
+      "CVS Gets a Lift From Prescriptions - WSJ.pdf"
+    ]
+  },
+  "CVS_2018q3": {
+    "ticker": "CVS",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-08-08",
+    "pdfs": [
+      "CVS Chief: Don\u2019t Blame Us for Higher Drug Prices - WSJ.pdf"
+    ]
+  },
+  "LOW_2016q2": {
+    "ticker": "LOW",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-05-18",
+    "pdfs": [
+      "Lowe\u2019s Sales, Earnings Top Views - WSJ.pdf"
+    ]
+  },
+  "LOW_2016q3": {
+    "ticker": "LOW",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-08-17",
+    "pdfs": [
+      "Lowe\u2019s Earnings Miss Expectations - WSJ.pdf"
+    ]
+  },
+  "LOW_2016q4": {
+    "ticker": "LOW",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-11-16",
+    "pdfs": [
+      "Lowe\u2019s Cuts Guidance Amid Traffic Slowdown - WSJ.pdf"
+    ]
+  },
+  "LOW_2017q1": {
+    "ticker": "LOW",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-03-01",
+    "pdfs": [
+      "Lowe\u2019s Posts Revenue and Profit Gain - WSJ.pdf"
+    ]
+  },
+  "LOW_2017q2": {
+    "ticker": "LOW",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-05-24",
+    "pdfs": []
+  },
+  "LOW_2017q3": {
+    "ticker": "LOW",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-08-23",
+    "pdfs": []
+  },
+  "LOW_2017q4": {
+    "ticker": "LOW",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-11-21",
+    "pdfs": []
+  },
+  "LOW_2018q1": {
+    "ticker": "LOW",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-02-28",
+    "pdfs": []
+  },
+  "LOW_2018q2": {
+    "ticker": "LOW",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-05-23",
+    "pdfs": []
+  },
+  "LOW_2018q3": {
+    "ticker": "LOW",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-08-22",
+    "pdfs": [
+      "Lowe\u2019s to Close Orchard Supply Stores, Recruits CVS Finance Chief - WSJ.pdf"
+    ]
+  },
+  "ADBE_2016q2": {
+    "ticker": "ADBE",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-06-21",
+    "pdfs": [
+      "Adobe Earnings Rise, but Yearly Outlook Disappoints Investors - WSJ.pdf"
+    ]
+  },
+  "ADBE_2016q3": {
+    "ticker": "ADBE",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-09-20",
+    "pdfs": [
+      "Adobe Results Boosted by Subscription Sales - WSJ.pdf"
+    ]
+  },
+  "ADBE_2016q4": {
+    "ticker": "ADBE",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-12-15",
+    "pdfs": [
+      "Adobe Systems Profit Buoyed by Subscriptions - WSJ.pdf"
+    ]
+  },
+  "ADBE_2017q1": {
+    "ticker": "ADBE",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-03-16",
+    "pdfs": []
+  },
+  "ADBE_2017q2": {
+    "ticker": "ADBE",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-06-20",
+    "pdfs": [
+      "Adobe Is a Bright Spot in the Cloud - WSJ.pdf"
+    ]
+  },
+  "ADBE_2017q3": {
+    "ticker": "ADBE",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-09-19",
+    "pdfs": [
+      "Adobe\u2019s Cloud Hits First Headwind - WSJ.pdf"
+    ]
+  },
+  "ADBE_2017q4": {
+    "ticker": "ADBE",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-12-14",
+    "pdfs": [
+      "Can Adobe Keep the Clouds Away? - WSJ.pdf"
+    ]
+  },
+  "ADBE_2018q1": {
+    "ticker": "ADBE",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-03-15",
+    "pdfs": []
+  },
+  "ADBE_2018q2": {
+    "ticker": "ADBE",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-06-14",
+    "pdfs": []
+  },
+  "ADBE_2018q3": {
+    "ticker": "ADBE",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-09-13",
+    "pdfs": []
+  },
+  "MAR_2016q2": {
+    "ticker": "MAR",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-27",
+    "pdfs": [
+      "Marriott Tops Expectations, Helped by Lower Costs - WSJ.pdf"
+    ]
+  },
+  "MAR_2016q3": {
+    "ticker": "MAR",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-07-27",
+    "pdfs": [
+      "Marriott\u2019s Profit Rises 2.9% - WSJ.pdf"
+    ]
+  },
+  "MAR_2016q4": {
+    "ticker": "MAR",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-11-07",
+    "pdfs": [
+      "Marriott Profit Falls on Merger-Related Costs - WSJ.pdf"
+    ]
+  },
+  "MAR_2017q1": {
+    "ticker": "MAR",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-02-15",
+    "pdfs": [
+      "Marriott Revenue Rises on Starwood Acquisition - WSJ.pdf"
+    ]
+  },
+  "MAR_2017q2": {
+    "ticker": "MAR",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-05-08",
+    "pdfs": []
+  },
+  "MAR_2017q3": {
+    "ticker": "MAR",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-08-07",
+    "pdfs": [
+      "Alibaba, Marriott Team Up to Serve Chinese Tourists Abroad - WSJ.pdf"
+    ]
+  },
+  "MAR_2017q4": {
+    "ticker": "MAR",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-11-07",
+    "pdfs": []
+  },
+  "MAR_2018q1": {
+    "ticker": "MAR",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-02-14",
+    "pdfs": []
+  },
+  "MAR_2018q2": {
+    "ticker": "MAR",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-05-08",
+    "pdfs": []
+  },
+  "MAR_2018q3": {
+    "ticker": "MAR",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-08-06",
+    "pdfs": []
+  },
+  "F_2016q2": {
+    "ticker": "F",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-28",
+    "pdfs": [
+      "Ford Posts Record Results - WSJ.pdf"
+    ]
+  },
+  "F_2016q3": {
+    "ticker": "F",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-07-28",
+    "pdfs": [
+      "Ford\u2019s Profit Declines as It Signals Caution Ahead - WSJ.pdf"
+    ]
+  },
+  "F_2016q4": {
+    "ticker": "F",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-10-27",
+    "pdfs": [
+      "Ford Reports Lower Profit - WSJ.pdf"
+    ]
+  },
+  "F_2017q1": {
+    "ticker": "F",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-01-26",
+    "pdfs": [
+      "Ford Swings to $800 Million Loss - WSJ.pdf"
+    ]
+  },
+  "F_2017q2": {
+    "ticker": "F",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-04-27",
+    "pdfs": [
+      "Ford\u2019s Profit Falls 35% on Recall Costs, Weaker U.S. Sales - WSJ.pdf"
+    ]
+  },
+  "F_2017q3": {
+    "ticker": "F",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-26",
+    "pdfs": [
+      "Ford\u2019s Stock Takes Another Hit on Revised Guidance - WSJ.pdf"
+    ]
+  },
+  "F_2017q4": {
+    "ticker": "F",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-10-26",
+    "pdfs": [
+      "Truck Sales Drive Soaring Profit at Ford - WSJ.pdf"
+    ]
+  },
+  "F_2018q1": {
+    "ticker": "F",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-01-24",
+    "pdfs": [
+      "Ford Profit Dented by Swings in Commodities Prices - WSJ.pdf"
+    ]
+  },
+  "F_2018q2": {
+    "ticker": "F",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-04-25",
+    "pdfs": [
+      "Ford\u2019s Profit Rises Amid Lower Tax Rate - WSJ.pdf"
+    ]
+  },
+  "F_2018q3": {
+    "ticker": "F",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-25",
+    "pdfs": [
+      "Ford Lowers Full-Year Outlook - WSJ.pdf"
+    ]
+  }
+}

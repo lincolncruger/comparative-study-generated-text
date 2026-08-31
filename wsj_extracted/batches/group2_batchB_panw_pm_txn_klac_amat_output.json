@@ -1,0 +1,222 @@
+{
+  "PANW_2016q2": {
+    "summary_analysis": "The article reports that Palo Alto Networks posted a wider net loss on rising expenses and issued a downbeat outlook for the current quarter, with projected revenue of $386 million to $390 million and adjusted per-share earnings of 48 to 50 cents, against analyst expectations of 50 cents on $389 million in revenue. For the fiscal third quarter just ended April 30, the company reported a loss of $70.2 million, or 80 cents a share, wider than the year-earlier loss of $45.9 million, or 56 cents a share, though adjusted per-share earnings actually rose to 42 cents from 23 cents. Revenue climbed 48% to $345.8 million, but total operating expenses rose even faster, up 50% to $309.5 million. The reported results beat the company's own prior guidance, which had called for 41 to 42 cents in per-share earnings on $335 million to $339 million in revenue, versus an analyst consensus of 42 cents on $340 million. The article frames Palo Alto's business as benefiting from a diversified model that mixes next-generation firewall product sales with recurring software billings revenue, and notes its products can integrate with a customer's existing security technology rather than requiring a full replacement.",
+    "why_moved": "The article states that shares fell 7.3% to $137.30, adding that the stock had already dropped 9.6% over the prior year heading into the results. The piece ties this decline to the company's downbeat guidance for the current quarter, which projected earnings and revenue below what analysts had been expecting, even though the just-reported quarter's revenue and adjusted profit had themselves topped the company's own prior forecast. The article does not offer further detail beyond the guidance shortfall and rising expense base as context for the stock's move.",
+    "sources": [
+      {
+        "filename": "Palo Alto Networks Loss Widens on Climbing Expenses - WSJ.pdf",
+        "title": "Palo Alto Networks Loss Widens on Climbing Expenses Network-security firm provides downbeat outlook for current quarter",
+        "published_date": "2016-05-26"
+      }
+    ]
+  },
+  "PANW_2016q3": {
+    "summary_analysis": "The article reports that Palo Alto Networks gave a mixed financial outlook as both revenue and expenses surged. For the full fiscal year, the company projected adjusted per-share profit of $2.75 to $2.80, above the average analyst estimate of $2.64, but its outlook for the quarter then underway was more downbeat, with adjusted per-share earnings of 51 to 53 cents forecast on $396 million to $402 million in revenue, versus analyst projections of 56 cents on $402.2 million. For the fiscal fourth quarter ended July 31, net loss widened 18% to $54.5 million, or 61 cents a share, as revenue surged 41% to $400.8 million; excluding stock-based compensation and other items, the company earned 50 cents a share, up from 28 cents a year earlier, beating its own prior guidance of 48 to 50 cents on $386 million to $390 million in revenue. Gross margin improved to 74.6% from 73.8%, while operating expenses rose 41% to $344.5 million. Billings, described as a gauge of demand, rose 45% to $572.4 million, and the article notes the board had authorized an additional $500 million in share buybacks the prior week.",
+    "why_moved": "The article states that shares, down 19% for the year at that point, slipped 2.5% to $139.89 in after-hours trading. It attributes this reaction to the downbeat guidance issued for the current (October) quarter, whose earnings and revenue projections came in below analyst estimates, even though the fiscal-year guidance was above consensus and the just-reported quarter had itself beaten the company's own earlier forecast. The article frames the outlook as \"mixed,\" implying the current-quarter guidance weighed more heavily on the stock than the beat in the reported results.",
+    "sources": [
+      {
+        "filename": "Palo Alto Networks Revenue, Expenses Surge - WSJ.pdf",
+        "title": "Palo Alto Networks Revenue, Expenses Surge Cybersecurity firm offers mixed profit outlook for year, quarter",
+        "published_date": "2016-08-30"
+      }
+    ]
+  },
+  "PANW_2016q4": {
+    "summary_analysis": "The article reports that Palo Alto Networks' revenue jumped in the fiscal first quarter ended October 31, but at the slowest pace since it became a public company, and the company projected the deceleration would continue into the current quarter. A sharp rise in stock-based compensation, up 55% year over year to $116.5 million, and other expenses continued to widen the company's losses. The article quotes Kelsey Turcotte, Palo Alto's vice president for investor relations, defending the stock-based compensation at a September trade conference as necessary to attract and retain talent in Silicon Valley, and saying the ratio of stock-based compensation to revenue should begin declining that year. Net loss widened to $61.8 million, or 69 cents a share, from $39.9 million, or 47 cents, a year earlier, while adjusted profit rose to 55 cents from 34 cents. Revenue rose 34% to $398.1 million -- the company's smallest percentage increase as a public company -- partly offset by a 39% jump in operating expenses. Billings rose 33% to $516.9 million, below the $525 million analysts polled by FactSet had projected. For the current quarter, the company guided to 61 to 63 cents in adjusted profit on $426 million to $432 million in revenue, below the 63 cents and $438.8 million analysts surveyed by Thomson Reuters had expected.",
+    "why_moved": "The article states that shares, down 9% for the year at that point, fell 14% to $139.10 in after-hours trading. It links this decline to the combination of the slowing revenue growth rate -- the smallest since the company went public -- the billings figure coming in below analyst expectations, and guidance pointing to further deceleration in the current quarter, layered on top of a wider net loss driven by the surge in stock-based compensation.",
+    "sources": [
+      {
+        "filename": "Palo Alto Networks Revenue Growth Slows - WSJ.pdf",
+        "title": "Palo Alto Networks Revenue Growth Slows Company expects a continued decline in the growth rate of its top line in the current quarter",
+        "published_date": "2016-11-21"
+      }
+    ]
+  },
+  "PANW_2017q1": {
+    "summary_analysis": "The Heard on the Street column reports that Palo Alto Networks' fiscal second-quarter sales, reported late the prior Tuesday, grew 26% year over year -- the slowest pace on record for the company -- and that management forecast growth of just 17% to 20% for the current quarter. The column recalls that on the previous earnings call in November, Palo Alto had already warned that larger customers were taking longer to make purchasing decisions, and notes that on this call the company additionally acknowledged problems with the structure of its sales force, which it promised to fix. It observes that sales and marketing expenses have consumed about 56% of Palo Alto's revenue over the trailing four quarters, up from 44% of revenue before the company's mid-2012 initial public offering, which the column reads as evidence that cybersecurity no longer \"sells itself.\" The column also notes that at least three of the analysts who downgraded the stock the following Wednesday cited Cisco Systems as a growing competitive threat, given Cisco's ability to bundle security technology with its broader array of networking products and services. The column's own view is that Palo Alto's struggles are partly explained by cybersecurity spending moderating from its panic-driven 2014 peak, but that the deceleration is still painful for a company that scaled from a $255 million business to a $1.4 billion one in just four years.",
+    "why_moved": "The article states that Palo Alto's share price \"plunged 20% following the report.\" It attributes the drop to the sharply decelerating sales growth -- the slowest on record -- combined with management's admission of structural problems in its sales force and the current-quarter growth guidance of only 17% to 20%. The column adds that the sell-off was reinforced the next day by multiple analyst downgrades that cited intensifying competition from Cisco Systems as a further threat to Palo Alto's growth trajectory.",
+    "sources": [
+      {
+        "filename": "Palo Alto Networks Frightens Again - WSJ.pdf",
+        "title": "HEARD ON THE STREET Follow Palo Alto Networks Frightens Again Sales woes, rising competition crimp growth of cybersecurity firm",
+        "published_date": "2017-03-01"
+      }
+    ]
+  },
+  "PM_2016q2": {
+    "summary_analysis": "The article reports that Philip Morris International posted weaker-than-expected first-quarter results, which the company attributed to tough comparisons against a strong prior-year period, while simultaneously raising its full-year 2016 earnings forecast to a reported-basis range of $4.40 to $4.50 a share, up from prior guidance of $4.25 to $4.35, though the new range still sat below Wall Street's $4.48 estimate. Management said it expected most growth to come later in the year, particularly in the fourth quarter. Chief Executive André Calantzopoulos said the improved guidance reflected \"moderating industry volume declines and robust pricing,\" while blaming the first-quarter shortfall on an unfavorable comparison to an \"exceptionally strong\" year-earlier quarter. The company cited a $272 million benefit from higher pricing across all regions, which helped drive 2.4% revenue growth excluding currency and acquisitions. Cigarette volume fell 1.4% to 196 billion units, as growth of 2.6% in the European Union and 2.4% in Latin America and Canada was offset by a 7% decline in Asia, while volume in Eastern Europe, the Middle East and Africa rose 0.8%. Overall, the company reported profit of $1.53 billion, or 98 cents a share, down from $1.8 billion, or $1.16 a share, a year earlier, below the $1.11 analysts had forecast, while revenue excluding excise taxes fell 8.1% to $6.08 billion, short of the $6.34 billion analysts had expected.",
+    "why_moved": "The article reports two separate premarket price moves tied to this release: shares initially slid 2.8% to $97.75 in premarket trading, and the article later states shares edged down 0.4% to $100.20 in light premarket trading, apparently reflecting different points during premarket activity as the piece was updated. The article ties the decline to the first-quarter profit and revenue coming in below Wall Street's expectations, even as the company simultaneously raised its full-year guidance on the back of moderating volume declines and stronger pricing.",
+    "sources": [
+      {
+        "filename": "Philip Morris Boosts Outlook as Profit Falls - WSJ.pdf",
+        "title": "Philip Morris Boosts Outlook as Profit Falls Cigarette maker expects growth to come later in the year",
+        "published_date": "2016-04-19"
+      }
+    ]
+  },
+  "PM_2016q3": {
+    "summary_analysis": "The article reports that Philip Morris International's profit declined more than Wall Street had anticipated, as shipment volume slipped in every one of its geographic divisions, including Europe. The company said currency headwinds were abating and raised its 2016 earnings forecast to a reported-basis range of $4.45 to $4.55 a share, up from $4.40 to $4.50, and said it expected adjusted per-share earnings, excluding unfavorable currency, to grow 10% to 12%, with most of that growth still expected in the second half, particularly the fourth quarter. The article recounts that in May the European Union's highest court had rejected a challenge by Philip Morris and other tobacco companies to a 2014 tobacco directive banning menthol cigarettes, mandating larger warning labels, and for the first time limiting nicotine content in e-cigarettes, and that a separate legal challenge to plain packaging in the U.K. also failed that month. Marlboro shipments, the company's largest brand by volume, declined 3.1%, while its second-largest brand, L&M, edged up 0.3%. CEO André Calantzopoulos said volume was hurt by \"declines in low-margin geographies.\" For the quarter ended June 30, cigarette volume fell 4.8% to 209.3 billion units, with declines of 5.9% in Latin America and Canada, 7.9% in Asia, 4% in Eastern Europe, the Middle East and Africa, and 0.8% in the European Union. Overall profit was $1.79 billion, or $1.15 a share, down from $1.89 billion, or $1.21, a year earlier and below the $1.20 analysts had forecast, while revenue excluding excise taxes fell 3.1% to $6.65 billion versus an expected $6.77 billion.",
+    "why_moved": "The article states that shares fell 2.3% to $100.65 in premarket trading. It attributes this to the profit decline exceeding what Wall Street had anticipated and to shipment volume weakening across every geographic segment the company reports, including Europe, which the article frames as a broader disappointment than investors had been expecting even as the company raised its full-year earnings guidance.",
+    "sources": [
+      {
+        "filename": "Philip Morris Profit Falls on Lower Volumes - WSJ.pdf",
+        "title": "Philip Morris Profit Falls on Lower Volumes Shipment volume declined in each region, including in Europe.",
+        "published_date": "2016-07-19"
+      }
+    ]
+  },
+  "PM_2016q4": {
+    "summary_analysis": "The article reports that Philip Morris International posted no earnings growth in the third quarter as shipment volume declined in every geographic segment except Europe, where shipments increased slightly. It recaps that in May the European Union's highest court had rejected a challenge by Philip Morris and other tobacco companies to the 2014 tobacco directive, which bans menthol cigarettes, mandates larger warning labels and limits nicotine content in e-cigarettes, and that a separate U.K. plain-packaging challenge had also failed. For the quarter ended in September, cigarette volume fell 5.4% to 207.1 billion units, with declines of 8% in Latin America and Canada, 9% in Asia and 5.4% in Eastern Europe, the Middle East and Africa, while volume in the European Union, about a third of the company's revenue, edged up 0.4%. CEO André Calantzopoulos said that despite \"temporary volume weakness this quarter,\" the company still expected full-year volume in line with the year-to-date decline of 3.9% through September. Overall profit was $1.94 billion, or $1.25 a share, flat compared with a year earlier and above the $1.23 analysts had forecast, while revenue excluding excise taxes edged up 0.8% to $6.98 billion, roughly in line with the $6.97 billion analysts expected. The company affirmed the full-year profit forecast of $4.53 to $4.58 a share it had raised in September.",
+    "why_moved": "The article notes shares were inactive in premarket trading at the time of publication and separately mentions that the stock had fallen 7.3% over the prior three months, but it does not report how shares specifically reacted to this earnings release.",
+    "sources": [
+      {
+        "filename": "Philip Morris Earnings Flat as Cigarette Shipments Decline - WSJ.pdf",
+        "title": "Philip Morris Earnings Flat as Cigarette Shipments Decline International seller of Marlboro cigarettes hampered by antismoking rulings in Europe",
+        "published_date": "2016-10-18"
+      }
+    ]
+  },
+  "PM_2017q1": {
+    "summary_analysis": "The article reports that Philip Morris International's revenue rose 9.1% in the fourth quarter, helped by higher cigarette prices in the Asia-Pacific region and surging sales of its iQOS heat-not-burn product in Japan. CEO André Calantzopoulos said on a conference call that 2016 was a crucial year for the company's transformation toward so-called reduced-risk products. Total cigarette shipment volume was 200.6 billion units, down 4.4%, mostly on weakness in Europe; revenue rose just 0.5% in Europe while Asia revenue climbed 21%, and Asia overtook Europe as the company's largest market by the end of the quarter. The company shipped 7.4 billion iQOS tobacco-stick units in 2016 -- its full manufacturing capacity for the year -- with Calantzopoulos saying volume \"would have been much higher\" otherwise, particularly in Japan, where capacity constraints had forced the company to limit iQOS device sales since June; it started the year with capacity for 15 billion units and expected to reach 50 billion units of capacity by year-end. iQOS was available in 20 markets as of December and could reach 35 by the end of 2017, per Calantzopoulos, who also said the company planned to apply to the FDA that quarter for approval to sell the device in the U.S., where Altria Group plans to market it, and that 1.4 million adults had switched from cigarettes to iQOS by the end of 2016. Overall net income was $1.71 billion, or $1.10 a share, up from $1.25 billion, or 80 cents, a year earlier; revenue rose to $6.97 billion from $6.39 billion, up 11% excluding currency. The company guided to 2017 full-year earnings of $4.70 to $4.85 a share, up from $4.48 in 2016.",
+    "why_moved": "The article states that shares were up 3% in recent trading. It ties this gain to the strong revenue growth driven by Asia-Pacific pricing and the rapid rise of iQOS demand in Japan, along with the company's raised 2017 earnings guidance and its broader narrative of transformation toward reduced-risk products.",
+    "sources": [
+      {
+        "filename": "Philip Morris Revenue Boosted by Asia - WSJ.pdf",
+        "title": "Philip Morris Revenue Boosted by Asia At the end of fourth quarter Asia was company's largest market",
+        "published_date": "2017-02-02"
+      }
+    ]
+  },
+  "PM_2018q3": {
+    "summary_analysis": "The Heard on the Street column reports that Philip Morris International beat analysts' second-quarter earnings estimates but cut its full-year guidance because of anticipated weakness in what it calls reduced-risk products, primarily its IQOS smokeless-tobacco technology, with a strong dollar also seen as a further headwind for a company that sells cigarettes only outside the U.S. The column recalls that the stock had already suffered its sharpest-ever post-results drop following first-quarter results a few months earlier, and that more than $60 billion in market value had been erased over the prior year. It argues that the nature of Philip Morris as an investment has changed: in 2012 the company paid about $12 billion, or nearly 10% of its market value, to shareholders via buybacks and dividends while investing a little over $1 billion, reflecting cigarettes as a mature, low-investment product, but over the trailing 12 months capital expenditures were 50% higher while cash returned to shareholders was barely half the 2012 level, reflecting heavier investment behind the reduced-risk pivot. A dividend increase announced the same day, the column says, \"didn't do much to assuage fears\" over the uncertain bet on reduced-risk products. It notes Philip Morris's global heated-tobacco market share is similar to that of its Philip Morris cigarette brand internationally (1.6%), and that the company faces competition from upstarts such as Juul Labs, the leading reduced-risk brand in the U.S.",
+    "why_moved": "The article states the stock fell another 5% early Thursday morning, on top of what it describes as the stock's sharpest-ever post-results drop following the first-quarter report a few months earlier. It attributes this decline specifically to the cut in full-year guidance tied to anticipated weakness in IQOS and other reduced-risk products, along with the strong-dollar headwind, notwithstanding that the quarter's earnings had beaten analysts' estimates and that the company simultaneously announced a dividend increase, which the column says failed to offset investor concern over the reduced-risk product bet.",
+    "sources": [
+      {
+        "filename": "Riskier Than Cigarettes? Why Philip Morris Stumbled - WSJ.pdf",
+        "title": "HEARD ON THE STREET Follow Riskier Than Cigarettes? Why Philip Morris Stumbled Philip Morris's bet on heated tobacco is still stumbling, but more important is that the risk of failure is high and competition fierce",
+        "published_date": "2018-07-19"
+      }
+    ]
+  },
+  "TXN_2016q2": {
+    "summary_analysis": "The article reports that Texas Instruments posted slightly higher profit for the first quarter even as sales fell in its personal-electronics segment, a decline the company had already warned investors about. It describes TI's focus on high-margin analog chips and embedded processors, the latter used in products ranging from electric toothbrushes to driver-assistance systems, and notes Apple accounted for about 11% of TI's 2015 revenue, largely within the analog segment. In the quarter, analog chip sales fell 8% to $1.88 billion while embedded processor sales rose 8% to $729 million. Overall profit was $668 million, or 65 cents a share, compared with $656 million, or 61 cents, a year earlier. Revenue fell 4.5% to $3.01 billion, largely on the personal-electronics weakness, which the article notes came within the company's own guided range of 57 to 67 cents in earnings on $2.85 billion to $3.09 billion in revenue. Gross margin improved to 60.6% from 57.7%. The article observes that the first and fourth quarters are historically TI's weakest, and reports the company's second-quarter guidance of 67 to 77 cents a share on $3.07 billion to $3.33 billion in revenue, versus an analyst consensus of 71 cents on $3.18 billion.",
+    "why_moved": "The article states that shares rose 1.5% to $60.80 in after-hours trading. It frames this as a reaction to results that landed within the company's previously guided range despite the pre-flagged personal-electronics weakness, along with the improvement in gross margin, though it does not elaborate further on what specifically drove the after-hours gain.",
+    "sources": [
+      {
+        "filename": "Texas Instruments Reports Slightly Higher Profit - WSJ.pdf",
+        "title": "Texas Instruments Reports Slightly Higher Profit Chip maker's sales fell in personal-electronics segment",
+        "published_date": "2016-04-27"
+      }
+    ]
+  },
+  "TXN_2016q3": {
+    "summary_analysis": "The article reports that demand in the automotive, industrial and communications sectors helped Texas Instruments post revenue and profit in the upper range of its own estimates and issue strong guidance for the current quarter: revenue of $3.3 billion to $3.6 billion and earnings of 81 to 91 cents a share, versus an analyst consensus of 81 cents on $3.4 billion. CEO Rich Templeton is quoted saying demand for TI's products \"continued to be strong\" in automotive and \"grew\" in industrial and communications equipment markets, while personal-electronics demand remained down from a year earlier despite sequential growth. The article cites a research note from RBC Capital Markets analysts warning that headwinds could pick up in the back half of the year if growth in electronic content within the auto and industrial end markets slowed. In the quarter, analog chip sales were flat at $2 billion while embedded processor sales rose 9% to $755 million. Overall profit was $779 million, or 76 cents a share, up from $696 million, or 65 cents, a year earlier, on revenue up 1.2% to $3.3 billion -- beating the company's own prior guidance of 67 to 77 cents on $3.07 billion to $3.33 billion in revenue, versus an analyst estimate of 72 cents on $3.2 billion.",
+    "why_moved": "The article states that shares rose 5.8% to $70.04 in after-hours trading. It attributes this to results landing in the upper range of the company's own estimates and to the strong current-quarter guidance, which topped analyst expectations, driven by continued demand strength in the automotive, industrial and communications end markets.",
+    "sources": [
+      {
+        "filename": "Texas Instruments Issues Strong Guidance Boosted by Auto, Industrial Demand - WSJ.pdf",
+        "title": "Texas Instruments Issues Strong Guidance Boosted by Auto, Industrial Demand Sales of embedded processors up 9%",
+        "published_date": "2016-07-25"
+      }
+    ]
+  },
+  "TXN_2016q4": {
+    "summary_analysis": "The article reports that Texas Instruments' profit jumped 21% in the third quarter as continued strong demand in the automotive and industrial sectors helped the company post results just above its own forecast, while it also issued current-quarter guidance in line with analyst estimates and raised its quarterly dividend 32% to 50 cents a share, or $2 a year. It notes that analysts had previously warned headwinds could pick up in the second half amid possible weakness in auto and industrial markets, but CEO Rich Templeton said demand \"continued to be strong\" in automotive, \"improved\" in industrial, and \"remained even\" in personal electronics. Analog chip sales rose 6.5% to $2.32 billion and embedded processor sales rose 10% to $795 million. Overall profit was $968 million, or 94 cents a share, up from $798 million, or 76 cents, a year earlier, on revenue up 7.2% to $3.68 billion, beating TI's own guidance of 81 to 91 cents. For the fourth quarter, TI guided to 76 to 86 cents a share on $3.17 billion to $3.43 billion in revenue, versus an analyst consensus of 79 cents on $3.3 billion.",
+    "why_moved": "The article states that shares lost 1% to $71 in after-hours trading, even though the reported profit beat the company's own forecast, the dividend was raised sharply, and current-quarter guidance matched analyst estimates. The article does not offer further explanation for the modest after-hours decline beyond noting that guidance simply lined up with, rather than exceeded, what analysts had already expected.",
+    "sources": [
+      {
+        "filename": "Texas Instruments Reports Higher Profit - WSJ.pdf",
+        "title": "Texas Instruments Reports Higher Profit TI boosted its quarterly dividend to 50 cents a share and issued guidance in line with analyst estimates",
+        "published_date": "2016-10-26"
+      }
+    ]
+  },
+  "TXN_2017q1": {
+    "summary_analysis": "The article reports that Texas Instruments' profit rose 26% in the fourth quarter as continued strength in the automotive market drove top-line improvement. For the current quarter, the company guided to earnings of 78 to 88 cents a share, including an estimated 4-cent tax benefit tied to a new accounting standard for stock compensation, above the 75 cents analysts had forecast, with revenue guidance of $3.17 billion to $3.43 billion bracketing the analyst consensus of $3.21 billion. CEO Rich Templeton said demand continued to be strong in automotive, improved in industrial, but was down slightly in personal electronics. Analog chip sales, the largest revenue contributor, rose 10% to $2.29 billion, while embedded processor sales rose 6.3% to $744 million. Overall profit was $1.05 billion, or $1.02 a share, up from $836 million, or 80 cents, a year earlier, which included a 14-cent benefit not contemplated in the company's original guidance of 76 to 86 cents. Revenue rose 7.1% to $3.41 billion, near the top of the guided range of $3.17 billion to $3.43 billion.",
+    "why_moved": "The article states that shares slipped 1.1% after hours to $76.20. It does not provide further explanation for the decline beyond reporting the results themselves, which had come in near the top of the company's guided revenue range and above analyst earnings expectations once the unplanned tax benefit is set aside; the article does not attribute the after-hours move to any specific factor.",
+    "sources": [
+      {
+        "filename": "Texas Instruments' Profit, Revenue Rise - WSJ.pdf",
+        "title": "Texas Instruments' Profit, Revenue Rise Continued strength in the automotive market drove improvement in top line",
+        "published_date": "2017-01-24"
+      }
+    ]
+  },
+  "TXN_2018q3": {
+    "summary_analysis": "The article reports that Texas Instruments expects strong growth to continue in its industrial and automotive businesses, which together account for more than half of company revenue and drove a 9% revenue increase to $4 billion in the second quarter. The results were announced by CEO Rich Templeton, who had returned to the role the previous week after Brian Crutcher resigned less than two months into the position over what the company described as code-of-conduct violations related to personal behavior, without further elaboration; TI had already released preliminary second-quarter figures the prior week alongside the announcement of Crutcher's resignation. The company reported a 33% profit increase to $1.41 billion, or $1.40 a share, on $4.02 billion in revenue, with gross margin improving to 65.2% from 64.3% a year earlier and research-and-development spending up 1.6% as the company continues investing to expand market share. For the current quarter, TI guided to profit of $1.41 to $1.63 a share on revenue of $4.11 billion to $4.45 billion, versus a consensus estimate of $1.48 a share on $4.27 billion, according to analysts surveyed by Thomson Reuters.",
+    "why_moved": "The article states that shares were up 0.9% to $114.79 in post-market trading. It frames this modest gain in the context of the quarter's results and guidance landing around the outlook already partly disclosed in the preliminary figures released the prior week alongside news of the CEO transition, meaning much of the underlying numbers were not new information to the market by the time of the full report.",
+    "sources": [
+      {
+        "filename": "Texas Instruments Forecasts Strong Third Quarter - WSJ.pdf",
+        "title": "Texas Instruments Forecasts Strong Third Quarter Continued strength of industrial and automotive markets fueled chip maker's revenue",
+        "published_date": "2018-07-24"
+      }
+    ]
+  },
+  "AMAT_2016q2": {
+    "summary_analysis": "The article reports that Applied Materials said orders hit a 15-year high in the fiscal second quarter, prompting the semiconductor-equipment maker to project a major business rebound later in the year as those orders convert to revenue. Second-quarter results topped expectations, as did the projection for the fiscal third quarter. The company attributed the gains primarily to spending on new tools to produce memory chips using 3-D NAND -- a manufacturing approach that stacks layers of circuitry rather than shrinking individual transistors -- and to displays using organic light-emitting diode, or OLED, technology rather than liquid-crystal displays, along with strong demand from customers in China building new manufacturing capacity. CEO Gary Dickerson is quoted calling these \"big inflections, big waves that we think are sustainable over the next few years.\" Net income declined 12% to $320 million from $364 million, though per-share earnings were flat at 29 cents because of a lower share count, on revenue essentially flat at $2.45 billion versus $2.44 billion. Orders surged 37% year over year and 52% sequentially to $3.5 billion. Excluding restructuring charges and other items, adjusted per-share profit was 34 cents versus an analyst estimate of 32 cents on $2.43 billion in revenue. For the current quarter, the company guided to 46 to 50 cents in adjusted earnings, well above the 36 cents analysts had anticipated, and to $2.84 billion in sales, above the $2.51 billion analysts had predicted.",
+    "why_moved": "The article states that shares rose nearly 8% in after-hours trading. It attributes this to the 15-year-high order level -- up 37% year over year and 52% sequentially -- and to guidance for the coming quarter that came in far above what analysts had been expecting on both earnings and revenue, driven by the 3-D NAND memory tooling shift, growing OLED display demand, and Chinese capacity expansion.",
+    "sources": [
+      {
+        "filename": "Applied Materials Issues Upbeat Guidance as New Orders Surge - WSJ.pdf",
+        "title": "Applied Materials Issues Upbeat Guidance as New Orders Surge Cites strong demand from China, and gains in spending on new machines to produce memory chips and displays",
+        "published_date": "2016-05-19"
+      }
+    ]
+  },
+  "AMAT_2016q3": {
+    "summary_analysis": "The article reports that Applied Materials said orders reached another record high in the fiscal third quarter, building on the 15-year high of the previous quarter, as profit surged and stirred hope for robust results in coming quarters. For the fiscal fourth quarter, the company guided to adjusted earnings of 61 to 69 cents a share, well above the 48 cents analysts surveyed by Thomson Reuters expected, with management citing the record order backlog as support for the outlook. Third-quarter orders of $3.66 billion came in well above the roughly $2.71 billion analysts had expected, a 26.5% jump from a year earlier, following a second quarter in which orders had also topped estimates by 41%, at $3.45 billion, partly attributed to a shift in mobile-device chip manufacturing methods toward stacking layers of circuitry rather than shrinking transistors. Profit for the quarter rose to $505 million from $329 million a year earlier, with per-share earnings up to 46 cents from 27 cents, aided by a lower share count, though the article notes revenue itself \"disappointed the market,\" rising 13.3% to $2.82 billion versus the company's own forecast of roughly $2.84 billion in revenue and 46 to 50 cents in adjusted earnings, with analysts having projected 48 cents on $2.84 billion -- essentially in line. The article notes a fresh $2 billion share-buyback program was set in June following completion of a prior $3 billion program.",
+    "why_moved": "The article states that the share price climbed 5.5% after hours to $29.20. It attributes this to the stronger-than-expected profit and, in particular, to the record order level and the fiscal fourth-quarter guidance far exceeding the analyst consensus of 48 cents, even though the article notes that revenue itself had disappointed the market relative to what investors had been hoping for.",
+    "sources": [
+      {
+        "filename": "Applied Materials Orders Hit Record High, as Profit Surges - WSJ.pdf",
+        "title": "Applied Materials Orders Hit Record High, as Profit Surges Share price jumps on news, as company offers strong guidance for current quarter",
+        "published_date": "2016-08-18"
+      }
+    ]
+  },
+  "AMAT_2016q4": {
+    "summary_analysis": "The article reports that Applied Materials' earnings jumped sharply in the fiscal fourth quarter, but new orders missed expectations. New orders rose 25% to $3.03 billion, below the $3.21 billion analysts had expected according to FactSet, a miss following two consecutive quarters in which orders had beaten estimates. The article frames Applied's business as dependent on a relatively small number of large chip makers whose spending can vary greatly depending on where they sit in their own production cycles. For the quarter ended October 30, profit was $610 million, or 56 cents a share, up from $336 million, or 28 cents, a year earlier; excluding stock-based compensation and other items, adjusted per-share earnings rose to 66 cents from 29 cents. Revenue increased 39% to $3.3 billion, up 17% sequentially, beating the company's own guidance of 61 to 69 cents in earnings and 15% to 19% sequential revenue growth. For the current quarter, the company guided to 62 to 70 cents a share on $3.20 billion to $3.34 billion in revenue, above the 58 cents on $3.12 billion analysts polled by Thomson Reuters had expected.",
+    "why_moved": "The article states that shares fell 4.9% to $29.15 in after-hours trading. It attributes this decline explicitly to new orders missing analyst expectations -- $3.03 billion against a forecast of $3.21 billion -- even though the quarter's profit and revenue beat both the company's own guidance and analyst forecasts, and despite above-consensus guidance issued for the following quarter.",
+    "sources": [
+      {
+        "filename": "Applied Materials Profit Rises 21% But New Orders Miss Expectations - WSJ.pdf",
+        "title": "Applied Materials Profit Rises 21% But New Orders Miss Expectations New orders rose 25% to $3.03 billion in the latest quarter, below a forecast by analysts of $3.21 billion",
+        "published_date": "2016-11-17"
+      }
+    ]
+  },
+  "AMAT_2017q1": {
+    "summary_analysis": "The Heard on the Street column reports that Applied Materials' business, tied to the spending patterns of a handful of large semiconductor and display customers, has historically swung between booms and significant busts, though fears of a downturn had eased over the prior year amid steady demand across customer groups, including OLED display makers said to be gearing up for the next iPhone. The column says a sharp jump in new equipment orders for the fiscal first quarter, reported Wednesday, renewed concerns: orders jumped 86% year over year to a record $4.2 billion, the biggest surge for the company in seven years according to Capital IQ data. It notes Wall Street, per FactSet, expects new equipment orders to decline over the next two quarters as customers digest those purchases. The column's own view is that investors should not be too worried, citing analysts who see strong growth drivers over the next three years, Cowen & Co.'s Timothy Arcuri projecting \"massive increases\" in capital return supported by growing free cash flow, and the stock trading at 13.8 times forward earnings -- a discount to peers and to its own five-year average of 15 times.",
+    "why_moved": "The article states that the stock \"slipped a bit after the report.\" It attributes this modest dip to investor concern that the record 86% surge in new orders -- the largest in seven years -- signals an unsustainable peak, with Wall Street expecting new orders to decline over the following two quarters as customers work through recent purchases, even though the column itself argues that concern is overstated given the company's cash-return prospects and below-average valuation.",
+    "sources": [
+      {
+        "filename": "Applied Materials: Storm Ahead of the Calm - WSJ.pdf",
+        "title": "HEARD ON THE STREET Follow Applied Materials: Storm Ahead of the Calm Surge in new equipment orders has investors worried about a coming slowdown",
+        "published_date": "2017-02-17"
+      }
+    ]
+  },
+  "AMAT_2017q2": {
+    "summary_analysis": "The Heard on the Street column reports that Applied Materials posted another strong quarterly report, released late Thursday, along with a forecast that easily topped Wall Street's expectations. Revenue surged 45% year over year to $3.5 billion, and operating income more than doubled to $940 million, giving the quarter ended April 30 an operating margin of 27% -- the company's highest in at least seven years, according to Capital IQ data. The column notes the stock had risen over the prior 18 months to Thursday's closing price of $43.91 from around $15, part of a broader rally in chip-equipment names tracking strong purchasing activity from customers such as Samsung, Intel and TSMC, which are racing to keep up with demand for components including memory chips and OLED smartphone displays; Applied's Flash memory equipment sales jumped 19% year over year to about $793 million. The column observes that with the share price at its highest level in 17 years, fears of a cyclical downturn would be understandable, but argues that pricing and demand for Flash and DRAM memory were expected to stay strong through the year and that Applied's own forecast projected another quarter of solid double-digit growth, with the stock's forward earnings multiple of about 15.6 times still in line with the PHLX Semiconductor Index.",
+    "why_moved": "The article does not report how shares specifically reacted to this earnings release; it discusses the stock's roughly 18-month climb to Thursday's closing price of $43.91 ahead of the report but does not state a price move tied to the announcement itself.",
+    "sources": [
+      {
+        "filename": "Applied Materials: Plenty of Flash Left in the Pan - WSJ.pdf",
+        "title": "HEARD ON THE STREET Follow Applied Materials: Plenty of Flash Left in the Pan Semiconductor-tool maker posts another strong quarter and forecast—easing fears of a peak",
+        "published_date": "2017-05-18"
+      }
+    ]
+  },
+  "AMAT_2017q4": {
+    "summary_analysis": "The Heard on the Street column reports that Applied Materials' fiscal fourth-quarter earnings report, released Thursday, showed revenue up 20% year over year to $3.97 billion, marking the company's sixth consecutive quarter of double-digit sales growth, helped by strong memory-chip prices and growing demand for display production equipment. Operating income hit a record $1.1 billion, up 41% year over year. The column reports that CEO Gary Dickerson gave an early look at fiscal 2018, saying the company was \"confident\" in delivering \"strong double-digit growth\" for the year, with the fiscal first quarter, ending in January, expected to see revenue grow about 25% at the midpoint of guidance, exceeding the 21% growth analysts had expected. It notes the chip-equipment business remains highly cyclical, dependent on a handful of large customers who can curtail spending quickly, but that the largest chip makers are still catching up to soaring demand while upgrading their manufacturing lines; it cites Samsung Electronics having boosted planned 2017 capital expenditures on semiconductor and display equipment to more than $26 billion, up from about $11.4 billion the prior year, an estimate attributed to Wes Twigg of KeyBanc Capital Markets.",
+    "why_moved": "The article does not report a specific share-price reaction to this earnings release. It notes only that Applied's shares were up nearly 80% for the year at that point, and closes by suggesting the strong results should reassure investors who had shifted from fear of missing out to fear of staying in too long, without stating how the stock moved in response to the report itself.",
+    "sources": [
+      {
+        "filename": "Applied Materials Tools Up for More Chip Demand - WSJ.pdf",
+        "title": "HEARD ON THE STREET Follow Applied Materials Tools Up for More Chip Demand Spending cycle by chip makers expected to stay strong into next year",
+        "published_date": "2017-11-16"
+      }
+    ]
+  }
+}

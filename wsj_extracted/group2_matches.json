@@ -1,0 +1,743 @@
+{
+  "CAT_2016q2": {
+    "ticker": "CAT",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-22",
+    "pdfs": [
+      "Caterpillar Pares Outlook Amid Sluggish Demand - WSJ.pdf"
+    ]
+  },
+  "CAT_2016q3": {
+    "ticker": "CAT",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-07-26",
+    "pdfs": [
+      "Caterpillar Cuts Guidance, Announces More Job Cuts - WSJ.pdf"
+    ]
+  },
+  "CAT_2016q4": {
+    "ticker": "CAT",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-10-25",
+    "pdfs": [
+      "Caterpillar Says Sales Woes Could Linger - WSJ.pdf"
+    ]
+  },
+  "CAT_2017q1": {
+    "ticker": "CAT",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-01-26",
+    "pdfs": [
+      "Caterpillar Revenue Continues to Skid - WSJ.pdf"
+    ]
+  },
+  "CAT_2017q2": {
+    "ticker": "CAT",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-04-25",
+    "pdfs": [
+      "Caterpillar Turns Corner, Boosts Outlook - WSJ.pdf"
+    ]
+  },
+  "CAT_2017q3": {
+    "ticker": "CAT",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-25",
+    "pdfs": [
+      "Caterpillar Boosts Outlook, Signaling Cautious Optimism in Recovery - WSJ.pdf"
+    ]
+  },
+  "CAT_2017q4": {
+    "ticker": "CAT",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-10-24",
+    "pdfs": [
+      "Caterpillar Stays on Track to Break Sales Slump - WSJ.pdf"
+    ]
+  },
+  "CAT_2018q1": {
+    "ticker": "CAT",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-01-25",
+    "pdfs": [
+      "Caterpillar Reports Robust Sales as Global Recovery Continues - WSJ.pdf"
+    ]
+  },
+  "CAT_2018q2": {
+    "ticker": "CAT",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-04-24",
+    "pdfs": [
+      "Caterpillar, Industrial Shares Slump as Investors Weigh Rising Costs - WSJ.pdf"
+    ]
+  },
+  "CAT_2018q3": {
+    "ticker": "CAT",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-30",
+    "pdfs": [
+      "Caterpillar Profit Surges, Absorbs Tariff-Related Cost Increases - WSJ.pdf"
+    ]
+  },
+  "GE_2016q2": {
+    "ticker": "GE",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-22",
+    "pdfs": [
+      "Oil Gloom Hurts GE Results - WSJ.pdf"
+    ]
+  },
+  "GE_2016q3": {
+    "ticker": "GE",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-07-22",
+    "pdfs": [
+      "General Electric, Honeywell Post Downbeat Revenue - WSJ.pdf"
+    ]
+  },
+  "GE_2016q4": {
+    "ticker": "GE",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-10-21",
+    "pdfs": [
+      "GE Cuts Full-Year Sales Forecast - WSJ.pdf"
+    ]
+  },
+  "GE_2017q1": {
+    "ticker": "GE",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-01-20",
+    "pdfs": [
+      "GE Revenue Slips, Dragged Down by Oil Woes - WSJ.pdf"
+    ]
+  },
+  "GE_2017q2": {
+    "ticker": "GE",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-04-21",
+    "pdfs": [
+      "General Electric, Still Weighed by Energy, Boosts Profit Amid Cost Cutting Plan - WSJ.pdf"
+    ]
+  },
+  "GE_2017q3": {
+    "ticker": "GE",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-21",
+    "pdfs": [
+      "GE Leaves Investors in Limbo - WSJ.pdf"
+    ]
+  },
+  "GE_2017q4": {
+    "ticker": "GE",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-10-20",
+    "pdfs": [
+      "GE\u2019s Other Problem: Complex Financial Reporting - WSJ.pdf",
+      "New GE Chief Slashes Forecasts, Plans to Exit $20 Billion in Businesses - WSJ.pdf"
+    ]
+  },
+  "GE_2018q1": {
+    "ticker": "GE",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-01-24",
+    "pdfs": [
+      "GE Looks Ugly in Its Underwear - WSJ.pdf",
+      "SEC Has Opened Probe of GE\u2019s Accounting - WSJ.pdf"
+    ]
+  },
+  "GE_2018q2": {
+    "ticker": "GE",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-04-20",
+    "pdfs": [
+      "GE Takes Hit From Old Mortgage Unit but Says Turnaround on Track - WSJ.pdf",
+      "No Bad News Counts as Good News at GE - WSJ.pdf"
+    ]
+  },
+  "GE_2018q3": {
+    "ticker": "GE",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-20",
+    "pdfs": [
+      "GE's Profit Falls as Power Division Remains a Drag - WSJ.pdf"
+    ]
+  },
+  "PG_2016q2": {
+    "ticker": "PG",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-26",
+    "pdfs": [
+      "P&G Posts Higher Profit, but Sales Volume Declines Across Most Businesses - WSJ.pdf"
+    ]
+  },
+  "PG_2016q3": {
+    "ticker": "PG",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-08-02",
+    "pdfs": []
+  },
+  "PG_2016q4": {
+    "ticker": "PG",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-10-25",
+    "pdfs": [
+      "Procter & Gamble\u2019s Profit Rises as Sales of Staples Increase - WSJ.pdf"
+    ]
+  },
+  "PG_2017q1": {
+    "ticker": "PG",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-01-20",
+    "pdfs": [
+      "Procter & Gamble Reports Organic Sales Growth - WSJ.pdf"
+    ]
+  },
+  "PG_2017q2": {
+    "ticker": "PG",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-04-26",
+    "pdfs": [
+      "Procter & Gamble\u2019s Claim of \u2018Irresistible Superiority\u2019 Baffles Analysts - WSJ.pdf"
+    ]
+  },
+  "PG_2017q3": {
+    "ticker": "PG",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-27",
+    "pdfs": [
+      "Procter & Gamble, Activist Disagree on Progress Shown in Latest Results - WSJ.pdf"
+    ]
+  },
+  "PG_2017q4": {
+    "ticker": "PG",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-10-20",
+    "pdfs": [
+      "P&G, After Slight Sales Gain, Puzzled by Weak U.S. Consumer Spending - WSJ.pdf"
+    ]
+  },
+  "PG_2018q1": {
+    "ticker": "PG",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-01-23",
+    "pdfs": [
+      "P&G\u2019s Sales Rise, Helped by Slimmer Beauty Portfolio - WSJ.pdf"
+    ]
+  },
+  "PG_2018q2": {
+    "ticker": "PG",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-04-19",
+    "pdfs": [
+      "P&G Slogs Through \u2018Difficult\u2019 Markets for Sales Growth - WSJ.pdf"
+    ]
+  },
+  "PG_2018q3": {
+    "ticker": "PG",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-31",
+    "pdfs": [
+      "P&G Washout May Run Another Cycle - WSJ.pdf"
+    ]
+  },
+  "NFLX_2016q2": {
+    "ticker": "NFLX",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-18",
+    "pdfs": [
+      "Netflix Fans Ignore Worrying Plot Twists - WSJ.pdf"
+    ]
+  },
+  "NFLX_2016q3": {
+    "ticker": "NFLX",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-07-18",
+    "pdfs": [
+      "Netflix Reports Sharp Slowdown in User Growth - WSJ.pdf"
+    ]
+  },
+  "NFLX_2016q4": {
+    "ticker": "NFLX",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-10-17",
+    "pdfs": [
+      "Netflix Jump in New Users Fuels After-Hours Stock Surge - WSJ.pdf"
+    ]
+  },
+  "NFLX_2017q1": {
+    "ticker": "NFLX",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-01-18",
+    "pdfs": [
+      "Netflix\u2019s Global Growth Fuels Surge in Subscribers - WSJ.pdf"
+    ]
+  },
+  "NFLX_2017q2": {
+    "ticker": "NFLX",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-04-17",
+    "pdfs": [
+      "Netflix\u2019s Subscriber Growth Slows at Home and Abroad - WSJ.pdf"
+    ]
+  },
+  "NFLX_2017q3": {
+    "ticker": "NFLX",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-17",
+    "pdfs": [
+      "Netflix Surprises With Big Subscriber Gains, Shares Soar - WSJ.pdf"
+    ]
+  },
+  "NFLX_2017q4": {
+    "ticker": "NFLX",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-10-16",
+    "pdfs": [
+      "Netflix Again Tops Forecasts for Subscriber Growth - WSJ.pdf"
+    ]
+  },
+  "NFLX_2018q1": {
+    "ticker": "NFLX",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-01-22",
+    "pdfs": [
+      "Netflix Continues Landing Customers, Even After Increasing Prices - WSJ.pdf"
+    ]
+  },
+  "NFLX_2018q2": {
+    "ticker": "NFLX",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-04-16",
+    "pdfs": [
+      "Netflix Subscriber Growth Tops Expectations - WSJ.pdf"
+    ]
+  },
+  "NFLX_2018q3": {
+    "ticker": "NFLX",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-16",
+    "pdfs": [
+      "Netflix Reports Weaker-Than-Expected Number of New Subscribers - WSJ.pdf"
+    ]
+  },
+  "HD_2016q2": {
+    "ticker": "HD",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-05-17",
+    "pdfs": [
+      "Home Depot, TJX Cos Raise Forecasts as Shoppers Spend More - WSJ.pdf"
+    ]
+  },
+  "HD_2016q3": {
+    "ticker": "HD",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-08-16",
+    "pdfs": [
+      "Home Depot Sales and Profit Rise on Housing Rebound - WSJ.pdf"
+    ]
+  },
+  "HD_2016q4": {
+    "ticker": "HD",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-11-15",
+    "pdfs": [
+      "Home Depot Sales and Revenue Rise as Customers Spend More Per Transaction - WSJ.pdf"
+    ]
+  },
+  "HD_2017q1": {
+    "ticker": "HD",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-02-21",
+    "pdfs": [
+      "Home Depot Bumps Dividend Up 29%, Announces $15 Billion Buyback - WSJ.pdf"
+    ]
+  },
+  "HD_2017q2": {
+    "ticker": "HD",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-05-16",
+    "pdfs": [
+      "Home Depot Reports Growth as Home Builder Sentiment Rises - WSJ.pdf"
+    ]
+  },
+  "HD_2017q3": {
+    "ticker": "HD",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-08-15",
+    "pdfs": [
+      "Home Depot Lifts Guidance for the Second Time This Year - WSJ.pdf"
+    ]
+  },
+  "HD_2017q4": {
+    "ticker": "HD",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-11-14",
+    "pdfs": [
+      "Home Depot Beats Estimates, Raises Guidance for Year - WSJ.pdf"
+    ]
+  },
+  "HD_2018q1": {
+    "ticker": "HD",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-02-20",
+    "pdfs": [
+      "Home Depot Expects Lower Taxes, Stronger Sales Following U.S. Tax Reform \u2014 CFO - WSJ.pdf"
+    ]
+  },
+  "HD_2018q2": {
+    "ticker": "HD",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-05-15",
+    "pdfs": [
+      "Home Depot Revenue Falls Short of Expectations - WSJ.pdf"
+    ]
+  },
+  "HD_2018q3": {
+    "ticker": "HD",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-08-14",
+    "pdfs": [
+      "Home Depot Raises Guidance as Profit Soars - WSJ.pdf"
+    ]
+  },
+  "PANW_2016q2": {
+    "ticker": "PANW",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-05-26",
+    "pdfs": [
+      "Palo Alto Networks Loss Widens on Climbing Expenses - WSJ.pdf"
+    ]
+  },
+  "PANW_2016q3": {
+    "ticker": "PANW",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-08-30",
+    "pdfs": [
+      "Palo Alto Networks Revenue, Expenses Surge - WSJ.pdf"
+    ]
+  },
+  "PANW_2016q4": {
+    "ticker": "PANW",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-11-21",
+    "pdfs": [
+      "Palo Alto Networks Revenue Growth Slows - WSJ.pdf"
+    ]
+  },
+  "PANW_2017q1": {
+    "ticker": "PANW",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-02-28",
+    "pdfs": [
+      "Palo Alto Networks Frightens Again - WSJ.pdf"
+    ]
+  },
+  "PANW_2017q2": {
+    "ticker": "PANW",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-05-31",
+    "pdfs": []
+  },
+  "PANW_2017q3": {
+    "ticker": "PANW",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-08-31",
+    "pdfs": []
+  },
+  "PANW_2017q4": {
+    "ticker": "PANW",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-11-20",
+    "pdfs": []
+  },
+  "PANW_2018q1": {
+    "ticker": "PANW",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-02-26",
+    "pdfs": []
+  },
+  "PANW_2018q2": {
+    "ticker": "PANW",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-06-04",
+    "pdfs": []
+  },
+  "PANW_2018q3": {
+    "ticker": "PANW",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-09-06",
+    "pdfs": []
+  },
+  "PM_2016q2": {
+    "ticker": "PM",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-19",
+    "pdfs": [
+      "Philip Morris Boosts Outlook as Profit Falls - WSJ.pdf"
+    ]
+  },
+  "PM_2016q3": {
+    "ticker": "PM",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-07-19",
+    "pdfs": [
+      "Philip Morris Profit Falls on Lower Volumes - WSJ.pdf"
+    ]
+  },
+  "PM_2016q4": {
+    "ticker": "PM",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-10-18",
+    "pdfs": [
+      "Philip Morris Earnings Flat as Cigarette Shipments Decline - WSJ.pdf"
+    ]
+  },
+  "PM_2017q1": {
+    "ticker": "PM",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-02-02",
+    "pdfs": [
+      "Philip Morris Revenue Boosted by Asia - WSJ.pdf"
+    ]
+  },
+  "PM_2017q2": {
+    "ticker": "PM",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-04-20",
+    "pdfs": []
+  },
+  "PM_2017q3": {
+    "ticker": "PM",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-20",
+    "pdfs": []
+  },
+  "PM_2017q4": {
+    "ticker": "PM",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-10-19",
+    "pdfs": []
+  },
+  "PM_2018q1": {
+    "ticker": "PM",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-02-08",
+    "pdfs": []
+  },
+  "PM_2018q2": {
+    "ticker": "PM",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-04-19",
+    "pdfs": []
+  },
+  "PM_2018q3": {
+    "ticker": "PM",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-19",
+    "pdfs": [
+      "Riskier Than Cigarettes? Why Philip Morris Stumbled - WSJ.pdf"
+    ]
+  },
+  "TXN_2016q2": {
+    "ticker": "TXN",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-27",
+    "pdfs": [
+      "Texas Instruments Reports Slightly Higher Profit - WSJ.pdf"
+    ]
+  },
+  "TXN_2016q3": {
+    "ticker": "TXN",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-07-25",
+    "pdfs": [
+      "Texas Instruments Issues Strong Guidance Boosted by Auto, Industrial Demand - WSJ.pdf"
+    ]
+  },
+  "TXN_2016q4": {
+    "ticker": "TXN",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-10-26",
+    "pdfs": [
+      "Texas Instruments Reports Higher Profit - WSJ.pdf"
+    ]
+  },
+  "TXN_2017q1": {
+    "ticker": "TXN",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-01-24",
+    "pdfs": [
+      "Texas Instruments\u2019 Profit, Revenue Rise - WSJ.pdf"
+    ]
+  },
+  "TXN_2017q2": {
+    "ticker": "TXN",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-04-25",
+    "pdfs": []
+  },
+  "TXN_2017q3": {
+    "ticker": "TXN",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-25",
+    "pdfs": []
+  },
+  "TXN_2017q4": {
+    "ticker": "TXN",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-10-24",
+    "pdfs": []
+  },
+  "TXN_2018q1": {
+    "ticker": "TXN",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-01-23",
+    "pdfs": []
+  },
+  "TXN_2018q2": {
+    "ticker": "TXN",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-04-24",
+    "pdfs": []
+  },
+  "TXN_2018q3": {
+    "ticker": "TXN",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-24",
+    "pdfs": [
+      "Texas Instruments Forecasts Strong Third Quarter - WSJ.pdf"
+    ]
+  },
+  "KLAC_2016q2": {
+    "ticker": "KLAC",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-04-26",
+    "pdfs": []
+  },
+  "KLAC_2016q3": {
+    "ticker": "KLAC",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-07-28",
+    "pdfs": []
+  },
+  "KLAC_2016q4": {
+    "ticker": "KLAC",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-10-20",
+    "pdfs": []
+  },
+  "KLAC_2017q1": {
+    "ticker": "KLAC",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-01-26",
+    "pdfs": []
+  },
+  "KLAC_2017q2": {
+    "ticker": "KLAC",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-04-27",
+    "pdfs": []
+  },
+  "KLAC_2017q3": {
+    "ticker": "KLAC",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-07-27",
+    "pdfs": []
+  },
+  "KLAC_2017q4": {
+    "ticker": "KLAC",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-10-26",
+    "pdfs": []
+  },
+  "KLAC_2018q1": {
+    "ticker": "KLAC",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-01-25",
+    "pdfs": []
+  },
+  "KLAC_2018q2": {
+    "ticker": "KLAC",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-04-26",
+    "pdfs": []
+  },
+  "KLAC_2018q3": {
+    "ticker": "KLAC",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-07-30",
+    "pdfs": []
+  },
+  "AMAT_2016q2": {
+    "ticker": "AMAT",
+    "fiscal_yearquarter": "2016q2",
+    "earnings_date": "2016-05-19",
+    "pdfs": [
+      "Applied Materials Issues Upbeat Guidance as New Orders Surge - WSJ.pdf"
+    ]
+  },
+  "AMAT_2016q3": {
+    "ticker": "AMAT",
+    "fiscal_yearquarter": "2016q3",
+    "earnings_date": "2016-08-18",
+    "pdfs": [
+      "Applied Materials Orders Hit Record High, as Profit Surges - WSJ.pdf"
+    ]
+  },
+  "AMAT_2016q4": {
+    "ticker": "AMAT",
+    "fiscal_yearquarter": "2016q4",
+    "earnings_date": "2016-11-17",
+    "pdfs": [
+      "Applied Materials Profit Rises 21% But New Orders Miss Expectations - WSJ.pdf"
+    ]
+  },
+  "AMAT_2017q1": {
+    "ticker": "AMAT",
+    "fiscal_yearquarter": "2017q1",
+    "earnings_date": "2017-02-15",
+    "pdfs": [
+      "Applied Materials: Storm Ahead of the Calm - WSJ.pdf"
+    ]
+  },
+  "AMAT_2017q2": {
+    "ticker": "AMAT",
+    "fiscal_yearquarter": "2017q2",
+    "earnings_date": "2017-05-18",
+    "pdfs": [
+      "Applied Materials: Plenty of Flash Left in the Pan - WSJ.pdf"
+    ]
+  },
+  "AMAT_2017q3": {
+    "ticker": "AMAT",
+    "fiscal_yearquarter": "2017q3",
+    "earnings_date": "2017-08-17",
+    "pdfs": []
+  },
+  "AMAT_2017q4": {
+    "ticker": "AMAT",
+    "fiscal_yearquarter": "2017q4",
+    "earnings_date": "2017-11-16",
+    "pdfs": [
+      "Applied Materials Tools Up for More Chip Demand - WSJ.pdf"
+    ]
+  },
+  "AMAT_2018q1": {
+    "ticker": "AMAT",
+    "fiscal_yearquarter": "2018q1",
+    "earnings_date": "2018-02-14",
+    "pdfs": []
+  },
+  "AMAT_2018q2": {
+    "ticker": "AMAT",
+    "fiscal_yearquarter": "2018q2",
+    "earnings_date": "2018-05-17",
+    "pdfs": []
+  },
+  "AMAT_2018q3": {
+    "ticker": "AMAT",
+    "fiscal_yearquarter": "2018q3",
+    "earnings_date": "2018-08-16",
+    "pdfs": []
+  }
+}

@@ -11,6 +11,7 @@ Run:
     python3 match_wsj_pdfs.py wsj_extracted/group1.json group1
 """
 import json
+import re
 import sys
 
 import pandas as pd
@@ -28,7 +29,12 @@ ALT_NAMES = {
     "LLY": ["eli lilly", "lilly"],
     "WMT": ["walmart", "wal-mart", "wal mart"],
     "CAT": ["caterpillar"],
-    "GE": ["general electric"],
+    # WSJ headlines almost always say "GE", not "General Electric" -- unlike
+    # the other tickers here, "GE" itself is the common usage. Safe to
+    # include as a bare alt-name now that matching is word-boundary based
+    # (not plain substring), which also fixes a latent risk for names like
+    # "ford" matching inside "afford"/"effort".
+    "GE": ["general electric", "ge"],
     "PG": ["procter & gamble", "procter and gamble", "p&g"],
     "NFLX": ["netflix"],
     "HD": ["home depot"],
@@ -59,7 +65,10 @@ def main():
 
     extracted = json.load(open(extracted_path))
     for r in extracted:
-        r["title_lower"] = r.get("title", "").lower()
+        # Normalize curly apostrophes (WSJ titles use U+2019 "'") to
+        # straight ones, matching ALT_NAMES entries like "lowe's" -- found
+        # via Lowe's articles going completely unmatched otherwise.
+        r["title_lower"] = r.get("title", "").lower().replace("’", "'")
 
     returns = pd.read_csv("Data - Returns/earnings_returns_clean.csv", parse_dates=["earningsdate"])
     obs_path = "group_observations.csv"
@@ -80,9 +89,18 @@ def main():
             if r.get("published_date") is None:
                 continue
             pdate = pd.Timestamp(r["published_date"])
-            if pdate not in (edate, edate + pd.Timedelta(days=1)):
+            delta = (pdate - edate).days
+            # -5 to +7 days: widened from an original same-day/+1-day-only
+            # window after Group 1 review found genuine reaction/preview
+            # pieces published the day before the earnings date, and one
+            # "Heard on the Street" reaction piece published +3 days later
+            # -- both invisible to the narrower window.
+            if not (-5 <= delta <= 7):
                 continue
-            if not any(name in r["title_lower"] for name in alt_names):
+            # Word-boundary match, not plain substring -- a bare "ge" or
+            # "ford" as a plain substring would false-match inside unrelated
+            # words ("changes", "afford"); \b anchors keep this safe.
+            if not any(re.search(rf"\b{re.escape(name)}\b", r["title_lower"]) for name in alt_names):
                 continue
             found.append(r["filename"])
             unmatched_pdfs.discard(r["filename"])
