@@ -651,8 +651,14 @@ PD_CATEGORY_SOURCES = [
 ]
 
 
-@st.dialog("PD Data Categories", width="large")
+@st.dialog(" ", width="large")
 def _show_pd_categories_dialog(note_key):
+    # Streamlit renders the @st.dialog() title itself, left-aligned, with
+    # no built-in way to center it -- a CSS rule targeting its container
+    # didn't take effect (its exact DOM structure isn't a stable target
+    # across Streamlit versions), so the decorator gets a blank title
+    # instead and this renders the real, centered one as ordinary content.
+    st.markdown("<h2 style='text-align:center;'>PD Data Categories</h2>", unsafe_allow_html=True)
     entry = group_pd_categories_lookup.get(note_key)
     if not entry:
         st.info(
@@ -675,7 +681,7 @@ def _show_pd_categories_dialog(note_key):
     header_row = []
     for src_key, src_label in PD_CATEGORY_SOURCES:
         header_row.append(
-            f"<div style='text-align:center; font-weight:bold; font-size:0.95rem;'>{src_label}</div>"
+            f"<div style='text-align:center; font-weight:bold; font-size:1.15rem;'>{src_label}</div>"
         )
     grid_parts = [
         f"<div style='grid-column:{i+1}; grid-row:1;'>{h}</div>" for i, h in enumerate(header_row)
@@ -688,7 +694,7 @@ def _show_pd_categories_dialog(note_key):
                 if row_i == 2:
                     grid_parts.append(
                         f"<div style='grid-column:{col_i}; grid-row:2;'>"
-                        f"<p style='font-size:0.75rem; font-style:italic; opacity:0.75;'>"
+                        f"<p style='font-size:0.95rem; font-style:italic; opacity:0.75;'>"
                         f"No coverage from this source for this observation.</p></div>"
                     )
                 continue
@@ -703,11 +709,11 @@ def _show_pd_categories_dialog(note_key):
                 badge = "<span style='opacity:0.5;'>&mdash;</span>"
             cell_html = (
                 f"<div style='margin-bottom:0.6rem;'>"
-                f"<div style='font-size:0.8rem; font-weight:600;'>{category} {badge}</div>"
+                f"<div style='font-size:1rem; font-weight:600;'>{category} {badge}</div>"
             )
             if reason:
                 cell_html += (
-                    f"<div style='font-size:0.72rem; opacity:0.8; line-height:1.25;'>"
+                    f"<div style='font-size:0.9rem; opacity:0.85; line-height:1.3;'>"
                     f"{render_inline_markdown(reason)}</div>"
                 )
             cell_html += "</div>"
