@@ -1305,7 +1305,7 @@ if st.session_state.selected_section == "Data Visualization 2":
     g_period_start = g_sub_middle10["earnings_date"].min().strftime("%Y-%m-%d")
     g_period_end = g_sub_middle10["earnings_date"].max().strftime("%Y-%m-%d")
 
-    g_filter_spacer, g_filter_col1, g_filter_col2 = st.columns([5, 2.3, 3.2])
+    g_filter_spacer_l, g_filter_col1, g_filter_col2, g_filter_spacer_r = st.columns([3, 2.3, 3.2, 3])
     with g_filter_col1:
         g_filter_wsj = st.checkbox("Show Context Analysis + WSJ Coverage", key="g_filter_context_wsj")
     with g_filter_col2:
