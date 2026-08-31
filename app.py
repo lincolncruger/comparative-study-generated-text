@@ -190,6 +190,15 @@ st.html(
         border-top: 2px solid #4A90D9;
         margin: 0.3rem 0 1.2rem 0;
     }
+    /* Streamlit's st.dialog() title -- uses whichever heading level the
+       installed version renders it with, so all 3 are targeted here
+       rather than guessing one. */
+    [data-testid="stDialog"] h1,
+    [data-testid="stDialog"] h2,
+    [data-testid="stDialog"] h3 {
+        text-align: center;
+        width: 100%;
+    }
     hr.quarter-divider {
         border: none;
         border-top: 1px solid #4A90D9;
@@ -651,27 +660,64 @@ def _show_pd_categories_dialog(note_key):
             "This feature is currently only built out for NVDA's first quarter (2016q2) as a test."
         )
         return
-    pd_cols = st.columns(3)
-    for pd_col, (src_key, src_label) in zip(pd_cols, PD_CATEGORY_SOURCES):
-        with pd_col:
-            st.markdown(f"**{src_label}**")
+
+    # Built as one combined HTML grid (not per-column st.markdown/st.caption
+    # calls) for two reasons: (1) a shared grid with each category pinned to
+    # its own explicit row is what makes "Guidance" / "Revenue" / etc. line
+    # up laterally across all 3 columns regardless of how long any one
+    # source's one-liner reason is -- same technique as the "Possible
+    # Drivers" alignment elsewhere in this file. (2) plain st.markdown/
+    # st.caption run text through Streamlit's markdown parser, which
+    # renders anything between two "$" as LaTeX math -- every reason here
+    # has two dollar amounts (e.g. "$500 million ... $3.5 billion"), which
+    # was silently mangling them into squished italic math. render_inline_
+    # markdown() escapes "$" before this ever reaches the parser.
+    header_row = []
+    for src_key, src_label in PD_CATEGORY_SOURCES:
+        header_row.append(
+            f"<div style='text-align:center; font-weight:bold; font-size:0.95rem;'>{src_label}</div>"
+        )
+    grid_parts = [
+        f"<div style='grid-column:{i+1}; grid-row:1;'>{h}</div>" for i, h in enumerate(header_row)
+    ]
+
+    for row_i, category in enumerate(PD_CATEGORIES, start=2):
+        for col_i, (src_key, src_label) in enumerate(PD_CATEGORY_SOURCES, start=1):
             src_data = entry.get(src_key)
-            if not src_data:
-                st.write("*No coverage from this source for this observation.*")
+            if src_data is None:
+                if row_i == 2:
+                    grid_parts.append(
+                        f"<div style='grid-column:{col_i}; grid-row:2;'>"
+                        f"<p style='font-size:0.75rem; font-style:italic; opacity:0.75;'>"
+                        f"No coverage from this source for this observation.</p></div>"
+                    )
                 continue
-            for category in PD_CATEGORIES:
-                cell = src_data.get(category) or {}
-                rating = cell.get("rating")
-                reason = cell.get("reason")
-                if rating == "positive":
-                    badge = ":green[● Positive]"
-                elif rating == "negative":
-                    badge = ":red[● Negative]"
-                else:
-                    badge = ":gray[—]"
-                st.markdown(f"**{category}** {badge}")
-                if reason:
-                    st.caption(reason)
+            cell = src_data.get(category) or {}
+            rating = cell.get("rating")
+            reason = cell.get("reason")
+            if rating == "positive":
+                badge = "<span style='color:#5FBF6E;'>&#9679; Positive</span>"
+            elif rating == "negative":
+                badge = "<span style='color:#E06C6C;'>&#9679; Negative</span>"
+            else:
+                badge = "<span style='opacity:0.5;'>&mdash;</span>"
+            cell_html = (
+                f"<div style='margin-bottom:0.6rem;'>"
+                f"<div style='font-size:0.8rem; font-weight:600;'>{category} {badge}</div>"
+            )
+            if reason:
+                cell_html += (
+                    f"<div style='font-size:0.72rem; opacity:0.8; line-height:1.25;'>"
+                    f"{render_inline_markdown(reason)}</div>"
+                )
+            cell_html += "</div>"
+            grid_parts.append(f"<div style='grid-column:{col_i}; grid-row:{row_i};'>{cell_html}</div>")
+
+    st.markdown(
+        "<div style='display:grid; grid-template-columns: 1fr 1fr 1fr; "
+        "column-gap:1.5rem; align-items:start;'>" + "".join(grid_parts) + "</div>",
+        unsafe_allow_html=True,
+    )
 
 
 GROUP_PERIOD_MIDPOINT = pd.Timestamp("2017-07-01")  # midpoint of the 2010-2024 panel coverage
