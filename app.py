@@ -1218,6 +1218,30 @@ if st.session_state.selected_section == "Data Visualization 2":
                 # group's first ticker, same as switching sections does.
                 st.session_state.selected_group_ticker = GROUPS[g][0]
 
+    def _group_wsj_coverage_pct(group_name):
+        # Denominator matches exactly what's shown per ticker below (the
+        # middle 10 quarters), not the ticker's full quarter history, so
+        # this percentage lines up with what a viewer can actually click
+        # through and check.
+        covered, total = 0, 0
+        for t in GROUPS[group_name]:
+            sub = middle_n_quarters(group_df[group_df["ticker"] == t], n=10)
+            for _, row in sub.iterrows():
+                total += 1
+                entry = group_wsj_coverage_lookup.get(f"{t}_{row['fiscal_yearquarter']}")
+                if entry and (entry.get("summary_analysis") or entry.get("why_moved")):
+                    covered += 1
+        return covered, total
+
+    _cov_covered, _cov_total = _group_wsj_coverage_pct(st.session_state.selected_group)
+    _cov_pct = (_cov_covered / _cov_total * 100) if _cov_total else 0.0
+    st.markdown(
+        f"<div style='text-align:center; color:rgba(214,228,240,0.85); font-size:0.95rem; margin:0.5rem 0;'>"
+        f"WSJ coverage for {st.session_state.selected_group}: {_cov_pct:.0f}% "
+        f"({_cov_covered} of {_cov_total} observations)</div>",
+        unsafe_allow_html=True,
+    )
+
     st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
 
     selected_group = st.session_state.selected_group
