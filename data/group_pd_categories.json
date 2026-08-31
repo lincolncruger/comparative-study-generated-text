@@ -1,0 +1,73 @@
+{
+  "NVDA_2016q2": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guided fiscal Q2 revenue to $1.35 billion (±2%), well above the Street's roughly $1.28 billion consensus."
+      },
+      "Order book / order backlog": {"rating": null, "reason": null},
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Q1 FY17 revenue rose 13% year over year to $1.305 billion, beating the ~$1.26 billion consensus."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Launched the new Pascal architecture (GeForce GTX 1080/1070, Tesla P100, DGX-1), positioned as a major new product-cycle catalyst entering full production."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Non-GAAP EPS rose 39% year over year to $0.46, beating the $0.32 consensus, with gross margin also up year over year."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Non-GAAP operating expenses grew only 4% year over year (GAAP up 6%), far slower than revenue and profit growth, per the underlying press release."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": "positive",
+        "reason": "No debt or leverage concerns; NVIDIA entered a new $500 million accelerated share buyback, part of $3.5 billion already returned to shareholders."
+      },
+      "Capex": {"rating": null, "reason": null},
+      "Management": {
+        "rating": "positive",
+        "reason": "CEO Jen-Hsun Huang highlighted growth across all four platforms and called the new Pascal architecture a \"giant boost\" to deep learning, gaming, and VR, per the press release."
+      },
+      "Litigation": {"rating": null, "reason": null},
+      "Others: eg. Covid, or macro events": {"rating": null, "reason": null}
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance of $1.35 billion (±2%) for the current quarter came in well above the Street's $1.28 billion average estimate."
+      },
+      "Order book / order backlog": {"rating": null, "reason": null},
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue rose 13% to $1.3 billion, above analyst expectations."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "New flagship GTX 1080 GPU described as twice as fast as its predecessor at roughly 40% less cost."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Profit rose 46% to $196 million (33 cents/share); on an adjusted basis, 46 cents topped the 32-cent consensus."
+      },
+      "Costs": {"rating": null, "reason": null},
+      "Debt, leverage and capital raise": {
+        "rating": "positive",
+        "reason": "Nvidia entered a new $500 million accelerated share buyback, having already returned over $3.5 billion to shareholders under its capital-return program."
+      },
+      "Capex": {"rating": null, "reason": null},
+      "Management": {
+        "rating": "positive",
+        "reason": "CEO Jen-Hsun Huang said gaming is \"just a larger and larger market,\" underscoring confidence in the demand outlook."
+      },
+      "Litigation": {"rating": null, "reason": null},
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The article flags that AMD's upcoming Polaris chip could add pricing pressure on Nvidia, per analyst Patrick Moorhead."
+      }
+    },
+    "djnw": null
+  }
+}

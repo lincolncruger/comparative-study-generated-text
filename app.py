@@ -75,6 +75,28 @@ GROUP_ABNORMAL_RETURNS_PATH = os.path.join(HERE, "data", "group_abnormal_returns
 GROUP_CONTEXT_PATH = os.path.join(HERE, "data", "group_context.json")
 GROUP_WSJ_COVERAGE_PATH = os.path.join(HERE, "data", "group_wsj_coverage.json")
 GROUP_DJNW_COVERAGE_PATH = os.path.join(HERE, "data", "group_djnw_coverage.json")
+GROUP_PD_CATEGORIES_PATH = os.path.join(HERE, "data", "group_pd_categories.json")
+# The 11 fixed categories each of the 3 coverage sources (Contextualized
+# interpretation / WSJ / DJNW) is independently rated against, per
+# observation -- lets a viewer see whether all 3 sources actually surface
+# the same relevant topics, or whether one is silently missing something
+# the others caught. A category is "positive"/"negative" only when that
+# source's own text (plus, for context/WSJ/DJNW respectively, the linked
+# SEC filing / PDF / article) actually addresses it; otherwise it's left
+# blank -- these are exact key strings used in group_pd_categories.json.
+PD_CATEGORIES = [
+    "Guidance",
+    "Order book / order backlog",
+    "Revenue",
+    "Product",
+    "Profits and profitability",
+    "Costs",
+    "Debt, leverage and capital raise",
+    "Capex",
+    "Management",
+    "Litigation",
+    "Others: eg. Covid, or macro events",
+]
 # Streamlit's static-file server (enabled via .streamlit/config.toml's
 # [server] enableStaticServing = true) only serves files placed under a
 # static/ folder next to this script, at the URL path /app/static/<path>.
@@ -557,6 +579,14 @@ def load_group_djnw_coverage(mtime_marker):
         return json.load(f)
 
 
+@st.cache_data
+def load_group_pd_categories(mtime_marker):
+    if not os.path.exists(GROUP_PD_CATEGORIES_PATH):
+        return {}
+    with open(GROUP_PD_CATEGORIES_PATH) as f:
+        return json.load(f)
+
+
 def render_wsj_pdf_link_html(source, static_slug):
     """Returns HTML for a plain link that opens the source PDF in a new
     browser tab, served from Streamlit's static/ folder (see
@@ -603,6 +633,45 @@ def render_djnw_source_link_html(source):
         "color:#F0F4F8; font-size:0.85rem; text-decoration:none; font-weight:600;"
     )
     return f"<a href='{url}' target='_blank' rel='noopener noreferrer' style='{button_style}'>&#128279; View Source: {label}</a>"
+
+
+PD_CATEGORY_SOURCES = [
+    ("contextual_analysis", "Contextualized interpretation"),
+    ("wsj", "WSJ Coverage"),
+    ("djnw", "Dow Jones Newswires Coverage"),
+]
+
+
+@st.dialog("PD Data Categories", width="large")
+def _show_pd_categories_dialog(note_key):
+    entry = group_pd_categories_lookup.get(note_key)
+    if not entry:
+        st.info(
+            "No PD Data Categories analysis available yet for this observation. "
+            "This feature is currently only built out for NVDA's first quarter (2016q2) as a test."
+        )
+        return
+    pd_cols = st.columns(3)
+    for pd_col, (src_key, src_label) in zip(pd_cols, PD_CATEGORY_SOURCES):
+        with pd_col:
+            st.markdown(f"**{src_label}**")
+            src_data = entry.get(src_key)
+            if not src_data:
+                st.write("*No coverage from this source for this observation.*")
+                continue
+            for category in PD_CATEGORIES:
+                cell = src_data.get(category) or {}
+                rating = cell.get("rating")
+                reason = cell.get("reason")
+                if rating == "positive":
+                    badge = ":green[● Positive]"
+                elif rating == "negative":
+                    badge = ":red[● Negative]"
+                else:
+                    badge = ":gray[—]"
+                st.markdown(f"**{category}** {badge}")
+                if reason:
+                    st.caption(reason)
 
 
 GROUP_PERIOD_MIDPOINT = pd.Timestamp("2017-07-01")  # midpoint of the 2010-2024 panel coverage
@@ -1163,6 +1232,7 @@ group_context_lookup = load_group_context(_mtime(GROUP_CONTEXT_PATH))
 group_abnormal_returns_lookup = load_group_abnormal_returns(_mtime(GROUP_ABNORMAL_RETURNS_PATH))
 group_wsj_coverage_lookup = load_group_wsj_coverage(_mtime(GROUP_WSJ_COVERAGE_PATH))
 group_djnw_coverage_lookup = load_group_djnw_coverage(_mtime(GROUP_DJNW_COVERAGE_PATH))
+group_pd_categories_lookup = load_group_pd_categories(_mtime(GROUP_PD_CATEGORIES_PATH))
 
 tickers = sorted(df["ticker"].unique())
 ticker_labels = {
@@ -1490,6 +1560,11 @@ if st.session_state.selected_section == "Data Visualization 2":
             f"<div style='grid-column:3; grid-row:3;'>{g_djnw_post}</div>"
             "</div>"
         )
+
+        g_pdcat_spacer_l, g_pdcat_btn_col, g_pdcat_spacer_r = st.columns([2, 1, 2])
+        with g_pdcat_btn_col:
+            if st.button("PD Data Categories", key=f"pdcat_btn_{g_note_key}", use_container_width=True):
+                _show_pd_categories_dialog(g_context_key)
 
         st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
 
