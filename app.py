@@ -199,13 +199,6 @@ st.html(
         text-align: center;
         width: 100%;
     }
-    /* st.dialog()'s built-in width param tops out at "large" -- this
-       widens the PD Data Categories dialog further via !important
-       (needed since Streamlit sets its width inline). */
-    [data-testid="stDialog"] > div {
-        max-width: 92vw !important;
-        width: 92vw !important;
-    }
     hr.quarter-divider {
         border: none;
         border-top: 1px solid #4A90D9;
@@ -688,7 +681,7 @@ def _show_pd_categories_dialog(note_key):
     header_row = []
     for src_key, src_label in PD_CATEGORY_SOURCES:
         header_row.append(
-            f"<div style='text-align:center; font-weight:bold; font-size:1.3rem;'>{src_label}</div>"
+            f"<div style='text-align:center; font-weight:bold; font-size:1.15rem;'>{src_label}</div>"
         )
     grid_parts = [
         f"<div style='grid-column:{i+1}; grid-row:1;'>{h}</div>" for i, h in enumerate(header_row)
@@ -701,7 +694,7 @@ def _show_pd_categories_dialog(note_key):
                 if row_i == 2:
                     grid_parts.append(
                         f"<div style='grid-column:{col_i}; grid-row:2;'>"
-                        f"<p style='font-size:1.05rem; font-style:italic; opacity:0.75;'>"
+                        f"<p style='font-size:0.95rem; font-style:italic; opacity:0.75;'>"
                         f"No coverage from this source for this observation.</p></div>"
                     )
                 continue
@@ -716,11 +709,11 @@ def _show_pd_categories_dialog(note_key):
                 badge = "<span style='opacity:0.5;'>&mdash;</span>"
             cell_html = (
                 f"<div style='margin-bottom:0.6rem;'>"
-                f"<div style='font-size:1.15rem; font-weight:600;'>{category} {badge}</div>"
+                f"<div style='font-size:1rem; font-weight:600;'>{category} {badge}</div>"
             )
             if reason:
                 cell_html += (
-                    f"<div style='font-size:1.05rem; opacity:0.85; line-height:1.35;'>"
+                    f"<div style='font-size:0.9rem; opacity:0.85; line-height:1.3;'>"
                     f"{render_inline_markdown(reason)}</div>"
                 )
             cell_html += "</div>"
