@@ -1411,15 +1411,6 @@ if st.session_state.selected_section == "Data Visualization 2":
             else:
                 st.write("*No Dow Jones Newswires coverage found for this observation.*")
 
-        st.markdown(
-            f"<div style='text-align:center; color:rgba(214,228,240,0.85); font-size:0.95rem; "
-            f"margin:0.4rem 0 1rem 0;'>1-day return {g_row['ret_1day']*100:+.2f}%"
-            f"&nbsp;|&nbsp; 1-day post {g_row['ret_1daypost']*100:+.2f}%"
-            f"&nbsp;|&nbsp; 3-day {g_row['ret_3day']*100:+.2f}%"
-            f"&nbsp;|&nbsp; 5-day {g_row['ret_5day']*100:+.2f}%</div>",
-            unsafe_allow_html=True,
-        )
-
         st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
 
     st.stop()
