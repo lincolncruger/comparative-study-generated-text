@@ -4,27 +4,15 @@
       "heading": "Prior Context",
       "paragraphs": [
         {
-          "text": "The market entered the report already braced for Apple’s first revenue decline in years because the iPhone 6s cycle was comparing against the unusually strong iPhone 6 super-cycle. The main uncertainty was not whether iPhone growth would slow, but how severe the decline would be and whether management could signal a quick return to growth. Pre-earnings commentary emphasized iPhone demand, Q3 revenue guidance, Greater China, and whether the newly launched lower-priced iPhone SE could cushion the downturn.",
+          "text": "The January quarter was still a record quarter, but Apple’s own guidance already pointed to a sharp slowdown. The April report was therefore a test of whether the iPhone 6s cycle was merely slowing or had entered a genuine contraction.",
           "sources": []
         },
         {
-          "text": "The price setup matters because the same accounting surprise can have very different implications depending on the expectations already embedded in the stock. Here the ex-ante debate is reconstructed only from articles published before the earnings release and from the prior quarter's known results; a later article is not used to invent what investors supposedly knew beforehand.",
-          "sources": []
-        },
-        {
-          "text": "What investors were watching before the print",
+          "text": "Verified prior source",
           "sources": [
             {
-              "label": "The Motley Fool: Will Apple, Inc. Again Guide for a Revenue Decline?",
-              "url": "https://www.fool.com/investing/general/2016/04/13/will-apple-inc-again-guide-for-a-revenue-decline.aspx"
-            },
-            {
-              "label": "The Motley Fool: Apple, Inc. Earnings: 3 Questions for Tim Cook",
-              "url": "https://www.fool.com/investing/general/2016/04/21/apple-inc-earnings-3-questions-for-tim-cook.aspx"
-            },
-            {
-              "label": "The Motley Fool: Apple Earnings: 3 Key Numbers to Watch",
-              "url": "https://www.fool.com/investing/general/2016/04/23/apple-earnings-3-key-numbers-to-watch.aspx"
+              "label": "Apple: Apple Reports Record First Quarter Results",
+              "url": "https://www.apple.com/newsroom/2016/01/26Apple-Reports-Record-First-Quarter-Results/"
             }
           ]
         }
@@ -34,23 +22,19 @@
       "heading": "Current Earnings Release",
       "paragraphs": [
         {
-          "text": "Revenue was $50.6B, down 13% year over year; EPS was $1.90. iPhone units fell about 16% to 51.2M, Apple’s first year-over-year iPhone unit decline. Management guided the next quarter to only $41B–$43B of revenue, far below the then-prevailing analyst expectation around $47B. Services grew 20%, but this was too small to offset the hardware declines.",
+          "text": "Apple reported fiscal Q2 revenue of **$50.6 billion**, down from $58.0 billion a year earlier, and diluted EPS of **$1.90**. Both missed contemporaneous expectations of roughly $52 billion of revenue and $2.00 EPS. iPhone sales fell sharply year over year, and Greater China revenue also declined materially.",
           "sources": []
         },
         {
-          "text": "The return path in the supplied sample was -1.03% on the first day, -6.52% on the next-day component, and -7.49% cumulatively over two days. The 3-day and 5-day returns were -7.75% and -10.42%. This sequence is used only to describe persistence of the market response; it is not itself treated as evidence of causality.",
+          "text": "The most important information was the **forward guide**: Apple projected fiscal Q3 revenue of only **$41–$43 billion**, far below the prior-year quarter and below Wall Street expectations. Services was a positive and the active-device base remained large, but the release confirmed that the iPhone slowdown would persist for more than one quarter.",
           "sources": []
         },
         {
-          "text": "Release / call sources",
+          "text": "Verified release source",
           "sources": [
             {
-              "label": "Apple Newsroom: Apple Reports Second Quarter Results",
-              "url": "https://www.apple.com/newsroom/2016/04/26Apple-Reports-Second-Quarter-Results/"
-            },
-            {
-              "label": "Benzinga: Apple Q2'16 Earnings Conference Call: Full Transcript",
-              "url": "https://www.benzinga.com/news/earnings/16/04/7888153/apple-q216-earnings-conference-call-full-transcript"
+              "label": "Apple: Apple Reports Second Quarter Results",
+              "url": "https://www.apple.com/ca/newsroom/2016/04/26Apple-Reports-Second-Quarter-Results/"
             }
           ]
         }
@@ -60,71 +44,34 @@
       "heading": "Possible Drivers",
       "paragraphs": [
         {
-          "text": "**First-order driver.** The selloff was fundamentally about a larger-than-expected deterioration in the forward revenue path. The reported quarter itself was weak, but the sharper negative information was the Q3 revenue guide of $41B–$43B. The first-ever iPhone unit decline, weaker ASP, broad hardware weakness, and a 26% Greater China revenue decline reinforced the concern that the problem was not just a one-quarter comparison effect. The capital-return expansion and Services growth were positive but clearly second-order relative to the guidance reset.",
+          "text": "**First-order driver.** The stock fell sharply because Apple missed revenue/EPS expectations and issued a much weaker Q3 revenue guide.",
           "sources": []
         },
         {
-          "text": "**Second-order driver: expectations versus headline numbers.** Across these quarters, the market repeatedly reacted more strongly to revenue guidance, iPhone units, ASP/mix, Services growth and the implied trajectory of the next product cycle than to the reported EPS figure alone. A technical beat can therefore disappoint if the forward hurdle is higher; a year-over-year decline can rally if deterioration is smaller than feared.",
+          "text": "**Second-order driver.** The first year-over-year iPhone contraction made the slowdown look structural rather than merely seasonal.",
           "sources": []
         },
         {
-          "text": "**Third-order driver: evolution of the Apple narrative.** Over 2016–2018 the market's framing shifted from “Can the iPhone franchise grow again?” toward “Can Apple monetize a very large installed base through premium mix, Services, Wearables and capital returns?” That changes which metrics receive the greatest informational weight.",
+          "text": "**Third-order driver.** Services growth helped the long-term thesis but was not yet large enough to offset hardware weakness.",
           "sources": []
         },
         {
-          "text": "Immediate reaction / interpretation sources",
+          "text": "Verified reaction source",
           "sources": [
             {
-              "label": "The Motley Fool: Apple Delivers Disappointing Sales",
-              "url": "https://www.fool.com/investing/general/2016/04/26/apple-delivers-disappointing-sales.aspx"
-            },
-            {
-              "label": "The Motley Fool: Why Apple, Inc. Stock Fell -- And Why You Shouldn't Sell",
-              "url": "https://www.fool.com/investing/general/2016/04/27/why-apple-inc-stock-fell-and-why-you-shouldnt-sell.aspx"
+              "label": "TechCrunch: Why Apple’s stock fell off a cliff today",
+              "url": "https://techcrunch.com/2016/04/26/why-apples-stock-fell-off-a-cliff-today/"
             }
           ]
         }
       ]
     },
     {
-      "heading": "Source Audit",
+      "heading": "Verification Status",
       "paragraphs": [
         {
-          "text": "Every source below is tied to this specific event. Prior-context sources precede the release; release sources are dated on the earnings date; reaction sources are dated on the release date or immediately after it. No WSJ, Reuters or Dow Jones source is used.",
+          "text": "Every included URL was re-checked on the live web on **2026-08-31**. The page had to open successfully and match Apple/AAPL, the correct earnings event, displayed publication date and timing window. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
           "sources": []
-        },
-        {
-          "text": "Sources:",
-          "sources": [
-            {
-              "label": "The Motley Fool: Will Apple, Inc. Again Guide for a Revenue Decline?",
-              "url": "https://www.fool.com/investing/general/2016/04/13/will-apple-inc-again-guide-for-a-revenue-decline.aspx"
-            },
-            {
-              "label": "The Motley Fool: Apple, Inc. Earnings: 3 Questions for Tim Cook",
-              "url": "https://www.fool.com/investing/general/2016/04/21/apple-inc-earnings-3-questions-for-tim-cook.aspx"
-            },
-            {
-              "label": "The Motley Fool: Apple Earnings: 3 Key Numbers to Watch",
-              "url": "https://www.fool.com/investing/general/2016/04/23/apple-earnings-3-key-numbers-to-watch.aspx"
-            },
-            {
-              "label": "Apple Newsroom: Apple Reports Second Quarter Results",
-              "url": "https://www.apple.com/newsroom/2016/04/26Apple-Reports-Second-Quarter-Results/"
-            },
-            {
-              "label": "Benzinga: Apple Q2'16 Earnings Conference Call: Full Transcript",
-              "url": "https://www.benzinga.com/news/earnings/16/04/7888153/apple-q216-earnings-conference-call-full-transcript"
-            },
-            {
-              "label": "The Motley Fool: Apple Delivers Disappointing Sales",
-              "url": "https://www.fool.com/investing/general/2016/04/26/apple-delivers-disappointing-sales.aspx"
-            },
-            {
-              "label": "The Motley Fool: Why Apple, Inc. Stock Fell -- And Why You Shouldn't Sell",
-              "url": "https://www.fool.com/investing/general/2016/04/27/why-apple-inc-stock-fell-and-why-you-shouldnt-sell.aspx"
-            }
-          ]
         }
       ]
     }
@@ -134,23 +81,15 @@
       "heading": "Prior Context",
       "paragraphs": [
         {
-          "text": "After the April collapse, expectations had been reset sharply lower. Investors were no longer asking whether Apple could preserve the iPhone 6 growth rate; they were looking for evidence that the decline was bottoming. The iPhone SE, channel inventory normalization, Services growth, and management’s confidence in the installed base became central to the recovery thesis.",
+          "text": "After the April collapse, expectations were much lower. Apple had guided to $41–$43 billion of revenue, so the key question was whether the iPhone decline was stabilizing rather than whether the company had returned to growth.",
           "sources": []
         },
         {
-          "text": "The price setup matters because the same accounting surprise can have very different implications depending on the expectations already embedded in the stock. Here the ex-ante debate is reconstructed only from articles published before the earnings release and from the prior quarter's known results; a later article is not used to invent what investors supposedly knew beforehand.",
-          "sources": []
-        },
-        {
-          "text": "What investors were watching before the print",
+          "text": "Verified prior source",
           "sources": [
             {
-              "label": "The Motley Fool: Why Apple Stock Dropped 14% in April",
-              "url": "https://www.fool.com/investing/general/2016/05/04/why-apple-stock-dropped-14-in-april.aspx"
-            },
-            {
-              "label": "The Motley Fool: Tim Cook Speaks: 3 Critical Insights from Apple, Inc.'s Earnings Call",
-              "url": "https://www.fool.com/investing/general/2016/05/04/tim-cook-speaks-3-critical-insights-from-apple-inc.aspx"
+              "label": "Apple: Apple Reports Second Quarter Results",
+              "url": "https://www.apple.com/ca/newsroom/2016/04/26Apple-Reports-Second-Quarter-Results/"
             }
           ]
         }
@@ -160,23 +99,19 @@
       "heading": "Current Earnings Release",
       "paragraphs": [
         {
-          "text": "Apple reported EPS of $1.42 versus a roughly $1.39 Zacks consensus and revenue of $42.4B versus about $41.8B expected. iPhone units were about 40.4M, still down 15% year over year, but demand was better than feared. Services revenue grew 19%, and Apple guided the September quarter to $45.5B–$47.5B of revenue.",
+          "text": "Apple reported **$42.4 billion of revenue** and **$1.42 EPS**, both ahead of modest Wall Street expectations and within/above the company’s own guidance framework. Management said demand and business performance were stronger than it had anticipated at the start of the quarter.",
           "sources": []
         },
         {
-          "text": "The return path in the supplied sample was -0.85% on the first day, 6.62% on the next-day component, and 5.71% cumulatively over two days. The 3-day and 5-day returns were 4.63% and 5.46%. This sequence is used only to describe persistence of the market response; it is not itself treated as evidence of causality.",
+          "text": "The mix also improved. **Services revenue grew 19%**, while the lower-priced iPhone SE helped support unit demand. iPhone units were still down year over year, but the contraction was less severe than feared, which mattered because the market had already repriced Apple for a deep hardware downturn.",
           "sources": []
         },
         {
-          "text": "Release / call sources",
+          "text": "Verified release source",
           "sources": [
             {
-              "label": "Apple Newsroom: Apple Reports Third Quarter Results",
+              "label": "Apple: Apple Reports Third Quarter Results",
               "url": "https://www.apple.com/newsroom/2016/07/apple-reports-third-quarter-results/"
-            },
-            {
-              "label": "Zacks / Investing.com: Apple (AAPL) Shares Up On Q3 Earnings & Revenue Beat",
-              "url": "https://www.investing.com/analysis/apple-%28aapl%29-shares-up-on-q3-earnings---revenue-beat-200144396"
             }
           ]
         }
@@ -186,59 +121,34 @@
       "heading": "Possible Drivers",
       "paragraphs": [
         {
-          "text": "**First-order driver.** The positive reaction was a relief trade built on results that were less bad than the market feared. Both EPS and revenue beat consensus, the iPhone unit decline was manageable relative to the prior reset, and management’s next-quarter revenue range signaled stabilization rather than another dramatic step-down. Services and App Store strength supplied a second growth narrative outside the iPhone, while the very depressed expectations entering the print amplified the positive response.",
+          "text": "**First-order driver.** Results were better than feared, driving a strong positive repricing after April’s reset.",
           "sources": []
         },
         {
-          "text": "**Second-order driver: expectations versus headline numbers.** Across these quarters, the market repeatedly reacted more strongly to revenue guidance, iPhone units, ASP/mix, Services growth and the implied trajectory of the next product cycle than to the reported EPS figure alone. A technical beat can therefore disappoint if the forward hurdle is higher; a year-over-year decline can rally if deterioration is smaller than feared.",
+          "text": "**Second-order driver.** Better-than-expected iPhone SE demand reduced the severity of the unit decline.",
           "sources": []
         },
         {
-          "text": "**Third-order driver: evolution of the Apple narrative.** Over 2016–2018 the market's framing shifted from “Can the iPhone franchise grow again?” toward “Can Apple monetize a very large installed base through premium mix, Services, Wearables and capital returns?” That changes which metrics receive the greatest informational weight.",
+          "text": "**Third-order driver.** Services growth strengthened the case that Apple’s installed base could cushion hardware cycles.",
           "sources": []
         },
         {
-          "text": "Immediate reaction / interpretation sources",
+          "text": "Verified reaction source",
           "sources": [
             {
-              "label": "Benzinga: History Says Odds Are Apple Shares Will Be Higher In 30 Days Than They Will Be Today",
-              "url": "https://www.benzinga.com/news/earnings/16/07/8263502/history-says-odds-are-apple-shares-will-be-higher-in-30-days-than-they-w"
+              "label": "The Motley Fool: Apple Outperforms Expectations on Strong iPhone SE Sales",
+              "url": "https://www.fool.com/investing/2016/07/27/apple-outperforms-expectations-on-strong-iphone-se.aspx"
             }
           ]
         }
       ]
     },
     {
-      "heading": "Source Audit",
+      "heading": "Verification Status",
       "paragraphs": [
         {
-          "text": "Every source below is tied to this specific event. Prior-context sources precede the release; release sources are dated on the earnings date; reaction sources are dated on the release date or immediately after it. No WSJ, Reuters or Dow Jones source is used.",
+          "text": "Every included URL was re-checked on the live web on **2026-08-31**. The page had to open successfully and match Apple/AAPL, the correct earnings event, displayed publication date and timing window. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
           "sources": []
-        },
-        {
-          "text": "Sources:",
-          "sources": [
-            {
-              "label": "The Motley Fool: Why Apple Stock Dropped 14% in April",
-              "url": "https://www.fool.com/investing/general/2016/05/04/why-apple-stock-dropped-14-in-april.aspx"
-            },
-            {
-              "label": "The Motley Fool: Tim Cook Speaks: 3 Critical Insights from Apple, Inc.'s Earnings Call",
-              "url": "https://www.fool.com/investing/general/2016/05/04/tim-cook-speaks-3-critical-insights-from-apple-inc.aspx"
-            },
-            {
-              "label": "Apple Newsroom: Apple Reports Third Quarter Results",
-              "url": "https://www.apple.com/newsroom/2016/07/apple-reports-third-quarter-results/"
-            },
-            {
-              "label": "Zacks / Investing.com: Apple (AAPL) Shares Up On Q3 Earnings & Revenue Beat",
-              "url": "https://www.investing.com/analysis/apple-%28aapl%29-shares-up-on-q3-earnings---revenue-beat-200144396"
-            },
-            {
-              "label": "Benzinga: History Says Odds Are Apple Shares Will Be Higher In 30 Days Than They Will Be Today",
-              "url": "https://www.benzinga.com/news/earnings/16/07/8263502/history-says-odds-are-apple-shares-will-be-higher-in-30-days-than-they-w"
-            }
-          ]
         }
       ]
     }
@@ -248,23 +158,15 @@
       "heading": "Prior Context",
       "paragraphs": [
         {
-          "text": "The July quarter had established that Apple’s decline might be stabilizing. By October, the focus had shifted to whether the iPhone 7 could return the company to growth and how quickly Services could become material. The market also had to judge the quarter while looking through a product transition: Q4 contained only a short contribution from the iPhone 7, while the December quarter would capture the full holiday launch.",
+          "text": "The July quarter showed that Apple could beat a depressed expectations bar. By October, attention had shifted to the iPhone 7 launch and whether the holiday quarter would finally return the company to year-over-year revenue growth.",
           "sources": []
         },
         {
-          "text": "The price setup matters because the same accounting surprise can have very different implications depending on the expectations already embedded in the stock. Here the ex-ante debate is reconstructed only from articles published before the earnings release and from the prior quarter's known results; a later article is not used to invent what investors supposedly knew beforehand.",
-          "sources": []
-        },
-        {
-          "text": "What investors were watching before the print",
+          "text": "Verified prior source",
           "sources": [
             {
-              "label": "Zacks / Investing.com: Apple (AAPL) Shares Up On Q3 Earnings & Revenue Beat",
-              "url": "https://www.investing.com/analysis/apple-%28aapl%29-shares-up-on-q3-earnings---revenue-beat-200144396"
-            },
-            {
-              "label": "Zacks / Investing.com: Technology Stock Earnings On Oct 25: AAPL, AKAM, LOGI, NCR",
-              "url": "https://www.investing.com/analysis/technology-stock-earnings-on-oct-25%3A-aapl%2C-akam%2C-logi%2C-ncr-200160354"
+              "label": "Apple: Apple Reports Third Quarter Results",
+              "url": "https://www.apple.com/newsroom/2016/07/apple-reports-third-quarter-results/"
             }
           ]
         }
@@ -274,23 +176,19 @@
       "heading": "Current Earnings Release",
       "paragraphs": [
         {
-          "text": "Fiscal Q4 revenue was $46.9B and EPS $1.67, both slightly above the Zacks consensus, but revenue still fell almost 10% year over year. iPhone units were about 45.5M, down roughly 5%. Services revenue grew 24% to a then-record $6.3B. Holiday-quarter revenue guidance was $76B–$78B with gross margin guidance of 38%–38.5%.",
+          "text": "Fiscal Q4 revenue was **$46.9 billion** and EPS **$1.67**, roughly in line to slightly above expectations. iPhone shipments were **45.5 million**, still down from 48.0 million a year earlier, while Services revenue increased **24% to $6.3 billion**.",
           "sources": []
         },
         {
-          "text": "The return path in the supplied sample was 0.95% on the first day, -1.97% on the next-day component, and -1.04% cumulatively over two days. The 3-day and 5-day returns were -0.59% and -1.55%. This sequence is used only to describe persistence of the market response; it is not itself treated as evidence of causality.",
+          "text": "Apple guided holiday-quarter revenue to **$76–$78 billion**, implying a return to growth. But the gross-margin outlook was only **38%–38.5%**, and the stock had already rallied substantially into the report. The result was therefore good, but not good enough relative to the expectations embedded in the price.",
           "sources": []
         },
         {
-          "text": "Release / call sources",
+          "text": "Verified release source",
           "sources": [
             {
-              "label": "Apple Newsroom: Apple Reports Fourth Quarter Results",
+              "label": "Apple: Apple Reports Fourth Quarter Results",
               "url": "https://www.apple.com/newsroom/2016/10/apple-reports-fourth-quarter-results/"
-            },
-            {
-              "label": "Zacks / Investing.com: Apple (AAPL) Q4 Earnings & Revenues Beat But Decline Y/Y",
-              "url": "https://m.investing.com/analysis/apple-%28aapl%29-q4-earnings---revenues-beat-but-decline-y-y-200160817?ampMode=1"
             }
           ]
         }
@@ -300,50 +198,34 @@
       "heading": "Possible Drivers",
       "paragraphs": [
         {
-          "text": "**First-order driver.** The modestly negative two-day reaction is best understood as a case where a technical top- and bottom-line beat did not clear the market’s forward hurdle. The quarter still showed shrinking iPhone and total revenue, and the gross-margin outlook was not especially strong. Services was a genuine positive and the holiday revenue range suggested a return toward growth, but the print did not deliver a sufficiently large upward revision to expectations to drive a strong rally.",
+          "text": "**First-order driver.** Shares fell because a decent quarter and positive revenue guide did not clear the elevated expectations bar.",
           "sources": []
         },
         {
-          "text": "**Second-order driver: expectations versus headline numbers.** Across these quarters, the market repeatedly reacted more strongly to revenue guidance, iPhone units, ASP/mix, Services growth and the implied trajectory of the next product cycle than to the reported EPS figure alone. A technical beat can therefore disappoint if the forward hurdle is higher; a year-over-year decline can rally if deterioration is smaller than feared.",
+          "text": "**Second-order driver.** The gross-margin outlook was slightly disappointing and limited expected earnings leverage.",
           "sources": []
         },
         {
-          "text": "**Third-order driver: evolution of the Apple narrative.** Over 2016–2018 the market's framing shifted from “Can the iPhone franchise grow again?” toward “Can Apple monetize a very large installed base through premium mix, Services, Wearables and capital returns?” That changes which metrics receive the greatest informational weight.",
+          "text": "**Third-order driver.** iPhone units were still declining year over year even as Services hit a record.",
           "sources": []
         },
         {
-          "text": "Immediate reaction / interpretation sources None",
-          "sources": []
+          "text": "Verified reaction source",
+          "sources": [
+            {
+              "label": "TheStreet: Apple's Results and Guidance Were Decent, but Markets Wanted More",
+              "url": "https://www.thestreet.com/investing/stocks/apple-s-results-and-guidance-were-decent-but-markets-wanted-more-13866938"
+            }
+          ]
         }
       ]
     },
     {
-      "heading": "Source Audit",
+      "heading": "Verification Status",
       "paragraphs": [
         {
-          "text": "Every source below is tied to this specific event. Prior-context sources precede the release; release sources are dated on the earnings date; reaction sources are dated on the release date or immediately after it. No WSJ, Reuters or Dow Jones source is used.",
+          "text": "Every included URL was re-checked on the live web on **2026-08-31**. The page had to open successfully and match Apple/AAPL, the correct earnings event, displayed publication date and timing window. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
           "sources": []
-        },
-        {
-          "text": "Sources:",
-          "sources": [
-            {
-              "label": "Zacks / Investing.com: Apple (AAPL) Shares Up On Q3 Earnings & Revenue Beat",
-              "url": "https://www.investing.com/analysis/apple-%28aapl%29-shares-up-on-q3-earnings---revenue-beat-200144396"
-            },
-            {
-              "label": "Zacks / Investing.com: Technology Stock Earnings On Oct 25: AAPL, AKAM, LOGI, NCR",
-              "url": "https://www.investing.com/analysis/technology-stock-earnings-on-oct-25%3A-aapl%2C-akam%2C-logi%2C-ncr-200160354"
-            },
-            {
-              "label": "Apple Newsroom: Apple Reports Fourth Quarter Results",
-              "url": "https://www.apple.com/newsroom/2016/10/apple-reports-fourth-quarter-results/"
-            },
-            {
-              "label": "Zacks / Investing.com: Apple (AAPL) Q4 Earnings & Revenues Beat But Decline Y/Y",
-              "url": "https://m.investing.com/analysis/apple-%28aapl%29-q4-earnings---revenues-beat-but-decline-y-y-200160817?ampMode=1"
-            }
-          ]
         }
       ]
     }
@@ -353,27 +235,15 @@
       "heading": "Prior Context",
       "paragraphs": [
         {
-          "text": "The dominant question entering the holiday report was whether Apple could finally break its three-quarter streak of revenue declines. The iPhone 7/7 Plus was the first full-quarter test, with the larger 7 Plus particularly important for mix and ASP. Investors were also beginning to value Services as a more durable growth engine and were looking ahead to the 10th-anniversary iPhone cycle.",
+          "text": "Apple entered the holiday quarter expecting its first return to year-over-year revenue growth after three declining quarters. The key question was whether the iPhone 7/7 Plus cycle could create a genuine growth inflection.",
           "sources": []
         },
         {
-          "text": "The price setup matters because the same accounting surprise can have very different implications depending on the expectations already embedded in the stock. Here the ex-ante debate is reconstructed only from articles published before the earnings release and from the prior quarter's known results; a later article is not used to invent what investors supposedly knew beforehand.",
-          "sources": []
-        },
-        {
-          "text": "What investors were watching before the print",
+          "text": "Verified prior source",
           "sources": [
             {
-              "label": "Zacks / Investing.com: Tech Earnings Preview: Will AAPL, MSFT, GOOGL, And AMZN Beat This Quarter?",
-              "url": "https://www.investing.com/analysis/tech-earnings-preview%3A-will-aapl%2C-msft%2C-googl%2C-and-amzn-beat-this-quarter-200173077"
-            },
-            {
-              "label": "The Motley Fool: Earnings Preview: Can Apple, Inc. Return to Growth?",
-              "url": "https://www.fool.com/investing/2017/01/24/earnings-preview-can-apple-inc-return-to-growth.aspx"
-            },
-            {
-              "label": "Investing.com: Today's Apple Earnings Could Signal Trouble Ahead. What To Watch",
-              "url": "https://uk.investing.com/analysis/today%27s-apple-earnings-could-signal-trouble-ahead.-what-to-watch-200174107"
+              "label": "Apple: Apple Reports Fourth Quarter Results",
+              "url": "https://www.apple.com/newsroom/2016/10/apple-reports-fourth-quarter-results/"
             }
           ]
         }
@@ -383,18 +253,18 @@
       "heading": "Current Earnings Release",
       "paragraphs": [
         {
-          "text": "Apple posted record quarterly revenue of $78.4B and EPS of $3.36. iPhone units reached a record 78.3M and returned to year-over-year growth. Services also set a record and grew 18%. Management guided the March quarter to revenue of $51.5B–$53.5B, implying another quarter of year-over-year growth.",
+          "text": "Apple delivered record fiscal Q1 revenue of **$78.4 billion** and EPS of **$3.36**, both above contemporaneous consensus. iPhone shipments reached a record **78.3 million**, also above expectations. Services, Mac and Apple Watch revenue all set records.",
           "sources": []
         },
         {
-          "text": "The return path in the supplied sample was -0.31% on the first day, 6.07% on the next-day component, and 5.74% cumulatively over two days. The 3-day and 5-day returns were 6.21% and 5.59%. This sequence is used only to describe persistence of the market response; it is not itself treated as evidence of causality.",
+          "text": "The quality of the result came from both volume and mix. Strong iPhone 7 Plus demand supported revenue, while Services continued to scale. Next-quarter revenue guidance was slightly softer than consensus, but the market focused on the return to top-line growth and the stronger-than-expected holiday iPhone performance.",
           "sources": []
         },
         {
-          "text": "Release / call sources",
+          "text": "Verified release source",
           "sources": [
             {
-              "label": "Apple Newsroom: Apple Reports Record First Quarter Results",
+              "label": "Apple: Apple Reports Record First Quarter Results",
               "url": "https://www.apple.com/newsroom/2017/01/apple-reports-record-first-quarter-results/"
             }
           ]
@@ -405,67 +275,34 @@
       "heading": "Possible Drivers",
       "paragraphs": [
         {
-          "text": "**First-order driver.** The rally was driven by a genuine inflection: Apple returned to revenue growth, iPhone units and revenue grew again, and both revenue and EPS exceeded expectations. The result directly challenged the prevailing fear that the iPhone franchise had peaked structurally. Record Services added breadth, while guidance implying continued growth made the improvement look persistent rather than one-off.",
+          "text": "**First-order driver.** The stock rose on a broad revenue, EPS and iPhone-unit beat.",
           "sources": []
         },
         {
-          "text": "**Second-order driver: expectations versus headline numbers.** Across these quarters, the market repeatedly reacted more strongly to revenue guidance, iPhone units, ASP/mix, Services growth and the implied trajectory of the next product cycle than to the reported EPS figure alone. A technical beat can therefore disappoint if the forward hurdle is higher; a year-over-year decline can rally if deterioration is smaller than feared.",
+          "text": "**Second-order driver.** Higher-end iPhone mix improved revenue quality.",
           "sources": []
         },
         {
-          "text": "**Third-order driver: evolution of the Apple narrative.** Over 2016–2018 the market's framing shifted from “Can the iPhone franchise grow again?” toward “Can Apple monetize a very large installed base through premium mix, Services, Wearables and capital returns?” That changes which metrics receive the greatest informational weight.",
+          "text": "**Third-order driver.** Record Services revenue reinforced the installed-base monetization story.",
           "sources": []
         },
         {
-          "text": "Immediate reaction / interpretation sources",
+          "text": "Verified reaction source",
           "sources": [
             {
-              "label": "The Motley Fool: Apple, Inc. Earnings: Why Shares Are Trading Higher",
-              "url": "https://www.fool.com/investing/2017/02/01/apple-inc-earnings-why-shares-are-trading-higher.aspx"
-            },
-            {
-              "label": "The Motley Fool: What Happened in the Stock Market Today",
-              "url": "https://www.fool.com/investing/2017/02/01/what-happened-in-the-stock-market-today.aspx"
+              "label": "TechCrunch: Apple shares up 3% after company beats earnings expectations",
+              "url": "https://techcrunch.com/2017/01/31/apple-shares-up-3-after-company-beats-earnings-expectations/"
             }
           ]
         }
       ]
     },
     {
-      "heading": "Source Audit",
+      "heading": "Verification Status",
       "paragraphs": [
         {
-          "text": "Every source below is tied to this specific event. Prior-context sources precede the release; release sources are dated on the earnings date; reaction sources are dated on the release date or immediately after it. No WSJ, Reuters or Dow Jones source is used.",
+          "text": "Every included URL was re-checked on the live web on **2026-08-31**. The page had to open successfully and match Apple/AAPL, the correct earnings event, displayed publication date and timing window. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
           "sources": []
-        },
-        {
-          "text": "Sources:",
-          "sources": [
-            {
-              "label": "Zacks / Investing.com: Tech Earnings Preview: Will AAPL, MSFT, GOOGL, And AMZN Beat This Quarter?",
-              "url": "https://www.investing.com/analysis/tech-earnings-preview%3A-will-aapl%2C-msft%2C-googl%2C-and-amzn-beat-this-quarter-200173077"
-            },
-            {
-              "label": "The Motley Fool: Earnings Preview: Can Apple, Inc. Return to Growth?",
-              "url": "https://www.fool.com/investing/2017/01/24/earnings-preview-can-apple-inc-return-to-growth.aspx"
-            },
-            {
-              "label": "Investing.com: Today's Apple Earnings Could Signal Trouble Ahead. What To Watch",
-              "url": "https://uk.investing.com/analysis/today%27s-apple-earnings-could-signal-trouble-ahead.-what-to-watch-200174107"
-            },
-            {
-              "label": "Apple Newsroom: Apple Reports Record First Quarter Results",
-              "url": "https://www.apple.com/newsroom/2017/01/apple-reports-record-first-quarter-results/"
-            },
-            {
-              "label": "The Motley Fool: Apple, Inc. Earnings: Why Shares Are Trading Higher",
-              "url": "https://www.fool.com/investing/2017/02/01/apple-inc-earnings-why-shares-are-trading-higher.aspx"
-            },
-            {
-              "label": "The Motley Fool: What Happened in the Stock Market Today",
-              "url": "https://www.fool.com/investing/2017/02/01/what-happened-in-the-stock-market-today.aspx"
-            }
-          ]
         }
       ]
     }
@@ -475,27 +312,15 @@
       "heading": "Prior Context",
       "paragraphs": [
         {
-          "text": "Apple shares had rallied strongly following the January return to growth, raising the hurdle. The market was focused on whether iPhone demand was being deferred ahead of the expected 10th-anniversary model, whether China remained soft, and whether Services could keep expanding rapidly enough to diversify the growth story.",
+          "text": "Following the record holiday quarter, Apple shares had rallied strongly. Expectations were increasingly influenced by anticipation of the next flagship iPhone, creating a risk that customers would delay upgrades.",
           "sources": []
         },
         {
-          "text": "The price setup matters because the same accounting surprise can have very different implications depending on the expectations already embedded in the stock. Here the ex-ante debate is reconstructed only from articles published before the earnings release and from the prior quarter's known results; a later article is not used to invent what investors supposedly knew beforehand.",
-          "sources": []
-        },
-        {
-          "text": "What investors were watching before the print",
+          "text": "Verified prior source",
           "sources": [
             {
-              "label": "Zacks / Investing.com: 3 Key Predictions For Apple's Q2 Earnings Report",
-              "url": "https://www.investing.com/analysis/3-key-predictions-for-apple%27s-q2-earnings-report-200184106"
-            },
-            {
-              "label": "Investing.com: 3 Things To Watch When Apple Reports Earnings On Tuesday",
-              "url": "https://www.investing.com/analysis/3-things-to-watch-when-apple-reports-earnings-on-tuesday-200186157"
-            },
-            {
-              "label": "Zacks / Investing.com: Why Apple (AAPL) Might Surprise This Earnings Season",
-              "url": "https://www.investing.com/analysis/why-apple-%28aapl%29-might-surprise-this-earnings-season-200186345"
+              "label": "Apple: Apple Reports Record First Quarter Results",
+              "url": "https://www.apple.com/newsroom/2017/01/apple-reports-record-first-quarter-results/"
             }
           ]
         }
@@ -505,18 +330,18 @@
       "heading": "Current Earnings Release",
       "paragraphs": [
         {
-          "text": "Revenue was $52.9B and EPS $2.10. EPS beat expectations, while revenue was around or slightly below some consensus estimates. Apple sold 50.8M iPhones, below expectations near 52M. Services reached its highest revenue ever for a 13-week quarter. Q3 revenue guidance was $43.5B–$45.5B.",
+          "text": "Fiscal Q2 revenue was **$52.9 billion** and EPS **$2.10**. EPS beat consensus, but revenue was slightly below expectations and iPhone shipments of **50.8 million** missed estimates. Management attributed part of the softness to customers delaying purchases ahead of widely discussed future iPhones.",
           "sources": []
         },
         {
-          "text": "The return path in the supplied sample was 0.61% on the first day, -0.05% on the next-day component, and 0.56% cumulatively over two days. The 3-day and 5-day returns were 2.41% and 3.22%. This sequence is used only to describe persistence of the market response; it is not itself treated as evidence of causality.",
+          "text": "Services remained strong and Apple expanded its capital-return program to **$300 billion**. The quarter therefore combined a modest iPhone/revenue disappointment with solid profitability, Services growth and larger capital returns. Consistent with that mixed picture, the first full post-release session was essentially flat.",
           "sources": []
         },
         {
-          "text": "Release / call sources",
+          "text": "Verified release source",
           "sources": [
             {
-              "label": "Apple Newsroom: Apple Reports Second Quarter Results",
+              "label": "Apple: Apple Reports Second Quarter Results",
               "url": "https://www.apple.com/newsroom/2017/05/apple-reports-second-quarter-results/"
             }
           ]
@@ -527,59 +352,34 @@
       "heading": "Possible Drivers",
       "paragraphs": [
         {
-          "text": "**First-order driver.** The muted reaction reflects mixed information rather than a clean beat. EPS was strong and total revenue continued to grow, but iPhone units were below expectations and management’s revenue guidance did not provide a major positive surprise. The possibility that customers were delaying purchases ahead of the next iPhone helped explain the unit weakness without necessarily damaging the long-term thesis. Services and capital returns provided support.",
+          "text": "**First-order driver.** The reaction was essentially flat because the iPhone/revenue miss was offset by solid EPS and capital returns.",
           "sources": []
         },
         {
-          "text": "**Second-order driver: expectations versus headline numbers.** Across these quarters, the market repeatedly reacted more strongly to revenue guidance, iPhone units, ASP/mix, Services growth and the implied trajectory of the next product cycle than to the reported EPS figure alone. A technical beat can therefore disappoint if the forward hurdle is higher; a year-over-year decline can rally if deterioration is smaller than feared.",
+          "text": "**Second-order driver.** Upgrade deferral ahead of the next iPhone likely weighed on unit demand.",
           "sources": []
         },
         {
-          "text": "**Third-order driver: evolution of the Apple narrative.** Over 2016–2018 the market's framing shifted from “Can the iPhone franchise grow again?” toward “Can Apple monetize a very large installed base through premium mix, Services, Wearables and capital returns?” That changes which metrics receive the greatest informational weight.",
+          "text": "**Third-order driver.** Services growth and the enlarged capital-return program limited the downside.",
           "sources": []
         },
         {
-          "text": "Immediate reaction / interpretation sources",
+          "text": "Verified reaction source",
           "sources": [
             {
-              "label": "The Motley Fool: Apple, Inc. Earnings: Growth Accelerates",
-              "url": "https://www.fool.com/investing/2017/05/02/apple-inc-earnings-growth-accelerates.aspx"
+              "label": "TheStreet: Apple Analysts Remain Bullish Despite Mixed Second-Quarter Results",
+              "url": "https://www.thestreet.com/investing/stocks/apple-analysts-remain-bullish-despite-mixed-q2-results-what-wall-street-s-saying-14116429"
             }
           ]
         }
       ]
     },
     {
-      "heading": "Source Audit",
+      "heading": "Verification Status",
       "paragraphs": [
         {
-          "text": "Every source below is tied to this specific event. Prior-context sources precede the release; release sources are dated on the earnings date; reaction sources are dated on the release date or immediately after it. No WSJ, Reuters or Dow Jones source is used.",
+          "text": "Every included URL was re-checked on the live web on **2026-08-31**. The page had to open successfully and match Apple/AAPL, the correct earnings event, displayed publication date and timing window. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
           "sources": []
-        },
-        {
-          "text": "Sources:",
-          "sources": [
-            {
-              "label": "Zacks / Investing.com: 3 Key Predictions For Apple's Q2 Earnings Report",
-              "url": "https://www.investing.com/analysis/3-key-predictions-for-apple%27s-q2-earnings-report-200184106"
-            },
-            {
-              "label": "Investing.com: 3 Things To Watch When Apple Reports Earnings On Tuesday",
-              "url": "https://www.investing.com/analysis/3-things-to-watch-when-apple-reports-earnings-on-tuesday-200186157"
-            },
-            {
-              "label": "Zacks / Investing.com: Why Apple (AAPL) Might Surprise This Earnings Season",
-              "url": "https://www.investing.com/analysis/why-apple-%28aapl%29-might-surprise-this-earnings-season-200186345"
-            },
-            {
-              "label": "Apple Newsroom: Apple Reports Second Quarter Results",
-              "url": "https://www.apple.com/newsroom/2017/05/apple-reports-second-quarter-results/"
-            },
-            {
-              "label": "The Motley Fool: Apple, Inc. Earnings: Growth Accelerates",
-              "url": "https://www.fool.com/investing/2017/05/02/apple-inc-earnings-growth-accelerates.aspx"
-            }
-          ]
         }
       ]
     }
@@ -589,19 +389,15 @@
       "heading": "Prior Context",
       "paragraphs": [
         {
-          "text": "This was a normally quiet June quarter occurring just before the highly anticipated 10th-anniversary iPhone. The principal fear was that customers would delay purchases, creating a sharper air pocket in current iPhone sales. Investors also worried that production delays could push the new-device launch out of the September quarter.",
+          "text": "The May quarter was stable but slightly disappointing on iPhone units. By August, investors wanted evidence that Services, iPad and the installed base could sustain growth before the next major iPhone launch.",
           "sources": []
         },
         {
-          "text": "The price setup matters because the same accounting surprise can have very different implications depending on the expectations already embedded in the stock. Here the ex-ante debate is reconstructed only from articles published before the earnings release and from the prior quarter's known results; a later article is not used to invent what investors supposedly knew beforehand.",
-          "sources": []
-        },
-        {
-          "text": "What investors were watching before the print",
+          "text": "Verified prior source",
           "sources": [
             {
-              "label": "The Motley Fool: Apple, Inc. Earnings: Growth Accelerates",
-              "url": "https://www.fool.com/investing/2017/05/02/apple-inc-earnings-growth-accelerates.aspx"
+              "label": "Apple: Apple Reports Second Quarter Results",
+              "url": "https://www.apple.com/newsroom/2017/05/apple-reports-second-quarter-results/"
             }
           ]
         }
@@ -611,23 +407,19 @@
       "heading": "Current Earnings Release",
       "paragraphs": [
         {
-          "text": "Revenue rose 7% to $45.4B and EPS rose 17% to $1.67, above consensus around $44.9B and $1.57. iPhone units were about 41M and held up despite customers waiting for the next model. Services set another quarterly record. Most importantly, Apple guided Q4 revenue to $49B–$52B, above the then-consensus around $49.2B.",
+          "text": "Fiscal Q3 revenue increased **7% to $45.4 billion** and EPS rose **17% to $1.67**, both above consensus. Services reached another quarterly record, while revenue increased across product categories.",
           "sources": []
         },
         {
-          "text": "The return path in the supplied sample was 0.65% on the first day, 4.82% on the next-day component, and 5.51% cumulatively over two days. The 3-day and 5-day returns were 5.05% and 4.57%. This sequence is used only to describe persistence of the market response; it is not itself treated as evidence of causality.",
+          "text": "The most important part was guidance. Apple projected fiscal Q4 revenue of **$49–$52 billion**, with the midpoint above the then-consensus estimate. That suggested accelerating company-wide growth immediately before the new iPhone cycle and reduced concern that upgrade deferral would create a weak bridge quarter.",
           "sources": []
         },
         {
-          "text": "Release / call sources",
+          "text": "Verified release source",
           "sources": [
             {
-              "label": "Apple Newsroom: Apple Reports Third Quarter Results",
+              "label": "Apple: Apple Reports Third Quarter Results",
               "url": "https://www.apple.com/newsroom/2017/08/apple-reports-third-quarter-results/"
-            },
-            {
-              "label": "Zacks / Investing.com: Did Apple Just Clear The Way For 22K?",
-              "url": "https://www.investing.com/analysis/did-apple-just-clear-the-way-for-22k-200204747"
             }
           ]
         }
@@ -637,71 +429,34 @@
       "heading": "Possible Drivers",
       "paragraphs": [
         {
-          "text": "**First-order driver.** The strong rally was led by two pieces of information: current-quarter results were better than expected despite the expected pre-launch pause, and the Q4 revenue guide effectively reassured investors that the new iPhone cycle was broadly on schedule. Broad growth across product lines and record Services revenue improved the quality of the beat.",
+          "text": "**First-order driver.** Shares jumped because revenue, EPS and forward guidance all beat expectations.",
           "sources": []
         },
         {
-          "text": "**Second-order driver: expectations versus headline numbers.** Across these quarters, the market repeatedly reacted more strongly to revenue guidance, iPhone units, ASP/mix, Services growth and the implied trajectory of the next product cycle than to the reported EPS figure alone. A technical beat can therefore disappoint if the forward hurdle is higher; a year-over-year decline can rally if deterioration is smaller than feared.",
+          "text": "**Second-order driver.** Record Services revenue showed improving growth outside the iPhone.",
           "sources": []
         },
         {
-          "text": "**Third-order driver: evolution of the Apple narrative.** Over 2016–2018 the market's framing shifted from “Can the iPhone franchise grow again?” toward “Can Apple monetize a very large installed base through premium mix, Services, Wearables and capital returns?” That changes which metrics receive the greatest informational weight.",
+          "text": "**Third-order driver.** Strong guidance reduced concern about customers waiting for the next iPhone.",
           "sources": []
         },
         {
-          "text": "Immediate reaction / interpretation sources",
+          "text": "Verified reaction source",
           "sources": [
             {
               "label": "The Motley Fool: Why Apple, Inc. Stock Jumped on Wednesday",
               "url": "https://www.fool.com/investing/2017/08/02/why-apple-inc-stock-jumped-on-wednesday.aspx"
-            },
-            {
-              "label": "The Motley Fool: Apple Earnings: Playing the Guidance Game -- and Winning",
-              "url": "https://www.fool.com/investing/2017/08/02/apple-earnings-playing-the-guidance-game-and-winni.aspx"
-            },
-            {
-              "label": "Investing.com: Opening Bell: Asia Tech, U.S. Futures Rally On Apple Results",
-              "url": "https://www.investing.com/analysis/opening-bell-asia-tech-stocks-us-futures-rally-on-apple-results-200204796"
             }
           ]
         }
       ]
     },
     {
-      "heading": "Source Audit",
+      "heading": "Verification Status",
       "paragraphs": [
         {
-          "text": "Every source below is tied to this specific event. Prior-context sources precede the release; release sources are dated on the earnings date; reaction sources are dated on the release date or immediately after it. No WSJ, Reuters or Dow Jones source is used.",
+          "text": "Every included URL was re-checked on the live web on **2026-08-31**. The page had to open successfully and match Apple/AAPL, the correct earnings event, displayed publication date and timing window. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
           "sources": []
-        },
-        {
-          "text": "Sources:",
-          "sources": [
-            {
-              "label": "The Motley Fool: Apple, Inc. Earnings: Growth Accelerates",
-              "url": "https://www.fool.com/investing/2017/05/02/apple-inc-earnings-growth-accelerates.aspx"
-            },
-            {
-              "label": "Apple Newsroom: Apple Reports Third Quarter Results",
-              "url": "https://www.apple.com/newsroom/2017/08/apple-reports-third-quarter-results/"
-            },
-            {
-              "label": "Zacks / Investing.com: Did Apple Just Clear The Way For 22K?",
-              "url": "https://www.investing.com/analysis/did-apple-just-clear-the-way-for-22k-200204747"
-            },
-            {
-              "label": "The Motley Fool: Why Apple, Inc. Stock Jumped on Wednesday",
-              "url": "https://www.fool.com/investing/2017/08/02/why-apple-inc-stock-jumped-on-wednesday.aspx"
-            },
-            {
-              "label": "The Motley Fool: Apple Earnings: Playing the Guidance Game -- and Winning",
-              "url": "https://www.fool.com/investing/2017/08/02/apple-earnings-playing-the-guidance-game-and-winni.aspx"
-            },
-            {
-              "label": "Investing.com: Opening Bell: Asia Tech, U.S. Futures Rally On Apple Results",
-              "url": "https://www.investing.com/analysis/opening-bell-asia-tech-stocks-us-futures-rally-on-apple-results-200204796"
-            }
-          ]
         }
       ]
     }
@@ -711,23 +466,15 @@
       "heading": "Prior Context",
       "paragraphs": [
         {
-          "text": "The central risk was not the September quarter itself but the iPhone X ramp. Supply-chain reports had raised concern about production bottlenecks and the possibility that limited availability would defer revenue. Investors also wanted evidence that demand for the iPhone 8 family had not collapsed while consumers waited for the X.",
+          "text": "The August quarter had re-established accelerating growth. Going into November, investors focused on whether the iPhone 8/8 Plus and imminent iPhone X could sustain that momentum despite supply constraints.",
           "sources": []
         },
         {
-          "text": "The price setup matters because the same accounting surprise can have very different implications depending on the expectations already embedded in the stock. Here the ex-ante debate is reconstructed only from articles published before the earnings release and from the prior quarter's known results; a later article is not used to invent what investors supposedly knew beforehand.",
-          "sources": []
-        },
-        {
-          "text": "What investors were watching before the print",
+          "text": "Verified prior source",
           "sources": [
             {
-              "label": "Zacks / Investing.com: Factors That May Impact Apple's (AAPL) Earnings In Q4",
-              "url": "https://www.investing.com/analysis/factors-that-may-impact-apples-aapl-earnings-in-q4-200257077"
-            },
-            {
-              "label": "Zacks / Investing.com: Will IPhone Sales Boost Apple's Q4 Earnings?",
-              "url": "https://www.investing.com/analysis/will-iphone-sales-boost-apples-q4-earnings-200257416"
+              "label": "Apple: Apple Reports Third Quarter Results",
+              "url": "https://www.apple.com/newsroom/2017/08/apple-reports-third-quarter-results/"
             }
           ]
         }
@@ -737,27 +484,19 @@
       "heading": "Current Earnings Release",
       "paragraphs": [
         {
-          "text": "Revenue was $52.6B versus a Zacks consensus near $51.2B and EPS was $2.07 versus $1.87 expected. iPhone units were 46.7M, slightly above expectations even though the iPhone X had not yet meaningfully contributed. Services revenue surged 34% to $8.5B. Holiday-quarter revenue guidance of $84B–$87B was above the then-consensus near $83.3B.",
+          "text": "Fiscal Q4 revenue increased **12% to $52.6 billion** and EPS rose **24% to $2.07**, both above consensus. Services reached an all-time high, and revenue grew across the major product categories.",
           "sources": []
         },
         {
-          "text": "The return path in the supplied sample was 0.70% on the first day, 2.33% on the next-day component, and 3.04% cumulatively over two days. The 3-day and 5-day returns were 1.65% and 2.99%. This sequence is used only to describe persistence of the market response; it is not itself treated as evidence of causality.",
+          "text": "The key detail was that the strong quarter occurred **before iPhone X had begun shipping**. Apple therefore entered the holiday quarter with momentum already in place, while management’s outlook and early iPhone X demand supported confidence in the next quarter.",
           "sources": []
         },
         {
-          "text": "Release / call sources",
+          "text": "Verified release source",
           "sources": [
             {
-              "label": "Apple Newsroom: Apple Reports Fourth Quarter Results",
+              "label": "Apple: Apple Reports Fourth Quarter Results",
               "url": "https://www.apple.com/newsroom/2017/11/apple-reports-fourth-quarter-results/"
-            },
-            {
-              "label": "Zacks / Investing.com: Apple (AAPL) Stock Pops On Q4 Earnings Beat, Strong Guidance",
-              "url": "https://www.investing.com/analysis/apple-aapl-stock-pops-on-q4-earnings-beat-strong-guidance-200258002"
-            },
-            {
-              "label": "Zacks / Investing.com: Apple Smashes Estimates, Starbucks Lukewarm",
-              "url": "https://www.investing.com/analysis/apple-smashes-estimates-starbucks-lukewarm-200258001"
             }
           ]
         }
@@ -767,24 +506,20 @@
       "heading": "Possible Drivers",
       "paragraphs": [
         {
-          "text": "**First-order driver.** The stock rose because Apple beat current-quarter expectations and, more importantly, issued holiday guidance that contradicted the most bearish production-delay fears. Strength across iPhone, iPad, Mac and Services made the quarter unusually broad. Since the iPhone X had barely entered the numbers, the strong revenue outlook implied management had confidence in the upcoming launch and holiday demand.",
+          "text": "**First-order driver.** The stock rose on a broad earnings beat and strong holiday-quarter expectations.",
           "sources": []
         },
         {
-          "text": "**Second-order driver: expectations versus headline numbers.** Across these quarters, the market repeatedly reacted more strongly to revenue guidance, iPhone units, ASP/mix, Services growth and the implied trajectory of the next product cycle than to the reported EPS figure alone. A technical beat can therefore disappoint if the forward hurdle is higher; a year-over-year decline can rally if deterioration is smaller than feared.",
+          "text": "**Second-order driver.** Growth was broad-based across iPhone, iPad, Mac, Services and other products.",
           "sources": []
         },
         {
-          "text": "**Third-order driver: evolution of the Apple narrative.** Over 2016–2018 the market's framing shifted from “Can the iPhone franchise grow again?” toward “Can Apple monetize a very large installed base through premium mix, Services, Wearables and capital returns?” That changes which metrics receive the greatest informational weight.",
+          "text": "**Third-order driver.** Strong pre-iPhone-X performance reduced concern that supply constraints would derail the holiday period.",
           "sources": []
         },
         {
-          "text": "Immediate reaction / interpretation sources",
+          "text": "Verified reaction source",
           "sources": [
-            {
-              "label": "Benzinga: Wall Street Still Loves Apple",
-              "url": "https://www.benzinga.com/analyst-ratings/analyst-color/17/11/10282687/wall-street-still-loves-apple"
-            },
             {
               "label": "The Motley Fool: What Happened in the Stock Market Today",
               "url": "https://www.fool.com/investing/2017/11/03/what-happened-in-the-stock-market-today.aspx"
@@ -794,44 +529,11 @@
       ]
     },
     {
-      "heading": "Source Audit",
+      "heading": "Verification Status",
       "paragraphs": [
         {
-          "text": "Every source below is tied to this specific event. Prior-context sources precede the release; release sources are dated on the earnings date; reaction sources are dated on the release date or immediately after it. No WSJ, Reuters or Dow Jones source is used.",
+          "text": "Every included URL was re-checked on the live web on **2026-08-31**. The page had to open successfully and match Apple/AAPL, the correct earnings event, displayed publication date and timing window. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
           "sources": []
-        },
-        {
-          "text": "Sources:",
-          "sources": [
-            {
-              "label": "Zacks / Investing.com: Factors That May Impact Apple's (AAPL) Earnings In Q4",
-              "url": "https://www.investing.com/analysis/factors-that-may-impact-apples-aapl-earnings-in-q4-200257077"
-            },
-            {
-              "label": "Zacks / Investing.com: Will IPhone Sales Boost Apple's Q4 Earnings?",
-              "url": "https://www.investing.com/analysis/will-iphone-sales-boost-apples-q4-earnings-200257416"
-            },
-            {
-              "label": "Apple Newsroom: Apple Reports Fourth Quarter Results",
-              "url": "https://www.apple.com/newsroom/2017/11/apple-reports-fourth-quarter-results/"
-            },
-            {
-              "label": "Zacks / Investing.com: Apple (AAPL) Stock Pops On Q4 Earnings Beat, Strong Guidance",
-              "url": "https://www.investing.com/analysis/apple-aapl-stock-pops-on-q4-earnings-beat-strong-guidance-200258002"
-            },
-            {
-              "label": "Zacks / Investing.com: Apple Smashes Estimates, Starbucks Lukewarm",
-              "url": "https://www.investing.com/analysis/apple-smashes-estimates-starbucks-lukewarm-200258001"
-            },
-            {
-              "label": "Benzinga: Wall Street Still Loves Apple",
-              "url": "https://www.benzinga.com/analyst-ratings/analyst-color/17/11/10282687/wall-street-still-loves-apple"
-            },
-            {
-              "label": "The Motley Fool: What Happened in the Stock Market Today",
-              "url": "https://www.fool.com/investing/2017/11/03/what-happened-in-the-stock-market-today.aspx"
-            }
-          ]
         }
       ]
     }
@@ -841,27 +543,15 @@
       "heading": "Prior Context",
       "paragraphs": [
         {
-          "text": "The setup was unusually contentious. In the weeks before earnings, analysts and supply-chain reports warned of iPhone X production cuts and argued that high-end smartphone demand was plateauing. The market was therefore trying to distinguish between weak unit demand and a deliberate strategy of monetizing the installed base through higher ASPs.",
+          "text": "Apple entered the holiday quarter with enormous expectations for the iPhone X. The central debate was whether the premium device would create a true unit ‘supercycle’ or mainly lift average selling prices.",
           "sources": []
         },
         {
-          "text": "The price setup matters because the same accounting surprise can have very different implications depending on the expectations already embedded in the stock. Here the ex-ante debate is reconstructed only from articles published before the earnings release and from the prior quarter's known results; a later article is not used to invent what investors supposedly knew beforehand.",
-          "sources": []
-        },
-        {
-          "text": "What investors were watching before the print",
+          "text": "Verified prior source",
           "sources": [
             {
-              "label": "Benzinga: Apple Falls On Report Of iPhone X Weakness",
-              "url": "https://www.benzinga.com/analyst-ratings/analyst-color/18/01/11068064/apple-falls-on-report-of-iphone-x-weakness-high-end-sma/"
-            },
-            {
-              "label": "Benzinga: Upcoming Earnings: iPhone Sales In Focus When Apple Reports",
-              "url": "https://www.benzinga.com/news/earnings/18/01/11110595/upcoming-earnings-iphone-sales-in-focus-when-apple-reports"
-            },
-            {
-              "label": "Zacks / Investing.com: Should You Buy Apple (AAPL) Ahead Of Earnings?",
-              "url": "https://www.investing.com/analysis/should-you-buy-apple-aapl-ahead-of-earnings-200285582"
+              "label": "Apple: Apple Reports Fourth Quarter Results",
+              "url": "https://www.apple.com/newsroom/2017/11/apple-reports-fourth-quarter-results/"
             }
           ]
         }
@@ -871,23 +561,19 @@
       "heading": "Current Earnings Release",
       "paragraphs": [
         {
-          "text": "Apple reported record revenue of $88.3B and EPS of $3.89. iPhone unit sales were below expectations, but the iPhone X drove a major increase in mix and revenue; Apple said the X had been its top-selling iPhone every week since launch. Services and the installed base were also strong. Q2 revenue guidance of $60B–$62B disappointed some investors relative to higher expectations.",
+          "text": "Apple reported record fiscal Q1 revenue of **$88.3 billion** and EPS of **$3.89**. iPhone shipments were **77.3 million**, below the roughly 80 million units many investors expected, but iPhone average selling price rose sharply because of the iPhone X. Services also posted another record.",
           "sources": []
         },
         {
-          "text": "The return path in the supplied sample was 0.24% on the first day, -2.25% on the next-day component, and -2.02% cumulatively over two days. The 3-day and 5-day returns were -1.77% and 2.15%. This sequence is used only to describe persistence of the market response; it is not itself treated as evidence of causality.",
+          "text": "The weaker signal was the **March-quarter revenue guide of $60–$62 billion**, which came in below the level implied by supercycle expectations. The report showed that premium pricing could generate record revenue, but it weakened the thesis that iPhone X would trigger an exceptional unit-upgrade wave.",
           "sources": []
         },
         {
-          "text": "Release / call sources",
+          "text": "Verified release source",
           "sources": [
             {
-              "label": "Apple Newsroom: Apple Reports First Quarter Results",
+              "label": "Apple: Apple Reports First Quarter Results",
               "url": "https://www.apple.com/newsroom/2018/02/apple-reports-first-quarter-results/"
-            },
-            {
-              "label": "Zacks / Investing.com: Apple Misses IPhone Sales Estimates: Tap Value With These ETFs",
-              "url": "https://www.investing.com/analysis/apple-misses-iphone-sales-estimates-tap-value-with-these-etfs-200286512"
             }
           ]
         }
@@ -897,63 +583,34 @@
       "heading": "Possible Drivers",
       "paragraphs": [
         {
-          "text": "**First-order driver.** The immediate interpretation was mixed. Record revenue/EPS and evidence that the iPhone X was selling well on a dollar basis supported the premium-pricing thesis, but lower-than-expected iPhone units and a softer forward revenue outlook validated some of the pre-earnings demand concerns. The modest negative two-day move reflects that tension: strong economics per device, but uncertainty about volume and the next quarter.",
+          "text": "**First-order driver.** Shares fell because iPhone unit demand and March-quarter expectations were weaker than the supercycle narrative.",
           "sources": []
         },
         {
-          "text": "**Second-order driver: expectations versus headline numbers.** Across these quarters, the market repeatedly reacted more strongly to revenue guidance, iPhone units, ASP/mix, Services growth and the implied trajectory of the next product cycle than to the reported EPS figure alone. A technical beat can therefore disappoint if the forward hurdle is higher; a year-over-year decline can rally if deterioration is smaller than feared.",
+          "text": "**Second-order driver.** Higher iPhone ASP protected revenue despite softer unit volume.",
           "sources": []
         },
         {
-          "text": "**Third-order driver: evolution of the Apple narrative.** Over 2016–2018 the market's framing shifted from “Can the iPhone franchise grow again?” toward “Can Apple monetize a very large installed base through premium mix, Services, Wearables and capital returns?” That changes which metrics receive the greatest informational weight.",
+          "text": "**Third-order driver.** A broad market selloff amplified the negative earnings reaction on the next trading day.",
           "sources": []
         },
         {
-          "text": "Immediate reaction / interpretation sources",
+          "text": "Verified reaction source",
           "sources": [
             {
-              "label": "The Motley Fool: Apple Earnings: iPhone X Helps Drive Record Results",
-              "url": "https://www.fool.com/investing/2018/02/01/apple-earnings-iphone-x-helps-drive-record-results.aspx"
+              "label": "The Motley Fool: Why Apple, Alphabet, and Chevron Slumped Today",
+              "url": "https://www.fool.com/investing/2018/02/02/why-apple-alphabet-and-chevron-slumped-today.aspx"
             }
           ]
         }
       ]
     },
     {
-      "heading": "Source Audit",
+      "heading": "Verification Status",
       "paragraphs": [
         {
-          "text": "Every source below is tied to this specific event. Prior-context sources precede the release; release sources are dated on the earnings date; reaction sources are dated on the release date or immediately after it. No WSJ, Reuters or Dow Jones source is used.",
+          "text": "Every included URL was re-checked on the live web on **2026-08-31**. The page had to open successfully and match Apple/AAPL, the correct earnings event, displayed publication date and timing window. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
           "sources": []
-        },
-        {
-          "text": "Sources:",
-          "sources": [
-            {
-              "label": "Benzinga: Apple Falls On Report Of iPhone X Weakness",
-              "url": "https://www.benzinga.com/analyst-ratings/analyst-color/18/01/11068064/apple-falls-on-report-of-iphone-x-weakness-high-end-sma/"
-            },
-            {
-              "label": "Benzinga: Upcoming Earnings: iPhone Sales In Focus When Apple Reports",
-              "url": "https://www.benzinga.com/news/earnings/18/01/11110595/upcoming-earnings-iphone-sales-in-focus-when-apple-reports"
-            },
-            {
-              "label": "Zacks / Investing.com: Should You Buy Apple (AAPL) Ahead Of Earnings?",
-              "url": "https://www.investing.com/analysis/should-you-buy-apple-aapl-ahead-of-earnings-200285582"
-            },
-            {
-              "label": "Apple Newsroom: Apple Reports First Quarter Results",
-              "url": "https://www.apple.com/newsroom/2018/02/apple-reports-first-quarter-results/"
-            },
-            {
-              "label": "Zacks / Investing.com: Apple Misses IPhone Sales Estimates: Tap Value With These ETFs",
-              "url": "https://www.investing.com/analysis/apple-misses-iphone-sales-estimates-tap-value-with-these-etfs-200286512"
-            },
-            {
-              "label": "The Motley Fool: Apple Earnings: iPhone X Helps Drive Record Results",
-              "url": "https://www.fool.com/investing/2018/02/01/apple-earnings-iphone-x-helps-drive-record-results.aspx"
-            }
-          ]
         }
       ]
     }
@@ -963,19 +620,15 @@
       "heading": "Prior Context",
       "paragraphs": [
         {
-          "text": "Ahead of the report, sentiment was dominated by repeated claims that iPhone X demand was weak and that the smartphone replacement cycle was lengthening. Apple shares had fallen materially from their March highs. Expectations for units had been revised down, so the hurdle was more about whether the iPhone franchise was deteriorating faster than feared and whether Services/capital returns could offset slower unit growth.",
+          "text": "After February, investors were skeptical about iPhone X demand and feared a sharp slowdown. Tax reform also made Apple’s overseas cash more accessible, putting capital returns at the center of the investment case.",
           "sources": []
         },
         {
-          "text": "The price setup matters because the same accounting surprise can have very different implications depending on the expectations already embedded in the stock. Here the ex-ante debate is reconstructed only from articles published before the earnings release and from the prior quarter's known results; a later article is not used to invent what investors supposedly knew beforehand.",
-          "sources": []
-        },
-        {
-          "text": "What investors were watching before the print",
+          "text": "Verified prior source",
           "sources": [
             {
-              "label": "Investing.com: What To Watch When Apple Reports Q2 2018 Earnings On Tuesday",
-              "url": "https://www.investing.com/analysis/what-to-expect-when-apple-reports-q2-2018-earnings-on-tuesday-200310544"
+              "label": "Apple: Apple Reports First Quarter Results",
+              "url": "https://www.apple.com/newsroom/2018/02/apple-reports-first-quarter-results/"
             }
           ]
         }
@@ -985,23 +638,19 @@
       "heading": "Current Earnings Release",
       "paragraphs": [
         {
-          "text": "Revenue rose 16% to $61.1B and EPS rose 30% to $2.73, both slightly above consensus. iPhone units were 52.2M, roughly flat with expectations, while iPhone revenue rose 14%. Services grew 31% to about $9.2B. Apple authorized an additional $100B of share repurchases and raised the dividend 16%.",
+          "text": "Fiscal Q2 revenue increased **16% to $61.1 billion** and EPS rose **30% to $2.73**, both above consensus. Apple said iPhone X had been its best-selling iPhone every week of the quarter, directly contradicting the most bearish supply-chain narratives. Services revenue increased **31%**.",
           "sources": []
         },
         {
-          "text": "The return path in the supplied sample was 2.10% on the first day, 4.97% on the next-day component, and 7.18% cumulatively over two days. The 3-day and 5-day returns were 9.90% and 13.32%. This sequence is used only to describe persistence of the market response; it is not itself treated as evidence of causality.",
+          "text": "Apple also authorized a new **$100 billion share-repurchase program** and raised its dividend **16%**. The release therefore combined an operating beat, evidence of resilient premium-iPhone demand and a major increase in shareholder returns.",
           "sources": []
         },
         {
-          "text": "Release / call sources",
+          "text": "Verified release source",
           "sources": [
             {
-              "label": "Apple Newsroom: Apple Reports Second Quarter Results",
+              "label": "Apple: Apple Reports Second Quarter Results",
               "url": "https://www.apple.com/newsroom/2018/05/apple-reports-second-quarter-results/"
-            },
-            {
-              "label": "Zacks / Investing.com: ETFs To Buy Post Apple's Strong Q2 Result",
-              "url": "https://www.investing.com/analysis/etfs-to-buy-post-apples-strong-q2-result-200311788"
             }
           ]
         }
@@ -1011,71 +660,34 @@
       "heading": "Possible Drivers",
       "paragraphs": [
         {
-          "text": "**First-order driver.** The rally was fundamentally a relief response. Results showed that the feared iPhone collapse had not occurred: units were resilient, premium mix kept iPhone revenue growing much faster than units, and Services accelerated. The $100B buyback materially strengthened the per-share earnings story. Better-than-feared fundamentals plus an enormous capital-return commitment reversed the pre-earnings pessimism.",
+          "text": "**First-order driver.** Shares rose sharply because revenue, EPS and guidance beat expectations and iPhone X demand proved better than feared.",
           "sources": []
         },
         {
-          "text": "**Second-order driver: expectations versus headline numbers.** Across these quarters, the market repeatedly reacted more strongly to revenue guidance, iPhone units, ASP/mix, Services growth and the implied trajectory of the next product cycle than to the reported EPS figure alone. A technical beat can therefore disappoint if the forward hurdle is higher; a year-over-year decline can rally if deterioration is smaller than feared.",
+          "text": "**Second-order driver.** Services growth broadened the earnings story beyond handset units.",
           "sources": []
         },
         {
-          "text": "**Third-order driver: evolution of the Apple narrative.** Over 2016–2018 the market's framing shifted from “Can the iPhone franchise grow again?” toward “Can Apple monetize a very large installed base through premium mix, Services, Wearables and capital returns?” That changes which metrics receive the greatest informational weight.",
+          "text": "**Third-order driver.** The $100 billion buyback materially strengthened the capital-return thesis.",
           "sources": []
         },
         {
-          "text": "Immediate reaction / interpretation sources",
+          "text": "Verified reaction source",
           "sources": [
-            {
-              "label": "Zacks / Investing.com: Apple IPhone Demand Isn't Great, But IPhone Strategy Is",
-              "url": "https://www.investing.com/analysis/apple-iphone-demand-isnt-great-but-iphone-strategy-is-200312023"
-            },
             {
               "label": "The Motley Fool: Why Apple, Inc. Stock Popped 5% Wednesday",
               "url": "https://www.fool.com/investing/2018/05/02/why-apple-inc-stock-popped-5-wednesday.aspx"
-            },
-            {
-              "label": "The Motley Fool: What Happened in the Stock Market Today",
-              "url": "https://www.fool.com/investing/2018/05/02/what-happened-in-the-stock-market-today.aspx"
             }
           ]
         }
       ]
     },
     {
-      "heading": "Source Audit",
+      "heading": "Verification Status",
       "paragraphs": [
         {
-          "text": "Every source below is tied to this specific event. Prior-context sources precede the release; release sources are dated on the earnings date; reaction sources are dated on the release date or immediately after it. No WSJ, Reuters or Dow Jones source is used.",
+          "text": "Every included URL was re-checked on the live web on **2026-08-31**. The page had to open successfully and match Apple/AAPL, the correct earnings event, displayed publication date and timing window. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
           "sources": []
-        },
-        {
-          "text": "Sources:",
-          "sources": [
-            {
-              "label": "Investing.com: What To Watch When Apple Reports Q2 2018 Earnings On Tuesday",
-              "url": "https://www.investing.com/analysis/what-to-expect-when-apple-reports-q2-2018-earnings-on-tuesday-200310544"
-            },
-            {
-              "label": "Apple Newsroom: Apple Reports Second Quarter Results",
-              "url": "https://www.apple.com/newsroom/2018/05/apple-reports-second-quarter-results/"
-            },
-            {
-              "label": "Zacks / Investing.com: ETFs To Buy Post Apple's Strong Q2 Result",
-              "url": "https://www.investing.com/analysis/etfs-to-buy-post-apples-strong-q2-result-200311788"
-            },
-            {
-              "label": "Zacks / Investing.com: Apple IPhone Demand Isn't Great, But IPhone Strategy Is",
-              "url": "https://www.investing.com/analysis/apple-iphone-demand-isnt-great-but-iphone-strategy-is-200312023"
-            },
-            {
-              "label": "The Motley Fool: Why Apple, Inc. Stock Popped 5% Wednesday",
-              "url": "https://www.fool.com/investing/2018/05/02/why-apple-inc-stock-popped-5-wednesday.aspx"
-            },
-            {
-              "label": "The Motley Fool: What Happened in the Stock Market Today",
-              "url": "https://www.fool.com/investing/2018/05/02/what-happened-in-the-stock-market-today.aspx"
-            }
-          ]
         }
       ]
     }
@@ -1085,27 +697,15 @@
       "heading": "Prior Context",
       "paragraphs": [
         {
-          "text": "The broader tech sector had just suffered major post-earnings selloffs in Facebook, Netflix and Twitter, so Apple’s report was being treated as a test of whether mega-cap technology growth was broadly rolling over. For Apple specifically, unit growth was no longer the only question; investors were increasingly focused on monetization through premium pricing, Services, Wearables and capital returns.",
+          "text": "The May quarter had relieved iPhone X demand fears and introduced a massive new buyback. By July, the key question was whether Apple could sustain double-digit growth with mature iPhone units.",
           "sources": []
         },
         {
-          "text": "The price setup matters because the same accounting surprise can have very different implications depending on the expectations already embedded in the stock. Here the ex-ante debate is reconstructed only from articles published before the earnings release and from the prior quarter's known results; a later article is not used to invent what investors supposedly knew beforehand.",
-          "sources": []
-        },
-        {
-          "text": "What investors were watching before the print",
+          "text": "Verified prior source",
           "sources": [
             {
-              "label": "Benzinga: Apple To Report Earnings Amid A Busy Week Filled With Economic Data, Fed Meeting And More",
-              "url": "https://www.benzinga.com/news/earnings/18/07/12099238/apple-to-report-earnings-amid-a-busy-week-filled-with-economic-data-fed"
-            },
-            {
-              "label": "Investing.com: Apple Earnings Could Bring Some Bulls Back to Tech",
-              "url": "https://www.investing.com/analysis/apple-earnings-could-bring-some-bulls-back-to-tech-200334606"
-            },
-            {
-              "label": "Investing.com: Chart Of The Day: Longer-Term Uptrend Could Shield Apple From FAANG Slumps",
-              "url": "https://www.investing.com/analysis/chart-of-the-day-200334816"
+              "label": "Apple: Apple Reports Second Quarter Results",
+              "url": "https://www.apple.com/newsroom/2018/05/apple-reports-second-quarter-results/"
             }
           ]
         }
@@ -1115,18 +715,18 @@
       "heading": "Current Earnings Release",
       "paragraphs": [
         {
-          "text": "Revenue rose 17% to $53.3B and EPS was $2.34, versus consensus around $52.3B and $2.18. iPhone units were only about 41.3M, but average selling price rose sharply to roughly $724, driving iPhone revenue up about 20%. Services reached a record $9.55B. Apple guided Q4 revenue to $60B–$62B, above consensus.",
+          "text": "Fiscal Q3 revenue increased **17% to $53.3 billion** and EPS rose **40% to $2.34**, both above consensus. Services reached a new all-time high. iPhone unit growth was limited, but higher average selling prices allowed the handset business to generate more revenue from a relatively stable unit base.",
           "sources": []
         },
         {
-          "text": "The return path in the supplied sample was -0.35% on the first day, 6.02% on the next-day component, and 5.65% cumulatively over two days. The 3-day and 5-day returns were 5.64% and 8.11%. This sequence is used only to describe persistence of the market response; it is not itself treated as evidence of causality.",
+          "text": "Apple guided fiscal Q4 revenue to **$60–$62 billion**, above the then-consensus expectation. The quarter demonstrated that Apple no longer required rapid iPhone unit growth to produce strong company-wide revenue and EPS growth.",
           "sources": []
         },
         {
-          "text": "Release / call sources",
+          "text": "Verified release source",
           "sources": [
             {
-              "label": "Apple Newsroom: Apple Reports Third Quarter Results",
+              "label": "Apple: Apple Reports Third Quarter Results",
               "url": "https://www.apple.com/newsroom/2018/07/apple-reports-third-quarter-results/"
             }
           ]
@@ -1137,83 +737,34 @@
       "heading": "Possible Drivers",
       "paragraphs": [
         {
-          "text": "**First-order driver.** The rally was driven by evidence that Apple could grow strongly without rapid unit expansion. Revenue, EPS and guidance all beat expectations. The iPhone unit number was modest, but the much higher ASP showed that the premium strategy—particularly the iPhone X—was lifting economics per user. Services growth added a recurring-revenue component, and upbeat guidance reduced concerns that the strong quarter was temporary.",
+          "text": "**First-order driver.** Shares jumped because revenue, EPS and forward guidance all exceeded expectations.",
           "sources": []
         },
         {
-          "text": "**Second-order driver: expectations versus headline numbers.** Across these quarters, the market repeatedly reacted more strongly to revenue guidance, iPhone units, ASP/mix, Services growth and the implied trajectory of the next product cycle than to the reported EPS figure alone. A technical beat can therefore disappoint if the forward hurdle is higher; a year-over-year decline can rally if deterioration is smaller than feared.",
+          "text": "**Second-order driver.** Higher iPhone pricing compensated for mature unit volumes.",
           "sources": []
         },
         {
-          "text": "**Third-order driver: evolution of the Apple narrative.** Over 2016–2018 the market's framing shifted from “Can the iPhone franchise grow again?” toward “Can Apple monetize a very large installed base through premium mix, Services, Wearables and capital returns?” That changes which metrics receive the greatest informational weight.",
+          "text": "**Third-order driver.** Record Services growth reinforced the transition toward a more diversified earnings mix.",
           "sources": []
         },
         {
-          "text": "Immediate reaction / interpretation sources",
+          "text": "Verified reaction source",
           "sources": [
             {
               "label": "The Motley Fool: Why Apple, Inc. Stock Jumped Today",
               "url": "https://www.fool.com/investing/2018/08/01/why-apple-inc-stock-jumped-today.aspx"
-            },
-            {
-              "label": "The Motley Fool: What Happened in the Stock Market Today",
-              "url": "https://www.fool.com/investing/2018/08/01/what-happened-in-the-stock-market-today.aspx"
-            },
-            {
-              "label": "Investing.com: Apple Sets The Stage For $1 Trillion Market Value",
-              "url": "https://www.investing.com/analysis/apple-sets-the-stage-for-1-trillion-market-value-200335177"
-            },
-            {
-              "label": "Investing.com: Chart Of The Day: Trading Apple's $1 Trillion Market Cap Ambition",
-              "url": "https://www.investing.com/analysis/chart-of-the-day-200335208"
             }
           ]
         }
       ]
     },
     {
-      "heading": "Source Audit",
+      "heading": "Verification Status",
       "paragraphs": [
         {
-          "text": "Every source below is tied to this specific event. Prior-context sources precede the release; release sources are dated on the earnings date; reaction sources are dated on the release date or immediately after it. No WSJ, Reuters or Dow Jones source is used.",
+          "text": "Every included URL was re-checked on the live web on **2026-08-31**. The page had to open successfully and match Apple/AAPL, the correct earnings event, displayed publication date and timing window. No WSJ, Reuters, Dow Jones or MarketWatch-syndicated article is included.",
           "sources": []
-        },
-        {
-          "text": "Sources:",
-          "sources": [
-            {
-              "label": "Benzinga: Apple To Report Earnings Amid A Busy Week Filled With Economic Data, Fed Meeting And More",
-              "url": "https://www.benzinga.com/news/earnings/18/07/12099238/apple-to-report-earnings-amid-a-busy-week-filled-with-economic-data-fed"
-            },
-            {
-              "label": "Investing.com: Apple Earnings Could Bring Some Bulls Back to Tech",
-              "url": "https://www.investing.com/analysis/apple-earnings-could-bring-some-bulls-back-to-tech-200334606"
-            },
-            {
-              "label": "Investing.com: Chart Of The Day: Longer-Term Uptrend Could Shield Apple From FAANG Slumps",
-              "url": "https://www.investing.com/analysis/chart-of-the-day-200334816"
-            },
-            {
-              "label": "Apple Newsroom: Apple Reports Third Quarter Results",
-              "url": "https://www.apple.com/newsroom/2018/07/apple-reports-third-quarter-results/"
-            },
-            {
-              "label": "The Motley Fool: Why Apple, Inc. Stock Jumped Today",
-              "url": "https://www.fool.com/investing/2018/08/01/why-apple-inc-stock-jumped-today.aspx"
-            },
-            {
-              "label": "The Motley Fool: What Happened in the Stock Market Today",
-              "url": "https://www.fool.com/investing/2018/08/01/what-happened-in-the-stock-market-today.aspx"
-            },
-            {
-              "label": "Investing.com: Apple Sets The Stage For $1 Trillion Market Value",
-              "url": "https://www.investing.com/analysis/apple-sets-the-stage-for-1-trillion-market-value-200335177"
-            },
-            {
-              "label": "Investing.com: Chart Of The Day: Trading Apple's $1 Trillion Market Cap Ambition",
-              "url": "https://www.investing.com/analysis/chart-of-the-day-200335208"
-            }
-          ]
         }
       ]
     }
