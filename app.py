@@ -1508,12 +1508,23 @@ if st.session_state.selected_section == "Data Visualization 2":
     g_period_start = g_sub_middle10["earnings_date"].min().strftime("%Y-%m-%d")
     g_period_end = g_sub_middle10["earnings_date"].max().strftime("%Y-%m-%d")
 
-    g_filter_spacer_l, g_filter_col1, g_filter_col2, g_filter_spacer_r = st.columns([3, 2.3, 3.2, 3])
+    (
+        g_filter_spacer_l,
+        g_filter_col1,
+        g_filter_col2,
+        g_filter_col3,
+        g_filter_spacer_r,
+    ) = st.columns([1, 2.3, 3, 3.8, 1])
     with g_filter_col1:
-        g_filter_wsj = st.checkbox("Show Context Analysis + WSJ Coverage", key="g_filter_context_wsj")
+        g_filter_wsj = st.checkbox("Context Analysis + WSJ Coverage", key="g_filter_context_wsj")
     with g_filter_col2:
         g_filter_djnw = st.checkbox(
-            "Show Context Analysis + WSJ Coverage + Dow Jones Newswires Coverage",
+            "Context Analysis + Dow Jones Newswires Coverage",
+            key="g_filter_context_djnw",
+        )
+    with g_filter_col3:
+        g_filter_all_coverage = st.checkbox(
+            "Context Analysis + WSJ Coverage + Dow Jones Newswires Coverage",
             key="g_filter_context_wsj_djnw",
         )
 
@@ -1523,10 +1534,10 @@ if st.session_state.selected_section == "Data Visualization 2":
     )
 
     def _quarter_has_coverage(fiscal_yearquarter, need_wsj, need_djnw):
-        # Unchecking both filters resets to "All" -- the default -- rather
+        # Unchecking all filters resets to "All" -- the default -- rather
         # than needing a separate "All" option, per how these were asked
-        # for. If both filters are checked at once, the stricter one
-        # (context + WSJ + DJNW) wins, since it's a subset of the other.
+        # for. Selecting both individual source filters is equivalent to the
+        # combined context + WSJ + DJNW option.
         key = f"{g_ticker}_{fiscal_yearquarter}"
         if not group_context_lookup.get(key):
             return False
@@ -1540,9 +1551,13 @@ if st.session_state.selected_section == "Data Visualization 2":
                 return False
         return True
 
-    if g_filter_djnw:
+    if g_filter_all_coverage or (g_filter_wsj and g_filter_djnw):
         g_sub = g_sub_middle10[
             g_sub_middle10["fiscal_yearquarter"].apply(lambda fq: _quarter_has_coverage(fq, True, True))
+        ].reset_index(drop=True)
+    elif g_filter_djnw:
+        g_sub = g_sub_middle10[
+            g_sub_middle10["fiscal_yearquarter"].apply(lambda fq: _quarter_has_coverage(fq, False, True))
         ].reset_index(drop=True)
     elif g_filter_wsj:
         g_sub = g_sub_middle10[
@@ -1557,7 +1572,7 @@ if st.session_state.selected_section == "Data Visualization 2":
         f"to {g_sub_full['earnings_date'].max().strftime('%Y-%m-%d')}), centered on {g_period_start} – {g_period_end}</div>",
         unsafe_allow_html=True,
     )
-    if g_filter_wsj or g_filter_djnw:
+    if g_filter_wsj or g_filter_djnw or g_filter_all_coverage:
         st.markdown(
             f"<div style='text-align:center; color:rgba(214,228,240,0.6); font-size:0.8rem;'>"
             f"{len(g_sub)} of these {len(g_sub_middle10)} match the selected coverage filter</div>",

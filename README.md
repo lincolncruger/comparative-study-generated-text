@@ -1,43 +1,104 @@
 # Earnings Reaction Review
 
-Interactive review of 241 AI-generated earnings-reaction explanations across
-17 stocks (2017-2024), from the "Textual Analysis of Banks' Private
-Information" project pipeline.
+Streamlit dashboard for reviewing and comparing earnings-reaction explanations
+from the *Textual Analysis of Banks' Private Information* project pipeline.
 
-For each earnings-day observation, the dashboard shows two things side by
-side:
+The dashboard contains two datasets:
 
-- **Left — Contextualized interpretation.** What was actually known or
-  priced-in going into that earnings report, and the actual news around the
-  reaction. This is **not** generated from an LLM's training-data memory —
-  it is built by running a web search for each observation's specific date
-  window and condensing what real financial-media sources (Zacks,
-  StockStory, Benzinga, Insider Monkey, PR Newswire, Barchart, GuruFocus,
-  Investing.com, and similar outlets) actually reported at the time. Each
-  paragraph has a "Verify" toggle linking out to the original source
-  articles used to write it, so the grounding can be checked directly.
-- **Right — Generated text.** The pipeline's AI-generated explanation of the
-  stock's 2-day move, the object being evaluated for accuracy against the
-  grounded context on the left.
+- The original 241-observation review covering 17 stocks from 2017–2024.
+- A 300-observation comparative dataset covering 30 stocks, with ten
+  observations per ticker centered on 2016–2018.
+
+For each observation, the dashboard presents independently sourced coverage:
+
+- **Contextualized interpretation** combines the current earnings release,
+  observation-specific Possible Drivers analysis, and linked contemporary news.
+- **WSJ Coverage** is derived exclusively from the corresponding Wall Street
+  Journal PDF.
+- **Dow Jones Newswires Coverage** is derived exclusively from the linked DJNW
+  article when coverage is available.
+
+Source links and PDF controls are included so the evidence can be checked
+directly.
+
+## PD Data Categories
+
+The 300-observation dataset compares all three coverages across the same 11
+categories:
+
+1. Guidance
+2. Order book / order backlog
+3. Revenue
+4. Product / Users
+5. Profits and profitability
+6. Costs
+7. Debt, leverage and capital raise
+8. Capex
+9. Management
+10. Litigation
+11. Others, such as macroeconomic or exceptional events
+
+Each populated category contains a positive or negative assessment followed by
+a short factual summary. A category remains blank when that specific coverage
+does not address it. **Product / Users** includes conventional product
+performance and business-model-specific metrics such as MAUs, DAUs,
+subscribers, members, engagement, and user growth.
+
+## First Order Categories
+
+The **First Order Categories** dialog identifies up to two categories that each
+coverage most strongly implies were responsible for the stock's rise or fall.
+These are not simply the most positive or negative categories in the report.
+Selection follows the coverage's causal framing and is constrained to PD
+evidence from that same source.
+
+For contextualized coverage, the assessment uses all three evidence layers:
+Possible Drivers, Current Earnings Release, and the linked reaction-news
+article. WSJ and DJNW selections remain isolated to their respective coverage.
+If an article reports a move without explaining its cause, the dashboard does
+not force a First Order category.
+
+The dialog also displays:
+
+- Market-adjusted excess return and Z-score.
+- Beta-adjusted abnormal return and Z-score.
+
+Facebook observations retain their historical `FB` dashboard identifier, but
+their price history is downloaded through `META`, which contains the same
+security's pre-rename history.
 
 ## Comparative Study
 
-A separate "Comparative Study" section lets you rate each observation's
-generated text on two questions — whether it's true, and whether it
-accurately explains the stock's post-earnings move. Answers are saved to
-`data/comparative_answers_241.json` and shown read-only back in the "Data
-Visualization" section, so they persist and travel with the dashboard for
-anyone who runs it. An "All" tab gives a one-glance overview: every ticker's
-observations as a column of dots, colored by rating status.
+The original Comparative Study section lets reviewers assess whether generated
+text is true and whether it accurately explains the post-earnings move. Answers
+are stored in `data/comparative_answers_241.json` and displayed throughout the
+dashboard. An **All** tab provides a ticker-by-ticker rating overview.
 
-## Running it
+## Rebuilding the data
 
-Requires Python 3.9+.
+Rebuild the complete PD and First Order datasets from the prepared,
+source-specific records with:
+
+```bash
+python3 scripts/build_pd_category_review_set.py
+```
+
+This writes `data/group_pd_categories.json` and
+`data/group_first_order_categories.json`.
+
+Rebuild abnormal-return statistics with:
+
+```bash
+python3 compute_abnormal_returns.py
+```
+
+## Running the dashboard
+
+Requires Python 3.9 or later.
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
-This opens the dashboard in your browser at `http://localhost:8501`. Nothing
-is hosted remotely — it runs entirely on your own machine.
+The dashboard opens at `http://localhost:8501` and runs locally.
