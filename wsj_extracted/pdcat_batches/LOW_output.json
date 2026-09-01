@@ -13,10 +13,6 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Lowe's reported $15.23 billion of sales, up 7.8%, and diluted EPS of $0.98."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. Lowe's reported $15.23 billion of sales, up 7.8%, and diluted EPS of $0.98."
@@ -34,8 +30,8 @@
         "reason": null
       },
       "Management": {
-        "rating": "positive",
-        "reason": "Management struck a confident tone. Management explicitly said both transactions and average ticket increased, making the comp result higher quality than a price-only improvement."
+        "rating": null,
+        "reason": null
       },
       "Litigation": {
         "rating": null,
@@ -44,6 +40,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Customer demand was broad. Comparable sales rose 7.3% as both transactions and average ticket increased."
       }
     },
     "wsj": {
@@ -58,10 +58,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Comparable-store sales growth exceeding its own expectations."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -90,6 +86,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Aided by $160 million (11 cents a share) from an unrealized gain on a foreign-currency hedge tied to its pending acquisition of Canadian chain Rona."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Comparable sales were strong. Housing-driven demand supported the earnings, sales, and guidance beat."
       }
     },
     "djnw": null
@@ -105,12 +105,8 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Q2 sales increased 5.3% to $18.3 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Revenue momentum missed expectations. Sales rose 5.3% but comparable sales increased only 2.0%."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -139,6 +135,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Comparable sales missed expectations. Growth was 2.0% versus roughly 4% expected."
       }
     },
     "wsj": {
@@ -151,16 +151,12 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Lowe's second-quarter 2016 results showed same-store sales growth of just 2%."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Sales performance disappointed. The quarter widened Lowe's gap with Home Depot."
       },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. Trailing Home Depot's 4.7% comparable-sales gain and 9.3% profit growth reported the day before."
+        "rating": "negative",
+        "reason": "Earnings missed expectations. The article framed the report as an earnings miss."
       },
       "Costs": {
         "rating": null,
@@ -185,6 +181,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. He said, We feel good about where the consumer is at from a macro standpoint."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Comparable sales missed expectations. Lowe's materially underperformed Home Depot."
       }
     },
     "djnw": null
@@ -192,28 +192,24 @@
   "LOW_2016q4": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Lowe's updated the annual outlook rather than signaling a sharp recovery."
+        "rating": "negative",
+        "reason": "Annual guidance weakened. Lowe's updated its outlook after adjusted earnings and traffic disappointed."
       },
       "Order book / order backlog": {
         "rating": null,
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Q3 sales rose 9.6% to $15.74 billion, helped by RONA."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Sales missed expectations. Acquisition growth could not offset weak underlying traffic."
       },
       "Profits and profitability": {
         "rating": "negative",
         "reason": "Profitability was weak. Adjusted EPS was $0.88, below consensus near $0.96."
       },
       "Costs": {
-        "rating": "positive",
-        "reason": "Cost execution was favorable. Large restructuring charges added noise but were not the main reason for the negative reaction."
+        "rating": "negative",
+        "reason": "Charges hurt reported results. Lowe's recorded $462 million of noncash restructuring and impairment costs."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -234,6 +230,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Customer traffic was weak. Comparable sales rose only 2.7% after August and September slowed more than expected."
       }
     },
     "wsj": {
@@ -249,13 +249,9 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. It's still a very healthy industry but not to the extent that we would've seen the numbers supporting a year ago.' Same-store sales grew 2.7%."
       },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. A $96 million technology charge tied to scrapping custom-built systems for cheaper off-the-shelf products."
-      },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. Disposable income was also down."
+        "rating": "negative",
+        "reason": "Adjusted earnings missed expectations. EPS was below consensus amid weaker sales and charges."
       },
       "Costs": {
         "rating": null,
@@ -280,6 +276,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. A $96 million technology charge tied to scrapping custom-built systems for cheaper off-the-shelf products."
       }
     },
     "djnw": null
@@ -297,10 +297,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fourth-quarter sales rose 19.2% to $15.78 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -329,24 +325,24 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Comparable sales rebounded. Growth reached 5.1%, narrowing the performance gap with Home Depot."
       }
     },
     "wsj": {
       "Guidance": {
-        "rating": "negative",
-        "reason": "Guidance was disappointing. Lawn and garden, which the article frames as a rebound after two weaker prior quarters, including the November guidance cut."
+        "rating": "positive",
+        "reason": "The outlook supported continued recovery. Management expected the firmer growth trajectory to persist."
       },
       "Order book / order backlog": {
         "rating": null,
         "reason": null
       },
       "Revenue": {
-        "rating": "negative",
-        "reason": "Revenue performance was weak. Lowe's fourth-quarter fiscal 2016 results (reported March 1, 2017) showed same-store sales rising 4.2%, driven by gains in appliances, plumbing, lumber."
-      },
-      "Product / Users": {
         "rating": "positive",
-        "reason": "Product and user momentum was encouraging. 12 of 13 product categories posting positive comparable sales."
+        "reason": "Revenue beat expectations. Sales growth accompanied a strong comparable-sales recovery."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -375,6 +371,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. 12 of 13 product categories posting positive comparable sales."
       }
     },
     "djnw": null
@@ -382,20 +382,16 @@
   "LOW_2017q2": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "negative",
-        "reason": "Guidance was disappointing. Lowe's reaffirmed its fiscal-2017 operating outlook rather than cutting it."
+        "rating": "neutral",
+        "reason": "Guidance was reaffirmed. Maintaining the annual outlook limited downside but did not improve the weak quarter."
       },
       "Order book / order backlog": {
         "rating": null,
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Q1 sales increased to about $16.9 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Revenue missed expectations. Sales were about $16.9 billion versus roughly $16.95 billion expected."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -424,6 +420,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Comparable sales disappointed. Growth slowed sharply to 1.9%."
       }
     },
     "wsj": null,
@@ -432,20 +432,16 @@
   "LOW_2017q3": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Lowe's reduced its full-year earnings outlook."
+        "rating": "negative",
+        "reason": "Annual earnings guidance was reduced. Higher labor and advertising spending weakened conversion."
       },
       "Order book / order backlog": {
         "rating": null,
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Q2 sales rose 6.8% to $19.5 billion, and comparable sales improved to 4.5%."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Revenue was slightly below expectations. Improved comparable sales did not prevent a top-line shortfall."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -474,6 +470,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Comparable sales improved. U.S. comps rose 4.6% and July accelerated to 7.9%."
       }
     },
     "wsj": null,
@@ -490,13 +490,9 @@
         "rating": "negative",
         "reason": "Revenue performance was weak. They report that Lowe's posted adjusted earnings and revenue that missed forecasts, prompting a stock decline."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. Both articles are Dow Jones Newswires/MarketWatch market-roundup pieces from August 23, 2017 rather than dedicated Lowe's earnings stories."
+        "rating": "negative",
+        "reason": "Adjusted earnings missed expectations. Dow Jones tied the decline to earnings and revenue falling short."
       },
       "Costs": {
         "rating": null,
@@ -521,14 +517,18 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
   "LOW_2017q4": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Despite the beat, Lowe's left full-year guidance unchanged."
+        "rating": "neutral",
+        "reason": "Guidance was unchanged. Lowe's did not raise its outlook despite an earnings beat and hurricane demand."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -538,17 +538,13 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Lowe's reported $16.8 billion of sales, up 6.5%, and EPS of $1.05, both modestly above consensus."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. Lowe's reported $16.8 billion of sales, up 6.5%, and EPS of $1.05, both modestly above consensus."
       },
       "Costs": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Gross margin weakened. Hurricane-related sales carried a less profitable mix."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -567,8 +563,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Relative performance disappointed. Investors expected more hurricane benefit and a narrower gap with Home Depot."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Comparable sales were strong. Growth reached 5.7%, including hurricane-related demand."
       }
     },
     "wsj": null,
@@ -584,10 +584,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Net sales rose 6.6% to $16.77 billion, topping the $16.59 billion consensus."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -616,6 +612,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -632,10 +632,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fourth-quarter comparable sales increased 4.1%."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. That meant investors were being asked to accept weaker near-term profitability without evidence that Lowe's had yet closed the sales-productivity gap."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -664,6 +660,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. That meant investors were being asked to accept weaker near-term profitability without evidence that Lowe's had yet closed the sales-productivity gap."
       }
     },
     "wsj": null,
@@ -680,16 +680,12 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Sales rose 3.0% to $17.4 billion, adjusted EPS was $1.19, and U.S."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Revenue missed expectations. Sales rose only 3% to $17.4 billion."
       },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. Sales rose 3.0% to $17.4 billion, adjusted EPS was $1.19, and U.S."
+        "rating": "negative",
+        "reason": "Earnings missed expectations. Adjusted EPS was $1.19."
       },
       "Costs": {
         "rating": null,
@@ -704,16 +700,20 @@
         "reason": null
       },
       "Management": {
-        "rating": null,
-        "reason": null
+        "rating": "positive",
+        "reason": "Leadership change improved turnaround expectations. Marvin Ellison's appointment was a major positive catalyst."
       },
       "Litigation": {
         "rating": null,
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
+        "rating": "positive",
+        "reason": "Activist involvement supported the stock. Pershing Square reportedly accumulated roughly a $1 billion stake."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Comparable sales were weak. U.S. comps rose just 0.5% as cold weather delayed spring demand."
       }
     },
     "wsj": null,
@@ -733,17 +733,13 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 sales rose 7.1% to $20.9 billion, comparable sales increased 5.2%, and adjusted EPS reached $2.07, ahead of consensus near $2.02."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. Q2 sales rose 7.1% to $20.9 billion, comparable sales increased 5.2%, and adjusted EPS reached $2.07, ahead of consensus near $2.02."
       },
       "Costs": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Portfolio actions created charges. Closing 99 Orchard Supply stores reduced the GAAP outlook."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -754,8 +750,8 @@
         "reason": null
       },
       "Management": {
-        "rating": null,
-        "reason": null
+        "rating": "positive",
+        "reason": "Management accelerated restructuring. The Orchard Supply exit signaled faster portfolio cleanup."
       },
       "Litigation": {
         "rating": null,
@@ -764,6 +760,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Comparable sales beat expectations. Growth reached 5.2%, supported mainly by a 4.5% increase in average ticket."
       }
     },
     "wsj": {
@@ -779,13 +779,9 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. On earnings, second-quarter sales rose 7.1% to $20.89 billion."
       },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. What I am saying is, it really helps') and for prioritizing showcasing smart-home products over profitable end-cap placement (we're more concerned about shouting."
-      },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. What I am saying is, it really helps') and for prioritizing showcasing smart-home products over profitable end-cap placement (we're more concerned about shouting out to the."
+        "rating": "positive",
+        "reason": "Adjusted profit beat expectations. Stronger earnings accompanied the sales beat."
       },
       "Costs": {
         "rating": "positive",
@@ -800,8 +796,8 @@
         "reason": null
       },
       "Management": {
-        "rating": null,
-        "reason": null
+        "rating": "positive",
+        "reason": "Management acted aggressively. Store closures and executive changes reinforced the turnaround plan."
       },
       "Litigation": {
         "rating": null,
@@ -810,6 +806,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Comparable sales improved, although growth continued to trail Home Depot."
       }
     },
     "djnw": {
@@ -824,10 +824,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Up 7% year-over-year and above the $20.8 billion analyst estimate."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -846,14 +842,18 @@
         "reason": null
       },
       "Management": {
-        "rating": null,
-        "reason": null
+        "rating": "positive",
+        "reason": "Strategic changes supported the reaction. Dow Jones reported the Orchard Supply closure and leadership actions alongside the results."
       },
       "Litigation": {
         "rating": null,
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      },
+      "Product": {
         "rating": null,
         "reason": null
       }

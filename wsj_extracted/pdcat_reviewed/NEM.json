@@ -1,0 +1,85 @@
+{
+  "reviewed_observations": [
+    "NEM_2016q2", "NEM_2016q3", "NEM_2016q4", "NEM_2017q1", "NEM_2017q2",
+    "NEM_2017q3", "NEM_2017q4", "NEM_2018q1", "NEM_2018q2", "NEM_2018q3"
+  ],
+  "pd_overrides": {
+    "NEM_2016q2": {
+      "contextual_analysis": {
+        "Revenue": {"rating": "neutral", "reason": "Revenue was essentially flat. Sales remained near $2.0 billion as lower realized gold prices offset stronger operations."},
+        "Profits and profitability": {"rating": "positive", "reason": "Earnings beat expectations. Adjusted EPS was $0.34 versus approximately $0.20 expected."},
+        "Costs": {"rating": "positive", "reason": "Mining costs improved. Gold CAS fell to about $638 per ounce and AISC declined to roughly $828."}
+      },
+      "wsj": {
+        "Product / Users": {"rating": "positive", "reason": "Production increased. Gold output rose 3% to 1.23 million ounces and copper output reached 38,000 metric tons."},
+        "Profits and profitability": {"rating": "neutral", "reason": "Profitability was mixed. Adjusted EPS beat consensus at $0.34 versus $0.20, while GAAP profit fell sharply."},
+        "Others: eg. Covid, or macro events": {"rating": "neutral", "reason": "Commodity conditions were mixed. Gold benefited from safe-haven demand, while copper remained affected by China's slowdown."}
+      }
+    },
+    "NEM_2016q3": {},
+    "NEM_2016q4": {
+      "contextual_analysis": {
+        "Costs": {"rating": "negative", "reason": "Mining costs worsened. Gold CAS rose to about $706 per ounce and AISC increased to roughly $925."}
+      },
+      "wsj": {
+        "Revenue": {"rating": "negative", "reason": "Revenue missed expectations. Sales were $1.79 billion versus approximately $1.9 billion expected."},
+        "Profits and profitability": {"rating": "negative", "reason": "Earnings missed expectations. Adjusted EPS was $0.38 versus approximately $0.50 expected."},
+        "Management": {"rating": null, "reason": null}
+      }
+    },
+    "NEM_2017q1": {
+      "contextual_analysis": {
+        "Revenue": {"rating": "neutral", "reason": "Revenue increased, but the coverage identifies no top-line surprise. Quarterly sales were approximately $1.79 billion."},
+        "Costs": {"rating": "negative", "reason": "Closure and impairment costs hurt results. Yanacocha-related charges contributed to the weak fourth quarter."}
+      },
+      "wsj": {
+        "Guidance": {"rating": "positive", "reason": "Production guidance improved. Newmont expected 4.9-5.4 million gold ounces in 2017 versus 4.9 million in 2016."},
+        "Profits and profitability": {"rating": "neutral", "reason": "Profitability was mixed. Adjusted earnings turned positive, while a large Yanacocha charge produced a wider GAAP loss."},
+        "Costs": {"rating": "negative", "reason": "A mine-closure charge hurt reported results. The planned Yanacocha closing drove the wider quarterly loss."}
+      }
+    },
+    "NEM_2017q2": {
+      "contextual_analysis": {
+        "Costs": {"rating": "neutral", "reason": "Unit costs were controlled, but the growth program carried a capital burden. CAS was about $687 and AISC roughly $900 per ounce."}
+      }
+    },
+    "NEM_2017q3": {},
+    "NEM_2017q4": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "neutral", "reason": "Guidance was unchanged. Management maintained its full-year outlook rather than materially raising it."},
+        "Costs": {"rating": "negative", "reason": "Mining costs worsened. CAS rose to about $721 per ounce and AISC increased to roughly $943."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Commodity pricing weakened. Newmont's realized gold price declined approximately 4% to $1,276 per ounce."}
+      }
+    },
+    "NEM_2018q1": {
+      "contextual_analysis": {
+        "Profits and profitability": {"rating": "neutral", "reason": "Earnings were essentially in line. Q4 adjusted EPS was about $0.40, while tax reform distorted GAAP results."},
+        "Others: eg. Covid, or macro events": {"rating": "neutral", "reason": "Tax reform created accounting noise. Related charges made GAAP earnings less informative than adjusted results."}
+      }
+    },
+    "NEM_2018q2": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "neutral", "reason": "Guidance was unchanged. Management maintained its production, cost, and capital outlook."}
+      }
+    },
+    "NEM_2018q3": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "positive", "reason": "Maintained guidance reassured investors. Management kept its full-year production and cost outlook despite quarterly weakness."},
+        "Product / Users": {"rating": "negative", "reason": "Production weakened. Gold output fell to about 1.16 million ounces as several mines produced less."},
+        "Costs": {"rating": "negative", "reason": "Mining costs worsened. AISC increased to approximately $1,024 per ounce."}
+      }
+    }
+  },
+  "first_order": {
+    "NEM_2016q2": {"contextual_analysis": ["Profits and profitability", "Costs"], "wsj": null, "djnw": null},
+    "NEM_2016q3": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": null, "djnw": null},
+    "NEM_2016q4": {"contextual_analysis": ["Costs", "Others: eg. Covid, or macro events"], "wsj": null, "djnw": null},
+    "NEM_2017q1": {"contextual_analysis": ["Profits and profitability", "Costs"], "wsj": ["Costs"], "djnw": null},
+    "NEM_2017q2": {"contextual_analysis": null, "wsj": null, "djnw": null},
+    "NEM_2017q3": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": null, "djnw": null},
+    "NEM_2017q4": {"contextual_analysis": null, "wsj": null, "djnw": null},
+    "NEM_2018q1": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": null, "djnw": null},
+    "NEM_2018q2": {"contextual_analysis": null, "wsj": null, "djnw": null},
+    "NEM_2018q3": {"contextual_analysis": ["Guidance"], "wsj": null, "djnw": null}
+  }
+}

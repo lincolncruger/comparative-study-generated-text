@@ -1,0 +1,156 @@
+{
+  "reviewed_observations": [
+    "NFLX_2016q2", "NFLX_2016q3", "NFLX_2016q4", "NFLX_2017q1", "NFLX_2017q2",
+    "NFLX_2017q3", "NFLX_2017q4", "NFLX_2018q1", "NFLX_2018q2", "NFLX_2018q3"
+  ],
+  "pd_overrides": {
+    "NFLX_2016q2": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "negative", "reason": "Subscriber guidance disappointed. Netflix forecast 2.5 million Q2 additions, well below expectations after its global rollout."},
+        "Revenue": {"rating": "neutral", "reason": "Revenue offered no identified surprise. Quarterly sales were approximately $1.96 billion."},
+        "Profits and profitability": {"rating": "neutral", "reason": "Earnings offered no identified surprise. Quarterly EPS was approximately $0.06."}
+      },
+      "wsj": {
+        "Revenue": {"rating": null, "reason": null},
+        "Profits and profitability": {"rating": "negative", "reason": "Earnings were expected to decline. Analysts forecast EPS of $0.03 versus $0.05 a year earlier."},
+        "Costs": {"rating": "negative", "reason": "Content commitments were rising. Streaming obligations reached $10.9 billion as operating cash flow turned negative."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Competition and valuation posed risks. Hulu and Amazon were expanding while Netflix traded above 200 times forward earnings."}
+      }
+    },
+    "NFLX_2016q3": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "negative", "reason": "Subscriber expectations weakened. Netflix missed its Q2 forecast and issued cautious Q3 additions guidance."},
+        "Revenue": {"rating": "positive", "reason": "Revenue increased strongly. Quarterly sales rose to approximately $2.11 billion."},
+        "Profits and profitability": {"rating": "positive", "reason": "Earnings were stronger than expected. EPS reached approximately $0.09."},
+        "Management": {"rating": "negative", "reason": "Forecasting credibility weakened. Management acknowledged unexpectedly high churn and a second consecutive subscriber disappointment."}
+      },
+      "wsj": {
+        "Guidance": {"rating": "negative", "reason": "Subscriber guidance was cautious. Netflix forecast only 300,000 U.S. additions for the third quarter."},
+        "Revenue": {"rating": "positive", "reason": "Revenue was strong. Sales increased 28% to approximately $2.11 billion."},
+        "Profits and profitability": {"rating": "positive", "reason": "Earnings beat expectations. Lower-than-expected content costs helped results exceed analyst estimates and company guidance."},
+        "Costs": {"rating": "positive", "reason": "Content costs were below expectations. Lower spending helped earnings outperform forecasts."},
+        "Management": {"rating": "negative", "reason": "Management acknowledged damaging volatility. Reed Hastings apologized after higher-than-expected cancellations drove the subscriber miss."}
+      }
+    },
+    "NFLX_2016q4": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "positive", "reason": "Subscriber guidance remained healthy. Management projected continued growth after a large third-quarter beat."},
+        "Profits and profitability": {"rating": "positive", "reason": "Profitability improved. Subscriber outperformance accompanied quarterly revenue of approximately $2.29 billion."}
+      },
+      "wsj": {
+        "Guidance": {"rating": "positive", "reason": "Subscriber results exceeded guidance. International additions reached 3.2 million versus 2 million forecast."},
+        "Revenue": {"rating": "positive", "reason": "Revenue grew strongly. Sales rose to $2.29 billion from $1.74 billion."},
+        "Profits and profitability": {"rating": "positive", "reason": "Profit increased. Quarterly earnings rose to $51.5 million from $29.4 million."},
+        "Debt, leverage and capital raise": {"rating": "negative", "reason": "Funding needs increased. Netflix planned to take on additional debt as content spending expanded."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "China expansion remained difficult. Management said a stand-alone launch there did not look promising."}
+      }
+    },
+    "NFLX_2017q1": {
+      "contextual_analysis": {
+        "Profits and profitability": {"rating": "positive", "reason": "Scale supported stronger results. Record subscriber additions accompanied continued international profitability improvement."}
+      },
+      "wsj": {
+        "Management": {"rating": "positive", "reason": "Management was confident in global expansion. Reed Hastings emphasized continued investment to sustain Netflix's lead."}
+      }
+    },
+    "NFLX_2017q2": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "neutral", "reason": "Guidance was mixed. Strong Q2 subscriber guidance was offset by EPS guidance of about $0.15 below consensus."},
+        "Revenue": {"rating": "neutral", "reason": "Revenue was approximately in line. Quarterly sales rose to about $2.64 billion."},
+        "Management": {"rating": "neutral", "reason": "Management attributed the subscriber miss to content timing and expected stronger additions in the following quarter."}
+      },
+      "wsj": {
+        "Guidance": {"rating": "negative", "reason": "Profit guidance weakened. Netflix forecast second-quarter EPS of approximately $0.15 as content costs rose."},
+        "Revenue": {"rating": "neutral", "reason": "Revenue met expectations. Sales rose 35% to approximately $2.64 billion."},
+        "Profits and profitability": {"rating": "neutral", "reason": "Earnings matched expectations. EPS was approximately $0.40 as lower content costs supported profit."},
+        "Management": {"rating": "neutral", "reason": "Management downplayed the subscriber miss. Reed Hastings said the shortfall was not very concerning."}
+      }
+    },
+    "NFLX_2017q3": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "positive", "reason": "Subscriber additions exceeded guidance. Netflix added 5.2 million users versus its 3.2 million forecast."},
+        "Profits and profitability": {"rating": "neutral", "reason": "Earnings were in line with expectations. Quarterly EPS was approximately $0.15."}
+      },
+      "wsj": {
+        "Guidance": {"rating": "positive", "reason": "Subscriber additions exceeded guidance. Netflix added 5.2 million users versus its 3.2 million forecast."},
+        "Profits and profitability": {"rating": "neutral", "reason": "Profit increased, while operating margin declined sequentially. EPS was $0.15 and margin was 4.6%."}
+      },
+      "djnw": {
+        "Profits and profitability": {"rating": null, "reason": null}
+      }
+    },
+    "NFLX_2017q4": {
+      "contextual_analysis": {
+        "Profits and profitability": {"rating": "neutral", "reason": "Earnings provided limited upside. EPS was approximately $0.29 despite strong revenue and subscriber growth."},
+        "Costs": {"rating": "negative", "reason": "Content investment increased. Netflix raised planned 2018 content spending to $7-$8 billion."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Valuation limited the reaction. The initial rally faded after shares had already risen more than 60% in 2017."}
+      },
+      "wsj": {
+        "Guidance": {"rating": "positive", "reason": "Subscriber results beat guidance. Netflix added 5.3 million users versus its 4.4 million forecast."},
+        "Profits and profitability": {"rating": "neutral", "reason": "Profitability was mixed. Operating margin beat its target, while EPS of $0.29 slightly missed the $0.32 estimate."},
+        "Costs": {"rating": "negative", "reason": "Content commitments expanded. Planned 2018 spending reached $7-$8 billion and obligations rose to $17 billion."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Competition intensified. Disney, Amazon, Hulu, and Apple were increasing their streaming investments."}
+      },
+      "djnw": {
+        "Guidance": {"rating": "positive", "reason": "Subscriber results beat guidance. Netflix added 5.3 million users versus its 4.4 million forecast."},
+        "Profits and profitability": {"rating": "neutral", "reason": "Profitability was mixed. Operating margin beat its target, while EPS of $0.29 missed the $0.32 estimate."},
+        "Costs": {"rating": "negative", "reason": "Content commitments increased. Planned spending rose to $7-$8 billion and obligations reached $17 billion."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Competition intensified. Disney, Amazon, Hulu, and Apple were expanding their streaming efforts."}
+      }
+    },
+    "NFLX_2018q1": {
+      "contextual_analysis": {
+        "Profits and profitability": {"rating": "neutral", "reason": "Earnings met expectations. EPS was approximately $0.41 as subscriber growth substantially outperformed."},
+        "Costs": {"rating": "negative", "reason": "Cash investment increased. Netflix expected free-cash-flow burn of roughly $3-$4 billion in 2018."}
+      },
+      "wsj": {
+        "Guidance": {"rating": "negative", "reason": "Spending guidance increased. Netflix raised planned content spending and projected $3-$4 billion of negative free cash flow."},
+        "Revenue": {"rating": "positive", "reason": "Revenue beat expectations. Sales increased 33% to approximately $3.29 billion."},
+        "Profits and profitability": {"rating": "neutral", "reason": "Earnings met expectations. EPS was $0.41 as international operations contributed full-year profit for the first time."},
+        "Costs": {"rating": "negative", "reason": "Spending and cash burn increased. Content obligations reached $17.7 billion and marketing spending was set to rise."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "A misconduct-related content charge hurt results. Netflix recorded a $39 million noncash charge."}
+      },
+      "djnw": {
+        "Guidance": {"rating": null, "reason": null},
+        "Profits and profitability": {"rating": "positive", "reason": "Earnings beat forecasts. Dow Jones linked the premarket gain to better-than-expected earnings and subscriber additions."}
+      }
+    },
+    "NFLX_2018q2": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "positive", "reason": "Subscriber guidance remained strong. Netflix projected another robust quarter of additions."},
+        "Revenue": {"rating": "positive", "reason": "Revenue grew strongly. Quarterly sales increased to approximately $3.70 billion."},
+        "Profits and profitability": {"rating": "positive", "reason": "Operating profitability improved. Scale expanded margins despite continued content investment."}
+      },
+      "wsj": {
+        "Revenue": {"rating": "neutral", "reason": "Revenue was approximately in line. Sales rose 40% to $3.70 billion versus $3.69 billion expected."},
+        "Profits and profitability": {"rating": "neutral", "reason": "Earnings met expectations. EPS was $0.64, matching consensus."},
+        "Costs": {"rating": "negative", "reason": "Cash burn remained substantial. Netflix expected $3-$4 billion of negative free cash flow and several more years of burn."}
+      }
+    },
+    "NFLX_2018q3": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "negative", "reason": "Subscriber performance missed guidance. Netflix added about 5.15 million users versus its 6.2 million forecast."},
+        "Revenue": {"rating": "negative", "reason": "Revenue narrowly missed expectations. Sales were about $3.91 billion versus roughly $3.94 billion expected."},
+        "Costs": {"rating": null, "reason": null},
+        "Management": {"rating": "negative", "reason": "Forecasting credibility weakened. Management acknowledged it had overestimated subscriber additions."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "A high valuation amplified the disappointment. Subscriber forecasting errors were especially costly after the stock's large rise."}
+      },
+      "wsj": {
+        "Profits and profitability": {"rating": "positive", "reason": "Earnings beat expectations. EPS was $0.85 versus approximately $0.79 expected."},
+        "Management": {"rating": "negative", "reason": "Forecasting credibility weakened. Netflix blamed faulty internal forecasting for missing subscriber guidance by over one million."}
+      }
+    }
+  },
+  "first_order": {
+    "NFLX_2016q2": {"contextual_analysis": ["Guidance"], "wsj": null, "djnw": null},
+    "NFLX_2016q3": {"contextual_analysis": ["Product / Users"], "wsj": ["Product / Users"], "djnw": null},
+    "NFLX_2016q4": {"contextual_analysis": ["Product / Users"], "wsj": ["Product / Users"], "djnw": null},
+    "NFLX_2017q1": {"contextual_analysis": ["Product / Users"], "wsj": ["Product / Users"], "djnw": null},
+    "NFLX_2017q2": {"contextual_analysis": ["Product / Users", "Guidance"], "wsj": ["Product / Users"], "djnw": null},
+    "NFLX_2017q3": {"contextual_analysis": ["Product / Users"], "wsj": ["Product / Users"], "djnw": ["Product / Users"]},
+    "NFLX_2017q4": {"contextual_analysis": ["Others: eg. Covid, or macro events"], "wsj": ["Product / Users"], "djnw": ["Product / Users"]},
+    "NFLX_2018q1": {"contextual_analysis": ["Product / Users"], "wsj": ["Product / Users"], "djnw": ["Product / Users", "Profits and profitability"]},
+    "NFLX_2018q2": {"contextual_analysis": ["Product / Users"], "wsj": ["Product / Users", "Guidance"], "djnw": null},
+    "NFLX_2018q3": {"contextual_analysis": ["Product / Users"], "wsj": ["Product / Users"], "djnw": null}
+  }
+}

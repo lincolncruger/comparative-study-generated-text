@@ -1,0 +1,26 @@
+{
+  "reviewed_observations": ["GOOGL_2016q2", "GOOGL_2016q3", "GOOGL_2016q4", "GOOGL_2017q1", "GOOGL_2017q2", "GOOGL_2017q3", "GOOGL_2017q4", "GOOGL_2018q1", "GOOGL_2018q2", "GOOGL_2018q3"],
+  "pd_overrides": {
+    "GOOGL_2016q2": {"contextual_analysis": {"Revenue": {"rating": "negative", "reason": "Revenue missed expectations. Sales were $20.26 billion versus roughly $20.3-$20.4 billion expected."}, "Profits and profitability": {"rating": "negative", "reason": "Earnings missed expectations. Adjusted EPS was $7.50 versus roughly $7.96 expected."}}, "wsj": {"Litigation": {"rating": "negative", "reason": "Regulatory pressure increased. Fresh European Union antitrust charges added to the negative backdrop."}}},
+    "GOOGL_2016q3": {"contextual_analysis": {"Product / Users": {"rating": "positive", "reason": "Advertising engagement was strong. Paid clicks rose 29%, including 37% growth on Google properties."}}},
+    "GOOGL_2016q4": {"contextual_analysis": {"Product / Users": {"rating": "positive", "reason": "Advertising volume remained strong. Mobile search and YouTube clicks offset lower pricing per click."}}},
+    "GOOGL_2017q1": {"contextual_analysis": {"Costs": {"rating": "negative", "reason": "Costs constrained earnings conversion. Traffic-acquisition and investment expenses contributed to the EPS miss."}}},
+    "GOOGL_2017q2": {"contextual_analysis": {"Product / Users": {"rating": "positive", "reason": "Advertising demand remained strong. Mobile search and YouTube grew despite advertiser boycott concerns."}}},
+    "GOOGL_2017q3": {"contextual_analysis": {"Costs": {"rating": "negative", "reason": "Traffic-acquisition costs pressured margins. TAC rose 28% to about $5.09 billion and exceeded expectations."}}, "wsj": {"Costs": {"rating": "negative", "reason": "Traffic costs weakened operating leverage. TAC growth outpaced revenue for the first time in five years."}, "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Valuation amplified the disappointment. Alphabet shares had already risen about 26% during the year."}}},
+    "GOOGL_2018q1": {"contextual_analysis": {"Costs": {"rating": "negative", "reason": "Costs weakened earnings conversion. TAC and investment in data centers, content, Cloud, and hardware rose rapidly."}}, "wsj": {"Profits and profitability": {"rating": "negative", "reason": "Adjusted earnings missed expectations. EPS was $9.70 versus $9.98 expected."}, "Costs": {"rating": "negative", "reason": "Traffic costs pressured margins. TAC rose to 24% of advertising revenue."}, "Debt, leverage and capital raise": {"rating": null, "reason": null}}},
+    "GOOGL_2018q2": {"contextual_analysis": {"Costs": {"rating": "negative", "reason": "Costs grew faster than revenue. Total expenses rose 33% and operating margin fell to 22% from 27%."}, "Capex": {"rating": "negative", "reason": "Capital spending surged. Capex reached about $7.3 billion for property, data centers, and computing infrastructure."}}},
+    "GOOGL_2018q3": {"contextual_analysis": {"Litigation": {"rating": "negative", "reason": "Regulatory costs were substantial. A $5.1 billion Android antitrust fine reduced reported profit."}}, "wsj": {"Profits and profitability": {"rating": "positive", "reason": "Underlying earnings beat expectations. Adjusted EPS was $11.75 versus $9.66 expected."}}, "djnw": {"Profits and profitability": {"rating": "positive", "reason": "Adjusted earnings beat expectations. EPS excluding the EU fine was $11.75 versus $9.66 expected."}}}
+  },
+  "first_order": {
+    "GOOGL_2016q2": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": ["Revenue", "Profits and profitability"], "djnw": null},
+    "GOOGL_2016q3": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": ["Revenue", "Profits and profitability"], "djnw": null},
+    "GOOGL_2016q4": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": ["Revenue", "Profits and profitability"], "djnw": null},
+    "GOOGL_2017q1": {"contextual_analysis": ["Profits and profitability", "Costs"], "wsj": ["Profits and profitability"], "djnw": null},
+    "GOOGL_2017q2": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": ["Revenue", "Profits and profitability"], "djnw": null},
+    "GOOGL_2017q3": {"contextual_analysis": ["Costs", "Litigation"], "wsj": ["Costs", "Others: eg. Covid, or macro events"], "djnw": ["Revenue"]},
+    "GOOGL_2017q4": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": null, "djnw": ["Revenue", "Profits and profitability"]},
+    "GOOGL_2018q1": {"contextual_analysis": ["Profits and profitability", "Costs"], "wsj": ["Profits and profitability", "Costs"], "djnw": null},
+    "GOOGL_2018q2": {"contextual_analysis": ["Costs", "Capex"], "wsj": null, "djnw": null},
+    "GOOGL_2018q3": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": ["Revenue", "Profits and profitability"], "djnw": ["Profits and profitability", "Revenue"]}
+  }
+}

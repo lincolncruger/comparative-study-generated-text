@@ -1,0 +1,293 @@
+{
+  "NVDA_2016q2": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "NVDA_2016q3": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "NVDA_2016q4": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "NVDA_2017q1": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "NVDA_2017q2": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate",
+    "djnw": "Not accurate"
+  },
+  "NVDA_2017q3": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate",
+    "djnw": "Accurate"
+  },
+  "NVDA_2017q4": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate",
+    "djnw": "Accurate"
+  },
+  "NVDA_2018q1": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "NVDA_2018q2": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "NVDA_2018q3": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "AAPL_2016q2": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate",
+    "djnw": "Not accurate"
+  },
+  "AAPL_2016q3": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "AAPL_2016q4": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate",
+    "djnw": "Not accurate"
+  },
+  "AAPL_2017q1": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate",
+    "djnw": "Accurate"
+  },
+  "AAPL_2017q2": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate",
+    "djnw": "Not accurate"
+  },
+  "AAPL_2017q3": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Not accurate"
+  },
+  "AAPL_2017q4": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate",
+    "djnw": "Not accurate"
+  },
+  "AAPL_2018q1": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "AAPL_2018q2": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "AAPL_2018q3": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "LLY_2016q2": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "LLY_2016q3": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Not accurate"
+  },
+  "LLY_2016q4": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "LLY_2017q1": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Not accurate"
+  },
+  "LLY_2017q2": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Not accurate"
+  },
+  "LLY_2017q3": {
+    "contextual_analysis": "Accurate",
+    "djnw": "Not accurate"
+  },
+  "LLY_2017q4": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate",
+    "djnw": "Accurate"
+  },
+  "LLY_2018q1": {
+    "contextual_analysis": "Accurate",
+    "djnw": "Accurate"
+  },
+  "LLY_2018q2": {
+    "contextual_analysis": "Accurate"
+  },
+  "LLY_2018q3": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "CAT_2016q2": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate",
+    "djnw": "Accurate"
+  },
+  "CAT_2016q3": {
+    "contextual_analysis": "Not accurate",
+    "wsj": "Not accurate"
+  },
+  "CAT_2016q4": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "CAT_2017q1": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "CAT_2017q2": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate",
+    "djnw": "Accurate"
+  },
+  "CAT_2017q3": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate",
+    "djnw": "Accurate"
+  },
+  "CAT_2017q4": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate",
+    "djnw": "Accurate"
+  },
+  "CAT_2018q1": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate",
+    "djnw": "Accurate"
+  },
+  "CAT_2018q2": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "CAT_2018q3": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "PANW_2016q2": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "PANW_2016q3": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "PANW_2016q4": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "PANW_2017q1": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "PANW_2017q2": {
+    "contextual_analysis": "Accurate",
+    "djnw": "Not accurate"
+  },
+  "PANW_2017q3": {
+    "contextual_analysis": "Not yet rated"
+  },
+  "PANW_2017q4": {
+    "contextual_analysis": "Accurate"
+  },
+  "PANW_2018q1": {
+    "contextual_analysis": "Accurate"
+  },
+  "PANW_2018q2": {
+    "contextual_analysis": "Accurate"
+  },
+  "PANW_2018q3": {
+    "contextual_analysis": "Accurate"
+  },
+  "TJX_2016q2": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "TJX_2016q3": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "TJX_2016q4": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "TJX_2017q1": {
+    "contextual_analysis": "Accurate"
+  },
+  "TJX_2017q2": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate",
+    "djnw": "Not accurate"
+  },
+  "TJX_2017q3": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate",
+    "djnw": "Accurate"
+  },
+  "TJX_2017q4": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate",
+    "djnw": "Accurate"
+  },
+  "TJX_2018q1": {
+    "contextual_analysis": "Accurate"
+  },
+  "TJX_2018q2": {
+    "contextual_analysis": "Accurate"
+  },
+  "TJX_2018q3": {
+    "contextual_analysis": "Accurate"
+  },
+  "CVS_2016q2": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "CVS_2016q3": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate",
+    "djnw": "Not accurate"
+  },
+  "CVS_2016q4": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "CVS_2017q1": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "CVS_2017q2": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Not accurate",
+    "djnw": "Not accurate"
+  },
+  "CVS_2017q3": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate",
+    "djnw": "Not accurate"
+  },
+  "CVS_2017q4": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate",
+    "djnw": "Not accurate"
+  },
+  "CVS_2018q1": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  },
+  "CVS_2018q2": {
+    "contextual_analysis": "Not accurate",
+    "wsj": "Not accurate"
+  },
+  "CVS_2018q3": {
+    "contextual_analysis": "Accurate",
+    "wsj": "Accurate"
+  }
+}

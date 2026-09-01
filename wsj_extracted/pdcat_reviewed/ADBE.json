@@ -1,0 +1,60 @@
+{
+  "reviewed_observations": [
+    "ADBE_2016q2", "ADBE_2016q3", "ADBE_2016q4", "ADBE_2017q1", "ADBE_2017q2",
+    "ADBE_2017q3", "ADBE_2017q4", "ADBE_2018q1", "ADBE_2018q2", "ADBE_2018q3"
+  ],
+  "pd_overrides": {
+    "ADBE_2016q2": {
+      "wsj": {
+        "Revenue": {"rating": "neutral", "reason": "Revenue met expectations. Quarterly revenue rose 20% to $1.40 billion, matching consensus."},
+        "Profits and profitability": {"rating": "positive", "reason": "Earnings beat expectations. Adjusted EPS was $0.71 versus $0.68 expected."}
+      }
+    },
+    "ADBE_2016q3": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "positive", "reason": "Guidance beat expectations. Q4 adjusted EPS was guided to $0.83-$0.89 versus roughly $0.78 expected."}
+      },
+      "wsj": {
+        "Revenue": {"rating": "positive", "reason": "Revenue beat expectations. Sales rose 20% to $1.46 billion versus $1.45 billion expected."},
+        "Profits and profitability": {"rating": "positive", "reason": "Earnings beat expectations. Adjusted EPS was $0.75 versus $0.72 expected."}
+      }
+    },
+    "ADBE_2017q1": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "positive", "reason": "Subscription momentum was strong. Digital Media ARR increased to $4.25 billion as Creative and Document Cloud adoption grew."}
+      }
+    },
+    "ADBE_2017q3": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "positive", "reason": "Cloud momentum remained strong. Digital Media revenue rose 28%, Experience Cloud rose 26%, and Digital Media ARR reached $4.87 billion."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Expectations were elevated. A large pre-earnings run made an in-line revenue outlook insufficient."}
+      },
+      "wsj": {
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Valuation amplified the disappointment. Adobe was up 50% for the year and traded at 35 times forward adjusted earnings."}
+      }
+    },
+    "ADBE_2018q2": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "positive", "reason": "Recurring demand remained strong. Digital Media ARR reached $6.06 billion and recurring revenue represented about 89% of sales."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Expectations were elevated. The large pre-earnings rerating made a merely solid revenue guide insufficient."}
+      }
+    },
+    "ADBE_2018q3": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "positive", "reason": "Cloud momentum was strong. Digital Media ARR rose to $6.40 billion and Experience Cloud subscription revenue increased 25%."}
+      }
+    }
+  },
+  "first_order": {
+    "ADBE_2016q2": {"contextual_analysis": ["Guidance"], "wsj": ["Guidance"], "djnw": null},
+    "ADBE_2016q3": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": ["Revenue", "Guidance"], "djnw": null},
+    "ADBE_2016q4": {"contextual_analysis": ["Guidance"], "wsj": null, "djnw": null},
+    "ADBE_2017q1": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": null, "djnw": null},
+    "ADBE_2017q2": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": null, "djnw": ["Revenue"]},
+    "ADBE_2017q3": {"contextual_analysis": ["Guidance", "Others: eg. Covid, or macro events"], "wsj": ["Guidance", "Others: eg. Covid, or macro events"], "djnw": null},
+    "ADBE_2017q4": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": null, "djnw": ["Revenue", "Guidance"]},
+    "ADBE_2018q1": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": null, "djnw": ["Revenue", "Profits and profitability"]},
+    "ADBE_2018q2": {"contextual_analysis": ["Guidance", "Others: eg. Covid, or macro events"], "wsj": null, "djnw": null},
+    "ADBE_2018q3": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": null, "djnw": null}
+  }
+}

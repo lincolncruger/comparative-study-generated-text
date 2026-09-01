@@ -3,7 +3,7 @@
     "contextual_analysis": {
       "Guidance": {
         "rating": "positive",
-        "reason": "Guidance was encouraging. TJX also raised full-year EPS and comp-sales guidance."
+        "reason": "Guidance improved. TJX raised its full-year EPS and comparable-sales outlook."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -11,15 +11,11 @@
       },
       "Revenue": {
         "rating": "positive",
-        "reason": "Revenue performance was strong. TJX reported $7.54 billion of revenue, up nearly 10%, and diluted EPS of $0.76, both above consensus."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "reason": "Revenue beat expectations. Sales rose nearly 10% to $7.54 billion, above consensus."
       },
       "Profits and profitability": {
         "rating": "positive",
-        "reason": "Profitability was strong. TJX reported $7.54 billion of revenue, up nearly 10%, and diluted EPS of $0.76, both above consensus."
+        "reason": "Profitability beat expectations. EPS was $0.76 and merchandise margin improved."
       },
       "Costs": {
         "rating": null,
@@ -34,8 +30,8 @@
         "reason": null
       },
       "Management": {
-        "rating": "positive",
-        "reason": "Management struck a confident tone. Importantly, management said customer traffic drove the comp increase at every division, including 6% at Marmaxx, 9% at HomeGoods and 14% in Canada."
+        "rating": null,
+        "reason": null
       },
       "Litigation": {
         "rating": null,
@@ -44,12 +40,16 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Customer momentum was strong. Comparable sales rose 7%, driven by traffic at every division."
       }
     },
     "wsj": {
       "Guidance": {
         "rating": "positive",
-        "reason": "Guidance was encouraging. Same-store sales rose 7% company-wide, far above the 2% to 3% growth TJX had guided to."
+        "reason": "Annual guidance improved. TJX raised full-year EPS and comparable-sales forecasts after the beat."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -57,15 +57,11 @@
       },
       "Revenue": {
         "rating": "positive",
-        "reason": "Revenue performance was strong. TJX reported fiscal first-quarter earnings that rose 7.1% as strong customer traffic continued to drive sales growth at T.J."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "reason": "Revenue beat expectations. Sales were $7.54 billion versus $7.29 billion expected."
       },
       "Profits and profitability": {
         "rating": "positive",
-        "reason": "Profitability was strong. TJX reported fiscal first-quarter earnings that rose 7.1% as strong customer traffic continued to drive sales growth at T.J."
+        "reason": "Profitability beat expectations. EPS was $0.76 versus TJX's prior $0.68-$0.70 projection."
       },
       "Costs": {
         "rating": null,
@@ -90,6 +86,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Store demand beat expectations. Comparable sales rose 7% versus TJX's 2%-3% guidance."
       }
     },
     "djnw": null
@@ -97,8 +97,8 @@
   "TJX_2016q3": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Management again emphasized that the comp was almost entirely traffic-driven and raised its full-year comp outlook to 3%–4%."
+        "rating": "negative",
+        "reason": "Near-term guidance disappointed. Q3 EPS guidance was $0.83-$0.85 versus roughly $0.90 expected."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -106,19 +106,15 @@
       },
       "Revenue": {
         "rating": "positive",
-        "reason": "Revenue performance was strong. Q2 revenue reached $7.88 billion, up 7%, and EPS was $0.84."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "reason": "Revenue grew solidly. Sales rose 7% to $7.88 billion."
       },
       "Profits and profitability": {
         "rating": "positive",
-        "reason": "Profitability was strong. Q2 revenue reached $7.88 billion, up 7%, and EPS was $0.84."
+        "reason": "Quarterly earnings were solid. EPS reached $0.84."
       },
       "Costs": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Cost pressure hurt the outlook. Wage increases were an explicit earnings headwind."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -137,14 +133,18 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Currency was a headwind. Foreign exchange limited earnings conversion from healthy traffic growth."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Customer momentum beat expectations. Comparable sales rose 4% versus roughly 3.5% expected, driven by traffic."
       }
     },
     "wsj": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. TJX raised its full-year per-share earnings estimate to $3.39-$3.43 from $3.35-$3.42 and lifted its comparable-sales growth outlook to 3%-4% from 2%-3%."
+        "rating": "negative",
+        "reason": "Near-term guidance missed expectations. Current-quarter EPS was guided to $0.83-$0.85 versus $0.90 expected."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -152,19 +152,15 @@
       },
       "Revenue": {
         "rating": "positive",
-        "reason": "Revenue performance was strong. TJX posted 4% growth in comparable-store sales in its fiscal second quarter."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "reason": "Revenue grew solidly. Sales rose 7% to $7.88 billion."
       },
       "Profits and profitability": {
         "rating": "positive",
-        "reason": "Profitability was strong. The company reported profit of $562.2 million, up from $549.3 million a year earlier, on revenue that rose 7% to $7.88 billion."
+        "reason": "Profit increased. Quarterly profit rose to $562.2 million from $549.3 million."
       },
       "Costs": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Costs pressured the forecast. Executives cited wage increases as an earnings headwind."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -175,16 +171,20 @@
         "reason": null
       },
       "Management": {
-        "rating": "negative",
-        "reason": "Management struck a cautious tone. CEO Ernie Herrman told analysts, \"We are convinced that we are attracting new customers, driving more frequent visits to our stores."
+        "rating": null,
+        "reason": null
       },
       "Litigation": {
         "rating": null,
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Currency pressured the forecast. Executives cited foreign-exchange rates as an earnings headwind."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Store demand was strong. Comparable sales rose 4% as TJX said it gained customers and visits."
       }
     },
     "djnw": null
@@ -193,7 +193,7 @@
     "contextual_analysis": {
       "Guidance": {
         "rating": "positive",
-        "reason": "Guidance was encouraging. TJX raised full-year adjusted EPS guidance to $3.46–$3.48."
+        "reason": "Annual guidance improved. TJX raised adjusted full-year EPS guidance to $3.46-$3.48."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -201,15 +201,11 @@
       },
       "Revenue": {
         "rating": "positive",
-        "reason": "Revenue performance was strong. Revenue rose 7% to $8.29 billion, adjusted EPS was $0.91 versus roughly $0.87 expected, and consolidated comps increased 5% versus expectations near 3.6%."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "reason": "Revenue beat expectations. Sales rose 7% to $8.29 billion."
       },
       "Profits and profitability": {
         "rating": "positive",
-        "reason": "Profitability was strong. Revenue rose 7% to $8.29 billion, adjusted EPS was $0.91 versus roughly $0.87 expected, and consolidated comps increased 5% versus expectations near 3.6%."
+        "reason": "Adjusted profitability beat expectations. Adjusted EPS was $0.91 versus roughly $0.87 expected."
       },
       "Costs": {
         "rating": null,
@@ -217,7 +213,7 @@
       },
       "Debt, leverage and capital raise": {
         "rating": "negative",
-        "reason": "The capital position was a concern. GAAP EPS of $0.83 was depressed by a debt-extinguishment charge and pension-settlement charge rather than operating weakness."
+        "reason": "A debt charge reduced reported earnings. GAAP EPS included a debt-extinguishment charge."
       },
       "Capex": {
         "rating": null,
@@ -234,12 +230,16 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Store demand beat expectations. Comparable sales rose 5% versus roughly 3.6% expected."
       }
     },
     "wsj": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Comparable-store sales rising 5%, well above the 2% to 3% growth the company had guided to and mostly attributed to increased customer traffic."
+        "rating": "negative",
+        "reason": "Holiday guidance missed expectations. EPS was guided to $0.96-$0.98 versus $1.02 expected."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -247,15 +247,11 @@
       },
       "Revenue": {
         "rating": "positive",
-        "reason": "Revenue performance was strong. Comparable-store sales rising 5%, well above the 2% to 3% growth the company had guided to and mostly attributed to increased customer traffic."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "reason": "Revenue beat expectations. Sales were $8.29 billion versus $8.22 billion expected."
       },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. Overall profit was $549.8 million, or 83 cents a share, down from $587.3 million, or 86 cents, a year earlier."
+        "rating": "positive",
+        "reason": "Adjusted earnings beat guidance. EPS excluding charges was $0.91 versus the guided $0.83-$0.85."
       },
       "Costs": {
         "rating": null,
@@ -263,7 +259,7 @@
       },
       "Debt, leverage and capital raise": {
         "rating": "negative",
-        "reason": "The capital position was a concern. That decline was driven by debt-extinguishment and pension-settlement charges."
+        "reason": "A debt charge reduced GAAP profit. The reported decline included a debt-extinguishment charge."
       },
       "Capex": {
         "rating": null,
@@ -280,6 +276,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Store demand beat guidance. Comparable sales rose 5% versus the guided 2%-3%."
       }
     },
     "djnw": null
@@ -288,7 +288,7 @@
     "contextual_analysis": {
       "Guidance": {
         "rating": "negative",
-        "reason": "Guidance was disappointing. Fiscal-2018 guidance remained conservative because wage and currency headwinds were expected to persist."
+        "reason": "Forward guidance was conservative. TJX expected wage and currency headwinds to persist in fiscal 2018."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -296,23 +296,19 @@
       },
       "Revenue": {
         "rating": "positive",
-        "reason": "Revenue performance was strong. Q4 revenue increased 6% to $9.47 billion, EPS was $1.03, and comparable-store sales rose 3%, all above TJX’s plan."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "reason": "Revenue exceeded TJX's plan. Sales rose 6% to $9.47 billion."
       },
       "Profits and profitability": {
         "rating": "positive",
-        "reason": "Profitability was strong. Q4 revenue increased 6% to $9.47 billion, EPS was $1.03, and comparable-store sales rose 3%, all above TJX’s plan."
+        "reason": "Profitability exceeded plan. EPS was $1.03 and merchandise margin improved."
       },
       "Costs": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Costs pressured the outlook. Wage headwinds were expected to persist."
       },
       "Debt, leverage and capital raise": {
         "rating": "positive",
-        "reason": "Capital management was supportive. TJX also announced plans for a 20% dividend increase and $1.3–$1.8 billion of buybacks."
+        "reason": "Capital returns increased. TJX planned a 20% dividend increase and $1.3-$1.8 billion of buybacks."
       },
       "Capex": {
         "rating": null,
@@ -328,7 +324,11 @@
       },
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
-        "reason": "The broader backdrop was challenging. Fiscal-2018 guidance remained conservative because wage and currency headwinds were expected to persist."
+        "reason": "Currency pressured the outlook. Foreign-exchange headwinds were expected to persist."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Customer momentum exceeded plan. Comparable sales rose 3%, driven by traffic."
       }
     },
     "wsj": null,
@@ -337,8 +337,8 @@
   "TJX_2017q2": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Management maintained its full-year outlook rather than raising it."
+        "rating": "neutral",
+        "reason": "Annual guidance was unchanged. Management maintained its full-year outlook rather than raising it."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -346,15 +346,11 @@
       },
       "Revenue": {
         "rating": "negative",
-        "reason": "Revenue performance was weak. Q1 revenue increased only 3% to $7.8 billion and consolidated comps rose 1%, below the roughly 1.6% Street expectation."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "reason": "Revenue momentum missed expectations. Sales rose only 3% to $7.8 billion."
       },
       "Profits and profitability": {
         "rating": "positive",
-        "reason": "Profitability was strong. EPS of $0.82 beat consensus."
+        "reason": "Headline earnings beat expectations. EPS reached $0.82, though about $0.04 of upside came from accounting and FX."
       },
       "Costs": {
         "rating": null,
@@ -377,34 +373,34 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
+        "rating": "positive",
+        "reason": "Currency helped reported earnings. Favorable foreign exchange contributed to EPS upside versus management's plan."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Store demand missed expectations. Comparable sales rose 1% versus roughly 1.6% expected, while Marmaxx was flat."
       }
     },
     "wsj": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. The column notes it was the first time since the third quarter of 2014 that TJX hadn't beaten its own guidance, and first-quarter sales came in lighter than expected."
+        "rating": "negative",
+        "reason": "Near-term guidance missed expectations. Second-quarter EPS guidance was below Wall Street's forecast."
       },
       "Order book / order backlog": {
         "rating": null,
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Same-store sales still climbed 1%."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Sales missed expectations. First-quarter sales were lighter than forecast."
       },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. TJX also guided second-quarter earnings below what Wall Street had been forecasting, citing foreign-currency effects and wage increases."
-      },
-      "Costs": {
         "rating": null,
         "reason": null
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "Costs pressured guidance. TJX cited wage increases in its below-consensus second-quarter outlook."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -424,7 +420,11 @@
       },
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
-        "reason": "The broader backdrop was challenging. The below-consensus second-quarter earnings outlook tied to currency and wage pressures."
+        "reason": "External conditions pressured results. TJX cited poor weather and currency effects."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Store demand disappointed. Comparable sales rose 1%, missing TJX's own guidance for the first time since 2014."
       }
     },
     "djnw": {
@@ -438,15 +438,11 @@
       },
       "Revenue": {
         "rating": "negative",
-        "reason": "Revenue performance was weak. Both state that TJX reported first-quarter sales that missed analysts' expectations."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "reason": "Sales missed expectations. Dow Jones reported that first-quarter sales fell short of analysts' forecasts."
       },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. TJX mentioned as part of a discussion of retailer weakness rather than as the subject of a dedicated earnings story."
+        "rating": null,
+        "reason": null
       },
       "Costs": {
         "rating": null,
@@ -469,6 +465,10 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      },
+      "Product": {
         "rating": null,
         "reason": null
       }
@@ -478,7 +478,7 @@
     "contextual_analysis": {
       "Guidance": {
         "rating": "positive",
-        "reason": "Guidance was encouraging. Management raised its full-year earnings outlook."
+        "reason": "Guidance improved. Management raised its full-year earnings outlook."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -486,19 +486,15 @@
       },
       "Revenue": {
         "rating": "positive",
-        "reason": "Revenue performance was strong. Q2 revenue increased 6% to $8.36 billion, above consensus, and EPS of $0.85 edged past expectations."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "reason": "Revenue beat expectations. Sales rose 6% to $8.36 billion."
       },
       "Profits and profitability": {
         "rating": "positive",
-        "reason": "Profitability was strong. Q2 revenue increased 6% to $8.36 billion, above consensus, and EPS of $0.85 edged past expectations."
+        "reason": "Earnings beat expectations. EPS of $0.85 edged above consensus and merchandise margin improved."
       },
       "Costs": {
         "rating": "negative",
-        "reason": "Costs were a headwind. Wage costs and foreign exchange still pressured reported profitability."
+        "reason": "Costs pressured profitability. Wage expenses remained a headwind."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -517,14 +513,18 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Currency pressured profitability. Foreign exchange remained a reported headwind."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Customer momentum beat expectations. Comparable sales rose 3% versus roughly 2.2% expected, driven by traffic."
       }
     },
     "wsj": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Home Depot raised its outlook — as part of a broader argument that consumer spending was solid but concentrated in a shifting set of favored retailers."
+        "rating": null,
+        "reason": null
       },
       "Order book / order backlog": {
         "rating": null,
@@ -532,15 +532,11 @@
       },
       "Revenue": {
         "rating": "positive",
-        "reason": "Revenue performance was strong. Within that context, it reports that TJX's total sales rose 6% to $8.36 billion in the quarter."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "reason": "Revenue grew solidly. Sales rose 6% to $8.36 billion."
       },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. This article is a broader roundup of mixed retail earnings published on TJX's earnings date, not a dedicated TJX story, so the detail specific to TJX is limited."
+        "rating": "negative",
+        "reason": "Profit declined. Quarterly profit fell to $553 million from $562 million."
       },
       "Costs": {
         "rating": null,
@@ -564,7 +560,11 @@
       },
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
-        "reason": "The broader backdrop was challenging. Which the article attributes to about 4 cents a share of foreign-currency drag and lower gross margins tied to inventory hedges."
+        "reason": "Currency hurt profit. Foreign exchange reduced earnings by about $0.04 per share."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Store demand remained positive. Comparable sales rose 3%, which the CEO attributed to foot traffic."
       }
     },
     "djnw": {
@@ -578,15 +578,11 @@
       },
       "Revenue": {
         "rating": "positive",
-        "reason": "Revenue performance was strong. All three report that TJX's second-quarter earnings and revenue exceeded Wall Street's expectations."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "reason": "Revenue beat expectations. Dow Jones reported quarterly revenue above Wall Street estimates."
       },
       "Profits and profitability": {
         "rating": "positive",
-        "reason": "Profitability was strong. 2017 that discuss TJX within broader retail-sector commentary rather than as dedicated earnings stories."
+        "reason": "Earnings beat expectations. Dow Jones reported quarterly earnings above Wall Street estimates."
       },
       "Costs": {
         "rating": null,
@@ -609,6 +605,10 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      },
+      "Product": {
         "rating": null,
         "reason": null
       }
@@ -618,23 +618,19 @@
     "contextual_analysis": {
       "Guidance": {
         "rating": "negative",
-        "reason": "Guidance was disappointing. Consolidated comparable sales were flat, missing management’s 1%–2% guidance and market expectations."
+        "reason": "Sales guidance was missed. Flat comparable sales fell below management's 1%-2% forecast."
       },
       "Order book / order backlog": {
         "rating": null,
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Q3 revenue rose 6% to $8.8 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Revenue missed expectations. Quarterly sales rose 6% to about $8.8 billion but fell short of consensus."
       },
       "Profits and profitability": {
         "rating": "positive",
-        "reason": "Profitability was strong. EPS of $1.00 reached the high end of guidance."
+        "reason": "Profitability held up. EPS of $1.00 reached the high end of guidance and merchandise margin increased."
       },
       "Costs": {
         "rating": null,
@@ -657,8 +653,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Weather hurt results. Hurricanes reduced EPS by about $0.03 and warm weather depressed apparel sales."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Store demand missed expectations. Comparable sales were flat and Marmaxx comps fell 1%."
       }
     },
     "wsj": {
@@ -672,15 +672,11 @@
       },
       "Revenue": {
         "rating": "negative",
-        "reason": "Revenue performance was weak. TJX did not increase its overall same-store sales for the first time since 2009."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "reason": "Revenue missed expectations. Sales were $8.76 billion versus $8.86 billion expected."
       },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. Profit of $641 million, or $1 a share (up from $549.8 million, or 83 cents, a year earlier), was in line with expectations."
+        "rating": "neutral",
+        "reason": "Profitability met expectations. EPS was $1.00, in line with consensus."
       },
       "Costs": {
         "rating": null,
@@ -695,22 +691,26 @@
         "reason": null
       },
       "Management": {
-        "rating": "positive",
-        "reason": "Management struck a confident tone. Executives said on the analyst call that sales would have been 2% higher excluding the hurricane impact."
+        "rating": "negative",
+        "reason": "Merchandising execution was weak. The CEO said some apparel choices were too edgy and cold-weather goods arrived late."
       },
       "Litigation": {
         "rating": null,
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Weather hurt demand. TJX blamed hurricanes and warmer-than-expected weather for the sales weakness."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Store demand missed expectations. Comparable sales were flat versus 2.3% expected, while Marmaxx fell 1%."
       }
     },
     "djnw": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. The same-day roundup contrasts TJX's miss with Home Depot's results that day, which beat estimates and came with raised guidance."
+        "rating": null,
+        "reason": null
       },
       "Order book / order backlog": {
         "rating": null,
@@ -718,15 +718,11 @@
       },
       "Revenue": {
         "rating": "negative",
-        "reason": "Revenue performance was weak. Together they report that TJX's third-quarter revenue and same-store sales came in below consensus."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "reason": "Revenue missed expectations. Dow Jones reported third-quarter revenue below consensus."
       },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. Neither is a dedicated TJX earnings story."
+        "rating": null,
+        "reason": null
       },
       "Costs": {
         "rating": null,
@@ -749,16 +745,20 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Weather hurt results. TJX attributed the disappointing quarter to weather and fashion factors."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Store demand missed expectations. Dow Jones reported same-store sales below consensus."
       }
     }
   },
   "TJX_2018q1": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "negative",
-        "reason": "Guidance was disappointing. Adjusted EPS was $1.19, above TJX’s own forecast although below one published consensus estimate."
+        "rating": "positive",
+        "reason": "The outlook benefited from tax reform. Fiscal-2019 guidance incorporated a major U.S. tax benefit."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -766,15 +766,11 @@
       },
       "Revenue": {
         "rating": "positive",
-        "reason": "Revenue performance was strong. Q4 revenue increased 16% to about $11.0 billion, helped by an extra week."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "reason": "Revenue beat expectations. Sales rose 16% to about $11.0 billion, helped by an extra week."
       },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. Adjusted EPS was $1.19, above TJX’s own forecast although below one published consensus estimate."
+        "rating": "positive",
+        "reason": "Earnings beat TJX's forecast. Adjusted EPS was $1.19, although below one published consensus estimate."
       },
       "Costs": {
         "rating": null,
@@ -782,7 +778,7 @@
       },
       "Debt, leverage and capital raise": {
         "rating": "positive",
-        "reason": "Capital management was supportive. Management announced a 25% dividend increase, $2.5–$3.0 billion of planned buybacks."
+        "reason": "Capital returns increased. TJX planned a 25% dividend increase and $2.5-$3.0 billion of buybacks."
       },
       "Capex": {
         "rating": null,
@@ -799,6 +795,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Customer momentum beat plan. Comparable sales rose 4% across the company, driven by traffic."
       }
     },
     "wsj": null,
@@ -808,7 +808,7 @@
     "contextual_analysis": {
       "Guidance": {
         "rating": "positive",
-        "reason": "Guidance was encouraging. Q1 revenue jumped 12% to $8.69 billion, above consensus near $8.47 billion, and EPS rose to $1.13, well above guidance of $1.00–$1.02 and consensus near $1.02."
+        "reason": "Annual guidance improved. Management updated the full-year outlook after the strong quarter."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -816,19 +816,15 @@
       },
       "Revenue": {
         "rating": "positive",
-        "reason": "Revenue performance was strong. Q1 revenue jumped 12% to $8.69 billion, above consensus near $8.47 billion, and EPS rose to $1.13, well above guidance of $1.00–$1.02 and consensus near $1.02."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "reason": "Revenue beat expectations. Sales rose 12% to $8.69 billion versus roughly $8.47 billion expected."
       },
       "Profits and profitability": {
         "rating": "positive",
-        "reason": "Profitability was strong. Q1 revenue jumped 12% to $8.69 billion, above consensus near $8.47 billion, and EPS rose to $1.13, well above guidance of $1.00–$1.02 and consensus near $1.02."
+        "reason": "Profitability beat expectations. EPS was $1.13 versus roughly $1.02 expected, and pre-tax margin improved."
       },
       "Costs": {
-        "rating": "positive",
-        "reason": "Cost execution was favorable. Management updated annual guidance for the strong quarter but also warned that higher freight costs."
+        "rating": "negative",
+        "reason": "Costs pressured the outlook. Management warned that higher freight expenses would absorb part of the upside."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -847,8 +843,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Currency pressured the outlook. Management expected less favorable foreign exchange later in the year."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Customer momentum was strong. Comparable sales rose 3%, including 4% at Marmaxx, with traffic positive everywhere."
       }
     },
     "wsj": null,
@@ -858,7 +858,7 @@
     "contextual_analysis": {
       "Guidance": {
         "rating": "positive",
-        "reason": "Guidance was encouraging. TJX raised both full-year comp and EPS guidance."
+        "reason": "Guidance improved. TJX raised its full-year comparable-sales and EPS outlooks."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -866,15 +866,11 @@
       },
       "Revenue": {
         "rating": "positive",
-        "reason": "Revenue performance was strong. Q2 revenue rose 12% to $9.3 billion and EPS reached $1.17."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "reason": "Revenue exceeded expectations. Sales rose 12% to $9.3 billion."
       },
       "Profits and profitability": {
         "rating": "positive",
-        "reason": "Profitability was strong. Q2 revenue rose 12% to $9.3 billion and EPS reached $1.17."
+        "reason": "Earnings were strong. EPS reached $1.17, or $0.99 excluding an $0.18 tax benefit."
       },
       "Costs": {
         "rating": null,
@@ -899,6 +895,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Customer momentum far exceeded plan. Comparable sales rose 6% versus 1%-2% guidance, driven by traffic everywhere."
       }
     },
     "wsj": null,

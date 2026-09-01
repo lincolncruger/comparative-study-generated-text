@@ -13,10 +13,6 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q2 revenue reached $1.43 billion, up 24% year over year and above the roughly $1.35 billion Wall Street had expected."
       },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. The Q2 FY17 press release details the first four Pascal-generation gaming GPUs."
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. The underlying press release shows GAAP net income of $253 million versus just $26 million a year earlier."
@@ -44,6 +40,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Platform demand was broad. Gaming, data center, and automotive grew, with data-center revenue rising approximately 110%."
       }
     },
     "wsj": {
@@ -58,10 +58,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Second-quarter revenue rose 24% to $1.43 billion, above Nvidia's prior $1.35 billion guidance."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. The $1,200 card packs about 12 billion transistors, versus roughly seven billion for a high-end Intel microprocessor."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -90,6 +86,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "New-product demand was strong. Pascal GPUs and deep-learning interest supported gaming, visualization, and automotive growth."
       }
     }
   },
@@ -107,10 +107,6 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q3 revenue jumped 54% year-over-year to a record $2.00 billion, far exceeding the roughly $1.69 billion consensus estimate."
       },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Datacenter AI products (DGX-1 shipments, Tesla P40/P4, TensorRT) expanded the deep-learning platform."
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. Non-GAAP EPS reached a record $0.94, more than double the year-ago quarter."
@@ -124,8 +120,8 @@
         "reason": "Capital management was supportive. NVIDIA raised its quarterly dividend 22% to $0.14/share and added $2.0 billion to its buyback program (total capacity $2.96 billion)."
       },
       "Capex": {
-        "rating": "positive",
-        "reason": "Capital investment was constructive. Q3 capital expenditures were just $38 million."
+        "rating": null,
+        "reason": null
       },
       "Management": {
         "rating": "positive",
@@ -136,8 +132,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      },
+      "Product": {
         "rating": "positive",
-        "reason": "The broader backdrop was supportive. A roughly 24% post-earnings share rally and higher analyst price targets."
+        "reason": "Product and user momentum was encouraging. Datacenter AI products (DGX-1 shipments, Tesla P40/P4, TensorRT) expanded the deep-learning platform."
       }
     },
     "wsj": {
@@ -152,10 +152,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue increased 54% to $2 billion, compared with Nvidia's own prior guidance of $1.68 billion, plus or minus 2%."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. The article credits strong performance from new Pascal-generation GPUs and cites the company's \"breakout quarter\" with strength across all."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -182,16 +178,20 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      },
+      "Product": {
         "rating": "positive",
-        "reason": "The broader backdrop was supportive. Patrick Moorhead of Moor Insights & Strategy called it a \"stellar quarter\" and said \"it's hard to spot a hole right now in their lineup."
+        "reason": "Product and user momentum was encouraging. The article credits strong performance from new Pascal-generation GPUs and cites the company's \"breakout quarter\" with strength across all."
       }
     }
   },
   "NVDA_2017q1": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Gross margin guided up to roughly 59.5%-59.7%, viewed by the analysis as broadly in line to above consensus."
+        "rating": "neutral",
+        "reason": "Revenue guidance was broadly in line. Nvidia forecast approximately $1.90 billion for the following quarter."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -200,10 +200,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q4 revenue hit a record $2.17 billion, up 55% year over year, beating both the company's own prior guidance range and Wall Street forecasts."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. The quarter included new GeForce GTX 1050/1050 Ti mobile GPU launches."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -226,18 +222,22 @@
         "reason": "Management struck a confident tone. CEO Jensen Huang called it \"a great finish to a record year."
       },
       "Litigation": {
-        "rating": "positive",
-        "reason": "The legal development was favorable. The CFO commentary noted that fiscal 2017 operating expense growth was partially offset by lower litigation expenses."
+        "rating": null,
+        "reason": null
       },
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. The analysis notes the stock had risen more than fourfold in the prior year, so even strong growth was already priced in."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The quarter included new GeForce GTX 1050/1050 Ti mobile GPU launches."
       }
     },
     "wsj": {
       "Guidance": {
-        "rating": null,
-        "reason": null
+        "rating": "neutral",
+        "reason": "Revenue guidance was roughly in line. Nvidia forecast approximately $1.9 billion for the current quarter."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -246,10 +246,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. The article reports revenue climbed 55% to a record $2.17 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -276,8 +272,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": "negative",
-        "reason": "The broader backdrop was challenging. The article reports shares slipped 2.1% to $113.96 after hours even after a beat-and-in-line-guide quarter."
+        "rating": "neutral",
+        "reason": "Expectations were elevated, but WSJ did not explicitly attribute the decline. Shares had more than quadrupled over 12 months."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -295,25 +295,21 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q1 revenue reached $1.94 billion, up 48% year over year, above the roughly $1.91 billion analysts had expected."
       },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. NVIDIA introduced the Volta data-center architecture and launched the GeForce GTX 1080 Ti, TITAN Xp and Jetson TX2 edge-AI platform."
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. Non-GAAP EPS came in at $0.85, up 85% year over year and well above the $0.67 consensus."
       },
       "Costs": {
-        "rating": "positive",
-        "reason": "Cost execution was favorable. Operating expenses of $596 million rose modestly to support the business."
+        "rating": "neutral",
+        "reason": "Operating expenses rose to support growth. The increase was modest relative to Nvidia's revenue expansion."
       },
       "Debt, leverage and capital raise": {
         "rating": "positive",
         "reason": "Capital management was supportive. NVIDIA reaffirmed its plan to return $1.25 billion to shareholders in fiscal 2018 through dividends and buybacks."
       },
       "Capex": {
-        "rating": "positive",
-        "reason": "Capital investment was constructive. The company guided fiscal Q2 capital expenditures to $55-65 million, up from the $50-60 million range guided for the quarter just completed."
+        "rating": "neutral",
+        "reason": "Capital spending guidance increased modestly. Nvidia projected approximately $55-$65 million for the following quarter."
       },
       "Management": {
         "rating": "positive",
@@ -324,8 +320,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      },
+      "Product": {
         "rating": "positive",
-        "reason": "The broader backdrop was supportive. NVIDIA had beaten Wall Street targets by an average of 21% over the prior four quarters."
+        "reason": "Product and user momentum was encouraging. NVIDIA introduced the Volta data-center architecture and launched the GeForce GTX 1080 Ti, TITAN Xp and Jetson TX2 edge-AI platform."
       }
     },
     "wsj": {
@@ -339,15 +339,11 @@
       },
       "Revenue": {
         "rating": "positive",
-        "reason": "Revenue performance was strong. Gaming revenue fell 24% sequentially (still up 49% year over year, in line with what had been flagged as a seasonal risk)."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. IBM and Tencent had recently added Nvidia GPUs to their cloud offerings, following similar build-outs by other major cloud providers."
+        "reason": "Data-center revenue exceeded expectations. Sales of $409 million were approximately 29% above analysts' forecasts."
       },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. Analysts forecast adjusted EPS of 67 cents, up 103% year over year, with full-year EPS seen around $2.85, up nearly 11%."
+        "rating": null,
+        "reason": null
       },
       "Costs": {
         "rating": null,
@@ -371,7 +367,11 @@
       },
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
-        "reason": "The broader backdrop was challenging. Shares already traded near roughly 40 times forward earnings, one of the priciest multiples in the chip sector."
+        "reason": "Valuation was demanding. Nvidia traded near 40 times forward earnings before the report."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "AI and cloud demand accelerated. Data-center revenue nearly tripled year over year despite seasonal gaming weakness."
       }
     },
     "djnw": {
@@ -384,16 +384,12 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Analysts projected quarterly revenue of $1.9 billion, up 46% year over year, with full-year revenue seen at $8.0 billion, up 16%."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. IBM and Tencent were cited as having recently integrated Nvidia GPUs into their cloud platforms for machine-learning use."
+        "rating": "neutral",
+        "reason": "This was a pre-earnings forecast. Analysts expected quarterly revenue of approximately $1.9 billion."
       },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. Analysts forecast unadjusted EPS of 67 cents, up 103% year over year, with full-year EPS projected around $2.85, up roughly 11%."
+        "rating": "neutral",
+        "reason": "This was a pre-earnings forecast. Analysts expected EPS of approximately $0.67."
       },
       "Costs": {
         "rating": null,
@@ -416,8 +412,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": "negative",
-        "reason": "The broader backdrop was challenging. Gaming sales were expected to be seasonally softer following the prior holiday upgrade cycle."
+        "rating": null,
+        "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Analysts expected strong data-center and automotive demand, while gaming was forecast to soften seasonally."
       }
     }
   },
@@ -435,17 +435,13 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q2 revenue reached a record $2.23 billion, up 56% year-over-year, versus consensus of only about $1.96 billion."
       },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Data-center revenue grew only about 2% sequentially, likely because some customers delayed buying ahead."
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. Non-GAAP EPS was $1.01, up 91% year-over-year, well above the roughly $0.70 consensus estimate."
       },
       "Costs": {
-        "rating": "positive",
-        "reason": "Cost execution was favorable. Non-GAAP operating expenses rose 19% while revenue increased 56% year over year."
+        "rating": "negative",
+        "reason": "Operating expenses increased. Non-GAAP expenses rose 19%, reducing the perceived quality of headline growth."
       },
       "Debt, leverage and capital raise": {
         "rating": "positive",
@@ -466,6 +462,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Cryptocurrency-mining demand gave GPU sales an unusual boost, which was flagged as making some of the reported growth look."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Data-center revenue grew only about 2% sequentially, likely because some customers delayed buying ahead."
       }
     },
     "wsj": {
@@ -480,10 +480,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue jumped 56% year-over-year to $2.2 billion, well above the $1.96 billion analysts had forecast ahead of the report."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Revenue nearly tripled year over year to $416 million as the new Volta platform began ramping."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -512,6 +508,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Nvidia was trading near 54 times forward earnings before the report."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Data-center momentum disappointed. Revenue reached $416 million but posted its slowest sequential growth in two years."
       }
     },
     "djnw": {
@@ -524,10 +524,6 @@
         "reason": null
       },
       "Revenue": {
-        "rating": null,
-        "reason": null
-      },
-      "Product / Users": {
         "rating": null,
         "reason": null
       },
@@ -558,6 +554,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Some observers said expectations for Nvidia's server-chip business were just too high."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Server-chip expectations were too high. The data-center result failed to clear investors' elevated bar."
       }
     }
   },
@@ -575,25 +575,21 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q3 revenue rose 32% to $2.64 billion versus a consensus near $2.36 billion."
       },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Unveiled the DRIVE PX Pegasus robotaxi computer."
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. Adjusted EPS rose 41% to $1.33 (GAAP EPS up 60%) against a roughly $0.94 consensus."
       },
       "Costs": {
-        "rating": "positive",
-        "reason": "Cost execution was favorable. GAAP operating expenses rose 24% year-over-year to $674 million."
+        "rating": "neutral",
+        "reason": "Operating expenses increased alongside growth. GAAP expenses rose 24% while revenue increased 32%."
       },
       "Debt, leverage and capital raise": {
         "rating": "positive",
         "reason": "Capital management was supportive. Convertible short-term debt was paid down to $23 million from $796 million."
       },
       "Capex": {
-        "rating": "positive",
-        "reason": "Capital investment was constructive. Purchases of property and equipment rose to $69 million in the quarter from $55 million the prior quarter."
+        "rating": "neutral",
+        "reason": "Capital spending increased modestly. Property and equipment purchases rose to approximately $69 million."
       },
       "Management": {
         "rating": "positive",
@@ -606,6 +602,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. A cited takeaway flagged rising competitive risk after Intel recruited AMD's former graphics chief."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Unveiled the DRIVE PX Pegasus robotaxi computer."
       }
     },
     "wsj": {
@@ -621,10 +621,6 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Nvidia's data-center sales of $501 million more than doubled year-over-year and beat Wall Street's forecast."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
         "rating": null,
         "reason": null
@@ -650,8 +646,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "Valuation imposed a high hurdle. Nvidia traded above 50 times forward earnings."
+      },
+      "Product": {
         "rating": "positive",
-        "reason": "The broader backdrop was supportive. At more than 50 times forward earnings Nvidia faces \"sky-high expectations."
+        "reason": "Demand improved across key platforms. Data-center sales more than doubled and gaming grew 25% with Nintendo Switch support."
       }
     },
     "djnw": {
@@ -667,10 +667,6 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. It says Nvidia extended its \"winning run\" after reporting \"another increase in demand for its chips and graphics cards."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
         "rating": null,
         "reason": null
@@ -697,7 +693,11 @@
       },
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
-        "reason": "The broader backdrop was supportive. Nvidia said crypto miners represented only \"a relatively small portion\" of its business."
+        "reason": "Crypto exposure appeared limited. Nvidia said miners represented a relatively small share of its business."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Chip and graphics-card demand increased across high-end computing applications."
       }
     }
   },
@@ -705,7 +705,7 @@
     "contextual_analysis": {
       "Guidance": {
         "rating": "positive",
-        "reason": "Guidance was encouraging. Guiding GAAP gross margin up to 62.7% from the 61.9% actual just delivered."
+        "reason": "Margin guidance improved. Nvidia forecast GAAP gross margin of approximately 62.7% after delivering 61.9%."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -714,10 +714,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q4 revenue reached $2.91 billion, up 34% year over year."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. New automotive partnerships with Volkswagen, Continental and Mercedes-Benz (MBUX)."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -744,8 +740,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
+        "rating": "neutral",
+        "reason": "Cryptocurrency demand exceeded expectations but added volatility. Management could not precisely identify end-user mining demand."
+      },
+      "Product": {
         "rating": "positive",
-        "reason": "The broader backdrop was supportive. Management said mining-related GPU demand exceeded expectations, although it remained secondary to core markets."
+        "reason": "Gaming and AI demand remained strong. Gaming reached about $1.74 billion and data-center revenue more than doubled."
       }
     },
     "wsj": {
@@ -760,10 +760,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Full-year sales rose 41% to a record $9.7 billion and fiscal-year gaming revenue jumped 33% to a record $5.5 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -782,8 +778,8 @@
         "reason": null
       },
       "Management": {
-        "rating": "positive",
-        "reason": "Management struck a confident tone. Analysts credited the company for deliberately downplaying crypto's importance to protect its core gamer base."
+        "rating": "neutral",
+        "reason": "Management acknowledged competing demand from data centers, gamers, and cryptocurrency miners."
       },
       "Litigation": {
         "rating": null,
@@ -791,7 +787,11 @@
       },
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
-        "reason": "The broader backdrop was challenging. The reaction piece warned that at 37 times forward earnings after a nearly 90% rally."
+        "reason": "Valuation remained demanding. Nvidia traded at approximately 37 times forward earnings after a 90% rally."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Demand was strong across gaming, data center, and crypto. Management was working with suppliers to meet GPU demand."
       }
     }
   },
@@ -808,10 +808,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q1 revenue surged 66% to $3.21 billion and GAAP EPS reached $1.98, both far above consensus around $2.89 billion and $1.46 EPS."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. The new crypto disclosure raised uncertainty about how much recent GPU demand was sustainable."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -840,6 +836,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Shares fell because management forecast a sharp decline in cryptocurrency-related sales despite a large beat."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Core-platform demand remained strong. Gaming grew 68% and data-center revenue increased 71%."
       }
     },
     "wsj": {
@@ -852,12 +852,8 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Sales rose 71% year over year to $701 million, ahead of the 60% growth analysts projected."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. The coverage flagged purpose-built mining hardware as a competitive risk and expected mining demand to decline."
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": null,
@@ -886,6 +882,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. About 15% of the stock's recent gains came in the week before earnings, leaving strong results largely priced in."
+      },
+      "Product": {
+        "rating": "neutral",
+        "reason": "Platform demand was mixed. Data-center growth beat expectations, while cryptocurrency demand was forecast to decline."
       }
     },
     "djnw": null
@@ -903,10 +903,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q2 revenue rose 40% year-over-year to $3.12 billion."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. NVIDIA launched its Turing GPU architecture and RTX ray-tracing platform that week, calling it the greatest advance for computing since CUDA."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -935,6 +931,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Crypto-specific product revenue fell to just $18 million from $289 million the prior quarter."
+      },
+      "Product": {
+        "rating": "neutral",
+        "reason": "Core demand remained strong while crypto collapsed. Gaming grew 52% and data center 83%, but crypto revenue fell to $18 million."
       }
     },
     "wsj": {
@@ -949,10 +949,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue rose 40% to $3.12 billion, edging past the $3.11 billion analysts had forecast."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -981,7 +977,106 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Crypto-specific product sales fell to just $18 million from $289 million the prior quarter."
+      },
+      "Product": {
+        "rating": "neutral",
+        "reason": "Core platforms beat expectations, but crypto collapsed. Gaming and data center grew strongly as mining sales fell to $18 million."
       }
     }
+  },
+  "NVDA_2016q2": {
+    "contextual_analysis": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Revenue guidance beat expectations. Nvidia forecast about $1.35 billion versus roughly $1.28 billion expected."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue beat expectations. Sales were $1.31 billion versus approximately $1.26 billion expected."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Earnings beat expectations. Adjusted EPS was $0.46 versus approximately $0.32 expected."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost execution was favorable. Non-GAAP operating expenses rose just 4% year over year (GAAP up 6%), per the underlying press release."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": "positive",
+        "reason": "Capital management was supportive. NVIDIA entered a new $500 million accelerated buyback, part of $3.5 billion already returned."
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. CEO Jen-Hsun Huang highlighted growth across all four platforms and called the new Pascal architecture a \"giant boost\" to deep learning, gaming."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Demand broadened beyond gaming. Data-center and automotive revenue accelerated as Pascal began its commercial ramp."
+      }
+    },
+    "wsj": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Revenue guidance beat expectations. Nvidia forecast $1.35 billion versus approximately $1.28 billion expected."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue beat expectations. Sales rose 13% to $1.3 billion versus approximately $1.27 billion expected."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Earnings beat expectations. Adjusted EPS was $0.46 versus $0.32 expected."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": "positive",
+        "reason": "Capital management was supportive. Nvidia entered a new $500 million accelerated buyback, having already returned over $3.5 billion."
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management struck a confident tone. CEO Jen-Hsun Huang said gaming is \"just a larger and larger market.\"."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. The article notes AMD's upcoming Polaris chip could add pricing pressure on Nvidia, per analyst Patrick Moorhead."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Platform demand was broad. Gaming grew 17%, data center 63%, and automotive 47%."
+      }
+    },
+    "djnw": null
   }
 }

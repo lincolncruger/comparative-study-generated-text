@@ -1,0 +1,27 @@
+{
+  "reviewed_observations": ["MAR_2016q2", "MAR_2016q3", "MAR_2016q4", "MAR_2017q1", "MAR_2017q2", "MAR_2017q3", "MAR_2017q4", "MAR_2018q1", "MAR_2018q2", "MAR_2018q3"],
+  "pd_overrides": {
+    "MAR_2016q2": {"contextual_analysis": {"Product / Users": {"rating": "positive", "reason": "Hotel demand remained positive. Worldwide comparable RevPAR rose 2.6%, including 2.4% in North America."}}, "wsj": {"Product / Users": {"rating": "positive", "reason": "Hotel demand supported revenue. Lodging strength contributed to the top-line beat."}, "Profits and profitability": {"rating": "positive", "reason": "Earnings beat expectations. Adjusted EPS exceeded consensus as lower overhead supported profit."}}},
+    "MAR_2016q3": {"contextual_analysis": {"Guidance": {"rating": "negative", "reason": "Growth guidance weakened. Marriott reduced full-year RevPAR expectations to about 3% from 4%."}, "Product / Users": {"rating": "positive", "reason": "Hotel demand remained positive but slowed. Worldwide RevPAR rose 2.9% and North America increased 3.2%."}}},
+    "MAR_2016q4": {"contextual_analysis": {"Product / Users": {"rating": "positive", "reason": "Hotel demand remained positive. Pro-forma worldwide RevPAR grew 2.2% and North America increased 2.6%."}, "Costs": {"rating": "negative", "reason": "Merger integration costs pressured reported results. GAAP profit was distorted by transaction expenses."}}, "wsj": {"Profits and profitability": {"rating": "neutral", "reason": "Profitability was mixed. Adjusted results beat expectations, while merger charges sharply reduced GAAP profit."}, "Costs": {"rating": "negative", "reason": "Merger charges reduced reported earnings. Integration costs accompanied below-consensus near-term guidance."}, "Litigation": {"rating": null, "reason": null}}},
+    "MAR_2017q1": {"contextual_analysis": {"Guidance": {"rating": "neutral", "reason": "The outlook was mixed. Conservative RevPAR assumptions were offset by substantial merger-synergy targets."}, "Product / Users": {"rating": "negative", "reason": "Hotel demand was subdued. Worldwide RevPAR rose only 0.8% and North America increased 1.1%."}}, "wsj": {"Product / Users": {"rating": "neutral", "reason": "RevPAR was in line with guidance. The demand result was modest rather than a major surprise."}, "Litigation": {"rating": null, "reason": null}}},
+    "MAR_2017q2": {"contextual_analysis": {"Product / Users": {"rating": "positive", "reason": "Hotel demand was strong. Worldwide and North American RevPAR both increased 3.1%."}}},
+    "MAR_2017q3": {"contextual_analysis": {"Product / Users": {"rating": "negative", "reason": "Domestic hotel demand weakened. North American RevPAR rose only 0.9%."}}, "wsj": {"Litigation": {"rating": null, "reason": null}}},
+    "MAR_2017q4": {"contextual_analysis": {"Guidance": {"rating": "negative", "reason": "Domestic growth guidance was weak. Marriott expected only 0%-2% North American RevPAR growth for 2018."}, "Product / Users": {"rating": "negative", "reason": "North American lodging demand remained weak. RevPAR increased only 0.4%, far below international growth."}}},
+    "MAR_2018q1": {"contextual_analysis": {"Guidance": {"rating": "negative", "reason": "The 2018 outlook was conservative. Worldwide RevPAR was guided to only 1%-3% despite a strong fourth quarter."}, "Product / Users": {"rating": "positive", "reason": "Current lodging demand was strong. Worldwide RevPAR rose 4.6%, including 3.9% in North America."}}},
+    "MAR_2018q2": {"contextual_analysis": {"Guidance": {"rating": "negative", "reason": "Near-term guidance missed expectations. Q2 EPS was guided to $1.34-$1.36 versus roughly $1.38 expected."}, "Product / Users": {"rating": "positive", "reason": "Global hotel demand improved. Worldwide RevPAR rose 3.6%, led by 7.5% international growth."}}},
+    "MAR_2018q3": {"contextual_analysis": {"Guidance": {"rating": "negative", "reason": "Near-term lodging guidance disappointed. Q3 North American RevPAR was projected at only 1.5%-2.0%."}, "Product / Users": {"rating": "positive", "reason": "Current hotel demand was healthy. Worldwide RevPAR rose 3.8%, including 5.7% internationally."}}}
+  },
+  "first_order": {
+    "MAR_2016q2": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": ["Revenue", "Profits and profitability"], "djnw": null},
+    "MAR_2016q3": {"contextual_analysis": ["Profits and profitability", "Guidance"], "wsj": null, "djnw": null},
+    "MAR_2016q4": {"contextual_analysis": ["Profits and profitability", "Product / Users"], "wsj": ["Guidance", "Costs"], "djnw": null},
+    "MAR_2017q1": {"contextual_analysis": null, "wsj": ["Revenue", "Profits and profitability"], "djnw": null},
+    "MAR_2017q2": {"contextual_analysis": ["Profits and profitability", "Product / Users"], "wsj": null, "djnw": ["Revenue", "Profits and profitability"]},
+    "MAR_2017q3": {"contextual_analysis": ["Guidance", "Product / Users"], "wsj": null, "djnw": ["Guidance"]},
+    "MAR_2017q4": {"contextual_analysis": ["Product / Users", "Guidance"], "wsj": null, "djnw": null},
+    "MAR_2018q1": {"contextual_analysis": ["Guidance"], "wsj": null, "djnw": null},
+    "MAR_2018q2": {"contextual_analysis": ["Guidance"], "wsj": null, "djnw": null},
+    "MAR_2018q3": {"contextual_analysis": ["Guidance"], "wsj": null, "djnw": null}
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "reviewed_observations": [
+    "AMZN_2016q2", "AMZN_2016q3", "AMZN_2016q4", "AMZN_2017q1", "AMZN_2017q2",
+    "AMZN_2017q3", "AMZN_2017q4", "AMZN_2018q1", "AMZN_2018q2", "AMZN_2018q3"
+  ],
+  "pd_overrides": {
+    "AMZN_2016q2": {
+      "contextual_analysis": {
+        "Costs": {"rating": null, "reason": null},
+        "Capex": {"rating": null, "reason": null},
+        "Management": {"rating": null, "reason": null},
+        "Others: eg. Covid, or macro events": {"rating": null, "reason": null}
+      },
+      "wsj": {
+        "Product / Users": {"rating": "positive", "reason": "AWS momentum was strong. Cloud revenue grew 64% and supplied 56% of operating profit from only 9% of company revenue."}
+      }
+    },
+    "AMZN_2016q3": {
+      "contextual_analysis": {
+        "Capex": {"rating": "negative", "reason": "Investment remained heavy. Amazon's cautious profit outlook reflected continued spending on growth."},
+        "Management": {"rating": null, "reason": null},
+        "Others: eg. Covid, or macro events": {"rating": null, "reason": null}
+      }
+    },
+    "AMZN_2016q4": {
+      "contextual_analysis": {
+        "Management": {"rating": null, "reason": null}
+      },
+      "wsj": {
+        "Guidance": {"rating": "negative", "reason": "Holiday guidance missed expectations. Revenue was guided to $42-$45.5 billion versus $44.6 billion expected."}
+      }
+    },
+    "AMZN_2017q1": {
+      "contextual_analysis": {
+        "Debt, leverage and capital raise": {"rating": null, "reason": null},
+        "Management": {"rating": null, "reason": null},
+        "Others: eg. Covid, or macro events": {"rating": null, "reason": null}
+      },
+      "wsj": {
+        "Costs": {"rating": "negative", "reason": "Investment pressure was increasing. Amazon planned substantial spending on hiring, air freight, and logistics infrastructure."}
+      }
+    },
+    "AMZN_2017q2": {
+      "contextual_analysis": {
+        "Management": {"rating": null, "reason": null}
+      }
+    },
+    "AMZN_2017q3": {
+      "contextual_analysis": {
+        "Management": {"rating": null, "reason": null}
+      }
+    },
+    "AMZN_2017q4": {
+      "contextual_analysis": {
+        "Debt, leverage and capital raise": {"rating": null, "reason": null}
+      }
+    },
+    "AMZN_2018q1": {
+      "contextual_analysis": {
+        "Debt, leverage and capital raise": {"rating": null, "reason": null}
+      }
+    },
+    "AMZN_2018q3": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "positive", "reason": "Profit guidance was strong. Q3 operating income was guided to $1.4-$2.4 billion versus $347 million a year earlier."}
+      },
+      "wsj": {
+        "Guidance": {"rating": "negative", "reason": "Revenue guidance missed expectations. Third-quarter sales were guided to $54-$57.5 billion, below consensus."}
+      }
+    }
+  },
+  "first_order": {
+    "AMZN_2016q2": {"contextual_analysis": ["Profits and profitability", "Product / Users"], "wsj": ["Profits and profitability", "Product / Users"], "djnw": null},
+    "AMZN_2016q3": {"contextual_analysis": ["Profits and profitability", "Product / Users"], "wsj": ["Profits and profitability", "Guidance"], "djnw": null},
+    "AMZN_2016q4": {"contextual_analysis": ["Profits and profitability", "Guidance"], "wsj": ["Profits and profitability", "Guidance"], "djnw": null},
+    "AMZN_2017q1": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": ["Revenue", "Guidance"], "djnw": null},
+    "AMZN_2017q2": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": ["Revenue", "Profits and profitability"], "djnw": null},
+    "AMZN_2017q3": {"contextual_analysis": ["Profits and profitability", "Costs"], "wsj": ["Profits and profitability", "Guidance"], "djnw": null},
+    "AMZN_2017q4": {"contextual_analysis": ["Profits and profitability", "Revenue"], "wsj": ["Revenue", "Profits and profitability"], "djnw": ["Revenue", "Profits and profitability"]},
+    "AMZN_2018q1": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": ["Revenue", "Profits and profitability"], "djnw": null},
+    "AMZN_2018q2": {"contextual_analysis": ["Profits and profitability", "Revenue"], "wsj": ["Profits and profitability", "Product / Users"], "djnw": null},
+    "AMZN_2018q3": {"contextual_analysis": ["Profits and profitability", "Revenue"], "wsj": ["Profits and profitability"], "djnw": null}
+  }
+}

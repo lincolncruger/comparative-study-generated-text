@@ -1,0 +1,98 @@
+{
+  "reviewed_observations": [
+    "PANW_2016q2", "PANW_2016q3", "PANW_2016q4", "PANW_2017q1", "PANW_2017q2",
+    "PANW_2017q3", "PANW_2017q4", "PANW_2018q1", "PANW_2018q2", "PANW_2018q3"
+  ],
+  "pd_overrides": {
+    "PANW_2016q2": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "negative", "reason": "Forward guidance disappointed. Q4 revenue and EPS ranges were below or near the low end of analysts' expectations."},
+        "Profits and profitability": {"rating": "neutral", "reason": "Earnings matched expectations. Adjusted EPS was approximately $0.42."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "The macro environment became more volatile. Management identified this as an added risk to growth."}
+      },
+      "wsj": {
+        "Revenue": {"rating": "positive", "reason": "Reported revenue beat prior guidance. Sales rose 48% to $345.8 million versus the company's $335-$339 million range."},
+        "Product / Users": {"rating": "positive", "reason": "The recurring-revenue model remained supportive. Subscription billings complemented next-generation firewall sales."},
+        "Profits and profitability": {"rating": "neutral", "reason": "Profitability was mixed. Adjusted EPS met expectations, while the GAAP loss widened as expenses increased."},
+        "Costs": {"rating": "negative", "reason": "Expenses grew faster than revenue. Operating costs increased 50% to approximately $309.5 million."}
+      }
+    },
+    "PANW_2016q3": {
+      "wsj": {
+        "Guidance": {"rating": "neutral", "reason": "Guidance was mixed. Full-year EPS guidance beat consensus, while current-quarter revenue and EPS guidance fell short."},
+        "Revenue": {"rating": "positive", "reason": "Reported revenue exceeded prior guidance. Sales rose 41% to approximately $400.8 million."},
+        "Profits and profitability": {"rating": "positive", "reason": "Adjusted earnings met the high end of guidance. EPS rose to approximately $0.50."},
+        "Costs": {"rating": "negative", "reason": "Expenses remained elevated. Operating costs rose 41% to approximately $344.5 million."}
+      }
+    },
+    "PANW_2016q4": {
+      "contextual_analysis": {
+        "Revenue": {"rating": "negative", "reason": "Revenue disappointed. Sales of $398.1 million fell below the midpoint of Palo Alto's prior guidance."},
+        "Product / Users": {"rating": "negative", "reason": "Product momentum slowed. Product revenue grew only about 11% while recurring services expanded much faster."}
+      },
+      "wsj": {
+        "Revenue": {"rating": "negative", "reason": "Revenue growth decelerated. Sales rose 34%, the company's slowest rate as a public company."},
+        "Product / Users": {"rating": "negative", "reason": "Demand indicators weakened. Billings of $516.9 million missed the approximately $525 million estimate."}
+      }
+    },
+    "PANW_2017q1": {
+      "contextual_analysis": {
+        "Management": {"rating": "negative", "reason": "Sales execution failed. Excessive territory splits and complicated segmentation reduced productivity and slowed pipeline conversion."}
+      },
+      "wsj": {
+        "Guidance": {"rating": "negative", "reason": "Growth guidance deteriorated. Management forecast only 17%-20% current-quarter sales growth."},
+        "Revenue": {"rating": "negative", "reason": "Revenue growth slowed sharply. Fiscal second-quarter sales grew 26%, the company's slowest recorded pace."},
+        "Product / Users": {"rating": "negative", "reason": "Competitive pressure increased. Analysts cited Cisco's ability to bundle security with broader networking products."},
+        "Profits and profitability": {"rating": null, "reason": null},
+        "Management": {"rating": "negative", "reason": "Management acknowledged structural sales-force problems and promised corrective changes."}
+      }
+    },
+    "PANW_2017q2": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "positive", "reason": "Forward guidance showed continued recovery. Palo Alto forecast Q4 revenue of $481-$491 million and EPS of $0.78-$0.80."},
+        "Management": {"rating": "positive", "reason": "Sales execution improved. Management reported progress repairing the problems disclosed in the prior quarter."}
+      },
+      "djnw": {
+        "Guidance": {"rating": null, "reason": null},
+        "Profits and profitability": {"rating": "positive", "reason": "Quarterly results beat expectations. Dow Jones cited the better-than-expected report as the reason shares jumped."}
+      }
+    },
+    "PANW_2017q3": {},
+    "PANW_2017q4": {
+      "contextual_analysis": {
+        "Profits and profitability": {"rating": "positive", "reason": "Profit expectations improved. Palo Alto raised full-year adjusted EPS guidance to $3.35-$3.41."}
+      }
+    },
+    "PANW_2018q1": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "positive", "reason": "Full-year guidance increased across revenue, product revenue, billings, and adjusted EPS."},
+        "Profits and profitability": {"rating": "positive", "reason": "Earnings beat expectations. Adjusted EPS was $0.97 versus approximately $0.79 expected, partly helped by taxes."}
+      }
+    },
+    "PANW_2018q2": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "positive", "reason": "Full-year guidance increased. Revenue was raised to $2.240-$2.250 billion and billings to $2.807-$2.822 billion."},
+        "Management": {"rating": "neutral", "reason": "A CEO transition created uncertainty. Nikesh Arora took leadership after the strong quarter had been preannounced."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "The good news was already priced in. Strong Q3 figures were preannounced before the formal June 4 release."}
+      }
+    },
+    "PANW_2018q3": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "positive", "reason": "Revenue guidance remained strong. Palo Alto forecast $625-$635 million for fiscal Q1 under the new accounting standard."},
+        "Profits and profitability": {"rating": "positive", "reason": "Earnings and cash generation were strong. Adjusted EPS reached $1.28 and free cash flow hit a record $252.5 million."}
+      }
+    }
+  },
+  "first_order": {
+    "PANW_2016q2": {"contextual_analysis": ["Guidance"], "wsj": ["Guidance"], "djnw": null},
+    "PANW_2016q3": {"contextual_analysis": ["Guidance"], "wsj": ["Guidance"], "djnw": null},
+    "PANW_2016q4": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": ["Product / Users", "Guidance"], "djnw": null},
+    "PANW_2017q1": {"contextual_analysis": ["Management", "Guidance"], "wsj": ["Management", "Guidance"], "djnw": null},
+    "PANW_2017q2": {"contextual_analysis": ["Revenue", "Management"], "wsj": null, "djnw": ["Profits and profitability"]},
+    "PANW_2017q3": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": null, "djnw": null},
+    "PANW_2017q4": {"contextual_analysis": ["Guidance", "Product / Users"], "wsj": null, "djnw": null},
+    "PANW_2018q1": {"contextual_analysis": ["Profits and profitability", "Guidance"], "wsj": null, "djnw": null},
+    "PANW_2018q2": {"contextual_analysis": ["Others: eg. Covid, or macro events", "Management"], "wsj": null, "djnw": null},
+    "PANW_2018q3": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": null, "djnw": null}
+  }
+}

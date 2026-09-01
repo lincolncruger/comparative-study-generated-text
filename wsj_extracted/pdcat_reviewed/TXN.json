@@ -1,0 +1,108 @@
+{
+  "reviewed_observations": [
+    "TXN_2016q2", "TXN_2016q3", "TXN_2016q4", "TXN_2017q1", "TXN_2017q2",
+    "TXN_2017q3", "TXN_2017q4", "TXN_2018q1", "TXN_2018q2", "TXN_2018q3"
+  ],
+  "pd_overrides": {
+    "TXN_2016q2": {
+      "contextual_analysis": {
+        "Revenue": {"rating": "neutral", "reason": "Revenue was within guidance but declined 5% year over year to approximately $3.01 billion."},
+        "Product / Users": {"rating": "neutral", "reason": "End-market demand was mixed. Automotive remained strong while personal electronics declined."},
+        "Profits and profitability": {"rating": "positive", "reason": "Profitability improved despite lower revenue. Core-segment operating margins and consolidated gross margin expanded."},
+        "Others: eg. Covid, or macro events": {"rating": null, "reason": null}
+      },
+      "wsj": {
+        "Guidance": {"rating": "positive", "reason": "Second-quarter guidance was slightly above consensus at its midpoint for both revenue and EPS."},
+        "Revenue": {"rating": "neutral", "reason": "Revenue was within company guidance but fell 4.5% to approximately $3.01 billion."},
+        "Product / Users": {"rating": "neutral", "reason": "Demand was mixed. Embedded-processor sales rose 8%, while analog sales and personal electronics declined."},
+        "Profits and profitability": {"rating": "positive", "reason": "Profit and margins improved. EPS rose to $0.65 and gross margin increased to 60.6%."}
+      }
+    },
+    "TXN_2016q3": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "positive", "reason": "End-market demand broadened. Automotive remained strong while industrial and communications equipment improved."}
+      }
+    },
+    "TXN_2016q4": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "neutral", "reason": "Fourth-quarter revenue and EPS guidance was broadly in line with expectations."},
+        "Product / Users": {"rating": "positive", "reason": "End-market demand remained favorable. Automotive stayed strong and industrial demand improved."}
+      },
+      "wsj": {
+        "Guidance": {"rating": "neutral", "reason": "Fourth-quarter guidance matched expectations. Revenue and EPS ranges bracketed analyst consensus."}
+      }
+    },
+    "TXN_2017q1": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "positive", "reason": "First-quarter EPS guidance exceeded expectations and revenue guidance remained constructive."},
+        "Product / Users": {"rating": "positive", "reason": "Demand was broad. Analog and Embedded Processing grew as industrial joined automotive strength."}
+      },
+      "wsj": {
+        "Product / Users": {"rating": "positive", "reason": "Demand remained strong in automotive and improved in industrial, supporting Analog and Embedded growth."}
+      }
+    },
+    "TXN_2017q2": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "positive", "reason": "Industrial and automotive demand accelerated. Analog revenue grew 20% and Embedded Processing increased 10%."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Expectations were elevated. The small decline followed a strong report without a verified negative operating catalyst."}
+      }
+    },
+    "TXN_2017q3": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "positive", "reason": "Automotive and industrial demand remained broad. Analog and Embedded Processing grew 18% and 15%, respectively."}
+      }
+    },
+    "TXN_2017q4": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "positive", "reason": "Industrial and automotive remained strong. Analog and Embedded Processing revenue grew 16% and 17%."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Expectations were already high. The stock was essentially flat despite a substantial operating beat."}
+      }
+    },
+    "TXN_2018q1": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "negative", "reason": "First-quarter revenue guidance disappointed investors despite remaining near sell-side consensus."},
+        "Revenue": {"rating": "positive", "reason": "Revenue narrowly beat expectations. Sales rose 10% to $3.75 billion."},
+        "Profits and profitability": {"rating": "neutral", "reason": "Underlying operations were strong, while a $0.75-per-share tax charge reduced reported EPS to $0.34."},
+        "Costs": {"rating": null, "reason": null},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "U.S. tax reform created a large one-time expense that distorted reported earnings."}
+      },
+      "djnw": {
+        "Guidance": {"rating": "neutral", "reason": "First-quarter revenue and EPS guidance was roughly in line with analyst consensus."},
+        "Revenue": {"rating": "positive", "reason": "Revenue narrowly beat expectations. Sales were $3.75 billion versus approximately $3.74 billion expected."},
+        "Profits and profitability": {"rating": "negative", "reason": "A $730 million tax charge reduced reported profit to $344 million and EPS to $0.34."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Tax reform produced a major transition charge, although it was expected to lower future tax rates."}
+      }
+    },
+    "TXN_2018q2": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "positive", "reason": "Industrial and automotive demand remained broad and resilient across Analog and Embedded Processing."}
+      }
+    },
+    "TXN_2018q3": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "neutral", "reason": "Third-quarter revenue and EPS guidance was roughly in line with expectations."},
+        "Product / Users": {"rating": "positive", "reason": "Industrial and automotive demand remained strong while core businesses sustained high margins."},
+        "Management": {"rating": "negative", "reason": "CEO succession became a governance concern after Brian Crutcher abruptly resigned over conduct violations."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Most quarterly figures had already been disclosed with the CEO change, leaving little incremental upside."}
+      },
+      "wsj": {
+        "Guidance": {"rating": "neutral", "reason": "Third-quarter guidance was approximately in line. The EPS and revenue ranges bracketed consensus."},
+        "Product / Users": {"rating": "positive", "reason": "Industrial and automotive demand remained strong and generated more than half of company revenue."},
+        "Management": {"rating": "negative", "reason": "Brian Crutcher resigned less than two months after becoming CEO because of personal conduct violations."},
+        "Others: eg. Covid, or macro events": {"rating": "neutral", "reason": "The results were largely preannounced with the CEO transition, limiting the amount of new information."}
+      }
+    }
+  },
+  "first_order": {
+    "TXN_2016q2": {"contextual_analysis": null, "wsj": ["Profits and profitability", "Guidance"], "djnw": null},
+    "TXN_2016q3": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": ["Guidance", "Product / Users"], "djnw": null},
+    "TXN_2016q4": {"contextual_analysis": null, "wsj": null, "djnw": null},
+    "TXN_2017q1": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": null, "djnw": null},
+    "TXN_2017q2": {"contextual_analysis": null, "wsj": null, "djnw": null},
+    "TXN_2017q3": {"contextual_analysis": ["Guidance", "Product / Users"], "wsj": null, "djnw": null},
+    "TXN_2017q4": {"contextual_analysis": null, "wsj": null, "djnw": null},
+    "TXN_2018q1": {"contextual_analysis": ["Guidance"], "wsj": null, "djnw": ["Profits and profitability"]},
+    "TXN_2018q2": {"contextual_analysis": ["Guidance", "Product / Users"], "wsj": null, "djnw": null},
+    "TXN_2018q3": {"contextual_analysis": ["Management", "Others: eg. Covid, or macro events"], "wsj": ["Others: eg. Covid, or macro events"], "djnw": null}
+  }
+}

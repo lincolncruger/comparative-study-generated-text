@@ -69,10 +69,18 @@ security's pre-rename history.
 
 ## Comparative Study
 
-The original Comparative Study section lets reviewers assess whether generated
-text is true and whether it accurately explains the post-earnings move. Answers
-are stored in `data/comparative_answers_241.json` and displayed throughout the
-dashboard. An **All** tab provides a ticker-by-ticker rating overview.
+The Comparative Study contains two subsections:
+
+- **Data Visualization 1** lets reviewers assess whether generated text is true
+  and whether it accurately explains the post-earnings move. Answers are stored
+  in `data/comparative_answers_241.json`.
+- **Data Visualization 2** lets reviewers independently rate the contextualized,
+  WSJ, and DJNW coverage as **Accurate** or **Not accurate** for every available
+  observation. Answers are stored in
+  `data/group_coverage_accuracy_answers.json` and displayed beneath the matching
+  coverage in the original Data Visualization 2 section.
+
+Each subsection includes an **All** overview for quickly checking rating status.
 
 ## Rebuilding the data
 

@@ -6,16 +6,12 @@
         "reason": null
       },
       "Order book / order backlog": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Orders weakened materially. Organic orders fell 7% as Oil & Gas and Transportation demand deteriorated."
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Adjusted industrial revenue was about $27.6 billion, roughly in line with expectations."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Underlying revenue weakened. Organic industrial segment revenue declined 1% despite adjusted revenue being roughly in line."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -44,6 +40,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -58,10 +58,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. GE reported first-quarter revenue up 6.1% to $27.85 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -90,6 +86,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": {
@@ -105,13 +105,9 @@
         "rating": "negative",
         "reason": "Revenue performance was weak. Revenue up 6.1% to $27.85 billion."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. The company posted adjusted earnings of $0.21 per share on revenue of $27.6 billion."
+        "rating": "negative",
+        "reason": "Reported profitability disappointed. Dow Jones associated the premarket decline with GE's overall net loss despite an adjusted beat."
       },
       "Costs": {
         "rating": null,
@@ -136,6 +132,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -146,16 +146,12 @@
         "reason": "Guidance was encouraging. GE reaffirmed full-year earnings guidance and continued large shareholder returns."
       },
       "Order book / order backlog": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Equipment demand weakened. Organic orders were soft as Oil & Gas and Transportation remained major drags."
       },
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 revenue rose to $33.5 billion and adjusted EPS reached $0.51, both above consensus."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -182,6 +178,10 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "Cash conversion disappointed. Free cash flow was roughly $1 billion below expectations."
+      },
+      "Product": {
         "rating": null,
         "reason": null
       }
@@ -192,16 +192,12 @@
         "reason": "Guidance was encouraging. GE beat profit forecasts for the second quarter, reporting net income of $2.74 billion compared with a $1.36 billion loss a year earlier."
       },
       "Order book / order backlog": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Industrial demand weakened. Orders fell 16%, a forward indicator that outweighed the quarterly profit beat."
       },
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue up 15% to $33.5 billion helped by the prior year's Alstom power-business acquisition."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -230,6 +226,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. CFO Jeffrey Bornstein attributed the pressure to slow global economic growth and geopolitical turbulence."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": null
@@ -247,10 +247,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. Q3 revenue increased 4% to $29.27 billion but missed the roughly $29.64 billion consensus."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -279,6 +275,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -293,10 +293,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. GE cut its full-year sales forecast after reporting third-quarter organic orders down 6% and industrial profit down 4.6% to $4.32 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -325,6 +321,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": null
@@ -332,8 +332,8 @@
   "GE_2017q1": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. GE reaffirmed 2017 EPS guidance of $1.60–$1.70, yet the quarter did little to increase confidence that the industrial portfolio was already inflecting."
+        "rating": "neutral",
+        "reason": "Guidance was reaffirmed. GE maintained its 2017 EPS range of $1.60-$1.70 without raising it."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -343,13 +343,9 @@
         "rating": "negative",
         "reason": "Revenue performance was weak. Fourth-quarter revenue was about $33.1 billion, slightly below consensus."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. Adjusted EPS of $0.46 was essentially in line."
+        "rating": "neutral",
+        "reason": "Earnings were in line. Adjusted EPS of $0.46 roughly matched expectations."
       },
       "Costs": {
         "rating": null,
@@ -374,6 +370,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -388,10 +388,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. GE reported fourth-quarter revenue down 2% to $33.1 billion."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. GE fell short of its own delivery targets for high-tech products: it shipped only 77 of a planned 100 new LEAP aircraft engines (targeting about 500 in 2017)."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -420,6 +416,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. CEO Jeff Immelt said GE had performed well \"given its exposure to a world economy that is growing slowly."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. GE fell short of its own delivery targets for high-tech products: it shipped only 77 of a planned 100 new LEAP aircraft engines (targeting about 500 in 2017)."
       }
     },
     "djnw": null
@@ -427,8 +427,8 @@
   "GE_2017q2": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Reaffirmed full-year cash guidance limited the damage but required a very large second-half recovery."
+        "rating": "neutral",
+        "reason": "Guidance was reaffirmed. GE maintained its full-year cash-flow target despite a weak first quarter."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -437,10 +437,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q1 revenue was about $27.66 billion and adjusted EPS $0.21, both above consensus."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -467,6 +463,10 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "Cash conversion badly missed plan. Industrial cash flow was negative $1.6 billion, about $1 billion worse than GE expected."
+      },
+      "Product": {
         "rating": null,
         "reason": null
       }
@@ -483,10 +483,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. GE reported first-quarter organic revenue up 7%."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -515,6 +511,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": {
@@ -529,10 +529,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. 7% organic revenue growth, net income of $653 million versus $228 million a year earlier."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -561,6 +557,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -577,10 +577,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 adjusted EPS was $0.28, above consensus near $0.25, and revenue of $29.6 billion also topped expectations."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -609,6 +605,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -623,10 +623,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. GE backed its prior 2017 forecast of $1.60 to $1.70 a share in earnings and 3% to 5% organic sales growth but warned profit would land at the weak end of that range."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -655,6 +651,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": {
@@ -669,10 +669,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue down 12% to $29.56 billion versus a $29.02 billion estimate."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -701,6 +697,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -715,12 +715,8 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "negative",
-        "reason": "Revenue performance was weak. GE reported adjusted EPS of only $0.29, far below consensus near $0.49, even though revenue of $33.47 billion beat expectations."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "positive",
+        "reason": "Revenue beat expectations. Quarterly sales of $33.47 billion exceeded consensus despite severe Power weakness."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -739,14 +735,18 @@
         "reason": null
       },
       "Management": {
-        "rating": null,
-        "reason": null
+        "rating": "positive",
+        "reason": "Management's reset reassured some investors. The new CEO outlined $20 billion of asset sales and an accounting overhaul."
       },
       "Litigation": {
         "rating": null,
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      },
+      "Product": {
         "rating": null,
         "reason": null
       }
@@ -763,10 +763,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue rose 14% to $33.5 billion, beating a $32.56 billion estimate, boosted by the Baker Hughes oil-and-gas merger."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -785,14 +781,18 @@
         "reason": null
       },
       "Management": {
-        "rating": "negative",
-        "reason": "Management struck a cautious tone. Blaming prior management for overestimating demand and carrying too much inventory: I'm disappointed in the power business."
+        "rating": "positive",
+        "reason": "Management's decisive reset supported the rebound. Flannery presented a $20 billion asset-sale plan and accounting overhaul."
       },
       "Litigation": {
         "rating": null,
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      },
+      "Product": {
         "rating": null,
         "reason": null
       }
@@ -809,10 +809,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue, however, rose 14% to $33.5 billion from $29.3 billion, beating an analyst estimate of $32.56 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -841,6 +837,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -857,10 +857,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. GE reported adjusted EPS of $0.27, below consensus around $0.29, and revenue of about $31.4 billion, well below forecasts near $33.8 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -889,6 +885,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -901,12 +901,8 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. GE disclosed that securities regulators had opened a probe into how the company recognized revenue on long-term service contracts."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Revenue missed expectations. Sales of about $31.4 billion were well below forecasts near $33.8 billion."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -929,10 +925,14 @@
         "reason": null
       },
       "Litigation": {
-        "rating": "positive",
-        "reason": "The legal development was favorable. GE disclosed that securities regulators had opened a probe into how the company recognized revenue on long-term service contracts."
+        "rating": "negative",
+        "reason": "Regulatory risk increased. GE disclosed an SEC investigation into insurance reserves and revenue-recognition controls."
       },
       "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      },
+      "Product": {
         "rating": null,
         "reason": null
       }
@@ -949,10 +949,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. Revenue declined 5.1% to $31.4 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -981,14 +977,18 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
   "GE_2018q2": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "negative",
-        "reason": "Guidance was disappointing. Importantly, GE reaffirmed full-year EPS and free-cash-flow guidance rather than cutting it."
+        "rating": "neutral",
+        "reason": "Guidance was reaffirmed. Avoiding another cut was reassuring against extremely depressed expectations."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -997,10 +997,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue rose about 7% to $28.66 billion, also above expectations."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1029,6 +1025,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -1043,10 +1043,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue rose 7% to $28.66 billion, beating a $27.45 billion estimate, aided by the prior year's Baker Hughes oil-and-gas merger."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1075,6 +1071,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": null
@@ -1082,20 +1082,16 @@
   "GE_2018q3": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. The stock fell because GE cut its free-cash-flow outlook despite beating EPS and revenue estimates."
+        "rating": "negative",
+        "reason": "Cash-flow guidance was cut. GE reduced expected industrial free cash flow to about $6 billion from $6-$7 billion."
       },
       "Order book / order backlog": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Power demand deteriorated. Segment orders fell 26% while revenue declined 19%."
       },
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 adjusted EPS was $0.19, one cent above consensus, and revenue of $30.1 billion exceeded expectations near $29.4 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1124,24 +1120,24 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. The company backed its 2018 profit goal of $1.00 to $1.07 a share (versus an analyst estimate of just 95 cents) while trimming its adjusted free-cash-flow guidance to about."
+        "rating": "negative",
+        "reason": "The forward outlook weakened. GE trimmed turbine expectations and emphasized tariff, capital, and multiyear Power risks."
       },
       "Order book / order backlog": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Power demand remained weak. Lower turbine expectations reinforced the long turnaround timeline."
       },
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. GE trimmed its 2018 gas-turbine sales forecast to \"about 50\" from a prior 50-to-55 range."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -1168,6 +1164,10 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      },
+      "Product": {
         "rating": null,
         "reason": null
       }

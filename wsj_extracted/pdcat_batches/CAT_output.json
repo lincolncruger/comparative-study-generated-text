@@ -13,10 +13,6 @@
         "rating": "negative",
         "reason": "Revenue performance was weak. Caterpillar reported $9.46 billion of sales and revenue, down from $12.7 billion a year earlier."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
         "rating": "negative",
         "reason": "Profitability was weak. Adjusted profit excluding restructuring costs was $0.67 per share, missing consensus by about one cent even though revenue slightly exceeded expectations."
@@ -44,6 +40,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -58,10 +58,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. As sales fell 26% to $9.5 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -88,8 +84,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": "positive",
-        "reason": "The broader backdrop was supportive. CEO Doug Oberhelman struck a cautiously more upbeat note on China."
+        "rating": "negative",
+        "reason": "Expectations limited the reaction. Shares had already rallied about one-third from their January low before the guidance cut."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": {
@@ -104,10 +104,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. The company narrowed its full-year revenue outlook to $40 billion to $42 billion, down from a prior $40 billion to $44 billion range."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -136,6 +132,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. The piece details where the weakness was concentrated, noting Latin American sales plunged 43% amid economic distress in Brazil and Mexico."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -153,17 +153,13 @@
         "rating": "negative",
         "reason": "Revenue performance was weak. Q2 sales and revenue were $10.34 billion, down 16% year over year."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. Adjusted profit was $1.09 per share."
       },
       "Costs": {
-        "rating": "negative",
-        "reason": "Costs were a headwind. Caterpillar’s restructuring and cost-control efforts produced better decremental margins than the magnitude of the sales decline would normally imply."
+        "rating": "positive",
+        "reason": "Cost control supported earnings. Restructuring produced better profit resilience than the 16% sales decline implied."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -184,6 +180,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -198,10 +198,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Caterpillar topped second-quarter profit and sales expectations, reporting earnings per share of $1.09 excluding restructuring costs."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -230,6 +226,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. We're a little more negative on the world economy."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": null
@@ -245,12 +245,8 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Caterpillar reported $9.16 billion of sales and revenue and adjusted profit of $0.85 per share."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Revenue remained weak. Sales were $9.16 billion and management lowered its 2016 outlook again."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -279,6 +275,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. China construction showed some improvement."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -293,10 +293,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. As revenue fell 16% to $9.2 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -325,6 +321,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": null
@@ -343,13 +343,9 @@
         "rating": "negative",
         "reason": "Revenue performance was weak. Q4 sales and revenue were about $9.6 billion, below consensus."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. On an adjusted basis, profit was substantially better than the headline loss suggested."
+        "rating": "positive",
+        "reason": "Adjusted earnings were resilient. Underlying profit was substantially better than the GAAP loss distorted by restructuring and noncash charges."
       },
       "Costs": {
         "rating": "negative",
@@ -374,6 +370,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -389,17 +389,13 @@
         "rating": "negative",
         "reason": "Revenue performance was weak. As revenue fell to $9.6 billion from $11 billion."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. New CEO Jim Umpleby said, We continue to execute in a challenging economic environment and are focused on improving operating margins, profitability and shareholder returns."
+        "rating": "positive",
+        "reason": "Adjusted earnings beat expectations. The underlying result exceeded consensus despite a large reported loss."
       },
       "Costs": {
-        "rating": "positive",
-        "reason": "Cost execution was favorable. Excluding higher-than-expected restructuring costs, pension and retirement-benefit losses."
+        "rating": "negative",
+        "reason": "Charges hurt reported earnings. Restructuring and noncash items produced a large GAAP loss."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -420,6 +416,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Dollar following President Trump's election could hurt export-dependent sales."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": null
@@ -437,10 +437,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q1 sales and revenue rose to $9.82 billion, the first year-over-year increase in 10 quarters."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -469,6 +465,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Resource Industries sales increased as mining conditions improved, and China construction demand strengthened."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -484,13 +484,9 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Caterpillar reported its first quarterly sales increase since 2015 for the period ended March 31 and raised its full-year revenue outlook to as much as $41 billion."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. Weakness in key markets,\" calling his first quarter as CEO \"eventful.\" Overall profit was $192 million."
+        "rating": "positive",
+        "reason": "Earnings beat expectations. The strong profit result accompanied Caterpillar's first sales increase since 2015."
       },
       "Costs": {
         "rating": "positive",
@@ -515,6 +511,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": {
@@ -529,10 +529,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. The article reports Caterpillar's first quarterly sales increase since 2015, describing it as a signal of recovery after years of declining demand."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -561,6 +557,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -577,10 +577,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 sales and revenue increased to $11.3 billion from $10.3 billion a year earlier."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -609,6 +605,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Particularly strong China construction activity and North American gas-compression demand."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -623,10 +623,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Which if achieved would mark the company's first year-over-year revenue increase since 2012."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -655,6 +651,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. The company pointed to growing demand in China's construction sector, tied to government infrastructure spending."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": {
@@ -669,10 +669,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. The article reports Caterpillar's second-quarter revenue rose 10% to $11.3 billion with profit of $802 million."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -701,6 +697,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. The piece cites growing demand in China's construction sector, a revitalizing mining industry."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -717,10 +717,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q3 sales and revenue reached about $11.4 billion, up roughly 25% year over year."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -749,6 +745,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -763,10 +763,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Caterpillar raised its full-year sales and profit forecast, now expecting roughly $44 billion in revenue, up from a July forecast of $43 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -795,12 +791,16 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Particularly from an improving North American oil-and-gas industry and demand for large excavators in China."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": {
       "Guidance": {
-        "rating": "negative",
-        "reason": "Guidance was disappointing. Lifted adjusted profit-per-share guidance to $6.25 from $5."
+        "rating": "positive",
+        "reason": "Guidance improved. Caterpillar raised its full-year sales and adjusted-profit outlook after the beat."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -809,10 +809,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue climbed 25% to $11.41 billion, exceeding analyst expectations of $10.65 billion in revenue and $1.27 in adjusted EPS."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -841,6 +837,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -857,10 +857,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q4 sales and revenue jumped 35% to $12.9 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -889,6 +885,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Contemporaneous coverage emphasized trade-war/currency concerns and the exceptionally high expectations already embedded in the stock."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -901,16 +901,12 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "negative",
-        "reason": "Revenue performance was weak. Caterpillar reported that annual revenue jumped 18% to $45.5 billion in 2017, breaking a four-year streak of declining sales."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "positive",
+        "reason": "Revenue recovered. Sales ended a four-year annual decline and exceeded expectations."
       },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. Versus a year-earlier loss of $1.17 billion."
+        "rating": "positive",
+        "reason": "Adjusted earnings beat expectations. Investors looked past the tax-related GAAP loss."
       },
       "Costs": {
         "rating": null,
@@ -935,6 +931,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. The largest gains coming from North America and, in Asia-Pacific, from China amid increased building construction and infrastructure investment."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": {
@@ -949,10 +949,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. For the full year, revenue surged 18% to $45.5 billion, which the article says ended four consecutive years of sales declines."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -981,6 +977,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. To a stabilizing Latin America even as construction there remained weak."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -997,10 +997,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q1 sales and revenue jumped 31% to $12.9 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1029,6 +1025,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -1044,17 +1044,13 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Caterpillar reported that first-quarter sales rose 31% on strong global construction and mining activity."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. Overall profit more than doubling to $1.67 billion, or $2.74 a share, from $192 million, or 32 cents a share, a year earlier."
       },
       "Costs": {
-        "rating": "positive",
-        "reason": "Cost execution was favorable. Flagged rising raw-material and steel costs."
+        "rating": "negative",
+        "reason": "Cost pressure threatened margins. Management warned that steel and other material expenses would rise later in the year."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -1065,8 +1061,8 @@
         "reason": null
       },
       "Management": {
-        "rating": "positive",
-        "reason": "Management struck a confident tone. On the analyst call, top executives said the quarter could prove to be a \"high-water mark\" for the year."
+        "rating": "negative",
+        "reason": "Management's wording alarmed investors. Calling first-quarter margins a high-water mark reset expectations for the rest of the year."
       },
       "Litigation": {
         "rating": null,
@@ -1075,6 +1071,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Director of investor relations Amy Campbell saying demand for 10-ton excavators in China was now expected to rise 30% this year, up from an earlier 8% forecast."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": null
@@ -1092,10 +1092,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 sales and revenue increased 24% to $14.0 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1124,6 +1120,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -1139,17 +1139,13 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. As equipment sales rose 25% on strong demand from oil."
       },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Total sales, including financial products, rose 24% to $14.01 billion versus the $13.88 billion analysts polled by Thomson Reuters had forecast."
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. Caterpillar reported second-quarter profit that more than doubled from a year earlier."
       },
       "Costs": {
-        "rating": "positive",
-        "reason": "Cost execution was favorable. Also disclosed that new Trump-administration tariffs on imported metals and components would raise its material costs by $100 million to $200 million over the rest of."
+        "rating": "negative",
+        "reason": "Costs threatened the outlook. Tariffs were expected to add $100-$200 million, while freight and supply-chain pressure increased."
       },
       "Debt, leverage and capital raise": {
         "rating": "positive",
@@ -1170,6 +1166,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Total sales, including financial products, rose 24% to $14.01 billion versus the $13.88 billion analysts polled by Thomson Reuters had forecast."
       }
     },
     "djnw": null

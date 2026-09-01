@@ -13,10 +13,6 @@
         "rating": "negative",
         "reason": "Revenue performance was weak. TI reported $3.01 billion of revenue, down 5% year over year, and $0.65 of EPS."
       },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Gross margin reached roughly 59.9%, reflecting TI’s product mix and the structural manufacturing-cost advantage from 300-mm Analog production."
-      },
       "Profits and profitability": {
         "rating": "negative",
         "reason": "Profitability was weak. TI reported $3.01 billion of revenue, down 5% year over year, and $0.65 of EPS."
@@ -44,6 +40,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Higher core-segment margins and 300-mm economics kept the underlying earnings quality strong."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Gross margin reached roughly 59.9%, reflecting TI’s product mix and the structural manufacturing-cost advantage from 300-mm Analog production."
       }
     },
     "wsj": {
@@ -58,10 +58,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. The article reports that Texas Instruments posted slightly higher profit for the first quarter even as sales fell in its personal-electronics segment."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. The latter used in products ranging from electric toothbrushes to driver-assistance systems."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -90,6 +86,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The latter used in products ranging from electric toothbrushes to driver-assistance systems."
       }
     },
     "djnw": null
@@ -107,10 +107,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 revenue rose to $3.27 billion and EPS reached $0.76, above consensus near $3.20 billion and $0.72."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -139,6 +135,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -153,10 +153,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Versus an analyst consensus of 81 cents on $3.4 billion."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. CEO Rich Templeton is quoted saying demand for TI's products \"continued to be strong\" in automotive and \"grew\" in industrial and communications equipment."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -185,6 +181,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. CEO Rich Templeton is quoted saying demand for TI's products \"continued to be strong\" in automotive and \"grew\" in industrial and communications equipment."
       }
     },
     "djnw": null
@@ -202,10 +202,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q3 revenue reached $3.68 billion and EPS $0.94, both above consensus and slightly above TI’s expected range."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -234,6 +230,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -248,10 +248,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Analog chip sales rose 6.5% to $2.32 billion and embedded processor sales rose 10% to $795 million."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -280,6 +276,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": null
@@ -297,10 +297,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q4 revenue increased 7% to $3.41 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -329,6 +325,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -343,10 +343,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue guidance of $3.17 billion to $3.43 billion bracketing the analyst consensus of $3.21 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -375,6 +371,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": null
@@ -392,10 +392,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q1 revenue rose 13% to $3.40 billion, the company’s first quarter of double-digit revenue growth since 2010."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -424,6 +420,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": null,
@@ -442,10 +442,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 revenue increased 13% to $3.69 billion and EPS rose to $1.03."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -474,6 +470,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": null,
@@ -492,10 +492,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q3 revenue reached $4.12 billion, up 12%, and EPS was $1.26, both comfortably above consensus."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -524,6 +520,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": null,
@@ -542,10 +542,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q4 revenue increased 10% to $3.75 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -574,6 +570,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": null,
@@ -589,10 +589,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. The article reports that Texas Instruments posted fourth-quarter revenue growth alongside a significant tax-related charge that hurt short-term profitability."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -621,6 +617,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -637,10 +637,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q1 revenue increased 11% to $3.79 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -669,6 +665,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": null,
@@ -687,10 +687,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 revenue increased 9% to $4.02 billion and EPS reached $1.40, including a $0.03 discrete tax benefit."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -719,6 +715,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -733,10 +733,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Which together account for more than half of company revenue and drove a 9% revenue increase to $4 billion in the second quarter."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -763,6 +759,10 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      },
+      "Product": {
         "rating": null,
         "reason": null
       }

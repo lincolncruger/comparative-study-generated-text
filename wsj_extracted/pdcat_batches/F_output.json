@@ -13,10 +13,6 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Automotive revenue reached about $37.7 billion and the automotive operating margin was a record 9.8%."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. Ford delivered a record quarter: $3.8 billion of adjusted pre-tax profit, $2.5 billion of net income, and $0.68 of adjusted EPS, versus roughly $0.46 expected."
@@ -44,6 +40,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -59,13 +59,9 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. North American operating profit nearly doubling to a record $3.1 billion as U.S."
       },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Ford flagged an upcoming Super Duty truck launch in the third quarter -- its first major overhaul in 19 years -- as a further earnings driver for the back."
-      },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. Showed net income more than doubling to $2.5 billion (61 cents a share) from $1.2 billion (29 cents) a year earlier."
+        "rating": "positive",
+        "reason": "Earnings handily beat expectations. Adjusted EPS exceeded the $0.48 consensus as North American margins reached a record."
       },
       "Costs": {
         "rating": null,
@@ -90,6 +86,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Asia Pacific profit doubling to $220 million on China strength (equity income from Chinese joint ventures up 23% to $443 million)."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Ford flagged an upcoming Super Duty truck launch in the third quarter -- its first major overhaul in 19 years -- as a further earnings driver for the back."
       }
     },
     "djnw": null
@@ -97,8 +97,8 @@
   "F_2016q3": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. The more damaging signal was management’s macro/industry outlook."
+        "rating": "negative",
+        "reason": "Guidance weakened. Ford warned that full-year profit guidance was at risk as the U.S. auto cycle matured."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -108,17 +108,13 @@
         "rating": null,
         "reason": null
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. Ford reported $2.0 billion of net income and $3.0 billion of adjusted pre-tax profit."
+        "rating": "negative",
+        "reason": "Earnings missed expectations. Adjusted EPS was $0.52 versus roughly $0.60 expected."
       },
       "Costs": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Pricing pressure increased. Higher incentives weakened North American profitability."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -139,6 +135,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. North American profit declined as incentives rose, and Asia Pacific posted a quarterly loss amid weaker-than-expected China performance."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -153,10 +153,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. Combined with weaker China sales."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Showed profit falling 9% as the company was unable to match the prior year's pace set shortly after the F-150 relaunch."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -185,6 +181,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Asia Pacific swung to an $8 million operating loss on weaker China sales and share losses to domestic Chinese automakers."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Showed profit falling 9% as the company was unable to match the prior year's pace set shortly after the F-150 relaunch."
       }
     },
     "djnw": null
@@ -192,8 +192,8 @@
   "F_2016q4": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Europe and China improved, and Ford maintained its revised full-year adjusted pre-tax profit outlook near $10.2 billion."
+        "rating": "neutral",
+        "reason": "Guidance was reaffirmed. Ford maintained its revised full-year adjusted pre-tax profit outlook near $10.2 billion."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -203,17 +203,13 @@
         "rating": null,
         "reason": null
       },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Three factors explained most of the deterioration: a roughly $600 million door-latch recall, launch costs for the new Super Duty pickup."
-      },
       "Profits and profitability": {
         "rating": "negative",
         "reason": "Profitability was weak. Third-quarter net income fell 56% to $957 million and adjusted EPS was about $0.26, roughly in line with the low bar management had established."
       },
       "Costs": {
-        "rating": "positive",
-        "reason": "Cost execution was favorable. Recall and Super Duty launch costs were large but partly temporary."
+        "rating": "negative",
+        "reason": "Temporary costs hurt profit. A door-latch recall and Super Duty launch expense materially reduced North American earnings."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -234,6 +230,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Reaffirmed annual guidance and better Europe/China results limited the downside."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Three factors explained most of the deterioration: a roughly $600 million door-latch recall, launch costs for the new Super Duty pickup."
       }
     },
     "wsj": {
@@ -248,10 +248,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. Revenue fell 6% to $35.9 billion on weaker U.S."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Product-launch costs."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -280,6 +276,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Regionally, Europe posted a $138 million operating profit versus $9 million a year earlier despite Brexit-related currency and sales pressure."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Product-launch costs."
       }
     },
     "djnw": {
@@ -294,10 +294,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. Revenue declined 6% to $35.9 billion as global deliveries slipped slightly."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. North American margins were squeezed by that recall expense, launch costs."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -326,6 +322,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. China and Europe operations improved."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. North American margins were squeezed by that recall expense, launch costs."
       }
     }
   },
@@ -343,13 +343,9 @@
         "rating": null,
         "reason": null
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. On an adjusted basis, however, Ford earned about $0.30 per share, close to consensus, and North America remained strongly profitable with an 8.5% operating margin."
+        "rating": "neutral",
+        "reason": "Adjusted earnings were broadly in line. The GAAP loss primarily reflected pension remeasurement and a canceled factory."
       },
       "Costs": {
         "rating": null,
@@ -374,6 +370,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -388,10 +388,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. Revenue fell 4% to $38.7 billion on lower global wholesales, including a 2% U.S."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -420,6 +416,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Fourth-quarter operating profit fell 20% to $2.1 billion on headwinds in China, where new-car pricing continued to weaken, plus lower results at Ford Credit."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": null
@@ -427,8 +427,8 @@
   "F_2017q2": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Management explained that some of the upside reflected timing of costs and wholesale volume, and therefore did not materially improve the full-year outlook."
+        "rating": "neutral",
+        "reason": "The outlook did not improve. Timing-related upside left Ford's full-year expectations largely unchanged."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -438,17 +438,13 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Automotive revenue was about $36.5 billion."
       },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Adjusted pre-tax profit fell sharply year over year as commodities, warranty/recall expense, engineering and product-launch costs rose."
-      },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. Ford reported adjusted EPS of $0.39, above consensus near $0.35 and above its own prior $0.30–$0.35 indication."
+        "rating": "negative",
+        "reason": "Underlying profitability weakened. Adjusted pre-tax profit fell sharply despite the headline EPS beat."
       },
       "Costs": {
-        "rating": "positive",
-        "reason": "Cost execution was favorable. Commodity, engineering and warranty costs were still compressing automotive margins."
+        "rating": "negative",
+        "reason": "Costs compressed margins. Commodity, warranty, engineering, and product-launch expenses increased."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -469,6 +465,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Strong truck economics remained intact."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Adjusted pre-tax profit fell sharply year over year as commodities, warranty/recall expense, engineering and product-launch costs rose."
       }
     },
     "wsj": {
@@ -483,10 +483,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. The company faced lower China sales, an unfavorable Brexit-driven European exchange-rate impact, and a cooling U.S."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -515,6 +511,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. The article frames the modest decline around the tough comparison' to the prior year's record quarter and the ongoing pressures described."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": {
@@ -529,10 +529,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue rose 4% to $39.1 billion on a favorable mix toward trucks and SUVs."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -561,14 +557,18 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Europe's pretax profit fell to $176 million from $434 million on Brexit-related currency effects, and Asia Pacific profit fell to $124 million from $220 million."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
   "F_2017q3": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Ford modestly raised EPS guidance."
+        "rating": "negative",
+        "reason": "Underlying guidance weakened. Ford still expected full-year pre-tax profit, margins, and cash flow below 2016."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -578,13 +578,9 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Ford reported $39.9 billion of revenue, about $2.0 billion of net income, and adjusted EPS of $0.56, well above consensus near $0.43."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. Ford reported $39.9 billion of revenue, about $2.0 billion of net income, and adjusted EPS of $0.56, well above consensus near $0.43."
+        "rating": "negative",
+        "reason": "Underlying profit declined. Adjusted pre-tax profit fell 16%, while a lower tax rate inflated headline EPS."
       },
       "Costs": {
         "rating": "negative",
@@ -609,6 +605,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Yet adjusted pre-tax profit fell 16% year over year, largely because of higher steel costs and unfavorable currency movements."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -623,10 +623,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. Revenue rose to $39.9 billion from $39.5 billion despite a 3% U.S."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -655,6 +651,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Unfavorable China and European exchange rates."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": {
@@ -669,10 +669,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Adjusted EPS of 56 cents beating the 43-cent consensus, on revenue of $39.9 billion versus $39.5 billion a year earlier."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -701,6 +697,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Operating income nonetheless fell 16% to $2.5 billion due to higher commodity costs, unfavorable foreign-exchange effects in China and Europe."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -715,12 +715,8 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "negative",
-        "reason": "Revenue performance was weak. The improvement was driven by high-margin F-Series pickup sales and pricing, lower costs, better South America/Asia performance, and a favorable tax rate."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "positive",
+        "reason": "Revenue performance improved. Strong F-Series pricing and better international operations supported the rebound."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -749,6 +745,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -763,10 +763,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Driven by F-Series truck sales that likely made up more than half of the quarter's $2 billion in operating profits."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -795,6 +791,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Ford posted a surprise European loss tied to continued Brexit fallout and thinner China margins from pricing pressure."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": {
@@ -809,10 +809,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Adjusted EPS of 43 cents beat the 33-cent consensus, and revenue of $36.5 billion topped the $32.8 billion analysts expected."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -841,6 +837,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Europe posted an unexpected Brexit-related loss and China saw margin compression from competitive pricing."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -858,17 +858,13 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Q4 revenue increased nearly 7% to $41.3 billion."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
         "rating": "negative",
         "reason": "Profitability was weak. Adjusted pre-tax profit fell 19% to $1.7 billion."
       },
       "Costs": {
-        "rating": "positive",
-        "reason": "Cost execution was favorable. Strong F-Series sales and Ford Credit were offset by higher steel/aluminum costs, unfavorable exchange rates and lower China profitability."
+        "rating": "negative",
+        "reason": "Costs pressured margins. Steel, aluminum, currency, and future-technology spending reduced earnings."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -889,6 +885,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. China weakness and future-tech spending made the profit problem broader than a single commodity cycle."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -903,10 +903,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue rose 7% to $41.3 billion, beating the roughly $37 billion analysts expected."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -935,6 +931,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Which missed the 42-cent EPS consensus and came with a reiterated weak 2018 outlook amid rising commodity and currency costs."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": {
@@ -949,10 +949,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fourth-quarter revenue rose 7% to $41.3 billion, well above the roughly $37 billion analysts expected."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -981,6 +977,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Which management estimated would cut 2018 results by $1.6 billion versus 2017."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -997,10 +997,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Ford reported $42.0 billion of revenue, up 7%, and adjusted EPS of $0.43, above consensus near $0.41."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1019,14 +1015,18 @@
         "reason": "Capital investment was constructive. Ford identified another $11.5 billion of cost and efficiency opportunities, targeted an 8% adjusted EBIT margin by 2020, reduced planned capital spending."
       },
       "Management": {
-        "rating": null,
-        "reason": null
+        "rating": "positive",
+        "reason": "Management presented a clearer turnaround plan. Ford targeted $11.5 billion of efficiencies and an 8% adjusted EBIT margin by 2020."
       },
       "Litigation": {
         "rating": null,
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      },
+      "Product": {
         "rating": null,
         "reason": null
       }
@@ -1043,10 +1043,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Dealerships so trucks and SUVs eventually make up 90% of sales volume."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. We can make different investments, we can partner, we can exit products and markets."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1065,8 +1061,8 @@
         "reason": "Capital spending was a concern. Ford raised its planned cumulative cost cuts to $25.5 billion by 2022 from a prior $14 billion target, including a $5 billion reduction in capital spending."
       },
       "Management": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Investor confidence remained weak. The article said Wall Street showed little enthusiasm for management's turnaround plan."
       },
       "Litigation": {
         "rating": null,
@@ -1075,6 +1071,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. In China, joint-venture profit fell to $138 million from $274 million as sales dropped 19%."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. We can make different investments, we can partner, we can exit products and markets."
       }
     },
     "djnw": null
@@ -1093,13 +1093,9 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Ford reported $38.9 billion of revenue, $1.1 billion of net income, and adjusted EPS of $0.27."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. Ford reported $38.9 billion of revenue, $1.1 billion of net income, and adjusted EPS of $0.27."
+        "rating": "negative",
+        "reason": "Earnings missed expectations. Adjusted EPS was $0.27 as adjusted EBIT fell sharply."
       },
       "Costs": {
         "rating": "negative",
@@ -1114,16 +1110,20 @@
         "reason": null
       },
       "Management": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Execution visibility deteriorated. Ford postponed its investor meeting because the global redesign was not ready."
       },
       "Litigation": {
         "rating": null,
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": "positive",
-        "reason": "The broader backdrop was supportive. The decisive negatives were Asia Pacific/China and Europe."
+        "rating": "negative",
+        "reason": "International weakness deepened. China and Europe were expected to generate significant losses."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -1138,10 +1138,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. Shanks called it obviously a very tough quarter for us.' China sales sank 26% in the first half of the year."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Which Shanks attributed to a stale product lineup hurting both volumes and pricing."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -1170,6 +1166,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. It details the profit decline, the EPS miss versus the 31-cent consensus, the China losses, the tariff impact, and the restructuring plan."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Which Shanks attributed to a stale product lineup hurting both volumes and pricing."
       }
     },
     "djnw": null

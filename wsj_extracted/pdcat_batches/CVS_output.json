@@ -13,10 +13,6 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. CVS reported $43.22 billion of revenue, up roughly 19% year over year, and adjusted EPS of $1.18, both above Wall Street expectations."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. CVS reported $43.22 billion of revenue, up roughly 19% year over year, and adjusted EPS of $1.18, both above Wall Street expectations."
@@ -44,6 +40,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Pharmacy demand was strong. Specialty-drug and claim growth supported Pharmacy Services, while acquired pharmacies added scale."
       }
     },
     "wsj": {
@@ -58,10 +58,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Showed sales surging on higher prescription volumes and specialty drug sales at its pharmacy-benefits business."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. We're still the only ones with a fully integrated product.' Overall same-store sales rose 4.2%."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -90,6 +86,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. We're still the only ones with a fully integrated product.' Overall same-store sales rose 4.2%."
       }
     },
     "djnw": null
@@ -107,10 +107,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Second-quarter revenue increased to roughly $43.73 billion, and adjusted EPS was about $1.32, ahead of consensus."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -139,6 +135,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Pharmacy Services momentum was strong. New business and specialty-drug claims drove growth."
       }
     },
     "wsj": {
@@ -153,10 +153,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. It cut its revenue forecast because of softer growth in hepatitis C drug volumes."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Plus 35 more excluded products including Novartis's Gleevec and Tasigna."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -185,28 +181,28 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Plus 35 more excluded products including Novartis's Gleevec and Tasigna."
       }
     },
     "djnw": {
       "Guidance": {
-        "rating": "negative",
-        "reason": "Guidance was disappointing. The Nasdaq declined 0.9%."
+        "rating": null,
+        "reason": null
       },
       "Order book / order backlog": {
         "rating": null,
         "reason": null
       },
       "Revenue": {
-        "rating": "negative",
-        "reason": "Revenue performance was weak. The article does not provide revenue or EPS figures."
-      },
-      "Product / Users": {
         "rating": null,
         "reason": null
       },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. Not a dedicated CVS Health earnings story."
+        "rating": "positive",
+        "reason": "Earnings beat expectations. Dow Jones directly tied CVS's more-than-5% gain to quarterly profit exceeding consensus."
       },
       "Costs": {
         "rating": null,
@@ -231,14 +227,18 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
   "CVS_2016q4": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. The shock came from the outlook."
+        "rating": "negative",
+        "reason": "Guidance deteriorated materially. CVS reset 2017 earnings expectations after warning of major prescription losses."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -247,10 +247,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q3 revenue rose about 15.5% to $44.6 billion and adjusted EPS of roughly $1.64 beat expectations."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -279,6 +275,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Prescription volume faced a major loss. CVS expected more than 40 million scripts to shift through restricted pharmacy networks."
       }
     },
     "wsj": {
@@ -294,13 +294,9 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue up 15% to $44.62 billion and pharmacy-services revenue up 19.2% to $30.4 billion."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. CEO Larry Merlo called the lost partnerships the main reason for the expected decline in prescriptions,' and said on the earnings call."
+        "rating": "positive",
+        "reason": "Current earnings beat expectations. Adjusted EPS was strong, but investors focused on the forward reset."
       },
       "Costs": {
         "rating": null,
@@ -319,12 +315,16 @@
         "reason": "Management struck a cautious tone. CEO Larry Merlo called the lost partnerships the main reason for the expected decline in prescriptions,' and said on the earnings call."
       },
       "Litigation": {
-        "rating": "positive",
-        "reason": "The legal development was favorable. Letting Walgreens court other PBMs."
+        "rating": null,
+        "reason": null
       },
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Walgreens shares also fell 4% the same day, which the article presents as a related market reaction to the same competitive dynamic."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Prescription volume faced a major loss. CVS warned that more than 40 million scripts would shift to competing networks."
       }
     },
     "djnw": null
@@ -332,20 +332,16 @@
   "CVS_2017q1": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Specialty and generic prescriptions helped profitability, and CVS reaffirmed its 2017 adjusted EPS outlook of $5.77–$5.93."
+        "rating": "neutral",
+        "reason": "Guidance was reaffirmed. CVS maintained its already-depressed 2017 adjusted EPS range of $5.77-$5.93."
       },
       "Order book / order backlog": {
         "rating": null,
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. CVS reported fourth-quarter revenue of $45.97 billion and adjusted EPS of $1.71."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Revenue missed expectations. Quarterly sales were $45.97 billion, below consensus."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -374,6 +370,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -388,10 +388,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. 2017) results showed pharmacy-services segment sales rising 18% to $31.3 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -420,6 +416,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": null
@@ -427,8 +427,8 @@
   "CVS_2017q2": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. CVS maintained its full-year adjusted EPS outlook rather than raising it."
+        "rating": "neutral",
+        "reason": "Guidance was unchanged. CVS maintained its full-year adjusted EPS outlook rather than raising it."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -438,17 +438,13 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Q1 revenue was approximately $44.51 billion and adjusted EPS $1.17, both above consensus."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. Q1 revenue was approximately $44.51 billion and adjusted EPS $1.17, both above consensus."
       },
       "Costs": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Reimbursement pressure hurt retail performance. Generic introductions also weighed on reported sales."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -469,6 +465,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Retail pharmacy demand remained weak. Same-store sales fell about 4.7% as network losses and softer traffic persisted."
       }
     },
     "wsj": {
@@ -483,10 +483,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. Healthy earnings growth.' Pharmacy-services segment sales rose 8.5% to $31.2 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -515,6 +511,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": {
@@ -529,10 +529,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue rose 3% to $44.5 billion, above the $44.2 billion analysts expected."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -561,14 +557,18 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
   "CVS_2017q3": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. CVS raised the low end of full-year adjusted EPS guidance."
+        "rating": "negative",
+        "reason": "Near-term guidance disappointed. Third-quarter adjusted EPS guidance was below market expectations."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -577,10 +577,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 revenue rose to about $45.69 billion and adjusted EPS was $1.33, both slightly above expectations."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -609,6 +605,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Retail demand remained weak. Same-store sales stayed negative as prescription and front-store traffic lagged."
       }
     },
     "wsj": {
@@ -623,10 +623,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Overall profit and revenue rose as growth in pharmacy services offset declines in retail and pharmacy same-store sales."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Its data network to manage conditions like diabetes, asthma and high blood pressure, building on a diabetes pilot launched earlier in the year."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -655,6 +651,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Its data network to manage conditions like diabetes, asthma and high blood pressure, building on a diabetes pilot launched earlier in the year."
       }
     },
     "djnw": {
@@ -669,10 +669,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. All three pieces agree on the same core fact: CVS Health reported earnings and revenue that beat analyst estimates ahead of the opening bell."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -701,14 +697,18 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
   "CVS_2017q4": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. The company also narrowed annual guidance while merger speculation around Aetna was intensifying."
+        "rating": "neutral",
+        "reason": "Annual guidance narrowed. The update did not materially improve the earnings outlook."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -717,10 +717,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. CVS reported $46.18 billion of revenue and adjusted EPS of $1.50, essentially meeting revenue expectations and slightly beating earnings estimates."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -747,8 +743,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": "positive",
-        "reason": "The broader backdrop was supportive. CVS announced nationwide next-day prescription delivery, an initiative widely interpreted as a defensive response to potential Amazon competition."
+        "rating": "negative",
+        "reason": "Competitive risk increased. Nationwide prescription delivery was viewed as a defense against possible Amazon pharmacy entry."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Retail demand remained weak. Same-store sales and customer traffic were negative."
       }
     },
     "wsj": {
@@ -763,10 +763,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. On the earnings side, the article reports retail sales, including prescriptions, fell 2.7% to about 42% of overall revenue for the quarter ended Sept."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. This article centers on CVS's plan to launch next-day prescription delivery nationwide in early 2018."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -795,6 +791,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Same-day delivery in select urban markets."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. This article centers on CVS's plan to launch next-day prescription delivery nationwide in early 2018."
       }
     },
     "djnw": {
@@ -809,10 +809,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. This Dow Jones Newswires company story, published November 6, 2017 (\"CVS's Revenue Rises as It Pursues Aetna\"), covers CVS Health's third-quarter results."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -841,14 +837,18 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
   "CVS_2018q1": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Q4 revenue increased about 5.3% to $48.39 billion and adjusted EPS was $1.92, at the high end of guidance."
+        "rating": "negative",
+        "reason": "Operating-profit guidance weakened. CVS lowered expected 2018 adjusted operating-profit growth to roughly -1.5% to +1.5%."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -857,10 +857,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q4 revenue increased about 5.3% to $48.39 billion and adjusted EPS was $1.92, at the high end of guidance."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -871,8 +867,8 @@
         "reason": null
       },
       "Debt, leverage and capital raise": {
-        "rating": "positive",
-        "reason": "Capital management was supportive. Management planned to reinvest a meaningful portion in wages, benefits, analytics and new healthcare services while also reducing debt."
+        "rating": "negative",
+        "reason": "Aetna financing constrained capital returns. Debt reduction took priority over buybacks and dividend growth."
       },
       "Capex": {
         "rating": null,
@@ -889,6 +885,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -903,10 +903,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. CVS Health's fourth-quarter fiscal 2017 results, released Feb. 8, 2018, beat expectations as rising pharmacy-services sales offset sluggish retail growth."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -935,6 +931,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": null
@@ -953,10 +953,6 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Q1 revenue was about $45.7 billion."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. Adjusted EPS reached $1.48, above expectations."
@@ -966,8 +962,8 @@
         "reason": "Costs were a headwind. The weaker part of the outlook was Long-Term Care, where cost-improvement initiatives were producing less benefit than expected and customers were under financial pressure."
       },
       "Debt, leverage and capital raise": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Leverage remained a concern. CVS carried Aetna financing before receiving the acquisition's earnings or cash flow."
       },
       "Capex": {
         "rating": null,
@@ -984,6 +980,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -996,12 +996,8 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "negative",
-        "reason": "Revenue performance was weak. CVS Health's first-quarter 2018 results (May 2, 2018) showed revenue rising 2.6% to $45.7 billion, helped by more filled prescriptions and a lower effective tax rate."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "positive",
+        "reason": "Operating results were solid. The coverage paired the earnings beat with progress toward closing Aetna."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1030,6 +1026,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": null
@@ -1047,10 +1047,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 revenue increased about 2.2% to $46.7 billion and adjusted EPS reached $1.69, above consensus near $1.61."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1073,12 +1069,16 @@
         "reason": "Management struck a confident tone. Management also said the Aetna transaction was progressing through regulatory approvals."
       },
       "Litigation": {
-        "rating": "positive",
-        "reason": "The legal development was favorable. Management also said the Aetna transaction was progressing through regulatory approvals."
+        "rating": null,
+        "reason": null
       },
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Prescription demand was strong. Same-store prescription volume grew 9.5%."
       }
     },
     "wsj": {
@@ -1093,10 +1093,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. On earnings, CVS reported second-quarter revenue up 2.2% to $46.71 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -1125,6 +1121,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. The article also notes CVS faces fresh competition from Amazon's $1 billion purchase of online pharmacy PillPack."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": null

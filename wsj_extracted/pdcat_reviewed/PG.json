@@ -1,0 +1,156 @@
+{
+  "reviewed_observations": [
+    "PG_2016q2", "PG_2016q3", "PG_2016q4", "PG_2017q1", "PG_2017q2",
+    "PG_2017q3", "PG_2017q4", "PG_2018q1", "PG_2018q2", "PG_2018q3"
+  ],
+  "pd_overrides": {
+    "PG_2016q2": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "negative", "reason": "Consumer demand weakened. Organic volume was flat and volume declined in four of five segments, led by Grooming."}
+      },
+      "wsj": {
+        "Product / Users": {"rating": "negative", "reason": "Volume weakened broadly. Shipments fell 2%, with declines in four of five segments and the largest drop in Grooming."},
+        "Costs": {"rating": "neutral", "reason": "Cost savings supported earnings, while advertising, taxes, and foreign exchange pressured the full-year outlook."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Currency and developing-market conditions hurt results. China organic sales declined 4% and Venezuela was deconsolidated."}
+      }
+    },
+    "PG_2016q3": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "negative", "reason": "Fiscal 2017 earnings guidance was cautious because productivity savings would be reinvested."},
+        "Revenue": {"rating": "positive", "reason": "Revenue beat expectations despite declining nominally. Organic sales and volume both increased 2%."},
+        "Product / Users": {"rating": "positive", "reason": "Demand improved broadly. Organic sales and volume increased across all five business segments."}
+      }
+    },
+    "PG_2016q4": {
+      "contextual_analysis": {
+        "Revenue": {"rating": "positive", "reason": "Organic growth accelerated. Sales increased 3%, the strongest rate in several years, while total revenue was approximately flat."},
+        "Product / Users": {"rating": "positive", "reason": "Demand improved broadly. Beauty, Health Care, and Fabric & Home Care contributed to company-wide organic growth."}
+      },
+      "wsj": {
+        "Guidance": {"rating": "neutral", "reason": "Full-year guidance was maintained. P&G continued to expect approximately 2% organic sales growth."},
+        "Revenue": {"rating": "positive", "reason": "Organic sales accelerated to 3%, the strongest increase in more than a year, while total revenue was flat."}
+      },
+      "djnw": {
+        "Guidance": {"rating": "neutral", "reason": "Full-year guidance was reaffirmed. P&G retained mid-single-digit earnings growth and roughly 1% reported sales growth."},
+        "Revenue": {"rating": "positive", "reason": "Organic sales grew 3%, the strongest performance in more than a year, while reported revenue was flat."}
+      }
+    },
+    "PG_2017q1": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "neutral", "reason": "Full-year guidance was maintained despite unusually high geopolitical and macroeconomic volatility."},
+        "Product / Users": {"rating": "positive", "reason": "Demand improved broadly. Organic sales and volume grew across all five business segments."}
+      },
+      "wsj": {
+        "Revenue": {"rating": "positive", "reason": "Organic sales beat expectations. Underlying growth reached 2% even as reported sales declined slightly after divestitures."},
+        "Product / Users": {"rating": "positive", "reason": "Premium-product demand was strong. Laundry pods, Chinese skin care, and electric toothbrushes supported organic growth."},
+        "Profits and profitability": {"rating": "positive", "reason": "Adjusted earnings beat expectations. EPS was $1.08 versus approximately $1.06 expected."},
+        "Costs": {"rating": null, "reason": null},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Foreign exchange remained a headwind. The strong dollar was expected to reduce fiscal-year earnings by about $500 million."}
+      }
+    },
+    "PG_2017q2": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "neutral", "reason": "Annual guidance was reaffirmed despite weak quarterly organic growth."},
+        "Product / Users": {"rating": "negative", "reason": "Demand weakened. Grooming organic sales fell sharply as Gillette faced lower-priced competition and changing shaving habits."}
+      },
+      "wsj": {
+        "Revenue": {"rating": "negative", "reason": "Sales declined. Revenue fell to $15.61 billion from $15.78 billion."},
+        "Product / Users": {"rating": "negative", "reason": "Grooming demand deteriorated. Organic sales in the segment fell 6%."},
+        "Profits and profitability": {"rating": "negative", "reason": "Profit declined. Net income fell to $2.52 billion from $2.75 billion."},
+        "Management": {"rating": "negative", "reason": "Analysts questioned management's growth strategy and found the repeated 'irresistible superiority' message unclear."}
+      },
+      "djnw": {
+        "Guidance": {"rating": "neutral", "reason": "Full-year organic-sales and adjusted-EPS guidance was maintained, while reported sales could decline."},
+        "Profits and profitability": {"rating": "positive", "reason": "Adjusted earnings beat expectations. EPS was $0.96, approximately two cents above consensus."},
+        "Management": {"rating": "neutral", "reason": "Management cited slower markets, geopolitical disruption, and foreign exchange while retaining annual guidance."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Geopolitical and currency headwinds persisted. Management cited both as constraints on underlying growth."}
+      }
+    },
+    "PG_2017q3": {
+      "contextual_analysis": {
+        "Revenue": {"rating": "positive", "reason": "Revenue exceeded expectations and organic sales improved 2% after the weak prior quarter."}
+      },
+      "wsj": {
+        "Revenue": {"rating": "neutral", "reason": "Revenue was mixed. Organic sales grew 2%, while reported quarterly sales declined slightly to $16.07 billion."},
+        "Profits and profitability": {"rating": "positive", "reason": "Quarterly profit improved. Net income rose to $2.2 billion from $1.96 billion."},
+        "Costs": {"rating": "neutral", "reason": "Cost cuts improved margins, but activist Nelson Peltz argued reduced advertising could damage brand value."}
+      },
+      "djnw": {
+        "Guidance": {"rating": "neutral", "reason": "Organic-sales guidance was modest. P&G forecast 2%-3% growth for the following year."},
+        "Revenue": {"rating": "neutral", "reason": "Revenue was approximately in line. Organic sales grew 2%, while reported sales declined slightly."},
+        "Costs": {"rating": null, "reason": null},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Underlying growth remained below historical levels and lagged some competitors."}
+      }
+    },
+    "PG_2017q4": {
+      "contextual_analysis": {
+        "Revenue": {"rating": "negative", "reason": "Organic growth remained weak. Sales increased only 1%, reinforcing concern that the turnaround was progressing too slowly."},
+        "Product / Users": {"rating": "negative", "reason": "Key categories weakened. Grooming organic sales fell 6% and Baby, Feminine & Family Care also declined."},
+        "Profits and profitability": {"rating": "neutral", "reason": "Earnings met expectations. Core EPS was approximately $1.09 and increased 6%."}
+      },
+      "wsj": {
+        "Revenue": {"rating": "negative", "reason": "Organic growth was weak. Sales increased only 1% and depended almost entirely on emerging markets."},
+        "Product / Users": {"rating": "negative", "reason": "U.S. staples demand stalled. Management could not explain the broad domestic spending slowdown."},
+        "Costs": {"rating": "negative", "reason": "The proxy contest was expensive. P&G spent at least $60 million on the activist fight."}
+      },
+      "djnw": {
+        "Revenue": {"rating": null, "reason": null},
+        "Profits and profitability": {"rating": "negative", "reason": "Profit growth was meager. Dow Jones linked the weak result to reduced spending on household staples."},
+        "Product / Users": {"rating": "negative", "reason": "Consumer demand weakened. Spending declined on staples including paper products and diapers."}
+      }
+    },
+    "PG_2018q1": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "neutral", "reason": "The EPS outlook increased mainly because of tax reform rather than stronger operating performance."},
+        "Revenue": {"rating": "neutral", "reason": "Revenue was approximately in line. Sales rose 3% to $17.4 billion and organic sales increased 2%."},
+        "Product / Users": {"rating": "neutral", "reason": "Category demand was mixed. Beauty and Health Care grew, while Grooming and Baby-related categories declined."},
+        "Costs": {"rating": "negative", "reason": "Margins weakened. Core gross margin fell about 80 basis points on commodities, mix, reinvestment, and razor price cuts."}
+      },
+      "wsj": {
+        "Guidance": {"rating": "positive", "reason": "The top end of full-year EPS guidance increased by one percentage point because of U.S. tax reform."},
+        "Revenue": {"rating": "neutral", "reason": "Revenue met expectations. Sales rose 3.2% to $17.4 billion versus approximately $17.39 billion expected."},
+        "Product / Users": {"rating": "neutral", "reason": "Category performance was mixed. Beauty and Health Care grew, while Grooming declined 3%."},
+        "Profits and profitability": {"rating": "positive", "reason": "Adjusted earnings beat expectations. EPS rose 10% to $1.19 versus $1.14 expected."},
+        "Others: eg. Covid, or macro events": {"rating": "neutral", "reason": "Tax reform had mixed accounting effects. A lower rate helped earnings while repatriation produced a $628 million charge."}
+      },
+      "djnw": {
+        "Guidance": {"rating": "positive", "reason": "Full-year EPS guidance increased because of the lower U.S. corporate tax rate."},
+        "Profits and profitability": {"rating": "neutral", "reason": "Profitability was mixed. Core EPS beat expectations, while reported profit fell after divestitures and a tax charge."},
+        "Others: eg. Covid, or macro events": {"rating": "neutral", "reason": "Tax reform had mixed effects. P&G expected a net benefit but recorded a $628 million repatriation charge."}
+      }
+    },
+    "PG_2018q2": {
+      "contextual_analysis": {
+        "Revenue": {"rating": "negative", "reason": "Underlying growth remained weak. Organic sales increased only 1% despite a 4% rise in reported revenue."},
+        "Product / Users": {"rating": "negative", "reason": "Demand remained uneven. Company-wide organic growth was weak and Gillette continued facing price competition."},
+        "Debt, leverage and capital raise": {"rating": "negative", "reason": "The Merck consumer-health acquisition required a large cash outlay of approximately €3.4 billion."}
+      },
+      "wsj": {
+        "Profits and profitability": {"rating": "neutral", "reason": "Profit was essentially flat. Net income was $2.51 billion versus $2.52 billion a year earlier."},
+        "Debt, leverage and capital raise": {"rating": "negative", "reason": "P&G committed $4.2 billion to acquire Merck's consumer-health business, adding price and execution risk."}
+      }
+    },
+    "PG_2018q3": {
+      "contextual_analysis": {
+        "Revenue": {"rating": "neutral", "reason": "Revenue was mixed. Reported sales rose 3%, but organic growth was only 1% and total revenue slightly missed expectations."},
+        "Costs": {"rating": "negative", "reason": "Input costs increased. Management highlighted higher commodity and freight expenses."}
+      },
+      "wsj": {
+        "Guidance": {"rating": "negative", "reason": "The organic-growth forecast lacked credibility. P&G again projected 2%-3% after delivering only 1% against the same prior target."},
+        "Management": {"rating": "negative", "reason": "Management's growth forecast was questioned after the company missed an identical organic-sales target in the prior year."}
+      }
+    }
+  },
+  "first_order": {
+    "PG_2016q2": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": null, "djnw": null},
+    "PG_2016q3": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": null, "djnw": null},
+    "PG_2016q4": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": ["Revenue", "Profits and profitability"], "djnw": ["Revenue", "Profits and profitability"]},
+    "PG_2017q1": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": ["Revenue", "Guidance"], "djnw": null},
+    "PG_2017q2": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": null, "djnw": ["Revenue", "Product / Users"]},
+    "PG_2017q3": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": ["Revenue"], "djnw": ["Profits and profitability"]},
+    "PG_2017q4": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": ["Revenue", "Product / Users"], "djnw": ["Profits and profitability", "Product / Users"]},
+    "PG_2018q1": {"contextual_analysis": ["Product / Users", "Costs"], "wsj": null, "djnw": null},
+    "PG_2018q2": {"contextual_analysis": ["Revenue", "Debt, leverage and capital raise"], "wsj": null, "djnw": null},
+    "PG_2018q3": {"contextual_analysis": null, "wsj": null, "djnw": null}
+  }
+}

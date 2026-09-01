@@ -1,0 +1,35 @@
+{
+  "reviewed_observations": ["FB_2016q2", "FB_2016q3", "FB_2016q4", "FB_2017q1", "FB_2017q2", "FB_2017q3", "FB_2017q4", "FB_2018q1", "FB_2018q2", "FB_2018q3"],
+  "pd_overrides": {
+    "FB_2016q4": {
+      "contextual_analysis": {"Guidance": {"rating": "negative", "reason": "The forward outlook weakened. Management warned that ad-revenue growth would decelerate meaningfully after ad-load growth faded."}},
+      "wsj": {"Costs": {"rating": "negative", "reason": "Expenses were expected to rise. Facebook planned heavier data-center and engineering investment in 2017."}}
+    },
+    "FB_2017q1": {"contextual_analysis": {"Guidance": {"rating": "negative", "reason": "The forward outlook weakened. Facebook reiterated meaningful ad-growth deceleration and projected 47%-57% expense growth."}}},
+    "FB_2017q2": {
+      "contextual_analysis": {"Guidance": {"rating": "negative", "reason": "The forward outlook remained cautious. Management repeated that ad-revenue growth would slow meaningfully in the second half."}, "Costs": {"rating": "negative", "reason": "Investment needs increased. Facebook stepped up spending on content review and infrastructure."}},
+      "wsj": {"Guidance": {"rating": "negative", "reason": "The growth outlook remained cautious. Management repeated that News Feed ad-load growth would decline meaningfully."}},
+      "djnw": {"Guidance": {"rating": null, "reason": null}, "Profits and profitability": {"rating": "negative", "reason": "The reported EPS comparison disappointed investors. Dow Jones noted that the apparent miss reflected treatment of stock compensation."}, "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Valuation amplified the reaction. Shares had risen 32% in 2017 and traded around 33 times forward earnings."}}
+    },
+    "FB_2017q4": {
+      "contextual_analysis": {"Costs": {"rating": "negative", "reason": "Expense growth threatened margins. Facebook projected 45%-60% operating-expense growth for 2018."}, "Capex": {"rating": "negative", "reason": "Capital spending was set to rise sharply. Management planned to roughly double capex for security and infrastructure."}},
+      "wsj": {"Costs": {"rating": "negative", "reason": "Security spending threatened profitability. Zuckerberg warned that safety investments would significantly affect future profit."}}
+    },
+    "FB_2018q3": {
+      "contextual_analysis": {"Revenue": {"rating": "negative", "reason": "Revenue missed expectations. Sales were $13.23 billion versus roughly $13.4 billion expected."}, "Management": {"rating": "negative", "reason": "Management issued a severe warning. Executives forecast significant revenue deceleration and sustained margin compression."}},
+      "wsj": {"Guidance": {"rating": "negative", "reason": "Guidance deteriorated sharply. Management forecast high-single-digit growth deceleration and margins falling toward the mid-30s."}, "Costs": {"rating": "negative", "reason": "Investment pressure threatened margins. Security, privacy, Stories, and new products required substantially higher spending."}}
+    }
+  },
+  "first_order": {
+    "FB_2016q2": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": ["Revenue", "Profits and profitability"], "djnw": null},
+    "FB_2016q3": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": ["Revenue", "Profits and profitability"], "djnw": ["Revenue", "Profits and profitability"]},
+    "FB_2016q4": {"contextual_analysis": ["Guidance", "Costs"], "wsj": ["Guidance", "Costs"], "djnw": null},
+    "FB_2017q1": {"contextual_analysis": ["Guidance", "Costs"], "wsj": null, "djnw": null},
+    "FB_2017q2": {"contextual_analysis": ["Guidance", "Costs"], "wsj": ["Guidance"], "djnw": ["Profits and profitability", "Others: eg. Covid, or macro events"]},
+    "FB_2017q3": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": ["Revenue", "Profits and profitability"], "djnw": ["Revenue", "Profits and profitability"]},
+    "FB_2017q4": {"contextual_analysis": ["Costs", "Guidance"], "wsj": null, "djnw": null},
+    "FB_2018q1": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": null, "djnw": null},
+    "FB_2018q2": {"contextual_analysis": ["Product / Users", "Revenue"], "wsj": ["Revenue", "Product / Users"], "djnw": null},
+    "FB_2018q3": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": ["Revenue", "Guidance"], "djnw": null}
+  }
+}

@@ -10,12 +10,8 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Starbucks reported $4.99 billion of revenue, up 9%, and EPS of $0.39, up 18%."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Revenue narrowly missed expectations. Sales were $4.99 billion versus approximately $5.03 billion expected."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -44,12 +40,16 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Comparable growth missed a high expectations bar. Global comps rose 6%, with only 2% transaction growth."
       }
     },
     "wsj": {
       "Guidance": {
-        "rating": "negative",
-        "reason": "Guidance was disappointing. It attributes the decline primarily to comparable-store sales narrowly missing expectations (6% versus 6.7% forecast)."
+        "rating": null,
+        "reason": null
       },
       "Order book / order backlog": {
         "rating": null,
@@ -57,11 +57,7 @@
       },
       "Revenue": {
         "rating": "negative",
-        "reason": "Revenue performance was weak. It missed comparable-sales expectations."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Active U.S. rewards members reached 12 million, up 16% from a year earlier."
+        "reason": "Comparable sales missed expectations. Global comps increased 6% versus approximately 6.7% expected."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -88,8 +84,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": "positive",
-        "reason": "The broader backdrop was supportive. Where the business was hurt by the terror attacks in Paris and Brussels and by a strong dollar that made drinks and snacks more expensive in local currency."
+        "rating": "negative",
+        "reason": "Terror attacks and currency pressure hurt European performance. EMEA comparable sales rose only 1%."
+      },
+      "Product": {
+        "rating": "neutral",
+        "reason": "Customer metrics were mixed. Comparable sales missed expectations, while mobile use and Rewards membership grew strongly."
       }
     },
     "djnw": null
@@ -107,10 +107,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q3 revenue reached a record $5.24 billion and non-GAAP EPS was $0.49."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Investors needed evidence it would translate into faster store productivity."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -139,6 +135,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Store productivity decelerated again. Global and U.S. comparable sales slowed to 4%."
       }
     },
     "wsj": {
@@ -152,11 +152,7 @@
       },
       "Revenue": {
         "rating": "negative",
-        "reason": "Revenue performance was weak. Starbucks posted its third consecutive same-store-sales-target miss."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "reason": "Comparable sales missed targets for a third consecutive quarter. U.S. comps slowed to 4%."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -176,7 +172,7 @@
       },
       "Management": {
         "rating": "negative",
-        "reason": "Management struck a cautious tone. Executives calling the quarter an \"anomaly\" and citing terror concerns around the world along with civil unrest and political uncertainty in the U.S."
+        "reason": "Management described the quarter as anomalous and cited sharply weaker consumer confidence."
       },
       "Litigation": {
         "rating": null,
@@ -184,7 +180,11 @@
       },
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
-        "reason": "The broader backdrop was challenging. China and Asia Pacific posted a weaker-than-projected 3% increase overall."
+        "reason": "Political uncertainty, civil unrest, and terrorism concerns weighed on customer activity."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Store productivity weakened. Global comps slowed and EMEA comparable sales declined 1%."
       }
     },
     "djnw": null
@@ -202,10 +202,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Starbucks reported record Q4 revenue of $5.71 billion and non-GAAP EPS of $0.56."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -232,30 +228,30 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": "positive",
-        "reason": "The broader backdrop was supportive. Global comps increased 4%, U.S."
+        "rating": null,
+        "reason": null
+      },
+      "Product": {
+        "rating": "neutral",
+        "reason": "Store demand was mixed. U.S. comps rose 4% on higher ticket while traffic declined 1%; China comps grew 6%."
       }
     },
     "wsj": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Excluding items, profit rose to 56 cents from 43 cents a year earlier, above the company's own guidance."
+        "rating": null,
+        "reason": null
       },
       "Order book / order backlog": {
         "rating": null,
         "reason": null
       },
       "Revenue": {
-        "rating": "negative",
-        "reason": "Revenue performance was weak. Starbucks beat expectations for earnings and revenue in its fiscal fourth quarter but missed U.S. sales targets for the fourth consecutive period."
-      },
-      "Product / Users": {
         "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Rewards membership rose 18% year over year and mobile payments reached 25% of U.S."
+        "reason": "Revenue beat expectations. Sales rose 16% to $5.71 billion versus approximately $5.68 billion expected."
       },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. Starbucks beat expectations for earnings and revenue in its fiscal fourth quarter but missed U.S. sales targets for the fourth consecutive period."
+        "rating": "positive",
+        "reason": "Adjusted earnings exceeded company guidance. EPS rose to $0.56 from $0.43."
       },
       "Costs": {
         "rating": null,
@@ -280,6 +276,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. China was a bright spot, generating 6% same-store sales growth, and Starbucks said it plans to more than double its China store count to 5,000 by 2021."
+      },
+      "Product": {
+        "rating": "neutral",
+        "reason": "Customer metrics were mixed. U.S. comps missed expectations, while Rewards, mobile payments, and China grew strongly."
       }
     },
     "djnw": null
@@ -295,12 +295,8 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Fiscal Q1 revenue increased 7% to $5.73 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Revenue missed expectations. Sales were $5.73 billion versus approximately $5.85 billion expected."
       },
       "Profits and profitability": {
         "rating": null,
@@ -328,7 +324,11 @@
       },
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
-        "reason": "The broader backdrop was supportive. China remained a bright spot with 6% comps."
+        "reason": "China remained a bright spot. Comparable sales increased 6%."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "U.S. store productivity weakened. Comps rose only 3% and transactions declined as mobile-order congestion drove customers away."
       }
     },
     "wsj": {
@@ -344,13 +344,9 @@
         "rating": "negative",
         "reason": "Revenue performance was weak. U.S. same-store sales rose 3% versus an expected 4% increase, marking the fifth consecutive quarter Starbucks missed same-store-sales expectations in its largest market."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. The company lowered its full-year revenue growth guidance to 8%-10% from prior double-digit guidance while maintaining its earnings guidance of $2.12-$2.14 a share."
+        "rating": "positive",
+        "reason": "Adjusted earnings increased. EPS rose to $0.52 from $0.46 while annual earnings guidance was maintained."
       },
       "Costs": {
         "rating": null,
@@ -366,15 +362,19 @@
       },
       "Management": {
         "rating": "negative",
-        "reason": "Management struck a cautious tone. Who was set to become CEO in April as Howard Schultz stepped down to focus on high-end stores."
+        "reason": "Mobile-order execution hurt traffic. Management acknowledged pickup congestion was driving away walk-in customers."
       },
       "Litigation": {
         "rating": null,
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
+        "rating": "neutral",
+        "reason": "Regional trends were mixed. EMEA declined while China comparable sales increased 6%."
+      },
+      "Product": {
         "rating": "negative",
-        "reason": "The broader backdrop was challenging. EMEA down 1% and China/Asia Pacific up 5%, including a 6% increase in China specifically."
+        "reason": "U.S. demand missed expectations. Comps rose 3% versus 4% expected as transactions fell 2% amid mobile-order bottlenecks."
       }
     },
     "djnw": null
@@ -390,12 +390,8 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Fiscal Q2 revenue increased 6% to $5.29 billion and EPS rose 15% to $0.45."
-      },
-      "Product / Users": {
         "rating": "negative",
-        "reason": "Product and user momentum weakened. Strong China comps provided the clearest offset to slower U.S."
+        "reason": "Revenue missed expectations. Sales were approximately $5.29 billion versus about $5.4 billion expected."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -424,12 +420,16 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. China comps increased 7%, driven mainly by transactions."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "U.S. store productivity remained weak. Comparable sales rose only 3% and transactions were roughly flat."
       }
     },
     "wsj": {
       "Guidance": {
         "rating": "negative",
-        "reason": "Guidance was disappointing. Reserving guidance for analyst conference calls instead."
+        "reason": "Full-year EPS guidance was cut to $2.06-$2.10 as investments and Teavana charges increased."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -439,13 +439,9 @@
         "rating": "negative",
         "reason": "Revenue performance was weak. Starbucks again missed sales expectations in both the U.S."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. \"The best days are in front of us.\" The company announced it would stop including forward-looking targets in its earnings reports going forward."
+        "rating": "neutral",
+        "reason": "Earnings met expectations. EPS was approximately $0.45."
       },
       "Costs": {
         "rating": null,
@@ -460,8 +456,8 @@
         "reason": null
       },
       "Management": {
-        "rating": "negative",
-        "reason": "Management struck a cautious tone. New CEO Kevin Johnson said Starbucks would still reach its mid-single-digit same-store-sales target for the year despite the weak first half."
+        "rating": "neutral",
+        "reason": "Management remained confident in a second-half improvement despite weak first-half comparable sales."
       },
       "Litigation": {
         "rating": null,
@@ -470,12 +466,16 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Executives attributed the slowdown to political and economic uncertainty, mobile-order crowding, and a broader restaurant-industry slowdown."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": {
       "Guidance": {
         "rating": "negative",
-        "reason": "Guidance was disappointing. Roughly matching the earnings estimate though falling short on the sales line versus a $5.4 billion forecast."
+        "reason": "Full-year EPS guidance was reduced to $2.06-$2.10 because of investment and Teavana charges."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -485,13 +485,9 @@
         "rating": "negative",
         "reason": "Revenue performance was weak. Roughly matching the earnings estimate though falling short on the sales line versus a $5.4 billion forecast."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. Roughly matching the earnings estimate though falling short on the sales line versus a $5.4 billion forecast."
+        "rating": "neutral",
+        "reason": "Earnings met expectations. EPS was approximately $0.45."
       },
       "Costs": {
         "rating": null,
@@ -514,16 +510,20 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": "positive",
-        "reason": "The broader backdrop was supportive. China and Asia Pacific rose 3% overall."
+        "rating": "neutral",
+        "reason": "Regional performance was mixed. China grew 7%, while EMEA comps declined 1%."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
   "SBUX_2017q3": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. The problem was forward guidance."
+        "rating": "negative",
+        "reason": "The near-term outlook weakened. Management became more cautious about Q4 and reduced expectations."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -533,37 +533,37 @@
         "rating": "negative",
         "reason": "Revenue performance was weak. Fiscal Q3 revenue was about $5.67 billion, below consensus near $5.75–$5.76 billion."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. EPS of $0.55 matched expectations."
+        "rating": "neutral",
+        "reason": "Adjusted earnings met expectations. EPS was approximately $0.55."
       },
       "Costs": {
         "rating": null,
         "reason": null
       },
       "Debt, leverage and capital raise": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Starbucks committed $1.3 billion to acquire the remaining half of its East China joint venture."
       },
       "Capex": {
         "rating": null,
         "reason": null
       },
       "Management": {
-        "rating": "negative",
-        "reason": "Management struck a cautious tone. Management adopted a more cautious Q4 view because of softness across retail and restaurants, and Starbucks reduced near-term expectations."
+        "rating": "neutral",
+        "reason": "Management adopted a more cautious stance because of retail and restaurant softness."
       },
       "Litigation": {
         "rating": null,
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": "positive",
-        "reason": "The broader backdrop was supportive. On the same day it announced the closure of all 379 Teavana mall stores and a $1.3 billion acquisition of the remaining 50% of its East China joint venture."
+        "rating": "negative",
+        "reason": "Teavana underperformance forced the closure of all 379 mall stores."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -577,23 +577,19 @@
       },
       "Revenue": {
         "rating": "negative",
-        "reason": "Revenue performance was weak. Same-store-sales growth rate investors had been seeking after several quarters of misses."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "reason": "Revenue missed expectations. Sales were $5.66 billion versus approximately $5.76 billion expected."
       },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. The coffee chain missed earnings expectations and conceded that traffic to its U.S."
+        "rating": "neutral",
+        "reason": "Adjusted EPS met expectations, while Teavana closure charges reduced reported EPS to $0.47."
       },
       "Costs": {
         "rating": null,
         "reason": null
       },
       "Debt, leverage and capital raise": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "The East China expansion required a $1.3 billion acquisition of the remaining joint-venture stake."
       },
       "Capex": {
         "rating": null,
@@ -604,12 +600,16 @@
         "reason": null
       },
       "Litigation": {
-        "rating": "positive",
-        "reason": "The legal development was favorable. Separately, Starbucks announced a $1.3 billion deal to buy the 50% stake in its East China business it didn't already own, pending Chinese regulatory approval."
+        "rating": null,
+        "reason": null
       },
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. CFO Scott Maw told investors that \"the combination of trends in the quarter and ongoing macro pressures impacting the retail and restaurant sectors overall has."
+      },
+      "Product": {
+        "rating": "neutral",
+        "reason": "Store demand was mixed. U.S. comps reached 5% through higher spending, but traffic remained stagnant."
       }
     },
     "djnw": {
@@ -622,12 +622,8 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. U.S. same-store sales grew 5%, hitting the company's long-stated target."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Revenue missed expectations. Sales were $5.66 billion versus approximately $5.76 billion expected."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -647,7 +643,7 @@
       },
       "Management": {
         "rating": "negative",
-        "reason": "Management struck a cautious tone. 47 cents per share versus a 55-cent estimate."
+        "reason": "Management became more cautious about Q4 amid broad retail and restaurant pressure."
       },
       "Litigation": {
         "rating": null,
@@ -656,6 +652,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. International performance was hurt by weakness in Japan even as China delivered 7% same-store sales growth."
+      },
+      "Product": {
+        "rating": "neutral",
+        "reason": "U.S. comps reached the 5% target, but improvement came from spending while traffic remained flat."
       }
     }
   },
@@ -670,16 +670,12 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Q4 revenue was about $5.7 billion and non-GAAP EPS $0.55."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Underlying sales were weak. Global and U.S. comparable sales rose only 2%, while reported revenue was roughly flat."
       },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. Q4 revenue was about $5.7 billion and non-GAAP EPS $0.55."
+        "rating": "neutral",
+        "reason": "Adjusted EPS was approximately $0.55 while operating margin declined 90 basis points."
       },
       "Costs": {
         "rating": null,
@@ -704,6 +700,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. The stock reversed higher during the next session as investors digested the more achievable targets, strong China performance and aggressive capital-return plan."
+      },
+      "Product": {
+        "rating": "neutral",
+        "reason": "Store demand was mixed. U.S. comps rose only 2%, while China comparable sales increased 8%."
       }
     },
     "wsj": {
@@ -716,16 +716,12 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. U.S. same-store sales rose 2% in the fiscal fourth quarter."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Sales disappointed. Revenue declined slightly and global comparable growth of 2% missed expectations."
       },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. Starbucks offered a muted outlook, lowering its long-term earnings-per-share growth target for the first time in seven years to 12% or greater from a previous 15%-20% range."
+        "rating": "neutral",
+        "reason": "EPS met expectations at approximately $0.54, while the long-term earnings-growth target was reduced."
       },
       "Costs": {
         "rating": null,
@@ -740,8 +736,8 @@
         "reason": null
       },
       "Management": {
-        "rating": "positive",
-        "reason": "Management struck a confident tone. CEO Kevin Johnson saying, \"We have not consistently delivered against our long-term financial targets."
+        "rating": "negative",
+        "reason": "Management acknowledged inconsistent execution and lowered long-term financial targets."
       },
       "Litigation": {
         "rating": null,
@@ -750,6 +746,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. China was again a bright spot, posting 8% same-store sales growth."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": {
@@ -765,13 +765,9 @@
         "rating": "negative",
         "reason": "Revenue performance was weak. Revenue slipped 0.2% to $5.7 billion and profit fell to $788.5 million from $801 million a year earlier."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. EPS of 54 cents matched analyst expectations."
+        "rating": "neutral",
+        "reason": "EPS matched expectations at approximately $0.54 while total profit declined year over year."
       },
       "Costs": {
         "rating": null,
@@ -796,6 +792,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. China remained the strongest market with 8% same-store sales growth."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Store productivity disappointed. Global and U.S. comparable sales rose only 2%, well below the historical target."
       }
     }
   },
@@ -810,12 +810,8 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Fiscal Q1 revenue reached a record $6.07 billion, up 6%, and non-GAAP EPS was $0.65, helped by U.S."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Underlying sales missed expectations. Global and U.S. comparable sales rose only 2%."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -844,6 +840,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. China was the clear contrast: revenue grew 30% and comps increased 6%, driven by transactions."
+      },
+      "Product": {
+        "rating": "neutral",
+        "reason": "Demand diverged by region. U.S. holiday traffic weakened while China revenue rose 30% and comps increased 6%."
       }
     },
     "wsj": {
@@ -857,15 +857,11 @@
       },
       "Revenue": {
         "rating": "negative",
-        "reason": "Revenue performance was weak. Global and U.S. same-store sales each rose 2%, below the 3% global and 3.2% Americas growth analysts polled by FactSet had expected."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Bringing the total up 11% year over year to 14.2 million."
+        "reason": "Comparable sales missed expectations. Global and U.S. comps rose 2% versus approximately 3% expected."
       },
       "Profits and profitability": {
         "rating": "positive",
-        "reason": "Profitability was strong. Per-share earnings got a 79-cent boost from the move to acquire the remaining 50% stake in the East China joint venture."
+        "reason": "Adjusted earnings beat expectations by one cent. EPS was approximately $0.58."
       },
       "Costs": {
         "rating": null,
@@ -881,15 +877,19 @@
       },
       "Management": {
         "rating": "negative",
-        "reason": "Management struck a cautious tone. Bringing the total up 11% year over year to 14.2 million."
+        "reason": "Management expected slow U.S. traffic to continue into the following quarter."
       },
       "Litigation": {
         "rating": null,
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": "positive",
-        "reason": "The broader backdrop was supportive. Starbucks's domestic business showed signs of strain despite a strengthening broader economy."
+        "rating": "negative",
+        "reason": "Competition intensified. Starbucks faced premium gas-station coffee and bottled cold brew in supermarkets."
+      },
+      "Product": {
+        "rating": "neutral",
+        "reason": "Customer trends were mixed. U.S. traffic was soft, while Rewards membership and China performance remained strong."
       }
     },
     "djnw": {
@@ -902,16 +902,12 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Revenue rose 6% to $6.1 billion."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. The company also highlighted 1.4 million new Starbucks Rewards members."
+        "rating": "negative",
+        "reason": "Comparable sales missed expectations. Global and U.S. comps rose only 2%."
       },
       "Profits and profitability": {
         "rating": "positive",
-        "reason": "Profitability was strong. Reported profit was $2.2 billion, or $1.57 per share, versus $751.8 million, or 51 cents per share, a year earlier."
+        "reason": "Adjusted EPS beat expectations by one cent despite one-time items boosting reported profit."
       },
       "Costs": {
         "rating": null,
@@ -936,6 +932,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. CEO Kevin Johnson said \"the coffee market has grown crowded,\" pointing to competition from premium gas-station coffee and bottled cold brew in supermarkets."
+      },
+      "Product": {
+        "rating": "neutral",
+        "reason": "Customer trends were mixed. U.S. traffic weakened, while Rewards membership and China remained strong."
       }
     }
   },
@@ -952,10 +952,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q2 revenue increased 14% to $6.0 billion and non-GAAP EPS rose 18% to $0.53."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. The result was therefore strong on reported revenue but still weak on underlying store productivity and margin."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -982,14 +978,18 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": "positive",
-        "reason": "The broader backdrop was supportive. The East China acquisition increased reported revenue."
+        "rating": "neutral",
+        "reason": "East China consolidation boosted reported revenue, making comparable-store productivity more informative."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. The result was therefore strong on reported revenue but still weak on underlying store productivity and margin."
       }
     },
     "wsj": {
       "Guidance": {
-        "rating": "negative",
-        "reason": "Guidance was disappointing. The company reiterated its full-year outlook for 3%-5% global comparable-sales growth."
+        "rating": "neutral",
+        "reason": "Full-year comparable-sales guidance was reiterated at 3%-5%, excluding the planned training closures."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -998,10 +998,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Starbucks reported higher-than-expected sales but flat traffic to U.S."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1028,8 +1024,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": "positive",
-        "reason": "The broader backdrop was supportive. China, the company's fastest-growing market, posting 4% growth."
+        "rating": "negative",
+        "reason": "The Philadelphia arrests created reputational risk and prompted a one-day closure of about 8,000 stores for training."
+      },
+      "Product": {
+        "rating": "neutral",
+        "reason": "Store demand was mixed. Global comps slightly beat expectations, but U.S. traffic remained flat."
       }
     },
     "djnw": null
@@ -1048,17 +1048,13 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. The formal Q3 release showed $6.3 billion of revenue, up 11%, and non-GAAP EPS of $0.62."
       },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Revenue and EPS slightly exceeded expectations, Rewards membership grew 14%."
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. The formal Q3 release showed $6.3 billion of revenue, up 11%, and non-GAAP EPS of $0.62."
       },
       "Costs": {
-        "rating": "positive",
-        "reason": "Cost execution was favorable. Store closures, digital initiatives and higher capital returns reframed the story around restructuring rather than near-term comp acceleration."
+        "rating": "negative",
+        "reason": "Profitability weakened. Adjusted operating margin declined approximately 230 basis points."
       },
       "Debt, leverage and capital raise": {
         "rating": "positive",
@@ -1079,6 +1075,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. China’s 2% comp decline was a new concern in what had been Starbucks' strongest growth market."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Store productivity remained weak. Global and U.S. comps rose only 1%, while China comps declined 2%."
       }
     },
     "wsj": {
@@ -1093,10 +1093,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Starbucks said U.S. sales rose in its fiscal third quarter thanks to a price increase implemented in June."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Helping push loyalty membership up 14% year over year to 15.1 million."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1115,8 +1111,8 @@
         "reason": null
       },
       "Management": {
-        "rating": "positive",
-        "reason": "Management struck a confident tone. CEO Kevin Johnson said sales in every core U.S."
+        "rating": "neutral",
+        "reason": "Management outlined store, digital, afternoon-beverage, and China-delivery initiatives to address weak traffic."
       },
       "Litigation": {
         "rating": null,
@@ -1125,28 +1121,28 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. China, previously a high-growth market, saw sales slow significantly the prior month due to a government crackdown on third-party delivery services."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Traffic and international demand weakened. U.S. visits fell 2% and China/Asia Pacific comps declined 1%."
       }
     },
     "djnw": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Or guidance figures from the release."
+        "rating": null,
+        "reason": null
       },
       "Order book / order backlog": {
         "rating": null,
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Without providing specific revenue."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "neutral",
+        "reason": "Results broadly met market expectations. Dow Jones provided no specific revenue figure."
       },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. The day after Starbucks reported earnings."
+        "rating": "neutral",
+        "reason": "Overall results broadly met expectations, supporting a modest share-price gain."
       },
       "Costs": {
         "rating": null,
@@ -1169,6 +1165,10 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      },
+      "Product": {
         "rating": null,
         "reason": null
       }

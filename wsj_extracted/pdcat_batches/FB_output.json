@@ -13,10 +13,6 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Facebook reported $5.38 billion of revenue, up 52% year over year, and non-GAAP EPS of $0.77, both above consensus."
       },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Monthly active users reached 1.65 billion and daily active users 1.09 billion."
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. Facebook reported $5.38 billion of revenue, up 52% year over year, and non-GAAP EPS of $0.77, both above consensus."
@@ -44,6 +40,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Monthly active users reached 1.65 billion and daily active users 1.09 billion."
       }
     },
     "wsj": {
@@ -58,10 +58,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue rose 52% year over year to $5.38 billion, ahead of the $5.26 billion analysts polled by Thomson Reuters expected."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Mobile ads making up roughly four-fifths of that total, and average revenue per user climbed 33% to $3.32 as monthly active users grew 15% to 1.65 billion."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -90,6 +86,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Mobile ads making up roughly four-fifths of that total, and average revenue per user climbed 33% to $3.32 as monthly active users grew 15% to 1.65 billion."
       }
     },
     "djnw": null
@@ -107,10 +107,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 revenue reached $6.44 billion, up 59% year over year."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Mobile monetization remained exceptionally strong even as Facebook’s user base became very large."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -139,6 +135,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Mobile monetization remained exceptionally strong even as Facebook’s user base became very large."
       }
     },
     "wsj": {
@@ -153,10 +153,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. More than 90% now on mobile, and mobile advertising -- which commands higher prices -- made up 84% of the quarter's $6.2 billion in ad sales."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Monthly active users grew by 220 million to 1.71 billion."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -185,6 +181,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. That Facebook was stealing ad dollars from every other source there is' rather than simply benefiting from overall market growth."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Monthly active users grew by 220 million to 1.71 billion."
       }
     },
     "djnw": {
@@ -199,10 +199,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue jumped 59% to $6.43 billion from $4.04 billion, above the average analyst projection of $6.02 billion."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Nearly two-thirds of internet-using adults outside China accessed Facebook monthly."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -231,14 +227,18 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. GlobalWebIndex research showing nearly two-thirds of internet-using adults outside China access Facebook monthly, double the share in early 2013."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Nearly two-thirds of internet-using adults outside China accessed Facebook monthly."
       }
     }
   },
   "FB_2016q4": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "The forward outlook weakened. Management warned that ad-revenue growth would decelerate meaningfully after ad-load growth faded."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -247,10 +247,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Facebook reported $7.01 billion of revenue, up 56%, and adjusted EPS of about $1.09, both above consensus."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Monthly users reached 1.79 billion, daily users 1.18 billion, and mobile represented 84% of ad revenue."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -279,6 +275,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Current-quarter economics were therefore excellent."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Monthly users reached 1.79 billion, daily users 1.18 billion, and mobile represented 84% of ad revenue."
       }
     },
     "wsj": {
@@ -294,17 +294,13 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue soared 56% to $7 billion and profit nearly tripled to $2.38 billion, putting the company on pace for $27 billion in annual revenue."
       },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Monthly active users reached 1.79 billion, with 93% accessing Facebook on mobile."
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. Revenue soared 56% to $7 billion and profit nearly tripled to $2.38 billion, putting the company on pace for $27 billion in annual revenue."
       },
       "Costs": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Expenses were expected to rise. Facebook planned heavier data-center and engineering investment in 2017."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -325,6 +321,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Monthly active users reached 1.79 billion, with 93% accessing Facebook on mobile."
       }
     },
     "djnw": null
@@ -332,8 +332,8 @@
   "FB_2017q1": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "The forward outlook weakened. Facebook reiterated meaningful ad-growth deceleration and projected 47%-57% expense growth."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -342,10 +342,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Facebook delivered $8.81 billion of revenue and adjusted EPS of about $1.41, both above consensus."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Revenue grew 51%, mobile advertising reached 84% of ad revenue, and monthly active users increased to 1.86 billion."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -374,6 +370,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Revenue grew 51%, mobile advertising reached 84% of ad revenue, and monthly active users increased to 1.86 billion."
       }
     },
     "wsj": null,
@@ -382,8 +382,8 @@
   "FB_2017q2": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "The forward outlook remained cautious. Management repeated that ad-revenue growth would slow meaningfully in the second half."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -393,17 +393,13 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Q1 revenue rose 49% to $8.03 billion, above consensus near $7.83 billion."
       },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Advertising revenue increased 51%, mobile reached 85% of ad revenue, and monthly users rose to 1.94 billion."
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. GAAP EPS was $1.04 versus roughly $0.87 expected."
       },
       "Costs": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Investment needs increased. Facebook stepped up spending on content review and infrastructure."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -424,12 +420,16 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Advertising revenue increased 51%, mobile reached 85% of ad revenue, and monthly users rose to 1.94 billion."
       }
     },
     "wsj": {
       "Guidance": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "The growth outlook remained cautious. Management repeated that News Feed ad-load growth would decline meaningfully."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -438,10 +438,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Profit surged 76% to $3.06 billion and revenue jumped 49% to $8.03 billion."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Monthly active users reached 1.94 billion."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -470,12 +466,16 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Monthly active users reached 1.94 billion."
       }
     },
     "djnw": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. The article reports revenue climbed 49% to $8 billion, beating Wall Street's 46% growth forecast, and operating income surged 66% to $3.3 billion."
+        "rating": null,
+        "reason": null
       },
       "Order book / order backlog": {
         "rating": null,
@@ -485,13 +485,9 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. The article reports revenue climbed 49% to $8 billion, beating Wall Street's 46% growth forecast, and operating income surged 66% to $3.3 billion."
       },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. The platform adding roughly 57 million daily active users in the quarter -- serving, the article notes, roughly one-quarter of the global population."
-      },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. The article reports revenue climbed 49% to $8 billion, beating Wall Street's 46% growth forecast, and operating income surged 66% to $3.3 billion."
+        "rating": "negative",
+        "reason": "The reported EPS comparison disappointed investors. Dow Jones noted that the apparent miss reflected treatment of stock compensation."
       },
       "Costs": {
         "rating": "negative",
@@ -514,8 +510,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Valuation amplified the reaction. Shares had risen 32% in 2017 and traded around 33 times forward earnings."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The platform adding roughly 57 million daily active users in the quarter -- serving, the article notes, roughly one-quarter of the global population."
       }
     }
   },
@@ -532,10 +532,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 revenue was $9.32 billion and GAAP EPS $1.32, both above consensus."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Revenue grew about 45%, daily users reached 1.32 billion, monthly users crossed 2.0 billion, and operating margin expanded to 47%."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -564,6 +560,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Revenue grew about 45%, daily users reached 1.32 billion, monthly users crossed 2.0 billion, and operating margin expanded to 47%."
       }
     },
     "wsj": {
@@ -578,10 +578,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue jumped 45% to $9.3 billion, boosted by a 24% increase in the average ad price."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. News Feed ad load was nearing a ceiling because adding more ads risked alienating users."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -610,6 +606,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. News Feed ad load was nearing a ceiling because adding more ads risked alienating users."
       }
     },
     "djnw": {
@@ -624,10 +624,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue climbed 45% to $9.3 billion from $6.4 billion, exceeding the $9.2 billion analysts anticipated."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Core News Feed ad growth was approaching saturation, forcing expansion into newer formats."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -656,6 +652,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Core News Feed ad growth was approaching saturation, forcing expansion into newer formats."
       }
     }
   },
@@ -673,25 +673,21 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Facebook reported $10.33 billion of revenue and $1.59 of GAAP EPS, both far above consensus."
       },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Strong ad pricing and engagement kept the long-term growth thesis intact despite the near-term cost shock."
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. Facebook reported $10.33 billion of revenue and $1.59 of GAAP EPS, both far above consensus."
       },
       "Costs": {
-        "rating": "positive",
-        "reason": "Cost execution was favorable. CFO David Wehner projected 45%–60% operating-expense growth in 2018 and roughly doubled capital spending."
+        "rating": "negative",
+        "reason": "Expense growth threatened margins. Facebook projected 45%-60% operating-expense growth for 2018."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
         "reason": null
       },
       "Capex": {
-        "rating": "positive",
-        "reason": "Capital investment was constructive. CFO David Wehner projected 45%–60% operating-expense growth in 2018 and roughly doubled capital spending."
+        "rating": "negative",
+        "reason": "Capital spending was set to rise sharply. Management planned to roughly double capex for security and infrastructure."
       },
       "Management": {
         "rating": null,
@@ -704,6 +700,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Strong ad pricing and engagement kept the long-term growth thesis intact despite the near-term cost shock."
       }
     },
     "wsj": {
@@ -719,17 +719,13 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Facebook's third-quarter 2017 report described a 79% jump in profit and revenue rising from $7.01 billion to $10.33 billion."
       },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Earnings per share of $1.59 versus 90 cents a year earlier and monthly active users climbing to 2.07 billion."
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. Facebook's third-quarter 2017 report described a 79% jump in profit and revenue rising from $7.01 billion to $10.33 billion."
       },
       "Costs": {
-        "rating": "positive",
-        "reason": "Cost execution was favorable. Warning investors that 2018 expenses could rise by as much as 60% and that this would significantly impact our profitability going forward,' adding."
+        "rating": "negative",
+        "reason": "Security spending threatened profitability. Zuckerberg warned that safety investments would significantly affect future profit."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -750,6 +746,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Earnings per share of $1.59 versus 90 cents a year earlier and monthly active users climbing to 2.07 billion."
       }
     },
     "djnw": null
@@ -767,10 +767,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q4 revenue increased 47% to $12.97 billion."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Time spent fell by about 50 million hours daily, while U.S. and Canadian daily users declined for the first time."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -799,6 +795,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Time spent fell by about 50 million hours daily, while U.S. and Canadian daily users declined for the first time."
       }
     },
     "wsj": {
@@ -813,10 +813,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. Yet the article stresses that the financial results told the opposite story: revenue jumped 47% year over year to just under $13 billion."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Facebook added 33 million daily users versus the 46 million analysts expected, its slowest sequential DAU growth on record."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -845,6 +841,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Noting that on a trailing twelve-month basis Facebook generates about 50 cents of operating profit per dollar of revenue."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Facebook added 33 million daily users versus the 46 million analysts expected, its slowest sequential DAU growth on record."
       }
     },
     "djnw": {
@@ -859,10 +859,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue up 47% to $12.97 billion during the peak holiday advertising season."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. The article notes Facebook's user base had grown to more than 2 billion people globally."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -891,6 +887,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The article notes Facebook's user base had grown to more than 2 billion people globally."
       }
     }
   },
@@ -907,10 +907,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Facebook reported $11.97 billion of revenue and $1.69 EPS, comfortably above consensus near $11.41 billion and $1.35."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Daily users increased to 1.45 billion and monthly users to 2.20 billion."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -939,6 +935,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Daily users increased to 1.45 billion and monthly users to 2.20 billion."
       }
     },
     "wsj": {
@@ -953,10 +953,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue up nearly 50% to $11.97 billion."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Monthly active users increased by about 70 million to 2.2 billion despite the privacy backlash."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -985,6 +981,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Monthly active users increased by about 70 million to 2.2 billion despite the privacy backlash."
       }
     },
     "djnw": null
@@ -1000,12 +1000,8 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Q2 revenue grew 42% to $13.23 billion."
-      },
-      "Product / Users": {
         "rating": "negative",
-        "reason": "Product and user momentum weakened. Daily and monthly users grew 11% year over year, while European daily users declined after GDPR took effect."
+        "reason": "Revenue missed expectations. Sales were $13.23 billion versus roughly $13.4 billion expected."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1024,8 +1020,8 @@
         "reason": null
       },
       "Management": {
-        "rating": "positive",
-        "reason": "Management struck a confident tone. Management said revenue growth would decelerate significantly in coming quarters."
+        "rating": "negative",
+        "reason": "Management issued a severe warning. Executives forecast significant revenue deceleration and sustained margin compression."
       },
       "Litigation": {
         "rating": null,
@@ -1034,12 +1030,16 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Daily and monthly users grew 11% year over year, while European daily users declined after GDPR took effect."
       }
     },
     "wsj": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. The article notes those comments were quickly overshadowed' when other executives detailed the growth deceleration and margin guidance."
+        "rating": "negative",
+        "reason": "Guidance deteriorated sharply. Management forecast high-single-digit growth deceleration and margins falling toward the mid-30s."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -1049,17 +1049,13 @@
         "rating": "negative",
         "reason": "Revenue performance was weak. Revenue of $13.23 billion missed the $13.36 billion analysts had expected."
       },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. U.S. and Canadian daily users were flat, while European daily users fell to 279 million from 282 million."
-      },
       "Profits and profitability": {
         "rating": "negative",
         "reason": "Profitability was weak. The results themselves were mixed rather than uniformly weak: earnings per share of $1.74 edged past the $1.72 analyst consensus."
       },
       "Costs": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Investment pressure threatened margins. Security, privacy, Stories, and new products required substantially higher spending."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -1080,6 +1076,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. U.S. and Canadian daily users were flat, while European daily users fell to 279 million from 282 million."
       }
     },
     "djnw": null

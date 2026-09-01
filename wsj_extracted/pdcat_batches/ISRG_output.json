@@ -13,10 +13,6 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Q1 revenue increased about 12% to $595 million and non-GAAP EPS reached $4.42, ahead of expectations."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. Q1 revenue increased about 12% to $595 million and non-GAAP EPS reached $4.42, ahead of expectations."
@@ -44,6 +40,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Procedure demand exceeded expectations. Worldwide procedures grew nearly 17% and system shipments increased to 110."
       }
     },
     "wsj": {
@@ -58,10 +58,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue rose 12% to $594.5 million versus an expected $592 million."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. The FDA approved Intuitive's 30-millimeter EndoWrist stapler products as well as its single-site instruments and accessories."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -84,12 +80,16 @@
         "reason": null
       },
       "Litigation": {
-        "rating": "positive",
-        "reason": "The legal development was favorable. The article also notes regulatory progress: in March."
+        "rating": null,
+        "reason": null
       },
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The FDA approved Intuitive's 30-millimeter EndoWrist stapler products as well as its single-site instruments and accessories."
       }
     },
     "djnw": null
@@ -107,10 +107,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 revenue rose 14% to $670 million and non-GAAP EPS reached $5.62."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -139,6 +135,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Procedure demand remained strong. Worldwide procedures grew nearly 16% and system shipments increased to 130."
       }
     },
     "wsj": {
@@ -153,10 +153,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Worldwide da Vinci sales grew about 16% as the company shipped 130 systems, up from 118 a year earlier."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -179,10 +175,14 @@
         "reason": null
       },
       "Litigation": {
-        "rating": "positive",
-        "reason": "The legal development was favorable. Excluding a tax adjustment, litigation charges and other items, per-share profit rose to $5.62 from $4.57."
+        "rating": null,
+        "reason": null
       },
       "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      },
+      "Product": {
         "rating": null,
         "reason": null
       }
@@ -202,10 +202,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q3 revenue increased 16% to $683 million and non-GAAP EPS was $6.19, both well above consensus."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -232,8 +228,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Valuation amplified the reaction. Investors reset expectations after a large share-price run despite an operating beat."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Procedure demand remained strong but decelerated. Procedures grew 14% after 17% and 16% growth in the prior two quarters."
       }
     },
     "wsj": null,
@@ -252,10 +252,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q4 revenue was $757 million, up 12%, and non-GAAP EPS $6.09."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -284,6 +280,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Procedure demand remained strong. Procedures grew 15% and recurring instrument revenue increased 19%."
       }
     },
     "wsj": {
@@ -298,10 +298,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Intuitive Surgical reported a double-digit revenue increase for the fourth quarter."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -330,6 +326,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": null
@@ -347,10 +347,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q1 revenue rose 13% to $674 million and non-GAAP EPS reached $5.09, both above expectations."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -379,13 +375,17 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Procedure demand exceeded the original outlook. Procedures grew nearly 18% and system shipments increased to 133."
       }
     },
     "wsj": null,
     "djnw": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. None of the three provide additional detail such as specific revenue, profit, procedure-volume, or guidance figures."
+        "rating": null,
+        "reason": null
       },
       "Order book / order backlog": {
         "rating": null,
@@ -394,10 +394,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. None of the three provide additional detail such as specific revenue, profit, procedure-volume, or guidance figures."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -426,6 +422,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -442,10 +442,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 revenue increased 13% to $756 million, procedures grew 16%, and Intuitive shipped 166 systems versus 130 a year earlier."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. The company launched the lower-priced da Vinci X."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -472,8 +468,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Valuation amplified softer economics. A rich multiple raised sensitivity to slower earnings growth and lower system prices."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. The company launched the lower-priced da Vinci X."
       }
     },
     "wsj": null,
@@ -493,17 +493,13 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Q3 revenue increased 18% to $806 million."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
         "rating": null,
         "reason": null
       },
       "Costs": {
-        "rating": "positive",
-        "reason": "Cost execution was favorable. Operating expenses increased faster than revenue in some categories."
+        "rating": "negative",
+        "reason": "Operating expenses grew rapidly. The increase was a modest caveat to the strong installed-base expansion."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -524,6 +520,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Procedure and placement momentum was strong. Procedures grew 15% and system shipments increased 26% to 169."
       }
     },
     "wsj": null,
@@ -542,10 +542,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. The formal Q4 release confirmed $892 million of revenue, up 18%, and non-GAAP EPS of $2.54 on a post-split basis."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -572,8 +568,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "The operating surprise was already priced in. Major results had been preannounced two weeks before the formal release."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Procedure and placement momentum was strong. Procedures grew 17% and system shipments increased to 216."
       }
     },
     "wsj": null,
@@ -592,10 +592,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q1 revenue jumped 25% to $848 million, procedures grew 15%, and system shipments increased to 185 from 133."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Japan reimbursement and product approvals improved the international growth runway."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -618,12 +614,16 @@
         "reason": null
       },
       "Litigation": {
-        "rating": "positive",
-        "reason": "The legal development was favorable. The company highlighted progress in Japan: the da Vinci X received regulatory clearance and reimbursement conditions improved for additional procedures."
+        "rating": null,
+        "reason": null
       },
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Recurring instruments/service revenue remained the core economic engine as the installed base expanded."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Japan reimbursement and product approvals improved the international growth runway."
       }
     },
     "wsj": null,
@@ -642,10 +642,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 revenue increased 20% to $909 million, procedures grew 18%, and Intuitive shipped 220 systems, up from 166."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. New SP and stapling clearances strengthened the future product cycle despite the muted stock reaction."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -672,8 +668,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Valuation likely limited the reaction. No verified contemporaneous source identified a specific operating catalyst for the slight decline."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. New SP and stapling clearances strengthened the future product cycle despite the muted stock reaction."
       }
     },
     "wsj": null,

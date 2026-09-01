@@ -1,0 +1,155 @@
+{
+  "reviewed_observations": [
+    "TSLA_2016q2", "TSLA_2016q3", "TSLA_2016q4", "TSLA_2017q1", "TSLA_2017q2",
+    "TSLA_2017q3", "TSLA_2017q4", "TSLA_2018q1", "TSLA_2018q2", "TSLA_2018q3"
+  ],
+  "pd_overrides": {
+    "TSLA_2016q2": {
+      "contextual_analysis": {
+        "Revenue": {"rating": "neutral", "reason": "Adjusted revenue was approximately in line with expectations at about $1.6 billion."},
+        "Product / Users": {"rating": "neutral", "reason": "Production reached a record, but Model X ramp problems caused Tesla to miss its delivery target."},
+        "Profits and profitability": {"rating": "positive", "reason": "The adjusted loss was narrower than expected at approximately $0.57 per share."},
+        "Debt, leverage and capital raise": {"rating": "negative", "reason": "The accelerated production plan increased the likelihood that Tesla would need additional financing."},
+        "Capex": {"rating": "negative", "reason": "The 500,000-vehicle target required a much faster factory expansion and substantially higher capital spending."}
+      },
+      "wsj": {
+        "Guidance": {"rating": "negative", "reason": "The accelerated 500,000-vehicle target increased execution risk after repeated Model X production delays."},
+        "Revenue": {"rating": "neutral", "reason": "Quarterly revenue was approximately $1.15 billion; the article identifies no material top-line surprise."},
+        "Profits and profitability": {"rating": "positive", "reason": "The adjusted loss narrowly beat consensus at approximately $0.57 per share."},
+        "Debt, leverage and capital raise": {"rating": "negative", "reason": "Tesla said the accelerated plan would likely require more capital and used refundable deposits to repay credit."},
+        "Capex": {"rating": "negative", "reason": "Capital-spending guidance increased 50%, reversing Tesla's earlier statement that additional financing was unnecessary."},
+        "Management": {"rating": "negative", "reason": "Execution credibility weakened. Ambitious targets followed Model X delays and the departure of two manufacturing executives."}
+      }
+    },
+    "TSLA_2016q3": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "positive", "reason": "Delivery and Model 3 targets were maintained despite the quarterly miss."},
+        "Product / Users": {"rating": "neutral", "reason": "Production accelerated late in the quarter, but deliveries of 14,402 vehicles missed expectations."}
+      },
+      "wsj": {
+        "Guidance": {"rating": null, "reason": null},
+        "Product / Users": {"rating": "negative", "reason": "Model 3 demand visibility weakened. Tesla stopped updating its refundable reservation count."},
+        "Profits and profitability": {"rating": "negative", "reason": "The adjusted loss missed expectations. Tesla lost approximately $1.06 per share."},
+        "Debt, leverage and capital raise": {"rating": "negative", "reason": "Financing pressure remained high. Tesla faced a major spending ramp and a cash-consuming SolarCity acquisition."}
+      }
+    },
+    "TSLA_2016q4": {
+      "wsj": {
+        "Costs": {"rating": null, "reason": null},
+        "Litigation": {"rating": null, "reason": null},
+        "Others: eg. Covid, or macro events": {"rating": "positive", "reason": "Regulatory-credit sales supported profit. Revenue from pollution credits reached $139 million versus about $30 million estimated."}
+      }
+    },
+    "TSLA_2017q1": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "neutral", "reason": "The Model 3 remained scheduled for July, but the aggressive ramp carried substantial execution risk."},
+        "Profits and profitability": {"rating": "negative", "reason": "The adjusted loss was wider than expected at approximately $0.69 per share."},
+        "Debt, leverage and capital raise": {"rating": "negative", "reason": "Tesla expected another capital raise to reduce risk as cash burn increased ahead of Model 3."},
+        "Capex": {"rating": "negative", "reason": "Tesla expected $2.0-$2.5 billion of spending before the Model 3 launch."},
+        "Management": {"rating": "negative", "reason": "CFO Jason Wheeler departed as Tesla entered its largest manufacturing investment cycle."}
+      },
+      "wsj": {
+        "Product / Users": {"rating": "neutral", "reason": "Model 3 production remained scheduled for July, but management warned the cash position would approach the edge."},
+        "Profits and profitability": {"rating": "negative", "reason": "Tesla returned to a quarterly loss and burned nearly $1 billion of free cash flow."},
+        "Debt, leverage and capital raise": {"rating": "negative", "reason": "Liabilities reached nearly $17 billion and management said another capital raise probably made sense."},
+        "Management": {"rating": "negative", "reason": "The CFO departed while Tesla faced rising liabilities, cash burn, and Model 3 financing needs."}
+      }
+    },
+    "TSLA_2017q2": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "positive", "reason": "The long-term production plan remained on schedule. Tesla reaffirmed a July Model 3 launch."},
+        "Costs": {"rating": "negative", "reason": "R&D and SG&A spending increased substantially as Tesla prepared Model 3 and integrated SolarCity."},
+        "Capex": {"rating": "negative", "reason": "More than $2 billion of capital spending remained ahead of the Model 3 launch."}
+      },
+      "wsj": {
+        "Product / Users": {"rating": "positive", "reason": "Deliveries reached a quarterly record and Model 3 production remained scheduled to start in July."},
+        "Management": {"rating": "neutral", "reason": "Outside investors debated whether Tesla's valuation could be justified by eventual Model 3 scale."}
+      },
+      "djnw": {
+        "Product / Users": {"rating": "positive", "reason": "Deliveries rose 69% to roughly 25,000 vehicles and Model 3 production remained scheduled for July."},
+        "Profits and profitability": {"rating": "negative", "reason": "The adjusted loss was $1.33 per share versus approximately $0.81 expected."}
+      }
+    },
+    "TSLA_2017q3": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "positive", "reason": "Model 3 demand was exceptional. Net reservations reached about 455,000 and Tesla retained its production target."},
+        "Profits and profitability": {"rating": "positive", "reason": "The adjusted loss beat expectations at $1.33 per share versus approximately $1.83 expected."},
+        "Capex": {"rating": "positive", "reason": "Cash and spending trends were better than feared. Tesla ended the quarter with more than $3 billion in cash."}
+      },
+      "wsj": {
+        "Product / Users": {"rating": "positive", "reason": "Demand concerns eased. Model S and X orders accelerated despite fears that Model 3 would cannibalize them."},
+        "Profits and profitability": {"rating": "positive", "reason": "The adjusted loss beat expectations at $1.33 per share versus approximately $1.82 expected."}
+      },
+      "djnw": {
+        "Profits and profitability": {"rating": "positive", "reason": "The adjusted loss beat expectations at $1.33 per share versus approximately $1.82 expected."},
+        "Capex": {"rating": "neutral", "reason": "Capital spending reached $959 million, with some milestone payments deferred to the second half."}
+      }
+    },
+    "TSLA_2017q4": {
+      "wsj": {
+        "Product / Users": {"rating": "negative", "reason": "The Model 3 production ramp was delayed again. The 5,000-per-week target moved to late Q1 2018."}
+      },
+      "djnw": {
+        "Revenue": {"rating": null, "reason": null},
+        "Product / Users": {"rating": "negative", "reason": "Model 3 production was delayed, extending the ramp for Tesla's most important growth program."},
+        "Profits and profitability": {"rating": "negative", "reason": "Tesla reported a wider-than-expected loss in what it characterized as its worst quarter."},
+        "Litigation": {"rating": null, "reason": null},
+        "Others: eg. Covid, or macro events": {"rating": null, "reason": null}
+      }
+    },
+    "TSLA_2018q1": {
+      "contextual_analysis": {
+        "Profits and profitability": {"rating": "neutral", "reason": "Profitability was mixed. The adjusted loss beat expectations, while near-term Model 3 gross margin remained negative."},
+        "Costs": {"rating": "negative", "reason": "Cash economics remained weak. Free cash flow and Model 3 gross margin were expected to stay negative."},
+        "Others: eg. Covid, or macro events": {"rating": null, "reason": null}
+      },
+      "wsj": {
+        "Guidance": {"rating": "positive", "reason": "Tesla reaffirmed its twice-delayed goal of producing 5,000 Model 3 vehicles per week by the end of Q2."},
+        "Profits and profitability": {"rating": "neutral", "reason": "Profitability was mixed. The adjusted loss beat expectations, while the company posted a record GAAP loss."},
+        "Capex": {"rating": "neutral", "reason": "Delayed Model 3 spending helped reduce quarterly free-cash-flow burn."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Model 3 execution remained far behind original plans despite reaffirmed revised targets."}
+      }
+    },
+    "TSLA_2018q2": {
+      "contextual_analysis": {
+        "Revenue": {"rating": "positive", "reason": "Revenue beat expectations. Quarterly sales reached a record of approximately $3.4 billion."},
+        "Product / Users": {"rating": "neutral", "reason": "Model 3 output improved above 2,000 per week, but unit gross margin remained slightly negative."},
+        "Profits and profitability": {"rating": "neutral", "reason": "The adjusted loss beat expectations, while Tesla posted a record GAAP loss and continued heavy cash burn."},
+        "Costs": {"rating": "negative", "reason": "Cash burn remained severe. Tesla's cash balance fell to approximately $2.7 billion."},
+        "Management": {"rating": "negative", "reason": "Elon Musk dismissed analysts' financing and reservation questions, increasing governance and communication concerns."}
+      },
+      "wsj": {
+        "Product / Users": {"rating": "neutral", "reason": "Model 3 output improved, but Tesla still had to reach its twice-delayed 5,000-per-week target."},
+        "Profits and profitability": {"rating": "neutral", "reason": "The adjusted loss was narrower than expected, while free cash flow worsened to roughly negative $1 billion."},
+        "Debt, leverage and capital raise": {"rating": "negative", "reason": "Liquidity concerns persisted as cash declined and Musk rejected a precautionary capital raise."},
+        "Capex": {"rating": "neutral", "reason": "Planned 2018 capital spending was reduced to slightly below $3 billion."},
+        "Management": {"rating": "negative", "reason": "Musk's combative treatment of analysts' capital and reservation questions directly intensified the share decline."}
+      }
+    },
+    "TSLA_2018q3": {
+      "contextual_analysis": {
+        "Profits and profitability": {"rating": "neutral", "reason": "The adjusted loss was slightly wider than expected, while free-cash-flow burn was lower than feared."}
+      },
+      "wsj": {
+        "Revenue": {"rating": "positive", "reason": "Revenue grew 44% to approximately $4 billion as total vehicle deliveries increased sharply."},
+        "Product / Users": {"rating": "positive", "reason": "Tesla finally reached 5,000 Model 3 vehicles in one week and delivered 40,740 total vehicles."},
+        "Profits and profitability": {"rating": "neutral", "reason": "The GAAP loss widened, but cash burn was lower than expected and management forecast sustainable profitability."},
+        "Costs": {"rating": "positive", "reason": "Cash burn was lower than feared. Free cash flow was approximately negative $740 million."},
+        "Debt, leverage and capital raise": {"rating": "positive", "reason": "Management said no new equity was planned and expected to repay existing debt from improved cash generation."},
+        "Capex": {"rating": "positive", "reason": "Planned capital spending was reduced below $2.5 billion, easing near-term financing pressure."}
+      }
+    }
+  },
+  "first_order": {
+    "TSLA_2016q2": {"contextual_analysis": ["Debt, leverage and capital raise", "Capex"], "wsj": ["Debt, leverage and capital raise", "Capex"], "djnw": null},
+    "TSLA_2016q3": {"contextual_analysis": ["Guidance", "Product / Users"], "wsj": null, "djnw": null},
+    "TSLA_2016q4": {"contextual_analysis": ["Profits and profitability", "Guidance"], "wsj": ["Profits and profitability", "Guidance"], "djnw": null},
+    "TSLA_2017q1": {"contextual_analysis": ["Debt, leverage and capital raise", "Capex"], "wsj": null, "djnw": null},
+    "TSLA_2017q2": {"contextual_analysis": ["Profits and profitability", "Costs"], "wsj": ["Profits and profitability"], "djnw": ["Profits and profitability"]},
+    "TSLA_2017q3": {"contextual_analysis": ["Profits and profitability", "Product / Users"], "wsj": ["Profits and profitability", "Product / Users"], "djnw": ["Profits and profitability", "Revenue"]},
+    "TSLA_2017q4": {"contextual_analysis": ["Product / Users", "Profits and profitability"], "wsj": ["Product / Users", "Profits and profitability"], "djnw": ["Product / Users", "Profits and profitability"]},
+    "TSLA_2018q1": {"contextual_analysis": ["Costs", "Product / Users"], "wsj": null, "djnw": null},
+    "TSLA_2018q2": {"contextual_analysis": ["Management", "Costs"], "wsj": ["Management", "Debt, leverage and capital raise"], "djnw": null},
+    "TSLA_2018q3": {"contextual_analysis": ["Guidance", "Debt, leverage and capital raise"], "wsj": ["Product / Users", "Guidance"], "djnw": null}
+  }
+}

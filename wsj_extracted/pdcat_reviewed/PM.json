@@ -1,0 +1,129 @@
+{
+  "reviewed_observations": [
+    "PM_2016q2", "PM_2016q3", "PM_2016q4", "PM_2017q1", "PM_2017q2",
+    "PM_2017q3", "PM_2017q4", "PM_2018q1", "PM_2018q2", "PM_2018q3"
+  ],
+  "pd_overrides": {
+    "PM_2016q2": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "negative", "reason": "Cigarette demand weakened. Shipment volume declined 1.4%, with particularly weak results in Asia."}
+      },
+      "wsj": {
+        "Revenue": {"rating": "negative", "reason": "Revenue missed expectations. Sales excluding excise taxes were $6.08 billion versus approximately $6.34 billion expected."},
+        "Product / Users": {"rating": "negative", "reason": "Shipment volume declined. Cigarette volume fell 1.4%, including a 7% drop in Asia."},
+        "Profits and profitability": {"rating": "negative", "reason": "Earnings missed expectations. EPS was $0.98 versus approximately $1.11 expected."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Currency remained a headwind. Reported revenue fell 8.1% despite 2.4% growth excluding currency and acquisitions."}
+      }
+    },
+    "PM_2016q3": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "neutral", "reason": "Reported EPS guidance increased only because currency assumptions improved, not because the operating outlook strengthened."},
+        "Product / Users": {"rating": "negative", "reason": "Cigarette demand weakened broadly. Shipment volume fell 4.8%, including sharp declines in Asia and Marlboro."}
+      },
+      "wsj": {
+        "Guidance": {"rating": "positive", "reason": "Reported EPS guidance increased to $4.45-$4.55 as currency headwinds moderated."},
+        "Product / Users": {"rating": "negative", "reason": "Shipment volume fell in every geographic division. Cigarette volume declined 4.8% and Marlboro shipments fell 3.1%."},
+        "Management": {"rating": "neutral", "reason": "Management attributed volume weakness to low-margin markets and expected most earnings growth later in the year."},
+        "Others: eg. Covid, or macro events": {"rating": "neutral", "reason": "Currency pressure was easing, supporting reported guidance despite weak underlying shipment volume."}
+      }
+    },
+    "PM_2016q4": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "neutral", "reason": "Full-year EPS guidance was reaffirmed rather than raised."},
+        "Revenue": {"rating": "neutral", "reason": "Revenue was essentially in line. Sales excluding excise taxes were about $6.98 billion."},
+        "Product / Users": {"rating": "negative", "reason": "Cigarette demand remained weak. Shipment volume declined 5.4%."},
+        "Costs": {"rating": "positive", "reason": "Pricing and cost discipline preserved earnings despite lower cigarette shipments."}
+      },
+      "wsj": {
+        "Guidance": {"rating": "neutral", "reason": "Full-year EPS guidance was reaffirmed at $4.53-$4.58."},
+        "Revenue": {"rating": "neutral", "reason": "Revenue was in line. Sales excluding excise taxes were $6.98 billion versus approximately $6.97 billion expected."},
+        "Product / Users": {"rating": "negative", "reason": "Shipment volume declined in every region except Europe. Total cigarette volume fell 5.4%."},
+        "Profits and profitability": {"rating": "positive", "reason": "Earnings narrowly beat expectations. EPS was $1.25 versus approximately $1.23 expected."},
+        "Management": {"rating": "neutral", "reason": "Management called the volume weakness temporary and retained its full-year outlook."}
+      }
+    },
+    "PM_2017q1": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "positive", "reason": "IQOS adoption accelerated. Reduced-risk-product revenue reached about $343 million in Q4, led by Japan."},
+        "Others: eg. Covid, or macro events": {"rating": "neutral", "reason": "Currency-neutral earnings momentum improved despite a small reported EPS miss."}
+      },
+      "wsj": {
+        "Product / Users": {"rating": "positive", "reason": "IQOS adoption accelerated. Heated-tobacco shipments reached capacity as 1.4 million adults switched from cigarettes."},
+        "Management": {"rating": "positive", "reason": "Management presented a credible reduced-risk expansion plan, including wider IQOS distribution and manufacturing capacity."},
+        "Others: eg. Covid, or macro events": {"rating": "positive", "reason": "Currency-neutral growth was strong. Revenue increased 11% excluding currency."}
+      }
+    },
+    "PM_2017q2": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "neutral", "reason": "Full-year EPS guidance increased only for a favorable tax item, not stronger operating performance."},
+        "Product / Users": {"rating": "negative", "reason": "Cigarette shipments plunged. Volume declined 11.5% to approximately 173.6 billion units."},
+        "Management": {"rating": "neutral", "reason": "Management attributed part of the volume decline to low-price brands and shipment timing."}
+      },
+      "djnw": {
+        "Guidance": {"rating": null, "reason": null},
+        "Revenue": {"rating": null, "reason": null},
+        "Profits and profitability": {"rating": "negative", "reason": "Earnings fell short of expectations. Dow Jones cited the profit disappointment as the reason shares declined."}
+      }
+    },
+    "PM_2017q3": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "negative", "reason": "Full-year reported EPS guidance weakened as foreign-exchange assumptions became less favorable."},
+        "Revenue": {"rating": "negative", "reason": "Revenue missed expectations. Sales excluding excise taxes were about $6.92 billion despite 4% growth."},
+        "Product / Users": {"rating": "negative", "reason": "Combustible demand remained weak. Cigarette shipments fell 7.5%, and IQOS was not yet large enough to offset the decline."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Foreign-exchange assumptions worsened and reduced the reported earnings outlook."}
+      },
+      "djnw": {
+        "Profits and profitability": {"rating": "negative", "reason": "Earnings missed expectations. Dow Jones cited the profit shortfall alongside weak revenue and lower guidance."},
+        "Others: eg. Covid, or macro events": {"rating": null, "reason": null}
+      }
+    },
+    "PM_2017q4": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "negative", "reason": "Full-year EPS guidance was cut to $4.75-$4.80 because of currency and weakness in Russia and Saudi Arabia."},
+        "Revenue": {"rating": "negative", "reason": "Revenue missed expectations despite increasing 7% to approximately $7.47 billion."},
+        "Product / Users": {"rating": "neutral", "reason": "Shipment trends were mixed. Cigarette volume fell 4.1%, while heated-tobacco growth kept combined volume nearly flat."},
+        "Profits and profitability": {"rating": "negative", "reason": "Adjusted EPS of approximately $1.27 missed consensus."}
+      }
+    },
+    "PM_2018q1": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "positive", "reason": "Shipment momentum improved sharply. Combined cigarette and heated-tobacco volume rose 3.8% as HeatStick demand accelerated."},
+        "Costs": {"rating": "negative", "reason": "Reduced-risk investment increased. PMI accepted near-term margin pressure to accelerate IQOS adoption."},
+        "Others: eg. Covid, or macro events": {"rating": null, "reason": null}
+      }
+    },
+    "PM_2018q2": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "negative", "reason": "IQOS adoption slowed materially in Japan as the product moved beyond the easiest-to-convert smokers."},
+        "Others: eg. Covid, or macro events": {"rating": null, "reason": null}
+      },
+      "djnw": {
+        "Guidance": {"rating": "negative", "reason": "The revenue outlook weakened. Philip Morris warned of lackluster revenue development after the quarter."},
+        "Revenue": {"rating": "negative", "reason": "Revenue missed expectations. Dow Jones identified the top-line shortfall as a cause of the record stock decline."}
+      }
+    },
+    "PM_2018q3": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "negative", "reason": "Full-year reported EPS guidance was reduced to $5.02-$5.12 as Japan IQOS growth remained slower than expected."},
+        "Product / Users": {"rating": "negative", "reason": "IQOS adoption remained weaker than expected in Japan despite 73% growth in global heated-tobacco shipments."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Foreign exchange remained a headwind to the full-year reported earnings outlook."}
+      },
+      "wsj": {
+        "Guidance": {"rating": "negative", "reason": "Full-year guidance was cut because reduced-risk-product demand was weaker than anticipated."},
+        "Debt, leverage and capital raise": {"rating": "negative", "reason": "Cash returns weakened. Shareholder distributions were barely half their 2012 level as reduced-risk investment increased."}
+      }
+    }
+  },
+  "first_order": {
+    "PM_2016q2": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": ["Revenue", "Profits and profitability"], "djnw": null},
+    "PM_2016q3": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": ["Profits and profitability", "Product / Users"], "djnw": null},
+    "PM_2016q4": {"contextual_analysis": ["Profits and profitability", "Guidance"], "wsj": null, "djnw": null},
+    "PM_2017q1": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": ["Product / Users", "Guidance"], "djnw": null},
+    "PM_2017q2": {"contextual_analysis": ["Profits and profitability", "Product / Users"], "wsj": null, "djnw": ["Profits and profitability"]},
+    "PM_2017q3": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": null, "djnw": ["Guidance", "Revenue"]},
+    "PM_2017q4": {"contextual_analysis": ["Guidance", "Profits and profitability"], "wsj": null, "djnw": null},
+    "PM_2018q1": {"contextual_analysis": ["Guidance", "Product / Users"], "wsj": null, "djnw": null},
+    "PM_2018q2": {"contextual_analysis": ["Product / Users"], "wsj": null, "djnw": ["Revenue", "Guidance"]},
+    "PM_2018q3": {"contextual_analysis": ["Guidance", "Product / Users"], "wsj": ["Guidance", "Product / Users"], "djnw": null}
+  }
+}

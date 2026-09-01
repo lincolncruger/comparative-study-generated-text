@@ -1,0 +1,164 @@
+{
+  "reviewed_observations": [
+    "SBUX_2016q2", "SBUX_2016q3", "SBUX_2016q4", "SBUX_2017q1", "SBUX_2017q2",
+    "SBUX_2017q3", "SBUX_2017q4", "SBUX_2018q1", "SBUX_2018q2", "SBUX_2018q3"
+  ],
+  "pd_overrides": {
+    "SBUX_2016q2": {
+      "contextual_analysis": {
+        "Revenue": {"rating": "negative", "reason": "Revenue narrowly missed expectations. Sales were $4.99 billion versus approximately $5.03 billion expected."},
+        "Product / Users": {"rating": "negative", "reason": "Comparable growth missed a high expectations bar. Global comps rose 6%, with only 2% transaction growth."}
+      },
+      "wsj": {
+        "Guidance": {"rating": null, "reason": null},
+        "Revenue": {"rating": "negative", "reason": "Comparable sales missed expectations. Global comps increased 6% versus approximately 6.7% expected."},
+        "Product / Users": {"rating": "neutral", "reason": "Customer metrics were mixed. Comparable sales missed expectations, while mobile use and Rewards membership grew strongly."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Terror attacks and currency pressure hurt European performance. EMEA comparable sales rose only 1%."}
+      }
+    },
+    "SBUX_2016q3": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "negative", "reason": "Store productivity decelerated again. Global and U.S. comparable sales slowed to 4%."}
+      },
+      "wsj": {
+        "Revenue": {"rating": "negative", "reason": "Comparable sales missed targets for a third consecutive quarter. U.S. comps slowed to 4%."},
+        "Product / Users": {"rating": "negative", "reason": "Store productivity weakened. Global comps slowed and EMEA comparable sales declined 1%."},
+        "Management": {"rating": "negative", "reason": "Management described the quarter as anomalous and cited sharply weaker consumer confidence."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Political uncertainty, civil unrest, and terrorism concerns weighed on customer activity."}
+      }
+    },
+    "SBUX_2016q4": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "neutral", "reason": "Store demand was mixed. U.S. comps rose 4% on higher ticket while traffic declined 1%; China comps grew 6%."},
+        "Others: eg. Covid, or macro events": {"rating": null, "reason": null}
+      },
+      "wsj": {
+        "Guidance": {"rating": null, "reason": null},
+        "Revenue": {"rating": "positive", "reason": "Revenue beat expectations. Sales rose 16% to $5.71 billion versus approximately $5.68 billion expected."},
+        "Product / Users": {"rating": "neutral", "reason": "Customer metrics were mixed. U.S. comps missed expectations, while Rewards, mobile payments, and China grew strongly."},
+        "Profits and profitability": {"rating": "positive", "reason": "Adjusted earnings exceeded company guidance. EPS rose to $0.56 from $0.43."}
+      }
+    },
+    "SBUX_2017q1": {
+      "contextual_analysis": {
+        "Revenue": {"rating": "negative", "reason": "Revenue missed expectations. Sales were $5.73 billion versus approximately $5.85 billion expected."},
+        "Product / Users": {"rating": "negative", "reason": "U.S. store productivity weakened. Comps rose only 3% and transactions declined as mobile-order congestion drove customers away."},
+        "Others: eg. Covid, or macro events": {"rating": "positive", "reason": "China remained a bright spot. Comparable sales increased 6%."}
+      },
+      "wsj": {
+        "Product / Users": {"rating": "negative", "reason": "U.S. demand missed expectations. Comps rose 3% versus 4% expected as transactions fell 2% amid mobile-order bottlenecks."},
+        "Profits and profitability": {"rating": "positive", "reason": "Adjusted earnings increased. EPS rose to $0.52 from $0.46 while annual earnings guidance was maintained."},
+        "Management": {"rating": "negative", "reason": "Mobile-order execution hurt traffic. Management acknowledged pickup congestion was driving away walk-in customers."},
+        "Others: eg. Covid, or macro events": {"rating": "neutral", "reason": "Regional trends were mixed. EMEA declined while China comparable sales increased 6%."}
+      }
+    },
+    "SBUX_2017q2": {
+      "contextual_analysis": {
+        "Revenue": {"rating": "negative", "reason": "Revenue missed expectations. Sales were approximately $5.29 billion versus about $5.4 billion expected."},
+        "Product / Users": {"rating": "negative", "reason": "U.S. store productivity remained weak. Comparable sales rose only 3% and transactions were roughly flat."}
+      },
+      "wsj": {
+        "Guidance": {"rating": "negative", "reason": "Full-year EPS guidance was cut to $2.06-$2.10 as investments and Teavana charges increased."},
+        "Profits and profitability": {"rating": "neutral", "reason": "Earnings met expectations. EPS was approximately $0.45."},
+        "Management": {"rating": "neutral", "reason": "Management remained confident in a second-half improvement despite weak first-half comparable sales."}
+      },
+      "djnw": {
+        "Guidance": {"rating": "negative", "reason": "Full-year EPS guidance was reduced to $2.06-$2.10 because of investment and Teavana charges."},
+        "Profits and profitability": {"rating": "neutral", "reason": "Earnings met expectations. EPS was approximately $0.45."},
+        "Others: eg. Covid, or macro events": {"rating": "neutral", "reason": "Regional performance was mixed. China grew 7%, while EMEA comps declined 1%."}
+      }
+    },
+    "SBUX_2017q3": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "negative", "reason": "The near-term outlook weakened. Management became more cautious about Q4 and reduced expectations."},
+        "Profits and profitability": {"rating": "neutral", "reason": "Adjusted earnings met expectations. EPS was approximately $0.55."},
+        "Management": {"rating": "neutral", "reason": "Management adopted a more cautious stance because of retail and restaurant softness."},
+        "Debt, leverage and capital raise": {"rating": "negative", "reason": "Starbucks committed $1.3 billion to acquire the remaining half of its East China joint venture."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Teavana underperformance forced the closure of all 379 mall stores."}
+      },
+      "wsj": {
+        "Revenue": {"rating": "negative", "reason": "Revenue missed expectations. Sales were $5.66 billion versus approximately $5.76 billion expected."},
+        "Product / Users": {"rating": "neutral", "reason": "Store demand was mixed. U.S. comps reached 5% through higher spending, but traffic remained stagnant."},
+        "Profits and profitability": {"rating": "neutral", "reason": "Adjusted EPS met expectations, while Teavana closure charges reduced reported EPS to $0.47."},
+        "Litigation": {"rating": null, "reason": null},
+        "Debt, leverage and capital raise": {"rating": "negative", "reason": "The East China expansion required a $1.3 billion acquisition of the remaining joint-venture stake."}
+      },
+      "djnw": {
+        "Revenue": {"rating": "negative", "reason": "Revenue missed expectations. Sales were $5.66 billion versus approximately $5.76 billion expected."},
+        "Product / Users": {"rating": "neutral", "reason": "U.S. comps reached the 5% target, but improvement came from spending while traffic remained flat."},
+        "Management": {"rating": "negative", "reason": "Management became more cautious about Q4 amid broad retail and restaurant pressure."}
+      }
+    },
+    "SBUX_2017q4": {
+      "contextual_analysis": {
+        "Revenue": {"rating": "negative", "reason": "Underlying sales were weak. Global and U.S. comparable sales rose only 2%, while reported revenue was roughly flat."},
+        "Product / Users": {"rating": "neutral", "reason": "Store demand was mixed. U.S. comps rose only 2%, while China comparable sales increased 8%."},
+        "Profits and profitability": {"rating": "neutral", "reason": "Adjusted EPS was approximately $0.55 while operating margin declined 90 basis points."}
+      },
+      "wsj": {
+        "Revenue": {"rating": "negative", "reason": "Sales disappointed. Revenue declined slightly and global comparable growth of 2% missed expectations."},
+        "Profits and profitability": {"rating": "neutral", "reason": "EPS met expectations at approximately $0.54, while the long-term earnings-growth target was reduced."},
+        "Management": {"rating": "negative", "reason": "Management acknowledged inconsistent execution and lowered long-term financial targets."}
+      },
+      "djnw": {
+        "Profits and profitability": {"rating": "neutral", "reason": "EPS matched expectations at approximately $0.54 while total profit declined year over year."},
+        "Product / Users": {"rating": "negative", "reason": "Store productivity disappointed. Global and U.S. comparable sales rose only 2%, well below the historical target."}
+      }
+    },
+    "SBUX_2018q1": {
+      "contextual_analysis": {
+        "Revenue": {"rating": "negative", "reason": "Underlying sales missed expectations. Global and U.S. comparable sales rose only 2%."},
+        "Product / Users": {"rating": "neutral", "reason": "Demand diverged by region. U.S. holiday traffic weakened while China revenue rose 30% and comps increased 6%."}
+      },
+      "wsj": {
+        "Revenue": {"rating": "negative", "reason": "Comparable sales missed expectations. Global and U.S. comps rose 2% versus approximately 3% expected."},
+        "Product / Users": {"rating": "neutral", "reason": "Customer trends were mixed. U.S. traffic was soft, while Rewards membership and China performance remained strong."},
+        "Profits and profitability": {"rating": "positive", "reason": "Adjusted earnings beat expectations by one cent. EPS was approximately $0.58."},
+        "Management": {"rating": "negative", "reason": "Management expected slow U.S. traffic to continue into the following quarter."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Competition intensified. Starbucks faced premium gas-station coffee and bottled cold brew in supermarkets."}
+      },
+      "djnw": {
+        "Revenue": {"rating": "negative", "reason": "Comparable sales missed expectations. Global and U.S. comps rose only 2%."},
+        "Product / Users": {"rating": "neutral", "reason": "Customer trends were mixed. U.S. traffic weakened, while Rewards membership and China remained strong."},
+        "Profits and profitability": {"rating": "positive", "reason": "Adjusted EPS beat expectations by one cent despite one-time items boosting reported profit."}
+      }
+    },
+    "SBUX_2018q2": {
+      "contextual_analysis": {
+        "Others: eg. Covid, or macro events": {"rating": "neutral", "reason": "East China consolidation boosted reported revenue, making comparable-store productivity more informative."}
+      },
+      "wsj": {
+        "Guidance": {"rating": "neutral", "reason": "Full-year comparable-sales guidance was reiterated at 3%-5%, excluding the planned training closures."},
+        "Product / Users": {"rating": "neutral", "reason": "Store demand was mixed. Global comps slightly beat expectations, but U.S. traffic remained flat."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "The Philadelphia arrests created reputational risk and prompted a one-day closure of about 8,000 stores for training."}
+      }
+    },
+    "SBUX_2018q3": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "negative", "reason": "Store productivity remained weak. Global and U.S. comps rose only 1%, while China comps declined 2%."},
+        "Costs": {"rating": "negative", "reason": "Profitability weakened. Adjusted operating margin declined approximately 230 basis points."}
+      },
+      "wsj": {
+        "Product / Users": {"rating": "negative", "reason": "Traffic and international demand weakened. U.S. visits fell 2% and China/Asia Pacific comps declined 1%."},
+        "Management": {"rating": "neutral", "reason": "Management outlined store, digital, afternoon-beverage, and China-delivery initiatives to address weak traffic."}
+      },
+      "djnw": {
+        "Guidance": {"rating": null, "reason": null},
+        "Revenue": {"rating": "neutral", "reason": "Results broadly met market expectations. Dow Jones provided no specific revenue figure."},
+        "Profits and profitability": {"rating": "neutral", "reason": "Overall results broadly met expectations, supporting a modest share-price gain."}
+      }
+    }
+  },
+  "first_order": {
+    "SBUX_2016q2": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": ["Revenue"], "djnw": null},
+    "SBUX_2016q3": {"contextual_analysis": null, "wsj": ["Guidance", "Product / Users"], "djnw": null},
+    "SBUX_2016q4": {"contextual_analysis": ["Guidance", "Debt, leverage and capital raise"], "wsj": null, "djnw": null},
+    "SBUX_2017q1": {"contextual_analysis": ["Guidance", "Product / Users"], "wsj": ["Guidance", "Product / Users"], "djnw": null},
+    "SBUX_2017q2": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": ["Guidance", "Product / Users"], "djnw": ["Guidance", "Product / Users"]},
+    "SBUX_2017q3": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": ["Revenue", "Guidance"], "djnw": ["Revenue", "Guidance"]},
+    "SBUX_2017q4": {"contextual_analysis": ["Debt, leverage and capital raise", "Others: eg. Covid, or macro events"], "wsj": ["Revenue", "Guidance"], "djnw": ["Product / Users", "Guidance"]},
+    "SBUX_2018q1": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": null, "djnw": null},
+    "SBUX_2018q2": {"contextual_analysis": ["Product / Users", "Costs"], "wsj": null, "djnw": null},
+    "SBUX_2018q3": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": null, "djnw": ["Profits and profitability"]}
+  }
+}

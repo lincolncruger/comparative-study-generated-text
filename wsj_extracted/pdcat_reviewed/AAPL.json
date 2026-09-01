@@ -1,0 +1,60 @@
+{
+  "reviewed_observations": [
+    "AAPL_2016q2", "AAPL_2016q3", "AAPL_2016q4", "AAPL_2017q1", "AAPL_2017q2",
+    "AAPL_2017q3", "AAPL_2017q4", "AAPL_2018q1", "AAPL_2018q2", "AAPL_2018q3"
+  ],
+  "pd_overrides": {
+    "AAPL_2016q2": {
+      "djnw": {
+        "Guidance": {"rating": null, "reason": null}
+      }
+    },
+    "AAPL_2016q3": {
+      "wsj": {
+        "Revenue": {"rating": "positive", "reason": "Revenue beat lowered expectations. Sales were $42.36 billion versus $42.1 billion expected, despite declining year over year."},
+        "Product / Users": {"rating": "positive", "reason": "Product demand was better than feared. iPhone shipments slightly exceeded estimates, while Services grew 19%."},
+        "Profits and profitability": {"rating": "positive", "reason": "Earnings beat lowered expectations. EPS was $1.42 versus $1.38 expected, despite falling year over year."}
+      }
+    },
+    "AAPL_2016q4": {
+      "contextual_analysis": {
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Expectations were elevated. The quarter and revenue guide did not clear the bar embedded after a substantial pre-report rally."}
+      },
+      "wsj": {
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Expectations were elevated. Investors wanted guidance to be more bullish after the stock had risen over 20% in three months."}
+      }
+    },
+    "AAPL_2017q1": {
+      "wsj": {
+        "Product / Users": {"rating": "positive", "reason": "Product and Services momentum was strong. iPhone shipments set a record and Services revenue grew 18%."}
+      }
+    },
+    "AAPL_2017q2": {
+      "wsj": {
+        "Revenue": {"rating": "negative", "reason": "Revenue narrowly missed expectations. Sales were $52.90 billion versus $52.97 billion expected."}
+      }
+    },
+    "AAPL_2018q1": {
+      "wsj": {
+        "Product / Users": {"rating": "negative", "reason": "iPhone demand was softer than expected. Shipments were 77.3 million and iPhone X production was below Apple's target."}
+      }
+    },
+    "AAPL_2018q2": {
+      "wsj": {
+        "Guidance": {"rating": "neutral", "reason": "Guidance was in line. The $51.5-$53.5 billion revenue range bracketed the $51.9 billion consensus."}
+      }
+    }
+  },
+  "first_order": {
+    "AAPL_2016q2": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": ["Guidance", "Revenue"], "djnw": ["Revenue", "Profits and profitability"]},
+    "AAPL_2016q3": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": ["Revenue", "Product / Users"], "djnw": null},
+    "AAPL_2016q4": {"contextual_analysis": ["Others: eg. Covid, or macro events", "Costs"], "wsj": ["Others: eg. Covid, or macro events"], "djnw": ["Revenue", "Profits and profitability"]},
+    "AAPL_2017q1": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": ["Revenue", "Profits and profitability"], "djnw": ["Profits and profitability", "Product / Users"]},
+    "AAPL_2017q2": {"contextual_analysis": ["Product / Users", "Profits and profitability"], "wsj": ["Product / Users", "Others: eg. Covid, or macro events"], "djnw": ["Product / Users"]},
+    "AAPL_2017q3": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": null, "djnw": null},
+    "AAPL_2017q4": {"contextual_analysis": ["Profits and profitability", "Guidance"], "wsj": ["Profits and profitability", "Guidance"], "djnw": ["Revenue"]},
+    "AAPL_2018q1": {"contextual_analysis": ["Product / Users", "Guidance"], "wsj": null, "djnw": null},
+    "AAPL_2018q2": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": ["Debt, leverage and capital raise", "Profits and profitability"], "djnw": null},
+    "AAPL_2018q3": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": ["Revenue", "Product / Users"], "djnw": null}
+  }
+}

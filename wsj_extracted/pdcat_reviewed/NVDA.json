@@ -1,0 +1,134 @@
+{
+  "reviewed_observations": [
+    "NVDA_2016q2", "NVDA_2016q3", "NVDA_2016q4", "NVDA_2017q1", "NVDA_2017q2",
+    "NVDA_2017q3", "NVDA_2017q4", "NVDA_2018q1", "NVDA_2018q2", "NVDA_2018q3"
+  ],
+  "pd_overrides": {
+    "NVDA_2016q2": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "positive", "reason": "Revenue guidance beat expectations. Nvidia forecast about $1.35 billion versus roughly $1.28 billion expected."},
+        "Revenue": {"rating": "positive", "reason": "Revenue beat expectations. Sales were $1.31 billion versus approximately $1.26 billion expected."},
+        "Product / Users": {"rating": "positive", "reason": "Demand broadened beyond gaming. Data-center and automotive revenue accelerated as Pascal began its commercial ramp."},
+        "Profits and profitability": {"rating": "positive", "reason": "Earnings beat expectations. Adjusted EPS was $0.46 versus approximately $0.32 expected."}
+      },
+      "wsj": {
+        "Guidance": {"rating": "positive", "reason": "Revenue guidance beat expectations. Nvidia forecast $1.35 billion versus approximately $1.28 billion expected."},
+        "Revenue": {"rating": "positive", "reason": "Revenue beat expectations. Sales rose 13% to $1.3 billion versus approximately $1.27 billion expected."},
+        "Product / Users": {"rating": "positive", "reason": "Platform demand was broad. Gaming grew 17%, data center 63%, and automotive 47%."},
+        "Profits and profitability": {"rating": "positive", "reason": "Earnings beat expectations. Adjusted EPS was $0.46 versus $0.32 expected."}
+      }
+    },
+    "NVDA_2016q3": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "positive", "reason": "Platform demand was broad. Gaming, data center, and automotive grew, with data-center revenue rising approximately 110%."}
+      },
+      "wsj": {
+        "Product / Users": {"rating": "positive", "reason": "New-product demand was strong. Pascal GPUs and deep-learning interest supported gaming, visualization, and automotive growth."}
+      }
+    },
+    "NVDA_2016q4": {
+      "contextual_analysis": {
+        "Capex": {"rating": null, "reason": null},
+        "Others: eg. Covid, or macro events": {"rating": null, "reason": null}
+      },
+      "wsj": {
+        "Others: eg. Covid, or macro events": {"rating": null, "reason": null}
+      }
+    },
+    "NVDA_2017q1": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "neutral", "reason": "Revenue guidance was broadly in line. Nvidia forecast approximately $1.90 billion for the following quarter."},
+        "Litigation": {"rating": null, "reason": null}
+      },
+      "wsj": {
+        "Guidance": {"rating": "neutral", "reason": "Revenue guidance was roughly in line. Nvidia forecast approximately $1.9 billion for the current quarter."},
+        "Others: eg. Covid, or macro events": {"rating": "neutral", "reason": "Expectations were elevated, but WSJ did not explicitly attribute the decline. Shares had more than quadrupled over 12 months."}
+      }
+    },
+    "NVDA_2017q2": {
+      "contextual_analysis": {
+        "Costs": {"rating": "neutral", "reason": "Operating expenses rose to support growth. The increase was modest relative to Nvidia's revenue expansion."},
+        "Capex": {"rating": "neutral", "reason": "Capital spending guidance increased modestly. Nvidia projected approximately $55-$65 million for the following quarter."},
+        "Others: eg. Covid, or macro events": {"rating": null, "reason": null}
+      },
+      "wsj": {
+        "Revenue": {"rating": "positive", "reason": "Data-center revenue exceeded expectations. Sales of $409 million were approximately 29% above analysts' forecasts."},
+        "Product / Users": {"rating": "positive", "reason": "AI and cloud demand accelerated. Data-center revenue nearly tripled year over year despite seasonal gaming weakness."},
+        "Profits and profitability": {"rating": null, "reason": null},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Valuation was demanding. Nvidia traded near 40 times forward earnings before the report."}
+      },
+      "djnw": {
+        "Revenue": {"rating": "neutral", "reason": "This was a pre-earnings forecast. Analysts expected quarterly revenue of approximately $1.9 billion."},
+        "Product / Users": {"rating": "positive", "reason": "Analysts expected strong data-center and automotive demand, while gaming was forecast to soften seasonally."},
+        "Profits and profitability": {"rating": "neutral", "reason": "This was a pre-earnings forecast. Analysts expected EPS of approximately $0.67."},
+        "Others: eg. Covid, or macro events": {"rating": null, "reason": null}
+      }
+    },
+    "NVDA_2017q3": {
+      "contextual_analysis": {
+        "Costs": {"rating": "negative", "reason": "Operating expenses increased. Non-GAAP expenses rose 19%, reducing the perceived quality of headline growth."}
+      },
+      "wsj": {
+        "Product / Users": {"rating": "negative", "reason": "Data-center momentum disappointed. Revenue reached $416 million but posted its slowest sequential growth in two years."}
+      },
+      "djnw": {
+        "Product / Users": {"rating": "negative", "reason": "Server-chip expectations were too high. The data-center result failed to clear investors' elevated bar."}
+      }
+    },
+    "NVDA_2017q4": {
+      "contextual_analysis": {
+        "Costs": {"rating": "neutral", "reason": "Operating expenses increased alongside growth. GAAP expenses rose 24% while revenue increased 32%."},
+        "Capex": {"rating": "neutral", "reason": "Capital spending increased modestly. Property and equipment purchases rose to approximately $69 million."}
+      },
+      "wsj": {
+        "Product / Users": {"rating": "positive", "reason": "Demand improved across key platforms. Data-center sales more than doubled and gaming grew 25% with Nintendo Switch support."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Valuation imposed a high hurdle. Nvidia traded above 50 times forward earnings."}
+      },
+      "djnw": {
+        "Product / Users": {"rating": "positive", "reason": "Chip and graphics-card demand increased across high-end computing applications."},
+        "Others: eg. Covid, or macro events": {"rating": "positive", "reason": "Crypto exposure appeared limited. Nvidia said miners represented a relatively small share of its business."}
+      }
+    },
+    "NVDA_2018q1": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "positive", "reason": "Margin guidance improved. Nvidia forecast GAAP gross margin of approximately 62.7% after delivering 61.9%."},
+        "Product / Users": {"rating": "positive", "reason": "Gaming and AI demand remained strong. Gaming reached about $1.74 billion and data-center revenue more than doubled."},
+        "Others: eg. Covid, or macro events": {"rating": "neutral", "reason": "Cryptocurrency demand exceeded expectations but added volatility. Management could not precisely identify end-user mining demand."}
+      },
+      "wsj": {
+        "Product / Users": {"rating": "positive", "reason": "Demand was strong across gaming, data center, and crypto. Management was working with suppliers to meet GPU demand."},
+        "Management": {"rating": "neutral", "reason": "Management acknowledged competing demand from data centers, gamers, and cryptocurrency miners."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Valuation remained demanding. Nvidia traded at approximately 37 times forward earnings after a 90% rally."}
+      }
+    },
+    "NVDA_2018q2": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "positive", "reason": "Core-platform demand remained strong. Gaming grew 68% and data-center revenue increased 71%."}
+      },
+      "wsj": {
+        "Revenue": {"rating": null, "reason": null},
+        "Product / Users": {"rating": "neutral", "reason": "Platform demand was mixed. Data-center growth beat expectations, while cryptocurrency demand was forecast to decline."}
+      }
+    },
+    "NVDA_2018q3": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "neutral", "reason": "Core demand remained strong while crypto collapsed. Gaming grew 52% and data center 83%, but crypto revenue fell to $18 million."}
+      },
+      "wsj": {
+        "Product / Users": {"rating": "neutral", "reason": "Core platforms beat expectations, but crypto collapsed. Gaming and data center grew strongly as mining sales fell to $18 million."}
+      }
+    }
+  },
+  "first_order": {
+    "NVDA_2016q2": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": ["Profits and profitability", "Guidance"], "djnw": null},
+    "NVDA_2016q3": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": ["Guidance", "Product / Users"], "djnw": null},
+    "NVDA_2016q4": {"contextual_analysis": ["Profits and profitability", "Guidance"], "wsj": ["Profits and profitability", "Guidance"], "djnw": null},
+    "NVDA_2017q1": {"contextual_analysis": ["Others: eg. Covid, or macro events"], "wsj": null, "djnw": null},
+    "NVDA_2017q2": {"contextual_analysis": ["Profits and profitability", "Product / Users"], "wsj": ["Product / Users"], "djnw": null},
+    "NVDA_2017q3": {"contextual_analysis": ["Others: eg. Covid, or macro events", "Product / Users"], "wsj": ["Product / Users", "Others: eg. Covid, or macro events"], "djnw": ["Product / Users", "Others: eg. Covid, or macro events"]},
+    "NVDA_2017q4": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": ["Product / Users"], "djnw": ["Product / Users", "Others: eg. Covid, or macro events"]},
+    "NVDA_2018q1": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": ["Profits and profitability", "Product / Users"], "djnw": null},
+    "NVDA_2018q2": {"contextual_analysis": ["Guidance", "Others: eg. Covid, or macro events"], "wsj": ["Guidance", "Others: eg. Covid, or macro events"], "djnw": null},
+    "NVDA_2018q3": {"contextual_analysis": ["Guidance", "Others: eg. Covid, or macro events"], "wsj": ["Guidance", "Others: eg. Covid, or macro events"], "djnw": null}
+  }
+}

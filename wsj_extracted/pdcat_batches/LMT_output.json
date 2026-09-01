@@ -13,10 +13,6 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Q1 sales increased 16% to $11.7 billion, comfortably above expectations around $11.4 billion."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
         "rating": "negative",
         "reason": "Profitability was weak. EPS of $2.58 was only a penny below consensus."
@@ -44,6 +40,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Program demand supported growth. F-35 and Sikorsky sales expanded the revenue base despite temporary margin dilution."
       }
     },
     "wsj": {
@@ -52,16 +52,12 @@
         "reason": "Guidance was encouraging. Lockheed Martin lifted its full-year earnings forecast as the company benefited from sales of its F-35 jet fighter and its recently acquired Sikorsky helicopter unit."
       },
       "Order book / order backlog": {
-        "rating": "negative",
-        "reason": "Demand visibility weakened. CFO Bruce Tanner said Lockheed expected to end the year with a backlog of $90 billion to $95 billion."
+        "rating": null,
+        "reason": null
       },
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Lockheed Martin lifted its full-year earnings forecast as the company benefited from sales of its F-35 jet fighter and its recently acquired Sikorsky helicopter unit."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. The company had also launched a voluntary layoff program in its aeronautics business the prior month."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -90,6 +86,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Program sales were strong. F-35 and Sikorsky demand supported the beat and raised outlook."
       }
     },
     "djnw": null
@@ -107,10 +107,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 sales reached $12.9 billion and EPS $3.32, beating expectations of roughly $12.55 billion and $2.93."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. F-35 production was becoming a larger growth engine."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -139,24 +135,24 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. F-35 production was becoming a larger growth engine."
       }
     },
     "wsj": {
       "Guidance": {
-        "rating": "negative",
-        "reason": "Guidance was disappointing. Despite the cash concerns, Lockheed further lifted its full-year forecast, helped by higher F-35 deliveries and Sikorsky helicopter sales."
+        "rating": "positive",
+        "reason": "Guidance improved. Lockheed raised its full-year sales, operating-profit, EPS, and cash-flow outlooks."
       },
       "Order book / order backlog": {
         "rating": null,
         "reason": null
       },
       "Revenue": {
-        "rating": "negative",
-        "reason": "Revenue performance was weak. Despite the cash concerns, Lockheed further lifted its full-year forecast, helped by higher F-35 deliveries and Sikorsky helicopter sales."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "positive",
+        "reason": "Revenue beat expectations. Sales reached $12.9 billion versus roughly $12.55 billion expected."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -185,6 +181,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": null
@@ -202,10 +202,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q3 continuing-operations sales rose 15% to $11.6 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -234,6 +230,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -246,12 +246,8 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "negative",
-        "reason": "Revenue performance was weak. Lockheed Martin said it expects 2017 sales to grow at the fastest clip in a decade."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. CFO Bruce Tanner said the company wouldn't catch up on production-line fixes until well into the next year."
+        "rating": "positive",
+        "reason": "Revenue beat expectations. Strong sales accompanied the large earnings beat and constructive outlook."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -280,6 +276,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. CFO Bruce Tanner said the company wouldn't catch up on production-line fixes until well into the next year."
       }
     },
     "djnw": null
@@ -287,8 +287,8 @@
   "LMT_2017q1": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. The problem was the 2017 earnings outlook."
+        "rating": "negative",
+        "reason": "Guidance missed expectations. 2017 EPS was projected at $12.25-$12.55 versus roughly $12.88 expected."
       },
       "Order book / order backlog": {
         "rating": "positive",
@@ -297,10 +297,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q4 sales were $13.8 billion and EPS $3.25, both above consensus."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -329,12 +325,16 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. On revenue up 19% to $13.75 billion."
+        "rating": "negative",
+        "reason": "Guidance missed expectations. The 2017 profit outlook fell below the $12.87 analyst consensus."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -343,10 +343,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. On revenue up 19% to $13.75 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -375,6 +371,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": null
@@ -390,16 +390,12 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Q1 sales increased about 7% to $11.1 billion."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. F-35 production was expanding rapidly."
+        "rating": "negative",
+        "reason": "Revenue was slightly below expectations. Higher F-35 volume did not prevent a modest top-line shortfall."
       },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. EPS from continuing operations was $2.61."
+        "rating": "negative",
+        "reason": "Profitability disappointed. Lower-margin F-35 production and Sikorsky diluted segment margins."
       },
       "Costs": {
         "rating": null,
@@ -424,6 +420,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. F-35 production was expanding rapidly."
       }
     },
     "wsj": {
@@ -438,10 +438,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Lockheed generated 27% of last year's revenue overseas and is targeting a 30% share through prospective sales such as F-16 jets to Bahrain and India."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -470,6 +466,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": {
@@ -484,10 +484,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue rose 6.6% to $11.1 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -516,6 +512,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -532,10 +532,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 sales reached $12.7 billion and EPS $3.23, both above consensus."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -562,6 +558,10 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "The slight negative close lacked a verified operating cause. The beat-and-raise reversed after reaching a record intraday high."
+      },
+      "Product": {
         "rating": null,
         "reason": null
       }
@@ -572,16 +572,12 @@
         "reason": "Guidance was encouraging. Lockheed reported forecast-beating quarterly profit and boosted its per-share earnings forecast by 15 cents to $12.30-$12.60."
       },
       "Order book / order backlog": {
-        "rating": "negative",
-        "reason": "Demand visibility weakened. Lockheed Martin said its order book had grown to more than $100 billion."
+        "rating": "positive",
+        "reason": "Demand visibility was strong. Lockheed's order book exceeded $100 billion."
       },
       "Revenue": {
-        "rating": "negative",
-        "reason": "Revenue performance was weak. Driven by F-35 combat-jet sales along with growing sales of helicopters and missile-defense systems to foreign governments."
-      },
-      "Product / Users": {
         "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Annual production expected to rise from 66 planes in 2017 to around 150 in coming years."
+        "reason": "Revenue beat expectations. The reported quarter exceeded Wall Street estimates."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -610,6 +606,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Annual production expected to rise from 66 planes in 2017 to around 150 in coming years."
       }
     },
     "djnw": {
@@ -624,10 +624,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Lockheed's new guidance called for net sales of $49.8 billion to $51 billion, up from a prior range of $49.5 billion to $50.7 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -656,6 +652,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -670,16 +670,12 @@
         "reason": "Demand visibility was encouraging. Lockheed nevertheless raised its full-year 2017 outlook and reported a record $103.6 billion backlog."
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Q3 sales were $12.2 billion and EPS $3.24."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Revenue missed expectations. Sales were $12.2 billion versus roughly $12.8 billion expected."
       },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. Q3 sales were $12.2 billion and EPS $3.24."
+        "rating": "negative",
+        "reason": "Earnings missed expectations. EPS was $3.24 versus roughly $3.26 expected."
       },
       "Costs": {
         "rating": null,
@@ -690,8 +686,8 @@
         "reason": null
       },
       "Capex": {
-        "rating": "positive",
-        "reason": "Capital investment was constructive. 2018 cash requirements for F-35 materials and capital spending tempered the outlook."
+        "rating": "negative",
+        "reason": "Capital requirements increased. Higher F-35 material purchases and investment weakened near-term cash conversion."
       },
       "Management": {
         "rating": null,
@@ -704,24 +700,24 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Leaving 2017 guidance unchanged apart from a one-time gain from property sales."
+        "rating": "negative",
+        "reason": "The forward growth outlook was modest. Lockheed projected only about 2% sales growth for 2018."
       },
       "Order book / order backlog": {
         "rating": "positive",
         "reason": "Demand visibility was encouraging. Lockheed lifted full-year sales guidance to $50 billion-$51 billion on the property gain and said its order backlog topped $100 billion for the first time."
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Lockheed Martin said it expects sales to grow about 2% in 2018, driven heavily by its flagship F-35 fighter jet."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Revenue missed expectations. The sales shortfall accompanied a small EPS miss."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -750,12 +746,16 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Two Dow Jones Newswires pieces cover Lockheed Martin's third-quarter 2017 results and its initial 2018 outlook."
+        "rating": "negative",
+        "reason": "The 2018 sales outlook disappointed. Growth was projected at only about 2%."
       },
       "Order book / order backlog": {
         "rating": "positive",
@@ -764,10 +764,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. Per-share earnings of $3.24 -- two cents below the analyst consensus tracked by Thomson Reuters -- on revenue up 5% to $12.2 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -796,6 +792,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -812,10 +812,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q4 sales increased to $15.1 billion and adjusted EPS, excluding the one-time tax-reform charge, was $4.30."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -844,6 +840,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": null,
@@ -859,10 +859,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Quarterly sales rose 10% to $15.1 billion, full-year adjusted revenue approached $50 billion, and 2018 guidance was set as high as $51.5 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -891,6 +887,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -907,10 +907,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q1 sales rose 4% to $11.6 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -937,14 +933,18 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "Cash conversion disappointed. Annual cash-flow guidance was unchanged despite large increases in EPS and other metrics."
+      },
+      "Product": {
         "rating": null,
         "reason": null
       }
     },
     "wsj": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Lockheed reported forecast-beating earnings and slightly raised full-year guidance."
+        "rating": "neutral",
+        "reason": "Cash-flow guidance was unchanged. Lockheed maintained $3 billion despite raising sales and profit guidance."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -953,10 +953,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Full-year sales guidance was raised to $50.35 billion-$51.85 billion and per-share earnings guidance to $15.80-$16.10."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. CEO Marillyn Hewson said, \"It's not affecting production,\" and reiterated the company still expects to deliver 90 planes this year."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -983,8 +979,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Cash flow disappointed. The unchanged annual cash target reduced the value of the earnings beat."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. CEO Marillyn Hewson said, \"It's not affecting production,\" and reiterated the company still expects to deliver 90 planes this year."
       }
     },
     "djnw": null
@@ -1003,17 +1003,13 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 sales increased 6% to $13.4 billion."
       },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. F-35 production volume continued to drive Aeronautics growth."
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. EPS rose to $4.05 despite a $0.26 restructuring charge."
       },
       "Costs": {
-        "rating": "positive",
-        "reason": "Cost execution was favorable. EPS rose to $4.05 despite a $0.26 restructuring charge."
+        "rating": "neutral",
+        "reason": "Cash and reported EPS included timing items. Pension funding and a restructuring charge did not indicate weaker underlying demand."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -1034,6 +1030,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. F-35 production volume continued to drive Aeronautics growth."
       }
     },
     "wsj": {
@@ -1048,10 +1048,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Driven by overseas sales and higher Pentagon spending as Congress boosted defense budgets above White House requests to address threats including North Korea."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1080,6 +1076,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Lockheed Martin said it expects to end the year with a record order backlog of more than $110 billion."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": null

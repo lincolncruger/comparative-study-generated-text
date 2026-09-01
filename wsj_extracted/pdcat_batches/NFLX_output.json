@@ -2,24 +2,20 @@
   "NFLX_2016q2": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. The problem was the Q2 forecast."
+        "rating": "negative",
+        "reason": "Subscriber guidance disappointed. Netflix forecast 2.5 million Q2 additions, well below expectations after its global rollout."
       },
       "Order book / order backlog": {
         "rating": null,
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Revenue was about $1.96 billion and EPS $0.06."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Netflix ended Q1 with more than 81 million members after adding a record 6.74 million subscribers: about 2.23 million in the U.S."
+        "rating": "neutral",
+        "reason": "Revenue offered no identified surprise. Quarterly sales were approximately $1.96 billion."
       },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. Revenue was about $1.96 billion and EPS $0.06."
+        "rating": "neutral",
+        "reason": "Earnings offered no identified surprise. Quarterly EPS was approximately $0.06."
       },
       "Costs": {
         "rating": null,
@@ -44,6 +40,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Netflix ended Q1 with more than 81 million members after adding a record 6.74 million subscribers: about 2.23 million in the U.S."
       }
     },
     "wsj": {
@@ -56,20 +56,16 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "negative",
-        "reason": "Revenue performance was weak. Analysts were expecting earnings of 3 cents a share, down from 5 cents a year earlier, and revenue of $1.97 billion, up 25%."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Netflix expected 1.75 million U.S. additions, down from 2.28 million a year earlier, as higher prices threatened churn."
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. This is a pre-earnings preview column."
+        "rating": "negative",
+        "reason": "Earnings were expected to decline. Analysts forecast EPS of $0.03 versus $0.05 a year earlier."
       },
       "Costs": {
         "rating": "negative",
-        "reason": "Costs were a headwind. A stretched valuation."
+        "reason": "Content commitments were rising. Streaming obligations reached $10.9 billion as operating cash flow turned negative."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -89,7 +85,11 @@
       },
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
-        "reason": "The broader backdrop was challenging. Rising content costs and increasing competition from services like Hulu and Amazon Prime Video."
+        "reason": "Competition and valuation posed risks. Hulu and Amazon were expanding while Netflix traded above 200 times forward earnings."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Netflix expected 1.75 million U.S. additions, down from 2.28 million a year earlier, as higher prices threatened churn."
       }
     },
     "djnw": null
@@ -97,8 +97,8 @@
   "NFLX_2016q3": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Netflix added only 1.7 million net members versus its own forecast of 2.5 million."
+        "rating": "negative",
+        "reason": "Subscriber expectations weakened. Netflix missed its Q2 forecast and issued cautious Q3 additions guidance."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -106,15 +106,11 @@
       },
       "Revenue": {
         "rating": "positive",
-        "reason": "Revenue performance was strong. Q2 revenue was about $2.11 billion and EPS $0.09."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Netflix added 1.7 million members versus its 2.5 million forecast as price increases drove higher churn."
+        "reason": "Revenue increased strongly. Quarterly sales rose to approximately $2.11 billion."
       },
       "Profits and profitability": {
         "rating": "positive",
-        "reason": "Profitability was strong. Q2 revenue was about $2.11 billion and EPS $0.09."
+        "reason": "Earnings were stronger than expected. EPS reached approximately $0.09."
       },
       "Costs": {
         "rating": null,
@@ -129,8 +125,8 @@
         "reason": null
       },
       "Management": {
-        "rating": "positive",
-        "reason": "Management struck a confident tone. Management said churn rose unexpectedly as press coverage around the price increase caused some members to cancel."
+        "rating": "negative",
+        "reason": "Forecasting credibility weakened. Management acknowledged unexpectedly high churn and a second consecutive subscriber disappointment."
       },
       "Litigation": {
         "rating": null,
@@ -139,32 +135,32 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Netflix added 1.7 million members versus its 2.5 million forecast as price increases drove higher churn."
       }
     },
     "wsj": {
       "Guidance": {
         "rating": "negative",
-        "reason": "Guidance was disappointing. Revenue jumped 28% to $2.11 billion and earnings beat both analyst estimates and the company's own prior guidance."
+        "reason": "Subscriber guidance was cautious. Netflix forecast only 300,000 U.S. additions for the third quarter."
       },
       "Order book / order backlog": {
         "rating": null,
         "reason": null
       },
       "Revenue": {
-        "rating": "negative",
-        "reason": "Revenue performance was weak. Revenue jumped 28% to $2.11 billion and earnings beat both analyst estimates and the company's own prior guidance."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. 1.52 million internationally, versus an expected 2 million, ending the quarter with 83.18 million total subscribers."
+        "rating": "positive",
+        "reason": "Revenue was strong. Sales increased 28% to approximately $2.11 billion."
       },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. Despite the subscriber miss, revenue jumped 28% to $2.11 billion and earnings beat both analyst estimates and the company's own prior guidance, helped by lower content costs."
+        "rating": "positive",
+        "reason": "Earnings beat expectations. Lower-than-expected content costs helped results exceed analyst estimates and company guidance."
       },
       "Costs": {
-        "rating": "negative",
-        "reason": "Costs were a headwind. Despite the subscriber miss, revenue jumped 28% to $2.11 billion and earnings beat both analyst estimates and the company's own prior guidance, helped by lower content costs."
+        "rating": "positive",
+        "reason": "Content costs were below expectations. Lower spending helped earnings outperform forecasts."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -175,8 +171,8 @@
         "reason": null
       },
       "Management": {
-        "rating": "positive",
-        "reason": "Management struck a confident tone. CEO Reed Hastings said on the analyst call, Whatever the price is for something, people don't like it to go up."
+        "rating": "negative",
+        "reason": "Management acknowledged damaging volatility. Reed Hastings apologized after higher-than-expected cancellations drove the subscriber miss."
       },
       "Litigation": {
         "rating": null,
@@ -185,6 +181,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. 1.52 million internationally, versus an expected 2 million, ending the quarter with 83.18 million total subscribers."
       }
     },
     "djnw": null
@@ -193,7 +193,7 @@
     "contextual_analysis": {
       "Guidance": {
         "rating": "positive",
-        "reason": "Guidance was encouraging. Netflix reported 3.57 million net subscriber additions, including 3.2 million internationally, well above both its own forecast and Wall Street expectations."
+        "reason": "Subscriber guidance remained healthy. Management projected continued growth after a large third-quarter beat."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -203,13 +203,9 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Global streaming revenue exceeded $2 billion for the first time, and total quarterly revenue was about $2.29 billion."
       },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Netflix reported 3.57 million net subscriber additions."
-      },
       "Profits and profitability": {
         "rating": "positive",
-        "reason": "Profitability was strong. Shares surged because subscriber additions beat expectations by a wide margin."
+        "reason": "Profitability improved. Subscriber outperformance accompanied quarterly revenue of approximately $2.29 billion."
       },
       "Costs": {
         "rating": null,
@@ -234,36 +230,36 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Netflix reported 3.57 million net subscriber additions."
       }
     },
     "wsj": {
       "Guidance": {
-        "rating": "negative",
-        "reason": "Guidance was disappointing. Netflix blew through its forecast for subscriber additions in the third quarter."
+        "rating": "positive",
+        "reason": "Subscriber results exceeded guidance. International additions reached 3.2 million versus 2 million forecast."
       },
       "Order book / order backlog": {
         "rating": null,
         "reason": null
       },
       "Revenue": {
-        "rating": "negative",
-        "reason": "Revenue performance was weak. \"We can all see it's time for me to apologize for the volatility again.\" Revenue rose to $2.29 billion from $1.74 billion a year earlier."
-      },
-      "Product / Users": {
         "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Netflix added 3.2 million international members versus 2 million expected and 370,000 U.S."
+        "reason": "Revenue grew strongly. Sales rose to $2.29 billion from $1.74 billion."
       },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. Quarterly profit rose to $51.5 million, or 12 cents a share, from $29.4 million, or 7 cents a share."
+        "rating": "positive",
+        "reason": "Profit increased. Quarterly earnings rose to $51.5 million from $29.4 million."
       },
       "Costs": {
         "rating": null,
         "reason": null
       },
       "Debt, leverage and capital raise": {
-        "rating": "positive",
-        "reason": "Capital management was supportive. That it planned to take on more debt in coming weeks."
+        "rating": "negative",
+        "reason": "Funding needs increased. Netflix planned to take on additional debt as content spending expanded."
       },
       "Capex": {
         "rating": null,
@@ -278,8 +274,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "China expansion remained difficult. Management said a stand-alone launch there did not look promising."
+      },
+      "Product": {
         "rating": "positive",
-        "reason": "The broader backdrop was supportive. It also said it was exploring licensing its shows to online players in China rather than pursuing a stand-alone service there in the near term."
+        "reason": "Product and user momentum was encouraging. Netflix added 3.2 million international members versus 2 million expected and 370,000 U.S."
       }
     },
     "djnw": null
@@ -298,13 +298,9 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Global streaming revenue reached about $2.35 billion, and the company ended 2016 with 93.8 million members."
       },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Netflix added about 7.05 million net subscribers in Q4: roughly 1.93 million U.S."
-      },
       "Profits and profitability": {
-        "rating": null,
-        "reason": null
+        "rating": "positive",
+        "reason": "Scale supported stronger results. Record subscriber additions accompanied continued international profitability improvement."
       },
       "Costs": {
         "rating": null,
@@ -329,6 +325,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Netflix added about 7.05 million net subscribers in Q4: roughly 1.93 million U.S."
       }
     },
     "wsj": {
@@ -343,10 +343,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. On revenue up 36% to $2.48 billion."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Adding 5.12 million subscribers abroad and 1.93 million in the U.S."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -366,7 +362,7 @@
       },
       "Management": {
         "rating": "positive",
-        "reason": "Management struck a confident tone. Adding 5.12 million subscribers abroad and 1.93 million in the U.S."
+        "reason": "Management was confident in global expansion. Reed Hastings emphasized continued investment to sustain Netflix's lead."
       },
       "Litigation": {
         "rating": null,
@@ -375,6 +371,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Adding 5.12 million subscribers abroad and 1.93 million in the U.S."
       }
     },
     "djnw": null
@@ -382,20 +382,16 @@
   "NFLX_2017q2": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Several major releases shifted into Q2, and guided to a strong 3.2 million Q2 net additions."
+        "rating": "neutral",
+        "reason": "Guidance was mixed. Strong Q2 subscriber guidance was offset by EPS guidance of about $0.15 below consensus."
       },
       "Order book / order backlog": {
         "rating": null,
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Q1 revenue rose to about $2.64 billion and EPS reached $0.40, above consensus."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Netflix added about 4.95 million members versus its 5.2 million forecast and roughly 5.3 million expected."
+        "rating": "neutral",
+        "reason": "Revenue was approximately in line. Quarterly sales rose to about $2.64 billion."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -414,8 +410,8 @@
         "reason": null
       },
       "Management": {
-        "rating": "negative",
-        "reason": "Management struck a cautious tone. Management argued that the shortfall mainly reflected content timing."
+        "rating": "neutral",
+        "reason": "Management attributed the subscriber miss to content timing and expected stronger additions in the following quarter."
       },
       "Litigation": {
         "rating": null,
@@ -424,28 +420,28 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Netflix added about 4.95 million members versus its 5.2 million forecast and roughly 5.3 million expected."
       }
     },
     "wsj": {
       "Guidance": {
         "rating": "negative",
-        "reason": "Guidance was disappointing. Adding 3.53 million international subscribers against a 3.7 million guidance figure (down from 4.51 million a year earlier) and 1.42 million U.S."
+        "reason": "Profit guidance weakened. Netflix forecast second-quarter EPS of approximately $0.15 as content costs rose."
       },
       "Order book / order backlog": {
         "rating": null,
         "reason": null
       },
       "Revenue": {
-        "rating": "negative",
-        "reason": "Revenue performance was weak. Urging a focus instead on revenue growth and global operating margins."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Netflix's U.S. and international subscriber growth slowed in the first quarter, coming in below expectations."
+        "rating": "neutral",
+        "reason": "Revenue met expectations. Sales rose 35% to approximately $2.64 billion."
       },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. Profit rose on lower-than-anticipated content costs."
+        "rating": "neutral",
+        "reason": "Earnings matched expectations. EPS was approximately $0.40 as lower content costs supported profit."
       },
       "Costs": {
         "rating": "negative",
@@ -460,8 +456,8 @@
         "reason": null
       },
       "Management": {
-        "rating": "positive",
-        "reason": "Management struck a confident tone. CEO Reed Hastings said on the analyst call that every 10 million is a little harder than the last 10 million."
+        "rating": "neutral",
+        "reason": "Management downplayed the subscriber miss. Reed Hastings said the shortfall was not very concerning."
       },
       "Litigation": {
         "rating": null,
@@ -470,6 +466,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Netflix's U.S. and international subscriber growth slowed in the first quarter, coming in below expectations."
       }
     },
     "djnw": null
@@ -478,7 +478,7 @@
     "contextual_analysis": {
       "Guidance": {
         "rating": "positive",
-        "reason": "Guidance was encouraging. Netflix added 5.2 million subscribers in Q2, far above its own 3.2 million forecast."
+        "reason": "Subscriber additions exceeded guidance. Netflix added 5.2 million users versus its 3.2 million forecast."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -488,13 +488,9 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue was about $2.79 billion."
       },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Netflix added 5.2 million subscribers in Q2, far above its own 3.2 million forecast."
-      },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. EPS of $0.15 was roughly in line with expectations."
+        "rating": "neutral",
+        "reason": "Earnings were in line with expectations. Quarterly EPS was approximately $0.15."
       },
       "Costs": {
         "rating": null,
@@ -519,12 +515,16 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Netflix added 5.2 million subscribers in Q2, far above its own 3.2 million forecast."
       }
     },
     "wsj": {
       "Guidance": {
         "rating": "positive",
-        "reason": "Guidance was encouraging. International subscriber additions of 4.14 million beat a 2.6 million guidance figure, and U.S. additions of 1.07 million beat a 600,000 target."
+        "reason": "Subscriber additions exceeded guidance. Netflix added 5.2 million users versus its 3.2 million forecast."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -534,13 +534,9 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue jumped 32% to $2.79 billion."
       },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Ending with nearly 104 million subscribers globally after adding 5.2 million total users."
-      },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. Global operating margin was 4.6%, down from 9.7% in the first quarter."
+        "rating": "neutral",
+        "reason": "Profit increased, while operating margin declined sequentially. EPS was $0.15 and margin was 4.6%."
       },
       "Costs": {
         "rating": null,
@@ -565,6 +561,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Ending with nearly 104 million subscribers globally after adding 5.2 million total users."
       }
     },
     "djnw": {
@@ -580,13 +580,9 @@
         "rating": null,
         "reason": null
       },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Netflix added more users than projected, sending the stock up more than 10% after hours."
-      },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. Rather than a dedicated Netflix earnings story."
+        "rating": null,
+        "reason": null
       },
       "Costs": {
         "rating": null,
@@ -611,6 +607,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Netflix added more users than projected, sending the stock up more than 10% after hours."
       }
     }
   },
@@ -628,17 +628,13 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Q3 revenue was about $2.99 billion and EPS $0.29."
       },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Netflix added 5.3 million subscribers versus guidance of 4.4 million."
-      },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. Q3 revenue was about $2.99 billion and EPS $0.29."
+        "rating": "neutral",
+        "reason": "Earnings provided limited upside. EPS was approximately $0.29 despite strong revenue and subscriber growth."
       },
       "Costs": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Content investment increased. Netflix raised planned 2018 content spending to $7-$8 billion."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -657,14 +653,18 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Valuation limited the reaction. The initial rally faded after shares had already risen more than 60% in 2017."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Netflix added 5.3 million subscribers versus guidance of 4.4 million."
       }
     },
     "wsj": {
       "Guidance": {
         "rating": "positive",
-        "reason": "Guidance was encouraging. Netflix again topped subscriber-growth forecasts in the third quarter."
+        "reason": "Subscriber results beat guidance. Netflix added 5.3 million users versus its 4.4 million forecast."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -674,17 +674,13 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue that slightly exceeded estimates and an operating margin that outperformed the company's own target."
       },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Ending with 104 million paid streaming subscribers globally after adding 5.3 million."
-      },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. Operating margin came in at 7% versus a 6.9% target."
+        "rating": "neutral",
+        "reason": "Profitability was mixed. Operating margin beat its target, while EPS of $0.29 slightly missed the $0.32 estimate."
       },
       "Costs": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Content commitments expanded. Planned 2018 spending reached $7-$8 billion and obligations rose to $17 billion."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -703,14 +699,18 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "Competition intensified. Disney, Amazon, Hulu, and Apple were increasing their streaming investments."
+      },
+      "Product": {
         "rating": "positive",
-        "reason": "The broader backdrop was supportive. The article situates the results against an increasingly competitive landscape."
+        "reason": "Product and user momentum was encouraging. Ending with 104 million paid streaming subscribers globally after adding 5.3 million."
       }
     },
     "djnw": {
       "Guidance": {
         "rating": "positive",
-        "reason": "Guidance was encouraging. U.S. additions of 850,000 versus a 750,000 target and international additions of 4.45 million versus a forecast of 3.65 million."
+        "reason": "Subscriber results beat guidance. Netflix added 5.3 million users versus its 4.4 million forecast."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -720,17 +720,13 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue climbed 30% to $2.99 billion, and the company reported profit of $130 million, or 29 cents per share, up from $52 million, or 12 cents, a year earlier."
       },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. The article reports Netflix ended the quarter with 104 million paid streaming subscribers globally after adding 5.3 million."
-      },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. Revenue climbed 30% to $2.99 billion, and the company reported profit of $130 million, or 29 cents per share, up from $52 million, or 12 cents, a year earlier."
+        "rating": "neutral",
+        "reason": "Profitability was mixed. Operating margin beat its target, while EPS of $0.29 missed the $0.32 estimate."
       },
       "Costs": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Content commitments increased. Planned spending rose to $7-$8 billion and obligations reached $17 billion."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -749,8 +745,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "Competition intensified. Disney, Amazon, Hulu, and Apple were expanding their streaming efforts."
+      },
+      "Product": {
         "rating": "positive",
-        "reason": "The broader backdrop was supportive. It also describes intensifying competition from Disney, Amazon, Hulu."
+        "reason": "Product and user momentum was encouraging. The article reports Netflix ended the quarter with 104 million paid streaming subscribers globally after adding 5.3 million."
       }
     }
   },
@@ -768,17 +768,13 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue increased about 33% to $3.3 billion, and EPS was $0.41."
       },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Netflix added a record 8.3 million net subscribers, more than 30% above its own target of 6.3 million."
-      },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. Revenue increased about 33% to $3.3 billion, and EPS was $0.41."
+        "rating": "neutral",
+        "reason": "Earnings met expectations. EPS was approximately $0.41 as subscriber growth substantially outperformed."
       },
       "Costs": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Cash investment increased. Netflix expected free-cash-flow burn of roughly $3-$4 billion in 2018."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -799,12 +795,16 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Netflix added a record 8.3 million net subscribers, more than 30% above its own target of 6.3 million."
       }
     },
     "wsj": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. The company raised its 2018 content-spending guidance to $7.5 billion to $8 billion."
+        "rating": "negative",
+        "reason": "Spending guidance increased. Netflix raised planned content spending and projected $3-$4 billion of negative free cash flow."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -812,19 +812,15 @@
       },
       "Revenue": {
         "rating": "positive",
-        "reason": "Revenue performance was strong. However, as long as the revenue growth is accelerating and the net subscriber additions continue, investors will look past the spending."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Netflix added 8.3 million streaming subscribers in the fourth quarter."
+        "reason": "Revenue beat expectations. Sales increased 33% to approximately $3.29 billion."
       },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. It said rising operating profits and slowing growth in content-spending increases would eventually produce positive free cash flow."
+        "rating": "neutral",
+        "reason": "Earnings met expectations. EPS was $0.41 as international operations contributed full-year profit for the first time."
       },
       "Costs": {
-        "rating": "positive",
-        "reason": "Cost execution was favorable. CEO Reed Hastings telling investors content costs would keep rising in 2019 and 2020."
+        "rating": "negative",
+        "reason": "Spending and cash burn increased. Content obligations reached $17.7 billion and marketing spending was set to rise."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -843,14 +839,18 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "A misconduct-related content charge hurt results. Netflix recorded a $39 million noncash charge."
+      },
+      "Product": {
         "rating": "positive",
-        "reason": "The broader backdrop was supportive. 8.3 million adds, the company's highest ever, versus a 6.3 million guidance figure."
+        "reason": "Product and user momentum was encouraging. Netflix added 8.3 million streaming subscribers in the fourth quarter."
       }
     },
     "djnw": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. It singles out Netflix as a standout performer after the company beat forecasts for both earnings and new net subscribers."
+        "rating": null,
+        "reason": null
       },
       "Order book / order backlog": {
         "rating": null,
@@ -860,13 +860,9 @@
         "rating": null,
         "reason": null
       },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. It singles out Netflix as a standout performer after the company beat forecasts for both earnings and new net subscribers."
-      },
       "Profits and profitability": {
         "rating": "positive",
-        "reason": "Profitability was strong. Rather than a dedicated Netflix earnings story."
+        "reason": "Earnings beat forecasts. Dow Jones linked the premarket gain to better-than-expected earnings and subscriber additions."
       },
       "Costs": {
         "rating": "negative",
@@ -891,6 +887,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. It singles out Netflix as a standout performer after the company beat forecasts for both earnings and new net subscribers."
       }
     }
   },
@@ -898,7 +898,7 @@
     "contextual_analysis": {
       "Guidance": {
         "rating": "positive",
-        "reason": "Guidance was encouraging. Netflix added approximately 7.4 million subscribers, above its guidance and among the strongest quarters in company history."
+        "reason": "Subscriber guidance remained strong. Netflix projected another robust quarter of additions."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -906,15 +906,11 @@
       },
       "Revenue": {
         "rating": "positive",
-        "reason": "Revenue performance was strong. Q1 revenue rose to roughly $3.70 billion and EPS to $0.64."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Netflix added approximately 7.4 million subscribers, above its guidance and among the strongest quarters in company history."
+        "reason": "Revenue grew strongly. Quarterly sales increased to approximately $3.70 billion."
       },
       "Profits and profitability": {
         "rating": "positive",
-        "reason": "Profitability was strong. Q1 revenue rose to roughly $3.70 billion and EPS to $0.64."
+        "reason": "Operating profitability improved. Scale expanded margins despite continued content investment."
       },
       "Costs": {
         "rating": null,
@@ -939,6 +935,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Netflix added approximately 7.4 million subscribers, above its guidance and among the strongest quarters in company history."
       }
     },
     "wsj": {
@@ -951,20 +951,16 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. International subscribers now accounted for 55% of total subscriptions and 50% of revenue."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Netflix added 7.41 million subscribers in the first quarter, including 5.46 million internationally, exceeding the roughly 6.5 million analysts had expected."
+        "rating": "neutral",
+        "reason": "Revenue was approximately in line. Sales rose 40% to $3.70 billion versus $3.69 billion expected."
       },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. CEO Reed Hastings sought to distance the company from that group on the earnings call: We're very different from the ad-supported businesses and we've always been very big."
+        "rating": "neutral",
+        "reason": "Earnings met expectations. EPS was $0.64, matching consensus."
       },
       "Costs": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Cash burn remained substantial. Netflix expected $3-$4 billion of negative free cash flow and several more years of burn."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -985,6 +981,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Netflix added 7.41 million subscribers in the first quarter, including 5.46 million internationally, exceeding the roughly 6.5 million analysts had expected."
       }
     },
     "djnw": null
@@ -992,28 +992,24 @@
   "NFLX_2018q3": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Netflix added only about 5.15 million subscribers versus its own forecast of 6.2 million."
+        "rating": "negative",
+        "reason": "Subscriber performance missed guidance. Netflix added about 5.15 million users versus its 6.2 million forecast."
       },
       "Order book / order backlog": {
         "rating": null,
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Q2 revenue increased about 40% to $3.91 billion and EPS reached $0.85, above earnings expectations."
-      },
-      "Product / Users": {
         "rating": "negative",
-        "reason": "Product and user momentum weakened. Netflix added about 5.15 million members versus its 6.2 million forecast, with both U.S."
+        "reason": "Revenue narrowly missed expectations. Sales were about $3.91 billion versus roughly $3.94 billion expected."
       },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. Q2 revenue increased about 40% to $3.91 billion and EPS reached $0.85, above earnings expectations."
       },
       "Costs": {
-        "rating": "positive",
-        "reason": "Cost execution was favorable. A very high valuation made subscriber forecasting errors especially costly to the stock."
+        "rating": null,
+        "reason": null
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -1024,16 +1020,20 @@
         "reason": null
       },
       "Management": {
-        "rating": "positive",
-        "reason": "Management struck a confident tone. Management called the quarter “strong but not stellar” and acknowledged that it had over-forecast subscriber additions."
+        "rating": "negative",
+        "reason": "Forecasting credibility weakened. Management acknowledged it had overestimated subscriber additions."
       },
       "Litigation": {
         "rating": null,
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "A high valuation amplified the disappointment. Subscriber forecasting errors were especially costly after the stock's large rise."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Netflix added about 5.15 million members versus its 6.2 million forecast, with both U.S."
       }
     },
     "wsj": {
@@ -1049,13 +1049,9 @@
         "rating": "negative",
         "reason": "Revenue performance was weak. Second-quarter profit was $384.3 million, or 85 cents a share, beating a 79-cent estimate, on revenue up 40% to $3.91 billion, slightly below the $3.94 billion estimate."
       },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Netflix missed its own subscriber forecast by more than a million users in the second quarter."
-      },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. Second-quarter profit was $384.3 million, or 85 cents a share, beating a 79-cent estimate, on revenue up 40% to $3.91 billion, slightly below the $3.94 billion estimate."
+        "rating": "positive",
+        "reason": "Earnings beat expectations. EPS was $0.85 versus approximately $0.79 expected."
       },
       "Costs": {
         "rating": null,
@@ -1070,8 +1066,8 @@
         "reason": null
       },
       "Management": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Forecasting credibility weakened. Netflix blamed faulty internal forecasting for missing subscriber guidance by over one million."
       },
       "Litigation": {
         "rating": null,
@@ -1080,6 +1076,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Netflix missed its own subscriber forecast by more than a million users in the second quarter."
       }
     },
     "djnw": null

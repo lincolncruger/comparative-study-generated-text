@@ -1,0 +1,48 @@
+{
+  "reviewed_observations": ["CVS_2016q2", "CVS_2016q3", "CVS_2016q4", "CVS_2017q1", "CVS_2017q2", "CVS_2017q3", "CVS_2017q4", "CVS_2018q1", "CVS_2018q2", "CVS_2018q3"],
+  "pd_overrides": {
+    "CVS_2016q2": {"contextual_analysis": {"Product / Users": {"rating": "positive", "reason": "Pharmacy demand was strong. Specialty-drug and claim growth supported Pharmacy Services, while acquired pharmacies added scale."}}},
+    "CVS_2016q3": {
+      "contextual_analysis": {"Product / Users": {"rating": "positive", "reason": "Pharmacy Services momentum was strong. New business and specialty-drug claims drove growth."}},
+      "djnw": {"Guidance": {"rating": null, "reason": null}, "Revenue": {"rating": null, "reason": null}, "Profits and profitability": {"rating": "positive", "reason": "Earnings beat expectations. Dow Jones directly tied CVS's more-than-5% gain to quarterly profit exceeding consensus."}}
+    },
+    "CVS_2016q4": {
+      "contextual_analysis": {"Guidance": {"rating": "negative", "reason": "Guidance deteriorated materially. CVS reset 2017 earnings expectations after warning of major prescription losses."}, "Product / Users": {"rating": "negative", "reason": "Prescription volume faced a major loss. CVS expected more than 40 million scripts to shift through restricted pharmacy networks."}},
+      "wsj": {"Product / Users": {"rating": "negative", "reason": "Prescription volume faced a major loss. CVS warned that more than 40 million scripts would shift to competing networks."}, "Profits and profitability": {"rating": "positive", "reason": "Current earnings beat expectations. Adjusted EPS was strong, but investors focused on the forward reset."}, "Litigation": {"rating": null, "reason": null}}
+    },
+    "CVS_2017q1": {
+      "contextual_analysis": {"Guidance": {"rating": "neutral", "reason": "Guidance was reaffirmed. CVS maintained its already-depressed 2017 adjusted EPS range of $5.77-$5.93."}, "Revenue": {"rating": "negative", "reason": "Revenue missed expectations. Quarterly sales were $45.97 billion, below consensus."}}
+    },
+    "CVS_2017q2": {
+      "contextual_analysis": {"Guidance": {"rating": "neutral", "reason": "Guidance was unchanged. CVS maintained its full-year adjusted EPS outlook rather than raising it."}, "Product / Users": {"rating": "negative", "reason": "Retail pharmacy demand remained weak. Same-store sales fell about 4.7% as network losses and softer traffic persisted."}, "Costs": {"rating": "negative", "reason": "Reimbursement pressure hurt retail performance. Generic introductions also weighed on reported sales."}}
+    },
+    "CVS_2017q3": {
+      "contextual_analysis": {"Guidance": {"rating": "negative", "reason": "Near-term guidance disappointed. Third-quarter adjusted EPS guidance was below market expectations."}, "Product / Users": {"rating": "negative", "reason": "Retail demand remained weak. Same-store sales stayed negative as prescription and front-store traffic lagged."}}
+    },
+    "CVS_2017q4": {
+      "contextual_analysis": {"Guidance": {"rating": "neutral", "reason": "Annual guidance narrowed. The update did not materially improve the earnings outlook."}, "Product / Users": {"rating": "negative", "reason": "Retail demand remained weak. Same-store sales and customer traffic were negative."}, "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Competitive risk increased. Nationwide prescription delivery was viewed as a defense against possible Amazon pharmacy entry."}}
+    },
+    "CVS_2018q1": {
+      "contextual_analysis": {"Guidance": {"rating": "negative", "reason": "Operating-profit guidance weakened. CVS lowered expected 2018 adjusted operating-profit growth to roughly -1.5% to +1.5%."}, "Debt, leverage and capital raise": {"rating": "negative", "reason": "Aetna financing constrained capital returns. Debt reduction took priority over buybacks and dividend growth."}}
+    },
+    "CVS_2018q2": {
+      "contextual_analysis": {"Debt, leverage and capital raise": {"rating": "negative", "reason": "Leverage remained a concern. CVS carried Aetna financing before receiving the acquisition's earnings or cash flow."}},
+      "wsj": {"Revenue": {"rating": "positive", "reason": "Operating results were solid. The coverage paired the earnings beat with progress toward closing Aetna."}}
+    },
+    "CVS_2018q3": {
+      "contextual_analysis": {"Product / Users": {"rating": "positive", "reason": "Prescription demand was strong. Same-store prescription volume grew 9.5%."}, "Litigation": {"rating": null, "reason": null}}
+    }
+  },
+  "first_order": {
+    "CVS_2016q2": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": ["Revenue", "Product / Users"], "djnw": null},
+    "CVS_2016q3": {"contextual_analysis": ["Profits and profitability", "Guidance"], "wsj": ["Guidance", "Profits and profitability"], "djnw": ["Profits and profitability"]},
+    "CVS_2016q4": {"contextual_analysis": ["Product / Users", "Guidance"], "wsj": ["Product / Users", "Guidance"], "djnw": null},
+    "CVS_2017q1": {"contextual_analysis": ["Profits and profitability", "Revenue"], "wsj": ["Guidance"], "djnw": null},
+    "CVS_2017q2": {"contextual_analysis": ["Product / Users", "Costs"], "wsj": null, "djnw": null},
+    "CVS_2017q3": {"contextual_analysis": ["Product / Users", "Guidance"], "wsj": null, "djnw": null},
+    "CVS_2017q4": {"contextual_analysis": ["Product / Users", "Others: eg. Covid, or macro events"], "wsj": null, "djnw": ["Revenue"]},
+    "CVS_2018q1": {"contextual_analysis": ["Guidance", "Debt, leverage and capital raise"], "wsj": ["Profits and profitability", "Revenue"], "djnw": null},
+    "CVS_2018q2": {"contextual_analysis": null, "wsj": ["Profits and profitability"], "djnw": null},
+    "CVS_2018q3": {"contextual_analysis": ["Profits and profitability", "Product / Users"], "wsj": null, "djnw": null}
+  }
+}

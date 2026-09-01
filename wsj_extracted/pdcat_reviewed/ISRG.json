@@ -1,0 +1,27 @@
+{
+  "reviewed_observations": ["ISRG_2016q2", "ISRG_2016q3", "ISRG_2016q4", "ISRG_2017q1", "ISRG_2017q2", "ISRG_2017q3", "ISRG_2017q4", "ISRG_2018q1", "ISRG_2018q2", "ISRG_2018q3"],
+  "pd_overrides": {
+    "ISRG_2016q2": {"contextual_analysis": {"Product / Users": {"rating": "positive", "reason": "Procedure demand exceeded expectations. Worldwide procedures grew nearly 17% and system shipments increased to 110."}}, "wsj": {"Litigation": {"rating": null, "reason": null}}},
+    "ISRG_2016q3": {"contextual_analysis": {"Product / Users": {"rating": "positive", "reason": "Procedure demand remained strong. Worldwide procedures grew nearly 16% and system shipments increased to 130."}}, "wsj": {"Litigation": {"rating": null, "reason": null}}},
+    "ISRG_2016q4": {"contextual_analysis": {"Product / Users": {"rating": "positive", "reason": "Procedure demand remained strong but decelerated. Procedures grew 14% after 17% and 16% growth in the prior two quarters."}, "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Valuation amplified the reaction. Investors reset expectations after a large share-price run despite an operating beat."}}},
+    "ISRG_2017q1": {"contextual_analysis": {"Product / Users": {"rating": "positive", "reason": "Procedure demand remained strong. Procedures grew 15% and recurring instrument revenue increased 19%."}}},
+    "ISRG_2017q2": {"contextual_analysis": {"Product / Users": {"rating": "positive", "reason": "Procedure demand exceeded the original outlook. Procedures grew nearly 18% and system shipments increased to 133."}}, "djnw": {"Guidance": {"rating": null, "reason": null}}},
+    "ISRG_2017q3": {"contextual_analysis": {"Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Valuation amplified softer economics. A rich multiple raised sensitivity to slower earnings growth and lower system prices."}}},
+    "ISRG_2017q4": {"contextual_analysis": {"Product / Users": {"rating": "positive", "reason": "Procedure and placement momentum was strong. Procedures grew 15% and system shipments increased 26% to 169."}, "Costs": {"rating": "negative", "reason": "Operating expenses grew rapidly. The increase was a modest caveat to the strong installed-base expansion."}}},
+    "ISRG_2018q1": {"contextual_analysis": {"Product / Users": {"rating": "positive", "reason": "Procedure and placement momentum was strong. Procedures grew 17% and system shipments increased to 216."}, "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "The operating surprise was already priced in. Major results had been preannounced two weeks before the formal release."}}},
+    "ISRG_2018q2": {"contextual_analysis": {"Litigation": {"rating": null, "reason": null}}},
+    "ISRG_2018q3": {"contextual_analysis": {"Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Valuation likely limited the reaction. No verified contemporaneous source identified a specific operating catalyst for the slight decline."}}}
+  },
+  "first_order": {
+    "ISRG_2016q2": {"contextual_analysis": ["Product / Users", "Guidance"], "wsj": ["Revenue", "Profits and profitability"], "djnw": null},
+    "ISRG_2016q3": {"contextual_analysis": ["Product / Users", "Guidance"], "wsj": ["Revenue", "Profits and profitability"], "djnw": null},
+    "ISRG_2016q4": {"contextual_analysis": ["Others: eg. Covid, or macro events"], "wsj": null, "djnw": null},
+    "ISRG_2017q1": {"contextual_analysis": ["Debt, leverage and capital raise", "Product / Users"], "wsj": ["Debt, leverage and capital raise", "Revenue"], "djnw": null},
+    "ISRG_2017q2": {"contextual_analysis": ["Product / Users", "Guidance"], "wsj": null, "djnw": ["Revenue", "Profits and profitability"]},
+    "ISRG_2017q3": {"contextual_analysis": ["Others: eg. Covid, or macro events", "Profits and profitability"], "wsj": null, "djnw": null},
+    "ISRG_2017q4": {"contextual_analysis": ["Product / Users", "Guidance"], "wsj": null, "djnw": null},
+    "ISRG_2018q1": {"contextual_analysis": ["Others: eg. Covid, or macro events"], "wsj": null, "djnw": null},
+    "ISRG_2018q2": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": null, "djnw": null},
+    "ISRG_2018q3": {"contextual_analysis": null, "wsj": null, "djnw": null}
+  }
+}

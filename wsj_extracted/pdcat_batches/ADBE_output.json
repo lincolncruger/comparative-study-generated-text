@@ -13,10 +13,6 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Adobe reported record fiscal Q2 revenue of $1.40 billion, up 20% year over year, and non-GAAP EPS of $0.71, above the roughly $0.68 consensus."
       },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Creative Cloud ARR and adoption continued to grow; the weakness centered on forward expectations, not operations."
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. Adobe reported record fiscal Q2 revenue of $1.40 billion, up 20% year over year, and non-GAAP EPS of $0.71, above the roughly $0.68 consensus."
@@ -44,6 +40,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Creative Cloud ARR and adoption continued to grow; the weakness centered on forward expectations, not operations."
       }
     },
     "wsj": {
@@ -56,16 +56,12 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Adobe's fiscal second-quarter 2016 results (reported June 21, 2016) beat expectations with subscription revenue climbing."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Adobe's fiscal second-quarter 2016 results (reported June 21, 2016) beat expectations with subscription revenue climbing."
+        "rating": "neutral",
+        "reason": "Revenue met expectations. Quarterly revenue rose 20% to $1.40 billion, matching consensus."
       },
       "Profits and profitability": {
         "rating": "positive",
-        "reason": "Profitability was strong. Versus analyst expectations of $2.84 adjusted EPS and $5.83 billion in revenue."
+        "reason": "Earnings beat expectations. Adjusted EPS was $0.71 versus $0.68 expected."
       },
       "Costs": {
         "rating": null,
@@ -90,6 +86,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Adobe's fiscal second-quarter 2016 results (reported June 21, 2016) beat expectations with subscription revenue climbing."
       }
     },
     "djnw": null
@@ -98,7 +98,7 @@
     "contextual_analysis": {
       "Guidance": {
         "rating": "positive",
-        "reason": "Guidance was encouraging. The more important signal was guidance."
+        "reason": "Guidance beat expectations. Q4 adjusted EPS was guided to $0.83-$0.89 versus roughly $0.78 expected."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -107,10 +107,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q3 revenue reached a record $1.46 billion, up 20%."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Creative revenue grew 39%, while Digital Media ARR increased $285 million to $3.70 billion."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -139,6 +135,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Creative revenue grew 39%, while Digital Media ARR increased $285 million to $3.70 billion."
       }
     },
     "wsj": {
@@ -152,15 +152,11 @@
       },
       "Revenue": {
         "rating": "positive",
-        "reason": "Revenue performance was strong. Propelled by a 41% jump in subscription revenue."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Propelled by a 41% jump in subscription revenue."
+        "reason": "Revenue beat expectations. Sales rose 20% to $1.46 billion versus $1.45 billion expected."
       },
       "Profits and profitability": {
         "rating": "positive",
-        "reason": "Profitability was strong. Guiding to revenue of $1.55-$1.60 billion and adjusted EPS of 83-89 cents."
+        "reason": "Earnings beat expectations. Adjusted EPS was $0.75 versus $0.72 expected."
       },
       "Costs": {
         "rating": null,
@@ -185,6 +181,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Propelled by a 41% jump in subscription revenue."
       }
     },
     "djnw": null
@@ -202,10 +202,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q4 revenue increased 23% to $1.61 billion and adjusted EPS reached $0.90, both ahead of consensus."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Subscription and cloud fundamentals remained strong despite the softer fiscal-2017 outlook."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -234,6 +230,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Adobe targeted approximately $6.95 billion of annual revenue, slightly below the roughly $7.0 billion consensus, largely because of currency headwinds."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Subscription and cloud fundamentals remained strong despite the softer fiscal-2017 outlook."
       }
     },
     "wsj": {
@@ -248,10 +248,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Adobe's fiscal fourth-quarter 2016 results, reported Dec. 15, 2016, beat expectations, boosted by a 39% jump in subscription revenue."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Adobe's fiscal fourth-quarter 2016 results, reported Dec. 15, 2016, beat expectations, boosted by a 39% jump in subscription revenue."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -280,6 +276,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Adobe's fiscal fourth-quarter 2016 results, reported Dec. 15, 2016, beat expectations, boosted by a 39% jump in subscription revenue."
       }
     },
     "djnw": null
@@ -297,10 +297,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Adobe posted record fiscal Q1 revenue of $1.68 billion, up 22%, and non-GAAP EPS of $0.94, above consensus near $0.87."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. The quarter showed that the subscription transition was not merely sustaining revenue—it was increasingly generating operating leverage."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -329,6 +325,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Subscription momentum was strong. Digital Media ARR increased to $4.25 billion as Creative and Document Cloud adoption grew."
       }
     },
     "wsj": null,
@@ -347,10 +347,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q2 revenue increased 27% to $1.77 billion and non-GAAP EPS rose 44% to $1.02, both above consensus."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Creative revenue surpassing $1 billion reinforced the scale of the subscription franchise."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -379,6 +375,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Creative revenue surpassing $1 billion reinforced the scale of the subscription franchise."
       }
     },
     "wsj": {
@@ -393,10 +393,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Subscriptions now making up more than three-quarters of revenue and Creative Cloud -- Adobe's largest segment -- growing 34% year over year."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Subscriptions now making up more than three-quarters of revenue and Creative Cloud -- Adobe's largest segment -- growing 34% year over year."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -425,6 +421,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Subscriptions now making up more than three-quarters of revenue and Creative Cloud -- Adobe's largest segment -- growing 34% year over year."
       }
     },
     "djnw": {
@@ -439,10 +439,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Beat Wall Street forecasts with record quarterly revenue."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": null,
@@ -471,6 +467,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -487,10 +487,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q3 revenue increased 26% to $1.84 billion, above Adobe’s prior target, and non-GAAP EPS reached $1.10."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -517,8 +513,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Expectations were elevated. A large pre-earnings run made an in-line revenue outlook insufficient."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Cloud momentum remained strong. Digital Media revenue rose 28%, Experience Cloud rose 26%, and Digital Media ARR reached $4.87 billion."
       }
     },
     "wsj": {
@@ -533,10 +533,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Notes the quarter marked the ninth consecutive period of revenue growing more than 20% year over year."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Digital subscriptions now accounting for 84% of nine-month revenue versus just 15% five years earlier."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -563,8 +559,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Valuation amplified the disappointment. Adobe was up 50% for the year and traded at 35 times forward adjusted earnings."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Digital subscriptions now accounting for 84% of nine-month revenue versus just 15% five years earlier."
       }
     },
     "djnw": null
@@ -582,10 +582,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Adobe delivered its first $2.0 billion revenue quarter, up 25%."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. ARR growth confirmed durable Creative and Document Cloud subscription momentum."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -614,6 +610,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. ARR growth confirmed durable Creative and Document Cloud subscription momentum."
       }
     },
     "wsj": {
@@ -628,10 +628,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Reports revenue jumped 25% year over year and exceeded $2 billion for the first time."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Noting that with 84% of revenue now from subscriptions."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -660,6 +656,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Noting that with 84% of revenue now from subscriptions."
       }
     },
     "djnw": {
@@ -674,10 +674,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue climbed 25% to $2.1 billion, topping the $1.95 billion in revenue and roughly $0.90 per share that analysts had expected."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Illustrator and related products) generated $1.16 billion."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -706,6 +702,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Illustrator and related products) generated $1.16 billion."
       }
     }
   },
@@ -722,10 +722,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q1 revenue rose 24% to $2.08 billion and non-GAAP EPS reached $1.55, both above expectations."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Creative ARR surpassing $5 billion demonstrated the scale and durability of the subscription base."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -754,6 +750,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Creative ARR surpassing $5 billion demonstrated the scale and durability of the subscription base."
       }
     },
     "wsj": null,
@@ -769,10 +769,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. It states that Adobe exceeded analyst expectations on both earnings and revenue: adjusted earnings per share came in at $1.55 versus a consensus estimate of $1.44."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -801,6 +797,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -817,10 +817,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q2 revenue increased 24% to $2.20 billion and non-GAAP EPS reached $1.66, above Adobe’s own targets."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -847,8 +843,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Expectations were elevated. The large pre-earnings rerating made a merely solid revenue guide insufficient."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Recurring demand remained strong. Digital Media ARR reached $6.06 billion and recurring revenue represented about 89% of sales."
       }
     },
     "wsj": null,
@@ -867,10 +867,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q3 revenue increased 24% to $2.29 billion and non-GAAP EPS reached $1.73, both above Adobe’s prior targets."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Subscription revenue up 25%."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -899,6 +895,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Cloud momentum was strong. Digital Media ARR rose to $6.40 billion and Experience Cloud subscription revenue increased 25%."
       }
     },
     "wsj": null,

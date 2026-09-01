@@ -1,0 +1,32 @@
+{
+  "reviewed_observations": ["AVGO_2016q2", "AVGO_2016q3", "AVGO_2016q4", "AVGO_2017q1", "AVGO_2017q2", "AVGO_2017q3", "AVGO_2017q4", "AVGO_2018q1", "AVGO_2018q2", "AVGO_2018q3"],
+  "pd_overrides": {
+    "AVGO_2016q2": {
+      "contextual_analysis": {"Product / Users": {"rating": "positive", "reason": "The portfolio mix improved. Wired infrastructure offset weaker wireless and enterprise-storage demand."}}
+    },
+    "AVGO_2017q2": {
+      "djnw": {"Profits and profitability": {"rating": "positive", "reason": "Earnings prompted a positive reaction. Dow Jones reported that shares jumped 6% after the results."}}
+    },
+    "AVGO_2017q3": {
+      "contextual_analysis": {"Guidance": {"rating": "negative", "reason": "Guidance disappointed elevated expectations. The Q4 outlook did not clear the aggressive assumptions around the iPhone ramp."}}
+    },
+    "AVGO_2017q4": {
+      "contextual_analysis": {"Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Positioning outweighed the strong report. Investors sold the initial rally amid the prior run and uncertainty surrounding the Qualcomm bid."}}
+    },
+    "AVGO_2018q2": {
+      "contextual_analysis": {"Product / Users": {"rating": "negative", "reason": "The near-term mix slowed. Seasonal wireless weakness outweighed stronger wired and data-center demand."}}
+    }
+  },
+  "first_order": {
+    "AVGO_2016q2": {"contextual_analysis": ["Profits and profitability", "Guidance"], "wsj": ["Profits and profitability", "Guidance"], "djnw": null},
+    "AVGO_2016q3": {"contextual_analysis": ["Product / Users", "Others: eg. Covid, or macro events"], "wsj": null, "djnw": null},
+    "AVGO_2016q4": {"contextual_analysis": ["Profits and profitability", "Debt, leverage and capital raise"], "wsj": ["Profits and profitability", "Guidance"], "djnw": null},
+    "AVGO_2017q1": {"contextual_analysis": ["Profits and profitability", "Guidance"], "wsj": null, "djnw": null},
+    "AVGO_2017q2": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": null, "djnw": ["Profits and profitability"]},
+    "AVGO_2017q3": {"contextual_analysis": ["Guidance"], "wsj": null, "djnw": null},
+    "AVGO_2017q4": {"contextual_analysis": ["Others: eg. Covid, or macro events"], "wsj": ["Profits and profitability", "Guidance"], "djnw": ["Profits and profitability", "Guidance"]},
+    "AVGO_2018q1": {"contextual_analysis": ["Others: eg. Covid, or macro events"], "wsj": ["Profits and profitability"], "djnw": null},
+    "AVGO_2018q2": {"contextual_analysis": ["Product / Users"], "wsj": ["Others: eg. Covid, or macro events"], "djnw": null},
+    "AVGO_2018q3": {"contextual_analysis": ["Profits and profitability", "Product / Users"], "wsj": ["Profits and profitability", "Guidance"], "djnw": null}
+  }
+}

@@ -13,10 +13,6 @@
         "rating": "negative",
         "reason": "Revenue performance was weak. Apple reported fiscal Q2 revenue of $50.6 billion, down from $58.0 billion a year earlier, and diluted EPS of $1.90."
       },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. IPhone sales fell sharply year over year, and Greater China revenue also declined materially."
-      },
       "Profits and profitability": {
         "rating": "negative",
         "reason": "Profitability was weak. Apple reported fiscal Q2 revenue of $50.6 billion, down from $58.0 billion a year earlier, and diluted EPS of $1.90."
@@ -44,6 +40,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. IPhone sales fell sharply year over year, and Greater China revenue also declined materially."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. IPhone sales fell sharply year over year, and Greater China revenue also declined materially."
       }
     },
     "wsj": {
@@ -58,10 +58,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. The article documents Apple's first quarterly revenue decline in 13 years and the first-ever decline in iPhone sales since the product's 2007 introduction."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. The article documents Apple's first quarterly revenue decline in 13 years and the first-ever decline in iPhone sales since the product's 2007 introduction."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -90,12 +86,16 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. A strong dollar, difficult economic conditions, and tough comparisons contributed to the slowdown."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. The article documents Apple's first quarterly revenue decline in 13 years and the first-ever decline in iPhone sales since the product's 2007 introduction."
       }
     },
     "djnw": {
       "Guidance": {
-        "rating": "negative",
-        "reason": "Guidance was disappointing. The article reports Apple's fiscal second-quarter profit of $1.90 per share, missing Wall Street's $2.00 forecast."
+        "rating": null,
+        "reason": null
       },
       "Order book / order backlog": {
         "rating": null,
@@ -104,10 +104,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. Quarterly revenue dropping 13% to $50.55 billion against analyst expectations of $51.97 billion -- the company's first revenue decline in 13 years."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -136,6 +132,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -152,10 +152,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Apple reported $42.4 billion of revenue and $1.42 EPS, both ahead of modest Wall Street expectations and within/above the company’s own guidance framework."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. The lower-priced iPhone SE supported demand, while Services revenue grew 19% year over year."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -184,6 +180,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The lower-priced iPhone SE supported demand, while Services revenue grew 19% year over year."
       }
     },
     "wsj": {
@@ -196,16 +196,12 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "negative",
-        "reason": "Revenue performance was weak. The article reports Apple's profit fell 27% and revenue declined for a second straight quarter amid the first prolonged iPhone sales slump since the product's 2007."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. The article reports Apple's profit fell 27% and revenue declined for a second straight quarter amid the first prolonged iPhone sales slump since the product's."
+        "rating": "positive",
+        "reason": "Revenue beat lowered expectations. Sales were $42.36 billion versus $42.1 billion expected, despite declining year over year."
       },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. The article reports Apple's profit fell 27% and revenue declined for a second straight quarter amid the first prolonged iPhone sales slump since the product's 2007 launch."
+        "rating": "positive",
+        "reason": "Earnings beat lowered expectations. EPS was $1.42 versus $1.38 expected, despite falling year over year."
       },
       "Costs": {
         "rating": null,
@@ -230,6 +226,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Up 25% year over year — was gaining ground globally and increasingly threatens Apple from below with cheaper phones that later move upmarket."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product demand was better than feared. iPhone shipments slightly exceeded estimates, while Services grew 19%."
       }
     },
     "djnw": null
@@ -247,10 +247,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q4 revenue was $46.9 billion and EPS $1.67, roughly in line to slightly above expectations."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. IPhone shipments were 45.5 million, still down from 48.0 million a year earlier."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -277,8 +273,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Expectations were elevated. The quarter and revenue guide did not clear the bar embedded after a substantial pre-report rally."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. IPhone shipments were 45.5 million, still down from 48.0 million a year earlier."
       }
     },
     "wsj": {
@@ -293,10 +293,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. Quarterly revenue fell 9% to $46.9 billion, contributing to Apple's first annual revenue decline in 15 years."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Revenue fell 9% to $46.9 billion, largely because the new iPhone 7 went on sale only a week before the quarter closed."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -324,7 +320,11 @@
       },
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
-        "reason": "The broader backdrop was challenging. Greater China sales fell 30% to $8.8 billion after growing 99% in the prior-year quarter."
+        "reason": "Expectations were elevated. Investors wanted guidance to be more bullish after the stock had risen over 20% in three months."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Revenue fell 9% to $46.9 billion, largely because the new iPhone 7 went on sale only a week before the quarter closed."
       }
     },
     "djnw": {
@@ -339,10 +339,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. Marking Apple's first annual revenue drop since 2001."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. IPhone unit sales fell to 45.5 million from a year-earlier period 2.5 million higher."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -371,6 +367,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Greater China sales fell 30% to $8.8 billion after growing 99% one year earlier."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. IPhone unit sales fell to 45.5 million from a year-earlier period 2.5 million higher."
       }
     }
   },
@@ -387,10 +387,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Apple delivered record fiscal Q1 revenue of $78.4 billion and EPS of $3.36, both above contemporaneous consensus."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. IPhone shipments reached a record 78.3 million, also above expectations."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -419,6 +415,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. IPhone shipments reached a record 78.3 million, also above expectations."
       }
     },
     "wsj": {
@@ -433,10 +433,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Total revenue rose 3% to a record $78.4 billion."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Total revenue rose 3% to a record $78.4 billion."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -465,6 +461,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. That Greater China sales fell 12% to $16.2 billion (though showing signs of stabilizing)."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and Services momentum was strong. iPhone shipments set a record and Services revenue grew 18%."
       }
     },
     "djnw": {
@@ -479,10 +479,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal first-quarter revenue reached $78.4 billion after three consecutive quarters of year-over-year declines."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Total iPhone shipments rose 5% to 78.2 million units on strength from the iPhone 7 line."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -511,6 +507,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Continued weakness in Greater China, where sales fell 12% to $16.2 billion as local rivals Oppo and Huawei gained share."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Total iPhone shipments rose 5% to 78.2 million units on strength from the iPhone 7 line."
       }
     }
   },
@@ -527,10 +527,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. Fiscal Q2 revenue was $52.9 billion versus consensus just under $53.0 billion."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Revenue was slightly below expectations and iPhone shipments of 50.8 million missed estimates."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -559,6 +555,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Revenue was slightly below expectations and iPhone shipments of 50.8 million missed estimates."
       }
     },
     "wsj": {
@@ -571,12 +571,8 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. It rose 4.6% to $52.90 billion, slightly ahead of consensus, despite softer iPhone shipments."
-      },
-      "Product / Users": {
         "rating": "negative",
-        "reason": "Product and user momentum weakened. The article reports Apple extended its rebound with rising profit and revenue even as iPhone shipments slipped 1% year over year to 50.8 million."
+        "reason": "Revenue narrowly missed expectations. Sales were $52.90 billion versus $52.97 billion expected."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -605,6 +601,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. A fifth consecutive quarterly China sales decline (down 14% to $10.73 billion)."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. The article reports Apple extended its rebound with rising profit and revenue even as iPhone shipments slipped 1% year over year to 50.8 million."
       }
     },
     "djnw": {
@@ -619,10 +619,6 @@
       "Revenue": {
         "rating": null,
         "reason": null
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Within that roundup, the article reports that Apple posted increased profits but disappointed investors with tepid iPhone demand."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -651,6 +647,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Within that roundup, the article reports that Apple posted increased profits but disappointed investors with tepid iPhone demand."
       }
     }
   },
@@ -667,10 +667,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q3 revenue increased 7% to $45.4 billion and EPS rose 17% to $1.67, both above consensus."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Revenue increased across product categories."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -699,6 +695,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Revenue increased across product categories."
       }
     },
     "wsj": {
@@ -713,10 +713,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue was stronger than expected in a seasonally weak quarter, supporting confidence ahead of the next iPhone launch."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Total revenue up 7.2% year over year — its best growth rate in seven quarters — as iPhone shipments rose 1.6% to 41.03 million."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -745,6 +741,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Greater China sales fell 9.5% to $8 billion, the first time in five quarters the decline wasn't in double digits."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Total revenue up 7.2% year over year — its best growth rate in seven quarters — as iPhone shipments rose 1.6% to 41.03 million."
       }
     },
     "djnw": null
@@ -762,10 +762,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q4 revenue increased 12% to $52.6 billion and EPS rose 24% to $2.07, both above consensus."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Services reached an all-time high, and revenue grew across the major product categories."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -794,6 +790,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Services reached an all-time high, and revenue grew across the major product categories."
       }
     },
     "wsj": {
@@ -808,10 +808,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. A fourth consecutive quarterly revenue increase and third consecutive profit increase (profit up 19% to $10.71 billion), iPhone shipments up 2.6% to 46.7 million."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. IPhone shipments up 2.6% to 46.7 million."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -840,6 +836,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Management said launching three iPhone models on staggered dates made demand unusually difficult to predict."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. IPhone shipments up 2.6% to 46.7 million."
       }
     },
     "djnw": {
@@ -854,10 +854,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. The roundup described Apple's results as its best quarterly growth in two years, and shares rose 2.6%."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": null,
@@ -886,6 +882,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -902,10 +902,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q1 revenue was $88.3 billion even though iPhone unit shipments fell short of investor expectations."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. IPhone shipments were 77.3 million, below the roughly 80 million units many investors expected."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -934,6 +930,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. IPhone shipments were 77.3 million, below the roughly 80 million units many investors expected."
       }
     },
     "wsj": {
@@ -948,10 +948,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. The $1,000 iPhone X lifted average selling prices enough to offset lower unit sales."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Its $1,000 price helped lift the average iPhone selling price by nearly 15%."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -980,6 +976,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "iPhone demand was softer than expected. Shipments were 77.3 million and iPhone X production was below Apple's target."
       }
     },
     "djnw": null
@@ -997,10 +997,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q2 revenue increased 16% to $61.1 billion and EPS rose 30% to $2.73, both above consensus."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Apple said iPhone X had been its best-selling iPhone every week of the quarter, directly contradicting the most bearish supply-chain narratives."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1029,12 +1025,16 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Apple said iPhone X had been its best-selling iPhone every week of the quarter, directly contradicting the most bearish supply-chain narratives."
       }
     },
     "wsj": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. The $51.5–$53.5 billion revenue range bracketed the $51.9 billion analyst consensus."
+        "rating": "neutral",
+        "reason": "Guidance was in line. The $51.5-$53.5 billion revenue range bracketed the $51.9 billion consensus."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -1043,10 +1043,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Underlying results were also strong: iPhone revenue rose 14% to $38 billion despite only 3% unit-shipment growth."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Underlying results were also strong: iPhone revenue rose 14% to $38 billion despite only 3% unit-shipment growth."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1075,6 +1071,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Underlying results were also strong: iPhone revenue rose 14% to $38 billion despite only 3% unit-shipment growth."
       }
     },
     "djnw": null
@@ -1092,10 +1092,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q3 revenue increased 17% to $53.3 billion and EPS rose 40% to $2.34, both above consensus."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Services set a record and higher iPhone pricing supported growth despite limited unit gains."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1124,6 +1120,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Services set a record and higher iPhone pricing supported growth despite limited unit gains."
       }
     },
     "wsj": {
@@ -1138,10 +1138,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Apple delivered record fiscal Q3 revenue of $53.3 billion, near the high end of its guidance."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. IPhone demand holding up despite a contracting global smartphone market and app-store/services revenue reaching a record."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1170,6 +1166,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. The article flagged possible tariffs on Apple's China exposure and criticism from Chinese state media."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. IPhone demand holding up despite a contracting global smartphone market and app-store/services revenue reaching a record."
       }
     },
     "djnw": null

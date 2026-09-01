@@ -1,0 +1,30 @@
+{
+  "reviewed_observations": ["F_2016q2", "F_2016q3", "F_2016q4", "F_2017q1", "F_2017q2", "F_2017q3", "F_2017q4", "F_2018q1", "F_2018q2", "F_2018q3"],
+  "pd_overrides": {
+    "F_2016q2": {"wsj": {"Profits and profitability": {"rating": "positive", "reason": "Earnings handily beat expectations. Adjusted EPS exceeded the $0.48 consensus as North American margins reached a record."}}},
+    "F_2016q3": {"contextual_analysis": {"Guidance": {"rating": "negative", "reason": "Guidance weakened. Ford warned that full-year profit guidance was at risk as the U.S. auto cycle matured."}, "Profits and profitability": {"rating": "negative", "reason": "Earnings missed expectations. Adjusted EPS was $0.52 versus roughly $0.60 expected."}, "Costs": {"rating": "negative", "reason": "Pricing pressure increased. Higher incentives weakened North American profitability."}}},
+    "F_2016q4": {"contextual_analysis": {"Guidance": {"rating": "neutral", "reason": "Guidance was reaffirmed. Ford maintained its revised full-year adjusted pre-tax profit outlook near $10.2 billion."}, "Costs": {"rating": "negative", "reason": "Temporary costs hurt profit. A door-latch recall and Super Duty launch expense materially reduced North American earnings."}}},
+    "F_2017q1": {"contextual_analysis": {"Profits and profitability": {"rating": "neutral", "reason": "Adjusted earnings were broadly in line. The GAAP loss primarily reflected pension remeasurement and a canceled factory."}}},
+    "F_2017q2": {"contextual_analysis": {"Guidance": {"rating": "neutral", "reason": "The outlook did not improve. Timing-related upside left Ford's full-year expectations largely unchanged."}, "Profits and profitability": {"rating": "negative", "reason": "Underlying profitability weakened. Adjusted pre-tax profit fell sharply despite the headline EPS beat."}, "Costs": {"rating": "negative", "reason": "Costs compressed margins. Commodity, warranty, engineering, and product-launch expenses increased."}}},
+    "F_2017q3": {"contextual_analysis": {"Guidance": {"rating": "negative", "reason": "Underlying guidance weakened. Ford still expected full-year pre-tax profit, margins, and cash flow below 2016."}, "Profits and profitability": {"rating": "negative", "reason": "Underlying profit declined. Adjusted pre-tax profit fell 16%, while a lower tax rate inflated headline EPS."}}},
+    "F_2017q4": {"contextual_analysis": {"Revenue": {"rating": "positive", "reason": "Revenue performance improved. Strong F-Series pricing and better international operations supported the rebound."}}},
+    "F_2018q1": {"contextual_analysis": {"Costs": {"rating": "negative", "reason": "Costs pressured margins. Steel, aluminum, currency, and future-technology spending reduced earnings."}}},
+    "F_2018q2": {
+      "contextual_analysis": {"Management": {"rating": "positive", "reason": "Management presented a clearer turnaround plan. Ford targeted $11.5 billion of efficiencies and an 8% adjusted EBIT margin by 2020."}},
+      "wsj": {"Management": {"rating": "negative", "reason": "Investor confidence remained weak. The article said Wall Street showed little enthusiasm for management's turnaround plan."}}
+    },
+    "F_2018q3": {"contextual_analysis": {"Profits and profitability": {"rating": "negative", "reason": "Earnings missed expectations. Adjusted EPS was $0.27 as adjusted EBIT fell sharply."}, "Management": {"rating": "negative", "reason": "Execution visibility deteriorated. Ford postponed its investor meeting because the global redesign was not ready."}, "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "International weakness deepened. China and Europe were expected to generate significant losses."}}}
+  },
+  "first_order": {
+    "F_2016q2": {"contextual_analysis": ["Profits and profitability", "Product / Users"], "wsj": ["Profits and profitability", "Product / Users"], "djnw": null},
+    "F_2016q3": {"contextual_analysis": ["Profits and profitability", "Guidance"], "wsj": ["Profits and profitability", "Guidance"], "djnw": null},
+    "F_2016q4": {"contextual_analysis": ["Profits and profitability", "Costs"], "wsj": null, "djnw": null},
+    "F_2017q1": {"contextual_analysis": ["Guidance"], "wsj": null, "djnw": null},
+    "F_2017q2": {"contextual_analysis": ["Profits and profitability", "Costs"], "wsj": ["Profits and profitability", "Costs"], "djnw": ["Profits and profitability", "Costs"]},
+    "F_2017q3": {"contextual_analysis": ["Profits and profitability", "Guidance"], "wsj": ["Guidance"], "djnw": ["Guidance"]},
+    "F_2017q4": {"contextual_analysis": ["Profits and profitability", "Guidance"], "wsj": null, "djnw": null},
+    "F_2018q1": {"contextual_analysis": ["Guidance", "Costs"], "wsj": null, "djnw": ["Profits and profitability", "Costs"]},
+    "F_2018q2": {"contextual_analysis": ["Revenue", "Management"], "wsj": ["Management"], "djnw": null},
+    "F_2018q3": {"contextual_analysis": ["Profits and profitability", "Guidance"], "wsj": null, "djnw": null}
+  }
+}

@@ -13,10 +13,6 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Home Depot reported $22.8 billion of sales, up 9.0%."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. EPS reached $1.44, well above the roughly $1.36 consensus."
@@ -42,8 +38,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Expectations were exceptionally elevated. Investors anticipated comp growth would decelerate after the unusually strong first quarter."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Customer demand was strong. U.S. comparable sales rose 7.4% as both transactions and average ticket increased."
       }
     },
     "wsj": {
@@ -58,10 +58,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Comparable sales up 6.5% in the quarter ended May 1, including a boost from big-ticket items."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -90,6 +86,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Store demand was strong. Comparable sales and housing-driven project demand supported the quarter."
       }
     },
     "djnw": null
@@ -105,16 +105,12 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Q2 sales reached $26.5 billion, up 6.6%, and EPS was $1.97."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "neutral",
+        "reason": "Results were largely in line. Sales reached $26.5 billion while U.S. comps remained strong at 5.4%."
       },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. Q2 sales reached $26.5 billion, up 6.6%, and EPS was $1.97."
+        "rating": "neutral",
+        "reason": "Earnings were largely in line. EPS was $1.97 in a solid but low-surprise quarter."
       },
       "Costs": {
         "rating": null,
@@ -139,6 +135,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Customer demand remained strong. U.S. comparable sales rose 5.4% despite slowing from the prior quarter."
       }
     },
     "wsj": {
@@ -153,10 +153,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Comparable sales excluding newly opened and closed stores rose 4.7%, including 5.4% growth in the U.S."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -185,6 +181,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. The company cited favorable macro trends."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Housing-related demand remained strong. Comparable sales supported the raised annual earnings outlook."
       }
     },
     "djnw": null
@@ -202,10 +202,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q3 sales increased 6.1% to $23.2 billion, U.S. comps rose 5.9%, and EPS increased 18.5% to $1.60."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Management emphasized balanced growth from both ticket and transactions, and operating income rose faster than sales because of productivity gains."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -234,6 +230,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Management emphasized balanced growth from both ticket and transactions, and operating income rose faster than sales because of productivity gains."
       }
     },
     "wsj": {
@@ -248,10 +248,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Home Depot posted continued sales growth in the third quarter, another indicator that the housing market continued to strengthen."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -280,6 +276,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": {
@@ -294,10 +294,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue rising 6.1% to $23.15 billion, ahead of analyst expectations of $23.04 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -326,6 +322,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -342,10 +342,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q4 sales rose 5.8% to $22.2 billion, total comps increased 5.8%, and U.S."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -374,12 +370,16 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Comparable sales beat expectations. Total comps rose 5.8% and U.S. comps increased 6.3%."
       }
     },
     "wsj": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Even though the article notes the company's own full-year earnings guidance of $7.13 a share came in slightly below the $7.17 a share analysts had separately been expecting."
+        "rating": "negative",
+        "reason": "Guidance was slightly below expectations. Fiscal-year EPS was guided to $7.13 versus $7.17 expected."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -388,10 +388,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Home Depot posted fourth-quarter sales growth and boosted its dividend and share-buyback program as the housing market continued to grow."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -420,6 +416,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Comparable sales beat expectations. Growth of 5.8% far exceeded the 3.5% forecast."
       }
     },
     "djnw": null
@@ -437,10 +437,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q1 sales increased 4.9% to $23.9 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -469,6 +465,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Customer demand beat expectations. U.S. comps rose 6.0%, with growth in both transactions and average ticket."
       }
     },
     "wsj": {
@@ -483,10 +483,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Home Depot posted sales and profit growth in its first quarter as the housing market continued to strengthen."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -515,6 +511,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Comparable sales beat expectations. Growth was 5.5% versus 3.9% forecast."
       }
     },
     "djnw": {
@@ -529,10 +529,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue up 4.9% to $23.89 billion, beating analyst expectations of $23.76 billion in sales and $1.62 in earnings per share."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -561,6 +557,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Comparable sales beat expectations. Dow Jones linked the gain to stronger earnings and store demand."
       }
     }
   },
@@ -577,10 +577,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 sales rose 6.2% to $28.1 billion, the highest quarterly sales in company history at the time."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -609,6 +605,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Housing-supply and affordability concerns created a forward-looking macro overhang."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Customer demand remained exceptional. U.S. comparable sales rose 6.6%."
       }
     },
     "wsj": {
@@ -623,10 +623,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Bodes very well for us and extends the recovery, pointing to strong sales of starter homes needing repairs and renovations."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -655,6 +651,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. CEO Craig Menear downplayed the competitive threat from Sears' deal to sell its Kenmore appliance brand through Amazon."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": {
@@ -669,10 +669,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. It situates this within a market that had rallied on stronger-than-expected July retail sales (up 0.6% versus a 0.4% forecast) but that analysts described as being at."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -701,6 +697,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -717,10 +717,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q3 sales rose 8.1% to $25.0 billion, total comps increased 7.9%, and U.S."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -749,6 +745,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Comparable sales beat expectations. Total comps rose 7.9% and U.S. comps increased 7.7%."
       }
     },
     "wsj": {
@@ -763,10 +763,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Net sales rose 8.1% to $25.03 billion, operating expenses rose 5.2% to $4.97 billion, and comparable-store sales rose 7.9%."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -795,6 +791,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": {
@@ -809,10 +809,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Net sales increased 8.1% to $25.03 billion, operating expenses rose 5.2% to $4.97 billion, and comparable-store sales grew 7.9%."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -841,6 +837,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -857,10 +857,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q4 sales rose 7.5% to $23.9 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -889,6 +885,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Comparable sales beat expectations. Total comps rose 7.5% and U.S. comps increased 7.2%."
       }
     },
     "wsj": {
@@ -903,10 +903,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Sales up 7.5% to $23.9 billion, and record full-year 2017 sales of $100.9 billion, up 6.7% from fiscal 2016."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -935,6 +931,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Home Depot forecast 2018 sales growth of 6.5% as tax-law benefits filtered through the economy."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": null
@@ -942,20 +942,16 @@
   "HD_2018q2": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Management reaffirmed full-year guidance and said business accelerated sharply once weather improved: May comps were already running much stronger than the April exit rate."
+        "rating": "neutral",
+        "reason": "Guidance was reaffirmed. Management treated weather-related weakness as timing rather than structural demand deterioration."
       },
       "Order book / order backlog": {
         "rating": null,
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Q1 sales rose 4.4% to $24.9 billion and EPS increased 24.6% to $2.08, beating the earnings estimate."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Revenue missed expectations. Sales of $24.9 billion came in below consensus."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -984,6 +980,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Comparable sales missed expectations. Total comps rose 4.2% and transactions fell 1.5% as cold weather delayed projects."
       }
     },
     "wsj": {
@@ -999,13 +999,9 @@
         "rating": "negative",
         "reason": "Revenue performance was weak. Home Depot's first-quarter revenue fell short of analyst expectations even as profit rose."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. Home Depot's first-quarter revenue fell short of analyst expectations even as profit rose."
+        "rating": "positive",
+        "reason": "Profit still increased. Earnings rose despite the revenue and comparable-sales shortfall."
       },
       "Costs": {
         "rating": "positive",
@@ -1030,6 +1026,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Comparable sales missed expectations. Growth was 4.2% versus 5.6% expected."
       }
     },
     "djnw": null
@@ -1047,10 +1047,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 sales increased 8.4% to $30.5 billion, total comps rose 8.0%, U.S."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1077,8 +1073,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Expectations were elevated. Investors focused on anticipated second-half deceleration against hurricane-driven comparisons."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Customer demand rebounded strongly. Total comps rose 8.0% and U.S. comps increased 8.1%."
       }
     },
     "wsj": {
@@ -1094,17 +1094,13 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Home Depot raised its earnings and sales targets for the year as it continued to benefit from robust home-improvement activity and a strong U.S."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. Home Depot raised its earnings and sales targets for the year as it continued to benefit from robust home-improvement activity and a strong U.S."
       },
       "Costs": {
-        "rating": "positive",
-        "reason": "Cost execution was favorable. Said on the earnings call that the company was contending with inflation on multiple fronts as raw-material and transportation costs rose."
+        "rating": "negative",
+        "reason": "Investment spending threatened near-term earnings. Accelerated supply-chain and online-integration costs concerned analysts."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -1125,6 +1121,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. The bank described the spending as necessary to \"future-proof\" the business against online competition."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": null

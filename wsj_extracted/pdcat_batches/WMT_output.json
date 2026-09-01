@@ -13,10 +13,6 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Walmart reported $115.9 billion of revenue and $0.98 EPS, versus Wall Street expectations of roughly $112.7 billion and $0.88."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. Walmart reported $115.9 billion of revenue and $0.98 EPS, versus Wall Street expectations of roughly $112.7 billion and $0.88."
@@ -44,6 +40,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Slow e-commerce growth remained the main weakness and kept Amazon competition central to the longer-term thesis."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -58,10 +58,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Walmart's first-quarter fiscal 2017 report, published May 19, 2016, showed an unexpected nearly 1% increase in revenue."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -90,6 +86,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. International sales fell 7.2% to $28.1 billion on a strong dollar and weak U.K."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": null
@@ -107,10 +107,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 revenue was about $120.9 billion."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Investors increasingly viewed it as productive investment."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -139,6 +135,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Investors increasingly viewed it as productive investment."
       }
     },
     "wsj": {
@@ -153,10 +153,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Results the article frames against mixed retail results that week: Home Depot posted 4.7% comparable-sales growth and TJX posted 4%."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -185,6 +181,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Target blaming patchy consumer spending and Macy's, facing online competition, closing 100 stores, 14% of its store base."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": {
@@ -199,10 +199,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue reached $120.85 billion, up 0.5% year over year."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -231,6 +227,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Excluding a gain from the sale of a China website, adjusted earnings were $1.07 per share, beating the guided range of 95 cents to $1.08."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -247,10 +247,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q3 revenue increased only 0.7% to $118.2 billion, and EPS was $0.98."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -279,6 +275,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. E-commerce was the bright spot: constant-currency global online sales increased 20.6%, a meaningful acceleration."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -293,10 +293,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Walmart's third-quarter fiscal 2017 report, published November 17, 2016, showed U.S. same-store sales up 1.2% for a ninth consecutive quarterly gain."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -325,6 +321,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. The strong dollar's continued drag on overseas revenue, mentioned by executives on the earnings call, compounded the disappointment."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": {
@@ -339,10 +339,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. On revenue that grew modestly to $118.2 billion but fell short of the $118.69 billion analysts expected."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -371,6 +367,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -387,10 +387,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q4 adjusted EPS was $1.30, slightly above consensus, and total revenue reached $130.9 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -419,6 +415,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -433,10 +433,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. Same-store sales up 1.8% for a tenth consecutive quarterly gain."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -465,6 +461,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Revenue rose 1% to $130.94 billion, which would have been $133.6 billion excluding currency effects."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": null
@@ -482,10 +482,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q1 FY18 revenue rose 1.4% to $117.5 billion and EPS increased to $1.00."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -514,6 +510,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -528,10 +528,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Same-store sales up 1.4% for an 11th consecutive quarterly increase."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Add to the company's product assortment but that Walmart would not simply spend its way to success."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -560,6 +556,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Add to the company's product assortment but that Walmart would not simply spend its way to success."
       }
     },
     "djnw": {
@@ -574,10 +574,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Walmart reported U.S. same-store sales growth of 1.4% for the first quarter, its 11th consecutive quarterly gain."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -606,6 +602,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -622,10 +622,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 revenue increased 2.1% to $123.4 billion, ahead of consensus."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -654,6 +650,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -668,10 +668,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Same-store sales up 1.8% for a 12th consecutive quarterly increase."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -700,6 +696,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": {
@@ -714,10 +714,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue grew 2.1% to $123.36 billion, and U.S. same-store sales rose 1.8% for a 12th consecutive quarter, driven by 1.3% growth in foot traffic."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -746,6 +742,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -762,10 +762,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Walmart delivered $123.2 billion of revenue, up 4.2%, and adjusted EPS of $1.00."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -794,6 +790,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -808,10 +808,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Same-store-sales growth in nearly a decade: sales excluding fuel rose 2.7% for a 13th consecutive quarterly increase."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -840,6 +836,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Walmart projected full-year global e-commerce sales of $17.5 billion against nearly half a trillion dollars in total annual revenue."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": {
@@ -854,10 +854,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. The piece frames Walmart's strength as reflecting its success combining traditional in-store sales with digital commerce capabilities."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -886,6 +882,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -902,10 +902,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. The problem was e-commerce: U.S. online sales growth slowed abruptly to 23% from 50% in Q3."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -934,6 +930,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -948,10 +948,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. So the company ran out of stock on basic goods and hurt online sales."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -980,6 +976,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Management pointed to a strong economy and improved food and household-goods areas as underlying drivers of otherwise-solid holiday sales."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": null
@@ -997,10 +997,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q1 FY19 revenue increased 4.4% to $122.7 billion, above consensus."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1029,6 +1025,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -1043,10 +1043,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. For Walmart specifically, U.S. same-store sales rose 2.1% in the quarter ended April 30."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -1075,6 +1071,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Nordstrom and Home Depot in the context of a strong U.S."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": null
@@ -1092,10 +1092,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 revenue increased 3.8% to $128.0 billion, above expectations."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1124,6 +1120,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -1138,10 +1138,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. This Heard on the Street column on Walmart's second-quarter fiscal 2019 report."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1170,6 +1166,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Arguing that investors underestimated the economy's contribution."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": null

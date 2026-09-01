@@ -1,0 +1,26 @@
+{
+  "reviewed_observations": ["LLY_2016q2", "LLY_2016q3", "LLY_2016q4", "LLY_2017q1", "LLY_2017q2", "LLY_2017q3", "LLY_2017q4", "LLY_2018q1", "LLY_2018q2", "LLY_2018q3"],
+  "pd_overrides": {
+    "LLY_2016q2": {"contextual_analysis": {"Profits and profitability": {"rating": "negative", "reason": "Earnings missed expectations. Non-GAAP EPS was $0.83 versus roughly $0.85 expected."}, "Costs": {"rating": "negative", "reason": "Investment spending pressured earnings. R&D and product-launch expenses absorbed new-product growth."}}},
+    "LLY_2016q3": {"contextual_analysis": {"Profits and profitability": {"rating": "neutral", "reason": "Earnings met expectations. Non-GAAP EPS of $0.86 was essentially in line with consensus."}}},
+    "LLY_2016q4": {"contextual_analysis": {"Guidance": {"rating": "positive", "reason": "Annual guidance was reaffirmed. Lilly maintained non-GAAP EPS of $3.50-$3.60 despite the weak quarter."}, "Revenue": {"rating": "negative", "reason": "Revenue missed expectations. Sales were $5.19 billion versus roughly $5.3 billion expected."}, "Profits and profitability": {"rating": "negative", "reason": "Earnings missed expectations. Non-GAAP EPS was $0.88 versus roughly $0.96 expected."}}},
+    "LLY_2017q2": {"contextual_analysis": {"Guidance": {"rating": "neutral", "reason": "Guidance was reaffirmed. Lilly maintained its non-GAAP full-year EPS outlook rather than raising it."}, "Product / Users": {"rating": "negative", "reason": "Key pipeline and launch results disappointed. Jardiance sales missed estimates and baricitinib remained under an FDA rejection."}}},
+    "LLY_2017q3": {"contextual_analysis": {"Guidance": {"rating": "positive", "reason": "Annual earnings guidance increased. Lilly raised non-GAAP EPS to $4.10-$4.20."}, "Product / Users": {"rating": "negative", "reason": "Pipeline timing deteriorated. Baricitinib's U.S. resubmission was delayed at least 18 months and might require another study."}, "Litigation": {"rating": null, "reason": null}}, "djnw": {"Litigation": {"rating": null, "reason": null}}},
+    "LLY_2017q4": {"contextual_analysis": {"Costs": {"rating": "negative", "reason": "Pricing pressure remained a concern. Diabetes realized prices and Elanco market-share weakness constrained the outlook."}, "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Portfolio uncertainty increased. Lilly began reviewing an IPO, merger, sale, or retention of Elanco."}}},
+    "LLY_2018q1": {"contextual_analysis": {"Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Drug-pricing policy pressure drove sector weakness. Renewed political scrutiny outweighed Lilly's operating beat."}}},
+    "LLY_2018q2": {"contextual_analysis": {"Costs": {"rating": "positive", "reason": "Expense control improved earnings quality. Operating expenses declined 5%."}}},
+    "LLY_2018q3": {"contextual_analysis": {"Costs": {"rating": "positive", "reason": "Expense control supported earnings. Operating expenses declined while new-product volume grew."}, "Others: eg. Covid, or macro events": {"rating": "positive", "reason": "Strategic uncertainty was resolved. Lilly announced a clear IPO and eventual divestiture path for Elanco."}}, "wsj": {"Others: eg. Covid, or macro events": {"rating": "positive", "reason": "The Elanco separation plan clarified value realization. Lilly supplied a concrete IPO structure and timeline after months of uncertainty."}}}
+  },
+  "first_order": {
+    "LLY_2016q2": {"contextual_analysis": ["Profits and profitability", "Costs"], "wsj": ["Profits and profitability", "Guidance"], "djnw": null},
+    "LLY_2016q3": {"contextual_analysis": null, "wsj": null, "djnw": null},
+    "LLY_2016q4": {"contextual_analysis": ["Guidance", "Product / Users"], "wsj": ["Revenue", "Profits and profitability"], "djnw": null},
+    "LLY_2017q1": {"contextual_analysis": ["Product / Users", "Revenue"], "wsj": null, "djnw": null},
+    "LLY_2017q2": {"contextual_analysis": ["Product / Users"], "wsj": null, "djnw": null},
+    "LLY_2017q3": {"contextual_analysis": ["Product / Users"], "wsj": null, "djnw": null},
+    "LLY_2017q4": {"contextual_analysis": ["Others: eg. Covid, or macro events", "Costs"], "wsj": ["Others: eg. Covid, or macro events"], "djnw": ["Others: eg. Covid, or macro events"]},
+    "LLY_2018q1": {"contextual_analysis": ["Others: eg. Covid, or macro events"], "wsj": null, "djnw": ["Profits and profitability", "Guidance"]},
+    "LLY_2018q2": {"contextual_analysis": ["Profits and profitability", "Guidance"], "wsj": null, "djnw": null},
+    "LLY_2018q3": {"contextual_analysis": ["Profits and profitability", "Others: eg. Covid, or macro events"], "wsj": ["Profits and profitability", "Others: eg. Covid, or macro events"], "djnw": null}
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "reviewed_observations": ["KLAC_2016q2", "KLAC_2016q3", "KLAC_2016q4", "KLAC_2017q1", "KLAC_2017q2", "KLAC_2017q3", "KLAC_2017q4", "KLAC_2018q1", "KLAC_2018q2", "KLAC_2018q3"],
+  "pd_overrides": {
+    "KLAC_2016q2": {"contextual_analysis": {"Revenue": {"rating": "neutral", "reason": "Revenue was subdued. Sales were roughly flat sequentially and below the prior-year quarter, with no expectation comparison provided."}}},
+    "KLAC_2016q4": {"contextual_analysis": {"Guidance": {"rating": null, "reason": null}, "Management": {"rating": null, "reason": null}}},
+    "KLAC_2017q1": {"contextual_analysis": {"Guidance": {"rating": null, "reason": null}, "Management": {"rating": null, "reason": null}}},
+    "KLAC_2017q2": {"contextual_analysis": {"Guidance": {"rating": "neutral", "reason": "Forward guidance was broadly in line. Q4 revenue and EPS ranges did not provide another major upside surprise."}, "Costs": {"rating": "negative", "reason": "Investment spending limited leverage. R&D remained elevated for 3D NAND and EUV inspection and metrology."}, "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Expectations were elevated. An in-line outlook failed to clear the high bar despite a strong reported quarter."}}},
+    "KLAC_2017q3": {"contextual_analysis": {"Order book / order backlog": {"rating": "positive", "reason": "Demand visibility remained strong. New orders again exceeded $1 billion and shipments reached a record $971 million."}, "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Positioning likely dominated the reaction. No valid source identified an operating disappointment despite the beat."}}},
+    "KLAC_2017q4": {"contextual_analysis": {"Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Expectations likely limited the reaction. No valid source identified a weak operating catalyst despite record results."}}},
+    "KLAC_2018q1": {"contextual_analysis": {"Management": {"rating": null, "reason": null}, "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "No company-specific negative catalyst was verified. The slight decline occurred despite record adjusted earnings and revenue."}}},
+    "KLAC_2018q2": {"contextual_analysis": {"Guidance": {"rating": null, "reason": null}, "Management": {"rating": null, "reason": null}, "Others: eg. Covid, or macro events": {"rating": "neutral", "reason": "The Orbotech acquisition broadened KLA's markets but introduced integration risk."}}}
+  },
+  "first_order": {
+    "KLAC_2016q2": {"contextual_analysis": null, "wsj": null, "djnw": null},
+    "KLAC_2016q3": {"contextual_analysis": null, "wsj": null, "djnw": null},
+    "KLAC_2016q4": {"contextual_analysis": null, "wsj": null, "djnw": null},
+    "KLAC_2017q1": {"contextual_analysis": null, "wsj": null, "djnw": null},
+    "KLAC_2017q2": {"contextual_analysis": null, "wsj": null, "djnw": null},
+    "KLAC_2017q3": {"contextual_analysis": null, "wsj": null, "djnw": null},
+    "KLAC_2017q4": {"contextual_analysis": null, "wsj": null, "djnw": null},
+    "KLAC_2018q1": {"contextual_analysis": null, "wsj": null, "djnw": null},
+    "KLAC_2018q2": {"contextual_analysis": null, "wsj": null, "djnw": null},
+    "KLAC_2018q3": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": null, "djnw": null}
+  }
+}

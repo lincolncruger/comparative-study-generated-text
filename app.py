@@ -56,6 +56,7 @@ CONTEXT_SUMMARIES_PATH = os.path.join(HERE, "data", "context_summaries_241.json"
 WEBSEARCH_LONG_PATH = os.path.join(HERE, "data", "websearch_long_241.json")
 COMPANY_INFO_PATH = os.path.join(HERE, "data", "company_info_241.json")
 COMPARATIVE_ANSWERS_PATH = os.path.join(HERE, "data", "comparative_answers_241.json")
+GROUP_COVERAGE_ACCURACY_PATH = os.path.join(HERE, "data", "group_coverage_accuracy_answers.json")
 
 # "Data Visualization 2" -- three market-cap-banded groups of large/mega-cap
 # tickers pulled from the full 5,503-company returns panel (see
@@ -529,6 +530,19 @@ def save_comparative_answers(answers):
         json.dump(answers, f, indent=2)
 
 
+@st.cache_data
+def load_group_coverage_accuracy(mtime_marker):
+    if not os.path.exists(GROUP_COVERAGE_ACCURACY_PATH):
+        return {}
+    with open(GROUP_COVERAGE_ACCURACY_PATH) as f:
+        return json.load(f)
+
+
+def save_group_coverage_accuracy(answers):
+    with open(GROUP_COVERAGE_ACCURACY_PATH, "w") as f:
+        json.dump(answers, f, indent=2)
+
+
 def anchor_id(ticker, fiscal_yearquarter):
     return f"q_{ticker}_{fiscal_yearquarter}"
 
@@ -636,6 +650,22 @@ def render_wsj_pdf_link_html(source, static_slug):
     )
 
 
+def coverage_accuracy_html(note_key, source_key):
+    """Read-only accuracy rating shown beneath Data Visualization 2 coverage."""
+    value = (group_coverage_accuracy_lookup.get(note_key) or {}).get(source_key, "Not yet rated")
+    colors = {
+        "Accurate": ("#2ecc71", "Accurate"),
+        "Not accurate": ("#e74c3c", "Not accurate"),
+        "Not yet rated": ("rgba(214,228,240,0.55)", "Not yet rated"),
+    }
+    color, label = colors.get(value, colors["Not yet rated"])
+    return (
+        "<div style='margin-top:0.8rem; padding-top:0.55rem; border-top:1px solid rgba(255,255,255,0.12); "
+        "font-size:0.86rem; font-weight:600;'>Coverage accuracy: "
+        f"<span style='color:{color};'>{label}</span></div>"
+    )
+
+
 def render_djnw_source_link_html(source):
     """Returns HTML for a button-styled link to the original Dow Jones
     Newswires source page. Unlike the WSJ PDFs, these are already public
@@ -714,6 +744,8 @@ def _show_pd_categories_dialog(note_key):
                 badge = "<span style='color:#5FBF6E;'>&#9679; Positive</span>"
             elif rating == "negative":
                 badge = "<span style='color:#E06C6C;'>&#9679; Negative</span>"
+            elif rating == "neutral":
+                badge = "<span style='color:#B8C4D6;'>&#9679; Neutral</span>"
             else:
                 badge = "<span style='opacity:0.5;'>&mdash;</span>"
             cell_html = (
@@ -1355,6 +1387,7 @@ context_summaries_lookup = load_context_summaries(_mtime(CONTEXT_SUMMARIES_PATH)
 websearch_long_lookup = load_websearch_long(_mtime(WEBSEARCH_LONG_PATH))
 company_info_lookup = load_company_info(_mtime(COMPANY_INFO_PATH))
 comparative_answers_lookup = load_comparative_answers(_mtime(COMPARATIVE_ANSWERS_PATH))
+group_coverage_accuracy_lookup = load_group_coverage_accuracy(_mtime(GROUP_COVERAGE_ACCURACY_PATH))
 notes_lookup = load_notes(_mtime(NOTES_PATH))
 group_df = load_group_returns(_mtime(GROUP_RETURNS_PATH))
 group_price_history = load_group_price_history(_mtime(GROUP_PRICE_HISTORY_PATH))
@@ -1639,6 +1672,7 @@ if st.session_state.selected_section == "Data Visualization 2":
         g_context_sections = group_context_lookup.get(g_context_key)
         if g_context_sections:
             g_left_pre, g_left_post = format_websearch_context_split(g_context_sections, g_note_key)
+            g_left_post += coverage_accuracy_html(g_context_key, "contextual_analysis")
         else:
             g_left_pre = "<p><em>No contextual interpretation available for this observation.</em></p>"
             g_left_post = ""
@@ -1663,6 +1697,7 @@ if st.session_state.selected_section == "Data Visualization 2":
             g_wsj_post_inner += "".join(
                 render_wsj_pdf_link_html(s, g_static_slug) for s in g_wsj_entry.get("sources", [])
             )
+            g_wsj_post_inner += coverage_accuracy_html(g_context_key, "wsj")
             g_wsj_pre = f"<div class='format-body'>{g_wsj_pre_inner}</div>"
             g_wsj_post = f"<div class='format-body'>{g_wsj_post_inner}</div>"
         else:
@@ -1686,6 +1721,7 @@ if st.session_state.selected_section == "Data Visualization 2":
                     f"{render_inline_markdown(g_djnw_entry['why_moved'])}</p>"
                 )
             g_djnw_post_inner += "".join(render_djnw_source_link_html(s) for s in g_djnw_entry.get("sources", []))
+            g_djnw_post_inner += coverage_accuracy_html(g_context_key, "djnw")
             g_djnw_pre = f"<div class='format-body'>{g_djnw_pre_inner}</div>"
             g_djnw_post = f"<div class='format-body'>{g_djnw_post_inner}</div>"
         else:
@@ -1728,6 +1764,160 @@ if st.session_state.selected_section == "Data Visualization 2":
     st.stop()
 
 if st.session_state.selected_section == "Comparative Study":
+    if "selected_comparative_subsection" not in st.session_state:
+        st.session_state.selected_comparative_subsection = "Data Visualization 1"
+
+    comp_section_cols = st.columns(2)
+    for col, subsection in zip(comp_section_cols, ("Data Visualization 1", "Data Visualization 2")):
+        with col:
+            is_selected = st.session_state.selected_comparative_subsection == subsection
+            if st.button(
+                subsection,
+                key=f"comparative_subsection_{subsection}",
+                use_container_width=True,
+                type="primary" if is_selected else "secondary",
+            ):
+                st.session_state.selected_comparative_subsection = subsection
+
+    st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+    if st.session_state.selected_comparative_subsection == "Data Visualization 2":
+        accuracy_options = ["Not yet rated", "Accurate", "Not accurate"]
+        accuracy_sources = (
+            ("contextual_analysis", "Contextualized interpretation"),
+            ("wsj", "WSJ Coverage"),
+            ("djnw", "Dow Jones Newswires Coverage"),
+        )
+
+        if "selected_accuracy_group" not in st.session_state:
+            st.session_state.selected_accuracy_group = list(GROUPS)[0]
+
+        accuracy_group_cols = st.columns(len(GROUPS))
+        for col, group_name in zip(accuracy_group_cols, GROUPS):
+            with col:
+                is_selected = st.session_state.selected_accuracy_group == group_name
+                if st.button(
+                    f"{group_name} ({GROUP_MARKET_CAP_LABELS[group_name]})",
+                    key=f"accuracy_group_{group_name}",
+                    use_container_width=True,
+                    type="primary" if is_selected else "secondary",
+                ):
+                    st.session_state.selected_accuracy_group = group_name
+                    st.session_state.selected_accuracy_ticker = GROUPS[group_name][0]
+
+        accuracy_group = st.session_state.selected_accuracy_group
+        accuracy_tickers = GROUPS[accuracy_group]
+        if (
+            "selected_accuracy_ticker" not in st.session_state
+            or st.session_state.selected_accuracy_ticker not in accuracy_tickers + ["All"]
+        ):
+            st.session_state.selected_accuracy_ticker = accuracy_tickers[0]
+
+        accuracy_nav_items = accuracy_tickers + ["All"]
+        accuracy_nav_cols = st.columns(len(accuracy_nav_items))
+        for col, ticker in zip(accuracy_nav_cols, accuracy_nav_items):
+            with col:
+                is_selected = st.session_state.selected_accuracy_ticker == ticker
+                if st.button(
+                    ticker,
+                    key=f"accuracy_ticker_{ticker}",
+                    use_container_width=True,
+                    type="primary" if is_selected else "secondary",
+                    help=GROUP_COMPANY_NAMES.get(ticker, "All tickers — coverage accuracy overview"),
+                ):
+                    st.session_state.selected_accuracy_ticker = ticker
+
+        st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+        accuracy_ticker = st.session_state.selected_accuracy_ticker
+
+        def _coverage_available(note_key, source_key):
+            if source_key == "contextual_analysis":
+                return bool(group_context_lookup.get(note_key))
+            lookup = group_wsj_coverage_lookup if source_key == "wsj" else group_djnw_coverage_lookup
+            entry = lookup.get(note_key)
+            return bool(entry and (entry.get("summary_analysis") or entry.get("why_moved")))
+
+        if accuracy_ticker == "All":
+            st.markdown(
+                "<div class='quarter-header' style='font-size:1.4rem; text-align:center;'>"
+                f"{accuracy_group} — Coverage Accuracy Overview</div>",
+                unsafe_allow_html=True,
+            )
+            overview_cols = st.columns(len(accuracy_tickers))
+            for col, ticker in zip(overview_cols, accuracy_tickers):
+                with col:
+                    ticker_rows = middle_n_quarters(group_df[group_df["ticker"] == ticker], n=10)
+                    dots_html = (
+                        f"<div style='text-align:center; font-weight:600; color:#f4c542; "
+                        f"margin-bottom:0.5rem;'>{ticker}</div>"
+                    )
+                    for _, row in ticker_rows.iterrows():
+                        note_key = f"{ticker}_{row['fiscal_yearquarter']}"
+                        answer = group_coverage_accuracy_lookup.get(note_key, {})
+                        available = [key for key, _ in accuracy_sources if _coverage_available(note_key, key)]
+                        rated = [answer.get(key, "Not yet rated") for key in available]
+                        if rated and all(value == "Accurate" for value in rated):
+                            color = "#2ecc71"
+                        elif not any(value != "Not yet rated" for value in rated):
+                            color = "#e74c3c"
+                        else:
+                            color = "#f39c12"
+                        dots_html += (
+                            f"<div title='{row['fiscal_yearquarter'].upper()}' "
+                            f"style='width:14px; height:14px; border-radius:50%; "
+                            f"background:{color}; margin:4px auto;'></div>"
+                        )
+                    st.markdown(dots_html, unsafe_allow_html=True)
+            st.stop()
+
+        accuracy_rows = middle_n_quarters(
+            group_df[group_df["ticker"] == accuracy_ticker], n=10
+        ).reset_index(drop=True)
+        st.markdown(
+            f"<div class='quarter-header' style='font-size:1.4rem; text-align:center;'>"
+            f"{accuracy_ticker} — {GROUP_COMPANY_NAMES.get(accuracy_ticker, accuracy_ticker)}</div>",
+            unsafe_allow_html=True,
+        )
+        st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+        accuracy_changed = False
+        for _, row in accuracy_rows.iterrows():
+            note_key = f"{accuracy_ticker}_{row['fiscal_yearquarter']}"
+            st.markdown(
+                f"<div class='quarter-header' style='text-align:center;'>"
+                f"{row['fiscal_yearquarter'].upper()} &nbsp;|&nbsp; "
+                f"earnings {row['earnings_date'].strftime('%Y-%m-%d')} &nbsp;|&nbsp; "
+                f"2-day return {row['ret_2day'] * 100:+.2f}%</div>",
+                unsafe_allow_html=True,
+            )
+            current = group_coverage_accuracy_lookup.get(note_key, {})
+            rating_cols = st.columns(3)
+            updated = dict(current)
+            for col, (source_key, source_label) in zip(rating_cols, accuracy_sources):
+                with col:
+                    if not _coverage_available(note_key, source_key):
+                        st.markdown(f"**{source_label}**")
+                        st.caption("No coverage available for this observation.")
+                        continue
+                    current_value = current.get(source_key, "Not yet rated")
+                    value = st.radio(
+                        source_label,
+                        accuracy_options,
+                        index=accuracy_options.index(current_value),
+                        key=f"coverage_accuracy_{source_key}_{note_key}",
+                        horizontal=True,
+                    )
+                    updated[source_key] = value
+                    if value != current_value:
+                        accuracy_changed = True
+            if updated != current:
+                group_coverage_accuracy_lookup[note_key] = updated
+            st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+        if accuracy_changed:
+            save_group_coverage_accuracy(group_coverage_accuracy_lookup)
+        st.stop()
+
     # Same 17-ticker nav bar as Data Visualization, but tracked with its own
     # session-state key so switching sections doesn't lose your place in
     # either one. Selecting a ticker here lists every one of its quarters

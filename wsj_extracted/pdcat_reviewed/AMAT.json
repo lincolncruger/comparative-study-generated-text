@@ -1,0 +1,97 @@
+{
+  "reviewed_observations": [
+    "AMAT_2016q2", "AMAT_2016q3", "AMAT_2016q4", "AMAT_2017q1", "AMAT_2017q2",
+    "AMAT_2017q3", "AMAT_2017q4", "AMAT_2018q1", "AMAT_2018q2", "AMAT_2018q3"
+  ],
+  "pd_overrides": {
+    "AMAT_2016q2": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "positive", "reason": "Guidance far exceeded expectations. Q3 EPS was guided to $0.46-$0.50 versus roughly $0.36 expected."},
+        "Order book / order backlog": {"rating": "positive", "reason": "Orders were exceptionally strong. New orders rose 52% sequentially and 37% annually to a 15-year high of $3.45 billion."},
+        "Product / Users": {"rating": "positive", "reason": "Equipment demand accelerated. OLED/display and 3D NAND created major new demand pools."}
+      },
+      "wsj": {
+        "Order book / order backlog": {"rating": "positive", "reason": "Orders were exceptionally strong. New orders rose 52% sequentially and 37% annually to a 15-year high of about $3.5 billion."},
+        "Revenue": {"rating": "positive", "reason": "Revenue beat expectations. Sales were $2.45 billion versus $2.43 billion expected."},
+        "Product / Users": {"rating": "positive", "reason": "Equipment demand accelerated. 3D NAND, OLED displays, and Chinese capacity expansion drove orders."},
+        "Profits and profitability": {"rating": "positive", "reason": "Adjusted earnings beat expectations. EPS was $0.34 versus $0.32 expected, despite lower GAAP net income."},
+        "Costs": {"rating": null, "reason": null}
+      }
+    },
+    "AMAT_2016q3": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "positive", "reason": "Guidance far exceeded expectations. Q4 adjusted EPS was guided to $0.61-$0.69 versus roughly $0.48 expected."},
+        "Order book / order backlog": {"rating": "positive", "reason": "Demand visibility was strong. Orders reached another record as NAND and display demand remained elevated."},
+        "Product / Users": {"rating": "positive", "reason": "Equipment demand remained strong. NAND and OLED/display spending continued to broaden the cycle."}
+      },
+      "wsj": {
+        "Product / Users": {"rating": "positive", "reason": "Equipment demand was strong. The manufacturing shift toward stacked chip circuitry supported record orders."}
+      }
+    },
+    "AMAT_2016q4": {
+      "contextual_analysis": {
+        "Order book / order backlog": {"rating": "negative", "reason": "Order momentum slowed. New orders declined sequentially from the exceptionally high third-quarter level."},
+        "Revenue": {"rating": "negative", "reason": "Revenue narrowly missed expectations. Sales rose 39% to $3.30 billion but came in slightly below consensus."}
+      },
+      "wsj": {
+        "Guidance": {"rating": "positive", "reason": "Guidance beat expectations. Q1 EPS was guided to $0.62-$0.70 on $3.20-$3.34 billion of revenue, above consensus."},
+        "Order book / order backlog": {"rating": "negative", "reason": "Orders missed expectations. New orders were $3.03 billion versus $3.21 billion expected."},
+        "Product / Users": {"rating": null, "reason": null}
+      }
+    },
+    "AMAT_2017q1": {
+      "contextual_analysis": {
+        "Order book / order backlog": {"rating": "positive", "reason": "Orders reached a record. New orders rose 86% year over year to $4.24 billion."},
+        "Product / Users": {"rating": "positive", "reason": "Equipment demand was broad. Flash, foundry, 3D NAND, and OLED investment supported growth."}
+      },
+      "wsj": {
+        "Order book / order backlog": {"rating": "negative", "reason": "Order sustainability worried investors. Record orders rose 86%, but Wall Street expected them to decline as customers absorbed purchases."},
+        "Product / Users": {"rating": "positive", "reason": "Long-term equipment demand remained supportive. Analysts expected strong growth from semiconductor and OLED investment."},
+        "Profits and profitability": {"rating": null, "reason": null},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Cyclical risk concerned investors. The record order surge raised fears that equipment demand was near an unsustainable peak."}
+      }
+    },
+    "AMAT_2017q2": {
+      "djnw": {
+        "Product / Users": {"rating": null, "reason": null}
+      }
+    },
+    "AMAT_2017q3": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "positive", "reason": "Equipment demand broadened. DRAM and OLED spending added to the strong NAND cycle."}
+      },
+      "djnw": {
+        "Profits and profitability": {"rating": "positive", "reason": "Quarterly results exceeded expectations. Dow Jones reported that the earnings release beat forecasts."}
+      }
+    },
+    "AMAT_2018q1": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "positive", "reason": "The outlook remained strong. Management expected all three major segments to deliver double-digit growth in 2018."}
+      }
+    },
+    "AMAT_2018q2": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "negative", "reason": "Equipment demand weakened. Management cited delays and slower display and memory spending tied to high-end smartphones."},
+        "Capex": {"rating": "negative", "reason": "Customer investment slowed. Display and NAND project delays raised concern that the equipment cycle was passing its peak."}
+      }
+    },
+    "AMAT_2018q3": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "negative", "reason": "Guidance disappointed. Management acknowledged near-term customer-spending adjustments and issued a weaker-than-desired Q4 outlook."},
+        "Product / Users": {"rating": "negative", "reason": "Equipment demand remained uncertain. Memory and foundry spending and customer shipment timing weakened the near-term view."}
+      }
+    }
+  },
+  "first_order": {
+    "AMAT_2016q2": {"contextual_analysis": ["Order book / order backlog", "Guidance"], "wsj": ["Order book / order backlog", "Guidance"], "djnw": null},
+    "AMAT_2016q3": {"contextual_analysis": ["Profits and profitability", "Guidance"], "wsj": ["Order book / order backlog", "Guidance"], "djnw": null},
+    "AMAT_2016q4": {"contextual_analysis": ["Revenue", "Order book / order backlog"], "wsj": ["Order book / order backlog"], "djnw": null},
+    "AMAT_2017q1": {"contextual_analysis": ["Order book / order backlog", "Guidance"], "wsj": ["Order book / order backlog", "Others: eg. Covid, or macro events"], "djnw": null},
+    "AMAT_2017q2": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": null, "djnw": ["Revenue", "Guidance"]},
+    "AMAT_2017q3": {"contextual_analysis": ["Profits and profitability", "Guidance"], "wsj": null, "djnw": ["Profits and profitability"]},
+    "AMAT_2017q4": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": null, "djnw": null},
+    "AMAT_2018q1": {"contextual_analysis": ["Revenue", "Debt, leverage and capital raise"], "wsj": null, "djnw": null},
+    "AMAT_2018q2": {"contextual_analysis": ["Guidance", "Product / Users"], "wsj": null, "djnw": null},
+    "AMAT_2018q3": {"contextual_analysis": ["Guidance", "Capex"], "wsj": null, "djnw": null}
+  }
+}

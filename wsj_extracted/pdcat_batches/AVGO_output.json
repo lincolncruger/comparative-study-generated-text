@@ -13,10 +13,6 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue came in strong at $3.56 billion of non-GAAP revenue."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. Non-GAAP EPS of $2.53 versus the roughly $2.38 consensus cited by contemporaneous coverage."
@@ -44,6 +40,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Apple's first iPhone sales decline and slower China demand pressured Broadcom's wireless-chip outlook."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "The portfolio mix improved. Wired infrastructure offset weaker wireless and enterprise-storage demand."
       }
     },
     "wsj": {
@@ -58,10 +58,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Continuing-operations revenue of $3.56 billion versus total revenue that more than doubled year over year to $3.54 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -90,6 +86,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. A risk to Broadcom's wireless-chip business that draws roughly 15% of revenue from Apple."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -106,10 +106,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue topped consensus at about $3.80 billion, up 7% sequentially, with wireless accelerating alongside the premium-smartphone build."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Broadcom's set-top-box connectivity products faced supply constraints that limited sales in that business."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -138,6 +134,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Following a roughly 22% year-to-date rally to near record highs, the stock had little room for even a minor operational miss."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Broadcom's set-top-box connectivity products faced supply constraints that limited sales in that business."
       }
     },
     "wsj": {
@@ -152,10 +152,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue more than doubled year over year to $3.79 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -184,6 +180,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. IDC again cut its 2016 global smartphone shipment outlook the same day, a macro headwind for Broadcom's wireless business."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -200,10 +200,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue came in at about $4.14 billion, modestly above consensus estimates."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -232,6 +228,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -246,10 +246,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue more than doubled year over year to $4.136 billion, landing within the company's own $4.1-4.175 billion guided range."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -278,6 +274,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Broadcom's pending $5.5 billion acquisition of Brocade Communications, announced the prior month."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -294,10 +294,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue reached about $4.15 billion (up 134% year over year on a merger-affected basis)."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Strength in data-center networking and enterprise storage offset normal wireless seasonality."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -326,6 +322,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Strength in data-center networking and enterprise storage offset normal wireless seasonality."
       }
     }
   },
@@ -342,10 +342,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue beat expectations, coming in at about $4.20 billion (up 18% year over year) versus consensus estimates cited near $4.11 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -374,6 +370,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": {
@@ -389,13 +389,9 @@
         "rating": null,
         "reason": null
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
-        "rating": null,
-        "reason": null
+        "rating": "positive",
+        "reason": "Earnings prompted a positive reaction. Dow Jones reported that shares jumped 6% after the results."
       },
       "Costs": {
         "rating": null,
@@ -420,14 +416,18 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
   "AVGO_2017q3": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Fiscal Q4 guidance was positive and above the prior quarter's pace."
+        "rating": "negative",
+        "reason": "Guidance disappointed elevated expectations. The Q4 outlook did not clear the aggressive assumptions around the iPhone ramp."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -436,10 +436,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue rose 18% year over year to about $4.46 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -468,6 +464,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Investor concern centered on Broadcom's roughly 20% revenue dependence on Apple and uncertainty around iPhone 8 launch timing and pricing."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -484,10 +484,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue of $4.84 billion came in above consensus."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -515,7 +511,11 @@
       },
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
-        "reason": "The broader backdrop was challenging. The pending $130 billion Qualcomm acquisition proposal."
+        "reason": "Positioning outweighed the strong report. Investors sold the initial rally amid the prior run and uncertainty surrounding the Qualcomm bid."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
@@ -530,10 +530,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue rose 8.5% year over year to $4.84 billion, edging past the $4.83 billion analyst consensus."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -562,6 +558,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. The company declining to answer analyst questions about the bid or its planned Singapore-to-U.S."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     },
     "djnw": {
@@ -576,10 +576,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue rose 8.5% to $4.84 billion, edging past the $4.83 billion analyst consensus."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. The core wired-infrastructure segment, representing 45% of sales, grew just 3%, flagged as a sign of core weakness even as wireless outperformed."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -608,6 +604,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. The report came amid an increasingly contentious $105 billion hostile takeover bid for Qualcomm."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. The core wired-infrastructure segment, representing 45% of sales, grew just 3%, flagged as a sign of core weakness even as wireless outperformed."
       }
     }
   },
@@ -624,10 +624,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue grew strongly to $5.33 billion, up 28% year over year."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Management forecast a sharp seasonal reversal after iPhone-driven strength in the reported quarter."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -656,6 +652,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Just days before the report, the U.S. government blocked Broadcom's proposed Qualcomm acquisition on national-security grounds."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Management forecast a sharp seasonal reversal after iPhone-driven strength in the reported quarter."
       }
     },
     "wsj": {
@@ -670,10 +670,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue rose 28% year over year to $5.33 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -702,6 +698,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. A government review panel citing risk to U.S. competitiveness against Huawei -- a significant strategic setback overshadowing the quarter."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -718,10 +718,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue grew 19% year over year to $5.02 billion."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -750,6 +746,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Despite strong headline results, investors remained focused on a slower near-term growth mix."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "The near-term mix slowed. Seasonal wireless weakness outweighed stronger wired and data-center demand."
       }
     },
     "wsj": {
@@ -764,10 +764,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue rose 20% year over year to $5 billion, in line with the company's own pre-announcement a month earlier."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -796,6 +792,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. The quarter came with a sharp reduction in shipments to Apple (about 20% of Broadcom's business)."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -812,10 +812,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue rose 13% to about $5.06 billion, driven by strong data-center demand."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Data-center networking and enterprise storage strength reduced Broadcom's reliance on smartphones."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -844,6 +840,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Wireless-segment demand remained comparatively weak versus data-center-driven strength."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Data-center networking and enterprise storage strength reduced Broadcom's reliance on smartphones."
       }
     },
     "wsj": {
@@ -858,10 +858,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue from continuing operations rose 13% to $5.07 billion, matching analyst expectations."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -890,6 +886,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. The proposed $19 billion CA Technologies acquisition had already pressured Broadcom's stock."
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   }

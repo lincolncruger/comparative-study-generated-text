@@ -10,16 +10,12 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Fiscal Q3 non-GAAP revenue was $22.1 billion and non-GAAP EPS was $0.62."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "neutral",
+        "reason": "Revenue was essentially in line. Non-GAAP sales were $22.1 billion."
       },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. Fiscal Q3 non-GAAP revenue was $22.1 billion and non-GAAP EPS was $0.62."
+        "rating": "negative",
+        "reason": "Earnings missed expectations. Non-GAAP EPS was $0.62 versus roughly $0.64 expected."
       },
       "Costs": {
         "rating": null,
@@ -44,6 +40,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Cloud products remained strong. Azure grew about 120% and Office 365 continued expanding rapidly."
       }
     },
     "wsj": {
@@ -58,10 +58,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Microsoft's fiscal third-quarter 2016 report centered on a specific deceleration story: Intelligent Cloud segment revenue grew 3% (8% in constant currency) with Azure."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Office 365 showed strong subscriber growth."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -90,6 +86,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. When the same segment had grown 5% (11% constant currency) and Azure had grown 140%."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Office 365 showed strong subscriber growth."
       }
     },
     "djnw": null
@@ -107,10 +107,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q4 non-GAAP revenue reached $22.6 billion and non-GAAP EPS $0.69, versus expectations near $22.1 billion and $0.58."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. The quarter showed that cloud and subscription businesses were becoming large enough to dominate the earnings narrative."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -139,6 +135,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The quarter showed that cloud and subscription businesses were becoming large enough to dominate the earnings narrative."
       }
     },
     "wsj": {
@@ -151,16 +151,12 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "negative",
-        "reason": "Revenue performance was weak. The company's first annual revenue decline since 2009."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Reflecting that cloud subscription revenue carries thinner margins than the legacy software-license model."
+        "rating": "positive",
+        "reason": "Revenue beat expectations. Adjusted sales were $22.64 billion versus $22.1 billion expected."
       },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. The article also flagged a specific margin cost tied to the cloud transition: gross margins fell 14% to $12.64 billion."
+        "rating": "positive",
+        "reason": "Earnings beat expectations. Adjusted EPS was $0.69 versus $0.58 expected."
       },
       "Costs": {
         "rating": "negative",
@@ -185,6 +181,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Azure revenue alone grew 102% (108% in constant currency) year over year."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Cloud adoption was strong. Azure grew 102% as customers continued shifting to Microsoft's cloud."
       }
     },
     "djnw": null
@@ -202,10 +202,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q1 non-GAAP revenue was $22.3 billion and non-GAAP EPS $0.76, both above consensus."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -234,6 +230,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Cloud demand was exceptional. Azure grew 116% and Office 365 commercial revenue expanded strongly."
       }
     },
     "wsj": {
@@ -246,12 +246,8 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "negative",
-        "reason": "Revenue performance was weak. Microsoft's fiscal first-quarter 2017 report marked a turning point after five consecutive quarters of revenue declines."
-      },
-      "Product / Users": {
         "rating": "positive",
-        "reason": "Product and user momentum was encouraging. The Productivity and Business Processes segment (including Office) grew 6% (8% constant currency) to $6.7 billion."
+        "reason": "Revenue beat expectations. Sales were $22.33 billion versus $21.7 billion expected."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -280,6 +276,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Azure revenue more than doubled (up 116%, 121% in constant currency), and CFO Amy Hood said Azure compute usage had also more than doubled."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The Productivity and Business Processes segment (including Office) grew 6% (8% constant currency) to $6.7 billion."
       }
     },
     "djnw": {
@@ -294,10 +294,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. The piece cites Azure revenue as having doubled year over year in each recent quarter."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -326,6 +322,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -343,17 +343,13 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q2 revenue was about $25.8 billion on an adjusted basis and adjusted EPS about $0.83, both ahead of consensus."
       },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
-      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. Fiscal Q2 revenue was about $25.8 billion on an adjusted basis and adjusted EPS about $0.83, both ahead of consensus."
       },
       "Costs": {
-        "rating": "positive",
-        "reason": "Cost execution was favorable. LinkedIn integration costs were modest relative to the strength of the core business."
+        "rating": "neutral",
+        "reason": "LinkedIn produced manageable initial dilution. The partial quarter reduced EPS by about $0.01."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -374,6 +370,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Cloud and subscription demand remained strong. Azure grew 93% and Office 365 commercial revenue rose 47%."
       }
     },
     "wsj": {
@@ -388,10 +388,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Noting that AWS grew sales 55% to $3.23 billion in its most recently reported quarter versus Azure's own 93% growth."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Reback predicting investors would give the company time to integrate it, and Nadella outlining plans to weave LinkedIn data into the Dynamics CRM product."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -420,6 +416,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Microsoft's fiscal second-quarter 2017 report included a specific competitive comparison to Amazon Web Services."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Reback predicting investors would give the company time to integrate it, and Nadella outlining plans to weave LinkedIn data into the Dynamics CRM product."
       }
     },
     "djnw": null
@@ -435,12 +435,8 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Fiscal Q3 adjusted revenue was about $23.6 billion and adjusted EPS $0.73, essentially in line to slightly above expectations."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Adjusted revenue narrowly missed expectations. Sales were about $23.56 billion versus $23.62 billion expected."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -469,6 +465,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Hardware demand disappointed. Surface revenue fell 26% even as Azure and Office 365 remained strong."
       }
     },
     "wsj": {
@@ -483,10 +483,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. Which added $975 million in revenue against a $386 million operating loss) set against a notable weak spot: the More Personal Computing segment fell 7% to $8.84 billion."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Productivity and Business Processes up 22% to $7.96 billion."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -515,6 +511,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. CFO Amy Hood attributed the Surface weakness specifically to older models still sitting in the channel combined with heightened price competition."
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Productivity and Business Processes up 22% to $7.96 billion."
       }
     },
     "djnw": {
@@ -529,10 +529,6 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. Revenue grew 7.6% to $22.1 billion, and on an adjusted basis reached $23.56 billion, slightly below the $23.62 billion analysts had forecast."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Productivity and Business Processes (the Office franchise) rose 22% to $7.96 billion."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -561,6 +557,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Productivity and Business Processes (the Office franchise) rose 22% to $7.96 billion."
       }
     }
   },
@@ -577,10 +577,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q4 non-GAAP revenue was $24.7 billion and non-GAAP EPS $0.98, both well above consensus."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -607,6 +603,10 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "Expectations were elevated. The initial rally faded despite a strong report."
+      },
+      "Product": {
         "rating": null,
         "reason": null
       }
@@ -623,10 +623,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Microsoft's fiscal fourth-quarter 2017 report showed Azure revenue growth of 97% and Office 365 revenue growth of 43%."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Revenue down just 2% (a sharp improvement from the prior quarter's 26% decline), aided by the late-quarter launch of a new Surface Laptop and updated Surface Pro."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -655,6 +651,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Cloud demand exceeded expectations. Azure grew 97% and strengthened Microsoft's position behind Amazon."
       }
     },
     "djnw": {
@@ -669,10 +669,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. That analysts expected adjusted EPS of 71 cents (up from 69 cents a year earlier) on adjusted revenue of $24.29 billion, versus $22.64 billion previously."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -701,6 +697,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": null,
+        "reason": null
       }
     }
   },
@@ -717,10 +717,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q1 revenue was $24.5 billion, up 12%, and EPS was $0.84, both well above consensus."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. This was no longer a story of one fast-growing cloud product offsetting legacy declines."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -749,6 +745,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Cloud and enterprise demand was broad. Azure grew 90% and the commercial-cloud run rate surpassed $20 billion early."
       }
     },
     "wsj": {
@@ -763,10 +763,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Microsoft's fiscal first-quarter 2018 report showed the two core cloud businesses accelerating sharply: Azure revenue rose 90% and Office 365 revenue rose 42%."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. The Intelligent Cloud segment grew 14% to $6.92 billion and Productivity and Business Processes (including Office) grew 28% to $8.24 billion."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -795,6 +791,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The Intelligent Cloud segment grew 14% to $6.92 billion and Productivity and Business Processes (including Office) grew 28% to $8.24 billion."
       }
     },
     "djnw": {
@@ -809,10 +809,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue climbing 12% to $24.54 billion, beating the $23.56 billion in revenue and $0.72 EPS analysts had expected."
-      },
-      "Product / Users": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. The Productivity and Business Processes unit, which includes Office and the Dynamics software competing with Salesforce, generated $8.24 billion, up 28%."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -841,6 +837,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Cloud momentum was exceptional. Azure and Office 365 grew about 90% and 41%-42%, respectively."
       }
     }
   },
@@ -857,10 +857,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q2 revenue rose 12% to $28.9 billion and adjusted EPS reached $0.96, both above consensus."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Azure revenue increased 98%, commercial cloud revenue grew 56% to $5.3 billion, and LinkedIn contributed $1.3 billion with continued engagement growth."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -887,8 +883,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Expectations were already elevated. Strong cloud results produced little incremental rerating after a large prior share-price increase."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Azure revenue increased 98%, commercial cloud revenue grew 56% to $5.3 billion, and LinkedIn contributed $1.3 billion with continued engagement growth."
       }
     },
     "wsj": {
@@ -903,10 +903,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue rose 12% to $28.92 billion."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Intelligent Cloud grew 15% to $7.8 billion and Productivity and Business Processes grew 25% to $8.95 billion."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -933,8 +929,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Strong results were already priced in. Microsoft shares had climbed nearly 50% over the prior year."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Intelligent Cloud grew 15% to $7.8 billion and Productivity and Business Processes grew 25% to $8.95 billion."
       }
     },
     "djnw": {
@@ -950,13 +950,9 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Microsoft reported fiscal second-quarter total revenue of $28.92 billion, up 12% year over year."
       },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. The Productivity and Business Processes division."
-      },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. Excluding that tax impact, adjusted earnings were $0.96 per share, above the $0.86 analysts had projected on expected revenue of $28.41 billion."
+        "rating": "neutral",
+        "reason": "Profitability was mixed. Adjusted EPS beat expectations, while a $13.8 billion tax charge produced a GAAP loss."
       },
       "Costs": {
         "rating": null,
@@ -979,8 +975,12 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Tax reform distorted reported results. A $13.8 billion charge drove the company to a GAAP loss."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The Productivity and Business Processes division."
       }
     }
   },
@@ -997,10 +997,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q3 revenue rose 16% to $26.8 billion and EPS increased 36% to $0.95, versus consensus around $0.85."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. The quarter was broad-based across cloud, productivity, LinkedIn and devices."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1029,6 +1025,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The quarter was broad-based across cloud, productivity, LinkedIn and devices."
       }
     },
     "wsj": {
@@ -1043,10 +1043,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Azure and commercial Office 365 (up 42%) generated about $6 billion in revenue."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Azure and commercial Office 365 (up 42%) generated about $6 billion in revenue."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1075,6 +1071,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Amazon held 31.7% share in early 2018 versus Microsoft's 16% and Google's 7.4% (Canalys research)."
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Azure and commercial Office 365 (up 42%) generated about $6 billion in revenue."
       }
     },
     "djnw": null
@@ -1092,10 +1092,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q4 revenue reached $30.1 billion, up 17%, and non-GAAP EPS was $1.13."
-      },
-      "Product / Users": {
-        "rating": null,
-        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1124,6 +1120,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Demand was broad across products. Azure, Office 365, LinkedIn, gaming, Surface, and Windows commercial all grew."
       }
     },
     "wsj": {
@@ -1138,10 +1138,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Microsoft's fiscal fourth-quarter 2018 report marked a notable milestone: the company topped $100 billion in annual revenue for the first time."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Server-products and cloud-services revenue, the article's proxy for hybrid-cloud performance, rose 26%."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1170,6 +1166,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Server-products and cloud-services revenue, the article's proxy for hybrid-cloud performance, rose 26%."
       }
     },
     "djnw": {
@@ -1184,10 +1184,6 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. It does contain substantive figures: Microsoft's fiscal fourth-quarter revenue reached $30.09 billion."
-      },
-      "Product / Users": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Driven partly by server products and cloud services revenue growing 26% (no further breakdown of that figure is given)."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1216,6 +1212,10 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      },
+      "Product": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Driven partly by server products and cloud services revenue growing 26% (no further breakdown of that figure is given)."
       }
     }
   }

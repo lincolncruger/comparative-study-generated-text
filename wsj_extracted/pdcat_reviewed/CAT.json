@@ -1,0 +1,31 @@
+{
+  "reviewed_observations": ["CAT_2016q2", "CAT_2016q3", "CAT_2016q4", "CAT_2017q1", "CAT_2017q2", "CAT_2017q3", "CAT_2017q4", "CAT_2018q1", "CAT_2018q2", "CAT_2018q3"],
+  "pd_overrides": {
+    "CAT_2016q2": {"wsj": {"Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Expectations limited the reaction. Shares had already rallied about one-third from their January low before the guidance cut."}}},
+    "CAT_2016q3": {"contextual_analysis": {"Costs": {"rating": "positive", "reason": "Cost control supported earnings. Restructuring produced better profit resilience than the 16% sales decline implied."}}},
+    "CAT_2016q4": {"contextual_analysis": {"Revenue": {"rating": "negative", "reason": "Revenue remained weak. Sales were $9.16 billion and management lowered its 2016 outlook again."}}},
+    "CAT_2017q1": {
+      "contextual_analysis": {"Profits and profitability": {"rating": "positive", "reason": "Adjusted earnings were resilient. Underlying profit was substantially better than the GAAP loss distorted by restructuring and noncash charges."}},
+      "wsj": {"Profits and profitability": {"rating": "positive", "reason": "Adjusted earnings beat expectations. The underlying result exceeded consensus despite a large reported loss."}, "Costs": {"rating": "negative", "reason": "Charges hurt reported earnings. Restructuring and noncash items produced a large GAAP loss."}}
+    },
+    "CAT_2017q2": {"wsj": {"Profits and profitability": {"rating": "positive", "reason": "Earnings beat expectations. The strong profit result accompanied Caterpillar's first sales increase since 2015."}}},
+    "CAT_2017q4": {"djnw": {"Guidance": {"rating": "positive", "reason": "Guidance improved. Caterpillar raised its full-year sales and adjusted-profit outlook after the beat."}}},
+    "CAT_2018q1": {
+      "wsj": {"Revenue": {"rating": "positive", "reason": "Revenue recovered. Sales ended a four-year annual decline and exceeded expectations."}, "Profits and profitability": {"rating": "positive", "reason": "Adjusted earnings beat expectations. Investors looked past the tax-related GAAP loss."}}
+    },
+    "CAT_2018q2": {"wsj": {"Costs": {"rating": "negative", "reason": "Cost pressure threatened margins. Management warned that steel and other material expenses would rise later in the year."}, "Management": {"rating": "negative", "reason": "Management's wording alarmed investors. Calling first-quarter margins a high-water mark reset expectations for the rest of the year."}}},
+    "CAT_2018q3": {"wsj": {"Costs": {"rating": "negative", "reason": "Costs threatened the outlook. Tariffs were expected to add $100-$200 million, while freight and supply-chain pressure increased."}}}
+  },
+  "first_order": {
+    "CAT_2016q2": {"contextual_analysis": ["Guidance", "Profits and profitability"], "wsj": ["Others: eg. Covid, or macro events"], "djnw": ["Guidance"]},
+    "CAT_2016q3": {"contextual_analysis": ["Profits and profitability", "Costs"], "wsj": null, "djnw": null},
+    "CAT_2016q4": {"contextual_analysis": ["Guidance", "Revenue"], "wsj": ["Guidance", "Revenue"], "djnw": null},
+    "CAT_2017q1": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": ["Revenue", "Guidance"], "djnw": null},
+    "CAT_2017q2": {"contextual_analysis": ["Profits and profitability", "Guidance"], "wsj": ["Revenue", "Guidance"], "djnw": ["Profits and profitability", "Guidance"]},
+    "CAT_2017q3": {"contextual_analysis": ["Profits and profitability", "Guidance"], "wsj": ["Profits and profitability", "Guidance"], "djnw": ["Profits and profitability", "Guidance"]},
+    "CAT_2017q4": {"contextual_analysis": ["Profits and profitability", "Guidance"], "wsj": ["Revenue", "Guidance"], "djnw": ["Profits and profitability", "Revenue"]},
+    "CAT_2018q1": {"contextual_analysis": ["Profits and profitability", "Guidance"], "wsj": ["Profits and profitability", "Revenue"], "djnw": null},
+    "CAT_2018q2": {"contextual_analysis": ["Management", "Costs"], "wsj": ["Management"], "djnw": null},
+    "CAT_2018q3": {"contextual_analysis": ["Costs"], "wsj": ["Costs"], "djnw": null}
+  }
+}

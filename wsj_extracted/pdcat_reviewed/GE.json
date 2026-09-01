@@ -1,0 +1,25 @@
+{
+  "reviewed_observations": ["GE_2016q2", "GE_2016q3", "GE_2016q4", "GE_2017q1", "GE_2017q2", "GE_2017q3", "GE_2017q4", "GE_2018q1", "GE_2018q2", "GE_2018q3"],
+  "pd_overrides": {
+    "GE_2016q2": {"contextual_analysis": {"Order book / order backlog": {"rating": "negative", "reason": "Orders weakened materially. Organic orders fell 7% as Oil & Gas and Transportation demand deteriorated."}, "Revenue": {"rating": "negative", "reason": "Underlying revenue weakened. Organic industrial segment revenue declined 1% despite adjusted revenue being roughly in line."}}, "djnw": {"Profits and profitability": {"rating": "negative", "reason": "Reported profitability disappointed. Dow Jones associated the premarket decline with GE's overall net loss despite an adjusted beat."}}},
+    "GE_2016q3": {"contextual_analysis": {"Order book / order backlog": {"rating": "negative", "reason": "Equipment demand weakened. Organic orders were soft as Oil & Gas and Transportation remained major drags."}, "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Cash conversion disappointed. Free cash flow was roughly $1 billion below expectations."}}, "wsj": {"Order book / order backlog": {"rating": "negative", "reason": "Industrial demand weakened. Orders fell 16%, a forward indicator that outweighed the quarterly profit beat."}}},
+    "GE_2017q1": {"contextual_analysis": {"Guidance": {"rating": "neutral", "reason": "Guidance was reaffirmed. GE maintained its 2017 EPS range of $1.60-$1.70 without raising it."}, "Profits and profitability": {"rating": "neutral", "reason": "Earnings were in line. Adjusted EPS of $0.46 roughly matched expectations."}}},
+    "GE_2017q2": {"contextual_analysis": {"Guidance": {"rating": "neutral", "reason": "Guidance was reaffirmed. GE maintained its full-year cash-flow target despite a weak first quarter."}, "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Cash conversion badly missed plan. Industrial cash flow was negative $1.6 billion, about $1 billion worse than GE expected."}}},
+    "GE_2017q4": {"contextual_analysis": {"Revenue": {"rating": "positive", "reason": "Revenue beat expectations. Quarterly sales of $33.47 billion exceeded consensus despite severe Power weakness."}, "Management": {"rating": "positive", "reason": "Management's reset reassured some investors. The new CEO outlined $20 billion of asset sales and an accounting overhaul."}}, "wsj": {"Management": {"rating": "positive", "reason": "Management's decisive reset supported the rebound. Flannery presented a $20 billion asset-sale plan and accounting overhaul."}}},
+    "GE_2018q1": {"wsj": {"Revenue": {"rating": "negative", "reason": "Revenue missed expectations. Sales of about $31.4 billion were well below forecasts near $33.8 billion."}, "Litigation": {"rating": "negative", "reason": "Regulatory risk increased. GE disclosed an SEC investigation into insurance reserves and revenue-recognition controls."}}},
+    "GE_2018q2": {"contextual_analysis": {"Guidance": {"rating": "neutral", "reason": "Guidance was reaffirmed. Avoiding another cut was reassuring against extremely depressed expectations."}}},
+    "GE_2018q3": {"contextual_analysis": {"Guidance": {"rating": "negative", "reason": "Cash-flow guidance was cut. GE reduced expected industrial free cash flow to about $6 billion from $6-$7 billion."}, "Order book / order backlog": {"rating": "negative", "reason": "Power demand deteriorated. Segment orders fell 26% while revenue declined 19%."}}, "wsj": {"Guidance": {"rating": "negative", "reason": "The forward outlook weakened. GE trimmed turbine expectations and emphasized tariff, capital, and multiyear Power risks."}, "Order book / order backlog": {"rating": "negative", "reason": "Power demand remained weak. Lower turbine expectations reinforced the long turnaround timeline."}}}
+  },
+  "first_order": {
+    "GE_2016q2": {"contextual_analysis": ["Revenue", "Order book / order backlog"], "wsj": null, "djnw": ["Profits and profitability"]},
+    "GE_2016q3": {"contextual_analysis": ["Order book / order backlog", "Others: eg. Covid, or macro events"], "wsj": ["Order book / order backlog", "Others: eg. Covid, or macro events"], "djnw": null},
+    "GE_2016q4": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": ["Guidance", "Revenue"], "djnw": null},
+    "GE_2017q1": {"contextual_analysis": ["Revenue"], "wsj": ["Revenue", "Product / Users"], "djnw": null},
+    "GE_2017q2": {"contextual_analysis": ["Others: eg. Covid, or macro events"], "wsj": ["Costs"], "djnw": null},
+    "GE_2017q3": {"contextual_analysis": ["Guidance", "Management"], "wsj": ["Guidance", "Management"], "djnw": null},
+    "GE_2017q4": {"contextual_analysis": ["Management"], "wsj": ["Management"], "djnw": ["Profits and profitability"]},
+    "GE_2018q1": {"contextual_analysis": ["Litigation", "Revenue"], "wsj": ["Litigation"], "djnw": null},
+    "GE_2018q2": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": ["Guidance"], "djnw": null},
+    "GE_2018q3": {"contextual_analysis": ["Guidance", "Order book / order backlog"], "wsj": ["Guidance", "Order book / order backlog"], "djnw": null}
+  }
+}

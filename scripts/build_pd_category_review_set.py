@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BATCH_DIR = ROOT / "wsj_extracted" / "pdcat_batches"
 DEST = ROOT / "data" / "group_pd_categories.json"
 FIRST_ORDER_DEST = ROOT / "data" / "group_first_order_categories.json"
+REVIEW_DIR = ROOT / "wsj_extracted" / "pdcat_reviewed"
 
 # Observation-level contextual selections reviewed against all three inputs:
 # Possible Drivers, Current Earnings Release, and the linked reaction article.
@@ -676,7 +677,58 @@ def build_first_order(selected, source_records):
                 for category in reviewed_categories
                 if contextual_pd.get(category, {}).get("reason")
             ] or None
+        ticker_review_path = REVIEW_DIR / f"{key.split('_', 1)[0]}.json"
+        if ticker_review_path.exists():
+            ticker_review = json.load(ticker_review_path.open())
+            reviewed_sources = ticker_review.get("first_order", {}).get(key)
+            if reviewed_sources is not None:
+                for source in ("contextual_analysis", "wsj", "djnw"):
+                    categories = reviewed_sources.get(source)
+                    source_pd = pd_entry.get(source) or {}
+                    result[key][source] = [
+                        {
+                            "category": category,
+                            "rating": source_pd[category]["rating"],
+                            "reason": source_pd[category]["reason"],
+                        }
+                        for category in (categories or [])
+                    ] or None
     return result
+
+
+def load_reviewed_ticker(ticker, generated):
+    """Expand a source-audited sparse ticker file into the fixed 11-category schema."""
+    review_path = REVIEW_DIR / f"{ticker}.json"
+    if not review_path.exists():
+        return None
+    review_document = json.load(review_path.open())
+    reviewed = review_document.get("pd")
+    if reviewed is None:
+        # Once every existing cell has been checked, a compact review file can
+        # retain the checked output and record only the cells that needed a
+        # correction. This avoids duplicating tens of thousands of null cells.
+        expanded = generated
+        for key, source_overrides in review_document.get("pd_overrides", {}).items():
+            for source, category_overrides in source_overrides.items():
+                if category_overrides is None:
+                    expanded[key][source] = None
+                    continue
+                for category, cell in category_overrides.items():
+                    expanded[key][source][category] = cell
+        return expanded
+    expanded = {}
+    for key, observation in reviewed.items():
+        expanded[key] = {}
+        for source in ("contextual_analysis", "wsj", "djnw"):
+            source_review = observation.get(source)
+            if source_review is None:
+                expanded[key][source] = None
+                continue
+            expanded[key][source] = {
+                category: source_review.get(category, {"rating": None, "reason": None})
+                for category in CATEGORIES
+            }
+    return expanded
 
 
 def main():
@@ -697,8 +749,19 @@ def main():
             # Preserve Claude's eight finished observations; fill its one gap.
             existing.pop("NVDA_2018q2", None)
             generated.update(existing)
+        # Some legacy batch inputs omit an observation that is already present
+        # in the consolidated dashboard data (notably NVDA_2016q2). Preserve
+        # that base record so a compact audited review can override its cells.
+        for key, observation in merged.items():
+            if key.split("_", 1)[0] == ticker:
+                generated.setdefault(key, observation)
         generated = apply_manual_reviews(ticker, generated)
         generated = make_output_concise(generated)
+        reviewed_ticker = load_reviewed_ticker(ticker, generated)
+        if reviewed_ticker is not None:
+            # A completed source audit replaces every generated cell for this
+            # ticker; no keyword-derived classification may leak back in.
+            generated = reviewed_ticker
         if ticker == "AVGO":
             generated["AVGO_2018q3"]["wsj"]["Others: eg. Covid, or macro events"] = {
                 "rating": "negative",
