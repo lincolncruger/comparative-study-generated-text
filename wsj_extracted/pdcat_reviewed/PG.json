@@ -12,6 +12,14 @@
         "Product / Users": {"rating": "negative", "reason": "Volume weakened broadly. Shipments fell 2%, with declines in four of five segments and the largest drop in Grooming."},
         "Costs": {"rating": "neutral", "reason": "Cost savings supported earnings, while advertising, taxes, and foreign exchange pressured the full-year outlook."},
         "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Currency and developing-market conditions hurt results. China organic sales declined 4% and Venezuela was deconsolidated."}
+      },
+      "djnw": {
+        "Revenue": {"rating": "negative", "reason": "Revenue missed expectations. Sales fell 6.9% to $15.76 billion versus the $15.81 billion analyst estimate."},
+        "Product / Users": {"rating": "negative", "reason": "Volumes weakened broadly. Shipments fell 2%, with declines across nearly all of P&G's businesses."},
+        "Profits and profitability": {"rating": "positive", "reason": "Adjusted earnings beat expectations. EPS was $0.86 versus the $0.82 analyst forecast, and gross margin expanded 250 basis points."},
+        "Guidance": {"rating": "negative", "reason": "The earnings outlook weakened. P&G forecast a 3%-6% decline in full-year core earnings from the prior year."},
+        "Costs": {"rating": "negative", "reason": "Spending and other expenses pressured the outlook. P&G cited advertising investment, higher taxes and lower nonoperating income."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Currency and developing-market conditions hurt results. Foreign exchange and lower shipments in developing markets weighed on performance."}
       }
     },
     "PG_2016q3": {
@@ -19,6 +27,15 @@
         "Guidance": {"rating": "negative", "reason": "Fiscal 2017 earnings guidance was cautious because productivity savings would be reinvested."},
         "Revenue": {"rating": "positive", "reason": "Revenue beat expectations despite declining nominally. Organic sales and volume both increased 2%."},
         "Product / Users": {"rating": "positive", "reason": "Demand improved broadly. Organic sales and volume increased across all five business segments."}
+      },
+      "djnw": {
+        "Revenue": {"rating": "positive", "reason": "Revenue exceeded expectations despite declining. Sales were $16.1 billion versus $15.83 billion expected, while organic sales grew 2%."},
+        "Product / Users": {"rating": "positive", "reason": "Underlying demand improved. Core volume grew across all five segments, and P&G began stemming market-share losses in China."},
+        "Profits and profitability": {"rating": "positive", "reason": "Adjusted earnings beat expectations. EPS was $0.79 versus the $0.74 analyst forecast, and gross margin expanded 130 basis points."},
+        "Guidance": {"rating": "negative", "reason": "The earnings outlook was tepid. Mid-single-digit EPS growth trailed the 9% analyst forecast, while reported sales growth was projected near 1%."},
+        "Costs": {"rating": "positive", "reason": "Productivity improved. Savings funded increased innovation and advertising while helping gross margin expand 130 basis points."},
+        "Management": {"rating": "neutral", "reason": "Management cited early progress in China but said it was not yet worth celebrating and acknowledged being late to changing market dynamics."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "China remained challenging. Slower consumer spending, stronger local competition and a rapid shift toward online shopping pressured the market."}
       }
     },
     "PG_2016q4": {
@@ -46,6 +63,13 @@
         "Profits and profitability": {"rating": "positive", "reason": "Adjusted earnings beat expectations. EPS was $1.08 versus approximately $1.06 expected."},
         "Costs": {"rating": null, "reason": null},
         "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Foreign exchange remained a headwind. The strong dollar was expected to reduce fiscal-year earnings by about $500 million."}
+      },
+      "djnw": {
+        "Revenue": {"rating": "positive", "reason": "Underlying sales improved. Organic sales grew 2%, while reported revenue of $16.86 billion exceeded the $16.77 billion estimate."},
+        "Product / Users": {"rating": "positive", "reason": "Demand strengthened. Organic shipment volume increased 2% and drove the quarter's organic-sales growth."},
+        "Profits and profitability": {"rating": "positive", "reason": "Adjusted earnings beat expectations. EPS was $1.08 versus the $1.06 analyst projection."},
+        "Guidance": {"rating": "positive", "reason": "The sales outlook improved. P&G raised expected full-year organic growth to 2%-3% from its previous 2% target."},
+        "Costs": {"rating": "positive", "reason": "Cost discipline supported the turnaround. The article notes P&G had demonstrated an ability to reduce costs while pursuing faster sales growth."}
       }
     },
     "PG_2017q2": {
@@ -142,10 +166,10 @@
     }
   },
   "first_order": {
-    "PG_2016q2": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": null, "djnw": null},
+    "PG_2016q2": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": null, "djnw": ["Product / Users", "Guidance"]},
     "PG_2016q3": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": null, "djnw": null},
     "PG_2016q4": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": ["Revenue", "Profits and profitability"], "djnw": ["Revenue", "Profits and profitability"]},
-    "PG_2017q1": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": ["Revenue", "Guidance"], "djnw": null},
+    "PG_2017q1": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": ["Revenue", "Guidance"], "djnw": ["Guidance", "Revenue"]},
     "PG_2017q2": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": null, "djnw": ["Revenue", "Product / Users"]},
     "PG_2017q3": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": ["Revenue"], "djnw": ["Profits and profitability"]},
     "PG_2017q4": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": ["Revenue", "Product / Users"], "djnw": ["Profits and profitability", "Product / Users"]},

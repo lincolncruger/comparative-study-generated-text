@@ -16,6 +16,15 @@
         "Revenue": {"rating": "positive", "reason": "Revenue beat expectations. Sales rose 13% to $1.3 billion versus approximately $1.27 billion expected."},
         "Product / Users": {"rating": "positive", "reason": "Platform demand was broad. Gaming grew 17%, data center 63%, and automotive 47%."},
         "Profits and profitability": {"rating": "positive", "reason": "Earnings beat expectations. Adjusted EPS was $0.46 versus $0.32 expected."}
+      },
+      "djnw": {
+        "Guidance": {"rating": "positive", "reason": "Revenue guidance beat expectations. Nvidia forecast $1.35 billion, plus or minus 2%, versus $1.28 billion expected."},
+        "Revenue": {"rating": "positive", "reason": "Revenue beat expectations. Sales rose 13% to $1.3 billion versus approximately $1.27 billion expected."},
+        "Product / Users": {"rating": "positive", "reason": "Demand was broad. Gaming grew 17%, data center nearly 63%, and automotive 47%."},
+        "Profits and profitability": {"rating": "positive", "reason": "Earnings beat expectations. Adjusted EPS was $0.46 versus approximately $0.32 expected."},
+        "Debt, leverage and capital raise": {"rating": "positive", "reason": "Capital returns increased. Nvidia entered a $500 million accelerated share-buyback agreement."},
+        "Management": {"rating": "positive", "reason": "Management described gaming as an expanding market supported by demand for higher-performance graphics."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Competitive pricing risk increased. AMD's forthcoming Polaris chip was expected to pressure Nvidia's pricing."}
       }
     },
     "NVDA_2016q3": {
@@ -24,6 +33,13 @@
       },
       "wsj": {
         "Product / Users": {"rating": "positive", "reason": "New-product demand was strong. Pascal GPUs and deep-learning interest supported gaming, visualization, and automotive growth."}
+      },
+      "djnw": {
+        "Guidance": {"rating": "positive", "reason": "Revenue guidance beat expectations. Nvidia forecast $1.68 billion, plus or minus 2%, versus $1.45 billion expected."},
+        "Revenue": {"rating": "positive", "reason": "Revenue exceeded prior guidance. Sales rose 24% to $1.43 billion versus Nvidia's $1.35 billion forecast."},
+        "Product / Users": {"rating": "positive", "reason": "New-product demand was strong. Gaming grew 18%, visualization 22%, and automotive 68% as Pascal and deep learning gained traction."},
+        "Profits and profitability": {"rating": "positive", "reason": "Profit surged. Net income rose to $253 million from $26 million and adjusted EPS increased to $0.53."},
+        "Management": {"rating": "positive", "reason": "Management credited record results to strong Pascal GPU demand and surging interest in deep learning."}
       }
     },
     "NVDA_2016q4": {
@@ -33,6 +49,15 @@
       },
       "wsj": {
         "Others: eg. Covid, or macro events": {"rating": null, "reason": null}
+      },
+      "djnw": {
+        "Guidance": {"rating": "positive", "reason": "Revenue guidance substantially beat expectations. Nvidia forecast $2.1 billion, plus or minus 2%, versus $1.69 billion expected."},
+        "Revenue": {"rating": "positive", "reason": "Revenue substantially exceeded expectations. Sales rose 54% to $2.0 billion versus approximately $1.69 billion expected."},
+        "Product / Users": {"rating": "positive", "reason": "Pascal-led demand was broad. Gaming grew 63%, data center nearly tripled, and automotive increased 61%."},
+        "Profits and profitability": {"rating": "positive", "reason": "Earnings substantially beat expectations. Adjusted EPS was $0.94 versus approximately $0.56-$0.57 expected."},
+        "Debt, leverage and capital raise": {"rating": "positive", "reason": "Capital returns increased. Nvidia raised its dividend 22% and added $2 billion to its buyback authorization."},
+        "Management": {"rating": "positive", "reason": "Management described broad strength across every product line during a breakout quarter."},
+        "Others: eg. Covid, or macro events": {"rating": "neutral", "reason": "Analyst sentiment was strongly positive after the report, though some remained cautious about AMD competition and valuation."}
       }
     },
     "NVDA_2017q1": {
@@ -43,6 +68,13 @@
       "wsj": {
         "Guidance": {"rating": "neutral", "reason": "Revenue guidance was roughly in line. Nvidia forecast approximately $1.9 billion for the current quarter."},
         "Others: eg. Covid, or macro events": {"rating": "neutral", "reason": "Expectations were elevated, but WSJ did not explicitly attribute the decline. Shares had more than quadrupled over 12 months."}
+      },
+      "djnw": {
+        "Guidance": {"rating": "neutral", "reason": "Revenue guidance was roughly in line with expectations at $1.9 billion, plus or minus 2%."},
+        "Revenue": {"rating": "positive", "reason": "Revenue beat expectations. Sales reached a record $2.17 billion versus approximately $2.11 billion expected."},
+        "Product / Users": {"rating": "positive", "reason": "Nvidia continued expanding its GPU platform beyond gaming into virtual reality and self-driving vehicles."},
+        "Profits and profitability": {"rating": "positive", "reason": "Earnings beat expectations. Adjusted EPS was $1.13 versus approximately $0.83 expected."},
+        "Others: eg. Covid, or macro events": {"rating": "neutral", "reason": "The stock had more than quadrupled over the preceding 12 months, but the article did not call this the cause of the decline."}
       }
     },
     "NVDA_2017q2": {
@@ -120,9 +152,9 @@
     }
   },
   "first_order": {
-    "NVDA_2016q2": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": ["Profits and profitability", "Guidance"], "djnw": null},
-    "NVDA_2016q3": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": ["Guidance", "Product / Users"], "djnw": null},
-    "NVDA_2016q4": {"contextual_analysis": ["Profits and profitability", "Guidance"], "wsj": ["Profits and profitability", "Guidance"], "djnw": null},
+    "NVDA_2016q2": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": ["Profits and profitability", "Guidance"], "djnw": ["Profits and profitability", "Guidance"]},
+    "NVDA_2016q3": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": ["Guidance", "Product / Users"], "djnw": ["Guidance", "Product / Users"]},
+    "NVDA_2016q4": {"contextual_analysis": ["Profits and profitability", "Guidance"], "wsj": ["Profits and profitability", "Guidance"], "djnw": ["Profits and profitability", "Guidance"]},
     "NVDA_2017q1": {"contextual_analysis": ["Others: eg. Covid, or macro events"], "wsj": null, "djnw": null},
     "NVDA_2017q2": {"contextual_analysis": ["Profits and profitability", "Product / Users"], "wsj": ["Product / Users"], "djnw": null},
     "NVDA_2017q3": {"contextual_analysis": ["Others: eg. Covid, or macro events", "Product / Users"], "wsj": ["Product / Users", "Others: eg. Covid, or macro events"], "djnw": ["Product / Users", "Others: eg. Covid, or macro events"]},

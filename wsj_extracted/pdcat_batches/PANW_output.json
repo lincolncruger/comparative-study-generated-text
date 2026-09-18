@@ -13,6 +13,10 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q3 revenue grew 48% to $345.8 million, billings increased 61% to $486.2 million, and non-GAAP EPS was $0.42, in line with consensus."
       },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Subscription and support revenue rose 63%, improving the recurring-revenue mix."
+      },
       "Profits and profitability": {
         "rating": "neutral",
         "reason": "Earnings matched expectations. Adjusted EPS was approximately $0.42."
@@ -40,10 +44,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The macro environment became more volatile. Management identified this as an added risk to growth."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Subscription and support revenue rose 63%, improving the recurring-revenue mix."
       }
     },
     "wsj": {
@@ -58,6 +58,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Reported revenue beat prior guidance. Sales rose 48% to $345.8 million versus the company's $335-$339 million range."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "The recurring-revenue model remained supportive. Subscription billings complemented next-generation firewall sales."
       },
       "Profits and profitability": {
         "rating": "neutral",
@@ -86,10 +90,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "The recurring-revenue model remained supportive. Subscription billings complemented next-generation firewall sales."
       }
     },
     "djnw": null
@@ -107,6 +107,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q4 revenue rose 41% to $400.8 million and non-GAAP EPS was $0.50, both around or above expectations."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -135,10 +139,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": {
@@ -153,6 +153,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Reported revenue exceeded prior guidance. Sales rose 41% to approximately $400.8 million."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -181,10 +185,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "djnw": null
@@ -202,6 +202,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue disappointed. Sales of $398.1 million fell below the midpoint of Palo Alto's prior guidance."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product momentum slowed. Product revenue grew only about 11% while recurring services expanded much faster."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -230,10 +234,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Product momentum slowed. Product revenue grew only about 11% while recurring services expanded much faster."
       }
     },
     "wsj": {
@@ -248,6 +248,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue growth decelerated. Sales rose 34%, the company's slowest rate as a public company."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Demand indicators weakened. Billings of $516.9 million missed the approximately $525 million estimate."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -276,10 +280,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Demand indicators weakened. Billings of $516.9 million missed the approximately $525 million estimate."
       }
     },
     "djnw": null
@@ -297,6 +297,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. Fiscal Q2 revenue rose 26% to $422.6 million, below PANW's own $426–$432 million guidance."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Product revenue declined year over year."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -325,10 +329,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Product revenue declined year over year."
       }
     },
     "wsj": {
@@ -343,6 +343,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue growth slowed sharply. Fiscal second-quarter sales grew 26%, the company's slowest recorded pace."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Competitive pressure increased. Analysts cited Cisco's ability to bundle security with broader networking products."
       },
       "Profits and profitability": {
         "rating": null,
@@ -371,10 +375,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. The column adds that the sell-off was reinforced the next day by multiple analyst downgrades that cited intensifying competition from Cisco Systems as a further."
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Competitive pressure increased. Analysts cited Cisco's ability to bundle security with broader networking products."
       }
     },
     "djnw": null
@@ -392,6 +392,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q3 revenue reached $431.8 million, well above guidance of $406–$416 million, and adjusted EPS was $0.61, above guidance of $0.54–$0.56."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Subscription and support revenue grew 46%."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -420,10 +424,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Subscription and support revenue grew 46%."
       }
     },
     "wsj": null,
@@ -437,6 +437,10 @@
         "reason": null
       },
       "Revenue": {
+        "rating": null,
+        "reason": null
+      },
+      "Product / Users": {
         "rating": null,
         "reason": null
       },
@@ -467,10 +471,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     }
   },
@@ -487,6 +487,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q4 revenue grew 27% to $509.1 million, nearly $22 million above consensus, and adjusted EPS was $0.92, about $0.13 above expectations."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Product revenue grew 11% and subscription/support revenue 42%."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -515,10 +519,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Product revenue grew 11% and subscription/support revenue 42%."
       }
     },
     "wsj": null,
@@ -537,6 +537,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q1 revenue rose 27% to $505.5 million, product revenue increased 14%, and subscription/support revenue grew 36%."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Fiscal Q1 revenue rose 27% to $505.5 million, product revenue increased 14%, and subscription/support revenue grew 36%."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -565,10 +569,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Fiscal Q1 revenue rose 27% to $505.5 million, product revenue increased 14%, and subscription/support revenue grew 36%."
       }
     },
     "wsj": null,
@@ -587,6 +587,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q2 revenue increased 28% to $542.4 million, product revenue grew 20%, subscription/support revenue 34%, and billings 20%."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Fiscal Q2 revenue increased 28% to $542.4 million, product revenue grew 20%, subscription/support revenue 34%, and billings 20%."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -615,10 +619,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Fiscal Q2 revenue increased 28% to $542.4 million, product revenue grew 20%, subscription/support revenue 34%, and billings 20%."
       }
     },
     "wsj": null,
@@ -637,6 +637,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. The preannounced Q3 numbers were strong: revenue rose 31% to $567.1 million, product revenue 31% to $215.2 million, and billings 33% to $721.0 million."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The preannounced Q3 numbers were strong: revenue rose 31% to $567.1 million, product revenue 31% to $215.2 million, and billings 33% to $721.0 million."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -665,10 +669,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The good news was already priced in. Strong Q3 figures were preannounced before the formal June 4 release."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. The preannounced Q3 numbers were strong: revenue rose 31% to $567.1 million, product revenue 31% to $215.2 million, and billings 33% to $721.0 million."
       }
     },
     "wsj": null,
@@ -687,6 +687,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q4 revenue increased 29% to $658.1 million, billings rose 29% to $868.1 million, and adjusted EPS reached $1.28."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Subscription and support revenue grew 32%."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -715,10 +719,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Subscription and support revenue grew 32%."
       }
     },
     "wsj": null,

@@ -24,7 +24,18 @@
         "reason": "Guidance was encouraging. Nvidia forecast $1.35 billion versus approximately $1.28 billion expected."
       }
     ],
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Profits and profitability",
+        "rating": "positive",
+        "reason": "Profitability was strong. Adjusted EPS was $0.46 versus approximately $0.32 expected."
+      },
+      {
+        "category": "Guidance",
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Nvidia forecast $1.35 billion, plus or minus 2%, versus $1.28 billion expected."
+      }
+    ]
   },
   "AAPL_2016q2": {
     "contextual_analysis": [
@@ -1034,7 +1045,18 @@
         "reason": "Product and user momentum was encouraging. Pascal GPUs and deep-learning interest supported gaming, visualization, and automotive growth."
       }
     ],
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Guidance",
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Nvidia forecast $1.68 billion, plus or minus 2%, versus $1.45 billion expected."
+      },
+      {
+        "category": "Product / Users",
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Gaming grew 18%, visualization 22%, and automotive 68% as Pascal and deep learning gained traction."
+      }
+    ]
   },
   "NVDA_2016q4": {
     "contextual_analysis": [
@@ -1061,7 +1083,18 @@
         "reason": "Guidance was encouraging. Versus the $1.69 billion analysts polled by Thomson Reuters had projected."
       }
     ],
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Profits and profitability",
+        "rating": "positive",
+        "reason": "Profitability was strong. Adjusted EPS was $0.94 versus approximately $0.56-$0.57 expected."
+      },
+      {
+        "category": "Guidance",
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Nvidia forecast $2.1 billion, plus or minus 2%, versus $1.69 billion expected."
+      }
+    ]
   },
   "NVDA_2017q1": {
     "contextual_analysis": [
@@ -1273,7 +1306,18 @@
         "reason": "Guidance was encouraging. For the current quarter, the company guided to 46 to 50 cents in adjusted earnings, well above the 36 cents analysts had anticipated."
       }
     ],
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Order book / order backlog",
+        "rating": "positive",
+        "reason": "Demand visibility was encouraging. New orders rose 37% annually and 52% sequentially to approximately $3.5 billion."
+      },
+      {
+        "category": "Guidance",
+        "rating": "positive",
+        "reason": "Guidance was encouraging. EPS of $0.46-$0.50 topped the $0.36 estimate, while projected sales of $2.84 billion beat $2.51 billion."
+      }
+    ]
   },
   "AMAT_2016q3": {
     "contextual_analysis": [
@@ -1300,7 +1344,18 @@
         "reason": "Guidance was encouraging. For the fiscal fourth quarter, the company guided to adjusted earnings of 61 to 69 cents a share, well above the 48 cents analysts surveyed by Thomson Reuters expected."
       }
     ],
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Guidance",
+        "rating": "positive",
+        "reason": "Guidance was encouraging. October-quarter adjusted EPS was forecast at $0.61-$0.69 versus $0.48 expected."
+      },
+      {
+        "category": "Order book / order backlog",
+        "rating": "positive",
+        "reason": "Demand visibility was encouraging. New orders and backlog reached all-time highs after orders had set a 15-year high one quarter earlier."
+      }
+    ]
   },
   "AMAT_2016q4": {
     "contextual_analysis": [
@@ -1322,7 +1377,13 @@
         "reason": "Demand visibility weakened. New orders were $3.03 billion versus $3.21 billion expected."
       }
     ],
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Order book / order backlog",
+        "rating": "negative",
+        "reason": "Demand visibility weakened. New orders rose 25% to $3.03 billion but fell short of the $3.21 billion estimate."
+      }
+    ]
   },
   "AMAT_2017q1": {
     "contextual_analysis": [
@@ -1396,7 +1457,12 @@
       {
         "category": "Profits and profitability",
         "rating": "positive",
-        "reason": "Profitability was strong. Dow Jones reported that the earnings release beat forecasts."
+        "reason": "Profitability was strong. EPS was $0.86 versus the $0.84 analyst estimate, while net income nearly doubled."
+      },
+      {
+        "category": "Guidance",
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Forecast EPS of $0.86-$0.94 and revenue of $3.85-$4.00 billion topped analyst estimates."
       }
     ]
   },
@@ -1414,7 +1480,18 @@
       }
     ],
     "wsj": null,
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Profits and profitability",
+        "rating": "positive",
+        "reason": "Profitability was strong. EPS was $0.93 versus the $0.91 analyst estimate."
+      },
+      {
+        "category": "Guidance",
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Forecast revenue of $4.0-$4.2 billion and EPS of $0.94-$1.02 topped expectations."
+      }
+    ]
   },
   "AMAT_2018q1": {
     "contextual_analysis": [
@@ -1430,7 +1507,18 @@
       }
     ],
     "wsj": null,
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Debt, leverage and capital raise",
+        "rating": "positive",
+        "reason": "Capital management was supportive. Applied doubled its dividend to $0.20 and added $6 billion to its buyback authorization."
+      },
+      {
+        "category": "Profits and profitability",
+        "rating": "positive",
+        "reason": "Profitability was strong. EPS reached $1.06 versus approximately $0.98-$1.03 expected, and gross margin improved."
+      }
+    ]
   },
   "AMAT_2018q2": {
     "contextual_analysis": [
@@ -1446,7 +1534,18 @@
       }
     ],
     "wsj": null,
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Guidance",
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Applied forecast a 15%-20% decline in display-business revenue during 2019."
+      },
+      {
+        "category": "Product / Users",
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Management expected display-business revenue to decline 15%-20% in 2019."
+      }
+    ]
   },
   "AMAT_2018q3": {
     "contextual_analysis": [
@@ -1462,7 +1561,13 @@
       }
     ],
     "wsj": null,
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Guidance",
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Forecast EPS of $0.92-$1.00 and revenue of $3.85-$4.15 billion trailed $1.17 and $4.46 billion expected."
+      }
+    ]
   },
   "CAT_2016q2": {
     "contextual_analysis": [
@@ -1506,7 +1611,18 @@
       }
     ],
     "wsj": null,
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Order book / order backlog",
+        "rating": "positive",
+        "reason": "Demand visibility was encouraging. Dealers reported increased inquiries for equipment-rebuild activity."
+      },
+      {
+        "category": "Revenue",
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Oil-related sales were beginning to improve year over year despite remaining near a low base."
+      }
+    ]
   },
   "CAT_2016q4": {
     "contextual_analysis": [
@@ -1533,7 +1649,18 @@
         "reason": "Revenue performance was weak. As revenue fell 16% to $9.2 billion."
       }
     ],
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Revenue",
+        "rating": "negative",
+        "reason": "Revenue performance was weak. Sales fell 16% to $9.16 billion versus the $9.87 billion analyst estimate."
+      },
+      {
+        "category": "Guidance",
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Caterpillar cut adjusted EPS to $3.25 from $3.55 and revenue to $39 billion from $40-$40.5 billion."
+      }
+    ]
   },
   "CAT_2017q1": {
     "contextual_analysis": [
@@ -1560,7 +1687,18 @@
         "reason": "Guidance was disappointing. Revenue of $9.6 billion missed the $9.8 billion analysts had forecast."
       }
     ],
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Guidance",
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Caterpillar forecast $36-$39 billion of 2017 revenue, with the midpoint below its previous indication."
+      },
+      {
+        "category": "Costs",
+        "rating": "negative",
+        "reason": "Costs were a headwind. Caterpillar expected about $500 million in 2017 costs, with some potential facility reductions excluded."
+      }
+    ]
   },
   "CAT_2017q2": {
     "contextual_analysis": [
@@ -3228,7 +3366,18 @@
         "reason": "Profitability was strong. The company reported profit of $184.5 million, or $4.71 a share, up from $134.5 million, or $3.56, a year earlier."
       }
     ],
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Product / Users",
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Procedures grew about 16% and da Vinci system shipments increased to 130 from 118."
+      },
+      {
+        "category": "Profits and profitability",
+        "rating": "positive",
+        "reason": "Profitability was strong. EPS was $5.62 versus forecasts of approximately $4.97-$4.99."
+      }
+    ]
   },
   "ISRG_2016q4": {
     "contextual_analysis": [
@@ -3266,7 +3415,18 @@
         "reason": "Revenue performance was strong. Intuitive Surgical reported a double-digit revenue increase for the fourth quarter."
       }
     ],
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Profits and profitability",
+        "rating": "positive",
+        "reason": "Profitability was strong. Reported profit rose 7% to $204 million, adjusted EPS increased to $6.09 and gross margin expanded."
+      },
+      {
+        "category": "Debt, leverage and capital raise",
+        "rating": "positive",
+        "reason": "Capital management was supportive. Intuitive entered a $2 billion accelerated share-repurchase program."
+      }
+    ]
   },
   "ISRG_2017q2": {
     "contextual_analysis": [
@@ -3352,12 +3512,34 @@
       }
     ],
     "wsj": null,
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Product / Users",
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Intuitive sold 185 da Vinci systems versus the 144 systems analysts expected."
+      },
+      {
+        "category": "Revenue",
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Sales grew 25% to $848 million versus the $777 million analyst estimate."
+      }
+    ]
   },
   "ISRG_2018q3": {
     "contextual_analysis": null,
     "wsj": null,
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Profits and profitability",
+        "rating": "positive",
+        "reason": "Profitability was strong. EPS was $2.76 versus the $2.50 FactSet estimate."
+      },
+      {
+        "category": "Revenue",
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Sales were $909.3 million versus the $876 million FactSet estimate."
+      }
+    ]
   },
   "KLAC_2016q2": {
     "contextual_analysis": null,
@@ -3418,7 +3600,18 @@
       }
     ],
     "wsj": null,
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Revenue",
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Quarterly sales reached a record $1.07 billion versus the $1.05 billion analyst estimate."
+      },
+      {
+        "category": "Profits and profitability",
+        "rating": "positive",
+        "reason": "Profitability was strong. Adjusted EPS reached a record $2.22 versus the $2.13 analyst estimate."
+      }
+    ]
   },
   "LLY_2016q2": {
     "contextual_analysis": [
@@ -4573,7 +4766,18 @@
       }
     ],
     "wsj": null,
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Profits and profitability",
+        "rating": "positive",
+        "reason": "Profitability was strong. The roundup says Newmont exceeded Wall Street's operating-profit targets."
+      },
+      {
+        "category": "Others: eg. Covid, or macro events",
+        "rating": "positive",
+        "reason": "The broader backdrop was supportive. Rising gold prices strengthened Newmont's outlook despite a broader materials-sector decline."
+      }
+    ]
   },
   "NEM_2016q3": {
     "contextual_analysis": [
@@ -4589,7 +4793,13 @@
       }
     ],
     "wsj": null,
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Profits and profitability",
+        "rating": "positive",
+        "reason": "Profitability was strong. EPS was $0.44 versus estimates of approximately $0.28-$0.29."
+      }
+    ]
   },
   "NEM_2016q4": {
     "contextual_analysis": [
@@ -4648,7 +4858,18 @@
       }
     ],
     "wsj": null,
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Revenue",
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Sales were $1.88 billion versus the $1.77 billion analyst forecast."
+      },
+      {
+        "category": "Costs",
+        "rating": "positive",
+        "reason": "Cost execution was favorable. Better costs helped drive the earnings beat, and full-year cost guidance was reduced."
+      }
+    ]
   },
   "NEM_2017q4": {
     "contextual_analysis": null,
@@ -5088,7 +5309,18 @@
       }
     ],
     "wsj": null,
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Product / Users",
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Shipments fell 2%, with declines across nearly all of P&G's businesses."
+      },
+      {
+        "category": "Guidance",
+        "rating": "negative",
+        "reason": "Guidance was disappointing. P&G forecast a 3%-6% decline in full-year core earnings from the prior year."
+      }
+    ]
   },
   "PG_2016q3": {
     "contextual_analysis": [
@@ -5169,7 +5401,18 @@
         "reason": "Guidance was encouraging. P&G posted better-than-expected organic sales growth of 2% for its fiscal second quarter and raised its full-year organic sales guidance to 2%-3% from a prior 2% forecast."
       }
     ],
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Guidance",
+        "rating": "positive",
+        "reason": "Guidance was encouraging. P&G raised expected full-year organic growth to 2%-3% from its previous 2% target."
+      },
+      {
+        "category": "Revenue",
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Organic sales grew 2%, while reported revenue of $16.86 billion exceeded the $16.77 billion estimate."
+      }
+    ]
   },
   "PG_2017q2": {
     "contextual_analysis": [
@@ -5326,7 +5569,18 @@
         "reason": "Profitability was weak. EPS was $0.98 versus approximately $1.11 expected."
       }
     ],
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Profits and profitability",
+        "rating": "negative",
+        "reason": "Profitability was weak. EPS was $0.98 versus the $1.11 analyst forecast, while profit declined to $1.53 billion."
+      },
+      {
+        "category": "Revenue",
+        "rating": "negative",
+        "reason": "Revenue performance was weak. Sales excluding excise taxes were $6.08 billion versus the $6.34 billion analyst forecast."
+      }
+    ]
   },
   "PM_2016q3": {
     "contextual_analysis": [
@@ -5416,7 +5670,7 @@
       {
         "category": "Profits and profitability",
         "rating": "negative",
-        "reason": "Profitability was weak. Dow Jones cited the profit disappointment as the reason shares declined."
+        "reason": "Profitability was weak. Adjusted EPS was $0.98 versus the $1.03 forecast."
       }
     ]
   },
@@ -5461,7 +5715,18 @@
       }
     ],
     "wsj": null,
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Guidance",
+        "rating": "negative",
+        "reason": "Guidance was disappointing. Full-year EPS of $4.75-$4.80 trailed the $4.84 consensus."
+      },
+      {
+        "category": "Revenue",
+        "rating": "negative",
+        "reason": "Revenue performance was weak. Sales were $7.5 billion versus the $7.7 billion analyst forecast."
+      }
+    ]
   },
   "PM_2018q1": {
     "contextual_analysis": [
@@ -5802,7 +6067,18 @@
         "reason": "Guidance was encouraging. TJX raised full-year EPS and comparable-sales forecasts after the beat."
       }
     ],
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Revenue",
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Revenue was approximately $7.5 billion versus the $7.3 billion analyst forecast."
+      },
+      {
+        "category": "Profits and profitability",
+        "rating": "positive",
+        "reason": "Profitability was strong. EPS was $0.76 versus the $0.71 forecast, supported by sales and gross-margin upside."
+      }
+    ]
   },
   "TJX_2016q3": {
     "contextual_analysis": [
@@ -5861,7 +6137,18 @@
       }
     ],
     "wsj": null,
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Guidance",
+        "rating": "negative",
+        "reason": "Guidance was disappointing. First-quarter EPS of $0.76-$0.78 was below the $0.81 consensus."
+      },
+      {
+        "category": "Profits and profitability",
+        "rating": "positive",
+        "reason": "Profitability was strong. EPS was $1.03 versus the $1.00 analyst estimate, supported by comparable sales and merchandise margin."
+      }
+    ]
   },
   "TJX_2017q2": {
     "contextual_analysis": [
@@ -5975,7 +6262,18 @@
       }
     ],
     "wsj": null,
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Guidance",
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Full-year EPS of $4.73-$4.83 was well above the $4.64 consensus."
+      },
+      {
+        "category": "Profits and profitability",
+        "rating": "positive",
+        "reason": "Profitability was strong. EPS was $1.30 versus the $1.27 analyst estimate."
+      }
+    ]
   },
   "TJX_2018q2": {
     "contextual_analysis": [
@@ -5991,7 +6289,18 @@
       }
     ],
     "wsj": null,
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Revenue",
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Sales rose 12% to approximately $8.7 billion versus the $8.5 billion consensus."
+      },
+      {
+        "category": "Product / Users",
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Comparable sales increased 3% versus the 2.5% analyst estimate."
+      }
+    ]
   },
   "TJX_2018q3": {
     "contextual_analysis": [
@@ -6007,7 +6316,18 @@
       }
     ],
     "wsj": null,
-    "djnw": null
+    "djnw": [
+      {
+        "category": "Revenue",
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Sales were $9.33 billion versus the $8.99 billion FactSet consensus."
+      },
+      {
+        "category": "Product / Users",
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Comparable sales rose 6% versus 2.1% expected, driven by traffic across every division."
+      }
+    ]
   },
   "TSLA_2016q2": {
     "contextual_analysis": [
@@ -6270,23 +6590,17 @@
     "djnw": null
   },
   "TXN_2016q2": {
-    "contextual_analysis": [
-      {
-        "category": "Profits and profitability",
-        "rating": "negative",
-        "reason": "Profitability was weak. TI reported $3.01 billion of revenue, down 5% year over year, and $0.65 of EPS."
-      },
-      {
-        "category": "Revenue",
-        "rating": "negative",
-        "reason": "Revenue performance was weak. TI reported $3.01 billion of revenue, down 5% year over year, and $0.65 of EPS."
-      }
-    ],
+    "contextual_analysis": null,
     "wsj": [
       {
-        "category": "Product / Users",
+        "category": "Profits and profitability",
         "rating": "positive",
-        "reason": "Product and user momentum was encouraging. The latter used in products ranging from electric toothbrushes to driver-assistance systems."
+        "reason": "Profitability was strong. EPS rose to $0.65 and gross margin increased to 60.6%."
+      },
+      {
+        "category": "Guidance",
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Second-quarter guidance was slightly above consensus at its midpoint for both revenue and EPS."
       }
     ],
     "djnw": null
@@ -6294,14 +6608,14 @@
   "TXN_2016q3": {
     "contextual_analysis": [
       {
-        "category": "Profits and profitability",
-        "rating": "positive",
-        "reason": "Profitability was strong. Q2 revenue rose to $3.27 billion and EPS reached $0.76, above consensus near $3.20 billion and $0.72."
-      },
-      {
         "category": "Revenue",
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 revenue rose to $3.27 billion and EPS reached $0.76, above consensus near $3.20 billion and $0.72."
+      },
+      {
+        "category": "Guidance",
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Revenue and EPS both landed in the upper half of TI’s own guidance."
       }
     ],
     "wsj": [
@@ -6319,72 +6633,28 @@
     "djnw": null
   },
   "TXN_2016q4": {
-    "contextual_analysis": [
-      {
-        "category": "Guidance",
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Q4 revenue guidance of $3.17–$3.43 billion and EPS guidance of $0.76–$0.86 were broadly in line with expectations."
-      },
-      {
-        "category": "Revenue",
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Q3 revenue reached $3.68 billion and EPS $0.94, both above consensus and slightly above TI’s expected range."
-      }
-    ],
-    "wsj": [
-      {
-        "category": "Guidance",
-        "rating": "positive",
-        "reason": "Guidance was encouraging. The article reports that Texas Instruments' profit jumped 21% in the third quarter as continued strong demand in the automotive and industrial sectors helped the company."
-      },
-      {
-        "category": "Debt, leverage and capital raise",
-        "rating": "positive",
-        "reason": "Capital management was supportive. It also issued current-quarter guidance in line with analyst estimates and raised its quarterly dividend 32% to 50 cents a share, or $2 a year."
-      }
-    ],
+    "contextual_analysis": null,
+    "wsj": null,
     "djnw": null
   },
   "TXN_2017q1": {
     "contextual_analysis": [
       {
-        "category": "Profits and profitability",
-        "rating": "positive",
-        "reason": "Profitability was strong. EPS included a $0.14 benefit from items outside the original guidance."
-      },
-      {
         "category": "Revenue",
         "rating": "positive",
         "reason": "Revenue performance was strong. Q4 revenue increased 7% to $3.41 billion."
-      }
-    ],
-    "wsj": [
-      {
-        "category": "Revenue",
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Revenue guidance of $3.17 billion to $3.43 billion bracketing the analyst consensus of $3.21 billion."
       },
       {
-        "category": "Profits and profitability",
+        "category": "Product / Users",
         "rating": "positive",
-        "reason": "Profitability was strong. The article reports that Texas Instruments' profit rose 26% in the fourth quarter as continued strength in the automotive market drove top-line improvement."
+        "reason": "Product and user momentum was encouraging. Analog and Embedded Processing grew as industrial joined automotive strength."
       }
     ],
+    "wsj": null,
     "djnw": null
   },
   "TXN_2017q2": {
-    "contextual_analysis": [
-      {
-        "category": "Revenue",
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Q1 revenue rose 13% to $3.40 billion, the company’s first quarter of double-digit revenue growth since 2010."
-      },
-      {
-        "category": "Profits and profitability",
-        "rating": "positive",
-        "reason": "Profitability was strong. EPS was $0.97, including an $0.08 discrete tax benefit."
-      }
-    ],
+    "contextual_analysis": null,
     "wsj": null,
     "djnw": null
   },
@@ -6396,27 +6666,16 @@
         "reason": "Guidance was encouraging. TI guided Q3 revenue to $3.74–$4.06 billion and EPS to $1.04–$1.18."
       },
       {
-        "category": "Profits and profitability",
+        "category": "Product / Users",
         "rating": "positive",
-        "reason": "Profitability was strong. Q2 revenue increased 13% to $3.69 billion and EPS rose to $1.03."
+        "reason": "Product and user momentum was encouraging. Analog and Embedded Processing grew 18% and 15%, respectively."
       }
     ],
     "wsj": null,
     "djnw": null
   },
   "TXN_2017q4": {
-    "contextual_analysis": [
-      {
-        "category": "Profits and profitability",
-        "rating": "positive",
-        "reason": "Profitability was strong. Q3 revenue reached $4.12 billion, up 12%, and EPS was $1.26, both comfortably above consensus."
-      },
-      {
-        "category": "Revenue",
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Q3 revenue reached $4.12 billion, up 12%, and EPS was $1.26, both comfortably above consensus."
-      }
-    ],
+    "contextual_analysis": null,
     "wsj": null,
     "djnw": null
   },
@@ -6424,26 +6683,16 @@
     "contextual_analysis": [
       {
         "category": "Guidance",
-        "rating": "positive",
-        "reason": "Guidance was encouraging. The key negative was the Q1 revenue outlook, which the market viewed as modest relative to expectations."
-      },
-      {
-        "category": "Revenue",
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Q4 revenue increased 10% to $3.75 billion."
+        "rating": "negative",
+        "reason": "Guidance was disappointing. First-quarter revenue guidance disappointed investors despite remaining near sell-side consensus."
       }
     ],
     "wsj": null,
     "djnw": [
       {
-        "category": "Revenue",
-        "rating": "negative",
-        "reason": "Revenue performance was weak. The article reports that Texas Instruments posted fourth-quarter revenue growth alongside a significant tax-related charge that hurt short-term profitability."
-      },
-      {
         "category": "Profits and profitability",
         "rating": "negative",
-        "reason": "Profitability was weak. The article reports that Texas Instruments posted fourth-quarter revenue growth alongside a significant tax-related charge that hurt short-term profitability."
+        "reason": "Profitability was weak. A $730 million tax charge reduced reported profit to $344 million and EPS to $0.34."
       }
     ]
   },
@@ -6455,9 +6704,9 @@
         "reason": "Guidance was encouraging. The most important information was the Q2 outlook: revenue of $3.78–$4.10 billion and EPS of $1.19–$1.39 were better than feared."
       },
       {
-        "category": "Revenue",
+        "category": "Product / Users",
         "rating": "positive",
-        "reason": "Revenue performance was strong. Q1 revenue increased 11% to $3.79 billion."
+        "reason": "Product and user momentum was encouraging. Industrial and automotive demand remained broad and resilient across Analog and Embedded Processing."
       }
     ],
     "wsj": null,
@@ -6466,21 +6715,21 @@
   "TXN_2018q3": {
     "contextual_analysis": [
       {
-        "category": "Guidance",
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Management guided Q3 revenue and EPS roughly in line with expectations."
+        "category": "Management",
+        "rating": "negative",
+        "reason": "Management struck a cautious tone. CEO succession became a governance concern after Brian Crutcher abruptly resigned over conduct violations."
       },
       {
-        "category": "Profits and profitability",
-        "rating": "positive",
-        "reason": "Profitability was strong. Q2 revenue increased 9% to $4.02 billion and EPS reached $1.40, including a $0.03 discrete tax benefit."
+        "category": "Others: eg. Covid, or macro events",
+        "rating": "negative",
+        "reason": "The broader backdrop was challenging. Most quarterly figures had already been disclosed with the CEO change, leaving little incremental upside."
       }
     ],
     "wsj": [
       {
-        "category": "Guidance",
-        "rating": "positive",
-        "reason": "Guidance was encouraging. TI guided to profit of $1.41 to $1.63 a share on revenue of $4.11 billion to $4.45 billion."
+        "category": "Others: eg. Covid, or macro events",
+        "rating": "neutral",
+        "reason": "The broader backdrop was supportive. The results were largely preannounced with the CEO transition, limiting the amount of new information."
       }
     ],
     "djnw": null
@@ -6500,14 +6749,14 @@
     ],
     "wsj": [
       {
-        "category": "Guidance",
-        "rating": "positive",
-        "reason": "Guidance was encouraging. That beat both the company's own guidance range of 80-95 cents and the 88 cents analysts had projected."
-      },
-      {
         "category": "Revenue",
         "rating": "positive",
         "reason": "Revenue performance was strong. Walmart's first-quarter fiscal 2017 report, published May 19, 2016, showed an unexpected nearly 1% increase in revenue."
+      },
+      {
+        "category": "Profits and profitability",
+        "rating": "positive",
+        "reason": "Profitability was strong. EPS was $0.98 versus approximately $0.88 expected and above company guidance."
       }
     ],
     "djnw": null
@@ -6515,33 +6764,38 @@
   "WMT_2016q3": {
     "contextual_analysis": [
       {
-        "category": "Profits and profitability",
+        "category": "Product / Users",
         "rating": "positive",
-        "reason": "Profitability was strong. GAAP EPS reached $1.21 and adjusted EPS $1.07."
+        "reason": "Product and user momentum was encouraging. U.S. comps beat expectations, traffic rose, and e-commerce growth accelerated to 11.8%."
       },
       {
-        "category": "Revenue",
+        "category": "Guidance",
         "rating": "positive",
-        "reason": "Revenue performance was strong. Q2 revenue was about $120.9 billion."
+        "reason": "Guidance was encouraging. Full-year adjusted EPS guidance increased to $4.15-$4.35 from $4.00-$4.30."
       }
     ],
     "wsj": [
       {
-        "category": "Costs",
-        "rating": "negative",
-        "reason": "Costs were a headwind. Suggesting the reaction reflected optimism about top-line momentum tempered by an acknowledged profitability cost."
+        "category": "Profits and profitability",
+        "rating": "positive",
+        "reason": "Profitability was strong. GAAP profit rose 8.6% to $3.77 billion, or $1.21 a share, from $3.48 billion, or $1.08, a year earlier, and revenue edged up 0.5% to $120.85 billion."
+      },
+      {
+        "category": "Guidance",
+        "rating": "positive",
+        "reason": "Guidance was encouraging. Walmart raised its full-year profit outlook and guided next-quarter same-store sales to 1%-1.5% growth, down from the 1.6% just reported."
       }
     ],
     "djnw": [
       {
+        "category": "Product / Users",
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. U.S. comps beat guidance, traffic rose 1.2%, and e-commerce growth accelerated to 11.8%."
+      },
+      {
         "category": "Guidance",
         "rating": "positive",
         "reason": "Guidance was encouraging. U.S. same-store sales rose 1.6%, ahead of guidance for 1% growth."
-      },
-      {
-        "category": "Profits and profitability",
-        "rating": "positive",
-        "reason": "Profitability was strong. Walmart reported second-quarter profit of $1.21 per share, up from $1.08 a year earlier."
       }
     ]
   },
@@ -6549,20 +6803,25 @@
     "contextual_analysis": [
       {
         "category": "Revenue",
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Q3 revenue increased only 0.7% to $118.2 billion, and EPS was $0.98."
+        "rating": "negative",
+        "reason": "Revenue performance was weak. Sales reached $118.2 billion and U.S."
       },
       {
-        "category": "Profits and profitability",
-        "rating": "positive",
-        "reason": "Profitability was strong. Q3 revenue increased only 0.7% to $118.2 billion, and EPS was $0.98."
+        "category": "Product / Users",
+        "rating": "neutral",
+        "reason": "Product and user momentum was encouraging. U.S. comp and traffic growth slowed, while e-commerce accelerated to 20.6%."
       }
     ],
     "wsj": [
       {
-        "category": "Others: eg. Covid, or macro events",
+        "category": "Revenue",
         "rating": "negative",
-        "reason": "The broader backdrop was challenging. The strong dollar's continued drag on overseas revenue, mentioned by executives on the earnings call, compounded the disappointment."
+        "reason": "Revenue performance was weak. Sales were $118.2 billion versus approximately $118.69 billion expected."
+      },
+      {
+        "category": "Product / Users",
+        "rating": "neutral",
+        "reason": "Product and user momentum was encouraging. Comp and traffic growth slowed, while e-commerce sales increased 21%."
       }
     ],
     "djnw": [
@@ -6572,30 +6831,30 @@
         "reason": "Revenue performance was weak. On revenue that grew modestly to $118.2 billion but fell short of the $118.69 billion analysts expected."
       },
       {
-        "category": "Profits and profitability",
-        "rating": "negative",
-        "reason": "Profitability was weak. Walmart reported quarterly profit of $3.03 billion."
+        "category": "Product / Users",
+        "rating": "neutral",
+        "reason": "Product and user momentum was encouraging. Traffic decelerated while e-commerce grew 21%."
       }
     ]
   },
   "WMT_2017q1": {
     "contextual_analysis": [
       {
+        "category": "Product / Users",
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Comps rose 1.8%, traffic increased 1.4%, and e-commerce expanded strongly."
+      },
+      {
         "category": "Profits and profitability",
         "rating": "positive",
         "reason": "Profitability was strong. Q4 adjusted EPS was $1.30, slightly above consensus, and total revenue reached $130.9 billion."
-      },
-      {
-        "category": "Revenue",
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Q4 adjusted EPS was $1.30, slightly above consensus, and total revenue reached $130.9 billion."
       }
     ],
     "wsj": [
       {
-        "category": "Guidance",
+        "category": "Product / Users",
         "rating": "positive",
-        "reason": "Guidance was encouraging. For the new fiscal year, Walmart guided to $4.20-$4.40 adjusted EPS, in line with prior statements of flat earnings, versus the $4.33 analysts had expected."
+        "reason": "Product and user momentum was encouraging. U.S. comps rose 1.8%, led by health, apparel, and positive traffic."
       }
     ],
     "djnw": null
@@ -6603,64 +6862,49 @@
   "WMT_2017q2": {
     "contextual_analysis": [
       {
-        "category": "Revenue",
+        "category": "Product / Users",
         "rating": "positive",
-        "reason": "Revenue performance was strong. Q1 FY18 revenue rose 1.4% to $117.5 billion and EPS increased to $1.00."
-      },
-      {
-        "category": "Profits and profitability",
-        "rating": "positive",
-        "reason": "Profitability was strong. Q1 FY18 revenue rose 1.4% to $117.5 billion and EPS increased to $1.00."
+        "reason": "Product and user momentum was encouraging. E-commerce surged 63%, U.S."
       }
     ],
     "wsj": [
       {
-        "category": "Profits and profitability",
+        "category": "Product / Users",
         "rating": "positive",
-        "reason": "Profitability was strong. GAAP profit rose to $3.04 billion."
+        "reason": "Product and user momentum was encouraging. E-commerce grew 63%, while U.S."
       },
       {
-        "category": "Revenue",
+        "category": "Costs",
         "rating": "positive",
-        "reason": "Revenue performance was strong. Same-store sales up 1.4% for an 11th consecutive quarterly increase."
+        "reason": "Cost execution was favorable. Margins held steady despite continued investment in employees, technology, prices, and e-commerce."
       }
     ],
     "djnw": [
       {
-        "category": "Revenue",
+        "category": "Product / Users",
         "rating": "positive",
-        "reason": "Revenue performance was strong. Walmart reported U.S. same-store sales growth of 1.4% for the first quarter, its 11th consecutive quarterly gain."
-      },
-      {
-        "category": "Profits and profitability",
-        "rating": "positive",
-        "reason": "Profitability was strong. Earnings reached $1.00 per share, up from 98 cents a year earlier and the first quarterly EPS increase in more than two years."
+        "reason": "Product and user momentum was encouraging. E-commerce grew 63% and traffic rose 1.5%."
       }
     ]
   },
   "WMT_2017q3": {
     "contextual_analysis": [
       {
-        "category": "Profits and profitability",
-        "rating": "positive",
-        "reason": "Profitability was strong. Adjusted EPS of $1.08 beat by about one cent."
+        "category": "Costs",
+        "rating": "negative",
+        "reason": "Costs were a headwind. Margins weakened as price investment, e-commerce spending, and operating expenses increased."
       },
       {
-        "category": "Revenue",
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Q2 revenue increased 2.1% to $123.4 billion, ahead of consensus."
+        "category": "Guidance",
+        "rating": "neutral",
+        "reason": "Guidance was encouraging. Full-year guidance increased modestly, while the upcoming-quarter EPS outlook was less impressive."
       }
     ],
     "wsj": [
       {
         "category": "Costs",
-        "rating": "positive",
-        "reason": "Cost execution was favorable. CFO Biggs acknowledged the company is not where it wants to be on expenses."
-      },
-      {
-        "category": "Revenue",
-        "rating": "positive",
-        "reason": "Revenue performance was strong. Same-store sales up 1.8% for a 12th consecutive quarterly increase."
+        "rating": "negative",
+        "reason": "Costs were a headwind. U.S. gross margin declined and operating expenses increased 3.9%."
       }
     ],
     "djnw": [
@@ -6668,11 +6912,6 @@
         "category": "Costs",
         "rating": "negative",
         "reason": "Costs were a headwind. Gross margins fell and operating expenses rose 3.9% as the company continued lowering prices and investing in stores and digital initiatives."
-      },
-      {
-        "category": "Profits and profitability",
-        "rating": "negative",
-        "reason": "Profitability was weak. Walmart reported quarterly earnings of $2.9 billion, or $0.96 per share, down from $3.77 billion, or $1.21 per share, a year earlier."
       }
     ]
   },
@@ -6684,9 +6923,9 @@
         "reason": "Revenue performance was strong. Walmart delivered $123.2 billion of revenue, up 4.2%, and adjusted EPS of $1.00."
       },
       {
-        "category": "Profits and profitability",
+        "category": "Product / Users",
         "rating": "positive",
-        "reason": "Profitability was strong. Walmart delivered $123.2 billion of revenue, up 4.2%, and adjusted EPS of $1.00."
+        "reason": "Product and user momentum was encouraging. U.S. comps reached an eight-year high, traffic increased, and e-commerce grew 50%."
       }
     ],
     "wsj": [
@@ -6696,42 +6935,47 @@
         "reason": "Revenue performance was strong. Same-store-sales growth in nearly a decade: sales excluding fuel rose 2.7% for a 13th consecutive quarterly increase."
       },
       {
-        "category": "Others: eg. Covid, or macro events",
+        "category": "Product / Users",
         "rating": "positive",
-        "reason": "The broader backdrop was supportive. Walmart projected full-year global e-commerce sales of $17.5 billion against nearly half a trillion dollars in total annual revenue."
+        "reason": "Product and user momentum was encouraging. U.S. comps beat expectations at 2.7% and e-commerce grew 50%."
       }
     ],
     "djnw": [
       {
-        "category": "Revenue",
+        "category": "Profits and profitability",
         "rating": "positive",
-        "reason": "Revenue performance was strong. The piece frames Walmart's strength as reflecting its success combining traditional in-store sales with digital commerce capabilities."
+        "reason": "Profitability was strong. Dow Jones directly linked the stronger report to the stock's gain."
+      },
+      {
+        "category": "Product / Users",
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Store and digital strength showed Walmart was combining physical retail with growing e-commerce capabilities."
       }
     ]
   },
   "WMT_2018q1": {
     "contextual_analysis": [
       {
+        "category": "Product / Users",
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. E-commerce growth collapsed to 23% from 50%, overwhelming continued strength in U.S."
+      },
+      {
         "category": "Profits and profitability",
         "rating": "negative",
         "reason": "Profitability was weak. Adjusted EPS also came in below market expectations."
-      },
-      {
-        "category": "Revenue",
-        "rating": "negative",
-        "reason": "Revenue performance was weak. The problem was e-commerce: U.S. online sales growth slowed abruptly to 23% from 50% in Q3."
       }
     ],
     "wsj": [
       {
-        "category": "Costs",
+        "category": "Product / Users",
         "rating": "negative",
-        "reason": "Costs were a headwind. Driven partly by a smaller tax-law benefit than hoped and partly by one-time Sam's Club closure costs."
+        "reason": "Product and user momentum weakened. E-commerce growth slowed to 23% from above 50% as warehouse inventory mistakes caused basic products to run out."
       },
       {
-        "category": "Guidance",
+        "category": "Profits and profitability",
         "rating": "negative",
-        "reason": "Guidance was disappointing. Full-year EPS guidance of $4.75-$5.00 was described as lower than some had anticipated."
+        "reason": "Profitability was weak. Earnings were $1.33 versus approximately $1.37 expected."
       }
     ],
     "djnw": null
@@ -6746,14 +6990,9 @@
     ],
     "wsj": [
       {
-        "category": "Profits and profitability",
+        "category": "Debt, leverage and capital raise",
         "rating": "negative",
-        "reason": "Profitability was weak. Management said would reduce full-year EPS by 25-30 cents this year and by 60 cents the following year to keep funding Flipkart's growth."
-      },
-      {
-        "category": "Management",
-        "rating": "negative",
-        "reason": "Management struck a cautious tone. Management said would reduce full-year EPS by 25-30 cents this year and by 60 cents the following year to keep funding Flipkart's growth."
+        "reason": "The capital position was a concern. Walmart committed $16 billion to acquire control of Flipkart despite substantial near-term losses."
       }
     ],
     "djnw": null
@@ -6761,9 +7000,9 @@
   "WMT_2018q3": {
     "contextual_analysis": [
       {
-        "category": "Revenue",
+        "category": "Product / Users",
         "rating": "positive",
-        "reason": "Revenue performance was strong. Q2 revenue increased 3.8% to $128.0 billion, above expectations."
+        "reason": "Product and user momentum was encouraging. U.S. comps reached a decade high at 4.5% and e-commerce grew 40%."
       },
       {
         "category": "Profits and profitability",
@@ -6773,16 +7012,32 @@
     ],
     "wsj": [
       {
-        "category": "Costs",
-        "rating": "negative",
-        "reason": "Costs were a headwind. Including rising prices potentially cutting into profits and Flipkart-related expenses."
+        "category": "Product / Users",
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. U.S. comps rose 4.5% versus approximately 2.4% expected and e-commerce grew 40%."
       },
       {
         "category": "Revenue",
-        "rating": "negative",
-        "reason": "Revenue performance was weak. This Heard on the Street column on Walmart's second-quarter fiscal 2019 report."
+        "rating": "positive",
+        "reason": "Revenue performance was strong. Sales were $128 billion versus approximately $126 billion expected."
       }
     ],
     "djnw": null
+  },
+  "ACCO_2019q3": {
+    "contextual_analysis": null,
+    "wsj": null,
+    "djnw": [
+      {
+        "category": "Profits and profitability",
+        "rating": "positive",
+        "reason": "Profitability was strong. EPS was $0.36 versus the $0.32 FactSet consensus."
+      },
+      {
+        "category": "Guidance",
+        "rating": "positive",
+        "reason": "Guidance was encouraging. ACCO now expects flat 2019 sales versus flat to down 3%, and raised the EPS range floor to $1.15 from $1.10."
+      }
+    ]
   }
 }

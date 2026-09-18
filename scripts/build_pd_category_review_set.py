@@ -563,6 +563,12 @@ def make_output_concise(output):
                 continue
             for category, cell in source_data.items():
                 cell["reason"] = concise_reason(cell.get("reason"), category, cell.get("rating"))
+            # Legacy migrated records can place Product / Users at the end.
+            # Rebuild every coverage in the canonical comparative-display order.
+            entry[source] = {
+                category: source_data.get(category, {"rating": None, "reason": None})
+                for category in CATEGORIES
+            }
     return output
 
 
@@ -713,6 +719,11 @@ def load_reviewed_ticker(ticker, generated):
                 if category_overrides is None:
                     expanded[key][source] = None
                     continue
+                if expanded[key].get(source) is None:
+                    expanded[key][source] = {
+                        category: {"rating": None, "reason": None}
+                        for category in CATEGORIES
+                    }
                 for category, cell in category_overrides.items():
                     expanded[key][source][category] = cell
         return expanded

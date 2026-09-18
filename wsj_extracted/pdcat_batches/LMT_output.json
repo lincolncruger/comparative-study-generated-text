@@ -13,6 +13,10 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Q1 sales increased 16% to $11.7 billion, comfortably above expectations around $11.4 billion."
       },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Program demand supported growth. F-35 and Sikorsky sales expanded the revenue base despite temporary margin dilution."
+      },
       "Profits and profitability": {
         "rating": "negative",
         "reason": "Profitability was weak. EPS of $2.58 was only a penny below consensus."
@@ -40,10 +44,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Program demand supported growth. F-35 and Sikorsky sales expanded the revenue base despite temporary margin dilution."
       }
     },
     "wsj": {
@@ -58,6 +58,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Lockheed Martin lifted its full-year earnings forecast as the company benefited from sales of its F-35 jet fighter and its recently acquired Sikorsky helicopter unit."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Program sales were strong. F-35 and Sikorsky demand supported the beat and raised outlook."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -86,10 +90,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Program sales were strong. F-35 and Sikorsky demand supported the beat and raised outlook."
       }
     },
     "djnw": null
@@ -107,6 +107,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 sales reached $12.9 billion and EPS $3.32, beating expectations of roughly $12.55 billion and $2.93."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. F-35 production was becoming a larger growth engine."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -135,10 +139,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. F-35 production was becoming a larger growth engine."
       }
     },
     "wsj": {
@@ -153,6 +153,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue beat expectations. Sales reached $12.9 billion versus roughly $12.55 billion expected."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -181,10 +185,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "djnw": null
@@ -202,6 +202,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q3 continuing-operations sales rose 15% to $11.6 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -230,10 +234,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": {
@@ -248,6 +248,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue beat expectations. Strong sales accompanied the large earnings beat and constructive outlook."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. CFO Bruce Tanner said the company wouldn't catch up on production-line fixes until well into the next year."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -276,10 +280,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. CFO Bruce Tanner said the company wouldn't catch up on production-line fixes until well into the next year."
       }
     },
     "djnw": null
@@ -297,6 +297,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q4 sales were $13.8 billion and EPS $3.25, both above consensus."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -325,10 +329,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": {
@@ -343,6 +343,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. On revenue up 19% to $13.75 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -371,10 +375,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "djnw": null
@@ -392,6 +392,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue was slightly below expectations. Higher F-35 volume did not prevent a modest top-line shortfall."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. F-35 production was expanding rapidly."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -420,10 +424,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. F-35 production was expanding rapidly."
       }
     },
     "wsj": {
@@ -438,6 +438,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Lockheed generated 27% of last year's revenue overseas and is targeting a 30% share through prospective sales such as F-16 jets to Bahrain and India."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -466,10 +470,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "djnw": {
@@ -484,6 +484,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue rose 6.6% to $11.1 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -512,10 +516,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     }
   },
@@ -532,6 +532,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 sales reached $12.7 billion and EPS $3.23, both above consensus."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -560,10 +564,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The slight negative close lacked a verified operating cause. The beat-and-raise reversed after reaching a record intraday high."
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": {
@@ -578,6 +578,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue beat expectations. The reported quarter exceeded Wall Street estimates."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Annual production expected to rise from 66 planes in 2017 to around 150 in coming years."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -606,10 +610,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Annual production expected to rise from 66 planes in 2017 to around 150 in coming years."
       }
     },
     "djnw": {
@@ -624,6 +624,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Lockheed's new guidance called for net sales of $49.8 billion to $51 billion, up from a prior range of $49.5 billion to $50.7 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -652,10 +656,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     }
   },
@@ -672,6 +672,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue missed expectations. Sales were $12.2 billion versus roughly $12.8 billion expected."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -700,10 +704,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": {
@@ -718,6 +718,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue missed expectations. The sales shortfall accompanied a small EPS miss."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -746,10 +750,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "djnw": {
@@ -764,6 +764,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. Per-share earnings of $3.24 -- two cents below the analyst consensus tracked by Thomson Reuters -- on revenue up 5% to $12.2 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -792,10 +796,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     }
   },
@@ -812,6 +812,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q4 sales increased to $15.1 billion and adjusted EPS, excluding the one-time tax-reform charge, was $4.30."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -840,10 +844,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": null,
@@ -859,6 +859,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Quarterly sales rose 10% to $15.1 billion, full-year adjusted revenue approached $50 billion, and 2018 guidance was set as high as $51.5 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -887,10 +891,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     }
   },
@@ -907,6 +907,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q1 sales rose 4% to $11.6 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -935,10 +939,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "Cash conversion disappointed. Annual cash-flow guidance was unchanged despite large increases in EPS and other metrics."
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": {
@@ -953,6 +953,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Full-year sales guidance was raised to $50.35 billion-$51.85 billion and per-share earnings guidance to $15.80-$16.10."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. CEO Marillyn Hewson said, \"It's not affecting production,\" and reiterated the company still expects to deliver 90 planes this year."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -981,10 +985,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "Cash flow disappointed. The unchanged annual cash target reduced the value of the earnings beat."
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. CEO Marillyn Hewson said, \"It's not affecting production,\" and reiterated the company still expects to deliver 90 planes this year."
       }
     },
     "djnw": null
@@ -1002,6 +1002,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 sales increased 6% to $13.4 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. F-35 production volume continued to drive Aeronautics growth."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1030,10 +1034,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. F-35 production volume continued to drive Aeronautics growth."
       }
     },
     "wsj": {
@@ -1048,6 +1048,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Driven by overseas sales and higher Pentagon spending as Congress boosted defense budgets above White House requests to address threats including North Korea."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1076,10 +1080,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Lockheed Martin said it expects to end the year with a record order backlog of more than $110 billion."
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "djnw": null

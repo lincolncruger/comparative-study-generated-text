@@ -13,6 +13,10 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Lilly reported $4.87 billion of revenue, up 5% year over year, and non-GAAP EPS of $0.83."
       },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. New products generated about $325 million of revenue and were the main source of volume growth, led by diabetes products such as Trulicity and Jardiance."
+      },
       "Profits and profitability": {
         "rating": "negative",
         "reason": "Earnings missed expectations. Non-GAAP EPS was $0.83 versus roughly $0.85 expected."
@@ -40,10 +44,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. New products generated about $325 million of revenue and were the main source of volume growth, led by diabetes products such as Trulicity and Jardiance."
       }
     },
     "wsj": {
@@ -58,6 +58,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Eli Lilly's first-quarter 2016 report, released April 26, showed revenue up 4.7% to $4.87 billion, edging past the $4.82 billion analysts had projected."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The article credits much of the top-line growth to six products launched since the start of 2014."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -86,10 +90,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. 31% U.S. growth on higher pricing partly offset by a 13% international decline tied to currency."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. The article credits much of the top-line growth to six products launched since the start of 2014."
       }
     },
     "djnw": null
@@ -107,6 +107,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 revenue increased 9% to $5.40 billion, driven primarily by an 8% increase in volume."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. New-product volume growth validated the post-patent-cliff recovery strategy."
       },
       "Profits and profitability": {
         "rating": "neutral",
@@ -135,10 +139,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Lilly laid out expectations through the remainder of the decade: at least 5% average annual revenue growth on a constant-currency basis."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. New-product volume growth validated the post-patent-cliff recovery strategy."
       }
     },
     "wsj": {
@@ -153,6 +153,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Lilly's second-quarter 2016 report, published July 26, showed revenue growing 8.6% to $5.4 billion, well above the $5.15 billion analysts had projected."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. CEO John Lechleiter described the period as one of the most productive stretches of new product launches in the company's history."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -181,10 +185,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. 5% domestic growth on higher demand despite lower realized prices and 11% international growth partly offset by unfavorable currency."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. CEO John Lechleiter described the period as one of the most productive stretches of new product launches in the company's history."
       }
     },
     "djnw": null
@@ -202,6 +202,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue missed expectations. Sales were $5.19 billion versus roughly $5.3 billion expected."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Pharmaceutical volume increased 7%, primarily from newer products."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -230,10 +234,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Pharmaceutical volume increased 7%, primarily from newer products."
       }
     },
     "wsj": {
@@ -248,6 +248,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. Lilly's third-quarter 2016 results, reported October 25, showed revenue up 4.7% to $5.19 billion, missing the $5.28 billion analysts had projected."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. It frames this as a straightforward miss-driven selloff: weaker sales of key products combined with the earnings shortfall were enough to outweigh any offsetting."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -276,10 +280,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. It frames this as a straightforward miss-driven selloff: weaker sales of key products combined with the earnings shortfall were enough to outweigh any offsetting."
       }
     },
     "djnw": null
@@ -297,6 +297,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fourth-quarter revenue increased 7% to $5.76 billion, driven heavily by Trulicity and other newer products."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Fourth-quarter revenue increased 7% to $5.76 billion, driven heavily by Trulicity and other newer products."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -325,10 +329,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Fourth-quarter revenue increased 7% to $5.76 billion, driven heavily by Trulicity and other newer products."
       }
     },
     "wsj": {
@@ -343,6 +343,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Lilly's fourth-quarter 2016 report, published January 31, 2017, showed revenue up 7.2% to $5.76 billion, well ahead of the $5.55 billion analysts had projected."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Older products Alimta, Zyprexa and Cymbalta dragged on volumes."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -371,10 +375,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Older products Alimta, Zyprexa and Cymbalta dragged on volumes."
       }
     },
     "djnw": null
@@ -392,6 +392,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q1 revenue increased 7% to $5.23 billion, and non-GAAP EPS rose 18% to $0.98, slightly above consensus."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Key pipeline and launch results disappointed. Jardiance sales missed estimates and baricitinib remained under an FDA rejection."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -420,10 +424,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Key pipeline and launch results disappointed. Jardiance sales missed estimates and baricitinib remained under an FDA rejection."
       }
     },
     "wsj": {
@@ -438,6 +438,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Lilly's first-quarter 2017 report, published April 25, showed revenue up 7.5% to $5.23 billion, roughly matching the $5.22 billion analysts expected."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -466,10 +470,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "djnw": null
@@ -487,6 +487,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 revenue increased 8% to $5.82 billion and non-GAAP EPS rose 29% to $1.11, both above consensus."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Pipeline timing deteriorated. Baricitinib's U.S. resubmission was delayed at least 18 months and might require another study."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -515,10 +519,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Pipeline timing deteriorated. Baricitinib's U.S. resubmission was delayed at least 18 months and might require another study."
       }
     },
     "wsj": null,
@@ -534,6 +534,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. The article noting that Lilly \"reported better-than-forecast quarterly earnings.\" The roundup does not provide Lilly's actual revenue."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -562,10 +566,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     }
   },
@@ -582,6 +582,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q3 revenue increased 9% to $5.66 billion and non-GAAP EPS rose 19% to $1.05, both slightly above expectations."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. New pharmaceutical products drove 14% volume growth and represented nearly 22% of total revenue."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -610,10 +614,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "Portfolio uncertainty increased. Lilly began reviewing an IPO, merger, sale, or retention of Elanco."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. New pharmaceutical products drove 14% volume growth and represented nearly 22% of total revenue."
       }
     },
     "wsj": {
@@ -628,6 +628,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. A unit that had contributed 15% of Lilly's revenue the prior year but faced rising competition."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Driven mainly by newer pharmaceutical products including Trulicity and Basaglar."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -656,10 +660,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Within Elanco, livestock revenue fell 6% on competitive pressure in the U.S."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Driven mainly by newer pharmaceutical products including Trulicity and Basaglar."
       }
     },
     "djnw": {
@@ -674,6 +674,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Which generated 15% of company revenue and posted quarterly revenue of $740.6 million."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -702,10 +706,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Cattle-industry competition while companion-animal revenue jumped 35%."
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     }
   },
@@ -722,6 +722,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q4 revenue increased 7% to $6.16 billion and non-GAAP EPS was $1.14, both above consensus."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. New products drove 12% volume growth and represented 23% of total revenue."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -750,10 +754,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "Drug-pricing policy pressure drove sector weakness. Renewed political scrutiny outweighed Lilly's operating beat."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. New products drove 12% volume growth and represented 23% of total revenue."
       }
     },
     "wsj": null,
@@ -769,6 +769,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Total revenue rose 6.9% to $6.16 billion."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Product-level results were mixed: diabetes drug Trulicity jumped 93% to $649 million while flagship Humalog fell 4.6% to $782.2 million."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -797,10 +801,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Product-level results were mixed: diabetes drug Trulicity jumped 93% to $649 million while flagship Humalog fell 4.6% to $782.2 million."
       }
     }
   },
@@ -817,6 +817,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q1 revenue increased 9% to $5.70 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Pharmaceutical revenue increased 11%, and newer products accounted for roughly 25% of total revenue while driving 11% volume growth."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -845,10 +849,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Pharmaceutical revenue increased 11%, and newer products accounted for roughly 25% of total revenue while driving 11% volume growth."
       }
     },
     "wsj": null,
@@ -867,6 +867,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 revenue increased 9% to $6.36 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. New pharmaceutical products represented 28% of total revenue and drove 12% volume growth."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -895,10 +899,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "Strategic uncertainty was resolved. Lilly announced a clear IPO and eventual divestiture path for Elanco."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. New pharmaceutical products represented 28% of total revenue and drove 12% volume growth."
       }
     },
     "wsj": {
@@ -913,6 +913,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Elanco recorded about $3.1 billion in sales last year, 13% of total Lilly revenue."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Total revenue growth of 9.1% was driven by the core human-pharmaceutical products."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -941,10 +945,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The Elanco separation plan clarified value realization. Lilly supplied a concrete IPO structure and timeline after months of uncertainty."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Total revenue growth of 9.1% was driven by the core human-pharmaceutical products."
       }
     },
     "djnw": null

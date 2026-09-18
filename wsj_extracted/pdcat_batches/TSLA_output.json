@@ -13,6 +13,10 @@
         "rating": "neutral",
         "reason": "Adjusted revenue was approximately in line with expectations at about $1.6 billion."
       },
+      "Product / Users": {
+        "rating": "neutral",
+        "reason": "Production reached a record, but Model X ramp problems caused Tesla to miss its delivery target."
+      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "The adjusted loss was narrower than expected at approximately $0.57 per share."
@@ -40,10 +44,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "neutral",
-        "reason": "Production reached a record, but Model X ramp problems caused Tesla to miss its delivery target."
       }
     },
     "wsj": {
@@ -58,6 +58,10 @@
       "Revenue": {
         "rating": "neutral",
         "reason": "Quarterly revenue was approximately $1.15 billion; the article identifies no material top-line surprise."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Reaffirmed that Model 3 production would begin in late 2017, following preorders that had exceeded even the most optimistic projections."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -86,10 +90,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Reaffirmed that Model 3 production would begin in late 2017, following preorders that had exceeded even the most optimistic projections."
       }
     },
     "djnw": null
@@ -107,6 +107,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. Tesla reported roughly $1.56 billion of non-GAAP revenue and an adjusted loss of $1.06 per share, both worse than Wall Street expectations."
+      },
+      "Product / Users": {
+        "rating": "neutral",
+        "reason": "Production accelerated late in the quarter, but deliveries of 14,402 vehicles missed expectations."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -135,10 +139,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "neutral",
-        "reason": "Production accelerated late in the quarter, but deliveries of 14,402 vehicles missed expectations."
       }
     },
     "wsj": {
@@ -153,6 +153,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. This Heard on the Street column reports that Tesla's second-quarter 2016 results included $1.6 billion in adjusted revenue and an adjusted loss of $1.06 a share."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Model 3 demand visibility weakened. Tesla stopped updating its refundable reservation count."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -181,10 +185,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Model 3 demand visibility weakened. Tesla stopped updating its refundable reservation count."
       }
     },
     "djnw": null
@@ -202,6 +202,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Tesla delivered a rare GAAP profit in Q3 and positive free cash flow while setting records for production, deliveries and revenue."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Tesla delivered a rare GAAP profit in Q3 and positive free cash flow while setting records for production, deliveries and revenue."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -230,10 +234,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Tesla delivered a rare GAAP profit in Q3 and positive free cash flow while setting records for production, deliveries and revenue."
       }
     },
     "wsj": {
@@ -248,6 +248,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue that rose to $2.3 billion from $936.8 million."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -276,10 +280,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "Regulatory-credit sales supported profit. Revenue from pollution credits reached $139 million versus about $30 million estimated."
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "djnw": null
@@ -297,6 +297,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fourth-quarter revenue was about $2.29 billion, above consensus."
+      },
+      "Product / Users": {
+        "rating": "neutral",
+        "reason": "The Model 3 remained scheduled for July, but the aggressive ramp carried substantial execution risk."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -325,10 +329,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "neutral",
-        "reason": "The Model 3 remained scheduled for July, but the aggressive ramp carried substantial execution risk."
       }
     },
     "wsj": {
@@ -343,6 +343,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Showed revenue jumping 88% to $2.28 billion -- described as ahead of analysts' expectations' -- alongside a narrowed loss of $121.3 million."
+      },
+      "Product / Users": {
+        "rating": "neutral",
+        "reason": "Model 3 production remained scheduled for July, but management warned the cash position would approach the edge."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -371,10 +375,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "neutral",
-        "reason": "Model 3 production remained scheduled for July, but management warned the cash position would approach the edge."
       }
     },
     "djnw": null
@@ -392,6 +392,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Tesla reported record revenue of about $2.7 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "The long-term production plan remained on schedule. Tesla reaffirmed a July Model 3 launch."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -420,10 +424,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "The long-term production plan remained on schedule. Tesla reaffirmed a July Model 3 launch."
       }
     },
     "wsj": {
@@ -438,6 +438,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Showed revenue more than doubling to $2.7 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Deliveries reached a quarterly record and Model 3 production remained scheduled to start in July."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -466,10 +470,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Deliveries reached a quarterly record and Model 3 production remained scheduled to start in July."
       }
     },
     "djnw": {
@@ -484,6 +484,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue doubled to $2.7 billion, ahead of the $2.61 billion consensus estimate."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Deliveries rose 69% to roughly 25,000 vehicles and Model 3 production remained scheduled for July."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -512,10 +516,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Deliveries rose 69% to roughly 25,000 vehicles and Model 3 production remained scheduled for July."
       }
     }
   },
@@ -532,6 +532,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 revenue rose to about $2.79 billion, above consensus near $2.51 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Model 3 demand was exceptional. Net reservations reached about 455,000 and Tesla retained its production target."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -560,10 +564,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Model 3 demand was exceptional. Net reservations reached about 455,000 and Tesla retained its production target."
       }
     },
     "wsj": {
@@ -578,6 +578,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue more than doubled to $2.79 billion, ahead of the $2.51 billion analysts on average had projected."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Demand concerns eased. Model S and X orders accelerated despite fears that Model 3 would cannibalize them."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -606,10 +610,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Demand concerns eased. Model S and X orders accelerated despite fears that Model 3 would cannibalize them."
       }
     },
     "djnw": {
@@ -624,6 +624,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue more than doubled to $2.79 billion, ahead of the $2.51 billion consensus."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Including the handover of the first 30 vehicles and Musk's comments on the production process."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -652,10 +656,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Including the handover of the first 30 vehicles and Musk's comments on the production process."
       }
     }
   },
@@ -672,6 +672,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Tesla reported Q3 revenue of about $2.98 billion, slightly above consensus."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Cash burn was heavy and automotive gross margin fell sharply as low-volume Model 3 production carried high initial costs."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -700,10 +704,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Cash burn was heavy and automotive gross margin fell sharply as low-volume Model 3 production carried high initial costs."
       }
     },
     "wsj": {
@@ -718,6 +718,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue itself beat expectations."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "The Model 3 production ramp was delayed again. The 5,000-per-week target moved to late Q1 2018."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -746,10 +750,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "The Model 3 production ramp was delayed again. The 5,000-per-week target moved to late Q1 2018."
       }
     },
     "djnw": {
@@ -764,6 +764,10 @@
       "Revenue": {
         "rating": null,
         "reason": null
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Model 3 production was delayed, extending the ramp for Tesla's most important growth program."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -792,10 +796,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Model 3 production was delayed, extending the ramp for Tesla's most important growth program."
       }
     }
   },
@@ -812,6 +812,10 @@
       "Revenue": {
         "rating": null,
         "reason": null
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Tesla's adjusted Q4 loss was narrower than expected, and management reaffirmed the recently revised Model 3 production targets."
       },
       "Profits and profitability": {
         "rating": "neutral",
@@ -840,10 +844,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Tesla's adjusted Q4 loss was narrower than expected, and management reaffirmed the recently revised Model 3 production targets."
       }
     },
     "wsj": {
@@ -858,6 +858,10 @@
       "Revenue": {
         "rating": null,
         "reason": null
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Set against continued Model 3 production shortfalls."
       },
       "Profits and profitability": {
         "rating": "neutral",
@@ -886,10 +890,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "Model 3 execution remained far behind original plans despite reaffirmed revised targets."
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Set against continued Model 3 production shortfalls."
       }
     },
     "djnw": null
@@ -907,6 +907,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue beat expectations. Quarterly sales reached a record of approximately $3.4 billion."
+      },
+      "Product / Users": {
+        "rating": "neutral",
+        "reason": "Model 3 output improved above 2,000 per week, but unit gross margin remained slightly negative."
       },
       "Profits and profitability": {
         "rating": "neutral",
@@ -935,10 +939,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Better-than-expected revenue and adjusted loss were insufficient because investors were focused on liquidity and production economics."
-      },
-      "Product": {
-        "rating": "neutral",
-        "reason": "Model 3 output improved above 2,000 per week, but unit gross margin remained slightly negative."
       }
     },
     "wsj": {
@@ -953,6 +953,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. They're killing me.' Revenue rose about 26% to $3.41 billion, beating the $3.28 billion analysts had expected."
+      },
+      "Product / Users": {
+        "rating": "neutral",
+        "reason": "Model 3 output improved, but Tesla still had to reach its twice-delayed 5,000-per-week target."
       },
       "Profits and profitability": {
         "rating": "neutral",
@@ -981,10 +985,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "neutral",
-        "reason": "Model 3 output improved, but Tesla still had to reach its twice-delayed 5,000-per-week target."
       }
     },
     "djnw": null
@@ -1002,6 +1002,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 revenue rose 43% to about $4.0 billion, above consensus."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Said Model 3 gross margin should improve significantly as production stabilized."
       },
       "Profits and profitability": {
         "rating": "neutral",
@@ -1030,10 +1034,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Stable Model 3 production near 5,000 per week made positive unit economics more credible."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Said Model 3 gross margin should improve significantly as production stabilized."
       }
     },
     "wsj": {
@@ -1048,6 +1048,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue grew 44% to approximately $4 billion as total vehicle deliveries increased sharply."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Tesla finally reached 5,000 Model 3 vehicles in one week and delivered 40,740 total vehicles."
       },
       "Profits and profitability": {
         "rating": "neutral",
@@ -1076,10 +1080,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Tesla finally reached 5,000 Model 3 vehicles in one week and delivered 40,740 total vehicles."
       }
     },
     "djnw": null

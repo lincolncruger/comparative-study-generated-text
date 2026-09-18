@@ -10,12 +10,16 @@
         "reason": null
       },
       "Revenue": {
-        "rating": "negative",
-        "reason": "Revenue performance was weak. TI reported $3.01 billion of revenue, down 5% year over year, and $0.65 of EPS."
+        "rating": "neutral",
+        "reason": "Revenue was within guidance but declined 5% year over year to approximately $3.01 billion."
+      },
+      "Product / Users": {
+        "rating": "neutral",
+        "reason": "End-market demand was mixed. Automotive remained strong while personal electronics declined."
       },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. TI reported $3.01 billion of revenue, down 5% year over year, and $0.65 of EPS."
+        "rating": "positive",
+        "reason": "Profitability improved despite lower revenue. Core-segment operating margins and consolidated gross margin expanded."
       },
       "Costs": {
         "rating": "positive",
@@ -38,30 +42,30 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": "positive",
-        "reason": "The broader backdrop was supportive. Higher core-segment margins and 300-mm economics kept the underlying earnings quality strong."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Gross margin reached roughly 59.9%, reflecting TI’s product mix and the structural manufacturing-cost advantage from 300-mm Analog production."
+        "rating": null,
+        "reason": null
       }
     },
     "wsj": {
       "Guidance": {
-        "rating": "negative",
-        "reason": "Guidance was disappointing. Reports the company's second-quarter guidance of 67 to 77 cents a share on $3.07 billion to $3.33 billion in revenue."
+        "rating": "positive",
+        "reason": "Second-quarter guidance was slightly above consensus at its midpoint for both revenue and EPS."
       },
       "Order book / order backlog": {
         "rating": null,
         "reason": null
       },
       "Revenue": {
-        "rating": "negative",
-        "reason": "Revenue performance was weak. The article reports that Texas Instruments posted slightly higher profit for the first quarter even as sales fell in its personal-electronics segment."
+        "rating": "neutral",
+        "reason": "Revenue was within company guidance but fell 4.5% to approximately $3.01 billion."
+      },
+      "Product / Users": {
+        "rating": "neutral",
+        "reason": "Demand was mixed. Embedded-processor sales rose 8%, while analog sales and personal electronics declined."
       },
       "Profits and profitability": {
-        "rating": "negative",
-        "reason": "Profitability was weak. The article reports that Texas Instruments posted slightly higher profit for the first quarter even as sales fell in its personal-electronics segment."
+        "rating": "positive",
+        "reason": "Profit and margins improved. EPS rose to $0.65 and gross margin increased to 60.6%."
       },
       "Costs": {
         "rating": null,
@@ -86,10 +90,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. The latter used in products ranging from electric toothbrushes to driver-assistance systems."
       }
     },
     "djnw": null
@@ -107,6 +107,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 revenue rose to $3.27 billion and EPS reached $0.76, above consensus near $3.20 billion and $0.72."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "End-market demand broadened. Automotive remained strong while industrial and communications equipment improved."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -135,10 +139,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": {
@@ -153,6 +153,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Versus an analyst consensus of 81 cents on $3.4 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. CEO Rich Templeton is quoted saying demand for TI's products \"continued to be strong\" in automotive and \"grew\" in industrial and communications equipment."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -181,10 +185,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. CEO Rich Templeton is quoted saying demand for TI's products \"continued to be strong\" in automotive and \"grew\" in industrial and communications equipment."
       }
     },
     "djnw": null
@@ -192,8 +192,8 @@
   "TXN_2016q4": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Q4 revenue guidance of $3.17–$3.43 billion and EPS guidance of $0.76–$0.86 were broadly in line with expectations."
+        "rating": "neutral",
+        "reason": "Fourth-quarter revenue and EPS guidance was broadly in line with expectations."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -202,6 +202,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q3 revenue reached $3.68 billion and EPS $0.94, both above consensus and slightly above TI’s expected range."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "End-market demand remained favorable. Automotive stayed strong and industrial demand improved."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -230,16 +234,12 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. The article reports that Texas Instruments' profit jumped 21% in the third quarter as continued strong demand in the automotive and industrial sectors helped the company."
+        "rating": "neutral",
+        "reason": "Fourth-quarter guidance matched expectations. Revenue and EPS ranges bracketed analyst consensus."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -248,6 +248,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Analog chip sales rose 6.5% to $2.32 billion and embedded processor sales rose 10% to $795 million."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -276,10 +280,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "djnw": null
@@ -288,7 +288,7 @@
     "contextual_analysis": {
       "Guidance": {
         "rating": "positive",
-        "reason": "Guidance was encouraging. EPS included a $0.14 benefit from items outside the original guidance."
+        "reason": "First-quarter EPS guidance exceeded expectations and revenue guidance remained constructive."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -297,6 +297,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q4 revenue increased 7% to $3.41 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Demand was broad. Analog and Embedded Processing grew as industrial joined automotive strength."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -325,10 +329,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": {
@@ -343,6 +343,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue guidance of $3.17 billion to $3.43 billion bracketing the analyst consensus of $3.21 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Demand remained strong in automotive and improved in industrial, supporting Analog and Embedded growth."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -371,10 +375,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "djnw": null
@@ -392,6 +392,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q1 revenue rose 13% to $3.40 billion, the company’s first quarter of double-digit revenue growth since 2010."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Industrial and automotive demand accelerated. Analog revenue grew 20% and Embedded Processing increased 10%."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -418,12 +422,8 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Expectations were elevated. The small decline followed a strong report without a verified negative operating catalyst."
       }
     },
     "wsj": null,
@@ -442,6 +442,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 revenue increased 13% to $3.69 billion and EPS rose to $1.03."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Automotive and industrial demand remained broad. Analog and Embedded Processing grew 18% and 15%, respectively."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -470,10 +474,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": null,
@@ -492,6 +492,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q3 revenue reached $4.12 billion, up 12%, and EPS was $1.26, both comfortably above consensus."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Industrial and automotive remained strong. Analog and Embedded Processing revenue grew 16% and 17%."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -518,12 +522,8 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Expectations were already high. The stock was essentially flat despite a substantial operating beat."
       }
     },
     "wsj": null,
@@ -532,8 +532,8 @@
   "TXN_2018q1": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. The key negative was the Q1 revenue outlook, which the market viewed as modest relative to expectations."
+        "rating": "negative",
+        "reason": "First-quarter revenue guidance disappointed investors despite remaining near sell-side consensus."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -541,15 +541,19 @@
       },
       "Revenue": {
         "rating": "positive",
-        "reason": "Revenue performance was strong. Q4 revenue increased 10% to $3.75 billion."
+        "reason": "Revenue narrowly beat expectations. Sales rose 10% to $3.75 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
-        "rating": "positive",
-        "reason": "Profitability was strong. Reported EPS was only $0.34 because the new U.S. tax law created $0.75 per share of tax-related expense."
+        "rating": "neutral",
+        "reason": "Underlying operations were strong, while a $0.75-per-share tax charge reduced reported EPS to $0.34."
       },
       "Costs": {
-        "rating": "positive",
-        "reason": "Cost execution was favorable. Reported EPS was only $0.34 because the new U.S. tax law created $0.75 per share of tax-related expense."
+        "rating": null,
+        "reason": null
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -568,31 +572,31 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "U.S. tax reform created a large one-time expense that distorted reported earnings."
       }
     },
     "wsj": null,
     "djnw": {
       "Guidance": {
-        "rating": "negative",
-        "reason": "Guidance was disappointing. The article frames the post-market decline as occurring alongside otherwise in-line first-quarter guidance."
+        "rating": "neutral",
+        "reason": "First-quarter revenue and EPS guidance was roughly in line with analyst consensus."
       },
       "Order book / order backlog": {
         "rating": null,
         "reason": null
       },
       "Revenue": {
-        "rating": "negative",
-        "reason": "Revenue performance was weak. The article reports that Texas Instruments posted fourth-quarter revenue growth alongside a significant tax-related charge that hurt short-term profitability."
+        "rating": "positive",
+        "reason": "Revenue narrowly beat expectations. Sales were $3.75 billion versus approximately $3.74 billion expected."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
-        "reason": "Profitability was weak. The article reports that Texas Instruments posted fourth-quarter revenue growth alongside a significant tax-related charge that hurt short-term profitability."
+        "reason": "A $730 million tax charge reduced reported profit to $344 million and EPS to $0.34."
       },
       "Costs": {
         "rating": null,
@@ -615,12 +619,8 @@
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Tax reform produced a major transition charge, although it was expected to lower future tax rates."
       }
     }
   },
@@ -637,6 +637,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q1 revenue increased 11% to $3.79 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Industrial and automotive demand remained broad and resilient across Analog and Embedded Processing."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -665,10 +669,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": null,
@@ -677,8 +677,8 @@
   "TXN_2018q3": {
     "contextual_analysis": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. Management guided Q3 revenue and EPS roughly in line with expectations."
+        "rating": "neutral",
+        "reason": "Third-quarter revenue and EPS guidance was roughly in line with expectations."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -687,6 +687,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 revenue increased 9% to $4.02 billion and EPS reached $1.40, including a $0.03 discrete tax benefit."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Industrial and automotive demand remained strong while core businesses sustained high margins."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -705,26 +709,22 @@
         "reason": null
       },
       "Management": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "CEO succession became a governance concern after Brian Crutcher abruptly resigned over conduct violations."
       },
       "Litigation": {
         "rating": null,
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Most quarterly figures had already been disclosed with the CEO change, leaving little incremental upside."
       }
     },
     "wsj": {
       "Guidance": {
-        "rating": "positive",
-        "reason": "Guidance was encouraging. TI guided to profit of $1.41 to $1.63 a share on revenue of $4.11 billion to $4.45 billion."
+        "rating": "neutral",
+        "reason": "Third-quarter guidance was approximately in line. The EPS and revenue ranges bracketed consensus."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -733,6 +733,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Which together account for more than half of company revenue and drove a 9% revenue increase to $4 billion in the second quarter."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Industrial and automotive demand remained strong and generated more than half of company revenue."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -751,20 +755,16 @@
         "reason": null
       },
       "Management": {
-        "rating": null,
-        "reason": null
+        "rating": "negative",
+        "reason": "Brian Crutcher resigned less than two months after becoming CEO because of personal conduct violations."
       },
       "Litigation": {
         "rating": null,
         "reason": null
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
+        "rating": "neutral",
+        "reason": "The results were largely preannounced with the CEO transition, limiting the amount of new information."
       }
     },
     "djnw": null

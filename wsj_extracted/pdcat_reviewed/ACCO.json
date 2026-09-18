@@ -1,0 +1,32 @@
+{
+  "reviewed_observations": ["ACCO_2019q3"],
+  "pd_overrides": {
+    "ACCO_2019q3": {
+      "djnw": {
+        "Guidance": {
+          "rating": "positive",
+          "reason": "Guidance improved. ACCO now expects flat 2019 sales versus flat to down 3%, and raised the EPS range floor to $1.15 from $1.10."
+        },
+        "Revenue": {
+          "rating": "positive",
+          "reason": "Revenue beat expectations. Second-quarter sales were $518.7 million versus the $494.2 million FactSet consensus."
+        },
+        "Product / Users": {
+          "rating": "negative",
+          "reason": "Underlying volume declined. Comparable sales rose 4.4% because pricing more than offset lower unit volume."
+        },
+        "Profits and profitability": {
+          "rating": "positive",
+          "reason": "Adjusted earnings beat expectations. EPS was $0.36 versus the $0.32 FactSet consensus."
+        }
+      }
+    }
+  },
+  "first_order": {
+    "ACCO_2019q3": {
+      "contextual_analysis": null,
+      "wsj": null,
+      "djnw": ["Profits and profitability", "Guidance"]
+    }
+  }
+}

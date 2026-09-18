@@ -13,6 +13,10 @@
         "rating": "negative",
         "reason": "Revenue performance was weak. PMI reported $6.08 billion of net revenue excluding excise taxes, down 8.1% as reported, and $0.98 of adjusted EPS."
       },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Cigarette demand weakened. Shipment volume declined 1.4%, with particularly weak results in Asia."
+      },
       "Profits and profitability": {
         "rating": "negative",
         "reason": "Profitability was weak. PMI reported $6.08 billion of net revenue excluding excise taxes, down 8.1% as reported, and $0.98 of adjusted EPS."
@@ -40,10 +44,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Currency explained part—but not all—of the disappointment."
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Cigarette demand weakened. Shipment volume declined 1.4%, with particularly weak results in Asia."
       }
     },
     "wsj": {
@@ -58,6 +58,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue missed expectations. Sales excluding excise taxes were $6.08 billion versus approximately $6.34 billion expected."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Shipment volume declined. Cigarette volume fell 1.4%, including a 7% drop in Asia."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -86,13 +90,54 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "Currency remained a headwind. Reported revenue fell 8.1% despite 2.4% growth excluding currency and acquisitions."
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Shipment volume declined. Cigarette volume fell 1.4%, including a 7% drop in Asia."
       }
     },
-    "djnw": null
+    "djnw": {
+      "Guidance": {
+        "rating": "neutral",
+        "reason": "Guidance improved but remained below consensus. EPS was raised to $4.40-$4.50 from $4.25-$4.35 versus $4.48 expected."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue missed expectations. Sales excluding excise taxes were $6.08 billion versus the $6.34 billion analyst forecast."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Shipment demand weakened. Cigarette volume fell 1.4% to 196 billion units, including a 7% decline in Asia."
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Earnings missed expectations. EPS was $0.98 versus the $1.11 analyst forecast, while profit declined to $1.53 billion."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "neutral",
+        "reason": "Management cited robust pricing and moderating industry volume declines but expected most annual growth late in the year."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "neutral",
+        "reason": "Currency pressure was easing and supported higher reported guidance, although foreign exchange still weighed on reported revenue."
+      }
+    }
   },
   "PM_2016q3": {
     "contextual_analysis": {
@@ -107,6 +152,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. Net revenue excluding excise taxes was about $6.65 billion, also below expectations."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Cigarette demand weakened broadly. Shipment volume fell 4.8%, including sharp declines in Asia and Marlboro."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -135,10 +184,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Currency headwinds had moderated, so the report made the underlying volume problem more visible."
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Cigarette demand weakened broadly. Shipment volume fell 4.8%, including sharp declines in Asia and Marlboro."
       }
     },
     "wsj": {
@@ -153,6 +198,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. Revenue excluding excise taxes fell 3.1% to $6.65 billion versus an expected $6.77 billion."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Shipment volume fell in every geographic division. Cigarette volume declined 4.8% and Marlboro shipments fell 3.1%."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -181,10 +230,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "neutral",
         "reason": "Currency pressure was easing, supporting reported guidance despite weak underlying shipment volume."
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Shipment volume fell in every geographic division. Cigarette volume declined 4.8% and Marlboro shipments fell 3.1%."
       }
     },
     "djnw": null
@@ -202,6 +247,10 @@
       "Revenue": {
         "rating": "neutral",
         "reason": "Revenue was essentially in line. Sales excluding excise taxes were about $6.98 billion."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Cigarette demand remained weak. Shipment volume declined 5.4%."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -230,10 +279,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Cigarette demand remained weak. Shipment volume declined 5.4%."
       }
     },
     "wsj": {
@@ -248,6 +293,10 @@
       "Revenue": {
         "rating": "neutral",
         "reason": "Revenue was in line. Sales excluding excise taxes were $6.98 billion versus approximately $6.97 billion expected."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Shipment volume declined in every region except Europe. Total cigarette volume fell 5.4%."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -276,10 +325,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Shipment volume declined in every region except Europe. Total cigarette volume fell 5.4%."
       }
     },
     "djnw": null
@@ -297,6 +342,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fourth-quarter net revenue excluding excise taxes rose about 9% to $6.97 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "IQOS adoption accelerated. Reduced-risk-product revenue reached about $343 million in Q4, led by Japan."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -325,10 +374,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "neutral",
         "reason": "Currency-neutral earnings momentum improved despite a small reported EPS miss."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "IQOS adoption accelerated. Reduced-risk-product revenue reached about $343 million in Q4, led by Japan."
       }
     },
     "wsj": {
@@ -343,6 +388,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. The article reports that Philip Morris International's revenue rose 9.1% in the fourth quarter."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "IQOS adoption accelerated. Heated-tobacco shipments reached capacity as 1.4 million adults switched from cigarettes."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -371,10 +420,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "Currency-neutral growth was strong. Revenue increased 11% excluding currency."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "IQOS adoption accelerated. Heated-tobacco shipments reached capacity as 1.4 million adults switched from cigarettes."
       }
     },
     "djnw": null
@@ -392,6 +437,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. PMI reported adjusted EPS of $0.98, below consensus near $1.03, and net revenue excluding excise taxes of about $6.06 billion, also below expectations."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Cigarette shipments plunged. Volume declined 11.5% to approximately 173.6 billion units."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -420,17 +469,13 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Cigarette shipments plunged. Volume declined 11.5% to approximately 173.6 billion units."
       }
     },
     "wsj": null,
     "djnw": {
       "Guidance": {
-        "rating": null,
-        "reason": null
+        "rating": "positive",
+        "reason": "Full-year guidance leaned above expectations. EPS of $4.84-$4.99 compared with the $4.88 consensus."
       },
       "Order book / order backlog": {
         "rating": null,
@@ -440,13 +485,17 @@
         "rating": null,
         "reason": null
       },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Combustible-cigarette demand was weak. Wells Fargo described secular cigarette-volume pressure as a central quarterly challenge."
+      },
       "Profits and profitability": {
         "rating": "negative",
-        "reason": "Earnings fell short of expectations. Dow Jones cited the profit disappointment as the reason shares declined."
+        "reason": "Earnings missed expectations. Adjusted EPS was $0.98 versus the $1.03 forecast."
       },
       "Costs": {
-        "rating": null,
-        "reason": null
+        "rating": "positive",
+        "reason": "Margin protection remained supportive. Wells Fargo expected strong pricing and cost management to offset cigarette-volume weakness."
       },
       "Debt, leverage and capital raise": {
         "rating": null,
@@ -467,10 +516,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     }
   },
@@ -487,6 +532,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue missed expectations. Sales excluding excise taxes were about $6.92 billion despite 4% growth."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Combustible demand remained weak. Cigarette shipments fell 7.5%, and IQOS was not yet large enough to offset the decline."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -515,10 +564,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "Foreign-exchange assumptions worsened and reduced the reported earnings outlook."
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Combustible demand remained weak. Cigarette shipments fell 7.5%, and IQOS was not yet large enough to offset the decline."
       }
     },
     "wsj": null,
@@ -534,6 +579,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. Within that context, the article specifically states that Philip Morris International shares fell 1.4% after the cigarette maker lowered its guidance and reported."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -562,10 +611,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     }
   },
@@ -582,6 +627,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue missed expectations despite increasing 7% to approximately $7.47 billion."
+      },
+      "Product / Users": {
+        "rating": "neutral",
+        "reason": "Shipment trends were mixed. Cigarette volume fell 4.1%, while heated-tobacco growth kept combined volume nearly flat."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -610,14 +659,55 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. PMI cut full-year reported EPS to $4.75–$4.80, citing a larger currency hit and adverse developments in Russia and Saudi Arabia."
-      },
-      "Product": {
-        "rating": "neutral",
-        "reason": "Shipment trends were mixed. Cigarette volume fell 4.1%, while heated-tobacco growth kept combined volume nearly flat."
       }
     },
     "wsj": null,
-    "djnw": null
+    "djnw": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance fell below expectations. Full-year EPS of $4.75-$4.80 trailed the $4.84 consensus."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue missed expectations. Sales were $7.5 billion versus the $7.7 billion analyst forecast."
+      },
+      "Product / Users": {
+        "rating": "neutral",
+        "reason": "Demand was mixed. Cigarette volume fell 4.1%, while IQOS added 3.7 percentage points to total volume growth."
+      },
+      "Profits and profitability": {
+        "rating": "negative",
+        "reason": "Earnings missed expectations. EPS was $1.27 versus the $1.38 analyst forecast."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "Currency was a larger-than-expected headwind and added pressure to the quarterly results and annual outlook."
+      }
+    }
   },
   "PM_2018q1": {
     "contextual_analysis": {
@@ -632,6 +722,10 @@
       "Revenue": {
         "rating": null,
         "reason": null
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Shipment momentum improved sharply. Combined cigarette and heated-tobacco volume rose 3.8% as HeatStick demand accelerated."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -660,10 +754,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Shipment momentum improved sharply. Combined cigarette and heated-tobacco volume rose 3.8% as HeatStick demand accelerated."
       }
     },
     "wsj": null,
@@ -682,6 +772,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q1 net revenue excluding excise taxes rose about 8% currency-neutral to $6.9 billion, and adjusted EPS of $1.00 beat consensus near $0.90."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "IQOS adoption slowed materially in Japan as the product moved beyond the easiest-to-convert smokers."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -710,10 +804,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "IQOS adoption slowed materially in Japan as the product moved beyond the easiest-to-convert smokers."
       }
     },
     "wsj": null,
@@ -729,6 +819,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue missed expectations. Dow Jones identified the top-line shortfall as a cause of the record stock decline."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": null,
@@ -757,10 +851,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     }
   },
@@ -777,6 +867,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 net revenue increased 11.7% to $7.7 billion, or 8.3% excluding currency, and adjusted EPS reached $1.41, up 23.7% year over year."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "IQOS adoption remained weaker than expected in Japan despite 73% growth in global heated-tobacco shipments."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -805,10 +899,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "Foreign exchange remained a headwind to the full-year reported earnings outlook."
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "IQOS adoption remained weaker than expected in Japan despite 73% growth in global heated-tobacco shipments."
       }
     },
     "wsj": {
@@ -823,6 +913,10 @@
       "Revenue": {
         "rating": null,
         "reason": null
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Primarily its IQOS smokeless-tobacco technology."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -851,10 +945,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. A strong dollar also seen as a further headwind for a company that sells cigarettes only outside the U.S."
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Primarily its IQOS smokeless-tobacco technology."
       }
     },
     "djnw": null

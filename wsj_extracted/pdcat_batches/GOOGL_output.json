@@ -13,6 +13,10 @@
         "rating": "negative",
         "reason": "Revenue missed expectations. Sales were $20.26 billion versus roughly $20.3-$20.4 billion expected."
       },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
       "Profits and profitability": {
         "rating": "negative",
         "reason": "Earnings missed expectations. Adjusted EPS was $7.50 versus roughly $7.96 expected."
@@ -40,10 +44,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": {
@@ -58,6 +58,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. The WSJ framed Alphabet's first-quarter 2016 report around the idea that \"even a small miss can have big consequences\": revenue of $20.26 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -86,10 +90,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "djnw": null
@@ -107,6 +107,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 revenue increased 21% to $21.5 billion and adjusted EPS reached $8.42, both comfortably above consensus."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Advertising engagement was strong. Paid clicks rose 29%, including 37% growth on Google properties."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -135,10 +139,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Advertising engagement was strong. Paid clicks rose 29%, including 37% growth on Google properties."
       }
     },
     "wsj": {
@@ -153,6 +153,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue rose 21% to $21.5 billion, beating the average analyst estimate of $20.76 billion (Thomson Reuters)."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -181,10 +185,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. It also flagged competitive context."
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "djnw": null
@@ -202,6 +202,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Alphabet posted $22.45 billion of revenue, up 20%, and adjusted EPS of about $9.06, both above consensus."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Advertising volume remained strong. Mobile search and YouTube clicks offset lower pricing per click."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -230,10 +234,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Advertising volume remained strong. Mobile search and YouTube clicks offset lower pricing per click."
       }
     },
     "wsj": {
@@ -248,6 +248,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue rose 20% to $22.45 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -276,10 +280,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "djnw": null
@@ -297,6 +297,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q4 revenue increased 22% to $26.06 billion, above consensus."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -325,10 +329,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": {
@@ -343,6 +343,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Alphabet's fourth-quarter 2016 report presented a split picture: revenue grew 22% to $26.1 billion, surpassing estimates."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Nonadvertising sales surging 62% to $3.4 billion, boosted by the fourth-quarter launch of three new hardware products."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -371,10 +375,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Noting Google's advertising business had posted 20%-plus annual growth (ex-currency) for 20 consecutive quarters."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Nonadvertising sales surging 62% to $3.4 billion, boosted by the fourth-quarter launch of three new hardware products."
       }
     },
     "djnw": null
@@ -392,6 +392,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Alphabet delivered $24.75 billion of revenue, up 22%, and EPS of $7.73."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Advertising demand remained strong. Mobile search and YouTube grew despite advertiser boycott concerns."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -420,10 +424,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Advertising demand remained strong. Mobile search and YouTube grew despite advertiser boycott concerns."
       }
     },
     "wsj": {
@@ -438,6 +438,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Alphabet's first-quarter 2017 report showed net revenue rising 22% to $24.75 billion, beating the Wall Street estimate of $24.22 billion (Thomson Reuters)."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -466,10 +470,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. According to Pivotal Research's Brian Wieser."
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "djnw": {
@@ -484,6 +484,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. It reports revenue climbed 22% to $24.75 billion, beating analyst expectations on both profit and sales."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -512,10 +516,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     }
   },
@@ -532,6 +532,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 revenue rose 21% to $26.01 billion, above consensus."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -560,10 +564,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": {
@@ -578,6 +578,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Rose 28% year over year to a record $5.1 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -606,10 +610,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "Valuation amplified the disappointment. Alphabet shares had already risen about 26% during the year."
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "djnw": {
@@ -624,6 +624,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. This is a brief Dow Jones Newswires tech-sector roundup rather than a dedicated Alphabet earnings story."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -652,10 +656,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     }
   },
@@ -672,6 +672,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q3 revenue rose 24% to $27.77 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -700,10 +704,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": null,
@@ -719,6 +719,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. On revenue that climbed 24% to $27.77 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -747,10 +751,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     }
   },
@@ -767,6 +767,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q4 revenue increased 24% to $32.32 billion, above consensus."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -795,10 +799,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": {
@@ -813,6 +813,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue grew 24% to $32.32 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -841,10 +845,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "djnw": null
@@ -862,6 +862,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q1 revenue surged 26% to $31.15 billion, beating consensus, and underlying EPS also exceeded expectations."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -890,10 +894,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": {
@@ -908,6 +908,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Advertising revenue, still nearly all of the company's top line, rose 24% to $26.6 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -936,10 +940,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "djnw": null
@@ -957,6 +957,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 revenue increased 26% to $32.66 billion, above consensus."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -985,10 +989,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": {
@@ -1003,6 +1003,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue excluding traffic acquisition costs rose 25% to $26.24 billion, beating the $25.6 billion analysts expected (FactSet)."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1031,10 +1035,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "djnw": {
@@ -1049,6 +1049,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Excluding traffic-acquisition costs."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1075,10 +1079,6 @@
         "reason": "Legal risk was a negative. This dedicated Alphabet earnings story reports that reported second-quarter earnings declined 9.3%."
       },
       "Others: eg. Covid, or macro events": {
-        "rating": null,
-        "reason": null
-      },
-      "Product": {
         "rating": null,
         "reason": null
       }

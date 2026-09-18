@@ -13,7 +13,15 @@
         "Product / Users": {"rating": "positive", "reason": "Store demand beat expectations. Comparable sales rose 7% versus TJX's 2%-3% guidance."},
         "Profits and profitability": {"rating": "positive", "reason": "Profitability beat expectations. EPS was $0.76 versus TJX's prior $0.68-$0.70 projection."}
       },
-      "djnw": null
+      "djnw": {
+        "Revenue": {"rating": "positive", "reason": "Sales beat expectations. Revenue was approximately $7.5 billion versus the $7.3 billion analyst forecast."},
+        "Product / Users": {"rating": "positive", "reason": "Customer momentum was strong. Comparable sales rose 7% versus 4.6% expected, driven largely by traffic across concepts."},
+        "Profits and profitability": {"rating": "positive", "reason": "Earnings beat expectations. EPS was $0.76 versus the $0.71 forecast, supported by sales and gross-margin upside."},
+        "Guidance": {"rating": "negative", "reason": "The outlook included continued pressure. Management expected wages, growth investments and currency to weigh on fiscal 2017 margins and EPS."},
+        "Costs": {"rating": "negative", "reason": "Wage pressure reduced earnings growth. Wage increases cut first-quarter EPS growth by about two percentage points."},
+        "Management": {"rating": "neutral", "reason": "Management reported strong earnings growth but continued to warn about wage, investment and foreign-exchange headwinds."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Foreign exchange pressured earnings. Currency effects reduced first-quarter EPS growth by approximately three percentage points."}
+      }
     },
     "TJX_2016q3": {
       "contextual_analysis": {
@@ -62,7 +70,14 @@
         "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Currency pressured the outlook. Foreign-exchange headwinds were expected to persist."}
       },
       "wsj": null,
-      "djnw": null
+      "djnw": {
+        "Revenue": {"rating": "positive", "reason": "Revenue beat expectations. Sales were $9.47 billion versus the $9.44 billion consensus."},
+        "Product / Users": {"rating": "positive", "reason": "Store demand beat expectations. Same-store sales rose 3% versus 2.6% expected and were driven by traffic."},
+        "Profits and profitability": {"rating": "positive", "reason": "Earnings beat expectations. EPS was $1.03 versus the $1.00 analyst estimate, supported by comparable sales and merchandise margin."},
+        "Guidance": {"rating": "negative", "reason": "Near-term guidance missed expectations. First-quarter EPS of $0.76-$0.78 was below the $0.81 consensus."},
+        "Costs": {"rating": "negative", "reason": "Wage pressure weighed on the outlook. Wage increases were expected to reduce first-quarter EPS growth by approximately three percentage points."},
+        "Debt, leverage and capital raise": {"rating": "positive", "reason": "Capital returns increased. TJX planned a 20% dividend increase and approximately $1.3-$1.8 billion of fiscal-year repurchases."}
+      }
     },
     "TJX_2017q2": {
       "contextual_analysis": {
@@ -133,7 +148,13 @@
         "Debt, leverage and capital raise": {"rating": "positive", "reason": "Capital returns increased. TJX planned a 25% dividend increase and $2.5-$3.0 billion of buybacks."}
       },
       "wsj": null,
-      "djnw": null
+      "djnw": {
+        "Revenue": {"rating": "positive", "reason": "Revenue beat expectations. Sales were $10.96 billion versus the $10.76 billion analyst forecast."},
+        "Product / Users": {"rating": "positive", "reason": "Customer momentum remained strong. Analysts highlighted continued healthy traffic and demand for TJX's value-focused offering."},
+        "Profits and profitability": {"rating": "positive", "reason": "Earnings beat expectations. EPS was $1.30 versus the $1.27 analyst estimate."},
+        "Guidance": {"rating": "positive", "reason": "Guidance exceeded expectations. Full-year EPS of $4.73-$4.83 was well above the $4.64 consensus."},
+        "Others: eg. Covid, or macro events": {"rating": "positive", "reason": "Consumer and tax conditions were supportive. Healthy value-focused shoppers and lower corporate taxes strengthened the outlook."}
+      }
     },
     "TJX_2018q2": {
       "contextual_analysis": {
@@ -145,7 +166,13 @@
         "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Currency pressured the outlook. Management expected less favorable foreign exchange later in the year."}
       },
       "wsj": null,
-      "djnw": null
+      "djnw": {
+        "Revenue": {"rating": "positive", "reason": "Revenue beat expectations. Sales rose 12% to approximately $8.7 billion versus the $8.5 billion consensus."},
+        "Product / Users": {"rating": "positive", "reason": "Customer traffic drove the beat. Comparable sales increased 3% versus the 2.5% analyst estimate."},
+        "Profits and profitability": {"rating": "negative", "reason": "Adjusted earnings missed expectations. EPS excluding a tax-related benefit was $0.96 versus the $1.02 FactSet estimate."},
+        "Guidance": {"rating": "positive", "reason": "The annual outlook improved. TJX raised the low end of fiscal 2019 EPS guidance after the strong first quarter."},
+        "Management": {"rating": "positive", "reason": "Management said quarterly performance exceeded its expectations and highlighted traffic growth across all four major divisions."}
+      }
     },
     "TJX_2018q3": {
       "contextual_analysis": {
@@ -155,19 +182,25 @@
         "Profits and profitability": {"rating": "positive", "reason": "Earnings were strong. EPS reached $1.17, or $0.99 excluding an $0.18 tax benefit."}
       },
       "wsj": null,
-      "djnw": null
+      "djnw": {
+        "Revenue": {"rating": "positive", "reason": "Revenue beat expectations. Sales were $9.33 billion versus the $8.99 billion FactSet consensus."},
+        "Product / Users": {"rating": "positive", "reason": "Store demand far exceeded expectations. Comparable sales rose 6% versus 2.1% expected, driven by traffic across every division."},
+        "Profits and profitability": {"rating": "negative", "reason": "Adjusted earnings missed expectations. EPS excluding the tax-related benefit was $0.99 versus the $1.05 consensus."},
+        "Guidance": {"rating": "neutral", "reason": "Full-year reported EPS guidance broadly matched expectations. The $4.83-$4.88 range bracketed the $4.86 consensus."},
+        "Management": {"rating": "positive", "reason": "Management highlighted very wide customer reach and said traffic was again the primary driver of comparable-sales growth."}
+      }
     }
   },
   "first_order": {
-    "TJX_2016q2": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": ["Revenue", "Guidance"], "djnw": null},
+    "TJX_2016q2": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": ["Revenue", "Guidance"], "djnw": ["Revenue", "Profits and profitability"]},
     "TJX_2016q3": {"contextual_analysis": ["Guidance", "Costs"], "wsj": ["Guidance", "Costs"], "djnw": null},
     "TJX_2016q4": {"contextual_analysis": null, "wsj": ["Revenue", "Profits and profitability"], "djnw": null},
-    "TJX_2017q1": {"contextual_analysis": ["Product / Users", "Debt, leverage and capital raise"], "wsj": null, "djnw": null},
+    "TJX_2017q1": {"contextual_analysis": ["Product / Users", "Debt, leverage and capital raise"], "wsj": null, "djnw": ["Guidance", "Profits and profitability"]},
     "TJX_2017q2": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": ["Revenue", "Guidance"], "djnw": ["Revenue"]},
     "TJX_2017q3": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": null, "djnw": ["Revenue", "Profits and profitability"]},
     "TJX_2017q4": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": ["Product / Users", "Revenue"], "djnw": ["Revenue", "Product / Users"]},
-    "TJX_2018q1": {"contextual_analysis": ["Product / Users", "Revenue"], "wsj": null, "djnw": null},
-    "TJX_2018q2": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": null, "djnw": null},
-    "TJX_2018q3": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": null, "djnw": null}
+    "TJX_2018q1": {"contextual_analysis": ["Product / Users", "Revenue"], "wsj": null, "djnw": ["Guidance", "Profits and profitability"]},
+    "TJX_2018q2": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": null, "djnw": ["Revenue", "Product / Users"]},
+    "TJX_2018q3": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": null, "djnw": ["Revenue", "Product / Users"]}
   }
 }

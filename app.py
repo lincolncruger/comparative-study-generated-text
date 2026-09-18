@@ -76,6 +76,8 @@ GROUP_ABNORMAL_RETURNS_PATH = os.path.join(HERE, "data", "group_abnormal_returns
 GROUP_CONTEXT_PATH = os.path.join(HERE, "data", "group_context.json")
 GROUP_WSJ_COVERAGE_PATH = os.path.join(HERE, "data", "group_wsj_coverage.json")
 GROUP_DJNW_COVERAGE_PATH = os.path.join(HERE, "data", "group_djnw_coverage.json")
+MASSIVE_BENZINGA_COVERAGE_PATH = os.path.join(HERE, "data", "massive_benzinga_coverage.json")
+MASSIVE_NEWS_COVERAGE_PATH = os.path.join(HERE, "data", "massive_news_coverage.json")
 GROUP_PD_CATEGORIES_PATH = os.path.join(HERE, "data", "group_pd_categories.json")
 GROUP_FIRST_ORDER_CATEGORIES_PATH = os.path.join(HERE, "data", "group_first_order_categories.json")
 # The 11 fixed categories each of the 3 coverage sources (Contextualized
@@ -600,6 +602,22 @@ def load_group_djnw_coverage(mtime_marker):
     if not os.path.exists(GROUP_DJNW_COVERAGE_PATH):
         return {}
     with open(GROUP_DJNW_COVERAGE_PATH) as f:
+        return json.load(f)
+
+
+@st.cache_data
+def load_massive_benzinga_coverage(mtime_marker):
+    if not os.path.exists(MASSIVE_BENZINGA_COVERAGE_PATH):
+        return {}
+    with open(MASSIVE_BENZINGA_COVERAGE_PATH) as f:
+        return json.load(f)
+
+
+@st.cache_data
+def load_massive_news_coverage(mtime_marker):
+    if not os.path.exists(MASSIVE_NEWS_COVERAGE_PATH):
+        return {}
+    with open(MASSIVE_NEWS_COVERAGE_PATH) as f:
         return json.load(f)
 
 
@@ -1395,6 +1413,10 @@ group_context_lookup = load_group_context(_mtime(GROUP_CONTEXT_PATH))
 group_abnormal_returns_lookup = load_group_abnormal_returns(_mtime(GROUP_ABNORMAL_RETURNS_PATH))
 group_wsj_coverage_lookup = load_group_wsj_coverage(_mtime(GROUP_WSJ_COVERAGE_PATH))
 group_djnw_coverage_lookup = load_group_djnw_coverage(_mtime(GROUP_DJNW_COVERAGE_PATH))
+massive_benzinga_coverage_lookup = load_massive_benzinga_coverage(
+    _mtime(MASSIVE_BENZINGA_COVERAGE_PATH)
+)
+massive_news_coverage_lookup = load_massive_news_coverage(_mtime(MASSIVE_NEWS_COVERAGE_PATH))
 group_pd_categories_lookup = load_group_pd_categories(_mtime(GROUP_PD_CATEGORIES_PATH))
 group_first_order_categories_lookup = load_group_first_order_categories(
     _mtime(GROUP_FIRST_ORDER_CATEGORIES_PATH)
@@ -2068,6 +2090,13 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+third_column_source = st.radio(
+    "Third-column news source",
+    ["Dow Jones Newswires", "Massive / Benzinga", "Massive"],
+    horizontal=True,
+    key=f"third_column_source_{selected_ticker}",
+)
+
 company_info = company_info_lookup.get(selected_ticker)
 if company_info:
     st.markdown(
@@ -2138,7 +2167,7 @@ for idx, row in sub.iterrows():
         if viz_fig is not None:
             st.plotly_chart(viz_fig, use_container_width=True, key=f"viz_chart_{note_key}")
 
-    left, right = st.columns(2, gap="large")
+    left, right, djnw_col = st.columns(3, gap="large")
 
     # LEFT: what was already known/priced-in, from real web-search research
     # (or the legacy fallback -- see section 4 above for which one fires).
@@ -2239,5 +2268,59 @@ for idx, row in sub.iterrows():
             f"<strong>2. {Q2_QUESTION}</strong><br>{q2_answer}</p>"
         )
         st.markdown("</div>", unsafe_allow_html=True)
+
+    # Selectable third-column coverage. All datasets are cached locally;
+    # dashboard reruns never consume API calls.
+    with djnw_col:
+        third_column_labels = {
+            "Dow Jones Newswires": "Dow Jones Newswires Coverage",
+            "Massive / Benzinga": "Massive / Benzinga Coverage",
+            "Massive": "Massive Coverage",
+        }
+        third_column_label = third_column_labels[third_column_source]
+        st.markdown(
+            f"<div style='text-align:center; font-weight:bold;'>{third_column_label}</div>",
+            unsafe_allow_html=True,
+        )
+        third_column_lookups = {
+            "Dow Jones Newswires": group_djnw_coverage_lookup,
+            "Massive / Benzinga": massive_benzinga_coverage_lookup,
+            "Massive": massive_news_coverage_lookup,
+        }
+        source_entry = third_column_lookups[third_column_source].get(note_key)
+        if source_entry and (source_entry.get("summary_analysis") or source_entry.get("why_moved")):
+            if source_entry.get("summary_analysis"):
+                st.html(
+                    "<div class='context-heading'>Summary Analysis</div>"
+                    f"<p style='margin-bottom:0.8rem; text-align:justify;'>"
+                    f"{render_inline_markdown(source_entry['summary_analysis'])}</p>"
+                )
+            if source_entry.get("why_moved"):
+                st.html(
+                    "<div class='context-heading'>Why The Stock Moved</div>"
+                    f"<p style='margin-bottom:0.8rem; text-align:justify;'>"
+                    f"{render_inline_markdown(source_entry['why_moved'])}</p>"
+                )
+            source_links = "".join(
+                render_djnw_source_link_html(source)
+                for source in source_entry.get("sources", [])
+            )
+            if source_links:
+                st.html(source_links)
+        else:
+            st.write(f"*No {third_column_label} found for this observation.*")
+
+    if note_key in group_pd_categories_lookup:
+        action_spacer_l, pdcat_col, first_order_col, action_spacer_r = st.columns([1.5, 1, 1, 1.5])
+        with pdcat_col:
+            if st.button("PD Data Categories", key=f"main_pdcat_btn_{note_key}", use_container_width=True):
+                _show_pd_categories_dialog(note_key)
+        with first_order_col:
+            if st.button(
+                "First Order Categories",
+                key=f"main_first_order_btn_{note_key}",
+                use_container_width=True,
+            ):
+                _show_first_order_categories_dialog(note_key)
 
     st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)

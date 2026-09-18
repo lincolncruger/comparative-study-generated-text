@@ -13,6 +13,10 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Applied reported $2.45 billion of revenue and $0.34 of non-GAAP EPS, both above consensus."
       },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Equipment demand accelerated. OLED/display and 3D NAND created major new demand pools."
+      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. Applied reported $2.45 billion of revenue and $0.34 of non-GAAP EPS, both above consensus."
@@ -40,10 +44,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Equipment demand accelerated. OLED/display and 3D NAND created major new demand pools."
       }
     },
     "wsj": {
@@ -58,6 +58,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue beat expectations. Sales were $2.45 billion versus $2.43 billion expected."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Equipment demand accelerated. 3D NAND, OLED displays, and Chinese capacity expansion drove orders."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -86,13 +90,54 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Along with strong demand from customers in China building new manufacturing capacity."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Equipment demand accelerated. 3D NAND, OLED displays, and Chinese capacity expansion drove orders."
       }
     },
-    "djnw": null
+    "djnw": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance exceeded expectations. EPS of $0.46-$0.50 topped the $0.36 estimate, while projected sales of $2.84 billion beat $2.51 billion."
+      },
+      "Order book / order backlog": {
+        "rating": "positive",
+        "reason": "Orders surged to a 15-year high. New orders rose 37% annually and 52% sequentially to approximately $3.5 billion."
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue beat expectations. Sales were $2.45 billion versus the $2.43 billion analyst estimate."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Equipment demand accelerated. Customer spending on 3-D NAND memory and OLED display production tools drove orders."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Adjusted earnings beat expectations. EPS was $0.34 versus the $0.32 analyst estimate."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "positive",
+        "reason": "Customer investment strengthened. Spending increased for memory and display machinery, including new manufacturing capacity in China."
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management expected a major business rebound and described the 3-D NAND and OLED investment waves as sustainable for several years."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    }
   },
   "AMAT_2016q3": {
     "contextual_analysis": {
@@ -107,6 +152,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q3 revenue reached $2.82 billion, up about 13% year over year, and non-GAAP EPS was $0.50, above consensus near $0.48."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Equipment demand remained strong. NAND and OLED/display spending continued to broaden the cycle."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -135,10 +184,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Equipment demand remained strong. NAND and OLED/display spending continued to broaden the cycle."
       }
     },
     "wsj": {
@@ -153,6 +198,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. The article notes revenue itself \"disappointed the market,\" rising 13.3% to $2.82 billion versus the company's own forecast of roughly $2.84 billion in revenue and 46."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Equipment demand was strong. The manufacturing shift toward stacked chip circuitry supported record orders."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -181,13 +230,54 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Equipment demand was strong. The manufacturing shift toward stacked chip circuitry supported record orders."
       }
     },
-    "djnw": null
+    "djnw": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance far exceeded expectations. October-quarter adjusted EPS was forecast at $0.61-$0.69 versus $0.48 expected."
+      },
+      "Order book / order backlog": {
+        "rating": "positive",
+        "reason": "Demand visibility was exceptional. New orders and backlog reached all-time highs after orders had set a 15-year high one quarter earlier."
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue disappointed the market. Sales rose 13.3% to $2.82 billion but fell short of consensus."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Earnings beat expectations. Adjusted EPS rose to $0.50 from $0.33 and exceeded the analyst forecast."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management described record demand as the early stage of large, multiyear industry shifts creating future growth opportunities."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    }
   },
   "AMAT_2016q4": {
     "contextual_analysis": {
@@ -202,6 +292,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue narrowly missed expectations. Sales rose 39% to $3.30 billion but came in slightly below consensus."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -230,10 +324,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": {
@@ -248,6 +338,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue increased 39% to $3.3 billion, up 17% sequentially, beating the company's own guidance of 61 to 69 cents in earnings and 15% to 19% sequential revenue growth."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -276,13 +370,54 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
+      }
+    },
+    "djnw": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance beat expectations. Forecast EPS of $0.62-$0.70 and revenue of $3.20-$3.34 billion exceeded consensus."
       },
-      "Product": {
+      "Order book / order backlog": {
+        "rating": "negative",
+        "reason": "Orders missed expectations. New orders rose 25% to $3.03 billion but fell short of the $3.21 billion estimate."
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue grew strongly. Sales increased 39% year over year and 17% sequentially to $3.3 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Earnings improved sharply. Adjusted EPS rose to $0.66 from $0.29, while reported profit increased to $610 million."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
       }
-    },
-    "djnw": null
+    }
   },
   "AMAT_2017q1": {
     "contextual_analysis": {
@@ -297,6 +432,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q1 net sales were $3.28 billion, up 45% year over year, and non-GAAP EPS reached a record $0.67, up 158%."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Equipment demand was broad. Flash, foundry, 3D NAND, and OLED investment supported growth."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -325,10 +464,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Equipment demand was broad. Flash, foundry, 3D NAND, and OLED investment supported growth."
       }
     },
     "wsj": {
@@ -343,6 +478,10 @@
       "Revenue": {
         "rating": null,
         "reason": null
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Long-term equipment demand remained supportive. Analysts expected strong growth from semiconductor and OLED investment."
       },
       "Profits and profitability": {
         "rating": null,
@@ -371,10 +510,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "Cyclical risk concerned investors. The record order surge raised fears that equipment demand was near an unsustainable peak."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Long-term equipment demand remained supportive. Analysts expected strong growth from semiconductor and OLED investment."
       }
     },
     "djnw": null
@@ -392,6 +527,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q2 revenue increased 45% to a record $3.55 billion and non-GAAP EPS rose 132% to $0.79."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -420,10 +559,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": {
@@ -438,6 +573,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue surged 45% year over year to $3.5 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -466,10 +605,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "djnw": {
@@ -484,6 +619,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Adjusted earnings of 79 cents per share on revenue of $3.55 billion, topping analyst expectations of 76 cents and $3.54 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -512,10 +651,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     }
   },
@@ -532,6 +667,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q3 revenue rose 33% to a record $3.74 billion, GAAP EPS increased 85% to $0.85, and non-GAAP EPS rose 72% to $0.86."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Equipment demand broadened. DRAM and OLED spending added to the strong NAND cycle."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -560,29 +699,29 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Equipment demand broadened. DRAM and OLED spending added to the strong NAND cycle."
       }
     },
     "wsj": null,
     "djnw": {
       "Guidance": {
-        "rating": null,
-        "reason": null
+        "rating": "positive",
+        "reason": "Guidance exceeded consensus. Forecast EPS of $0.86-$0.94 and revenue of $3.85-$4.00 billion topped analyst estimates."
       },
       "Order book / order backlog": {
         "rating": null,
         "reason": null
       },
       "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue beat expectations. Sales increased 33% to $3.74 billion versus the $3.69 billion analyst estimate."
+      },
+      "Product / Users": {
         "rating": null,
         "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
-        "reason": "Quarterly results exceeded expectations. Dow Jones reported that the earnings release beat forecasts."
+        "reason": "Adjusted earnings beat expectations. EPS was $0.86 versus the $0.84 analyst estimate, while net income nearly doubled."
       },
       "Costs": {
         "rating": null,
@@ -597,8 +736,8 @@
         "reason": null
       },
       "Management": {
-        "rating": null,
-        "reason": null
+        "rating": "positive",
+        "reason": "Management described a strong fourth-quarter outlook supported by a broader set of demand drivers."
       },
       "Litigation": {
         "rating": null,
@@ -607,10 +746,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Which it attributes to a terrorist attack in Barcelona and rumors (later denied by the White House) that economic adviser Gary Cohn planned to resign."
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     }
   },
@@ -627,6 +762,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Applied reported record quarterly revenue of $3.97 billion, up 20%, and non-GAAP EPS of $0.93, up 41%."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -655,10 +794,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": {
@@ -673,6 +808,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Showed revenue up 20% year over year to $3.97 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Showed revenue up 20% year over year to $3.97 billion."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -701,13 +840,54 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Showed revenue up 20% year over year to $3.97 billion."
       }
     },
-    "djnw": null
+    "djnw": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "The outlook exceeded consensus. Forecast revenue of $4.0-$4.2 billion and EPS of $0.94-$1.02 topped expectations."
+      },
+      "Order book / order backlog": {
+        "rating": "positive",
+        "reason": "Demand visibility strengthened. Backlog increased 32% to $6.03 billion."
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue beat expectations. Sales rose 20% to $3.97 billion versus the $3.94 billion analyst estimate."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product demand was strong. Flash-memory tools expanded as a share of revenue, while display-equipment sales grew 50%."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Adjusted earnings beat expectations. EPS was $0.93 versus the $0.91 analyst estimate."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management expressed confidence in continued momentum and expected strong double-digit growth across all business lines in 2018."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    }
   },
   "AMAT_2018q1": {
     "contextual_analysis": {
@@ -722,6 +902,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q1 revenue rose 28% to a record $4.20 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -750,14 +934,55 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": null,
-    "djnw": null
+    "djnw": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Guidance exceeded expectations. Forecast EPS of $1.10-$1.18 and revenue of $4.35-$4.55 billion topped consensus."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue beat expectations. Sales rose 28% to $4.2 billion versus approximately $4.1-$4.12 billion expected."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Adjusted earnings beat expectations. EPS reached $1.06 versus approximately $0.98-$1.03 expected, and gross margin improved."
+      },
+      "Costs": {
+        "rating": "negative",
+        "reason": "A one-time U.S. tax-law charge hurt reported profit by $0.94 per share."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": "positive",
+        "reason": "Capital returns increased. Applied doubled its dividend to $0.20 and added $6 billion to its buyback authorization."
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management cited sustainable market strength driven by long-term semiconductor and display demand."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    }
   },
   "AMAT_2018q2": {
     "contextual_analysis": {
@@ -772,6 +997,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q2 revenue rose 29% to a record $4.57 billion and non-GAAP EPS increased 54% to $1.22, both above consensus."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Equipment demand weakened. Management cited delays and slower display and memory spending tied to high-end smartphones."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -800,14 +1029,55 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Equipment demand weakened. Management cited delays and slower display and memory spending tied to high-end smartphones."
       }
     },
     "wsj": null,
-    "djnw": null
+    "djnw": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Display guidance disappointed. Applied forecast a 15%-20% decline in display-business revenue during 2019."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Quarterly sales beat expectations. The article reports that Applied Materials exceeded second-quarter sales estimates."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Display demand weakened. Management expected display-business revenue to decline 15%-20% in 2019."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Adjusted earnings beat expectations. The article reports that second-quarter adjusted profit exceeded estimates."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "negative",
+        "reason": "Customer investment weakened. The display forecast reflected reduced customer spending plans for OLED equipment."
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    }
   },
   "AMAT_2018q3": {
     "contextual_analysis": {
@@ -822,6 +1092,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q3 revenue increased 19% to $4.47 billion and non-GAAP EPS rose 40% to $1.20, both better than consensus."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Equipment demand remained uncertain. Memory and foundry spending and customer shipment timing weakened the near-term view."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -850,13 +1124,54 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Equipment demand remained uncertain. Memory and foundry spending and customer shipment timing weakened the near-term view."
       }
     },
     "wsj": null,
-    "djnw": null
+    "djnw": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Guidance missed expectations. Forecast EPS of $0.92-$1.00 and revenue of $3.85-$4.15 billion trailed $1.17 and $4.46 billion expected."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue beat expectations. Sales were $4.47 billion versus the $4.43 billion analyst estimate."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Adjusted earnings beat expectations. EPS was $1.20 versus the $1.17 analyst estimate."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    }
   }
 }

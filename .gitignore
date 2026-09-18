@@ -2,6 +2,10 @@ __pycache__/
 *.pyc
 .DS_Store
 .streamlit/
+.env
+.env.*
+!.env.example
+Massive:Benzinga API/
 wsj_scraper/venv/
 wsj_scraper/browser_profile/
 wsj_scraper/output/

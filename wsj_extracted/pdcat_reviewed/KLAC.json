@@ -8,7 +8,16 @@
     "KLAC_2017q3": {"contextual_analysis": {"Order book / order backlog": {"rating": "positive", "reason": "Demand visibility remained strong. New orders again exceeded $1 billion and shipments reached a record $971 million."}, "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Positioning likely dominated the reaction. No valid source identified an operating disappointment despite the beat."}}},
     "KLAC_2017q4": {"contextual_analysis": {"Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Expectations likely limited the reaction. No valid source identified a weak operating catalyst despite record results."}}},
     "KLAC_2018q1": {"contextual_analysis": {"Management": {"rating": null, "reason": null}, "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "No company-specific negative catalyst was verified. The slight decline occurred despite record adjusted earnings and revenue."}}},
-    "KLAC_2018q2": {"contextual_analysis": {"Guidance": {"rating": null, "reason": null}, "Management": {"rating": null, "reason": null}, "Others: eg. Covid, or macro events": {"rating": "neutral", "reason": "The Orbotech acquisition broadened KLA's markets but introduced integration risk."}}}
+    "KLAC_2018q2": {"contextual_analysis": {"Guidance": {"rating": null, "reason": null}, "Management": {"rating": null, "reason": null}, "Others: eg. Covid, or macro events": {"rating": "neutral", "reason": "The Orbotech acquisition broadened KLA's markets but introduced integration risk."}}},
+    "KLAC_2018q3": {
+      "djnw": {
+        "Order book / order backlog": {"rating": "positive", "reason": "Demand indicators were strong. KLA-Tencor recorded its second-highest quarterly bookings and record shipments."},
+        "Revenue": {"rating": "positive", "reason": "Revenue beat expectations. Quarterly sales reached a record $1.07 billion versus the $1.05 billion analyst estimate."},
+        "Profits and profitability": {"rating": "positive", "reason": "Earnings beat expectations. Adjusted EPS reached a record $2.22 versus the $2.13 analyst estimate."},
+        "Costs": {"rating": "positive", "reason": "The Orbotech transaction offered potential savings. KLA-Tencor expected about $50 million of annual cost synergies after closing."},
+        "Management": {"rating": "positive", "reason": "Management highlighted broad execution records in quarterly shipments, revenue, and both GAAP and adjusted diluted EPS."}
+      }
+    }
   },
   "first_order": {
     "KLAC_2016q2": {"contextual_analysis": null, "wsj": null, "djnw": null},
@@ -20,6 +29,6 @@
     "KLAC_2017q4": {"contextual_analysis": null, "wsj": null, "djnw": null},
     "KLAC_2018q1": {"contextual_analysis": null, "wsj": null, "djnw": null},
     "KLAC_2018q2": {"contextual_analysis": null, "wsj": null, "djnw": null},
-    "KLAC_2018q3": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": null, "djnw": null}
+    "KLAC_2018q3": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": null, "djnw": ["Revenue", "Profits and profitability"]}
   }
 }

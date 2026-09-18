@@ -2,11 +2,39 @@
   "reviewed_observations": ["CAT_2016q2", "CAT_2016q3", "CAT_2016q4", "CAT_2017q1", "CAT_2017q2", "CAT_2017q3", "CAT_2017q4", "CAT_2018q1", "CAT_2018q2", "CAT_2018q3"],
   "pd_overrides": {
     "CAT_2016q2": {"wsj": {"Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Expectations limited the reaction. Shares had already rallied about one-third from their January low before the guidance cut."}}},
-    "CAT_2016q3": {"contextual_analysis": {"Costs": {"rating": "positive", "reason": "Cost control supported earnings. Restructuring produced better profit resilience than the 16% sales decline implied."}}},
-    "CAT_2016q4": {"contextual_analysis": {"Revenue": {"rating": "negative", "reason": "Revenue remained weak. Sales were $9.16 billion and management lowered its 2016 outlook again."}}},
+    "CAT_2016q3": {
+      "contextual_analysis": {"Costs": {"rating": "positive", "reason": "Cost control supported earnings. Restructuring produced better profit resilience than the 16% sales decline implied."}},
+      "djnw": {
+        "Order book / order backlog": {"rating": "positive", "reason": "Mining demand showed early improvement. Dealers reported increased inquiries for equipment-rebuild activity."},
+        "Revenue": {"rating": "positive", "reason": "Oil-related sales were beginning to improve year over year despite remaining near a low base."},
+        "Capex": {"rating": "negative", "reason": "The capital-spending outlook remained weak. Consensus expected global aggregate capex to decline in 2016 and 2017."},
+        "Management": {"rating": "neutral", "reason": "Management's conference-call tone was realistic about the difficult macro environment."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "The macro environment remained difficult and the timing of a broader mining and energy recovery was uncertain."}
+      }
+    },
+    "CAT_2016q4": {
+      "contextual_analysis": {"Revenue": {"rating": "negative", "reason": "Revenue remained weak. Sales were $9.16 billion and management lowered its 2016 outlook again."}},
+      "djnw": {
+        "Order book / order backlog": {"rating": "negative", "reason": "Orders remained weak. The company reported no increase in orders for new equipment."},
+        "Revenue": {"rating": "negative", "reason": "Revenue missed expectations. Sales fell 16% to $9.16 billion versus the $9.87 billion analyst estimate."},
+        "Profits and profitability": {"rating": "negative", "reason": "Profit declined. Adjusted EPS fell to $0.85 from $1.05, while reported profit dropped to $283 million."},
+        "Guidance": {"rating": "negative", "reason": "Guidance was reduced. Caterpillar cut adjusted EPS to $3.25 from $3.55 and revenue to $39 billion from $40-$40.5 billion."},
+        "Costs": {"rating": "positive", "reason": "Operating costs improved. Third-quarter operating costs fell approximately 14%."},
+        "Management": {"rating": "negative", "reason": "Management remained cautious. It said early-2017 risks leaned negative and weak equipment sales could persist into 2017."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Macro conditions remained difficult. Weak commodity demand, slower Chinese growth and global uncertainty continued to pressure equipment sales."}
+      }
+    },
     "CAT_2017q1": {
       "contextual_analysis": {"Profits and profitability": {"rating": "positive", "reason": "Adjusted earnings were resilient. Underlying profit was substantially better than the GAAP loss distorted by restructuring and noncash charges."}},
-      "wsj": {"Profits and profitability": {"rating": "positive", "reason": "Adjusted earnings beat expectations. The underlying result exceeded consensus despite a large reported loss."}, "Costs": {"rating": "negative", "reason": "Charges hurt reported earnings. Restructuring and noncash items produced a large GAAP loss."}}
+      "wsj": {"Profits and profitability": {"rating": "positive", "reason": "Adjusted earnings beat expectations. The underlying result exceeded consensus despite a large reported loss."}, "Costs": {"rating": "negative", "reason": "Charges hurt reported earnings. Restructuring and noncash items produced a large GAAP loss."}},
+      "djnw": {
+        "Revenue": {"rating": "negative", "reason": "The sales trajectory remained weak. The outlook implied a possible fifth consecutive year of revenue declines."},
+        "Profits and profitability": {"rating": "negative", "reason": "Profit was burdened by approximately $1 billion of restructuring costs and large pension and goodwill write-downs in 2016."},
+        "Guidance": {"rating": "negative", "reason": "The outlook was trimmed. Caterpillar forecast $36-$39 billion of 2017 revenue, with the midpoint below its previous indication."},
+        "Costs": {"rating": "negative", "reason": "Restructuring remained costly. Caterpillar expected about $500 million in 2017 costs, with some potential facility reductions excluded."},
+        "Management": {"rating": "neutral", "reason": "The new CEO cited positive activity in some end markets but said the overall economic environment remained challenging."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Currency conditions were unfavorable. Caterpillar blamed the strengthening dollar for adding pressure to its 2017 outlook."}
+      }
     },
     "CAT_2017q2": {"wsj": {"Profits and profitability": {"rating": "positive", "reason": "Earnings beat expectations. The strong profit result accompanied Caterpillar's first sales increase since 2015."}}},
     "CAT_2017q4": {"djnw": {"Guidance": {"rating": "positive", "reason": "Guidance improved. Caterpillar raised its full-year sales and adjusted-profit outlook after the beat."}}},
@@ -18,9 +46,9 @@
   },
   "first_order": {
     "CAT_2016q2": {"contextual_analysis": ["Guidance", "Profits and profitability"], "wsj": ["Others: eg. Covid, or macro events"], "djnw": ["Guidance"]},
-    "CAT_2016q3": {"contextual_analysis": ["Profits and profitability", "Costs"], "wsj": null, "djnw": null},
-    "CAT_2016q4": {"contextual_analysis": ["Guidance", "Revenue"], "wsj": ["Guidance", "Revenue"], "djnw": null},
-    "CAT_2017q1": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": ["Revenue", "Guidance"], "djnw": null},
+    "CAT_2016q3": {"contextual_analysis": ["Profits and profitability", "Costs"], "wsj": null, "djnw": ["Order book / order backlog", "Revenue"]},
+    "CAT_2016q4": {"contextual_analysis": ["Guidance", "Revenue"], "wsj": ["Guidance", "Revenue"], "djnw": ["Revenue", "Guidance"]},
+    "CAT_2017q1": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": ["Revenue", "Guidance"], "djnw": ["Guidance", "Costs"]},
     "CAT_2017q2": {"contextual_analysis": ["Profits and profitability", "Guidance"], "wsj": ["Revenue", "Guidance"], "djnw": ["Profits and profitability", "Guidance"]},
     "CAT_2017q3": {"contextual_analysis": ["Profits and profitability", "Guidance"], "wsj": ["Profits and profitability", "Guidance"], "djnw": ["Profits and profitability", "Guidance"]},
     "CAT_2017q4": {"contextual_analysis": ["Profits and profitability", "Guidance"], "wsj": ["Revenue", "Guidance"], "djnw": ["Profits and profitability", "Revenue"]},

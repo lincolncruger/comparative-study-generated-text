@@ -13,6 +13,10 @@
         "rating": "neutral",
         "reason": "Revenue was essentially flat. Sales remained near $2.0 billion as lower realized gold prices offset stronger operations."
       },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Attributable gold production was about 1.23 million ounces."
+      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Earnings beat expectations. Adjusted EPS was $0.34 versus approximately $0.20 expected."
@@ -40,10 +44,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Attributable gold production was about 1.23 million ounces."
       }
     },
     "wsj": {
@@ -58,6 +58,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue rose 3% to $2.03 billion versus an expected $1.87 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Production increased. Gold output rose 3% to 1.23 million ounces and copper output reached 38,000 metric tons."
       },
       "Profits and profitability": {
         "rating": "neutral",
@@ -86,13 +90,54 @@
       "Others: eg. Covid, or macro events": {
         "rating": "neutral",
         "reason": "Commodity conditions were mixed. Gold benefited from safe-haven demand, while copper remained affected by China's slowdown."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Production increased. Gold output rose 3% to 1.23 million ounces and copper output reached 38,000 metric tons."
       }
     },
-    "djnw": null
+    "djnw": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": null,
+        "reason": null
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Operating earnings beat expectations. The roundup says Newmont exceeded Wall Street's operating-profit targets."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "Gold-market conditions improved. Rising gold prices strengthened Newmont's outlook despite a broader materials-sector decline."
+      }
+    }
   },
   "NEM_2016q3": {
     "contextual_analysis": {
@@ -107,6 +152,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. The result beat contemporaneous earnings and revenue expectations."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Attributable gold production was about 1.3 million ounces."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -135,14 +184,55 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Attributable gold production was about 1.3 million ounces."
       }
     },
     "wsj": null,
-    "djnw": null
+    "djnw": {
+      "Guidance": {
+        "rating": "negative",
+        "reason": "Production guidance was reduced. Newmont lowered near-term gold and copper forecasts following the planned Indonesian mine-stake sale."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue beat expectations. Sales rose 6.8% to $2.04 billion versus the $1.92 billion analyst forecast."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Gold production exceeded expectations. Output reached 1.3 million ounces versus one analyst's 1.24 million-ounce estimate."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Adjusted earnings beat expectations. EPS was $0.44 versus estimates of approximately $0.28-$0.29."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Mining costs beat expectations. AISC was $876 per ounce versus one analyst's $952 estimate, and cost guidance improved slightly."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": "neutral",
+        "reason": "Capital spending was in line. Capex of $294 million compared with one analyst's $298 million forecast."
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "neutral",
+        "reason": "Commodity effects were mixed. Higher gold prices helped, while lower copper prices reflected China weakness and a stronger dollar."
+      }
+    }
   },
   "NEM_2016q4": {
     "contextual_analysis": {
@@ -157,6 +247,10 @@
       "Revenue": {
         "rating": null,
         "reason": null
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Production was about 1.25 million ounces."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -185,10 +279,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Weaker unit-cost economics."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Production was about 1.25 million ounces."
       }
     },
     "wsj": {
@@ -203,6 +293,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue missed expectations. Sales were $1.79 billion versus approximately $1.9 billion expected."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Gold production rose 3.4% to 1.25 million ounces with realized prices up 20% to $1,329 a troy ounce."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -231,10 +325,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Gold production rose 3.4% to 1.25 million ounces with realized prices up 20% to $1,329 a troy ounce."
       }
     },
     "djnw": null
@@ -252,6 +342,10 @@
       "Revenue": {
         "rating": "neutral",
         "reason": "Revenue increased, but the coverage identifies no top-line surprise. Quarterly sales were approximately $1.79 billion."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -280,10 +374,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": {
@@ -298,6 +388,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue rose 23% to $1.79 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Newmont said it now expects 2017 production of 4.9 million to 5.4 million ounces of gold, up from 4.9 million in 2016."
       },
       "Profits and profitability": {
         "rating": "neutral",
@@ -326,10 +420,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Newmont said it now expects 2017 production of 4.9 million to 5.4 million ounces of gold, up from 4.9 million in 2016."
       }
     },
     "djnw": null
@@ -347,6 +437,10 @@
       "Revenue": {
         "rating": null,
         "reason": null
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Attributable gold production increased about 9% to 1.23 million ounces."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -375,14 +469,55 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Attributable gold production increased about 9% to 1.23 million ounces."
       }
     },
     "wsj": null,
-    "djnw": null
+    "djnw": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "negative",
+        "reason": "Revenue missed expectations despite growing. Sales increased 13% but remained below Wall Street's forecast."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Production strengthened. Higher gold output helped drive the 13% revenue increase."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Adjusted earnings beat expectations. The article reports that EPS exceeded analyst estimates."
+      },
+      "Costs": {
+        "rating": null,
+        "reason": null
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": null,
+        "reason": null
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "positive",
+        "reason": "Commodity prices supported results. Gold rose 2% year over year and copper increased 32%."
+      }
+    }
   },
   "NEM_2017q3": {
     "contextual_analysis": {
@@ -397,6 +532,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. The same-day surge reflected a clear earnings/revenue beat plus improved production and cost guidance."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Attributable gold production increased 13% to about 1.4 million ounces."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -425,14 +564,55 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Attributable gold production increased 13% to about 1.4 million ounces."
       }
     },
     "wsj": null,
-    "djnw": null
+    "djnw": {
+      "Guidance": {
+        "rating": "positive",
+        "reason": "Operational guidance improved. Newmont raised gold-production expectations and lowered its 2017 cost outlook."
+      },
+      "Order book / order backlog": {
+        "rating": null,
+        "reason": null
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue beat expectations. Sales were $1.88 billion versus the $1.77 billion analyst forecast."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Production expectations improved. Newmont raised 2017 gold-output guidance after operational gains across several regions."
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Earnings beat expectations. EPS was $0.46 versus the $0.26 analyst forecast."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "Cost performance beat expectations. Better costs helped drive the earnings beat, and full-year cost guidance was reduced."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management expected technical improvements and investments in value-enhancing technology to sustain strong performance."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": "negative",
+        "reason": "Gold prices declined during the session, but Newmont's company-specific earnings strength outweighed the commodity move."
+      }
+    }
   },
   "NEM_2017q4": {
     "contextual_analysis": {
@@ -447,6 +627,10 @@
       "Revenue": {
         "rating": null,
         "reason": null
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Production increased about 7% to 1.3 million ounces."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -475,10 +659,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "Commodity pricing weakened. Newmont's realized gold price declined approximately 4% to $1,276 per ounce."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Production increased about 7% to 1.3 million ounces."
       }
     },
     "wsj": null,
@@ -497,6 +677,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. Q4 revenue was roughly $1.94 billion, up year over year but slightly below the Zacks estimate cited in contemporaneous coverage."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "neutral",
@@ -525,10 +709,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "neutral",
         "reason": "Tax reform created accounting noise. Related charges made GAAP earnings less informative than adjusted results."
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": null,
@@ -547,6 +727,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. A higher realized gold price supported revenue but masked some deterioration in mine-level costs."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Attributable gold production was about 1.21 million ounces, down modestly."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -575,10 +759,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Attributable gold production was about 1.21 million ounces, down modestly."
       }
     },
     "wsj": null,
@@ -597,6 +777,10 @@
       "Revenue": {
         "rating": null,
         "reason": null
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Production weakened. Gold output fell to about 1.16 million ounces as several mines produced less."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -625,10 +809,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Production weakened. Gold output fell to about 1.16 million ounces as several mines produced less."
       }
     },
     "wsj": null,

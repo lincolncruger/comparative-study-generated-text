@@ -13,6 +13,14 @@
         "Product / Users": {"rating": "negative", "reason": "Shipment volume declined. Cigarette volume fell 1.4%, including a 7% drop in Asia."},
         "Profits and profitability": {"rating": "negative", "reason": "Earnings missed expectations. EPS was $0.98 versus approximately $1.11 expected."},
         "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Currency remained a headwind. Reported revenue fell 8.1% despite 2.4% growth excluding currency and acquisitions."}
+      },
+      "djnw": {
+        "Revenue": {"rating": "negative", "reason": "Revenue missed expectations. Sales excluding excise taxes were $6.08 billion versus the $6.34 billion analyst forecast."},
+        "Product / Users": {"rating": "negative", "reason": "Shipment demand weakened. Cigarette volume fell 1.4% to 196 billion units, including a 7% decline in Asia."},
+        "Profits and profitability": {"rating": "negative", "reason": "Earnings missed expectations. EPS was $0.98 versus the $1.11 analyst forecast, while profit declined to $1.53 billion."},
+        "Guidance": {"rating": "neutral", "reason": "Guidance improved but remained below consensus. EPS was raised to $4.40-$4.50 from $4.25-$4.35 versus $4.48 expected."},
+        "Management": {"rating": "neutral", "reason": "Management cited robust pricing and moderating industry volume declines but expected most annual growth late in the year."},
+        "Others: eg. Covid, or macro events": {"rating": "neutral", "reason": "Currency pressure was easing and supported higher reported guidance, although foreign exchange still weighed on reported revenue."}
       }
     },
     "PM_2016q3": {
@@ -60,9 +68,11 @@
         "Management": {"rating": "neutral", "reason": "Management attributed part of the volume decline to low-price brands and shipment timing."}
       },
       "djnw": {
-        "Guidance": {"rating": null, "reason": null},
+        "Guidance": {"rating": "positive", "reason": "Full-year guidance leaned above expectations. EPS of $4.84-$4.99 compared with the $4.88 consensus."},
         "Revenue": {"rating": null, "reason": null},
-        "Profits and profitability": {"rating": "negative", "reason": "Earnings fell short of expectations. Dow Jones cited the profit disappointment as the reason shares declined."}
+        "Product / Users": {"rating": "negative", "reason": "Combustible-cigarette demand was weak. Wells Fargo described secular cigarette-volume pressure as a central quarterly challenge."},
+        "Profits and profitability": {"rating": "negative", "reason": "Earnings missed expectations. Adjusted EPS was $0.98 versus the $1.03 forecast."},
+        "Costs": {"rating": "positive", "reason": "Margin protection remained supportive. Wells Fargo expected strong pricing and cost management to offset cigarette-volume weakness."}
       }
     },
     "PM_2017q3": {
@@ -83,6 +93,13 @@
         "Revenue": {"rating": "negative", "reason": "Revenue missed expectations despite increasing 7% to approximately $7.47 billion."},
         "Product / Users": {"rating": "neutral", "reason": "Shipment trends were mixed. Cigarette volume fell 4.1%, while heated-tobacco growth kept combined volume nearly flat."},
         "Profits and profitability": {"rating": "negative", "reason": "Adjusted EPS of approximately $1.27 missed consensus."}
+      },
+      "djnw": {
+        "Revenue": {"rating": "negative", "reason": "Revenue missed expectations. Sales were $7.5 billion versus the $7.7 billion analyst forecast."},
+        "Product / Users": {"rating": "neutral", "reason": "Demand was mixed. Cigarette volume fell 4.1%, while IQOS added 3.7 percentage points to total volume growth."},
+        "Profits and profitability": {"rating": "negative", "reason": "Earnings missed expectations. EPS was $1.27 versus the $1.38 analyst forecast."},
+        "Guidance": {"rating": "negative", "reason": "Guidance fell below expectations. Full-year EPS of $4.75-$4.80 trailed the $4.84 consensus."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Currency was a larger-than-expected headwind and added pressure to the quarterly results and annual outlook."}
       }
     },
     "PM_2018q1": {
@@ -115,13 +132,13 @@
     }
   },
   "first_order": {
-    "PM_2016q2": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": ["Revenue", "Profits and profitability"], "djnw": null},
+    "PM_2016q2": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": ["Revenue", "Profits and profitability"], "djnw": ["Profits and profitability", "Revenue"]},
     "PM_2016q3": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": ["Profits and profitability", "Product / Users"], "djnw": null},
     "PM_2016q4": {"contextual_analysis": ["Profits and profitability", "Guidance"], "wsj": null, "djnw": null},
     "PM_2017q1": {"contextual_analysis": ["Revenue", "Guidance"], "wsj": ["Product / Users", "Guidance"], "djnw": null},
     "PM_2017q2": {"contextual_analysis": ["Profits and profitability", "Product / Users"], "wsj": null, "djnw": ["Profits and profitability"]},
     "PM_2017q3": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": null, "djnw": ["Guidance", "Revenue"]},
-    "PM_2017q4": {"contextual_analysis": ["Guidance", "Profits and profitability"], "wsj": null, "djnw": null},
+    "PM_2017q4": {"contextual_analysis": ["Guidance", "Profits and profitability"], "wsj": null, "djnw": ["Guidance", "Revenue"]},
     "PM_2018q1": {"contextual_analysis": ["Guidance", "Product / Users"], "wsj": null, "djnw": null},
     "PM_2018q2": {"contextual_analysis": ["Product / Users"], "wsj": null, "djnw": ["Revenue", "Guidance"]},
     "PM_2018q3": {"contextual_analysis": ["Guidance", "Product / Users"], "wsj": ["Guidance", "Product / Users"], "djnw": null}

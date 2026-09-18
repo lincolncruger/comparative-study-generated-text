@@ -1,4 +1,24 @@
 {
+  "ACCO_2019q3": {
+    "ticker": "ACCO",
+    "group": "Group 3",
+    "company_name": "ACCO Brands",
+    "fiscal_yearquarter": "2019q3",
+    "earnings_date": "2019-07-30",
+    "contextual_analysis": null,
+    "wsj": null,
+    "djnw": {
+      "summary_analysis": "ACCO Brands reported second-quarter sales of $518.7 million, up 4% and above the $494.2 million FactSet consensus. Comparable sales increased 4.4% as pricing more than offset lower volume. Adjusted EPS was $0.36 versus $0.32 expected. ACCO improved its 2019 sales outlook to flat from flat to down 3% and raised the lower end of adjusted EPS guidance to $1.15 from $1.10, retaining a $1.20 upper end.",
+      "why_moved": "ACCO shares rose 13% to $9.18 after adjusted earnings exceeded expectations and management improved its full-year sales and EPS guidance. The article's headline explicitly identifies earnings and guidance as the drivers, while the sales beat reinforced the positive reaction.",
+      "sources": [
+        {
+          "title": "ACCO Brands Up 13% After Earning, Guidance >ACCO",
+          "published_date": "2019-07-31",
+          "document_id": "DJDN000020190731ef7v002ql"
+        }
+      ]
+    }
+  },
   "NVDA_2016q2": {
     "ticker": "NVDA",
     "group": "Group 1",

@@ -1,4 +1,395 @@
 {
+  "ACCO_2019q3": {
+    "summary_analysis": "ACCO Brands reported second-quarter sales of $518.7 million, up 4% and above the $494.2 million FactSet consensus. Comparable sales increased 4.4% as pricing more than offset lower volume. Adjusted EPS was $0.36 versus $0.32 expected. ACCO improved its 2019 sales outlook to flat from flat to down 3% and raised the lower end of adjusted EPS guidance to $1.15 from $1.10, retaining a $1.20 upper end.",
+    "why_moved": "ACCO shares rose 13% to $9.18 after adjusted earnings exceeded expectations and management improved its full-year sales and EPS guidance. The article's headline explicitly identifies earnings and guidance as the drivers, while the sales beat reinforced the positive reaction.",
+    "sources": [
+      {
+        "title": "ACCO Brands Up 13% After Earning, Guidance >ACCO",
+        "published_date": "2019-07-31",
+        "document_id": "DJDN000020190731ef7v002ql"
+      }
+    ]
+  },
+  "ISRG_2018q3": {
+    "summary_analysis": "Intuitive Surgical reported second-quarter net income of $255.3 million, or $2.15 per share, versus $223 million, or $1.94, a year earlier. Adjusted EPS was $2.76, above the $2.50 FactSet estimate. Revenue increased to $909.3 million from $758.8 million and exceeded the $876 million consensus. For the third quarter, analysts modeled adjusted EPS of $2.56 on revenue of $893 million, but the article did not provide company guidance.",
+    "why_moved": "Intuitive Surgical shares rose 3.1% in extended trading after adjusted EPS of $2.76 exceeded the $2.50 estimate and revenue of $909.3 million topped the $876 million consensus. The article directly attributes the advance toward record territory to the earnings and revenue beats.",
+    "sources": [
+      {"title": "Intuitive Surgical Stock Rises After Earnings Beat -- MarketWatch", "published_date": "2018-07-19", "document_id": "DJDN000020180719ee7j003zq"}
+    ]
+  },
+  "ISRG_2018q2": {
+    "summary_analysis": "Intuitive Surgical reported first-quarter revenue of $848 million, up 25% and well above the $777 million analyst estimate. Net and adjusted EPS were $2.44, compared with adjusted EPS of $1.71 a year earlier and the $2.07 consensus. The revenue beat was driven by 185 da Vinci system sales versus 144 expected and 133 sold in the prior-year quarter.",
+    "why_moved": "Intuitive Surgical shares jumped approximately 6% after hours toward record territory after robot sales substantially exceeded expectations and drove revenue well above consensus. EPS also beat estimates by a wide margin, reinforcing the reaction after the stock had already gained 4.1% during regular trading.",
+    "sources": [
+      {"title": "Intuitive Surgical Stock Surges Toward Record Highs After Earnings -- MarketWatch", "published_date": "2018-04-17", "document_id": "DJDN000020180417ee4h003b6"}
+    ]
+  },
+  "ISRG_2018q1": {
+    "summary_analysis": "Intuitive Surgical's fourth-quarter results were driven by growth in U.S. general-surgery procedures and worldwide urologic procedures. The company shipped 216 da Vinci systems versus 163 a year earlier. Revenue increased 18% to $892 million, above the $850.6 million analyst estimate, while adjusted EPS of $2.54 exceeded the $2.27 consensus. A $318 million charge related to the new tax law produced a reported loss of $39 million, or $0.35 per share, versus a $204 million profit a year earlier. Cash, equivalents and investments ended the quarter at $3.8 billion, up $45 million sequentially.",
+    "why_moved": "Intuitive Surgical shares fell 3.6% after hours despite revenue and adjusted EPS beating expectations and strong procedure and system growth. Although the article notes a $318 million tax-law charge and a reported loss, it does not attribute the stock decline to that charge or identify another catalyst, so no first-order category is implied.",
+    "sources": [
+      {"title": "Intuitive Surgical Grows on U.S. Demand", "published_date": "2018-01-25", "document_id": "DJDN000020180125ee1p003o7"}
+    ]
+  },
+  "ISRG_2017q1": {
+    "summary_analysis": "Intuitive Surgical reported double-digit fourth-quarter revenue growth and higher year-over-year profit as results broadly exceeded projections. Revenue rose 12% to $756.9 million, while profit increased 7% to $204 million, or $5.13 per share. Adjusted EPS rose to $6.09 from $5.89, and gross margin improved to 69.7% from 67.8%. Profit nevertheless declined sequentially as the company increased spending, with operating costs rising 23% to $262.8 million. Intuitive also entered a $2 billion accelerated share-repurchase program.",
+    "why_moved": "Intuitive Surgical shares rose 2% to $680.94 after hours as quarterly results largely exceeded projections and the company announced a $2 billion accelerated buyback. Higher revenue, adjusted EPS and gross margin supported the reaction, while increased operating spending was the principal negative offset.",
+    "sources": [
+      {"title": "Intuitive Surgical Profit Rises 7%", "published_date": "2017-01-24", "document_id": "DJDN000020170124ed1o004ij"}
+    ]
+  },
+  "ISRG_2016q4": {
+    "summary_analysis": "Intuitive Surgical reported strong third-quarter growth. Profit increased 26% to $211 million, or $5.31 per share, from $167.3 million, or $4.40, while adjusted EPS rose to $6.19 from $5.24 and exceeded the $5.15 analyst estimate. The company shipped 134 da Vinci systems versus 117 a year earlier, and procedures increased approximately 14% on growth in U.S. general surgery and worldwide urology. The article also described strong revenue growth and noted a new catheter-device joint venture requiring contributions of up to $100 million.",
+    "why_moved": "Intuitive Surgical shares fell 2.3% to $705 after hours despite adjusted EPS substantially exceeding expectations and continued growth in systems, procedures, revenue and profit. The article reports the decline but provides no negative catalyst or causal explanation, so no first-order category can be established from this coverage.",
+    "sources": [
+      {"title": "Intuitive Surgical Profit Rises 26%", "published_date": "2016-10-18", "document_id": "DJDN000020161018ecai003vs"}
+    ]
+  },
+  "ISRG_2016q3": {
+    "summary_analysis": "Intuitive Surgical easily exceeded second-quarter expectations as U.S. demand for da Vinci systems and surgical procedures remained strong. Worldwide da Vinci procedure growth was approximately 16%, and the company shipped 130 systems versus 118 a year earlier. Total revenue rose 14% to $670.1 million and service revenue increased about 13% to $128 million. Profit rose to $184.5 million, or $4.71 per share, while adjusted EPS increased to $5.62 and exceeded estimates of roughly $4.97-$4.99. Revenue also beat forecasts of approximately $640.7-$642 million.",
+    "why_moved": "Intuitive Surgical shares climbed approximately 4.9%-5% after hours to a record above $700 after adjusted EPS and revenue substantially exceeded expectations. The fuller Dow Jones report attributes the outperformance to solid U.S. system demand, rising surgical procedures and higher worldwide urologic procedures.",
+    "sources": [
+      {"title": "Intuitive Surgical jumps to record high after earnings", "published_date": "2016-07-19", "document_id": "RTNW000020160719ec7j000hx"},
+      {"title": "Intuitive Surgical Tops Expectations", "published_date": "2016-07-19", "document_id": "DJDN000020160719ec7j0049b"}
+    ]
+  },
+  "NEM_2017q3": {
+    "summary_analysis": "Newmont reported second-quarter EPS of $0.46, well above the $0.26 forecast, and revenue of $1.88 billion versus $1.77 billion expected. Morgan Stanley said the beat was driven by better-than-expected sales and costs. Newmont also raised its 2017 gold-production guidance and lowered cost guidance because of higher production and mining and processing improvements across North America, Africa and Australia. Management expected technical improvements and investments in value-enhancing technology to sustain the performance.",
+    "why_moved": "Newmont shares surged 6.8% to $36.20 after earnings and revenue exceeded expectations, with better sales and cost performance identified as the underlying drivers. Higher production guidance and lower cost guidance reinforced the reaction even as gold prices declined and gold-mining benchmarks rose much less.",
+    "sources": [
+      {"title": "Newmont Mining: There's Gold In Them There Earnings -- Barron's Blog", "published_date": "2017-07-25"}
+    ]
+  },
+  "NEM_2017q2": {
+    "summary_analysis": "Newmont's first-quarter revenue increased 13%, supported by higher gold production and stronger commodity prices. Gold prices were up 2% year over year and copper prices rose 32%. Despite the top-line growth, revenue fell short of Wall Street expectations, while adjusted EPS exceeded estimates.",
+    "why_moved": "Newmont shares were little changed at $33.58 in extended trading as the adjusted EPS beat was offset by revenue below expectations. Higher gold production and stronger gold and copper prices supported results, but the article reports no meaningful directional stock reaction and therefore implies no first-order category.",
+    "sources": [{"title": "Gold Prices, Production Lift Newmont's Top Line -- Market Talk", "published_date": "2017-04-24"}]
+  },
+  "NEM_2016q3": {
+    "summary_analysis": "Newmont reported second-quarter adjusted EPS of $0.44, above estimates of approximately $0.28-$0.29, and revenue of $2.04 billion versus $1.92 billion expected. Gold production rose to 1.3 million ounces and exceeded one analyst's 1.24 million-ounce estimate, while all-in sustaining cost of $876 per ounce was better than the analyst's $952 forecast. Operating cash flow of $780 million and free cash flow of $486 million also beat that firm's estimates, although tax adjustments were an important contributor. Newmont lowered near-term gold and copper production guidance following the planned sale of its Indonesian mine stake, while slightly improving AISC guidance and reaffirming its long-term outlook through 2020.",
+    "why_moved": "Newmont shares rose 1.6% after hours and 3.5% the following day after adjusted earnings exceeded expectations. Better-than-expected gold production and lower costs supported the beat, although the cited analyst said tax adjustments were the largest contributors and maintained a neutral assessment of the quarter.",
+    "sources": [
+      {"title": "Dow Jones Newswires — Newmont second-quarter results", "published_date": "2016-07-20"},
+      {"title": "Newmont Mining: Tarnish on the Gold? -- Barron's Blog", "published_date": "2016-07-21", "document_id": "DJDN000020160721ec7l0034l"}
+    ]
+  },
+  "NEM_2016q2": {
+    "summary_analysis": "In a broader materials-sector roundup, Newmont Mining was identified as an exception to declining raw-material stocks. The company reported operating earnings above Wall Street targets, and the article said its outlook had improved alongside the recent rise in gold prices. The broader sector faced pressure after the European Central Bank left interest rates unchanged, prompting the euro to surrender some gains and the U.S. dollar to rebound.",
+    "why_moved": "Newmont shares rallied because operating earnings exceeded Wall Street targets and higher gold prices improved the company's outlook. The article explicitly contrasts Newmont's company-specific strength with a broader decline in materials shares caused by the rebounding dollar.",
+    "sources": [
+      {
+        "title": "Materials Decline as Dollar Rebounds -- Materials Roundup",
+        "published_date": "2016-04-21",
+        "document_id": "DJDN000020160421ec4l00542"
+      }
+    ]
+  },
+  "TJX_2018q3": {
+    "summary_analysis": "TJX reported stronger-than-expected fiscal second-quarter revenue and comparable sales. Revenue rose to $9.33 billion from $8.36 billion, above the $8.99 billion FactSet consensus. Consolidated same-store sales increased 6% versus 2.1% expected, including gains of 7% at Marmaxx, 6% in Canada, 4% internationally and 3% at HomeGoods. Reported EPS rose to $1.17 from $0.85, while adjusted EPS of $0.99 was below the $1.05 consensus. Management said customer traffic again drove comparable-sales growth across all divisions. Full-year reported EPS guidance of $4.83-$4.88 bracketed the $4.86 consensus.",
+    "why_moved": "TJX shares rose 2.3% in premarket trading after revenue and same-store sales exceeded expectations by wide margins. Comparable sales increased 6% versus 2.1% expected, with customer traffic driving growth across every division; this sales strength outweighed adjusted EPS below consensus.",
+    "sources": [{"title": "T.J. Maxx Parent TJX Cos. Shares Rise After Revenue Beat -- MarketWatch", "published_date": "2018-08-21", "document_id": "DJDN000020180821ee8l001mf"}]
+  },
+  "TJX_2018q2": {
+    "summary_analysis": "TJX delivered stronger-than-expected fiscal first-quarter sales as customer traffic drove broad comparable-store growth. Revenue rose 12% to approximately $8.7 billion versus $8.5 billion expected, while same-store sales increased 3% against the 2.5% consensus. Reported EPS was $1.13, including a $0.17 tax-related benefit; adjusted EPS of $0.96 was below the $1.02 FactSet estimate. Management said results exceeded its expectations and raised the low end of fiscal 2019 EPS guidance while maintaining the high end, reflecting the strong quarter.",
+    "why_moved": "TJX shares rose approximately 1.5%-1.9% in premarket trading after first-quarter sales exceeded expectations and traffic drove a 3% comparable-sales increase versus 2.5% expected. The improved full-year earnings outlook supported the reaction, while adjusted EPS below consensus was a negative offset.",
+    "sources": [
+      {"title": "TJX Traffic Drives Comparable Sales Beat -- Market Talk", "published_date": "2018-05-22"},
+      {"title": "Update: TJX Cos. Shares Jump 1.5% Premarket As First-quarter Sales Blow Past Estimates -- MarketWatch", "published_date": "2018-05-23", "document_id": "DJDN000020180523ee5n0020x"}
+    ]
+  },
+  "TJX_2018q1": {
+    "summary_analysis": "TJX reported fourth-quarter EPS of $1.30 versus the $1.27 analyst estimate and revenue of $10.96 billion versus $10.76 billion expected. The company also issued upbeat current-quarter guidance and projected full-year EPS of $4.73-$4.83, well above the $4.64 consensus. Analysts highlighted continued strong store traffic and said the results should ease concerns about TJX's near-term outlook. The coverage also cited supportive consumer demand for value, shifting shopping habits and lower corporate taxes that could fund reinvestment and shareholder returns.",
+    "why_moved": "TJX shares climbed 7% to $82.68 after quarterly EPS and revenue exceeded expectations and full-year earnings guidance came in well above consensus. Analysts also credited strong traffic and TJX's value-focused off-price model, which helped the stock lead the S&P 500 even as the broader index fell 1.11%.",
+    "sources": [
+      {
+        "title": "The Hot Stock: TJX Climbs 7% -- Barron's Blog",
+        "published_date": "2018-02-28",
+        "document_id": "DJDN000020180228ee2s004s9"
+      }
+    ]
+  },
+  "TJX_2017q1": {
+    "summary_analysis": "TJX reported fourth-quarter EPS of $1.03 versus $1.00 expected and revenue of $9.47 billion versus the $9.44 billion consensus. Same-store sales rose 3%, above the 2.6% estimate, with traffic and better-than-expected merchandise margin supporting the earnings beat. TJX planned to raise its quarterly dividend 20% and repurchase approximately $1.3-$1.8 billion of stock. However, first-quarter EPS guidance of $0.76-$0.78 was below the $0.81 consensus, with wage increases expected to reduce EPS growth by about three percentage points. Full-year EPS guidance of $3.69-$3.78 also sat slightly below the $3.79 analyst estimate.",
+    "why_moved": "TJX shares initially rose 1.6% premarket after quarterly earnings, revenue and same-store sales beat estimates, but later gave up those gains and traded down 0.2%. The coverage points to light first-quarter EPS guidance and wage pressure as the reasons the positive earnings reaction faded, despite strong traffic, margins and planned capital returns.",
+    "sources": [
+      {
+        "title": "TJX shares rise after earnings beat",
+        "published_date": "2017-02-22",
+        "document_id": "RTNW000020170222ed2m000dw"
+      },
+      {
+        "title": "TJX: Strong Q4 Earnings Make It A 'Retail Dream' -- Barron's Blog",
+        "published_date": "2017-02-22",
+        "document_id": "DJDN000020170222ed2m002n0"
+      }
+    ]
+  },
+  "TJX_2016q2": {
+    "summary_analysis": "TJX reported a strong first quarter despite weakness across much of the retail sector. EPS of $0.76 exceeded the $0.71 analyst forecast, while sales of approximately $7.5 billion topped the $7.3 billion estimate. Comparable sales rose 7% versus a 4.6% estimate, driven largely by customer traffic across concepts, and gross margin contributed to the earnings upside. Marmaxx, HomeGoods, Canada and Europe all exceeded the cited comparable-sales forecasts, while inventory growth of 7% remained below the 10% sales increase. Management nevertheless warned that wage increases, growth investments and foreign exchange would pressure fiscal 2017 pretax margins and EPS; currency reduced first-quarter EPS growth by about three percentage points and wages by about two points.",
+    "why_moved": "TJX shares rose 1.2% to $76.07 after EPS and sales exceeded forecasts, with stronger-than-expected comparable sales and gross margin producing what an analyst called a high-quality beat. Broad traffic growth across concepts drove the sales upside, while wage and foreign-exchange headwinds were negative offsets.",
+    "sources": [
+      {
+        "title": "TJX Cos: What Retail Slump? -- Barron's Blog",
+        "published_date": "2016-05-17",
+        "document_id": "DJDN000020160517ec5h0029p"
+      },
+      {
+        "title": "TJX Faces Forex, Wage Headwinds as Earnings Rise -- Market Talk",
+        "published_date": "2016-05-18",
+        "document_id": "DJDN000020160518ec5i002dq"
+      }
+    ]
+  },
+  "PM_2017q4": {
+    "summary_analysis": "Philip Morris missed third-quarter earnings and revenue expectations and lowered its full-year outlook. EPS of $1.27 fell short of the $1.38 forecast, while revenue of $7.5 billion was below the $7.7 billion estimate. The company projected full-year EPS of $4.75-$4.80 versus the $4.84 consensus. Cigarette volume declined 4.1%, better than one analyst's 5.1% decline estimate, and IQOS contributed 3.7 percentage points to total volume growth. IQOS net revenue exceeded that analyst's forecast by 6%, but combustible revenue missed by 3%, with underlying combustible growth below expectations in every region except Asia. Currency was also a slightly greater headwind than expected.",
+    "why_moved": "Philip Morris shares fell 3.2% to $108.95 after revenue and EPS missed forecasts and the company lowered full-year guidance. The article's analyst discussion emphasizes that weaker-than-expected combustible revenue across most regions drove the sales shortfall, while IQOS outperformance was insufficient to offset it.",
+    "sources": [
+      {
+        "title": "Philip Morris: Oops -- Barron's Blog",
+        "published_date": "2017-10-19",
+        "document_id": "DJDN000020171019edaj002vo"
+      }
+    ]
+  },
+  "PM_2016q2": {
+    "summary_analysis": "Philip Morris reported weaker-than-expected first-quarter results even as it raised its full-year earnings forecast. Revenue excluding excise taxes fell 8.1% to $6.08 billion versus the $6.34 billion estimate, while EPS of $0.98 missed the $1.11 consensus and profit declined to $1.53 billion from $1.8 billion. Cigarette volume fell 1.4% to 196 billion units, including a 7% decline in Asia, although higher pricing contributed $272 million and drove 2.4% currency-neutral organic revenue growth. The company raised reported 2016 EPS guidance to $4.40-$4.50 from $4.25-$4.35 as currency pressure eased, but the midpoint remained slightly below the $4.48 Wall Street forecast.",
+    "why_moved": "Philip Morris shares declined in premarket trading after first-quarter revenue and EPS missed analyst expectations. The raised annual forecast and stronger pricing partly offset the weak quarter, but guidance still remained slightly below Wall Street's projection and cigarette shipment volume declined.",
+    "sources": [
+      {
+        "title": "Philip Morris Boosts Outlook as Profit Falls -- Update",
+        "published_date": "2016-04-19"
+      }
+    ]
+  },
+  "AMAT_2018q3": {
+    "summary_analysis": "Applied Materials beat fiscal third-quarter revenue and adjusted-earnings expectations but issued a weaker fiscal fourth-quarter outlook. Adjusted EPS was $1.20 versus the $1.17 analyst estimate, while revenue rose to $4.47 billion from $3.74 billion and exceeded the $4.43 billion consensus. For the fourth quarter, Applied forecast adjusted EPS of $0.92-$1.00 and revenue of $3.85-$4.15 billion, below analyst expectations of $1.17 and $4.46 billion.",
+    "why_moved": "Applied Materials shares fell 3.7% in extended trading because fiscal fourth-quarter guidance was well below expectations. Forecast EPS of $0.92-$1.00 and revenue of $3.85-$4.15 billion trailed consensus of $1.17 and $4.46 billion, outweighing the quarterly revenue and earnings beats.",
+    "sources": [
+      {
+        "title": "Applied Materials stock falls after earnings beat, weak guidance",
+        "published_date": "2018-08-16",
+        "document_id": "RTNW000020180816ee8g000ej"
+      }
+    ]
+  },
+  "AMAT_2018q2": {
+    "summary_analysis": "Applied Materials exceeded second-quarter sales and adjusted-earnings expectations, but its display outlook weakened materially. Management said display-business revenue could decline 15%-20% in 2019 based on customers' OLED spending plans. The warning outweighed the quarterly beats, although more than a dozen analysts retained buy ratings and Stifel raised its price target to $75 from $71, citing Applied's diversification and market position.",
+    "why_moved": "Applied Materials shares fell 8.5% to $49.36 after the company disappointed investors with weaker display guidance. The article directly ties the decline to management's forecast that display revenue could fall 15%-20% in 2019 as customers reduced OLED-related spending, despite quarterly sales and adjusted earnings beats.",
+    "sources": [
+      {
+        "title": "Applied Materials Slips on Weaker Display Guidance -- Market Mover",
+        "published_date": "2018-05-18",
+        "document_id": "DJDN000020180518ee5i0023z"
+      }
+    ]
+  },
+  "AMAT_2018q1": {
+    "summary_analysis": "Applied Materials reported fiscal first-quarter adjusted EPS of $1.06, above estimates of $0.98-$1.03, while revenue rose 28% to $4.2 billion and exceeded approximately $4.1-$4.12 billion expected. Gross margin improved to 45.7% from 44.1%. A one-time U.S. tax-law charge reduced reported profit by $0.94 per share. For the current quarter, Applied forecast adjusted EPS of $1.10-$1.18 and revenue of $4.35-$4.55 billion, above consensus of roughly $1.01-$1.02 and $4.2-$4.24 billion. The company doubled its quarterly dividend to $0.20 and added $6 billion to its buyback authorization, bringing total authorized repurchases to $8.8 billion. Management cited sustainable semiconductor and display demand.",
+    "why_moved": "Applied Materials shares rose after hours as quarterly revenue and adjusted EPS beat expectations, the next-quarter revenue and profit outlook exceeded consensus, and the company doubled its dividend and added $6 billion to its buyback authorization. The supplied headlines particularly emphasize the larger capital returns and earnings beat, while the stronger forecast reinforced the positive reaction.",
+    "sources": [
+      {
+        "title": "Applied Materials shares rise after dividend increase, earnings beat",
+        "published_date": "2018-02-14",
+        "document_id": "RTNW000020180214ee2e000lu"
+      },
+      {
+        "title": "Applied Materials' Quarterly Results, Forecast Beat Projections -- Earnings Review",
+        "published_date": "2018-02-14",
+        "document_id": "DJDN000020180214ee2e0045u"
+      },
+      {
+        "title": "Tech Trader Daily: Applied Materials Rising After Doubling Dividend, Adding $6B to Buybacks -- Barron's Blog",
+        "published_date": "2018-02-14",
+        "document_id": "DJDN000020180214ee2e004hu"
+      }
+    ]
+  },
+  "AMAT_2017q4": {
+    "summary_analysis": "Applied Materials reported fiscal fourth-quarter results above expectations and projected another strong quarter. Revenue rose 20% to $3.97 billion versus the $3.94 billion estimate, while adjusted EPS of $0.93 exceeded the $0.91 consensus. Semiconductor-systems sales increased 14.2% to $2.4 billion, flash-memory tools expanded to 38% of revenue from 23%, and display-equipment sales rose 50% to $677 million. Backlog increased 32% to $6.03 billion. For the fiscal first quarter, Applied forecast revenue of $4.0-$4.2 billion and adjusted EPS of $0.94-$1.02, above analyst expectations of $3.97 billion and approximately $0.91. Management expected strong double-digit growth across all business lines in 2018.",
+    "why_moved": "Applied Materials shares initially dipped but later rose 2% to $59 after hours as fiscal fourth-quarter revenue and adjusted EPS topped estimates and the fiscal first-quarter outlook also exceeded consensus. Strong flash-memory and display-equipment demand, a 32% increase in backlog and management's expectation for broad double-digit growth reinforced the earnings and guidance beats.",
+    "sources": [
+      {
+        "title": "Tech Trader Daily: Applied Materials Dips Despite FYQ4 Beat, Higher Q1 View -- Barron's Blog",
+        "published_date": "2017-11-16",
+        "document_id": "DJDN000020171116edbg003j6"
+      },
+      {
+        "title": "Update: Applied Materials Shares Rise After Hours Following Earnings, Outlook Beat -- MarketWatch",
+        "published_date": "2017-11-16",
+        "document_id": "DJDN000020171116edbg003y9"
+      }
+    ]
+  },
+  "AMAT_2016q4": {
+    "summary_analysis": "Applied Materials reported sharply higher fiscal fourth-quarter earnings and revenue, but new orders missed expectations. Orders increased 25% to $3.03 billion versus the $3.21 billion FactSet estimate. Profit rose to $610 million, or $0.56 per share, from $336 million, or $0.28, while adjusted EPS increased to $0.66 from $0.29. Revenue climbed 39% year over year and 17% sequentially to $3.3 billion. For the current quarter, Applied forecast EPS of $0.62-$0.70 and revenue of $3.20-$3.34 billion, both above consensus estimates of $0.58 and $3.12 billion.",
+    "why_moved": "Applied Materials shares fell 4.9% to $29.15 after hours because new orders of $3.03 billion missed the $3.21 billion analyst estimate. The article explicitly identifies the order shortfall as the cause of the decline despite strong profit and revenue growth and an above-consensus current-quarter outlook.",
+    "sources": [
+      {
+        "title": "Applied Materials Profit Rises But New Orders Miss -- Update",
+        "published_date": "2016-11-17",
+        "document_id": "DJDN000020161118ecbi0000s"
+      }
+    ]
+  },
+  "AMAT_2016q3": {
+    "summary_analysis": "Applied Materials reported record orders and backlog as quarterly profit surpassed expectations. New orders reached another all-time high after attaining a 15-year high in the prior quarter, supporting expectations for robust future results. Quarterly profit rose to $505 million from $329 million, adjusted EPS increased to $0.50 from $0.33 and exceeded consensus, and revenue grew 13.3% to $2.82 billion but fell short of market expectations. For the October quarter, Applied forecast adjusted EPS of $0.61-$0.69 versus the $0.48 analyst estimate. Management said the company was in the early stages of large, multiyear industry shifts creating new growth opportunities.",
+    "why_moved": "Applied Materials shares rose 4.5% to $28.92 after hours as current-quarter EPS guidance of $0.61-$0.69 substantially exceeded the $0.48 consensus and new orders and backlog reached record highs. Stronger-than-expected quarterly earnings reinforced the reaction, while the revenue shortfall was the principal negative offset.",
+    "sources": [
+      {
+        "title": "Applied Materials' Forecast Tops Street -- Market Talk",
+        "published_date": "2016-08-18",
+        "document_id": "DJDN000020160818ec8i003na"
+      },
+      {
+        "title": "Hot Stocks to Watch: AMAT",
+        "published_date": "2016-08-19",
+        "document_id": "RTNW000020160819ec8j000af"
+      }
+    ]
+  },
+  "AMAT_2016q2": {
+    "summary_analysis": "Applied Materials reported a sharp acceleration in demand, with orders reaching a 15-year high of $3.5 billion—up 37% year over year and 52% sequentially. Adjusted EPS of $0.34 exceeded the $0.32 estimate, while revenue of $2.45 billion was above the $2.43 billion consensus despite being roughly flat year over year. Management attributed the order surge to customer investment in 3-D NAND memory, OLED displays and new manufacturing capacity in China. Applied forecast current-quarter adjusted EPS of $0.46-$0.50 versus $0.36 expected and approximately $2.84 billion of revenue versus the $2.51 billion analyst forecast, signaling a substantial rebound as orders converted to sales.",
+    "why_moved": "Applied Materials shares rose nearly 8% after hours as orders surged to a 15-year high and the company issued fiscal third-quarter revenue and EPS guidance well above analyst expectations. The reported-quarter revenue and adjusted EPS beats supported the reaction, while demand for 3-D NAND, OLED equipment and Chinese capacity expansion strengthened the forward outlook.",
+    "sources": [
+      {
+        "title": "Applied Materials Issues Upbeat Guidance as New Orders Surge--Update",
+        "published_date": "2016-05-19"
+      }
+    ]
+  },
+  "KLAC_2018q3": {
+    "summary_analysis": "KLA-Tencor reported record fiscal fourth-quarter results, with revenue of $1.07 billion exceeding the $1.05 billion analyst estimate. GAAP EPS rose to $2.22 from $1.62 a year earlier, while adjusted EPS of $2.22 beat the $2.13 consensus. CEO Rick Wallace said the company achieved its second-highest quarterly bookings and set records for quarterly shipments, revenue, and both GAAP and adjusted diluted EPS. The article also noted KLA-Tencor's pending $3.4 billion acquisition of Orbotech, which was expected to generate approximately $50 million in annual cost synergies within one to two years after closing.",
+    "why_moved": "KLA-Tencor shares rose 3.48% to $110 in after-hours trading after quarterly revenue and adjusted EPS exceeded analyst expectations. Record shipments and revenue, together with the company's second-highest quarterly bookings, reinforced the strength of the reported results.",
+    "sources": [
+      {
+        "title": "KLA-Tencor Says 4Q Saw Record Quarterly Shipments, EPS and Revenue >KLAC",
+        "published_date": "2018-07-30",
+        "document_id": "DJDN000020180730ee7u003cg"
+      }
+    ]
+  },
+  "PG_2017q1": {
+    "summary_analysis": "P&G reported improving underlying sales after divesting most of its weaker beauty brands. Organic sales rose 2%, driven by a 2% increase in shipment volume, with no net contribution from pricing or mix. Reported revenue edged down to $16.86 billion from $16.92 billion but exceeded the $16.77 billion analyst estimate. Adjusted EPS was $1.08, slightly above the $1.06 consensus, while reported net income included gains from the beauty-brand sale. P&G raised its full-year organic-sales growth outlook to 2%-3% from its prior 2% target, providing evidence of progress after years of sluggish growth and intensifying competition.",
+    "why_moved": "P&G shares rose 1.8% to $86.25 in premarket trading after the company raised its organic-sales growth outlook to 2%-3% and reported 2% organic growth driven by higher shipment volume. Better-than-expected reported revenue and adjusted EPS reinforced the positive reaction, but the article's lead emphasizes the stronger sales outlook and improving organic growth.",
+    "sources": [
+      {
+        "title": "Procter & Gamble Reports Organic-Sales Growth--Update",
+        "published_date": "2017-01-20",
+        "document_id": "DJDN000020170120ed1k002bl"
+      }
+    ]
+  },
+  "PG_2016q3": {
+    "summary_analysis": "P&G reported fiscal fourth-quarter revenue of $16.1 billion, down 2.7% but above the $15.83 billion analyst estimate, while adjusted EPS of $0.79 exceeded the $0.74 forecast. Organic sales grew 2%, and core volume increased across all five segments despite flat reported pricing and volume. Gross margin expanded 130 basis points as productivity funded greater innovation and advertising investment. The fiscal 2017 outlook was cautious: P&G expected mid-single-digit EPS growth versus the 9% analyst forecast and about 1% reported sales growth. In China, fiscal-year organic sales fell 5%, but the latest quarter was flat as P&G began stemming market-share losses through new products and improved marketing amid slower spending, intense competition and a shift to online shopping.",
+    "why_moved": "The supplied Dow Jones coverage does not identify a stock-price reaction or attribute a move to the results; the earnings article says P&G shares were inactive premarket. It presents a mixed setup of better-than-expected quarterly revenue and adjusted EPS, improving broad-based volume and early China progress against a tepid earnings outlook and continued competitive and consumer pressure in China. No first-order stock-move driver can therefore be established from these articles.",
+    "sources": [
+      {
+        "title": "P&G Gives Tepid Outlook for New Fiscal Year",
+        "published_date": "2016-08-02",
+        "document_id": "DJDN000020160802ec82001ib"
+      },
+      {
+        "title": "P&G Says It Sees Hopeful Signs in Very Challenging China Market",
+        "published_date": "2016-08-02"
+      }
+    ]
+  },
+  "PG_2016q2": {
+    "summary_analysis": "P&G's adjusted fiscal third-quarter earnings exceeded expectations, but demand weakened across most of the portfolio. Organic sales rose 1% as a 1% pricing increase offset a 2% decline in volume. Volume fell in four major segments, including declines of 5% in beauty, 6% in grooming, 3% in health care and 2% in baby, feminine and family care. Adjusted EPS was $0.86 versus $0.82 expected, while revenue fell 6.9% to $15.76 billion and missed the $15.81 billion estimate. Gross margin expanded 250 basis points. P&G also tightened its full-year core earnings outlook to a decline of 3%-6%, citing advertising investment, taxes, foreign exchange and lower nonoperating income.",
+    "why_moved": "P&G shares edged about 0.4% lower to $81.10 in premarket trading as broad-based volume declines and a weaker full-year core earnings outlook outweighed the adjusted EPS beat and gross-margin improvement. The article emphasizes that falling shipment volumes persisted across nearly all businesses despite modest organic sales growth from pricing.",
+    "sources": [
+      {
+        "title": "P&G Earnings Top Expectations, but Volumes Fall",
+        "published_date": "2016-04-26",
+        "document_id": "DJDN000020160426ec4q002yx"
+      }
+    ]
+  },
+  "CAT_2017q1": {
+    "summary_analysis": "Caterpillar lowered its 2017 outlook as a stronger dollar added pressure to an already challenging operating environment. The company forecast revenue of $36-$39 billion, with the midpoint slightly below its previous indication and pointing to a fifth consecutive annual decline. It projected EPS of about $2.30, or $2.90 excluding restructuring costs. A separate Market Talk item reported approximately $1 billion of 2016 restructuring costs, plus a $985 million pension and retirement-benefit write-down and a $595 million goodwill impairment. Caterpillar expected about $500 million of restructuring costs in 2017, excluding possible additional facility reductions, after cutting its workforce to 106,400 from 118,700.",
+    "why_moved": "Caterpillar shares slipped about 1%-1.1% in premarket trading after the company trimmed its 2017 revenue outlook because of the stronger dollar and detailed substantial restructuring and impairment charges that had weighed on earnings. The two Market Talk reports directly connect the weaker outlook and heavy restructuring burden with the negative stock reaction.",
+    "sources": [
+      {
+        "title": "Caterpillar Trims Outlook, Blames Strong Dollar -- Market Talk",
+        "published_date": "2017-01-26",
+        "document_id": "DJDN000020170126ed1q002dz"
+      },
+      {
+        "title": "Restructuring Weighs on Caterpillar Profit, Workforce -- Market Talk",
+        "published_date": "2017-01-26",
+        "document_id": "DJDN000020170126ed1q002ux"
+      }
+    ]
+  },
+  "CAT_2016q4": {
+    "summary_analysis": "Caterpillar reported another weak quarter as revenue fell 16% to $9.16 billion from $10.96 billion and missed the $9.87 billion analyst estimate. Adjusted EPS declined to $0.85 from $1.05, while reported profit fell to $283 million, or $0.48 per share. The company reduced its 2016 adjusted EPS forecast to $3.25 from $3.55 and lowered expected revenue to $39 billion from $40-$40.5 billion. Management warned that lower-than-expected equipment sales could persist into 2017, with no increase in new-equipment orders and downside risk concentrated in the first half. Operating costs nevertheless declined about 14%, and stabilizing commodity prices could support improvement later in 2017.",
+    "why_moved": "Caterpillar shares fell 1.7% to $84.50 in premarket trading after third-quarter revenue missed expectations and the company cut both its full-year earnings and revenue forecasts. The article also emphasized that weak equipment demand and stagnant new-equipment orders could continue into 2017, reinforcing concern that the prolonged sales downturn was not yet over.",
+    "sources": [
+      {
+        "title": "Caterpillar Says Sales Woes Could Linger--Update",
+        "published_date": "2016-10-25"
+      }
+    ]
+  },
+  "CAT_2016q3": {
+    "summary_analysis": "Caterpillar shares rose after its earnings call even though the reported results initially appeared unlikely to inspire confidence. National Bank Financial analyst Maxim Sytchev described management's tone as realistic about the macro environment but identified slightly positive incremental indicators. Dealers were seeing inquiry activity for mining-equipment rebuilds, while oil-related sales were beginning to improve year over year despite the segment remaining near a low base. The analyst remained cautious because consensus still expected global aggregate capital spending to decline in both 2016 and 2017, making the timing of any broader capex recovery uncertain.",
+    "why_moved": "Caterpillar shares gained 4% to $81.82 as investors focused on improving mining dealer inquiries for rebuild activity and early year-over-year improvement in oil-related sales discussed after the earnings call. The article presents these incremental demand signals as the most likely explanation for the rise, while noting that the broader global capital-spending outlook remained weak.",
+    "sources": [
+      {
+        "title": "Caterpillar: Was It Something They Said? -- Barron's Blog",
+        "published_date": "2016-07-26",
+        "document_id": "DJDN000020160726ec7q002w6"
+      }
+    ]
+  },
+  "NVDA_2017q1": {
+    "summary_analysis": "Nvidia reported record fiscal fourth-quarter revenue of $2.17 billion, up 55% from a year earlier and above both its $2.06-$2.14 billion guidance range and the $2.11 billion analyst estimate. Net income increased to $655 million, or $0.99 per share, from $542 million, or $0.83. Excluding certain items, EPS rose to $1.13 from $0.94 and exceeded the $0.83 consensus. The article notes Nvidia's expansion beyond gaming GPUs into virtual reality and self-driving cars. For the current quarter, Nvidia forecast revenue of approximately $1.9 billion, plus or minus 2%, which was roughly in line with expectations.",
+    "why_moved": "Nvidia shares slipped 2.1% to $113.96 after hours even though revenue and adjusted EPS exceeded expectations and current-quarter revenue guidance was roughly in line. The article reports that the stock had more than quadrupled during the prior 12 months, but it does not explicitly identify that prior rise, the in-line guidance, or any other factor as the cause of the decline. The stock-move driver is therefore unclear from this coverage.",
+    "sources": [
+      {
+        "title": "Nvidia Sales Climb 55%; Profit Rises",
+        "published_date": "2017-02-09",
+        "document_id": "DJDN000020170209ed29009zr"
+      }
+    ]
+  },
+  "NVDA_2016q4": {
+    "summary_analysis": "Nvidia delivered a breakout fiscal third quarter as profit more than doubled and revenue rose 54% to $2.0 billion, far above its prior $1.68 billion guidance and the approximately $1.69 billion consensus cited in the reaction coverage. Adjusted EPS increased to $0.94 from $0.46, versus roughly $0.56-$0.57 expected. Growth was broad and led by Pascal GPUs: gaming revenue rose 63% to about $1.2 billion, data-center revenue nearly tripled to $240 million, and automotive revenue increased 61% to $127 million. Nvidia forecast fourth-quarter revenue of $2.1 billion, plus or minus 2%, versus $1.69 billion expected. The company also raised its quarterly dividend 22% to $0.14 and added $2 billion to its buyback authorization. Analysts responded with numerous target increases and one upgrade, while a minority remained cautious about AMD competition and valuation.",
+    "why_moved": "Nvidia shares rose 16% to $78.30 after hours and then surged roughly 25% to an all-time high the following day after earnings and sales substantially exceeded expectations and fourth-quarter revenue guidance reached $2.1 billion versus $1.69 billion expected. Pascal-driven growth across gaming, data centers, cloud, virtual reality, and autonomous vehicles reinforced the beat, prompting widespread analyst estimate and price-target increases.",
+    "sources": [
+      {
+        "title": "Nvidia Profit More Than Doubles as Revenue Tops Guidance -- 3rd Update",
+        "published_date": "2016-11-10",
+        "document_id": "DJDN000020161111ecbb00076"
+      },
+      {
+        "title": "MarketWatch reaction coverage — Nvidia shares rocket 25% after earnings",
+        "published_date": "2016-11-11"
+      }
+    ]
+  },
+  "NVDA_2016q3": {
+    "summary_analysis": "Nvidia reported strong fiscal second-quarter results as profit surged, revenue exceeded company guidance, and demand remained broad across new products. Net income increased to $253 million, or $0.40 per share, from $26 million, or $0.05, while adjusted EPS rose to $0.53 from $0.34. Revenue grew 24% to $1.43 billion, above Nvidia's prior $1.35 billion guidance. Gaming revenue increased 18% to $781 million, professional visualization rose 22% to $214 million, and automotive revenue climbed 68% to $119 million. CEO Jen-Hsun Huang credited strong Pascal GPU demand and surging interest in deep learning. Nvidia forecast third-quarter revenue of $1.68 billion, plus or minus 2%, versus $1.45 billion expected.",
+    "why_moved": "Nvidia shares rose 2.5% to $61.29 in after-hours trading after the company reported record results driven by strong Pascal GPU and deep-learning demand and issued revenue guidance well above expectations. The $1.68 billion third-quarter forecast exceeded the $1.45 billion analyst estimate, while second-quarter revenue grew 24% and surpassed Nvidia's prior guidance.",
+    "sources": [
+      {
+        "title": "Nvidia Puts Up Strong Quarterly Results -- WSJ",
+        "published_date": "2016-08-12",
+        "document_id": "DJDN000020160812ec8c000m1"
+      }
+    ]
+  },
+  "NVDA_2016q2": {
+    "summary_analysis": "Nvidia reported first-quarter results above analyst expectations as demand remained strong across gaming and newer markets. Revenue increased 13% to $1.3 billion, versus $1.27 billion expected, while adjusted EPS rose to $0.46 from $0.33 and beat the $0.32 consensus. Gaming-platform revenue grew 17% to $687 million despite concerns that customers might delay purchases before new GPU launches. Data-center revenue surged nearly 63% to $143 million and automotive revenue rose 47% to $113 million. Nvidia also introduced the GTX 1080, which it said was twice as fast as its predecessor at roughly 40% lower cost, and entered a $500 million accelerated share buyback.",
+    "why_moved": "Nvidia shares jumped 5.8% to $37.63 in after-hours trading because first-quarter earnings exceeded expectations and current-quarter revenue guidance was higher than Wall Street expected. Adjusted EPS was $0.46 versus $0.32 expected, and Nvidia forecast approximately $1.35 billion of revenue, plus or minus 2%, versus the $1.28 billion analyst estimate. Strong gaming demand and rapid data-center and automotive growth reinforced the positive reaction.",
+    "sources": [
+      {
+        "title": "Dow Jones Institutional News — Nvidia first-quarter results",
+        "published_date": "2016-05-12",
+        "document_id": "DJDN000020160512ec5c004nx"
+      }
+    ]
+  },
   "AAPL_2016q2": {
     "summary_analysis": "This is Dow Jones Newswires market-roundup coverage rather than a dedicated Apple story, but it devotes a specific section to Apple's results within a broader look at Wednesday's market action. The article reports Apple's fiscal second-quarter profit of $1.90 per share, missing Wall Street's $2.00 forecast, with quarterly revenue dropping 13% to $50.55 billion against analyst expectations of $51.97 billion -- the company's first revenue decline in 13 years. CEO Tim Cook is quoted calling the period 'a challenging quarter' and describing it as 'a pause in our growth.' The piece places Apple's stumble within a session where the S&P 500 slipped and technology led losses at down 1.2%, while the Dow held roughly flat and the Nasdaq fell 0.8%. It also notes other earnings that day, including Twitter falling 16% on disappointing revenue and guidance, Comcast beating expectations, and Chipotle and H&R Block disappointing investors. The broader market backdrop was investors positioning ahead of the Federal Reserve's 2 p.m. policy statement, with defensive sectors such as utilities and telecoms outperforming.",
     "why_moved": "The article states that Apple shares sold off following the disappointing quarterly results, with the stock described as having plummeted 5.8% (and separately noted as down 6.2% among S&P 500 decliners). It attributes the decline to the profit miss ($1.90 versus the $2.00 forecast) and the 13% revenue drop to $50.55 billion, which came in below the $51.97 billion analysts expected and marked the company's first revenue decline in 13 years. The article also cites Tim Cook's characterization of the quarter as 'challenging' and a 'pause in our growth' as part of the narrative around the stock's reaction. No further explanation beyond the earnings miss itself is given in the piece.",
@@ -390,12 +781,18 @@
     ]
   },
   "AMAT_2017q3": {
-    "summary_analysis": "This is Dow Jones Newswires market-roundup coverage of a broader U.S. stock selloff on August 18, 2017, rather than a dedicated Applied Materials earnings story, so the company's mentions are limited to a few lines within the wider piece. The article describes major indexes opening lower that Friday, extending losses from the prior session's sharp decline, which it attributes to a terrorist attack in Barcelona and rumors (later denied by the White House) that economic adviser Gary Cohn planned to resign. Within that context, the article singles out Applied Materials as a notable counterpoint to the market's weakness, describing it as a chip-equipment supplier whose shares climbed after it released quarterly results that exceeded expectations. The piece explicitly credits those gains with helping to limit losses on the tech-heavy Nasdaq that day.",
-    "why_moved": "The article states that Applied Materials shares climbed 4.4% after the company released quarterly results that exceeded expectations, and it says those gains were helping to limit the Nasdaq's losses amid the broader market selloff. No further detail on the earnings themselves is given in this roundup piece.",
+    "summary_analysis": "Applied Materials delivered strong fiscal third-quarter results and an above-consensus fourth-quarter outlook. Net income rose to $925 million, or $0.85 per share, from $505 million, or $0.46, while adjusted EPS of $0.86 exceeded the $0.84 estimate. Revenue increased 33% to $3.74 billion from $2.82 billion and topped the $3.69 billion consensus. For the current quarter, Applied forecast adjusted EPS of $0.86-$0.94 and revenue of $3.85-$4.00 billion, versus analyst estimates of approximately $0.82 and $3.71 billion. Management attributed the outlook to a broader set of demand drivers and described the results as supporting continued growth.",
+    "why_moved": "Applied Materials shares rose between 2.2% and 3.2% in extended trading after adjusted EPS and revenue exceeded Wall Street expectations and the company issued fourth-quarter EPS and revenue guidance above consensus. The two Dow Jones reports emphasize the earnings beat and strong outlook as the reasons for the positive reaction.",
     "sources": [
       {
-        "title": "Stock market extends losses after worst one-day tumble in 3 months",
-        "url": "https://www.foxbusiness.com/markets/stock-market-extends-losses-after-worst-one-day-tumble-in-3-months.amp"
+        "title": "Applied Materials Posts Strong Results and Outlook -- Market Talk",
+        "published_date": "2017-08-17",
+        "document_id": "DJDN000020170817ed8h0035e"
+      },
+      {
+        "title": "Hot Stocks to Watch: AMAT",
+        "published_date": "2017-08-18",
+        "document_id": "RTNW000020170818ed8i0006s"
       }
     ]
   },
@@ -630,12 +1027,13 @@
     ]
   },
   "PM_2017q2": {
-    "summary_analysis": "This is roundup coverage rather than a dedicated Philip Morris earnings story: it is a Dow Jones Newswires market snapshot on U.S. stock futures pointing to a higher open, describing Dow futures up 30 points (0.2%) to 20,367 and S&P 500 futures up 6 points (0.3%) to 2,339, after the prior session's Dow decline of 118.79 points to its lowest close since February 10. Within that broader piece, the article specifically notes that Philip Morris International shares fell 3% in premarket trading after the company \"fell short of earnings and first-quarter profit expectations,\" but it provides no further detail on revenue, guidance, or management commentary specific to Philip Morris. The article otherwise focuses on broader market drivers, including volatility in oil prices, investor concern over the impending French presidential election and tensions on the Korean Peninsula, initial jobless claims rising modestly to 244,000 even as continuing unemployment claims hit a 17-year low, and a softening in the Philadelphia Fed's manufacturing index following the post-election surge. Philip Morris is mentioned only briefly as one data point within this wider market snapshot.",
-    "why_moved": "The article states that Philip Morris International shares fell 3% in premarket trading, and it attributes this directly to the company falling short of earnings and first-quarter profit expectations. No further detail is given on the magnitude of the miss, specific revenue figures, or any management explanation for the results. The piece is a market snapshot rather than a dedicated earnings story, so it does not elaborate further on what drove the shortfall or the extent of the stock reaction beyond the premarket percentage decline it reports. No other causal factors specific to Philip Morris are mentioned.",
+    "summary_analysis": "Philip Morris reported first-quarter adjusted EPS of $0.98, below the $1.03 forecast, after the stock had gained 25% earlier in the year. Full-year EPS guidance of $4.84-$4.99 leaned above the $4.88 consensus, correcting an earlier report that had characterized it as below expectations. Wells Fargo described the quarter as tougher than expected because of combustible-cigarette volume weakness but expected strong pricing and cost management to protect margins. The analyst also anticipated continued momentum for IQOS as Philip Morris shifted toward reduced-risk products.",
+    "why_moved": "Philip Morris shares fell 3.1% to $110.33 after adjusted first-quarter EPS of $0.98 missed the $1.03 forecast. The article directly identifies the earnings miss as the reason investors sold despite full-year guidance that leaned above consensus and a constructive longer-term view of IQOS, pricing and cost management.",
     "sources": [
       {
-        "title": "MARKET SNAPSHOT: U.S. Stock Future Point To A Higher Open On Wall Street",
-        "url": "https://www.foxbusiness.com/features/market-snapshot-u-s-stock-future-point-to-a-higher-open-on-wall-street"
+        "title": "UPDATE: Philip Morris: Up in Smoke? -- Barron's Blog",
+        "published_date": "2017-04-20",
+        "document_id": "DJDN000020170420ed4k003lp"
       }
     ]
   },

@@ -13,6 +13,10 @@
         "rating": "neutral",
         "reason": "Revenue was subdued. Sales were roughly flat sequentially and below the prior-year quarter, with no expectation comparison provided."
       },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. KLA-Tencor reported fiscal Q3 revenue of $712 million, GAAP EPS of $1.12 and non-GAAP EPS of $1.15."
@@ -40,10 +44,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": null,
@@ -62,6 +62,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q4 revenue reached $919 million, up sharply from $712 million in Q3 and above the roughly $842 million consensus cited by contemporaneous Zacks coverage."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -90,10 +94,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": null,
@@ -112,6 +112,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q1 2017 revenue was $751 million, GAAP EPS $1.13 and non-GAAP EPS $1.16."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. KLA emphasized strong acceptance of new products, operating leverage and cash returns."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -140,10 +144,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. KLA emphasized strong acceptance of new products, operating leverage and cash returns."
       }
     },
     "wsj": null,
@@ -162,6 +162,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q2 revenue rose to $877 million from $751 million sequentially and $710 million a year earlier."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -190,10 +194,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": null,
@@ -212,6 +212,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q3 revenue increased 28% year over year to $913.8 million, above the roughly $894 million consensus."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Product demand and new-system acceptance remained strong."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -240,10 +244,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "Expectations were elevated. An in-line outlook failed to clear the high bar despite a strong reported quarter."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Product demand and new-system acceptance remained strong."
       }
     },
     "wsj": null,
@@ -262,6 +262,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q4 revenue reached $939 million, above consensus near $920 million, and non-GAAP EPS was $1.64 versus roughly $1.59 expected."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -290,10 +294,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "Positioning likely dominated the reaction. No valid source identified an operating disappointment despite the beat."
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": null,
@@ -312,6 +312,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q1 2018 revenue rose 29% year over year to $969.6 million, comfortably above consensus around $943 million."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Product revenue grew more than 35%, services also expanded, and management highlighted record shipments, revenue and non-GAAP EPS."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -340,10 +344,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "Expectations likely limited the reaction. No valid source identified a weak operating catalyst despite record results."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Product revenue grew more than 35%, services also expanded, and management highlighted record shipments, revenue and non-GAAP EPS."
       }
     },
     "wsj": null,
@@ -362,6 +362,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q2 revenue reached a record $976 million, up 11% year over year."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -390,10 +394,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "No company-specific negative catalyst was verified. The slight decline occurred despite record adjusted earnings and revenue."
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "wsj": null,
@@ -412,6 +412,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q3 revenue topped $1.0 billion for the first time, reaching $1.021 billion near the upper end of guidance."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Revenue increased about 12% year over year, and management said momentum was broad across major product groups and services."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -440,10 +444,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "neutral",
         "reason": "The Orbotech acquisition broadened KLA's markets but introduced integration risk."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Revenue increased about 12% year over year, and management said momentum was broad across major product groups and services."
       }
     },
     "wsj": null,
@@ -462,6 +462,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fiscal Q4 revenue rose 14% to $1.07 billion, about $20–$25 million above consensus."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Both product and service revenue grew about 14%."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -490,13 +494,54 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Both product and service revenue grew about 14%."
       }
     },
     "wsj": null,
-    "djnw": null
+    "djnw": {
+      "Guidance": {
+        "rating": null,
+        "reason": null
+      },
+      "Order book / order backlog": {
+        "rating": "positive",
+        "reason": "Demand indicators were strong. KLA-Tencor recorded its second-highest quarterly bookings and record shipments."
+      },
+      "Revenue": {
+        "rating": "positive",
+        "reason": "Revenue beat expectations. Quarterly sales reached a record $1.07 billion versus the $1.05 billion analyst estimate."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
+      },
+      "Profits and profitability": {
+        "rating": "positive",
+        "reason": "Earnings beat expectations. Adjusted EPS reached a record $2.22 versus the $2.13 analyst estimate."
+      },
+      "Costs": {
+        "rating": "positive",
+        "reason": "The Orbotech transaction offered potential savings. KLA-Tencor expected about $50 million of annual cost synergies after closing."
+      },
+      "Debt, leverage and capital raise": {
+        "rating": null,
+        "reason": null
+      },
+      "Capex": {
+        "rating": null,
+        "reason": null
+      },
+      "Management": {
+        "rating": "positive",
+        "reason": "Management highlighted broad execution records in quarterly shipments, revenue, and both GAAP and adjusted diluted EPS."
+      },
+      "Litigation": {
+        "rating": null,
+        "reason": null
+      },
+      "Others: eg. Covid, or macro events": {
+        "rating": null,
+        "reason": null
+      }
+    }
   }
 }

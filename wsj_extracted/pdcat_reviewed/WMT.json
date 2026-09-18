@@ -1,0 +1,160 @@
+{
+  "reviewed_observations": [
+    "WMT_2016q2", "WMT_2016q3", "WMT_2016q4", "WMT_2017q1", "WMT_2017q2",
+    "WMT_2017q3", "WMT_2017q4", "WMT_2018q1", "WMT_2018q2", "WMT_2018q3"
+  ],
+  "pd_overrides": {
+    "WMT_2016q2": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "neutral", "reason": "Customer trends were mixed. U.S. comps and traffic improved, while e-commerce growth slowed to approximately 7%."}
+      },
+      "wsj": {
+        "Guidance": {"rating": null, "reason": null},
+        "Product / Users": {"rating": "neutral", "reason": "Customer trends were mixed. U.S. comps and traffic increased, while e-commerce growth slowed and grocery sales declined."},
+        "Profits and profitability": {"rating": "positive", "reason": "Earnings beat expectations. EPS was $0.98 versus approximately $0.88 expected and above company guidance."},
+        "Management": {"rating": "positive", "reason": "Inventory and store execution improved. Backroom inventory declined while in-stock levels strengthened."}
+      }
+    },
+    "WMT_2016q3": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "positive", "reason": "Full-year adjusted EPS guidance increased to $4.15-$4.35 from $4.00-$4.30."},
+        "Product / Users": {"rating": "positive", "reason": "Store and digital demand improved. U.S. comps beat expectations, traffic rose, and e-commerce growth accelerated to 11.8%."}
+      },
+      "wsj": {
+        "Product / Users": {"rating": "positive", "reason": "Customer momentum improved. Comps and traffic rose again while e-commerce accelerated for the first time in nine quarters."},
+        "Others: eg. Covid, or macro events": {"rating": "positive", "reason": "Walmart outperformed several retailers that reported weak consumer spending and online competition."}
+      },
+      "djnw": {
+        "Product / Users": {"rating": "positive", "reason": "Customer momentum improved. U.S. comps beat guidance, traffic rose 1.2%, and e-commerce growth accelerated to 11.8%."},
+        "Management": {"rating": "positive", "reason": "Inventory execution improved. Comparable-store inventory declined 6.5% while product availability increased."},
+        "Others: eg. Covid, or macro events": {"rating": null, "reason": null}
+      }
+    },
+    "WMT_2016q4": {
+      "contextual_analysis": {
+        "Revenue": {"rating": "negative", "reason": "Revenue and comparable sales disappointed. Sales reached $118.2 billion and U.S. comps narrowly missed expectations."},
+        "Product / Users": {"rating": "neutral", "reason": "Customer trends were mixed. U.S. comp and traffic growth slowed, while e-commerce accelerated to 20.6%."},
+        "Costs": {"rating": "negative", "reason": "Operating income declined 10.4% as wage, technology, and currency pressure continued."},
+        "Others: eg. Covid, or macro events": {"rating": "negative", "reason": "Food deflation and currency pressure weighed on reported sales and international revenue."}
+      },
+      "wsj": {
+        "Guidance": {"rating": "positive", "reason": "The low end of full-year adjusted EPS guidance increased to $4.20 from $4.15."},
+        "Revenue": {"rating": "negative", "reason": "Revenue missed expectations. Sales were $118.2 billion versus approximately $118.69 billion expected."},
+        "Product / Users": {"rating": "neutral", "reason": "Customer trends were mixed. Comp and traffic growth slowed, while e-commerce sales increased 21%."},
+        "Profits and profitability": {"rating": "positive", "reason": "EPS beat company guidance at $0.98 versus a range of $0.90-$1.00."}
+      },
+      "djnw": {
+        "Product / Users": {"rating": "neutral", "reason": "Customer trends were mixed. Traffic decelerated while e-commerce grew 21%."},
+        "Profits and profitability": {"rating": "neutral", "reason": "Reported profit declined year over year, while EPS remained within company guidance."},
+        "Costs": {"rating": "negative", "reason": "E-commerce infrastructure, labor, and store investments pressured profitability."}
+      }
+    },
+    "WMT_2017q1": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "positive", "reason": "U.S. customer momentum exceeded expectations. Comps rose 1.8%, traffic increased 1.4%, and e-commerce expanded strongly."}
+      },
+      "wsj": {
+        "Guidance": {"rating": "neutral", "reason": "Adjusted EPS guidance of $4.20-$4.40 was in line with prior expectations for flat earnings."},
+        "Revenue": {"rating": "positive", "reason": "U.S. comparable sales beat expectations. Comps rose 1.8% for a tenth consecutive quarterly gain."},
+        "Product / Users": {"rating": "positive", "reason": "Store demand remained healthy. U.S. comps rose 1.8%, led by health, apparel, and positive traffic."},
+        "Profits and profitability": {"rating": "neutral", "reason": "Profitability was mixed. Adjusted EPS beat slightly while GAAP profit declined year over year."},
+        "Others: eg. Covid, or macro events": {"rating": "neutral", "reason": "Currency reduced reported revenue, while Walmart outperformed several struggling traditional retailers."}
+      }
+    },
+    "WMT_2017q2": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "positive", "reason": "Digital and store demand strengthened. E-commerce surged 63%, U.S. comps rose 1.4%, and traffic increased 1.5%."}
+      },
+      "wsj": {
+        "Product / Users": {"rating": "positive", "reason": "Digital and store demand strengthened. E-commerce grew 63%, while U.S. comps and traffic increased again."},
+        "Costs": {"rating": "positive", "reason": "Margins held steady despite continued investment in employees, technology, prices, and e-commerce."},
+        "Management": {"rating": "positive", "reason": "Management emphasized that most digital growth came organically through Walmart.com rather than acquisitions alone."}
+      },
+      "djnw": {
+        "Guidance": {"rating": "neutral", "reason": "Second-quarter EPS guidance of $1.00-$1.08 broadly bracketed the approximately $1.07 estimate."},
+        "Product / Users": {"rating": "positive", "reason": "Digital and store momentum improved. E-commerce grew 63% and traffic rose 1.5%."}
+      }
+    },
+    "WMT_2017q3": {
+      "contextual_analysis": {
+        "Guidance": {"rating": "neutral", "reason": "Full-year guidance increased modestly, while the upcoming-quarter EPS outlook was less impressive."},
+        "Product / Users": {"rating": "positive", "reason": "Customer momentum remained strong. U.S. comps rose 1.8%, traffic increased 1.3%, and e-commerce grew 60%."},
+        "Costs": {"rating": "negative", "reason": "Margins weakened as price investment, e-commerce spending, and operating expenses increased."}
+      },
+      "wsj": {
+        "Product / Users": {"rating": "positive", "reason": "Customer momentum remained strong. U.S. comps rose 1.8%, traffic increased 1.3%, and e-commerce grew 60%."},
+        "Costs": {"rating": "negative", "reason": "Profitability was pressured. U.S. gross margin declined and operating expenses increased 3.9%."},
+        "Management": {"rating": "negative", "reason": "Management acknowledged that operating expenses were not where the company wanted them."}
+      },
+      "djnw": {
+        "Product / Users": {"rating": "positive", "reason": "Customer momentum remained strong. U.S. comps and traffic rose while online sales surged 60%."},
+        "Management": {"rating": "negative", "reason": "The CFO acknowledged Walmart was not where it wanted to be on expenses."}
+      }
+    },
+    "WMT_2017q4": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "positive", "reason": "Customer momentum accelerated. U.S. comps reached an eight-year high, traffic increased, and e-commerce grew 50%."}
+      },
+      "wsj": {
+        "Product / Users": {"rating": "positive", "reason": "Store and digital demand accelerated. U.S. comps beat expectations at 2.7% and e-commerce grew 50%."},
+        "Profits and profitability": {"rating": "neutral", "reason": "Adjusted EPS was approximately $1.00, while charges reduced GAAP profit substantially."},
+        "Debt, leverage and capital raise": {"rating": null, "reason": null},
+        "Costs": {"rating": "negative", "reason": "Debt-paydown, property-sale, and bribery-settlement charges reduced reported profit."},
+        "Litigation": {"rating": "negative", "reason": "Walmart recorded a $283 million charge toward settling a multiyear foreign-bribery investigation."}
+      },
+      "djnw": {
+        "Product / Users": {"rating": "positive", "reason": "Store and digital strength showed Walmart was combining physical retail with growing e-commerce capabilities."},
+        "Profits and profitability": {"rating": "positive", "reason": "Earnings exceeded expectations. Dow Jones directly linked the stronger report to the stock's gain."}
+      }
+    },
+    "WMT_2018q1": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "negative", "reason": "E-commerce growth collapsed to 23% from 50%, overwhelming continued strength in U.S. comparable sales."},
+        "Guidance": {"rating": "negative", "reason": "Full-year EPS guidance was weaker than investors expected despite a projected recovery in online growth."},
+        "Management": {"rating": "negative", "reason": "Management acknowledged operational mistakes in e-commerce warehouses had reduced availability of staple products."}
+      },
+      "wsj": {
+        "Revenue": {"rating": null, "reason": null},
+        "Product / Users": {"rating": "negative", "reason": "E-commerce growth slowed to 23% from above 50% as warehouse inventory mistakes caused basic products to run out."},
+        "Profits and profitability": {"rating": "negative", "reason": "Adjusted EPS missed expectations. Earnings were $1.33 versus approximately $1.37 expected."},
+        "Management": {"rating": "negative", "reason": "Management acknowledged that poor holiday inventory allocation disrupted online availability and sales."}
+      }
+    },
+    "WMT_2018q2": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "positive", "reason": "Digital momentum recovered. E-commerce growth rebounded to 33% while U.S. comps increased 2.1%."}
+      },
+      "wsj": {
+        "Guidance": {"rating": "neutral", "reason": "Full-year EPS guidance remained unchanged at $4.75-$5.00."},
+        "Product / Users": {"rating": "positive", "reason": "Digital momentum recovered. E-commerce growth accelerated to 33% and U.S. comps increased 2.1%."},
+        "Profits and profitability": {"rating": "negative", "reason": "GAAP profit declined and the Flipkart acquisition was expected to dilute EPS materially."},
+        "Costs": {"rating": "negative", "reason": "Flipkart investment was expected to reduce EPS by $0.25-$0.30 that year and $0.60 the following year."},
+        "Debt, leverage and capital raise": {"rating": "negative", "reason": "Walmart committed $16 billion to acquire control of Flipkart despite substantial near-term losses."},
+        "Management": {"rating": "neutral", "reason": "Management accepted near-term EPS dilution to fund Flipkart's long-term growth."},
+        "Others: eg. Covid, or macro events": {"rating": "neutral", "reason": "A strong economy supported retail, while unusually cool April weather weakened some merchandise categories."}
+      }
+    },
+    "WMT_2018q3": {
+      "contextual_analysis": {
+        "Product / Users": {"rating": "positive", "reason": "Customer momentum accelerated. U.S. comps reached a decade high at 4.5% and e-commerce grew 40%."}
+      },
+      "wsj": {
+        "Revenue": {"rating": "positive", "reason": "Revenue beat expectations. Sales were $128 billion versus approximately $126 billion expected."},
+        "Product / Users": {"rating": "positive", "reason": "Customer demand substantially beat expectations. U.S. comps rose 4.5% versus approximately 2.4% expected and e-commerce grew 40%."},
+        "Costs": {"rating": "neutral", "reason": "Rising prices and future Flipkart expenses remained risks, but did not outweigh the current quarter's strong results."}
+      }
+    }
+  },
+  "first_order": {
+    "WMT_2016q2": {"contextual_analysis": ["Revenue", "Profits and profitability"], "wsj": ["Revenue", "Profits and profitability"], "djnw": null},
+    "WMT_2016q3": {"contextual_analysis": ["Product / Users", "Guidance"], "wsj": ["Profits and profitability", "Guidance"], "djnw": ["Product / Users", "Guidance"]},
+    "WMT_2016q4": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": ["Revenue", "Product / Users"], "djnw": ["Revenue", "Product / Users"]},
+    "WMT_2017q1": {"contextual_analysis": ["Product / Users", "Profits and profitability"], "wsj": ["Product / Users"], "djnw": null},
+    "WMT_2017q2": {"contextual_analysis": ["Product / Users"], "wsj": ["Product / Users", "Costs"], "djnw": ["Product / Users"]},
+    "WMT_2017q3": {"contextual_analysis": ["Costs", "Guidance"], "wsj": ["Costs"], "djnw": ["Costs"]},
+    "WMT_2017q4": {"contextual_analysis": ["Revenue", "Product / Users"], "wsj": ["Revenue", "Product / Users"], "djnw": ["Profits and profitability", "Product / Users"]},
+    "WMT_2018q1": {"contextual_analysis": ["Product / Users", "Profits and profitability"], "wsj": ["Product / Users", "Profits and profitability"], "djnw": null},
+    "WMT_2018q2": {"contextual_analysis": ["Costs"], "wsj": ["Debt, leverage and capital raise"], "djnw": null},
+    "WMT_2018q3": {"contextual_analysis": ["Product / Users", "Profits and profitability"], "wsj": ["Product / Users", "Revenue"], "djnw": null}
+  }
+}

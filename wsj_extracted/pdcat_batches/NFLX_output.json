@@ -13,6 +13,10 @@
         "rating": "neutral",
         "reason": "Revenue offered no identified surprise. Quarterly sales were approximately $1.96 billion."
       },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Netflix ended Q1 with more than 81 million members after adding a record 6.74 million subscribers: about 2.23 million in the U.S."
+      },
       "Profits and profitability": {
         "rating": "neutral",
         "reason": "Earnings offered no identified surprise. Quarterly EPS was approximately $0.06."
@@ -40,10 +44,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Netflix ended Q1 with more than 81 million members after adding a record 6.74 million subscribers: about 2.23 million in the U.S."
       }
     },
     "wsj": {
@@ -58,6 +58,10 @@
       "Revenue": {
         "rating": null,
         "reason": null
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Netflix expected 1.75 million U.S. additions, down from 2.28 million a year earlier, as higher prices threatened churn."
       },
       "Profits and profitability": {
         "rating": "negative",
@@ -86,10 +90,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "Competition and valuation posed risks. Hulu and Amazon were expanding while Netflix traded above 200 times forward earnings."
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Netflix expected 1.75 million U.S. additions, down from 2.28 million a year earlier, as higher prices threatened churn."
       }
     },
     "djnw": null
@@ -107,6 +107,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue increased strongly. Quarterly sales rose to approximately $2.11 billion."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Netflix added 1.7 million members versus its 2.5 million forecast as price increases drove higher churn."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -135,10 +139,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Netflix added 1.7 million members versus its 2.5 million forecast as price increases drove higher churn."
       }
     },
     "wsj": {
@@ -153,6 +153,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue was strong. Sales increased 28% to approximately $2.11 billion."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. 1.52 million internationally, versus an expected 2 million, ending the quarter with 83.18 million total subscribers."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -181,10 +185,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. 1.52 million internationally, versus an expected 2 million, ending the quarter with 83.18 million total subscribers."
       }
     },
     "djnw": null
@@ -202,6 +202,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Global streaming revenue exceeded $2 billion for the first time, and total quarterly revenue was about $2.29 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Netflix reported 3.57 million net subscriber additions."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -230,10 +234,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Netflix reported 3.57 million net subscriber additions."
       }
     },
     "wsj": {
@@ -248,6 +248,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue grew strongly. Sales rose to $2.29 billion from $1.74 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Netflix added 3.2 million international members versus 2 million expected and 370,000 U.S."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -276,10 +280,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "China expansion remained difficult. Management said a stand-alone launch there did not look promising."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Netflix added 3.2 million international members versus 2 million expected and 370,000 U.S."
       }
     },
     "djnw": null
@@ -297,6 +297,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Global streaming revenue reached about $2.35 billion, and the company ended 2016 with 93.8 million members."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Netflix added about 7.05 million net subscribers in Q4: roughly 1.93 million U.S."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -325,10 +329,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Netflix added about 7.05 million net subscribers in Q4: roughly 1.93 million U.S."
       }
     },
     "wsj": {
@@ -343,6 +343,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. On revenue up 36% to $2.48 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Adding 5.12 million subscribers abroad and 1.93 million in the U.S."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -371,10 +375,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Adding 5.12 million subscribers abroad and 1.93 million in the U.S."
       }
     },
     "djnw": null
@@ -392,6 +392,10 @@
       "Revenue": {
         "rating": "neutral",
         "reason": "Revenue was approximately in line. Quarterly sales rose to about $2.64 billion."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Netflix added about 4.95 million members versus its 5.2 million forecast and roughly 5.3 million expected."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -420,10 +424,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Netflix added about 4.95 million members versus its 5.2 million forecast and roughly 5.3 million expected."
       }
     },
     "wsj": {
@@ -438,6 +438,10 @@
       "Revenue": {
         "rating": "neutral",
         "reason": "Revenue met expectations. Sales rose 35% to approximately $2.64 billion."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Netflix's U.S. and international subscriber growth slowed in the first quarter, coming in below expectations."
       },
       "Profits and profitability": {
         "rating": "neutral",
@@ -466,10 +470,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Netflix's U.S. and international subscriber growth slowed in the first quarter, coming in below expectations."
       }
     },
     "djnw": null
@@ -487,6 +487,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue was about $2.79 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Netflix added 5.2 million subscribers in Q2, far above its own 3.2 million forecast."
       },
       "Profits and profitability": {
         "rating": "neutral",
@@ -515,10 +519,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Netflix added 5.2 million subscribers in Q2, far above its own 3.2 million forecast."
       }
     },
     "wsj": {
@@ -533,6 +533,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue jumped 32% to $2.79 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Ending with nearly 104 million subscribers globally after adding 5.2 million total users."
       },
       "Profits and profitability": {
         "rating": "neutral",
@@ -561,10 +565,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Ending with nearly 104 million subscribers globally after adding 5.2 million total users."
       }
     },
     "djnw": {
@@ -579,6 +579,10 @@
       "Revenue": {
         "rating": null,
         "reason": null
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Netflix added more users than projected, sending the stock up more than 10% after hours."
       },
       "Profits and profitability": {
         "rating": null,
@@ -607,10 +611,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Netflix added more users than projected, sending the stock up more than 10% after hours."
       }
     }
   },
@@ -627,6 +627,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q3 revenue was about $2.99 billion and EPS $0.29."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Netflix added 5.3 million subscribers versus guidance of 4.4 million."
       },
       "Profits and profitability": {
         "rating": "neutral",
@@ -655,10 +659,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "Valuation limited the reaction. The initial rally faded after shares had already risen more than 60% in 2017."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Netflix added 5.3 million subscribers versus guidance of 4.4 million."
       }
     },
     "wsj": {
@@ -673,6 +673,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue that slightly exceeded estimates and an operating margin that outperformed the company's own target."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Ending with 104 million paid streaming subscribers globally after adding 5.3 million."
       },
       "Profits and profitability": {
         "rating": "neutral",
@@ -701,10 +705,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "Competition intensified. Disney, Amazon, Hulu, and Apple were increasing their streaming investments."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Ending with 104 million paid streaming subscribers globally after adding 5.3 million."
       }
     },
     "djnw": {
@@ -719,6 +719,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue climbed 30% to $2.99 billion, and the company reported profit of $130 million, or 29 cents per share, up from $52 million, or 12 cents, a year earlier."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. The article reports Netflix ended the quarter with 104 million paid streaming subscribers globally after adding 5.3 million."
       },
       "Profits and profitability": {
         "rating": "neutral",
@@ -747,10 +751,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "Competition intensified. Disney, Amazon, Hulu, and Apple were expanding their streaming efforts."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. The article reports Netflix ended the quarter with 104 million paid streaming subscribers globally after adding 5.3 million."
       }
     }
   },
@@ -767,6 +767,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue increased about 33% to $3.3 billion, and EPS was $0.41."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Netflix added a record 8.3 million net subscribers, more than 30% above its own target of 6.3 million."
       },
       "Profits and profitability": {
         "rating": "neutral",
@@ -795,10 +799,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Netflix added a record 8.3 million net subscribers, more than 30% above its own target of 6.3 million."
       }
     },
     "wsj": {
@@ -813,6 +813,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue beat expectations. Sales increased 33% to approximately $3.29 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Netflix added 8.3 million streaming subscribers in the fourth quarter."
       },
       "Profits and profitability": {
         "rating": "neutral",
@@ -841,10 +845,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "A misconduct-related content charge hurt results. Netflix recorded a $39 million noncash charge."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Netflix added 8.3 million streaming subscribers in the fourth quarter."
       }
     },
     "djnw": {
@@ -859,6 +859,10 @@
       "Revenue": {
         "rating": null,
         "reason": null
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. It singles out Netflix as a standout performer after the company beat forecasts for both earnings and new net subscribers."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -887,10 +891,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. It singles out Netflix as a standout performer after the company beat forecasts for both earnings and new net subscribers."
       }
     }
   },
@@ -907,6 +907,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue grew strongly. Quarterly sales increased to approximately $3.70 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Netflix added approximately 7.4 million subscribers, above its guidance and among the strongest quarters in company history."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -935,10 +939,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Netflix added approximately 7.4 million subscribers, above its guidance and among the strongest quarters in company history."
       }
     },
     "wsj": {
@@ -953,6 +953,10 @@
       "Revenue": {
         "rating": "neutral",
         "reason": "Revenue was approximately in line. Sales rose 40% to $3.70 billion versus $3.69 billion expected."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Product and user momentum was encouraging. Netflix added 7.41 million subscribers in the first quarter, including 5.46 million internationally, exceeding the roughly 6.5 million analysts had expected."
       },
       "Profits and profitability": {
         "rating": "neutral",
@@ -981,10 +985,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Product and user momentum was encouraging. Netflix added 7.41 million subscribers in the first quarter, including 5.46 million internationally, exceeding the roughly 6.5 million analysts had expected."
       }
     },
     "djnw": null
@@ -1002,6 +1002,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue narrowly missed expectations. Sales were about $3.91 billion versus roughly $3.94 billion expected."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Netflix added about 5.15 million members versus its 6.2 million forecast, with both U.S."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1030,10 +1034,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "A high valuation amplified the disappointment. Subscriber forecasting errors were especially costly after the stock's large rise."
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Netflix added about 5.15 million members versus its 6.2 million forecast, with both U.S."
       }
     },
     "wsj": {
@@ -1048,6 +1048,10 @@
       "Revenue": {
         "rating": "negative",
         "reason": "Revenue performance was weak. Second-quarter profit was $384.3 million, or 85 cents a share, beating a 79-cent estimate, on revenue up 40% to $3.91 billion, slightly below the $3.94 billion estimate."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Product and user momentum weakened. Netflix missed its own subscriber forecast by more than a million users in the second quarter."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -1076,10 +1080,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Product and user momentum weakened. Netflix missed its own subscriber forecast by more than a million users in the second quarter."
       }
     },
     "djnw": null

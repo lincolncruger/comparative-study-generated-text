@@ -52,14 +52,14 @@ def main():
     for key in sorted(expected_keys):
         for source in SOURCES:
             source_pd = pd.get(key, {}).get(source)
-            if key in raw:
-                source_exists = raw[key].get(source) is not None
-            else:
-                source_exists = {
-                    "contextual_analysis": key in context_coverage,
-                    "wsj": key in wsj_coverage,
-                    "djnw": key in djnw_coverage,
-                }[source]
+            authoritative_exists = {
+                "contextual_analysis": key in context_coverage,
+                "wsj": key in wsj_coverage,
+                "djnw": key in djnw_coverage,
+            }[source]
+            source_exists = authoritative_exists or (
+                key in raw and raw[key].get(source) is not None
+            )
             if (source_pd is not None) != source_exists:
                 errors.append(f"{key}/{source}: source-presence mismatch")
                 continue

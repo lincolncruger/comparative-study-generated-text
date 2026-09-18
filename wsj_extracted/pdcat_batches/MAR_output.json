@@ -13,6 +13,10 @@
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue increased more than 7% to roughly $3.77 billion."
       },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Hotel demand remained positive. Worldwide comparable RevPAR rose 2.6%, including 2.4% in North America."
+      },
       "Profits and profitability": {
         "rating": "positive",
         "reason": "Profitability was strong. Marriott reported adjusted EPS of $0.87, up 19% year over year and about $0.03 above consensus."
@@ -40,10 +44,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Hotel demand remained positive. Worldwide comparable RevPAR rose 2.6%, including 2.4% in North America."
       }
     },
     "wsj": {
@@ -58,6 +58,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue rose 7.4% to $3.77 billion, both ahead of the 84 cents in adjusted EPS on $3.68 billion in sales analysts had projected, per Thomson Reuters."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Hotel demand supported revenue. Lodging strength contributed to the top-line beat."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -86,10 +90,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. International RevPAR fell 2.5% but rose 3.5% on a currency-adjusted basis, and worldwide RevPAR rose 2.6% adjusted for currency."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Hotel demand supported revenue. Lodging strength contributed to the top-line beat."
       }
     },
     "djnw": null
@@ -107,6 +107,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue was about $3.9 billion, up 5%."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Hotel demand remained positive but slowed. Worldwide RevPAR rose 2.9% and North America increased 3.2%."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -135,10 +139,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. Management cited generally slower economic growth, even while leisure and group demand remained resilient."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Hotel demand remained positive but slowed. Worldwide RevPAR rose 2.9% and North America increased 3.2%."
       }
     },
     "wsj": {
@@ -153,6 +153,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue rose 5.8% to $3.9 billion, matching analyst expectations."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -181,10 +185,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Currency-adjusted global RevPAR up 2.9%."
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "djnw": null
@@ -202,6 +202,10 @@
       "Revenue": {
         "rating": null,
         "reason": null
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Hotel demand remained positive. Pro-forma worldwide RevPAR grew 2.2% and North America increased 2.6%."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -230,10 +234,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. The initial combined-company economics and pipeline were stronger than feared."
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Hotel demand remained positive. Pro-forma worldwide RevPAR grew 2.2% and North America increased 2.6%."
       }
     },
     "wsj": {
@@ -248,6 +248,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Marriott estimated the deal would yield $250 million in annual cost savings and said it was targeting more than $1.5 billion in asset sales over the following two."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "neutral",
@@ -276,10 +280,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "negative",
         "reason": "The broader backdrop was challenging. For the current quarter, Marriott guided to RevPAR on a constant-dollar basis of flat to up 1%."
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "djnw": null
@@ -297,6 +297,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Fee revenue was better than Marriott had forecast and adjusted EBITDA increased 11%."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Hotel demand was subdued. Worldwide RevPAR rose only 0.8% and North America increased 1.1%."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -325,10 +329,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. The report therefore combined weak industry growth with improving merger economics."
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Hotel demand was subdued. Worldwide RevPAR rose only 0.8% and North America increased 1.1%."
       }
     },
     "wsj": {
@@ -343,6 +343,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Marriott's fourth-quarter fiscal 2016 results, reported Feb. 15, 2017, showed revenue surging on the recent Starwood acquisition."
+      },
+      "Product / Users": {
+        "rating": "neutral",
+        "reason": "RevPAR was in line with guidance. The demand result was modest rather than a major surprise."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -371,10 +375,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "neutral",
-        "reason": "RevPAR was in line with guidance. The demand result was modest rather than a major surprise."
       }
     },
     "djnw": null
@@ -392,6 +392,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue reached about $5.56 billion, also above expectations."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Hotel demand was strong. Worldwide and North American RevPAR both increased 3.1%."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -420,10 +424,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Hotel demand was strong. Worldwide and North American RevPAR both increased 3.1%."
       }
     },
     "wsj": null,
@@ -439,6 +439,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Both state that Marriott's quarterly earnings, released late Monday, \"topped Wall Street estimates,\" without providing specific revenue, RevPAR, or per-share figures."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -467,10 +471,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     }
   },
@@ -487,6 +487,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q2 adjusted EPS was $1.13, comfortably above consensus near $1.02, and revenue of about $5.8 billion also beat expectations."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "Domestic hotel demand weakened. North American RevPAR rose only 0.9%."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -515,10 +519,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "Domestic hotel demand weakened. North American RevPAR rose only 0.9%."
       }
     },
     "wsj": {
@@ -531,6 +531,10 @@
         "reason": null
       },
       "Revenue": {
+        "rating": null,
+        "reason": null
+      },
+      "Product / Users": {
         "rating": null,
         "reason": null
       },
@@ -561,10 +565,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": "positive",
         "reason": "The broader backdrop was supportive. Room count up over 43% since 2011 to nearly 97,000 rooms across 272 properties as of the second quarter."
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     },
     "djnw": {
@@ -579,6 +579,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Neither piece provides specific revenue, RevPAR, or per-share figures for the quarter."
+      },
+      "Product / Users": {
+        "rating": null,
+        "reason": null
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -607,10 +611,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": null,
-        "reason": null
       }
     }
   },
@@ -627,6 +627,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Revenue reached about $5.66 billion."
+      },
+      "Product / Users": {
+        "rating": "negative",
+        "reason": "North American lodging demand remained weak. RevPAR increased only 0.4%, far below international growth."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -655,10 +659,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "negative",
-        "reason": "North American lodging demand remained weak. RevPAR increased only 0.4%, far below international growth."
       }
     },
     "wsj": null,
@@ -677,6 +677,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Q4 adjusted EPS reached $1.12, above consensus near $1.00, and revenue grew about 8% to $5.88 billion."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Current lodging demand was strong. Worldwide RevPAR rose 4.6%, including 3.9% in North America."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -705,10 +709,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Current lodging demand was strong. Worldwide RevPAR rose 4.6%, including 3.9% in North America."
       }
     },
     "wsj": null,
@@ -727,6 +727,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. Adjusted revenue growth also exceeded expectations."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Global hotel demand improved. Worldwide RevPAR rose 3.6%, led by 7.5% international growth."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -755,10 +759,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Global hotel demand improved. Worldwide RevPAR rose 3.6%, led by 7.5% international growth."
       }
     },
     "wsj": null,
@@ -777,6 +777,10 @@
       "Revenue": {
         "rating": "positive",
         "reason": "Revenue performance was strong. North American RevPAR rose 3.1%, international RevPAR 5.7%, and gross fee revenue climbed 12%."
+      },
+      "Product / Users": {
+        "rating": "positive",
+        "reason": "Current hotel demand was healthy. Worldwide RevPAR rose 3.8%, including 5.7% internationally."
       },
       "Profits and profitability": {
         "rating": "positive",
@@ -805,10 +809,6 @@
       "Others: eg. Covid, or macro events": {
         "rating": null,
         "reason": null
-      },
-      "Product": {
-        "rating": "positive",
-        "reason": "Current hotel demand was healthy. Worldwide RevPAR rose 3.8%, including 5.7% internationally."
       }
     },
     "wsj": null,
