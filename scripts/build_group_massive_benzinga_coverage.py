@@ -1,10 +1,24 @@
 #!/usr/bin/env python3
-"""Fetch and cache Massive/Benzinga coverage for every Data Visualization 1 ticker."""
+"""Fetch and cache Massive/Benzinga coverage for Data Visualization 2's 30
+market-cap-group tickers (group_observations.csv -- the middle-10-quarters
+subset actually shown per ticker, not each ticker's full history).
+
+Same fetch/scoring/narrative-synthesis logic as build_massive_benzinga_
+coverage.py (the Data Visualization 1 version of this script), just
+retargeted at a different ticker set and observation source, with its own
+COMPANY_TERMS built from this project's existing NVDA/AAPL/... alt-name
+list (see match_wsj_pdfs.py's ALT_NAMES, which this mirrors).
+
+Run:
+    python3 scripts/build_group_massive_benzinga_coverage.py
+"""
 
 import html
 import json
 import os
 import re
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import timedelta
@@ -14,28 +28,45 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA_PATH = ROOT / "data" / "earnings_241.json"
-OUTPUT_PATH = ROOT / "data" / "massive_benzinga_coverage.json"
+DATA_PATH = ROOT / "group_observations.csv"
+OUTPUT_PATH = ROOT / "data" / "group_massive_benzinga_coverage.json"
 API_URL = "https://api.massive.com/benzinga/v2/news"
+
+# Mirrors match_wsj_pdfs.py's ALT_NAMES -- the same alt-name list already
+# validated against real WSJ/DJNW headline text for these 30 tickers.
 COMPANY_TERMS = {
-    "AAON": ("aaon",),
-    "ABM": ("abm", "abm industries"),
-    "ABSI": ("absi", "absci"),
-    "ACCO": ("acco", "acco brands"),
-    "ACMR": ("acmr", "acm research"),
-    "ACVA": ("acva", "acv auctions"),
-    "ADMA": ("adma", "adma biologics"),
-    "ADT": ("adt", "adt inc"),
-    "AES": ("aes corporation", "the aes"),
-    "AGCO": ("agco", "agco corporation"),
-    "AIR": ("aar corp", "aar corporation"),
-    "AKA": ("aka brands", "a.k.a. brands"),
-    "AMC": ("amc entertainment",),
-    "AMCX": ("amcx", "amc networks"),
-    "AMN": ("amn healthcare",),
-    "ANIP": ("anip", "ani pharmaceuticals"),
-    "POWW": ("poww", "ammo inc", "outdoor holding"),
+    "NVDA": ("nvidia",),
+    "AAPL": ("apple",),
+    "GOOGL": ("google", "alphabet"),
+    "MSFT": ("microsoft",),
+    "AMZN": ("amazon",),
+    "AVGO": ("broadcom",),
+    "FB": ("facebook",),
+    "TSLA": ("tesla",),
+    "LLY": ("eli lilly", "lilly"),
+    "WMT": ("walmart", "wal-mart", "wal mart"),
+    "CAT": ("caterpillar",),
+    "GE": ("general electric", "ge"),
+    "PG": ("procter & gamble", "procter and gamble", "p&g"),
+    "NFLX": ("netflix",),
+    "HD": ("home depot",),
+    "PANW": ("palo alto networks",),
+    "PM": ("philip morris",),
+    "TXN": ("texas instruments",),
+    "KLAC": ("kla",),
+    "AMAT": ("applied materials",),
+    "TJX": ("tjx", "t.j. maxx", "marshalls"),
+    "NEM": ("newmont",),
+    "ISRG": ("intuitive surgical",),
+    "LMT": ("lockheed martin", "lockheed"),
+    "SBUX": ("starbucks",),
+    "CVS": ("cvs",),
+    "LOW": ("lowe's", "lowes"),
+    "ADBE": ("adobe",),
+    "MAR": ("marriott",),
+    "F": ("ford motor", "ford"),
 }
+
 EVENT_TERMS = re.compile(
     r"\b(earnings?|eps|revenue|sales|results?|quarter|guidance|outlook|forecast|profit|loss(?:es)?)\b",
     re.I,
@@ -119,13 +150,23 @@ def fetch_ticker(ticker, start, end, api_key):
         "sort": "published.asc",
     }
     url = API_URL + "?" + urllib.parse.urlencode(params)
-    # The apiKey query param is silently rejected by this endpoint (the
-    # connection is accepted then dropped with no HTTP response at all,
-    # not even a 401/403 -- confirmed by testing directly with curl). The
-    # key must be sent as a Bearer token instead.
+    # apiKey as a query param is silently rejected by this endpoint (the
+    # connection is accepted then dropped with no HTTP response at all --
+    # confirmed directly with curl). The key must be a Bearer token.
     request = urllib.request.Request(url, headers={"Authorization": f"Bearer {api_key}"})
-    with urllib.request.urlopen(request, timeout=60) as response:
-        payload = json.load(response)
+    last_error = None
+    for attempt in range(5):
+        try:
+            with urllib.request.urlopen(request, timeout=90) as response:
+                payload = json.load(response)
+            break
+        except (ConnectionResetError, TimeoutError, urllib.error.URLError) as exc:
+            last_error = exc
+            delay = 5 * (attempt + 1)
+            print(f"{ticker}: transient error ({exc}); retrying in {delay}s", flush=True)
+            time.sleep(delay)
+    else:
+        raise RuntimeError(f"Benzinga request failed for {ticker} after retries: {last_error}")
     if payload.get("status") != "OK":
         raise RuntimeError(f"Benzinga request failed for {ticker}: {payload.get('error')}")
     return payload.get("results") or []
@@ -253,8 +294,6 @@ def contextual_highlights(ticker, selected, limit=5):
                 continue
             if not (title_direct or explicitly_about_company(sentence, ticker)):
                 continue
-            # Bare wire headlines already determine the opening assessment. Here
-            # we want operating explanation, forward context or investor framing.
             if re.match(r"^(?:the company |\w+(?:,? inc\.?)? ).{0,35}reported quarterly", sentence, re.I):
                 continue
             score = (
@@ -435,10 +474,6 @@ def build_entry(ticker, event_date, observed_return, articles):
         article for article in articles
         if event_date - timedelta(days=1) <= article_date(article) <= event_date + timedelta(days=3)
     ]
-    # The ticker-filtered API response is the coverage universe. Preserve every
-    # returned article in the observation window, including previews, analyst
-    # reactions, roundups and incidental ticker-tagged coverage. Classification is
-    # used only to determine synthesis priority; it never removes a source.
     window.sort(key=lambda article: (relevance(article, ticker), article.get("published", "")), reverse=True)
     selected_pairs = [(article, article_kind(article, ticker)) for article in window]
     direct = [pair for pair in selected_pairs if mentions_company(pair[0], ticker)]
@@ -458,11 +493,6 @@ def build_entry(ticker, event_date, observed_return, articles):
         primary = [article for article, kind in selected if kind != "incidental"]
     if not primary:
         primary = [article for article, _ in selected]
-    # Synthesize evidence across the complete source set. Substantive result/mover
-    # stories are ordered first, but every API-provided article can contribute.
-    synthesis_articles = primary + [
-        article for article, _ in selected if article not in primary
-    ]
     summary = coverage_narrative(ticker, selected)
 
     movement_candidates = [
@@ -492,12 +522,20 @@ def build_entry(ticker, event_date, observed_return, articles):
 
 def main():
     api_key = load_api_key()
-    frame = pd.read_json(DATA_PATH)
-    frame["earnings_date"] = pd.to_datetime(frame["earnings_date"])
-    output = {}
+    frame = pd.read_csv(DATA_PATH, parse_dates=["earnings_date"])
+    # Resumable: load whatever's already on disk and skip any ticker whose
+    # full set of note_keys is already present, so a crash partway through
+    # (a real risk with 30 sequential large fetches -- one connection reset
+    # already lost an unwritten in-memory run) only costs the one ticker
+    # in flight, not everything before it.
+    output = json.loads(OUTPUT_PATH.read_text()) if OUTPUT_PATH.exists() else {}
     target_tickers = sorted(frame["ticker"].dropna().unique())
     for ticker in target_tickers:
         observations = frame[frame["ticker"].eq(ticker)].sort_values("earnings_date")
+        ticker_keys = {f"{ticker}_{q}" for q in observations["fiscal_yearquarter"]}
+        if ticker_keys and ticker_keys.issubset(output):
+            print(f"{ticker}: already cached", flush=True)
+            continue
         articles = fetch_ticker(
             ticker,
             observations["earnings_date"].min() - timedelta(days=2),
@@ -507,19 +545,22 @@ def main():
         covered = 0
         for _, row in observations.iterrows():
             key = f"{ticker}_{row['fiscal_yearquarter']}"
+            # ret_2day_pct is stored as a percentage point (e.g. 14.52 for
+            # +14.52%), but build_entry/movement_narrative expect a fraction
+            # (they multiply by 100 themselves) -- divide it back down.
             entry = build_entry(
                 ticker,
                 row["earnings_date"].normalize(),
-                float(row.get("ret_2day", 0.0)),
+                float(row.get("ret_2day_pct", 0.0)) / 100.0,
                 articles,
             )
             if entry:
                 output[key] = entry
                 covered += 1
-        print(f"{ticker}: {covered}/{len(observations)} observations covered from {len(articles)} articles")
-    with OUTPUT_PATH.open("w") as handle:
-        json.dump(output, handle, indent=2, ensure_ascii=False)
-        handle.write("\n")
+        with OUTPUT_PATH.open("w") as handle:
+            json.dump(output, handle, indent=2, ensure_ascii=False)
+            handle.write("\n")
+        print(f"{ticker}: {covered}/{len(observations)} observations covered from {len(articles)} articles", flush=True)
     print(f"Wrote {len(output)} observation records to {OUTPUT_PATH}")
 
 

@@ -76,6 +76,7 @@ GROUP_ABNORMAL_RETURNS_PATH = os.path.join(HERE, "data", "group_abnormal_returns
 GROUP_CONTEXT_PATH = os.path.join(HERE, "data", "group_context.json")
 GROUP_WSJ_COVERAGE_PATH = os.path.join(HERE, "data", "group_wsj_coverage.json")
 GROUP_DJNW_COVERAGE_PATH = os.path.join(HERE, "data", "group_djnw_coverage.json")
+GROUP_MASSIVE_BENZINGA_COVERAGE_PATH = os.path.join(HERE, "data", "group_massive_benzinga_coverage.json")
 MASSIVE_BENZINGA_COVERAGE_PATH = os.path.join(HERE, "data", "massive_benzinga_coverage.json")
 MASSIVE_NEWS_COVERAGE_PATH = os.path.join(HERE, "data", "massive_news_coverage.json")
 GROUP_PD_CATEGORIES_PATH = os.path.join(HERE, "data", "group_pd_categories.json")
@@ -602,6 +603,14 @@ def load_group_djnw_coverage(mtime_marker):
     if not os.path.exists(GROUP_DJNW_COVERAGE_PATH):
         return {}
     with open(GROUP_DJNW_COVERAGE_PATH) as f:
+        return json.load(f)
+
+
+@st.cache_data
+def load_group_massive_benzinga_coverage(mtime_marker):
+    if not os.path.exists(GROUP_MASSIVE_BENZINGA_COVERAGE_PATH):
+        return {}
+    with open(GROUP_MASSIVE_BENZINGA_COVERAGE_PATH) as f:
         return json.load(f)
 
 
@@ -1413,6 +1422,9 @@ group_context_lookup = load_group_context(_mtime(GROUP_CONTEXT_PATH))
 group_abnormal_returns_lookup = load_group_abnormal_returns(_mtime(GROUP_ABNORMAL_RETURNS_PATH))
 group_wsj_coverage_lookup = load_group_wsj_coverage(_mtime(GROUP_WSJ_COVERAGE_PATH))
 group_djnw_coverage_lookup = load_group_djnw_coverage(_mtime(GROUP_DJNW_COVERAGE_PATH))
+group_massive_benzinga_coverage_lookup = load_group_massive_benzinga_coverage(
+    _mtime(GROUP_MASSIVE_BENZINGA_COVERAGE_PATH)
+)
 massive_benzinga_coverage_lookup = load_massive_benzinga_coverage(
     _mtime(MASSIVE_BENZINGA_COVERAGE_PATH)
 )
@@ -1588,6 +1600,13 @@ if st.session_state.selected_section == "Data Visualization 2":
         unsafe_allow_html=True,
     )
 
+    g_third_column_source = st.radio(
+        "Third-column news source",
+        ["Dow Jones Newswires", "Massive / Benzinga"],
+        horizontal=True,
+        key=f"g_third_column_source_{g_ticker}",
+    )
+
     def _quarter_has_coverage(fiscal_yearquarter, need_wsj, need_djnw):
         # Unchecking all filters resets to "All" -- the default -- rather
         # than needing a separate "All" option, per how these were asked
@@ -1726,7 +1745,20 @@ if st.session_state.selected_section == "Data Visualization 2":
             g_wsj_pre = "<p><em>No WSJ coverage found for this observation.</em></p>"
             g_wsj_post = ""
 
-        g_djnw_entry = group_djnw_coverage_lookup.get(g_context_key)
+        g_third_column_lookups = {
+            "Dow Jones Newswires": (group_djnw_coverage_lookup, "djnw", "No Dow Jones Newswires coverage"),
+            "Massive / Benzinga": (
+                group_massive_benzinga_coverage_lookup,
+                "massive_benzinga",
+                "No Massive / Benzinga coverage",
+            ),
+        }
+        g_third_column_lookup, g_third_column_accuracy_key, g_third_column_none_text = g_third_column_lookups[
+            g_third_column_source
+        ]
+        g_third_column_label = f"{g_third_column_source} Coverage"
+
+        g_djnw_entry = g_third_column_lookup.get(g_context_key)
         if g_djnw_entry and (g_djnw_entry.get("summary_analysis") or g_djnw_entry.get("why_moved")):
             g_djnw_pre_inner = ""
             if g_djnw_entry.get("summary_analysis"):
@@ -1743,11 +1775,11 @@ if st.session_state.selected_section == "Data Visualization 2":
                     f"{render_inline_markdown(g_djnw_entry['why_moved'])}</p>"
                 )
             g_djnw_post_inner += "".join(render_djnw_source_link_html(s) for s in g_djnw_entry.get("sources", []))
-            g_djnw_post_inner += coverage_accuracy_html(g_context_key, "djnw")
+            g_djnw_post_inner += coverage_accuracy_html(g_context_key, g_third_column_accuracy_key)
             g_djnw_pre = f"<div class='format-body'>{g_djnw_pre_inner}</div>"
             g_djnw_post = f"<div class='format-body'>{g_djnw_post_inner}</div>"
         else:
-            g_djnw_pre = "<p><em>No Dow Jones Newswires coverage found for this observation.</em></p>"
+            g_djnw_pre = f"<p><em>{g_third_column_none_text} found for this observation.</em></p>"
             g_djnw_post = ""
 
         st.html(
@@ -1756,8 +1788,8 @@ if st.session_state.selected_section == "Data Visualization 2":
             "<div style='text-align:center; font-weight:bold; grid-column:1; grid-row:1;'>"
             "Contextualized interpretation</div>"
             "<div style='text-align:center; font-weight:bold; grid-column:2; grid-row:1;'>WSJ Coverage</div>"
-            "<div style='text-align:center; font-weight:bold; grid-column:3; grid-row:1;'>"
-            "Dow Jones Newswires Coverage</div>"
+            f"<div style='text-align:center; font-weight:bold; grid-column:3; grid-row:1;'>"
+            f"{g_third_column_label}</div>"
             f"<div style='grid-column:1; grid-row:2;'>{g_left_pre}</div>"
             f"<div style='grid-column:2; grid-row:2;'>{g_wsj_pre}</div>"
             f"<div style='grid-column:3; grid-row:2;'>{g_djnw_pre}</div>"
