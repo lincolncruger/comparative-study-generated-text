@@ -609,6 +609,69 @@ def load_group3_band_observations(mtime_marker):
     return sampled.sort_values(["ticker", "earnings_date"]).reset_index(drop=True)
 
 
+# Data Visualization 4: 2 new market-cap bands (Small & Mid Cap and a
+# merged Large Cap band covering $100B-$1T -- the original 3-band split
+# had a separate Mega Cap $500B+ tier, but true mega-caps are scarce once
+# Data Viz 1/2/3's tickers are excluded, so Large and Mega were merged
+# into one band per the user's direction), with their own randomly-
+# selected tickers -- pulled only from our own CUPIP earnings-returns
+# dataset, excluding every ticker already used in Data Viz 1/2/3 -- and
+# 10 quarters per ticker in the same 2021-2023 window as Data Viz 3.
+# Market cap itself isn't in our dataset, so screening these tickers
+# needed one-off live yfinance lookups (scripts/screen_viz4_candidates.py,
+# run slowly/sequentially after an earlier aggressive attempt triggered a
+# temporary IP-level Yahoo rate limit); the result is fixed data from here
+# on, no live lookups happen at app runtime.
+GROUP4_GROUPS = {
+    "Small & Mid Cap": ["MTW", "SFIX", "PCTY", "MGNI", "ASO", "NGL", "REZI", "CENTA", "BSM", "METC"],
+    "Large Cap": ["BA", "JNJ", "PH", "MRVL", "FTNT", "TMUS", "UBER", "VZ", "MO", "MCD"],
+}
+GROUP4_BAND_LABELS = {
+    "Small & Mid Cap": "\\$250M\u2013\\$10B, 2021-2023",
+    "Large Cap": "\\$100B\u2013\\$1T, 2021-2023",
+}
+GROUP4_COMPANY_NAMES = {
+    "MTW": "Manitowoc", "SFIX": "Stitch Fix", "PCTY": "Paylocity", "MGNI": "Magnite",
+    "ASO": "Academy Sports & Outdoors", "NGL": "NGL Energy Partners", "REZI": "Resideo Technologies",
+    "CENTA": "Central Garden & Pet", "BSM": "Black Stone Minerals", "METC": "Ramaco Resources",
+    "BA": "Boeing", "JNJ": "Johnson & Johnson", "PH": "Parker-Hannifin", "MRVL": "Marvell Technology",
+    "FTNT": "Fortinet", "TMUS": "T-Mobile US", "UBER": "Uber Technologies", "VZ": "Verizon Communications",
+    "MO": "Altria Group", "MCD": "McDonald's",
+}
+GROUP4_PRICE_HISTORY_PATH = os.path.join(HERE, "data", "group4_price_history.json")
+
+
+@st.cache_data
+def load_group4_price_history(mtime_marker):
+    if not os.path.exists(GROUP4_PRICE_HISTORY_PATH):
+        return None
+    with open(GROUP4_PRICE_HISTORY_PATH) as f:
+        return json.load(f)
+
+
+@st.cache_data
+def load_group4_band_observations(mtime_marker):
+    """Same pattern as load_group3_band_observations(), for GROUP4_GROUPS'
+    tickers -- up to 10 quarters per ticker in 2021-2023, randomly sampled
+    (fixed seed) when more than 10 fall in the window. No FB-style ticker-
+    rename special case needed here."""
+    if not os.path.exists(GROUP_RETURNS_PATH):
+        return pd.DataFrame()
+    group4_tickers = [t for tickers in GROUP4_GROUPS.values() for t in tickers]
+    raw = pd.read_csv(GROUP_RETURNS_PATH, parse_dates=["earningsdate"])
+    raw = raw.rename(columns={"earningsdate": "earnings_date", "yq": "fiscal_yearquarter"})
+    window = raw[
+        (raw["earnings_date"] >= DATAVIZ3_WINDOW_START)
+        & (raw["earnings_date"] <= DATAVIZ3_WINDOW_END)
+        & (raw["ticker"].isin(group4_tickers))
+    ]
+    sampled = (
+        window.groupby("ticker", group_keys=False)
+        .apply(lambda g: g.sample(n=min(10, len(g)), random_state=DATAVIZ3_SEED))
+    )
+    return sampled.sort_values(["ticker", "earnings_date"]).reset_index(drop=True)
+
+
 @st.cache_data
 def load_group_price_history(mtime_marker):
     if not os.path.exists(GROUP_PRICE_HISTORY_PATH):
@@ -1461,6 +1524,8 @@ group_coverage_accuracy_lookup = load_group_coverage_accuracy(_mtime(GROUP_COVER
 notes_lookup = load_notes(_mtime(NOTES_PATH))
 group_df = load_group_returns(_mtime(GROUP_RETURNS_PATH))
 group3_band_observations = load_group3_band_observations(_mtime(GROUP_RETURNS_PATH))
+group4_band_observations = load_group4_band_observations(_mtime(GROUP_RETURNS_PATH))
+group4_price_history = load_group4_price_history(_mtime(GROUP4_PRICE_HISTORY_PATH))
 group_price_history = load_group_price_history(_mtime(GROUP_PRICE_HISTORY_PATH))
 group_context_lookup = load_group_context(_mtime(GROUP_CONTEXT_PATH))
 group_abnormal_returns_lookup = load_group_abnormal_returns(_mtime(GROUP_ABNORMAL_RETURNS_PATH))
@@ -1516,7 +1581,10 @@ st.markdown("<hr class='gold-divider'/>", unsafe_allow_html=True)
 if "selected_section" not in st.session_state:
     st.session_state.selected_section = "Data Visualization"
 
-sections = ["Data Visualization", "Data Visualization 2", "Data Visualization 3", "Comparative Study"]
+sections = [
+    "Data Visualization", "Data Visualization 2", "Data Visualization 3", "Data Visualization 4",
+    "Comparative Study",
+]
 section_cols = st.columns(len(sections))
 for col, sec in zip(section_cols, sections):
     with col:
@@ -2017,6 +2085,136 @@ if st.session_state.selected_section == "Data Visualization 3":
             )
             st.write("*No coverage available yet for this observation.*")
         with g3_right:
+            st.markdown(
+                "<div style='text-align:center; font-weight:bold;'>High-Tier Coverage</div>",
+                unsafe_allow_html=True,
+            )
+            st.write("*No coverage available yet for this observation.*")
+
+        st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+    st.stop()
+
+if st.session_state.selected_section == "Data Visualization 4":
+    # 2 subgroups, both with newly-selected tickers excluded from Data Viz
+    # 1/2/3 (see GROUP4_GROUPS above): "Small & Mid Cap" ($250M-$10B) and
+    # "Large Cap" ($100B-$1T, merged from the original separate Large/Mega
+    # split once Mega Cap proved too scarce a pool to fill on its own).
+    # Same nav/chart/Visualize-toggle pattern and empty "Selected
+    # Coverage"/"High-Tier Coverage" columns as Data Visualization 3.
+    if "selected_g4_group" not in st.session_state:
+        st.session_state.selected_g4_group = list(GROUP4_GROUPS)[0]
+
+    g4_group_cols = st.columns(len(GROUP4_GROUPS))
+    for col, g in zip(g4_group_cols, GROUP4_GROUPS.keys()):
+        with col:
+            is_selected = st.session_state.selected_g4_group == g
+            g4_group_label = f"{g} ({GROUP4_BAND_LABELS[g]})"
+            if st.button(
+                g4_group_label,
+                key=f"g4_groupbtn_{g}",
+                use_container_width=True,
+                type="primary" if is_selected else "secondary",
+            ):
+                st.session_state.selected_g4_group = g
+                st.session_state.selected_g4_ticker = GROUP4_GROUPS[g][0]
+
+    st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+    selected_g4_group = st.session_state.selected_g4_group
+    g4_group_tickers = GROUP4_GROUPS[selected_g4_group]
+
+    if (
+        "selected_g4_ticker" not in st.session_state
+        or st.session_state.selected_g4_ticker not in g4_group_tickers
+    ):
+        st.session_state.selected_g4_ticker = g4_group_tickers[0]
+
+    g4_ticker_cols = st.columns(len(g4_group_tickers))
+    for col, t in zip(g4_ticker_cols, g4_group_tickers):
+        with col:
+            is_selected = st.session_state.selected_g4_ticker == t
+            if st.button(
+                t,
+                key=f"g4_navbtn_{t}",
+                use_container_width=True,
+                type="primary" if is_selected else "secondary",
+                help=GROUP4_COMPANY_NAMES.get(t, t),
+            ):
+                st.session_state.selected_g4_ticker = t
+
+    st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+    g4_ticker = st.session_state.selected_g4_ticker
+    g4_sub = group4_band_observations[group4_band_observations["ticker"] == g4_ticker].reset_index(drop=True)
+    g4_company_name = GROUP4_COMPANY_NAMES.get(g4_ticker, g4_ticker)
+
+    if g4_sub.empty:
+        st.info(f"No 2021-2023 observations available for {g4_ticker}.")
+        st.stop()
+
+    st.markdown(
+        f"<div class='quarter-header' style='font-size:1.4rem; text-align:center;'>{g4_ticker} — {g4_company_name}</div>",
+        unsafe_allow_html=True,
+    )
+    g4_period_start = g4_sub["earnings_date"].min().strftime("%Y-%m-%d")
+    g4_period_end = g4_sub["earnings_date"].max().strftime("%Y-%m-%d")
+    st.markdown(
+        f"<div style='text-align:center; color:rgba(214,228,240,0.7); font-size:0.85rem;'>"
+        f"{len(g4_sub)} observations, {g4_period_start} to {g4_period_end}</div>",
+        unsafe_allow_html=True,
+    )
+
+    render_price_chart(g4_ticker, group4_price_history, g4_sub)
+
+    st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+    g4_sp_df_for_headers = None
+    if group4_price_history is not None:
+        g4_sp_df_for_headers = pd.DataFrame(group4_price_history["sp500"])
+        g4_sp_df_for_headers["date"] = pd.to_datetime(g4_sp_df_for_headers["date"])
+        g4_sp_df_for_headers = g4_sp_df_for_headers.sort_values("date").reset_index(drop=True)
+
+    for g4_idx, g4_row in g4_sub.iterrows():
+        g4_note_key = f"{g4_row['ticker']}_{g4_row['fiscal_yearquarter']}"
+        g4_ret_pct = g4_row["ret_2day"] * 100
+        g4_ret_str = f"{g4_ret_pct:+.2f}%"
+        g4_sp_ret = (
+            sp_return_2day(g4_sp_df_for_headers, g4_row["earnings_date"])
+            if g4_sp_df_for_headers is not None
+            else None
+        )
+        g4_sp_ret_str = f"{g4_sp_ret:+.2f}%" if g4_sp_ret is not None else "n/a"
+        g4_excess_str = excess_return_str(g4_ret_pct, g4_sp_ret)
+
+        st.markdown(
+            f"<div class='quarter-header' style='text-align:center;'>{g4_row['fiscal_yearquarter'].upper()} "
+            f"&nbsp;|&nbsp; earnings {g4_row['earnings_date'].strftime('%Y-%m-%d')}</div>"
+            f"<div class='quarter-header' style='text-align:center;'>2-day return {g4_ret_str} "
+            f"&nbsp;|&nbsp; S&amp;P 2-day return {g4_sp_ret_str}</div>"
+            f"<div style=\"text-align:center; font-size:1.3rem; font-family:'Cormorant Garamond', serif; "
+            f"color:rgba(214,228,240,0.9); margin-bottom:0.3rem;\">Excess return {g4_excess_str}</div>",
+            unsafe_allow_html=True,
+        )
+
+        with st.container(key=f"g4viz_{g4_note_key}"):
+            g4_viz_toggle_id = f"g4viz_toggle_{g4_note_key}"
+            st.html(
+                f"<input type='checkbox' id='{g4_viz_toggle_id}' class='visualize-checkbox'>"
+                f"<label for='{g4_viz_toggle_id}' class='visualize-label'>Visualize</label>"
+            )
+            g4_viz_fig = build_quarter_visualize_fig(g4_ticker, group4_price_history, g4_sub, g4_idx)
+            if g4_viz_fig is not None:
+                st.plotly_chart(g4_viz_fig, use_container_width=True, key=f"g4viz_chart_{g4_note_key}")
+
+        g4_left, g4_right = st.columns(2, gap="large")
+        with g4_left:
+            st.markdown(
+                "<div style='text-align:center; font-weight:bold;'>Selected Coverage</div>",
+                unsafe_allow_html=True,
+            )
+            st.write("*No coverage available yet for this observation.*")
+        with g4_right:
             st.markdown(
                 "<div style='text-align:center; font-weight:bold;'>High-Tier Coverage</div>",
                 unsafe_allow_html=True,
