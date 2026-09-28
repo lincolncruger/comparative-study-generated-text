@@ -1472,7 +1472,7 @@ st.markdown("<hr class='gold-divider'/>", unsafe_allow_html=True)
 if "selected_section" not in st.session_state:
     st.session_state.selected_section = "Data Visualization"
 
-sections = ["Data Visualization", "Data Visualization 2", "Comparative Study"]
+sections = ["Data Visualization", "Data Visualization 2", "Data Visualization 3", "Comparative Study"]
 section_cols = st.columns(len(sections))
 for col, sec in zip(section_cols, sections):
     with col:
@@ -1812,6 +1812,173 @@ if st.session_state.selected_section == "Data Visualization 2":
                 use_container_width=True,
             ):
                 _show_first_order_categories_dialog(g_context_key)
+
+        st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+    st.stop()
+
+if st.session_state.selected_section == "Data Visualization 3":
+    # 4 subgroups: "Data Viz 1 (Post-2019)" reuses Data Visualization 1's
+    # existing 17 tickers, filtered to observations from 2019 onward (when
+    # StockNews API's news archive starts being usable) -- no new ticker
+    # selection or market-cap screening needed for this one. The other 3
+    # are market-cap bands with their own randomly-selected, non-overlapping
+    # tickers (10 stocks x 10 observations in 2021-2023, sourced only from
+    # our own CUPIP earnings-returns dataset -- see
+    # scripts/screen_viz3_candidates.py) -- their ticker lists start empty
+    # here and get filled in once that screening is done, rather than
+    # crashing on an empty ticker-nav loop in the meantime.
+    DATAVIZ3_GROUPS = {
+        "Data Viz 1 (Post-2019)": list(tickers),
+        "Small & Mid Cap": [],
+        "Large Cap": [],
+        "Mega Cap": [],
+    }
+    DATAVIZ3_BAND_LABELS = {
+        "Data Viz 1 (Post-2019)": "existing tickers, 2019+",
+        "Small & Mid Cap": "\\$250M\u2013\\$10B",
+        "Large Cap": "\\$100B\u2013\\$500B",
+        "Mega Cap": "\\$500B+",
+    }
+    DATAVIZ3_POST_2019_CUTOFF = pd.Timestamp("2019-01-01")
+
+    if "selected_g3_group" not in st.session_state:
+        st.session_state.selected_g3_group = list(DATAVIZ3_GROUPS)[0]
+
+    g3_group_cols = st.columns(len(DATAVIZ3_GROUPS))
+    for col, g in zip(g3_group_cols, DATAVIZ3_GROUPS.keys()):
+        with col:
+            is_selected = st.session_state.selected_g3_group == g
+            g3_group_label = f"{g} ({DATAVIZ3_BAND_LABELS[g]})"
+            if st.button(
+                g3_group_label,
+                key=f"g3_groupbtn_{g}",
+                use_container_width=True,
+                type="primary" if is_selected else "secondary",
+            ):
+                st.session_state.selected_g3_group = g
+                g3_tickers_for_new_group = DATAVIZ3_GROUPS[g]
+                if g3_tickers_for_new_group:
+                    st.session_state.selected_g3_ticker = g3_tickers_for_new_group[0]
+
+    st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+    selected_g3_group = st.session_state.selected_g3_group
+    g3_group_tickers = DATAVIZ3_GROUPS[selected_g3_group]
+
+    if not g3_group_tickers:
+        st.info(
+            f"Candidate tickers for \"{selected_g3_group}\" ({DATAVIZ3_BAND_LABELS[selected_g3_group]}) "
+            "haven't been selected yet -- this group is coming soon."
+        )
+        st.stop()
+
+    if (
+        "selected_g3_ticker" not in st.session_state
+        or st.session_state.selected_g3_ticker not in g3_group_tickers
+    ):
+        st.session_state.selected_g3_ticker = g3_group_tickers[0]
+
+    g3_ticker_cols = st.columns(len(g3_group_tickers))
+    for col, t in zip(g3_ticker_cols, g3_group_tickers):
+        with col:
+            is_selected = st.session_state.selected_g3_ticker == t
+            if st.button(
+                t,
+                key=f"g3_navbtn_{t}",
+                use_container_width=True,
+                type="primary" if is_selected else "secondary",
+            ):
+                st.session_state.selected_g3_ticker = t
+
+    st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+    g3_ticker = st.session_state.selected_g3_ticker
+
+    if selected_g3_group == "Data Viz 1 (Post-2019)":
+        g3_sub = df[
+            (df["ticker"] == g3_ticker) & (df["earnings_date"] >= DATAVIZ3_POST_2019_CUTOFF)
+        ].reset_index(drop=True)
+        g3_company_name = df[df["ticker"] == g3_ticker]["company_name"].iloc[0]
+        g3_price_history = price_history
+    else:
+        # Populated once the market-cap-screened ticker/observation data
+        # exists for this band.
+        g3_sub = pd.DataFrame()
+        g3_company_name = g3_ticker
+        g3_price_history = None
+
+    if g3_sub.empty:
+        st.info(f"No post-2019 observations available for {g3_ticker}.")
+        st.stop()
+
+    st.markdown(
+        f"<div class='quarter-header' style='font-size:1.4rem; text-align:center;'>{g3_ticker} — {g3_company_name}</div>",
+        unsafe_allow_html=True,
+    )
+    g3_period_start = g3_sub["earnings_date"].min().strftime("%Y-%m-%d")
+    g3_period_end = g3_sub["earnings_date"].max().strftime("%Y-%m-%d")
+    st.markdown(
+        f"<div style='text-align:center; color:rgba(214,228,240,0.7); font-size:0.85rem;'>"
+        f"{len(g3_sub)} observations, {g3_period_start} to {g3_period_end}</div>",
+        unsafe_allow_html=True,
+    )
+
+    render_price_chart(g3_ticker, g3_price_history, g3_sub)
+
+    st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+    g3_sp_df_for_headers = None
+    if g3_price_history is not None:
+        g3_sp_df_for_headers = pd.DataFrame(g3_price_history["sp500"])
+        g3_sp_df_for_headers["date"] = pd.to_datetime(g3_sp_df_for_headers["date"])
+        g3_sp_df_for_headers = g3_sp_df_for_headers.sort_values("date").reset_index(drop=True)
+
+    for g3_idx, g3_row in g3_sub.iterrows():
+        g3_note_key = f"{g3_row['ticker']}_{g3_row['fiscal_yearquarter']}"
+        g3_ret_pct = g3_row["ret_2day"] * 100
+        g3_ret_str = f"{g3_ret_pct:+.2f}%"
+        g3_sp_ret = (
+            sp_return_2day(g3_sp_df_for_headers, g3_row["earnings_date"])
+            if g3_sp_df_for_headers is not None
+            else None
+        )
+        g3_sp_ret_str = f"{g3_sp_ret:+.2f}%" if g3_sp_ret is not None else "n/a"
+        g3_excess_str = excess_return_str(g3_ret_pct, g3_sp_ret)
+
+        st.markdown(
+            f"<div class='quarter-header' style='text-align:center;'>{g3_row['fiscal_yearquarter'].upper()} "
+            f"&nbsp;|&nbsp; earnings {g3_row['earnings_date'].strftime('%Y-%m-%d')}</div>"
+            f"<div class='quarter-header' style='text-align:center;'>2-day return {g3_ret_str} "
+            f"&nbsp;|&nbsp; S&amp;P 2-day return {g3_sp_ret_str}</div>"
+            f"<div style=\"text-align:center; font-size:1.3rem; font-family:'Cormorant Garamond', serif; "
+            f"color:rgba(214,228,240,0.9); margin-bottom:0.3rem;\">Excess return {g3_excess_str}</div>",
+            unsafe_allow_html=True,
+        )
+
+        with st.container(key=f"g3viz_{g3_note_key}"):
+            g3_viz_toggle_id = f"g3viz_toggle_{g3_note_key}"
+            st.html(
+                f"<input type='checkbox' id='{g3_viz_toggle_id}' class='visualize-checkbox'>"
+                f"<label for='{g3_viz_toggle_id}' class='visualize-label'>Visualize</label>"
+            )
+            g3_viz_fig = build_quarter_visualize_fig(g3_ticker, g3_price_history, g3_sub, g3_idx)
+            if g3_viz_fig is not None:
+                st.plotly_chart(g3_viz_fig, use_container_width=True, key=f"g3viz_chart_{g3_note_key}")
+
+        g3_left, g3_right = st.columns(2, gap="large")
+        with g3_left:
+            st.markdown(
+                "<div style='text-align:center; font-weight:bold;'>Selected Coverage</div>",
+                unsafe_allow_html=True,
+            )
+            st.write("*No coverage available yet for this observation.*")
+        with g3_right:
+            st.markdown(
+                "<div style='text-align:center; font-weight:bold;'>High-Tier Coverage</div>",
+                unsafe_allow_html=True,
+            )
+            st.write("*No coverage available yet for this observation.*")
 
         st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
 
