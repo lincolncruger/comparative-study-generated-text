@@ -566,6 +566,49 @@ def load_group_returns(mtime_marker):
     return df.sort_values(["ticker", "earnings_date"]).reset_index(drop=True)
 
 
+DATAVIZ3_WINDOW_START = pd.Timestamp("2021-01-01")
+DATAVIZ3_WINDOW_END = pd.Timestamp("2023-12-31")
+DATAVIZ3_SEED = 20260928
+
+
+@st.cache_data
+def load_group3_band_observations(mtime_marker):
+    """Data Visualization 3's Group 1/2/3 subgroups: the SAME 30 tickers as
+    Data Visualization 2 (same market-cap bands, same GROUP_MARKET_CAP_
+    LABELS), but a different, non-overlapping observation window --
+    2021-2023 instead of the panel-midpoint-centered quarters Data
+    Visualization 2 shows -- so nothing here duplicates an observation
+    already displayed there. Up to 10 quarters per ticker, randomly
+    sampled (fixed seed) when more than 10 fall in the window.
+
+    FB is a special case: Yahoo delisted the "FB" ticker entirely after
+    Facebook's 2022 rename (see the price-history fix elsewhere in this
+    file), and the returns dataset itself splits the same company's
+    2021-2023 history across two ticker symbols -- "FB" through
+    2022q2, "META" from 2022q3 on. Both halves are pulled and relabeled
+    "FB" here so this ticker's 10 observations span the full window
+    continuously, matching how GROUPS/GROUP_COMPANY_NAMES elsewhere in
+    this file already treat FB as the single canonical symbol for this
+    company (avoiding double-counting it under two tickers)."""
+    if not os.path.exists(GROUP_RETURNS_PATH):
+        return pd.DataFrame()
+    all_group_tickers = [t for tickers in GROUPS.values() for t in tickers]
+    raw = pd.read_csv(GROUP_RETURNS_PATH, parse_dates=["earningsdate"])
+    raw = raw.rename(columns={"earningsdate": "earnings_date", "yq": "fiscal_yearquarter"})
+    window = raw[(raw["earnings_date"] >= DATAVIZ3_WINDOW_START) & (raw["earnings_date"] <= DATAVIZ3_WINDOW_END)]
+
+    fb_rows = window[window["ticker"].isin(["FB", "META"])].copy()
+    fb_rows["ticker"] = "FB"
+    other_rows = window[window["ticker"].isin(all_group_tickers) & (window["ticker"] != "FB")]
+    combined = pd.concat([other_rows, fb_rows], ignore_index=True)
+
+    sampled = (
+        combined.groupby("ticker", group_keys=False)
+        .apply(lambda g: g.sample(n=min(10, len(g)), random_state=DATAVIZ3_SEED))
+    )
+    return sampled.sort_values(["ticker", "earnings_date"]).reset_index(drop=True)
+
+
 @st.cache_data
 def load_group_price_history(mtime_marker):
     if not os.path.exists(GROUP_PRICE_HISTORY_PATH):
@@ -1417,6 +1460,7 @@ comparative_answers_lookup = load_comparative_answers(_mtime(COMPARATIVE_ANSWERS
 group_coverage_accuracy_lookup = load_group_coverage_accuracy(_mtime(GROUP_COVERAGE_ACCURACY_PATH))
 notes_lookup = load_notes(_mtime(NOTES_PATH))
 group_df = load_group_returns(_mtime(GROUP_RETURNS_PATH))
+group3_band_observations = load_group3_band_observations(_mtime(GROUP_RETURNS_PATH))
 group_price_history = load_group_price_history(_mtime(GROUP_PRICE_HISTORY_PATH))
 group_context_lookup = load_group_context(_mtime(GROUP_CONTEXT_PATH))
 group_abnormal_returns_lookup = load_group_abnormal_returns(_mtime(GROUP_ABNORMAL_RETURNS_PATH))
@@ -1818,27 +1862,26 @@ if st.session_state.selected_section == "Data Visualization 2":
     st.stop()
 
 if st.session_state.selected_section == "Data Visualization 3":
-    # 4 subgroups: "Data Viz 1 (Post-2019)" reuses Data Visualization 1's
+    # 4 subgroups, none needing new ticker selection or market-cap
+    # screening -- "Data Viz 1 (Post-2019)" reuses Data Visualization 1's
     # existing 17 tickers, filtered to observations from 2019 onward (when
-    # StockNews API's news archive starts being usable) -- no new ticker
-    # selection or market-cap screening needed for this one. The other 3
-    # are market-cap bands with their own randomly-selected, non-overlapping
-    # tickers (10 stocks x 10 observations in 2021-2023, sourced only from
-    # our own CUPIP earnings-returns dataset -- see
-    # scripts/screen_viz3_candidates.py) -- their ticker lists start empty
-    # here and get filled in once that screening is done, rather than
-    # crashing on an empty ticker-nav loop in the meantime.
+    # StockNews API's news archive starts being usable); "Group 1"/"Group
+    # 2"/"Group 3" reuse the exact same 30 tickers and market-cap bands as
+    # Data Visualization 2 (see GROUPS/GROUP_MARKET_CAP_LABELS), just over
+    # a different, non-overlapping observation window -- 2021-2023 instead
+    # of the panel-midpoint-centered quarters shown there -- via
+    # load_group3_band_observations().
     DATAVIZ3_GROUPS = {
         "Data Viz 1 (Post-2019)": list(tickers),
-        "Small & Mid Cap": [],
-        "Large Cap": [],
-        "Mega Cap": [],
+        "Group 1": GROUPS["Group 1"],
+        "Group 2": GROUPS["Group 2"],
+        "Group 3": GROUPS["Group 3"],
     }
     DATAVIZ3_BAND_LABELS = {
         "Data Viz 1 (Post-2019)": "existing tickers, 2019+",
-        "Small & Mid Cap": "\\$250M\u2013\\$10B",
-        "Large Cap": "\\$100B\u2013\\$500B",
-        "Mega Cap": "\\$500B+",
+        "Group 1": f"{GROUP_MARKET_CAP_LABELS['Group 1']}, 2021-2023",
+        "Group 2": f"{GROUP_MARKET_CAP_LABELS['Group 2']}, 2021-2023",
+        "Group 3": f"{GROUP_MARKET_CAP_LABELS['Group 3']}, 2021-2023",
     }
     DATAVIZ3_POST_2019_CUTOFF = pd.Timestamp("2019-01-01")
 
@@ -1902,11 +1945,11 @@ if st.session_state.selected_section == "Data Visualization 3":
         g3_company_name = df[df["ticker"] == g3_ticker]["company_name"].iloc[0]
         g3_price_history = price_history
     else:
-        # Populated once the market-cap-screened ticker/observation data
-        # exists for this band.
-        g3_sub = pd.DataFrame()
-        g3_company_name = g3_ticker
-        g3_price_history = None
+        g3_sub = group3_band_observations[
+            group3_band_observations["ticker"] == g3_ticker
+        ].reset_index(drop=True)
+        g3_company_name = GROUP_COMPANY_NAMES.get(g3_ticker, g3_ticker)
+        g3_price_history = group_price_history
 
     if g3_sub.empty:
         st.info(f"No post-2019 observations available for {g3_ticker}.")
