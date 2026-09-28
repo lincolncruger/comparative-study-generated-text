@@ -469,6 +469,9 @@ def movement_narrative(selected, explicit_drivers, observed_return, summary):
     return f"{reaction} {implication}"
 
 
+KIND_PRIORITY = {"results": 0, "mover": 0, "reaction": 1, "preview": 2, "incidental": 3}
+
+
 def build_entry(ticker, event_date, observed_return, articles):
     window = [
         article for article in articles
@@ -487,6 +490,19 @@ def build_entry(ticker, event_date, observed_return, articles):
         seen_ids.add(identifier)
     if not selected:
         return None
+
+    # Keep only the handful of articles that actually explain the results
+    # and the stock's reaction -- keeping every deduped article in the
+    # fetch window meant some observations linked 20+ sources, most of
+    # them wire-service market roundups that only mention the ticker in
+    # passing. Rank by how directly each article addresses the earnings
+    # report/reaction (results/mover articles first, then analyst reaction
+    # pieces, then previews, then incidental mentions), tie-broken by the
+    # same relevance score used for windowing, and take at most 3 -- every
+    # downstream synthesis step (summary, why_moved, linked sources) then
+    # only ever draws on these few, so the links back up the text.
+    selected.sort(key=lambda pair: (KIND_PRIORITY.get(pair[1], 4), -relevance(pair[0], ticker)))
+    selected = selected[:3]
 
     primary = [article for article, kind in selected if kind in {"results", "mover"}]
     if not primary:
