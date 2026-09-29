@@ -1,247 +1,171 @@
 {
   "AAON_2018q4": {
-    "summary_analysis": "Coverage portrayed the quarter as weaker than expected: both earnings and sales missed expectations. The retrieved coverage did not identify a separate guidance change as a major theme.",
-    "why_moved": "The stock rose 12.3% over the two-day earnings window. The articles do not isolate a first-order catalyst, so the positive reaction cannot be attributed more precisely from this coverage. The positive reaction despite weak headline results indicates that investors found a favorable offset elsewhere, but the retrieved articles do not identify it explicitly.",
+    "summary_analysis": "The lone Benzinga article on this release is a short, automated results writeup reporting AAON's third-quarter earnings and sales figures without additional analyst commentary, guidance, or management quotes. It states that AAON reported quarterly earnings of $0.27 per share, missing the analyst consensus estimate of $0.28 by 3.57 percent, and that this represented a 3.57 percent decrease from the $0.28 per share earned in the same quarter a year earlier. On the top line, the article reports quarterly sales of $112.937 million, which missed the analyst consensus estimate of $130.58 million by 13.51 percent, a wider shortfall than the miss on earnings. It notes that sales were also down slightly year over year, falling 0.64 percent from $113.668 million in the prior-year period. The article does not provide any segment-level detail, product commentary, management commentary, or forward guidance, nor does it name the analysts behind the consensus figures. It reads as a pure numbers recap generated to flag the beat/miss result rather than to explain the business drivers behind it.",
+    "why_moved": "The article does not report how AAON shares reacted to this release; it confines itself to stating the earnings and sales miss and the year-over-year comparisons, with no mention of trading activity, share-price movement, or analyst reaction following the report. Given the size of the sales miss relative to estimate (13.51 percent) and the smaller earnings miss (3.57 percent), the piece implicitly frames the quarter as disappointing versus expectations, but it stops short of describing any market response. No guidance change, analyst commentary, or management quote is included that might explain a stock reaction. In short, the article documents the quarter's results but offers no discussion of how shares reacted to them.",
     "sources": [
       {
         "title": "AAON Q3 EPS $0.27 Misses $0.28 Estimate, Sales $112.937M Miss $130.58M Estimate",
         "published_date": "2018-11-01",
-        "url": "https://www.benzinga.com/quote/AAON",
         "benzinga_id": 12609938
       }
     ]
   },
   "AAON_2019q2": {
-    "summary_analysis": "Coverage portrayed the quarter as mixed: sales beat expectations but earnings fell short. The retrieved coverage did not identify a separate guidance change as a major theme.",
-    "why_moved": "The stock rose 3.0% over the two-day earnings window. The articles do not isolate a first-order catalyst, so the positive reaction cannot be attributed more precisely from this coverage.",
+    "summary_analysis": "The single article covering this release is an automated results recap reporting AAON's first-quarter 2019 earnings and sales relative to consensus, without further analyst or management commentary. It states AAON earned $0.21 per share, missing the analyst consensus estimate of $0.23 by 8.7 percent, though the article notes this was still a substantial 162.5 percent increase over the $0.08 per share earned in the same quarter of the prior year. On revenue, the article reports quarterly sales of $113.822 million, which beat the analyst consensus estimate of $109.92 million by 3.55 percent and marked a 14.88 percent increase over the $99.082 million reported in the same period a year earlier. The piece juxtaposes an EPS miss against estimates with a large EPS increase against the prior year's comparable quarter, and a sales beat against estimates that was also up double digits year over year, but it does not explain the source of the earnings shortfall (costs, mix, or one-time items) nor does it offer segment detail, guidance, or management quotes. No analyst names are given beyond the generic \"analyst consensus estimate.\"",
+    "why_moved": "The article does not describe any share-price reaction to the release, nor does it mention trading activity around the report. It presents only the raw beat/miss comparisons on earnings and sales without commentary on how investors responded. Because the article frames the quarter as a mixed result, missing on EPS versus estimates while beating on sales and showing strong year-over-year earnings growth, some market reaction would be plausible, but the text simply does not state one. No guidance, quote, or analyst reaction is present that would explain any stock movement. The article therefore offers no basis for describing why shares moved as they did.",
     "sources": [
       {
         "title": "AAON Q1 EPS $0.21 Misses $0.23 Estimate, Sales $113.822M Beat $109.92M Estimate",
         "published_date": "2019-05-02",
-        "url": "https://www.benzinga.com/quote/AAON",
         "benzinga_id": 13650831
       }
     ]
   },
   "AAON_2019q4": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The retrieved coverage did not identify a separate guidance change as a major theme.",
-    "why_moved": "The stock fell 1.8% over the two-day earnings window. The articles do not explicitly explain why investors sold the stock, so no specific first-order driver can be confirmed.",
+    "summary_analysis": "Both available articles are near-identical automated results recaps of AAON's third-quarter 2019 report (one appears to be a duplicate or corrected republish of the other), and together they supply only a bare year-over-year comparison rather than a comparison against analyst estimates. They state that AAON reported quarterly earnings of $0.26 per share, a 3.7 percent decrease from the $0.27 per share earned in the same period a year earlier, and quarterly sales of $113.5 million, a 0.50 percent increase over the $112.937 million reported in the prior-year period. Unlike some of the company's other Benzinga results articles, neither version references an analyst consensus estimate for EPS or sales, so there is no beat/miss framing for this particular quarter, only the year-over-year change. Neither article includes segment or product detail, management commentary, or forward guidance. Because both pieces carry identical text, they add no additional context beyond confirming the same headline figures.",
+    "why_moved": "Neither article states or describes how AAON shares reacted to this earnings release; both are limited to the year-over-year earnings and sales comparisons with no mention of trading activity or investor response. There is no guidance change, analyst commentary, or management quote in either piece that could account for a stock move. The articles therefore give no explanation, direct or indirect, for how the market responded to this quarter's results.",
     "sources": [
       {
         "title": "AAON Q3 EPS $0.26 Down From $0.27 YoY, Sales $113.5M Up From $112.937M YoY",
         "published_date": "2019-10-31",
-        "url": "https://www.benzinga.com/quote/AAON",
         "benzinga_id": 14701957
       },
       {
         "title": "AAON Earlier Reported Q3 EPS $0.26 Down From $0.27 YoY, Sales $113.5M Up From $112.937M YoY",
         "published_date": "2019-10-31",
-        "url": "https://www.benzinga.com/quote/AAON",
         "benzinga_id": 14701956
       }
     ]
   },
   "AAON_2020q1": {
-    "summary_analysis": "Coverage portrayed the quarter as broadly stronger than expected: both earnings and sales beat expectations. The retrieved coverage did not identify a separate guidance change as a major theme.",
-    "why_moved": "The stock rose 8.4% over the two-day earnings window. The coverage therefore implies that the earnings performance was the first-order positive driver.",
+    "summary_analysis": "The single article on this release is an automated results recap of AAON's fourth-quarter 2019 report, presenting both the estimate comparison and the year-over-year change without further analysis. It states that AAON earned $0.33 per share, beating the analyst consensus estimate of $0.29 by 13.79 percent, and that this was a 37.5 percent increase over the $0.24 per share earned in the same quarter of the prior year. On the sales side, the article reports quarterly sales of $122.574 million, which beat the analyst consensus estimate of $122.53 million by a slim 0.04 percent margin, essentially in line with expectations, while still representing a 9.11 percent increase over the $112.34 million reported in the same period a year earlier. The article frames this as a clean beat on both lines, with the earnings beat considerably larger in percentage terms than the sales beat, which came in just barely ahead of consensus. No segment detail, management quotes, or forward guidance are included, and the analyst consensus figures are not attributed to any named analyst or firm.",
+    "why_moved": "The article does not state how AAON shares responded to this release; it stops at reporting the earnings and sales figures against both estimates and the prior-year quarter. There is no mention of after-hours or next-day trading activity, nor any analyst commentary that might explain investor reaction to the beat. Given that both earnings and sales exceeded consensus, with earnings beating by a wider margin, the report itself reads as a positive result, but the article does not go on to describe any resulting stock movement. No guidance or management commentary accompanies the numbers that could otherwise explain a reaction. The piece is silent on how the market received the quarter.",
     "sources": [
       {
         "title": "AAON Q4 EPS $0.33 Beats $0.29 Estimate, Sales $122.574M Beat $122.53M Estimate",
         "published_date": "2020-02-27",
-        "url": "https://www.benzinga.com/quote/AAON",
         "benzinga_id": 15425939
       }
     ]
   },
   "AAON_2020q2": {
-    "summary_analysis": "Coverage portrayed the quarter as broadly stronger than expected: both earnings and sales beat expectations. The retrieved coverage did not identify a separate guidance change as a major theme.",
-    "why_moved": "The stock rose 1.1% over the two-day earnings window. The coverage therefore implies that the earnings performance was the first-order positive driver.",
+    "summary_analysis": "The primary article is an automated results recap of AAON's first-quarter 2020 report, and it is accompanied by two additional Benzinga items whose headlines indicate the company also announced that Gary D. Fields would become CEO, though those two items carry no body text beyond blank placeholders and so contribute no substantive detail beyond their titles. The results article states that AAON earned $0.410 per share, beating the analyst consensus estimate of $0.350 by 17.14 percent, and that this was a 95.24 percent increase over the $0.210 per share earned in the same quarter of the prior year. On revenue, it reports quarterly sales of $137.480 million, beating the analyst consensus estimate of $125.080 million by 9.91 percent and representing a 20.79 percent increase over the $113.822 million reported in the same period a year earlier. This is a strong beat on both lines relative to estimates and a sizable year-over-year increase in both metrics, though the article provides no segment-level detail, guidance, or management commentary explaining the drivers of the beat. The two accompanying items, titled \"AAON Says Gary D. Fields Will Become CEO\" and \"AAON Announces Gary D. Fields To Become CEO,\" indicate a leadership transition was announced the same day as earnings, but since their text fields are empty, no further detail about the transition (timing, prior role, or company rationale) is available from the source material.",
+    "why_moved": "None of the three articles describe how AAON shares reacted to the earnings release or the CEO announcement; the results piece confines itself to the earnings and sales figures against estimates and the prior year, and the two CEO-related items contain no text at all beyond their headlines. There is no mention of trading activity, analyst reaction, or price target changes tied to either the earnings beat or the leadership news. Given the scale of the earnings and sales beats reported, a positive reaction would be plausible, but the articles simply do not state one. The coincidence of a strong earnings beat and a CEO transition announcement on the same day is noted only by article titles, with no accompanying explanation of market impact. The source material therefore offers no basis for describing why shares moved as they did.",
     "sources": [
       {
         "title": "AAON Q1 EPS $0.410 Beats $0.350 Estimate, Sales $137.480M Beat $125.080M Estimate",
         "published_date": "2020-05-07",
-        "url": "https://www.benzinga.com/news/earnings/20/05/15976376/aaon-q1-eps-0-410-beats-0-350-estimate-sales-137-480m-beat-125-080m-estimate",
         "benzinga_id": 15976376
       },
       {
         "title": "AAON Says Gary D. Fields Will Become CEO",
         "published_date": "2020-05-07",
-        "url": "https://www.benzinga.com/quote/AAON",
         "benzinga_id": 15977020
       },
       {
         "title": "AAON Announces Gary D. Fields To Become CEO",
         "published_date": "2020-05-07",
-        "url": "https://www.benzinga.com/quote/AAON",
         "benzinga_id": 15976442
       }
     ]
   },
   "AAON_2021q4": {
-    "summary_analysis": "Coverage portrayed the quarter as weaker than expected: both earnings and sales missed expectations. The retrieved coverage did not identify a separate guidance change as a major theme.",
-    "why_moved": "The stock rose 1.0% over the two-day earnings window. The articles do not isolate a first-order catalyst, so the positive reaction cannot be attributed more precisely from this coverage. The positive reaction despite weak headline results indicates that investors found a favorable offset elsewhere, but the retrieved articles do not identify it explicitly.",
+    "summary_analysis": "Coverage of this release consists of a short automated results article and a same-day \"Earnings Scheduled\" roundup that mentions AAON only in passing among dozens of companies reporting that day, so the earnings article is the primary source of substance here. It states that AAON earned $0.29 per share, missing the analyst consensus estimate of $0.38 by 23.68 percent, a 23.68 percent decrease from the $0.38 per share earned in the same quarter of the prior year. On sales, the article reports quarterly sales of $38.60 million, which missed the analyst consensus estimate of $147.15 million by 73.77 percent, and describes this as a 71.36 percent decrease from $134.77 million in the same period a year earlier; as stated in the article, these figures indicate a very large shortfall relative to both the estimate and the prior-year quarter. The companion roundup article is not a dedicated AAON story; it is a market-wide preview of companies scheduled to report on November 4, 2021, and its only AAON-specific content is a single line noting that AAON was expected to report quarterly earnings of $0.38 per share on revenue of $147.15 million, matching the estimate figures cited in the results piece. Neither article offers segment detail, management commentary, or guidance for the quarter.",
+    "why_moved": "Neither the results article nor the roundup preview describes how AAON shares reacted to this release; the results piece is limited to the reported earnings and sales figures against estimates and the prior year, with no mention of trading activity or analyst response, and the preview article, being a general earnings-calendar roundup, does not discuss AAON's stock performance at all. Given the scale of the sales shortfall the results article describes, a significant reaction would be plausible, but the source material does not state or characterize one. There is no guidance commentary, analyst quote, or price target change in either piece that could explain a stock move. The articles therefore provide no basis for describing why shares reacted as they did to this release.",
     "sources": [
       {
         "title": "AAON Q3 EPS $0.29 Misses $0.38 Estimate, Sales $38.60M Miss $147.15M Estimate",
         "published_date": "2021-11-04",
-        "url": "https://www.benzinga.com/news/earnings/21/11/23908385/aaon-q3-eps-0-29-misses-0-38-estimate-sales-38-60m-miss-147-15m-estimate",
         "benzinga_id": 23908385
       },
       {
         "title": "Earnings Scheduled For November 4, 2021",
         "published_date": "2021-11-04",
-        "url": "https://www.benzinga.com/news/earnings/21/11/23881371/earnings-scheduled-for-november-4-2021",
         "benzinga_id": 23881371
       }
     ]
   },
   "AAON_2022q3": {
-    "summary_analysis": "Coverage portrayed the quarter as mixed: sales beat expectations but earnings fell short. The retrieved coverage did not identify a separate guidance change as a major theme.",
-    "why_moved": "The stock fell 2.4% over the two-day earnings window. The coverage implies that investors prioritized the negative side of the mixed release, although no article explicitly confirms a single catalyst.",
+    "summary_analysis": "This observation is covered by a results recap, a follow-up \"Earnings Insights\" piece, and a same-day earnings-calendar roundup in which AAON appears only as a line item, so the first two articles carry the substantive detail. The results article states that AAON earned $0.30 per share, missing the analyst consensus estimate of $0.41 by 26.83 percent, a 21.05 percent decrease from the $0.38 per share earned in the same quarter of the prior year, while quarterly sales of $208.81 million beat the analyst consensus estimate of $204.33 million by 2.19 percent and rose 45.13 percent from $143.88 million a year earlier. The \"AAON: Q2 Earnings Insights\" article, published the next day, restates that AAON missed estimated earnings by 26.83 percent with an EPS of $0.30 versus an estimate of $0.41, and adds that revenue was up $64.94 million from the same period last year; it also supplies a table of AAON's estimate-versus-actual EPS and revenue for the four preceding quarters (Q1 2022 through Q2 2021). That same article notes, as historical context rather than commentary on this quarter, that in the prior quarter (Q1 2022) AAON had beaten EPS estimates by $0.06, which was followed by an 8.72 percent increase in the share price the next day. The earnings-calendar roundup is not a dedicated AAON story; its only AAON-specific content is a line noting AAON was estimated to report quarterly earnings of $0.41 per share on revenue of $204.33 million, matching the estimate figures already cited.",
+    "why_moved": "None of the three articles state how AAON shares reacted to this specific quarter's release; the results and \"Earnings Insights\" pieces confine themselves to the EPS miss and sales beat versus estimates, and the roundup does not discuss AAON's stock performance at all. The \"Earnings Insights\" article does report that the prior quarter's EPS beat was followed by an 8.72 percent share-price increase the next day, but that reaction pertains to the previous quarter's release, not to this one, and the article draws no equivalent connection for the current quarter's mixed result (an EPS miss alongside a sales beat). Because the current release combines a meaningful earnings miss with a top-line beat, the articles' own historical framing does not offer a clear read on how this particular quarter was likely received. In short, the source material does not state how the market reacted to this quarter's results.",
     "sources": [
-      {
-        "title": "AAON: Q2 Earnings Insights",
-        "published_date": "2022-08-09",
-        "url": "https://www.benzinga.com/news/earnings/22/08/28408597/aaon-q2-earnings-insights",
-        "benzinga_id": 28408597
-      },
       {
         "title": "AAON Q2 EPS $0.30 Misses $0.41 Estimate, Sales $208.81M Beat $204.33M Estimate",
         "published_date": "2022-08-08",
-        "url": "https://www.benzinga.com/news/earnings/22/08/28405589/aaon-q2-eps-0-30-misses-0-41-estimate-sales-208-81m-beat-204-33m-estimate",
         "benzinga_id": 28405589
+      },
+      {
+        "title": "AAON: Q2 Earnings Insights",
+        "published_date": "2022-08-09",
+        "benzinga_id": 28408597
       },
       {
         "title": "Earnings Scheduled For August 8, 2022",
         "published_date": "2022-08-08",
-        "url": "https://www.benzinga.com/news/earnings/22/08/28391623/earnings-scheduled-for-august-8-2022",
         "benzinga_id": 28391623
       }
     ]
   },
   "AAON_2023q1": {
-    "summary_analysis": "Coverage portrayed the quarter as broadly stronger than expected: both earnings and sales beat expectations. The retrieved coverage did not identify a separate guidance change as a major theme. Post-release analyst coverage leaned constructive, with more upgrades or target increases than negative revisions. Firms represented included DA Davidson.",
-    "why_moved": "The stock rose 11.5% over the two-day earnings window. Benzinga explicitly attributed the move to better-than-expected quarterly results. The reporting presents the beat as the dominant surprise rather than simply recording the individual metrics.",
+    "summary_analysis": "This observation is covered by an automated results recap, a \"big stocks moving higher\" roundup in which AAON is one of many names mentioned, and a short analyst-action item. The results article states that AAON earned $0.71 per share, beating the analyst consensus estimate of $0.56 by 26.79 percent, a 294.44 percent increase over the $0.18 per share earned in the same quarter of the prior year, while quarterly sales of $254.60 million beat the analyst consensus estimate of $240.28 million by 5.96 percent and rose 86.82 percent from $136.28 million in the same period a year earlier. The roundup piece, \"Dentsply Sirona, Chico's FAS, Kontoor Brands And Other Big Stocks Moving Higher On Tuesday,\" is not a dedicated AAON story but a list of stocks gaining that session; within it, AAON is described as one of the day's gainers, attributed to its Q4 results, among many other companies also cited for beating expectations. The third article reports that DA Davidson analyst Brent Thielman maintained his Buy rating on AAON and raised his price target from $75 to $100 following the results. Together, the coverage frames the quarter as a large beat on both earnings and sales with a strongly positive analyst response, though none of the pieces provide segment-level detail, management quotes, or forward guidance from the company itself.",
+    "why_moved": "The roundup article explicitly states that AAON shares \"rose 14.4% to $93.18 following better-than-expected Q4 results,\" directly attributing the move to the earnings beat described in the results article. This is reinforced by the same-day analyst action reported separately: DA Davidson's Brent Thielman maintained a Buy rating and raised his price target on AAON from $75 to $100, consistent with the bullish tone of the roundup's framing. Taken together, the articles' own explanation for the move is the combination of a large EPS and sales beat (EPS up nearly 295 percent year over year) and a favorable analyst reaction in the form of a higher price target. No other explanation, such as guidance commentary or a management quote, is given in the source material beyond these two points.",
     "sources": [
       {
         "title": "AAON Q4 EPS $0.71 Beats $0.56 Estimate, Sales $254.60M Beat $240.28M Estimate",
         "published_date": "2023-02-27",
-        "url": "https://www.benzinga.com/news/earnings/23/02/31077024/aaon-q4-eps-0-71-beats-0-56-estimate-sales-254-60m-beat-240-28m-estimate",
         "benzinga_id": 31077024
-      },
-      {
-        "title": "Looking Into AAON's Return On Capital Employed",
-        "published_date": "2023-03-02",
-        "url": "https://www.benzinga.com/news/earnings/23/03/31170726/looking-into-aaons-return-on-capital-employed",
-        "benzinga_id": 31170726
-      },
-      {
-        "title": "DA Davidson Maintains Buy on AAON, Raises Price Target to $100",
-        "published_date": "2023-02-28",
-        "url": "https://www.benzinga.com/news/23/02/31091215/da-davidson-maintains-buy-on-aaon-raises-price-target-to-100",
-        "benzinga_id": 31091215
-      },
-      {
-        "title": "Earnings Scheduled For February 27, 2023",
-        "published_date": "2023-02-27",
-        "url": "https://www.benzinga.com/news/earnings/23/02/31064136/earnings-scheduled-for-february-27-2023",
-        "benzinga_id": 31064136
-      },
-      {
-        "title": "Why Titan International Shares Are Trading Lower By Around 22%? Here Are Other Stocks Moving In Tuesday's Mid-Day Session",
-        "published_date": "2023-02-28",
-        "url": "https://www.benzinga.com/news/23/02/31098288/why-titan-international-shares-are-trading-lower-by-around-22-here-are-other-stocks-moving-in-tuesda",
-        "benzinga_id": 31098288
-      },
-      {
-        "title": "12 Industrials Stocks Moving In Tuesday's Intraday Session",
-        "published_date": "2023-02-28",
-        "url": "https://www.benzinga.com/trading-ideas/movers/23/02/31097818/12-industrials-stocks-moving-in-tuesdays-intraday-session",
-        "benzinga_id": 31097818
       },
       {
         "title": "Dentsply Sirona, Chico's FAS, Kontoor Brands And Other Big Stocks Moving Higher On Tuesday",
         "published_date": "2023-02-28",
-        "url": "https://www.benzinga.com/news/23/02/31094592/dentsply-sirona-chicos-fas-kontoor-brands-and-other-big-stocks-moving-higher-on-tuesday",
         "benzinga_id": 31094592
+      },
+      {
+        "title": "DA Davidson Maintains Buy on AAON, Raises Price Target to $100",
+        "published_date": "2023-02-28",
+        "benzinga_id": 31091215
       }
     ]
   },
   "AAON_2024q1": {
-    "summary_analysis": "Coverage portrayed the quarter as broadly stronger than expected: both earnings and sales beat expectations. The retrieved coverage did not identify a separate guidance change as a major theme.",
-    "why_moved": "The stock fell 2.5% over the two-day earnings window. The articles do not explicitly explain why investors sold the stock, so no specific first-order driver can be confirmed. The negative reaction despite headline beats indicates that investors focused on a forward-looking or operating concern, but the API coverage does not identify it clearly enough to name it as confirmed.",
+    "summary_analysis": "Coverage consists of two closely related automated results pieces and an earnings-calendar roundup in which AAON appears only as a line item. The first results article states that AAON earned $0.56 per share, beating the analyst consensus estimate of $0.51 by 9.8 percent, while quarterly sales of $306.37 million beat the analyst consensus estimate of $294.35 million by 4.08 percent and rose 20.33 percent from $254.60 million in the same period a year earlier. The \"Recap: AAON Q4 Earnings\" article restates that AAON beat estimated earnings by 10.0 percent, reporting EPS of $0.56 versus an estimate of $0.51, and adds that revenue was up $51.77 million from the same period last year; it also supplies a table of AAON's estimate-versus-actual EPS and revenue for the four preceding quarters (Q3 2023 through Q4 2022). As historical context rather than commentary on this quarter specifically, that article notes that in the prior quarter (Q3 2023) AAON had beaten EPS estimates by $0.09, which was followed by a 2.0 percent increase in the share price the next day. The roundup article is a general earnings-calendar preview for February 28, 2024, whose only AAON-specific content is a line noting AAON was expected to report quarterly earnings of $0.51 per share on revenue of $294.36 million, matching the estimate figures already cited.",
+    "why_moved": "None of the three articles state how AAON shares reacted to this quarter's release; the two results-oriented pieces confine themselves to the EPS and sales beat versus estimates and the prior year, and the roundup does not discuss AAON's stock performance at all. The \"Recap\" article does note that the prior quarter's smaller EPS beat was followed by a 2.0 percent share-price increase the next day, but that reaction describes the previous quarter's release, not this one, and no equivalent figure or explanation is offered for how the market responded to this quarter's beat. The articles therefore do not report how shares reacted to this specific release.",
     "sources": [
       {
         "title": "AAON Q4 2023 GAAP EPS $0.56 Beats $0.51 Estimate, Sales $306.37M Beat $294.35M Estimate",
         "published_date": "2024-02-28",
-        "url": "https://www.benzinga.com/news/earnings/24/02/37376327/aaon-q4-2023-gaap-eps-0-56-beats-0-51-estimate-sales-306-37m-beat-294-35m-estimate",
         "benzinga_id": 37376327
       },
       {
         "title": "Recap: AAON Q4 Earnings",
         "published_date": "2024-02-28",
-        "url": "https://www.benzinga.com/insights/earnings/24/02/37376528/recap-aaon-q4-earnings",
         "benzinga_id": 37376528
       },
       {
         "title": "Earnings Scheduled For February 28, 2024",
         "published_date": "2024-02-28",
-        "url": "https://www.benzinga.com/insights/earnings/24/02/37356780/earnings-scheduled-for-february-28-2024",
         "benzinga_id": 37356780
-      },
-      {
-        "title": "12 Industrials Stocks Moving In Wednesday's After-Market Session",
-        "published_date": "2024-02-28",
-        "url": "https://www.benzinga.com/insights/movers/24/02/37377684/12-industrials-stocks-moving-in-wednesdays-after-market-session",
-        "benzinga_id": 37377684
       }
     ]
   },
   "AAON_2024q4": {
-    "summary_analysis": "Coverage portrayed the quarter as broadly stronger than expected: both earnings and sales beat expectations. The retrieved coverage did not identify a separate guidance change as a major theme. Post-release analyst coverage leaned constructive, with more upgrades or target increases than negative revisions. Firms represented included The, DA Davidson, Baird.",
-    "why_moved": "The stock rose 13.8% over the two-day earnings window. Benzinga explicitly attributed the move to better-than-expected quarterly results. The reporting presents the beat as the dominant surprise rather than simply recording the individual metrics.",
+    "summary_analysis": "This observation is covered by an automated results recap, a \"big stocks moving higher\" roundup, and an analyst-ratings feature, giving it the richest context of the set. The results article states that AAON earned $0.63 per share, beating the analyst consensus estimate of $0.57 by 10.53 percent, while quarterly sales of $327.252 million beat the analyst consensus estimate of $315.829 million by 3.62 percent and rose 4.90 percent from $311.970 million in the same period a year earlier. The roundup, \"Sony Posts Upbeat Earnings, Joins Tesla, Upstart, Doximity, Fortrea, Axon Enterprise And Other Big Stocks Moving Higher On Friday,\" lists AAON among many gainers that session and attributes the move to the earnings beat, additionally noting that Baird raised its price target on AAON from $130 to $138 while maintaining an Outperform rating. The \"Analyst Landscape\" article, published the same week, describes AAON as a manufacturer of air-conditioning and heating equipment whose products include rooftop units, chillers, packaged outdoor mechanical rooms, air-handling units, makeup air units, energy-recovery units, condensing units, geothermal heat pumps, and self-contained units and coils, serving commercial and industrial new-construction and replacement markets primarily in North America. That article also details four recent analyst actions: DA Davidson's Brent Thielman raised his rating to Buy with a $150 price target (up from $102); Baird's Timothy Wojs raised his Outperform price target to $138 from $130, and separately to $130 from $114 in an earlier action; and Sidoti & Co.'s Julio Romero initiated coverage with a Neutral rating and $111 target. It further reports that the average 12-month analyst price target across four analysts stood at $132.25 (high $150, low $111), up 14.67 percent from a prior average of $115.33, and cites AAON's revenue growth of 10.43 percent as of June 30, 2024, a 16.66 percent net margin, a 6.85 percent return on equity, a 5.32 percent return on assets, and a 0.14 debt-to-equity ratio, framed as favorable relative to industry peers apart from the below-average return on equity.",
+    "why_moved": "The roundup article explicitly states that AAON shares \"rose 15.7% to $137.83 after the company reported better-than-expected quarterly financial results,\" directly tying the move to the earnings and sales beat described in the results article. The same roundup notes that Baird raised its price target on AAON from $130 to $138 while maintaining an Outperform rating, reinforcing the positive reaction with a concrete analyst response. The \"Analyst Landscape\" article corroborates this bullish tenor, reporting that DA Davidson's Brent Thielman raised his rating to Buy with a price target increase to $150 from $102, and that the average analyst price target rose 14.67 percent following the report. Taken together, the articles attribute the move to the combination of a beat on both earnings and sales and a wave of favorable analyst price-target increases following the release.",
     "sources": [
       {
         "title": "AAON Q3 2024 GAAP EPS $0.63 Beats $0.57 Estimate, Sales $327.252M Beat $315.829M Estimate",
         "published_date": "2024-11-07",
-        "url": "https://www.benzinga.com/news/earnings/24/11/41823617/aaon-q3-2024-gaap-eps-0-63-beats-0-57-estimate-sales-327-252m-beat-315-829m-estimate",
         "benzinga_id": 41823617
-      },
-      {
-        "title": "Preview: AAON's Earnings",
-        "published_date": "2024-11-06",
-        "url": "https://www.benzinga.com/insights/earnings/24/11/41782465/preview-aaons-earnings",
-        "benzinga_id": 41782465
-      },
-      {
-        "title": "The Analyst Landscape: 4 Takes On AAON",
-        "published_date": "2024-11-08",
-        "url": "https://www.benzinga.com/insights/analyst-ratings/24/11/41858066/the-analyst-landscape-4-takes-on-aaon",
-        "benzinga_id": 41858066
-      },
-      {
-        "title": "Peeling Back The Layers: Exploring AAON Through Analyst Insights",
-        "published_date": "2024-11-08",
-        "url": "https://www.benzinga.com/insights/analyst-ratings/24/11/41853189/peeling-back-the-layers-exploring-aaon-through-analyst-insights",
-        "benzinga_id": 41853189
-      },
-      {
-        "title": "DA Davidson Maintains Buy on AAON, Raises Price Target to $150",
-        "published_date": "2024-11-08",
-        "url": "https://www.benzinga.com/news/24/11/41849724/da-davidson-maintains-buy-on-aaon-raises-price-target-to-150",
-        "benzinga_id": 41849724
-      },
-      {
-        "title": "Baird Maintains Outperform on AAON, Raises Price Target to $138",
-        "published_date": "2024-11-08",
-        "url": "https://www.benzinga.com/news/24/11/41841276/baird-maintains-outperform-on-aaon-raises-price-target-to-138",
-        "benzinga_id": 41841276
       },
       {
         "title": "Sony Posts Upbeat Earnings, Joins Tesla, Upstart, Doximity, Fortrea, Axon Enterprise And Other Big Stocks Moving Higher On Friday",
         "published_date": "2024-11-08",
-        "url": "https://www.benzinga.com/24/11/41853996/sony-posts-upbeat-earnings-joins-tesla-upstart-doximity-fortrea-axon-enterprise-and-other-big-stocks-moving-higher-on-friday",
         "benzinga_id": 41853996
+      },
+      {
+        "title": "The Analyst Landscape: 4 Takes On AAON",
+        "published_date": "2024-11-08",
+        "benzinga_id": 41858066
       }
     ]
   },
@@ -1848,368 +1772,212 @@
     ]
   },
   "ACCO_2019q3": {
-    "summary_analysis": "Coverage portrayed the quarter as broadly stronger than expected: both earnings and sales beat expectations. The main forward-looking concern was reduced or below-expectation guidance.",
-    "why_moved": "The stock rose 21.0% over the two-day earnings window. The coverage therefore implies that the earnings performance was the first-order positive driver.",
+    "summary_analysis": "ACCO Brands reported second-quarter 2019 earnings of $0.36 per share, topping the $0.32 analyst consensus estimate by 12.5 percent and matching a 12.5 percent increase over the $0.32 per share earned in the same period a year earlier. Quarterly sales came in at $518.7 million, beating the $493.87 million consensus by 5.03 percent and up 3.99 percent from $498.8 million a year earlier. Alongside the results, the company narrowed its full-year 2019 adjusted EPS guidance range from $1.10-$1.20 to $1.15-$1.20, versus a $1.17 analyst estimate, effectively raising the low end of its outlook. A separate roundup piece, \"88 Biggest Movers From Yesterday,\" listed ACCO Brands among the day's top gainers, noting the company \"gained 20.2% to close at $9.78 after the company reported better-than-expected Q2 EPS and sales results\" -- that mention is part of a broad list of dozens of stocks that moved on earnings and other news that day, rather than a dedicated ACCO story. Together, the articles describe a straightforward beat-and-raise quarter on both the top and bottom lines.",
+    "why_moved": "The roundup article states directly that ACCO Brands \"gained 20.2% to close at $9.78 after the company reported better-than-expected Q2 EPS and sales results,\" tying the stock's rise explicitly to the earnings beat. This lines up with the dedicated results article, which shows both EPS and sales exceeding consensus estimates by a wide margin (12.5 percent and 5.03 percent, respectively) along with year-over-year growth on both lines. The narrowed full-year guidance, which raised the bottom of the adjusted EPS range, may also have supported the reaction, though the articles do not explicitly link the guidance change to the share move. Overall, the only stated driver of the reaction is the earnings and sales beat itself.",
     "sources": [
       {
         "title": "ACCO Brands Q2 EPS $0.36 Beats $0.32 Estimate, Sales $518.7M Beat $493.87M Estimate",
         "published_date": "2019-07-30",
-        "url": "https://www.benzinga.com/quote/ACCO",
         "benzinga_id": 14164249
       },
       {
         "title": "ACCO Brands Narrows FY19 Adj. EPS Guidance From $1.10-$1.20 To $1.15-$1.20 vs $1.17 Est.",
         "published_date": "2019-07-30",
-        "url": "https://www.benzinga.com/quote/ACCO",
         "benzinga_id": 14164263
       },
       {
         "title": "88 Biggest Movers From Yesterday",
         "published_date": "2019-08-01",
-        "url": "https://www.benzinga.com/quote/ABEO",
         "benzinga_id": 14177356
       }
     ]
   },
   "ACCO_2019q4": {
-    "summary_analysis": "Coverage portrayed the quarter as weaker than expected: both earnings and sales missed expectations. Management reaffirmed its outlook, leaving the current quarter—not a guidance reset—as the main focus. Post-release analyst coverage leaned constructive, with more upgrades or target increases than negative revisions. Firms represented included ACCO Brands.",
-    "why_moved": "The stock fell 11.5% over the two-day earnings window. The coverage therefore implies that the earnings disappointment was the first-order negative driver.",
+    "summary_analysis": "ACCO Brands reported third-quarter 2019 adjusted earnings of $0.32 per share, missing the $0.33 analyst consensus estimate by 3.03 percent and down 5.88 percent from $0.34 per share in the same period a year earlier. Quarterly sales of $505.7 million also missed the $512.91 million consensus estimate, by 1.41 percent, and slipped 0.32 percent from $507.3 million a year earlier. Despite the top- and bottom-line miss, the company reaffirmed its full-year 2019 adjusted EPS guidance of $1.15-$1.20, versus a $1.19 analyst estimate, signaling management's confidence that the quarterly shortfall would not derail the annual outlook. The same day, ACCO Brands also raised its quarterly dividend, from $0.060 to $0.065 per share. Taken together, the three headlines describe a mixed release: a modest earnings and sales miss paired with reaffirmed full-year guidance and a dividend increase.",
+    "why_moved": "None of the three articles report how ACCO Brands shares reacted to this release. The results article covers only the earnings and sales miss, the guidance article's text is limited to the reaffirmed adjusted EPS range, and the dividend article's text covers only the dividend increase -- none of them describe any share-price move or attribute a reaction to a specific factor. The articles do not report how shares reacted to this specific release.",
     "sources": [
       {
         "title": "ACCO Brands Q3 Adj. EPS $0.32 Misses $0.33 Estimate, Sales $505.7M Miss $512.91M Estimate",
         "published_date": "2019-10-29",
-        "url": "https://www.benzinga.com/quote/ACCO",
         "benzinga_id": 14685641
       },
       {
         "title": "ACCO Brands Reaffirms FY19 Adj. EPS Guidance Of $1.15-$1.20 vs $1.19 Est.",
         "published_date": "2019-10-29",
-        "url": "https://www.benzinga.com/quote/ACCO",
         "benzinga_id": 14685644
       },
       {
         "title": "ACCO Brands Raises Quarterly Dividend From $0.060 To $0.065/Share",
         "published_date": "2019-10-29",
-        "url": "https://www.benzinga.com/quote/ACCO",
         "benzinga_id": 14685492
-      },
-      {
-        "title": "26 Stocks Moving in Friday's Pre-Market Session",
-        "published_date": "2019-11-01",
-        "url": "https://www.benzinga.com/quote/ACCO",
-        "benzinga_id": 14710310
       }
     ]
   },
   "ACCO_2020q1": {
-    "summary_analysis": "Coverage portrayed the quarter as broadly stronger than expected: both earnings and sales beat expectations. The retrieved coverage did not identify a separate guidance change as a major theme. Beyond the headline result, the articles supplied the following operating and market context: Shopify Inc. (NYSE: SHOP ) shares were also up, gaining 12% to $552.65 after the company reported better-than-expected Q4 results and issued upbeat FY20 guidance. CVS said it expects FY20 adjusted earnings of $7.04 to $7.17 per share, versus analysts’ estimates of $7.15 per share. Baird downgraded Insperity from Outperform to Neutral and lowered the price target from $107 to $73.",
-    "why_moved": "The stock rose 12.1% over the two-day earnings window. Benzinga explicitly attributed the move to better-than-expected quarterly results. The reporting presents the beat as the dominant surprise rather than simply recording the individual metrics.",
+    "summary_analysis": "ACCO Brands reported fourth-quarter 2019 adjusted earnings of $0.46 per share, beating the $0.41 analyst consensus estimate by 12.2 percent and up 12.2 percent from $0.41 per share in the same period a year earlier. Quarterly sales of $537.4 million also beat the $533.91 million consensus estimate, by 0.65 percent, and rose 1.53 percent from $529.3 million a year earlier. A separate headline noted the company's outlook for fiscal 2020 called for adjusted EPS of $1.20-$1.30, below the $1.31 analyst estimate, with sales guided to range from down 1 percent to up 1 percent -- a more cautious forward view than the quarter's results might suggest. A Benzinga mid-afternoon market update covering the broader market (the Dow, Nasdaq and S&P 500, sector performance, and other companies' results such as CVS Health, Healthcare Services Group and Shopify) included ACCO Brands among stocks \"trading up,\" stating that \"ACCO Brands Corporation (NYSE: ACCO) shares shot up 15% to $10.50 after the company reported better-than-expected Q4 results\" -- this is roundup coverage rather than a dedicated ACCO story. Overall, the coverage describes a solid Q4 beat somewhat offset by softer-than-expected FY20 guidance.",
+    "why_moved": "The market-update roundup article explicitly states that ACCO Brands shares \"shot up 15% to $10.50 after the company reported better-than-expected Q4 results,\" directly attributing the move to the earnings and sales beat described in the dedicated results article. Neither the results article nor the guidance headline offers any additional explanation for the share reaction beyond the beat itself, and none of the three mentions the softer FY20 guidance as a factor in the market's response. Based on what is stated, the earnings and sales beat is the only driver of the stock's rise cited in the coverage.",
     "sources": [
       {
         "title": "Mid-Afternoon Market Update: Dow Jumps Over 200 Points; ACCO Brands Shares Gain On Earnings Beat",
         "published_date": "2020-02-12",
-        "url": "https://www.benzinga.com/quote/ACCO",
         "benzinga_id": 15315636
       },
       {
         "title": "ACCO Brands Q4 Adj. EPS $0.46 Beats $0.41 Estimate, Sales $537.4M Beat $533.91M Estimate",
         "published_date": "2020-02-11",
-        "url": "https://www.benzinga.com/quote/ACCO",
         "benzinga_id": 15304564
       },
       {
         "title": "ACCO Sees FY20 Adj. EPS $1.20-$1.30 vs $1.31 Estimate, Sales Down 1% To Up 1%",
         "published_date": "2020-02-11",
-        "url": "https://www.benzinga.com/quote/ACCO",
         "benzinga_id": 15304573
-      },
-      {
-        "title": "Mid-Day Market Update: Shopify Surges Following Strong Q4 Results; Bed Bath & Beyond Shares Plunge",
-        "published_date": "2020-02-12",
-        "url": "https://www.benzinga.com/quote/ACCO",
-        "benzinga_id": 15313946
-      },
-      {
-        "title": "Earnings Scheduled For February 11, 2020",
-        "published_date": "2020-02-11",
-        "url": "https://www.benzinga.com/quote/ACCO",
-        "benzinga_id": 15296590
-      },
-      {
-        "title": "60 Biggest Movers From Yesterday",
-        "published_date": "2020-02-13",
-        "url": "https://www.benzinga.com/quote/ACCO",
-        "benzinga_id": 15320793
-      },
-      {
-        "title": "52 Stocks Moving In Wednesday's Mid-Day Session",
-        "published_date": "2020-02-12",
-        "url": "https://www.benzinga.com/quote/ACCO",
-        "benzinga_id": 15314133
-      },
-      {
-        "title": "Stocks That Hit 52-Week Highs On Wednesday",
-        "published_date": "2020-02-12",
-        "url": "https://www.benzinga.com/quote/AAXN",
-        "benzinga_id": 15313600
-      },
-      {
-        "title": "Mid-Morning Market Update: Markets Open Higher; CVS Health Beats Q4 Estimates",
-        "published_date": "2020-02-12",
-        "url": "https://www.benzinga.com/quote/ACCO",
-        "benzinga_id": 15311844
       }
     ]
   },
   "ACCO_2021q1": {
-    "summary_analysis": "Coverage portrayed the quarter as broadly stronger than expected: both earnings and sales beat expectations. The retrieved coverage did not identify a separate guidance change as a major theme. Beyond the headline result, the articles supplied the following operating and market context: Looking Ahead ACCO Brands hasn't issued any earnings guidance for the time being. Revenue guidance hasn't been issued by the company for now. Shares of ACCO Brands (NYSE: ACCO ) fell in after-market trading after the company reported Q4 results.",
-    "why_moved": "The stock fell 6.0% over the two-day earnings window. The articles do not explicitly explain why investors sold the stock, so no specific first-order driver can be confirmed. The negative reaction despite headline beats indicates that investors focused on a forward-looking or operating concern, but the API coverage does not identify it clearly enough to name it as confirmed.",
+    "summary_analysis": "According to Benzinga's earnings recap, ACCO Brands reported fourth-quarter results after market close, with earnings per share of $0.32, down 30.43 percent year over year but beating the analyst estimate of $0.28. Revenue came in at $460.1 million, down 14.38 percent from the same period a year earlier, yet still ahead of the $445.81 million estimate. A separate results-only article confirms the same figures, noting the EPS beat the consensus by 14.29 percent and the $460.00 million in sales beat the $445.81 million estimate by 3.18 percent, while both EPS and sales declined from the prior year. The recap piece states the company had not issued forward earnings or revenue guidance at the time of the release. It also supplies stock-performance context: a 52-week high of $11.38, a 52-week low of $3.51, and a share price up 57.12 percent over the prior quarter, plus background on ACCO's three operating segments (North America, EMEA, and International) and its portfolio of office and school-supply brands. A same-day earnings-calendar preview article lists dozens of companies reporting that day, including ACCO's own pre-release EPS and revenue estimates, but offers no further detail specific to ACCO.",
+    "why_moved": "The recap article states plainly that \"Shares of ACCO Brands (NYSE:ACCO) fell in after-market trading after the company reported Q4 results,\" directly linking a post-earnings decline to the release, even though both EPS and revenue beat consensus estimates. The article does not provide a specific percentage or dollar figure for that after-hours move, nor does it explain why shares fell despite the beat -- it simply states the directional reaction. The other two articles, the standalone results release and the earnings-calendar preview, do not mention any share-price reaction at all. Based on what is stated, the only information about the stock's response is that it moved lower in after-market trading following the release, without further explanation.",
     "sources": [
       {
         "title": "Recap: ACCO Brands Q4 Earnings",
         "published_date": "2021-02-16",
-        "url": "https://www.benzinga.com/news/earnings/21/02/19689308/recap-acco-brands-q4-earnings",
         "benzinga_id": 19689308
       },
       {
         "title": "ACCO Brands Q4 EPS $0.32 Beats $0.28 Estimate, Sales $460.00M Beat $445.81M Estimate",
         "published_date": "2021-02-16",
-        "url": "https://www.benzinga.com/news/earnings/21/02/19689145/acco-brands-q4-eps-0-32-beats-0-28-estimate-sales-460-00m-beat-445-81m-estimate",
         "benzinga_id": 19689145
       },
       {
         "title": "Earnings Scheduled For February 16, 2021",
         "published_date": "2021-02-16",
-        "url": "https://www.benzinga.com/news/earnings/21/02/19667199/earnings-scheduled-for-february-16-2021",
         "benzinga_id": 19667199
       }
     ]
   },
   "ACCO_2021q2": {
-    "summary_analysis": "Coverage portrayed the quarter as broadly stronger than expected: both earnings and sales beat expectations. The forward-looking highlight was a raised or above-expectation outlook. Beyond the headline result, the articles supplied the following operating and market context: Guidance Earnings guidance hasn't been issued by the company for now. Revenue guidance hasn't been issued by the company for now. Shares of ACCO Brands (NYSE: ACCO ) moved higher in after-market trading after the company reported Q1 results.",
-    "why_moved": "The stock rose 4.1% over the two-day earnings window. The coverage therefore implies that the stronger outlook, reinforced by the reported results, was the first-order positive driver.",
+    "summary_analysis": "Per Benzinga's earnings recap, ACCO Brands reported first-quarter 2021 results with earnings per share of $0.10, up 42.86 percent from the prior year, beating the analyst estimate of $0.03. Revenue of $410.5 million rose 6.87 percent year over year and beat the $390.32 million estimate. A companion results article confirms the same numbers, noting the EPS beat the $0.03 consensus by 233.33 percent and the $411.00 million in sales beat the $390.32 million estimate by 5.30 percent, both up from the prior-year period. The recap article states that as of that report the company had not issued earnings or revenue guidance, though a separate headline elsewhere in the coverage indicates ACCO subsequently guided second-quarter adjusted EPS to $0.25-$0.30 (versus a $0.20 estimate) and sales to $460 million-$490 million (versus a $452 million estimate) -- guidance above expectations on both metrics. The recap piece also notes ACCO's 52-week trading range of $9.56 to $5.20 and a share price up 1.78 percent over the prior quarter, along with background on the company's three reporting segments and its office/school-supply brand portfolio.",
+    "why_moved": "The recap article states that \"Shares of ACCO Brands (NYSE:ACCO) moved higher in after-market trading after the company reported Q1 results,\" directly attributing an after-hours gain to the earnings release, though it does not give a specific percentage or dollar amount for that move. The article does not elaborate further on what specifically drove the gain beyond the release itself, and the above-consensus second-quarter guidance found in the separate headline is not explicitly tied to the share reaction in any of the articles. Based on what is stated, the only information about the stock's response is that shares moved higher in after-market trading following the Q1 report, without a quantified figure or further explanation.",
     "sources": [
       {
         "title": "Recap: ACCO Brands Q1 Earnings",
         "published_date": "2021-04-27",
-        "url": "https://www.benzinga.com/news/earnings/21/04/20825616/recap-acco-brands-q1-earnings",
         "benzinga_id": 20825616
       },
       {
         "title": "ACCO Brands Q1 Adj. EPS $0.10 Beats $0.03 Estimate, Sales $411.00M Beat $390.32M Estimate",
         "published_date": "2021-04-27",
-        "url": "https://www.benzinga.com/news/earnings/21/04/20823945/acco-brands-q1-adj-eps-0-10-beats-0-03-estimate-sales-411-00m-beat-390-32m-estimate",
         "benzinga_id": 20823945
       },
       {
         "title": "ACCO Brands Sees Q2 Adj. EPS $0.25-$0.30 vs $0.20 Est., Sales $460M-$490M vs $452M Est.",
         "published_date": "2021-04-27",
-        "url": "https://www.benzinga.com/quote/ACCO",
         "benzinga_id": 20823990
-      },
-      {
-        "title": "Earnings Scheduled For April 27, 2021",
-        "published_date": "2021-04-27",
-        "url": "https://www.benzinga.com/news/earnings/21/04/20806027/earnings-scheduled-for-april-27-2021",
-        "benzinga_id": 20806027
       }
     ]
   },
   "ACCO_2022q1": {
-    "summary_analysis": "Coverage portrayed the quarter as broadly stronger than expected: both earnings and sales beat expectations. The main forward-looking concern was reduced or below-expectation guidance.",
-    "why_moved": "The stock rose 6.5% over the two-day earnings window. The coverage therefore implies that the earnings performance was the first-order positive driver.",
+    "summary_analysis": "ACCO Brands reported fourth-quarter 2021 results on February 15, 2022, with adjusted EPS of $0.54 beating the $0.48 estimate by 12.5 percent -- a 68.75 percent increase over the $0.32 per share earned a year earlier -- and sales of $570.30 million beating the $560.93 million estimate by 1.67 percent, up 23.95 percent from $460.10 million a year earlier. Benzinga's earnings-results recap adds that revenue was up $110.20 million from the same period last year and provides historical context on the prior four quarters (Q1-Q4 2021), noting that the previous quarter's release -- a one-cent EPS miss -- had been followed by a 7.05 percent drop in the share price the next day. A pre-earnings preview article published the day before noted analysts expected EPS of $0.48, repeated the same historical EPS/revenue and next-day price-change table, and observed that ACCO shares were trading at $8.08 as of February 11, down 8.15 percent over the trailing 52 weeks -- a backdrop the preview described as making long-term shareholders \"likely unhappy going into this earnings release.\" None of the three articles provide any information about how the market reacted to this particular Q4 2021 release itself.",
+    "why_moved": "None of the three articles report how ACCO Brands shares reacted to this specific Q4 2021 earnings release. The recap and results articles describe only the earnings and sales beat and historical performance context, including the prior quarter's post-earnings drop, which relates to the previous release rather than this one, and the preview article's price-change data likewise all pertains to earlier quarters' reports. The articles do not report how shares reacted to this specific release.",
     "sources": [
       {
         "title": "Recap: ACCO Brands Q4 Earnings",
         "published_date": "2022-02-15",
-        "url": "https://www.benzinga.com/news/earnings/22/02/25650204/recap-acco-brands-q4-earnings",
         "benzinga_id": 25650204
       },
       {
         "title": "ACCO Brands Q4 EPS $0.54 Beats $0.48 Estimate, Sales $570.30M Beat $560.93M Estimate",
         "published_date": "2022-02-15",
-        "url": "https://www.benzinga.com/news/earnings/22/02/25649633/acco-brands-q4-eps-0-54-beats-0-48-estimate-sales-570-30m-beat-560-93m-estimate",
         "benzinga_id": 25649633
       },
       {
         "title": "Earnings Outlook For ACCO Brands",
         "published_date": "2022-02-14",
-        "url": "https://www.benzinga.com/news/earnings/22/02/25601191/earnings-outlook-for-acco-brands",
         "benzinga_id": 25601191
-      },
-      {
-        "title": "ACCO Brands Sees Q1 EPS $0.06-$0.10 Vs. $0.13 Est., Expects Q1 Sales Growth Of ~2.5%; Sees FY22 EPS $1.48-1.58 Vs. $1.55 Est., Expects FY22 Sales Growth Of 1-6%",
-        "published_date": "2022-02-15",
-        "url": "https://www.benzinga.com/quote/ACCO",
-        "benzinga_id": 25649679
-      },
-      {
-        "title": "Earnings Scheduled For February 15, 2022",
-        "published_date": "2022-02-15",
-        "url": "https://www.benzinga.com/news/earnings/22/02/25626299/earnings-scheduled-for-february-15-2022",
-        "benzinga_id": 25626299
       }
     ]
   },
   "ACCO_2022q2": {
-    "summary_analysis": "Coverage portrayed the quarter as broadly stronger than expected: both earnings and sales beat expectations. Management reaffirmed its outlook, leaving the current quarter—not a guidance reset—as the main focus.",
-    "why_moved": "The stock fell 2.6% over the two-day earnings window. The articles do not explicitly explain why investors sold the stock, so no specific first-order driver can be confirmed. The negative reaction despite headline beats indicates that investors focused on a forward-looking or operating concern, but the API coverage does not identify it clearly enough to name it as confirmed.",
+    "summary_analysis": "ACCO Brands reported first-quarter 2022 adjusted earnings of $0.11 per share, beating the $0.09 estimate by 22.22 percent and up 10 percent from $0.10 per share a year earlier. Quarterly sales of $441.60 million beat the $420.27 million estimate by 5.08 percent, an increase of 7.58 percent from $410.50 million in the same period last year. The company reaffirmed its full-year 2022 adjusted EPS guidance of $1.48-$1.58, versus a $1.55 analyst estimate. A companion \"Earnings Insights\" article adds that revenue was up $31.10 million from the same period a year earlier and provides historical context on the four preceding quarters (Q1-Q4 2021), noting that the prior quarter's one-cent EPS beat had been followed by a 4.75 percent increase in the share price the next day. Collectively, the coverage describes a beat-and-reaffirm quarter, with no new detail about product segments or management commentary beyond the headline figures.",
+    "why_moved": "None of the three articles state how ACCO Brands shares reacted to this specific Q1 2022 release. The results and guidance articles describe only the earnings beat, sales beat, and reaffirmed full-year guidance, while the \"Earnings Insights\" article's discussion of a post-earnings share move -- a 4.75 percent increase -- refers explicitly to the prior quarter's release, not this one. Based on what is stated, the articles do not report how shares reacted to this specific release.",
     "sources": [
-      {
-        "title": "ACCO Brands: Q1 Earnings Insights",
-        "published_date": "2022-04-26",
-        "url": "https://www.benzinga.com/news/earnings/22/04/26826721/acco-brands-q1-earnings-insights",
-        "benzinga_id": 26826721
-      },
       {
         "title": "ACCO Brands Q1 Adj. EPS $0.11 Beats $0.09 Estimate, Sales $441.60M Beat $420.27M Estimate",
         "published_date": "2022-04-26",
-        "url": "https://www.benzinga.com/news/earnings/22/04/26826943/acco-brands-q1-adj-eps-0-11-beats-0-09-estimate-sales-441-60m-beat-420-27m-estimate",
         "benzinga_id": 26826943
       },
       {
         "title": "ACCO Brands Reaffirms FY22 Adj. EPS Guidance Of $1.48-$1.58 vs $1.55 Est.",
         "published_date": "2022-04-26",
-        "url": "https://www.benzinga.com/quote/ACCO",
         "benzinga_id": 26826951
       },
       {
-        "title": "Earnings Scheduled For April 26, 2022",
+        "title": "ACCO Brands: Q1 Earnings Insights",
         "published_date": "2022-04-26",
-        "url": "https://www.benzinga.com/news/earnings/22/04/26805615/earnings-scheduled-for-april-26-2022",
-        "benzinga_id": 26805615
-      },
-      {
-        "title": "Stocks That Hit 52-Week Lows On Wednesday",
-        "published_date": "2022-04-27",
-        "url": "https://www.benzinga.com/markets/options/22/04/26844275/52-weeks-high-and-low-article",
-        "benzinga_id": 26844275
+        "benzinga_id": 26826721
       }
     ]
   },
   "ACCO_2023q1": {
-    "summary_analysis": "Coverage portrayed the quarter as weaker than expected: both earnings and sales missed expectations. The main forward-looking concern was reduced or below-expectation guidance.",
-    "why_moved": "The stock fell 3.0% over the two-day earnings window. The coverage therefore implies that the weaker outlook outweighed the backward-looking results and was the first-order negative driver.",
+    "summary_analysis": "ACCO Brands reported fourth-quarter 2022 adjusted earnings of $0.32 per share, missing the $0.33 estimate by 3.03 percent and down 40.74 percent from $0.54 per share a year earlier. Quarterly sales of $499.40 million missed the $505.62 million estimate by 1.23 percent, a 12.43 percent decline from $570.30 million in the same period last year. Alongside the miss, the company issued weak forward guidance, projecting full-year 2023 adjusted EPS of $1.08-$1.12 versus a $1.22 analyst estimate, and first-quarter 2023 adjusted EPS of $0.05-$0.07 versus a $0.09 estimate -- both below consensus. A pre-earnings preview article published the day before had noted analysts expected EPS of $0.33, and included historical context on the four preceding quarters (Q1-Q4 2022), observing that the prior quarter's three-cent EPS beat had been followed by a 12.68 percent increase in the share price the next day; the preview also noted ACCO shares were trading at $5.52 as of February 21, down 33.18 percent over the trailing 52 weeks, which it characterized as likely leaving long-term shareholders \"unhappy going into this earnings release.\" Together, the coverage describes an EPS and sales miss compounded by below-consensus guidance for both the current and coming quarter.",
+    "why_moved": "None of the three articles report how ACCO Brands shares reacted to this specific Q4 2022 release. The results and guidance headlines describe only the earnings and sales miss and the weak forward guidance, and the preview article's data on post-earnings share-price changes all pertains to the four prior quarters' releases, not this one. The articles do not report how shares reacted to this specific release.",
     "sources": [
       {
         "title": "ACCO Brands Q4 Adj. EPS $0.32 Misses $0.33 Estimate, Sales $499.40M Miss $505.62M Estimate",
         "published_date": "2023-02-23",
-        "url": "https://www.benzinga.com/news/earnings/23/02/31038244/acco-brands-q4-adj-eps-0-32-misses-0-33-estimate-sales-499-40m-miss-505-62m-estimate",
         "benzinga_id": 31038244
-      },
-      {
-        "title": "A Preview Of ACCO Brands's Earnings",
-        "published_date": "2023-02-22",
-        "url": "https://www.benzinga.com/news/earnings/23/02/31008477/a-preview-of-acco-brandss-earnings",
-        "benzinga_id": 31008477
       },
       {
         "title": "ACCO Brands Sees FY23 Adj. EPS $1.08-$1.12 Vs $1.22 Est.; Sees Q1 Adj. EPS $0.05-$0.07 Vs $0.09 Est.",
         "published_date": "2023-02-23",
-        "url": "https://www.benzinga.com/quote/ACCO",
         "benzinga_id": 31038263
       },
       {
-        "title": "Earnings Scheduled For February 23, 2023",
-        "published_date": "2023-02-23",
-        "url": "https://www.benzinga.com/news/earnings/23/02/31022472/earnings-scheduled-for-february-23-2023",
-        "benzinga_id": 31022472
-      },
-      {
-        "title": "Check Out 3 High-Yielding Dividend Stocks In Industrials Sector From Wall Street's Most Accurate Analysts",
-        "published_date": "2023-02-24",
-        "url": "https://www.benzinga.com/news/23/02/31044600/check-out-3-high-yielding-dividend-stocks-in-industrials-sector-from-wall-streets-most-accurate-anal",
-        "benzinga_id": 31044600
-      },
-      {
-        "title": "11 Industrials Stocks Moving In Thursday's After-Market Session",
-        "published_date": "2023-02-23",
-        "url": "https://www.benzinga.com/trading-ideas/movers/23/02/31038262/11-industrials-stocks-moving-in-thursdays-after-market-session",
-        "benzinga_id": 31038262
+        "title": "A Preview Of ACCO Brands's Earnings",
+        "published_date": "2023-02-22",
+        "benzinga_id": 31008477
       }
     ]
   },
   "ACCO_2023q2": {
-    "summary_analysis": "Coverage portrayed the quarter as broadly stronger than expected: both earnings and sales beat expectations. The retrieved coverage did not identify a separate guidance change as a major theme.",
-    "why_moved": "The stock rose 14.5% over the two-day earnings window. The coverage therefore implies that the earnings performance was the first-order positive driver.",
+    "summary_analysis": "ACCO Brands reported first-quarter 2023 adjusted earnings of $0.09 per share, beating the $0.05 estimate by 80 percent, though down 18.18 percent from $0.11 per share a year earlier. Quarterly sales of $402.60 million beat the $391.88 million estimate by 2.74 percent but declined 8.83 percent from $441.60 million in the same period last year. A companion \"Earnings Insights\" article adds that revenue was down $39.00 million from the same period a year earlier and supplies historical context on the four preceding quarters (Q1-Q4 2022), noting that the prior quarter's one-cent EPS miss had been followed by a 4.94 percent drop in the share price the next day. A same-day earnings-calendar preview article lists dozens of companies reporting on May 4, 2023, and mentions ACCO Brands only in passing, alongside its pre-release consensus estimate of $0.05 EPS on $391.88 million of revenue, with no additional company-specific detail. Overall, the substantive coverage centers on a sizeable percentage EPS beat against a low consensus bar, alongside a year-over-year sales decline.",
+    "why_moved": "None of the three articles state how ACCO Brands shares reacted to this specific Q1 2023 release. The results and \"Earnings Insights\" articles describe only the earnings and sales figures and the prior quarter's post-earnings share move -- a 4.94 percent drop, which pertains to the previous release, not this one -- and the earnings-calendar preview contains no ACCO-specific commentary beyond the pre-release estimate. Based on what is stated, the articles do not report how shares reacted to this specific release.",
     "sources": [
       {
         "title": "ACCO Brands Q1 Adj. EPS $0.09 Beats $0.05 Estimate, Sales $402.60M Beat $391.88M Estimate",
         "published_date": "2023-05-04",
-        "url": "https://www.benzinga.com/news/earnings/23/05/32226325/acco-brands-q1-adj-eps-0-09-beats-0-05-estimate-sales-402-60m-beat-391-88m-estimate",
         "benzinga_id": 32226325
       },
       {
         "title": "ACCO Brands: Q1 Earnings Insights",
         "published_date": "2023-05-04",
-        "url": "https://www.benzinga.com/news/earnings/23/05/32226588/acco-brands-q1-earnings-insights",
         "benzinga_id": 32226588
       },
       {
         "title": "Earnings Scheduled For May 4, 2023",
         "published_date": "2023-05-04",
-        "url": "https://www.benzinga.com/news/earnings/23/05/32205981/earnings-scheduled-for-may-4-2023",
         "benzinga_id": 32205981
-      },
-      {
-        "title": "12 Industrials Stocks Moving In Friday's Intraday Session",
-        "published_date": "2023-05-05",
-        "url": "https://www.benzinga.com/trading-ideas/movers/23/05/32244916/12-industrials-stocks-moving-in-fridays-intraday-session",
-        "benzinga_id": 32244916
       }
     ]
   },
   "ACCO_2024q1": {
-    "summary_analysis": "Coverage portrayed the quarter as broadly stronger than expected: both earnings and sales beat expectations. The main forward-looking concern was reduced or below-expectation guidance.",
-    "why_moved": "The stock fell 15.0% over the two-day earnings window. The coverage therefore implies that the weaker outlook outweighed the backward-looking results and was the first-order negative driver.",
+    "summary_analysis": "ACCO Brands reported fourth-quarter 2023 adjusted earnings of $0.39 per share, beating the $0.33 estimate by 18.18 percent, with quarterly sales of $488.60 million beating the $476.37 million estimate by 2.57 percent, though sales were down 2.16 percent from $499.40 million in the same period last year. Alongside the results, the company issued weak guidance for the first quarter of 2024, projecting adjusted EPS of $0.01-$0.04 versus an $0.08 estimate and sales down 6.5 percent to 8.0 percent -- a notably soft near-term outlook despite the Q4 beat. A pre-earnings preview article published the day before had noted analysts expected EPS of $0.33, and supplied historical context on the four preceding quarters (Q1-Q4 2023), observing that the prior quarter's one-cent EPS beat had been followed by a 2.51 percent drop in the share price the next day; the preview also noted ACCO shares were trading at $6.40 as of February 20, up 13.67 percent over the trailing 52 weeks, which it characterized as likely leaving long-term shareholders \"bullish going into this earnings release.\" Taken together, the coverage describes a fourth-quarter beat overshadowed by a sharply below-consensus first-quarter 2024 outlook.",
+    "why_moved": "None of the three articles report how ACCO Brands shares reacted to this specific Q4 2023 release. The results article covers only the earnings and sales beat, the guidance headline covers only the weak first-quarter 2024 outlook, and the preview article's data on post-earnings share-price changes pertains to the four prior quarters' releases, not this one. The articles do not report how shares reacted to this specific release, though the weak first-quarter guidance issued alongside the beat is the one substantive new negative data point in the coverage.",
     "sources": [
       {
         "title": "ACCO Brands Q4 2023 Adj EPS $0.39 Beats $0.33 Estimate, Sales $488.60M Beat $476.37M Estimate",
         "published_date": "2024-02-22",
-        "url": "https://www.benzinga.com/news/earnings/24/02/37271159/acco-brands-q4-2023-adj-eps-0-39-beats-0-33-estimate-sales-488-60m-beat-476-37m-estimate",
         "benzinga_id": 37271159
-      },
-      {
-        "title": "ACCO Brands: Q4 Earnings Insights",
-        "published_date": "2024-02-22",
-        "url": "https://www.benzinga.com/insights/earnings/24/02/37271298/acco-brands-q4-earnings-insights",
-        "benzinga_id": 37271298
       },
       {
         "title": "Earnings Outlook For ACCO Brands",
         "published_date": "2024-02-21",
-        "url": "https://www.benzinga.com/insights/earnings/24/02/37237604/earnings-outlook-for-acco-brands",
         "benzinga_id": 37237604
       },
       {
         "title": "ACCO Brands Sees Q1 2024 Adj. EPS $0.01-$0.04 Vs $0.08 Est.; Sales Down 6.5%-8.0%",
         "published_date": "2024-02-22",
-        "url": "https://www.benzinga.com/quote/ACCO",
         "benzinga_id": 37273464
-      },
-      {
-        "title": "ACCO Brands Sees FY24 Adj. EPS $1.07-$1.11 Vs $1.20 Est.; Sales Down 2.0%-5.0%",
-        "published_date": "2024-02-22",
-        "url": "https://www.benzinga.com/quote/ACCO",
-        "benzinga_id": 37273442
-      },
-      {
-        "title": "Earnings Scheduled For February 22, 2024",
-        "published_date": "2024-02-22",
-        "url": "https://www.benzinga.com/insights/earnings/24/02/37254571/earnings-scheduled-for-february-22-2024",
-        "benzinga_id": 37254571
-      },
-      {
-        "title": "Why MercadoLibre Shares Are Trading Lower By Around 10%? Here Are Other Stocks Moving In Friday's Mid-Day Session",
-        "published_date": "2024-02-23",
-        "url": "https://www.benzinga.com/news/earnings/24/02/37291451/why-mercadolibre-shares-are-trading-lower-by-around-10-here-are-other-stocks-moving-in-fridays-mid-",
-        "benzinga_id": 37291451
-      },
-      {
-        "title": "12 Industrials Stocks Moving In Friday's Intraday Session",
-        "published_date": "2024-02-23",
-        "url": "https://www.benzinga.com/insights/movers/24/02/37289520/12-industrials-stocks-moving-in-fridays-intraday-session",
-        "benzinga_id": 37289520
       }
     ]
   },
@@ -10308,470 +10076,197 @@
     ]
   },
   "ANIP_2017q1": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The retrieved coverage did not identify a separate guidance change as a major theme.",
-    "why_moved": "The stock fell 15.7% over the two-day earnings window. The articles do not explicitly explain why investors sold the stock, so no specific first-order driver can be confirmed.",
+    "summary_analysis": "ANI Pharmaceuticals reported fourth-quarter adjusted earnings per share of $0.84, short of the $1.09 analyst estimate, on sales of $38.2 million versus a $40.7 million estimate. A companion release covering the same day's report detailed full-year 2017 guidance, with the company projecting sales of $181 million to $190 million and adjusted EPS of $3.58 to $3.94. A separate mid-day market roundup piece, which is not a dedicated ANI story but a broad list of that day's biggest movers, noted that ANI Pharmaceuticals reported a fourth-quarter net loss of $1.1 million on revenue of $38.2 million, consistent with the headline sales figure from the results release. That roundup listed ANI Pharmaceuticals among the day's biggest decliners, alongside names such as Omega Protein and Endeavour Silver, both of which had also just posted weak quarterly results. The roundup gives no further detail on segment performance, guidance specifics, or management commentary beyond the loss and revenue figures already noted. Taken together, the coverage frames the quarter as a straightforward earnings and revenue miss against Street estimates paired with a forward guidance range for the new fiscal year.",
+    "why_moved": "The market-roundup article explicitly states that ANI Pharmaceuticals shares were down, falling around 15 percent to $51.16, and ties this directly to the fourth-quarter net loss of $1.1 million on revenue of $38.2 million that the company had just reported. This roundup piece frames the decline as part of a broader pattern that day of biotech and pharma names selling off after posting results that missed expectations, alongside Omega Protein and Endeavour Silver. The dedicated results releases themselves report the EPS and sales misses against consensus but do not editorialize on the share-price reaction. No article discusses analyst commentary, management quotes, or any factor beyond the earnings and revenue shortfall as an explanation for the decline.",
     "sources": [
       {
         "title": "ANI Pharmaceuticals Reports Q4 Adj. EPS $0.84 vs. $1.09 Est., Sales $38.2M vs. $40.7M Est.",
         "published_date": "2017-03-02",
-        "url": "https://www.benzinga.com/quote/ANIP",
         "benzinga_id": 9119367
       },
       {
         "title": "ANI Pharmaceuticals Sees FY17 Sales $181-$190M, EPS $3.58-$3.94",
         "published_date": "2017-03-02",
-        "url": "https://www.benzinga.com/quote/ANIP",
         "benzinga_id": 9119372
       },
       {
         "title": "Mid-Day Market Update: Navigator Holdings Gains Following Q4 Results; Endeavour Silver Shares Slide",
         "published_date": "2017-03-02",
-        "url": "https://www.benzinga.com/quote/RGCO",
         "benzinga_id": 9121308
-      },
-      {
-        "title": "Mid-Morning Market Update: Markets Edge Lower; Abercrombie & Fitch Earnings Miss Views",
-        "published_date": "2017-03-02",
-        "url": "https://www.benzinga.com/quote/VRML",
-        "benzinga_id": 9120213
-      },
-      {
-        "title": "20 Biggest Mid-Day Losers For Thursday",
-        "published_date": "2017-03-02",
-        "url": "https://www.benzinga.com/quote/VEC",
-        "benzinga_id": 9121583
       }
     ]
   },
   "ANIP_2018q3": {
-    "summary_analysis": "Coverage portrayed the quarter as weaker than expected: both earnings and sales missed expectations. The main forward-looking concern was reduced or below-expectation guidance. Post-release analyst coverage leaned cautious, with downgrades or target reductions outweighing positive revisions. Firms represented included Cantor Fitzgerald.",
-    "why_moved": "The stock fell 13.2% over the two-day earnings window. The coverage therefore implies that the weaker outlook outweighed the backward-looking results and was the first-order negative driver.",
+    "summary_analysis": "ANI Pharmaceuticals reported quarterly earnings of $1.13 per share, missing the analyst consensus estimate of $1.34 by 15.67 percent, even though that figure was a 15.31 percent increase over the $0.98 per share earned in the same period a year earlier. Quarterly sales of $47.268 million missed the $51.42 million consensus estimate by 8.07 percent, despite representing a 5.59 percent increase over the $44.764 million reported in the prior-year period. The same day, the company cut its full-year 2018 sales guidance from the $212 million-$228 million range it had given as of May 8, 2018 down to $195 million-$205 million, versus a $215 million analyst estimate, and lowered adjusted EPS guidance to $4.80-$5.27 versus a $5.74 estimate, with adjusted EBITDA guided to $82 million-$88 million. The following day, Cantor Fitzgerald analyst Brandon Folkes maintained his Overweight rating on the stock but lowered his price target from $85 to $74. None of the coverage supplies additional detail on segment performance, product-level drivers, or management commentary beyond these headline figures and the guidance cut.",
+    "why_moved": "The articles do not report how shares reacted to this specific release; none of the three pieces states a share-price move, percentage change, or trading level tied to the earnings report. What the coverage does supply as potential explanatory context is the combination of an EPS and sales miss against consensus alongside a meaningful cut to full-year sales, EPS, and EBITDA guidance issued the same day. Cantor Fitzgerald's decision to lower its price target from $85 to $74 the next day, while keeping an Overweight rating, is also consistent with the results being viewed negatively by at least one covering analyst, though the article does not explain the analyst's specific reasoning beyond the rating and target change themselves.",
     "sources": [
       {
         "title": "ANI Pharmaceuticals Q2 EPS $1.13 Misses $1.34 Estimate, Sales $47.268M Miss $51.42M Estimate",
         "published_date": "2018-08-07",
-        "url": "https://www.benzinga.com/quote/ANIP",
         "benzinga_id": 12153526
       },
       {
         "title": "Cantor Fitzgerald Maintains Overweight on ANI Pharmaceuticals, Lowers Price Target to $74",
         "published_date": "2018-08-08",
-        "url": "https://www.benzinga.com/quote/ANIP",
         "benzinga_id": 12164096
       },
       {
         "title": "UPDATE: ANI Pharma Cuts FY18 Sales Guidance From $212M-$228M As Of May 8, 2018 To $195M-$205M vs $215M Estimate, Adj. EPS $4.80-$5.27 vs $5.74 Est., Adj. EBITDA $82M-$88M",
         "published_date": "2018-08-07",
-        "url": "https://www.benzinga.com/quote/ANIP",
         "benzinga_id": 12153545
-      },
-      {
-        "title": "ANI Pharma Cuts Guidance",
-        "published_date": "2018-08-07",
-        "url": "https://www.benzinga.com/quote/ANIP",
-        "benzinga_id": 12153539
-      },
-      {
-        "title": "77 Biggest Movers From Yesterday",
-        "published_date": "2018-08-08",
-        "url": "https://www.benzinga.com/quote/ACER",
-        "benzinga_id": 12162237
-      },
-      {
-        "title": "64 Stocks Moving In Tuesday's Mid-Day Session",
-        "published_date": "2018-08-07",
-        "url": "https://www.benzinga.com/quote/AFH",
-        "benzinga_id": 12156542
-      },
-      {
-        "title": "10 Biggest Price Target Changes For Wednesday",
-        "published_date": "2018-08-08",
-        "url": "https://www.benzinga.com/quote/ANIP",
-        "benzinga_id": 12164817
       }
     ]
   },
   "ANIP_2018q4": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The retrieved coverage did not identify a separate guidance change as a major theme. Beyond the headline result, the articles supplied the following operating and market context: On The Radar Earnings • ANI Pharmaceuticals Inc Common Stock (NASDAQ: ANIP ) (before the market open) • Eli Lilly And Co (NYSE: LLY ) (before the market open) • Becton Dickinson and Co (NYSE: BDX ) (before the market open) • BioCryst Pharmaceuticals, Inc. (NASDAQ: BCRX ) (before the market open) • Chimerix Inc (NASDAQ: CMRX ) (before the market open) • InspireMD Inc (NYSE: NSPR ) (before the market open) • SAGE Therapeutics Inc.",
-    "why_moved": "The stock rose 4.6% over the two-day earnings window. The articles do not isolate a first-order catalyst, so the positive reaction cannot be attributed more precisely from this coverage.",
+    "summary_analysis": "The only coverage matched to this event is a Daily Biotech Pulse roundup piece, which is not a dedicated ANI Pharmaceuticals earnings story but a broad survey of biotech-sector news and stock moves over the prior 24 hours, covering companies such as Eli Lilly, Sanofi, Regeneron, Eyepoint Pharmaceuticals, Insys Therapeutics, Neos Therapeutics, Mylan, Infinity Pharmaceuticals, PTC Therapeutics, and Nevro, among others. ANI Pharmaceuticals appears only in the roundup's \"On The Radar\" earnings calendar section, which simply lists it as reporting before the market open that day, alongside dozens of other biotech and pharma names with upcoming or same-day releases. The article contains no figures, guidance, or commentary specific to ANI Pharmaceuticals's own results. Because the piece is a forward-looking earnings calendar entry rather than a reaction to the numbers, it supplies no information about what the company actually reported for the quarter.",
+    "why_moved": "The article does not report how shares reacted to this specific release, nor does it discuss ANI Pharmaceuticals's results at all beyond noting that the company was scheduled to report before the market open. Since the only matched coverage is a pre-earnings calendar listing embedded in an unrelated sector roundup, there is no article-stated explanation, quote, or figure that speaks to why the stock moved following this report.",
     "sources": [
       {
         "title": "The Daily Biotech Pulse: EyePoint Licenses Eye Inflammation Drug, Insys Strategic Review Of Opioid Assets, Neos Offering",
         "published_date": "2018-11-06",
-        "url": "https://www.benzinga.com/quote/XBI",
         "benzinga_id": 12637056
       }
     ]
   },
   "ANIP_2019q1": {
-    "summary_analysis": "Coverage portrayed the quarter as broadly stronger than expected: both earnings and sales beat expectations. The retrieved coverage did not identify a separate guidance change as a major theme.",
-    "why_moved": "The stock rose 7.9% over the two-day earnings window. The coverage therefore implies that the earnings performance was the first-order positive driver.",
+    "summary_analysis": "ANI Pharmaceuticals reported fourth-quarter adjusted earnings of $1.32 per share, beating the analyst consensus estimate of $1.24 by 6.45 percent, and representing a 22.22 percent increase over the $1.08 per share earned in the same period a year earlier. Quarterly sales of $57.1 million beat the $53.48 million consensus estimate by 6.77 percent, a 20.75 percent increase over the $47.286 million reported in the prior-year period. The same day, the company issued full-year 2019 guidance of adjusted EPS between $5.57 and $6.21, versus a $5.79 analyst estimate, and sales between $231 million and $245 million, versus a $243.4 million estimate, meaning the guidance range straddled the EPS estimate but landed below the sales estimate at the low end and only modestly above it at the high end. Neither article provides further detail on segment or product performance, management commentary, or the reasoning behind the guidance range.",
+    "why_moved": "The articles do not report how shares reacted to this specific release; neither the results release nor the guidance release states a share-price move, percentage change, or trading level. The only explanatory context the coverage supplies is the underlying numbers themselves: a beat on both earnings and sales relative to consensus, paired with full-year guidance that bracketed the EPS estimate but came in below or only slightly above the sales estimate.",
     "sources": [
       {
         "title": "ANI Pharmaceuticals, Inc. - Common Stock Q4 Adj. EPS $1.32 Beats $1.24 Estimate, Sales $57.1M Beat $53.48M Estimate",
         "published_date": "2019-02-27",
-        "url": "https://www.benzinga.com/quote/ANIP",
         "benzinga_id": 13255611
       },
       {
         "title": "ANI Pharma Sees FY19 Adj. EPS $5.57-$6.21 vs $5.79 Estimate, Sales $231M-$245M vs $243.4M Est.",
         "published_date": "2019-02-27",
-        "url": "https://www.benzinga.com/quote/ANIP",
         "benzinga_id": 13255633
       }
     ]
   },
   "ANIP_2019q2": {
-    "summary_analysis": "Coverage portrayed the quarter as broadly stronger than expected: both earnings and sales beat expectations. The retrieved coverage did not identify a separate guidance change as a major theme. Post-release analyst reactions were mixed or largely unchanged. Firms represented included Raymond James, Benzinga's Top.",
-    "why_moved": "The stock rose 2.9% over the two-day earnings window. The coverage therefore implies that the earnings performance was the first-order positive driver.",
+    "summary_analysis": "ANI Pharmaceuticals reported first-quarter earnings of $1.30 per share, beating the analyst consensus estimate of $1.05 by 23.81 percent, though that was a 1.52 percent decrease from the $1.32 per share earned in the same period a year earlier. Quarterly sales of $52.887 million beat the $50.57 million consensus estimate by 4.58 percent, a 13.78 percent increase over the $46.483 million reported in the prior-year period. The next day, Raymond James downgraded the stock from Strong Buy to Outperform while simultaneously raising its price target from $73 to $82, indicating the firm still saw further upside but no longer viewed the stock as a top pick after the move. A Daily Biotech Pulse sector roundup published the same day as the Raymond James note is not a dedicated ANI story, but it did flag ANI Pharmaceuticals in its \"Scaling The Peaks\" section as one of the biotech names that hit a 52-week high, explicitly noting the stock had \"reacted to its Q1 results.\" That roundup otherwise covers unrelated names and news, including FibroGen's mixed kidney-disease trial results and Medtronic's acquisition of Titan Spine, with no further ANI-specific detail.",
+    "why_moved": "The Daily Biotech Pulse roundup states directly that ANI Pharmaceuticals hit a 52-week high in the session following the report, explicitly attributing that move to the market's reaction to the first-quarter results. This aligns with the underlying numbers reported the same day: an earnings and sales beat against consensus, with sales up nearly 14 percent year over year. Raymond James's decision to raise its price target from $73 to $82 the next day, even while downgrading the rating from Strong Buy to Outperform, further supports that the results were viewed positively, though the note itself does not explain the downgrade rationale beyond the rating and target change. No article gives a specific percentage figure for the share-price move itself beyond noting the 52-week high.",
     "sources": [
       {
         "title": "ANI Pharmaceuticals Q1 Adj. EPS $1.3 Beats $1.05 Estimate, Sales $52.887M Beat $50.57M Estimate",
         "published_date": "2019-05-09",
-        "url": "https://www.benzinga.com/quote/ANIP",
         "benzinga_id": 13703866
       },
       {
         "title": "Raymond James Downgrades ANI Pharmaceuticals, Inc. - Common Stock to Outperform, Raises Price Target to $82",
         "published_date": "2019-05-10",
-        "url": "https://www.benzinga.com/quote/ANIP",
         "benzinga_id": 13713142
       },
       {
         "title": "The Daily Biotech Pulse: FibroGen Kidney Disease Trial Disappoints, Medtronic To Buy Titan Spine, Puma's Weak Breast Cancer Drug Sales",
         "published_date": "2019-05-10",
-        "url": "https://www.benzinga.com/quote/XBI",
         "benzinga_id": 13713890
-      },
-      {
-        "title": "Benzinga's Top Upgrades, Downgrades For May 10, 2019",
-        "published_date": "2019-05-10",
-        "url": "https://www.benzinga.com/quote/ALC",
-        "benzinga_id": 13714979
       }
     ]
   },
   "ANIP_2020q1": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The retrieved coverage did not identify a separate guidance change as a major theme. Beyond the headline result, the articles supplied the following operating and market context: On The Radar Earnings Atara Biotherapeutics Inc (NASDAQ: ATRA ) (before the market open) ANI Pharmaceuticals Inc Common Stock (NASDAQ: ANIP ) (before the market open) Adaptimmune Therapeutics PLC – ADR (NASDAQ: ADAP ) (before the market open) Allogene Therapeutics Inc (NASDAQ: ALLO ) (before the market open) IVERIC bio Inc (NASDAQ: ISEE ) (before the market open) Concert Pharmaceuticals Inc (NASDAQ: CNCE ) (before the market open). Post-release analyst coverage leaned cautious, with downgrades or target reductions outweighing positive revisions. Firms represented included Raymond James.",
-    "why_moved": "The stock fell 14.3% over the two-day earnings window. The articles do not explicitly explain why investors sold the stock, so no specific first-order driver can be confirmed.",
+    "summary_analysis": "None of the three matched articles is a dedicated earnings story reporting ANI Pharmaceuticals's actual quarterly results or guidance figures. The first, a Daily Biotech Pulse sector roundup covering topics such as Gilead's coronavirus drug trials and Esperion's FDA approval, mentions ANI Pharmaceuticals only in its forward-looking \"On The Radar\" earnings calendar, noting simply that the company was due to report before the market open. The second article is a Raymond James note, published the day after earnings, in which the firm maintained its Outperform rating on the stock but lowered its price target from $75 to $65. The third, a \"Stocks That Hit 52-Week Lows\" roundup published the same day as the Raymond James note, is a broad list of dozens of unrelated decliners across the market, within which it states that ANI Pharmaceuticals stock dropped to a yearly low on Friday morning of $46.35, and that shares then traded down 3.91 percent. None of the three pieces provides EPS, sales, or guidance figures for the quarter itself.",
+    "why_moved": "The 52-week-lows roundup states directly that ANI Pharmaceuticals stock fell to a yearly low of $46.35 on the Friday following the report and that shares then traded down 3.91 percent that day, placing the stock alongside a long list of other names setting new lows that session. The article gives no explanation for why the stock fell beyond listing it among the day's decliners. Raymond James's decision to maintain its Outperform rating while cutting its price target from $75 to $65 is consistent with a negative market reaction, but the note itself does not explain the analyst's reasoning for the cut. None of the articles report the actual quarterly results that would explain the move, so the underlying driver of the decline is not established by this coverage.",
     "sources": [
+      {
+        "title": "The Daily Biotech Pulse: Gilead Kicks Off Coronavirus Drug Trials, Adcom Nod For Lily, FDA Approves Esperion's Lipid-Lowering Adjunctive Combo Therapy",
+        "published_date": "2020-02-27",
+        "benzinga_id": 15425291
+      },
       {
         "title": "Raymond James Maintains Outperform on ANI Pharmaceuticals, Lowers Price Target to $65",
         "published_date": "2020-02-28",
-        "url": "https://www.benzinga.com/quote/ANIP",
         "benzinga_id": 15439946
       },
       {
         "title": "Stocks That Hit 52-Week Lows On Friday",
         "published_date": "2020-02-28",
-        "url": "https://www.benzinga.com/quote/AA",
         "benzinga_id": 15441854
-      },
-      {
-        "title": "The Daily Biotech Pulse: Sangamo In Genome-Editing Therapy Deal With Biogen, FDA Nod For Biohaven, Passage Bio IPO",
-        "published_date": "2020-02-28",
-        "url": "https://www.benzinga.com/quote/XBI",
-        "benzinga_id": 15438347
-      },
-      {
-        "title": "140 Biggest Movers From Yesterday",
-        "published_date": "2020-02-28",
-        "url": "https://www.benzinga.com/quote/ABIO",
-        "benzinga_id": 15438461
-      },
-      {
-        "title": "100 Stocks Moving In Thursday's Mid-Day Session",
-        "published_date": "2020-02-27",
-        "url": "https://www.benzinga.com/quote/ABUS",
-        "benzinga_id": 15431271
-      },
-      {
-        "title": "Stocks That Hit 52-Week Lows On Thursday",
-        "published_date": "2020-02-27",
-        "url": "https://www.benzinga.com/quote/AA",
-        "benzinga_id": 15429529
-      },
-      {
-        "title": "The Daily Biotech Pulse: Gilead Kicks Off Coronavirus Drug Trials, Adcom Nod For Lily, FDA Approves Esperion's Lipid-Lowering Adjunctive Combo Therapy",
-        "published_date": "2020-02-27",
-        "url": "https://www.benzinga.com/quote/XBI",
-        "benzinga_id": 15425291
       }
     ]
   },
   "ANIP_2020q2": {
-    "summary_analysis": "Coverage portrayed the quarter as mixed: earnings beat expectations but sales fell short. The retrieved coverage did not identify a separate guidance change as a major theme. Beyond the headline result, the articles supplied the following operating and market context: On The Radar Earnings Selecta Biosciences Inc (NASDAQ: SELB ) (before the market open) Autolus Therapeutics Ltd – ADR (NASDAQ: AUTL ) (before the market open) Urogen Pharma Ltd (NASDAQ: URGN ) (before the market open) VolitionRX Ltd (NYSE: VNRX ) (before the market open) Orchard Therapeutics PLC – ADR (NASDAQ: ORTX ) (before the market open) Oncternal Therapeutics Inc (NASDAQ: ONCT ) (before the market open) Integra Lifesciences. Post-release analyst coverage leaned cautious, with downgrades or target reductions outweighing positive revisions. Firms represented included Raymond James, Cantor Fitzgerald.",
-    "why_moved": "The stock fell 10.0% over the two-day earnings window. The coverage implies that investors prioritized the negative side of the mixed release, although no article explicitly confirms a single catalyst.",
+    "summary_analysis": "ANI Pharmaceuticals reported first-quarter earnings of $1.040 per share, beating the analyst consensus estimate of $0.890 by 16.85 percent, though that was a 20 percent decrease from the $1.300 per share earned in the same period a year earlier. Quarterly sales of $49.774 million missed the $50.230 million consensus estimate by 0.91 percent, a 5.89 percent decrease from the $52.887 million reported in the prior-year period, so the quarter combined an earnings beat with a modest year-over-year decline in both earnings and sales alongside a narrow sales miss. A Daily Biotech Pulse sector roundup published the same day, covering unrelated topics such as Novartis's lung-cancer drug approval and Dexcom joining the S&P 500, mentions ANI Pharmaceuticals only in its \"On The Radar\" earnings calendar as reporting before the market open, with no results detail. The next day, Raymond James maintained its Outperform rating but lowered its price target from $65 to $49, continuing the pattern of price-target reductions seen around this company's recent reports.",
+    "why_moved": "None of the three articles states how shares reacted to this specific release; there is no reported share-price move, percentage change, or trading level tied to the report in any of the coverage. The only explanatory context available is the underlying results themselves, an EPS beat paired with a narrow sales miss and year-over-year declines in both metrics, and Raymond James's decision to cut its price target from $65 to $49 the next day while keeping its Outperform rating, which is consistent with a cautious but not bearish read on the quarter. The Raymond James note does not explain its specific reasoning for the target cut beyond the rating and target change themselves.",
     "sources": [
       {
         "title": "ANI Pharmaceuticals Q1 Adj. EPS $1.040 Beats $0.890 Estimate, Sales $49.774M Miss $50.230M Estimate",
         "published_date": "2020-05-07",
-        "url": "https://www.benzinga.com/news/earnings/20/05/15977458/ani-pharmaceuticals-q1-adj-eps-1-040-beats-0-890-estimate-sales-49-774m-miss-50-230m-estimate",
         "benzinga_id": 15977458
-      },
-      {
-        "title": "Raymond James Maintains Outperform on ANI Pharmaceuticals, Lowers Price Target to $49",
-        "published_date": "2020-05-08",
-        "url": "https://www.benzinga.com/news/20/05/15988464/raymond-james-maintains-outperform-on-ani-pharmaceuticals-lowers-price-target-to-49",
-        "benzinga_id": 15988464
-      },
-      {
-        "title": "Cantor Fitzgerald Downgrades ANI Pharmaceuticals to Neutral, Lowers Price Target of $40",
-        "published_date": "2020-05-07",
-        "url": "https://www.benzinga.com/news/20/05/15981469/cantor-fitzgerald-downgrades-ani-pharmaceuticals-to-neutral-lowers-price-target-of-40",
-        "benzinga_id": 15981469
       },
       {
         "title": "The Daily Biotech Pulse: FDA Approves Novartis Lung Cancer Drug, 2-Way Contest Emerging For Tetraphase Pharma, Dexcom to Join S&P 500",
         "published_date": "2020-05-07",
-        "url": "https://www.benzinga.com/general/biotech/20/05/15975700/the-daily-biotech-pulse-fda-approves-novartis-lung-cancer-drug-2-way-contest-emerging-for-tetraph",
         "benzinga_id": 15975700
       },
       {
-        "title": "ANI Pharma Names Patrick Walsh Interim Pres, CEO",
-        "published_date": "2020-05-07",
-        "url": "https://www.benzinga.com/quote/ANIP",
-        "benzinga_id": 15977462
+        "title": "Raymond James Maintains Outperform on ANI Pharmaceuticals, Lowers Price Target to $49",
+        "published_date": "2020-05-08",
+        "benzinga_id": 15988464
       }
     ]
   },
   "ANIP_2021q2": {
-    "summary_analysis": "Coverage portrayed the quarter as broadly stronger than expected: both earnings and sales beat expectations. The coverage also emphasized management's outlook, but did not characterize it consistently as a clear positive or negative. Beyond the headline result, the articles supplied the following operating and market context: The Wall Street estimate would represent a 31.73% decline in the company's earnings. Averaging together every EPS and revenue prediction that each analyst makes about a company in a quarter yields the \"consensus estimates.\" A company posting earnings or revenue above or below the consensus estimate is known as an \"earnings surprise\" and may move the stock by a considerable margin. Here is Benzinga's outlook for the company. Post-release analyst coverage leaned constructive, with more upgrades or target increases than negative revisions. Firms represented included Raymond James.",
-    "why_moved": "The stock fell 5.4% over the two-day earnings window. The articles do not explicitly explain why investors sold the stock, so no specific first-order driver can be confirmed. The negative reaction despite headline beats indicates that investors focused on a forward-looking or operating concern, but the API coverage does not identify it clearly enough to name it as confirmed.",
+    "summary_analysis": "A preview article published the day before the report noted that ANI Pharmaceuticals was expected to post first-quarter EPS of around $0.71, versus $1.04 per share in the same period a year earlier, and included a table of the company's recent quarterly EPS and revenue estimates versus actuals along with the resulting next-day price changes for each of the prior four quarters; it also noted shares were trading at $35.06 as of May 5. When results came out, ANI Pharmaceuticals reported first-quarter earnings of $1.04 per share, beating the $0.71 consensus estimate by 46.48 percent and matching the year-ago period exactly. Quarterly sales of $54.50 million beat the $46.80 million consensus estimate by 16.45 percent, a 9.49 percent increase over the $49.77 million reported a year earlier, so the quarter was a sizable beat on both lines relative to what analysts had modeled. Three days later, Raymond James analyst Elliot Wilbur maintained his Outperform rating and raised his price target from $40 to $60, a substantial increase.",
+    "why_moved": "None of the three articles states how shares reacted specifically to this release; the preview piece's price-change table covers only prior quarters' reactions, not this one, and neither the results release nor the Raymond James note gives a share-price move or percentage change tied to this report. The clearest explanatory signal in the coverage is the scale of the beat itself, EPS nearly 46 percent above consensus and sales over 16 percent above consensus, combined with Raymond James analyst Elliot Wilbur's decision to raise his price target from $40 to $60 while maintaining an Outperform rating three days later, which is consistent with a favorable view of the quarter, though the note does not explain his specific reasoning beyond the rating and target change.",
     "sources": [
       {
         "title": "ANI Pharmaceuticals Q1 EPS $1.04 Beats $0.71 Estimate, Sales $54.50M Beat $46.80M Estimate",
         "published_date": "2021-05-07",
-        "url": "https://www.benzinga.com/news/earnings/21/05/21008913/ani-pharmaceuticals-q1-eps-1-04-beats-0-71-estimate-sales-54-50m-beat-46-80m-estimate",
         "benzinga_id": 21008913
       },
       {
         "title": "Earnings Outlook for ANI Pharmaceuticals",
         "published_date": "2021-05-06",
-        "url": "https://www.benzinga.com/news/earnings/21/05/20990688/earnings-outlook-for-ani-pharmaceuticals",
         "benzinga_id": 20990688
       },
       {
         "title": "Raymond James Maintains Outperform on ANI Pharmaceuticals, Raises Price Target to $60",
         "published_date": "2021-05-10",
-        "url": "https://www.benzinga.com/news/21/05/21033841/raymond-james-maintains-outperform-on-ani-pharmaceuticals-raises-price-target-to-60",
         "benzinga_id": 21033841
-      },
-      {
-        "title": "Earnings Scheduled For May 7, 2021",
-        "published_date": "2021-05-07",
-        "url": "https://www.benzinga.com/news/earnings/21/05/21007713/earnings-scheduled-for-may-7-2021",
-        "benzinga_id": 21007713
-      },
-      {
-        "title": "The Daily Biotech Pulse: Split Verdict For Chemocentryx, NKarta-CRISPR In Cell Therapy Collaboration, Orphazyme's Clinical Trial Setback, 2 IPOs",
-        "published_date": "2021-05-07",
-        "url": "https://www.benzinga.com/general/biotech/21/05/21009633/the-daily-biotech-pulse-split-verdict-for-chemocentryx-nkarta-crispr-in-cell-therapy-collaboratio",
-        "benzinga_id": 21009633
       }
     ]
   },
   "ANIP_2021q4": {
-    "summary_analysis": "Coverage portrayed the quarter as broadly stronger than expected: both earnings and sales beat expectations. The retrieved coverage did not identify a separate guidance change as a major theme. Beyond the headline result, the articles supplied the following operating and market context: Top Headline PG&E Corporation (NYSE: PCG ) reported weaker-than-expected results for its third quarter and issued downbeat sales guidance for the fourth quarter on Thursday. PG&E reaffirmed FY21 adjusted EPS guidance of $0.95-$1.05. Equities Trading UP ABVC BioPharma, Inc. (NASDAQ: ABVC ) shares shot up 260% to $9.15 on abnormally-high volume. Shares of Mountain Crest Acquisition Corp. The company completed merger with Mountain Crest Acquisition Corp II on Friday. Post-release analyst coverage leaned constructive, with more upgrades or target increases than negative revisions. Firms represented included Raymond James, Benzinga's Top.",
-    "why_moved": "The stock rose 51.2% over the two-day earnings window. Benzinga explicitly attributed the move to better-than-expected quarterly results. The reporting presents the beat as the dominant surprise rather than simply recording the individual metrics.",
+    "summary_analysis": "ANI Pharmaceuticals reported third-quarter earnings of $1.01 per share, beating the analyst consensus estimate of $0.70 by 44.29 percent, a 4.12 percent increase over the $0.97 per share earned in the same period a year earlier. Quarterly sales of $52.10 million beat the $49.70 million consensus estimate by 4.83 percent, though that was a 1.66 percent decrease from the $52.98 million reported in the prior-year period, so the quarter combined a large EPS beat and modest sales beat against estimates with a small year-over-year sales decline. Two intraday market-update roundups, a mid-day piece and a later mid-afternoon piece covering broad market movers including loanDepot and Mirati Therapeutics, each singled out ANI Pharmaceuticals as a notable gainer that day. Both roundups attribute the move to the company reporting better-than-expected third-quarter results and separately note that ANI Pharmaceuticals also announced FDA approval of purified cortrophin gel for multiple indications, including multiple sclerosis, rheumatoid arthritis, and nephrotic syndrome, giving the quarter both an earnings-beat catalyst and a regulatory-approval catalyst on the same day.",
+    "why_moved": "The mid-day market update states that ANI Pharmaceuticals shares were up, gaining 55 percent to $58.02, after reporting better-than-expected third-quarter results, while the later mid-afternoon update shows shares still up but somewhat off that level, gaining 47 percent to $54.83, also attributed to the better-than-expected results. Both articles tie the rally explicitly to two factors reported the same day: the earnings and sales beat against consensus, and the FDA's approval of purified cortrophin gel for multiple sclerosis, rheumatoid arthritis, and nephrotic syndrome. Together, the two market updates make clear that the combination of a large earnings beat and the regulatory approval news drove a sharp intraday rally in the stock, even as the size of the gain eased somewhat between midday and mid-afternoon.",
     "sources": [
       {
         "title": "ANI Pharmaceuticals Q3 EPS $1.01 Beats $0.70 Estimate, Sales $52.10M Beat $49.70M Estimate",
         "published_date": "2021-11-01",
-        "url": "https://www.benzinga.com/news/earnings/21/11/23786008/ani-pharmaceuticals-q3-eps-1-01-beats-0-70-estimate-sales-52-10m-beat-49-70m-estimate",
         "benzinga_id": 23786008
       },
       {
         "title": "Mid-Day Market Update: Dow Rises 50 Points; ANI Pharmaceuticals Shares Jump",
         "published_date": "2021-11-01",
-        "url": "https://www.benzinga.com/news/earnings/21/11/23797968/mid-day-market-update-dow-rises-50-points-ani-pharmaceuticals-shares-jump",
         "benzinga_id": 23797968
-      },
-      {
-        "title": "ANI Pharmaceuticals's Return On Capital Employed Overview",
-        "published_date": "2021-11-01",
-        "url": "https://www.benzinga.com/news/earnings/21/11/23794052/ani-pharmaceuticalss-return-on-capital-employed-overview",
-        "benzinga_id": 23794052
-      },
-      {
-        "title": "ANI Pharmaceuticals, Inc. Announces Proposed Public Offering Of Common Stock; No Terms Diclosed",
-        "published_date": "2021-11-03",
-        "url": "https://www.benzinga.com/quote/ANIP",
-        "benzinga_id": 23873775
-      },
-      {
-        "title": "Raymond James Maintains Outperform on ANI Pharmaceuticals, Raises Price Target to $65",
-        "published_date": "2021-11-02",
-        "url": "https://www.benzinga.com/news/21/11/23817352/raymond-james-maintains-outperform-on-ani-pharmaceuticals-raises-price-target-to-65",
-        "benzinga_id": 23817352
-      },
-      {
-        "title": "Truist Securities Initiates Coverage On ANI Pharmaceuticals with Buy Rating, Announces Price Target of $70",
-        "published_date": "2021-11-02",
-        "url": "https://www.benzinga.com/news/21/11/23816589/truist-securities-initiates-coverage-on-ani-pharmaceuticals-with-buy-rating-announces-price-target-o",
-        "benzinga_id": 23816589
-      },
-      {
-        "title": "ANI Pharmaceuticals Announces FDA Approval Of Purified Cortrophin Gel For Multiple Indications Including Multiple Sclerosis, Rheumatoid Arthritis And Nephrotic Syndrome",
-        "published_date": "2021-11-01",
-        "url": "https://www.benzinga.com/news/21/11/23785668/ani-pharmaceuticals-announces-fda-approval-of-purified-cortrophin-gel-for-multiple-indications-inclu",
-        "benzinga_id": 23785668
       },
       {
         "title": "Mid-Afternoon Market Update: loanDepot Surges After Q3 Results; Mirati Therapeutics Shares Slide",
         "published_date": "2021-11-01",
-        "url": "https://www.benzinga.com/news/earnings/21/11/23802933/mid-afternoon-market-update-loandepot-surges-after-q3-results-mirati-therapeutics-shares-slide",
         "benzinga_id": 23802933
-      },
-      {
-        "title": "Earnings Scheduled For November 1, 2021",
-        "published_date": "2021-11-01",
-        "url": "https://www.benzinga.com/news/earnings/21/11/23782619/earnings-scheduled-for-november-1-2021",
-        "benzinga_id": 23782619
-      },
-      {
-        "title": "ANI Pharma's Purified Cortrophin Gel Scores FDA Approval; Q3 Earnings Beat Estimates",
-        "published_date": "2021-11-01",
-        "url": "https://www.benzinga.com/general/biotech/21/11/23788106/ani-pharmas-purified-cortrophin-gel-scores-fda-approval-q3-earnings-beat-estimates",
-        "benzinga_id": 23788106
-      },
-      {
-        "title": "Mid-Morning Market Update: Markets Mixed; PG&E Earnings Miss views",
-        "published_date": "2021-11-01",
-        "url": "https://www.benzinga.com/news/earnings/21/11/23794168/mid-morning-market-update-markets-mixed-pg-e-earnings-miss-views",
-        "benzinga_id": 23794168
-      },
-      {
-        "title": "The Daily Biotech Pulse: Merck's Oral COVID-19 Pill Authorized In UK, Novartis Cashes Out Of Roche, Chimerix Plunges On Data, Evotec IPO",
-        "published_date": "2021-11-04",
-        "url": "https://www.benzinga.com/general/biotech/21/11/23885134/the-daily-biotech-pulse-mercks-oral-covid-19-pill-authorized-in-uk-novartis-cashes-out-of-roche-c",
-        "benzinga_id": 23885134
-      },
-      {
-        "title": "64 Biggest Movers From Yesterday",
-        "published_date": "2021-11-02",
-        "url": "https://www.benzinga.com/news/21/11/23814296/64-biggest-movers-from-yesterday",
-        "benzinga_id": 23814296
-      },
-      {
-        "title": "12 Health Care Stocks Moving In Monday's Intraday Session",
-        "published_date": "2021-11-01",
-        "url": "https://www.benzinga.com/intraday-update/21/11/23798497/12-health-care-stocks-moving-in-mondays-intraday-session",
-        "benzinga_id": 23798497
-      },
-      {
-        "title": "40 Stocks Moving In Monday's Mid-Day Session",
-        "published_date": "2021-11-01",
-        "url": "https://www.benzinga.com/news/21/11/23797534/40-stocks-moving-in-mondays-mid-day-session",
-        "benzinga_id": 23797534
-      },
-      {
-        "title": "12 Health Care Stocks Moving In Monday's Pre-Market Session",
-        "published_date": "2021-11-01",
-        "url": "https://www.benzinga.com/pre-market-outlook/21/11/23788035/12-health-care-stocks-moving-in-mondays-pre-market-session",
-        "benzinga_id": 23788035
-      },
-      {
-        "title": "Benzinga's Top Ratings Upgrades, Downgrades For November 2, 2021",
-        "published_date": "2021-11-02",
-        "url": "https://www.benzinga.com/analyst-ratings/upgrades/21/11/23824694/benzingas-top-ratings-upgrades-downgrades-for-november-2-2021",
-        "benzinga_id": 23824694
       }
     ]
   },
   "ANIP_2022q1": {
-    "summary_analysis": "Coverage portrayed the quarter as mixed: sales beat expectations but earnings fell short. The coverage also emphasized management's outlook, but did not characterize it consistently as a clear positive or negative. Post-release analyst coverage leaned cautious, with downgrades or target reductions outweighing positive revisions. Firms represented included Raymond James.",
-    "why_moved": "The stock fell 28.3% over the two-day earnings window. Benzinga explicitly linked the decline to disappointing quarterly results. That attribution indicates investors placed more weight on the cited catalyst than on the offsetting elements of the release.",
+    "summary_analysis": "A preview article published the day before the report estimated ANI Pharmaceuticals would post EPS of $0.74, and noted that the prior quarter's EPS beat of $0.31 had been followed by a 1.72 percent increase in the share price the next day; it also reported shares trading at $36.31 as of March 11, up 8.55 percent over the trailing 52 weeks. In the actual release, ANI Pharmaceuticals reported fourth-quarter adjusted earnings of $0.54 per share, missing the $0.74 consensus estimate by 27.03 percent and representing a 32.5 percent decrease from the $0.80 per share earned in the same period a year earlier. Quarterly sales of $60.93 million beat the $56.30 million consensus estimate by 8.22 percent, a 6.42 percent increase over the $57.25 million reported a year earlier, so the top line beat even as adjusted EPS missed by a wide margin. The same day, the company guided full-year 2022 sales to a range of $260 million to $275 million, well below the $301.57 million analyst estimate, a guidance cut described only by headline with no further body text in the matched coverage.",
+    "why_moved": "None of the articles states how shares reacted to this specific release. The preview piece's note that a prior EPS beat was followed by a 1.72 percent share-price increase the next day refers only to that earlier quarter's reaction, not to this report, and should not be read as a statement about this event. The clearest potential explanatory factors the coverage does supply are the sizable adjusted EPS miss, down 27 percent versus consensus and down almost a third year over year, and the steep full-year sales guidance cut to $260 million-$275 million against a $301.57 million estimate, both of which stand in contrast to the sales beat reported for the quarter itself, but the articles do not connect these figures to any stated market reaction.",
     "sources": [
-      {
-        "title": "ANI Pharmaceuticals: Q4 Earnings Insights",
-        "published_date": "2022-03-15",
-        "url": "https://www.benzinga.com/news/earnings/22/03/26138507/ani-pharmaceuticals-q4-earnings-insights",
-        "benzinga_id": 26138507
-      },
       {
         "title": "ANI Pharmaceuticals Q4 Adj. EPS $0.54 Misses $0.74 Estimate, Sales $60.93M Beat $56.30M Estimate",
         "published_date": "2022-03-15",
-        "url": "https://www.benzinga.com/news/earnings/22/03/26138468/ani-pharmaceuticals-q4-adj-eps-0-54-misses-0-74-estimate-sales-60-93m-beat-56-30m-estimate",
         "benzinga_id": 26138468
       },
       {
         "title": "ANI Pharmaceuticals's Earnings Outlook",
         "published_date": "2022-03-14",
-        "url": "https://www.benzinga.com/news/earnings/22/03/26123255/ani-pharmaceuticalss-earnings-outlook",
         "benzinga_id": 26123255
-      },
-      {
-        "title": "Mid-Afternoon Market Update: Nasdaq Rises Over 200 Points; ANI Pharmaceuticals Shares Slide",
-        "published_date": "2022-03-15",
-        "url": "https://www.benzinga.com/news/earnings/22/03/26152347/mid-afternoon-market-update-nasdaq-rises-over-200-points-ani-pharmaceuticals-shares-slide",
-        "benzinga_id": 26152347
       },
       {
         "title": "ANI Pharmaceuticals Sees FY22 Sales $260M-$275M vs $301.57M Est.",
         "published_date": "2022-03-15",
-        "url": "https://www.benzinga.com/quote/ANIP",
         "benzinga_id": 26138472
-      },
-      {
-        "title": "ANI Pharmaceuticals's Return On Capital Employed Insights",
-        "published_date": "2022-03-16",
-        "url": "https://www.benzinga.com/news/earnings/22/03/26166850/ani-pharmaceuticalss-return-on-capital-employed-insights",
-        "benzinga_id": 26166850
-      },
-      {
-        "title": "Raymond James Maintains Outperform on ANI Pharmaceuticals, Lowers Price Target to $47",
-        "published_date": "2022-03-16",
-        "url": "https://www.benzinga.com/news/22/03/26161163/raymond-james-maintains-outperform-on-ani-pharmaceuticals-lowers-price-target-to-47",
-        "benzinga_id": 26161163
-      },
-      {
-        "title": "Earnings Scheduled For March 15, 2022",
-        "published_date": "2022-03-15",
-        "url": "https://www.benzinga.com/news/earnings/22/03/26136537/earnings-scheduled-for-march-15-2022",
-        "benzinga_id": 26136537
-      },
-      {
-        "title": "ANI Pharma Posts Mixed Bag Q4 Earnings, FY22 Sales Outlook Trails Street Consensus",
-        "published_date": "2022-03-15",
-        "url": "https://www.benzinga.com/news/earnings/22/03/26143767/ani-pharmas-posts-mixed-bag-q4-earnings-fy22-sales-outlook-trails-street-consensus",
-        "benzinga_id": 26143767
-      },
-      {
-        "title": "68 Biggest Movers From Yesterday",
-        "published_date": "2022-03-16",
-        "url": "https://www.benzinga.com/news/22/03/26159392/68-biggest-movers-from-yesterday",
-        "benzinga_id": 26159392
-      },
-      {
-        "title": "12 Health Care Stocks Moving In Tuesday's Intraday Session",
-        "published_date": "2022-03-15",
-        "url": "https://www.benzinga.com/intraday-update/22/03/26151017/12-health-care-stocks-moving-in-tuesdays-intraday-session",
-        "benzinga_id": 26151017
-      },
-      {
-        "title": "Mid-Day Market Update: Dow Surges Over 300 Points; Crude Oil Tumbles 8%",
-        "published_date": "2022-03-15",
-        "url": "https://www.benzinga.com/news/earnings/22/03/26149820/mid-day-market-update-dow-surges-over-300-points-crude-oil-tumbles-8",
-        "benzinga_id": 26149820
-      },
-      {
-        "title": "38 Stocks Moving In Tuesday's Mid-Day Session",
-        "published_date": "2022-03-15",
-        "url": "https://www.benzinga.com/news/22/03/26149504/38-stocks-moving-in-tuesdays-mid-day-session",
-        "benzinga_id": 26149504
-      },
-      {
-        "title": "Mid-Morning Market Update: Markets Open Higher; US Producer Prices Increase 0.8% In February",
-        "published_date": "2022-03-15",
-        "url": "https://www.benzinga.com/news/earnings/22/03/26145798/mid-morning-market-update-markets-open-higher-us-producer-prices-increase-0-8-in-february",
-        "benzinga_id": 26145798
-      },
-      {
-        "title": "The Daily Biotech Pulse: Biogen, Eisai Amend Aduhelm Agreement; Anaptys Acne Drug Flunks Midstage Study; Merck, AstraZeneca Discontinue Prostate Cancer Trial",
-        "published_date": "2022-03-15",
-        "url": "https://www.benzinga.com/general/biotech/22/03/26139324/the-daily-biotech-pulse-biogen-eisai-amend-aduhelm-agreement-anaptys-acne-drug-flunks-midstage-st",
-        "benzinga_id": 26139324
       }
     ]
   },
