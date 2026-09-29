@@ -730,6 +730,66 @@ def load_group5_band_observations(mtime_marker):
     return sampled.sort_values(["ticker", "earnings_date"]).reset_index(drop=True)
 
 
+# Data Visualization 6: same pattern as Data Visualization 4/5 -- 24 more
+# newly-selected tickers (screened via live yfinance market-cap lookups
+# against our own CUPIP dataset, excluding every ticker already used in
+# Data Viz 1/2/3/4/5; scripts/screen_viz6_candidates.py), same 2021-2023
+# window. Large Cap ($100B-$1T) candidates were scarce after excluding
+# everything already used elsewhere -- the screen found only 14 before
+# stopping (vs. the usual 18-candidate margin), so all 14 are used rather
+# than trimming to 10 to match the other groups.
+GROUP6_GROUPS = {
+    "Small & Mid Cap": ["NABL", "DSGN", "PUBM", "ABEO", "LFST", "CRAI", "GOGO", "RCUS", "GDYN", "KURA"],
+    "Large Cap": [
+        "DELL", "QCOM", "PSX", "SNOW", "APP", "ADI", "PFE", "PEP", "NET", "WDC",
+        "IBM", "AMD", "DE", "CRWD",
+    ],
+}
+GROUP6_BAND_LABELS = {
+    "Small & Mid Cap": "\\$250M\u2013\\$10B, 2021-2023",
+    "Large Cap": "\\$100B\u2013\\$1T, 2021-2023",
+}
+GROUP6_COMPANY_NAMES = {
+    "NABL": "N-able", "DSGN": "Design Therapeutics", "PUBM": "PubMatic", "ABEO": "Abeona Therapeutics",
+    "LFST": "LifeStance Health Group", "CRAI": "CRA International", "GOGO": "Gogo",
+    "RCUS": "Arcus Biosciences", "GDYN": "Grid Dynamics Holdings", "KURA": "Kura Oncology",
+    "DELL": "Dell Technologies", "QCOM": "Qualcomm", "PSX": "Phillips 66", "SNOW": "Snowflake",
+    "APP": "AppLovin", "ADI": "Analog Devices", "PFE": "Pfizer", "PEP": "PepsiCo",
+    "NET": "Cloudflare", "WDC": "Western Digital", "IBM": "International Business Machines",
+    "AMD": "Advanced Micro Devices", "DE": "Deere & Company", "CRWD": "CrowdStrike Holdings",
+}
+GROUP6_PRICE_HISTORY_PATH = os.path.join(HERE, "data", "group6_price_history.json")
+
+
+@st.cache_data
+def load_group6_price_history(mtime_marker):
+    if not os.path.exists(GROUP6_PRICE_HISTORY_PATH):
+        return None
+    with open(GROUP6_PRICE_HISTORY_PATH) as f:
+        return json.load(f)
+
+
+@st.cache_data
+def load_group6_band_observations(mtime_marker):
+    """Same pattern as load_group5_band_observations(), for GROUP6_GROUPS'
+    tickers."""
+    if not os.path.exists(GROUP_RETURNS_PATH):
+        return pd.DataFrame()
+    group6_tickers = [t for tickers in GROUP6_GROUPS.values() for t in tickers]
+    raw = pd.read_csv(GROUP_RETURNS_PATH, parse_dates=["earningsdate"])
+    raw = raw.rename(columns={"earningsdate": "earnings_date", "yq": "fiscal_yearquarter"})
+    window = raw[
+        (raw["earnings_date"] >= DATAVIZ3_WINDOW_START)
+        & (raw["earnings_date"] <= DATAVIZ3_WINDOW_END)
+        & (raw["ticker"].isin(group6_tickers))
+    ]
+    sampled = (
+        window.groupby("ticker", group_keys=False)
+        .apply(lambda g: g.sample(n=min(10, len(g)), random_state=DATAVIZ3_SEED))
+    )
+    return sampled.sort_values(["ticker", "earnings_date"]).reset_index(drop=True)
+
+
 @st.cache_data
 def load_group_price_history(mtime_marker):
     if not os.path.exists(GROUP_PRICE_HISTORY_PATH):
@@ -1594,6 +1654,8 @@ group4_band_observations = load_group4_band_observations(_mtime(GROUP_RETURNS_PA
 group4_price_history = load_group4_price_history(_mtime(GROUP4_PRICE_HISTORY_PATH))
 group5_band_observations = load_group5_band_observations(_mtime(GROUP_RETURNS_PATH))
 group5_price_history = load_group5_price_history(_mtime(GROUP5_PRICE_HISTORY_PATH))
+group6_band_observations = load_group6_band_observations(_mtime(GROUP_RETURNS_PATH))
+group6_price_history = load_group6_price_history(_mtime(GROUP6_PRICE_HISTORY_PATH))
 group_price_history = load_group_price_history(_mtime(GROUP_PRICE_HISTORY_PATH))
 group_context_lookup = load_group_context(_mtime(GROUP_CONTEXT_PATH))
 group_abnormal_returns_lookup = load_group_abnormal_returns(_mtime(GROUP_ABNORMAL_RETURNS_PATH))
@@ -1652,7 +1714,7 @@ if "selected_section" not in st.session_state:
 
 sections = [
     "Data Visualization", "Data Visualization 2", "Data Visualization 3", "Data Visualization 4",
-    "Data Visualization 5", "Comparative Study",
+    "Data Visualization 5", "Data Visualization 6", "Comparative Study",
 ]
 section_cols = st.columns(len(sections))
 for col, sec in zip(section_cols, sections):
@@ -2417,6 +2479,134 @@ if st.session_state.selected_section == "Data Visualization 5":
             )
             st.write("*No coverage available yet for this observation.*")
         with g5_right:
+            st.markdown(
+                "<div style='text-align:center; font-weight:bold;'>High-Tier Coverage</div>",
+                unsafe_allow_html=True,
+            )
+            st.write("*No coverage available yet for this observation.*")
+
+        st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+    st.stop()
+
+if st.session_state.selected_section == "Data Visualization 6":
+    # Same pattern as Data Visualization 4/5: 2 subgroups, "Small & Mid Cap"
+    # ($250M-$10B) and "Large Cap" ($100B-$1T), with 20 more newly-
+    # selected tickers excluded from Data Viz 1/2/3/4/5 (see GROUP6_GROUPS
+    # above).
+    if "selected_g6_group" not in st.session_state:
+        st.session_state.selected_g6_group = list(GROUP6_GROUPS)[0]
+
+    g6_group_cols = st.columns(len(GROUP6_GROUPS))
+    for col, g in zip(g6_group_cols, GROUP6_GROUPS.keys()):
+        with col:
+            is_selected = st.session_state.selected_g6_group == g
+            g6_group_label = f"{g} ({GROUP6_BAND_LABELS[g]})"
+            if st.button(
+                g6_group_label,
+                key=f"g6_groupbtn_{g}",
+                use_container_width=True,
+                type="primary" if is_selected else "secondary",
+            ):
+                st.session_state.selected_g6_group = g
+                st.session_state.selected_g6_ticker = GROUP6_GROUPS[g][0]
+
+    st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+    selected_g6_group = st.session_state.selected_g6_group
+    g6_group_tickers = GROUP6_GROUPS[selected_g6_group]
+
+    if (
+        "selected_g6_ticker" not in st.session_state
+        or st.session_state.selected_g6_ticker not in g6_group_tickers
+    ):
+        st.session_state.selected_g6_ticker = g6_group_tickers[0]
+
+    g6_ticker_cols = st.columns(len(g6_group_tickers))
+    for col, t in zip(g6_ticker_cols, g6_group_tickers):
+        with col:
+            is_selected = st.session_state.selected_g6_ticker == t
+            if st.button(
+                t,
+                key=f"g6_navbtn_{t}",
+                use_container_width=True,
+                type="primary" if is_selected else "secondary",
+                help=GROUP6_COMPANY_NAMES.get(t, t),
+            ):
+                st.session_state.selected_g6_ticker = t
+
+    st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+    g6_ticker = st.session_state.selected_g6_ticker
+    g6_sub = group6_band_observations[group6_band_observations["ticker"] == g6_ticker].reset_index(drop=True)
+    g6_company_name = GROUP6_COMPANY_NAMES.get(g6_ticker, g6_ticker)
+
+    if g6_sub.empty:
+        st.info(f"No 2021-2023 observations available for {g6_ticker}.")
+        st.stop()
+
+    st.markdown(
+        f"<div class='quarter-header' style='font-size:1.4rem; text-align:center;'>{g6_ticker} — {g6_company_name}</div>",
+        unsafe_allow_html=True,
+    )
+    g6_period_start = g6_sub["earnings_date"].min().strftime("%Y-%m-%d")
+    g6_period_end = g6_sub["earnings_date"].max().strftime("%Y-%m-%d")
+    st.markdown(
+        f"<div style='text-align:center; color:rgba(214,228,240,0.7); font-size:0.85rem;'>"
+        f"{len(g6_sub)} observations, {g6_period_start} to {g6_period_end}</div>",
+        unsafe_allow_html=True,
+    )
+
+    render_price_chart(g6_ticker, group6_price_history, g6_sub)
+
+    st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+    g6_sp_df_for_headers = None
+    if group6_price_history is not None:
+        g6_sp_df_for_headers = pd.DataFrame(group6_price_history["sp500"])
+        g6_sp_df_for_headers["date"] = pd.to_datetime(g6_sp_df_for_headers["date"])
+        g6_sp_df_for_headers = g6_sp_df_for_headers.sort_values("date").reset_index(drop=True)
+
+    for g6_idx, g6_row in g6_sub.iterrows():
+        g6_note_key = f"{g6_row['ticker']}_{g6_row['fiscal_yearquarter']}"
+        g6_ret_pct = g6_row["ret_2day"] * 100
+        g6_ret_str = f"{g6_ret_pct:+.2f}%"
+        g6_sp_ret = (
+            sp_return_2day(g6_sp_df_for_headers, g6_row["earnings_date"])
+            if g6_sp_df_for_headers is not None
+            else None
+        )
+        g6_sp_ret_str = f"{g6_sp_ret:+.2f}%" if g6_sp_ret is not None else "n/a"
+        g6_excess_str = excess_return_str(g6_ret_pct, g6_sp_ret)
+
+        st.markdown(
+            f"<div class='quarter-header' style='text-align:center;'>{g6_row['fiscal_yearquarter'].upper()} "
+            f"&nbsp;|&nbsp; earnings {g6_row['earnings_date'].strftime('%Y-%m-%d')}</div>"
+            f"<div class='quarter-header' style='text-align:center;'>2-day return {g6_ret_str} "
+            f"&nbsp;|&nbsp; S&amp;P 2-day return {g6_sp_ret_str}</div>"
+            f"<div style=\"text-align:center; font-size:1.3rem; font-family:'Cormorant Garamond', serif; "
+            f"color:rgba(214,228,240,0.9); margin-bottom:0.3rem;\">Excess return {g6_excess_str}</div>",
+            unsafe_allow_html=True,
+        )
+
+        with st.container(key=f"g6viz_{g6_note_key}"):
+            g6_viz_toggle_id = f"g6viz_toggle_{g6_note_key}"
+            st.html(
+                f"<input type='checkbox' id='{g6_viz_toggle_id}' class='visualize-checkbox'>"
+                f"<label for='{g6_viz_toggle_id}' class='visualize-label'>Visualize</label>"
+            )
+            g6_viz_fig = build_quarter_visualize_fig(g6_ticker, group6_price_history, g6_sub, g6_idx)
+            if g6_viz_fig is not None:
+                st.plotly_chart(g6_viz_fig, use_container_width=True, key=f"g6viz_chart_{g6_note_key}")
+
+        g6_left, g6_right = st.columns(2, gap="large")
+        with g6_left:
+            st.markdown(
+                "<div style='text-align:center; font-weight:bold;'>Selected Coverage</div>",
+                unsafe_allow_html=True,
+            )
+            st.write("*No coverage available yet for this observation.*")
+        with g6_right:
             st.markdown(
                 "<div style='text-align:center; font-weight:bold;'>High-Tier Coverage</div>",
                 unsafe_allow_html=True,
