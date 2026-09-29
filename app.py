@@ -77,6 +77,7 @@ GROUP_CONTEXT_PATH = os.path.join(HERE, "data", "group_context.json")
 GROUP_WSJ_COVERAGE_PATH = os.path.join(HERE, "data", "group_wsj_coverage.json")
 GROUP_DJNW_COVERAGE_PATH = os.path.join(HERE, "data", "group_djnw_coverage.json")
 GROUP_MASSIVE_BENZINGA_COVERAGE_PATH = os.path.join(HERE, "data", "group_massive_benzinga_coverage.json")
+GROUP_ALPHANEWS_COVERAGE_PATH = os.path.join(HERE, "data", "group_alphanews_coverage.json")
 MASSIVE_BENZINGA_COVERAGE_PATH = os.path.join(HERE, "data", "massive_benzinga_coverage.json")
 MASSIVE_NEWS_COVERAGE_PATH = os.path.join(HERE, "data", "massive_news_coverage.json")
 GROUP_PD_CATEGORIES_PATH = os.path.join(HERE, "data", "group_pd_categories.json")
@@ -774,6 +775,14 @@ def load_group_massive_benzinga_coverage(mtime_marker):
     if not os.path.exists(GROUP_MASSIVE_BENZINGA_COVERAGE_PATH):
         return {}
     with open(GROUP_MASSIVE_BENZINGA_COVERAGE_PATH) as f:
+        return json.load(f)
+
+
+@st.cache_data
+def load_group_alphanews_coverage(mtime_marker):
+    if not os.path.exists(GROUP_ALPHANEWS_COVERAGE_PATH):
+        return {}
+    with open(GROUP_ALPHANEWS_COVERAGE_PATH) as f:
         return json.load(f)
 
 
@@ -1593,6 +1602,7 @@ group_djnw_coverage_lookup = load_group_djnw_coverage(_mtime(GROUP_DJNW_COVERAGE
 group_massive_benzinga_coverage_lookup = load_group_massive_benzinga_coverage(
     _mtime(GROUP_MASSIVE_BENZINGA_COVERAGE_PATH)
 )
+group_alphanews_coverage_lookup = load_group_alphanews_coverage(_mtime(GROUP_ALPHANEWS_COVERAGE_PATH))
 massive_benzinga_coverage_lookup = load_massive_benzinga_coverage(
     _mtime(MASSIVE_BENZINGA_COVERAGE_PATH)
 )
@@ -1773,7 +1783,7 @@ if st.session_state.selected_section == "Data Visualization 2":
 
     g_third_column_source = st.radio(
         "Third-column news source",
-        ["Dow Jones Newswires", "Massive / Benzinga"],
+        ["Dow Jones Newswires", "Massive / Benzinga", "Alpha News Stream"],
         horizontal=True,
         key=f"g_third_column_source_{g_ticker}",
     )
@@ -1922,6 +1932,11 @@ if st.session_state.selected_section == "Data Visualization 2":
                 group_massive_benzinga_coverage_lookup,
                 "massive_benzinga",
                 "No Massive / Benzinga coverage",
+            ),
+            "Alpha News Stream": (
+                group_alphanews_coverage_lookup,
+                "alphanews",
+                "No Alpha News Stream coverage",
             ),
         }
         g_third_column_lookup, g_third_column_accuracy_key, g_third_column_none_text = g_third_column_lookups[
