@@ -1,240 +1,210 @@
 {
   "AAPL_2016q2": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The main forward-looking concern was reduced or below-expectation guidance. Beyond the headline result, the articles supplied the following operating and market context: Raymond James predicts Apple Inc. (NASDAQ: AAPL ) shares will \"remain range-bound\" until signs of stabilization in revenue growth emerge. \"Apple's guidance for $42 billion in revenue at the midpoint suggests iPhone unit sales will be well below even his recently lowered estimates, with ~3 million channel reduction making iPhone shipments ~38 million, down 20 percent y/y in June by our estimates,\" analyst Tavis McCourt wrote in a note. Shares of Nanometrics Incorporated (NASDAQ: NANO ) got a boost, shooting up 15 percent to $18.11 as the company reported better-than-expected results for its first quarter and issued a strong outlook for the current quarter. Apple Inc. (NASDAQ: AAPL ) was down, falling around 6 percent to $97.74 as the company reported downbeat results for its second quarter and issued a weak sales forecast for the third quarter. iPhone sales came out at 51.2 million, about 1 million above estimates but was the first sales decline in the product's history. McCourt said Apple's June quarter outlook \"appears to be supporting\" his thesis that iPhone SE, like iPad Mini, may cannibalize sales rather than providing incremental growth. Related Link: 5 Positives And 5 Negatives From Apple's Earnings Report However, the analyst said \"it will take a number of quarters to know with certainty.\" McCourt, who expects Apple shares will trade at $104 over the next year, cut his FY16/FY17 EPS estimates to $8.15/$8.52 from $8.53/$9.00.",
-    "why_moved": "The stock fell 7.5% over the two-day earnings window. The coverage therefore implies that the weaker outlook outweighed the backward-looking results and was the first-order negative driver.",
+    "summary_analysis": "Apple reported fiscal second-quarter 2016 results on April 26 that amounted to a \"double miss\" on both EPS and revenue, accompanied by a guidance cut, and marked the first sales decline in the iPhone's history even though iPhone unit sales of 51.2 million came in about 1 million above estimates. For the third quarter, Apple guided revenue to a range of $41 billion to $43 billion with gross margin between 37.5% and 38%, and the board responded by raising the buyback program to $175 billion and increasing the quarterly dividend by 10%. Raymond James analyst Tavis McCourt wrote that the midpoint of that guidance implied iPhone unit shipments around 38 million for the June quarter, down 20% year-over-year, reflecting an estimated 3 million-unit channel inventory reduction. McCourt cut his FY16/FY17 EPS estimates to $8.15/$8.52 from $8.53/$9.00, well below Street estimates of $9.03/$9.95, while maintaining a Market Perform rating and a 12-month price target of $104. He also suggested Apple's June-quarter outlook supported a thesis that the iPhone SE could be cannibalizing sales rather than adding incremental growth, similar to the iPad Mini, though he cautioned it would take several quarters to confirm. McCourt concluded that Apple shares would likely \"remain range-bound\" until investors see clearer signs of stabilizing revenue growth.",
+    "why_moved": "Coverage states shares fell below $100 and were off roughly 5% in after-hours trading immediately following the release, described as a reaction to the \"double miss\" on results and the accompanying guidance cut. The next day's market-update piece reported Apple down around 6% to $97.74 during the session, and Raymond James' note likewise cited shares down 6.02% to $98.07 \"at time of writing.\" The articles tie this reaction directly to the weak Q2 results, the soft Q3 sales guidance, and analyst skepticism -- exemplified by McCourt's range-bound call -- about whether Apple could return to sustainable revenue growth.",
     "sources": [
       {
         "title": "Mid-Day Market Update: Apple Drops Following Weak Results; Nanometrics Shares Surge",
         "published_date": "2016-04-27",
-        "url": "https://www.benzinga.com/quote/AAPL",
         "benzinga_id": 7891790
       },
       {
         "title": "UPDATE: Apple Shares Fall Below $100, Off ~5% After-Hours Amid Double Miss And Guidance Cut",
         "published_date": "2016-04-26",
-        "url": "https://www.benzinga.com/quote/AAPL",
         "benzinga_id": 7886977
       },
       {
         "title": "Raymond James: Apple Will Stay Range-Bound Until Revenue Growth Stabilizes",
         "published_date": "2016-04-27",
-        "url": "https://www.benzinga.com/quote/AAPL",
         "benzinga_id": 7891817
       }
     ]
   },
   "AAPL_2016q3": {
-    "summary_analysis": "Coverage portrayed the quarter as broadly stronger than expected: the principal reported measure beat expectations. The coverage also emphasized management's outlook, but did not characterize it consistently as a clear positive or negative. Beyond the headline result, the articles supplied the following operating and market context: Better than we thought three months ago.\" Related Link: History Says Odds Are Apple Shares Will Be Higher In 30 Days Than They Will Be Today Aside from Apple beating analyst expectations, its services-related revenue \"keeps on growing,\" and the one segment alone will be the size of a Fortune 100 company this time next year. Pre-open movers U.S. stock futures traded higher in early pre-market trade, after Apple Inc. (NASDAQ: AAPL ) reported stronger-than-expected quarterly results. Data on durable goods orders for June will be released at 8:30 a.m. Cramer noted that the smallest company in the Fortune 100 ranking boasts a valuation of $28 billion but Apple's CEO Tim Cook said its value will be more than that. The Federal Open Market Committee will announce its policy decision at 2:00 p.m.",
-    "why_moved": "The stock rose 5.7% over the two-day earnings window. The coverage therefore implies that the earnings performance was the first-order positive driver.",
+    "summary_analysis": "Apple reported fiscal third-quarter 2016 results after Tuesday's close on July 26, with revenue of $42.4 billion, down from $49.6 billion a year earlier, and net income of $7.8 billion, or $1.42 per share, down from $10.7 billion -- but the EPS figure beat Wall Street consensus of $1.38. CNBC's Jim Cramer described the results as fitting a broader market pattern of companies reporting numbers that were \"good enough,\" noting that many bullish Apple investors had feared a far worse outcome and calling the report \"better than we thought three months ago.\" Coverage highlighted continued growth in Apple's services revenue as a key positive, with Cramer noting the segment alone would be roughly the size of a Fortune 100 company within a year, a valuation Tim Cook reportedly said undersold the business. Following the report, Raymond James upgraded Apple from Market Perform to Outperform. Cramer said the quarter could \"very well mark the bottom of the cycle\" for Apple and reiterated that investors should own the stock long-term rather than trade around it.",
+    "why_moved": "Articles report that Apple shares rose sharply in premarket trading, up 6.97% to $103.41, following the stronger-than-expected results and the Raymond James upgrade, and a separate headline describes shares opening up about 5% following the earnings report and strong guidance for the fourth quarter. The reaction is attributed to the EPS beat relative to consensus, the perception that results were \"good enough\" against lowered expectations, and continued strength in the services business, which Cramer suggested reinforced the case that Apple's growth cycle had bottomed.",
     "sources": [
       {
         "title": "Cramer: Apple's Declining Revenue Is Bullish For Apple's Stock",
         "published_date": "2016-07-27",
-        "url": "https://www.benzinga.com/quote/AAPL",
         "benzinga_id": 8264462
       },
       {
         "title": "A Peek Into The Markets: U.S. Stock Futures Rise; Apple Earnings Beat Estimates",
         "published_date": "2016-07-27",
-        "url": "https://www.benzinga.com/quote/AAPL",
         "benzinga_id": 8263275
       },
       {
         "title": "Apple Shares Up ~5% Following Earnings Report, Strong Guidance",
         "published_date": "2016-07-26",
-        "url": "https://www.benzinga.com/quote/AAPL",
         "benzinga_id": 8260703
       }
     ]
   },
   "AAPL_2016q4": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The retrieved coverage did not identify a separate guidance change as a major theme. Beyond the headline result, the articles supplied the following operating and market context: Comcast Corporation (NASDAQ: CMCSA ) reported better than expected EPS and revenue for the third quarter sending the stock higher in pre-market trading. Pre-open movers U.S. stock futures traded higher in early pre-market trade, ahead of earnings from General Motors Company (NYSE: GM ) and Apple Inc. (NASDAQ: AAPL ). The company also updated its full year outlook, sending the stock higher in pre-market trading. Shares of Apple Inc. (NASDAQ: AAPL ) dropped around 3 percent in pre-market trading after the company reported results for its latest quarter. Oil prices traded lower as Brent crude futures declined 1.48 percent to trade at $50.04 per barrel, while US WTI crude futures also fell 1.48 percent to trade at $49.22 a barrel.",
-    "why_moved": "The stock fell 1.0% over the two-day earnings window. The articles do not explicitly explain why investors sold the stock, so no specific first-order driver can be confirmed.",
+    "summary_analysis": "Apple reported fiscal fourth-quarter 2016 results after the close on October 25, posting better-than-expected earnings, though revenue of $46.9 billion, down 8.9% year-over-year, came in in line with expectations. Ahead of the release, one piece noted Apple's shares had been volatile in trading in the minutes leading up to the report, swinging between roughly $118 and $118.40. Following the release, Stifel Nicolaus downgraded Apple from Buy to Hold. The most detailed coverage of the reaction was a pre-market roundup piece covering several companies' earnings that day (also including Coca-Cola, Southwest Airlines, and Comcast); it treated Apple as one item within that broader roundup rather than as a dedicated earnings story, noting only the topline results and the stock's premarket move rather than providing deeper segment or guidance detail.",
+    "why_moved": "The premarket roundup article reports Apple shares fell around 3%, to $114.85, in premarket trading following the Q4 report, alongside the same-day Stifel Nicolaus downgrade from Buy to Hold. Beyond citing the earnings beat on EPS against in-line revenue, none of the articles offer further explanation for the stock's premarket decline; the piece describing pre-earnings trading volatility only covers price swings in the minutes before the report was released and does not address the post-earnings reaction at all.",
     "sources": [
       {
         "title": "A Peek Into The Markets: U.S. Stock Futures Down; Apple Shares Drop Following Q4 Results",
         "published_date": "2016-10-26",
-        "url": "https://www.benzinga.com/quote/AAPL",
         "benzinga_id": 8602516
       },
       {
         "title": "Apple Shares Volatile After Hours, Trading Between $118 and ~$118.40 Just Mins Ahead of Q4 Earnings Report",
         "published_date": "2016-10-25",
-        "url": "https://www.benzinga.com/quote/AAPL",
         "benzinga_id": 8600097
       },
       {
         "title": "A Peek Into The Markets: U.S. Stock Futures Rise; GM, Apple Earnings In Focus",
         "published_date": "2016-10-25",
-        "url": "https://www.benzinga.com/quote/AAPL",
         "benzinga_id": 8596085
       }
     ]
   },
   "AAPL_2017q1": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The retrieved coverage did not identify a separate guidance change as a major theme. Beyond the headline result, the articles supplied the following operating and market context: Wall Street welcomed the results with both hands, while investors have ignored the lower-than-expected revenue outlook as they are confident about success of future iPhones. However, Apple guided second-quarter revenue of $51.5 billion–$53.5 billion, slightly below consensus expectations, and included a currency headwind of $1.2 billion. Um sees a difficult road ahead for Apple due to the following: “iPhone 8 in Sept. being released in an S-cycle year (where many subscribers will be in year 1 of a two-yr contract).” “Tough comps in June (SE launch last year), Sept. (extra week post-iPhone 7 launch), and Dec (extra week in 2016).” “Gross margin pressures (fx, component costs, increased iPhone content).” “Uncertainty around royalty litigation.” However, Um boosted the. Baird's Perspective Baird’s William Power, who reiterated his Outperform rating and raised the price target by 12 to $145, said investor focus will likely “shift almost entirely” to iPhone 8 and the stock seems “ ripe for picking ” ahead of the upcoming cycle. More importantly, I think that services as you said is going to become the way that Apple is going to leverage their hardware devices in the future, so the substance of the growth is going to come from services.” Olson agreed. “I do think that there is potential for services, given a significantly higher margin than the core businesses, to drive gross margin improvements,” he said. “Specifically, one comment that everyone’s kind of.",
-    "why_moved": "The stock rose 5.7% over the two-day earnings window. The articles do not isolate a first-order catalyst, so the positive reaction cannot be attributed more precisely from this coverage.",
+    "summary_analysis": "Apple's fiscal first-quarter 2017 results, reported after the close on January 31, showed a return to iPhone unit growth alongside continued services strength: coverage cited 78.3 million iPhones sold versus a Street estimate of 77.4 million, and 18% growth in services revenue to $7.2 billion versus an expected 17% growth rate. CEO Tim Cook said he expected the services business to double over the next four years, eventually accounting for roughly 25% of total revenue. Apple's second-quarter guidance of $51.5 billion to $53.5 billion in revenue came in slightly below consensus and included a $1.2 billion currency headwind, but investors were described as having largely looked past that softer outlook. Analyst reaction was broadly positive: Baird's William Power reiterated an Outperform rating and raised his price target to $145, calling the stock \"ripe for picking\" ahead of the iPhone 8 cycle; BMO's Tim Long (Outperform, $142 target) and Credit Suisse's Kulbinder Garcha (Outperform) both pointed to services growth and an anticipated \"iPhone 8 super cycle,\" with Garcha modeling long-term sustainable free cash flow of about $67 billion. Wells Fargo's Maynard Um was more mixed, keeping a Market Weight rating while flagging tough year-ago comparisons and gross-margin pressure, though he still raised his valuation range to $110-$125 from $105-$120. Separately, Loup Ventures' Gene Munster and Piper Jaffray's Mike Olson called the iPhone sales figure a \"huge sigh of relief\" for the franchise and discussed Apple's longer-term shift toward services and eventually away from the smartphone form factor.",
+    "why_moved": "Articles report that Apple shares set a new 52-week high of $130.49 and closed the following day's session up 6.13% at $128.79. The rally is attributed to the beat on iPhone unit sales and above-forecast services growth, with investors said to have \"ignored\" the softer Q2 revenue guidance because they remained confident about upcoming iPhone product cycles. Analyst commentary reinforced this framing, describing the report as a relief that the iPhone franchise remained intact and emphasizing services growth as the more important forward-looking driver of the stock's reaction.",
     "sources": [
       {
         "title": "A Peek Into The Markets: U.S. Stock Futures Down; Apple Earnings In Focus",
         "published_date": "2017-01-31",
-        "url": "https://www.benzinga.com/quote/SHOO",
         "benzinga_id": 8970273
       },
       {
         "title": "Here's How Wall Street Investors, Analysts Felt About Apple's Q1 Earnings",
         "published_date": "2017-02-02",
-        "url": "https://www.benzinga.com/quote/AAPL",
         "benzinga_id": 8984783
       },
       {
         "title": "Apple iPhone Sales Were 'Huge Sigh Of Relief', But Still Won't Save The iPhone As We Know It",
         "published_date": "2017-02-01",
-        "url": "https://www.benzinga.com/quote/AAPL",
         "benzinga_id": 8979238
       }
     ]
   },
   "AAPL_2017q2": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The coverage also emphasized management's outlook, but did not characterize it consistently as a clear positive or negative. Beyond the headline result, the articles supplied the following operating and market context: Oil prices traded lower as Brent crude futures rose 1.01 percent to trade at $52.04 per barrel, while US WTI crude futures gained 0.78 percent to trade at $49.22 a barrel. In Asian markets, Japan’s Nikkei Stock Average rose 0.70 percent, Hong Kong’s Hang Seng Index rose 0.33 percent, China’s Shanghai Composite Index declined 0.35 percent and India’s BSE Sensex rose 0.01 percent. AMD shares fell 11.67 percent to $12.03 in pre-market trading. Pre-open movers U.S. stock futures traded mostly lower in early pre-market trade. The Federal Open Market Committee will begin two-day policy meeting today.",
-    "why_moved": "The stock rose 0.6% over the two-day earnings window. The articles do not isolate a first-order catalyst, so the positive reaction cannot be attributed more precisely from this coverage.",
+    "summary_analysis": "Coverage of Apple's fiscal second-quarter 2017 earnings, reported after the close on May 2, is limited in the available articles to brief commentary from Loup Ventures' Gene Munster, since two of the three pieces are headline-only with no article body. Per those headlines, Munster said the report \"shouldn't be a huge surprise\" and suggested that investors who hold Apple do so in anticipation of upcoming new products -- \"owning it for the hype going into new products\" -- rather than for this specific quarter's results and guidance. He reportedly graded the quarter's report a \"B\" and the setup heading into the following quarter a \"B+.\" A separate pre-earnings roundup previewed the release without providing any post-earnings detail, noting only that Apple was scheduled to report after the close that day amid a broader market backdrop of mostly lower futures and the start of a two-day Federal Reserve policy meeting.",
+    "why_moved": "None of the available articles include the substantive text of Munster's commentary or a reported share-price reaction; two of the three pieces consist only of headlines describing his letter-grade characterization of the report (\"B\") and next quarter's setup (\"B+\") without further detail, and the third is a pre-earnings preview with no results coverage at all. The articles therefore do not report how shares reacted to this specific release -- they indicate only Munster's framing that the quarter was unsurprising and that Apple holders were positioned for future product hype rather than for this quarter's guidance.",
     "sources": [
       {
         "title": "A Peek Into The Markets: U.S. Stock Futures Mostly Lower; Apple Earnings In Focus",
         "published_date": "2017-05-02",
-        "url": "https://www.benzinga.com/quote/PFE",
         "benzinga_id": 9382526
       },
       {
         "title": "Loup's Munster Says Apple's Report Shouldn't Be a Huge Surprise; Highlights Investors Owning Apple Are Owning It for the Hype Going Into New Products, Not For the Q2 Results and Guidance",
         "published_date": "2017-05-03",
-        "url": "https://www.benzinga.com/quote/AAPL",
         "benzinga_id": 9392057
       },
       {
         "title": "Loup's Munster on Apple Earnings Report: 'If I Had To Give the Report a Grade, I'd Give It a B; If I Had to Give a Grade for the Set Up Into Next Qtr., I'd Give It a B+'",
         "published_date": "2017-05-03",
-        "url": "https://www.benzinga.com/quote/AAPL",
         "benzinga_id": 9392050
       }
     ]
   },
   "AAPL_2017q3": {
-    "summary_analysis": "Coverage portrayed the quarter as broadly stronger than expected: the principal reported measure beat expectations. The coverage also emphasized management's outlook, but did not characterize it consistently as a clear positive or negative. Beyond the headline result, the articles supplied the following operating and market context: The company sees Q4 sales of $49 billion-52 billion, against a consensus estimate of $49.21 billion. \"With revenue up 7 percent year-over-year, we're happy to report our third consecutive quarter of accelerating growth and an all-time quarterly record for Services revenue,\" said CEO Tim Cook. \"We hosted an incredibly successful Worldwide Developers Conference in June, and we're very excited about the advances in iOS, macOS, watchOS and. Oil prices traded higher as Brent crude futures rose 0.34 percent to trade at $52.43 per barrel, while US WTI crude futures gained 0.16 percent to trade at $49.24 a barrel. In Asian markets, Japan’s Nikkei Stock Average rose 0.47 percent, Hong Kong’s Hang Seng Index gained 0.24 percent, China’s Shanghai Composite Index declined 0.23 percent and India’s BSE Sensex fell 0.30 percent. Mondelez International Inc (NASDAQ: MDLZ ) posted upbeat earnings for its second quarter and named Dir Van de Put as CEO. Pre-open movers U.S. stock futures traded higher in early pre-market trade.",
-    "why_moved": "The stock rose 5.5% over the two-day earnings window. The coverage therefore implies that the earnings performance was the first-order positive driver.",
+    "summary_analysis": "Apple's fiscal third-quarter 2017 results, reported after Tuesday's close on August 1, beat expectations across the board: EPS of $1.67 topped estimates by 10 cents, and revenue of $45.4 billion beat estimates by $510 million. The company sold 41 million iPhone units, 11.42 million iPads, and 4.29 million Macs during the quarter. CEO Tim Cook said revenue was up 7% year-over-year, marking the \"third consecutive quarter of accelerating growth\" and an all-time quarterly record for services revenue, and pointed to a successful Worldwide Developers Conference in June along with anticipated advances in iOS, macOS, watchOS, and tvOS that fall. Apple guided fourth-quarter sales to a range of $49 billion to $52 billion, above the consensus estimate of $49.21 billion. The report came as Apple's last earnings release ahead of its next iPhone launch.",
+    "why_moved": "Articles report that Apple shares opened about 6% higher in the session following the report, on the Q3 sales beat and Q4 guidance landing at the high end of estimates. A separate article states shares traded up 4.8% to $157.21 in the after-hours session immediately following the release, pushing the stock past its then all-time high of $156.65. Coverage attributes the move to the combination of the earnings and revenue beat, the above-consensus Q4 sales guidance, and the record services revenue and accelerating growth Cook highlighted on the call.",
     "sources": [
       {
         "title": "Apple Shares Open 6% Higher Following Q3 Sales Beat, Q4 Sales Guidance On High End Of Estimates",
         "published_date": "2017-08-02",
-        "url": "https://www.benzinga.com/quote/AAPL",
         "benzinga_id": 9863221
       },
       {
         "title": "A Peek Into The Markets: U.S. Stock Futures Rise; Apple Earnings Top Views",
         "published_date": "2017-08-02",
-        "url": "https://www.benzinga.com/quote/ULTI",
         "benzinga_id": 9862146
       },
       {
         "title": "Apple Delivers Big Q3 Earnings Beat, Stock Hits All-Time High",
         "published_date": "2017-08-01",
-        "url": "https://www.benzinga.com/quote/AAPL",
         "benzinga_id": 9859107
       }
     ]
   },
   "AAPL_2017q4": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The coverage also emphasized management's outlook, but did not characterize it consistently as a clear positive or negative. Beyond the headline result, the articles supplied the following operating and market context: Teva Pharmaceutical Industries Ltd (ADR) (NYSE: TEVA ) reported downbeat results for its third quarter and lowered its 2017 guidance. Oil prices traded lower as Brent crude futures fell 0.63 percent to trade at $60.11 per barrel, while US WTI crude futures dropped 0.24 percent to trade at $54.17 a barrel. In Asian markets, Japan’s Nikkei Stock Average rose 0.53 percent, Hong Kong’s Hang Seng Index fell 0.26 percent, China’s Shanghai Composite Index slipped 0.37 percent and India’s BSE Sensex slipped 0.08 percent. United States Steel shares rose 0.55 percent to $27.45 in pre-market trading. Pre-open movers U.S. stock futures traded slightly lower in early pre-market trade.",
-    "why_moved": "The stock rose 3.0% over the two-day earnings window. The articles do not isolate a first-order catalyst, so the positive reaction cannot be attributed more precisely from this coverage.",
+    "summary_analysis": "Coverage of Apple's fiscal fourth-quarter 2017 earnings, reported after the close on November 2, comes largely from Piper Jaffray analyst Mike Olson, though two of the three available articles are headline-only with no article body. Per those headlines, Olson said it was \"hard to find any negatives\" in the report, with unit sales showing upside \"across the board,\" though gross margin came in \"a fraction below where consensus was,\" which he attributed to memory-pricing headwinds. On guidance, Olson said Apple's outlook was not \"as pessimistic as some investors\" had been regarding iPhone sales, implying management's forecast suggested more resilient iPhone demand than some on Wall Street had feared. A separate pre-earnings roundup previewed the release without providing any post-earnings detail, noting only that Apple was among several companies -- also including Starbucks and AIG -- scheduled to report results after the close that day.",
+    "why_moved": "The available articles -- limited to headline-only Piper Jaffray commentary, since neither Olson piece includes body text -- do not state a specific share-price reaction to the report. They indicate only Olson's qualitative read that the quarter showed broad unit upside and better-than-feared guidance, offset partly by a slight gross-margin miss tied to memory-pricing costs; beyond that characterization, the articles do not report how shares specifically reacted to this release.",
     "sources": [
       {
         "title": "A Peek Into The Markets: U.S. Stock Futures Edge Lower; All Eyes On Apple Earnings",
         "published_date": "2017-11-02",
-        "url": "https://www.benzinga.com/quote/AAPL",
         "benzinga_id": 10271694
       },
       {
         "title": "Piper Jaffray's Olson On Apple Earnings 'It Was Hard To Find Any Negatives' As Units Showed Upside Across The Board, But Gross Margin Was 'A Fraction Below Where Consensus Was,' Cites Memory Pricing Headwinds",
         "published_date": "2017-11-03",
-        "url": "https://www.benzinga.com/quote/AAPL",
         "benzinga_id": 10281206
       },
       {
         "title": "Piper Jaffray's Olson On Apple's Guidance: Co. 'Isn't As Pessimistic As Some Investors' Have Been Related To iPhone Sales",
         "published_date": "2017-11-03",
-        "url": "https://www.benzinga.com/quote/AAPL",
         "benzinga_id": 10281200
       }
     ]
   },
   "AAPL_2018q1": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The main forward-looking concern was reduced or below-expectation guidance. Beyond the headline result, the articles supplied the following operating and market context: Apple issued weak Q2 guidance, seeing sales between $60 billion-$62 billion vs. $65.7 billion estimates. \"We're thrilled to report the biggest quarter in Apple's history, with broad-based growth that included the highest revenue ever from a new iPhone lineup. iPhone X surpassed our expectations and has been our top-selling iPhone every week since it shipped in November,\" said CEO Tim Cook. \"We've also achieved a significant milestone with our active installed base of devices reaching 1.3 billion in January. Q1 Highlights 77.316 million iPhone units sold, down 1 percent YoY 13.17 million iPad units sold, up 1 percent YoY 5.112 million Macs sold, down 5 percent YoY Active installed base Of 1.3 billion devices Americas sales up 10 percent YoY Europe sales up 14 percent YoY Greater China sales up 11 percent YoY Japan sales up 26 percent YoY At time of publication, Apple's stock was down about 1 percent at $166.60.",
-    "why_moved": "The stock fell 2.0% over the two-day earnings window. The coverage therefore implies that the weaker outlook outweighed the backward-looking results and was the first-order negative driver.",
+    "summary_analysis": "Apple's fiscal first-quarter 2018 results, reported after the close on February 1, delivered what CEO Tim Cook called \"the biggest quarter in Apple's history\": EPS of $3.89, three cents above estimates, and revenue of $88.3 billion, about $1.02 billion ahead of estimates, driven by the highest revenue ever from a new iPhone lineup as iPhone X was described as Apple's top-selling model every week since its November launch. Apple's active installed base reached 1.3 billion devices, up 30% in two years. Unit sales were mixed: iPhone units fell 1% year-over-year to 77.316 million and Mac units fell 5% to 5.112 million, while iPad units rose 1% to 13.17 million; regional sales grew across the Americas (up 10%), Europe (up 14%), Greater China (up 11%), and Japan (up 26%). Despite the beat, Apple issued weak second-quarter guidance of $60 billion to $62 billion in revenue, well below the $65.7 billion Wall Street had modeled.",
+    "why_moved": "Coverage describes a volatile after-hours reaction: one headline states shares initially traded down as much as 3.1% before later trading up about 3% while the earnings conference call was still underway. Another article reports shares down 1.95% following the Q1 beat given the below-Street guidance, and a further piece cites the stock down about 1% at $166.60 \"at time of publication.\" The articles attribute this softness in the stock's reaction to the weaker-than-expected Q2 revenue guidance and the year-over-year declines in iPhone and Mac unit sales, even though the headline EPS and revenue figures both beat estimates.",
     "sources": [
       {
         "title": "Apple Shares Now Up 3% After Hours As Q1 Earnings Conference Call Continues; Stock Initially Traded Down As Much As 3.1%",
         "published_date": "2018-02-01",
-        "url": "https://www.benzinga.com/quote/AAPL",
         "benzinga_id": 11122553
       },
       {
         "title": "Apple Falls On Lower Q2 Guidance, iPhone And iMac Sales Down",
         "published_date": "2018-02-01",
-        "url": "https://www.benzinga.com/quote/AAPL",
         "benzinga_id": 11121794
       },
       {
         "title": "Apple Shares Down 1.95% Following Q1 Beat, Q1 Guidance Below Street View",
         "published_date": "2018-02-01",
-        "url": "https://www.benzinga.com/quote/AAPL",
         "benzinga_id": 11121653
       }
     ]
   },
   "AAPL_2018q2": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The retrieved coverage did not identify a separate guidance change as a major theme. Beyond the headline result, the articles supplied the following operating and market context: Bulls On Parade Bernstein analyst Toni Sacconaghi said fiscal third-quarter iPhone guidance was much stronger than the market anticipated. “We struggle with the disconnect between supply chain data points & Apple's guidance, though we note Apple has never missed its revenue guidance under its current CFO,” Sacconaghi wrote. WellCare Health Plans, Inc. (NYSE: WCG ) reported stronger-than-expected earnings for its first quarter and raised its FY18 earnings guidance Pfizer Inc. (NYSE: PFE ) reported better-than-expected earnings for its first quarter, while sales missed views. KeyBanc analyst Andy Hargreaves said that, despite the positive market reaction, Apple’s quarter did little to impact KeyBanc’s 2018 estimates. “While F2Q results and F3Q guidance were better than many feared, they still suggest stagnant iPhone unit demand and weaker pricing power than we anticipated entering the cycle,” Hargreaves wrote. Oppenheimer analyst Andrew Uerkwitz said Apple’s $100 billion buyback plan and 270 million paid subscriber count protect the stock from near-term downside. “However, we remain skeptical over Apple's ability to maintain its market dominance in the mid- to-long term when competitors in software and services erode its hardware differentiation,” Uerkwitz wrote. ...And Relief GBH Insights analyst Daniel Ives said Wall Street was in panic. Voices From The Street Bank of America analyst Wamsi Mohan said better-than-expected iPhone demand, gross margin upside, a massive capital return program, and robust Services and wearables growth are all good reasons to own the stock. “Investor focus will soon shift to new iPhones to be released in fall of 2018 (battery replacements not materially elongating replacement cycles),” Mohan wrote.",
-    "why_moved": "The stock rose 7.2% over the two-day earnings window. The articles do not isolate a first-order catalyst, so the positive reaction cannot be attributed more precisely from this coverage.",
+    "summary_analysis": "Apple's fiscal second-quarter 2018 results, released after the close on May 1, beat expectations and were accompanied by a new $100 billion buyback authorization and a dividend increase; coverage broadly characterized the report as \"much better-than-feared.\" Analysts pointed to several drivers behind the reaction: Bank of America's Wamsi Mohan cited better-than-expected iPhone demand, gross-margin upside, the large capital-return program, and robust services and wearables growth. Morgan Stanley's Katy Huberty flagged 31% growth in services revenue as the key long-term takeaway, while Bernstein's Toni Sacconaghi said fiscal third-quarter iPhone guidance was much stronger than the market had anticipated, even as he noted a disconnect with supply-chain data points. GBH Insights' Daniel Ives said the guidance \"eliminated much of the near-term market fears\" heading into the September quarter and new iPhone cycle, and D.A. Davidson's Tom Forte pointed to Apple's cash flexibility for buybacks, dividends, and acquisitions. Not all reaction was uniformly bullish: KeyBanc's Andy Hargreaves said the quarter, while better than feared, still implied stagnant iPhone unit demand and weaker pricing power than expected, and Oppenheimer's Andrew Uerkwitz voiced longer-term skepticism about Apple's ability to defend its market position as software and services competitors erode its hardware differentiation.",
+    "why_moved": "Articles report Apple shares trading up about 4% immediately following the earnings release, and separately up more than 4.5% in the wake of the report, with the stock trading around $176.79 the following afternoon. Coverage attributes the rally to the earnings beat combined with the new $100 billion buyback and dividend increase, better-than-expected iPhone demand and gross margin, and third-quarter guidance that came in well above what the market had feared, with several analysts describing investors as \"relieved\" that iPhone demand was not slowing as much as had been anticipated.",
     "sources": [
       {
         "title": "Apple Shares Trading Up ~4% Following Q2 Earnings Beat, New Buyback, Dividend Raise",
         "published_date": "2018-05-01",
-        "url": "https://www.benzinga.com/quote/AAPL",
         "benzinga_id": 11620761
       },
       {
         "title": "A Peek Into The Markets: U.S. Stock Futures Flat; Apple Earnings In Focus",
         "published_date": "2018-05-01",
-        "url": "https://www.benzinga.com/quote/AAPL",
         "benzinga_id": 11613950
       },
       {
         "title": "Wall Street Weighs In On Apple's Huge Quarter",
         "published_date": "2018-05-02",
-        "url": "https://www.benzinga.com/quote/AAPL",
         "benzinga_id": 11628510
       }
     ]
   },
   "AAPL_2018q3": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The retrieved coverage did not identify a separate guidance change as a major theme.",
-    "why_moved": "The stock rose 5.7% over the two-day earnings window. The articles do not isolate a first-order catalyst, so the positive reaction cannot be attributed more precisely from this coverage.",
+    "summary_analysis": "Coverage of Apple's fiscal third-quarter 2018 earnings conference call on July 31 consists of brief, live-blog-style headlines rather than full narrative articles, with two of the three pieces containing essentially no body text beyond a source link. During the call, CFO Luca Maestri reportedly said Apple was \"starting to see improvement\" in NAND pricing, a comment coverage flagged as relevant to watch for chip suppliers Micron and Intel. Separate headlines tracked the stock's after-hours trading as the call progressed: shares were reported up 2.2% as CEO Tim Cook began his prepared remarks, and still up 2.2% at an after-hour high once Cook had finished those remarks and Maestri began speaking. Beyond these trading-level headlines and the NAND pricing comment, the articles provide no further detail on Apple's specific quarterly results, guidance, or segment performance.",
+    "why_moved": "Articles report that Apple shares were up 2.2% in after-hours trading as Tim Cook began his prepared remarks on the earnings call, and remained up 2.2% at an after-hour high as Cook concluded those remarks and CFO Luca Maestri began speaking. Aside from Maestri's comment that the company was \"starting to see improvement\" in NAND pricing, which coverage noted as relevant to chip suppliers, the articles do not otherwise explain what specifically drove the after-hours move.",
     "sources": [
       {
         "title": "Watching Micron, Intel Shares As, On Apple's Q3 Earnings Conference Call, CFO Maestri Says Co. Is 'Starting To See Improvement' In NAND Pricing",
         "published_date": "2018-07-31",
-        "url": "https://www.benzinga.com/quote/MU",
         "benzinga_id": 12113201
       },
       {
         "title": "Apple Shares At After-Hour High, Up 2.2% As Tim Cook Done With Prepared Remarks On Q3 Earnings Conference Call, CFO Luca Maestri Now Giving Prepared Remarks",
         "published_date": "2018-07-31",
-        "url": "https://www.benzinga.com/quote/AAPL",
         "benzinga_id": 12112961
       },
       {
         "title": "Apple Shares Up 2.2% As Tim Cook Begins Speaking On Co.'s Q3 Earnings Conference Call",
         "published_date": "2018-07-31",
-        "url": "https://www.benzinga.com/quote/AAPL",
         "benzinga_id": 12112728
       }
     ]
@@ -4272,241 +4242,211 @@
     ]
   },
   "MSFT_2016q2": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The retrieved coverage did not identify a separate guidance change as a major theme. Beyond the headline result, the articles supplied the following operating and market context: Shares of Advanced Micro Devices, Inc. (NASDAQ: AMD ) got a boost, shooting up 36 percent to $3.56 as the company reported better-than-expected results for the first quarter and issued strong revenue guidance for the current quarter. The company updated its FY16 outlook. The food retailer said that revenue would have increased 3 percent and profit by 40 percent based on the constant currency. NGL Energy Partners announced a $200 million private placement of 10.75 percent Class A Convertible Preferred Units with Oaktree Capital Management. Equities Trading UP NGL Energy Partners LP (NYSE: NGL ) shares shot up 32 percent to $14.15 after the vertically-integrated crude oil logistics company announced several strategic actions, including receipt of a $200 million investment.",
-    "why_moved": "The stock fell 6.6% over the two-day earnings window. The articles do not explicitly explain why investors sold the stock, so no specific first-order driver can be confirmed.",
+    "summary_analysis": "The coverage centers on Microsoft's fiscal third-quarter (calendar Q1 2016) results, reported after the close on Thursday, April 21, which came in below Wall Street's expectations: adjusted EPS of $0.62 versus a $0.64 estimate and sales of $20.5 billion versus a $22.1 billion estimate. A Benzinga mid-day market update the next day (Friday) grouped Microsoft among the session's biggest technology-sector losers, alongside Alphabet, framing the report specifically as \"weaker-than-expected earnings for its third quarter.\" A subsequent after-hours recap placed the miss in a broader index context, noting that disappointing results from several major tech names -- including Microsoft and Alphabet -- drove the Nasdaq 100 to its largest decline among the main U.S. indexes that Friday, with Microsoft among the index's largest individual decliners; Starbucks was cited as another notable decliner that week on weak revenue. The recap also situated the move within the week's overall market performance, noting the Dow and S&P 500 each gained roughly 0.5-0.6% for the week while the Nasdaq fell 0.6%, a decline it attributed in part to the sluggish tech earnings. None of the three articles provide further detail on segment performance, management commentary, or specific guidance -- one of the three is a bare results headline with no accompanying body text.",
+    "why_moved": "The mid-day market update directly attributes Microsoft's decline to the company's weaker-than-expected fiscal third-quarter earnings, reporting shares down 8% to $51.59 intraday on Friday. The after-hours recap corroborates this, stating Microsoft lost 7.17% and was one of the two largest decliners in the Nasdaq 100 that day (alongside Alphabet, down more than 5.3%), explicitly linking the move to \"disappointing financial results\" from the two companies. Both figures reported in the articles align with an EPS and revenue miss versus consensus estimates ($0.62 vs $0.64 EPS and $20.5 billion vs $22.1 billion sales). No article offers further explanation beyond this beat/miss framing -- there is no discussion of guidance, segment commentary, or management quotes tied to the reaction.",
     "sources": [
       {
         "title": "Mid-Day Market Update: Microsoft Drops On Earnings Miss; NGL Energy Partners Shares Surge",
         "published_date": "2016-04-22",
-        "url": "https://www.benzinga.com/quote/AMD",
         "benzinga_id": 7873488
       },
       {
         "title": "Microsoft Reports Q3 Adj. EPS $0.62 vs $0.64 Est., Sales $20.5B vs $22.1B Est.",
         "published_date": "2016-04-21",
-        "url": "https://www.benzinga.com/quote/MSFT",
         "benzinga_id": 7869546
       },
       {
         "title": "After-Hours Recap: The Markets' Big Week And Some After-Hours Movers",
         "published_date": "2016-04-23",
-        "url": "https://www.benzinga.com/quote/AUY",
         "benzinga_id": 7875229
       }
     ]
   },
   "MSFT_2016q3": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The retrieved coverage did not identify a separate guidance change as a major theme. Beyond the headline result, the articles supplied the following operating and market context: Despite the revenue upside, non-GAAP operating margins were 30bps below the Street at 27.5 percent due to opex, which was above the guidance range for just the second time in 11 quarters. Guidance Microsoft guided first-quarter revenue and non-GAAP EPS below the Street at the midpoint, at $21.2 billion–$21.9 billion and $0.64–$0.69 versus consensus of $22.2 billion and $0.69, respectively. The company also provided FY17 opex guidance of $31.1 billion–$31.4 billion (roughly flat with last year) and noted gross margins are expected to decline 100bps year-over-year, although commercial cloud gross margins are expected to improve materially. Related Link: Microsoft Was Right To Lower Guidance For Next Quarter Microsoft reported fourth-quarter non-GAAP revenue of $22.6 billion (+2 percent year-over-year, +5 percent year-over-year in constant currency), above consensus of $22.2 billion. Consensus estimate prior to the print called for revenue of $95.2 billion. \"We note our EPS estimate remains below consensus of $2.88 entering the print, which we expect to come down slightly as it has following five of the past six prints dating back to F2Q15,\" analyst Heather Bellini wrote in a note.",
-    "why_moved": "The stock rose 3.4% over the two-day earnings window. The articles do not isolate a first-order catalyst, so the positive reaction cannot be attributed more precisely from this coverage.",
+    "summary_analysis": "Coverage of Microsoft's fiscal fourth-quarter (June-quarter) results, reported after the close on Tuesday, July 19, describes a broad beat: non-GAAP revenue of $22.6 billion (up 2% year-over-year, up 5% in constant currency) against a Street consensus of $22.2 billion and prior guidance of $21.7-22.4 billion, and non-GAAP EPS of $0.69 versus a consensus of $0.58. A Goldman Sachs note carried by Benzinga detailed that Microsoft beat consensus revenue in all three of its reporting segments, with the largest outperformance in the productivity and business processes segment (Office, Office 365, Dynamics and Skype), though non-GAAP operating margins came in 30 basis points below the Street at 27.5% due to higher-than-guided opex. Goldman analyst Heather Bellini raised her FY17 non-GAAP revenue forecast by $200 million to $94.2 billion and her non-GAAP EPS estimate by $0.10 to $2.84 (partly reflecting a lower tax-rate assumption), while noting her own EPS estimate remained below the Street's consensus of $2.88 heading into the print and observing that Microsoft's guidance had come in below out-quarter consensus for the ninth time in the past twelve quarters. For the new quarter, Microsoft guided revenue and EPS below Street consensus at the midpoint ($21.2-21.9 billion and $0.64-0.69 versus $22.2 billion/$0.69 consensus) and flagged a roughly 200-basis-point year-over-year FX headwind (about $430 million), larger than Goldman had modeled. Bellini kept a Neutral rating but raised her price target to $57 from $55. A companion mid-day market update simply confirmed Microsoft was among the day's leading gainers following the beat.",
+    "why_moved": "The mid-day market update states Microsoft shares gained 7% to $56.66 on Wednesday specifically because \"the company reported better-than-expected results for its fiscal fourth quarter,\" and a separate headline notes shares were up 4% following the earnings beat. The Goldman note adds a more precise data point, reporting that Microsoft shares gained 5.10% to $55.80 in pre-market trading after closing the prior regular session at $53.09. The articles tie this reaction to the headline non-GAAP EPS and revenue beat ($0.69 vs $0.58 consensus; $22.6 billion vs $22.2 billion consensus) and the across-the-board segment outperformance, even though the same reports note the company simultaneously guided next quarter's revenue and EPS below Street consensus.",
     "sources": [
       {
         "title": "Mid-Day Market Update: Microsoft Gains Following Earnings Beat; Zafgen Shares Slide",
         "published_date": "2016-07-20",
-        "url": "https://www.benzinga.com/quote/EDN",
         "benzinga_id": 8237948
       },
       {
         "title": "Microsoft Shares Up 4% Following Earnings Beat",
         "published_date": "2016-07-19",
-        "url": "https://www.benzinga.com/quote/MSFT",
         "benzinga_id": 8234025
       },
       {
         "title": "Goldman Reviews Microsoft's Q4 Results",
         "published_date": "2016-07-20",
-        "url": "https://www.benzinga.com/quote/MSFT",
         "benzinga_id": 8236569
       }
     ]
   },
   "MSFT_2016q4": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The retrieved coverage did not identify a separate guidance change as a major theme. Beyond the headline result, the articles supplied the following operating and market context: Related Link: Options Markets Sees A 5% Move For Microsoft After Earnings: New All-Time High? \"We are making strong progress across each of our three ambitions by delivering innovation people love,\" said CEO Satya Nadella. \"Customer excitement for new devices, Windows 10, Office 365 and Azure is increasing as we bring together the best Microsoft experiences to empower people to achieve more.\" Shares reacted very positively after hours. The following brokerages have maintained their respective rating: Barclays maintains an Overweight rating and boosted the price objective from $60 to $65. However, the firm boosted price target from $57 to $60. Jefferies reiterated its Underperform rating, but lifted the target price from $40 to $43. Related Link: The Street Is Gaining Confidence In Microsoft's Cloud Business The following brokerages upgraded the stock: William Blair: Market Perform to an Outperform rating.",
-    "why_moved": "The stock rose 3.9% over the two-day earnings window. The articles do not isolate a first-order catalyst, so the positive reaction cannot be attributed more precisely from this coverage.",
+    "summary_analysis": "The coverage concerns Microsoft's fiscal first-quarter (September-quarter) results, reported Thursday, October 20, described as a \"broad-based earnings and revenue beat\": EPS of $0.76 versus a Street estimate of $0.68, on revenue of $22.3 billion versus a $21.7 billion estimate, with the beat driven by outperformance in all three of the company's divisions, the largest coming from the Personal Computing division. CEO Satya Nadella was quoted saying, \"We are making strong progress across each of our three ambitions by delivering innovation people love... Customer excitement for new devices, Windows 10, Office 365 and Azure is increasing as we bring together the best Microsoft experiences to empower people to achieve more.\" In the day after the print, at least two brokerages upgraded the stock -- William Blair moved to Outperform from Market Perform and Wunderlich moved to Buy from Hold -- while several others maintained existing ratings but raised price targets, including Barclays (Overweight, target raised to $65 from $60), Goldman Sachs (Neutral, target raised to $60 from $57) and Jefferies (Underperform, target raised to $43 from $40); Citi kept a Sell rating. One of the three articles is a bare results headline with no body text.",
+    "why_moved": "The articles report several specific figures for the reaction: shares jumped more than 5% to $60.53 in after-hours trading the evening of the release, were up 5.5% in pre-market trading the next morning to $60.42, and were later trading up 4.56% at $59.86 \"at last check\" the following day, with coverage noting shares reached all-time highs. The articles attribute this rally to the broad-based EPS and revenue beat across all three divisions (led by Personal Computing) and to the wave of favorable analyst reaction that followed, including two same-week ratings upgrades and multiple price-target increases.",
     "sources": [
       {
         "title": "Microsoft Shares Rally Amid Earnings; What Do The Analysts Think?",
         "published_date": "2016-10-21",
-        "url": "https://www.benzinga.com/quote/MSFT",
         "benzinga_id": 8588598
       },
       {
         "title": "Microsoft +5.5% Premarket @ $60.42 Following Thursday's Earnings Beat",
         "published_date": "2016-10-21",
-        "url": "https://www.benzinga.com/quote/MSFT",
         "benzinga_id": 8586653
       },
       {
         "title": "Microsoft At All-Time Highs After Trumping Earnings, Revenue Estimates",
         "published_date": "2016-10-20",
-        "url": "https://www.benzinga.com/quote/MSFT",
         "benzinga_id": 8585242
       }
     ]
   },
   "MSFT_2017q1": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The retrieved coverage did not identify a separate guidance change as a major theme.",
-    "why_moved": "The stock rose 3.6% over the two-day earnings window. The articles do not isolate a first-order catalyst, so the positive reaction cannot be attributed more precisely from this coverage.",
+    "summary_analysis": "All three articles covering this fiscal second-quarter release are effectively bare data headlines rather than narrative stories, so the available detail is limited to the figures in their titles. One reports adjusted EPS of $0.83 against a $0.79 estimate, a beat, sourced to \"Selerity.\" The other two headlines give differing revenue figures relative to a common $25.28 billion estimate: one states adjusted revenue of $26.1 billion that \"may compare better\" to the estimate, while another states revenue of $24.1 billion versus the same $25.28 billion estimate -- the discrepancy likely reflects different revenue definitions (for example GAAP versus adjusted, or with and without deferrals) that the headlines themselves do not reconcile. None of the three pieces include body text with segment detail, management commentary, analyst reaction, or guidance for the quarter.",
+    "why_moved": "None of the three articles contain any statement about how Microsoft shares reacted to this release -- each is a bare headline reporting EPS and revenue figures against estimates, with no accompanying discussion of price action, trading activity, or an explanation for any market reaction. The articles therefore do not report how shares responded to this specific release.",
     "sources": [
       {
         "title": "Microsoft Reports Q2 Adj Revenue $26.1B, May Compare Better to $25.28B Est",
         "published_date": "2017-01-26",
-        "url": "https://www.benzinga.com/quote/MSFT",
         "benzinga_id": 8953938
       },
       {
         "title": "Microsoft Reports Q2 Revenue $24.1B vs $25.28B Est",
         "published_date": "2017-01-26",
-        "url": "https://www.benzinga.com/quote/MSFT",
         "benzinga_id": 8953925
       },
       {
         "title": "Microsoft Reports Q2 Adj. EPS $0.83 vs $0.79 Est.",
         "published_date": "2017-01-26",
-        "url": "https://www.benzinga.com/quote/MSFT",
         "benzinga_id": 8953778
       }
     ]
   },
   "MSFT_2017q2": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The retrieved coverage did not identify a separate guidance change as a major theme. Beyond the headline result, the articles supplied the following operating and market context: Alphabet Inc (NASDAQ: GOOG ) Alphabet reports Q1 GAAP EPS $7.73, beats estimates by $0.33 Sales came in at $24.75B, beats estimates by $530M Q1 Sales Excluding Traffic Acquisition Costs came in at $20.12B GOOG shares were up more than 3.5 percent at $906. According to Global Equities Research analyst Trip Chowdhry , Microsoft Azure’s 93 percent growth rate was the most impressive number on the quarter. “MSFT is best positioned to capture and create opportunities in the post-smartphone era, with its success in deep learning/machine learning,” Chowdhry wrote in a note to clients. When combining some of the biggest names that reported, the collective value of these four tech giants surpass a remarkable $1.75 trillion in market cap. Related Links: Amazon's Q1 Signals Competitive Pressures For AWS A Question Of When, Not If: Amazon And The $1 Trillion Market Cap _____ Image Credit: \"Microsoft developer David Cutler at work on Windows Azure\" By Majorconfusion (John P. Post-release analyst reactions were mixed or largely unchanged.",
-    "why_moved": "The stock rose 1.2% over the two-day earnings window. The articles do not isolate a first-order catalyst, so the positive reaction cannot be attributed more precisely from this coverage.",
+    "summary_analysis": "Coverage of Microsoft's fiscal first-quarter (March-quarter) results, released after Thursday's close, reports adjusted EPS of $0.73, a $0.03 beat versus a $0.70 estimate, on sales that were \"in-line\" at $23.6 billion versus a $23.6 billion estimate. A roundup piece grouping Microsoft with same-night reports from Amazon, Alphabet and Intel noted the four companies' combined market capitalization exceeded $1.75 trillion, and specifically flagged that Microsoft's results were merely in-line on revenue even as EPS beat. A follow-up piece the next morning centered on commentary from Global Equities Research analyst Trip Chowdhry, who called Azure's 93% revenue growth rate \"the most impressive number on the quarter\" and argued Microsoft is well-positioned to lead in the post-smartphone era given its progress in deep learning and machine learning; he was quoted saying \"MSFT Azure is the new Windows -- we are absolutely certain that within 5 years, MSFT Azure will overtake AMZN AWS,\" and noted Microsoft's developer ecosystem of more than 11 million developers, the largest in the industry. The same article reported Intelligent Cloud segment revenue of $6.76 billion, ahead of a $6.60 billion consensus, with Microsoft guiding the next quarter's Intelligent Cloud revenue to $7.2-7.4 billion, and noted Microsoft shares were up 9.8% year-to-date as of that Friday morning.",
+    "why_moved": "The roundup article states Microsoft shares were down 1.7% at $67.25 in the after-hours session immediately following the release, describing the sales result as merely \"in-line\" despite the EPS beat. The next-day article, published Friday morning, instead describes shares as \"trading mostly flat,\" attributing investor attention to Chowdhry's bullish commentary on Azure's 93% growth and Microsoft's cloud positioning rather than to any stated cause of a specific price move. Taken together, the articles indicate an initial modest after-hours decline followed by roughly flat trading the next morning, with the in-line revenue figure being the only explanation any article directly offers for the muted reaction.",
     "sources": [
       {
         "title": "Big Tech Q1 Earnings Roundup: Amazon, Google, Intel, Microsoft",
         "published_date": "2017-04-27",
-        "url": "https://www.benzinga.com/quote/MSFT",
         "benzinga_id": 9361250
       },
       {
         "title": "Microsoft Reports Q1 Adj. EPS $0.73 vs $0.70 Est., Adj. Sales $23.6B vs $23.6B Est.",
         "published_date": "2017-04-27",
-        "url": "https://www.benzinga.com/quote/MSFT",
         "benzinga_id": 9360797
       },
       {
         "title": "Analyst 'Absolutely Certain' Azure Will Beat Out AWS Within 5 Years",
         "published_date": "2017-04-28",
-        "url": "https://www.benzinga.com/quote/MSFT",
         "benzinga_id": 9365761
       }
     ]
   },
   "MSFT_2017q3": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The retrieved coverage did not identify a separate guidance change as a major theme. Beyond the headline result, the articles supplied the following operating and market context: Barclays: Strong Momentum Barclays' Raimo Lenschow maintains an Overweight rating on Microsoft's stock with a price target raised from $77 to $82 after the company beat every P&L metric in its report. The company's investment spend is a direct result of increased opportunity on the top line and as such should lead to higher than expected revenue in the future. Management's operating margin guidance instead of opex guidance implies it has \"increased confidence\" in revenue and margin growth. Management offered once again a conservative guidance. Bernstein: Investing For The Future Microsoft's guidance implies a return to investment in management's strategy but this isn't any reason for concern, Bernstein's Mark Moerdler noted.",
-    "why_moved": "The stock fell 0.0% over the two-day earnings window. The articles do not explicitly explain why investors sold the stock, so no specific first-order driver can be confirmed.",
+    "summary_analysis": "Coverage centers on Microsoft's fiscal fourth-quarter (June-quarter) results, released Thursday after the close, showing non-GAAP EPS of $0.98 versus a $0.71 consensus and revenue of $24.7 billion versus a roughly $24.3 billion consensus -- a large beat on both lines. A \"Dow 30 earnings scorecard\" piece attributed part of the bottom-line strength to a tax benefit from the sale of Microsoft's loss-making Windows phone business, alongside continued strength in the Azure cloud business, whose revenue \"nearly doubled\" during the quarter. A separate roundup of Wall Street analyst reaction the following day cited multiple brokerages: Wells Fargo's Philip Winslow highlighted \"strong execution across every segment,\" noting Azure revenue growth accelerated to 97% from 93% in each of the prior two quarters and its 12th consecutive quarter of triple-digit growth in Azure premium services, while flagging that a higher cloud mix pressured gross margin and opex versus expectations even as total gross profit of $16.244 billion beat the $16.048 billion Street estimate. Credit Suisse's Michael Nemeroff and Barclays' Raimo Lenschow both highlighted that Microsoft beat every P&L metric, with Barclays noting Office 365 now generates more revenue than on-premise software and that the annualized cloud run rate reached $18.9 billion (about 20% of total revenue); BMO's Keith Bachman highlighted free cash flow of $8.72 billion, up 50% year-over-year, and $11.79 billion of buybacks in fiscal 2017; Bernstein's Mark Moerdler and UBS's Fatima Boolani also raised price targets, while Citi's Walter Pritchard maintained a Neutral rating and Jefferies' John DiFucci reiterated an Underperform rating, questioning whether Microsoft's growth relative to PC shipment trends was sustainable.",
+    "why_moved": "Despite the sizable EPS and revenue beat, the analyst-roundup article states Microsoft shares were trading lower by around 0.50% on Friday afternoon following the print, and the Dow 30 scorecard piece similarly reports Microsoft closed that Friday down 0.58% at $73.79, though it notes the stock still ended the week up a total of 1.39%. Neither article offers an explicit explanation for why shares dipped on the day of otherwise upbeat analyst commentary; the only tempering factors mentioned in the coverage are a slight deceleration in Azure's growth rate (85% versus 89-98% in the preceding three quarters, which Credit Suisse attributed to a tougher year-over-year comparison) and higher-than-expected opex from the cloud mix shift. Beyond these details, the articles do not state a specific catalyst for the modest single-day decline.",
     "sources": [
       {
         "title": "Microsoft Reports Q2 EPS Adj. $0.98 vs $0.71, Sales $24.7B vs $24.27B Est.",
         "published_date": "2017-07-20",
-        "url": "https://www.benzinga.com/quote/MSFT",
         "benzinga_id": 9802561
       },
       {
         "title": "What Are Wall Street's Top Analysts Saying About Microsoft Post Q4?",
         "published_date": "2017-07-21",
-        "url": "https://www.benzinga.com/quote/MSFT",
         "benzinga_id": 9806915
       },
       {
         "title": "Dow 30 Earnings Score Card From The Past Week: IBM, Visa, Goldman And More",
         "published_date": "2017-07-22",
-        "url": "https://www.benzinga.com/quote/GE",
         "benzinga_id": 9804019
       }
     ]
   },
   "MSFT_2017q4": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The retrieved coverage did not identify a separate guidance change as a major theme. Beyond the headline result, the articles supplied the following operating and market context: In the personal computing segment, the firm noted results came ahead of expectations, with surface revenues rising 12 percent and search revenues, excluding traffic acquisition costs, increasing 15 percent. See also: Microsoft On Cloud 9 As Momentum Continues In Q1 Delving on the positives, the firm listed the following: Across-the-board revenue and volume strength. However, the firm said gaming revenue growth of a mere 1 percent was underwhelming. As such, the firm reiterated its Outperform rating and $80 price target for the shares. 42-percent growth in Office 365 Commercial, with 120 million subscribers.",
-    "why_moved": "The stock rose 5.7% over the two-day earnings window. The articles do not isolate a first-order catalyst, so the positive reaction cannot be attributed more precisely from this coverage.",
+    "summary_analysis": "Coverage of Microsoft's fiscal first-quarter (September-quarter) results is built around an Oppenheimer note published the Friday after the Thursday-afternoon release, which characterized the quarter as \"very strong,\" with revenue and EBITDA coming in 4% and 8% above the firm's own estimates, respectively; Oppenheimer reiterated an Outperform rating and an $80 price target. One of the two accompanying results headlines (largely without body text, and later flagged by a correction noting the results were for fiscal Q1, not Q3 as originally labeled) reported adjusted EPS of $0.84 versus a $0.72 estimate and sales of $24.5 billion versus a $23.6 billion estimate. The Oppenheimer-sourced article detailed strength across LinkedIn, Office 365, Dynamics, Azure and personal computing, with revenue beating the firm's estimate by 390 basis points; commercial bookings rose 14% and Commercial Cloud revenue rose 56% to $5 billion, while gross margins expanded to 57% from 52% in the prior quarter and net operating margins reached a better-than-expected 31.4%. Specific highlights cited included 42% growth in Office 365 Commercial (120 million subscribers), 69% growth in Dynamics 365, 12% growth in Surface revenue, and 15% growth in search revenue excluding traffic-acquisition costs, though the firm called 1% gaming-revenue growth \"underwhelming.\" Oppenheimer attributed the results partly to macro tailwinds -- strong hybrid-cloud adoption and a bottoming in PC demand -- and said Azure Stack positions Microsoft to become \"the dominant hybrid cloud provider.\"",
+    "why_moved": "The Oppenheimer article states that, \"at time of writing\" Friday, Microsoft shares were up 6.95% at $84.23, directly following the strong fiscal first-quarter print. The article frames this reaction as consistent with the across-the-board revenue and volume strength it describes -- the EPS and revenue beats, the acceleration in Commercial Cloud and Office 365 Commercial growth, and the margin expansion -- though it does not isolate any single factor as the specific driver of the move beyond characterizing the quarter overall as one of broad outperformance against estimates.",
     "sources": [
       {
         "title": "Microsoft: Oppenheimer's Look At A Very Strong Quarter",
         "published_date": "2017-10-27",
-        "url": "https://www.benzinga.com/quote/MSFT",
         "benzinga_id": 10241837
       },
       {
         "title": "CORRECTION: Microsoft Earnings Were For Q1, Not Q3 As Originally Reported",
         "published_date": "2017-10-26",
-        "url": "https://www.benzinga.com/quote/MSFT",
         "benzinga_id": 10236890
       },
       {
         "title": "Microsoft Reports Q3 EPS $0.84 vs $0.72 Est., Sales $24.5B vs $23.6B Est.",
         "published_date": "2017-10-26",
-        "url": "https://www.benzinga.com/quote/MSFT",
         "benzinga_id": 10236165
       }
     ]
   },
   "MSFT_2018q1": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The retrieved coverage did not identify a separate guidance change as a major theme. Beyond the headline result, the articles supplied the following operating and market context: The options market has priced in an expected share price move of 5.2% in either direction around the earnings release, according to the Market Maker Move indicator on the thinkorswim® platform. The options market has priced in an expected share price move of 5.6% in either direction around the earnings release, according to the Market Maker Move™ indicator on the thinkorswim® platform. At least two other analysts boosted their price targets on MSFT ahead of this week’s earnings. According to Barclays research, not only is the news feed among the most prominent pieces of FB’s product offering, it generates some 85% of FB revenue. 11: “I want to be clear: By making these changes, I expect the time people spend on Facebook and some measures of engagement will go down,” he wrote. “But I also expect the time you do spend on Facebook will be more valuable.",
-    "why_moved": "The stock rose 1.7% over the two-day earnings window. The articles do not isolate a first-order catalyst, so the positive reaction cannot be attributed more precisely from this coverage.",
+    "summary_analysis": "Two of the three articles covering this fiscal second-quarter (December-quarter) release are bare results headlines: one reports adjusted EPS of $0.96 versus an $0.86 estimate (a beat, sourced to Reuters), and the other reports GAAP EPS of $(0.82), explicitly flagged as one that \"may not compare\" to the $0.86 estimate, alongside sales of $28.92 billion versus a $28.39 billion estimate (sourced to Dow Jones); neither headline explains the gap between the adjusted and GAAP figures. The third article, published the day before the release, previewed the report rather than covering the results themselves: it noted Microsoft's cloud business was a key focus for analysts, with KeyBanc's Brent Bracelin estimating the total addressable public cloud market at about $106 billion, potentially tripling to $314 billion by 2022, and Microsoft capturing roughly 20% of that market; it also noted Microsoft had just crossed a $700 billion market capitalization for the first time (only the third company after Apple and Alphabet to do so), that at least two analysts had raised price targets ahead of the print, that Street consensus called for EPS of $0.86 on revenue of $28.35 billion (versus $0.83 / $26.07 billion a year earlier), and that the options market had priced in an expected move of about 5.2% in either direction around the release.",
+    "why_moved": "None of the three articles describe how Microsoft shares actually reacted to this release. The preview piece was published before the results and only discusses pre-earnings positioning and options-implied expectations, while the two results headlines report the adjusted-EPS beat, the GAAP EPS figure explicitly flagged as not comparable to estimates, and the revenue beat, but contain no body text addressing the stock's reaction. The articles therefore do not report how shares moved in response to this specific release.",
     "sources": [
       {
         "title": "Microsoft Reports Q2 Adj. EPS $0.96 vs $0.86 Est.",
         "published_date": "2018-01-31",
-        "url": "https://www.benzinga.com/quote/MSFT",
         "benzinga_id": 11112147
       },
       {
         "title": "Microsoft Corp Reports Q2 GAAP EPS $(0.82) May Not Compare To $0.86 Est., Sales $28.92B vs $28.39B Est.",
         "published_date": "2018-01-31",
-        "url": "https://www.benzinga.com/quote/MSFT",
         "benzinga_id": 11112140
       },
       {
         "title": "Clouds And Likes: Microsoft And Facebook On Earnings Docket",
         "published_date": "2018-01-30",
-        "url": "https://www.benzinga.com/quote/AAPL",
         "benzinga_id": 11102577
       }
     ]
   },
   "MSFT_2018q2": {
-    "summary_analysis": "Coverage portrayed the quarter as broadly stronger than expected: both earnings and sales beat expectations. The retrieved coverage did not identify a separate guidance change as a major theme. Beyond the headline result, the articles supplied the following operating and market context: Microsoft Corporation (NASDAQ: MSFT ) rose 3.7 percent to $97.78 in pre-market trading after the company reported better-than-expected earnings for its third quarter on Thursday.",
-    "why_moved": "The stock rose 2.8% over the two-day earnings window. Benzinga explicitly attributed the move to better-than-expected quarterly results. The reporting presents the beat as the dominant surprise rather than simply recording the individual metrics.",
+    "summary_analysis": "Coverage of Microsoft's fiscal third-quarter (March-quarter) results, reported after the close on Thursday, April 26, includes a bare headline reporting EPS of $0.95 beating an $0.85 estimate and sales of $26.8 billion beating a $25.77 billion estimate (sourced to Dow Jones). A same-day \"stocks to watch\" preview article listed the same $0.85 EPS and $25.77 billion revenue consensus figures ahead of the release and separately noted Microsoft shares had gained 1.72% to $93.90 in after-hours trading referenced in that preview. A pre-market movers roundup published the following morning listed Microsoft among stocks moving that session, noting shares rose 3.7% to $97.78 in pre-market trading specifically \"after the company reported better-than-expected earnings for its third quarter on Thursday\"; the same roundup listed other earnings-driven movers that morning, including Expedia (up 10.7% on a first-quarter beat), Intel (up 5.3% after raising its FY18 sales guidance) and Amazon (up 6.9% on an upbeat quarter), providing broader market context for the tech-earnings session rather than additional Microsoft-specific detail.",
+    "why_moved": "The pre-market movers article directly attributes Microsoft's rise to the earnings beat, stating shares rose 3.7% to $97.78 in Friday's pre-market session \"after the company reported better-than-expected earnings for its third quarter on Thursday\" -- that is, the EPS beat of $0.95 versus an $0.85 estimate and revenue beat of $26.8 billion versus a $25.77 billion estimate. None of the three articles provide further detail -- such as segment commentary, guidance, or analyst quotes -- explaining the move beyond this headline beat framing.",
     "sources": [
       {
         "title": "Microsoft Q3 EPS $0.95 Beats $0.85 Est., Sales $26.8B Beats $25.77B Est.",
         "published_date": "2018-04-26",
-        "url": "https://www.benzinga.com/quote/MSFT",
         "benzinga_id": 11587688
       },
       {
         "title": "24 Stocks Moving In Friday's Pre-Market Session",
         "published_date": "2018-04-27",
-        "url": "https://www.benzinga.com/quote/AMZN",
         "benzinga_id": 11592711
       },
       {
         "title": "16 Stocks To Watch For April 26, 2018",
         "published_date": "2018-04-26",
-        "url": "https://www.benzinga.com/quote/AAL",
         "benzinga_id": 11580275
       }
     ]
   },
   "MSFT_2018q3": {
-    "summary_analysis": "Coverage portrayed the quarter as broadly stronger than expected: both earnings and sales beat expectations. The retrieved coverage did not identify a separate guidance change as a major theme. Beyond the headline result, the articles supplied the following operating and market context: Management’s bullish outlook has reinforced Weiss' conviction that the company is well on its way to a $1 trillion market cap . The analyst qualified this though, adding that it had a tough comparison to match — 85 percent growth versus the previous three quarters’ 89 percent, 98 percent, and 89 percent — and still beat Wall Street’s expectations. In short-term trading at the July 20 expiration, calls have been active at the 105 and 106 strike prices, while puts have been active at the 103 and 105 strikes. One of the first ones up is Microsoft Corporation (NASDAQ: MSFT ), which is scheduled to release results after market close on Thursday, July 19. Research firm IDC estimates that traditional PC shipments totaled 62.3 million units in the second quarter, up 2.7 percent year over year and the fastest growth since 2012.",
-    "why_moved": "The stock rose 1.4% over the two-day earnings window. The coverage therefore implies that the earnings performance was the first-order positive driver.",
+    "summary_analysis": "Coverage of Microsoft's fiscal fourth-quarter (June-quarter) results, released after the close Thursday, July 19, describes a broad beat: EPS of $1.13-1.14 versus a roughly $1.08 consensus (one headline calculates this as a 4.63% beat and a 15.31% year-over-year increase from $0.98), and revenue of $30.1 billion versus a $29.22 billion consensus (a 3.01% beat and 21.86% year-over-year increase from $24.7 billion). A detailed analyst-reaction piece quoted KeyBanc's Brent Bracelin calling the results \"what a big wow really looks like\" and Morgan Stanley's Keith Weiss saying results were \"better across the board,\" with particular strength in cloud and internet services (Azure, Office 365, LinkedIn and others), which grew 42% year-over-year and surpassed a $40 billion annualized run rate for the first time, now representing 34% of total sales versus 5% in 2015. The article also noted a smaller concern from Credit Suisse's Brad Zelnick that Azure growth decelerated to 85% from 89%, 98% and 89% in the prior three quarters (against a tougher comparison), and that cash flow from operations and free cash flow came in below consensus -- called the \"lone nit\" by Stifel's Brad Reback -- due to one-time payments and an earlier-than-expected holiday inventory buildup; a preview article published the day before had also flagged a pending $7.5 billion GitHub acquisition and noted Microsoft had beaten earnings estimates in each of the prior eight quarters. Ratings after the print were broadly positive, with Morgan Stanley (Overweight, $130 target), Stifel (Buy, target raised to $118 from $107), KeyBanc (Overweight, target raised to $123 from $110) and Credit Suisse (Outperform, target raised to $125 from $115) all constructive, while Jefferies' John DiFucci kept an Underperform rating, questioning the sustainability of Azure's growth relative to PC shipment trends.",
+    "why_moved": "The analyst-reaction article reports that Microsoft shares \"opened 3.5 percent higher on Friday and traded around $106.90 at time of publication,\" directly following the fiscal fourth-quarter beat. The article frames this move as a reaction to the across-the-board strength it describes -- the EPS and revenue beats, the acceleration of cloud and internet services revenue past a $40 billion run rate, and broadly favorable analyst commentary and price-target increases -- while also noting that the below-consensus cash-flow figures and Azure's growth deceleration were flagged as comparatively minor concerns that did not appear to weigh materially on the initial reaction described.",
     "sources": [
       {
         "title": "It's Hard To Find Problems With Microsoft's Q4 Earnings: The Street Weighs In",
         "published_date": "2018-07-20",
-        "url": "https://www.benzinga.com/quote/MSFT",
         "benzinga_id": 12050953
       },
       {
         "title": "Microsoft Q4 EPS $1.13 Beats $1.08 Estimate, Sales $30.1B Beat $29.22B Estimate",
         "published_date": "2018-07-19",
-        "url": "https://www.benzinga.com/quote/MSFT",
         "benzinga_id": 12047090
       },
       {
         "title": "Upcoming Earnings: Microsoft Close To All Time Highs Ahead Of Thursday's Results",
         "published_date": "2018-07-18",
-        "url": "https://www.benzinga.com/quote/MSFT",
         "benzinga_id": 12040001
       }
     ]
@@ -4926,241 +4866,211 @@
     ]
   },
   "NVDA_2016q2": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The coverage also emphasized management's outlook, but did not characterize it consistently as a clear positive or negative. Beyond the headline result, the articles supplied the following operating and market context: In addition, the company's gross-margin guidance of 57.7 percent was above analyst estimate of 56.9 percent and the Street's 57.1 percent, equating to EPS of $0.37, above analyst estimate of $0.26 and the Street's $0.32. Nordstrom, Inc. (NYSE: JWN ) was down, falling around 11 percent to $40.45 as the company reported weaker-than-expected results for its first quarter and lowered its FY16 guidance. Analyst Michael McConnell said the results benefited from \"strong data center sales (Tesla and GRID, +47 percent q/q), driven by deep learning projects at hyperscale customers.\" NVIDIA guided second quarter sales to $1.35 billion, or up 3 percent quarter-over-quarter, above analyst's estimate of $1.24 billion (-2 percent q/q) and the Street's $1.28 billion (+1 percent q/q). Equities Trading UP NVIDIA Corporation (NASDAQ: NVDA ) shares shot up 13 percent to $40.04 after the company reported upbeat results for the first quarter and issued a strong revenue outlook for the current quarter. Now turning to the outlook for the second quarter of fiscal 2017.",
-    "why_moved": "The stock rose 14.5% over the two-day earnings window. Benzinga explicitly attributed the move to better-than-expected quarterly results.",
+    "summary_analysis": "NVIDIA's fiscal first-quarter 2017 results, released after market close on May 12, 2016, beat expectations across the board: GAAP EPS of $0.33 topped both the Street's and Pacific Crest analyst Michael McConnell's $0.30 estimate, while revenue of $1.3 billion (up 13% year-over-year) surpassed the $1.27 billion consensus and Pacific Crest's $1.26 billion forecast. McConnell attributed the strength to \"strong data center sales (Tesla and GRID, +47 percent q/q), driven by deep learning projects at hyperscale customers,\" a point echoed on the earnings call, where CFO Colette Kress detailed a record $143 million in data center revenue, up 63% year-over-year and 47% sequentially. Kress also reported gaming revenue up 17% to $687 million on continued Maxwell strength and the newly unveiled Pascal-based GTX 1080/1070 cards, professional-visualization (Quadro) revenue up 4% to $189 million, and automotive revenue up 47% year-over-year to $113 million tied to the DRIVE PX2 partnership network of more than 80 companies. The company posted record GAAP and non-GAAP gross margins of 57.5% and 58.6%, non-GAAP net income up 41% to $263 million, and guided second-quarter revenue to $1.35 billion (plus or minus 2%), well above both McConnell's $1.24 billion estimate and the Street's $1.28 billion, with gross-margin guidance of 57.7% also ahead of expectations. McConnell raised his second-quarter and full-year estimates accordingly but kept a Sector Weight rating, cautioning that NVIDIA traded near a five-year peak EV/sales multiple of 3.2x and that further outperformance would hinge on operating-margin expansion, citing peaking PC GPU share versus AMD and the loss of Intel royalty payments as offsets to VR- and Tesla-related tailwinds.",
+    "why_moved": "The mid-day market-roundup article reports that NVIDIA shares \"shot up 13 percent to $40.04 after the company reported upbeat results for the first quarter and issued a strong revenue outlook for the current quarter.\" The dedicated earnings article similarly states that \"shares of Nvidia rose 13.56 percent to $40.40,\" attributing the move to the first-quarter EPS and revenue beat and to second-quarter guidance that came in well above both the Street's and Pacific Crest's estimates. Pacific Crest's McConnell specifically tied the underlying strength to accelerating data center demand from deep learning projects at hyperscale customers, alongside better-than-expected gross-margin guidance. The earnings-call transcript does not comment on the share-price reaction itself but corroborates the growth drivers the other two articles cite as the basis for the rally.",
     "sources": [
       {
         "title": "Mid-Day Market Update: NVIDIA Gains On Earnings Beat; ConforMIS Shares Drop",
         "published_date": "2016-05-13",
-        "url": "https://www.benzinga.com/quote/BMY",
         "benzinga_id": 7979764
       },
       {
         "title": "Tesla Demand Drove NVIDIA's Q1 Beat, Q2 Outlook",
         "published_date": "2016-05-13",
-        "url": "https://www.benzinga.com/quote/NVDA",
         "benzinga_id": 7980233
       },
       {
         "title": "NVIDIA Q1'16 Earnings Conference Call: Full Transcript",
         "published_date": "2016-05-13",
-        "url": "https://www.benzinga.com/quote/NVDA",
         "benzinga_id": 7976738
       }
     ]
   },
   "NVDA_2016q3": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The forward-looking highlight was a raised or above-expectation outlook. Beyond the headline result, the articles supplied the following operating and market context: Additionally, management forecasted Q3 non-GAAP gross margins to be 58.0 percent. \"Strong demand for our new Pascal-generation GPUs and surging interest in deep learning drove record results,\" said Jen-Hsun Huang, co-founder and CEO, NVIDIA. \"Our strategy to focus on creating the future where graphics, computer vision and artificial intelligence converge is fueling growth across our specialized platforms -- Gaming, Pro Visualization. NVIDIA Corporation (NASDAQ: NVDA ) released its Q2 results after market close on Thursday.",
-    "why_moved": "The stock rose 7.3% over the two-day earnings window. The coverage therefore implies that the stronger outlook, reinforced by the reported results, was the first-order positive driver.",
+    "summary_analysis": "NVIDIA reported fiscal second-quarter 2017 results after the market close on August 11, 2016, with adjusted EPS of $0.53 well ahead of the $0.37 consensus estimate and revenue of $1.43 billion topping the $1.35 billion estimate. The company guided third-quarter revenue to $1.68 billion (plus or minus 2%), sharply above the roughly $1.45 billion analysts had expected, and forecast third-quarter non-GAAP gross margin of 58.0%. CEO Jen-Hsun Huang attributed the results to \"strong demand for our new Pascal-generation GPUs and surging interest in deep learning,\" and said the company's strategy of focusing on the convergence of graphics, computer vision, and artificial intelligence was \"fueling growth across our specialized platforms -- Gaming, Pro Visualization, Datacenter and Automotive.\" Huang further said NVIDIA had made significant investments over the prior five years to evolve its GPU computing stack for deep learning and was now positioned to partner with researchers and developers globally \"to democratize this powerful technology and invent its future.\" The other two articles in this set are brief wire-style headlines restating the same EPS, revenue, and Q3 guidance figures without additional detail.",
+    "why_moved": "The dedicated earnings article states that NVIDIA \"traded at $62 in Thursday's after-hours session, up 3.8 percent,\" following the release. The article frames this move as a direct reaction to the quarter's results, which beat both EPS and revenue consensus, combined with third-quarter revenue and gross-margin guidance that came in well above what analysts had modeled. No further explanation for the size of the move is given beyond the magnitude of the beat and the strength of the outlook described above; the two headline-only articles do not add any additional detail on the share reaction.",
     "sources": [
       {
         "title": "Nvidia Beats Earnings And Revenue Estimates, Uplifting Forecasts",
         "published_date": "2016-08-11",
-        "url": "https://www.benzinga.com/quote/NVDA",
         "benzinga_id": 8341169
       },
       {
         "title": "NVIDIA Reports Q2 Adj. EPS $0.53 vs $0.37 Est., Sales $1.43B vs $1.35B Est.",
         "published_date": "2016-08-11",
-        "url": "https://www.benzinga.com/quote/NVDA",
         "benzinga_id": 8340904
       },
       {
         "title": "NVIDIA Sees Q3 Sales $1.68B +/- 2% vs $1.45B Est.",
         "published_date": "2016-08-11",
-        "url": "https://www.benzinga.com/quote/NVDA",
         "benzinga_id": 8340909
       }
     ]
   },
   "NVDA_2016q4": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The retrieved coverage did not identify a separate guidance change as a major theme. Beyond the headline result, the articles supplied the following operating and market context: The positive quarter (EPS beat of $0.27 and revenue beat of 19 percent) reinforced the analyst view that a NVIDIA investment would be playing on three trends: gaming, datacenter and automotive — all of which saw substantial year-over-year growth: Gaming: 62 percent of NVIDIA’s sales, 63 percent growth year-over-year. Positive Quarter In Review The positive quarter led Jefferies analyst Mark Lipacis to increase his price target for the company from $80 to $95 while maintaining a Buy rating and keeping the stock as a top pick at Jefferies. Datacenter: 12 percent of sales, 193 percent growth year-over-year. Automotive: 6 percent of sales, 61 percent growth year-over-year. After market close on Thursday, NVIDIA Corporation (NASDAQ: NVDA ) reported Q3 results, which blew away Street estimates .",
-    "why_moved": "The stock rose 25.5% over the two-day earnings window. The articles do not isolate a first-order catalyst, so the positive reaction cannot be attributed more precisely from this coverage.",
+    "summary_analysis": "NVIDIA reported fiscal third-quarter 2017 results after market close on Thursday, November 10, 2016, in what multiple articles describe as a large beat versus Street estimates. Jefferies analyst Mark Lipacis, in a note covered by one article, said the quarter reflected an EPS beat of $0.27 and a 19% revenue beat, and raised his price target from $80 to $95 while maintaining a Buy rating and keeping NVIDIA a top pick, citing strength across three trends: gaming (62% of sales, up 63% year-over-year), datacenter (12% of sales, up 193% year-over-year), and automotive (6% of sales, up 61% year-over-year). Lipacis also highlighted a new growth avenue in deep learning systems, noting that Tesla Motors had announced it would use NVIDIA's GPUs to power deep learning in all its vehicles, and predicting that \"if Tesla is successful, we think every major Auto maker will have to have a similar capability\"; he added that NVIDIA's GPUs already power web search, speech and facial recognition, and credit-card fraud detection applications, and that he expects deep learning to eventually \"penetrate industries where there is lots of data.\" Separately, the market-roundup article notes that alongside the earnings beat, NVIDIA boosted its quarterly dividend by 22% and authorized an additional $2 billion in share buybacks. The headline-only article corroborates the beat, framing it as a \"Solid Earnings Beat, Share Buyback, Dividend Raise.\"",
+    "why_moved": "Articles report several data points on the reaction rather than a single figure. The mid-day roundup states shares were \"gaining 24 percent to $84.33 as the company reported better-than-expected earnings for its third quarter,\" and separately notes the dividend hike and expanded buyback announced alongside results. A second article's headline states the stock was \"+12.5% Premarket @$76.30 on Solid Earnings Beat, Share Buyback, Dividend Raise.\" The Jefferies-focused article adds that \"midday Friday, the stock was trading up over 25 percent\" and that \"at last check, NVIDIA was up 28.02 percent at $86.76.\" Collectively, the articles attribute the rally to the sizable EPS and revenue beat described above, together with the dividend increase, the new buyback authorization, and a broadly positive analyst reaction including Lipacis's price-target increase.",
     "sources": [
       {
         "title": "Mid-Day Market Update: Crude Oil Down Over 3%; NVIDIA Shares Jump On Earnings Beat",
         "published_date": "2016-11-11",
-        "url": "https://www.benzinga.com/quote/AWX",
         "benzinga_id": 8687029
       },
       {
         "title": "Nvidia +12.5% Premarket @$76.30 on Solid Earnings Beat, Share Buyback, Dividend Raise",
         "published_date": "2016-11-11",
-        "url": "https://www.benzinga.com/quote/NVDA",
         "benzinga_id": 8685418
       },
       {
         "title": "NVIDIA's Blowout Quarter Helps It Remain A Top Pick At Jefferies",
         "published_date": "2016-11-11",
-        "url": "https://www.benzinga.com/quote/NVDA",
         "benzinga_id": 8687235
       }
     ]
   },
   "NVDA_2017q1": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The retrieved coverage did not identify a separate guidance change as a major theme. Beyond the headline result, the articles supplied the following operating and market context: EPS $1.13, beats by $0.30 Revenues $2.17B, beats by $60 million, Sales up 55 percent NVIDIA sees FY18 revenues of $1.9 billion against estimates of $1.88 billion \"Fourth quarter revenue increased 55 percent year over year and 8 percent sequentially to a record $2.17 billion,\" CGO Colette Kress said. \"Growth from a year ago was driven by GPUs for gaming, datacenter and professional visualization, as well as for Tegra® automotive systems. The hottest stock of 2016 , NVIDIA Corporation (NASDAQ: NVDA ) released its fourth quarter earnings after the market close on Thursday. GPU business revenue for the fourth quarter was $1.85 billion, up 57 percent from a year earlier and up 9 percent sequentially, led by growth across all platforms, including exceptional growth from our GeForce® GPU gaming and datacenter platforms.\" The stock traded recently at$113.52, down 2.2 percent.",
-    "why_moved": "The stock fell 5.2% over the two-day earnings window. The articles do not explicitly explain why investors sold the stock, so no specific first-order driver can be confirmed.",
+    "summary_analysis": "NVIDIA released fiscal fourth-quarter (and full fiscal 2017) results after market close on Thursday, February 9, 2017. Adjusted EPS of $1.13 beat estimates by $0.30, and revenue of $2.17 billion beat by roughly $60 million, with sales up 55% year-over-year. CFO Colette Kress said \"fourth quarter revenue increased 55 percent year over year and 8 percent sequentially to a record $2.17 billion,\" and that growth was \"driven by GPUs for gaming, datacenter and professional visualization, as well as for Tegra automotive systems,\" with GPU business revenue of $1.85 billion up 57% year-over-year and 9% sequentially, \"led by growth across all platforms, including exceptional growth from our GeForce GPU gaming and datacenter platforms.\" The company guided forward revenue to $1.9 billion against an estimate of $1.88 billion, per the headline figures in the other two articles, which otherwise contain no additional narrative detail beyond restating the EPS, sales, and guidance numbers.",
+    "why_moved": "The lead article explicitly notes an unusual disconnect between the results and the stock's reaction: \"Despite an earnings beat on the top and bottom line, shares sank over 3 percent,\" and later states the stock \"traded recently at $113.52, down 2.2 percent.\" The article does not offer any explanation for why shares fell despite beating on both EPS and revenue -- it simply reports the beat figures and the decline side by side without connecting them causally. The two headline-only articles add no further detail on the reaction. Taken together, the articles document that NVIDIA's shares declined following a quarter that beat estimates, but they do not state what specifically drove that decline.",
     "sources": [
       {
         "title": "NVIDIA Beats Q4 Estimates, Sales Up 55%",
         "published_date": "2017-02-09",
-        "url": "https://www.benzinga.com/quote/NVDA",
         "benzinga_id": 9022684
       },
       {
         "title": "NVIDIA Reports Q4 Adj. EPS $1.13 May Not Compare to $0.83 Est., Sales $2.17B vs $2.11B ESt.",
         "published_date": "2017-02-09",
-        "url": "https://www.benzinga.com/quote/NVDA",
         "benzinga_id": 9022495
       },
       {
         "title": "Nvidia Sees FY18 Revenue $1.9B vs $1.88B",
         "published_date": "2017-02-09",
-        "url": "https://www.benzinga.com/quote/NVDA",
         "benzinga_id": 9022541
       }
     ]
   },
   "NVDA_2017q2": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The forward-looking highlight was a raised or above-expectation outlook. Beyond the headline result, the articles supplied the following operating and market context: The company also significantly lowered its 2017 guidance. The stock lost a whopping 27 percent in reaction to the results and has not found its footing ever since, as negative headlines continue to come in, the latest being the pricing risk for its flat-rolled segment. Earnings season has always been a market-moving catalyst for stocks. A wary investor would watch out for the several factors in play before making any investment decisions. The reciprocal stocks could either belong to the same sector/industry or be competitors or share a customer-supplier relationship.",
-    "why_moved": "The stock rose 17.9% over the two-day earnings window. The coverage therefore implies that the stronger outlook, reinforced by the reported results, was the first-order positive driver.",
+    "summary_analysis": "The only substantive article covering this quarter is a market-structure piece about \"sympathy moves\" between related stocks rather than a dedicated NVIDIA earnings story; the other two articles are headline-only wire items. That headline data shows NVIDIA's fiscal first-quarter 2018 adjusted EPS came in at $0.85 versus a $0.67 estimate, on sales of $1.94 billion versus a $1.91 billion estimate, with second-quarter sales guided to $1.95 billion (plus or minus 2%) against a $1.89 billion estimate. The sympathy-moves article uses NVIDIA and AMD as its lead example of chip-sector stocks that move in tandem, noting that in 2016 AMD gained 295% while NVIDIA added 223%. It explains that after AMD reported first-quarter results on May 1 and plunged roughly 24%, \"Nvidia also saw weakness immediately after AMD's results, dropping around 3.5 percent to a low of $102.77 from a pre-AMD earnings high of $106.64,\" illustrating a negative sympathy move driven by AMD's report rather than anything specific to NVIDIA.",
+    "why_moved": "The sympathy-moves article states that \"come D-Day, strong results reported by Nvidia sent its stock soaring on May 10,\" and that \"it rose further on May 11 and is now perched at an all-time high,\" directly crediting NVIDIA's own first-quarter results -- and by extension the EPS and revenue beat and above-consensus second-quarter guidance shown in the headline figures -- for the rally. The article frames this as the reversal of a prior sympathy-driven dip: shares had fallen about 3.5% in the days before NVIDIA's own report purely in reaction to AMD's weak May 1 results, a move the article says was unrelated to NVIDIA's own fundamentals. None of the three articles give a specific percentage for the size of NVIDIA's own post-earnings move, only that it rose on the earnings day and continued rising the following day to a fresh all-time high.",
     "sources": [
       {
         "title": "Sympathy Moves, Explained: Unsympathetic Earnings Season Continues As Nvidia, Advanced Micro Devices Diverge",
         "published_date": "2017-05-12",
-        "url": "https://www.benzinga.com/quote/AMBA",
         "benzinga_id": 9452050
       },
       {
         "title": "NVIDIA Reports Q1 Adj. EPS $0.85 vs $0.67 Est., Sales $1.94B vs $1.91B Est.",
         "published_date": "2017-05-09",
-        "url": "https://www.benzinga.com/quote/NVDA",
         "benzinga_id": 9432173
       },
       {
         "title": "NVIDIA Sees Q2 Sales $1.95B +/- 2% vs $1.89B Est.",
         "published_date": "2017-05-09",
-        "url": "https://www.benzinga.com/quote/NVDA",
         "benzinga_id": 9432190
       }
     ]
   },
   "NVDA_2017q3": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The retrieved coverage did not identify a separate guidance change as a major theme. Beyond the headline result, the articles supplied the following operating and market context: See Also: Andrew Left Shorts Nvidia Ahead Of Earnings Release \"Adoption of NVIDIA GPU computing is accelerating, driving growth across our businesses,\" said Jensen Huang, founder and CEO. \"Datacenter revenue increased more than two and a half times.",
-    "why_moved": "The stock fell 8.2% over the two-day earnings window. The articles do not explicitly explain why investors sold the stock, so no specific first-order driver can be confirmed.",
+    "summary_analysis": "NVIDIA reported fiscal second-quarter 2018 results on Thursday, August 10, 2017, with EPS of $1.01 coming in 31 cents above consensus and sales of $2.23 billion versus an estimated $1.96 billion; the company guided third-quarter sales to $2.35 billion against a $2.13 billion estimate. CEO Jensen Huang said \"adoption of NVIDIA GPU computing is accelerating, driving growth across our businesses,\" citing datacenter revenue that \"increased more than two and a half times,\" a growing number of car and robot-taxi companies adopting the DRIVE PX self-driving computing platform, and GeForce and Nintendo Switch as \"the fastest growing platforms\" in gaming. NVIDIA also announced its next quarterly dividend of 14 cents per share, payable September 18, 2017. A separate article, published the same day, reported that Citron Research's Andrew Left disclosed shorting NVIDIA stock heading into the earnings release, amid a decline of nearly $1 on heavy volume in the minutes before the report. A Benzinga-sourced tweet embedded in the earnings article framed the stock heading into the print as \"still up 56% YTD and 405% since January 2016.\"",
+    "why_moved": "The earnings article reports that \"Nvidia's stock crossed $168 per share in after-hours trading, however, the stock turned red and was trading around the $155 level at time of publication\" -- describing an initial after-hours pop on the beat that reversed into a decline, without explaining what caused the reversal. Separately, the Citron Research article reports that shares were already \"down nearly $1\" on heavy volume in the run-up to the report, and that well-known short-seller Andrew Left said he had shorted the stock heading into the print, which the article frames as a notable piece of pre-earnings positioning rather than a post-earnings explanation. Beyond noting the earnings and revenue beat and above-consensus third-quarter guidance described above, none of the articles explain why the after-hours gain gave way to a loss.",
     "sources": [
       {
         "title": "NVIDIA Shares Down Nearly $1 Over Last Few Mins. On Heavy Volume, Citron Research's Andrew Left Says He Shorted Stock Into This Afternoon's Earnings Report",
         "published_date": "2017-08-10",
-        "url": "https://www.benzinga.com/quote/NVDA",
         "benzinga_id": 9912513
       },
       {
         "title": "Nvidia Posts Big Q2 Earnings Beat",
         "published_date": "2017-08-10",
-        "url": "https://www.benzinga.com/quote/NVDA",
         "benzinga_id": 9913712
       },
       {
         "title": "NVIDIA Reports Q2 EPS $1.01 vs $0.70 Est., Sales $2.23B vs $1.96B Est.",
         "published_date": "2017-08-10",
-        "url": "https://www.benzinga.com/quote/NVDA",
         "benzinga_id": 9913508
       }
     ]
   },
   "NVDA_2017q4": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The retrieved coverage did not identify a separate guidance change as a major theme. Beyond the headline result, the articles supplied the following operating and market context: Canaccord Genuity analyst Matthew Ramsay said there’s very little to complain about from Nvidia’s quarter. “In fact, as applications of highly parallel GPU computing expand and developer tools and artificial intelligence algorithms mature, our positive thesis continues to play out with strong gaming GPU growth expected to continue in Q4/F'18 with the Pascal gaming and Volta datacenter (including Inference) ramps and we believe new. NVIDIA Corporation (NASDAQ: NVDA ) can do no wrong in the eyes of the market, after its big Q3 earnings beat sent the stock higher by nearly 6 percent. Nvidia expects fourth-quarter sales to be in the range of $2.65 billion. Oppenheimer analyst Rick Schafer said there’s no questioning Nvidia’s execution and AI opportunities. “We continue to marvel at NVDA's ~46% LTM revenue growth, but believe risk/reward remains balanced with shares trading over 40x our CY18E,” Schafer wrote. Sales came in $280 million higher than estimates at a record $2.64 billion. \"We had a great quarter across all of our growth drivers,\" said Founder and CEO Jensen Huang. \"Industries across the world are accelerating their adoption of AI.” \"Our Volta GPU has been embraced by every major internet and cloud service provider and computer maker.",
-    "why_moved": "The stock rose 3.7% over the two-day earnings window. The articles do not isolate a first-order catalyst, so the positive reaction cannot be attributed more precisely from this coverage.",
+    "summary_analysis": "NVIDIA reported fiscal third-quarter 2018 results on Thursday, November 9, 2017, with EPS of $1.33 beating estimates by 39 cents and sales of a record $2.64 billion coming in $280 million above estimates, up 32% year-over-year; the company guided fourth-quarter sales to $2.65 billion and raised its quarterly dividend 7% to 15 cents per share, with plans to return $1.25 billion to shareholders in fiscal 2019. CEO Jensen Huang said \"we had a great quarter across all of our growth drivers\" and that \"industries across the world are accelerating their adoption of AI,\" pointing to broad adoption of the Volta GPU by \"every major internet and cloud service provider and computer maker,\" the new TensorRT inference platform opening growth in hyperscale datacenters, GeForce and Nintendo Switch driving gaming, and the new DRIVE PX Pegasus being adopted by robotaxi companies. A follow-up roundup of Wall Street analysts found broad but not universal enthusiasm: Loop Capital's Betsy Van Hees, Citi's Atif Malik, Loup Ventures' Gene Munster, Canaccord's Matthew Ramsay, Tigress Financial's Ivan Feinseth, Oppenheimer's Rick Schafer, and Bank of America's Vivek Arya all framed the quarter positively, citing gaming and datacenter/automotive diversification and NVIDIA's positioning in AI, while Wells Fargo's David Wong, KeyBanc's Michael McConnell, and BMO's Ambrish Srivastava expressed more skepticism, generally centered on valuation after the stock's roughly 1,000% three-year run, with McConnell flagging cryptocurrency-driven channel demand as a factor buoying recent sales.",
+    "why_moved": "The analyst-roundup article states the beat \"sent the stock higher by nearly 6 percent,\" attributing this to the earnings and sales beat described above and to broadly positive Wall Street commentary on NVIDIA's diversification into AI, datacenter, and automotive markets, even as it notes some analysts questioned how much further the stock -- already up about 1,000% over three years -- could run given its valuation. The dedicated earnings article separately reports that \"shares of Nvidia were up 3 percent following the release, but recently traded slightly lower in the after-hours session,\" indicating the after-hours reaction was more muted than the roughly 6% gain reported the next day in the roundup piece. Neither article explains the specific mechanics of the shift from a modest after-hours move to the larger next-day gain, beyond the underlying strength of the results and the favorable analyst reception described above.",
     "sources": [
       {
         "title": "What Wall Street Thinks Of Nvidia's Huge Quarter",
         "published_date": "2017-11-10",
-        "url": "https://www.benzinga.com/quote/NVDA",
         "benzinga_id": 10764626
       },
       {
         "title": "Nvidia Reports Big Q3 Earnings Beat, Record Sales",
         "published_date": "2017-11-09",
-        "url": "https://www.benzinga.com/quote/NVDA",
         "benzinga_id": 10759997
       },
       {
         "title": "NVIDIA Reports Q3 Adj. EPS $1.33 vs $0.94 Est., Sales $2.64B vs $2.36B Est.",
         "published_date": "2017-11-09",
-        "url": "https://www.benzinga.com/quote/NVDA",
         "benzinga_id": 10759748
       }
     ]
   },
   "NVDA_2018q1": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The coverage also emphasized management's outlook, but did not characterize it consistently as a clear positive or negative. Beyond the headline result, the articles supplied the following operating and market context: Despite Nvidia's impressive 41-percent revenue growth rate in the quarter, the stock is trading at a multiple north of 30x the analyst's 2019 estimates, which implies a \"balanced\" risk-reward profile, the analyst said. The analyst's prior $270 price target was based on a 13.5x fiscal 2020 P/sales multiple, but recent market volatility calls for a reduction in the multiple to 12.5x, Ellis said. The data center segment doubled for the eighth consecutive quarter, and while auto — down 8 percent quarter-over-quarter — \"undershot\" versus expectations, the company's robust long-term growth profile is full of significant partnerships, Ellis said. At the same time, the company's earnings report prompted a revision in sales estimates in fiscal 2020 from $12.392 billion to $14.449 billion, which boosts B Riley FBR's price target to $290. Related Link: Mid-Day Market Update: Crude Oil Down Over 2%; Mobileiron Shares Spike Higher FBR: Lower Multiple, Higher Price Target FBR's Craig Ellis maintains a Buy rating on Nvidia's stock with a price target raised from $270 to $290.",
-    "why_moved": "The stock rose 3.9% over the two-day earnings window. The articles do not isolate a first-order catalyst, so the positive reaction cannot be attributed more precisely from this coverage.",
+    "summary_analysis": "NVIDIA reported fiscal fourth-quarter (and full fiscal 2018) results on Thursday, February 8, 2018, which one article's headline describes as a \"Q4 Earnings Beat\" accompanied by first-quarter guidance. A follow-up Wall Street roundup detailed the scale of the beat: sales of $2.91 billion and EPS of $1.69 both came in \"easily ahead\" of the Street's $2.68 billion and $1.16 estimates, per Oppenheimer's Rick Schafer, with revenue from the data center, gaming, professional-visualization, and OEM segments each at least 5% ahead of consensus, and datacenter revenue more than doubling for a seventh consecutive quarter. B. Riley FBR's Craig Ellis called gaming channel inventory \"unusually lean\" heading into a seasonally soft period and said a fifth consecutive year of 35% gaming growth was possible, while noting automotive revenue fell 8% quarter-over-quarter and \"undershot\" expectations; he raised his price target from $270 to $290 on higher fiscal 2020 sales estimates. Other analysts, including Citi's Atif Malik, KeyBanc's Michael McConnell, Tigress Financial's Ivan Feinseth, and Loup Ventures' Gene Munster, offered generally bullish framing tied to secular AI, eSports, and autonomous-driving themes. A third article reports CFO Colette Kress telling the earnings call that while the overall dollar contribution from cryptocurrency was \"difficult to quantify,\" the segment represented a higher percentage of sales in the quarter than in the prior one.",
+    "why_moved": "The headline of the first article states plainly that \"NVIDIA Shares [Were] Up 5.3% Following Q4 Earnings Beat, Q1 Guidance,\" directly tying the move to the earnings beat and the forward guidance issued alongside it. The Wall Street roundup corroborates the scale of that beat -- sales and EPS both easily ahead of consensus, with every reporting segment beating estimates by at least 5% -- and describes broadly positive analyst reactions, including a price-target increase from B. Riley FBR, though Oppenheimer's Schafer cautioned that the stock's valuation above 30x 2019 estimates already implied a \"balanced\" risk-reward. Neither the earnings article nor the analyst roundup connects the CFO's crypto-mix commentary specifically to the share reaction.",
     "sources": [
       {
         "title": "NVIDIA Shares Up 5.3% Following Q4 Earnings Beat, Q1 Guidance",
         "published_date": "2018-02-08",
-        "url": "https://www.benzinga.com/quote/NVDA",
         "benzinga_id": 11162633
       },
       {
         "title": "Wall Street Reacts To Nvidia's Q4 Blowout Quarter",
         "published_date": "2018-02-09",
-        "url": "https://www.benzinga.com/quote/NVDA",
         "benzinga_id": 11169514
       },
       {
         "title": "From NVIDIA Q4 Earnings Conference Call: CFO Colette Kress Says While Overall Contribution From Crypto Is Difficult To Quantify, Segment Was Higher As A Percentage Of Sales This Qtr. vs Last Qtr.",
         "published_date": "2018-02-08",
-        "url": "https://www.benzinga.com/quote/NVDA",
         "benzinga_id": 11163697
       }
     ]
   },
   "NVDA_2018q2": {
-    "summary_analysis": "Coverage focused on the earnings release and its implications: the articles did not provide a consistent beat-or-miss framing. The retrieved coverage did not identify a separate guidance change as a major theme. Beyond the headline result, the articles supplied the following operating and market context: Low-Quality Beat Deutsche Bank analyst Ross Seymore said Nvidia’s 10 percent revenue beat relative to its guidance was in-line with its recent average, but the quality of the beat was a bit disappointing. “While growth remains strong across virtually every segment, the quality of the beat was somewhat lower as GPU channel fill and Crypto delivered the majority of the upside, while Datacenter was slightly below out estimate,” Seymore. KeyBanc analyst Michael McConnell said a lot of growth is already priced into Nvidia stock. “We estimate the premium valuation of the shares already reflects future data center segment growth as well as reaccelerating gaming revenue growth in the second half of fiscal 2019,” McConnell wrote. Outlook Unclear Morgan Stanley analyst Joseph Moore said cryptocurrency and the timing of Nvidia’s new gaming product cycle make second quarter numbers difficult to predict. “This year is going to be tricky to calibrate, as the channel was starved of product 3 months ago, is still on the lean side (but we still have tough sequential comparisons because inventory built in April),and if it does launch this quarter, it will just be a. BMO Capital Markets analyst Ambrish Srivastava said investors can continue to expect Nvidia stock to trade at a premium to its peers due to its leadership position in the AI market. “We believe the company expects sequential growth in each of the growth platform segments, albeit Gaming is going to be well below seasonal in F2Q vs. the much greater than seasonal results in F1Q (which were really driven in large part by channel fill, per. Stifel analyst Kevin Cassidy said Nvidia delivered a solid quarter, despite revenue strength coming in large part from cryptocurrency demand. “Due to investors' concerns around the volatility of the cryptocurrency market, the company may not get full credit for the beat to estimates,” Cassidy wrote.",
-    "why_moved": "The stock fell 1.5% over the two-day earnings window. The articles do not explicitly explain why investors sold the stock, so no specific first-order driver can be confirmed.",
+    "summary_analysis": "NVIDIA reported fiscal first-quarter 2019 results on Thursday, May 10, 2018, delivering what a subsequent Wall Street roundup calls \"another record quarter,\" though the article notes \"the market wasn't particularly impressed.\" Deutsche Bank's Ross Seymore described a roughly 10% revenue beat versus guidance as \"in-line with its recent average\" but said \"the quality of the beat was somewhat lower as GPU channel fill and Crypto delivered the majority of the upside, while Datacenter was slightly below our estimate.\" Stifel's Kevin Cassidy similarly noted that with cryptocurrency-related revenue driving much of the strength, \"the company may not get full credit for the beat to estimates\" given investor concerns about crypto-market volatility. Morgan Stanley's Joseph Moore said the interplay between fading crypto demand and the timing of NVIDIA's next gaming product cycle would make the following quarter \"tricky to calibrate,\" while Bernstein's Stacy Rasgon framed the near-term debate as centered on gaming revenue and its read-through to datacenter growth; other analysts, including BMO's Ambrish Srivastava, KeyBanc's Michael McConnell, B. Riley FBR's Craig Ellis, and GBH Insights' Daniel Ives, offered a mix of caution on valuation and continued bullishness on NVIDIA's longer-term growth drivers. A separate item quotes an apparent NVIDIA statement, relayed via a Jim Cramer tweet, pushing back on reports blaming crypto miners for chip shortages and saying \"this quarter will show a big drop off in crypto sales.\"",
+    "why_moved": "The Wall Street roundup article states directly that \"Nvidia stock traded down more than 2 percent on Friday\" despite the record quarter, and attributes the muted reaction to analysts viewing the beat as \"low-quality\" -- driven mainly by GPU channel fill and cryptocurrency demand rather than core segment strength, with Deutsche Bank noting datacenter revenue actually came in slightly below its estimate. Stifel's Cassidy is quoted making a similar point about investors discounting the beat given concerns over the volatility of crypto-related demand. A separate article notes shares had actually touched an intraday high of $260.00, up 1.6% for the session, in the thirty minutes before the earnings release, indicating the post-earnings decline followed positive pre-earnings positioning rather than weakness carrying in from before the report. None of the articles cite a single specific cause beyond this general \"quality of the beat\" narrative built around crypto and channel-fill contributions to the quarter's upside.",
     "sources": [
       {
         "title": "NVIDIA Shares At Intraday Highs 30 Mins. Ahead Of Q1 Earnings, Touch High At $260.00, Up 1.6% For Session",
         "published_date": "2018-05-10",
-        "url": "https://www.benzinga.com/quote/NVDA",
         "benzinga_id": 11689224
       },
       {
         "title": "'NYTimes.com blames crypto miners for shortages of my chips but that is so yesterday's news. This quarter will show a big drop off in crypto sales. Everyone knows that. At least I thought they did. Nvidia'",
         "published_date": "2018-05-09",
-        "url": "https://www.benzinga.com/quote/NVDA",
         "benzinga_id": 11673609
       },
       {
         "title": "Wall Street Reacts To Nvidia's Quarter",
         "published_date": "2018-05-11",
-        "url": "https://www.benzinga.com/quote/NVDA",
         "benzinga_id": 11695884
       }
     ]
   },
   "NVDA_2018q3": {
-    "summary_analysis": "Coverage portrayed the quarter as broadly stronger than expected: the principal reported measure beat expectations. The main forward-looking concern was reduced or below-expectation guidance. Beyond the headline result, the articles supplied the following operating and market context: NVIDIA Corporation (NASDAQ: NVDA ) stock fell 5 percent Friday after the company missed market expectations with its third-quarter guidance. Three Mega-Waves Loup Ventures' Gene Munster said weaker-than-expected cryptocurrency revenue has nothing to do with Nvidia’s long-term potential. “The company remains well-positioned to capitalize on three mega-waves (datacenters, gaming, and automotive) driving growth rates of 37% in FY19, 21% in FY20, and 21% in FY21,” Munster wrote. Oppenheimer analyst Rick Schafer said investors should keep Friday’s weakness in perspective. “Shares could see near-term weakness following softer guidance, particularly after a strong run the past 2-3 years,” Schafer wrote. Morgan Stanley analyst Joseph Moore thinks investors should buy the dip. “Product transitions in gaming are always noisy,and while we did not expect a guidance shortfall - and there are certainly factors to monitor that came out of this mixed quarter - our sense is that the subseasonal guidance is more of a transitional handoff than fundamental problems in the market,” Moore wrote. Stifel analyst Kevin Cassidy said expectations were extremely high heading into the report. “Given this current semiconductor ‘peak cycle’ environment, the market will not accept a miss to estimates for any reason,” Cassidy wrote.",
-    "why_moved": "The stock fell 6.7% over the two-day earnings window. The coverage therefore implies that the weaker outlook outweighed the backward-looking results and was the first-order negative driver.",
+    "summary_analysis": "NVIDIA reported fiscal second-quarter 2019 results on Thursday, August 16, 2018. One article's headline states that \"weak Q3 sales guidance appears to offset\" what was otherwise a Q2 earnings beat. A follow-up Wall Street roundup confirms the stock \"fell 5 percent Friday after the company missed market expectations with its third-quarter guidance,\" and gathers reactions from a wide range of analysts. Several framed the miss as a timing issue rather than a fundamental problem: Deutsche Bank's Ross Seymore called it a reflection of growth potential already priced into a premium valuation, Morgan Stanley's Joseph Moore said \"product transitions in gaming are always noisy\" and that the softer guidance was \"more of a transitional handoff than fundamental problems in the market,\" and Jefferies' Mark Lipacis characterized it as \"nothing more than a stutter step,\" noting that gaming GPU revenue \"often stall[s]... in front of a new platform launch, but are 40-50% higher 4 qtrs later.\" Bank of America's Vivek Arya and Citi's Atif Malik both argued that with \"crypto noise\" now gone, attention could shift to the upcoming Turing GPU architecture and its ray-tracing capabilities, while BMO's Ambrish Srivastava and Stifel's Kevin Cassidy were more cautious, noting elevated expectations heading into the print. A CFO-commentary item adds that GPU sales were up 40% year-over-year but down 4% sequentially, and that the company had anticipated a decline in crypto-related product sales to roughly $100 million, but actual crypto sales came in far lower, at just $18 million.",
+    "why_moved": "The headline of the first article states plainly that \"NVIDIA shares are trading down 5% after hours as weak Q3 sales guidance appears to offset Q2 earnings beat,\" and the Wall Street roundup confirms the stock \"fell 5 percent Friday after the company missed market expectations with its third-quarter guidance.\" Several analysts quoted in the roundup attribute the soft guidance to a gaming product-cycle transition ahead of the Turing launch and to a bigger-than-anticipated collapse in cryptocurrency-related GPU demand -- the CFO-commentary article specifies actual crypto sales of just $18 million versus an anticipated decline to around $100 million, an even sharper drop-off than the company itself had modeled. Multiple analysts, including Morgan Stanley's Moore, Deutsche Bank's Seymore, and Jefferies' Lipacis, characterized the resulting weakness as transitional rather than indicative of a deteriorating underlying business, while others (Stifel's Cassidy, BMO's Srivastava) pointed to unusually high expectations heading into the report as a reason the market reacted negatively to any shortfall.",
     "sources": [
       {
         "title": "NVIDIA shares are trading down 5% after hours as weak Q3 sales guidance appears to offset Q2 earnings beat.",
         "published_date": "2018-08-16",
-        "url": "https://www.benzinga.com/quote/NVDA",
         "benzinga_id": 12221167
       },
       {
         "title": "What Wall Street Thinks Of Nvidia's Q2 Earnings",
         "published_date": "2018-08-18",
-        "url": "https://www.benzinga.com/quote/NVDA",
         "benzinga_id": 12226223
       },
       {
         "title": "From NVIDIA's Q2 CFO Commentary, Co. Says GPU Sales Up 40% YoY, Down 4% Sequentially; Adds Co. Had Anticipated Crypto-product Sales Declining To ~$100M, But Actual Crypto Sales Were Only $18M",
         "published_date": "2018-08-16",
-        "url": "https://www.benzinga.com/quote/NVDA",
         "benzinga_id": 12221177
       }
     ]
