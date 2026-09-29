@@ -672,6 +672,63 @@ def load_group4_band_observations(mtime_marker):
     return sampled.sort_values(["ticker", "earnings_date"]).reset_index(drop=True)
 
 
+# Data Visualization 5: same pattern as Data Visualization 4 -- 20 more
+# newly-selected tickers (screened via live yfinance market-cap lookups
+# against our own CUPIP dataset, excluding every ticker already used in
+# Data Viz 1/2/3/4; scripts/screen_viz5_candidates.py), same 2 bands, same
+# 2021-2023 window. The Large Cap band's candidate pool came out to
+# exactly 10 after screening, so all 10 are used rather than a random
+# subset of a larger pool -- still a randomly-discovered set (from
+# shuffling the full eligible candidate list first), just with no surplus
+# left to additionally sample from.
+GROUP5_GROUPS = {
+    "Small & Mid Cap": ["CYH", "MATW", "INDI", "GRC", "APPN", "AXTI", "RYTM", "ALGM", "WLK", "PCVX"],
+    "Large Cap": ["SYK", "MPC", "SPGI", "NEE", "MRK", "KO", "LRCX", "COST", "CSCO", "XOM"],
+}
+GROUP5_BAND_LABELS = {
+    "Small & Mid Cap": "\\$250M\u2013\\$10B, 2021-2023",
+    "Large Cap": "\\$100B\u2013\\$1T, 2021-2023",
+}
+GROUP5_COMPANY_NAMES = {
+    "CYH": "Community Health Systems", "MATW": "Matthews International", "INDI": "indie Semiconductor",
+    "GRC": "Gorman-Rupp", "APPN": "Appian", "AXTI": "AXT Inc.", "RYTM": "Rhythm Pharmaceuticals",
+    "ALGM": "Allegro MicroSystems", "WLK": "Westlake", "PCVX": "Vaxcyte",
+    "SYK": "Stryker", "MPC": "Marathon Petroleum", "SPGI": "S&P Global", "NEE": "NextEra Energy",
+    "MRK": "Merck & Co.", "KO": "Coca-Cola", "LRCX": "Lam Research", "COST": "Costco Wholesale",
+    "CSCO": "Cisco Systems", "XOM": "Exxon Mobil",
+}
+GROUP5_PRICE_HISTORY_PATH = os.path.join(HERE, "data", "group5_price_history.json")
+
+
+@st.cache_data
+def load_group5_price_history(mtime_marker):
+    if not os.path.exists(GROUP5_PRICE_HISTORY_PATH):
+        return None
+    with open(GROUP5_PRICE_HISTORY_PATH) as f:
+        return json.load(f)
+
+
+@st.cache_data
+def load_group5_band_observations(mtime_marker):
+    """Same pattern as load_group4_band_observations(), for GROUP5_GROUPS'
+    tickers."""
+    if not os.path.exists(GROUP_RETURNS_PATH):
+        return pd.DataFrame()
+    group5_tickers = [t for tickers in GROUP5_GROUPS.values() for t in tickers]
+    raw = pd.read_csv(GROUP_RETURNS_PATH, parse_dates=["earningsdate"])
+    raw = raw.rename(columns={"earningsdate": "earnings_date", "yq": "fiscal_yearquarter"})
+    window = raw[
+        (raw["earnings_date"] >= DATAVIZ3_WINDOW_START)
+        & (raw["earnings_date"] <= DATAVIZ3_WINDOW_END)
+        & (raw["ticker"].isin(group5_tickers))
+    ]
+    sampled = (
+        window.groupby("ticker", group_keys=False)
+        .apply(lambda g: g.sample(n=min(10, len(g)), random_state=DATAVIZ3_SEED))
+    )
+    return sampled.sort_values(["ticker", "earnings_date"]).reset_index(drop=True)
+
+
 @st.cache_data
 def load_group_price_history(mtime_marker):
     if not os.path.exists(GROUP_PRICE_HISTORY_PATH):
@@ -1526,6 +1583,8 @@ group_df = load_group_returns(_mtime(GROUP_RETURNS_PATH))
 group3_band_observations = load_group3_band_observations(_mtime(GROUP_RETURNS_PATH))
 group4_band_observations = load_group4_band_observations(_mtime(GROUP_RETURNS_PATH))
 group4_price_history = load_group4_price_history(_mtime(GROUP4_PRICE_HISTORY_PATH))
+group5_band_observations = load_group5_band_observations(_mtime(GROUP_RETURNS_PATH))
+group5_price_history = load_group5_price_history(_mtime(GROUP5_PRICE_HISTORY_PATH))
 group_price_history = load_group_price_history(_mtime(GROUP_PRICE_HISTORY_PATH))
 group_context_lookup = load_group_context(_mtime(GROUP_CONTEXT_PATH))
 group_abnormal_returns_lookup = load_group_abnormal_returns(_mtime(GROUP_ABNORMAL_RETURNS_PATH))
@@ -1583,7 +1642,7 @@ if "selected_section" not in st.session_state:
 
 sections = [
     "Data Visualization", "Data Visualization 2", "Data Visualization 3", "Data Visualization 4",
-    "Comparative Study",
+    "Data Visualization 5", "Comparative Study",
 ]
 section_cols = st.columns(len(sections))
 for col, sec in zip(section_cols, sections):
@@ -2215,6 +2274,134 @@ if st.session_state.selected_section == "Data Visualization 4":
             )
             st.write("*No coverage available yet for this observation.*")
         with g4_right:
+            st.markdown(
+                "<div style='text-align:center; font-weight:bold;'>High-Tier Coverage</div>",
+                unsafe_allow_html=True,
+            )
+            st.write("*No coverage available yet for this observation.*")
+
+        st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+    st.stop()
+
+if st.session_state.selected_section == "Data Visualization 5":
+    # Same pattern as Data Visualization 4: 2 subgroups, "Small & Mid Cap"
+    # ($250M-$10B) and "Large Cap" ($100B-$1T), with 20 more newly-
+    # selected tickers excluded from Data Viz 1/2/3/4 (see GROUP5_GROUPS
+    # above).
+    if "selected_g5_group" not in st.session_state:
+        st.session_state.selected_g5_group = list(GROUP5_GROUPS)[0]
+
+    g5_group_cols = st.columns(len(GROUP5_GROUPS))
+    for col, g in zip(g5_group_cols, GROUP5_GROUPS.keys()):
+        with col:
+            is_selected = st.session_state.selected_g5_group == g
+            g5_group_label = f"{g} ({GROUP5_BAND_LABELS[g]})"
+            if st.button(
+                g5_group_label,
+                key=f"g5_groupbtn_{g}",
+                use_container_width=True,
+                type="primary" if is_selected else "secondary",
+            ):
+                st.session_state.selected_g5_group = g
+                st.session_state.selected_g5_ticker = GROUP5_GROUPS[g][0]
+
+    st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+    selected_g5_group = st.session_state.selected_g5_group
+    g5_group_tickers = GROUP5_GROUPS[selected_g5_group]
+
+    if (
+        "selected_g5_ticker" not in st.session_state
+        or st.session_state.selected_g5_ticker not in g5_group_tickers
+    ):
+        st.session_state.selected_g5_ticker = g5_group_tickers[0]
+
+    g5_ticker_cols = st.columns(len(g5_group_tickers))
+    for col, t in zip(g5_ticker_cols, g5_group_tickers):
+        with col:
+            is_selected = st.session_state.selected_g5_ticker == t
+            if st.button(
+                t,
+                key=f"g5_navbtn_{t}",
+                use_container_width=True,
+                type="primary" if is_selected else "secondary",
+                help=GROUP5_COMPANY_NAMES.get(t, t),
+            ):
+                st.session_state.selected_g5_ticker = t
+
+    st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+    g5_ticker = st.session_state.selected_g5_ticker
+    g5_sub = group5_band_observations[group5_band_observations["ticker"] == g5_ticker].reset_index(drop=True)
+    g5_company_name = GROUP5_COMPANY_NAMES.get(g5_ticker, g5_ticker)
+
+    if g5_sub.empty:
+        st.info(f"No 2021-2023 observations available for {g5_ticker}.")
+        st.stop()
+
+    st.markdown(
+        f"<div class='quarter-header' style='font-size:1.4rem; text-align:center;'>{g5_ticker} — {g5_company_name}</div>",
+        unsafe_allow_html=True,
+    )
+    g5_period_start = g5_sub["earnings_date"].min().strftime("%Y-%m-%d")
+    g5_period_end = g5_sub["earnings_date"].max().strftime("%Y-%m-%d")
+    st.markdown(
+        f"<div style='text-align:center; color:rgba(214,228,240,0.7); font-size:0.85rem;'>"
+        f"{len(g5_sub)} observations, {g5_period_start} to {g5_period_end}</div>",
+        unsafe_allow_html=True,
+    )
+
+    render_price_chart(g5_ticker, group5_price_history, g5_sub)
+
+    st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+    g5_sp_df_for_headers = None
+    if group5_price_history is not None:
+        g5_sp_df_for_headers = pd.DataFrame(group5_price_history["sp500"])
+        g5_sp_df_for_headers["date"] = pd.to_datetime(g5_sp_df_for_headers["date"])
+        g5_sp_df_for_headers = g5_sp_df_for_headers.sort_values("date").reset_index(drop=True)
+
+    for g5_idx, g5_row in g5_sub.iterrows():
+        g5_note_key = f"{g5_row['ticker']}_{g5_row['fiscal_yearquarter']}"
+        g5_ret_pct = g5_row["ret_2day"] * 100
+        g5_ret_str = f"{g5_ret_pct:+.2f}%"
+        g5_sp_ret = (
+            sp_return_2day(g5_sp_df_for_headers, g5_row["earnings_date"])
+            if g5_sp_df_for_headers is not None
+            else None
+        )
+        g5_sp_ret_str = f"{g5_sp_ret:+.2f}%" if g5_sp_ret is not None else "n/a"
+        g5_excess_str = excess_return_str(g5_ret_pct, g5_sp_ret)
+
+        st.markdown(
+            f"<div class='quarter-header' style='text-align:center;'>{g5_row['fiscal_yearquarter'].upper()} "
+            f"&nbsp;|&nbsp; earnings {g5_row['earnings_date'].strftime('%Y-%m-%d')}</div>"
+            f"<div class='quarter-header' style='text-align:center;'>2-day return {g5_ret_str} "
+            f"&nbsp;|&nbsp; S&amp;P 2-day return {g5_sp_ret_str}</div>"
+            f"<div style=\"text-align:center; font-size:1.3rem; font-family:'Cormorant Garamond', serif; "
+            f"color:rgba(214,228,240,0.9); margin-bottom:0.3rem;\">Excess return {g5_excess_str}</div>",
+            unsafe_allow_html=True,
+        )
+
+        with st.container(key=f"g4viz_{g5_note_key}"):
+            g5_viz_toggle_id = f"g4viz_toggle_{g5_note_key}"
+            st.html(
+                f"<input type='checkbox' id='{g5_viz_toggle_id}' class='visualize-checkbox'>"
+                f"<label for='{g5_viz_toggle_id}' class='visualize-label'>Visualize</label>"
+            )
+            g5_viz_fig = build_quarter_visualize_fig(g5_ticker, group5_price_history, g5_sub, g5_idx)
+            if g5_viz_fig is not None:
+                st.plotly_chart(g5_viz_fig, use_container_width=True, key=f"g4viz_chart_{g5_note_key}")
+
+        g5_left, g5_right = st.columns(2, gap="large")
+        with g5_left:
+            st.markdown(
+                "<div style='text-align:center; font-weight:bold;'>Selected Coverage</div>",
+                unsafe_allow_html=True,
+            )
+            st.write("*No coverage available yet for this observation.*")
+        with g5_right:
             st.markdown(
                 "<div style='text-align:center; font-weight:bold;'>High-Tier Coverage</div>",
                 unsafe_allow_html=True,
