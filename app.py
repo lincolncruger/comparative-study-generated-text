@@ -2501,9 +2501,8 @@ if st.session_state.selected_section == "Data Visualization 6":
     for col, g in zip(g6_group_cols, GROUP6_GROUPS.keys()):
         with col:
             is_selected = st.session_state.selected_g6_group == g
-            g6_group_label = f"{g} ({GROUP6_BAND_LABELS[g]})"
             if st.button(
-                g6_group_label,
+                g,
                 key=f"g6_groupbtn_{g}",
                 use_container_width=True,
                 type="primary" if is_selected else "secondary",
