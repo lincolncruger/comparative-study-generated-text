@@ -2245,9 +2245,8 @@ if st.session_state.selected_section == "Data Visualization 4":
     for col, g in zip(g4_group_cols, GROUP4_GROUPS.keys()):
         with col:
             is_selected = st.session_state.selected_g4_group == g
-            g4_group_label = f"{g} ({GROUP4_BAND_LABELS[g]})"
             if st.button(
-                g4_group_label,
+                g,
                 key=f"g4_groupbtn_{g}",
                 use_container_width=True,
                 type="primary" if is_selected else "secondary",
@@ -2373,9 +2372,8 @@ if st.session_state.selected_section == "Data Visualization 5":
     for col, g in zip(g5_group_cols, GROUP5_GROUPS.keys()):
         with col:
             is_selected = st.session_state.selected_g5_group == g
-            g5_group_label = f"{g} ({GROUP5_BAND_LABELS[g]})"
             if st.button(
-                g5_group_label,
+                g,
                 key=f"g5_groupbtn_{g}",
                 use_container_width=True,
                 type="primary" if is_selected else "secondary",
