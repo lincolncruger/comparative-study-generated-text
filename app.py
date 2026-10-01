@@ -2442,7 +2442,7 @@ if st.session_state.selected_section == "Data Visualization 4":
             return_column = "abnormal_return_pct"
             method_description = "beta-adjusted abnormal return"
 
-        absolute_filter_col1, absolute_filter_col2, absolute_filter_col3, absolute_filter_col4 = st.columns([1.2, 1, 1, 1])
+        absolute_filter_col1, absolute_filter_col2, absolute_filter_col3 = st.columns([1.2, 1, 1])
         with absolute_filter_col1:
             absolute_filter_mode = st.radio(
                 "Absolute graph Z-score filter",
@@ -2457,11 +2457,6 @@ if st.session_state.selected_section == "Data Visualization 4":
         with absolute_filter_col3:
             absolute_z_upper = st.number_input(
                 "Upper Z-score", value=10.0, step=0.5, key="dv4_absolute_z_upper"
-            )
-        with absolute_filter_col4:
-            absolute_std_multiplier = st.number_input(
-                "STD band (±σ)", min_value=0.0, max_value=5.0, value=1.0, step=0.25,
-                key="dv4_absolute_std_multiplier",
             )
         absolute_z_min, absolute_z_max = sorted((absolute_z_lower, absolute_z_upper))
 
@@ -2536,11 +2531,17 @@ if st.session_state.selected_section == "Data Visualization 4":
             )
             regression_y = np.polyval(regression_coefficients, regression_x)
             fitted_y = np.polyval(regression_coefficients, chart_df["category_score"])
-            residual_std = float(np.std(chart_df["absolute_z_score"] - fitted_y, ddof=1))
+            residuals = np.asarray(chart_df["absolute_z_score"] - fitted_y, dtype=float)
+            observed_x = np.asarray(chart_df["category_score"], dtype=float)
+            rolling_window = min(len(residuals), max(5, int(np.ceil(np.sqrt(len(residuals))))))
+            local_std = np.array([
+                np.std(residuals[np.argsort(np.abs(observed_x - point))[:rolling_window]], ddof=1)
+                for point in regression_x
+            ])
             analysis_fig.add_trace(
                 go.Scatter(
                     x=regression_x,
-                    y=regression_y + absolute_std_multiplier * residual_std,
+                    y=regression_y + local_std,
                     mode="lines",
                     line={"width": 0},
                     hoverinfo="skip",
@@ -2551,12 +2552,12 @@ if st.session_state.selected_section == "Data Visualization 4":
             analysis_fig.add_trace(
                 go.Scatter(
                     x=regression_x,
-                    y=regression_y - absolute_std_multiplier * residual_std,
+                    y=regression_y - local_std,
                     mode="lines",
                     line={"width": 0},
                     fill="tonexty",
                     fillcolor="rgba(255,209,102,0.18)",
-                    name=f"±{absolute_std_multiplier:g} residual SD",
+                    name="±1 local residual SD",
                     hoverinfo="skip",
                     legendgroup="absolute-regression-band",
                 )
@@ -2585,13 +2586,13 @@ if st.session_state.selected_section == "Data Visualization 4":
         st.caption(
             f"{len(chart_df)} StockNews observations plotted. "
             f"{absolute_filter_mode} signed Z-scores from {absolute_z_min:+.2f}σ to {absolute_z_max:+.2f}σ. "
-            f"Regression band: ±{absolute_std_multiplier:g} residual SD. "
+            "Regression band: ±1 rolling local residual SD. "
             f"{int((analysis_df['active_categories'] == 0).sum())} observations have no active category "
             "and are assigned a neutral score of 0."
         )
 
         st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
-        signed_filter_col1, signed_filter_col2, signed_filter_col3, signed_filter_col4 = st.columns([1.2, 1, 1, 1])
+        signed_filter_col1, signed_filter_col2, signed_filter_col3 = st.columns([1.2, 1, 1])
         with signed_filter_col1:
             signed_filter_mode = st.radio(
                 "Signed graph Z-score filter",
@@ -2606,11 +2607,6 @@ if st.session_state.selected_section == "Data Visualization 4":
         with signed_filter_col3:
             signed_z_upper = st.number_input(
                 "Upper Z-score", value=10.0, step=0.5, key="dv4_signed_z_upper"
-            )
-        with signed_filter_col4:
-            signed_std_multiplier = st.number_input(
-                "STD band (±σ)", min_value=0.0, max_value=5.0, value=1.0, step=0.25,
-                key="dv4_signed_std_multiplier",
             )
         signed_z_min, signed_z_max = sorted((signed_z_lower, signed_z_upper))
 
@@ -2679,11 +2675,17 @@ if st.session_state.selected_section == "Data Visualization 4":
             )
             regression_y = np.polyval(regression_coefficients, regression_x)
             fitted_y = np.polyval(regression_coefficients, return_chart_df["category_score"])
-            residual_std = float(np.std(return_chart_df[z_column] - fitted_y, ddof=1))
+            residuals = np.asarray(return_chart_df[z_column] - fitted_y, dtype=float)
+            observed_x = np.asarray(return_chart_df["category_score"], dtype=float)
+            rolling_window = min(len(residuals), max(5, int(np.ceil(np.sqrt(len(residuals))))))
+            local_std = np.array([
+                np.std(residuals[np.argsort(np.abs(observed_x - point))[:rolling_window]], ddof=1)
+                for point in regression_x
+            ])
             return_fig.add_trace(
                 go.Scatter(
                     x=regression_x,
-                    y=regression_y + signed_std_multiplier * residual_std,
+                    y=regression_y + local_std,
                     mode="lines",
                     line={"width": 0},
                     hoverinfo="skip",
@@ -2694,12 +2696,12 @@ if st.session_state.selected_section == "Data Visualization 4":
             return_fig.add_trace(
                 go.Scatter(
                     x=regression_x,
-                    y=regression_y - signed_std_multiplier * residual_std,
+                    y=regression_y - local_std,
                     mode="lines",
                     line={"width": 0},
                     fill="tonexty",
                     fillcolor="rgba(255,209,102,0.18)",
-                    name=f"±{signed_std_multiplier:g} residual SD",
+                    name="±1 local residual SD",
                     hoverinfo="skip",
                     legendgroup="signed-regression-band",
                 )
@@ -2730,7 +2732,7 @@ if st.session_state.selected_section == "Data Visualization 4":
             f"{len(return_chart_df)} StockNews observations plotted with the signed "
             f"{method_description} Z-score. {signed_filter_mode} signed Z-scores from "
             f"{signed_z_min:+.2f}σ to {signed_z_max:+.2f}σ. "
-            f"Regression band: ±{signed_std_multiplier:g} residual SD."
+            "Regression band: ±1 rolling local residual SD."
         )
         st.stop()
 
