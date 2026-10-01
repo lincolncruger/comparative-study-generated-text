@@ -2529,10 +2529,37 @@ if st.session_state.selected_section == "Data Visualization 4":
             regression_coefficients = np.polyfit(
                 chart_df["category_score"], chart_df["absolute_z_score"], 2
             )
+            regression_y = np.polyval(regression_coefficients, regression_x)
+            fitted_y = np.polyval(regression_coefficients, chart_df["category_score"])
+            residual_std = float(np.std(chart_df["absolute_z_score"] - fitted_y, ddof=1))
             analysis_fig.add_trace(
                 go.Scatter(
                     x=regression_x,
-                    y=np.polyval(regression_coefficients, regression_x),
+                    y=regression_y + residual_std,
+                    mode="lines",
+                    line={"width": 0},
+                    hoverinfo="skip",
+                    showlegend=False,
+                    legendgroup="absolute-regression-band",
+                )
+            )
+            analysis_fig.add_trace(
+                go.Scatter(
+                    x=regression_x,
+                    y=regression_y - residual_std,
+                    mode="lines",
+                    line={"width": 0},
+                    fill="tonexty",
+                    fillcolor="rgba(255,209,102,0.18)",
+                    name="±1 residual SD",
+                    hoverinfo="skip",
+                    legendgroup="absolute-regression-band",
+                )
+            )
+            analysis_fig.add_trace(
+                go.Scatter(
+                    x=regression_x,
+                    y=regression_y,
                     mode="lines",
                     name="Quadratic regression",
                     line={"color": "#FFD166", "width": 3},
@@ -2639,10 +2666,37 @@ if st.session_state.selected_section == "Data Visualization 4":
             regression_coefficients = np.polyfit(
                 return_chart_df["category_score"], return_chart_df[z_column], 2
             )
+            regression_y = np.polyval(regression_coefficients, regression_x)
+            fitted_y = np.polyval(regression_coefficients, return_chart_df["category_score"])
+            residual_std = float(np.std(return_chart_df[z_column] - fitted_y, ddof=1))
             return_fig.add_trace(
                 go.Scatter(
                     x=regression_x,
-                    y=np.polyval(regression_coefficients, regression_x),
+                    y=regression_y + residual_std,
+                    mode="lines",
+                    line={"width": 0},
+                    hoverinfo="skip",
+                    showlegend=False,
+                    legendgroup="signed-regression-band",
+                )
+            )
+            return_fig.add_trace(
+                go.Scatter(
+                    x=regression_x,
+                    y=regression_y - residual_std,
+                    mode="lines",
+                    line={"width": 0},
+                    fill="tonexty",
+                    fillcolor="rgba(255,209,102,0.18)",
+                    name="±1 residual SD",
+                    hoverinfo="skip",
+                    legendgroup="signed-regression-band",
+                )
+            )
+            return_fig.add_trace(
+                go.Scatter(
+                    x=regression_x,
+                    y=regression_y,
                     mode="lines",
                     name="Quadratic regression",
                     line={"color": "#FFD166", "width": 3},
