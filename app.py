@@ -2345,11 +2345,12 @@ if st.session_state.selected_section == "Data Visualization 4":
         st.info("No post-March-2019 StockNews observations are available.")
         st.stop()
 
-    if "selected_dv4_ticker" not in st.session_state or st.session_state.selected_dv4_ticker not in dv4_tickers:
+    dv4_nav_items = dv4_tickers + ["Data Analysis"]
+    if "selected_dv4_ticker" not in st.session_state or st.session_state.selected_dv4_ticker not in dv4_nav_items:
         st.session_state.selected_dv4_ticker = dv4_tickers[0]
 
-    dv4_nav_cols = st.columns(len(dv4_tickers))
-    for col, ticker in zip(dv4_nav_cols, dv4_tickers):
+    dv4_nav_cols = st.columns(len(dv4_nav_items))
+    for col, ticker in zip(dv4_nav_cols, dv4_nav_items):
         with col:
             selected = st.session_state.selected_dv4_ticker == ticker
             if st.button(
@@ -2357,13 +2358,116 @@ if st.session_state.selected_section == "Data Visualization 4":
                 key=f"dv4_navbtn_{ticker}",
                 use_container_width=True,
                 type="primary" if selected else "secondary",
-                help=ticker_labels.get(ticker, ticker),
+                help=ticker_labels.get(ticker, "Analyze StockNews categories and abnormal returns"),
             ):
                 st.session_state.selected_dv4_ticker = ticker
 
     st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
 
     dv4_ticker = st.session_state.selected_dv4_ticker
+    if dv4_ticker == "Data Analysis":
+        analysis_rows = []
+        for _, analysis_row in dv4_rows.iterrows():
+            analysis_key = analysis_row["note_key"]
+            category_cells = stocknews_coverage_lookup[analysis_key].get("categories", {})
+            active_cells = [cell for cell in category_cells.values() if cell]
+            positive_count = sum(cell.get("direction") == "positive" for cell in active_cells)
+            negative_count = sum(cell.get("direction") == "negative" for cell in active_cells)
+            active_count = len(active_cells)
+            category_sum = positive_count - negative_count
+            # Five retained observations have no category tied to the move.
+            # Give those a neutral score of zero so every StockNews observation
+            # remains visible; the hover label makes the zero-active case clear.
+            category_score = category_sum / active_count if active_count else 0.0
+            market_model = abnormal_returns_lookup.get(analysis_key, {}).get("market_model") or {}
+            analysis_rows.append(
+                {
+                    "note_key": analysis_key,
+                    "ticker": analysis_row["ticker"],
+                    "quarter": analysis_row["fiscal_yearquarter"].upper(),
+                    "earnings_date": analysis_row["earnings_date"],
+                    "category_score": category_score,
+                    "category_sum": category_sum,
+                    "active_categories": active_count,
+                    "positive_categories": positive_count,
+                    "negative_categories": negative_count,
+                    "absolute_abnormal_return": (
+                        abs(market_model["abnormal_return_pct"])
+                        if market_model.get("abnormal_return_pct") is not None
+                        else None
+                    ),
+                }
+            )
+
+        analysis_df = pd.DataFrame(analysis_rows)
+        chart_df = analysis_df.dropna(subset=["absolute_abnormal_return"]).copy()
+
+        st.markdown(
+            "<div class='quarter-header' style='font-size:1.5rem; text-align:center;'>"
+            "Absolute Abnormal Returns and StockNews Category Ranking</div>",
+            unsafe_allow_html=True,
+        )
+        st.markdown(
+            "<div style='max-width:920px; margin:0 auto 1rem auto; text-align:center; "
+            "color:rgba(214,228,240,0.82);'>"
+            "Category score = (positive active categories − negative active categories) "
+            "÷ total active categories. The score ranges from −1 to +1. Observations with "
+            "no active category are retained at 0 and identified in the hover details.</div>",
+            unsafe_allow_html=True,
+        )
+
+        analysis_fig = go.Figure()
+        for analysis_ticker in sorted(chart_df["ticker"].unique()):
+            ticker_points = chart_df[chart_df["ticker"] == analysis_ticker]
+            customdata = [
+                [
+                    row.note_key,
+                    row.quarter,
+                    row.earnings_date.strftime("%Y-%m-%d"),
+                    row.category_sum,
+                    row.active_categories,
+                    row.positive_categories,
+                    row.negative_categories,
+                ]
+                for row in ticker_points.itertuples()
+            ]
+            analysis_fig.add_trace(
+                go.Scatter(
+                    x=ticker_points["absolute_abnormal_return"],
+                    y=ticker_points["category_score"],
+                    mode="markers",
+                    name=analysis_ticker,
+                    customdata=customdata,
+                    marker={"size": 10, "opacity": 0.78, "line": {"width": 0.6, "color": "#D6E4F0"}},
+                    hovertemplate=(
+                        "<b>%{customdata[0]}</b><br>"
+                        "Earnings: %{customdata[2]}<br>"
+                        "Absolute beta-adjusted abnormal return: %{x:.2f}%<br>"
+                        "Category score: %{y:.3f} "
+                        "(%{customdata[3]}/%{customdata[4]})<br>"
+                        "Positive: %{customdata[5]} | Negative: %{customdata[6]}"
+                        "<extra></extra>"
+                    ),
+                )
+            )
+        analysis_fig.add_hline(y=0, line_dash="dash", line_color="rgba(214,228,240,0.45)")
+        analysis_fig.update_layout(
+            xaxis_title="Absolute beta-adjusted abnormal return (%)",
+            yaxis_title="StockNews category ranking",
+            yaxis={"range": [-1.08, 1.08], "tickmode": "linear", "dtick": 0.25},
+            hovermode="closest",
+            legend_title_text="Ticker",
+            height=650,
+            margin={"l": 65, "r": 35, "t": 35, "b": 65},
+        )
+        st.plotly_chart(analysis_fig, use_container_width=True, key="dv4_category_abnormal_scatter")
+        st.caption(
+            f"{len(chart_df)} StockNews observations plotted. "
+            f"{int((analysis_df['active_categories'] == 0).sum())} observations have no active category "
+            "and are assigned a neutral score of 0."
+        )
+        st.stop()
+
     dv4_sub = dv4_rows[dv4_rows["ticker"] == dv4_ticker].reset_index(drop=True)
     dv4_company_name = dv4_sub["company_name"].iloc[0]
     dv4_period_start = dv4_sub["earnings_date"].min().strftime("%Y-%m-%d")
