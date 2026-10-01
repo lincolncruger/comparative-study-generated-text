@@ -19,23 +19,74 @@ Edit it here as the approach evolves.
 
 ---
 
+## Required evidence pipeline before prompting
+
+The writing prompt is the final stage, not the retrieval stage. Run the following
+deterministic pipeline for every observation before sending anything to the model.
+An observation that fails a gate is quarantined for review rather than converted
+into polished prose.
+
+1. **Fetch the complete result set.** Query every configured news provider for the
+   observation's full event window and follow every pagination cursor/page until
+   exhausted. Do not stop after the first page, the first three articles, or a
+   provider-defined default limit. Preserve the raw response unchanged. Record the
+   provider, provider article ID, query, event window and retrieval timestamp.
+2. **Resolve and test every source URL.** Follow redirects, save the final URL and
+   HTTP status, and mark paywalls, login pages, generic home pages, deleted pages
+   and error pages. A URL merely being non-empty is not validation. Never invent a
+   replacement URL.
+3. **Verify article identity.** Confirm that the destination headline and company
+   match the API record and that the publication date falls inside the intended
+   event window. Reject wrong-company, wrong-quarter and unrelated-event pages.
+4. **Acquire usable article text.** Prefer the provider's licensed full text. When
+   permitted, retrieve the publisher page as a fallback and extract the article
+   body rather than navigation, promotional or sidebar text. Store the API text
+   and extracted text separately. Mark each article `full_text`, `partial_text` or
+   `snippet_only`; never silently present a snippet as a full article.
+5. **Normalize, deduplicate and retain all relevant evidence.** Canonicalize URLs,
+   collapse true duplicates/syndicated copies while preserving their provenance,
+   and remove market roundups that only mention the ticker in passing. Do not use
+   an arbitrary article cap. Every distinct relevant article available for the
+   observation must reach the prompt, including previews, the initial earnings
+   report, follow-up reaction pieces and analyst commentary.
+6. **Build one self-contained observation packet.** Sort all retained sources from
+   oldest to newest and include their validation metadata. Previews may establish
+   expectations; post-release and follow-up pieces may establish results and the
+   market's interpretation. Do not split one observation across independent model
+   runs, because no run should reason from only a subset of its available evidence.
+7. **Apply deterministic output validation.** Every number, expectation, quotation,
+   reaction and causal statement in the drafted output must be traceable to at
+   least one retained source. Verify the category schema, explicit/implicit rules,
+   source order and URLs mechanically. Reject and retry outputs with unsupported
+   claims; if they still fail, quarantine the observation rather than publishing it.
+
+Minimum publication gate: at least one retained source must contain usable article
+text that substantively reports the earnings, analyzes the results, or explains the
+reaction. Snippet-only evidence may help discover a source but is not sufficient by
+itself for a published observation. Dead or mismatched links are never shown as
+verified sources. The pipeline must emit a separate audit report listing fetched,
+deduplicated, retained, rejected and unreachable sources for every observation.
+
+---
+
 ```
 You are writing [SOURCE]-grounded analysis for a financial dashboard, for a set of companies' earnings observations.
 
 Read: [input file path]
 
-It's a JSON object keyed by note_key (e.g. "TJX_2016q2"). Each entry has: ticker, company_name, fiscal_yearquarter, earnings_date, ret_1day_pct/ret_2day_pct/ret_3day_pct/ret_5day_pct (real market data -- see the critical rule below), "articles": a list of zero or more [SOURCE] articles fetched for that earnings event, and optionally "filings": the company's 8-K / earnings press release for that quarter.
+It's a JSON object keyed by note_key (e.g. "TJX_2016q2"). Each entry has: ticker, company_name, fiscal_yearquarter, earnings_date, ret_1day_pct/ret_2day_pct/ret_3day_pct/ret_5day_pct (real market data -- see the critical rule below), "articles": every distinct relevant [SOURCE] article available for that earnings event after exhaustive pagination and deterministic validation, and optionally "filings": the company's 8-K / earnings press release for that quarter. Each article includes its provider ID, title, publication date/time, original URL, resolved URL, URL status, title/company/date match results, text-completeness status and article text.
 
 *** CRITICAL RULE: only present what the articles say. NEVER mention, cite, or compare against the ret_1day_pct/ret_2day_pct/ret_3day_pct/ret_5day_pct figures. They are OUR OWN computed numbers, not something any article reported, and writing them into the output makes it look like the article said something it never said. Use them only for your own background orientation. If an article states the stock's reaction (e.g. "shares fell 6% in after-hours trading"), report that, since it IS from the article. ***
 
-Work through each observation in four steps.
+The articles list is the complete evidence set for the observation. Read every article before writing. Do not select only the first few, stop after finding one plausible explanation, or ignore later follow-up coverage. Work through each observation in five steps.
 
 STEP 1 -- SELECT QUALITY ARTICLES.
-Keep an article only if it does at least one of:
+Review every supplied article. Keep every distinct article with usable text that does at least one of:
   - details the earnings report (results, guidance, segment figures);
   - provides analysis of the results;
-  - explains why the stock reacted.
-Discard everything else: brief headline items with no detail, general market roundups that mention the company in passing, and articles about a different quarter or a different event.
+  - explains why the stock reacted;
+  - establishes pre-release expectations used by a later results/reaction article.
+Discard everything else: brief headline items with no detail, snippet-only records, unreachable or title-mismatched links, general market roundups that mention the company in passing, and articles about a different quarter or a different event. Do not impose an article-count cap and do not discard a relevant article merely because another source covers the same broad topic; retain it when it adds distinct figures, expectations, quotations, reaction details or analysis.
 If no article passes, skip the observation entirely -- write nothing for it.
 Everything below uses ONLY the kept articles.
 Order the kept articles chronologically by publication date and time, earliest first: the articles published closest to the earnings release come first, and articles from subsequent days follow in date order. Read them in that order.
@@ -81,13 +132,18 @@ STEP 3 -- WRITE THREE PARAGRAPHS. Stay brief and concise on each category -- one
 STEP 4 -- FILL THE CATEGORY TABLE.
 "categories" is an object with all 10 category names as keys, in the order above. For an included category, the value is {"direction": "positive" or "negative", "attribution": "explicit" or "implicit", "text": "..."} where "text" is one to three sentences: what happened versus what was expected, with the articles' own figures or wording. For an omitted category, the value is null. The table and the paragraphs must match: every explicit category is discussed in explicit_reasons, every implicit one in implicit_reasons, and no paragraph gives a reason that isn't in the table.
 
+STEP 5 -- VERIFY EVERY CLAIM AGAINST THE COMPLETE EVIDENCE SET.
+Before writing the output, trace every reported number, expectation, quotation, stock reaction and causal statement to one or more kept articles. Reconcile apparent conflicts by checking dates, periods, GAAP versus adjusted measures, and whether an article is describing the current or a prior quarter. When reliable sources genuinely disagree, describe the disagreement and attribute each version; never silently choose one. Remove any statement that cannot be supported by the supplied text. Confirm that the synthesis reflects all material relevant coverage, not only the most convenient article.
+
 General rules:
 - Everything must be grounded ONLY in the kept articles (plus filings, for figures only). No outside knowledge about the company, competitors, or later events.
+- Use the entire retained evidence set. Sparse output is acceptable only when the exhaustive, validated source set is genuinely sparse; it is not acceptable because the first article was treated as sufficient.
+- Never describe a dead, mismatched, generic or snippet-only source as verified coverage.
 - Never use the same figure or sentence as the evidence for two categories.
 - If an article is an opinion or analyst column, represent its view as the column's own view.
 - Third person, plain prose, no markdown, no bullet points in the paragraphs.
 
-Sources: every news source used must be linked. "sources" lists every kept article and every filing you used, in the same chronological order (earliest first, closest to the earnings release), each with its "url" copied exactly from the input -- never construct, shorten, or guess a URL. Don't list discarded articles. If a source you used has no URL in the input, still list it with "url": null so the gap is visible.
+Sources: every news source used must be linked. "sources" lists every kept article and every filing you used, in the same chronological order (earliest first, closest to the earnings release), each with its validated resolved "url" copied exactly from the input -- never construct, shorten, or guess a URL. Don't list discarded articles. A source without a working validated URL fails the publication gate and must not be presented as verified dashboard coverage.
 
 Output: write to [output file path] -- a JSON object keyed by note_key (only for observations you wrote), each value:
 {
@@ -104,8 +160,10 @@ Before finishing, check every entry:
 - every included category states what was expected, or says the articles give no expectation;
 - every explicit category appears in explicit_reasons, every implicit one in implicit_reasons, and nothing else is given as a reason;
 - no category is marked explicit unless an article states the link;
-- every kept article and every filing used is in "sources", in chronological order (earliest first), with its URL copied exactly from the input.
-Report how many observations you wrote, how many you skipped for having no quality article, how many have no explicit category, and how many sources have no URL.
+- every numerical and causal claim can be located in at least one kept article;
+- conflicts across sources are reconciled or explicitly attributed rather than hidden;
+- every kept article and every filing used is in "sources", in chronological order (earliest first), with its validated resolved URL copied exactly from the input.
+Report how many observations you wrote, how many you skipped for having no quality article, how many have no explicit category, how many sources were rejected by the evidence pipeline, and how many retained sources have no working validated URL.
 ```
 
 ---
@@ -134,11 +192,15 @@ Report how many observations you wrote, how many you skipped for having no quali
 - **Filings only confirm figures**: an 8-K or press release is factual, but it
   can't say what was expected or why the stock moved.
 - **Every source linked, URLs copied exactly**: every claim can be checked
-  against its source from the dashboard. A missing URL is listed as null rather
-  than guessed, because reconstructed links (e.g. Benzinga's) often led to
-  generic pages instead of the article.
-- **Quality filter in the same prompt**: keeps the pipeline to one call per
-  batch; observations with no quality article are skipped, not padded.
+  against its source from the dashboard. The retrieval pipeline must resolve
+  and verify the link first; a non-empty but dead or generic URL is not valid.
+  Reconstructed links are never guessed.
+- **Exhaustive retrieval before writing**: every page and every relevant source
+  available for the event is collected before the observation is summarized.
+  Arbitrary top-three or first-page caps create sparse, biased explanations.
+- **Quality gates before and after the prompt**: deterministic retrieval checks
+  precede generation and deterministic claim/schema checks follow it.
+  Observations that fail either gate are quarantined, not padded or published.
 
 ## Adapting per source
 
