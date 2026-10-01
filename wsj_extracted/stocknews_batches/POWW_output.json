@@ -1,0 +1,202 @@
+{
+  "POWW_2021q2": {
+    "summary_analysis": "AMMO, Inc. reported fiscal fourth-quarter and full-year 2021 results, and Benzinga and Motley Fool said shares jumped roughly 11% the next day. The rally was explicitly tied to a quarterly profit that beat estimates and to industry-wide ammunition demand the company called exceedingly strong, while strong sales growth and new forward guidance were mentioned alongside the move without a stated causal link.",
+    "explicit_reasons": "AMMO reported adjusted quarterly earnings of 4 cents per share, beating the estimate for a loss of 1 cent per share, which Benzinga said was why the stock was trading significantly higher. Motley Fool framed the whole rally around outsized firearms demand, quoting AMMO's statement that \"demand fundamentals in the U.S. domestic ammunition market are exceedingly strong and we are seeing no indication of slowing,\" alongside data showing 8 million first-time gun buyers last year and record demand at peer gunmakers.",
+    "implicit_reasons": "Motley Fool reported that fiscal fourth-quarter sales rocketed 409% from the year-ago period and adjusted profit surged 296%, presented alongside the 11.4% share-price jump without stating a direct cause and effect. The article also noted AMMO's new guidance of $41 million in fiscal first-quarter sales and its expectation of its first-ever quarterly profit, again without tying the guidance itself to the stock's move.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AMMO guided to $41 million in fiscal first-quarter sales and said it expected its first-ever quarterly profit, reported by Motley Fool alongside the share rally. The articles give no prior expectation to compare this guidance against."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Motley Fool reported fiscal fourth-quarter sales rocketed 409% from the year-ago period, cited next to the 11.4% share jump without an explicit causal statement. The articles give no analyst or consensus expectation for the revenue figure."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "AMMO reported adjusted quarterly earnings of 4 cents per share, which Benzinga said beat the estimate for a loss of 1 cent per share and was why the stock was trading significantly higher. The GlobeNewsWire release also cited full fiscal-year adjusted EBITDA of $8.1 million and adjusted EPS of $0.07, for which the articles give no expectation."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Motley Fool framed the stock's rise around \"outsized firearms demand,\" noting the firearms industry remained \"white hot\" with 8 million first-time gun buyers last year and record demand at Smith & Wesson and Sturm, Ruger, and quoted AMMO's statement that domestic ammunition demand fundamentals were exceedingly strong with no sign of slowing."
+      }
+    },
+    "sources": [
+      {"title": "AMMO, Inc. Reports Financial Results for its Fiscal Fourth Quarter and Full Fiscal Year", "published_date": "2021-06-29T16:05:00-04:00", "url": "https://www.globenewswire.com/news-release/2021/06/29/2255180/0/en/AMMO-Inc-Reports-Financial-Results-for-its-Fiscal-Fourth-Quarter-and-Full-Fiscal-Year.html"},
+      {"title": "Why AMMO Stock Is Shooting Higher Today", "published_date": "2021-06-30T11:46:27-04:00", "url": "https://www.benzinga.com/news/earnings/21/06/21790700/why-ammo-stock-is-shooting-higher-today?utm_source=snapi"},
+      {"title": "Why AMMO Shot 11% Higher Today", "published_date": "2021-06-30T20:48:00-04:00", "url": "https://www.fool.com/investing/2021/06/30/why-ammo-shot-11-higher-today/"}
+    ]
+  },
+  "POWW_2022q2": {
+    "summary_analysis": "AMMO, Inc. reported fiscal year 2022 results including 285% revenue growth and issued fiscal 2023 guidance of $300 million to $310 million in revenue, and Benzinga reported shares trading higher in after-hours action on the announcement. The explicit driver cited was the scale of the year-over-year revenue growth, while the quarterly earnings beat and the new guidance were reported alongside the move without a stated causal link.",
+    "explicit_reasons": "Benzinga said AMMO shares were trading higher in Wednesday's after-hours session after the company announced strong financial results that were significantly higher year-over-year, specifically that full-year fiscal 2022 revenue increased 285% year-over-year to $240.3 million.",
+    "implicit_reasons": "Zacks reported AMMO's fiscal fourth-quarter adjusted earnings of $0.09 per share beat the Zacks consensus estimate of $0.07, a 28.57% surprise, without tying the beat to the share move. AMMO also issued fiscal 2023 revenue guidance of $300 million to $310 million, close to the $305.5 million Zacks said was the current FY2023 consensus, again reported without an explicit link to the after-hours reaction.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AMMO issued fiscal 2023 revenue guidance of $300 million to $310 million, reported in the earnings release alongside the after-hours rally without an explicit statement tying it to the move. Zacks separately cited a $305.5 million FY2023 consensus estimate, close to the midpoint of the new guidance."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Benzinga said AMMO shares traded higher after hours after the company reported full-year fiscal 2022 revenue up 285% year-over-year to $240.3 million, calling the results significantly higher year-over-year. For the fourth quarter alone, Zacks said the $70.1 million in revenue missed the Zacks consensus estimate by 7.15%."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Zacks reported AMMO's adjusted fiscal fourth-quarter earnings of $0.09 per share beat the Zacks consensus estimate of $0.07, a 28.57% surprise, up from $0.04 a year earlier, without linking the beat directly to the share move."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {"title": "AMMO, Inc. Reports Fiscal Year 2022 Financial Results Including 285% Revenue Growth and Provides Fiscal Year 2023 Guidance Comprising of $300 Million to $310 Million in Revenues", "published_date": "2022-06-29T16:05:00-04:00", "url": "https://www.globenewswire.com/news-release/2022/06/29/2471653/0/en/AMMO-Inc-Reports-Fiscal-Year-2022-Financial-Results-Including-285-Revenue-Growth-and-Provides-Fiscal-Year-2023-Guidance-Comprising-of-300-Million-to-310-Million-in-Revenues.html"},
+      {"title": "After-Hours Action: Why Ammo (POWW) Shares Are Surging", "published_date": "2022-06-29T16:23:02-04:00", "url": "https://www.benzinga.com/news/earnings/22/06/27908294/after-hours-action-why-ammo-poww-shares-are-surging?utm_source=snapi"},
+      {"title": "AMMO, Inc. (POWW) Surpasses Q4 Earnings Estimates", "published_date": "2022-06-29T19:22:30-04:00", "url": "https://www.zacks.com/stock/news/1945943/ammo-inc-poww-surpasses-q4-earnings-estimates"}
+    ]
+  },
+  "POWW_2022q3": {
+    "summary_analysis": "AMMO, Inc. announced a plan to split into two separately traded companies and separately reported fiscal first-quarter results, and MarketWatch and Motley Fool reported shares tumbled as much as 10% and then fell as much as 20% more over the following day. The moves were explicitly tied first to investor dislike of the separation plan and then to higher costs that dragged on margins even though revenue grew and earnings beat estimates.",
+    "explicit_reasons": "MarketWatch reported AMMO shares tumbled 10.1% in morning trading after the company announced a plan to separate its ammunition and marketplace businesses into two independent publicly traded companies, noting the selloff came a day after the stock closed at an eight-month high following a 62.5% three-month rally; Motley Fool likewise said shares were tumbling as much as 10.8% after the split announcement. The next day, Motley Fool said fiscal first-quarter results came in below expectations and identified cost as \"the problem,\" reporting gross margin fell to 29.8% from 42.7% a year earlier on higher materials, labor and overhead costs tied to a new manufacturing facility, which it said sent shares down as much as 20% in Tuesday trading.",
+    "implicit_reasons": "Zacks reported AMMO's fiscal first-quarter revenue of $60.76 million missed the Zacks consensus estimate by 11.43%, up from $44.48 million a year earlier, without stating a direct link to the share-price move.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Zacks reported fiscal first-quarter revenue of $60.76 million, up from $44.48 million a year earlier but missing the Zacks consensus estimate by 11.43%, without tying the miss directly to the stock's decline."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "Adjusted fiscal first-quarter EPS of $0.09 beat the Zacks consensus of $0.04 (a 125% surprise) but was down from $0.13 a year earlier. Motley Fool said the real problem was cost: gross margin fell to 29.8% from 42.7% a year earlier on higher materials, labor and overhead costs tied to a new manufacturing facility, which the article said sent shares down as much as 20% in Tuesday trading."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "MarketWatch and Motley Fool said shares tumbled about 10% after AMMO's management announced a plan to split the company into two publicly traded businesses, one for ammunition and one for its marketplace, with MarketWatch noting the selloff followed an eight-month high and a 62.5% three-month rally, indicating the plan was not what the market had anticipated."
+      },
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {"title": "AMMO stock tumbles after plan to separate into 2 publicly traded companies", "published_date": "2022-08-15T10:13:55-04:00", "url": "https://www.marketwatch.com/story/ammo-stock-tumbles-after-plan-to-separate-into-2-publicly-traded-companies-2022-08-15"},
+      {"title": "Why Ammo Stock Is Tumbling Today", "published_date": "2022-08-15T13:10:24-04:00", "url": "https://www.fool.com/investing/2022/08/15/why-ammo-stock-is-tumbling-today/"},
+      {"title": "AMMO, Inc. (POWW) Tops Q1 Earnings Estimates", "published_date": "2022-08-15T21:04:05-04:00", "url": "https://www.zacks.com/stock/news/1968358/ammo-inc-poww-tops-q1-earnings-estimates"},
+      {"title": "Why Ammo Stock Is Down Today", "published_date": "2022-08-16T15:16:05-04:00", "url": "https://www.fool.com/investing/2022/08/16/why-ammo-stock-is-down-today/"}
+    ]
+  },
+  "POWW_2022q4": {
+    "summary_analysis": "AMMO, Inc. reported fiscal second-quarter results and lowered its full-year guidance, and Motley Fool said investors were disappointed and sent shares down as much as 30% the next day. The explicit drivers were a large revenue miss and a steep guidance cut, while a modest earnings beat and rising costs were reported without being tied directly to the move.",
+    "explicit_reasons": "Motley Fool reported AMMO's fiscal second-quarter revenue of $48.3 million was well below the $63 million Wall Street had expected, down 21% from the same period a year earlier, and said investors were disappointed, sending shares down as much as 30% on Tuesday. The article also reported AMMO lowered its full-year fiscal 2023 revenue forecast to $220 million-$240 million, well below the $295 million Wall Street consensus, grouping the guidance cut with the revenue miss as the reason investors were fleeing the stock.",
+    "implicit_reasons": "Motley Fool reported adjusted EPS of $0.05 slightly beat the $0.04 consensus, but noted AMMO faced higher commodity and freight costs and one-time expenses tied to a proxy battle against a dissident director, describing these cost headwinds as likely to continue, without stating that they directly drove the share decline.",
+    "categories": {
+      "Guidance": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "AMMO lowered its full-year fiscal 2023 revenue forecast to $220 million-$240 million, well below the $295 million Wall Street consensus estimate, which Motley Fool grouped with the revenue miss as the reason shares fell as much as 30%."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "Motley Fool reported fiscal second-quarter revenue of $48.3 million, down 21% year-over-year and well below the $63 million Wall Street had expected, saying investors were disappointed and sent shares down as much as 30% on Tuesday."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Adjusted EPS of $0.05 slightly beat the $0.04 consensus, but Motley Fool noted AMMO faced higher commodity and freight costs and one-time expenses tied to a proxy battle against a dissident director, calling these cost headwinds likely to continue, without a stated link to the share decline."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {"title": "AMMO, Inc. (POWW) Lags Q2 Earnings and Revenue Estimates", "published_date": "2022-11-14T21:03:11-05:00", "url": "https://www.zacks.com/stock/news/2018146/ammo-inc-poww-lags-q2-earnings-and-revenue-estimates"},
+      {"title": "Why Ammo Stock Is Plunging Today", "published_date": "2022-11-15T11:05:09-05:00", "url": "https://www.fool.com/investing/2022/11/15/why-ammo-stock-is-plunging-today/"}
+    ]
+  },
+  "POWW_2023q1": {
+    "summary_analysis": "AMMO, Inc. reported fiscal third-quarter results, and the only quality article covering the release, from Zacks, does not state how the stock reacted. The article reports an earnings miss and a large revenue decline versus consensus, without tying either to a price move.",
+    "explicit_reasons": "The articles don't explicitly attribute the move to any specific factor.",
+    "implicit_reasons": "Zacks reported adjusted fiscal third-quarter EPS of $0.05, missing the Zacks consensus estimate of $0.08 (a -37.50% surprise) and down from $0.14 a year earlier. Zacks also reported revenue of $38.71 million, missing the Zacks consensus estimate by 31.97% and down from $64.69 million a year earlier.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Zacks reported fiscal third-quarter revenue of $38.71 million, missing the Zacks consensus estimate by 31.97% and down sharply from $64.69 million a year earlier."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Zacks reported adjusted EPS of $0.05, missing the Zacks consensus estimate of $0.08 (a -37.50% surprise) and down from $0.14 a year earlier."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {"title": "AMMO, Inc. (POWW) Q3 Earnings and Revenues Lag Estimates", "published_date": "2023-02-14T19:34:04-05:00", "url": "https://www.zacks.com/stock/news/2054379/ammo-inc-poww-q3-earnings-and-revenues-lag-estimates"}
+    ]
+  },
+  "POWW_2023q2": {
+    "summary_analysis": "AMMO, Inc. reported fiscal fourth-quarter and full-year 2023 results, and PennyStocks reported the stock \"shot\" higher and climbed in post-market trading after the release showed a beat on both EPS and sales. Both figures beating expectations were explicitly cited as the reason for the move, with management's commentary on production capacity and marketplace improvements reported alongside it.",
+    "explicit_reasons": "PennyStocks reported POWW stock shot higher after the latest earnings showed a beat on EPS and sales: the market was expecting a loss per share of a penny, but the company reported EPS of 3 cents, while $37.18 million in expected sales was dwarfed by the $42.7 million actually reported, and the article said AMMO stock climbed in post-market trading following the release.",
+    "implicit_reasons": "PennyStocks quoted CEO Fred Wagenhals saying increased production capacity at AMMO's Wisconsin plant, combined with enhancements to the GunBroker.com marketplace, had positioned the company to navigate current inflationary and recessionary headwinds and was \"primed to take hold of these opportunities,\" reported alongside the earnings beat without a stated link to the share move.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "PennyStocks reported fiscal fourth-quarter sales of $42.7 million dwarfed the $37.18 million the market was expecting, part of what the article said caused POWW stock to shoot higher."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "PennyStocks reported AMMO posted EPS of 3 cents versus a market expectation of a penny-per-share loss, which the article said was part of why POWW stock shot higher and climbed in post-market trading."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "CEO Fred Wagenhals said increased production capacity at AMMO's Wisconsin plant and continued enhancements to the GunBroker.com marketplace had positioned the company to navigate inflationary and recessionary headwinds and to be \"primed to take hold of these opportunities,\" without the article stating this commentary itself moved the stock."
+      },
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {"title": "3 Red Hot Penny Stocks To Watch Before Next Week, Time To Buy?", "published_date": "2023-06-14T23:41:18-04:00", "url": "https://pennystocks.com/featured/2023/06/14/3-red-hot-penny-stocks-to-watch-before-next-week-time-to-buy/"}
+    ]
+  }
+}

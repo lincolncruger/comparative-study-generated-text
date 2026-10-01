@@ -1,0 +1,406 @@
+{
+  "AMN_2019q3": {
+    "summary_analysis": "AMN Healthcare reported second-quarter 2019 results that topped Wall Street estimates; the article does not state how shares reacted. Coverage credits the quarter to earnings and revenue exceeding consensus expectations and to upbeat guidance issued for the third quarter of 2019.",
+    "explicit_reasons": "The article does not explicitly attribute AMN Healthcare's stock move to any specific factor.",
+    "implicit_reasons": "AMN Healthcare's second-quarter earnings and revenue topped consensus estimates, and the company issued upbeat revenue guidance for the third quarter of 2019, both of which the lone available article frames positively for the stock without directly linking them to the share-price reaction.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AMN Healthcare issued upbeat guidance for third-quarter 2019 revenue; the article characterizes the guidance as upbeat but gives no specific figures or consensus comparison."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AMN Healthcare's second-quarter earnings and revenue topped the Zacks Consensus Estimate, according to the article's headline; no specific beat margin is given."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AMN Healthcare (AMN) Q2 Earnings and Revenues Top Estimates",
+        "published_date": "2019-08-07T08:51:00-04:00",
+        "url": "https://www.zacks.com/stock/news/460410/amn-healthcare-amn-q2-earnings-and-revenues-top-estimates"
+      }
+    ]
+  },
+  "AMN_2019q4": {
+    "summary_analysis": "AMN Healthcare reported third-quarter 2019 results that topped Wall Street estimates, driven by its Nurse and Allied Solutions segment; the article does not state how shares reacted. Coverage centers on the earnings beat and the segment's contribution to the topline.",
+    "explicit_reasons": "The article does not explicitly attribute AMN Healthcare's stock move to any specific factor.",
+    "implicit_reasons": "AMN Healthcare's third-quarter earnings and revenue beat consensus estimates, with the Nurse and Allied Solutions segment identified as the main driver of the results, though the article does not tie this directly to the stock's reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AMN Healthcare's third-quarter earnings and revenue topped the Zacks Consensus Estimate, according to the article's headline, with the Nurse and Allied Solutions segment identified as the main driver of the results; no specific beat margin is given."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AMN Healthcare (AMN) Q3 Earnings and Revenues Top Estimates",
+        "published_date": "2019-11-01T07:57:00-04:00",
+        "url": "https://www.zacks.com/stock/news/597964/amn-healthcare-amn-q3-earnings-and-revenues-top-estimates"
+      }
+    ]
+  },
+  "AMN_2022q2": {
+    "summary_analysis": "AMN Healthcare reported first-quarter 2022 results with revenue of $1,552.5 million, up 75% year-over-year, and adjusted diluted EPS of $3.49; the articles do not state how shares reacted. Coverage frames the quarter as a broad beat, with both revenue and profit topping Wall Street estimates by wide margins.",
+    "explicit_reasons": "The articles do not explicitly attribute AMN Healthcare's stock move to any specific factor.",
+    "implicit_reasons": "AMN Healthcare's first-quarter revenue of $1.55 billion surpassed the Zacks Consensus Estimate by 3.69% and rose 75% from $885.95 million a year earlier. Adjusted EPS of $3.49 beat the Zacks Consensus Estimate of $3.25 by a 7.38% surprise, and GAAP diluted EPS of $3.09 more than doubled from a year earlier (up 111%), with net income up 107% to $146.0 million -- factors the articles present without directly tying them to the share-price reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "First-quarter revenue of $1,552.5 million surpassed the Zacks Consensus Estimate by 3.69% and rose 75% from $885.95 million a year earlier."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Adjusted diluted EPS of $3.49 beat the Zacks Consensus Estimate of $3.25 by a 7.38% surprise, and GAAP diluted EPS of $3.09 rose 111% year-over-year, with net income up 107% to $146.0 million and adjusted EBITDA up 83% to $257.6 million."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AMN Healthcare Announces First Quarter 2022 Results",
+        "published_date": "2022-05-05T16:15:00-04:00",
+        "url": "https://www.businesswire.com/news/home/20220505005159/en/AMN-Healthcare-Announces-First-Quarter-2022-Results/"
+      },
+      {
+        "title": "AMN Healthcare Services (AMN) Q1 Earnings and Revenues Top Estimates",
+        "published_date": "2022-05-05T20:18:14-04:00",
+        "url": "https://www.zacks.com/stock/news/1917383/amn-healthcare-services-amn-q1-earnings-and-revenues-top-estimates"
+      }
+    ]
+  },
+  "AMN_2022q3": {
+    "summary_analysis": "AMN Healthcare reported second-quarter 2022 revenue of $1.427 billion, GAAP EPS of $2.77 and adjusted EPS of $3.31; the articles do not state how shares reacted. Coverage frames the results as a broad beat, with Zacks characterizing the print as demonstrating the company's segmental strength.",
+    "explicit_reasons": "The articles do not explicitly attribute AMN Healthcare's stock move to any specific factor.",
+    "implicit_reasons": "AMN Healthcare's second-quarter revenue and earnings beat Wall Street estimates, with revenue of $1.427 billion and adjusted EPS of $3.31 versus GAAP EPS of $2.77; Zacks attributed the beat to robust results across AMN's segments, without tying the results directly to the share-price reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Second-quarter revenue of $1.427 billion beat estimates, according to Zacks, which described the results as demonstrating robust segmental strength."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Second-quarter GAAP EPS was $2.77 and adjusted EPS was $3.31, beating estimates per Zacks; no specific consensus figures are given."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AMN Healthcare Announces Second Quarter 2022 Results",
+        "published_date": "2022-08-04T16:15:00-04:00",
+        "url": "https://www.globenewswire.com/news-release/2022/08/04/2492853/0/en/AMN-Healthcare-Announces-Second-Quarter-2022-Results.html"
+      },
+      {
+        "title": "AMN Healthcare (AMN) Q2 Earnings, Revenues Beat Estimates",
+        "published_date": "2022-08-05T14:18:09-04:00",
+        "url": "https://www.zacks.com/stock/news/1964985/amn-healthcare-amn-q2-earnings-revenues-beat-estimates"
+      }
+    ]
+  },
+  "AMN_2022q4": {
+    "summary_analysis": "AMN Healthcare reported third-quarter 2022 revenue of $1.139 billion and adjusted EPS of $2.57; the articles do not state how shares reacted. Coverage frames the quarter as a headline beat -- both revenue and earnings topped Wall Street estimates -- but Zacks flagged margin compression even as results beat forecasts and segments stayed robust.",
+    "explicit_reasons": "The articles do not explicitly attribute AMN Healthcare's stock move to any specific factor.",
+    "implicit_reasons": "AMN Healthcare's third-quarter revenue of $1.14 billion beat the Zacks Consensus Estimate by 3.99% and rose from $877.8 million a year earlier, and adjusted EPS of $2.57 beat the Zacks Consensus Estimate of $2.33 by a 10.30% surprise. At the same time, Zacks described the print as an earnings beat with margins down, even as the company's segments were characterized as showing robust strength -- factors presented without a direct statement tying them to the share-price reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Third-quarter revenue of $1.14 billion beat the Zacks Consensus Estimate by 3.99% and rose from $877.8 million a year earlier; Zacks described results as demonstrating robust segmental strength."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Adjusted EPS of $2.57 beat the Zacks Consensus Estimate of $2.33 by a 10.30% surprise and GAAP EPS was $2.10, but Zacks headlined the quarter as an earnings beat 'with margins down,' indicating margin compression alongside the beat; the articles give no specific margin expectation."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AMN Healthcare Announces Third Quarter 2022 Results",
+        "published_date": "2022-11-03T16:15:00-04:00",
+        "url": "https://www.globenewswire.com/news-release/2022/11/03/2548362/0/en/AMN-Healthcare-Announces-Third-Quarter-2022-Results.html"
+      },
+      {
+        "title": "AMN Healthcare Services (AMN) Surpasses Q3 Earnings and Revenue Estimates",
+        "published_date": "2022-11-03T21:05:17-04:00",
+        "url": "https://www.zacks.com/stock/news/2013875/amn-healthcare-services-amn-surpasses-q3-earnings-and-revenue-estimates"
+      },
+      {
+        "title": "AMN Healthcare (AMN) Q3 Earnings Beat Estimates, Margins Down",
+        "published_date": "2022-11-04T11:20:08-04:00",
+        "url": "https://www.zacks.com/stock/news/2014185/amn-healthcare-amn-q3-earnings-beat-estimates-margins-down"
+      }
+    ]
+  },
+  "AMN_2023q1": {
+    "summary_analysis": "AMN Healthcare reported fourth-quarter and full-year 2022 results, with revenue of $1.13 billion -- 4% above the high end of its own guidance -- and adjusted EPS of $2.48; the articles do not state how shares reacted. Coverage frames the quarter as a beat on both estimates and the company's guidance, though Zacks characterized the overall performance as soft despite robust results in most segments.",
+    "explicit_reasons": "The articles do not explicitly attribute AMN Healthcare's stock move to any specific factor.",
+    "implicit_reasons": "AMN Healthcare's fourth-quarter revenue of $1.13 billion came in 4% above the high end of the company's own guidance and beat the Zacks Consensus Estimate by 5.82%, and adjusted EPS of $2.48 beat the Zacks Consensus Estimate of $2.17 by a 14.29% surprise. Even so, Zacks described the quarter as a 'soft overall Q4 performance' despite robust results in the majority of AMN's segments, without directly tying this characterization to the share-price reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Fourth-quarter revenue of $1.13 billion came in 4% above the high end of AMN's own guidance and beat the Zacks Consensus Estimate by 5.82%, though Zacks noted the result reflected a 'soft overall Q4 performance' despite robust results in most segments."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Adjusted EPS of $2.48 beat the Zacks Consensus Estimate of $2.17 by a 14.29% surprise, and GAAP EPS was $1.88; this followed a 10.30% EPS surprise the prior quarter."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AMN Healthcare Announces Fourth Quarter and Full Year 2022 Results",
+        "published_date": "2023-02-16T16:15:00-05:00",
+        "url": "https://www.globenewswire.com/news-release/2023/02/16/2610260/0/en/AMN-Healthcare-Announces-Fourth-Quarter-and-Full-Year-2022-Results.html"
+      },
+      {
+        "title": "AMN Healthcare Services (AMN) Q4 Earnings and Revenues Beat Estimates",
+        "published_date": "2023-02-16T18:49:13-05:00",
+        "url": "https://www.zacks.com/stock/news/2055605/amn-healthcare-services-amn-q4-earnings-and-revenues-beat-estimates"
+      },
+      {
+        "title": "AMN Healthcare (AMN) Q4 Earnings, Revenues Beat Estimates",
+        "published_date": "2023-02-17T10:32:36-05:00",
+        "url": "https://www.zacks.com/stock/news/2055806/amn-healthcare-amn-q4-earnings-revenues-beat-estimates"
+      }
+    ]
+  },
+  "AMN_2023q2": {
+    "summary_analysis": "AMN Healthcare reported first-quarter 2023 revenue of $1.126 billion and adjusted EPS of $2.49; the articles do not state how shares reacted. Coverage frames the quarter as a beat on both the top and bottom lines versus Wall Street estimates.",
+    "explicit_reasons": "The articles do not explicitly attribute AMN Healthcare's stock move to any specific factor.",
+    "implicit_reasons": "AMN Healthcare's first-quarter revenue of $1.13 billion beat the Zacks Consensus Estimate by 1.61%, though it was down from $1.55 billion a year earlier, and adjusted EPS of $2.49 beat the Zacks Consensus Estimate of $2.36 by a 5.51% surprise, extending a streak of EPS beats in each of the last four quarters -- factors the articles present without directly tying them to the share-price reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "First-quarter revenue of $1.13 billion beat the Zacks Consensus Estimate by 1.61%, though it was down from $1.55 billion a year earlier."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Adjusted EPS of $2.49 beat the Zacks Consensus Estimate of $2.36 by a 5.51% surprise, and GAAP EPS was $2.02; this followed a 14.29% EPS surprise the prior quarter."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AMN Healthcare Announces First Quarter 2023 Results",
+        "published_date": "2023-05-04T16:15:00-04:00",
+        "url": "https://www.globenewswire.com/news-release/2023/05/04/2662098/0/en/AMN-Healthcare-Announces-First-Quarter-2023-Results.html"
+      },
+      {
+        "title": "AMN Healthcare Services (AMN) Surpasses Q1 Earnings and Revenue Estimates",
+        "published_date": "2023-05-04T21:17:18-04:00",
+        "url": "https://www.zacks.com/stock/news/2090583/amn-healthcare-services-amn-surpasses-q1-earnings-and-revenue-estimates"
+      }
+    ]
+  },
+  "AMN_2023q3": {
+    "summary_analysis": "AMN Healthcare reported second-quarter 2023 revenue of $991 million and adjusted EPS of $2.38; the articles do not state how shares reacted. Coverage frames the quarter as narrowly beating a lowered revenue bar while earnings topped consensus by a wider margin, with Zacks characterizing results across AMN's segments as dismal and the overall quarter as soft even as EPS beat estimates.",
+    "explicit_reasons": "The articles do not explicitly attribute AMN Healthcare's stock move to any specific factor.",
+    "implicit_reasons": "AMN Healthcare's second-quarter revenue of $991.3 million beat the Zacks Consensus Estimate by just 0.36% and fell 30.5% from $1.43 billion a year earlier, with Zacks describing results as dismal across all of AMN's segments and the overall quarter as soft. Adjusted EPS of $2.38 beat the Zacks Consensus Estimate of $2.15 by a 10.70% surprise, though it was down from $3.31 a year earlier -- factors the articles present without directly tying them to the share-price reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Second-quarter revenue of $991.3 million barely beat the Zacks Consensus Estimate, by just 0.36%, and fell 30.5% year-over-year from $1.43 billion a year earlier; Zacks described the results as 'dismal ... in all its segments,' leading to a 'soft overall Q2 performance.'"
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Adjusted EPS of $2.38 beat the Zacks Consensus Estimate of $2.15 by a 10.70% surprise, extending AMN's streak of EPS beats in each of the last four quarters, even though EPS was down from $3.31 a year earlier; GAAP EPS was $1.55."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AMN Healthcare Announces Second Quarter 2023 Results",
+        "published_date": "2023-08-03T16:15:00-04:00",
+        "url": "https://www.globenewswire.com/news-release/2023/08/03/2718608/0/en/AMN-Healthcare-Announces-Second-Quarter-2023-Results.html"
+      },
+      {
+        "title": "AMN Healthcare Services (AMN) Beats Q2 Earnings and Revenue Estimates",
+        "published_date": "2023-08-03T21:01:47-04:00",
+        "url": "https://www.zacks.com/stock/news/2132422/amn-healthcare-services-amn-beats-q2-earnings-and-revenue-estimates"
+      },
+      {
+        "title": "AMN Healthcare (AMN) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+        "published_date": "2023-08-04T00:01:03-04:00",
+        "url": "https://www.zacks.com/stock/news/2132508/amn-healthcare-amn-q2-earnings-taking-a-look-at-key-metrics-versus-estimates"
+      },
+      {
+        "title": "AMN Healthcare (AMN) Q2 Earnings and Revenues Beat Estimates",
+        "published_date": "2023-08-04T12:47:20-04:00",
+        "url": "https://www.zacks.com/stock/news/2132795/amn-healthcare-amn-q2-earnings-and-revenues-beat-estimates"
+      }
+    ]
+  },
+  "AMN_2024q2": {
+    "summary_analysis": "AMN Healthcare reported first-quarter 2024 revenue of $821 million and adjusted EPS of $0.97; the articles do not state how shares reacted. Coverage frames the quarter as narrowly beating already-lowered Wall Street estimates while both revenue and earnings fell sharply from a year earlier, with Zacks attributing a soft overall quarter to dismal results in the majority of AMN's segments.",
+    "explicit_reasons": "The articles do not explicitly attribute AMN Healthcare's stock move to any specific factor.",
+    "implicit_reasons": "AMN Healthcare's first-quarter revenue of $820.88 million beat the Zacks Consensus Estimate by just 0.73% but fell 27.1% from $1.13 billion a year earlier, and adjusted EPS of $0.97 beat the Zacks Consensus Estimate of $0.93 by a thin 4.30% surprise while falling sharply from $2.49 a year earlier. Zacks attributed the soft overall first-quarter performance to dismal results in the majority of AMN's segments, without directly tying this to the share-price reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "First-quarter revenue of $820.88 million beat the Zacks Consensus Estimate by just 0.73% but fell 27.1% from $1.13 billion a year earlier; Zacks attributed a soft overall quarter to dismal results in the majority of AMN's segments."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Adjusted EPS of $0.97 beat the Zacks Consensus Estimate of $0.93 by a thin 4.30% surprise but was down sharply from $2.49 a year earlier; GAAP EPS was $0.45."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AMN Healthcare Announces First Quarter 2024 Results",
+        "published_date": "2024-05-09T16:20:00-04:00",
+        "url": "https://www.globenewswire.com/news-release/2024/05/09/2879241/0/en/AMN-Healthcare-Announces-First-Quarter-2024-Results.html"
+      },
+      {
+        "title": "AMN Healthcare Services (AMN) Q1 Earnings and Revenues Surpass Estimates",
+        "published_date": "2024-05-09T18:36:12-04:00",
+        "url": "https://www.zacks.com/stock/news/2271778/amn-healthcare-services-amn-q1-earnings-and-revenues-surpass-estimates?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_4-2271778"
+      },
+      {
+        "title": "Compared to Estimates, AMN Healthcare (AMN) Q1 Earnings: A Look at Key Metrics",
+        "published_date": "2024-05-09T19:01:06-04:00",
+        "url": "https://www.zacks.com/stock/news/2271815/compared-to-estimates-amn-healthcare-amn-q1-earnings-a-look-at-key-metrics?cid=CS-STOCKNEWSAPI-FT-fundamental_analysis|nfm-2271815"
+      },
+      {
+        "title": "AMN Healthcare (AMN) Q1 Earnings and Revenues Beat Estimates",
+        "published_date": "2024-05-10T12:21:10-04:00",
+        "url": "https://www.zacks.com/stock/news/2272310/amn-healthcare-amn-q1-earnings-and-revenues-beat-estimates?cid=CS-STOCKNEWSAPI-FT-analyst_blog|earnings_article-2272310"
+      }
+    ]
+  },
+  "AMN_2024q4": {
+    "summary_analysis": "AMN Healthcare reported third-quarter 2024 revenue of $687.5 million and adjusted EPS of 61 cents, and Zacks reported that shares fell nearly 6.5% in after-hours trading despite both figures beating Wall Street estimates. Coverage ties the decline to margin contraction -- gross margin fell 293 basis points and adjusted operating margin fell 556 basis points, both below Zacks' own estimates -- even as revenue and earnings topped consensus and management pointed to progress on its growth strategy; the company's fourth-quarter guidance also called for continued declines in the majority of its segments.",
+    "explicit_reasons": "Zacks explicitly framed the stock's decline as coming despite the earnings and revenue beat, attributing it to margin contraction: gross margin fell 293 basis points to 30.9%, below Zacks' own 31% estimate, and adjusted operating margin contracted 556 basis points to 9.2%, even as adjusted EPS of 61 cents beat the Zacks Consensus Estimate by 5.2% and GAAP EPS of 18 cents plunged 87.1% year-over-year.",
+    "implicit_reasons": "Revenue of $687.5 million beat the Zacks Consensus Estimate by 2.6% but fell 19.4% from $853.46 million a year earlier, with steep declines in the Nurse and Allied Solutions segment (down 30.4%) and Technology and Workforce Solutions (down 10.7%) partly offset by growth in Physician and Leadership Solutions (up 13.2%). AMN's fourth-quarter guidance of $685 million-$705 million in revenue, while above the Zacks Consensus Estimate of $668.2 million, still implied a 14-16% year-over-year decline and continued weakness in the majority of segments, which Zacks called 'concerning.' Management pointed to progress on its growth strategy, including sales-pipeline improvement and Managed Services Program net wins, which Zacks said 'look promising for the stock.'",
+    "categories": {
+      "Guidance": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "AMN guided fourth-quarter revenue to $685 million-$705 million, above the Zacks Consensus Estimate of $668.2 million but still implying a 14-16% year-over-year decline, with the Nurse and Allied Solutions segment guided down 21-24% and Technology and Workforce Solutions down 9%, partly offset by 3% growth guided for Physician and Leadership Solutions; Zacks called the expected decline in the majority of segments 'concerning.'"
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Third-quarter revenue of $687.5 million beat the Zacks Consensus Estimate by 2.6% but fell 19.4% from $853.46 million a year earlier. By segment, Nurse and Allied Solutions revenue fell 30.4% to $399.4 million and Technology and Workforce Solutions fell 10.7% to $107.5 million, while Physician and Leadership Solutions rose 13.2% to $180.6 million on a 26% increase in locum tenens revenue."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "Shares fell nearly 6.5% in after-hours trading following the report, with Zacks headlining the drop as coming 'despite' the earnings and revenue beat and citing margin contraction: gross margin contracted 293 basis points to 30.9% (against Zacks' own 31% estimate) and adjusted operating margin contracted 556 basis points to 9.2%, even though adjusted EPS of 61 cents beat the Zacks Consensus Estimate by 5.2% and GAAP EPS of 18 cents plunged 87.1% year-over-year."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Management pointed to progress on its market growth strategy, including sequential improvement in the sales pipeline, Managed Services Program net wins and internal fill rates, and plans to add Locums functionality to its ShiftWise Flex VMS platform; Zacks said these factors 'look promising for the stock.' The article gives no expectation for this commentary beyond that characterization."
+      },
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AMN Healthcare Announces Third Quarter 2024 Results",
+        "published_date": "2024-11-07T16:15:00-05:00",
+        "url": "https://www.globenewswire.com/news-release/2024/11/07/2977231/0/en/AMN-Healthcare-Announces-Third-Quarter-2024-Results.html"
+      },
+      {
+        "title": "AMN Healthcare Services (AMN) Tops Q3 Earnings and Revenue Estimates",
+        "published_date": "2024-11-07T20:16:22-05:00",
+        "url": "https://www.zacks.com/stock/news/2367025/amn-healthcare-services-amn-tops-q3-earnings-and-revenue-estimates?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_4-2367025"
+      },
+      {
+        "title": "AMN Healthcare (AMN) Reports Q3 Earnings: What Key Metrics Have to Say",
+        "published_date": "2024-11-07T21:00:30-05:00",
+        "url": "https://www.zacks.com/stock/news/2367080/amn-healthcare-amn-reports-q3-earnings-what-key-metrics-have-to-say?cid=CS-STOCKNEWSAPI-FT-fundamental_analysis|nfm-2367080"
+      },
+      {
+        "title": "AMN Stock Falls Despite Q3 Earnings & Revenues Beat, Margins Contract",
+        "published_date": "2024-11-08T13:15:20-05:00",
+        "url": "https://www.zacks.com/stock/news/2367689/amn-stock-falls-despite-q3-earnings-revenues-beat-margins-contract?cid=CS-STOCKNEWSAPI-FT-analyst_blog|earnings_article-2367689"
+      }
+    ]
+  }
+}

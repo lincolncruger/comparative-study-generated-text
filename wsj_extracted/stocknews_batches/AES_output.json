@@ -1,0 +1,776 @@
+{
+  "AES_2019q3": {
+    "summary_analysis": "AES reported second-quarter 2019 results, and the articles do not report how shares reacted. Coverage was limited to brief Zacks recaps noting that both earnings and revenue came in below Wall Street estimates, with higher interest expense also cited as a drag on the quarter.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Earnings missed the Zacks Consensus Estimate by 3.70% and revenue missed by 1.03%, a double miss for the quarter. Interest expense rose 3.8% year over year to $273 million, adding to cost pressure on the bottom line.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Revenue missed the Zacks Consensus Estimate by 1.03% for the quarter ended June 2019."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Earnings missed the Zacks Consensus Estimate by 3.70%. Interest expense rose 3.8% year over year to $273 million, adding to cost pressure."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AES (AES) Q2 Earnings and Revenues Miss Estimates",
+        "published_date": "2019-08-06T07:30:08-04:00",
+        "url": "https://www.zacks.com/stock/news/459527/aes-aes-q2-earnings-and-revenues-miss-estimates"
+      },
+      {
+        "title": "AES Corp (AES) Q2 Earnings Miss Estimates, Revenues Down Y/Y",
+        "published_date": "2019-08-06T09:35:00-04:00",
+        "url": "https://www.zacks.com/stock/news/459876/aes-corp-aes-q2-earnings-miss-estimates-revenues-down-y-y"
+      }
+    ]
+  },
+  "AES_2019q4": {
+    "summary_analysis": "AES reported third-quarter 2019 results, and the articles do not report how shares reacted. Earnings beat estimates by a wide margin on new-business contributions and a lower tax rate, while revenue missed estimates; the same day, AES also announced a 10-year clean-energy technology alliance with Google.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Earnings beat the Zacks Consensus Estimate by 20.00%, with EPS of 48 cents up 37.1% year over year, primarily on contributions from new businesses and a lower effective tax rate. Revenue missed the Zacks Consensus Estimate by 11.50%. AES also announced a 10-year strategic alliance with Google to use Google Cloud technology to accelerate clean-energy grid innovation, a positive strategic development that the articles do not tie to an expectation.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Revenue missed the Zacks Consensus Estimate by 11.50% for the quarter ended September 2019."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Earnings beat the Zacks Consensus Estimate by 20.00%. EPS of 48 cents rose 37.1% year over year, primarily owing to contributions from new businesses and a lower effective tax rate."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AES announced a 10-year strategic alliance with Google to leverage Google Cloud technology and accelerate adoption of clean energy and smart-grid tools. The articles give no expectation for this announcement."
+      }
+    },
+    "sources": [
+      {
+        "title": "AES (AES) Q3 Earnings Beat Estimates",
+        "published_date": "2019-11-06T07:30:12-05:00",
+        "url": "https://www.zacks.com/stock/news/606069/aes-aes-q3-earnings-beat-estimates"
+      },
+      {
+        "title": "AES and Google in 10-year tie up to push expansion of clean energy",
+        "published_date": "2019-11-06T08:22:00-05:00",
+        "url": "https://www.cnbc.com/2019/11/06/aes-and-google-in-10-year-tie-up-to-push-expansion-of-clean-energy.html"
+      },
+      {
+        "title": "AES Corp (AES) Q3 Earnings Beat Estimates, Revenues Down Y/Y",
+        "published_date": "2019-11-06T10:58:00-05:00",
+        "url": "https://www.zacks.com/stock/news/606622/aes-corp-aes-q3-earnings-beat-estimates-revenues-down-y-y"
+      }
+    ]
+  },
+  "AES_2020q1": {
+    "summary_analysis": "AES reported fourth-quarter 2019 results, and the articles do not report how shares reacted. Earnings topped estimates while revenue fell short, and the company issued 2020 adjusted EPS guidance of $1.40 to $1.48.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Fourth-quarter earnings topped Wall Street estimates while revenue missed the mark. AES also projected adjusted earnings of $1.40 to $1.48 per share for 2020, though the articles give no expectation for that figure.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Fourth-quarter revenue missed estimates, according to the article's headline; no dollar figures are given."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Fourth-quarter earnings topped Wall Street estimates, according to the article's headline; no dollar figures are given."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AES Corp (AES) Q4 Earnings Trump, Revenues Miss Estimates",
+        "published_date": "2020-02-28T08:00:00-05:00",
+        "url": "https://www.zacks.com/stock/news/788261/aes-corp-aes-q4-earnings-trump-revenues-miss-estimates"
+      }
+    ]
+  },
+  "AES_2020q3": {
+    "summary_analysis": "AES reported second-quarter 2020 results, and the articles do not report how shares reacted. Earnings beat estimates and operating income rose from a year earlier, while revenue missed estimates and declined year over year.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Earnings beat the Zacks Consensus Estimate by 8.70%, and operating income rose 4.4% year over year to $524 million. Revenue missed the Zacks Consensus Estimate by 11.24% for the quarter ended June 2020.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Revenue missed the Zacks Consensus Estimate by 11.24% for the quarter ended June 2020."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Earnings beat the Zacks Consensus Estimate by 8.70%. Operating income rose 4.4% year over year to $524 million from $502 million."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AES (AES) Beats Q2 Earnings Estimates",
+        "published_date": "2020-08-06T07:55:04-04:00",
+        "url": "https://www.zacks.com/stock/news/1036870/aes-aes-beats-q2-earnings-estimates"
+      },
+      {
+        "title": "AES Corp (AES) Q2 Earnings Beat Estimates, Revenues Down Y/Y",
+        "published_date": "2020-08-06T11:23:00-04:00",
+        "url": "https://www.zacks.com/stock/news/1037364/aes-corp-aes-q2-earnings-beat-estimates-revenues-down-y-y"
+      }
+    ]
+  },
+  "AES_2020q4": {
+    "summary_analysis": "AES reported third-quarter 2020 results, and shares were unchanged after the report, according to Benzinga. Both earnings and revenue missed estimates and declined from a year earlier.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Earnings missed the Zacks Consensus Estimate by 2.33%. Revenue of $2,545 million declined 3% year over year and lagged the Zacks Consensus Estimate by 3.9%.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Revenue of $2,545 million declined 3% year over year and missed the Zacks Consensus Estimate by 3.9%."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Earnings missed the Zacks Consensus Estimate by 2.33% for the quarter ended September 2020."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AES (AES) Misses Q3 Earnings and Revenue Estimates",
+        "published_date": "2020-11-06T07:30:08-05:00",
+        "url": "https://www.zacks.com/stock/news/1097881/aes-aes-misses-q3-earnings-and-revenue-estimates"
+      },
+      {
+        "title": "Recap: AES Q3 Earnings",
+        "published_date": "2020-11-06T07:46:04-05:00",
+        "url": "https://www.benzinga.com/news/earnings/20/11/18246427/recap-aes-q3-earnings?utm_source=snapi"
+      },
+      {
+        "title": "AES Q3 Earnings Fall Short of Estimates, Revenues Decline Y/Y",
+        "published_date": "2020-11-06T10:42:00-05:00",
+        "url": "https://www.zacks.com/stock/news/1098163/aes-q3-earnings-fall-short-of-estimates-revenues-decline-y-y"
+      }
+    ]
+  },
+  "AES_2021q1": {
+    "summary_analysis": "AES reported full-year 2020 results, and the articles do not report how shares reacted, though Zacks said the quarter's better-than-expected earnings impressed investors even as revenue fell short. AES met or exceeded all of its 2020 strategic and financial objectives, attained a second investment-grade credit rating, and initiated 2021 adjusted EPS guidance of $1.50 to $1.58.",
+    "explicit_reasons": "Zacks said AES' fourth-quarter performance impressed investors with better-than-expected earnings, even as revenue missed the mark.",
+    "implicit_reasons": "Revenue fell short of estimates despite improving year over year, according to Zacks. AES initiated 2021 adjusted EPS guidance of $1.50 to $1.58, consistent with its 7% to 9% average annual growth framework. The company also attained a second investment-grade credit rating and pursued cost-saving and deleveraging initiatives during 2020, which it cited as earnings drivers.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AES initiated 2021 adjusted EPS guidance of $1.50 to $1.58, in line with its 7% to 9% average annual growth target; the articles give no expectation for how this compared to analyst estimates."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Zacks said AES' fourth-quarter revenue missed the mark versus estimates, even though it improved year over year; no dollar figures are given."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Zacks said AES' fourth-quarter performance impressed investors with better-than-expected earnings. Full-year 2020 adjusted EPS was $1.44, up $0.08 from 2019, reflecting new-business contributions, cost savings and deleveraging."
+      },
+      "Debt, leverage and capital raise": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AES attained a second investment-grade credit rating during 2020 and pursued deleveraging initiatives that it cited as contributing to earnings growth. The articles give no expectation for this."
+      },
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AES Met or Exceeded all 2020 Strategic and Financial Objectives",
+        "published_date": "2021-02-25T06:00:00-05:00",
+        "url": "https://www.prnewswire.com/news-releases/aes-met-or-exceeded-all-2020-strategic-and-financial-objectives-301235202.html"
+      },
+      {
+        "title": "AES Q4 Earnings Beat Estimates While Revenues Fall Short",
+        "published_date": "2021-02-25T14:26:04-05:00",
+        "url": "https://www.zacks.com/stock/news/1269737/aes-q4-earnings-beat-estimates-while-revenues-fall-short"
+      }
+    ]
+  },
+  "AES_2021q3": {
+    "summary_analysis": "AES reported second-quarter 2021 results, and the articles do not report how shares reacted. Both earnings and revenue beat estimates, the company reaffirmed its 2021 guidance and 2025 growth target, and its renewables backlog reached an all-time high.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Earnings beat the Zacks Consensus Estimate by 6.90% and revenue beat by 11.73%. AES signed 1.8 GW of new renewables contracts in the quarter, taking its backlog to an all-time high of 8.5 GW, and Moody's changed the outlook on AES' credit rating to positive.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AES signed 1.8 GW of new renewables PPAs in the quarter, bringing its total backlog to an all-time high of 8.5 GW. The articles give no expectation for this figure."
+      },
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Revenue beat the Zacks Consensus Estimate by 11.73% for the quarter ended June 2021."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Earnings beat the Zacks Consensus Estimate by 6.90%. Adjusted EPS of $0.31 rose from $0.25 a year earlier."
+      },
+      "Debt, leverage and capital raise": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Moody's changed the outlook on AES' Ba1 credit rating to positive during the quarter. The articles give no expectation for this."
+      },
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AES Achieves Key Strategic Milestones and Reaffirms Guidance Through 2025",
+        "published_date": "2021-08-04T18:54:00-04:00",
+        "url": "https://www.prnewswire.com/news-releases/aes-achieves-key-strategic-milestones-and-reaffirms-guidance-through-2025-301348829.html"
+      },
+      {
+        "title": "AES (AES) Q2 Earnings and Revenues Beat Estimates",
+        "published_date": "2021-08-04T22:05:21-04:00",
+        "url": "https://www.zacks.com/stock/news/1774824/aes-aes-q2-earnings-and-revenues-beat-estimates"
+      },
+      {
+        "title": "AES Corp. (AES) Q2 Earnings and Revenues Surpass Estimates",
+        "published_date": "2021-08-05T12:56:19-04:00",
+        "url": "https://www.zacks.com/stock/news/1775302/aes-corp-aes-q2-earnings-and-revenues-surpass-estimates"
+      }
+    ]
+  },
+  "AES_2021q4": {
+    "summary_analysis": "AES reported third-quarter 2021 results, and the articles do not report how shares reacted. Both earnings and revenue beat estimates and AES raised its renewables-signing target for the year, but it also said it now expects to land at the low end of its 2021 adjusted EPS guidance range because of a non-cash accounting adjustment.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Earnings beat the Zacks Consensus Estimate by 11.11% and revenue beat by 21.63%. AES reaffirmed its 2021 adjusted EPS guidance of $1.50 to $1.58 but said it now expects to come in at the low end, reflecting a $0.07 non-cash adjustment tied to equity units, following an updated interpretation of the accounting literature. AES also raised its 2021 renewables-signing target to 5 GW from 4 GW, taking its backlog to a record 9.2 GW.",
+    "categories": {
+      "Guidance": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "AES reaffirmed its 2021 adjusted EPS guidance of $1.50 to $1.58 but said it now expects to be at the low end of the range, reflecting a $0.07 per share non-cash accounting adjustment related to equity units issued in March 2021."
+      },
+      "Order book / backlog": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AES raised its full-year 2021 target for signing new renewables under long-term contracts to 5 GW from 4 GW, and its backlog reached a record 9.2 GW. The articles give no expectation for this."
+      },
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Revenue of $3.04 billion beat the Zacks Consensus Estimate by 21.63%, up from $2.55 billion a year earlier."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Earnings of $0.50 per share beat the Zacks Consensus Estimate of $0.45 by 11.11%, up from $0.42 a year earlier."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AES Reaffirms 7% to 9% Annualized Growth Target Through 2025; Now Expects to Sign 5 GW of Renewables Under Long-Term Contracts in 2021",
+        "published_date": "2021-11-03T18:03:00-04:00",
+        "url": "https://www.prnewswire.com/news-releases/aes-reaffirms-7-to-9-annualized-growth-target-through-2025-now-expects-to-sign-5-gw-of-renewables-under-long-term-contracts-in-2021-301415862.html"
+      },
+      {
+        "title": "AES (AES) Surpasses Q3 Earnings and Revenue Estimates",
+        "published_date": "2021-11-03T20:38:26-04:00",
+        "url": "https://www.zacks.com/stock/news/1823175/aes-aes-surpasses-q3-earnings-and-revenue-estimates"
+      },
+      {
+        "title": "AES Surpasses Q3 Earnings Estimates, Revenues Increase Y/Y",
+        "published_date": "2021-11-04T11:28:48-04:00",
+        "url": "https://www.zacks.com/stock/news/1823583/aes-surpasses-q3-earnings-estimates-revenues-increase-y-y"
+      }
+    ]
+  },
+  "AES_2022q2": {
+    "summary_analysis": "AES reported first-quarter 2022 results, and the articles do not report how shares reacted. Earnings missed estimates and fell from a year earlier, while revenue beat estimates and grew year over year; AES also attained a third investment-grade credit rating and grew its renewables backlog.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Earnings missed the Zacks Consensus Estimate by 8.70%, with adjusted EPS of $0.21 down from $0.28 a year earlier. Revenue beat the Zacks Consensus Estimate by roughly 8%. AES also attained investment-grade ratings from all three major credit-rating agencies and grew its signed renewables backlog to 10.3 GW.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AES signed or was awarded 1.1 GW of new renewables PPAs in the quarter, growing its backlog to 10.3 GW. The articles give no expectation for this figure."
+      },
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Revenue of $2.85 billion beat the Zacks Consensus Estimate by 8.06%, up 8.2% from $2.64 billion a year earlier."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Earnings of $0.21 per share missed the Zacks Consensus Estimate of $0.23 by 8.70%, down from $0.28 a year earlier."
+      },
+      "Debt, leverage and capital raise": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AES attained a third investment-grade credit rating during the quarter, reaching investment grade with all three major ratings agencies. The articles give no expectation for this."
+      },
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AES Attains Third Investment Grade Credit Rating and Reaffirms 2022 Adjusted EPS Guidance",
+        "published_date": "2022-05-05T17:00:00-04:00",
+        "url": "https://www.prnewswire.com/news-releases/aes-attains-third-investment-grade-credit-rating-and-reaffirms-2022-adjusted-eps-guidance-301541315.html"
+      },
+      {
+        "title": "AES (AES) Q1 Earnings Miss Estimates",
+        "published_date": "2022-05-05T21:04:14-04:00",
+        "url": "https://www.zacks.com/stock/news/1917405/aes-aes-q1-earnings-miss-estimates"
+      },
+      {
+        "title": "AES' Q1 Earnings Miss Estimates, Revenues Increase Y/Y",
+        "published_date": "2022-05-06T12:02:15-04:00",
+        "url": "https://www.zacks.com/stock/news/1917892/aes-q1-earnings-miss-estimates-revenues-increase-y-y"
+      }
+    ]
+  },
+  "AES_2022q4": {
+    "summary_analysis": "AES reported third-quarter 2022 results, and the articles do not report how shares reacted. Both earnings and revenue beat estimates, and AES raised its outlook to at or near the high end of its 2022 adjusted EPS guidance range.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Earnings beat the Zacks Consensus Estimate by 16.67% and revenue beat by 16.37%. AES said it now expects full-year 2022 adjusted EPS at or near the high end of its $1.55-to-$1.65 guidance range, and grew its renewables backlog to 11.2 GW.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AES said it now expects full-year 2022 adjusted EPS to come in at or near the high end of its guidance range of $1.55 to $1.65. The articles give no expectation for how this compared to prior analyst forecasts."
+      },
+      "Order book / backlog": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AES signed 1.6 GW of new long-term renewables contracts in the quarter, growing its backlog to 11.2 GW. The articles give no expectation for this figure."
+      },
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Revenue of $3.63 billion beat the Zacks Consensus Estimate by 16.37%, up 19.5% from $3.04 billion a year earlier."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Earnings of $0.63 per share beat the Zacks Consensus Estimate of $0.54 by 16.67%, up 26% from $0.50 a year earlier, driven by higher MCAC margins from redirecting LNG to international customers, partly offset by derivative losses at the US and Utilities SBU."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AES Expects Full Year 2022 Adjusted EPS to be at or Near the High End of Guidance Range of $1.55 to $1.65",
+        "published_date": "2022-11-04T06:00:00-04:00",
+        "url": "https://www.prnewswire.com/news-releases/aes-expects-full-year-2022-adjusted-eps-to-be-at-or-near-the-high-end-of-guidance-range-of-1-55-to-1-65--301668529.html"
+      },
+      {
+        "title": "AES (AES) Tops Q3 Earnings and Revenue Estimates",
+        "published_date": "2022-11-04T08:17:09-04:00",
+        "url": "https://www.zacks.com/stock/news/2014002/aes-aes-tops-q3-earnings-and-revenue-estimates"
+      },
+      {
+        "title": "AES Q3 Earnings Surpass Estimates, Revenues Increase Y/Y",
+        "published_date": "2022-11-04T12:03:09-04:00",
+        "url": "https://www.zacks.com/stock/news/2014257/aes-q3-earnings-surpass-estimates-revenues-increase-y-y"
+      }
+    ]
+  },
+  "AES_2023q1": {
+    "summary_analysis": "AES reported full-year 2022 results, and the articles do not report how shares reacted. Both fourth-quarter earnings and revenue beat estimates, full-year adjusted EPS of $1.67 came in above the top of AES' 2022 guidance range, and the company initiated 2023 adjusted EPS guidance of $1.65 to $1.75.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Fourth-quarter earnings beat the Zacks Consensus Estimate by 6.52% and revenue beat by 6.17%. Full-year 2022 adjusted EPS of $1.67 came in above AES' own guidance range of $1.55 to $1.65. AES initiated 2023 adjusted EPS guidance of $1.65 to $1.75, noting that up to $0.10 of potential upside from projects slipping into 2024 is not included in that range.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AES initiated 2023 adjusted EPS guidance of $1.65 to $1.75, up from full-year 2022 adjusted EPS of $1.67, while noting up to $0.10 of potential upside from 2023 projects slipping to 2024 is excluded from the range."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Fourth-quarter revenue of $3.06 billion beat the Zacks Consensus Estimate by 6.17%, up 10.5% from $2.77 billion a year earlier."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Fourth-quarter earnings of $0.49 per share beat the Zacks Consensus Estimate of $0.46 by 6.52%. Full-year adjusted EPS was $1.67, above the high end of AES' $1.55-to-$1.65 2022 guidance range."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AES Delivers on All 2022 Financial and Strategic Objectives; Reaffirms 7% to 9% Annualized Growth Target Through 2025",
+        "published_date": "2023-02-27T06:00:00-05:00",
+        "url": "https://www.prnewswire.com/news-releases/aes-delivers-on-all-2022-financial-and-strategic-objectives-reaffirms-7-to-9-annualized-growth-target-through-2025-301756157.html"
+      },
+      {
+        "title": "AES (AES) Surpasses Q4 Earnings and Revenue Estimates",
+        "published_date": "2023-02-27T09:02:21-05:00",
+        "url": "https://www.zacks.com/stock/news/2059143/aes-aes-surpasses-q4-earnings-and-revenue-estimates"
+      },
+      {
+        "title": "AES Q4 Earnings Surpass Estimates, Revenues Increase Y/Y",
+        "published_date": "2023-02-27T09:47:05-05:00",
+        "url": "https://www.zacks.com/stock/news/2059218/aes-q4-earnings-surpass-estimates-revenues-increase-y-y"
+      }
+    ]
+  },
+  "AES_2023q2": {
+    "summary_analysis": "AES reported first-quarter 2023 results, and the articles do not report how shares reacted. Revenue beat estimates and earnings improved modestly from a year earlier, while AES reaffirmed its 2023 guidance and advanced its decarbonization plans.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Revenue beat the Zacks Consensus Estimate by 13.8%, up 13.6% year over year. Adjusted EPS of $0.22 rose $0.01 from a year earlier. AES also settled its AES Ohio rate case and agreed to terminate the PPA for the 205 MW Warrior Run coal plant for total payments of $357 million, part of its decarbonization strategy.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Revenue of $3,239 million beat the Zacks Consensus Estimate by 13.8%, up 13.6% year over year."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Adjusted EPS of $0.22 rose $0.01 from $0.21 a year earlier; net income was $189 million versus $171 million. The articles give no expectation for these figures versus analyst estimates."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AES Ohio reached a comprehensive rate-case settlement, and AES agreed to terminate the PPA for the 205 MW Warrior Run coal plant for total payments of $357 million as part of its decarbonization plan. The articles give no expectation for these developments."
+      }
+    },
+    "sources": [
+      {
+        "title": "AES Reports Positive Momentum in First Quarter; Reaffirms 2023 Guidance; Introduces New Strategic Business Units",
+        "published_date": "2023-05-04T17:13:00-04:00",
+        "url": "https://www.prnewswire.com/news-releases/aes-reports-positive-momentum-in-first-quarter-reaffirms-2023-guidance-introduces-new-strategic-business-units-301816641.html"
+      },
+      {
+        "title": "AES Q1 Revenues Surpass Estimates, Earnings Increase Y/Y",
+        "published_date": "2023-05-05T09:09:32-04:00",
+        "url": "https://www.zacks.com/stock/news/2090699/aes-q1-revenues-surpass-estimates-earnings-increase-y-y"
+      }
+    ]
+  },
+  "AES_2023q3": {
+    "summary_analysis": "AES reported second-quarter 2023 results, and the articles do not report how shares reacted. Reuters said AES missed profit estimates because of higher costs and lower sales in its Energy Infrastructure segment, even as total revenue beat the consensus estimate.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Reuters reported that AES missed second-quarter profit estimates due to higher costs and lower sales in the Energy Infrastructure strategic business unit. Adjusted EPS of $0.21 missed the Zacks Consensus Estimate of $0.25 by 16%, down from $0.34 a year earlier, as Adjusted EBITDA fell $117 million year over year on higher cost of sales and lower thermal dispatch. Total revenue of $3.03 billion still beat the Zacks Consensus Estimate by 5.24% despite declining 1.7% year over year.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Reuters attributed AES' profit miss partly to lower sales in the Energy Infrastructure strategic business unit, even though total revenue of $3.03 billion still beat the Zacks Consensus Estimate by 5.24% despite declining 1.7% year over year."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Reuters reported AES missed second-quarter profit estimates due to higher costs. Adjusted EPS of $0.21 missed the Zacks Consensus Estimate of $0.25 by 16%, down from $0.34 a year earlier, as Adjusted EBITDA fell $117 million on higher cost of sales."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AES Reports Strong Execution on Strategic Priorities",
+        "published_date": "2023-08-03T17:18:00-04:00",
+        "url": "https://www.prnewswire.com/news-releases/aes-reports-strong-execution-on-strategic-priorities-301893215.html"
+      },
+      {
+        "title": "Utility firm AES misses quarterly profit estimates on higher costs",
+        "published_date": "2023-08-03T18:22:13-04:00",
+        "url": "https://www.reuters.com/business/energy/utility-firm-aes-misses-quarterly-profit-estimates-higher-costs-2023-08-03/"
+      },
+      {
+        "title": "AES (AES) Misses Q2 Earnings Estimates",
+        "published_date": "2023-08-03T20:16:55-04:00",
+        "url": "https://www.zacks.com/stock/news/2132380/aes-aes-misses-q2-earnings-estimates"
+      },
+      {
+        "title": "AES Q2 Earnings Fall Short of Estimates, Revenues Decline Y/Y",
+        "published_date": "2023-08-04T10:32:52-04:00",
+        "url": "https://www.zacks.com/stock/news/2132711/aes-q2-earnings-fall-short-of-estimates-revenues-decline-y-y"
+      }
+    ]
+  },
+  "AES_2023q4": {
+    "summary_analysis": "AES reported third-quarter 2023 results, and the articles do not report how shares reacted. Reuters said AES beat profit estimates on high power and renewables demand, and the company raised its outlook to the top half of its 2023 adjusted EPS guidance range.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Reuters reported AES beat third-quarter profit estimates on high power demand and strong earnings from its renewables segment. Revenue of $3,434 million beat estimates despite declining 5.3% year over year on lower regulated and non-regulated revenues. AES also raised its outlook to the top half of its 2023 adjusted EPS guidance range of $1.65 to $1.75 and increased its year-to-date renewables signings to 3.7 GW.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AES said it now expects full-year 2023 adjusted EPS in the top half of its guidance range of $1.65 to $1.75. The articles give no expectation for how this compared to prior analyst forecasts."
+      },
+      "Order book / backlog": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AES signed 3.7 GW of new renewables contracts year-to-date and said it expects to reach 5 GW by year end. The articles give no expectation for this figure."
+      },
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Revenue of $3,434 million beat the Zacks Consensus Estimate, even though it declined 5.3% year over year due to lower regulated and non-regulated revenues."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Reuters reported AES beat third-quarter profit estimates on high power demand and strong earnings from its renewables segment."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AES Expects Full Year 2023 Adjusted EPS to be in the Top Half of Guidance Range of $1.65 to $1.75",
+        "published_date": "2023-11-02T17:00:00-04:00",
+        "url": "https://www.prnewswire.com/news-releases/aes-expects-full-year-2023-adjusted-eps-to-be-in-the-top-half-of-guidance-range-of-1-65-to-1-75--301976483.html"
+      },
+      {
+        "title": "AES beats Q3 profit estimates on higher power and renewables demand",
+        "published_date": "2023-11-02T18:02:07-04:00",
+        "url": "https://www.reuters.com/business/energy/aes-beats-q3-profit-estimates-higher-power-renewables-demand-2023-11-02/"
+      },
+      {
+        "title": "AES Q3 Earnings Surpass Estimates, Revenues Fall Year Over Year",
+        "published_date": "2023-11-03T13:32:34-04:00",
+        "url": "https://www.zacks.com/stock/news/2178367/aes-q3-earnings-surpass-estimates-revenues-fall-year-over-year"
+      }
+    ]
+  },
+  "AES_2024q2": {
+    "summary_analysis": "AES reported first-quarter 2024 results, and the articles do not report how shares reacted. Reuters said AES beat Wall Street profit estimates, benefiting from higher renewables contributions and lower cost of sales, even as revenue missed estimates and declined year over year.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Reuters reported AES beat first-quarter profit estimates on higher contributions from renewables projects and lower cost of sales, with adjusted EPS of $0.50 beating the Zacks Consensus Estimate of $0.32 by 56.25%. Revenue of $3.09 billion missed the Zacks Consensus Estimate by 4.91%, down 4.8% year over year. AES also signed an additional 1 GW of solar-plus-storage with Amazon, bringing its Bellefield project with Amazon to 2 GW.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AES signed an additional 1 GW of solar-plus-storage under a long-term contract with Amazon, bringing the Bellefield facility to a total of 2 GW, described as the largest single solar-plus-storage facility in the US. The articles give no expectation for this."
+      },
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Revenue of $3.09 billion missed the Zacks Consensus Estimate by 4.91%, down 4.8% from $3.24 billion a year earlier."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Reuters reported AES beat first-quarter profit estimates on higher contributions from renewables projects and lower cost of sales. Adjusted EPS of $0.50 beat the Zacks Consensus Estimate of $0.32 by 56.25%, up from $0.22 a year earlier."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AES Reports Strong First Quarter Results; Reaffirms 2024 Guidance & Long-Term Growth Rates",
+        "published_date": "2024-05-02T17:18:00-04:00",
+        "url": "https://www.prnewswire.com/news-releases/aes-reports-strong-first-quarter-results-reaffirms-2024-guidance--long-term-growth-rates-302135168.html"
+      },
+      {
+        "title": "AES beats first quarter profit estimates on renewables demand",
+        "published_date": "2024-05-02T18:01:13-04:00",
+        "url": "https://www.reuters.com/business/energy/aes-beats-first-quarter-profit-estimates-renewables-demand-2024-05-02/"
+      },
+      {
+        "title": "AES (AES) Tops Q1 Earnings Estimates",
+        "published_date": "2024-05-02T19:36:04-04:00",
+        "url": "https://www.zacks.com/stock/news/2267513/aes-aes-tops-q1-earnings-estimates?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_4-2267513"
+      },
+      {
+        "title": "AES' Q1 Earnings Outpace Estimate, Revenues Decline Y/Y",
+        "published_date": "2024-05-03T08:46:09-04:00",
+        "url": "https://www.zacks.com/stock/news/2267719/aes-q1-earnings-outpace-estimate-revenues-decline-y-y?cid=CS-STOCKNEWSAPI-FT-analyst_blog|earnings_article-2267719"
+      }
+    ]
+  },
+  "AES_2024q3": {
+    "summary_analysis": "AES reported second-quarter 2024 results, and the articles do not report how shares reacted. Earnings beat estimates on record sales with data-center hyperscalers, while revenue missed estimates and declined year over year; AES also raised its outlook to the upper half of its 2024 guidance ranges.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Earnings beat the Zacks Consensus Estimate of $0.36 by 5.56%, with adjusted EPS of $0.38 up from $0.21 a year earlier. Revenue of $2.94 billion missed the Zacks Consensus Estimate by 10.36%, down from $3.03 billion a year earlier. AES said it now expects to achieve the upper half of its 2024 adjusted EPS and Adjusted EBITDA with Tax Attributes guidance ranges, and signed 2.5 GW of new agreements including 2.2 GW directly with data-center customers.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AES said it now expects to achieve the upper half of its 2024 adjusted EPS guidance range of $1.87 to $1.97 and the upper half of its Adjusted EBITDA with Tax Attributes range of $3,550 to $3,950 million. The articles give no expectation for how this compared to prior forecasts."
+      },
+      "Order book / backlog": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AES reported record sales with data-center hyperscalers, signing 2.5 GW of new agreements including 2.2 GW directly with data-center customers, taking its backlog to 12.6 GW. The articles give no expectation for this figure."
+      },
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Revenue of $2.94 billion missed the Zacks Consensus Estimate by 10.36%, down from $3.03 billion a year earlier."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Earnings of $0.38 per share beat the Zacks Consensus Estimate of $0.36 by 5.56%, up from $0.21 a year earlier."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AES Reports Record Sales with Data Center Hyperscalers",
+        "published_date": "2024-08-01T16:35:00-04:00",
+        "url": "https://www.prnewswire.com/news-releases/aes-reports-record-sales-with-data-center-hyperscalers-302212934.html"
+      },
+      {
+        "title": "AES (AES) Surpasses Q2 Earnings Estimates",
+        "published_date": "2024-08-01T18:51:14-04:00",
+        "url": "https://www.zacks.com/stock/news/2314707/aes-aes-surpasses-q2-earnings-estimates?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_4-2314707"
+      },
+      {
+        "title": "AES' Q2 Earnings Surpass Estimates, Revenues Decline Y/Y",
+        "published_date": "2024-08-02T09:57:04-04:00",
+        "url": "https://www.zacks.com/stock/news/2315038/aes-q2-earnings-surpass-estimates-revenues-decline-y-y?cid=CS-STOCKNEWSAPI-FT-analyst_blog|earnings_article-2315038"
+      }
+    ]
+  },
+  "AES_2024q4": {
+    "summary_analysis": "AES reported third-quarter 2024 results, and the articles do not report how shares reacted. Earnings beat estimates by a wide margin on a lower tax rate and higher renewables contributions, while revenue missed estimates and declined year over year; AES also trimmed its full-year Adjusted EBITDA guidance due to extreme weather in Colombia.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Adjusted earnings of $0.71 per share beat the Zacks Consensus Estimate of $0.60 by 18.3%, which Zacks attributed to a lower adjusted tax rate and higher contributions from renewables projects placed in service in 2024. Revenue of $3.29 billion missed the Zacks Consensus Estimate by 9.3%, down 4.2% year over year on lower non-regulated revenues, and interest expense rose 16.3% to $379 million. AES reaffirmed the upper half of its adjusted EPS guidance but now expects full-year 2024 Adjusted EBITDA toward the low end of its $2,600-to-$2,900 million range due to extreme weather in Colombia and lower Energy Infrastructure margins. The company also closed the sale of a 47.3% stake in AES Brasil for about $630 million and agreed to sell a 30% interest in AES Ohio to CDPQ for about $546 million.",
+    "categories": {
+      "Guidance": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "AES reaffirmed the upper half of its 2024 adjusted EPS guidance of $1.87 to $1.97, but now expects full-year Adjusted EBITDA toward the low end of its $2,600-to-$2,900 million range due to extreme weather in Colombia and lower margins in the Energy Infrastructure segment."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Revenue of $3.29 billion missed the Zacks Consensus Estimate by 9.3%, down 4.2% year over year due to lower non-regulated revenues."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Adjusted earnings of $0.71 per share beat the Zacks Consensus Estimate of $0.60 by 18.3%, which Zacks attributed to a lower adjusted tax rate and higher contributions from renewables projects placed in service in 2024. Interest expense rose 16.3% year over year to $379 million."
+      },
+      "Debt, leverage and capital raise": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AES closed the sale of a 47.3% equity interest in AES Brasil for about $630 million and agreed to sell a 30% indirect interest in AES Ohio to CDPQ for about $546 million, advancing its asset-sale program. The articles give no expectation for this."
+      },
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AES Reports Third Quarter Financial Results; Completes 1.2 GW of Construction and Adds 2.2 GW of Renewables PPAs and Data Center Load Growth at US Utilities",
+        "published_date": "2024-10-31T16:33:00-04:00",
+        "url": "https://www.prnewswire.com/news-releases/aes-reports-third-quarter-financial-results-completes-1-2-gw-of-construction-and-adds-2-2-gw-of-renewables-ppas-and-data-center-load-growth-at-us-utilities-302293427.html"
+      },
+      {
+        "title": "AES (AES) Q3 Earnings Top Estimates",
+        "published_date": "2024-10-31T18:56:09-04:00",
+        "url": "https://www.zacks.com/stock/news/2362180/aes-aes-q3-earnings-top-estimates?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_4-2362180"
+      },
+      {
+        "title": "AES Q3 Earnings Beat Estimates, Revenues Decline Y/Y",
+        "published_date": "2024-11-01T10:50:23-04:00",
+        "url": "https://www.zacks.com/stock/news/2362648/aes-q3-earnings-beat-estimates-revenues-decline-y-y?cid=CS-STOCKNEWSAPI-FT-analyst_blog|earnings_article-2362648"
+      }
+    ]
+  }
+}

@@ -1,0 +1,406 @@
+{
+  "AMCX_2019q2": {
+    "summary_analysis": "AMC Networks reported first-quarter 2019 results, and the available article does not state how the stock reacted to the report. The single quality article, from Zacks, frames the quarter as a beat on both lines: earnings surprised to the upside by 17.33% and revenue by 1.49% versus Wall Street's estimates for the quarter ended March 2019. No article ties these results to a specific stock reaction or highlights any other operating detail.",
+    "explicit_reasons": "The article gives no explicit statement tying AMC Networks' stock move to any specific factor.",
+    "implicit_reasons": "The only available detail is that first-quarter 2019 earnings and revenue both surprised to the upside relative to Wall Street's estimates (a 17.33% earnings surprise and a 1.49% revenue surprise, per Zacks), though the article does not state how -- or whether -- this affected the stock.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AMC Networks' first-quarter 2019 revenue beat the analyst consensus by 1.49%, one of two surprise figures Zacks reported alongside the earnings beat; no dollar figure or stock reaction was given."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AMC Networks' first-quarter 2019 earnings beat the analyst consensus by 17.33%, per Zacks' surprise calculation, for the quarter ended March 2019."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AMC Networks (AMCX) Beats Q1 Earnings and Revenue Estimates",
+        "published_date": "2019-05-01T13:16:00-04:00",
+        "url": "https://www.zacks.com/stock/news/406865/amc-networks-amcx-beats-q1-earnings-and-revenue-estimates"
+      }
+    ]
+  },
+  "AMCX_2019q3": {
+    "summary_analysis": "AMC Networks reported second-quarter 2019 results, and none of the available articles state how the stock reacted. Coverage describes a mixed quarter: earnings beat Wall Street's estimate by 33.33% on 22% higher net income, helped by lower content and marketing costs, while revenue missed estimates by 1.01% as National Networks revenue fell 4% on fewer original-series episodes; International and other revenue rose 22%, boosted by the RLJ Entertainment acquisition. The company also returned capital via buybacks and highlighted continued growth in its streaming subscriber base.",
+    "explicit_reasons": "No article explicitly ties AMC Networks' second-quarter 2019 results to a stock reaction; none of the kept articles report how shares moved.",
+    "implicit_reasons": "Second-quarter revenue missed Wall Street's estimate by 1.01% as National Networks revenue fell 4% on 11% lower advertising sales, while earnings beat estimates by 33.33% on 22% higher net income helped by lower production and marketing costs. The company also devoted 67% of free cash flow to buybacks, retiring about 2% of diluted shares, and said its SVOD streaming services were on pace to reach 2 million subscribers by year-end after adding 400,000 in the first half of the year. None of these factors is tied to a stated stock reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Second-quarter revenue missed Wall Street's estimate by 1.01% (Zacks' surprise calculation); MarketWatch's headline noted AMC Networks 'tops profit estimates as revenue falls short,' and the Motley Fool detailed that National Networks revenue fell 4% year over year to $605 million on 11% lower advertising sales tied to fewer episodes of shows like The Walking Dead, while International and other revenue rose 22% (5% excluding the RLJ Entertainment acquisition)."
+      },
+      "New Product Release / Users": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "CEO Josh Sapan said AMC's four SVOD services (Shudder, Sundance Now, Acorn TV and Urban Movie Channel) were on pace to reach 2 million subscribers by year-end after adding 400,000 in the first half of 2019, per the Motley Fool; no consensus expectation was given for this figure."
+      },
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Second-quarter earnings beat Wall Street's estimate by 33.33% (Zacks), with net income of $128.7 million, or $2.25 a share, up from $106.2 million, or $1.82 a share, a year earlier (MarketWatch); the Motley Fool attributed the 22% earnings growth partly to lower production and marketing costs tied to the content-schedule shift."
+      },
+      "Debt, leverage and capital raise": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AMC Networks devoted 67% of the quarter's free cash flow to share buybacks, retiring 1.1 million shares, or about 2% of diluted shares outstanding, per the Motley Fool; the articles give no expectation for this."
+      },
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AMC Networks tops profit estimates as revenue falls short",
+        "published_date": "2019-07-31T07:12:12-04:00",
+        "url": "https://www.marketwatch.com/story/amc-networks-tops-profit-estimates-as-revenue-falls-short-2019-07-31"
+      },
+      {
+        "title": "AMC Networks (AMCX) Beats Q2 Earnings Estimates",
+        "published_date": "2019-07-31T08:55:09-04:00",
+        "url": "https://www.zacks.com/stock/news/454591/amc-networks-amcx-beats-q2-earnings-estimates"
+      },
+      {
+        "title": "AMC Networks Posts Flattish Sales, 22% Earnings Growth",
+        "published_date": "2019-08-02T09:00:00-04:00",
+        "url": "https://www.fool.com/investing/2019/08/02/amc-networks-posts-flattish-sales-22-earnings-grow.aspx"
+      }
+    ]
+  },
+  "AMCX_2020q2": {
+    "summary_analysis": "AMC Networks reported first-quarter 2020 results, and the articles give a mixed picture of the reaction: MarketWatch reported shares slid in premarket trading after both profit and revenue fell short of estimates, while CNBC later reported the stock actually gained about 1% during Tuesday's session. The quarter reflected a 'COVID-19-impaired' operating environment (Deadline): EPS of $1.22 missed the $1.86 consensus and revenue of $734 million missed the $738.9 million consensus, with advertising revenue down 11%. The company also guided to a roughly 30% drop in second-quarter ad revenue due to the pandemic, while pointing to an accelerated streaming subscriber timeline and a secure balance sheet as offsetting highlights.",
+    "explicit_reasons": "AMC Networks' stock slid in premarket trading after both profit and revenue fell short of Wall Street's estimates, per MarketWatch: earnings per share of $1.22 (or $1.47 adjusted for currency) missed the $1.86 consensus by a wide margin (a -28.99% surprise per Zacks), and revenue of $734 million missed the $738.9 million consensus (a -0.84% surprise) as advertising revenue fell 11% on lower ad delivery. CNBC separately noted the stock actually gained about 1% during Tuesday's session after the company reported results and projected a roughly 30% decline in second-quarter advertising revenue, a contrast to MarketWatch's premarket framing.",
+    "implicit_reasons": "Alongside the earnings miss, the company guided to a roughly 30% drop in second-quarter advertising revenue because of pandemic-driven marketer pullbacks (Deadline, CNBC), and multiple articles described the quarter as 'COVID-19-impaired' with production and ad-spending disruption industry-wide. On a more positive note, AMC Networks raised its streaming subscriber target to 3.5-4 million by year-end, two years ahead of its previous schedule, and highlighted a secure liquidity position with $704 million of cash and an untapped $500 million credit facility.",
+    "categories": {
+      "Guidance": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "AMC Networks said it expects second-quarter advertising revenue to drop about 30% year over year as marketers pulled or delayed spending amid the pandemic (Deadline, CNBC); the articles give no prior consensus figure for this guidance, but frame the 30% projected decline as a stark outlook."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "MarketWatch reported AMC Networks shares 'slide after profit and sales fall short of estimates'; revenue fell 6% year over year to $734 million, short of the $738.9 million consensus, with advertising revenue down 11% on lower ad delivery and programming timing (Deadline), and Zacks calculated a -0.84% revenue surprise versus estimates."
+      },
+      "New Product Release / Users": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AMC Networks raised its SVOD streaming subscriber target to 3.5 million-4 million by the end of 2020, two years earlier than its previous forecast, per Deadline; the articles give no external consensus for this figure, only the company's own prior timeline."
+      },
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "MarketWatch tied the stock's premarket slide directly to 'profit and sales' falling short of estimates; EPS came in at $1.22 (or $1.47 adjusted for foreign currency), 'well short' of the $1.86 consensus (Deadline), and Zacks calculated a -28.99% earnings surprise."
+      },
+      "Debt, leverage and capital raise": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "The company highlighted a secure financial position amid the pandemic, with free cash flow of $182 million (up $38 million year over year) and access to $704 million of cash plus an untapped $500 million revolving credit facility, per Deadline; the articles give no expectation for this."
+      },
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Multiple articles described the quarter as 'COVID-19-impaired' (Deadline), with CNBC reporting that marketers pulled or delayed ad spending and some shows saw production delays because of the pandemic; the articles give no pre-pandemic expectation baseline, only that the disruption was industry-wide."
+      }
+    },
+    "sources": [
+      {
+        "title": "AMC Networks shares slide after profit and sales fall short of estimates",
+        "published_date": "2020-05-05T07:24:37-04:00",
+        "url": "https://www.marketwatch.com/story/amc-networks-shares-slide-after-profit-and-sales-fall-short-of-estimates-2020-05-05"
+      },
+      {
+        "title": "AMC Networks Misses Wall Street Targets In Q1 On 11% Ad Revenue Drop",
+        "published_date": "2020-05-05T07:37:05-04:00",
+        "url": "https://deadline.com/2020/05/amc-networks-misses-wall-street-targets-q1-ad-revenue-drop-1202926195/"
+      },
+      {
+        "title": "AMC Networks (AMCX) Misses Q1 Earnings and Revenue Estimates",
+        "published_date": "2020-05-05T09:25:05-04:00",
+        "url": "https://www.zacks.com/stock/news/913775/amc-networks-amcx-misses-q1-earnings-and-revenue-estimates"
+      },
+      {
+        "title": "AMC Networks Sees “Staggered” Upfront: Predicts 30% Plunge In Ad Revenue This Quarter",
+        "published_date": "2020-05-05T10:36:39-04:00",
+        "url": "https://deadline.com/2020/05/amc-networks-staggered-upfront-30-percent-plunge-q2-ad-revenue-1202926293/"
+      },
+      {
+        "title": "AMC Networks expects a dramatic 30% drop in ad revenue this quarter due to coronavirus",
+        "published_date": "2020-05-05T11:22:46-04:00",
+        "url": "https://www.cnbc.com/2020/05/05/amc-networks-estimates-a-30percent-drop-in-ad-revenue-in-q2.html"
+      }
+    ]
+  },
+  "AMCX_2020q3": {
+    "summary_analysis": "AMC Networks reported second-quarter 2020 results, and MarketWatch said shares surged as much as 4.9% in premarket trading (Deadline separately reported a 5% early-trading jump) after both profit and revenue beat Wall Street's expectations, even as both fell sharply year over year amid the pandemic. Net income fell to $15 million on $130 million of write-down charges and revenue declined 16.3% to $646 million on weaker advertising, but each figure topped what Wall Street had modeled. The company also pointed to easing ad-revenue declines heading into the third quarter and continued growth in its streaming subscriber base as further positives.",
+    "explicit_reasons": "AMC Networks shares surged (up as much as 5% in early trading, per Deadline) after both profit and revenue beat Wall Street's expectations: second-quarter profit was 'double what was expected' and revenue 'fell less than forecast,' per MarketWatch, even though net income fell sharply year over year to $15 million on $130 million of write-down charges and revenue declined 16.3% to $646 million on softer advertising.",
+    "implicit_reasons": "The company's outlook and streaming progress added to the positive tone without a stated direct tie to the stock move: AMC Networks guided third-quarter ad revenue down in the 'mid-to-high teens,' an improvement from the second quarter, and Deutsche Bank noted U.S. ad revenue held up better than expected; its targeted streaming services also posted 'impressive' subscriber and revenue growth, with a reiterated year-end target of 3.5-4 million SVOD subscribers.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AMC Networks guided to third-quarter advertising revenue down in the 'mid-to-high teens' year over year, an improvement from the second quarter's declines, and Deutsche Bank noted in a research note that U.S. advertising revenue 'held up better than it expected' in the quarter, per CNBC; no specific consensus figure was given for the guidance itself."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "MarketWatch reported AMC Networks shares 'surged' in premarket trading after revenue 'fell less than forecast'; second-quarter revenue fell 16.3% year over year to $646 million on softer advertising (down 18% in the U.S., 10% abroad), per Deadline, but still beat what Wall Street had modeled."
+      },
+      "New Product Release / Users": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Deadline reported AMC's targeted streaming services (Acorn TV, Shudder, Sundance Now and UMC) delivered 'impressive' year-over-year growth in revenue and subscribers, and the Motley Fool noted the company reiterated a target of 3.5 million-4 million SVOD subscribers by year-end; the articles give no specific consensus expectation for these figures."
+      },
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "MarketWatch tied the premarket surge to second-quarter profit that was 'double what was expected'; Deadline reported net income of $15 million ($0.28 a share), down from $129 million ($2.25) a year earlier due to $130 million of write-down charges, but said the results still 'beat Wall Street's expectations' and shares jumped 5% in early trading."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AMC Networks stock surges after big profit beat, revenue that fell less than forecast",
+        "published_date": "2020-08-04T07:27:21-04:00",
+        "url": "https://www.marketwatch.com/story/amc-networks-stock-surges-after-big-profit-beat-revenue-that-fell-less-than-forecast-2020-08-04"
+      },
+      {
+        "title": "AMC Networks Q2 Income Drops On Hefty Charges & Softer Ad Sales From COVID-19 Hit",
+        "published_date": "2020-08-04T08:12:32-04:00",
+        "url": "https://deadline.com/2020/08/amc-networks-q2-income-falls-charges-us-revenue-slips-18-1203003402/"
+      },
+      {
+        "title": "Why AMC Networks' Streaming Success Should Terrify Cable Companies",
+        "published_date": "2020-08-06T09:12:10-04:00",
+        "url": "https://www.fool.com/investing/2020/08/06/why-amc-networks-streaming-success-terrify-cable.aspx"
+      },
+      {
+        "title": "The worst appears to be past for the TV advertising market",
+        "published_date": "2020-08-07T13:29:58-04:00",
+        "url": "https://www.cnbc.com/2020/08/07/tv-advertising-worst-appears-to-be-past.html"
+      }
+    ]
+  },
+  "AMCX_2021q1": {
+    "summary_analysis": "AMC Networks reported fourth-quarter and full-year 2020 results, and its stock was 'set to rally' in premarket trading (MarketWatch) before closing up roughly 22%-30% on the day (the Motley Fool, Invezz), as profit and revenue both came in well above Wall Street's expectations. Revenue of $780.3 million, though down 0.6% year over year, beat the roughly $705 million consensus, while adjusted EPS of $2.72 far surpassed the roughly $0.52 analysts expected, aided by an $81 million investment gain the Motley Fool flagged as a one-time boost. MarketWatch and Deadline also cited strength in AMC Networks' streaming services, which ended the year with more than 6 million subscribers, up 157% year over year and above the company's prior targets.",
+    "explicit_reasons": "AMC Networks shares were set to rally (the Motley Fool reported the stock up as much as 27.2%, and Invezz reported a roughly 30% gain on the day) after fourth-quarter profit and revenue both came in well above Wall Street's expectations, per MarketWatch, citing strength in streaming: revenue of $780.3 million beat the roughly $705 million consensus, and adjusted EPS of $2.72 far exceeded the roughly $0.52 analysts had modeled. The Motley Fool cautioned that much of the profit beat stemmed from an $81 million investment gain rather than core operations.",
+    "implicit_reasons": "The articles do not describe any additional factor as merely contributing to sentiment without a direct tie to the move; every category discussed above is explicitly linked to the rally.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "MarketWatch said AMC Networks stock was 'set to rally' after fourth-quarter revenue came in 'well above expectations'; revenue fell 0.6% year over year to $780.3 million but beat the roughly $705 million analysts had modeled (Deadline, Benzinga, the Motley Fool), with a 3% decline at National Networks offset by a 7.5% increase at International and Other."
+      },
+      "New Product Release / Users": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "MarketWatch cited 'strength in its streaming services' as part of why shares were set to rally; AMC Networks ended 2020 with more than 6 million streaming subscribers across AMC+, Acorn TV, Shudder, Sundance Now and ALLBLK, up 157% year over year and surpassing the company's own subscriber targets (GlobeNewsWire, Deadline)."
+      },
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "MarketWatch tied the stock's rally to fourth-quarter profit 'well above expectations'; adjusted EPS rose 61% to $2.72 versus the roughly $0.52 Wall Street had expected (the Motley Fool), with net income swinging to $94.7 million ($2.09 a share) from a loss of $8.6 million (15 cents) a year earlier (Deadline). The Motley Fool noted the beat was driven in large part by an $81 million gain from mark-to-market investment gains, including proceeds from AMC's sale of its FuboTV stake, rather than core operating strength."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AMC Networks Inc. Reports Full Year and Fourth Quarter 2020 Results",
+        "published_date": "2021-02-26T07:00:00-05:00",
+        "url": "https://www.globenewswire.com/news-release/2021/02/26/2183303/0/en/AMC-Networks-Inc-Reports-Full-Year-and-Fourth-Quarter-2020-Results.html"
+      },
+      {
+        "title": "AMC Networks stock set to rally after big profit and revenue beats",
+        "published_date": "2021-02-26T07:14:11-05:00",
+        "url": "https://www.marketwatch.com/story/amc-networks-stock-set-to-rally-after-big-profit-and-revenue-beats-2021-02-26"
+      },
+      {
+        "title": "AMC Networks Had Over 6 Million Streaming Subs In Q4; Earnings Beat Street; Stock Pops",
+        "published_date": "2021-02-26T08:19:21-05:00",
+        "url": "https://deadline.com/2021/02/amc-networks-q4-6-million-streaming-subs-sales-profit-beat-street-amc-plus-1234701776/"
+      },
+      {
+        "title": "Why Is AMC Networks Trading Higher Today?",
+        "published_date": "2021-02-26T11:47:22-05:00",
+        "url": "https://www.benzinga.com/news/earnings/21/02/19881257/why-is-amc-networks-trading-higher-today?utm_source=snapi"
+      },
+      {
+        "title": "Why AMC Networks Stock Is Soaring Today",
+        "published_date": "2021-02-26T13:05:00-05:00",
+        "url": "https://www.fool.com/investing/2021/02/26/why-amc-networks-stock-is-soaring-today/"
+      },
+      {
+        "title": "Here's Why AMC Networks gained 30% On Friday",
+        "published_date": "2021-02-26T14:48:11-05:00",
+        "url": "https://invezz.com/news/2021/02/26/heres-why-amc-networks-gained-30-on-friday/?utm_source=snapi"
+      }
+    ]
+  },
+  "AMCX_2023q1": {
+    "summary_analysis": "AMC Networks reported fourth-quarter and full-year 2022 results, and its stock surged as much as 26.8% intraday (the Motley Fool), later gaining about 51% over the week (the Motley Fool), after both revenue and profit topped Wall Street's expectations by a wide margin. Revenue of $964.5 million beat the roughly $947.8 million consensus on strong content licensing and streaming growth, and adjusted EPS of $2.52 far exceeded estimates near $1.02-$1.20, even as the company posted a large GAAP net loss from one-time charges. The report coincided with the announcement that Kristin Dolan would become CEO later in February, a debt tender offer for up to $800 million of senior notes, and continued streaming subscriber growth to 11.8 million.",
+    "explicit_reasons": "AMC Networks shares surged (the Motley Fool reported a 26.8% jump, later a 51% gain over the week) after both revenue and profit beat Wall Street's expectations by wide margins: revenue of $964.5 million topped the $947.8 million consensus, driven by strong content-licensing and streaming growth, while adjusted EPS of $2.52 far exceeded estimates that ranged from $1.02 to $1.20, even though the company posted a large GAAP net loss tied to one-time charges.",
+    "implicit_reasons": "Alongside the results, AMC Networks named Kristin Dolan as CEO effective February 27 and had James Dolan address the change and M&A openness on the earnings call, which occurred the same day the stock jumped sharply, though no article directly ties the leadership change to the move. The company also commenced tender offers for up to $800 million of senior notes the same day, and streaming subscribers continued to grow to 11.8 million, but neither was stated as a direct driver of the rally.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Deadline reported AMC Networks 'shrugs off ad decline to post strong Q4 numbers,' with revenue up 20% to $964.5 million versus the $947.8 million analysts expected, driven by an 18% rise in content licensing revenue to $492 million and a 35%-41% jump in streaming revenue (Deadline, the Motley Fool), even as U.S. advertising revenue fell 12% to $206 million on soft linear ratings and ad-market weakness."
+      },
+      "New Product Release / Users": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Streaming subscribers rose to 11.8 million, up from 11.1 million in the third quarter and roughly 9 million at the end of 2021 (the Motley Fool), with Anne Rice's Interview with the Vampire becoming the top new series debut in AMC+ history (Deadline); the articles give no near-term consensus subscriber figure against which to measure this."
+      },
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "MarketWatch said shares 'surge[d]' after profit 'more than double[d] expectations'; adjusted EPS jumped to $2.52, nearly five times the prior year and well above analyst estimates that ranged from $1.02 (Barron's) to $1.20 (Deadline), even as the company reported a GAAP net loss of $264.7 million ($6.11 a share) versus year-ago net income of $17.0 million (39 cents)."
+      },
+      "Debt, leverage and capital raise": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "The same day, AMC Networks commenced cash tender offers for up to $800 million of its senior notes due 2024 and 2025 (GlobeNewsWire); the articles give no expectation for this and do not tie it directly to the stock's move."
+      },
+      "Capex": null,
+      "Management": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "The earnings release coincided with the announcement that Kristin Dolan, wife of interim executive chairman James Dolan, would become CEO on February 27, succeeding Christina Spade after just three months in the role; James Dolan addressed the succession and the company's openness to M&A on the earnings call, which Deadline described as occurring alongside a stock move that 'exploded' on the strong results, though without stating the management news itself drove the move."
+      },
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AMC Networks Shrugs Off Ad Decline To Post Strong Q4 Numbers Ahead Of CEO Change",
+        "published_date": "2023-02-17T08:43:17-05:00",
+        "url": "https://deadline.com/2023/02/amc-networks-advertising-streaming-new-ceo-1235263023/"
+      },
+      {
+        "title": "AMC Networks stock surges after profit more than doubles expectations",
+        "published_date": "2023-02-17T08:47:00-05:00",
+        "url": "https://www.marketwatch.com/story/amc-networks-stock-surges-after-profit-more-than-doubles-expectations-240194de"
+      },
+      {
+        "title": "AMC Networks Crushed Earnings Estimates. The Stock Is Rising.",
+        "published_date": "2023-02-17T09:03:00-05:00",
+        "url": "https://www.barrons.com/articles/amc-networks-crushed-earnings-stock-2c8ef8c6"
+      },
+      {
+        "title": "James Dolan Takes The Mic: On AMC Networks Earnings Call, Owner Explains Choice Of His Wife, Kristin, As CEO",
+        "published_date": "2023-02-17T11:41:09-05:00",
+        "url": "https://deadline.com/2023/02/james-dolan-amc-networks-earnings-call-wife-kristin-ceo-streaming-stock-1235263199/"
+      },
+      {
+        "title": "Why AMC Networks' Stock Soared Today",
+        "published_date": "2023-02-17T13:51:29-05:00",
+        "url": "https://www.fool.com/investing/2023/02/17/why-amc-networks-stock-soared-today/"
+      },
+      {
+        "title": "AMC Networks Commences Tender Offers for Senior Notes due 2024 and 2025",
+        "published_date": "2023-02-17T18:40:00-05:00",
+        "url": "https://www.globenewswire.com/news-release/2023/02/17/2611007/16019/en/AMC-Networks-Commences-Tender-Offers-for-Senior-Notes-due-2024-and-2025.html"
+      },
+      {
+        "title": "Why AMC Networks Stock Skyrocketed This Past Week",
+        "published_date": "2023-02-19T08:14:00-05:00",
+        "url": "https://www.fool.com/investing/2023/02/19/why-amc-networks-stock-skyrocketed-this-past-week/"
+      }
+    ]
+  },
+  "AMCX_2024q1": {
+    "summary_analysis": "AMC Networks reported fourth-quarter and full-year 2023 results, and its stock fell sharply -- Deadline reported a 19% slide in the first hour of trading that finished down 15% at $14.41, while the Motley Fool reported a 15.1% decline -- after the Motley Fool tied the reaction to a sharp revenue decline and an earnings miss. Revenue fell 29.6% year over year to $678.8 million (narrowly topping a roughly $676 million consensus even as components like distribution and content licensing fell sharply), while adjusted EPS of $0.72 missed the $0.89 consensus. The company's 2024 revenue guidance of $2.4 billion, below the roughly $2.63 billion consensus, added to the negative reaction, and Deadline noted the selloff intensified after CEO Kristin Dolan downplayed M&A prospects on the earnings call, even as streaming revenue and subscribers continued to grow.",
+    "explicit_reasons": "AMC Networks shares fell sharply (Deadline reported an initial pre-market drop followed by a 19% slide in the first hour of trading, finishing down 15% at $14.41; the Motley Fool reported a 15.1% decline) as the Motley Fool tied the move to a 'sharp decline in revenue' -- total revenue fell 29.6% to $678.8 million -- and to an earnings miss, with adjusted EPS of $0.72 missing the $0.89 estimate. The Motley Fool also tied weak 2024 revenue guidance of $2.4 billion, below the roughly $2.63 billion consensus, to the negative reaction, noting expected streaming growth would not offset linear-TV headwinds.",
+    "implicit_reasons": "Deadline reported that the stock's selloff intensified after the earnings call itself, during which CEO Kristin Dolan downplayed M&A prospects and said the company would 'stick to our knitting,' though the article stopped short of directly linking her comments to the stock move. Streaming revenue and subscribers continued to grow, which Barron's framed as not the source of the revenue decline, but no article ties this growth directly to the stock's reaction.",
+    "categories": {
+      "Guidance": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "The Motley Fool reported AMC Networks guided 2024 revenue to decline 11.5% to $2.4 billion, 'worse than the consensus' of about $2.63 billion, and said expected streaming growth in the high-single to low-double digits was 'not enough to counteract the headwinds in linear TV.'"
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "The Motley Fool reported shares were falling 'after the company reported a sharp decline in revenue'; total revenue fell 29.6% year over year to $678.8 million, narrowly ahead of the roughly $676 million consensus (the Motley Fool), but MarketWatch said shares fell even as the company 'reports Q4 sales beat, but shares fall as subscriptions slide,' with domestic distribution revenue down 35% to $423 million and content licensing down 68% to $96 million on tougher year-over-year comparisons (Deadline)."
+      },
+      "New Product Release / Users": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Streaming revenue rose 4% to $145 million and subscribers grew to 11.4 million, up from the prior quarter (Deadline, the Motley Fool); Barron's headline framed the revenue decline as 'not because of streaming,' implying the segment was a relative bright spot, though no article ties streaming growth directly to the stock's move."
+      },
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "The Motley Fool tied the stock's decline to earnings, reporting adjusted EPS of $0.72, down sharply from $2.52 a year earlier and 'missing estimates at $0.89'; adjusted operating income fell 27% to $100.3 million."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Deadline reported that the stock's 'selloff intensified after the [earnings] call,' during which CEO Kristin Dolan downplayed M&A prospects and said the company would 'stick to our knitting' while the industry 'sorts itself out,' though the article said it was 'difficult to draw a direct line between management comments on the call and the stock movement.'"
+      },
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AMC Networks Sees 23% Drop In U.S. Advertising Revenue, Adds Streaming Subscribers",
+        "published_date": "2024-02-09T08:03:46-05:00",
+        "url": "https://deadline.com/2024/02/amc-networks-advertising-streaming-subscribers-1235820174/"
+      },
+      {
+        "title": "AMC reports Q4 sales beat, but shares fall as subscriptions slide",
+        "published_date": "2024-02-09T08:49:00-05:00",
+        "url": "https://www.marketwatch.com/story/amc-reports-q4-sales-beat-but-shares-fall-as-subscriptions-slide-2bd95f9d"
+      },
+      {
+        "title": "AMC Networks Stock Punished After Shaky Q4 Earnings Report; CEO Kristin Dolan Downplays M&A Scenarios, Says Plan Is To “Stick To Our Knitting” As “Marketplace Sorts Itself Out”",
+        "published_date": "2024-02-09T10:44:23-05:00",
+        "url": "https://deadline.com/2024/02/amc-networks-stock-earnings-ceo-kristin-dolan-mergers-1235820281/"
+      },
+      {
+        "title": "AMC Networks Stock Sinks as Revenue Dives 30%. It's Not Because of Streaming.",
+        "published_date": "2024-02-09T10:56:00-05:00",
+        "url": "https://www.barrons.com/articles/amc-networks-earnings-stock-price-264e4743"
+      },
+      {
+        "title": "Why AMC Networks Stock Plunged Today",
+        "published_date": "2024-02-09T15:16:41-05:00",
+        "url": "https://www.fool.com/investing/2024/02/09/why-amc-networks-stock-plunged-today/"
+      }
+    ]
+  }
+}

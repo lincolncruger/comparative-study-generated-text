@@ -1,0 +1,572 @@
+{
+  "AGCO_2019q2": {
+    "summary_analysis": "AGCO reported first-quarter 2019 results that beat Wall Street's earnings and revenue estimates; the article does not report how the stock reacted. Coverage of the quarter was limited to a single earnings-surprise wire item crediting the beat to both the top and bottom line.",
+    "explicit_reasons": "The article gives no direct, stated link between any specific factor and the stock's move.",
+    "implicit_reasons": "Earnings came in well above expectations, with Zacks reporting a 104.76% earnings surprise, and revenue also topped estimates, by 1.32%, positioning both as factors in the day's sentiment even though no causal link to the share price is stated.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Agco posted a 1.32% revenue surprise over the Zacks Consensus Estimate for the quarter ended March 2019."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Agco delivered a first-quarter 2019 earnings surprise of 104.76% versus the Zacks Consensus Estimate, a large beat on the bottom line."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "Agco (AGCO) Tops Q1 Earnings and Revenue Estimates",
+        "published_date": "2019-05-02T09:15:07-04:00",
+        "url": "https://www.zacks.com/stock/news/407501/agco-agco-tops-q1-earnings-and-revenue-estimates"
+      }
+    ]
+  },
+  "AGCO_2019q3": {
+    "summary_analysis": "AGCO reported second-quarter 2019 results in which earnings beat estimates while revenue fell short, and Zacks credited strong margin expansion for the bottom-line beat; neither article reports the stock's reaction.",
+    "explicit_reasons": "Neither article states a direct link between any specific factor and the stock's move.",
+    "implicit_reasons": "Earnings beat the Zacks Consensus Estimate by 14.47%, which Zacks tied to solid margin expansion across all regions and significant EPS growth, while revenue missed the Zacks Consensus Estimate by 5.14%.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Agco posted a revenue surprise of -5.14% versus the Zacks Consensus Estimate for the quarter ended June 2019, a miss on the top line."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Earnings beat the Zacks Consensus Estimate by 14.47%, which Zacks attributed to 'solid margin expansion' across all regions and significant EPS growth in the quarter."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "Agco (AGCO) Q2 Earnings Surpass Estimates",
+        "published_date": "2019-07-30T08:45:08-04:00",
+        "url": "https://www.zacks.com/stock/news/453411/agco-agco-q2-earnings-surpass-estimates"
+      },
+      {
+        "title": "AGCO Corp (AGCO) Q2 Earnings Beat on Solid Margin Expansion",
+        "published_date": "2019-07-31T08:57:00-04:00",
+        "url": "https://www.zacks.com/stock/news/454796/agco-corp-agco-q2-earnings-beat-on-solid-margin-expansion"
+      }
+    ]
+  },
+  "AGCO_2019q4": {
+    "summary_analysis": "AGCO reported third-quarter 2019 results in which earnings beat estimates but sales fell short, with Zacks noting the beat came amid a weak agricultural equipment backdrop; neither article reports the stock's reaction.",
+    "explicit_reasons": "Neither article states a direct link between any specific factor and the stock's move.",
+    "implicit_reasons": "Earnings beat the Zacks Consensus Estimate by 5.13% on margin expansion, price-realization initiatives and improving productivity, while sales trailed estimates by 4.53%, and Zacks described the quarter as occurring amid a weak agricultural backdrop.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Sales trailed the Zacks Consensus Estimate by 4.53% for the quarter ended September 2019, even as earnings beat."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Earnings surpassed the Zacks Consensus Estimate by 5.13%, which Zacks attributed to margin expansion, price-realization initiatives and improving productivity."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Zacks described the beat as occurring 'amid [a] weak agricultural backdrop,' framing soft industry conditions as the setting for the quarter; the articles give no specific expectation for this macro backdrop."
+      }
+    },
+    "sources": [
+      {
+        "title": "Agco (AGCO) Surpasses Q3 Earnings Estimates",
+        "published_date": "2019-10-29T08:45:09-04:00",
+        "url": "https://www.zacks.com/stock/news/590256/agco-agco-surpasses-q3-earnings-estimates"
+      },
+      {
+        "title": "AGCO Corp (AGCO) Earnings Trump, Sales Trail Estimates in Q3",
+        "published_date": "2019-10-31T09:33:00-04:00",
+        "url": "https://www.zacks.com/stock/news/595716/agco-corp-agco-earnings-trump-sales-trail-estimates-in-q3"
+      }
+    ]
+  },
+  "AGCO_2020q1": {
+    "summary_analysis": "AGCO reported fourth-quarter 2019 results that missed both earnings and revenue estimates; the article does not report the stock's reaction.",
+    "explicit_reasons": "The article gives no direct, stated link between any specific factor and the stock's move.",
+    "implicit_reasons": "Earnings missed the Zacks Consensus Estimate by 39.35%, a large shortfall, and revenue also missed, by 5.58%.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Revenue missed the Zacks Consensus Estimate by 5.58% for the quarter ended December 2019."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Earnings missed the Zacks Consensus Estimate by 39.35%, a large shortfall versus expectations."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "Agco (AGCO) Misses Q4 Earnings and Revenue Estimates",
+        "published_date": "2020-02-06T08:55:04-05:00",
+        "url": "https://www.zacks.com/stock/news/752332/agco-agco-misses-q4-earnings-and-revenue-estimates"
+      }
+    ]
+  },
+  "AGCO_2020q4": {
+    "summary_analysis": "AGCO reported third-quarter 2020 results that beat both earnings and revenue estimates by wide margins, and Zacks noted top-line growth and margin expansion across all segments alongside a raised full-year view; neither article reports the stock's reaction.",
+    "explicit_reasons": "Neither article states a direct link between any specific factor and the stock's move.",
+    "implicit_reasons": "Earnings beat the Zacks Consensus Estimate by 104.90% and revenue beat by 15.70%, with Zacks citing top-line growth and margin expansion across all segments; Zacks also headlined the report 'View Up,' indicating a raised outlook.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Zacks headlined the report 'View Up,' indicating AGCO raised its outlook alongside the results, though the articles give no specific figures for the guidance change or what had been expected."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Agco delivered a 15.70% revenue surprise over the Zacks Consensus Estimate for the quarter ended September 2020, with Zacks noting top-line growth across all segments."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Earnings beat the Zacks Consensus Estimate by 104.90%, with Zacks citing margin expansion across all segments."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "Agco (AGCO) Q3 Earnings and Revenues Beat Estimates",
+        "published_date": "2020-11-03T08:45:04-05:00",
+        "url": "https://www.zacks.com/stock/news/1095643/agco-agco-q3-earnings-and-revenues-beat-estimates"
+      },
+      {
+        "title": "AGCO Corp's (AGCO) Q3 Earnings & Sales Top Estimates, View Up",
+        "published_date": "2020-11-04T07:29:00-05:00",
+        "url": "https://www.zacks.com/stock/news/1096196/agco-corps-agco-q3-earnings-sales-top-estimates-view-up"
+      }
+    ]
+  },
+  "AGCO_2022q1": {
+    "summary_analysis": "AGCO reported fourth-quarter and full-year 2021 results that beat Wall Street's estimates, and shares surged on the report: Benzinga's headline tied the move to the 'Q4 Beat' and a 'Solid FY22 Outlook,' and the Motley Fool reported shares were up 7.5% as of mid-morning trading after the company beat analysts' earnings forecast by a wide margin. Results and the new 2022 guidance both came in well ahead of what had been expected.",
+    "explicit_reasons": "Benzinga's headline explicitly tied the stock's surge to the fourth-quarter beat and to AGCO's 'Solid FY22 Outlook,' making both the quarter's results and the new guidance explicit drivers of the move. The Motley Fool likewise explicitly attributed the rally to results that beat forecasts, reporting shares up 7.5% after the company 'shredded' Wall Street's best guess for the quarter.",
+    "implicit_reasons": "Zacks separately noted the quarter reflected strong margin and sales performance across all segments, without directly tying that detail to the share move.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Benzinga's headline tied the stock's surge partly to AGCO's 'Solid FY22 Outlook.' Management guided to 2022 net sales of approximately $12.3 billion, up from $11.1 billion in 2021, and projected improved gross and operating margins, per the Motley Fool; adjusted EPS guidance of about $11.50 implied a roughly 3% decline from 2021's $11.85. The articles give no separate analyst estimate for this guidance, only the company's own year-over-year framing."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Benzinga reported AGCO's stock surged on a fourth-quarter net sales beat: sales grew 16.1% year-over-year to $3.16 billion, beating the consensus estimate of $3.05 billion, with gains across all regions (Europe/Middle East, North America, South America and Asia/Pacific/Africa)."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "The Motley Fool reported shares popped 7.5% after AGCO beat forecasts: analysts had expected pro forma EPS of $1.77 on sales of $3.1 billion, but the company earned $3.08 per share (pro forma), 74% better than forecast; GAAP EPS of $3.75, boosted by the reversal of a Brazilian deferred-tax valuation allowance, was more than double the prior year's $1.78."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AGCO Stock Surges On Q4 Beat, Solid FY22 Outlook",
+        "published_date": "2022-02-08T10:57:41-05:00",
+        "url": "https://www.benzinga.com/news/earnings/22/02/25481112/agco-stock-surges-on-q4-beat-solid-fy22-outlook?utm_source=snapi"
+      },
+      {
+        "title": "Why Agco Stock Just Popped 7.5%",
+        "published_date": "2022-02-08T10:58:05-05:00",
+        "url": "https://www.fool.com/investing/2022/02/08/why-agco-stock-just-popped-75/"
+      },
+      {
+        "title": "AGCO Corp (AGCO) Q4 Earnings & Sales Top Estimates, Up Y/Y",
+        "published_date": "2022-02-09T09:59:30-05:00",
+        "url": "https://www.zacks.com/stock/news/1864669/agco-corp-agco-q4-earnings-sales-top-estimates-up-y-y"
+      }
+    ]
+  },
+  "AGCO_2022q2": {
+    "summary_analysis": "AGCO reported first-quarter 2022 results that beat both earnings and revenue estimates; the articles do not report the stock's reaction to the print. Zacks attributed the beat to favorable farm fundamentals, strong global demand and price-increase actions.",
+    "explicit_reasons": "Neither article states a direct link between any specific factor and the stock's move.",
+    "implicit_reasons": "Revenue beat the Zacks Consensus Estimate by 1.72% and earnings beat by 27.13%, and Zacks said the results reflected favorable farm fundamentals and strong global demand, industry tailwinds not directly tied to the share move.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Agco posted revenue of $2.69 billion for the quarter ended March 2022, a 1.72% surprise over the Zacks Consensus Estimate and up from $2.38 billion a year earlier."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Earnings of $2.39 per share beat the Zacks Consensus Estimate of $1.88 by 27.13%, with Zacks noting the results reflected price-increase actions."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Zacks said the results reflected 'favorable farm fundamentals' and 'strong global demand,' industry-level tailwinds; the articles give no specific expectation for these conditions."
+      }
+    },
+    "sources": [
+      {
+        "title": "Agco (AGCO) Q1 Earnings and Revenues Top Estimates",
+        "published_date": "2022-05-03T09:47:08-04:00",
+        "url": "https://www.zacks.com/stock/news/1914230/agco-agco-q1-earnings-and-revenues-top-estimates"
+      },
+      {
+        "title": "AGCO Corp (AGCO) Q1 Earnings & Sales Top Estimates, Up Y/Y",
+        "published_date": "2022-05-04T12:47:16-04:00",
+        "url": "https://www.zacks.com/stock/news/1915646/agco-corp-agco-q1-earnings-sales-top-estimates-up-y-y"
+      }
+    ]
+  },
+  "AGCO_2022q3": {
+    "summary_analysis": "AGCO reported second-quarter 2022 results with earnings beating estimates and revenue coming in just short; the article does not report the stock's reaction.",
+    "explicit_reasons": "The article gives no direct, stated link between any specific factor and the stock's move.",
+    "implicit_reasons": "Earnings beat the Zacks Consensus Estimate by 9.17%, while revenue missed by 0.42%.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Revenue of $2.95 billion for the quarter ended June 2022 missed the Zacks Consensus Estimate by 0.42%, though it was up from $2.88 billion a year earlier."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Earnings of $2.38 per share beat the Zacks Consensus Estimate of $2.18 by 9.17%."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "Agco (AGCO) Beats Q2 Earnings Estimates",
+        "published_date": "2022-07-28T10:11:31-04:00",
+        "url": "https://www.zacks.com/stock/news/1959456/agco-agco-beats-q2-earnings-estimates"
+      }
+    ]
+  },
+  "AGCO_2022q4": {
+    "summary_analysis": "AGCO reported third-quarter 2022 results with earnings modestly beating estimates and revenue missing; the article does not report the stock's reaction.",
+    "explicit_reasons": "The article gives no direct, stated link between any specific factor and the stock's move.",
+    "implicit_reasons": "Earnings beat the Zacks Consensus Estimate by 1.92%, while revenue missed by 4.89% despite growing year-over-year.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Revenue of $3.12 billion for the quarter ended September 2022 missed the Zacks Consensus Estimate by 4.89%, despite being up from $2.73 billion a year earlier."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Earnings of $3.18 per share beat the Zacks Consensus Estimate of $3.12 by 1.92%."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "Agco (AGCO) Q3 Earnings Top Estimates",
+        "published_date": "2022-11-01T09:47:05-04:00",
+        "url": "https://www.zacks.com/stock/news/2011620/agco-agco-q3-earnings-top-estimates"
+      }
+    ]
+  },
+  "AGCO_2023q1": {
+    "summary_analysis": "AGCO reported fourth-quarter 2022 results that beat both earnings and revenue estimates, with full-year 2022 sales reaching a record high; the articles do not report the stock's reaction.",
+    "explicit_reasons": "None of the articles state a direct link between any specific factor and the stock's move.",
+    "implicit_reasons": "Earnings beat the Zacks Consensus Estimate by 15.21% and revenue beat by 3.66%, up 23.6% year-over-year, with Zacks noting full-year 2022 sales reached a record high.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Revenue of $3.9 billion for the quarter ended December 2022 beat the Zacks Consensus Estimate by 3.66%, up 23.6% year-over-year, and Zacks noted AGCO's full-year 2022 sales reached a record high."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Earnings of $4.47 per share beat the Zacks Consensus Estimate of $3.88 by 15.21%, up from $3.08 a year earlier."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "Agco (AGCO) Q4 Earnings and Revenues Beat Estimates",
+        "published_date": "2023-02-07T10:33:38-05:00",
+        "url": "https://www.zacks.com/stock/news/2050892/agco-agco-q4-earnings-and-revenues-beat-estimates"
+      },
+      {
+        "title": "Compared to Estimates, Agco (AGCO) Q4 Earnings: A Look at Key Metrics",
+        "published_date": "2023-02-08T04:31:09-05:00",
+        "url": "https://www.zacks.com/stock/news/2051372/compared-to-estimates-agco-agco-q4-earnings-a-look-at-key-metrics"
+      },
+      {
+        "title": "AGCO Corp (AGCO) Earnings and Revenues Beat Estimates in Q4",
+        "published_date": "2023-02-08T12:48:28-05:00",
+        "url": "https://www.zacks.com/stock/news/2051758/agco-corp-agco-earnings-and-revenues-beat-estimates-in-q4"
+      }
+    ]
+  },
+  "AGCO_2024q1": {
+    "summary_analysis": "AGCO reported fourth-quarter and full-year 2023 results that missed Wall Street's earnings and revenue estimates, and Barron's headline reported the stock was 'soaring' on the release even as it flagged the earnings miss. AGCO also guided to lower full-year 2024 sales.",
+    "explicit_reasons": "No article states a direct cause for the move; Barron's headline places the earnings miss and the stock's rally side by side ('AGCO Earnings Miss Estimates. The Stock Is Soaring.') without stating that one caused the other.",
+    "implicit_reasons": "Fourth-quarter adjusted EPS of $3.78 missed the $4.03 consensus estimate by 6.20%, and revenue of $3.8 billion missed consensus by 6.37% and was down 2.5% year-over-year; AGCO also guided to 2024 net sales of about $13.6 billion, down from $14.4 billion in 2023.",
+    "categories": {
+      "Guidance": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Barron's reported AGCO guided to 2024 net sales of about $13.6 billion, down from $14.4 billion generated in 2023; the articles give no analyst expectation for this guidance figure."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "AGCO reported Q4 2023 net sales of $3.8 billion, a 2.5% decrease from Q4 2022 per the company's release, and Zacks said the figure missed its consensus estimate by 6.37%."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "AGCO reported Q4 2023 adjusted net income of $3.78 per share (reported net income of $4.53 per share, versus reported net income of $4.29 per share a year earlier), and Zacks said the $3.78 adjusted figure missed the $4.03 consensus estimate by 6.20%."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AGCO Reports Fourth Quarter and Full Year Results",
+        "published_date": "2024-02-06T07:30:00-05:00",
+        "url": "https://www.businesswire.com/news/home/20240206187629/en/AGCO-Reports-Fourth-Quarter-and-Full-Year-Results/"
+      },
+      {
+        "title": "AGCO Earnings Miss Estimates. The Stock Is Soaring.",
+        "published_date": "2024-02-06T09:11:00-05:00",
+        "url": "https://www.barrons.com/articles/agco-earnings-stock-price-42796955"
+      },
+      {
+        "title": "Agco (AGCO) Q4 Earnings and Revenues Miss Estimates",
+        "published_date": "2024-02-06T09:40:28-05:00",
+        "url": "https://www.zacks.com/stock/news/2221609/agco-agco-q4-earnings-and-revenues-miss-estimates?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_4-2221609"
+      },
+      {
+        "title": "Agco (AGCO) Q4 Earnings: Taking a Look at Key Metrics Versus Estimates",
+        "published_date": "2024-02-06T10:45:52-05:00",
+        "url": "https://www.zacks.com/stock/news/2221739/agco-agco-q4-earnings-taking-a-look-at-key-metrics-versus-estimates?cid=CS-STOCKNEWSAPI-FT-fundamental_analysis|nfm-2221739"
+      },
+      {
+        "title": "AGCO Corp (AGCO) Earnings and Revenues Miss Estimates in Q4",
+        "published_date": "2024-02-07T12:51:03-05:00",
+        "url": "https://www.zacks.com/stock/news/2222740/agco-corp-agco-earnings-and-revenues-miss-estimates-in-q4?cid=CS-STOCKNEWSAPI-FT-analyst_blog|earnings_article-2222740"
+      }
+    ]
+  },
+  "AGCO_2024q2": {
+    "summary_analysis": "AGCO reported first-quarter 2024 results with earnings narrowly beating estimates while revenue missed; the articles do not report the stock's reaction.",
+    "explicit_reasons": "Neither article states a direct link between any specific factor and the stock's move.",
+    "implicit_reasons": "Earnings of $2.32 per share narrowly beat the $2.29 consensus estimate by 1.31%, though down sharply from a year earlier, while revenue of $2.93 billion missed consensus by 2.32% and was down 12.1% year-over-year.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Revenue of $2.93 billion for the quarter ended March 2024 missed the Zacks Consensus Estimate by 2.32% and was down 12.1% year-over-year."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Earnings of $2.32 per share narrowly beat the Zacks Consensus Estimate of $2.29 by 1.31%, though down sharply from $3.51 per share a year earlier."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "Agco (AGCO) Beats Q1 Earnings Estimates",
+        "published_date": "2024-05-02T09:46:07-04:00",
+        "url": "https://www.zacks.com/stock/news/2266763/agco-agco-beats-q1-earnings-estimates?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_4-2266763"
+      },
+      {
+        "title": "Agco (AGCO) Reports Q1 Earnings: What Key Metrics Have to Say",
+        "published_date": "2024-05-02T11:06:58-04:00",
+        "url": "https://www.zacks.com/stock/news/2267055/agco-agco-reports-q1-earnings-what-key-metrics-have-to-say?cid=CS-STOCKNEWSAPI-FT-fundamental_analysis|nfm-2267055"
+      }
+    ]
+  },
+  "AGCO_2024q3": {
+    "summary_analysis": "AGCO reported second-quarter 2024 results that missed on both the top and bottom lines and cut its full-year adjusted EPS guidance; Barron's reported the miss was also weighing on peers Deere and CNH.",
+    "explicit_reasons": "No article states a direct cause for the move; Barron's headline places the miss and the pressure on peer shares side by side ('weighing on') rather than stating a causal link to AGCO's own stock.",
+    "implicit_reasons": "Earnings of $2.53 per share missed the $2.88 consensus estimate by 12.15%, and revenue of $3.25 billion missed consensus by 6.91% and was down 15.1% year-over-year; AGCO also lowered its 2024 adjusted EPS guidance to $8.00 from a previously stated $12.00, and Barron's described the industry weakness as also weighing on peers.",
+    "categories": {
+      "Guidance": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Zacks reported AGCO lowered its 2024 view, now expecting adjusted EPS of $8.00, down from the previously stated $12.00."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Revenue of $3.25 billion for the quarter ended June 2024 missed the Zacks Consensus Estimate by 6.91% and was down 15.1% year-over-year; Barron's said AGCO 'missed on the top and bottom lines.'"
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Earnings of $2.53 per share missed the Zacks Consensus Estimate of $2.88 by 12.15%, down from $4.29 a year earlier."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Barron's headline said the AGCO miss was 'weighing on Deere shares, too,' and reported that peers Deere and CNH were 'feeling the heat' from the same industry weakness; the articles give no specific expectation for this backdrop."
+      }
+    },
+    "sources": [
+      {
+        "title": "AGCO Earnings Miss Is Weighing on Deere Shares, Too",
+        "published_date": "2024-07-30T08:34:00-04:00",
+        "url": "https://www.barrons.com/articles/agco-earnings-deere-stock-price-b6ed739b"
+      },
+      {
+        "title": "Agco (AGCO) Misses Q2 Earnings and Revenue Estimates",
+        "published_date": "2024-07-30T09:46:32-04:00",
+        "url": "https://www.zacks.com/stock/news/2311647/agco-agco-misses-q2-earnings-and-revenue-estimates?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_4-2311647"
+      },
+      {
+        "title": "Compared to Estimates, Agco (AGCO) Q2 Earnings: A Look at Key Metrics",
+        "published_date": "2024-07-30T11:00:26-04:00",
+        "url": "https://www.zacks.com/stock/news/2312050/compared-to-estimates-agco-agco-q2-earnings-a-look-at-key-metrics?cid=CS-STOCKNEWSAPI-FT-fundamental_analysis|nfm-2312050"
+      },
+      {
+        "title": "AGCO Corp (AGCO) Misses Q2 Earnings Estimates, Lowers '24 View",
+        "published_date": "2024-07-31T13:40:54-04:00",
+        "url": "https://www.zacks.com/stock/news/2313401/agco-corp-agco-misses-q2-earnings-estimates-lowers-24-view?cid=CS-STOCKNEWSAPI-FT-analyst_blog|earnings_article-2313401"
+      }
+    ]
+  },
+  "AGCO_2024q4": {
+    "summary_analysis": "AGCO reported third-quarter 2024 results that missed both earnings and revenue estimates by wide margins, and Barron's wrote that the results show 'it isn't a good time to be a farmer,' leaving investors wondering when the farming cycle will turn; the articles do not report the stock's reaction.",
+    "explicit_reasons": "None of the articles state a direct link between any specific factor and the stock's move.",
+    "implicit_reasons": "Earnings of $0.68 per share missed the $1.07 consensus estimate by 36.45%, and revenue of $2.6 billion missed consensus by 10.37% and was down 24.8% year-over-year; Barron's also framed the quarter around a broader farming-industry downturn.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Revenue of $2.6 billion for the quarter ended September 2024 missed the Zacks Consensus Estimate by 10.37% and was down 24.8% year-over-year from $3.46 billion."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Earnings of $0.68 per share missed the Zacks Consensus Estimate of $1.07 by 36.45%, down sharply from $3.97 a year earlier."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Barron's framed the results around a broader farming-industry downturn, writing that they show 'it isn't a good time to be a farmer' and that investors are 'wondering when the farming cycle will turn'; the articles give no specific expectation for this cycle."
+      }
+    },
+    "sources": [
+      {
+        "title": "Agco (AGCO) Q3 Earnings and Revenues Miss Estimates",
+        "published_date": "2024-11-05T09:41:12-05:00",
+        "url": "https://www.zacks.com/stock/news/2364151/agco-agco-q3-earnings-and-revenues-miss-estimates?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_4-2364151"
+      },
+      {
+        "title": "Here's What Key Metrics Tell Us About Agco (AGCO) Q3 Earnings",
+        "published_date": "2024-11-05T11:01:35-05:00",
+        "url": "https://www.zacks.com/stock/news/2364487/here-s-what-key-metrics-tell-us-about-agco-agco-q3-earnings?cid=CS-STOCKNEWSAPI-FT-fundamental_analysis|nfm-2364487"
+      },
+      {
+        "title": "AGCO Earnings Show It Isn't a Good Time to Be a Farmer",
+        "published_date": "2024-11-05T12:40:00-05:00",
+        "url": "https://www.barrons.com/articles/agco-earnings-stock-price-bdfe8646"
+      }
+    ]
+  }
+}

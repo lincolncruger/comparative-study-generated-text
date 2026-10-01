@@ -1,0 +1,464 @@
+{
+  "AIR_2019q4": {
+    "summary_analysis": "AAR Corp. reported fiscal second-quarter 2020 results, and the articles do not state how the stock reacted to the report. Zacks described an earnings and revenue beat and a raised fiscal 2020 outlook, driven by growth in the company's Aviation Services segment.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "AAR's revenue and earnings came in ahead of expectations, with Zacks reporting a 6.10% revenue surprise and a 4.92% earnings surprise for the quarter ended November 2019, and the company raised its fiscal 2020 outlook alongside 15% growth in its Aviation Services segment.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AAR raised its fiscal 2020 outlook alongside the results, though the articles do not give the prior or new guidance figures beyond noting the raise."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AAR delivered a revenue surprise of 6.10% versus the Zacks Consensus Estimate for the quarter ended November 2019, with growth driven by a 15% increase in the Aviation Services segment."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AAR delivered an earnings surprise of 4.92% versus the Zacks Consensus Estimate for the quarter ended November 2019."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AAR (AIR) Surpasses Q2 Earnings and Revenue Estimates",
+        "published_date": "2019-12-19T17:15:03-05:00",
+        "url": "https://www.zacks.com/stock/news/678890/aar-air-surpasses-q2-earnings-and-revenue-estimates"
+      },
+      {
+        "title": "AAR Corp (AIR) Beats on Q2 Earnings, Raises Fiscal 2020 View",
+        "published_date": "2019-12-20T07:41:00-05:00",
+        "url": "https://www.zacks.com/stock/news/679718/aar-corp-air-beats-on-q2-earnings-raises-fiscal-2020-view"
+      }
+    ]
+  },
+  "AIR_2020q1": {
+    "summary_analysis": "AAR Corp. reported fiscal third-quarter 2020 results, and the articles do not state how the stock reacted to the report. Earnings beat estimates while revenue, though up year over year, fell short of the consensus estimate.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "AAR beat the Zacks Consensus EPS estimate by 1.52% for the quarter ended February 2020, while revenue rose 4.5% year over year from $529.5 million but missed the consensus estimate by 0.80%, with growth driven by the Aviation Services segment.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "AAR's revenue rose 4.5% year over year from $529.5 million, driven by continued growth in the Aviation Services segment, but missed the Zacks Consensus Estimate by 0.80%."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AAR's earnings beat the Zacks Consensus Estimate by 1.52% for the quarter ended February 2020."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AAR (AIR) Surpasses Q3 Earnings Estimates",
+        "published_date": "2020-03-24T17:35:03-04:00",
+        "url": "https://www.zacks.com/stock/news/832712/aar-air-surpasses-q3-earnings-estimates"
+      },
+      {
+        "title": "AAR Corp (AIR) Earnings Beat Estimates in Q3, Sales Miss",
+        "published_date": "2020-03-25T05:44:00-04:00",
+        "url": "https://www.zacks.com/stock/news/833558/aar-corp-air-earnings-beat-estimates-in-q3-sales-miss"
+      }
+    ]
+  },
+  "AIR_2020q4": {
+    "summary_analysis": "AAR Corp. reported second-quarter fiscal year 2021 results, and the articles do not state how the stock reacted to the report. Earnings beat estimates by a wide margin even as both revenue and profit remained well below the prior-year period, which had benefited from pandemic-related government support.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "AAR beat the Zacks Consensus EPS estimate by 82.35% for the quarter ended November 2020, even as consolidated sales of $403.6 million and adjusted diluted EPS of $0.31 were down from $560.9 million and $0.64 a year earlier, and revenue came in 0.11% below the consensus estimate.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "AAR reported second-quarter fiscal 2021 sales of $403.6 million, down from $560.9 million a year earlier, and revenue missed the Zacks Consensus Estimate by 0.11%."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AAR's adjusted EPS of $0.31 beat the Zacks Consensus Estimate by 82.35%, even though it was down from $0.64 a year earlier; current-quarter results included $4.7 million of net pretax adjustments tied mainly to the exclusion of CARES Act support."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AAR Reports Second Quarter Fiscal Year 2021 Results",
+        "published_date": "2020-12-17T16:24:00-05:00",
+        "url": "https://www.globenewswire.com/news-release/2020/12/17/2147420/0/en/AAR-Reports-Second-Quarter-Fiscal-Year-2021-Results.html"
+      },
+      {
+        "title": "AAR (AIR) Q2 Earnings Top Estimates",
+        "published_date": "2020-12-17T18:48:21-05:00",
+        "url": "https://www.zacks.com/stock/news/1177851/aar-air-q2-earnings-top-estimates"
+      }
+    ]
+  },
+  "AIR_2021q1": {
+    "summary_analysis": "AAR Corp. reported fiscal third-quarter 2021 results, and the Motley Fool reported shares jumped almost 10% following the report as investors welcomed signs of a recovery despite a difficult quarter. Earnings beat estimates and margins strengthened even as revenue fell sharply year over year on continued pandemic pressure.",
+    "explicit_reasons": "The Motley Fool tied the roughly 10% jump in AAR shares directly to the earnings report, writing that the results \"weren't pretty but nevertheless pointed toward a solid recovery,\" and separately noted that CEO John Holmes highlighted gross and operating margins moving sharply higher despite the pandemic's impact. Benzinga likewise reported that shares of AAR rose in after-market trading after the company's adjusted EPS of $0.37 beat the analyst estimate of $0.29.",
+    "implicit_reasons": "AAR's net sales fell 25.8% year over year to $410.3 million, missing the Zacks Consensus Estimate by roughly 0.7%-0.75%, with commercial segment sales down 42% even as government sales rose 4%.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Net sales fell 25.8% year over year to $410.3 million from $553.1 million, missing the Zacks Consensus Estimate by roughly 0.7%-0.75%, with commercial sales down 42% partly offset by a 4% rise in government sales."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Adjusted EPS of $0.37 beat the analyst estimate of $0.29, and Benzinga reported shares rose in after-market trading following the report; the Motley Fool likewise noted CEO John Holmes highlighted gross and operating margins moving sharply higher than three months earlier, even excluding CARES Act support."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "The Motley Fool said AAR shares jumped almost 10% because the quarter's results, despite being weak on their face amid the pandemic, \"pointed toward a solid recovery\" for the aerospace aftermarket business."
+      }
+    },
+    "sources": [
+      {
+        "title": "AAR Reports Third Quarter Fiscal Year 2021 Results",
+        "published_date": "2021-03-23T16:05:00-04:00",
+        "url": "https://www.globenewswire.com/news-release/2021/03/23/2198092/0/en/AAR-Reports-Third-Quarter-Fiscal-Year-2021-Results.html"
+      },
+      {
+        "title": "Recap: AAR Q3 Earnings",
+        "published_date": "2021-03-23T16:32:26-04:00",
+        "url": "https://www.benzinga.com/news/earnings/21/03/20307860/recap-aar-q3-earnings?utm_source=snapi"
+      },
+      {
+        "title": "AAR (AIR) Tops Q3 Earnings Estimates",
+        "published_date": "2021-03-23T18:56:03-04:00",
+        "url": "https://www.zacks.com/stock/news/1285135/aar-air-tops-q3-earnings-estimates"
+      },
+      {
+        "title": "AAR Corp. (AIR) Q3 Earnings Beat Estimates, Sales Fall Y/Y",
+        "published_date": "2021-03-24T09:12:08-04:00",
+        "url": "https://www.zacks.com/stock/news/1288376/aar-corp-air-q3-earnings-beat-estimates-sales-fall-y-y"
+      },
+      {
+        "title": "These 2 Stocks Got an A+ From Wall Street on Wednesday",
+        "published_date": "2021-03-24T11:19:00-04:00",
+        "url": "https://www.fool.com/investing/2021/03/24/these-2-stocks-got-an-a-from-wall-street-wednesday/"
+      }
+    ]
+  },
+  "AIR_2021q4": {
+    "summary_analysis": "AAR Corp. reported fiscal second-quarter 2022 results, and the Motley Fool reported shares were down about 6% in after-hours trading despite adjusted earnings jumping 71% to $0.53 per share and beating the Zacks Consensus Estimate by 1.9%. The company also authorized a new $150 million share buyback program the same day.",
+    "explicit_reasons": "The Motley Fool tied the roughly 6% drop to investor unease about the industry's longer-term recovery path, writing that \"investors have hoped that AAR would bounce back more strongly as the pandemic progressed, but new worries about the omicron variant could delay a full recovery. Until things get clearer, AAR could remain under pressure.\"",
+    "implicit_reasons": "Revenue rose 8% year over year, with a 33% rise in commercial sales partly offset by a 15% drop in government sales; adjusted EPS of $0.53 beat the Zacks Consensus Estimate by 1.9% and was up 71% from $0.31 a year earlier; and the board authorized a new $150 million stock repurchase program.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Revenue rose 8% year over year, with commercial sales up 33% offsetting a 15% decline in government sales; the articles give no analyst consensus figure for revenue this quarter."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Adjusted EPS of $0.53 beat the Zacks Consensus Estimate by 1.9% and was up 71% from $0.31 a year earlier, with CEO John Holmes citing adjusted operating margin now above pre-pandemic levels."
+      },
+      "Debt, leverage and capital raise": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AAR's board authorized a new $150 million share repurchase program the same day as earnings, which Zacks described as exhibiting the company's balance-sheet strength; the articles give no expectation for this."
+      },
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "The Motley Fool said shares fell about 6% because investors remained nervous about the industry's longer-term recovery trajectory, citing hopes for a stronger bounce-back that new omicron-variant concerns could delay."
+      }
+    },
+    "sources": [
+      {
+        "title": "AAR Announces $150 Million Stock Repurchase Program",
+        "published_date": "2021-12-21T16:05:00-05:00",
+        "url": "https://www.globenewswire.com/news-release/2021/12/21/2356393/0/en/AAR-Announces-150-Million-Stock-Repurchase-Program.html"
+      },
+      {
+        "title": "AAR Reports Second Quarter Fiscal Year 2022 Results",
+        "published_date": "2021-12-21T16:10:00-05:00",
+        "url": "https://www.globenewswire.com/news-release/2021/12/21/2356396/0/en/AAR-Reports-Second-Quarter-Fiscal-Year-2022-Results.html"
+      },
+      {
+        "title": "Even as Markets Rise, These 2 Stocks Reveal Investor Uncertainty",
+        "published_date": "2021-12-21T18:08:01-05:00",
+        "url": "https://www.fool.com/investing/2021/12/21/even-as-markets-rise-these-2-stocks-reveal-investo/"
+      },
+      {
+        "title": "AAR Corp (AIR) Q2 Earnings Beat Estimates, Sales Rise Y/Y",
+        "published_date": "2021-12-22T12:14:09-05:00",
+        "url": "https://www.zacks.com/stock/news/1842356/aar-corp-air-q2-earnings-beat-estimates-sales-rise-y-y"
+      },
+      {
+        "title": "AAR Corp. (AIR) Announces $150M Share Repurchase Program",
+        "published_date": "2021-12-23T09:13:12-05:00",
+        "url": "https://www.zacks.com/stock/news/1842700/aar-corp-air-announces-150m-share-repurchase-program"
+      }
+    ]
+  },
+  "AIR_2022q1": {
+    "summary_analysis": "AAR Corp. reported fiscal third-quarter 2022 results, and the Motley Fool reported shares rose 12.1% for the week as investors responded to an earnings beat and favorable analyst commentary. Revenue and EPS both topped Wall Street's consensus estimates, and the company highlighted a sixth straight quarter of adjusted operating margin expansion.",
+    "explicit_reasons": "The Motley Fool said AAR's earnings report, which beat consensus on both revenue ($452.2 million versus $432.5 million expected) and EPS ($0.63 versus $0.58 expected), \"helped provide the impetus\" for the week's 12.1% gain, and that two Wall Street price-target increases -- Truist to $58 from $53 and RBC Capital to $56 from $50 -- also moved investors to buy the stock. Benzinga separately reported that RBC's Ken Herbert raised his price target to $56 from $50, noting AAR's results \"showed steady improvement.\"",
+    "implicit_reasons": "The articles do not identify any additional factors linked only implicitly, rather than explicitly, to the move.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "AAR reported fiscal third-quarter revenue of $452.2 million versus Wall Street's expected $432.5 million, a beat the Motley Fool said helped drive the week's 12.1% share gain."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "EPS of $0.63 beat the $0.58 consensus estimate, and CEO John Holmes cited a sixth straight quarter of adjusted operating margin expansion, with margins now exceeding pre-pandemic levels; Wall Street analysts at Truist and RBC Capital raised their price targets on AAR (to $58 and $56, respectively) citing the results, which the Motley Fool said also helped lift the stock this week."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AAR Reports Third Quarter Fiscal Year 2022 Results",
+        "published_date": "2022-03-22T16:05:00-04:00",
+        "url": "https://www.globenewswire.com/news-release/2022/03/22/2408105/0/en/AAR-Reports-Third-Quarter-Fiscal-Year-2022-Results.html"
+      },
+      {
+        "title": "Analysts Bump Up AAR's Price Target Post Q3 Results",
+        "published_date": "2022-03-23T14:58:02-04:00",
+        "url": "https://www.benzinga.com/analyst-ratings/analyst-color/22/03/26264126/analysts-bump-up-aars-price-target-post-q3-results?utm_source=snapi"
+      },
+      {
+        "title": "Why Shares of AAR Are Flying Higher This Week",
+        "published_date": "2022-03-25T10:04:50-04:00",
+        "url": "https://www.fool.com/investing/2022/03/25/why-shares-of-aar-are-flying-higher-this-week/"
+      }
+    ]
+  },
+  "AIR_2022q4": {
+    "summary_analysis": "AAR Corp. reported second-quarter fiscal year 2023 results, and the articles do not state how the stock reacted to the report. Adjusted EPS matched the Zacks Consensus Estimate exactly while revenue beat the consensus estimate.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "AAR's adjusted EPS of $0.69 matched the Zacks Consensus Estimate exactly, up from $0.53 a year earlier, while revenue of $469.8 million beat the Zacks Consensus Estimate by 2.37%, up from $436.6 million a year earlier.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AAR posted revenue of $469.8 million for the quarter ended November 2022, beating the Zacks Consensus Estimate by 2.37% and up from $436.6 million a year earlier."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Adjusted EPS of $0.69 was exactly in line with the Zacks Consensus Estimate, up from $0.53 a year earlier."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AAR reports second quarter fiscal year 2023 results",
+        "published_date": "2022-12-20T16:05:00-05:00",
+        "url": "https://www.globenewswire.com/news-release/2022/12/20/2577486/0/en/AAR-reports-second-quarter-fiscal-year-2023-results.html"
+      },
+      {
+        "title": "AAR (AIR) Matches Q2 Earnings Estimates",
+        "published_date": "2022-12-20T18:48:18-05:00",
+        "url": "https://www.zacks.com/stock/news/2030758/aar-air-matches-q2-earnings-estimates"
+      }
+    ]
+  },
+  "AIR_2023q1": {
+    "summary_analysis": "AAR Corp. reported fiscal third-quarter 2023 results, and the articles do not state how the stock reacted to the report. Both revenue and earnings beat Wall Street's consensus estimates by a wide margin.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "AAR's revenue of $521.1 million beat the Zacks Consensus Estimate by 8.15%, up from $452.2 million a year earlier, and adjusted EPS of $0.75 beat the $0.68 consensus estimate by 10.29%, up from $0.63 a year earlier.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AAR posted revenue of $521.1 million for the quarter ended February 2023, beating the Zacks Consensus Estimate by 8.15% and up from $452.2 million a year earlier."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Adjusted EPS of $0.75 beat the Zacks Consensus Estimate of $0.68 by 10.29%, up from $0.63 a year earlier."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AAR reports third quarter fiscal year 2023 results",
+        "published_date": "2023-03-21T16:05:00-04:00",
+        "url": "https://www.globenewswire.com/news-release/2023/03/21/2631819/0/en/AAR-reports-third-quarter-fiscal-year-2023-results.html"
+      },
+      {
+        "title": "AAR (AIR) Q3 Earnings and Revenues Top Estimates",
+        "published_date": "2023-03-21T18:19:03-04:00",
+        "url": "https://www.zacks.com/stock/news/2068695/aar-air-q3-earnings-and-revenues-top-estimates"
+      },
+      {
+        "title": "AAR Corp. (AIR) Q3 Earnings Surpass Estimates, Sales Rise Y/Y",
+        "published_date": "2023-03-23T08:22:31-04:00",
+        "url": "https://www.zacks.com/stock/news/2069424/aar-corp-air-q3-earnings-surpass-estimates-sales-rise-y-y"
+      }
+    ]
+  },
+  "AIR_2023q4": {
+    "summary_analysis": "AAR Corp. reported fiscal second-quarter 2024 results alongside a definitive agreement to acquire Triumph Group's Product Support business for $725 million, and the articles do not state how the stock reacted to the combined news. Revenue and adjusted EPS both rose from a year earlier, while the acquisition is to be financed with a mix of debt and potentially equity.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "AAR reported second-quarter sales of $545.4 million, up from $469.8 million a year earlier, and adjusted EPS of $0.81, up from $0.69, with Zacks noting earnings were on par with estimates even as net interest expense increased. The same day, AAR agreed to acquire Triumph Group's Product Support business for $725 million, to be financed through a bridge facility and a planned mix of debt and equity, targeting pro forma net leverage of about 3.0x at closing.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AAR reported second-quarter fiscal 2024 sales of $545.4 million, up from $469.8 million a year earlier; the articles give no analyst consensus figure for revenue this quarter."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Adjusted EPS of $0.81 was up from $0.69 a year earlier, and Zacks described earnings as on par with estimates, though it noted net interest expense also increased."
+      },
+      "Debt, leverage and capital raise": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "The same day as earnings, AAR agreed to acquire Triumph Group's Product Support business for $725 million, to be financed through a fully committed bridge facility and a planned mix of debt and a potential equity issuance, targeting pro forma net leverage of approximately 3.0x at closing; Zacks separately noted net interest expense increased in the quarter. The articles give no expectation for this."
+      },
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AAR announces agreement to acquire Triumph Group's Product Support business, a leading provider of MRO services to the global aviation aftermarket",
+        "published_date": "2023-12-21T08:00:00-05:00",
+        "url": "https://www.prnewswire.com/news-releases/aar-announces-agreement-to-acquire-triumph-groups-product-support-business-a-leading-provider-of-mro-services-to-the-global-aviation-aftermarket-302020977.html"
+      },
+      {
+        "title": "TRIUMPH ANNOUNCES SALE OF PRODUCT SUPPORT BUSINESS TO AAR",
+        "published_date": "2023-12-21T08:00:00-05:00",
+        "url": "https://www.prnewswire.com/news-releases/triumph-announces-sale-of-product-support-business-to-aar-302020960.html"
+      },
+      {
+        "title": "AAR reports second quarter fiscal year 2024 results",
+        "published_date": "2023-12-21T16:05:00-05:00",
+        "url": "https://www.globenewswire.com/news-release/2023/12/21/2800336/0/en/AAR-reports-second-quarter-fiscal-year-2024-results.html"
+      },
+      {
+        "title": "AAR (AIR) Q2 Earnings On Par With Estimates, Sales Rise Y/Y",
+        "published_date": "2023-12-22T08:16:14-05:00",
+        "url": "https://www.zacks.com/stock/news/2201396/aar-air-q2-earnings-on-par-with-estimates-sales-rise-y-y"
+      }
+    ]
+  },
+  "AIR_2024q1": {
+    "summary_analysis": "AAR Corp. reported fiscal third-quarter 2024 results, and Seeking Alpha reported AAR shares were trading more than 6% lower after the report. Revenue was essentially in line with estimates and adjusted EPS narrowly beat consensus, while GAAP earnings fell sharply on acquisition-related financing and integration costs following the March 1 close of the $725 million Triumph Group Product Support acquisition.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's drop to any specific factor; Seeking Alpha reported only that shares were trading more than 6% lower after the report, alongside separate commentary on the newly closed acquisition's expected contribution.",
+    "implicit_reasons": "Revenue of $567.3 million was essentially in line with the Zacks Consensus Estimate (a roughly 0.06%-0.1% miss), up nearly 9% year over year with commercial sales up 18% and government sales down 7%, while adjusted EPS of $0.85 beat the $0.84 consensus by 1.19% even as GAAP EPS fell to $0.39 from $0.62 a year earlier. Net interest expense rose to $11.3 million from $3.5 million, including $6.1 million of bridge financing costs and $12.2 million of acquisition and amortization expenses tied to the March 1 close of the $725 million Triumph Group Product Support acquisition, and SG&A separately included $2.0 million of costs related to an investigation. Seeking Alpha noted the acquisition is expected to add 13% to sales and 38% to adjusted operating profit.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Seeking Alpha reported the newly closed Triumph Group Product Support acquisition is expected to add 13% to sales and 38% to adjusted operating profit; the article gives no baseline figure to compare this against beyond describing it as the deal's expected contribution."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Revenue of $567.3 million missed the Zacks Consensus Estimate of $567.63 million by about 0.06%-0.1%, though it was up nearly 9% from $521.1 million a year earlier, with commercial sales growing 18% and government sales falling 7%, per Seeking Alpha."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Adjusted EPS of $0.85 beat the $0.84 consensus estimate by 1.19% and was up from $0.75 a year earlier, but GAAP earnings from continuing operations fell to $0.39 per share from $0.62 a year earlier."
+      },
+      "Debt, leverage and capital raise": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Net interest expense rose to $11.3 million from $3.5 million a year earlier, including $6.1 million of bridge financing costs, and SG&A included $12.2 million of acquisition and amortization expenses, tied to the March 1 close of the $725 million Triumph Group Product Support acquisition, which was financed with $550 million of new senior notes and revolver borrowings under an upsized $825 million credit facility; the articles give no expectation for this."
+      },
+      "Capex": null,
+      "Management": null,
+      "Litigation": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "SG&A for the quarter included $2.0 million of costs related to an investigation; the articles give no further detail or expectation for this."
+      },
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AAR reports third quarter fiscal year 2024 results",
+        "published_date": "2024-03-21T16:05:00-04:00",
+        "url": "https://www.prnewswire.com/news-releases/aar-reports-third-quarter-fiscal-year-2024-results-302096396.html"
+      },
+      {
+        "title": "AAR (AIR) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+        "published_date": "2024-03-21T19:01:03-04:00",
+        "url": "https://www.zacks.com/stock/news/2244506/aar-air-q3-earnings-taking-a-look-at-key-metrics-versus-estimates?cid=CS-STOCKNEWSAPI-FT-fundamental_analysis|nfm-2244506"
+      },
+      {
+        "title": "AAR (AIR) Q3 Earnings Surpass Estimates, Sales Rise Y/Y",
+        "published_date": "2024-03-22T13:16:03-04:00",
+        "url": "https://www.zacks.com/stock/news/2245083/aar-air-q3-earnings-surpass-estimates-sales-rise-y-y?cid=CS-STOCKNEWSAPI-FT-analyst_blog|earnings_article-2245083"
+      },
+      {
+        "title": "AAR Corp. Stock Remains A Buy After Share Price Tumbles",
+        "published_date": "2024-03-22T14:03:06-04:00",
+        "url": "https://seekingalpha.com/article/4679972-aar-corp-stock-remains-a-buy-after-share-price-tumbles"
+      }
+    ]
+  }
+}

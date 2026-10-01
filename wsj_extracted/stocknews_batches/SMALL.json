@@ -1,0 +1,629 @@
+{
+  "ABSI_2022q3": {
+    "ticker": "ABSI",
+    "company_name": "Absci Corporation",
+    "fiscal_yearquarter": "2022q3",
+    "earnings_date": "2022-08-11",
+    "ret_2day_pct": 11.91,
+    "articles": [
+      {
+        "title": "Publicly traded biotech company Absci lays off employees, citing ‘macro-economic conditions'",
+        "published_date": "2022-08-10T13:34:53-04:00",
+        "source": "GeekWire",
+        "type": "Article",
+        "url": "https://www.geekwire.com/2022/publicly-traded-biotech-company-absci-lays-off-employees-citing-macro-economic-conditions/",
+        "tickers": [
+          "ABSI"
+        ],
+        "api_summary": "Vancouver, Wash.",
+        "full_text": null
+      },
+      {
+        "title": "Absci Reports Second Quarter 2022 Financial Results and Business Update",
+        "published_date": "2022-08-11T08:00:00-04:00",
+        "source": "GlobeNewsWire",
+        "type": "Article",
+        "url": "https://www.globenewswire.com/news-release/2022/08/11/2496694/0/en/Absci-Reports-Second-Quarter-2022-Financial-Results-and-Business-Update.html",
+        "tickers": [
+          "ABSI"
+        ],
+        "api_summary": "Exceeded annual Active Program guidance with ten programs signed year-to-date",
+        "full_text": null
+      }
+    ]
+  },
+  "ACMR_2019q2": {
+    "ticker": "ACMR",
+    "company_name": "ACM Research, Inc.",
+    "fiscal_yearquarter": "2019q2",
+    "earnings_date": "2019-05-07",
+    "ret_2day_pct": 2.3,
+    "articles": []
+  },
+  "ACMR_2019q3": {
+    "ticker": "ACMR",
+    "company_name": "ACM Research, Inc.",
+    "fiscal_yearquarter": "2019q3",
+    "earnings_date": "2019-08-07",
+    "ret_2day_pct": 10.48,
+    "articles": [
+      {
+        "title": "ACM Research, Inc. (ACMR) CEO David Wang on Q2 2019 Results - Earnings Call Transcript",
+        "published_date": "2019-08-09T14:06:03-04:00",
+        "source": "Seeking Alpha",
+        "type": "Article",
+        "url": "https://seekingalpha.com/article/4283931-acm-research-inc-acmr-ceo-david-wang-q2-2019-results-earnings-call-transcript?source=feed_sector_transcripts",
+        "tickers": [
+          "ACMR"
+        ],
+        "api_summary": "ACM Research, Inc. (ACMR) CEO David Wang on Q2 2019 Results - Earnings Call Transcript",
+        "full_text": null
+      }
+    ]
+  },
+  "ACMR_2020q1": {
+    "ticker": "ACMR",
+    "company_name": "ACM Research, Inc.",
+    "fiscal_yearquarter": "2020q1",
+    "earnings_date": "2020-03-18",
+    "ret_2day_pct": -8.68,
+    "articles": [
+      {
+        "title": "ACM Research Launches Stress-Free Polishing Tool for Advanced Packaging Applications; Delivers First Tool to Leading Chinese OSAT",
+        "published_date": "2020-03-18T16:15:00-04:00",
+        "source": "GlobeNewsWire",
+        "type": "Article",
+        "url": "https://www.globenewswire.com/news-release/2020/03/18/2002969/0/en/ACM-Research-Launches-Stress-Free-Polishing-Tool-for-Advanced-Packaging-Applications-Delivers-First-Tool-to-Leading-Chinese-OSAT.html",
+        "tickers": [
+          "ACMR"
+        ],
+        "api_summary": "Ultra SFP ap Provides Environmentally Friendlier Alternative to Conventional CMP for TSV and Fan-Out Wafer-Level Packaging Processes Ultra SFP ap Provides Environmentally Friendlier Alternative to Conventional CMP for TSV and Fan-Out Wafer-Level Packaging Processes",
+        "full_text": null
+      },
+      {
+        "title": "ACM Research, Inc.'s (ACMR) CEO David Wang on Q4 2019 Results - Earnings Call Transcript",
+        "published_date": "2020-03-19T13:40:35-04:00",
+        "source": "Seeking Alpha",
+        "type": "Article",
+        "url": "https://seekingalpha.com/article/4333072-acm-research-inc-s-acmr-ceo-david-wang-on-q4-2019-results-earnings-call-transcript",
+        "tickers": [
+          "ACMR"
+        ],
+        "api_summary": "ACM Research, Inc.'s (ACMR) CEO David Wang on Q4 2019 Results - Earnings Call Transcript",
+        "full_text": null
+      }
+    ]
+  },
+  "ACMR_2022q4": {
+    "ticker": "ACMR",
+    "company_name": "ACM Research, Inc.",
+    "fiscal_yearquarter": "2022q4",
+    "earnings_date": "2022-11-04",
+    "ret_2day_pct": 33.15,
+    "articles": [
+      {
+        "title": "ACM Research Reports Third Quarter 2022 Results",
+        "published_date": "2022-11-04T06:58:00-04:00",
+        "source": "GlobeNewsWire",
+        "type": "Article",
+        "url": "https://www.globenewswire.com/news-release/2022/11/04/2548611/0/en/ACM-Research-Reports-Third-Quarter-2022-Results.html",
+        "tickers": [
+          "ACMR"
+        ],
+        "api_summary": "FREMONT, Calif., Nov. 04, 2022 (GLOBE NEWSWIRE) -- ACM Research, Inc. (“ACM” or the “Company”) (NASDAQ: ACMR), a leading supplier of wafer processing solutions for semiconductor and advanced wafer-level packaging applications, today reported financial results for its third fiscal quarter ended September 30, 2022.",
+        "full_text": null
+      },
+      {
+        "title": "ACM Research, Inc. (ACMR) Q3 2022 Earnings Call Transcript",
+        "published_date": "2022-11-04T14:56:09-04:00",
+        "source": "Seeking Alpha",
+        "type": "Article",
+        "url": "https://seekingalpha.com/article/4553326-acm-research-inc-acmr-q3-2022-earnings-call-transcript",
+        "tickers": [
+          "ACMR"
+        ],
+        "api_summary": "ACM Research, Inc. (NASDAQ:ACMR ) Q3 2022 Earnings Conference Call November 4, 2022 8:00 AM ET Company Participants Gary Dvorchak - Managing Director, Blueshirt Group David Wang - CEO Mark McKechnie - CFO Conference Call Participants Quinn Bolton - Needham and Company Suji Desilva - ROTH Capital Christian Schwab - Craig-Hallum Capital Group Robert McKay - Blue Lotus Charlie Chan - Morgan Stanley Mark Miller - The Benchmark Company Operator Good day, ladies and gentlemen. Thank you for standing-by.",
+        "full_text": null
+      },
+      {
+        "title": "These Were the Five Best and Worst Performing Small-cap Stocks in October 2022",
+        "published_date": "2022-11-07T19:57:15-05:00",
+        "source": "24/7 Wall Street",
+        "type": "Article",
+        "url": "https://247wallst.com/investing/2022/11/07/these-were-the-five-best-and-worst-performing-small-cap-stocks-in-october-2022/?utm_source=snapi",
+        "tickers": [
+          "ACMR",
+          "AKUS",
+          "BHVN",
+          "CANO",
+          "FNGR",
+          "IMVT",
+          "NGM",
+          "NUTX",
+          "TNGX",
+          "TSP"
+        ],
+        "api_summary": "Small-cap stocks can offer big returns in a short period of time, especially when the economy is rebounding from a slowdown.",
+        "full_text": "Small-cap stocks can offer big returns in a short period of time, especially when the economy is rebounding from a slowdown. This is because businesses witness robust earnings growth when the economy is recovering. On the other hand, small-cap stocks…\nThis post may contain links from our sponsors and affiliates, and Flywheel Publishing may receive compensation for actions taken through them.\nSmall-cap stocks can offer big returns in a short period of time, especially when the economy is rebounding from a slowdown. This is because businesses witness robust earnings growth when the economy is recovering.\nOn the other hand, small-cap stocks can offer big losses as well because of their volatile nature. To give an idea of the gains you can make and losses you can incur, discussed below are the five best and worst performing small-cap stocks in October 2022.\nWe have used the October return data from finviz.com to come up with the five best and worst performing small-cap stocks in October 2022. Here are the five best performing small-cap stocks in October 2022:\nFounded in 2016 and headquartered in Boston, Mass., this company develops precision genetic medicines to restore and preserve hearing in genetically-defined patients. Akouos Inc (NASDAQ:AKUS) shares are up by almost 52% year to date and up over 312% in the last three months.\nAs of this writing, Akouos shares are trading above $13 with a 52-week range of $2.32 to $13.35, giving the company a market capitalization of more than $485 million.\nFounded in 2018 and headquartered in New York City, it is a clinical-stage biopharmaceutical company that focuses on providing normal lives to patients with autoimmune diseases. Immunovant Inc (NASDAQ:IMVT) shares are up by almost 40% year to date and up almost 151% in the last three months.\nAs of this writing, Immunovant shares are trading above $11 with a 52-week range of $3.15 to $12.42, giving the company a market cap of more than $1.40 billion.\nFounded in 2014 and headquartered in New York City, this company offers mobile payment and recharge services in China. FingerMotion Inc (NASDAQ:FNGR) shares are down by almost 4% year to date but are up by almost 512% in the last three months.\nAs of this writing, FingerMotion shares are trading above $6.80 with a 52-week range of $0.62 to $9.80, giving the company a market capitalization of more than $320 million.\nFounded in 2017 and headquartered in Boston, Mass., this company discovers novel drugs to deliver targeted therapies to people with cancer. Tango Therapeutics Inc (NASDAQ:TNGX) shares are down by almost 32% year to date but are up by almost 75% in the last three months.\nAs of this writing, Tango Therapeutics shares are trading at above $7.40 with a 52-week range of $3.18 to $14.31, giving the company a market capitalization of more than $650 million.\nFounded in 2013 and headquartered in New Haven, Conn., Biohaven is a modern pharmaceutical company that aims to change the lives of people with unmet medical needs.\nAs of this writing, Biohaven Ltd (NYSE:BHVN) shares are trading above $14 with a 52-week range of $5.54 to $17.39, giving the company a market capitalization of more than $940 million.\nThese were the five worst performing small-cap stocks in October 2022:\nFounded in 2011 and headquartered in Houston, Texas, it is a technology-enabled healthcare services company. Nutex Health Inc (NASDAQ:NUTX) shares are down by almost 83% year to date and down over 79% in the last three months.\nAs of this writing, Nutex Health shares are trading above $0.72 with a 52-week range of $0.50 to $52.80, giving the company a market capitalization of more than $480 million.\nFounded in 1998 and headquartered in Fremont, Calif., this company develops, makes and sells single-wafer wet cleaning equipment. ACM Research Inc (NASDAQ:ACMR) shares are down by almost 77% year to date and down almost 66% in the last three months.\nAs of this writing, ACM Research shares are trading above $6.50 with a 52-week range of $5.46 to $37.12, giving the company a market capitalization of more than $360 million.\nFounded in 2015 and headquartered in San Diego, Calif., this company operates and develops autonomous trucks. Tusimple Holdings Inc (NASDAQ:TSP) shares are down by over 90% year to date and down over 71% in the last three months.\nAs of this writing, TuSimple Holdings shares are trading above $2.70 with a 52-week range of $2.83 to $43.79, giving the company a market cap of more than $760 million.\nFounded in 2009 and headquartered in Miami, Fla., this company operates primary care centers, as well as supports related medical practices in primary care for seniors. Cano Health Inc (NYSE:CANO) shares are down by over 62% year to date and down over 45% in the last three months.\nAs of this writing, Cano Health shares are trading above $3.30 with a 52-week range of $3.30 to $12.87, giving the company a market capitalization of more than $1.60 billion.\nFounded in 2007 and headquartered in South San Francisco, Calif., this company discovers and develops therapeutics for cardio-metabolic, liver, oncologic, and ophthalmic diseases. NGM Biopharmaceuticals Inc (NASDAQ:NGM) shares are down by almost 72% year to date and down over 69% in the last three months.\nAs of this writing, NGM Biopharmaceuticals shares are trading above $4.60 with a 52-week range of $2.92 to $21.63, giving the company a market cap of more than $400 million.\nThis article originally appeared on ValueWalk\nContact [email protected] for any questions or corrections."
+      }
+    ]
+  },
+  "ACMR_2024q1": {
+    "ticker": "ACMR",
+    "company_name": "ACM Research, Inc.",
+    "fiscal_yearquarter": "2024q1",
+    "earnings_date": "2024-02-28",
+    "ret_2day_pct": 41.36,
+    "articles": [
+      {
+        "title": "ACM Research (ACMR) to Report Q4 Earnings: What's in Store?",
+        "published_date": "2024-02-27T10:01:19-05:00",
+        "source": "Zacks Investment Research",
+        "type": "Article",
+        "url": "https://www.zacks.com/stock/news/2232284/acm-research-acmr-to-report-q4-earnings-what-s-in-store?cid=CS-STOCKNEWSAPI-FT-analyst_blog|earnings_preview-2232284",
+        "tickers": [
+          "ACMR"
+        ],
+        "api_summary": "ACM Research's (ACMR) fourth-quarter 2023 results are expected to reflect gains from semiconductor, ECP and advanced packaging businesses.",
+        "full_text": null
+      },
+      {
+        "title": "ACM Research Reports Fourth Quarter and Fiscal Year 2023 Results",
+        "published_date": "2024-02-28T05:00:00-05:00",
+        "source": "GlobeNewsWire",
+        "type": "Article",
+        "url": "https://www.globenewswire.com/news-release/2024/02/28/2836704/0/en/ACM-Research-Reports-Fourth-Quarter-and-Fiscal-Year-2023-Results.html",
+        "tickers": [
+          "ACMR"
+        ],
+        "api_summary": "FREMONT, Calif., Feb. 28, 2024 (GLOBE NEWSWIRE) -- ACM Research, Inc. (“ACM”) (NASDAQ: ACMR), a leading supplier of wafer processing solutions for semiconductor and advanced wafer-level packaging applications, today reported financial results for its fourth quarter and fiscal year ended December 31, 2023.",
+        "full_text": null
+      },
+      {
+        "title": "ACM Research, Inc. (ACMR) Tops Q4 Earnings and Revenue Estimates",
+        "published_date": "2024-02-28T08:06:05-05:00",
+        "source": "Zacks Investment Research",
+        "type": "Article",
+        "url": "https://www.zacks.com/stock/news/2232940/acm-research-inc-acmr-tops-q4-earnings-and-revenue-estimates?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_4-2232940",
+        "tickers": [
+          "ACMR"
+        ],
+        "api_summary": "ACM Research, Inc. (ACMR) came out with quarterly earnings of $0.43 per share, beating the Zacks Consensus Estimate of $0.10 per share. This compares to earnings of $0.19 per share a year ago.",
+        "full_text": "ACM Research, Inc. ( ACMR Quick Quote ACMR - Free Report )     came out with quarterly earnings of $0.43 per share, beating the Zacks Consensus Estimate of $0.10 per share. This compares to earnings of $0.19 per share a year ago. These figures are adjusted for non-recurring items.\nThis quarterly report represents an earnings surprise of 330%. A quarter ago, it was expected that this company would post earnings of $0.35 per share when it actually produced earnings of $0.57, delivering a surprise of 62.86%.\nOver the last four quarters, the company has surpassed consensus EPS estimates four times.\nACM Research, Inc. , which belongs to the Zacks Semiconductor Equipment - Material Services industry, posted revenues of $170.32 million for the quarter ended December 2023, surpassing the Zacks Consensus Estimate by 15.79%. This compares to year-ago revenues of $108.54 million. The company has topped consensus revenue estimates four times over the last four quarters.\nThe sustainability of the stock's immediate price movement based on the recently-released numbers and future earnings expectations will mostly depend on management's commentary on the earnings call.\nACM Research, Inc. Shares have added about 11.5% since the beginning of the year versus the S&P 500's gain of 6.5%.\nWhile ACM Research, Inc. Has outperformed the market so far this year, the question that comes to investors' minds is: what's next for the stock?\nThere are no easy answers to this key question, but one reliable measure that can help investors address this is the company's earnings outlook. Not only does this include current consensus earnings expectations for the coming quarter(s), but also how these expectations have changed lately.\nEmpirical research shows a strong correlation between near-term stock movements and trends in earnings estimate revisions. Investors can track such revisions by themselves or rely on a tried-and-tested rating tool like the Zacks Rank, which has an impressive track record of harnessing the power of earnings estimate revisions.\nAhead of this earnings release , the estimate revisions trend for ACM Research, Inc. Favorable. While the magnitude and direction of estimate revisions could change following the company's just-released earnings report, the current status translates into a Zacks Rank #2 (Buy) for the stock. So, the shares are expected to outperform the market in the near future. You can see the complete list of today's Zacks #1 Rank (Strong Buy) stocks here .\nIt will be interesting to see how estimates for the coming quarters and current fiscal year change in the days ahead. The current consensus EPS estimate is $0.19 on $131.33 million in revenues for the coming quarter and $1.34 on $687.5 million in revenues for the current fiscal year.\nInvestors should be mindful of the fact that the outlook for the industry can have a material impact on the performance of the stock as well. In terms of the Zacks Industry Rank, Semiconductor Equipment - Material Services is currently in the top 1% of the 250 plus Zacks industries. Our research shows that the top 50% of the Zacks-ranked industries outperform the bottom 50% by a factor of more than 2 to 1.\nAnother stock from the broader Zacks Computer and Technology sector, nCino ( NCNO Quick Quote NCNO - Free Report )    , has yet to report results for the quarter ended January 2024. The results are expected to be released on March 26.\nThis company is expected to post quarterly earnings of $0.12 per share in its upcoming report, which represents a year-over-year change of +200%. The consensus EPS estimate for the quarter has remained unchanged over the last 30 days.\nnCino's revenues are expected to be $124.58 million, up 14.1% from the year-ago quarter."
+      },
+      {
+        "title": "Why ACM Research Stock Exploded Today",
+        "published_date": "2024-02-28T11:04:30-05:00",
+        "source": "The Motley Fool",
+        "type": "Article",
+        "url": "https://www.fool.com/investing/2024/02/28/why-acm-research-stock-exploded-today/",
+        "tickers": [
+          "ACMR"
+        ],
+        "api_summary": "ACM's revenue soared 57% in its fourth quarter. The company seems to be benefiting from the AI-driven boom in chip manufacturing.",
+        "full_text": "Shares of ACM Research ( ACMR +7.29% ) were surging today after the semiconductor cleaning equipment maker posted standout results in its fourth-quarter earnings report.\nAs of 10:02 a.m. ET, the stock was up 34.8% on the news.\nACM, which supplies high-tech wafer-cleaning equipment primarily to Chinese foundries, reported 57% revenue growth, well ahead of industry-level wafer fab equipment spending in China, to $170.3 million, which was better than estimates at $149.3 million.\nGross margin in the period was down from 49.6% to 46.4%, which was still ahead of its long-term target of 40% to 45%. The company cited a change in factors such as product mix, currency impacts, and sales volume for the decline in gross margin.\nOperating expenses were up 50% to $55.7 million, which led to a 40% jump in generally accepted accounting principles ( GAAP ) operating income to $23.4 million. On an adjusted basis, earnings per share jumped from $0.19 to $0.43, which easily beat the analyst consensus at $0.17.\nThe company also received qualification for its new SAPS cleaning tool from a large unnamed U.S. manufacturer, which should help drive growth in 2024.\nCEO David Wang said, \"2023 was another pivotal year in ACM's mission to become a major supplier to the global semiconductor industry,\" adding, \"We delivered improved operating margins, and made great progress with new products, new customers, and plans to expand our global production capacity.\"\nLooking ahead to 2024, ACM expects revenue to reach $650 million to $725 million, which implies growth of 17% to 30% and compares to the consensus of $693 million.\nThe company looks well positioned to continue to benefit from the chip boom being sparked by AI demand, and the stock is well priced at a price-to-earnings ratio of 18.4 considering the growth opportunity in front of it.\nDon't be surprised if the stock continues to climb given the recent momentum and the boom in AI chips.\n*Average returns of all recommendations since inception. Cost basis and return based on previous market day close."
+      },
+      {
+        "title": "ACM Research, Inc. (ACMR) Q4 2023 Earnings Call Transcript",
+        "published_date": "2024-02-28T14:38:03-05:00",
+        "source": "Seeking Alpha",
+        "type": "Article",
+        "url": "https://seekingalpha.com/article/4674405-acm-research-inc-acmr-q4-2023-earnings-call-transcript",
+        "tickers": [
+          "ACMR"
+        ],
+        "api_summary": "ACM Research, Inc. (ACMR) Q4 2023 Earnings Call Transcript",
+        "full_text": null
+      },
+      {
+        "title": "3 Small-Cap Giants With Big Growth Trajectories",
+        "published_date": "2024-02-28T17:12:14-05:00",
+        "source": "InvestorPlace",
+        "type": "Article",
+        "url": "https://investorplace.com/2024/02/3-small-cap-giants-with-big-growth-trajectories/",
+        "tickers": [
+          "ACMR",
+          "DGII",
+          "INSG"
+        ],
+        "api_summary": "The future of the U.S. economy looks promising in 2024, with experts describing it as a Goldilocks moment. Anticipated faster growth, decreasing inflation and robust job creation signal a positive shift from recession fears in 2023.",
+        "full_text": "The future of the U.S. economy looks promising in 2024, with experts describing it as a Goldilocks moment. Anticipated faster growth, decreasing inflation and robust job creation signal a positive shift from recession fears in 2023. The National Association for Business Economics predicts a 2.2% rise in the gross domestic product, reflecting a more optimistic outlook, while the Federal Reserve’s expected interest rate cuts and the resilient job market contribute to a brighter economic landscape. That means as the economy continues to grow, these small-cap stocks will as well.\nInseego (NASDAQ: INSG ) provides cloud computing and advanced networking solutions for businesses both large and small. Already a leading supplier of 4G wireless connectivity solutions, INSG has amassed a valuation of $2.20 with a stable YTD valuation change of -4.35%.\nINSG is fully established in the market but shows signs of future growth. It was valued at $26 million in 2023, and the U.S. telecom market size is expected to reach $587.34 billion by 2033 — a CAGR of 3.42% from 2023 to 2033.\nFinancially, INSG improved on a few metrics during Q3 2023. While INSG reported $48.6 million in revenue, marking a YoY decrease of 30%, revenue for 5G Fixed Wireless Access increased 29%. Cash from operations and net change in cash received massive surges of $7.17 million and $376.00K respectively, both increasing over 100% YoY. Overall, Q3 ‘23 proved to be successful for INSG, with the company outperforming previous years’ cash from investing by 23%.\nINSG is set up for success through recent announcements of expansion of services into 5G. INSG is already a top provider in the 4G sector. Cowen expects it to harvest average revenue growth of roughly 20% per year over the next five years. It valued the stock at nearly 80% above its current price. As INSG continues to include an emphasis on introducing 5G, expect INSG’s valuation to climb as more customers gravitate towards the company’s services.\nDigi International (NASDAQ: DGII ) is a company that provides services that enable companies to share and communicate data across industries. It offers a wide variety of IoT (Internet of Things) solutions, encompassing both hardware devices and software applications. DGII’s stock is currently $29.60, up 34% since last November.\nThe IoT industry is projected to grow by over $1 trillion in the next five years, with a CAGR of 15.12%. It will take off with products seamlessly fitting in with the next generation of technology.\nDigi International has been outpacing its industry, growing at a rate of 12.3% to an industry level of just 8.5%. The cash flow growth each year is over four times the industry average. Digi International will likely continue its way throughout 2024, as the company looks to expand its products and customer base. It posted nine straight record quarters, showing its positive trend and success in the IoT space.\nWith the rise of AI, IoT products are going at the forefront of innovation, a place where DGII will excel. This should be a lock to buy that will make massive gains in your portfolio.\nACM Research (NASDAQ: ACMR ) is a global, world-class equipment manufacturer serving the IC, compound semi, wafer-level packaging and wafer manufacturing markets with a broad portfolio of products. ACMR’s current stock value of $21.79 grew 106.54% in the past year.\nThe semiconductor market size could grow from $573.44 billion in 2022 to $1,380.79 billion by 2029, a 12.2% CAGR over that period.\nACMR experienced historical growth in Q3 2023. ACMR reported $168.57 million in revenue, making a YoY increase of 26.07%. Net income and diluted EPS, $25.68 million and $0.39, respectively, increased over 20% YoY.\nDue to the rapid increase in demand for semiconductors, management expects this historical growth to continue in the 2024 fiscal year. ACM also announced it expects revenue for the full year 2024 to be between $650 and $725 million. Factors like trade policy impact, customer spending, supply chain constraints and field tool evaluations shape decision-making and planning.\nIf you could tolerate a risk, this could be a stock that will turn your $1,000 to $1 million.\nOn the date of publication, Michael Que did not hold (either directly or indirectly) any positions in the securities mentioned in this article. The opinions expressed in this article are those of the writer, subject to the InvestorPlace.com Publishing Guidelines .\nThe researchers contributing to this article did not hold (either directly or indirectly) any positions in the securities mentioned in this article.\nMichael Que is a financial writer with extensive experience in the technology industry, with his work featured on Seeking Alpha, Benzinga and MSN Money. He is the owner of Que Capital, a research firm that combines fundamental analysis with ESG factors to pick the best sustainable long-term investments.\nArticle printed from InvestorPlace Media, https://investorplace.com/2024/02/3-small-cap-giants-with-big-growth-trajectories/."
+      },
+      {
+        "title": "Revealed: The small-cap stock poised for unprecedented growth",
+        "published_date": "2024-03-01T05:59:22-05:00",
+        "source": "Finbold",
+        "type": "Article",
+        "url": "https://finbold.com/revealed-the-small-cap-stock-poised-for-unprecedented-growth/?utm_source=snapi",
+        "tickers": [
+          "AAPL",
+          "ACMR",
+          "AMZN",
+          "MSFT"
+        ],
+        "api_summary": "Often characterized by market capitalizations ranging from $250 million to $2.5 billion, small-cap stocks represent the potential future giants of the corporate world. These companies, while smaller in size, carry immense growth prospects akin to the trajectory once charted by tech behemoths like Microsoft (NASDAQ: MSFT), Apple (NASDAQ: AAPL), and Amazon (NASDAQ: AMZN).",
+        "full_text": "Often characterized by market capitalizations ranging from $ 250 million to $ 2.5 billion, small-cap stocks represent the potential future giants of the corporate world. These companies, while smaller, carry immense growth prospects akin to the trajectory once charted by tech behemoths like Microsoft (NASDAQ: MSFT ), Apple (NASDAQ: AAPL ), and Amazon (NASDAQ: AMZN ).\nHowever, not all small-caps evolve into industry titans; many falter along the way, leaving investors with little to gain. Identifying the diamonds in the rough amidst the sea of small-caps requires a keen eye for financially robust firms poised for exponential growth . Thus, in this piece, we bring you our top small-cap pick.\nAmong the plethora of small-cap stocks, ACM Research (NASDAQ: ACMR ) stands out as a prime candidate for unprecedented growth.\nFounded in 1998, ACM Research is a leading provider of wet processing equipment and solutions for advanced semiconductor manufacturing. Headquartered in Fremont, California, ACM Research is renowned for its innovative technologies that enable semiconductor manufacturers to achieve higher yields and greater efficiency in their production processes.\nThe company specializes in developing state-of-the-art equipment for wafer cleaning, polishing, and surface preparation, catering to the needs of both established semiconductor companies and emerging players in the industry. With a commitment to technological excellence and customer satisfaction, ACM Research continues to play a pivotal role in advancing the capabilities of semiconductor manufacturing worldwide.\nACM Research boasts an impressive growth trajectory, with earnings skyrocketing at an average rate of 67.8% per annum over the last five years. Such remarkable growth underscores the company’s strong position within the semiconductor industry, fueled by the burgeoning demand for cutting-edge microchip technology across various sectors.\nDespite its rapid expansion, ACMR maintains a solid financial footing, as reflected in its forward price/earnings (P/E) ratio. With the P/E ratio consistently hovering above 15 in the past half-decade, ACMR presents an attractive value proposition for investors seeking robust growth potential at an affordable price point.\nMorningstar assigns ACM Research a “C” financial health rating, indicative of moderate financial stability. While not without room for improvement, this rating underscores the company’s resilience amidst market fluctuations, positioning it as a relatively safe investment option within the volatile landscape of small-cap stocks.\nDespite experiencing fluctuations, ACMR has consistently outperformed the broader market indices, surpassing the S&P 500 by an average of 8.6 percentage points annually over the last five years. This stellar performance underscores the company’s ability to deliver significant returns to investors; outpacing market benchmarks even in times of uncertainty.\nLooking ahead, ACM Research is poised to sustain its growth momentum, with earnings per share (EPS) projected to increase by 6.0% this year and a further 13.6% the following year. Such optimistic forecasts underscore the company’s solid fundamentals and potential for long-term value creation.\nDespite its impressive growth prospects, ACMR stock currently trades significantly below its 52-week-high , presenting an opportune moment for investors to capitalize on its undervalued status. As the company continues to capitalize on the burgeoning demand for semiconductor cleaning equipment, investors stand to reap substantial rewards from ACMR’s upward trajectory.\nIn the landscape of small-cap stocks, identifying the hidden gems capable of delivering unparalleled growth is no small feat. However, ACM Research emerges as a shining beacon amidst the sea of uncertainty, with its robust financials, exponential growth trajectory, and resilient performance setting it apart as a prime investment opportunity.\nAs investors seek to navigate the volatile waters of the market, ACMR stands poised to deliver unprecedented returns, cementing its status as the small-cap stock to watch in the years to come.\nDisclaimer: The content on this site should not be considered investment advice. Investing is speculative. When investing, your capital is at risk."
+      },
+      {
+        "title": "7 Hypergrowth Stocks With Double-Your-Money Potential",
+        "published_date": "2024-03-01T06:00:00-05:00",
+        "source": "InvestorPlace",
+        "type": "Article",
+        "url": "https://investorplace.com/2024/03/7-hypergrowth-stocks-with-double-your-money-potential/",
+        "tickers": [
+          "ACMR",
+          "BWMX",
+          "DKNG",
+          "RPC",
+          "RIOT",
+          "SMAR",
+          "SPIR"
+        ],
+        "api_summary": "Many investors are looking for companies that can deliver outsized returns. That's why hypergrowth stocks remain attractive, especially ones with the potential to double your investment.",
+        "full_text": "Many investors are looking for companies that can deliver outsized returns. That’s why hypergrowth stocks remain attractive, especially ones with the potential to double your investment.\nWhen I look for hypergrowth stocks, I’m targeting businesses with massive addressable markets and competitive advantages that support rapid expansion. These companies are still early in their growth cycle, yet generate tremendous revenue growth annually. As they scale efficiently, profitability often follows.\nTech stocks tend to fit this mold, leveraging innovation and strong network effects. We’ve witnessed many tech leaders generate life-changing wealth creation in recent decades. With digital transformation accelerating across industries, I expect new market leaders to emerge this decade.\nHowever, one must be prudent, as dilution can erode returns on hypergrowth stocks’ funding expansion. I prefer businesses nearing or achieving profitability through organic growth alone. The healthiest ones increase value for shareholders while self-funding growth initiatives. Let’s have a look!\nACM Research (NASDAQ: ACMR ) is a semiconductor equipment manufacturer that provides innovative solutions for cleaning and improving product yield in fabricating integrated circuits or chips. As I’ve written previously, I would usually remain cautious about the overhyped semiconductor sector. However, ACMR has lagged other semiconductor stocks until its recent breakout.\nI highlighted ACMR’s strong upside potential despite trading below most semiconductor peers in my June, July and August coverage. This conviction has paid off handsomely for those who followed my buy recommendations (up 120%-plus). ACMR recently surged 40% more on a big earnings beat , with EPS topping estimates by 150% and revenue beating by over 14%. With numbers like these, I expect more upside in the coming quarters.\nACMR’s specialty is enhancing the worldwide manufacturing process and yield for integrated chips. Their single-wafer wet cleaning equipment drives superior performance and efficiency. As chips become more complex, the need for innovative cleaning solutions only grows. ACMR is poised to capture share in this essential market.\nWhile the travel rebound has cooled and gambling stocks draw less attention outside events like the Super Bowl, I remain bullish on the long-term potential of sports betting names like DraftKings (NASDAQ: DKNG ). Megatrends point to gambling’s rising popularity, especially among younger demographics.\nMoreover, expanded state legalization efforts continue gaining momentum with successful lobbying from gambling entities. The more states that legalize sports betting, the bigger DraftKings’ addressable market becomes. This momentum shows no signs of slowing.\nDraftKings grew Q4 revenue by 44% as it marches toward future profitability. Consensus predicts EPS reaching $2.90 in 2027 , meaning DKNG trades at just 14x 2027 earnings — very inexpensive for the amount of growth. Buying before this EPS hypergrowth seems like a good idea.\nThe pullback has P10 (NYSE: PX ) shares trading below $10. At 11x forward earnings with double-digit sales growth , I now see multibagger return potential over a multi-year timeframe.\nP10 is a leading private markets solutions provider in alternative asset management. Their mission provides differentiated access to investment solutions addressing diverse needs within private markets. P10’s revenue comprises solely management fees.\nThe strong rally in equity markets over the last few months should give an improved outlook for P10’s new private equity fundraising. With the stock so inexpensive, many analysts predict triple-digit upside potential before year’s end.\nBuying P10 at these levels offers a chance to capitalize on the rebound in private markets ahead. I believe substantial upside lies ahead.\nSmartsheet (NYSE: SMAR ) is a leading cloud-based work execution platform connecting teams and organizations. Its no-code solution enables anyone to create customized workflows, automating processes and reporting. Although off 47% from peaks, Smartsheet still trades at a premium typical of high-growth SaaS firms.\nHowever, substantial upside remains as Smartsheet counts 80%+ of the Fortune 500 as customers. These sticky enterprise clients will likely expand Smartsheet usage considerably in the coming years as the product portfolio matures.\nSmartsheet already boasts 90% of the Fortune 100 with plenty of room to grow in massive addressable markets. Consensus predicts surging profitability ahead, with EPS potentially skyrocketing from an estimated 70 cents in FY2024 (ended January) to $5.7 in FY2033. Paired with ~15% annual expected revenue growth, Smartsheet at 6x forward sales seems attractively priced for a SaaS firm.\nWith blue-chip customers and tremendous market opportunities ahead in digitizing work execution, I believe Smartsheet can double within 2-3 years. The growth story remains intact.\nSpire Global (NYSE: SPIR ) operates a constellation of over 110 nanosatellites, tracking maritime, aviation, weather and other global datasets. I’m bullish on space companies amidst a potential military space race between China, and the U.S. Satellite technology has become essential for communications, GPS targeting and more.\nWhile risky after a 90% decline from peaks and 65% net loss margins, Spire has substantial potential. Net margins improved 40% YOY in Q3 as 34% revenue growth continues. Breakeven approaches in 2025 .\nAt 2.5x forward sales with 30%-plus annual growth, Spire holds long-term promise. Its federal business offering satellite data insights to defense groups should see demand rise with geopolitical tensions. Spire’s satellite fleet is the second largest commercially.\nThough speculative, space sector tailwinds and Spire’s ramping growth make it an attractive bet on the expanding space economy. I believe substantial upside lies ahead. Its bleeding has slowed dramatically, and a first-of-its-kind space data platform still seems early in monetization. Potential seems enormous if execution steadies.\nI’ve consistently highlighted Riot Platforms (NASDAQ: RIOT ) despite crypto market volatility, given multiple 2024 catalysts and sentiment lags. Bitcoin ( BTC-USD ) has rebounded nicely while miners like Riot remained depressed.\nWhile lower mining rewards post-Bitcoin halving loom, Riot rapidly expands operations ahead of it while stockpiling Bitcoin before appreciation. Riot held 7,648 BTC as of January and recently ordered 31,500 next-gen miners from MicroBT for $97.4M.\nRiot’s early positioning for sector recovery provides upside while Wall Street fixation on halving headwinds persists. If Bitcoin runs higher, miners will follow. With mines rapidly expanding as Riot’s balance sheet gains leverage to crypto, substantial upside exists for this option in hypergrowth stocks.\nThough lacking the top-line hypergrowth of other picks, Betterware’s (NASDAQ: BWMX ) home/kitchen organization offerings and dividend make it worthwhile. This choice in hypergrowth stocks trades at $17 with visible upside drivers.\nBetterware beat Q4 EPS estimates by 103% and revenue by 11%, with 34% more EPS growth expected in 2024. Once rates eventually relax, profits could achieve better-than-expected upside. Its 7% dividend yield also seems easily sustainable given present growth and leading industry positioning.\nPlus, it has a 4% Mexico market share, so Betterware has ample runway for expansion here. The 65% decline from its peak also means there’s significant potential for recovery once Betterware returns to form.\nOn the date of publication, Omor Ibne Ehsan did not hold (either directly or indirectly) any positions in the securities mentioned in this article. The opinions expressed in this article are those of the writer, subject to the InvestorPlace.com Publishing Guidelines.\nOmor Ibne Ehsan is a writer at InvestorPlace. He is a self-taught investor with a focus on growth and cyclical stocks that hav"
+      }
+    ]
+  },
+  "ACVA_2021q4": {
+    "ticker": "ACVA",
+    "company_name": "ACV Auctions Inc.",
+    "fiscal_yearquarter": "2021q4",
+    "earnings_date": "2021-11-10",
+    "ret_2day_pct": -3.45,
+    "articles": [
+      {
+        "title": "Should You Buy ACV Auctions (ACVA) Ahead of Earnings?",
+        "published_date": "2021-11-09T09:56:20-05:00",
+        "source": "Zacks Investment Research",
+        "type": "Article",
+        "url": "https://www.zacks.com/stock/news/1825749/should-you-buy-acv-auctions-acva-ahead-of-earnings",
+        "tickers": [
+          "ACVA"
+        ],
+        "api_summary": "ACV Auctions (ACVA) is seeing favorable earnings estimate revision activity and has a positive Zacks Earnings ESP heading into earnings season.",
+        "full_text": null
+      },
+      {
+        "title": "Wall Street Analysts Believe ACV Auctions Inc. (ACVA) Could Rally 70%: Here's is How to Trade",
+        "published_date": "2021-11-10T11:28:06-05:00",
+        "source": "Zacks Investment Research",
+        "type": "Article",
+        "url": "https://www.zacks.com/stock/news/1826635/wall-street-analysts-believe-acv-auctions-inc-acva-could-rally-70-here-s-is-how-to-trade",
+        "tickers": [
+          "ACVA"
+        ],
+        "api_summary": "The average of price targets set by Wall Street analysts indicates a potential upside of 69.9% in ACV Auctions Inc. (ACVA). While the effectiveness of this highly sought-after metric is questionable, the positive trend in earnings estimate revisions might translate into an upside in the stock.",
+        "full_text": "Shares of ACV Auctions Inc. ( ACVA Quick Quote ACVA - Free Report )     have gained 2.9% over the past four weeks to close the last trading session at $19.78, but there could still be a solid upside left in the stock if short-term price targets of Wall Street analysts are any indication. Going by the price targets, the mean estimate of $33.60 indicates a potential upside of 69.9%.\nThe mean estimate comprises 10 short-term price targets with a standard deviation of $7.92. While the lowest estimate of $23 indicates a 16.3% increase from the current price level, the most optimistic analyst expects the stock to surge 127.5% to reach $45. It's very important to note the standard deviation here, as it helps understand the variability of the estimates. The smaller the standard deviation, the greater the agreement among analysts.\nWhile the consensus price target is a much-coveted metric for investors, solely banking on this metric to make an investment decision may not be wise at all. That's because the ability and unbiasedness of analysts in setting price targets have long been questionable.\nHowever, an impressive consensus price target is not the only factor that indicates a potential upside in ACVA. This view is strengthened by the agreement among analysts that the company will report better earnings than what they estimated earlier. Though a positive trend in earnings estimate revisions doesn't give any idea as to how much the stock could surge, it has proven effective in predicting an upside.\nHere's What You Should Know About Analysts' Price Targets\nAccording to researchers at several universities across the globe, a price target is one of many pieces of information about a stock that misleads investors far more often than it guides. In fact, empirical research shows that price targets set by several analysts, irrespective of the extent of agreement, rarely indicate where the price of a stock could actually be heading.\nWhile Wall Street analysts have deep knowledge of a company's fundamentals and the sensitivity of its business to economic and industry issues, many of them tend to set overly optimistic price targets. Are you wondering why?\nThey usually do that to drum up interest in shares of companies that their firms either have existing business relationships with or are looking to be associated with. In other words, business incentives of firms covering a stock often result in inflated price targets set by analysts.\nHowever, a tight clustering of price targets, which is represented by a low standard deviation, indicates that analysts have a high degree of agreement about the direction and magnitude of a stock's price movement. While that doesn't necessarily mean the stock will hit the average price target, it could be a good starting point for further research aimed at identifying the potential fundamental driving forces.\nThat said, while investors should not entirely ignore price targets, making an investment decision solely based on them could lead to disappointing ROI. So, price targets should always be treated with a high degree of skepticism.\nHere's Why There Could be Plenty of Upside Left in ACVA\nAnalysts' growing optimism over the company's earnings prospects, as indicated by strong agreement among them in revising EPS estimates higher, could be a legitimate reason to expect an upside in the stock. That's because empirical research shows a strong correlation between trends in earnings estimate revisions and near-term stock price movements.\nOver the last 30 days, the Zacks Consensus Estimate for the current year has increased 2%, as two estimates have moved higher compared to no negative revision.\nTherefore, while the consensus price target may not be a reliable indicator of how much ACVA could gain, the direction of price movement it implies does appear to be a good guide."
+      },
+      {
+        "title": "ACV Announces Third Quarter 2021 Results",
+        "published_date": "2021-11-10T16:01:00-05:00",
+        "source": "GlobeNewsWire",
+        "type": "Article",
+        "url": "https://www.globenewswire.com/news-release/2021/11/10/2331945/0/en/ACV-Announces-Third-Quarter-2021-Results.html",
+        "tickers": [
+          "ACVA"
+        ],
+        "api_summary": "Increases Full Year 2021 Guidance Increases Full Year 2021 Guidance",
+        "full_text": null
+      },
+      {
+        "title": "ACV Auctions Inc. (ACVA) CEO George Chamoun on Q3 2021 Results - Earnings Call Transcript",
+        "published_date": "2021-11-10T22:59:04-05:00",
+        "source": "Seeking Alpha",
+        "type": "Article",
+        "url": "https://seekingalpha.com/article/4468246-acv-auctions-inc-acva-ceo-george-chamoun-on-q3-2021-results-earnings-call-transcript",
+        "tickers": [
+          "ACVA"
+        ],
+        "api_summary": "ACV Auctions Inc. (ACVA) CEO George Chamoun on Q3 2021 Results - Earnings Call Transcript",
+        "full_text": "ACV Auctions Inc. ( ACVA ) Q3 2021 Earnings Conference Call November 10, 2021 5:00 PM ET\nTim Fox - VP, IR George Chamoun - CEO William Zerella - CFO\nJohn Colantuoni - Jefferies Ali-Ahmad Faghri - Guggenheim Securities Stephanie Moore - Truist Securities Alexander Potter - Piper Sandler Rajat Gupta - JPMorgan Robert Labick - CJS Securities\nGood afternoon, ladies and gentlemen. Thank you for standing by, and welcome to the ACV Third Quarter 2021 Conference Call. [Operator Instructions].\nI would now like to turn the call over to Tim Fox, ACV's Vice President of Investor Relations. Please go ahead.\nThank you, operator. Good afternoon, everyone, and thank you for joining ACV's conference call to discuss our third quarter 2021 financial results. With me on the call today are George Chamoun, Chief Executive Officer; and Bill Zerella, Chief Financial Officer.\nBefore we get started, please note that today's comments include forward-looking statements, including statements regarding future financial guidance. These forward-looking statements are subject to risks and uncertainties and involve factors that could cause actual results to differ materially from those expressed or implied by such statements. A discussion of the risks and uncertainties related to our business is contained in our quarterly report on Form 10-Q for the 3 months ended September 30, 2021 that will be filed with the SEC following this earnings call.\nAlso during this call, we may present both GAAP and non-GAAP financial measures. Reconciliations to the most directly comparable GAAP financial measures are available in our earnings release, which we issued a short time ago. The earnings release is available on the Investor Relations website that is included as an exhibit in the Form 8-K furnished to the SEC. And finally, we will be referencing our earnings presentation today, which you can find posted on"
+      },
+      {
+        "title": "ACV To Participate at the 2021 RBC Capital Markets Global Technology, Internet, Media and Telecom Virtual Conference",
+        "published_date": "2021-11-11T16:01:00-05:00",
+        "source": "GlobeNewsWire",
+        "type": "Article",
+        "url": "https://www.globenewswire.com/news-release/2021/11/11/2332922/0/en/ACV-To-Participate-at-the-2021-RBC-Capital-Markets-Global-Technology-Internet-Media-and-Telecom-Virtual-Conference.html",
+        "tickers": [
+          "ACVA"
+        ],
+        "api_summary": "BUFFALO, N.Y., Nov. 11, 2021 (GLOBE NEWSWIRE) -- ACV Auctions Inc. (NASDAQ: ACVA), the leading online automotive marketplace for dealers, announced today that members of its management team will present at the 2021 RBC Capital Markets Global Technology, Internet, Media and Telecom Virtual Conference on November 16, 2021 at 4:00 PM Eastern Time.",
+        "full_text": null
+      },
+      {
+        "title": "ACV Participates as Active Sponsor and Exhibitor at Used Car Week 2021",
+        "published_date": "2021-11-12T13:47:00-05:00",
+        "source": "GlobeNewsWire",
+        "type": "Article",
+        "url": "https://www.globenewswire.com/news-release/2021/11/12/2333602/0/en/ACV-Participates-as-Active-Sponsor-and-Exhibitor-at-Used-Car-Week-2021.html",
+        "tickers": [
+          "ACVA"
+        ],
+        "api_summary": "The leading digital automotive marketplace will participate in a wide variety of speaking sessions and events from November 15-18 in Las Vegas, Nevada The leading digital automotive marketplace will participate in a wide variety of speaking sessions and events from November 15-18 in Las Vegas, Nevada",
+        "full_text": null
+      }
+    ]
+  },
+  "ACVA_2023q1": {
+    "ticker": "ACVA",
+    "company_name": "ACV Auctions Inc.",
+    "fiscal_yearquarter": "2023q1",
+    "earnings_date": "2023-02-22",
+    "ret_2day_pct": 20.1,
+    "articles": [
+      {
+        "title": "ACV Announces Fourth Quarter and Full-Year 2022 Results",
+        "published_date": "2023-02-22T16:01:00-05:00",
+        "source": "GlobeNewsWire",
+        "type": "Article",
+        "url": "https://www.globenewswire.com/news-release/2023/02/22/2613694/0/en/ACV-Announces-Fourth-Quarter-and-Full-Year-2022-Results.html",
+        "tickers": [
+          "ACVA"
+        ],
+        "api_summary": "Gained Market Share, Delivered 18% Full-Year Revenue Growth Adjusted EBITDA Ahead of Guidance",
+        "full_text": null
+      },
+      {
+        "title": "ACV to and Participate at the 2023 JMP Securities Technology Conference on March 7, 2023 and Host Analyst Day on June 1, 2023",
+        "published_date": "2023-02-22T17:00:00-05:00",
+        "source": "GlobeNewsWire",
+        "type": "Article",
+        "url": "https://www.globenewswire.com/news-release/2023/02/22/2613790/0/en/ACV-to-and-Participate-at-the-2023-JMP-Securities-Technology-Conference-on-March-7-2023-and-Host-Analyst-Day-on-June-1-2023.html",
+        "tickers": [
+          "ACVA"
+        ],
+        "api_summary": "BUFFALO, N.Y., Feb. 22, 2023 (GLOBE NEWSWIRE) -- ACV (Nasdaq: ACVA), the leading digital automotive marketplace and data services partner for dealers and commercial partners, announced today that members of its management team will present at the 2023 JMP Securities Technology Conference on March 7, 2023 at 1:30 PM ET. ACV also announced that it will host an analyst day on Thursday, June 1, 2023 in New York City.",
+        "full_text": null
+      },
+      {
+        "title": "ACV Auctions Inc. (ACVA) Reports Q4 Loss, Lags Revenue Estimates",
+        "published_date": "2023-02-22T18:49:41-05:00",
+        "source": "Zacks Investment Research",
+        "type": "Article",
+        "url": "https://www.zacks.com/stock/news/2057657/acv-auctions-inc-acva-reports-q4-loss-lags-revenue-estimates",
+        "tickers": [
+          "ACVA"
+        ],
+        "api_summary": "ACV Auctions Inc. (ACVA) delivered earnings and revenue surprises of -45.45% and 1.11%, respectively, for the quarter ended December 2022. Do the numbers hold clues to what lies ahead for the stock?",
+        "full_text": "ACV Auctions Inc. ( ACVA Quick Quote ACVA - Free Report )     came out with a quarterly loss of $0.16 per share versus the Zacks Consensus Estimate of a loss of $0.11. This compares to loss of $0.17 per share a year ago. These figures are adjusted for non-recurring items.\nThis quarterly report represents an earnings surprise of -45.45%. A quarter ago, it was expected that this company would post a loss of $0.19 per share when it actually produced a loss of $0.15, delivering a surprise of 21.05%.\nOver the last four quarters, the company has surpassed consensus EPS estimates two times.\nACV Auctions Inc. , which belongs to the Zacks Internet - Commerce industry, posted revenues of $97.97 million for the quarter ended December 2022, missing the Zacks Consensus Estimate by 1.11%. This compares to year-ago revenues of $100.18 million. The company has topped consensus revenue estimates three times over the last four quarters.\nThe sustainability of the stock's immediate price movement based on the recently-released numbers and future earnings expectations will mostly depend on management's commentary on the earnings call.\nACV Auctions Inc. Shares have added about 28.1% since the beginning of the year versus the S&P 500's gain of 4.1%.\nWhile ACV Auctions Inc. Has outperformed the market so far this year, the question that comes to investors' minds is: what's next for the stock?\nThere are no easy answers to this key question, but one reliable measure that can help investors address this is the company's earnings outlook. Not only does this include current consensus earnings expectations for the coming quarter(s), but also how these expectations have changed lately.\nEmpirical research shows a strong correlation between near-term stock movements and trends in earnings estimate revisions. Investors can track such revisions by themselves or rely on a tried-and-tested rating tool like the Zacks Rank, which has an impressive track record of harnessing the power of earnings estimate revisions.\nAhead of this earnings release , the estimate revisions trend for ACV Auctions Inc. Mixed. While the magnitude and direction of estimate revisions could change following the company's just-released earnings report, the current status translates into a Zacks Rank #3 (Hold) for the stock. So, the shares are expected to perform in line with the market in the near future. You can see the complete list of today's Zacks #1 Rank (Strong Buy) stocks here .\nIt will be interesting to see how estimates for the coming quarters and current fiscal year change in the days ahead. The current consensus EPS estimate is -$0.10 on $105.62 million in revenues for the coming quarter and -$0.32 on $450.94 million in revenues for the current fiscal year.\nInvestors should be mindful of the fact that the outlook for the industry can have a material impact on the performance of the stock as well. In terms of the Zacks Industry Rank, Internet - Commerce is currently in the top 18% of the 250 plus Zacks industries. Our research shows that the top 50% of the Zacks-ranked industries outperform the bottom 50% by a factor of more than 2 to 1.\nOne other stock from the same industry, Rover Group, Inc. , is yet to report results for the quarter ended December 2022. The results are expected to be released on February 27.\nThis company is expected to post break-even quarterly earnings per share in its upcoming report, which represents a year-over-year change of +100%. The consensus EPS estimate for the quarter has remained unchanged over the last 30 days.\nRover Group, Inc.'s revenues are expected to be $50.12 million, up 31.9% from the year-ago quarter."
+      },
+      {
+        "title": "ACV Auctions, Inc. (ACVA) Q4 2022 Earnings Call Transcript",
+        "published_date": "2023-02-22T21:41:11-05:00",
+        "source": "Seeking Alpha",
+        "type": "Article",
+        "url": "https://seekingalpha.com/article/4580942-acv-auctions-inc-acva-q4-2022-earnings-call-transcript",
+        "tickers": [
+          "ACVA"
+        ],
+        "api_summary": "ACV Auctions, Inc. (NASDAQ:ACVA ) Q4 2022 Earnings Conference Call February 22, 2023 5:00 PM ET Company Participants Timothy Fox - VP, IR George Chamoun - CEO & Director William Zerella - CFO Conference Call Participants Christopher Pierce - Needham & Company Robert Labick - CJS Securities Michael Graham - Canaccord Genuity Vincent Kardos - Jefferies Nicholas Jones - JMP Securities Gary Prestopino - Barrington Research Associates Daniel Imbro - Stephens Inc. Ronald Josey - Citigroup Rajat Gupta - JPMorgan Chase & Co. Operator Good day, and thank you for standing by. Welcome to the ACVA Fourth Quarter 2022 Earnings Call.",
+        "full_text": null
+      },
+      {
+        "title": "Why ACV Auctions Stock Surged Today",
+        "published_date": "2023-02-23T12:34:18-05:00",
+        "source": "The Motley Fool",
+        "type": "Article",
+        "url": "https://www.fool.com/investing/2023/02/23/why-acv-auction-stock-surged-today/",
+        "tickers": [
+          "ACVA"
+        ],
+        "api_summary": "Shares of the online car auctioneer gained on strong guidance in its earnings report.",
+        "full_text": "Shares of ACV Auctions ( ACVA +0.05% ) were moving higher today after the wholesale digital auto auctioneer posted strong results in its fourth-quarter earnings report.\nAs of 11:35 a.m. ET on Thursday, the stock was up 15%.\nIn a challenging used-car market, ACV said revenue in the fourth quarter declined by 2% to $98 million, which was slightly below estimates at $99.3 million. Marketplace gross merchandise volume was down 29% to $1.8 billion as marketplace units sold fell 10% to 124,751, a reflection of falling prices and demand in the wholesale used-car market after prices soared in 2021.\nDespite those headwinds on the top line, the company improved its cost structure in the quarter, and its adjusted loss on the basis of earnings before interest, taxes, depreciation, and amortization ( EBITDA) narrowed from $16 million to $13 million. Its per-share loss of $0.15 under generally accepted accounting principles ( GAAP) was better than estimates at $0.19.\nCEO George Chamoun said: \"Despite facing challenging market and macroeconomic headwinds, ACV continued to gain share, grow our dealer partnership network, expand our competitive moat, and drive adoption of our broad suite of solutions. We achieved this while expanding margins and carefully managing our cost structure.\"\nIn the first quarter, ACV Auctions expects its performance to improve, with revenue growth of 4% to 7%, reaching  $107 million to $110 million. That is ahead of the consensus at $106 million. It also sees an adjusted EBITDA loss of $12 million to $14 million.\nFor the full year, ACV is guiding for 9% to 11% top-line growth, to $460 million to $470 million, which is better than analyst estimates at $462.4 million. It also sees its adjusted EBITDA loss narrowing from $56 million to a range of $30 million to $35 million.\nWith guidance indicating that the worst of the macro headwinds have passed, and as the company makes meaningful margin improvement, it's not surprising to see the stock up by double digits today.\n*Average returns of all recommendations since inception. Cost basis and return based on previous market day close."
+      },
+      {
+        "title": "Why ACV Auctions Stock Blasted Higher This Week",
+        "published_date": "2023-02-24T18:35:46-05:00",
+        "source": "The Motley Fool",
+        "type": "Article",
+        "url": "https://www.fool.com/investing/2023/02/24/why-acv-auctions-stock-blasted-higher-this-week/",
+        "tickers": [
+          "ACVA"
+        ],
+        "api_summary": "Investors breathed a sigh of relief following the company's latest earnings release.",
+        "full_text": "A solid quarterly earnings report was the fuel driving shares of secondhand auto sales specialist ACV Auctions ( ACVA +0.05% ) higher this week. Several analysts' price target raises added a bit of turbo to that drive. Ultimately ACV's share price motored ahead by more than 20% during the week, according to data compiled by S&P Global Market Intelligence .\nOn Wednesday, ACV lifted the hood on its fourth-quarter and full-year results. The used car auctioneer suffered a slight decline in revenue on a year-over-year basis, which actually wasn't a bad showing given how weak the used vehicle market has been lately.\nAnd although its top-line figure came in under the average analyst estimate, the company posted a narrower-than-expected GAAP net loss.\nThe road ahead should be fairly traffic-free. ACV guided for revenue growth in 2023 more robust than the prognosticators' consensus forecasts, and said it expects to narrow its non-GAAP (adjusted) earnings before interest, taxes, depreciation, and amortization (EBITDA) losses.\nThat was encouraging enough to earn price target raises for the stock from several heavy-hitting researchers. Goldman Sachs 's Eric Sheridan revved his price target nearly 30% higher -- he now feels ACV will hit $15.50 per share, up from $12. Sheridan maintained his buy recommendation on the shares.\nRonald Josey of financial sector powerhouse Citigroup also gave his ACV price target some gas. His new level is $14 per share, up from $11 per share previously. Like Sheridan, Josey kept a buy recommendation on the company.\n*Average returns of all recommendations since inception. Cost basis and return based on previous market day close."
+      }
+    ]
+  },
+  "ADMA_2019q2": {
+    "ticker": "ADMA",
+    "company_name": "ADMA Biologics, Inc.",
+    "fiscal_yearquarter": "2019q2",
+    "earnings_date": "2019-05-08",
+    "ret_2day_pct": 8.16,
+    "articles": []
+  },
+  "ADMA_2021q2": {
+    "ticker": "ADMA",
+    "company_name": "ADMA Biologics, Inc.",
+    "fiscal_yearquarter": "2021q2",
+    "earnings_date": "2021-05-12",
+    "ret_2day_pct": -5.14,
+    "articles": [
+      {
+        "title": "ADMA Biologics Earnings Preview",
+        "published_date": "2021-05-11T10:17:42-04:00",
+        "source": "Benzinga",
+        "type": "Article",
+        "url": "https://www.benzinga.com/news/earnings/21/05/21060882/adma-biologics-earnings-preview?utm_source=snapi",
+        "tickers": [
+          "ADMA"
+        ],
+        "api_summary": "On Wednesday, May 12, ADMA Biologics (NASDAQ:ADMA) will release its latest earnings report. Benzinga's report can help you figure out the ins and outs of the earnings release.",
+        "full_text": null
+      },
+      {
+        "title": "ADMA Biologics Reports First Quarter 2021 Financial Results and Highlights Recent Company Progress and Accomplishments",
+        "published_date": "2021-05-12T16:05:00-04:00",
+        "source": "GlobeNewsWire",
+        "type": "Article",
+        "url": "https://www.globenewswire.com/news-release/2021/05/12/2228686/33130/en/ADMA-Biologics-Reports-First-Quarter-2021-Financial-Results-and-Highlights-Recent-Company-Progress-and-Accomplishments.html",
+        "tickers": [
+          "ADMA"
+        ],
+        "api_summary": "Achieved First Quarter 2021 Total Revenues of $16.0 Million, a 57% Increase Over First Quarter 2020",
+        "full_text": null
+      },
+      {
+        "title": "Recap: ADMA Biologics Q1 Earnings",
+        "published_date": "2021-05-12T17:05:04-04:00",
+        "source": "Benzinga",
+        "type": "Article",
+        "url": "https://www.benzinga.com/news/earnings/21/05/21094771/recap-adma-biologics-q1-earnings?utm_source=snapi",
+        "tickers": [
+          "ADMA"
+        ],
+        "api_summary": "Shares of ADMA Biologics (NASDAQ:ADMA) increased in after-market trading after the company reported Q1 results. Quarterly Results Earnings per share were up 38.46% over the past year to ($0.16), which beat the estimate of ($0.17).",
+        "full_text": null
+      },
+      {
+        "title": "ADMA Biologics Inc. (ADMA) CEO Adam Grossman on Q1 2021 Results - Earnings Call Transcript",
+        "published_date": "2021-05-12T20:48:03-04:00",
+        "source": "Seeking Alpha",
+        "type": "Article",
+        "url": "https://seekingalpha.com/article/4428088-adma-biologics-inc-adma-ceo-adam-grossman-on-q1-2021-results-earnings-call-transcript",
+        "tickers": [
+          "ADMA"
+        ],
+        "api_summary": "ADMA Biologics Inc. (ADMA) CEO Adam Grossman on Q1 2021 Results - Earnings Call Transcript",
+        "full_text": null
+      }
+    ]
+  },
+  "ADMA_2023q2": {
+    "ticker": "ADMA",
+    "company_name": "ADMA Biologics, Inc.",
+    "fiscal_yearquarter": "2023q2",
+    "earnings_date": "2023-05-10",
+    "ret_2day_pct": 13.93,
+    "articles": [
+      {
+        "title": "ADMA Biologics Announces First Quarter 2023 Financial Results and Provides Business Update",
+        "published_date": "2023-05-10T16:05:00-04:00",
+        "source": "GlobeNewsWire",
+        "type": "Article",
+        "url": "https://www.globenewswire.com/news-release/2023/05/10/2666023/33130/en/ADMA-Biologics-Announces-First-Quarter-2023-Financial-Results-and-Provides-Business-Update.html",
+        "tickers": [
+          "ADMA"
+        ],
+        "api_summary": "1Q2023 Total Revenues of $57 Million, a 96% Y-o-Y Increase 1Q2023 Net Loss of $6.8 Million, a 73% Y-o-Y Improvement Achieved Milestone First-Time Positive Adjusted EBITDA (1 ) , Totaling $2.5 Million, Earlier Than Forecasted FY2023 Total Revenue Now Expected to Exceed $220 Million, Increased from $210 Million Adjusted EBITDA Growth Expected Over the Remainder of 2023 Conference Call Scheduled for Today at 4:30 p.m. ET RAMSEY, N.J.",
+        "full_text": null
+      },
+      {
+        "title": "Adma Biologics (ADMA) Reports Q1 Loss, Tops Revenue Estimates",
+        "published_date": "2023-05-10T18:59:54-04:00",
+        "source": "Zacks Investment Research",
+        "type": "Article",
+        "url": "https://www.zacks.com/stock/news/2093754/adma-biologics-adma-reports-q1-loss-tops-revenue-estimates",
+        "tickers": [
+          "ADMA"
+        ],
+        "api_summary": "Adma Biologics (ADMA) came out with a quarterly loss of $0.03 per share versus the Zacks Consensus Estimate of a loss of $0.05. This compares to loss of $0.10 per share a year ago.",
+        "full_text": "Adma Biologics ( ADMA Quick Quote ADMA - Free Report )     came out with a quarterly loss of $0.03 per share versus the Zacks Consensus Estimate of a loss of $0.05. This compares to loss of $0.10 per share a year ago. These figures are adjusted for non-recurring items.\nThis quarterly report represents an earnings surprise of 40%. A quarter ago, it was expected that this infectious disease drug developer would post a loss of $0.07 per share when it actually produced a loss of $0.06, delivering a surprise of 14.29%.\nOver the last four quarters, the company has surpassed consensus EPS estimates three times.\nAdma Biologics , which belongs to the Zacks Medical - Biomedical and Genetics industry, posted revenues of $56.91 million for the quarter ended March 2023, surpassing the Zacks Consensus Estimate by 10.84%. This compares to year-ago revenues of $29.1 million. The company has topped consensus revenue estimates four times over the last four quarters.\nThe sustainability of the stock's immediate price movement based on the recently-released numbers and future earnings expectations will mostly depend on management's commentary on the earnings call.\nAdma Biologics shares have lost about 10.6% since the beginning of the year versus the S&P 500's gain of 7.3%.\nWhile Adma Biologics has underperformed the market so far this year, the question that comes to investors' minds is: what's next for the stock?\nThere are no easy answers to this key question, but one reliable measure that can help investors address this is the company's earnings outlook. Not only does this include current consensus earnings expectations for the coming quarter(s), but also how these expectations have changed lately.\nEmpirical research shows a strong correlation between near-term stock movements and trends in earnings estimate revisions. Investors can track such revisions by themselves or rely on a tried-and-tested rating tool like the Zacks Rank, which has an impressive track record of harnessing the power of earnings estimate revisions.\nAhead of this earnings release , the estimate revisions trend for Adma Biologics: favorable. While the magnitude and direction of estimate revisions could change following the company's just-released earnings report, the current status translates into a Zacks Rank #2 (Buy) for the stock. So, the shares are expected to outperform the market in the near future. You can see the complete list of today's Zacks #1 Rank (Strong Buy) stocks here .\nIt will be interesting to see how estimates for the coming quarters and current fiscal year change in the days ahead. The current consensus EPS estimate is -$0.04 on $52.4 million in revenues for the coming quarter and -$0.14 on $211.8 million in revenues for the current fiscal year.\nInvestors should be mindful of the fact that the outlook for the industry can have a material impact on the performance of the stock as well. In terms of the Zacks Industry Rank, Medical - Biomedical and Genetics is currently in the top 40% of the 250 plus Zacks industries. Our research shows that the top 50% of the Zacks-ranked industries outperform the bottom 50% by a factor of more than 2 to 1.\nOne other stock from the same industry, SAB Biotherapeutics, Inc. ( SABS Quick Quote SABS - Free Report )    , is yet to report results for the quarter ended March 2023.\nThis company is expected to post quarterly loss of $0.08 per share in its upcoming report, which represents a year-over-year change of +46.7%. The consensus EPS estimate for the quarter has been revised 9.5% higher over the last 30 days to the current level.\nSAB Biotherapeutics, Inc.'s revenues are expected to be $5.56 million, down 52.9% from the year-ago quarter."
+      },
+      {
+        "title": "ADMA Biologics, Inc. (ADMA) Q1 2023 Earnings Call Transcript",
+        "published_date": "2023-05-10T21:02:04-04:00",
+        "source": "Seeking Alpha",
+        "type": "Article",
+        "url": "https://seekingalpha.com/article/4602830-adma-biologics-inc-adma-q1-2023-earnings-call-transcript",
+        "tickers": [
+          "ADMA"
+        ],
+        "api_summary": "ADMA Biologics, Inc. (NASDAQ:ADMA ) Q1 2023 Results Conference Call May 10, 2023 4:30 PM ET Company Participants Skyler Bloom - Senior Director, Business Development and Corporate Strategy Adam Grossman - President and Chief Executive Officer Brian Lenz - EVP, Chief Financial Officer, General Manager of ADMA BioCenters Conference Call Participants Elliot Wilbur - Raymond James Anthony Petrone - Mizuho Securities Kristen Kluska - Cantor Fitzgerald Operator Good afternoon. And welcome to the ADMA Biologics First Quarter 2023 Financial Results and Corporate Update Conference Call on Wednesday, May 10, 2023.",
+        "full_text": null
+      }
+    ]
+  },
+  "ADMA_2024q1": {
+    "ticker": "ADMA",
+    "company_name": "ADMA Biologics, Inc.",
+    "fiscal_yearquarter": "2024q1",
+    "earnings_date": "2024-02-28",
+    "ret_2day_pct": -3.21,
+    "articles": [
+      {
+        "title": "ADMA Biologics Announces Fourth Quarter and Full Year 2023 Financial Results and Provides Business Update",
+        "published_date": "2024-02-28T16:05:00-05:00",
+        "source": "GlobeNewsWire",
+        "type": "Article",
+        "url": "https://www.globenewswire.com/news-release/2024/02/28/2837428/33130/en/ADMA-Biologics-Announces-Fourth-Quarter-and-Full-Year-2023-Financial-Results-and-Provides-Business-Update.html",
+        "tickers": [
+          "ADMA"
+        ],
+        "api_summary": "4Q 2023 Total Revenue of $73.9 Million; FY 2023 Total Revenue of $258.2 Million 4Q 2023 Adjusted EBITDA ( 1 ) of $18.6 Million; FY 2023 Adjusted EBITDA of $40.3 Million 4Q 2023 Adjusted Net Income ( 2 ) of $8.5 Million; FY 2023 Adjusted Net Income of $0.7 Million FY 2024 and 2025 Total Revenue Guidance Increased to More Than $330 Million and $380 Million, Respectively FY 2024 Net Income Guidance Increased to More Than $65 Million and Adjusted EBITDA Guidance Increased to More Than $90 Million FY 2025 Net Income Guidance Increased to More than $115 Million and Adjusted EBITDA Guidance Increased to More Than $140 Million Innovative Growth Opportunities Targeting Manufacturing and New Pipeline Hyperimmune Globulin to Advance During 2024 Conference Call Scheduled for Today at 4:30 p.m. ET RAMSEY, N.J.",
+        "full_text": null
+      },
+      {
+        "title": "ADMA Biologics Announces CFO Transition",
+        "published_date": "2024-02-28T16:10:00-05:00",
+        "source": "GlobeNewsWire",
+        "type": "Article",
+        "url": "https://www.globenewswire.com/news-release/2024/02/28/2837444/33130/en/ADMA-Biologics-Announces-CFO-Transition.html",
+        "tickers": [
+          "ADMA"
+        ],
+        "api_summary": "RAMSEY, N.J. and BOCA RATON, Fla.",
+        "full_text": null
+      },
+      {
+        "title": "ADMA Biologics, Inc. (ADMA) Q4 2023 Earnings Call Transcript",
+        "published_date": "2024-02-28T19:02:10-05:00",
+        "source": "Seeking Alpha",
+        "type": "Article",
+        "url": "https://seekingalpha.com/article/4674521-adma-biologics-inc-adma-q4-2023-earnings-call-transcript",
+        "tickers": [
+          "ADMA"
+        ],
+        "api_summary": "ADMA Biologics, Inc. (ADMA) Q4 2023 Earnings Call Transcript",
+        "full_text": null
+      },
+      {
+        "title": "Wall Street Analysts Believe Adma Biologics (ADMA) Could Rally 28.36%: Here's is How to Trade",
+        "published_date": "2024-03-01T10:56:15-05:00",
+        "source": "Zacks Investment Research",
+        "type": "Article",
+        "url": "https://www.zacks.com/stock/news/2234647/wall-street-analysts-believe-adma-biologics-adma-could-rally-28-36-here-s-is-how-to-trade?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|consensus_price_target-2234647",
+        "tickers": [
+          "ADMA"
+        ],
+        "api_summary": "The consensus price target hints at a 28.4% upside potential for Adma Biologics (ADMA). While empirical research shows that this sought-after metric is hardly effective, an upward trend in earnings estimate revisions could mean that the stock will witness an upside in the near term.",
+        "full_text": "Shares of Adma Biologics ( ADMA Quick Quote ADMA - Free Report )     have gained 1.1% over the past four weeks to close the last trading session at $5.36, but there could still be a solid upside left in the stock if short-term price targets of Wall Street analysts are any indication. Going by the price targets, the mean estimate of $6.88 indicates a potential upside of 28.4%.\nThe mean estimate comprises four short-term price targets with a standard deviation of $1.44. While the lowest estimate of $6 indicates an 11.9% increase from the current price level, the most optimistic analyst expects the stock to surge 67.9% to reach $9. It's very important to note the standard deviation here, as it helps understand the variability of the estimates. The smaller the standard deviation, the greater the agreement among analysts.\nWhile the consensus price target is highly sought after by investors, the ability and unbiasedness of analysts in setting price targets have long been questionable. And investors making investment decisions solely based on this tool would arguably do themselves a disservice.\nBut, for ADMA, an impressive average price target is not the only indicator of a potential upside. Strong agreement among analysts about the company's ability to report better earnings than they predicted earlier strengthens this view. While a positive trend in earnings estimate revisions doesn't gauge how much a stock could gain, it has proven to be powerful in predicting an upside.\nHere's What You Should Know About Analysts' Price Targets\nAccording to researchers at several universities across the globe, a price target is one of many pieces of information about a stock that misleads investors far more often than it guides. In fact, empirical research shows that price targets set by several analysts, irrespective of the extent of agreement, rarely indicate where the price of a stock could actually be heading.\nWhile Wall Street analysts have deep knowledge of a company's fundamentals and the sensitivity of its business to economic and industry issues, many of them tend to set overly optimistic price targets. Are you wondering why?\nThey usually do that to drum up interest in shares of companies that their firms either have existing business relationships with or are looking to be associated with. In other words, business incentives of firms covering a stock often result in inflated price targets set by analysts.\nHowever, a tight clustering of price targets, which is represented by a low standard deviation, indicates that analysts have a high degree of agreement about the direction and magnitude of a stock's price movement. While that doesn't necessarily mean the stock will hit the average price target, it could be a good starting point for further research aimed at identifying the potential fundamental driving forces.\nThat said, while investors should not entirely ignore price targets, making an investment decision solely based on them could lead to disappointing ROI. So, price targets should always be treated with a high degree of skepticism.\nHere's Why There Could be Plenty of Upside Left in ADMA\nAnalysts' growing optimism over the company's earnings prospects, as indicated by strong agreement among them in revising EPS estimates higher, could be a legitimate reason to expect an upside in the stock. That's because empirical research shows a strong correlation between trends in earnings estimate revisions and near-term stock price movements.\nFor the current year, one estimate has moved higher over the last 30 days compared to no negative revision. As a result, the Zacks Consensus Estimate has increased 9%.\nTherefore, while the consensus price target may not be a reliable indicator of how much ADMA could gain, the direction of price movement it implies does appear to be a good guide."
+      }
+    ]
+  },
+  "ADMA_2024q3": {
+    "ticker": "ADMA",
+    "company_name": "ADMA Biologics, Inc.",
+    "fiscal_yearquarter": "2024q3",
+    "earnings_date": "2024-08-08",
+    "ret_2day_pct": 35.97,
+    "articles": [
+      {
+        "title": "Adma Biologics (ADMA) Surpasses Q2 Earnings and Revenue Estimates",
+        "published_date": "2024-08-08T19:11:11-04:00",
+        "source": "Zacks Investment Research",
+        "type": "Article",
+        "url": "https://www.zacks.com/stock/news/2319612/adma-biologics-adma-surpasses-q2-earnings-and-revenue-estimates?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_4-2319612",
+        "tickers": [
+          "ADMA"
+        ],
+        "api_summary": "Adma Biologics (ADMA) came out with quarterly earnings of $0.13 per share, beating the Zacks Consensus Estimate of $0.08 per share. This compares to loss of $0.02 per share a year ago.",
+        "full_text": "Adma Biologics ( ADMA Quick Quote ADMA - Free Report )     came out with quarterly earnings of $0.13 per share, beating the Zacks Consensus Estimate of $0.08 per share. This compares to loss of $0.02 per share a year ago. These figures are adjusted for non-recurring items.\nThis quarterly report represents an earnings surprise of 62.50%. A quarter ago, it was expected that this infectious disease drug developer would post earnings of $0.05 per share when it actually produced earnings of $0.08, delivering a surprise of 60%.\nOver the last four quarters, the company has surpassed consensus EPS estimates four times.\nAdma Biologics , which belongs to the Zacks Medical - Biomedical and Genetics industry, posted revenues of $107.19 million for the quarter ended June 2024, surpassing the Zacks Consensus Estimate by 23.17%. This compares to year-ago revenues of $60.12 million. The company has topped consensus revenue estimates four times over the last four quarters.\nThe sustainability of the stock's immediate price movement based on the recently-released numbers and future earnings expectations will mostly depend on management's commentary on the earnings call.\nAdma Biologics shares have added about 153.3% since the beginning of the year versus the S&P 500's gain of 9%.\nWhile Adma Biologics has outperformed the market so far this year, the question that comes to investors' minds is: what's next for the stock?\nThere are no easy answers to this key question, but one reliable measure that can help investors address this is the company's earnings outlook. Not only does this include current consensus earnings expectations for the coming quarter(s), but also how these expectations have changed lately.\nEmpirical research shows a strong correlation between near-term stock movements and trends in earnings estimate revisions. Investors can track such revisions by themselves or rely on a tried-and-tested rating tool like the Zacks Rank, which has an impressive track record of harnessing the power of earnings estimate revisions.\nIt will be interesting to see how estimates for the coming quarters and current fiscal year change in the days ahead. The current consensus EPS estimate is $0.09 on $92.05 million in revenues for the coming quarter and $0.35 on $359.26 million in revenues for the current fiscal year.\nInvestors should be mindful of the fact that the outlook for the industry can have a material impact on the performance of the stock as well. In terms of the Zacks Industry Rank, Medical - Biomedical and Genetics is currently in the top 37% of the 250 plus Zacks industries. Our research shows that the top 50% of the Zacks-ranked industries outperform the bottom 50% by a factor of more than 2 to 1.\nMainz Biomed NV , another stock in the same industry, has yet to report results for the quarter ended June 2024.\nThis company is expected to post quarterly loss of $0.25 per share in its upcoming report, which represents a year-over-year change of +55.4%. The consensus EPS estimate for the quarter has remained unchanged over the last 30 days.\nMainz Biomed NV's revenues are expected to be $0.3 million, up 20% from the year-ago quarter."
+      },
+      {
+        "title": "ADMA Biologics, Inc. (ADMA) Q2 2024 Earnings Call Transcript",
+        "published_date": "2024-08-08T23:56:10-04:00",
+        "source": "Seeking Alpha",
+        "type": "Article",
+        "url": "https://seekingalpha.com/article/4712566-adma-biologics-inc-adma-q2-2024-earnings-call-transcript",
+        "tickers": [
+          "ADMA"
+        ],
+        "api_summary": "ADMA Biologics, Inc. (NASDAQ:ADMA ) Q2 2024 Earnings Conference Call August 8, 2024 4:30 PM ET Company Participants Skyler Bloom - Senior Director, Business Development and Corporate Strategy Adam Grossman - President and CEO Brad Tade - Vice President, Financial Operations Conference Call Participants Anthony Petrone - Mizuho Americas Rick Miller - Cantor Fitzgerald Gary Nachman - Raymond James Operator Good afternoon, and welcome to the ADMA Biologics Second Quarter 2024 Financial Results and Business Update Conference Call on Thursday, August 08, 2024. At this time, all participants are in a listen-only mode.",
+        "full_text": null
+      }
+    ]
+  }
+}

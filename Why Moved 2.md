@@ -38,6 +38,7 @@ Keep an article only if it does at least one of:
 Discard everything else: brief headline items with no detail, general market roundups that mention the company in passing, and articles about a different quarter or a different event.
 If no article passes, skip the observation entirely -- write nothing for it.
 Everything below uses ONLY the kept articles.
+Order the kept articles chronologically by publication date and time, earliest first: the articles published closest to the earnings release come first, and articles from subsequent days follow in date order. Read them in that order.
 
 STEP 2 -- IDENTIFY THE CATEGORIES THAT EXPLAIN THE MOVE.
 Use exactly these 10 categories, with these definitions:
@@ -86,13 +87,15 @@ General rules:
 - If an article is an opinion or analyst column, represent its view as the column's own view.
 - Third person, plain prose, no markdown, no bullet points in the paragraphs.
 
+Sources: every news source used must be linked. "sources" lists every kept article and every filing you used, in the same chronological order (earliest first, closest to the earnings release), each with its "url" copied exactly from the input -- never construct, shorten, or guess a URL. Don't list discarded articles. If a source you used has no URL in the input, still list it with "url": null so the gap is visible.
+
 Output: write to [output file path] -- a JSON object keyed by note_key (only for observations you wrote), each value:
 {
   "summary_analysis": "...",
   "explicit_reasons": "...",
   "implicit_reasons": "...",
   "categories": {"Guidance": {...} or null, ... all 10 ...},
-  "sources": [{"title": ..., "published_date": ..., "url": ...} for each KEPT article]
+  "sources": [{"title": ..., "published_date": ..., "url": ...} for each kept article and each filing used]
 }
 
 Before finishing, check every entry:
@@ -100,8 +103,9 @@ Before finishing, check every entry:
 - "categories" has exactly the 10 keys above, spelled exactly;
 - every included category states what was expected, or says the articles give no expectation;
 - every explicit category appears in explicit_reasons, every implicit one in implicit_reasons, and nothing else is given as a reason;
-- no category is marked explicit unless an article states the link.
-Report how many observations you wrote, how many you skipped for having no quality article, and how many have no explicit category.
+- no category is marked explicit unless an article states the link;
+- every kept article and every filing used is in "sources", in chronological order (earliest first), with its URL copied exactly from the input.
+Report how many observations you wrote, how many you skipped for having no quality article, how many have no explicit category, and how many sources have no URL.
 ```
 
 ---
@@ -129,6 +133,10 @@ Report how many observations you wrote, how many you skipped for having no quali
   only for launches and user numbers.
 - **Filings only confirm figures**: an 8-K or press release is factual, but it
   can't say what was expected or why the stock moved.
+- **Every source linked, URLs copied exactly**: every claim can be checked
+  against its source from the dashboard. A missing URL is listed as null rather
+  than guessed, because reconstructed links (e.g. Benzinga's) often led to
+  generic pages instead of the article.
 - **Quality filter in the same prompt**: keeps the pipeline to one call per
   batch; observations with no quality article are skipped, not padded.
 

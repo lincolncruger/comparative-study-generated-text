@@ -1,0 +1,176 @@
+{
+  "ANIP_2020q1": {
+    "summary_analysis": "ANI Pharmaceuticals reported fourth-quarter 2019 results that lagged Wall Street estimates, though the kept article does not state how the stock reacted to the report. Zacks reported an earnings surprise of -8.47% and a revenue surprise of -6.32% for the quarter ended December 2019, both below the Zacks Consensus Estimate. No article ties these figures directly to a share-price move, so the miss is presented here only as implicit context for the quarter's results.",
+    "explicit_reasons": "The kept article does not explicitly attribute ANI's stock reaction to any specific factor.",
+    "implicit_reasons": "ANI's fourth-quarter 2019 earnings missed the Zacks Consensus Estimate by 8.47% and revenue missed by 6.32%, for the quarter ended December 2019, reported by Zacks without a stated link to the stock's move.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "ANI's revenue for the quarter ended December 2019 came in 6.32% below the Zacks Consensus Estimate, a miss Zacks reported alongside the earnings figures without stating a direct link to the stock's reaction."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "ANI's earnings for the quarter ended December 2019 missed the Zacks Consensus Estimate by 8.47%, a miss Zacks reported without stating a direct link to the stock's move."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ANI Pharmaceuticals (ANIP) Q4 Earnings and Revenues Lag Estimates",
+        "published_date": "2020-02-27T10:05:05-05:00",
+        "url": "https://www.zacks.com/stock/news/786796/ani-pharmaceuticals-anip-q4-earnings-and-revenues-lag-estimates"
+      }
+    ]
+  },
+  "ANIP_2020q2": {
+    "summary_analysis": "ANI Pharmaceuticals reported first-quarter 2020 results that topped Wall Street estimates, though the kept article does not state how the stock reacted to the report. Zacks reported an earnings surprise of 16.85% and a revenue surprise of 0.76% for the quarter ended March 2020, both above the Zacks Consensus Estimate. No article ties these figures directly to a share-price move, so the beat is presented here only as implicit context.",
+    "explicit_reasons": "The kept article does not explicitly attribute ANI's stock reaction to any specific factor.",
+    "implicit_reasons": "ANI's first-quarter 2020 earnings beat the Zacks Consensus Estimate by 16.85% and revenue beat by 0.76%, for the quarter ended March 2020, reported by Zacks without a stated link to the stock's move.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ANI's revenue for the quarter ended March 2020 beat the Zacks Consensus Estimate by 0.76%, a figure Zacks reported without stating a direct link to the stock's reaction."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ANI's earnings for the quarter ended March 2020 beat the Zacks Consensus Estimate by 16.85%, reported by Zacks without a stated link to the stock's move."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ANI Pharmaceuticals (ANIP) Q1 Earnings and Revenues Surpass Estimates",
+        "published_date": "2020-05-07T09:55:03-04:00",
+        "url": "https://www.zacks.com/stock/news/916545/ani-pharmaceuticals-anip-q1-earnings-and-revenues-surpass-estimates"
+      }
+    ]
+  },
+  "ANIP_2021q2": {
+    "summary_analysis": "ANI Pharmaceuticals reported first-quarter 2021 results that topped Wall Street estimates, though the kept article does not state how the stock reacted to the report. Zacks reported an earnings surprise of 42.47% and a revenue surprise of 13.59% for the quarter ended March 2021, both well above the Zacks Consensus Estimate. No article ties these figures directly to a share-price move, so the beat is presented here only as implicit context.",
+    "explicit_reasons": "The kept article does not explicitly attribute ANI's stock reaction to any specific factor.",
+    "implicit_reasons": "ANI's first-quarter 2021 earnings beat the Zacks Consensus Estimate by 42.47% and revenue beat by 13.59%, for the quarter ended March 2021, reported by Zacks without a stated link to the stock's move.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ANI's revenue for the quarter ended March 2021 beat the Zacks Consensus Estimate by 13.59%, reported by Zacks without a stated link to the stock's reaction."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ANI's earnings for the quarter ended March 2021 beat the Zacks Consensus Estimate by 42.47%, reported by Zacks without a stated link to the stock's move."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ANI Pharmaceuticals (ANIP) Q1 Earnings and Revenues Top Estimates",
+        "published_date": "2021-05-07T09:01:15-04:00",
+        "url": "https://www.zacks.com/stock/news/1515214/ani-pharmaceuticals-anip-q1-earnings-and-revenues-top-estimates"
+      }
+    ]
+  },
+  "ANIP_2021q4": {
+    "summary_analysis": "ANI Pharmaceuticals reported third-quarter 2021 results and announced FDA approval of Purified Cortrophin Gel, and Motley Fool reported that shares were up 52.4% as of midday trading on the news. The rally reflected both what Motley Fool called a positive earnings report and the regulatory approval, which investors read as opening the door to a badly needed revenue boost, since Cortrophin Gel targets the same autoimmune indications -- multiple sclerosis, rheumatoid arthritis, and excess urinary protein loss -- as Mallinckrodt's roughly $700 million-a-year Acthar Gel.",
+    "explicit_reasons": "Motley Fool explicitly tied the rally to two factors together: the FDA's approval of Purified Cortrophin Gel for multiple sclerosis, rheumatoid arthritis and excess urinary protein loss, and what it called 'a positive earnings report,' stating that investors hoping for a big sales boost from the approval pushed the stock 52.4% higher. On the earnings side, ANI's adjusted EPS of $1.01 topped the year-ago period by 4%, even though GAAP results showed a loss of $4.4 million, or $0.37 per share; the articles give no analyst consensus figure for the quarter, only the year-over-year comparison.",
+    "implicit_reasons": "Revenue of $52.1 million fell about 2% (roughly $1 million) from the year-ago quarter, which Motley Fool cited as the reason the company 'really needs' the kind of sales boost Cortrophin Gel could eventually provide; the articles give no analyst consensus figure for revenue, only the year-over-year comparison.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Revenue fell about 2% year over year to $52.1 million, roughly $1 million below the prior-year quarter; Motley Fool cited this shortfall as the reason the company 'really needs' a sales boost, without directly tying the revenue figure itself to the day's share move. The articles give no analyst consensus figure for revenue."
+      },
+      "New Product Release / Users": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "The FDA approved ANI's Purified Cortrophin Gel for chronic autoimmune disorders, including acute exacerbations of multiple sclerosis and rheumatoid arthritis, plus excess urinary protein loss; Motley Fool said this regulatory news, together with the earnings report, is what pushed the stock 52.4% higher, as investors bet the product can eventually take share from Mallinckrodt's roughly $700 million-a-year Acthar Gel. The articles present the approval itself as a positive surprise catalyst rather than against a stated expectation."
+      },
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "ANI's adjusted EPS of $1.01 for the quarter was 4% higher than the year-ago period, even as GAAP results showed a loss of $4.4 million, or $0.37 per share; Motley Fool described this as part of 'a positive earnings report' that, together with the FDA approval, drove the 52.4% share jump. The articles give no analyst consensus estimate for the quarter, only the year-over-year comparison."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ANI Pharmaceuticals Announces FDA Approval of Purified Cortrophin™ Gel for Multiple Indications Including Multiple Sclerosis, Rheumatoid Arthritis and Nephrotic Syndrome",
+        "published_date": "2021-11-01T06:30:00-04:00",
+        "url": "https://www.businesswire.com/news/home/20211101005292/en/ANI-Pharmaceuticals-Announces-FDA-Approval-of-Purified-Cortrophin%E2%84%A2-Gel-for-Multiple-Indications-Including-Multiple-Sclerosis-Rheumatoid-Arthritis-and-Nephrotic-Syndrome/"
+      },
+      {
+        "title": "Here's Why Ani Pharmaceuticals Stock Is Rocketing Higher Today",
+        "published_date": "2021-11-01T12:36:19-04:00",
+        "url": "https://www.fool.com/investing/2021/11/01/heres-why-ani-pharmaceuticals-stock-is-rocketing-h/"
+      },
+      {
+        "title": "ANI Pharmaceuticals reports 3rd Quarter financial results as shares surges",
+        "published_date": "2021-11-01T14:10:56-04:00",
+        "url": "https://invezz.com/news/2021/11/01/ani-pharmaceuticals-reports-3rd-quarter-financial-results-as-shares-surges/?utm_source=snapi"
+      }
+    ]
+  },
+  "ANIP_2022q1": {
+    "summary_analysis": "ANI Pharmaceuticals reported fourth-quarter and full-year 2021 results that missed Wall Street's profit estimate, though the kept article does not state how the stock reacted to the report. Zacks reported quarterly earnings of $0.54 per share, missing the Zacks Consensus Estimate of $0.82 per share for an earnings surprise of -34.15%, while revenue of $60.93 million beat the Zacks Consensus Estimate by 4.60% and grew from $57.25 million a year earlier. Zacks also noted an 'unfavorable' estimate-revisions trend heading into the report, translating into a Zacks Rank #4 (Sell).",
+    "explicit_reasons": "The kept article does not explicitly attribute ANI's stock reaction to any specific factor.",
+    "implicit_reasons": "ANI's fourth-quarter 2021 adjusted earnings of $0.54 per share missed the Zacks Consensus Estimate of $0.82 by 34.15%, versus adjusted earnings of $0.80 per share a year earlier, reported by Zacks without a stated link to the stock's move. Revenue of $60.93 million beat the Zacks Consensus Estimate by 4.60% and grew from $57.25 million in the year-ago quarter, also reported without a stated link to the reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ANI's revenue of $60.93 million for the quarter beat the Zacks Consensus Estimate by 4.60% and grew from $57.25 million a year earlier, reported by Zacks without a stated link to the stock's move."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "ANI's adjusted quarterly earnings of $0.54 per share missed the Zacks Consensus Estimate of $0.82 by 34.15%, versus $0.80 per share a year earlier; Zacks reported the miss without stating a direct link to the stock's move."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ANI Pharmaceuticals (ANIP) Lags Q4 Earnings Estimates",
+        "published_date": "2022-03-15T10:33:08-04:00",
+        "url": "https://www.zacks.com/stock/news/1882087/ani-pharmaceuticals-anip-lags-q4-earnings-estimates"
+      }
+    ]
+  }
+}

@@ -80,6 +80,9 @@ GROUP_MASSIVE_BENZINGA_COVERAGE_PATH = os.path.join(HERE, "data", "group_massive
 GROUP_ALPHANEWS_COVERAGE_PATH = os.path.join(HERE, "data", "group_alphanews_coverage.json")
 MASSIVE_BENZINGA_COVERAGE_PATH = os.path.join(HERE, "data", "massive_benzinga_coverage.json")
 MASSIVE_NEWS_COVERAGE_PATH = os.path.join(HERE, "data", "massive_news_coverage.json")
+STOCKNEWS_COVERAGE_PATH = os.path.join(HERE, "data", "stocknews_coverage.json")
+VIZ45_CHATGPT_COVERAGE_PATH = os.path.join(HERE, "data", "viz45_chatgpt_coverage.json")
+VIZ2_CHATGPT_COVERAGE_PATH = os.path.join(HERE, "data", "viz2_chatgpt_coverage.json")
 GROUP_PD_CATEGORIES_PATH = os.path.join(HERE, "data", "group_pd_categories.json")
 GROUP_FIRST_ORDER_CATEGORIES_PATH = os.path.join(HERE, "data", "group_first_order_categories.json")
 # The 11 fixed categories each of the 3 coverage sources (Contextualized
@@ -863,6 +866,30 @@ def load_massive_news_coverage(mtime_marker):
 
 
 @st.cache_data
+def load_stocknews_coverage(mtime_marker):
+    if not os.path.exists(STOCKNEWS_COVERAGE_PATH):
+        return {}
+    with open(STOCKNEWS_COVERAGE_PATH) as f:
+        return json.load(f)
+
+
+@st.cache_data
+def load_viz45_chatgpt_coverage(mtime_marker):
+    if not os.path.exists(VIZ45_CHATGPT_COVERAGE_PATH):
+        return {}
+    with open(VIZ45_CHATGPT_COVERAGE_PATH) as f:
+        return json.load(f)
+
+
+@st.cache_data
+def load_viz2_chatgpt_coverage(mtime_marker):
+    if not os.path.exists(VIZ2_CHATGPT_COVERAGE_PATH):
+        return {}
+    with open(VIZ2_CHATGPT_COVERAGE_PATH) as f:
+        return json.load(f)
+
+
+@st.cache_data
 def load_group_pd_categories(mtime_marker):
     if not os.path.exists(GROUP_PD_CATEGORIES_PATH):
         return {}
@@ -1022,6 +1049,62 @@ def _show_pd_categories_dialog(note_key):
     st.markdown(
         "<div style='display:grid; grid-template-columns: 1fr 1fr 1fr; "
         "column-gap:1.5rem; align-items:start;'>" + "".join(grid_parts) + "</div>",
+        unsafe_allow_html=True,
+    )
+
+
+# Exact key strings of the "categories" table written by the Why Moved 2
+# prompt (see "Why Moved 2.md") -- a different, 10-category set from
+# PD_CATEGORIES above.
+WHY_MOVED_2_CATEGORIES = [
+    "Guidance",
+    "Order book / backlog",
+    "Revenue",
+    "New Product Release / Users",
+    "Profits, costs and margin",
+    "Debt, leverage and capital raise",
+    "Capex",
+    "Management",
+    "Litigation",
+    "Macro and micro development",
+]
+
+
+@st.dialog(" ", width="large")
+def _show_why_moved_2_categories_dialog(entry, source_label):
+    st.markdown(f"<h2 style='text-align:center;'>{source_label} Categories</h2>", unsafe_allow_html=True)
+    categories = entry.get("categories") or {}
+    header_style = "font-weight:bold; font-size:1.05rem; padding-bottom:0.4rem; border-bottom:1px solid rgba(74,144,217,0.4);"
+    rows = [
+        f"<div style='{header_style}'>Category</div>"
+        f"<div style='{header_style}'>Direction</div>"
+        f"<div style='{header_style}'>Attribution</div>"
+        f"<div style='{header_style}'>What happened vs. expected</div>"
+    ]
+    for category in WHY_MOVED_2_CATEGORIES:
+        cell = categories.get(category)
+        if not cell:
+            rows.append(
+                f"<div style='opacity:0.5;'>{category}</div>"
+                "<div style='opacity:0.5;'>&mdash;</div>"
+                "<div style='opacity:0.5;'>&mdash;</div>"
+                "<div style='opacity:0.5; font-style:italic;'>Not tied to the stock's move</div>"
+            )
+            continue
+        if cell.get("direction") == "positive":
+            badge = "<span style='color:#5FBF6E;'>&#9679; Positive</span>"
+        else:
+            badge = "<span style='color:#E06C6C;'>&#9679; Negative</span>"
+        attribution = (cell.get("attribution") or "").capitalize()
+        rows.append(
+            f"<div style='font-weight:600;'>{category}</div>"
+            f"<div>{badge}</div>"
+            f"<div>{attribution}</div>"
+            f"<div style='font-size:0.92rem; line-height:1.35;'>{render_inline_markdown(cell.get('text') or '')}</div>"
+        )
+    st.markdown(
+        "<div style='display:grid; grid-template-columns: 1.3fr 0.8fr 0.8fr 3fr; "
+        "column-gap:1.2rem; row-gap:0.7rem; align-items:start;'>" + "".join(rows) + "</div>",
         unsafe_allow_html=True,
     )
 
@@ -1669,6 +1752,21 @@ massive_benzinga_coverage_lookup = load_massive_benzinga_coverage(
     _mtime(MASSIVE_BENZINGA_COVERAGE_PATH)
 )
 massive_news_coverage_lookup = load_massive_news_coverage(_mtime(MASSIVE_NEWS_COVERAGE_PATH))
+stocknews_coverage_lookup = load_stocknews_coverage(_mtime(STOCKNEWS_COVERAGE_PATH))
+viz45_chatgpt_coverage_lookup = load_viz45_chatgpt_coverage(
+    _mtime(VIZ45_CHATGPT_COVERAGE_PATH)
+)
+viz2_chatgpt_coverage_lookup = load_viz2_chatgpt_coverage(
+    _mtime(VIZ2_CHATGPT_COVERAGE_PATH)
+)
+# The ChatGPT pilot was generated from the cached Massive/Benzinga articles
+# using the prior RA's LLM-reasoning instructions.  Overlay only its three
+# selected large-cap tickers; every other Data Viz 2 observation keeps the
+# existing deterministic Massive/Benzinga coverage.
+group_massive_benzinga_display_lookup = {
+    **group_massive_benzinga_coverage_lookup,
+    **viz2_chatgpt_coverage_lookup,
+}
 group_pd_categories_lookup = load_group_pd_categories(_mtime(GROUP_PD_CATEGORIES_PATH))
 group_first_order_categories_lookup = load_group_first_order_categories(
     _mtime(GROUP_FIRST_ORDER_CATEGORIES_PATH)
@@ -1991,7 +2089,7 @@ if st.session_state.selected_section == "Data Visualization 2":
         g_third_column_lookups = {
             "Dow Jones Newswires": (group_djnw_coverage_lookup, "djnw", "No Dow Jones Newswires coverage"),
             "Massive / Benzinga": (
-                group_massive_benzinga_coverage_lookup,
+                group_massive_benzinga_display_lookup,
                 "massive_benzinga",
                 "No Massive / Benzinga coverage",
             ),
@@ -2005,6 +2103,8 @@ if st.session_state.selected_section == "Data Visualization 2":
             g_third_column_source
         ]
         g_third_column_label = f"{g_third_column_source} Coverage"
+        if g_third_column_source == "Massive / Benzinga" and g_context_key in viz2_chatgpt_coverage_lookup:
+            g_third_column_label = "Massive / Benzinga Coverage — ChatGPT"
 
         g_djnw_entry = g_third_column_lookup.get(g_context_key)
         if g_djnw_entry and (g_djnw_entry.get("summary_analysis") or g_djnw_entry.get("why_moved")):
@@ -2345,10 +2445,24 @@ if st.session_state.selected_section == "Data Visualization 4":
         g4_left, g4_right = st.columns(2, gap="large")
         with g4_left:
             st.markdown(
-                "<div style='text-align:center; font-weight:bold;'>Selected Coverage</div>",
+                "<div style='text-align:center; font-weight:bold;'>Selected Coverage</div>"
+                "<div style='text-align:center; color:#FFD166; font-size:0.9rem; margin-bottom:0.7rem;'>"
+                "ChatGPT — Massive / Benzinga</div>",
                 unsafe_allow_html=True,
             )
-            st.write("*No coverage available yet for this observation.*")
+            g4_chatgpt = viz45_chatgpt_coverage_lookup.get(g4_note_key)
+            if g4_chatgpt:
+                st.markdown(
+                    "<div class='context-heading'>Why The Stock Moved</div>",
+                    unsafe_allow_html=True,
+                )
+                st.write(g4_chatgpt.get("final_paragraph", ""))
+                for source in g4_chatgpt.get("sources", []):
+                    source_html = render_djnw_source_link_html(source)
+                    if source_html:
+                        st.markdown(source_html, unsafe_allow_html=True)
+            else:
+                st.write("*ChatGPT pilot coverage is available for MTW, SFIX, and PCTY.*")
         with g4_right:
             st.markdown(
                 "<div style='text-align:center; font-weight:bold;'>High-Tier Coverage</div>",
@@ -2472,10 +2586,24 @@ if st.session_state.selected_section == "Data Visualization 5":
         g5_left, g5_right = st.columns(2, gap="large")
         with g5_left:
             st.markdown(
-                "<div style='text-align:center; font-weight:bold;'>Selected Coverage</div>",
+                "<div style='text-align:center; font-weight:bold;'>Selected Coverage</div>"
+                "<div style='text-align:center; color:#FFD166; font-size:0.9rem; margin-bottom:0.7rem;'>"
+                "ChatGPT — Massive / Benzinga</div>",
                 unsafe_allow_html=True,
             )
-            st.write("*No coverage available yet for this observation.*")
+            g5_chatgpt = viz45_chatgpt_coverage_lookup.get(g5_note_key)
+            if g5_chatgpt:
+                st.markdown(
+                    "<div class='context-heading'>Why The Stock Moved</div>",
+                    unsafe_allow_html=True,
+                )
+                st.write(g5_chatgpt.get("final_paragraph", ""))
+                for source in g5_chatgpt.get("sources", []):
+                    source_html = render_djnw_source_link_html(source)
+                    if source_html:
+                        st.markdown(source_html, unsafe_allow_html=True)
+            else:
+                st.write("*ChatGPT pilot coverage is available for CYH, MATW, and INDI.*")
         with g5_right:
             st.markdown(
                 "<div style='text-align:center; font-weight:bold;'>High-Tier Coverage</div>",
@@ -2921,10 +3049,15 @@ st.markdown(
 
 third_column_source = st.radio(
     "Third-column news source",
-    ["Dow Jones Newswires", "Massive / Benzinga", "Massive"],
+    ["Dow Jones Newswires", "Massive / Benzinga", "Massive", "StockNews API"],
     horizontal=True,
     key=f"third_column_source_{selected_ticker}",
 )
+
+if st.checkbox("Only show observations from April 2019 onward", key="dv1_from_april_2019"):
+    sub = sub[sub["earnings_date"] >= pd.Timestamp("2019-04-01")].reset_index(drop=True)
+    period_start = sub["earnings_date"].min().strftime("%Y-%m-%d")
+    period_end = sub["earnings_date"].max().strftime("%Y-%m-%d")
 
 company_info = company_info_lookup.get(selected_ticker)
 if company_info:
@@ -3105,6 +3238,7 @@ for idx, row in sub.iterrows():
             "Dow Jones Newswires": "Dow Jones Newswires Coverage",
             "Massive / Benzinga": "Massive / Benzinga Coverage",
             "Massive": "Massive Coverage",
+            "StockNews API": "StockNews API Coverage",
         }
         third_column_label = third_column_labels[third_column_source]
         st.markdown(
@@ -3115,9 +3249,34 @@ for idx, row in sub.iterrows():
             "Dow Jones Newswires": group_djnw_coverage_lookup,
             "Massive / Benzinga": massive_benzinga_coverage_lookup,
             "Massive": massive_news_coverage_lookup,
+            "StockNews API": stocknews_coverage_lookup,
         }
         source_entry = third_column_lookups[third_column_source].get(note_key)
-        if source_entry and (source_entry.get("summary_analysis") or source_entry.get("why_moved")):
+        if third_column_source == "StockNews API":
+            # Written with the Why Moved 2 prompt: summary + explicit and
+            # implicit reasons, plus a category table shown in a dialog.
+            if source_entry:
+                for field, heading in [
+                    ("summary_analysis", "Summary Analysis"),
+                    ("explicit_reasons", "Explicit Reasons"),
+                    ("implicit_reasons", "Implicit Reasons"),
+                ]:
+                    if source_entry.get(field):
+                        st.html(
+                            f"<div class='context-heading'>{heading}</div>"
+                            f"<p style='margin-bottom:0.8rem; text-align:justify;'>"
+                            f"{render_inline_markdown(source_entry[field])}</p>"
+                        )
+                source_links = "".join(
+                    render_djnw_source_link_html(source) for source in source_entry.get("sources", [])
+                )
+                if source_links:
+                    st.html(source_links)
+                if st.button("StockNews Categories", key=f"stocknews_cat_btn_{note_key}", use_container_width=True):
+                    _show_why_moved_2_categories_dialog(source_entry, "StockNews API")
+            else:
+                st.write(f"*No {third_column_label} found for this observation.*")
+        elif source_entry and (source_entry.get("summary_analysis") or source_entry.get("why_moved")):
             if source_entry.get("summary_analysis"):
                 st.html(
                     "<div class='context-heading'>Summary Analysis</div>"

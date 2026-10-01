@@ -1,0 +1,280 @@
+{
+  "ABSI_2022q3": {
+    "summary_analysis": "Absci reported second-quarter 2022 financial results, and the available coverage does not describe how the stock reacted. The only detail given is that the company said it exceeded its annual Active Program guidance, having signed ten programs year-to-date against its own full-year target.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "The only factor mentioned is guidance: Absci said it exceeded its annual Active Program guidance, having signed ten programs year-to-date versus its own full-year target, though the article does not tie this directly to the stock's reaction.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Absci said it exceeded its annual Active Program guidance, having signed ten programs year-to-date against its own full-year target; the articles do not say how this affected the stock."
+      },
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "Absci Reports Second Quarter 2022 Financial Results and Business Update",
+        "published_date": "2022-08-11T08:00:00-04:00",
+        "url": "https://www.globenewswire.com/news-release/2022/08/11/2496694/0/en/Absci-Reports-Second-Quarter-2022-Financial-Results-and-Business-Update.html"
+      }
+    ]
+  },
+  "ACMR_2024q1": {
+    "summary_analysis": "ACM Research reported fourth-quarter and full-year 2023 results, and according to the Motley Fool, shares were surging as much as 34.8% intraday after what it called standout results. Revenue grew 57% year over year to $170.3 million, well above analyst estimates, and adjusted EPS of $0.43 easily beat the $0.17 consensus, which the article tied directly to the rally. Guidance for 2024 revenue growth, a new product qualification, and the broader AI-driven chip-demand backdrop added to the positive tone.",
+    "explicit_reasons": "Revenue growth of 57% to $170.3 million, well ahead of the $149.3 million analyst estimate (a 15.79% beat of the Zacks Consensus Estimate), was highlighted as a standout result the Motley Fool said sent shares surging as much as 34.8% on the day. Adjusted EPS jumping from $0.19 to $0.43, easily beating the $0.17 analyst consensus (a 330% surprise versus the Zacks Consensus Estimate of $0.10), along with a 40% rise in GAAP operating income to $23.4 million, was cited as part of the same standout report driving the surge, even as gross margin slipped from 49.6% to 46.4%, though it stayed above the company's 40%-45% long-term target.",
+    "implicit_reasons": "ACM guided for 2024 revenue of $650 million to $725 million, implying growth of 17% to 30% and above the roughly $693 million consensus. The company also said it received qualification for its new SAPS cleaning tool from a large unnamed U.S. manufacturer, which it said should help drive 2024 growth, and the results were framed as reflecting ACM's benefit from the broader AI-driven boom in chip manufacturing.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ACM guided for 2024 revenue of $650 million to $725 million, implying growth of 17% to 30%, compared with a consensus estimate of about $693 million."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Fourth-quarter revenue grew 57% to $170.3 million, beating analyst estimates of $149.3 million (a 15.79% beat of the Zacks Consensus Estimate), which the Motley Fool said was among the standout results that sent shares surging as much as 34.8% on the day."
+      },
+      "New Product Release / Users": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ACM said it received qualification for its new SAPS cleaning tool from a large unnamed U.S. manufacturer, which the company said should help drive growth in 2024."
+      },
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Adjusted EPS jumped from $0.19 to $0.43, easily beating the $0.17 analyst consensus (a 330% surprise versus the Zacks Consensus Estimate of $0.10), and GAAP operating income rose 40% to $23.4 million; gross margin slipped from 49.6% to 46.4% but stayed above the company's 40%-45% long-term target. The Motley Fool tied this earnings beat to the stock's surge."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "The results were framed as reflecting ACM's benefit from the broader AI-driven boom in chip manufacturing, with the company seen as well positioned to keep benefiting from rising chip demand."
+      }
+    },
+    "sources": [
+      {
+        "title": "ACM Research, Inc. (ACMR) Tops Q4 Earnings and Revenue Estimates",
+        "published_date": "2024-02-28T08:06:05-05:00",
+        "url": "https://www.zacks.com/stock/news/2232940/acm-research-inc-acmr-tops-q4-earnings-and-revenue-estimates?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_4-2232940"
+      },
+      {
+        "title": "Why ACM Research Stock Exploded Today",
+        "published_date": "2024-02-28T11:04:30-05:00",
+        "url": "https://www.fool.com/investing/2024/02/28/why-acm-research-stock-exploded-today/"
+      }
+    ]
+  },
+  "ACVA_2023q1": {
+    "summary_analysis": "ACV Auctions reported fourth-quarter and full-year 2022 results, and according to the Motley Fool, shares surged 15% the day after the report and more than 20% for the week. Revenue declined slightly and came in slightly below estimates, but a narrower-than-expected loss, guidance signaling that the worst of the used-car market's macro headwinds had passed, and continued market-share gains were cited as the reasons for the rally.",
+    "explicit_reasons": "ACV guided for first-quarter revenue growth of 4% to 7% (to $107 million-$110 million), ahead of the $106 million consensus, and full-year growth of 9% to 11% (to $460 million-$470 million), above the $462.4 million analyst estimate, while projecting its adjusted EBITDA loss would narrow from $56 million to $30 million-$35 million; the Motley Fool said this guidance, signaling the worst of the macro headwinds had passed, was why shares were up by double digits that day. ACV's adjusted EBITDA loss also narrowed from $16 million to $13 million and its GAAP per-share loss of $0.15 beat the $0.19 estimate (Zacks put the quarterly loss at $0.16 per share versus a $0.11 estimate); the Motley Fool called this \"a solid quarterly earnings report\" that was \"the fuel driving shares\" more than 20% higher over the week. Despite \"challenging market and macroeconomic headwinds\" in the used-car industry, ACV said it continued to gain market share, and the Motley Fool said guidance indicating the worst of these headwinds had passed helped explain the stock's jump.",
+    "implicit_reasons": "Fourth-quarter revenue fell 2% to $98 million, just below the $99.3 million estimate (Zacks said the company missed its consensus revenue estimate by 1.11%); the Motley Fool attributed the decline to a weak wholesale used-car market rather than singling it out as a reason for the stock's move.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "ACV guided for first-quarter revenue growth of 4% to 7% (to $107 million-$110 million), ahead of the $106 million consensus, and full-year growth of 9% to 11% (to $460 million-$470 million), above the $462.4 million analyst estimate, while projecting its adjusted EBITDA loss would narrow from $56 million to $30 million-$35 million; the Motley Fool said this guidance was why shares were up by double digits."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Fourth-quarter revenue fell 2% to $98 million, just below the $99.3 million estimate (Zacks said the company missed its consensus revenue estimate by 1.11%); the Motley Fool attributed this to a weak wholesale used-car market."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "ACV's adjusted EBITDA loss narrowed from $16 million to $13 million and its GAAP per-share loss of $0.15 beat the $0.19 estimate (Zacks put the quarterly loss at $0.16 per share versus a $0.11 estimate); the Motley Fool called this \"a solid quarterly earnings report\" that was \"the fuel driving shares\" more than 20% higher over the week."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Despite \"challenging market and macroeconomic headwinds\" in the used-car industry, ACV said it continued to gain market share; the Motley Fool said guidance indicating the worst of these headwinds had passed helped explain the stock's double-digit jump."
+      }
+    },
+    "sources": [
+      {
+        "title": "ACV Announces Fourth Quarter and Full-Year 2022 Results",
+        "published_date": "2023-02-22T16:01:00-05:00",
+        "url": "https://www.globenewswire.com/news-release/2023/02/22/2613694/0/en/ACV-Announces-Fourth-Quarter-and-Full-Year-2022-Results.html"
+      },
+      {
+        "title": "ACV Auctions Inc. (ACVA) Reports Q4 Loss, Lags Revenue Estimates",
+        "published_date": "2023-02-22T18:49:41-05:00",
+        "url": "https://www.zacks.com/stock/news/2057657/acv-auctions-inc-acva-reports-q4-loss-lags-revenue-estimates"
+      },
+      {
+        "title": "Why ACV Auctions Stock Surged Today",
+        "published_date": "2023-02-23T12:34:18-05:00",
+        "url": "https://www.fool.com/investing/2023/02/23/why-acv-auction-stock-surged-today/"
+      },
+      {
+        "title": "Why ACV Auctions Stock Blasted Higher This Week",
+        "published_date": "2023-02-24T18:35:46-05:00",
+        "url": "https://www.fool.com/investing/2023/02/24/why-acv-auctions-stock-blasted-higher-this-week/"
+      }
+    ]
+  },
+  "ADMA_2021q2": {
+    "summary_analysis": "ADMA Biologics reported first-quarter 2021 results, and according to Benzinga, shares increased in after-market trading following the report. Revenue rose 57% year over year to $16.0 million, and the company's per-share loss of $0.16 beat the $0.17 loss analysts had expected, which Benzinga tied to the after-market gain.",
+    "explicit_reasons": "ADMA posted a per-share loss of $0.16, up 38.46% year over year and better than the $0.17 per-share loss analysts had expected; Benzinga said shares increased in after-market trading after the company reported the results.",
+    "implicit_reasons": "ADMA reported first-quarter 2021 total revenues of $16.0 million, a 57% increase over the first quarter of 2020; the articles give no analyst expectation for this figure.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ADMA reported first-quarter 2021 total revenues of $16.0 million, a 57% increase over the first quarter of 2020; the articles give no analyst expectation for this figure."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "ADMA posted a per-share loss of $0.16, up 38.46% year over year and better than the $0.17 per-share loss analysts had expected; Benzinga said shares increased in after-market trading after the company reported the results."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ADMA Biologics Reports First Quarter 2021 Financial Results and Highlights Recent Company Progress and Accomplishments",
+        "published_date": "2021-05-12T16:05:00-04:00",
+        "url": "https://www.globenewswire.com/news-release/2021/05/12/2228686/33130/en/ADMA-Biologics-Reports-First-Quarter-2021-Financial-Results-and-Highlights-Recent-Company-Progress-and-Accomplishments.html"
+      },
+      {
+        "title": "Recap: ADMA Biologics Q1 Earnings",
+        "published_date": "2021-05-12T17:05:04-04:00",
+        "url": "https://www.benzinga.com/news/earnings/21/05/21094771/recap-adma-biologics-q1-earnings?utm_source=snapi"
+      }
+    ]
+  },
+  "ADMA_2023q2": {
+    "summary_analysis": "ADMA Biologics reported first-quarter 2023 results, and the available coverage does not describe how shares reacted. Revenue nearly doubled year over year to $57 million and topped consensus estimates, the company narrowed its net loss and reached positive adjusted EBITDA earlier than forecast, and it raised its full-year revenue guidance to more than $220 million from $210 million.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "ADMA reported first-quarter 2023 total revenues of $57 million, a 96% year-over-year increase that Zacks said topped the Zacks Consensus Estimate by 10.84%, up from $29.1 million a year earlier. The company also raised its full-year 2023 total revenue guidance to more than $220 million, up from its prior outlook of $210 million, and said it expects adjusted EBITDA growth to continue over the remainder of 2023. Separately, ADMA narrowed its net loss to $6.8 million, a 73% year-over-year improvement, and achieved positive adjusted EBITDA of $2.5 million for the first time, earlier than it had forecast; Zacks said the quarterly per-share loss of $0.03 beat the consensus estimate of a $0.05 loss, a 40% surprise.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ADMA raised its full-year 2023 total revenue guidance to more than $220 million, up from its prior outlook of $210 million, and said it expects adjusted EBITDA growth to continue over the remainder of 2023."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ADMA reported first-quarter 2023 total revenues of $57 million, a 96% year-over-year increase; Zacks said this topped the Zacks Consensus Estimate by 10.84%, up from $29.1 million a year earlier."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ADMA narrowed its net loss to $6.8 million, a 73% year-over-year improvement, and achieved positive adjusted EBITDA of $2.5 million for the first time, earlier than it had forecast; Zacks said the quarterly per-share loss of $0.03 beat the consensus estimate of a $0.05 loss, a 40% surprise."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ADMA Biologics Announces First Quarter 2023 Financial Results and Provides Business Update",
+        "published_date": "2023-05-10T16:05:00-04:00",
+        "url": "https://www.globenewswire.com/news-release/2023/05/10/2666023/33130/en/ADMA-Biologics-Announces-First-Quarter-2023-Financial-Results-and-Provides-Business-Update.html"
+      },
+      {
+        "title": "Adma Biologics (ADMA) Reports Q1 Loss, Tops Revenue Estimates",
+        "published_date": "2023-05-10T18:59:54-04:00",
+        "url": "https://www.zacks.com/stock/news/2093754/adma-biologics-adma-reports-q1-loss-tops-revenue-estimates"
+      }
+    ]
+  },
+  "ADMA_2024q1": {
+    "summary_analysis": "ADMA Biologics reported fourth-quarter and full-year 2023 results, and the available coverage does not describe how shares reacted. The company reported quarterly revenue of $73.9 million and full-year revenue of $258.2 million, achieved positive adjusted net income and EBITDA for the quarter and year, and raised its full-year 2024 and 2025 revenue, net income, and adjusted EBITDA guidance.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "ADMA increased its full-year 2024 and 2025 total revenue guidance to more than $330 million and $380 million, respectively, and raised its 2024 net income guidance to more than $65 million and adjusted EBITDA guidance to more than $90 million (with 2025 net income guidance raised to more than $115 million and adjusted EBITDA guidance to more than $140 million). The company also reported fourth-quarter revenue of $73.9 million and full-year revenue of $258.2 million, along with fourth-quarter adjusted net income of $8.5 million and full-year adjusted net income of $0.7 million, and fourth-quarter adjusted EBITDA of $18.6 million and full-year adjusted EBITDA of $40.3 million; the articles give no analyst expectation for any of these figures.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ADMA increased its full-year 2024 and 2025 total revenue guidance to more than $330 million and $380 million, respectively, and raised its 2024 net income guidance to more than $65 million and adjusted EBITDA guidance to more than $90 million (with 2025 net income guidance raised to more than $115 million and adjusted EBITDA guidance to more than $140 million); the articles give no expectation for these raised targets beyond the company's own prior guidance."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ADMA reported fourth-quarter 2023 total revenue of $73.9 million and full-year 2023 revenue of $258.2 million; the articles give no analyst expectation for these figures."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ADMA reported fourth-quarter adjusted net income of $8.5 million and full-year adjusted net income of $0.7 million, along with fourth-quarter adjusted EBITDA of $18.6 million and full-year adjusted EBITDA of $40.3 million; the articles give no analyst expectation for these figures."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ADMA Biologics Announces Fourth Quarter and Full Year 2023 Financial Results and Provides Business Update",
+        "published_date": "2024-02-28T16:05:00-05:00",
+        "url": "https://www.globenewswire.com/news-release/2024/02/28/2837428/33130/en/ADMA-Biologics-Announces-Fourth-Quarter-and-Full-Year-2023-Financial-Results-and-Provides-Business-Update.html"
+      }
+    ]
+  },
+  "ADMA_2024q3": {
+    "summary_analysis": "ADMA Biologics reported second-quarter 2024 results, and the available coverage does not describe how shares reacted. Revenue nearly doubled year over year to $107.19 million, beating the Zacks Consensus Estimate by 23.17%, and earnings of $0.13 per share beat the $0.08 consensus estimate, versus a loss a year earlier.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "ADMA reported second-quarter 2024 revenue of $107.19 million, up from $60.12 million a year earlier and surpassing the Zacks Consensus Estimate by 23.17%. The company also reported quarterly earnings of $0.13 per share, beating the Zacks Consensus Estimate of $0.08 (a 62.50% surprise) and compared with a loss of $0.02 per share a year earlier.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ADMA reported second-quarter 2024 revenue of $107.19 million, up from $60.12 million a year earlier and surpassing the Zacks Consensus Estimate by 23.17%."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ADMA reported quarterly earnings of $0.13 per share, beating the Zacks Consensus Estimate of $0.08 (a 62.50% surprise) and compared with a loss of $0.02 per share a year earlier."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "Adma Biologics (ADMA) Surpasses Q2 Earnings and Revenue Estimates",
+        "published_date": "2024-08-08T19:11:11-04:00",
+        "url": "https://www.zacks.com/stock/news/2319612/adma-biologics-adma-surpasses-q2-earnings-and-revenue-estimates?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_4-2319612"
+      }
+    ]
+  }
+}

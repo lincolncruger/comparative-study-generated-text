@@ -1,0 +1,381 @@
+{
+  "AKA_2022q1": {
+    "summary_analysis": "a.k.a. Brands reported fourth-quarter and full-year 2021 results, and none of the kept articles state how shares reacted. The Business Wire release said net sales rose 157.7% to $182.4 million from $70.8 million a year earlier, or 43.2% on a pro-forma basis adjusting for the acquisition of Culture Kings, which itself contributed $75.4 million of net sales in the quarter. The release gives no analyst estimate, company guidance, or other stated expectation to judge the results against, and no kept article discusses why the stock moved.",
+    "explicit_reasons": "The articles don't explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "The articles don't tie the move to any specific factor either; the only kept coverage is a results release with no discussion of investor reaction, sentiment, or expectations.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "a.k.a. Brands Holding Corp. Reports Fourth Quarter and Full Year 2021 Financial Results",
+        "published_date": "2022-03-01T16:05:00-05:00",
+        "url": "https://www.businesswire.com/news/home/20220301006143/en/a.k.a.-Brands-Holding-Corp.-Reports-Fourth-Quarter-and-Full-Year-2021-Financial-Results/"
+      }
+    ]
+  },
+  "AKA_2022q2": {
+    "summary_analysis": "a.k.a. Brands reported first-quarter 2022 results, and no kept article states how shares reacted. The Business Wire release said net sales rose 115.6% to $148.3 million from $68.8 million a year earlier, or 23.6% on a pro-forma basis adjusting for the Culture Kings acquisition, which contributed $48.9 million of net sales during the quarter. The release gives no analyst estimate or other stated expectation, and no kept article explains the stock's reaction.",
+    "explicit_reasons": "The articles don't explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "The articles don't tie the move to any specific factor either; the only kept coverage is a results release with no discussion of investor reaction, sentiment, or expectations.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "a.k.a. Brands Holding Corp. Reports First Quarter 2022 Financial Results",
+        "published_date": "2022-05-10T16:05:00-04:00",
+        "url": "https://www.businesswire.com/news/home/20220510006175/en/a.k.a.-Brands-Holding-Corp.-Reports-First-Quarter-2022-Financial-Results/"
+      }
+    ]
+  },
+  "AKA_2022q3": {
+    "summary_analysis": "a.k.a. Brands reported second-quarter 2022 results, and no kept article states how shares reacted. The Business Wire release said net sales rose 6.2% to $158.5 million from $149.2 million a year earlier, while the company swung to a net loss of $4.2 million, or $0.03 per share, from net income a year earlier. The release gives no analyst estimate or other stated expectation for either figure, and no kept article explains the stock's reaction.",
+    "explicit_reasons": "The articles don't explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "The articles don't tie the move to any specific factor either; the only kept coverage is a results release with no discussion of investor reaction, sentiment, or expectations.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "a.k.a. Brands Holding Corp. Reports Second Quarter 2022 Financial Results",
+        "published_date": "2022-08-10T16:05:00-04:00",
+        "url": "https://www.businesswire.com/news/home/20220810005734/en/a.k.a.-Brands-Holding-Corp.-Reports-Second-Quarter-2022-Financial-Results/"
+      }
+    ]
+  },
+  "AKA_2022q4": {
+    "summary_analysis": "a.k.a. Brands reported third-quarter 2022 results; no kept article states how shares reacted to the print itself. Zacks said the company delivered break-even EPS versus a $0.01 consensus estimate, a -100% surprise, while revenue of $155.82 million beat the Zacks Consensus Estimate by 2.27% even as it declined from $161.76 million a year earlier. Zacks described the earnings as a mixed print, with revenue ahead of estimates but profitability short of expectations.",
+    "explicit_reasons": "The articles don't explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Revenue topped the Zacks Consensus Estimate by 2.27% even though it fell year over year, and EPS came in break-even versus a $0.01 consensus estimate, a -100% surprise; Zacks tied both figures to the stock's near-term price movement without stating a direct causal link to the reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "a.k.a. Brands posted revenue of $155.82 million for the quarter ended September 2022, surpassing the Zacks Consensus Estimate by 2.27%, even though it was down from $161.76 million a year earlier. Zacks tied the recently-released numbers to the stock's near-term price movement without stating a direct cause-and-effect link."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "The company posted break-even quarterly EPS versus the Zacks Consensus Estimate of $0.01, a -100% earnings surprise, compared with EPS of $0.04 a year earlier. Zacks said the sustainability of the stock's immediate price movement would depend on the recently-released numbers and management's commentary on the earnings call."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "A.k.a. Brands (AKA) Reports Break-Even Earnings for Q3",
+        "published_date": "2022-11-10T19:33:17-05:00",
+        "url": "https://www.zacks.com/stock/news/2017036/a-k-a-brands-aka-reports-break-even-earnings-for-q3"
+      }
+    ]
+  },
+  "AKA_2023q1": {
+    "summary_analysis": "a.k.a. Brands reported fourth-quarter and full-year 2022 results; no kept article states how shares reacted to the print itself. The Business Wire release said net sales fell 18.3% to $149.1 million from $182.4 million a year earlier, with a net loss of $173.9 million for the quarter, and Zacks reported an adjusted quarterly loss of $0.03 per share versus a $0.02 consensus loss estimate, a -250% surprise, on revenue of $149.13 million that missed the Zacks Consensus Estimate by 7.63%. Both revenue and adjusted earnings came in below what analysts had expected.",
+    "explicit_reasons": "The articles don't explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Revenue of $149.13 million missed the Zacks Consensus Estimate by 7.63% and fell 18.3% year over year, and adjusted EPS of a $0.03 loss missed the $0.02 consensus loss estimate by a -250% surprise while the release also disclosed a $173.9 million quarterly net loss; Zacks tied the recently-released numbers to the stock's near-term price movement without stating a direct causal link to the reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Net sales fell 18.3% to $149.1 million from $182.4 million a year earlier (down 13% in constant currency), and Zacks said the $149.13 million reported missed the Zacks Consensus Estimate by 7.63%. Zacks tied the recently-released numbers to the stock's near-term price movement without a stated direct cause-and-effect link."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "The Business Wire release reported a fourth-quarter net loss of $173.9 million, while Zacks reported an adjusted quarterly loss of $0.03 per share versus a Zacks Consensus Estimate of a $0.02 loss, a -250% surprise, compared with adjusted EPS of $0.03 a year earlier. Zacks said the sustainability of the stock's immediate price movement would depend on these recently-released numbers and management's earnings-call commentary."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "a.k.a. Brands Holding Corp. Reports Fourth Quarter and Full Year 2022 Financial Results",
+        "published_date": "2023-03-09T16:05:00-05:00",
+        "url": "https://www.businesswire.com/news/home/20230309005677/en/a.k.a.-Brands-Holding-Corp.-Reports-Fourth-Quarter-and-Full-Year-2022-Financial-Results/"
+      },
+      {
+        "title": "A.k.a. Brands (AKA) Reports Q4 Loss, Lags Revenue Estimates",
+        "published_date": "2023-03-09T19:49:06-05:00",
+        "url": "https://www.zacks.com/stock/news/2063879/a-k-a-brands-aka-reports-q4-loss-lags-revenue-estimates"
+      }
+    ]
+  },
+  "AKA_2023q2": {
+    "summary_analysis": "a.k.a. Brands reported first-quarter 2023 results, and no kept article states how shares reacted. The Business Wire release said net sales fell 18.8% to $120.5 million from $148.3 million a year earlier (down 16% in constant currency), with a net loss of $9.6 million, or $0.07 per share, equal to 7.9% of net sales. The release gives no analyst estimate or other stated expectation for either figure, and no kept article explains the stock's reaction.",
+    "explicit_reasons": "The articles don't explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "The articles don't tie the move to any specific factor either; the only kept coverage is a results release with no discussion of investor reaction, sentiment, or expectations.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "a.k.a. Brands Holding Corp. Reports First Quarter 2023 Financial Results",
+        "published_date": "2023-05-10T16:05:00-04:00",
+        "url": "https://www.businesswire.com/news/home/20230510005944/en/a.k.a.-Brands-Holding-Corp.-Reports-First-Quarter-2023-Financial-Results/"
+      }
+    ]
+  },
+  "AKA_2023q3": {
+    "summary_analysis": "a.k.a. Brands reported second-quarter 2023 results; no kept article states how shares reacted to the print itself. The Business Wire release said net sales fell 14.2% to $136.0 million from $158.5 million a year earlier, while Zacks reported a quarterly loss of $0.04 per share versus a $0.02 consensus loss estimate, a -100% surprise, on revenue of $136.03 million that missed the $138.45 million Zacks Consensus Estimate by 1.75%. Both revenue and earnings came in below what analysts had expected.",
+    "explicit_reasons": "The articles don't explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Revenue of $136.03 million missed the $138.45 million Zacks Consensus Estimate by 1.75% and fell 14.2% year over year, and the $0.04 per-share loss missed the $0.02 consensus loss estimate by a -100% surprise; Zacks tied the recently-released numbers to the stock's near-term price movement without stating a direct causal link to the reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Net sales fell 14.2% to $136.0 million from $158.5 million a year earlier (down 11% in constant currency); Zacks said the $136.03 million reported missed the Zacks Consensus Estimate of $138.45 million by 1.75%. Zacks tied the recently-released numbers to the stock's near-term price movement without a stated direct cause-and-effect link."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "The company reported a quarterly loss of $0.04 per share versus a Zacks Consensus Estimate of a $0.02 loss, a -100% surprise, compared with a $0.03 loss per share a year earlier. Zacks said the sustainability of the stock's immediate price movement would depend on these recently-released numbers and management's earnings-call commentary."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "a.k.a. Brands Holding Corp. Reports Second Quarter 2023 Financial Results",
+        "published_date": "2023-08-09T16:05:00-04:00",
+        "url": "https://www.businesswire.com/news/home/20230809158702/en/a.k.a.-Brands-Holding-Corp.-Reports-Second-Quarter-2023-Financial-Results/"
+      },
+      {
+        "title": "A.k.a. Brands (AKA) Reports Q2 Loss, Lags Revenue Estimates",
+        "published_date": "2023-08-09T19:44:18-04:00",
+        "url": "https://www.zacks.com/stock/news/2134615/a-k-a-brands-aka-reports-q2-loss-lags-revenue-estimates"
+      },
+      {
+        "title": "a.k.a. Brands (AKA) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates",
+        "published_date": "2023-08-09T21:13:18-04:00",
+        "url": "https://www.zacks.com/stock/news/2134710/a-k-a-brands-aka-q2-earnings-how-key-metrics-compare-to-wall-street-estimates"
+      }
+    ]
+  },
+  "AKA_2023q4": {
+    "summary_analysis": "a.k.a. Brands reported third-quarter 2023 results; no kept article states how shares reacted to the print itself. The Business Wire release said net sales fell 9.6% to $140.8 million from $155.8 million a year earlier, and Zacks said that figure was essentially in line with the $140.65 million Zacks Consensus Estimate (a 0.13% beat), while EPS of a $0.18 loss missed the $0.12 consensus loss estimate by a -50% surprise. Revenue roughly met expectations while profitability fell short.",
+    "explicit_reasons": "The articles don't explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Revenue of $140.83 million essentially matched the $140.65 million Zacks Consensus Estimate (a 0.13% beat) even as it fell 9.6% year over year, while the $0.18 per-share loss missed the $0.12 consensus loss estimate by a -50% surprise, a wider loss than expected; Zacks tied the recently-released numbers to the stock's near-term price movement without stating a direct causal link to the reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Net sales fell 9.6% to $140.8 million from $155.8 million a year earlier (down 8% in constant currency), but Zacks said the $140.83 million reported was essentially in line with the $140.65 million Zacks Consensus Estimate, a 0.13% beat. Zacks tied the recently-released numbers to the stock's near-term price movement without a stated direct cause-and-effect link."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "The company reported EPS of a $0.18 loss for the quarter, compared with $0.00 a year earlier, which Zacks said missed the Zacks Consensus Estimate of a $0.12 loss by a -50% surprise. Zacks said the sustainability of the stock's immediate price movement would depend on these recently-released numbers and management's commentary."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "a.k.a. Brands Holding Corp. Reports Third Quarter 2023 Financial Results",
+        "published_date": "2023-11-08T16:05:00-05:00",
+        "url": "https://www.businesswire.com/news/home/20231108217365/en/a.k.a.-Brands-Holding-Corp.-Reports-Third-Quarter-2023-Financial-Results/"
+      },
+      {
+        "title": "a.k.a. Brands (AKA) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+        "published_date": "2023-11-08T19:32:06-05:00",
+        "url": "https://www.zacks.com/stock/news/2181235/a-k-a-brands-aka-q3-earnings-taking-a-look-at-key-metrics-versus-estimates"
+      }
+    ]
+  },
+  "AKA_2024q1": {
+    "summary_analysis": "a.k.a. Brands reported fourth-quarter and full-year 2023 results; no kept article states how shares reacted to the print itself. The Business Wire release said net sales were roughly flat at $148.9 million versus $149.1 million a year earlier, while Zacks reported an adjusted quarterly loss of $1.31 per share versus a $0.46 consensus loss estimate, a -184.78% surprise, on revenue of $148.91 million that missed the Zacks Consensus Estimate by 3.56%. The adjusted loss was far wider than analysts had expected.",
+    "explicit_reasons": "The articles don't explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Revenue of $148.91 million missed the Zacks Consensus Estimate by 3.56% despite being nearly flat year over year, and the adjusted $1.31 per-share loss missed the $0.46 consensus loss estimate by a -184.78% surprise, far wider than the $0.36 loss a year earlier; Zacks tied the recently-released numbers to the stock's near-term price movement without stating a direct causal link to the reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Net sales were roughly flat, down 0.1% to $148.9 million from $149.1 million a year earlier (flat in constant currency), but Zacks said the $148.91 million reported missed the Zacks Consensus Estimate by 3.56%. Zacks tied the recently-released numbers to the stock's near-term price movement without a stated direct cause-and-effect link."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "The company reported an adjusted quarterly loss of $1.31 per share versus a Zacks Consensus Estimate of a $0.46 loss, a -184.78% surprise, compared with a $0.36 loss per share a year earlier. Zacks said the sustainability of the stock's immediate price movement would depend on these recently-released numbers and management's earnings-call commentary."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "a.k.a. Brands Holding Corp. Reports Fourth Quarter and Full Year 2023 Financial Results",
+        "published_date": "2024-03-07T16:05:00-05:00",
+        "url": "https://www.businesswire.com/news/home/20240307571810/en/a.k.a.-Brands-Holding-Corp.-Reports-Fourth-Quarter-and-Full-Year-2023-Financial-Results/"
+      },
+      {
+        "title": "A.k.a. Brands (AKA) Reports Q4 Loss, Misses Revenue Estimates",
+        "published_date": "2024-03-07T19:06:03-05:00",
+        "url": "https://www.zacks.com/stock/news/2237652/a-k-a-brands-aka-reports-q4-loss-misses-revenue-estimates?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_4-2237652"
+      }
+    ]
+  },
+  "AKA_2024q2": {
+    "summary_analysis": "a.k.a. Brands reported first-quarter 2024 results, and no kept article states how shares reacted. The Business Wire release said net sales fell 3.0% to $116.8 million from $120.5 million a year earlier (down 1% in constant currency), with a net loss of $8.9 million, or $0.85 per share. The release gives no analyst estimate or other stated expectation for either figure, and no kept article explains the stock's reaction.",
+    "explicit_reasons": "The articles don't explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "The articles don't tie the move to any specific factor either; the only kept coverage is a results release with no discussion of investor reaction, sentiment, or expectations.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "a.k.a. Brands Holding Corp. Reports First Quarter 2024 Financial Results",
+        "published_date": "2024-05-08T16:05:00-04:00",
+        "url": "https://www.businesswire.com/news/home/20240508749218/en/a.k.a.-Brands-Holding-Corp.-Reports-First-Quarter-2024-Financial-Results/"
+      }
+    ]
+  },
+  "AKA_2024q3": {
+    "summary_analysis": "a.k.a. Brands reported second-quarter 2024 results; no kept article states how shares reacted to the print itself. The Business Wire release said net sales rose 9.5% to $148.9 million from $136.0 million a year earlier, and Zacks reported a narrower quarterly loss of $0.22 per share versus a $0.30 consensus loss estimate, a 26.67% positive surprise, on revenue of $148.93 million that beat the Zacks Consensus Estimate by 10.43%. Both revenue and earnings came in ahead of what analysts had expected.",
+    "explicit_reasons": "The articles don't explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Revenue of $148.93 million beat the Zacks Consensus Estimate by 10.43% and rose 9.5% year over year, and the $0.22 per-share loss beat the $0.30 consensus loss estimate by a 26.67% surprise, narrower than the $0.48 loss a year earlier; Zacks tied the recently-released numbers to the stock's near-term price movement without stating a direct causal link to the reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Net sales rose 9.5% to $148.9 million from $136.0 million a year earlier (up 10.1% in constant currency); Zacks said the $148.93 million reported beat the Zacks Consensus Estimate by 10.43%. Zacks tied the recently-released numbers to the stock's near-term price movement without a stated direct cause-and-effect link."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "The company reported a quarterly loss of $0.22 per share versus a Zacks Consensus Estimate of a $0.30 loss, a 26.67% positive surprise, narrower than the $0.48 loss per share a year earlier. Zacks said the sustainability of the stock's immediate price movement would depend on these recently-released numbers and management's commentary."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "a.k.a. Brands Holding Corp. Reports Second Quarter 2024 Financial Results",
+        "published_date": "2024-08-07T16:05:00-04:00",
+        "url": "https://www.businesswire.com/news/home/20240807148636/en/a.k.a.-Brands-Holding-Corp.-Reports-Second-Quarter-2024-Financial-Results/"
+      },
+      {
+        "title": "A.k.a. Brands (AKA) Reports Q2 Loss, Tops Revenue Estimates",
+        "published_date": "2024-08-07T19:46:06-04:00",
+        "url": "https://www.zacks.com/stock/news/2318543/a-k-a-brands-aka-reports-q2-loss-tops-revenue-estimates?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_4-2318543"
+      }
+    ]
+  },
+  "AKA_2024q4": {
+    "summary_analysis": "a.k.a. Brands reported third-quarter 2024 results; no kept article states how shares reacted to the print itself. The Business Wire release said net sales rose 6.4% to $149.9 million from $140.8 million a year earlier, and Zacks said that beat the Zacks Consensus Estimate by 5.57%, but the company posted a $0.37 per-share loss versus a $0.07 consensus estimate that had called for a profit, a -628.57% surprise. Revenue beat expectations while profitability missed them badly.",
+    "explicit_reasons": "The articles don't explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Revenue of $149.9 million beat the Zacks Consensus Estimate by 5.57% and rose 6.4% year over year, while the company posted a $0.37 per-share loss versus a $0.07 consensus estimate that had called for a profit, a -628.57% surprise and a wider loss than the $0.18 a year earlier; Zacks tied the recently-released numbers to the stock's near-term price movement without stating a direct causal link to the reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Net sales rose 6.4% to $149.9 million from $140.8 million a year earlier (up 5.2% in constant currency); Zacks said the $149.9 million reported beat the Zacks Consensus Estimate by 5.57%. Zacks tied the recently-released numbers to the stock's near-term price movement without a stated direct cause-and-effect link."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "The company reported a quarterly loss of $0.37 per share versus a Zacks Consensus Estimate of $0.07 (analysts had expected a profit), a -628.57% surprise, a wider loss than the $0.18 per share a year earlier. Zacks said the sustainability of the stock's immediate price movement would depend on these recently-released numbers and management's commentary."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "a.k.a. Brands Holding Corp. Reports Third Quarter 2024 Financial Results",
+        "published_date": "2024-11-07T16:05:00-05:00",
+        "url": "https://www.businesswire.com/news/home/20241107934477/en/a.k.a.-Brands-Holding-Corp.-Reports-Third-Quarter-2024-Financial-Results/"
+      },
+      {
+        "title": "A.k.a. Brands (AKA) Reports Q3 Loss, Tops Revenue Estimates",
+        "published_date": "2024-11-07T18:46:27-05:00",
+        "url": "https://www.zacks.com/stock/news/2366858/a-k-a-brands-aka-reports-q3-loss-tops-revenue-estimates?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_4-2366858"
+      }
+    ]
+  }
+}

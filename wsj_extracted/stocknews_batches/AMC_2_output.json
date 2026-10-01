@@ -1,0 +1,570 @@
+{
+  "AMC_2020q1": {
+    "summary_analysis": "AMC Entertainment reported fourth-quarter 2019 results that handily beat Wall Street's earnings estimates, and its shares jumped at the open and soared after the report, according to Motley Fool. Revenue reached $1.4 billion, up 2.4% year over year, edging past estimates, while adjusted earnings of $0.35 per share far exceeded the $0.08 per share Wall Street had expected. The company also cut its dividend 85% to $0.03 per share but paired the cut with a new $200 million share-buyback program, which Motley Fool said is why investors cheered rather than punished the move. AMC's top executives, including CEO Adam Aron, also agreed to reduced cash pay in exchange for stock, and its A-List subscription program topped 900,000 members.",
+    "explicit_reasons": "The clearest driver of the reaction was the earnings beat: AMC posted adjusted earnings of $0.35 per share versus Wall Street's estimate of $0.08 per share, a beat Motley Fool said caused the stock to jump at the open ('The movie chain jumped at the opening because it also reported fourth-quarter earnings results that handily beat expectations'); Zacks separately reported an earnings surprise of 337.50% for the quarter. The other explicit driver was AMC's capital-return plan: despite cutting its quarterly dividend 85% (from $0.20 to $0.03 per share), the stock rose because AMC paired the cut with a new $200 million share-repurchase program, which Motley Fool said is specifically why investors reacted favorably rather than negatively to a dividend cut.",
+    "implicit_reasons": "Revenue of $1.4 billion, up 2.4% and about 0.74% above analyst estimates per Zacks, along with record food-and-beverage sales per patron, added to the positive quarter without being directly tied to the share move. AMC's A-List Stubs subscription tier also crossed 900,000 members and was described as exceeding expectations and profitable, per Deadline. Separately, AMC's 14 top executives, including CEO Adam Aron, agreed to cut their cash salaries and bonuses for three years in exchange for stock that only vests if the price rises -- an unusual move Deadline described as a bid to 'buck up' the stock, without stating that it drove the day's reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Revenue reached $1.4 billion, up 2.4% year over year and about 0.74% above analyst estimates per Zacks; Motley Fool separately cited record food-and-beverage sales per patron in the U.S. and internationally. Neither article tied revenue specifically to the share reaction."
+      },
+      "New Product Release / Users": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AMC's A-List Stubs subscription tier, launched in June 2018, topped 900,000 subscribers, and Deadline reported the program exceeded expectations and appeared profitable for the quarter and year."
+      },
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "AMC reported adjusted earnings of $0.35 per share versus Wall Street's estimate of $0.08 per share, an earnings surprise Zacks put at 337.50%, and Motley Fool said the beat caused shares to jump at the open. The quarter also included a GAAP net loss of $13.5 million on roughly $100 million of one-time charges, mainly a lease right-of-use asset write-down, versus a profit of nearly $40 million excluding those items."
+      },
+      "Debt, leverage and capital raise": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "AMC cut its quarterly dividend 85%, to $0.03 per share from $0.20, but paired it with a new $200 million share-buyback program; Motley Fool said investors cheered the news specifically because of the buyback rather than punishing the dividend cut."
+      },
+      "Capex": null,
+      "Management": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AMC's 14 top executives, including CEO Adam Aron, agreed to cut their cash salaries and bonuses for three years in exchange for stock that vests only if the share price rises, which Deadline described as an unusual move meant to boost the depressed stock."
+      },
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AMC Entertainment Swings To Loss On One-Time Charges",
+        "published_date": "2020-02-27T16:40:29-05:00",
+        "url": "https://deadline.com/2020/02/amc-entertainment-posts-loss-on-charges-1202870030/"
+      },
+      {
+        "title": "AMC Entertainment Top Execs Take Salary Cuts To Boost Stock",
+        "published_date": "2020-02-27T19:03:29-05:00",
+        "url": "https://deadline.com/2020/02/amc-entertainment-execs-salary-cut-1202870030/"
+      },
+      {
+        "title": "AMC Entertainment (AMC) Surpasses Q4 Earnings and Revenue Estimates",
+        "published_date": "2020-02-27T19:25:05-05:00",
+        "url": "https://www.zacks.com/stock/news/787563/amc-entertainment-amc-surpasses-q4-earnings-and-revenue-estimates"
+      },
+      {
+        "title": "AMC Entertainment Slashes Dividend, Hikes Stock Buybacks",
+        "published_date": "2020-02-28T10:16:00-05:00",
+        "url": "https://www.fool.com/investing/2020/02/28/movie-theater-operator-amc-entertainment-slashes-d.aspx"
+      }
+    ]
+  },
+  "AMC_2020q3": {
+    "summary_analysis": "AMC Entertainment reported second-quarter 2020 results that CEO Adam Aron called 'the most challenging quarter in the 100-year history of AMC,' and its shares still rose, up about 2% in after-hours trading according to Deadline, as investors looked past the headline loss to other positives. Revenue collapsed to $18.9 million from $1.5 billion a year earlier as the pandemic shut nearly all of AMC's theaters, producing a net loss of $561.2 million, or roughly $5.44 per share, wider than Wall Street's expected loss of about $4.29 per share -- though revenue itself beat the roughly $11.9 million analysts had modeled. Deadline attributed the positive reaction to investors focusing on the 'bright side': AMC's plan to reopen most of its international theaters within two to three weeks and two-thirds of its U.S. theaters in August. A recent debt restructuring that cut AMC's debt by more than $500 million was also cited as giving the company more room to survive the pandemic.",
+    "explicit_reasons": "The one explicit driver the articles cite is AMC's reopening timeline: Deadline reported that shares rose nearly 2% in after-hours trading 'as investors saw the bright side,' pointing to AMC's plan to reopen essentially all of its roughly 130-plus open international theaters within two to three weeks and two-thirds of its U.S. theaters in August, even though the company does not normally issue formal guidance, per InvestorPlace.",
+    "implicit_reasons": "Revenue of $18.9 million, while down 99% year over year, beat Wall Street's estimate of roughly $11.9 million, which Motley Fool noted as the theater chain 'still' beating analyst expectations on the top line, without tying that beat directly to the share move. By contrast, AMC's adjusted per-share loss of about $5.44 was wider than the roughly $4.29 per-share loss Wall Street had modeled, a miss reported alongside the results without an explicit statement that it weighed on the stock. A debt restructuring with bondholders and Silver Lake Partners that cut debt by more than half a billion dollars and saved $415 million in interest was described by Motley Fool as positioning AMC 'to thrive once normalcy returns,' adding to the positive backdrop without being tied directly to the day's reaction. CEO Aron's characterization of the disastrous quarter as 'no surprise to anyone' given worldwide theater closures also suggests the results were largely anticipated, consistent with the muted rather than negative reaction.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "AMC said it expects to reopen essentially all of its international theaters (over 130 already reopened) within two to three weeks and about two-thirds of its U.S. theaters in August; Deadline explicitly reported shares rose 'as investors saw the bright side' following this reopening timeline, even though AMC does not normally give formal guidance, per InvestorPlace."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Revenue of $18.9 million beat Wall Street's estimate of roughly $11.9-11.88 million even as it fell 99% year over year; Motley Fool said the theater chain 'still' beat analyst expectations on the top line without tying the beat directly to the share move."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "AMC's adjusted loss per share of about $5.44-$5.45 was wider than the roughly $4.29-$4.30 per share loss Wall Street had modeled, with a GAAP net loss of $561.2 million for the quarter; this miss was reported alongside the results without an article stating it weighed on the stock."
+      },
+      "Debt, leverage and capital raise": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AMC announced a restructuring with subordinated bondholders and Silver Lake Partners that cut debt by more than half a billion dollars and saved $415 million in interest and other expenses, which Motley Fool said positions AMC 'to thrive once normalcy returns,' without tying this directly to the day's share reaction."
+      },
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "CEO Aron called the quarter 'the most challenging... in the 100-year history of AMC' but said it should be 'no surprise to anyone' since operations were shut worldwide by the pandemic; the framing suggests the disastrous results were largely anticipated, consistent with the reaction not turning sharply negative."
+      }
+    },
+    "sources": [
+      {
+        "title": "AMC Entertainment Q2 Revenues Plunge, Swings To The Red In “Most Challenging Quarter In 100-Year History” – CEO Adam Aron",
+        "published_date": "2020-08-06T16:33:40-04:00",
+        "url": "https://deadline.com/2020/08/amc-entertainment-revenue-q2-plunges-loss-covid-19-1203006397/"
+      },
+      {
+        "title": "AMC Entertainment Earnings: AMC Stock Jumps 1% on Q2 Results",
+        "published_date": "2020-08-06T16:48:07-04:00",
+        "url": "https://investorplace.com/2020/08/amc-entertainment-earnings-push-stock-up/"
+      },
+      {
+        "title": "AMC expects to reopen all international theaters in three weeks",
+        "published_date": "2020-08-06T17:29:00-04:00",
+        "url": "https://www.reuters.com/article/us-amc-ent-holdg-theatre/amc-expects-to-reopen-all-international-theaters-in-three-weeks-idUSKCN252370"
+      },
+      {
+        "title": "AMC revenues plummet in ‘most challenging quarter’ in 100 years",
+        "published_date": "2020-08-06T17:57:44-04:00",
+        "url": "https://nypost.com/2020/08/06/amc-revenues-plummet-in-most-challenging-quarter-in-100-years/"
+      }
+    ]
+  },
+  "AMC_2020q2": {
+    "summary_analysis": "AMC Entertainment reported first-quarter 2020 results on June 9, 2020, showing revenue down nearly 22% to $941.5 million and a net loss that swelled to $2.18 billion, and its shares initially ticked only modestly higher (up about 4.5%-5%) in after-hours trading, according to CNN Business and Motley Fool. The muted initial reaction reflected that the giant headline loss, which included $1.8 billion of non-cash impairment charges, had already been pre-announced and came in at the low end of AMC's own forecast range, per Deadline, even though revenue and adjusted per-share losses both missed Wall Street's estimates. The stock's real move came the next day, when shares jumped more than 14%-17% after CEO Adam Aron detailed plans, on the earnings call, to reopen almost all AMC theaters globally by July in time for the releases of 'Tenet' and 'Mulan.' That rally proved short-lived: two days after earnings, AMC shares plunged 13% along with theater peers as several U.S. states and international markets reported surging COVID-19 case counts, threatening the reopening timeline investors had just cheered.",
+    "explicit_reasons": "The clearest explicit driver was AMC's reopening plan: CNBC reported shares 'spiked more than 14%... after the company said it expects to reopen theaters globally in July,' Deadline reported the stock 'jumped over 15% at open... after execs outlined global opening plans,' and Motley Fool said shares 'jumped on Wednesday after management said it plans to reopen its theaters in July' -- a timeline Motley Fool separately described as ahead of AMC's original plan to reopen for the fall film season. Two days after earnings, the direction reversed: Motley Fool reported that AMC, Cinemark, and National CineMedia shares all fell sharply (AMC down 13%) specifically because several U.S. states and international markets were reporting rapidly rising COVID-19 case counts, which threatened to delay reopening plans and keep moviegoers away.",
+    "implicit_reasons": "AMC's first-quarter revenue of $941.5 million missed the $951.4 million analysts had expected, and Motley Fool's headline noted shares 'pop[ped] despite first-quarter misses,' juxtaposing the shortfall with the rally rather than tying the two together. Its adjusted loss of $2.22 per share was also wider than the $1.52 per share Wall Street had modeled, though the $2.18 billion GAAP net loss, inflated by $1.8 billion of impairment charges, landed at the low end of the loss range AMC itself had pre-announced, per Deadline. Several articles flagged AMC's roughly $5 billion-plus debt load as an ongoing concern: Barrington Research's Jim Goss said, as quoted by Deadline, that 'significant uncertainty remains for the company' given its leverage, and a Motley Fool opinion piece listed the debt burden, including a new $500 million note issuance, as one of several reasons to be cautious of the rally despite it not being cited as the cause of any single day's move. On the positive side, CEO Aron's disclosures of extensive rent deferrals and forgiveness negotiated with landlords, steep furlough-driven cost cuts, and a cash runway extended through Thanksgiving were highlighted by several articles as adding to investor optimism about AMC's survival, without being explicitly credited for the share moves themselves.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "AMC said on its earnings call that it expects to be 'fully opened globally' by July, ahead of its original plan to reopen for the fall film season, in time for Warner Bros.' 'Tenet' (July 17) and Disney's 'Mulan' (July 24); CNBC, Deadline, and Motley Fool all reported the stock jumped 14%-17% specifically because of this reopening announcement."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Revenue fell about 22% year over year to $941.5 million, missing the $951.4 million analysts had expected (per Refinitiv data cited by CNBC); Motley Fool noted the stock 'popped despite' this and other misses without stating that the shortfall itself pressured the shares."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "AMC's adjusted net loss was $231-232 million, or $2.22 per share, wider than the $1.52 per share loss Wall Street had modeled; the GAAP net loss of $2.18 billion, which included $1.8 billion in non-cash impairment charges, was nonetheless at the low end of the $2.1-2.4 billion loss range AMC had pre-announced, so Deadline characterized the headline loss itself as 'expected.'"
+      },
+      "Debt, leverage and capital raise": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "AMC carried more than $5 billion in debt, drew down $325 million on its revolving credit facility, and issued $500 million of new 10.5% notes in April; Barrington Research's Jim Goss, quoted by Deadline, said 'significant uncertainty remains for the company' given its leverage, and a Motley Fool opinion piece cited the debt load as one reason to avoid chasing the rally, without tying it to a specific day's price move."
+      },
+      "Capex": null,
+      "Management": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "CEO Adam Aron detailed extensive rent deferrals, abatements, and even forgiveness negotiated with 'hundreds and hundreds of landlords,' along with furloughs and other cost cuts that multiple articles said extended AMC's cash runway through Thanksgiving, adding to investor optimism about the company's survival without being cited as the explicit cause of the share moves."
+      },
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "Two days after earnings, AMC shares fell 13% along with Cinemark and National CineMedia after multiple U.S. states and international markets reported rapidly rising COVID-19 case counts, which Motley Fool said threatened to slow reopening plans and could keep patrons away from theaters; the articles give no specific case-count expectation, only that the resurgence was a new, unanticipated setback to the reopening story investors had just cheered."
+      }
+    },
+    "sources": [
+      {
+        "title": "AMC Entertainment Expects To Be “Fully Opened Globally” In July, Posts Expected, Massive Q1 Loss",
+        "published_date": "2020-06-09T16:50:26-04:00",
+        "url": "https://deadline.com/2020/06/amc-entertainment-expects-fully-opened-globally-july-posts-expected-massive-q1-loss-1202954643/"
+      },
+      {
+        "title": "AMC Earnings: AMC Stock Ticks Higher on Theater Reopening Plans",
+        "published_date": "2020-06-09T16:55:55-04:00",
+        "url": "https://investorplace.com/2020/06/amc-earnings-move-amc-stock-up/"
+      },
+      {
+        "title": "AMC plans to reopen its theaters in July",
+        "published_date": "2020-06-09T18:37:30-04:00",
+        "url": "https://www.cnn.com/2020/06/09/media/amc-theatres-reopen-earnings/index.html"
+      },
+      {
+        "title": "AMC to reopen theaters globally in July, shares rise",
+        "published_date": "2020-06-10T05:43:02-04:00",
+        "url": "https://www.cnbc.com/2020/06/10/amc-to-reopen-theaters-globally-in-july-shares-rise.html"
+      },
+      {
+        "title": "Shares of AMC Entertainment Pop Despite First-Quarter Misses",
+        "published_date": "2020-06-10T08:32:00-04:00",
+        "url": "https://www.fool.com/investing/2020/06/10/shares-of-amc-entertainment-pop-despite-first-quar.aspx"
+      },
+      {
+        "title": "AMC Entertainment Stock Pops On Global Opening Hopes",
+        "published_date": "2020-06-10T09:49:27-04:00",
+        "url": "https://deadline.com/2020/06/amc-entertainment-stock-pops-global-opening-1202955263/"
+      },
+      {
+        "title": "Why AMC Stock Is Rising Today",
+        "published_date": "2020-06-10T12:15:00-04:00",
+        "url": "https://www.fool.com/investing/2020/06/10/why-amc-stock-is-rising-today.aspx"
+      },
+      {
+        "title": "AMC Will Open Most Theaters by July. But Will There Be Any Visitors?",
+        "published_date": "2020-06-10T12:35:05-04:00",
+        "url": "https://www.fool.com/investing/2020/06/10/amc-will-open-most-theaters-by-july-but-will-there.aspx"
+      },
+      {
+        "title": "Don’t Be Tempted by AMC Entertainment’s Rally",
+        "published_date": "2020-06-11T10:05:00-04:00",
+        "url": "https://www.fool.com/investing/2020/06/11/dont-be-tempted-by-amc-entertainments-rally.aspx"
+      },
+      {
+        "title": "Why AMC, Cinemark, and National CineMedia Stocks Plunged Today",
+        "published_date": "2020-06-11T14:13:00-04:00",
+        "url": "https://www.fool.com/investing/2020/06/11/why-amc-cinemark-and-national-cinemedia-stock-plun.aspx"
+      },
+      {
+        "title": "AMC Theaters Burned Through $275 Million In the First Quarter of 2020",
+        "published_date": "2020-06-12T07:00:00-04:00",
+        "url": "https://www.fool.com/investing/2020/06/12/amc-theaters-burned-through-275-million-in-q1.aspx"
+      }
+    ]
+  },
+  "AMC_2023q4": {
+    "summary_analysis": "AMC Entertainment reported third-quarter 2023 results after the close on November 8, and while the numbers topped Wall Street's estimates, the stock ultimately fell hard over the following day, which several articles said was driven not by the results but by a newly announced $350 million stock offering. Revenue rose 45.2% year over year to about $1.40-1.41 billion, beating analyst estimates of roughly $1.26-1.30 billion, and AMC swung to a net profit of $12.3 million (8 cents per diluted share) from a loss of about $227 million a year earlier, beating consensus estimates for a loss. Shares were initially 'in the green' in after-hours trading on the earnings beat, per InvestorPlace, but on Thursday morning AMC filed to sell up to $350 million in new common shares, and multiple outlets reported the stock plunging on the news -- MarketWatch put the premarket drop at 19.5%, InvestorPlace said shares fell 20% overnight, and other outlets cited declines of 10%-15% intraday -- even as the Hollywood actors' strike also ended that week.",
+    "explicit_reasons": "The dominant explicit driver was AMC's newly announced equity offering, filed the morning after earnings: Barron's headlined it 'AMC Plunges on Plans for $350 Million Stock Offer. So Much for Solid Earnings,' MarketWatch reported shares 'plunged 19.5% in premarket trades... after the movie theater chain... filed for an at the market sale of up to $350 million in common shares,' and InvestorPlace said shares that had been in the green after earnings had 'all of those gains... erased' once the offering was announced, as 'shareholders react[ed] to the dilutive measure.' InvestorPlace separately noted that 'AMC investors focused more on the potential dilution than the good earnings and resolution of the entertainment industry's labor woes,' and CNBC, Investopedia, and Seeking Alpha all likewise tied afternoon declines of roughly 10%-15% directly to the new share sale rather than to the results themselves.",
+    "implicit_reasons": "AMC's revenue and profit both beat Wall Street's expectations -- revenue of about $1.40-1.41 billion topped estimates near $1.26-1.30 billion (Zacks put the surprise at 8.58%), and the company swung to a $12.3 million profit (8 cents per diluted share) versus an expected loss, helped by a roughly 30% increase in per-patron spending and a 38.4% rise in attendance -- but these figures were reported alongside, rather than explicitly credited for, the share price moves. CEO Adam Aron also highlighted a strategic push into concert films following the success of 'Taylor Swift: The Eras Tour,' cost discipline such as closing underperforming theaters, and record cash and quarterly results, all framed positively by the articles without being tied directly to the stock's reaction. The resolution of the Hollywood actors' strike the same week was described as removing a source of uncertainty for AMC's 2024 outlook, even as Aron separately cautioned that 'the short-term impacts of the Writer's and Actor's strikes will cause additional and needless challenges for AMC in 2024,' per CNBC -- another factor the articles mention without tying it directly to either day's price move.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Revenue rose 45.2% year over year to about $1.40-1.41 billion, beating Wall Street's roughly $1.26-1.30 billion estimate (a surprise of 8.58% per Zacks), driven by a roughly 30% increase in per-patron spending and a 38.4% rise in theater attendance. The beat was reported without an article stating it drove either day's share-price move."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "AMC swung to a net profit of $12.3 million, or 8 cents per diluted share, from a loss of about $227 million a year earlier, beating analyst estimates that had called for a loss (Zacks cited a 55% EPS surprise versus a consensus -$0.20 estimate); adjusted EBITDA of $194 million was also a third-quarter record, per InvestorPlace. The beat was described alongside the stock's decline without being cited as its cause."
+      },
+      "Debt, leverage and capital raise": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "AMC filed the morning after earnings to sell up to $350 million in new common shares to raise liquidity and address its roughly $4.77 billion of debt; multiple outlets explicitly tied the stock's plunge (variously reported between about 10% and 20%) to this dilutive offering rather than to the results, with Barron's summarizing it as 'AMC Plunges on Plans for $350 Million Stock Offer. So Much for Solid Earnings.'"
+      },
+      "Capex": null,
+      "Management": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "CEO Adam Aron highlighted a new strategic push into concert films after 'Taylor Swift: The Eras Tour' delivered strong box office, plus continued cost discipline such as closing underperforming theaters and opening successful new ones, calling the quarter AMC's best third quarter in its 103-year history. These management highlights were reported as context for the results without being tied directly to the share-price reaction."
+      },
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "The Hollywood actors' strike ended the same week via a tentative SAG-AFTRA deal, which articles described as eliminating some uncertainty for AMC's outlook, even though Aron also warned that 'the short-term impacts of the Writer's and Actor's strikes will cause additional and needless challenges for AMC in 2024,' per CNBC. InvestorPlace explicitly noted investors weighed this resolution less heavily than the new stock offering in the day's trading."
+      }
+    },
+    "sources": [
+      {
+        "title": "AMC tops quarterly revenue estimates on 'Barbenheimer' performance",
+        "published_date": "2023-11-08T16:31:14-05:00",
+        "url": "https://www.reuters.com/business/retail-consumer/amc-entertainment-beats-quarterly-revenue-estimates-2023-11-08/"
+      },
+      {
+        "title": "AMC Reports Stunning Q3 Numbers. Here's Why Wall Street Is Unimpressed With AMC Stock.",
+        "published_date": "2023-11-08T16:39:37-05:00",
+        "url": "https://investorplace.com/2023/11/amc-reports-stunning-q3-numbers-heres-why-wall-street-is-unimpressed-with-amc-stock/"
+      },
+      {
+        "title": "AMC Entertainment Will Lean Into Concert Films After ‘Eras Tour' Success; “Our Phone Has Been Ringing Off The Hook,” Says CEO",
+        "published_date": "2023-11-08T19:01:45-05:00",
+        "url": "https://deadline.com/2023/11/amc-entertainment-more-concert-films-taylor-swift-beyonce-1235597500/"
+      },
+      {
+        "title": "Compared to Estimates, AMC Entertainment (AMC) Q3 Earnings: A Look at Key Metrics",
+        "published_date": "2023-11-08T20:17:13-05:00",
+        "url": "https://www.zacks.com/stock/news/2181242/compared-to-estimates-amc-entertainment-amc-q3-earnings-a-look-at-key-metrics"
+      },
+      {
+        "title": "AMC well positioned for 2024, boosted by strong Q3 results and Hollywood actors strike deal, analysts say",
+        "published_date": "2023-11-09T09:15:00-05:00",
+        "url": "https://www.marketwatch.com/story/amc-well-positioned-for-2024-boosted-by-strong-q3-results-and-hollywood-actors-strike-deal-analysts-say-1db41157"
+      },
+      {
+        "title": "AMC Plunges on Plans for $350 Million Stock Offer. So Much for Solid Earnings.",
+        "published_date": "2023-11-09T09:21:00-05:00",
+        "url": "https://www.barrons.com/articles/amc-stock-offering-news-0c14d856"
+      },
+      {
+        "title": "AMC stock plunges 19.5% after filing for ‘at the market' sale of up to $350 million in common shares",
+        "published_date": "2023-11-09T09:22:00-05:00",
+        "url": "https://www.marketwatch.com/story/amc-stock-plunges-19-5-after-filing-for-at-the-market-sale-of-up-to-350-million-in-common-shares-4199b074"
+      },
+      {
+        "title": "AMC Stock: AMC Cheers End to Hollywood Actors' Strike",
+        "published_date": "2023-11-09T09:45:59-05:00",
+        "url": "https://investorplace.com/2023/11/amc-stock-amc-cheers-end-to-hollywood-actors-strike/"
+      },
+      {
+        "title": "AMC stock price forecast: Pain ahead as bottoming signs emerge",
+        "published_date": "2023-11-09T10:08:07-05:00",
+        "url": "https://invezz.com/news/2023/11/09/amc-stock-price-forecast-pain-ahead-as-bottoming-signs-emerge/?utm_source=snapi"
+      },
+      {
+        "title": "The Hollywood actors' strike is over, but the impact will linger for some big companies",
+        "published_date": "2023-11-09T10:23:39-05:00",
+        "url": "https://www.cnbc.com/2023/11/09/sag-aftra-strike-impact.html"
+      },
+      {
+        "title": "AMC Stock Alert: AMC Files for Up to $350 Million Share Offering",
+        "published_date": "2023-11-09T11:19:33-05:00",
+        "url": "https://investorplace.com/2023/11/amc-stock-alert-amc-files-for-up-to-350-million-share-offering/"
+      },
+      {
+        "title": "AMC surges to profit in 3Q, announces plans to raise up to $350M",
+        "published_date": "2023-11-09T12:01:17-05:00",
+        "url": "https://www.proactiveinvestors.com/companies/news/1032667?SNAPI"
+      },
+      {
+        "title": "No Feel-Good Hollywood Ending for AMC Stock",
+        "published_date": "2023-11-09T12:37:15-05:00",
+        "url": "https://investorplace.com/2023/11/no-feel-good-hollywood-ending-for-amc-stock/"
+      },
+      {
+        "title": "AMC Entertainment Shares Plunge After Announcing a Stock Sale to Raise Cash, Again",
+        "published_date": "2023-11-09T16:20:35-05:00",
+        "url": "https://www.investopedia.com/amc-entertainment-shares-plunge-after-announcing-a-stock-sale-to-raise-cash-again-8400200"
+      },
+      {
+        "title": "AMC Entertainment: Another Massive Equity Offering",
+        "published_date": "2023-11-09T21:24:40-05:00",
+        "url": "https://seekingalpha.com/article/4650107-amc-entertainment-earnings-another-massive-equity-offering"
+      }
+    ]
+  },
+  "AMC_2023q3": {
+    "summary_analysis": "AMC Entertainment reported second-quarter 2023 results before the market opened on August 8, and its shares initially rallied about 3%-4% in premarket and early trading as the results beat Wall Street's estimates, according to MarketWatch, Deadline, Fox Business, and the New York Post. Revenue rose 15.6% to about $1.35 billion, above the roughly $1.29 billion analysts expected, and AMC swung to a net profit of $8.6 million (1 cent per diluted share) from a $121.6 million loss a year earlier, beating estimates for a loss of 4-5 cents per share, helped by a 12% rise in attendance and record 'Barbenheimer'-driven momentum heading into July. But the early gains did not hold: InvestorPlace reported that by the afternoon shares had 'run out of steam' and turned slightly negative, and CEO Adam Aron used the earnings call to warn of 'serious liquidity issues,' saying retail shareholders were 'underestimating the potential for cash burn' and that running out of cash would be 'the dumbest thing we could ever do in this industry.' Those liquidity concerns, an ongoing Delaware court battle blocking AMC's plan to convert preferred APE units into common stock to raise capital, and the risk that Hollywood's writers' and actors' strikes could delay the 2024 film slate all weighed on sentiment around the otherwise upbeat results.",
+    "explicit_reasons": "The articles' one explicit driver was the earnings beat itself: MarketWatch reported shares 'rallied 2.7% in premarket trading... after the movie theater operator reported second-quarter results that beat expectations,' Deadline said shares 'gained 4% in pre-market trading' as AMC 'beat Wall Street forecasts,' Fox Business reported the stock 'up 3.9% in pre-market trading thanks to a strong second-quarter earnings report,' and the New York Post reported shares 'rose nearly 3% in early trading' after AMC 'post[ed] a surprise profit and beat[ing] second-quarter revenue estimates.'",
+    "implicit_reasons": "AMC's liquidity, reported at $643.4 million as of June 30, and CEO Aron's warning that the company faced 'serious liquidity issues' and needed to keep raising capital, were flagged by Deadline, Proactive and MarketWatch as an overhang investors were weighing against the results, with Wedbush analyst Alicia Reese warning AMC could face bankruptcy risk if it could not resolve its capital needs. Separately, AMC's plan to convert preferred APE units into common stock to help raise that capital remained blocked by a Delaware Chancery Court 'status quo order' amid an ongoing shareholder legal fight, which InvestorPlace said had previously cast AMC 'in a negative light.' The Hollywood writers' and actors' strikes were also cited, including by Wedbush's Reese, as threatening to 'derail the upcoming release slate' and delay 2024 films, with Moody's separately warning that theater chains have 'less financial flexibility' than studios and are 'more vulnerable to a long strike.' AMC also flagged plans to launch branded premium candy, building on its popcorn sales success, a minor positive noted alongside the results without being tied to the stock's reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Revenue rose 15.6% year over year to about $1.35 billion, above the roughly $1.29 billion Wall Street had expected (a surprise of 4.46% per Zacks), driven by a 12% rise in attendance to about 66.4 million guests and higher per-patron spending. MarketWatch, Deadline, Fox Business and the New York Post all reported the stock's premarket/early rally (roughly 2.7%-4%) came after this revenue and per-share beat."
+      },
+      "New Product Release / Users": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "CEO Aron said AMC's branded popcorn push at Walmart has taken off and could grow into a $100 million business, and confirmed plans to introduce AMC-branded chocolates and gummies, a minor positive noted by Deadline and MarketWatch alongside the results."
+      },
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "AMC swung to a net profit of $8.6 million, or 1 cent per diluted share, from a $121.6 million loss a year earlier, beating analyst estimates for a loss of about 4-5 cents per share (a 100% EPS surprise per Zacks); food-and-beverage revenue per patron of $7.36 was also near an all-time high. The same articles that tied the premarket rally to the revenue beat also cited this profit swing as a cause."
+      },
+      "Debt, leverage and capital raise": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "AMC ended the quarter with $643.4 million in liquidity, but CEO Adam Aron warned on the earnings call of 'serious liquidity issues,' saying retail shareholders were 'underestimating the potential for cash burn' in coming winter months and that running out of cash would be 'the dumbest thing we could ever do in this industry'; Wedbush analyst Alicia Reese separately warned AMC could face bankruptcy risk if it could not keep raising capital. These liquidity concerns were reported alongside the results without being cited as the direct cause of a specific price move."
+      },
+      "Capex": null,
+      "Management": null,
+      "Litigation": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "AMC's plan to convert its preferred APE units into common stock, intended to help raise capital, remained blocked by a Delaware Chancery Court 'status quo order' amid an ongoing shareholder legal fight; InvestorPlace said the earlier blocking of the conversion had cast AMC 'in a negative light,' contributing to the stock's inability to hold its earnings-day gains."
+      },
+      "Macro and micro development": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "The ongoing Hollywood writers' and actors' strikes were flagged as a threat to the industry's recovery: Wedbush's Alicia Reese said the strikes were 'threatening to derail the upcoming release slate,' and Moody's warned theater chains have 'less financial flexibility' than studios and are 'more vulnerable to a long strike,' concerns raised alongside the results without being tied to a specific day's price move."
+      }
+    },
+    "sources": [
+      {
+        "title": "AMC stock rallies after per-share results, revenue beat expectations as attendance and per-patron revenue climbs",
+        "published_date": "2023-08-08T06:25:00-04:00",
+        "url": "https://www.marketwatch.com/story/amc-stock-rallies-after-per-share-results-revenue-beat-expectations-as-attendance-and-per-patron-revenue-climbs-a33ef1bb"
+      },
+      {
+        "title": "AMC Entertainment Rides Box Office Revival To Top Q2 Forecasts",
+        "published_date": "2023-08-08T06:57:26-04:00",
+        "url": "https://deadline.com/2023/08/amc-entertainment-rides-box-office-revival-q2-profit-1235457193/"
+      },
+      {
+        "title": "AMC enjoys 'Barbenheimer' bounce as slew of blockbusters fills theaters again",
+        "published_date": "2023-08-08T09:06:43-04:00",
+        "url": "https://www.proactiveinvestors.com/companies/news/1022922?SNAPI"
+      },
+      {
+        "title": "AMC Reports Highest-Ever Monthly Revenue After ‘Barbie' And ‘Oppenheimer' Success—After 2nd Quarter Sales Beat Expectations",
+        "published_date": "2023-08-08T09:34:33-04:00",
+        "url": "https://www.forbes.com/sites/tylerroush/2023/08/08/amc-reports-highest-ever-monthly-revenue-after-barbie-and-oppenheimer-success-after-2nd-quarter-sales-beat-expectations/"
+      },
+      {
+        "title": "Compared to Estimates, AMC Entertainment (AMC) Q2 Earnings: A Look at Key Metrics",
+        "published_date": "2023-08-08T10:40:21-04:00",
+        "url": "https://www.zacks.com/stock/news/2133628/compared-to-estimates-amc-entertainment-amc-q2-earnings-a-look-at-key-metrics"
+      },
+      {
+        "title": "AMC sees ‘explosive start' to third quarter amid ‘Barbenheimer' frenzy",
+        "published_date": "2023-08-08T11:16:24-04:00",
+        "url": "https://nypost.com/2023/08/08/amc-third-quarter-explosive-amid-barbenheimer-frenzy/"
+      },
+      {
+        "title": "AMC could face bankruptcy risk if APE conversion battle fails and strikes drag on, analyst warns",
+        "published_date": "2023-08-08T14:35:00-04:00",
+        "url": "https://www.marketwatch.com/story/amc-could-face-bankruptcy-risk-if-ape-conversion-battle-fails-and-strikes-drag-on-analyst-warns-cb5e75f5"
+      },
+      {
+        "title": "AMC Stock Alert: AMC Just Reported Its First Profit Since 2019",
+        "published_date": "2023-08-08T14:47:26-04:00",
+        "url": "https://investorplace.com/2023/08/amc-stock-alert-amc-just-reported-its-first-profit-since-2019/"
+      },
+      {
+        "title": "AMC Entertainment could face bankruptcy if stock conversion bid fails and Hollywood strikes drag on",
+        "published_date": "2023-08-08T15:02:55-04:00",
+        "url": "https://www.proactiveinvestors.com/companies/news/1022963?SNAPI"
+      },
+      {
+        "title": "AMC earnings report confirms summer blockbuster is back, 'Barbenheimer' drives 'explosive' July for theater",
+        "published_date": "2023-08-08T15:45:50-04:00",
+        "url": "https://www.foxbusiness.com/entertainment/amc-earnings-report-confirms-summer-blockbuster-back-barbenheimer-drives-explosive-july-theater"
+      },
+      {
+        "title": "AMC CEO Sees “Serious Liquidity Issues” Even As Box Office Booms; “The Dumbest Thing We Could Ever Do In This Industry Is Run Out Of Cash”",
+        "published_date": "2023-08-08T18:44:08-04:00",
+        "url": "https://deadline.com/2023/08/amc-entertainment-movie-theaters-adam-aron-1235457759/"
+      },
+      {
+        "title": "AMC, buoyed by its popcorn push, prepares to launch branded premium gourmet candy",
+        "published_date": "2023-08-08T19:06:00-04:00",
+        "url": "https://www.marketwatch.com/story/amc-buoyed-by-its-popcorn-push-prepares-to-launch-branded-premium-gourmet-candy-eda530af"
+      },
+      {
+        "title": "AMC: Barbenheimer, Strikes, And The Future Of Moviegoing",
+        "published_date": "2023-08-09T12:14:13-04:00",
+        "url": "https://seekingalpha.com/article/4625961-amc-barbenheimer-strikes-and-the-future-of-moviegoing"
+      },
+      {
+        "title": "AMC Stock: Q2 Results Fuel Demand for APE Conversion Approval",
+        "published_date": "2023-08-09T12:30:01-04:00",
+        "url": "https://investorplace.com/2023/08/amc-stock-q2-results-fuel-demand-for-ape-conversion-approval/"
+      },
+      {
+        "title": "Even 'Barbie' may not be able to rescue AMC Theaters",
+        "published_date": "2023-08-09T14:10:57-04:00",
+        "url": "https://www.cnn.com/2023/08/09/business/amc-theaters-barbie-oppenheimer/index.html"
+      }
+    ]
+  },
+  "AMC_2021q1": {
+    "summary_analysis": "AMC Entertainment reported fourth-quarter and full-year 2020 results after the close on March 10, 2021, and while the headline numbers were dismal due to the pandemic, the results beat Wall Street's estimates and the stock rose over the following days as AMC's reopening progress continued. Revenue fell about 89% year over year to roughly $162.5 million but came in about $20 million above the roughly $142.3-142.4 million analysts expected, and the adjusted loss of $3.15 per share was narrower than the roughly $3.24 per share loss Motley Fool said Wall Street had modeled (Benzinga separately reported it was in line with a -$3.15 estimate); the GAAP net loss for the quarter was $946 million and full-year losses totaled about $4.58-4.59 billion. Deadline reported the stock was 'up 3% in late trading' after the release, and Motley Fool said shares then rallied as much as 10% at the open the next morning, with GuruFocus, MarketWatch, and Motley Fool citing further gains of roughly 3%-9.7% over the following days as AMC disclosed that about 89.5% of its domestic theaters had reopened, including New York City, with Los Angeles expected to follow shortly, and as CEO Adam Aron said the company's focus had shifted from survival to 'directing a surge in movie-going and... recovery.' Those gains came even as several articles flagged AMC's heavy debt load and massive share dilution -- the company's share count nearly quadrupled over the prior year to 450.2 million -- as a lingering concern for the stock's longer-term prospects.",
+    "explicit_reasons": "Motley Fool said the positive reaction was explained by AMC's beat: 'One reason for the positive mood at the start of trading was that AMC Entertainment's loss was a penny less than what analysts had been expecting. And... the company's revenue was roughly $20 million higher than... Wall Street was looking for. Investors tend to like it when companies beat expectations, so a price bump makes some sense on that front.' Deadline and GuruFocus similarly tied the stock's initial gain directly to the revenue beat over consensus, and Benzinga reported AMC's CEO said on the call that expected concessions on film-rental fees from WarnerMedia would likely help AMC's costs going forward, though no figure was given. Separately, Motley Fool and MarketWatch tied the stock's continued rally over the following two days to AMC's reopening progress -- 89.5% of domestic theaters were open as of March 5 -- and to CEO Aron's statement that the company's 'focus is no longer on survival, but now has turned instead to directing a surge in movie-going and on the recovery of AMC.'",
+    "implicit_reasons": "Several articles flagged AMC's debt and dilution as a concern that didn't stop the rally but colored its durability: Motley Fool noted that AMC's share count had grown from 103 million at the end of 2019 to 450.2 million by early March 2021, mostly through an at-the-market equity program, while total corporate borrowings reached about $5.7-5.8 billion, some of it at roughly 15% interest, and concluded that 'given the extreme and still-ongoing share dilution, heavy debt burden... the company's future still looks bleak.' InvestorPlace made similar points in two separate pieces, one noting the share count had 'more than quadrupled' since last summer and calling the resulting dilution 'considerable downside risk for existing investors,' and another citing AMC's roughly $5.8-6 billion debt load, much of it at high interest rates, as a reason the stock looked risky despite the improved results.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "AMC said that as of March 5, 2021, about 89.5% of its domestic theaters and roughly 22% of international locations were open, including New York City, with Los Angeles theaters expected to reopen imminently per California's governor; CEO Aron said the company's 'focus is no longer on survival, but now has turned instead to directing a surge in movie-going and on the recovery of AMC.' Motley Fool and MarketWatch tied the stock's continued gains over the following two days directly to this reopening progress and outlook."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Fourth-quarter revenue fell about 89% year over year to roughly $162.5 million as the pandemic kept most theaters closed for much of the quarter, but that was about $20 million above the roughly $142.3-142.4 million analysts had expected; Motley Fool and GuruFocus both tied the stock's initial gain directly to this beat."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "AMC's adjusted loss of $3.15 per share was a penny narrower than the roughly $3.24 per share loss Motley Fool said Wall Street had modeled (GAAP net loss was $946 million for the quarter and about $4.58-4.59 billion for the full year); Motley Fool explicitly said this narrower-than-expected loss, together with the revenue beat, explained the 'positive mood' in the stock. AMC's CEO also said on the earnings call that anticipated concessions on film-rental fees from WarnerMedia would likely help costs going forward, per Benzinga, though no figure was given."
+      },
+      "Debt, leverage and capital raise": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "AMC's share count grew from 103 million at the end of 2019 to 450.2 million by early March 2021, largely through an at-the-market equity program, while total corporate borrowings reached about $5.7-5.8 billion, some of it at roughly 15% interest; Motley Fool called this 'extreme and still-ongoing share dilution' and a 'heavy debt burden' that leaves the company's future 'bleak,' and InvestorPlace similarly flagged the dilution and debt load as reasons for caution, even as the stock rallied on the results."
+      },
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "AMC CEO's message to Reddit trading community",
+        "published_date": "2021-03-10T08:00:34-05:00",
+        "url": "https://www.foxbusiness.com/markets/amc-ceos-message-to-reddit-community"
+      },
+      {
+        "title": "Recap: AMC Entertainment Q4 Earnings",
+        "published_date": "2021-03-10T16:21:32-05:00",
+        "url": "https://www.benzinga.com/news/earnings/21/03/20108712/recap-amc-entertainment-q4-earnings?utm_source=snapi"
+      },
+      {
+        "title": "AMC Entertainment beats revenue estimates as people return to theaters",
+        "published_date": "2021-03-10T16:32:00-05:00",
+        "url": "https://www.reuters.com/article/us-amc-entertainment-results/amc-entertainment-beats-revenue-estimates-as-people-return-to-theaters-idUSKBN2B22PE"
+      },
+      {
+        "title": "AMC lost nearly $1 billion in holiday season, but stock is gaining as executives see better days ahead",
+        "published_date": "2021-03-10T16:33:00-05:00",
+        "url": "https://www.marketwatch.com/story/amc-lost-nearly-1-billion-in-holiday-season-but-stock-is-gaining-as-executives-see-better-days-ahead-11615411990"
+      },
+      {
+        "title": "AMC Entertainment Q4 Sales Plunged 90%, Losses Ballooned Amid Pandemic; CEO Adam Aron Cites “Most Challenging Market Conditions” In 100 Years",
+        "published_date": "2021-03-10T16:35:58-05:00",
+        "url": "https://deadline.com/2021/03/amc-entertainment-pandemic-ceo-adam-aron-movie-theaters-1234711726/"
+      },
+      {
+        "title": "AMC Says No Longer In 'Survival' Mode With Vaccine Rollout, Big Movie Releases On The Horizon",
+        "published_date": "2021-03-11T04:48:45-05:00",
+        "url": "https://www.benzinga.com/news/21/03/20115005/amc-says-no-longer-in-survival-mode-with-vaccine-rollout-big-movie-releases-on-the-horizon?utm_source=snapi"
+      },
+      {
+        "title": "AMC Entertainment's Earnings Were Predictably Ugly, But Now 90% of Its Theaters Are Open",
+        "published_date": "2021-03-11T10:02:00-05:00",
+        "url": "https://www.fool.com/investing/2021/03/11/amc-entertainments-earnings-were-predictably-ugly/"
+      },
+      {
+        "title": "Why AMC Entertainment Stock Rallied 10% at the Open Today",
+        "published_date": "2021-03-11T10:43:00-05:00",
+        "url": "https://www.fool.com/investing/2021/03/11/why-amc-entertainment-stock-rallied-10-at-the-open/"
+      },
+      {
+        "title": "Why a Pot Stock and a Pandemic-Crushed Business Are Leading the Stock Market Higher Thursday",
+        "published_date": "2021-03-11T12:14:00-05:00",
+        "url": "https://www.fool.com/investing/2021/03/11/why-a-pot-stock-and-a-pandemic-crushed-business-ar/"
+      },
+      {
+        "title": "AMC Rises on 4th Quarter Revenue Beat",
+        "published_date": "2021-03-11T12:43:13-05:00",
+        "url": "https://www.gurufocus.com/news/1384196/amc-rises-on-4th-quarter-revenue-beat"
+      },
+      {
+        "title": "AMC Is a Meme Stock to Be Avoided Right Now",
+        "published_date": "2021-03-11T14:54:01-05:00",
+        "url": "https://investorplace.com/2021/03/amc-stock-a-meme-stock-to-be-avoided-right-now/"
+      },
+      {
+        "title": "AMC Could Be Getting Up To 10% On Film-Rental Fees From WarnerMedia, Says Analyst",
+        "published_date": "2021-03-12T02:37:03-05:00",
+        "url": "https://www.benzinga.com/news/21/03/20136657/amc-could-be-getting-up-to-10-on-film-rental-fees-from-warnermedia-says-analyst?utm_source=snapi"
+      },
+      {
+        "title": "1 Big Red Flag in AMC's Earnings Report",
+        "published_date": "2021-03-12T06:59:00-05:00",
+        "url": "https://www.fool.com/investing/2021/03/12/1-big-red-flag-in-amcs-earnings-report/"
+      },
+      {
+        "title": "1 Consumer Discretionary Stock to Avoid No Matter What",
+        "published_date": "2021-03-12T09:45:00-05:00",
+        "url": "https://www.fool.com/investing/2021/03/12/1-consumer-discretionary-stock-to-avoid-no-matter/"
+      },
+      {
+        "title": "AMC Entertainment stock surges toward a 4-week win streak, says nearly 90% of U.S. theaters were open",
+        "published_date": "2021-03-12T10:09:09-05:00",
+        "url": "https://www.marketwatch.com/story/amc-entertainment-stock-surges-toward-a-4-week-win-streak-says-nearly-90-of-us-theaters-were-open-2021-03-12"
+      },
+      {
+        "title": "Why AMC Entertainment Stock Rose Today",
+        "published_date": "2021-03-12T11:31:49-05:00",
+        "url": "https://www.fool.com/investing/2021/03/12/why-amc-entertainment-stock-rose-today/"
+      },
+      {
+        "title": "AMC Entertainment Stock Has A Rough Ride Ahead",
+        "published_date": "2021-03-12T13:28:31-05:00",
+        "url": "https://investorplace.com/2021/03/amc-entertainment-stock-has-a-rough-ride-ahead/"
+      }
+    ]
+  }
+}

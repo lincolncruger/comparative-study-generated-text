@@ -1,0 +1,181 @@
+{
+  "AAON_2019q2": {
+    "summary_analysis": "AAON reported first-quarter 2019 results that missed earnings estimates while beating on revenue; the article does not state how the stock reacted. The quarter ended March 2019 produced an earnings surprise of -12.50% against estimates and a revenue surprise of 4.42%, a mixed report with profitability falling short of Wall Street's mark even as sales topped forecasts.",
+    "explicit_reasons": "The article does not explicitly attribute any stock reaction to a specific factor; it only reports the first-quarter 2019 earnings and revenue surprise figures without stating how shares moved.",
+    "implicit_reasons": "Profitability missed expectations, with earnings per share coming in 12.50% below the consensus estimate for the quarter ended March 2019. Revenue exceeded expectations, beating estimates by 4.42%. The article places these two results side by side without tying either directly to a stock price reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Revenue for the quarter ended March 2019 beat expectations, coming in 4.42% above the consensus estimate."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Earnings per share missed expectations, coming in 12.50% below the consensus estimate for the quarter ended March 2019."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "Aaon (AAON) Q1 Earnings Lag Estimates",
+        "published_date": "2019-05-02T10:25:04-04:00",
+        "url": "https://www.zacks.com/stock/news/407645/aaon-aaon-q1-earnings-lag-estimates"
+      }
+    ]
+  },
+  "AAON_2023q1": {
+    "summary_analysis": "AAON reported record fourth-quarter 2022 sales, gross margin, earnings and backlog, and the Motley Fool reported that AAON shares rose 19.2% in February, a move it said came mainly from this 'excellent set of fourth-quarter 2022 earnings.' Net sales rose 86.8% to a record $254.6 million, gross margin expanded to 30.8% of sales, and diluted EPS jumped to $0.71 from $0.11, while backlog grew 110.6% to a record $548.0 million on robust order intake. The Motley Fool tied the rally to results that dispelled investor fears about AAON's trading conditions, citing the company's lighter exposure to a weakening residential HVAC market relative to peers Carrier and Trane, and management struck an optimistic tone entering 2023 after a slow start to the prior year.",
+    "explicit_reasons": "The Motley Fool explicitly attributed AAON shares' 19.2% rise in February mainly to an 'excellent set of fourth-quarter 2022 earnings.' Within that report, net sales grew 86.8% year-over-year to a record $254.6 million, gross margin expanded to 30.8% of sales with diluted EPS up to $0.71 from $0.11, and backlog reached a record $548.0 million, up 110.6% year-over-year with orders outpacing both the prior and year-ago quarters -- results the article credited, together with the easing of fears about AAON's trading conditions, as drivers of the rally.",
+    "implicit_reasons": "The Motley Fool noted AAON's comparatively light exposure to the weakening residential HVAC market -- in contrast to peers Carrier and Trane, whose residential orders fell roughly 30% and in the mid-20% range, respectively -- as context that helped ease investor fears about AAON's trading conditions, adding to the positive sentiment, even while cautioning that a protracted housing downturn could eventually weigh on AAON's commercial markets. Management also struck an optimistic tone for 2023, with the CEO saying the company was positioned for 'another record year of sales and earnings' after 2022 started slowly but finished with record results and an improved backlog margin profile; the articles give no specific figure for this outlook.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Management said it was optimistic AAON was positioned for 'another record year of sales and earnings' in 2023, after 2022 started slowly but finished with record sales, EBITDA and earnings and a backlog with an improved margin profile; the articles give no specific figure for this outlook, only management's more confident tone."
+      },
+      "Order book / backlog": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Backlog closed the fourth quarter at a record $548.0 million, up 110.6% from $260.2 million a year earlier, with orders outpacing both the prior and year-ago quarters. The Motley Fool called this a 'whopping' gain and, alongside the rest of the 'excellent' report, tied it to the stock's 19.2% rise in February and the easing of fears about AAON's trading conditions."
+      },
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Net sales for the fourth quarter rose 86.8% year-over-year to a record $254.6 million, with organic volume, pricing and the BASX acquisition contributing. The Motley Fool said this result was part of the 'excellent' earnings report that dispelled investor fears about AAON's trading conditions and drove the stock's 19.2% rise in February."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Gross margin expanded to 30.8% of sales from a supply-chain-constrained year-earlier quarter, and diluted EPS rose to $0.71 from $0.11. The Motley Fool credited this profitability improvement, part of an 'excellent' quarter that eased fears about AAON's trading conditions, as a driver of the shares' 19.2% rise in February."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "The Motley Fool noted AAON's comparatively light exposure to the weakening residential HVAC market compared with peers Carrier, whose residential orders fell roughly 30%, and Trane, whose residential bookings fell in the mid-20% range, framing this as part of what eased investor fears about AAON's trading conditions, while cautioning a protracted housing downturn could eventually weigh on AAON's commercial markets."
+      }
+    },
+    "sources": [
+      {
+        "title": "AAON REPORTS RECORD SALES, EARNINGS & BACKLOG FOR THE FOURTH QUARTER OF 2022",
+        "published_date": "2023-02-27T16:01:00-05:00",
+        "url": "https://www.prnewswire.com/news-releases/aaon-reports-record-sales-earnings--backlog-for-the-fourth-quarter-of-2022-301756993.html"
+      },
+      {
+        "title": "Why Shares in AAON Surged in February",
+        "published_date": "2023-03-02T07:50:00-05:00",
+        "url": "https://www.fool.com/investing/2023/03/02/why-shares-in-aaon-surged-in-february/"
+      }
+    ]
+  },
+  "AAON_2024q1": {
+    "summary_analysis": "AAON reported record fourth-quarter 2023 sales, margin and earnings alongside growing bookings, and Zacks reported that the stock rose on the results, titling its report 'AAON's Stock Rises on Q4 Earnings Beat, Bookings Up Y/Y.' Net sales grew 20.4% to a record $306.6 million, gross margin expanded to 36.4% from 30.8%, and diluted EPS rose 19.1% to $0.56, while bookings increased for a second straight quarter, lifting backlog 4.0% sequentially to $510.0 million. Management struck a cautiously optimistic tone for 2024, citing continued but slower sales and earnings growth amid signs of a slowing nonresidential construction market and uncertainty around an industry refrigerant transition.",
+    "explicit_reasons": "Zacks explicitly tied AAON's stock rise to the fourth-quarter results, titling its report 'AAON's Stock Rises on Q4 Earnings Beat, Bookings Up Y/Y.' Net sales rose 20.4% year-over-year to a record $306.6 million, gross margin expanded to 36.4% of sales from 30.8% with diluted EPS up 19.1% to $0.56 from $0.47, and bookings rose year-over-year for a second straight quarter, lifting backlog 4.0% quarter-over-quarter to $510.0 million -- results Zacks credited for the share gain.",
+    "implicit_reasons": "Management said it continues to anticipate sales and earnings growth for 2024, but at 'slower growth rates than recent years,' a moderation from 2023's record pace, describing the outlook as only 'cautiously optimistic.' The CEO also pointed to 'signs of slowing in the nonresidential construction sector' and uncertainty around an industry refrigerant transition as factors shaping that caution, even while expressing confidence AAON would keep taking market share given its refrigerant and heat-pump product position.",
+    "categories": {
+      "Guidance": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Management said it continues to anticipate sales and earnings growth for 2024, but 'at slower growth rates than recent years' following 2023's record pace, describing the outlook as only 'cautiously optimistic.'"
+      },
+      "Order book / backlog": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Bookings rose year-over-year for a second straight quarter, lifting backlog 4.0% quarter-over-quarter to $510.0 million, though it remained down 6.9% from a year earlier. Zacks cited 'high booking trends' and headlined 'Bookings Up Y/Y' as part of why the stock rose."
+      },
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Net sales for the fourth quarter rose 20.4% year-over-year to a record $306.6 million, driven by about 9.3% organic volume growth. Zacks described this as 'record net sales' in its report explaining the stock's rise."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Gross margin expanded to 36.4% of sales from 30.8% a year earlier on pricing and productivity gains, and diluted EPS rose 19.1% to $0.56 from $0.47. Zacks titled its report 'AAON's Stock Rises on Q4 Earnings Beat,' tying this profitability gain to the share reaction."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "The CEO pointed to 'signs of slowing in the nonresidential construction sector' and 'uncertainties surrounding the new refrigerant transition' as factors behind the cautious 2024 outlook, a tone more guarded than the growth pace of recent years, even while expressing confidence AAON would continue taking market share given its advanced refrigerant and heat-pump product position; the article gives no specific estimate for the impact of these factors."
+      }
+    },
+    "sources": [
+      {
+        "title": "AAON REPORTS SALES, EARNINGS & BACKLOG FOR THE FOURTH QUARTER OF 2023",
+        "published_date": "2024-02-28T16:01:00-05:00",
+        "url": "https://www.prnewswire.com/news-releases/aaon-reports-sales-earnings--backlog-for-the-fourth-quarter-of-2023-302074778.html"
+      },
+      {
+        "title": "AAON's Stock Rises on Q4 Earnings Beat, Bookings Up Y/Y",
+        "published_date": "2024-02-29T13:11:05-05:00",
+        "url": "https://www.zacks.com/stock/news/2234116/aaon-s-stock-rises-on-q4-earnings-beat-bookings-up-y-y?cid=CS-STOCKNEWSAPI-FT-analyst_blog|earnings_article-2234116"
+      }
+    ]
+  },
+  "AAON_2024q4": {
+    "summary_analysis": "AAON reported record third-quarter 2024 net sales and an EPS and revenue beat versus Zacks' consensus estimates, alongside a 32% year-over-year rise in backlog and a new data-center facility investment; neither the company's release nor the Zacks report states how the stock reacted to the results, though Zacks noted the shares had already added about 62.8% since the start of the year. Net sales rose 4.9% to a record $327.3 million, led by 58.8% growth at BASX and 36.7% at AAON Coil Products, while diluted EPS of $0.63 beat the Zacks consensus by 8.62% even as gross margin contracted to 34.9% from 37.2% on lower Oklahoma-segment volumes and BASX inefficiencies. Backlog reached $647.7 million, up 32.0% year-over-year and mostly tied to data-center equipment, and the company said it would buy a new Memphis, Tennessee facility to expand data-center production capacity.",
+    "explicit_reasons": "Neither article explicitly attributes the stock's reaction to any specific factor; both report the quarter's results and estimate comparisons without stating what drove the share price.",
+    "implicit_reasons": "Net sales of $327.3 million, a record, beat the Zacks consensus by 3.12% and rose 4.9% year-over-year on strength at the BASX and AAON Coil Products segments. Diluted EPS of $0.63 beat the Zacks Consensus Estimate of $0.58 by 8.62%, even though gross margin contracted to 34.9% from 37.2% due to lower Oklahoma-segment volumes and temporary BASX inefficiencies. Backlog rose 32.0% year-over-year to $647.7 million, mostly tied to data-center equipment for 2025 delivery, exceeding both the prior-quarter and year-ago levels, though the articles give no analyst backlog estimate. The company said it would purchase a 787,000-square-foot Memphis, Tennessee facility to expand data-center production capacity, following $113.7 million of year-to-date capital expenditures. Management also said it anticipates 'a softening in overall rooftop demand in the near-term mainly due to the slower economic backdrop,' even as data-center demand remained strong.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Backlog stood at $647.7 million at quarter-end, up 32.0% from $490.6 million a year earlier and roughly flat sequentially, with a majority tied to data-center equipment for 2025 delivery; subsequent to the quarter, the company received about $174.5 million of new orders in October for a data-center liquid cooling customer. The articles give no analyst backlog estimate; the comparison is against the year-ago and prior-quarter levels, both of which the growth exceeded."
+      },
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Net sales for the third quarter rose 4.9% year-over-year to a record $327.3 million, driven by 58.8% growth at BASX and 36.7% at AAON Coil Products, partly offset by a 7.1% decline at the AAON Oklahoma segment. Zacks said the $327.25 million in revenue beat its consensus estimate by 3.12%."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Diluted EPS of $0.63 beat the Zacks Consensus Estimate of $0.58 by 8.62%, though it was roughly flat versus the adjusted $0.64 reported a year earlier. Gross margin contracted to 34.9% from 37.2% a year ago, which the company attributed to lower volumes at the AAON Oklahoma segment and temporary inefficiencies at BASX."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "The company said it entered a definitive agreement to purchase a 787,000-square-foot facility in Memphis, Tennessee to accommodate incremental data-center demand, following $38.4 million of capital expenditures in the quarter and $113.7 million year-to-date. The articles give no analyst capex estimate, only the company's own spending trend and expansion plans."
+      },
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Management said it anticipates 'a softening in overall rooftop demand in the near-term mainly due to the slower economic backdrop,' even as demand for data-center equipment remained strong; the articles give no analyst estimate for this outlook, only management's own characterization."
+      }
+    },
+    "sources": [
+      {
+        "title": "AAON REPORTS RECORD SALES & EARNINGS FOR THE THIRD QUARTER OF 2024",
+        "published_date": "2024-11-07T16:01:00-05:00",
+        "url": "https://www.prnewswire.com/news-releases/aaon-reports-record-sales--earnings-for-the-third-quarter-of-2024-302299258.html"
+      },
+      {
+        "title": "Aaon (AAON) Beats Q3 Earnings and Revenue Estimates",
+        "published_date": "2024-11-07T18:15:26-05:00",
+        "url": "https://www.zacks.com/stock/news/2366806/aaon-aaon-beats-q3-earnings-and-revenue-estimates?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_4-2366806"
+      }
+    ]
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "AMC_2021q2": {
+    "summary_analysis": "AMC Entertainment reported first-quarter 2021 results, and shares initially decreased in after-market trading before rising sharply the next two sessions as investors reacted to CEO Adam Aron's optimistic commentary rather than the quarter's numbers themselves. Revenue fell 84% to $148.3 million and missed analyst estimates (Zacks put the revenue surprise at -2.13%), while the per-share loss of $1.42 was wider than the $1.26 loss analysts had expected (an earnings surprise of -10.94%). Despite those misses, shares jumped as much as 7.4%-7.8% the following morning and ended an eight-day losing streak up almost 5% on Friday, with multiple outlets attributing the rally explicitly to Aron's upbeat tone -- citing a roughly 25% gain in U.S. market share versus pre-pandemic levels and an \"increasingly favorable environment\" for moviegoing -- even as analysts flagged AMC's heavy debt load as a constraint on future growth.",
+    "explicit_reasons": "Shares rose after the earnings call chiefly because of management's tone: outlets reported that investors \"liked what they heard\" from CEO Adam Aron, who touted a roughly 25% increase in U.S. market share versus pre-pandemic levels and said the company was looking at an \"increasingly favorable environment\" for moviegoing, and MarketWatch explicitly tied the stock's gain to this \"rosy outlook.\" This positive reaction came even though the quarter's results themselves were weaker than expected: Reuters reported a \"larger-than-expected fall\" in first-quarter revenue to $148.3 million, hit by delayed theatrical releases and a growing preference for streaming, and Benzinga and Zacks reported a wider-than-expected per-share loss of $1.42 versus a $1.26 loss analysts had forecast (a -10.94% earnings surprise).",
+    "implicit_reasons": "Analysts cautioned that AMC's high debt burden would limit the company's growth prospects even after the rosy outlook, a factor MarketWatch noted alongside the stock's gain without stating it drove the specific day's move.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "Revenue fell 84% year-over-year to $148.3 million, which Reuters described as a \"larger-than-expected fall\" versus analyst estimates, citing delayed theatrical releases and a growing customer preference for streaming; Zacks put the revenue surprise at -2.13%."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "AMC posted a per-share loss of $1.42, wider than the $1.26 loss analysts had expected, a -10.94% earnings surprise per Zacks; the loss was narrower than the year-earlier $20.88 per share only because that prior-year figure included a one-time $1.85 billion write-down."
+      },
+      "Debt, leverage and capital raise": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "MarketWatch reported that even after the rosy outlook lifted shares, analysts said AMC's high debt burden would limit the company's growth, a caveat raised alongside the stock's gain rather than tied directly to that day's move."
+      },
+      "Capex": null,
+      "Management": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Shares rose as much as 7.8% after CEO Adam Aron told analysts the company's U.S. market share had \"soared, increasing by about 25% compared to prepandemic levels\" and that AMC was looking at an \"increasingly favorable environment\" for moviegoing; The Motley Fool said investors \"liked what they heard,\" and MarketWatch tied the stock's 5% Friday gain explicitly to the \"rosy outlook.\""
+      },
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {"title": "AMC Entertainment misses revenue estimates", "published_date": "2021-05-06T16:35:00-04:00", "url": "https://www.reuters.com/business/media-telecom/amc-entertainment-misses-revenue-estimates-2021-05-06/"},
+      {"title": "Recap: AMC Entertainment Q1 Earnings", "published_date": "2021-05-06T16:48:58-04:00", "url": "https://www.benzinga.com/news/earnings/21/05/21001696/recap-amc-entertainment-q1-earnings?utm_source=snapi"},
+      {"title": "Earnings Results: AMC lost more than half a billion dollars in first quarter, but CEO sees 'increasingly favorable environment'", "published_date": "2021-05-06T17:02:00-04:00", "url": "https://www.marketwatch.com/story/amc-lost-more-than-half-a-billion-dollars-in-first-quarter-but-ceo-sees-increasingly-favorable-environment-11620334941"},
+      {"title": "AMC theaters CEO: Movie-going is coming back", "published_date": "2021-05-06T17:08:45-04:00", "url": "https://www.foxbusiness.com/markets/amc-theaters-ceo-movie-going-is-coming-back"},
+      {"title": "AMC Entertainment CEO Adam Aron Quotes Wartime Churchill – Q1 \"End Of The Beginning\" Of Exhibition's Covid Nightmare; Chain Hiring Up To 10,000 In Next Few Weeks", "published_date": "2021-05-06T18:46:42-04:00", "url": "https://deadline.com/2021/05/amc-entertainment-adam-aron-earnings-movie-theaters-1234751301/"},
+      {"title": "AMC Entertainment (AMC) Reports Q1 Loss, Lags Revenue Estimates", "published_date": "2021-05-06T21:47:16-04:00", "url": "https://www.zacks.com/stock/news/1512881/amc-entertainment-amc-reports-q1-loss-lags-revenue-estimates"},
+      {"title": "AMC CEO Adam Aron raved about its new investors who are at odds with Wall Street", "published_date": "2021-05-07T10:37:36-04:00", "url": "https://www.cnbc.com/2021/05/07/amc-ceo-adam-aron-raved-about-its-reddit-investors-on-an-earnings-call.html"},
+      {"title": "Movie Theater Stock Surges Despite Q1 Results", "published_date": "2021-05-07T10:48:48-04:00", "url": "https://www.schaeffersresearch.com/content/news/2021/05/07/movie-theater-stock-surges-despite-q1-results"},
+      {"title": "Here's Why AMC Entertainment Stock Rose Today", "published_date": "2021-05-07T11:10:14-04:00", "url": "https://www.fool.com/investing/2021/05/07/heres-why-amc-entertainment-stock-rose-today/"},
+      {"title": "The Ratings Game: AMC shares end 8-day losing streak after rosy outlook, but analysts say high debt burden will limit growth", "published_date": "2021-05-07T13:33:00-04:00", "url": "https://www.marketwatch.com/story/amc-shares-end-8-day-losing-streak-after-rosy-outlook-but-analysts-say-high-debt-burden-will-limit-growth-11620408815"},
+      {"title": "There Is a Silver Lining With AMC's Q1 2021 Results", "published_date": "2021-05-07T15:03:38-04:00", "url": "https://investorplace.com/2021/05/amc-stock-there-is-a-silver-lining-with-amc-stock-and-amcs-q1-2021-results/"}
+    ]
+  },
+  "AMC_2022q2": {
+    "summary_analysis": "AMC Entertainment reported first-quarter 2022 results, and shares initially rose after hours before reversing over the following days as the broader market weakened. Revenue of $785.7 million beat the roughly $743 million analysts expected, and the adjusted per-share loss of 52 cents was narrower than the 63-cent loss Wall Street had forecast, driven by the continued success of \"Spider-Man: No Way Home,\" \"The Batman\" and \"Sonic the Hedgehog 2.\" Shares rose as much as 7% in after-hours trading and nearly 4% the next morning on the beat, with Schaeffers and Benzinga explicitly tying the gains to the results topping expectations, but the move reversed by midday as MarketWatch reported analysts still viewed the stock as too expensive to buy, and shares fell further later in the week as broader markets sold off on hotter-than-expected inflation data.",
+    "explicit_reasons": "AMC's beat on both revenue and profit was explicitly tied to the stock's initial gains: Schaeffers reported shares up 3.8% premarket \"after Q1 results top expectations,\" and Benzinga said shares were \"moving higher\" after revenue of $785.7 million beat the roughly $736-743 million analysts expected and the per-share loss of 52 cents came in narrower than the 63-cent loss forecast. That gain proved short-lived, and later in the week Benzinga explicitly tied AMC's continued decline to broader market weakness as investors digested U.S. inflation data that came in higher than expected.",
+    "implicit_reasons": "The articles give no reasons presented only as background sentiment beyond the explicit ones listed above; no category is attributed to the move only implicitly.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Revenue rose to $785.7 million from $148.3 million a year earlier and beat the roughly $743 million analysts had expected (Benzinga cited an estimate of about $736 million), which Schaeffers and Benzinga explicitly tied to shares moving higher the next morning; The Motley Fool noted the beat \"doesn't mean as much when expectations are relatively low.\""
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "AMC posted an adjusted per-share loss of 52 cents, narrower than the 63-cent loss analysts expected (net loss of $337.4 million versus $567.2 million a year earlier), which CNBC and Barron's reported drove shares up more than 4% in after-hours trading."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "After the initial earnings-driven pop faded, Benzinga reported AMC shares trading lower two days later \"amid overall market weakness as investors digest the latest U.S. inflation data, which came in higher-than-expected,\" explicitly tying the broader macro backdrop to the stock's continued decline that week."
+      }
+    },
+    "sources": [
+      {"title": "AMC Results Come at a Difficult Time for Meme Stocks", "published_date": "2022-05-09T15:21:00-04:00", "url": "https://www.barrons.com/articles/amc-results-come-at-a-difficult-time-for-meme-stocks-51652124071"},
+      {"title": "AMC Entertainment beats estimates for quarterly revenue", "published_date": "2022-05-09T16:21:00-04:00", "url": "https://www.reuters.com/article/amc-ent-holdg-results/amc-entertainment-beats-estimates-for-quarterly-revenue-idUSKCN2MV1TS"},
+      {"title": "After 80% plunge from peak, AMC stock bounces back slightly as revenue beats expectations", "published_date": "2022-05-09T16:32:00-04:00", "url": "https://www.marketwatch.com/story/after-80-plunge-from-peak-amc-stock-bounces-back-slightly-as-revenue-beats-expectations-11652128369"},
+      {"title": "AMC shares rise after results outpace Wall Street expectations", "published_date": "2022-05-09T16:35:15-04:00", "url": "https://www.cnbc.com/2022/05/09/amc-amc-earnings-q1-2022.html"},
+      {"title": "AMC Entertainment Sees Q1 Sales Surge, Losses Narrow", "published_date": "2022-05-09T16:38:22-04:00", "url": "https://deadline.com/2022/05/amc-entertainment-earnings-first-quarter-adam-aron-1235019820/"},
+      {"title": "AMC reports its 'strongest first quarter' since start of the pandemic", "published_date": "2022-05-09T18:10:23-04:00", "url": "https://invezz.com/news/2022/05/09/amc-reports-its-strongest-first-quarter-since-start-of-the-pandemic/?utm_source=snapi"},
+      {"title": "AMC Scores a Beat at a Difficult Time for Meme Stocks", "published_date": "2022-05-09T19:04:00-04:00", "url": "https://www.barrons.com/articles/amc-stock-price-earnings-movie-theaters-meme-51652124071"},
+      {"title": "AMC Entertainment hails Spiderman and Batman for first quarter beat", "published_date": "2022-05-10T08:48:43-04:00", "url": "https://www.proactiveinvestors.co.uk/companies/news/981832?SNAPI"},
+      {"title": "AMC Stock Gets Boost After Q1 Results Top Expectations", "published_date": "2022-05-10T09:13:42-04:00", "url": "https://www.schaeffersresearch.com/content/news/2022/05/10/amc-stock-gets-boost-after-q1-results-top-expectations"},
+      {"title": "Why AMC Entertainment Stock Is Moving Higher Today", "published_date": "2022-05-10T09:29:04-04:00", "url": "https://www.benzinga.com/news/earnings/22/05/27106388/why-amc-entertainment-stock-is-moving-higher-today?utm_source=snapi"},
+      {"title": "Why Is AMC Entertainment (AMC) Stock in the Spotlight Today?", "published_date": "2022-05-10T11:04:56-04:00", "url": "https://investorplace.com/2022/05/why-is-amc-entertainment-amc-stock-in-the-spotlight-today-q1-earnings/"},
+      {"title": "The Ratings Game: AMC stock reverses lower after earnings report, but Wall Street analysts think the price is still too high", "published_date": "2022-05-10T12:22:00-04:00", "url": "https://www.marketwatch.com/story/amc-stock-reverses-lower-after-earnings-report-but-wall-street-analysts-think-the-price-is-still-too-high-11652199729"},
+      {"title": "Why AMC Stock Fell Today", "published_date": "2022-05-10T18:15:47-04:00", "url": "https://www.fool.com/investing/2022/05/10/why-amc-stock-fell-today/"},
+      {"title": "Earnings Report Did Little to Justify AMC Entertainment's Share Price", "published_date": "2022-05-11T14:50:39-04:00", "url": "https://investorplace.com/2022/05/earnings-report-did-little-to-justify-amc-entertainments-share-price/"},
+      {"title": "Why You Should Avoid AMC Stock Despite a Strong First Quarter", "published_date": "2022-05-11T15:24:22-04:00", "url": "https://investorplace.com/2022/05/why-you-should-avoid-amc-stock-despite-a-strong-first-quarter/"},
+      {"title": "Why AMC Entertainment Stock Is Falling", "published_date": "2022-05-11T15:27:05-04:00", "url": "https://www.benzinga.com/trading-ideas/movers/22/05/27148092/why-amc-entertainment-stock-is-falling?utm_source=snapi"},
+      {"title": "Here's How Good AMC's First Quarter Was ... or Wasn't", "published_date": "2022-05-12T08:20:00-04:00", "url": "https://www.fool.com/investing/2022/05/12/heres-how-good-amcs-first-quarter-was-or-wasnt/"}
+    ]
+  },
+  "AMC_2023q1": {
+    "summary_analysis": "AMC Entertainment reported fourth-quarter and full-year 2022 results, and shares gained modestly right after the release before falling sharply over the next two sessions. Revenue of about $991 million beat the roughly $977-978 million analysts had come to expect (after repeatedly cutting estimates from an earlier forecast above $1 billion), helped by \"Avatar: The Way of Water,\" and the adjusted per-share loss of 14 cents was narrower than the 21-cent loss the Street had projected; MarketWatch and Proactive Investors explicitly tied shares initially gaining in after-hours trading to the results topping Wall Street's reduced targets. The move reversed the next morning, however, as Business Insider explicitly reported the stock \"tumbled\" after AMC posted a deeper GAAP net loss than expected -- $287.7 million, or 26 cents per share, versus the 21-cent consensus -- and as attention shifted to a looming shareholder vote on converting preferred APE units to common stock, with CEO Adam Aron later warning that failure to win that vote could force further dilutive share issuance.",
+    "explicit_reasons": "AMC's revenue and smaller-than-expected adjusted loss initially lifted the stock: Reuters explicitly credited fourth-quarter revenue of about $991 million, which beat the roughly $977-978 million Street estimate, to \"Avatar: The Way of Water\" luring moviegoers, while Proactive Investors explicitly reported shares \"edged higher in after-hours trading after... a smaller-than-expected 4Q loss\" of 14 cents versus the Street's 21-cent estimate, and MarketWatch said shares \"gained... as the theater chain's performance topped Wall Street's reduced targets.\" That reversed the next session, when Business Insider explicitly reported the stock \"tumbled... after posting a deeper fourth-quarter loss than expected\" on a GAAP basis -- a net loss of $287.7 million, or 26 cents per share, versus the 21-cent loss analysts had forecast. Separately, InvestorPlace explicitly tied a further 5% drop two days later to CEO Adam Aron's warning that if shareholders failed to approve converting AMC's preferred APE units into common stock, he could be forced to create more APEs, adding to dilution risk.",
+    "implicit_reasons": "CEO Adam Aron told PYMNTS that the company's \"biggest problem\" remained the dearth of major Hollywood releases -- roughly a third to half fewer big films in 2022 than in 2019 -- a headwind presented as weighing on AMC's recovery without being directly tied to the stock's decline.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Fourth-quarter revenue of $990.9-991 million beat the roughly $977-978 million analysts expected by report time, after Wall Street had repeatedly cut its revenue targets down from an earlier forecast above $1 billion; Reuters explicitly credited the beat to \"Avatar: The Way of Water\" luring moviegoers, even though revenue was still down about 15% from $1.17 billion a year earlier."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "On an adjusted basis AMC's 14-cent per-share loss beat the 21-cent loss the Street expected, and shares initially gained on that basis; but Business Insider explicitly reported the stock \"tumbled\" the next day after the GAAP net loss of $287.7 million, or 26 cents per share, came in deeper than the 21-cent consensus, with Deadline noting losses also widened on a one-time impairment charge."
+      },
+      "Debt, leverage and capital raise": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "InvestorPlace explicitly tied a further 5% decline to CEO Adam Aron's warning that failure to win shareholder approval to convert preferred APE units into common stock could force him to create more APEs, increasing dilution risk; Deadline and MarketWatch likewise reported that a looming special shareholder vote on \"cash-raising measures\" to pay down debt was becoming the market's key focus after the print."
+      },
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "CEO Adam Aron told PYMNTS the company's \"biggest problem\" remained the dearth of major Hollywood releases -- roughly a third to half fewer big films in 2022 than in 2019 -- a headwind cited as weighing on the recovery without being directly tied to the stock's decline."
+      }
+    },
+    "sources": [
+      {"title": "Why AMC Stock Is Heating Up Ahead of Earnings", "published_date": "2023-02-28T13:14:30-05:00", "url": "https://investorplace.com/2023/02/why-amc-stock-is-heating-up-ahead-of-earnings/"},
+      {"title": "AMC beats revenue estimates as 'Avatar' lures movie fans", "published_date": "2023-02-28T16:26:39-05:00", "url": "https://www.reuters.com/markets/us/amc-entertainment-beats-quarterly-revenue-estimates-2023-02-28/"},
+      {"title": "AMC stock gains after reporting 14th consecutive quarterly loss, fourth straight year in the red", "published_date": "2023-02-28T16:37:00-05:00", "url": "https://www.marketwatch.com/story/amc-stock-gains-after-reporting-14th-consecutive-quarterly-loss-fourth-straight-year-in-the-red-8cd3461d"},
+      {"title": "AMC Entertainment Q4 Sales Dip, Losses Widen; CEO Sees 2023 Recovery But Says Shareholders Must Approve Key Cash-Raising Measures", "published_date": "2023-02-28T16:46:31-05:00", "url": "https://deadline.com/2023/02/amc-entertainment-theaters-adam-aron-regal-cineworld-special-shareholder-meeting-1235274733/"},
+      {"title": "AMC stock edges higher on smaller-than-expected 4Q loss", "published_date": "2023-02-28T16:56:51-05:00", "url": "https://www.proactiveinvestors.com/companies/news/1007600?SNAPI"},
+      {"title": "AI predicts AMC stock price for the end of 2023", "published_date": "2023-03-01T05:27:41-05:00", "url": "https://finbold.com/ai-predicts-amc-stock-price-for-the-end-of-2023/?utm_source=snapi"},
+      {"title": "AMC stock falls after the meme darling books a deeper 4th-quarter loss than expected", "published_date": "2023-03-01T05:55:50-05:00", "url": "https://markets.businessinsider.com/news/stocks/amc-stock-price-falls-q4-earnings-deeper-losses-2023-3"},
+      {"title": "AMC Entertainment Touts Recovery With Walmart and Visa Partnerships", "published_date": "2023-03-01T09:56:02-05:00", "url": "https://www.pymnts.com/news/retail/2023/amc-entertainment-touts-recovery-with-walmart-and-visa-partnerships/?utm_source=snapi"},
+      {"title": "Call Traders Target Sinking AMC Stock After Earnings", "published_date": "2023-03-01T10:07:33-05:00", "url": "https://www.schaeffersresearch.com/content/news/2023/03/01/call-traders-target-sinking-amc-stock-after-earnings"},
+      {"title": "What's next for AMC? After Q4 beat, focus shifts to key shareholder vote.", "published_date": "2023-03-01T11:53:00-05:00", "url": "https://www.marketwatch.com/story/whats-next-for-amc-after-q4-beat-focus-shifts-to-key-shareholder-vote-58f11d8a"},
+      {"title": "AMC Stock Alert: Why Is AMC Down 5% Today?", "published_date": "2023-03-02T10:07:39-05:00", "url": "https://investorplace.com/2023/03/amc-stock-alert-why-is-amc-down-5-today/"}
+    ]
+  },
+  "AMC_2024q1": {
+    "summary_analysis": "AMC Entertainment reported fourth-quarter and full-year 2023 results, and shares fell more than 8% in late trading despite beating expectations. Revenue rose 11.5% year-over-year to about $1.1 billion, ahead of the roughly $1.046 billion analysts expected, and the loss narrowed to $182 million, but MarketWatch's headline captured the reaction directly: \"AMC delivers revenue beat helped by Taylor Swift and Beyoncé, yet stock drops.\" CEO Adam Aron told analysts that \"literally all\" of the quarter's revenue and adjusted EBITDA growth came from distributing Taylor Swift's and Beyoncé's concert films, a one-off boost Wedbush said made for a \"bumpy 2024\" once it faded; the same day, Aron said he would take a 25% cut to his target pay as retail shareholders angry at the stock's long decline confronted him, and Macquarie later cited AMC's heavy debt and rent obligations in cutting its price target.",
+    "explicit_reasons": "Barron's headline captured the core explicit paradox directly: \"AMC's Revenue Beat Not Helping the Stock. CEO Aron Is Riding It Lower With You,\" reporting a fourth-quarter loss narrower than expected and revenue that topped estimates. CEO Adam Aron told analysts, per CNBC and Fox Business, that \"literally all\" of the 11.5% revenue growth and the tripling of adjusted EBITDA was attributable to AMC's first-ever movie distributions, concert films by Taylor Swift and Beyoncé, and MarketWatch explicitly reported Wedbush saying a \"bumpy 2024\" was now underway once that one-time boost faded, with shares down 12.3% the next day, the biggest decline in four months. CEO Aron separately said \"the long, drawn out recovery and the strikes\" -- the 2023 Hollywood actors' and writers' strikes -- had been the key issues depressing the box office for four years. Deadline explicitly tied the stock's continued slide to management, reporting Aron agreed to a 25% cut to his target compensation as retail shareholders who had \"once adored him\" confronted him over the \"sinking stock.\" Separately, MarketWatch reported Macquarie cut its price target, explicitly citing AMC being \"hamstrung\" by its high level of debt and rent obligations.",
+    "implicit_reasons": "The articles give no reasons presented only as background sentiment rather than stated causes of the move beyond those listed as explicit above.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Fourth-quarter revenue rose 11.5% year-over-year to about $1.1 billion, ahead of the roughly $1.046 billion analysts had expected, which MarketWatch and Barron's explicitly described as a revenue beat even as the stock fell."
+      },
+      "New Product Release / Users": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "CEO Adam Aron said \"literally all\" of the quarter's revenue and adjusted EBITDA growth came from AMC's first-ever movie distributions -- concert films by Taylor Swift and Beyoncé -- a result Aron called unplanned (\"neither of these films were on anyone's drawing board until midyear\"); MarketWatch reported Wedbush explicitly warning that a \"bumpy 2024\" was now underway once this one-time tailwind faded, which weighed on the stock the day after the print."
+      },
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "AMC's net loss narrowed to $182 million and adjusted EBITDA of $42.5 million came in 193% higher than a year earlier, a narrower-than-expected loss that MarketWatch and Barron's explicitly described as beating estimates."
+      },
+      "Debt, leverage and capital raise": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "MarketWatch reported Macquarie explicitly cut its AMC price target to $4 from $5, saying the company remains \"hamstrung\" by its high level of debt and rent obligations even after the Q4 beat, while maintaining an \"underperform\" rating."
+      },
+      "Capex": null,
+      "Management": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "Deadline explicitly reported CEO Adam Aron agreed to a 25% cut to his target compensation after being \"bombarded with hostility\" by retail shareholders angry over the \"sinking stock,\" which fell more than 8% in late trading to about $4.56, far below its 52-week high of over $70."
+      },
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "CEO Aron said on the earnings call that \"the long, drawn out recovery and the strikes\" -- referring to the 2023 Hollywood actors' and writers' strikes -- had been the key issues depressing the box office for four years, a point Deadline reported was raised the same day retail shareholders confronted Aron over the stock's decline."
+      }
+    },
+    "sources": [
+      {"title": "AMC Stock: 3 Things to Watch When AMC Entertainment Reports Tomorrow", "published_date": "2024-02-27T11:18:53-05:00", "url": "https://investorplace.com/2024/02/amc-stock-3-things-to-watch-when-amc-entertainment-reports-tomorrow/"},
+      {"title": "AMC delivers revenue beat helped by Taylor Swift and Beyoncé, yet stock drops", "published_date": "2024-02-28T17:00:00-05:00", "url": "https://www.marketwatch.com/story/amc-delivers-revenue-beat-helped-by-taylor-swift-and-beyonce-but-stock-still-falls-6ed5d3ee"},
+      {"title": "AMC Entertainment CEO Adam Aron Says He'll Take Pay Cut As Retail Shareholders Who Once Adored Him Protest Sinking Stock", "published_date": "2024-02-28T18:51:15-05:00", "url": "https://deadline.com/2024/02/amc-entertainment-adam-aron-pay-cut-stock-price-1235841446/"},
+      {"title": "AMC rode the Taylor Swift and Beyoncé wave, but a 'bumpy 2024' is now under way, Wedbush says", "published_date": "2024-02-29T09:29:00-05:00", "url": "https://www.marketwatch.com/story/amc-rode-the-taylor-swift-andbeyoncewave-but-a-bumpy-2024-is-now-under-way-wedbush-says-7171263c"},
+      {"title": "AMC's Revenue Beat Not Helping the Stock. CEO Aron Is Riding It Lower With You.", "published_date": "2024-02-29T10:26:00-05:00", "url": "https://www.barrons.com/articles/amc-earnings-stock-price-317654a9"},
+      {"title": "AMC Entertainment (AMC) Q4 Earnings and Revenues Top Estimates", "published_date": "2024-02-29T10:46:09-05:00", "url": "https://www.zacks.com/stock/news/2233917/amc-entertainment-amc-q4-earnings-and-revenues-top-estimates?cid=CS-STOCKNEWSAPI-FT-analyst_blog|earnings_article-2233917"},
+      {"title": "AMC market share gains among positives to look forward to - analyst", "published_date": "2024-02-29T11:24:01-05:00", "url": "https://www.proactiveinvestors.com/companies/news/1042131?SNAPI"},
+      {"title": "AMC's stock slides after Q4 results, on pace for biggest decline in four months", "published_date": "2024-02-29T12:53:00-05:00", "url": "https://www.marketwatch.com/story/amc-shares-slide-after-q4-results-on-pace-for-biggest-decline-in-four-months-cb274a4f"},
+      {"title": "All of AMC's revenue growth came from Taylor Swift and Beyoncé films, theater chain says", "published_date": "2024-02-29T14:24:33-05:00", "url": "https://www.cnbc.com/2024/02/29/all-of-amcs-revenue-growth-came-from-taylor-swift-and-beyonc-films.html"},
+      {"title": "AMC gives Taylor Swift, Beyonce credit for 'literally all' of its quarterly growth", "published_date": "2024-02-29T14:51:11-05:00", "url": "https://www.foxbusiness.com/markets/amc-gives-taylor-swift-beyonce-credit-literally-all-quarterly-growth"},
+      {"title": "Macquarie Just Cut Its Price Target on AMC Entertainment (AMC) Stock", "published_date": "2024-03-01T12:57:02-05:00", "url": "https://investorplace.com/2024/03/macquarie-just-cut-its-price-target-on-amc-entertainment-amc-stock/"},
+      {"title": "AMC is 'hamstrung' by these factors, says Macquarie", "published_date": "2024-03-01T13:07:00-05:00", "url": "https://www.marketwatch.com/story/amc-is-hamstrung-by-these-factors-says-macquarie-c763ec89"}
+    ]
+  },
+  "AMC_2024q2": {
+    "summary_analysis": "AMC Entertainment previewed unaudited first-quarter 2024 results, and shares plunged 11% even though the preliminary numbers beat Wall Street's consensus. Revenue of $951.4 million topped analysts' $861.1 million estimate and the diluted loss per share of 62 cents was narrower than the 79-cent loss expected, but Proactive Investors explicitly reported shares trading more than 11% lower \"after the company revealed preliminary... results along with a warning about the continued negative impact of the dual 2023 Hollywood writers and actors strikes on box office returns.\" The decline came against a backdrop of concern over AMC's roughly $4.5 billion in long-term debt, including more than $2.8 billion of 2026 maturities, with a lender group reportedly pushing for a debt-extension deal and Wedbush calling that extension \"key\" to cleaning up the balance sheet.",
+    "explicit_reasons": "Proactive Investors explicitly reported AMC shares trading more than 11% lower \"after the company revealed preliminary, unaudited first quarter financial results along with a warning about the continued negative impact of the dual 2023 Hollywood writers and actors strikes on box office returns,\" even though both revenue and the per-share loss beat Wall Street's estimates. InvestorPlace explicitly linked the decline to a \"disconnect in messaging,\" contrasting CEO Adam Aron's tweeted satisfaction that results were \"stronger than consensus analysts' estimates\" with the market's focus on the still-soft top line and on data showing 183 insider stock sales versus only 10 insider buys. MarketWatch separately reported analyst Wedbush explicitly saying a debt-extension deal would be \"key\" as AMC looks to clean up its balance sheet, tying the company's roughly $4.5 billion debt load, including over $2.8 billion of 2026 maturities, to the market's reception of the report.",
+    "implicit_reasons": "Articles noted, without directly tying it to the day's move, that a group of AMC's lenders was discussing a proposal to push back near-term debt maturities and that the company had raised $41.8 million from an ongoing sale of up to $250 million in Class A shares, details reported alongside the earnings preview.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Preliminary first-quarter revenue of $951.4 million, down only slightly from $954.4 million a year earlier, came in well ahead of Wall Street's consensus estimate of $861.1 million, which Deadline and InvestorPlace explicitly described as beating expectations."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "AMC's diluted loss narrowed to 62 cents per share (a net loss of $163.5 million) from $1.71 per share a year earlier, beating the 79-cent loss analysts had expected; Proactive Investors explicitly reported \"both figures were better than Wall Street expected.\""
+      },
+      "Debt, leverage and capital raise": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "MarketWatch reported Wedbush explicitly calling a debt-extension deal \"key\" for AMC to clean up its balance sheet, as a lender group was reported to be pushing to push back the company's roughly $4.5 billion in long-term debt, including more than $2.8 billion of 2026 maturities; AMC also disclosed raising $41.8 million so far from an ongoing sale of up to $250 million in Class A shares."
+      },
+      "Capex": null,
+      "Management": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "InvestorPlace explicitly described \"a disappointing financial disclosure combined with a seeming disconnect in messaging\" as having \"clouded AMC stock,\" contrasting CEO Adam Aron's tweet that results were \"stronger than consensus analysts estimates\" with data showing 183 insider stock sales versus only 10 insider buys."
+      },
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "Proactive Investors explicitly tied the more-than-11% share decline to AMC's warning that the 2023 Hollywood writers' and actors' strikes continued to adversely impact box office returns in the first quarter, even as the company said it outperformed its own internal consensus estimates."
+      }
+    },
+    "sources": [
+      {"title": "AMC Stock: Lenders Push for AMC Debt Extension", "published_date": "2024-04-26T14:32:16-04:00", "url": "https://investorplace.com/2024/04/amc-stock-lenders-push-for-amc-debt-extension/"},
+      {"title": "AMC Entertainment Preview Of Q1 Results Shows Top Movie Theater Circuit Beating Wall Street Estimates", "published_date": "2024-04-26T16:50:07-04:00", "url": "https://deadline.com/2024/04/amc-entertainment-q1-earnings-movie-theaters-1235896740/"},
+      {"title": "AMC Entertainment Sees Flat Revenue in Despite Fewer Film Releases", "published_date": "2024-04-26T17:13:00-04:00", "url": "https://www.wsj.com/articles/amc-entertainment-sees-flat-revenue-in-despite-fewer-film-releases-88e4f8b8"},
+      {"title": "AMC debt extension would be 'key' as company looks to clean up balance sheet, says Wedbush", "published_date": "2024-04-29T09:20:00-04:00", "url": "https://www.marketwatch.com/story/amc-debt-extension-would-be-key-as-company-looks-to-clean-up-balance-sheet-says-wedbush-2e064005"},
+      {"title": "AMC set to top Q1 estimates; shares fall on CEO's Hollywood strikes impact warning", "published_date": "2024-04-29T12:12:26-04:00", "url": "https://www.proactiveinvestors.com/companies/news/1046387?SNAPI"},
+      {"title": "AMC Stock Plunges 11% as Theater Chain Warns of Lower Revenue", "published_date": "2024-04-29T14:41:59-04:00", "url": "https://investorplace.com/2024/04/amc-stock-plunges-11-as-theater-chain-warns-of-lower-revenue/"},
+      {"title": "AMC's stock on pace for biggest decline in a month after preliminary first-quarter results", "published_date": "2024-04-29T15:01:00-04:00", "url": "https://www.marketwatch.com/story/amcs-stock-on-pace-for-biggest-decline-in-a-month-after-preliminary-first-quarter-results-6f2f98e0"}
+    ]
+  },
+  "AMC_2019q3": {
+    "summary_analysis": "AMC Entertainment reported second-quarter 2019 results, and shares rose 6.1% in premarket trading as MarketWatch reported the company \"blew past earnings estimates\" for the quarter. Zacks data put the revenue surprise at 2.81%, while the earnings-per-share surprise was 0.00%, indicating the bottom line came in exactly in line with analyst forecasts.",
+    "explicit_reasons": "MarketWatch explicitly tied the stock's 6.1% premarket rise to the company having \"blown past\" analyst earnings estimates for the quarter.",
+    "implicit_reasons": "The articles do not identify any additional factors contributing to sentiment without being tied directly to the move.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Zacks reported a revenue surprise of 2.81% for the quarter ended June 2019, and MarketWatch explicitly tied shares rising 6.1% in premarket trading to the company having \"blown past\" earnings estimates."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {"title": "AMC Entertainment shares soar 6% premarket after earnings blow past estimates", "published_date": "2019-08-08T06:56:55-04:00", "url": "https://www.marketwatch.com/story/amc-entertainment-shares-soar-6-premarket-after-earnings-blow-past-estimates-2019-08-08"},
+      {"title": "AMC Entertainment (AMC) Q2 Earnings Meet Estimates", "published_date": "2019-08-08T08:05:05-04:00", "url": "https://www.zacks.com/stock/news/461076/amc-entertainment-amc-q2-earnings-meet-estimates"}
+    ]
+  }
+}

@@ -1,0 +1,925 @@
+{
+  "ABM_2019q2": {
+    "summary_analysis": "ABM Industries reported second-quarter fiscal 2019 results, and its shares rose nearly 7% in the following session on heavy trading volume, according to Zacks. The quarter featured an earnings beat driven by a higher-margin revenue mix and the adoption of ASC 606, alongside a slight revenue shortfall versus estimates. None of the articles state a direct reason for the stock's advance.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "ABM's EPS beat the consensus estimate by 14.63%, helped by a higher-margin revenue contribution and the ASC 606 accounting change, with shares rising about 7% afterward. Revenue fell slightly short of estimates by 1.07% despite the earnings beat.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Revenue missed the consensus estimate by 1.07% for the quarter ended April 2019, a modest shortfall reported alongside the earnings beat."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ABM's fiscal second-quarter EPS beat the consensus estimate by 14.63%, which Zacks attributed to a higher-margin revenue contribution and the impact of adopting ASC 606; shares jumped nearly 7% in the following session on heavy volume, though no article states a direct cause-and-effect link."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ABM Industries (ABM) Q2 Earnings Top Estimates",
+        "published_date": "2019-06-05T17:35:04-04:00",
+        "url": "https://www.zacks.com/stock/news/425112/abm-industries-abm-q2-earnings-top-estimates"
+      },
+      {
+        "title": "ABM Industries (ABM) Jumps: Stock Rises 6.7%",
+        "published_date": "2019-06-07T08:56:00-04:00",
+        "url": "https://www.zacks.com/stock/news/426114/abm-industries-abm-jumps-stock-rises-67"
+      },
+      {
+        "title": "ABM Industries (ABM) Beats on Q2 Earnings, Narrows EPS View",
+        "published_date": "2019-06-07T10:25:00-04:00",
+        "url": "https://www.zacks.com/stock/news/426294/abm-industries-abm-beats-on-q2-earnings-narrows-eps-view"
+      }
+    ]
+  },
+  "ABM_2019q3": {
+    "summary_analysis": "ABM Industries announced record third-quarter fiscal 2019 revenue of $1.6 billion, and none of the articles report how the stock reacted. The quarter featured an earnings beat helped by growth in the Technical Solutions and Business & Industry segments, alongside revenue that came in essentially in line with estimates.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "EPS beat the consensus estimate by 3.45%, aided by higher revenues in the Technical Solutions and Business & Industry segments and the ASC 606 accounting change. Revenue, a record $1.6 billion, essentially matched estimates, missing by just 0.07%.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "ABM reported record third-quarter revenue of $1.6 billion, but revenue missed the consensus estimate by 0.07%, essentially in line."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ABM's third-quarter fiscal 2019 EPS beat the consensus estimate by 3.45%, which Zacks attributed to higher revenues from the Technical Solutions and Business & Industry segments and the impact of adopting ASC 606."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ABM Industries Announces Results for Third Quarter Fiscal 2019",
+        "published_date": "2019-09-05T16:15:00-04:00",
+        "url": "https://www.globenewswire.com/news-release/2019/09/05/1911928/0/en/ABM-Industries-Announces-Results-for-Third-Quarter-Fiscal-2019.html"
+      },
+      {
+        "title": "ABM Industries (ABM) Beats Q3 Earnings Estimates",
+        "published_date": "2019-09-05T17:45:04-04:00",
+        "url": "https://www.zacks.com/stock/news/503835/abm-industries-abm-beats-q3-earnings-estimates"
+      },
+      {
+        "title": "ABM Industries (ABM) Q3 Earnings Top, Revenues Lag Estimates",
+        "published_date": "2019-09-06T10:18:00-04:00",
+        "url": "https://www.zacks.com/stock/news/505093/abm-industries-abm-q3-earnings-top-revenues-lag-estimates"
+      }
+    ]
+  },
+  "ABM_2019q4": {
+    "summary_analysis": "ABM Industries reported fourth-quarter fiscal 2019 results, and none of the articles report how the stock reacted. Earnings beat estimates on strength in the Technical Solutions and Business & Industry segments, while revenue came in slightly short of estimates.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "EPS surpassed the consensus estimate by 6.45%, helped by higher revenues from the Technical Solutions and Business & Industry segments. Revenue missed the consensus estimate by 0.72%.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Revenue for the quarter ended October 2019 missed the consensus estimate by 0.72%, even as it benefited from growth in the Technical Solutions and Business & Industry segments."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ABM's fourth-quarter fiscal 2019 EPS beat the consensus estimate by 6.45%, which Zacks attributed to higher revenues from the Technical Solutions and Business & Industry segments."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ABM Industries (ABM) Q4 Earnings Surpass Estimates",
+        "published_date": "2019-12-18T17:35:03-05:00",
+        "url": "https://www.zacks.com/stock/news/677254/abm-industries-abm-q4-earnings-surpass-estimates"
+      },
+      {
+        "title": "ABM Industries (ABM) Q4 Earnings Top, Revenues Lag Estimates",
+        "published_date": "2019-12-19T12:30:00-05:00",
+        "url": "https://www.zacks.com/stock/news/678626/abm-industries-abm-q4-earnings-top-revenues-lag-estimates"
+      }
+    ]
+  },
+  "ABM_2020q2": {
+    "summary_analysis": "ABM Industries reported second-quarter fiscal 2020 results, and its shares popped 20% on a much-better-than-expected earnings report, according to The Motley Fool. Pro forma EPS came in at roughly twice what analysts expected even as a large noncash impairment charge produced a GAAP loss, while sales were roughly in line with estimates despite a pandemic-driven year-over-year decline. The CEO also pointed to rising demand for sanitization and hygiene services as a tailwind from COVID-19.",
+    "explicit_reasons": "The Motley Fool explicitly tied the 20% stock pop to a pro forma earnings beat: ABM's $0.60 pro forma EPS was about double the $0.29 analysts had forecast (a 122.22% earnings surprise per Zacks), even though a $172.8 million noncash impairment charge produced a GAAP loss of $2.05 per share.",
+    "implicit_reasons": "Sales of about $1.5 billion were essentially in line with the $1.49 billion analysts expected and beat the Zacks Consensus Estimate by 3.67%, despite falling 6% year over year. Separately, the CEO highlighted pandemic-driven demand for ABM's sanitization and hygiene services as a positive for the business, against a backdrop of fiscal 2020 guidance that had been withdrawn in March due to COVID-19 uncertainty.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Sales of about $1.5 billion were \"pretty much on the mark\" versus the $1.49 billion analysts expected, beating the Zacks Consensus Estimate by 3.67%, even though sales were down 6% year over year."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "The Motley Fool reported shares climbed 20% \"on the back of a much better-than-expected earnings report\": analysts had predicted pro forma EPS of $0.29, but ABM delivered $0.60, about twice what Wall Street expected (a 122.22% earnings surprise per Zacks). On a GAAP basis ABM actually lost $2.05 per diluted share, hurt by a $172.8 million noncash impairment charge on goodwill and intangible assets."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "CEO Scott Salmirs said the COVID-19 pandemic had raised \"a higher degree of awareness for professional sanitization, hygiene, and safety,\" positioning ABM's EnhancedClean offering well as customers planned to reopen; the company had withdrawn its fiscal 2020 guidance in March due to pandemic-related uncertainty."
+      }
+    },
+    "sources": [
+      {
+        "title": "ABM Industries (ABM) Beats Q2 Earnings and Revenue Estimates",
+        "published_date": "2020-06-17T17:35:03-04:00",
+        "url": "https://www.zacks.com/stock/news/987553/abm-industries-abm-beats-q2-earnings-and-revenue-estimates"
+      },
+      {
+        "title": "ABM Industries (ABM) Q2 Earnings & Revenues Top Estimates",
+        "published_date": "2020-06-18T10:28:00-04:00",
+        "url": "https://www.zacks.com/stock/news/988189/abm-industries-abm-q2-earnings-revenues-top-estimates"
+      },
+      {
+        "title": "Why ABM Industries Stock Popped 20% on Thursday",
+        "published_date": "2020-06-18T16:35:00-04:00",
+        "url": "https://www.fool.com/investing/2020/06/18/why-abm-industries-stock-just-popped-20.aspx"
+      }
+    ]
+  },
+  "ABM_2020q3": {
+    "summary_analysis": "ABM Industries reported third-quarter fiscal 2020 results, and its shares jumped 6.41% in after-market trading, according to Benzinga. Earnings topped estimates on margin improvement and operational efficiency, even as revenue lagged estimates.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Earnings topped estimates, which Zacks attributed to margin improvement in Work Orders and operational efficiency, with shares up 6.41% in after-market trading following the report. Revenue lagged estimates, though no specific figures are given.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Revenue lagged estimates for the quarter, per Zacks, though the articles give no specific figures for the shortfall."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ABM's fiscal third-quarter earnings topped estimates, which Zacks attributed to margin improvement in Work Orders and operational efficiency; Benzinga reported shares jumped 6.41% in after-market trading after the results, without stating a direct cause."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "Recap: ABM Indus Q3 Earnings",
+        "published_date": "2020-09-08T16:49:57-04:00",
+        "url": "https://www.benzinga.com/news/earnings/20/09/17419531/recap-abm-indus-q3-earnings?utm_source=snapi"
+      },
+      {
+        "title": "ABM Industries (ABM) Q3 Earnings Top Estimates, Revenues Lag",
+        "published_date": "2020-09-09T11:51:00-04:00",
+        "url": "https://www.zacks.com/stock/news/1055888/abm-industries-abm-q3-earnings-top-estimates-revenues-lag"
+      }
+    ]
+  },
+  "ABM_2020q4": {
+    "summary_analysis": "ABM Industries reported fourth-quarter fiscal 2020 results, and its shares rose 0.89% in after-market trading, according to Benzinga. EPS of $0.69 missed the $0.70 estimate even as it grew year over year, while revenue beat estimates on margin improvement and operational efficiency.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "EPS of $0.69 rose 4.55% year over year but missed the $0.70 estimate, a -4.17% surprise, with shares up 0.89% in after-market trading following the report. Revenue beat the consensus estimate by 2.68%, which Zacks attributed to margin improvement in Work Orders and operational efficiency.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Revenue beat the consensus estimate by 2.68%, which Zacks attributed to margin improvement in Work Orders and operational efficiency."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "EPS rose 4.55% year over year to $0.69 but missed the $0.70 estimate (a -4.17% surprise per Zacks); Benzinga reported shares rose 0.89% in after-market trading following the report, without stating a causal link."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "Recap: ABM Indus Q4 Earnings",
+        "published_date": "2020-12-16T16:20:46-05:00",
+        "url": "https://www.benzinga.com/news/earnings/20/12/18824634/recap-abm-indus-q4-earnings?utm_source=snapi"
+      },
+      {
+        "title": "ABM Industries (ABM) Misses Q4 Earnings Estimates",
+        "published_date": "2020-12-16T18:48:19-05:00",
+        "url": "https://www.zacks.com/stock/news/1173781/abm-industries-abm-misses-q4-earnings-estimates"
+      },
+      {
+        "title": "ABM Industries (ABM) Q4 Earnings Lag Estimates, Revenues Top",
+        "published_date": "2020-12-17T09:47:15-05:00",
+        "url": "https://www.zacks.com/stock/news/1176203/abm-industries-abm-q4-earnings-lag-estimates-revenues-top"
+      }
+    ]
+  },
+  "ABM_2021q1": {
+    "summary_analysis": "ABM Industries reported first-quarter fiscal 2021 results, and its shares rose in after-market trading, per Benzinga, with a subsequent session showing a 7.2% jump on heavy volume, per Zacks. Adjusted EPS of $1.01 far exceeded the $0.59 estimate, helped by margin improvement and operational efficiency, while revenue fell slightly short of estimates.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Adjusted EPS of $1.01 (GAAP continuing EPS of $1.10) rose 158.97% year over year and beat the $0.59 estimate by a wide margin (a 65.57% surprise per Zacks), aided by margin improvement in Work Orders and operational efficiency; shares rose in after-market trading and jumped 7.2% in a later session on heavy volume, though no article states a direct cause. Revenue missed the consensus estimate by 0.52%.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Revenue missed the consensus estimate by 0.52% for the quarter."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "GAAP continuing EPS was $1.10 and adjusted continuing EPS was $1.01, up 158.97% year over year and well above the $0.59 estimate per Benzinga (a 65.57% surprise per Zacks), which Zacks attributed to margin improvement in Work Orders and operational efficiency. Benzinga reported shares increased in after-market trading following the report, and Zacks separately noted the stock jumped 7.2% in a subsequent session on heavy volume."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ABM Industries Announces Results for First Quarter Fiscal 2021",
+        "published_date": "2021-03-09T16:15:00-05:00",
+        "url": "https://www.globenewswire.com/news-release/2021/03/09/2189941/0/en/ABM-Industries-Announces-Results-for-First-Quarter-Fiscal-2021.html"
+      },
+      {
+        "title": "ABM Indus: Q1 Earnings Insights",
+        "published_date": "2021-03-09T16:29:39-05:00",
+        "url": "https://www.benzinga.com/news/earnings/21/03/20087136/abm-indus-q1-earnings-insights?utm_source=snapi"
+      },
+      {
+        "title": "ABM Industries (ABM) Surpasses Q1 Earnings Estimates",
+        "published_date": "2021-03-09T18:57:38-05:00",
+        "url": "https://www.zacks.com/stock/news/1276418/abm-industries-abm-surpasses-q1-earnings-estimates"
+      },
+      {
+        "title": "ABM Industries (ABM) Q1 Earnings Beat Estimates, Revenues Miss",
+        "published_date": "2021-03-10T11:23:22-05:00",
+        "url": "https://www.zacks.com/stock/news/1276742/abm-industries-abm-q1-earnings-beat-estimates-revenues-miss"
+      },
+      {
+        "title": "Strength Seen in ABM Industries (ABM): Can Its 7.2% Jump Turn into More Strength?",
+        "published_date": "2021-03-11T10:27:15-05:00",
+        "url": "https://www.zacks.com/stock/news/1277397/strength-seen-in-abm-industries-abm-can-its-72-jump-turn-into-more-strength"
+      }
+    ]
+  },
+  "ABM_2021q2": {
+    "summary_analysis": "ABM Industries reported second-quarter fiscal 2021 results, and its shares moved higher in after-market trading, according to Benzinga. EPS beat estimates on margin improvement and operational efficiency and the company raised its full-year view, even as revenue missed estimates.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "EPS of $0.82 rose 36.67% year over year and beat the $0.71 estimate, aided by margin improvement in Work Orders and operational efficiency, with shares moving higher in after-market trading following the report. ABM also raised its full-year view, though no specific figures are given. Revenue missed estimates, per the Zacks headline.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Zacks's headline indicates ABM raised its full-year view (\"View Up\") alongside the earnings beat, though the articles give no specific figures for the revised guidance."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Revenue missed estimates for the quarter, per Zacks's headline, though no specific figures are given."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "EPS rose 36.67% year over year to $0.82, beating the $0.71 estimate, which Zacks attributed to margin improvement in Work Orders and operational efficiency; Benzinga reported shares moved higher in after-market trading following the report."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "Recap: ABM Indus Q2 Earnings",
+        "published_date": "2021-06-08T16:31:56-04:00",
+        "url": "https://www.benzinga.com/news/earnings/21/06/21481990/recap-abm-indus-q2-earnings?utm_source=snapi"
+      },
+      {
+        "title": "ABM Industries (ABM) Q2 Earnings Beat, Revenues Miss, View Up",
+        "published_date": "2021-06-09T12:46:12-04:00",
+        "url": "https://www.zacks.com/stock/news/1680755/abm-industries-abm-q2-earnings-beat-revenues-miss-view-up"
+      }
+    ]
+  },
+  "ABM_2021q3": {
+    "summary_analysis": "ABM Industries announced third-quarter fiscal 2021 results reflecting double-digit revenue growth across all business segments, and none of the articles report how the stock reacted. Earnings and revenue both beat estimates, helped by higher-margin virus protection services, and the company raised its view.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Revenue grew double digits year over year across all segments and beat estimates. Earnings also beat estimates, aided by increased demand for higher-margin virus protection services, and the company raised its full-year view, though no specific figures are given.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Zacks's headline indicates ABM raised its view (\"Ups View\") alongside the beat, though the articles give no specific figures for the revised guidance."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ABM reported double-digit year-over-year revenue growth across all business segments, per its press release, and beat revenue estimates, per Zacks's headline."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Third-quarter fiscal 2021 earnings beat estimates, which Zacks attributed to an increase in higher-margin virus protection services."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ABM Industries Announces Results for Third Quarter Fiscal 2021",
+        "published_date": "2021-09-08T16:15:00-04:00",
+        "url": "https://www.globenewswire.com/news-release/2021/09/08/2293828/799/en/ABM-Industries-Announces-Results-for-Third-Quarter-Fiscal-2021.html"
+      },
+      {
+        "title": "ABM Industries (ABM) Beats on Q3 Earnings & Revenues, Ups View",
+        "published_date": "2021-09-09T12:38:03-04:00",
+        "url": "https://www.zacks.com/stock/news/1794349/abm-industries-abm-beats-on-q3-earnings-revenues-ups-view"
+      }
+    ]
+  },
+  "ABM_2021q4": {
+    "summary_analysis": "ABM Industries announced fourth-quarter and full-year fiscal 2021 results, and none of the articles report how the stock reacted. Revenue grew 14.2% year over year and beat consensus, with broad-based segment growth led by Aviation and Technical Solutions, while earnings also beat estimates on demand for higher-margin, COVID-related work orders, though one Zacks headline framed the gains as coming amid elevated costs.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Revenue of $1.69 billion rose 14.2% year over year and beat the $1.64 billion consensus, with growth led by Aviation (+43%) and Technical Solutions (+21%). Earnings beat estimates, helped by demand for higher-margin, COVID-related work orders, though a separate Zacks article framed the results as achieved \"amid high costs,\" pointing to cost pressure on the business.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Fourth-quarter revenue grew 14.2% year over year to $1.69 billion, comprised of 7.4% organic growth and 6.8% from acquisitions, beating the consensus of $1.64 billion per Benzinga. By segment: Business & Industry $933.2 million (+17.5%), Aviation $201.7 million (+43%), Technical Solutions $149 million (+21%), Technology & Manufacturing $245.5 million (+0.1%), and Education $204.4 million (-3.7%)."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ABM beat Q4 earnings and revenue estimates, which Zacks attributed to greater customer demand for higher-margin, COVID-related work orders."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "A separate Zacks article characterized the results as gains \"Amid High Costs,\" pointing to cost pressure even as demand for higher-margin, COVID-related work orders remained strong."
+      }
+    },
+    "sources": [
+      {
+        "title": "ABM Industries Q4 Earnings Surpass Street View",
+        "published_date": "2021-12-15T08:51:24-05:00",
+        "url": "https://www.benzinga.com/news/earnings/21/12/24618934/abm-industries-q4-earnings-surpass-street-view?utm_source=snapi"
+      },
+      {
+        "title": "ABM Industries (ABM) Beats Q4 Earnings & Revenue Estimates",
+        "published_date": "2021-12-15T13:57:09-05:00",
+        "url": "https://www.zacks.com/stock/news/1839803/abm-industries-abm-beats-q4-earnings-revenue-estimates"
+      },
+      {
+        "title": "ABM Industries (ABM) Gains From Acquisitions Amid High Costs",
+        "published_date": "2021-12-17T11:29:17-05:00",
+        "url": "https://www.zacks.com/stock/news/1840608/abm-industries-abm-gains-from-acquisitions-amid-high-costs"
+      }
+    ]
+  },
+  "ABM_2022q1": {
+    "summary_analysis": "ABM Industries reported first-quarter fiscal 2022 results, and none of the articles report how the stock reacted. Both earnings and revenue beat estimates, helped by the Able Services acquisition, solid core-service demand, and a recovering Aviation segment, and the company raised its view.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Revenue beat estimates, aided by contributions from the Able Services acquisition, solid demand for core janitorial and engineering services, and continued recovery in Aviation. Earnings also beat estimates and the company raised its full-year view, though no specific figures are given.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Zacks's headline indicates ABM raised its view (\"View Up\") alongside the beat, though the articles give no specific figures for the revised guidance."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "First-quarter fiscal 2022 revenue beat estimates, which Zacks attributed to contributions from the Able Services acquisition, solid demand for core janitorial and engineering services, and continued recovery in the Aviation industry."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Earnings also beat estimates, per the Zacks headline, though no specific figures are given."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ABM Industries (ABM) Q1 Earnings, Revenues Beat Mark, View Up",
+        "published_date": "2022-03-09T11:17:04-05:00",
+        "url": "https://www.zacks.com/stock/news/1879670/abm-industries-abm-q1-earnings-revenues-beat-mark-view-up"
+      }
+    ]
+  },
+  "ABM_2022q2": {
+    "summary_analysis": "ABM Industries reported second-quarter fiscal 2022 results, and its shares were trading lower afterward, according to Benzinga, even though EPS beat the analyst consensus estimate. EPS beat estimates while revenue missed, and none of the articles explain the specific reason for the decline despite the earnings beat.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor; Benzinga reported shares were trading lower after the report without stating a specific cause.",
+    "implicit_reasons": "EPS of $0.89 beat the $0.84 consensus estimate by 5.95%, up from $0.82 a year ago. Revenue of $1.9 billion missed the Zacks Consensus Estimate by 1.01%.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Revenue of $1.9 billion for the quarter ended April 2022 missed the Zacks Consensus Estimate by 1.01%."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "EPS of $0.89 beat the Zacks Consensus Estimate of $0.84 (a 5.95% surprise), up from $0.82 a year ago."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ABM Industries (ABM) Q2 Earnings Beat Estimates",
+        "published_date": "2022-06-08T18:48:35-04:00",
+        "url": "https://www.zacks.com/stock/news/1936418/abm-industries-abm-q2-earnings-beat-estimates"
+      },
+      {
+        "title": "Why ABM Industries Shares Are Trading Lower",
+        "published_date": "2022-06-09T11:54:03-04:00",
+        "url": "https://www.benzinga.com/news/earnings/22/06/27629308/why-abm-industries-shares-are-trading-lower?utm_source=snapi"
+      },
+      {
+        "title": "ABM Industries (ABM) Q2 Earnings Beat, Revenues Lag, Up Y/Y",
+        "published_date": "2022-06-09T13:32:26-04:00",
+        "url": "https://www.zacks.com/stock/news/1937008/abm-industries-abm-q2-earnings-beat-revenues-lag-up-y-y"
+      }
+    ]
+  },
+  "ABM_2022q3": {
+    "summary_analysis": "ABM Industries reported third-quarter fiscal 2022 results, and none of the articles report how the stock reacted. Both earnings and revenue beat estimates, but the company tapered its full-year EPS view alongside the beat.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "EPS of $0.94 beat the $0.91 consensus estimate by 3.30%, and revenue of $1.96 billion beat the consensus by 1.84%. Despite the beat, ABM tapered its full-year fiscal 2022 EPS view, per the Zacks headline, though no specific figures are given.",
+    "categories": {
+      "Guidance": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Despite the Q3 beat, Zacks's headline indicates ABM tapered (lowered) its full-year fiscal 2022 EPS view, though the articles give no specific figures for the revised guidance."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Revenue of $1.96 billion for the quarter ended July 2022 beat the Zacks Consensus Estimate by 1.84%, up from $1.54 billion a year ago."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "EPS of $0.94 beat the Zacks Consensus Estimate of $0.91 (a 3.30% surprise), up from $0.90 a year ago."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ABM Industries (ABM) Surpasses Q3 Earnings and Revenue Estimates",
+        "published_date": "2022-09-09T09:47:11-04:00",
+        "url": "https://www.zacks.com/stock/news/1978576/abm-industries-abm-surpasses-q3-earnings-and-revenue-estimates"
+      },
+      {
+        "title": "ABM Industries (ABM) Beats on Q3 Earnings, Tapers FY22 EPS View",
+        "published_date": "2022-09-09T16:33:06-04:00",
+        "url": "https://www.zacks.com/stock/news/1978933/abm-industries-abm-beats-on-q3-earnings-tapers-fy22-eps-view"
+      }
+    ]
+  },
+  "ABM_2022q4": {
+    "summary_analysis": "ABM Industries reported fourth-quarter and full-year fiscal 2022 results, and its shares fell 3% after hours, according to MarketWatch, after the company forecast fiscal 2023 profit below Wall Street's expectations. Revenue grew solidly and beat estimates, but earnings only matched estimates and were weighed down by higher interest expense, and the disappointing guidance was the explicitly cited driver of the decline.",
+    "explicit_reasons": "MarketWatch explicitly tied the after-hours decline to ABM's disappointing fiscal 2023 guidance: the company forecast adjusted EPS of $3.40-$3.60, below the FactSet consensus of $3.66, citing continuing labor-related cost pressures.",
+    "implicit_reasons": "Revenue of $2.01 billion rose 19% year over year and beat the Zacks Consensus Estimate by 1.59%, with organic growth of 6% led by Technical Solutions and Aviation. Adjusted EPS of $0.89 merely matched the consensus estimate, and adjusted net income growth of just 2% was held back by higher interest expense.",
+    "categories": {
+      "Guidance": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "MarketWatch reported shares fell 3% after hours \"after the janitorial-services firm forecast full-year profit that was below Wall Street's expectations\": ABM guided fiscal 2023 adjusted EPS of $3.40-$3.60, versus a FactSet forecast of $3.66, and said it would \"continue to face labor-related pressures in the near-term.\""
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Fourth-quarter revenue of $2.01 billion rose 19% year over year (per The Motley Fool) and beat the Zacks Consensus Estimate by 1.59%; organic revenue rose 6%, with strength in the Technical Solutions and Aviation segments."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Adjusted EPS of $0.89 matched the Zacks Consensus Estimate exactly (no surprise), and adjusted net income of $59.4 million rose only 2% year over year as higher interest expense weighed on profit growth, per The Motley Fool."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ABM Industries stock falls after disappointing forecast",
+        "published_date": "2022-12-13T16:46:09-05:00",
+        "url": "https://www.marketwatch.com/story/abm-industries-stock-falls-after-disappointing-forecast-2022-12-13"
+      },
+      {
+        "title": "2 Stocks Moving After the Market Rally Fizzled Out",
+        "published_date": "2022-12-13T18:23:00-05:00",
+        "url": "https://www.fool.com/investing/2022/12/13/2-stocks-moving-after-the-market-rally-fizzled-out/"
+      },
+      {
+        "title": "ABM Industries (ABM) Matches Q4 Earnings Estimates",
+        "published_date": "2022-12-13T18:49:18-05:00",
+        "url": "https://www.zacks.com/stock/news/2028412/abm-industries-abm-matches-q4-earnings-estimates"
+      },
+      {
+        "title": "ABM Industries (ABM) Q4 Earnings Meet Estimates, Up Y/Y",
+        "published_date": "2022-12-14T13:32:09-05:00",
+        "url": "https://www.zacks.com/stock/news/2028798/abm-industries-abm-q4-earnings-meet-estimates-up-y-y"
+      }
+    ]
+  },
+  "ABM_2023q1": {
+    "summary_analysis": "ABM Industries reported first-quarter fiscal 2023 results, and its shares fell 2.9% despite the earnings beat, according to Zacks. EPS beat estimates even as it declined year over year, while revenue missed estimates despite year-over-year growth.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "EPS of $0.79 beat the $0.77 consensus estimate by 2.60%, though down from $0.94 a year ago. Revenue of $1.99 billion missed the consensus estimate by 1.71%, even though it rose year over year from $1.94 billion.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Revenue of $1.99 billion for the quarter ended January 2023 missed the Zacks Consensus Estimate by 1.71%, even though it rose (\"surged\") year over year from $1.94 billion, per Zacks."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "EPS of $0.79 beat the Zacks Consensus Estimate of $0.77 (a 2.60% surprise), though it was down from $0.94 a year ago."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ABM Industries (ABM) Q1 Earnings Beat Estimates",
+        "published_date": "2023-03-08T09:47:38-05:00",
+        "url": "https://www.zacks.com/stock/news/2062834/abm-industries-abm-q1-earnings-beat-estimates"
+      },
+      {
+        "title": "ABM Industries (ABM) Stock Down 2.9% Despite Q1 Earnings Beat",
+        "published_date": "2023-03-10T09:14:11-05:00",
+        "url": "https://www.zacks.com/stock/news/2064027/abm-industries-abm-stock-down-2-9-despite-q1-earnings-beat"
+      }
+    ]
+  },
+  "ABM_2023q2": {
+    "summary_analysis": "ABM Industries reported second-quarter fiscal 2023 results, and none of the articles report how the stock reacted. EPS beat estimates, supported by organic growth and acquisitions, while revenue missed estimates despite year-over-year growth.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "EPS of $0.90 beat the $0.86 consensus estimate by 4.65%, supported by organic growth and acquisitions. Revenue of $1.98 billion missed the consensus estimate by 1.27%, despite rising from $1.9 billion a year ago.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Revenue of $1.98 billion for the quarter ended April 2023 missed the Zacks Consensus Estimate by 1.27%, even though it rose from $1.9 billion a year ago."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "EPS of $0.90 beat the Zacks Consensus Estimate of $0.86 (a 4.65% surprise), up from $0.89 a year ago, supported by organic growth and acquisitions, per Zacks."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ABM Industries (ABM) Q2 Earnings Surpass Estimates",
+        "published_date": "2023-06-06T09:29:08-04:00",
+        "url": "https://www.zacks.com/stock/news/2104292/abm-industries-abm-q2-earnings-surpass-estimates"
+      },
+      {
+        "title": "ABM Industries (ABM) Q2 Earnings Beat Estimates, Revenues Miss",
+        "published_date": "2023-06-06T12:14:12-04:00",
+        "url": "https://www.zacks.com/stock/news/2104609/abm-industries-abm-q2-earnings-beat-estimates-revenues-miss"
+      }
+    ]
+  },
+  "ABM_2023q3": {
+    "summary_analysis": "ABM Industries reported third-quarter fiscal 2023 results, and its share price fell 14% over the week on results that didn't entirely meet expectations, according to The Motley Fool. Adjusted earnings missed analyst expectations and full-year guidance was narrowed to a range below the average estimate, even as revenue rose modestly and roughly matched estimates; management cited delayed projects and soft janitorial demand as headwinds.",
+    "explicit_reasons": "The Motley Fool explicitly tied the week's 14% share-price decline to results that \"didn't entirely meet expectations\": adjusted net income of just under $53 million ($0.79 per share) fell short of the $0.89 per share analysts anticipated, and was down from over $63 million a year earlier.",
+    "implicit_reasons": "Revenue of just under $2.03 billion rose 3% year over year and was described as essentially in line with estimates by The Motley Fool, though Zacks's headline described it as a beat. ABM also narrowed its fiscal 2023 adjusted EPS guidance to $3.40-$3.50, below the $3.52 average analyst estimate. Management cited delayed project starts and lower bundled energy solutions activity in Technical Solutions, and soft market conditions for the Business & Industry janitorial line, as additional headwinds.",
+    "categories": {
+      "Guidance": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "ABM narrowed its fiscal 2023 adjusted EPS guidance to $3.40-$3.50, below the average analyst estimate of $3.52, per The Motley Fool."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Revenue of just under $2.03 billion rose 3% year over year and was \"essentially in line\" with the average estimate per The Motley Fool, while Zacks's headline described revenue as beating estimates."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "The Motley Fool reported ABM's share price fell 14% over the week \"on the back of fiscal 2023 third-quarter results that didn't entirely meet expectations\": adjusted net income fell to just under $53 million ($0.79 per share) from over $63 million ($0.89 per share reported by Zacks as a year-ago figure... ), while analysts had anticipated $0.89 per share."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "CEO Scott Salmirs said strong growth in the Aviation, Education, and Manufacturing & Distribution segments was \"partially offset by delayed project starts and lower bundled energy solutions activity\" in Technical Solutions, and that \"market conditions remained soft\" for the janitorial service line within Business & Industry."
+      }
+    },
+    "sources": [
+      {
+        "title": "ABM Industries (ABM) Q3 Earnings Miss Estimates, Revenues Beat",
+        "published_date": "2023-09-08T12:02:16-04:00",
+        "url": "https://www.zacks.com/stock/news/2146649/abm-industries-abm-q3-earnings-miss-estimates-revenues-beat"
+      },
+      {
+        "title": "Why ABM Industries Wasn't a Winning Stock This Week",
+        "published_date": "2023-09-08T18:29:39-04:00",
+        "url": "https://www.fool.com/investing/2023/09/08/why-abm-industries-wasnt-a-winning-stock-this-week/"
+      }
+    ]
+  },
+  "ABM_2023q4": {
+    "summary_analysis": "ABM Industries reported fourth-quarter and full-year fiscal 2023 results, and its shares popped 14.8% after beating expectations for Q4 earnings, according to The Motley Fool. Adjusted EPS and revenue both beat estimates, and fiscal 2024 guidance also came in above expectations, though the guided figure still implies an earnings decline from fiscal 2023.",
+    "explicit_reasons": "The Motley Fool explicitly tied the 14.8% stock pop to ABM beating Q4 earnings expectations: adjusted EPS of $1.01 topped both the $0.92 analysts had forecast and the $0.93 Zacks Consensus Estimate (an 8.60% surprise), with GAAP EPS up 32% year over year, helped by strong profit margins in Aviation, Technical Solutions, Manufacturing & Distribution, and Education.",
+    "implicit_reasons": "Sales of about $2.1 billion beat the roughly $2 billion analysts had forecast and beat the Zacks Consensus Estimate by 2.77%, although actual growth was a modest 4% year over year. Management's fiscal 2024 guidance also beat expectations, even though the guided figure still implies an earnings decline versus fiscal 2023.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Management's fiscal 2024 guidance beat expectations (\"beat on guidance as well,\" per The Motley Fool), though it still implied an earnings decline versus fiscal 2023's results."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Sales of about $2.1 billion beat the roughly $2 billion analysts had forecast, and revenue of $2.09 billion beat the Zacks Consensus Estimate by 2.77%, though actual sales growth was only a modest 4% year over year, per The Motley Fool."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "The Motley Fool reported shares rose 14.8% \"after beating expectations for Q4 earnings\": analysts had forecast adjusted EPS of $0.92, but ABM earned $1.01 (beating the $0.93 Zacks Consensus Estimate by 8.60%), with GAAP EPS of $0.96, up 32% year over year. The CEO credited strong profit margins in the Aviation and Technical Solutions segments, along with solid performances in Manufacturing & Distribution and Education."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ABM Industries (ABM) Tops Q4 Earnings and Revenue Estimates",
+        "published_date": "2023-12-13T09:47:29-05:00",
+        "url": "https://www.zacks.com/stock/news/2197209/abm-industries-abm-tops-q4-earnings-and-revenue-estimates"
+      },
+      {
+        "title": "Why ABM Industries Stock Just Popped 15%",
+        "published_date": "2023-12-13T13:47:09-05:00",
+        "url": "https://www.fool.com/investing/2023/12/13/why-abm-industries-stock-just-popped-15/"
+      }
+    ]
+  },
+  "ABM_2024q1": {
+    "summary_analysis": "ABM Industries reported first-quarter fiscal 2024 results, and none of the articles report how the stock reacted. Both earnings and revenue beat estimates by wide margins, helped by strong segmental performance.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "EPS of $0.86 beat the $0.72 consensus estimate by 19.44%. Revenue of $2.07 billion beat the consensus estimate by 2.90%, up 3.9% year over year, aided by strong segmental performance.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Revenue of $2.07 billion for the quarter ended January 2024 beat the Zacks Consensus Estimate by 2.90%, up 3.9% year over year, which Zacks attributed to strong segmental performance."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "EPS of $0.86 beat the Zacks Consensus Estimate of $0.72 (a 19.44% surprise), up from $0.79 a year ago."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ABM Industries (ABM) Surpasses Q1 Earnings and Revenue Estimates",
+        "published_date": "2024-03-07T09:06:07-05:00",
+        "url": "https://www.zacks.com/stock/news/2237131/abm-industries-abm-surpasses-q1-earnings-and-revenue-estimates?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_4-2237131"
+      },
+      {
+        "title": "ABM Industries (ABM) Q1 Earnings: Taking a Look at Key Metrics Versus Estimates",
+        "published_date": "2024-03-07T10:31:15-05:00",
+        "url": "https://www.zacks.com/stock/news/2237274/abm-industries-abm-q1-earnings-taking-a-look-at-key-metrics-versus-estimates?cid=CS-STOCKNEWSAPI-FT-fundamental_analysis|nfm-2237274"
+      },
+      {
+        "title": "ABM Industries (ABM) Q1 Earnings & Revenues Beat Estimates",
+        "published_date": "2024-03-08T10:00:18-05:00",
+        "url": "https://www.zacks.com/stock/news/2237934/abm-industries-abm-q1-earnings-revenues-beat-estimates?cid=CS-STOCKNEWSAPI-FT-analyst_blog|earnings_article-2237934"
+      }
+    ]
+  },
+  "ABM_2024q2": {
+    "summary_analysis": "ABM Industries reported second-quarter fiscal 2024 results, and none of the articles report how the stock reacted. Both earnings and revenue beat estimates, helped by strong segmental performance, even as EPS dipped slightly from a year earlier.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "EPS of $0.87 beat the $0.78 consensus estimate by 11.54%, though down slightly from $0.90 a year ago. Revenue of $2.02 billion beat the consensus estimate by 0.95%, aided by strong segmental performance.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Revenue of $2.02 billion for the quarter ended April 2024 beat the Zacks Consensus Estimate by 0.95%, up 1.7% year over year, which Zacks attributed to strong segmental performance."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "EPS of $0.87 beat the Zacks Consensus Estimate of $0.78 (an 11.54% surprise), though down slightly from $0.90 a year ago."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ABM Industries (ABM) Q2 Earnings and Revenues Surpass Estimates",
+        "published_date": "2024-06-06T09:05:23-04:00",
+        "url": "https://www.zacks.com/stock/news/2284438/abm-industries-abm-q2-earnings-and-revenues-surpass-estimates?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_4-2284438"
+      },
+      {
+        "title": "ABM Industries (ABM) Reports Q2 Earnings: What Key Metrics Have to Say",
+        "published_date": "2024-06-06T10:31:25-04:00",
+        "url": "https://www.zacks.com/stock/news/2284595/abm-industries-abm-reports-q2-earnings-what-key-metrics-have-to-say?cid=CS-STOCKNEWSAPI-FT-fundamental_analysis|nfm-2284595"
+      },
+      {
+        "title": "ABM Industries (ABM) Q2 Earnings & Revenues Beat Estimates",
+        "published_date": "2024-06-07T12:10:23-04:00",
+        "url": "https://www.zacks.com/stock/news/2285567/abm-industries-abm-q2-earnings-revenues-beat-estimates?cid=CS-STOCKNEWSAPI-FT-analyst_blog|earnings_article-2285567"
+      }
+    ]
+  },
+  "ABM_2024q3": {
+    "summary_analysis": "ABM Industries reported third-quarter fiscal 2024 results that beat estimates on both lines, and none of the available articles report how the stock reacted.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "EPS of $0.94 beat the $0.85 consensus estimate by 10.59%. Revenue of $2.09 billion beat the consensus estimate by 2.75%, up 3.3% year over year.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Revenue of $2.09 billion for the quarter ended July 2024 beat the Zacks Consensus Estimate by 2.75%, up 3.3% year over year."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "EPS of $0.94 beat the Zacks Consensus Estimate of $0.85 (a 10.59% surprise), up from $0.79 a year ago."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ABM Industries (ABM) Beats Q3 Earnings and Revenue Estimates",
+        "published_date": "2024-09-06T09:10:37-04:00",
+        "url": "https://www.zacks.com/stock/news/2332582/abm-industries-abm-beats-q3-earnings-and-revenue-estimates?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_4-2332582"
+      },
+      {
+        "title": "Here's What Key Metrics Tell Us About ABM Industries (ABM) Q3 Earnings",
+        "published_date": "2024-09-06T10:30:31-04:00",
+        "url": "https://www.zacks.com/stock/news/2332704/here-s-what-key-metrics-tell-us-about-abm-industries-abm-q3-earnings?cid=CS-STOCKNEWSAPI-FT-fundamental_analysis|nfm-2332704"
+      }
+    ]
+  },
+  "ABM_2024q4": {
+    "summary_analysis": "ABM Industries reported fourth-quarter and full fiscal 2024 results, and its shares fell more than 7% afterward, according to MarketBeat, even though adjusted EPS and revenue both beat estimates. A Seeking Alpha opinion column noted the beat came alongside a GAAP net loss tied to acquisition costs, continued share buybacks, and dividend increases; none of the articles state a specific reason for the decline.",
+    "explicit_reasons": "The articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "Adjusted EPS of $0.90 beat the $0.86 consensus estimate by 4.65%, though down from $1.01 a year ago, and ABM posted a GAAP net loss due to acquisition costs per a Seeking Alpha opinion column. Revenue of $2.18 billion beat the consensus estimate by 4.30%, with a Seeking Alpha opinion column citing notable growth in the technical solutions and aviation divisions. The same column noted ABM continues robust share buybacks and dividend increases.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Revenue of $2.18 billion for the quarter ended October 2024 beat the Zacks Consensus Estimate by 4.30%, up from $2.09 billion a year ago; a Seeking Alpha opinion column put fourth-quarter revenue growth at 4% year over year, beating consensus by $120 million, with notable growth in the technical solutions and aviation divisions."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Adjusted EPS of $0.90 beat the Zacks Consensus Estimate of $0.86 (a 4.65% surprise), though down from $1.01 a year ago; a Seeking Alpha opinion column noted ABM posted a GAAP net loss due to acquisition costs even as adjusted EPS surpassed expectations."
+      },
+      "Debt, leverage and capital raise": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "A Seeking Alpha opinion column said ABM \"continues robust share buybacks and dividend increases.\""
+      },
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ABM Industries (ABM) Q4 Earnings and Revenues Surpass Estimates",
+        "published_date": "2024-12-18T09:16:18-05:00",
+        "url": "https://www.zacks.com/stock/news/2385095/abm-industries-abm-q4-earnings-and-revenues-surpass-estimates?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_4-2385095"
+      },
+      {
+        "title": "ABM Industries: A Dividend Champion Just Went On Sale",
+        "published_date": "2024-12-18T14:12:55-05:00",
+        "url": "https://seekingalpha.com/article/4745145-abm-industries-a-dividend-champion-just-went-on-sale"
+      },
+      {
+        "title": "ABM Industries Stock: A Dividend King at a Discount",
+        "published_date": "2024-12-19T08:22:01-05:00",
+        "url": "https://www.marketbeat.com/originals/abm-industries-stock-a-dividend-king-at-a-discount/?utm_source=snapi"
+      }
+    ]
+  }
+}

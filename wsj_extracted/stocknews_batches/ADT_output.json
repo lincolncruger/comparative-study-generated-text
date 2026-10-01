@@ -1,0 +1,666 @@
+{
+  "ADT_2019q4": {
+    "summary_analysis": "ADT reported third-quarter 2019 results, and its shares leapt 7% in after-hours trading, MarketWatch reported, as revenue jumped. Zacks noted the quarter combined a large earnings miss with a slight revenue beat. A few days later, GuruFocus argued the company could outperform the market over the long run given new partnerships, acquisitions and rising use of interactive services, though it flagged a $182 million third-quarter net loss and macro risks such as the U.S.-China trade war.",
+    "explicit_reasons": "MarketWatch reported that ADT shares jumped 7% in after-hours trading specifically on a jump in third-quarter revenue, making revenue the stated driver of the move.",
+    "implicit_reasons": "Zacks reported an earnings surprise of -109.52% for the quarter alongside the revenue beat, without stating a causal link between the profit miss and the share reaction, so profitability is treated as an implicit, negative factor sitting alongside the positive revenue headline.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Shares jumped 7% in after-hours trading after third-quarter revenue rose sharply; Zacks separately put the revenue surprise at 0.70% versus the consensus estimate."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Zacks reported an earnings surprise of -109.52% for the quarter versus consensus, and GuruFocus noted the company posted a $182 million net loss in the quarter, though neither article ties the loss directly to the share reaction."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ADT shares leap 7% on jump in Q3 revenue",
+        "published_date": "2019-11-12T16:22:41-05:00",
+        "url": "https://www.marketwatch.com/story/adt-shares-leap-7-on-jump-in-q3-revenue-2019-11-12"
+      },
+      {
+        "title": "ADT (ADT) Reports Q3 Loss, Tops Revenue Estimates",
+        "published_date": "2019-11-12T19:25:03-05:00",
+        "url": "https://www.zacks.com/stock/news/616804/adt-adt-reports-q3-loss-tops-revenue-estimates"
+      },
+      {
+        "title": "Why ADT Can Beat the S&P 500",
+        "published_date": "2019-11-14T09:40:48-05:00",
+        "url": "https://www.gurufocus.com/news/983372/why-adt-can-beat-the-sp-500"
+      }
+    ]
+  },
+  "ADT_2020q1": {
+    "summary_analysis": "ADT reported fourth-quarter 2019 results, and InvestorPlace reported the stock fell 3% after-hours (ending the day down 7.4%) following a dismal fourth-quarter EPS figure. The decline was explicitly tied to a large adjusted loss per share versus Wall Street's estimate, even though revenue and 2020 guidance both came in above consensus.",
+    "explicit_reasons": "InvestorPlace reported that ADT stock fell after its fourth-quarter adjusted loss per share of 3 cents came in nowhere close to Wall Street's estimate of 23 cents in profit, directly tying the decline to the earnings miss.",
+    "implicit_reasons": "InvestorPlace also reported that fourth-quarter revenue of $1.3 billion beat analysts' estimate of $1.27 billion, and that 2020 full-year revenue guidance of $5 billion to $5.3 billion was issued versus a Wall Street estimate of $5.11 billion; the article does not tie either figure to the share reaction, presenting them alongside the earnings miss.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ADT guided full-year 2020 revenue to a range of $5 billion to $5.3 billion, versus a Wall Street estimate of $5.11 billion, a range that brackets and modestly exceeds the midpoint of consensus."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Fourth-quarter revenue of $1.3 billion beat analysts' estimate of $1.27 billion."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "ADT posted an adjusted loss per share of 3 cents for the fourth quarter, far short of Wall Street's estimate of 23 cents in profit, which the article states drove the stock down."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ADT Earnings: ADT Stock Falls 3% Following Dismal Q4 EPS",
+        "published_date": "2020-03-05T17:23:02-05:00",
+        "url": "https://investorplace.com/2020/03/adt-earnings-hit-stock/"
+      }
+    ]
+  },
+  "ADT_2020q3": {
+    "summary_analysis": "ADT reported second-quarter 2020 results alongside a new strategic partnership with Google, and MarketWatch reported that shares declined in the extended session even though revenue topped Wall Street estimates. InvestorPlace, writing before the earnings release, had already flagged that the stock's run-up on the Google deal looked overdone relative to the terms Google actually agreed to.",
+    "explicit_reasons": "The articles don't explicitly attribute the share decline to any specific factor.",
+    "implicit_reasons": "MarketWatch reported that shares declined in the extended session even as revenue topped Wall Street estimates, a beat that did not prevent the decline. InvestorPlace, previewing the earnings, argued that speculators had already pushed ADT's valuation (to roughly $10.4 billion) well beyond the $6.8 billion implied by Google's $450 million purchase of a 6.6% stake, and that \"those expecting a quick payoff...are going to be disappointed.\"",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ADT reported continued strong revenue and cash flow generation, and MarketWatch noted that second-quarter revenue topped Wall Street estimates, even as shares declined in the extended session that day."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Google agreed to acquire $450 million of ADT Class B common stock as part of a long-term partnership, valuing ADT at about $6.8 billion, but InvestorPlace argued the market had already bid the stock up to roughly $10.4 billion ahead of earnings, well past what the deal's terms justified, leaving speculators expecting a quick payoff likely to be disappointed."
+      },
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "Google’s Move for ADT Stock Gives Its Nest One Last Chance",
+        "published_date": "2020-08-05T07:00:09-04:00",
+        "url": "https://investorplace.com/2020/08/adt-stock-google-deal-nest-home-security/"
+      },
+      {
+        "title": "ADT Reports Second Quarter 2020 Results",
+        "published_date": "2020-08-05T16:15:00-04:00",
+        "url": "https://www.globenewswire.com/news-release/2020/08/05/2073684/0/en/ADT-Reports-Second-Quarter-2020-Results.html"
+      },
+      {
+        "title": "ADT shares decline while revenue beats Street",
+        "published_date": "2020-08-05T16:33:43-04:00",
+        "url": "https://www.marketwatch.com/story/adt-shares-decline-while-revenue-beats-street-2020-08-05"
+      }
+    ]
+  },
+  "ADT_2020q4": {
+    "summary_analysis": "ADT reported third-quarter 2020 results; the earnings release does not report how shares reacted. The release highlighted record customer retention and revenue payback, along with growth in U.S. recurring monthly revenue additions and net subscribers, and an improved full-year 2020 outlook.",
+    "explicit_reasons": "The articles don't explicitly attribute the move to any specific factor.",
+    "implicit_reasons": "ADT reported record customer retention and revenue payback, and growth in U.S. recurring monthly revenue additions and net subscribers for both the third quarter and year to date, and said it was providing an improved full-year 2020 outlook; no article ties these results to the share reaction.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ADT said it was providing an improved full-year 2020 outlook; the articles give no expectation figure for this guidance."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ADT reported record customer retention and revenue payback and growth in U.S. recurring monthly revenue additions and net subscribers for both the third quarter and year to date; the articles give no expectation for this."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ADT Reports Third Quarter 2020 Results",
+        "published_date": "2020-11-05T16:15:00-05:00",
+        "url": "https://www.globenewswire.com/news-release/2020/11/05/2121586/0/en/ADT-Reports-Third-Quarter-2020-Results.html"
+      }
+    ]
+  },
+  "ADT_2021q1": {
+    "summary_analysis": "ADT reported fourth-quarter and full-year 2020 results; the sole quality article covering the release does not report how shares reacted. It highlighted 15% growth in U.S. recurring monthly revenue additions, continued net subscriber growth, progress on the Google partnership and next-generation platform, and new partnerships with DISH and Ackerman Security.",
+    "explicit_reasons": "The article doesn't explicitly attribute the move to any specific factor.",
+    "implicit_reasons": "ADT reported that U.S. recurring monthly revenue additions were up 15% in the fourth quarter and that it grew net subscribers for both the quarter and the full year, and said its Google partnership and next-generation platform development were on track, adding new partners DISH and Ackerman Security in early 2021; the article does not tie these results to the share reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "U.S. recurring monthly revenue additions were up 15% in the fourth quarter versus the prior year, with net subscriber growth for both the quarter and the full year; the article gives no separate expectation figure for this."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ADT said its Google partnership and next-generation platform development remained on track, and added new distribution partners DISH and Ackerman Security in early 2021; the article gives no expectation for this."
+      },
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ADT Reports Fourth Quarter and Full Year 2020 Results",
+        "published_date": "2021-02-25T16:15:00-05:00",
+        "url": "https://www.globenewswire.com/news-release/2021/02/25/2182975/0/en/ADT-Reports-Fourth-Quarter-and-Full-Year-2020-Results.html"
+      }
+    ]
+  },
+  "ADT_2021q2": {
+    "summary_analysis": "ADT reported first-quarter 2021 results; no article reports how shares reacted. The company described a strong quarter with continued residential subscriber growth and a commercial rebound underway, and affirmed its 2021 financial outlook, while Zacks reported the quarter combined a large earnings miss with a slight revenue miss versus consensus.",
+    "explicit_reasons": "The articles don't explicitly attribute the move to any specific factor.",
+    "implicit_reasons": "ADT described residential subscriber growth continuing and a commercial rebound underway, a durable recurring revenue model, and affirmed its 2021 financial outlook. Zacks separately reported a revenue surprise of -0.20% versus consensus and an earnings surprise of -146.67% versus consensus, without tying either figure to the share reaction.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ADT affirmed its 2021 financial outlook rather than cutting it; the articles give no specific figures for this guidance."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "ADT described continued residential subscriber growth and a commercial rebound underway, but Zacks reported first-quarter revenue came in 0.20% below the consensus estimate."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Zacks reported an earnings surprise of -146.67% for the quarter versus consensus."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ADT Reports First Quarter 2021 Results",
+        "published_date": "2021-05-05T16:05:00-04:00",
+        "url": "https://www.globenewswire.com/news-release/2021/05/05/2223863/0/en/ADT-Reports-First-Quarter-2021-Results.html"
+      },
+      {
+        "title": "ADT (ADT) Reports Q1 Loss, Lags Revenue Estimates",
+        "published_date": "2021-05-05T21:25:19-04:00",
+        "url": "https://www.zacks.com/stock/news/1506953/adt-adt-reports-q1-loss-lags-revenue-estimates"
+      }
+    ]
+  },
+  "ADT_2021q3": {
+    "summary_analysis": "ADT reported second-quarter 2021 results, and Benzinga reported shares were trading lower after the company posted worse-than-expected earnings. ADT described residential subscriber growth remaining strong, a commercial rebound underway, and steps to proactively improve its capital structure.",
+    "explicit_reasons": "Benzinga reported ADT shares were trading lower after the company reported a second-quarter loss of 7 cents per share, which missed the analyst consensus estimate of 25 cents per share in profit.",
+    "implicit_reasons": "ADT described residential subscriber growth remaining strong and a commercial rebound underway, and said it was proactively improving its capital structure; neither claim is tied by the articles to the share reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ADT said residential subscriber growth remained strong and a commercial rebound was underway; the articles give no specific expectation figure for this."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "ADT reported a second-quarter loss of 7 cents per share, far short of the analyst consensus estimate of 25 cents per share in profit, which Benzinga reported drove shares lower that day."
+      },
+      "Debt, leverage and capital raise": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ADT said it was proactively improving its capital structure; the articles give no specific figures for this."
+      },
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ADT Reports Second Quarter 2021 Results",
+        "published_date": "2021-08-04T16:15:00-04:00",
+        "url": "https://www.globenewswire.com/news-release/2021/08/04/2275032/0/en/ADT-Reports-Second-Quarter-2021-Results.html"
+      },
+      {
+        "title": "What's Going On With ADT's Stock Today?",
+        "published_date": "2021-08-05T13:38:46-04:00",
+        "url": "https://www.benzinga.com/news/earnings/21/08/22353382/whats-going-on-with-adts-stock-today?utm_source=snapi"
+      }
+    ]
+  },
+  "ADT_2021q4": {
+    "summary_analysis": "ADT reported third-quarter 2021 results and simultaneously announced the $825 million acquisition of Sunpro Solar to launch ADT Solar, and Motley Fool reported shares traded up as much as 15% (settling around 12.3% higher by late morning) on the news. The Motley Fool explicitly said the solar acquisition news alone was enough to offset an otherwise lackluster quarter, in which ADT missed profit expectations even as revenue topped estimates.",
+    "explicit_reasons": "Motley Fool reported that ADT's announcement of the $825 million Sunpro Solar acquisition and the planned ADT Solar launch was, by itself, enough to offset a lackluster quarter and send shares up as much as 15% on excitement about the company's expansion into residential solar. That lackluster quarter included a third-quarter loss of 7 cents per share versus the 9-cent per share profit analysts had expected, which Motley Fool reported the solar news was needed to offset.",
+    "implicit_reasons": "Benzinga and Motley Fool both reported that third-quarter revenue of about $1.32 billion beat the roughly $1.29-$1.3 billion consensus estimate, a beat the articles present alongside the profit miss without stating it drove the reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Third-quarter revenue of about $1.32 billion, up roughly 1% year over year, beat the consensus estimate of about $1.29 billion, and Motley Fool separately said the company beat on sales by about $20 million."
+      },
+      "New Product Release / Users": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "ADT announced the $825 million acquisition of Sunpro Solar and the launch of ADT Solar, entering the residential solar market; the articles present this as a surprise alongside the earnings release rather than something investors were anticipating, and Motley Fool reported the news alone was enough to send shares up as much as 15% and offset the weak quarter."
+      },
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "ADT reported a third-quarter loss of 7 cents per share, well short of the 9-cent per share profit analysts had expected; Motley Fool attributed some of the loss to one-time costs of converting wireless systems to newer radios, and reported the solar acquisition news was needed to offset this shortfall in the market reaction."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ADT posts Q3 loss and announces acquisition of Sunpro Solar for $825 million in cash and stock",
+        "published_date": "2021-11-09T07:17:50-05:00",
+        "url": "https://www.marketwatch.com/story/adt-posts-q3-loss-and-announces-acquisition-of-sunpro-solar-for-825-million-in-cash-and-stock-2021-11-09"
+      },
+      {
+        "title": "ADT Stock Gains On Solid Q3 Results, Sunpro Solar Acquisition",
+        "published_date": "2021-11-09T09:47:06-05:00",
+        "url": "https://www.benzinga.com/news/earnings/21/11/23981232/adt-stock-gains-on-solid-q3-results-sunpro-solar-acquisition?utm_source=snapi"
+      },
+      {
+        "title": "Why ADT Stock Is Up Today",
+        "published_date": "2021-11-09T11:03:05-05:00",
+        "url": "https://www.fool.com/investing/2021/11/09/why-adt-stock-is-up-today/"
+      }
+    ]
+  },
+  "ADT_2022q1": {
+    "summary_analysis": "ADT reported fourth-quarter and full-year 2021 results, and MarketWatch reported shares rose 4% premarket as a revenue beat and upbeat guidance offset a surprise quarterly loss. Benzinga and Zacks likewise reported a revenue beat against consensus alongside an adjusted earnings miss, and the company guided full-year 2022 revenue above consensus. A day later, at its investor day, ADT targeted $10 billion in annual revenue by 2025 and detailed expansion into mobile and automotive security applications.",
+    "explicit_reasons": "MarketWatch reported ADT shares rose 4% premarket after a fourth-quarter revenue beat and upbeat full-year 2022 guidance offset a surprise quarterly loss. Benzinga's headline similarly tied the share gain to the Q4 results and to guidance for 2022 revenue above consensus.",
+    "implicit_reasons": "The articles don't give additional reasons beyond the explicit revenue, guidance and profit factors discussed above.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "ADT guided full-year 2022 revenue above Wall Street consensus, which MarketWatch and Benzinga both reported helped offset the quarterly loss and lift shares 4% premarket."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Fourth-quarter revenue grew 5% year over year to $1.38 billion, beating the consensus estimate of $1.32 billion (a 4.89% surprise per Zacks); MarketWatch and Benzinga both reported this beat as a driver of the premarket share gain."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "ADT posted a fourth-quarter net loss of $58 million (7 cents per share), an adjusted loss versus a Zacks consensus estimate of 11 cents per share in profit (a -127.27% surprise), and operating income fell to $10 million from $17 million a year earlier with margin contracting 60 basis points to 0.7%; MarketWatch reported this loss was offset by the revenue beat and guidance rather than driving the stock down."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ADT shares up 4% premarket as revenue beat and guidance offsets surprise quarterly loss",
+        "published_date": "2022-03-01T07:47:15-05:00",
+        "url": "https://www.marketwatch.com/story/adt-shares-up-4-premarket-as-revenue-beat-and-guidance-offsets-surprise-quarterly-loss-2022-03-01"
+      },
+      {
+        "title": "ADT Stock Gains After Q4 Results, Guides FY22 Revenue Above Consensus",
+        "published_date": "2022-03-01T09:19:00-05:00",
+        "url": "https://www.benzinga.com/news/earnings/22/03/25902953/adt-stock-gains-after-q4-results-guides-fy22-revenue-above-consensus?utm_source=snapi"
+      },
+      {
+        "title": "ADT (ADT) Reports Q4 Loss, Tops Revenue Estimates",
+        "published_date": "2022-03-01T09:58:47-05:00",
+        "url": "https://www.zacks.com/stock/news/1875122/adt-adt-reports-q4-loss-tops-revenue-estimates"
+      },
+      {
+        "title": "ADT targets $10 billion in annual revenue by 2025",
+        "published_date": "2022-03-02T08:18:31-05:00",
+        "url": "https://www.marketwatch.com/story/adt-targets-10-billion-in-annual-revenue-by-2025-2022-03-02"
+      },
+      {
+        "title": "ADT Extends its Connected Security to Mobile, Automotive Applications",
+        "published_date": "2022-03-04T15:39:50-05:00",
+        "url": "https://www.pymnts.com/technology/2022/adt-extends-its-connected-security-to-mobile-automotive-applications/?utm_source=snapi"
+      }
+    ]
+  },
+  "ADT_2022q2": {
+    "summary_analysis": "ADT reported first-quarter 2022 results, and MarketWatch reported shares fell 0.3% premarket after the company reported a surprise adjusted loss while revenue rose roughly in line with forecasts. CEO Jim DeVries told Fox Business the quarter was \"terrific,\" citing record customer retention and framing a rise in crime as a demand catalyst for security systems, while a Seeking Alpha column argued the stock had given up its gains since the 2020 Google deal because that partnership had yet to deliver tangible results.",
+    "explicit_reasons": "MarketWatch reported that ADT shares fell 0.3% in premarket trading after the company reported a surprise first-quarter adjusted loss, even as revenue rose mostly in line with expectations.",
+    "implicit_reasons": "Revenue grew 18% year over year and roughly met forecasts per MarketWatch, even as Zacks separately reported revenue beat consensus by 1.37%, without either article tying the figure to the share reaction. CEO DeVries told Fox Business the quarter was \"terrific,\" citing record customer retention and rising crime as a demand catalyst for security systems, commentary not tied by the article to the share price. Separately, a Seeking Alpha column argued ADT had given up all its gains since the 2020 Google deal because that partnership still had not delivered tangible results, even as the company's move into solar was viewed more favorably.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "First-quarter revenue grew 18% year over year to $1.55 billion, which MarketWatch described as rising mostly in line with forecasts and Zacks separately put 1.37% above the consensus estimate."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "ADT reported an adjusted first-quarter loss of 1 cent per share versus a Zacks consensus estimate of 12 cents per share in profit (a -108.33% surprise); MarketWatch reported this surprise loss, not the revenue, was what sent shares down 0.3% premarket."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "CEO Jim DeVries called it a \"terrific quarter\" in a Fox Business interview, citing record customer retention and the highest-ever recurring monthly revenue balance; the article gives no expectation for this commentary and does not tie it to the share reaction."
+      },
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "A Seeking Alpha column argued ADT's stock had given up all the ground it gained since the 2020 Google partnership, because investors had been expecting that partnership to deliver tangible results and it still had not, even as the company's newer move into the solar business was viewed as adding value."
+      }
+    },
+    "sources": [
+      {
+        "title": "ADT Reports First Quarter 2022 Results",
+        "published_date": "2022-05-05T06:55:00-04:00",
+        "url": "https://www.globenewswire.com/news-release/2022/05/05/2436553/0/en/ADT-Reports-First-Quarter-2022-Results.html"
+      },
+      {
+        "title": "ADT reports surprise loss while revenue rises in line with forecasts",
+        "published_date": "2022-05-05T07:43:29-04:00",
+        "url": "https://www.marketwatch.com/story/adt-reports-surprise-loss-while-revenue-rises-in-line-with-forecasts-2022-05-05"
+      },
+      {
+        "title": "ADT (ADT) Reports Q1 Loss, Tops Revenue Estimates",
+        "published_date": "2022-05-05T09:47:31-04:00",
+        "url": "https://www.zacks.com/stock/news/1916559/adt-adt-reports-q1-loss-tops-revenue-estimates"
+      },
+      {
+        "title": "Crime spike ‘demand catalyst' for security systems: ADT CEO",
+        "published_date": "2022-05-05T12:05:49-04:00",
+        "url": "https://www.foxbusiness.com/business-leaders/crime-spike-demand-catalyst-for-security-systems-adt-ceo"
+      },
+      {
+        "title": "ADT - Where Is The Security?",
+        "published_date": "2022-05-05T12:48:46-04:00",
+        "url": "https://seekingalpha.com/article/4507319-adt-where-is-the-security"
+      }
+    ]
+  },
+  "ADT_2022q4": {
+    "summary_analysis": "ADT reported third-quarter 2022 results; the article covering the release does not report how shares reacted. It described continued sequential and year-over-year improvement in revenue, up 22% versus the prior year.",
+    "explicit_reasons": "The article doesn't explicitly attribute the move to any specific factor.",
+    "implicit_reasons": "ADT reported continued sequential and year-over-year improvement in revenue, up 22% versus the prior year; the article does not tie this growth to the share reaction and gives no separate expectation figure for it.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ADT reported continued sequential and year-over-year improvement in revenue, up 22% versus the prior year; the article gives no separate expectation figure for this."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ADT Reports Third Quarter 2022 Results",
+        "published_date": "2022-11-03T06:55:00-04:00",
+        "url": "https://www.globenewswire.com/news-release/2022/11/03/2547371/0/en/ADT-Reports-Third-Quarter-2022-Results.html"
+      }
+    ]
+  },
+  "ADT_2023q1": {
+    "summary_analysis": "ADT reported fourth-quarter and full-year 2022 results; the articles do not report how shares reacted. The company described continued strong sequential and year-over-year revenue growth, up 21% for full-year 2022, while Zacks reported the quarter missed consensus earnings estimates despite a revenue beat.",
+    "explicit_reasons": "The articles don't explicitly attribute the move to any specific factor.",
+    "implicit_reasons": "ADT reported full-year 2022 revenue growth of 21% versus the prior year, and Zacks reported fourth-quarter revenue of $1.65 billion beat the consensus estimate by 3.31%; Zacks also reported fourth-quarter earnings of 10 cents per share missed the consensus estimate of 21 cents per share (a -52.38% surprise). Neither article ties these figures to the share reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ADT reported full-year 2022 revenue growth of 21% versus the prior year, and Zacks reported fourth-quarter revenue of $1.65 billion beat the consensus estimate by 3.31%, versus $1.38 billion a year earlier."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Zacks reported fourth-quarter earnings of 10 cents per share missed the Zacks consensus estimate of 21 cents per share, a -52.38% surprise."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ADT Reports Fourth Quarter and Full Year 2022 Results",
+        "published_date": "2023-02-28T06:55:00-05:00",
+        "url": "https://www.globenewswire.com/news-release/2023/02/28/2616854/0/en/ADT-Reports-Fourth-Quarter-and-Full-Year-2022-Results.html"
+      },
+      {
+        "title": "ADT (ADT) Misses Q4 Earnings Estimates",
+        "published_date": "2023-02-28T09:48:18-05:00",
+        "url": "https://www.zacks.com/stock/news/2059703/adt-adt-misses-q4-earnings-estimates"
+      }
+    ]
+  },
+  "ADT_2023q2": {
+    "summary_analysis": "ADT reported first-quarter 2023 results; the articles do not report how shares reacted. The company described strong year-over-year revenue growth by segment, while Zacks reported the quarter missed consensus on both earnings and revenue.",
+    "explicit_reasons": "The articles don't explicitly attribute the move to any specific factor.",
+    "implicit_reasons": "ADT reported its Consumer and Small Business (CSB) and Commercial segment revenue grew 7% and 15% year over year, respectively, while Zacks reported total first-quarter revenue of $1.61 billion missed the consensus estimate by 0.76%, and earnings of 12 cents per share missed the consensus estimate of 13 cents per share (a -7.69% surprise). Neither article ties these figures to the share reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "ADT reported CSB and Commercial segment revenue grew 7% and 15% year over year, respectively, but Zacks reported total first-quarter revenue of $1.61 billion missed the consensus estimate by 0.76%, versus $1.55 billion a year earlier."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Zacks reported first-quarter earnings of 12 cents per share missed the consensus estimate of 13 cents per share, a -7.69% surprise."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ADT Reports First Quarter 2023 Results",
+        "published_date": "2023-05-02T06:55:00-04:00",
+        "url": "https://www.globenewswire.com/news-release/2023/05/02/2658935/0/en/ADT-Reports-First-Quarter-2023-Results.html"
+      },
+      {
+        "title": "ADT (ADT) Q1 Earnings and Revenues Miss Estimates",
+        "published_date": "2023-05-02T09:53:41-04:00",
+        "url": "https://www.zacks.com/stock/news/2087927/adt-adt-q1-earnings-and-revenues-miss-estimates"
+      }
+    ]
+  },
+  "ADT_2023q3": {
+    "summary_analysis": "ADT reported second-quarter 2023 results alongside the announced $1.6 billion sale of its commercial security business to GTCR, and MarketWatch reported shares rose 3.3% premarket specifically on the sale news. Zacks reported the quarter itself missed consensus on both earnings and revenue, and a Seeking Alpha column argued the divestiture marked a positive strategic turn after a share price that had struggled due to the Google partnership's lack of tangible results.",
+    "explicit_reasons": "MarketWatch reported ADT shares rose 3.3% in premarket trading after the company agreed to sell its commercial security, fire and life safety unit to GTCR for $1.6 billion, with proceeds earmarked for debt reduction toward a leverage target of sub-3.0x net debt to Adjusted EBITDA.",
+    "implicit_reasons": "Zacks reported second-quarter revenue of $1.59 billion missed consensus by 2.88% and earnings of 16 cents per share missed the 23-cent consensus estimate (a -30.43% surprise), even as ADT's own release described record recurring monthly revenue and record customer retention; neither article ties these figures to the share reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "ADT's release cited a record high recurring monthly revenue balance, but Zacks reported total second-quarter revenue of $1.59 billion missed the consensus estimate by 2.88%, versus $1.6 billion a year earlier."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Zacks reported second-quarter earnings of 16 cents per share missed the consensus estimate of 23 cents per share, a -30.43% surprise, even though this compared favorably to 6 cents per share a year earlier."
+      },
+      "Debt, leverage and capital raise": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "ADT agreed to sell its commercial security, fire and life safety business to GTCR for $1.6 billion, which ADT's release described as struck at 'significantly accretive multiples' with net proceeds used for debt paydown toward a leverage target of sub-3.0x net debt to Adjusted EBITDA; the articles give no separate consensus figure for the deal, but MarketWatch reported the announcement explicitly drove a 3.3% premarket share gain, and a Seeking Alpha column separately framed the sale as reducing debt and leverage."
+      },
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ADT Announces Sale of Commercial Business for $1.6 Billion",
+        "published_date": "2023-08-08T06:55:00-04:00",
+        "url": "https://www.globenewswire.com/news-release/2023/08/08/2720406/0/en/ADT-Announces-Sale-of-Commercial-Business-for-1-6-Billion.html"
+      },
+      {
+        "title": "ADT Reports Second Quarter 2023 Results",
+        "published_date": "2023-08-08T06:56:00-04:00",
+        "url": "https://www.globenewswire.com/news-release/2023/08/08/2720407/0/en/ADT-Reports-Second-Quarter-2023-Results.html"
+      },
+      {
+        "title": "ADT stock rises in premarket on sale of commercial unit to GTCR",
+        "published_date": "2023-08-08T07:09:00-04:00",
+        "url": "https://www.marketwatch.com/story/adt-stock-rises-in-premarket-on-sale-of-commercial-unit-to-gtcr-5469fd40"
+      },
+      {
+        "title": "Security firm ADT's commercial unit to be taken private by GTCR for $1.6 bln",
+        "published_date": "2023-08-08T07:25:37-04:00",
+        "url": "https://www.reuters.com/markets/deals/security-firm-adts-commercial-unit-be-taken-private-by-gtcr-16-bln-2023-08-08/"
+      },
+      {
+        "title": "GTCR Partners with Former GTCR Executives to Acquire ADT's Commercial Fire and Security Segment",
+        "published_date": "2023-08-08T08:00:00-04:00",
+        "url": "https://www.prnewswire.com/news-releases/gtcr-partners-with-former-gtcr-executives-to-acquire-adts-commercial-fire-and-security-segment-301895635.html"
+      },
+      {
+        "title": "ADT (ADT) Q2 Earnings and Revenues Miss Estimates",
+        "published_date": "2023-08-08T09:56:07-04:00",
+        "url": "https://www.zacks.com/stock/news/2133517/adt-adt-q2-earnings-and-revenues-miss-estimates"
+      },
+      {
+        "title": "ADT: Security On The Rise",
+        "published_date": "2023-08-09T14:24:45-04:00",
+        "url": "https://seekingalpha.com/article/4626073-adt-security-on-the-rise"
+      }
+    ]
+  },
+  "ADT_2024q1": {
+    "summary_analysis": "ADT reported fourth-quarter and full-year 2023 results; the article does not report how shares reacted. The company described a fortified balance sheet after $2.1 billion of debt reduction in 2023, continued record recurring monthly revenue and strong retention, and improved capital efficiency with revenue payback of 2.1 years.",
+    "explicit_reasons": "The article doesn't explicitly attribute the move to any specific factor.",
+    "implicit_reasons": "ADT said it fortified its balance sheet with $2.1 billion of debt reduction in 2023 and continued to post record recurring monthly revenue and strong retention; the article does not tie these results to the share reaction and gives no separate expectation figures.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ADT reported continued record recurring monthly revenue and strong retention; the article gives no separate expectation figure for this."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ADT said it fortified its balance sheet with $2.1 billion of debt reduction in 2023 and improved capital efficiency with revenue payback of 2.1 years; the article gives no separate expectation figure for this."
+      },
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ADT Reports Fourth Quarter and Full Year 2023 Results",
+        "published_date": "2024-02-28T06:55:00-05:00",
+        "url": "https://www.globenewswire.com/news-release/2024/02/28/2836777/0/en/ADT-Reports-Fourth-Quarter-and-Full-Year-2023-Results.html"
+      }
+    ]
+  },
+  "ADT_2024q2": {
+    "summary_analysis": "ADT reported first-quarter 2024 results; the article does not report how shares reacted. The company described solid Consumer and Small Business (CSB) revenue growth and rising segment Adjusted EBITDA, along with an increased dividend and share repurchases returning capital to shareholders.",
+    "explicit_reasons": "The article doesn't explicitly attribute the move to any specific factor.",
+    "implicit_reasons": "ADT reported CSB revenue growth of 5% and segment Adjusted EBITDA growth of 8%, and said it returned capital to shareholders through an increased dividend and share repurchases; the article does not tie these results to the share reaction and gives no separate expectation figures.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ADT reported solid Consumer and Small Business (CSB) revenue growth of 5% year over year; the article gives no separate expectation figure for this."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ADT reported CSB segment Adjusted EBITDA grew 8% year over year; the article gives no separate expectation figure for this."
+      },
+      "Debt, leverage and capital raise": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "ADT said it returned capital to shareholders through an increased dividend and share repurchases; the article gives no separate expectation figure for this."
+      },
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null
+    },
+    "sources": [
+      {
+        "title": "ADT Reports First Quarter 2024 Results",
+        "published_date": "2024-04-25T06:55:00-04:00",
+        "url": "https://www.globenewswire.com/news-release/2024/04/25/2869458/0/en/ADT-Reports-First-Quarter-2024-Results.html"
+      }
+    ]
+  }
+}
