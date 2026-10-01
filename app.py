@@ -2453,8 +2453,8 @@ if st.session_state.selected_section == "Data Visualization 4":
             ]
             analysis_fig.add_trace(
                 go.Scatter(
-                    x=ticker_points["absolute_z_score"],
-                    y=ticker_points["category_score"],
+                    x=ticker_points["category_score"],
+                    y=ticker_points["absolute_z_score"],
                     mode="markers",
                     name=analysis_ticker,
                     customdata=customdata,
@@ -2462,21 +2462,21 @@ if st.session_state.selected_section == "Data Visualization 4":
                     hovertemplate=(
                         "<b>%{customdata[0]}</b><br>"
                         "Earnings: %{customdata[2]}<br>"
-                        "Absolute Z-score: %{x:.2f}σ<br>"
+                        "Absolute Z-score: %{y:.2f}σ<br>"
                         "Signed Z-score: %{customdata[7]:+.2f}σ<br>"
                         f"{method_description.capitalize()}: %{{customdata[8]:+.2f}}%<br>"
-                        "Category score: %{y:.3f} "
+                        "Category score: %{x:.3f} "
                         "(%{customdata[3]}/%{customdata[4]})<br>"
                         "Positive: %{customdata[5]} | Negative: %{customdata[6]}"
                         "<extra></extra>"
                     ),
                 )
             )
-        analysis_fig.add_hline(y=0, line_dash="dash", line_color="rgba(214,228,240,0.45)")
+        analysis_fig.add_vline(x=0, line_dash="dash", line_color="rgba(214,228,240,0.45)")
         analysis_fig.update_layout(
-            xaxis_title=f"Absolute {method_description} Z-score (σ)",
-            yaxis_title="StockNews category ranking",
-            yaxis={"range": [-1.08, 1.08], "tickmode": "linear", "dtick": 0.25},
+            xaxis_title="StockNews category ranking",
+            yaxis_title=f"Absolute {method_description} Z-score (σ)",
+            xaxis={"range": [-1.08, 1.08], "tickmode": "linear", "dtick": 0.25},
             hovermode="closest",
             legend_title_text="Ticker",
             height=650,
