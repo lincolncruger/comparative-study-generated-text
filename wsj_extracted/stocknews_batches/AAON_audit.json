@@ -1,0 +1,65 @@
+{
+  "pipeline_version": "Why Moved 2 - exhaustive evidence update",
+  "generated_at": "2026-10-01",
+  "ticker": "AAON",
+  "observations": {
+    "AAON_2019q2": {
+      "stocknews_results_reviewed": 2,
+      "retained_news": 1,
+      "retained_filings": 1,
+      "rejected": [
+        {
+          "title": "Aaon, Inc. (AAON) CEO Norman Asbjornson on Q1 2019 Results - Earnings Call Transcript",
+          "reason": "snippet_only"
+        }
+      ],
+      "reaction_reported": false,
+      "category_decision": "No categories assigned because no retained source reported the stock reaction."
+    },
+    "AAON_2023q1": {
+      "stocknews_results_reviewed": 4,
+      "retained_news": 2,
+      "retained_filings": 0,
+      "rejected": [
+        {
+          "title": "AAON Announces Promotion of Doug Wichman to President of AAON Coil Products",
+          "reason": "unrelated_personnel_announcement"
+        },
+        {
+          "title": "AAON, Inc. (AAON) Q4 2022 Earnings Call Transcript",
+          "reason": "snippet_only"
+        }
+      ],
+      "reaction_reported": true
+    },
+    "AAON_2024q1": {
+      "stocknews_results_reviewed": 4,
+      "retained_news": 2,
+      "retained_filings": 0,
+      "rejected": [
+        {
+          "title": "AAON, Inc. (AAON) Q4 2023 Earnings Call Transcript",
+          "reason": "snippet_only"
+        },
+        {
+          "title": "AAON To Present At Sidoti & Company Small Cap Virtual Conference",
+          "reason": "unrelated_conference_announcement"
+        }
+      ],
+      "reaction_reported": true
+    },
+    "AAON_2024q4": {
+      "stocknews_results_reviewed": 3,
+      "retained_news": 2,
+      "retained_filings": 0,
+      "rejected": [
+        {
+          "title": "AAON, Inc. (AAON) Q3 2024 Earnings Call Transcript",
+          "reason": "snippet_only"
+        }
+      ],
+      "reaction_reported": false,
+      "category_decision": "No categories assigned because no retained source reported the stock reaction."
+    }
+  }
+}

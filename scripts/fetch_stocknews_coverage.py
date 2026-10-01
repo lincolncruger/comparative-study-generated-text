@@ -51,23 +51,50 @@ def load_api_key():
 
 
 def fetch_articles(ticker, start, end, api_key):
-    params = {
-        "tickers": ticker,
-        "date": f"{start:%m%d%Y}-{end:%m%d%Y}",
-        "items": 100,
-        "page": 1,
-        "token": api_key,
-    }
-    request = urllib.request.Request(API_URL + "?" + urllib.parse.urlencode(params), headers=UA)
-    last_exc = None
-    for attempt in range(4):
-        try:
-            with urllib.request.urlopen(request, timeout=30) as response:
-                return json.load(response).get("data") or []
-        except Exception as exc:  # transient DNS/network hiccups -- retry rather than crash the batch
-            last_exc = exc
-            time.sleep(5 * (attempt + 1))
-    raise last_exc
+    """Return every API result in the event window, across every page.
+
+    StockNews returns ``total_pages`` alongside each page.  The old fetcher
+    always requested page 1, which happened to work for many narrow windows
+    but silently made completeness depend on the provider's page size.  Keep
+    fetching until the provider says the result set is exhausted and collapse
+    only exact URL duplicates.
+    """
+    articles = []
+    seen_urls = set()
+    page = 1
+    total_pages = 1
+    while page <= total_pages:
+        params = {
+            "tickers": ticker,
+            "date": f"{start:%m%d%Y}-{end:%m%d%Y}",
+            "items": 100,
+            "page": page,
+            "token": api_key,
+        }
+        request = urllib.request.Request(API_URL + "?" + urllib.parse.urlencode(params), headers=UA)
+        last_exc = None
+        payload = None
+        for attempt in range(4):
+            try:
+                with urllib.request.urlopen(request, timeout=30) as response:
+                    payload = json.load(response)
+                break
+            except Exception as exc:  # transient DNS/network hiccups -- retry rather than crash the batch
+                last_exc = exc
+                time.sleep(5 * (attempt + 1))
+        if payload is None:
+            raise last_exc
+
+        total_pages = max(1, int(payload.get("total_pages") or 1))
+        for article in payload.get("data") or []:
+            url = article.get("news_url")
+            if url and url in seen_urls:
+                continue
+            if url:
+                seen_urls.add(url)
+            articles.append(article)
+        page += 1
+    return articles
 
 
 def main():

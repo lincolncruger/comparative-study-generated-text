@@ -1,22 +1,14 @@
 {
   "AAON_2019q2": {
-    "summary_analysis": "AAON reported first-quarter 2019 results that missed earnings estimates while beating on revenue; the article does not state how the stock reacted. The quarter ended March 2019 produced an earnings surprise of -12.50% against estimates and a revenue surprise of 4.42%, a mixed report with profitability falling short of Wall Street's mark even as sales topped forecasts.",
-    "explicit_reasons": "The article does not explicitly attribute any stock reaction to a specific factor; it only reports the first-quarter 2019 earnings and revenue surprise figures without stating how shares moved.",
-    "implicit_reasons": "Profitability missed expectations, with earnings per share coming in 12.50% below the consensus estimate for the quarter ended March 2019. Revenue exceeded expectations, beating estimates by 4.42%. The article places these two results side by side without tying either directly to a stock price reaction.",
+    "summary_analysis": "AAON reported first-quarter 2019 net sales of $113.8 million, up 14.9% year over year, net income of $10.9 million, up 155.9%, and diluted EPS of $0.21, up from $0.08. Its filing also showed backlog of $166.6 million, up 125% year over year, and gross margin of 22.7%, up from 15.5%. StockNews' Zacks article characterized the quarter as mixed against consensus, with an earnings surprise of negative 12.50% and a revenue surprise of positive 4.42%, but neither retained source reported the stock's reaction or attributed a price move to any part of the report.",
+    "explicit_reasons": "The retained coverage does not explicitly explain a stock move. Zacks reported an earnings miss and a revenue beat, while AAON's filing supplied the underlying operating results, but neither source stated how shares reacted or identified a first-order cause of a reaction.",
+    "implicit_reasons": "No implicit reason is assigned because the retained coverage never reports a stock reaction to which the operating results can be linked. The earnings miss, revenue beat, backlog growth and margin recovery are material features of the quarter, but treating them as explanations for a move that the sources do not describe would go beyond the evidence.",
     "categories": {
       "Guidance": null,
       "Order book / backlog": null,
-      "Revenue": {
-        "direction": "positive",
-        "attribution": "implicit",
-        "text": "Revenue for the quarter ended March 2019 beat expectations, coming in 4.42% above the consensus estimate."
-      },
+      "Revenue": null,
       "New Product Release / Users": null,
-      "Profits, costs and margin": {
-        "direction": "negative",
-        "attribution": "implicit",
-        "text": "Earnings per share missed expectations, coming in 12.50% below the consensus estimate for the quarter ended March 2019."
-      },
+      "Profits, costs and margin": null,
       "Debt, leverage and capital raise": null,
       "Capex": null,
       "Management": null,
@@ -28,6 +20,11 @@
         "title": "Aaon (AAON) Q1 Earnings Lag Estimates",
         "published_date": "2019-05-02T10:25:04-04:00",
         "url": "https://www.zacks.com/stock/news/407645/aaon-aaon-q1-earnings-lag-estimates"
+      },
+      {
+        "title": "AAON Reports First Quarter Sales and Earnings",
+        "published_date": "2019-05-02T16:01:00-04:00",
+        "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414219000082/aaonq12019pressreleaseexhi.htm"
       }
     ]
   },
@@ -125,45 +122,25 @@
       {
         "title": "AAON's Stock Rises on Q4 Earnings Beat, Bookings Up Y/Y",
         "published_date": "2024-02-29T13:11:05-05:00",
-        "url": "https://www.zacks.com/stock/news/2234116/aaon-s-stock-rises-on-q4-earnings-beat-bookings-up-y-y?cid=CS-STOCKNEWSAPI-FT-analyst_blog|earnings_article-2234116"
+        "url": "https://www.zacks.com/stock/news/2234116/aaon-s-stock-rises-on-q4-earnings-beat-bookings-up-y-y"
       }
     ]
   },
   "AAON_2024q4": {
-    "summary_analysis": "AAON reported record third-quarter 2024 net sales and an EPS and revenue beat versus Zacks' consensus estimates, alongside a 32% year-over-year rise in backlog and a new data-center facility investment; neither the company's release nor the Zacks report states how the stock reacted to the results, though Zacks noted the shares had already added about 62.8% since the start of the year. Net sales rose 4.9% to a record $327.3 million, led by 58.8% growth at BASX and 36.7% at AAON Coil Products, while diluted EPS of $0.63 beat the Zacks consensus by 8.62% even as gross margin contracted to 34.9% from 37.2% on lower Oklahoma-segment volumes and BASX inefficiencies. Backlog reached $647.7 million, up 32.0% year-over-year and mostly tied to data-center equipment, and the company said it would buy a new Memphis, Tennessee facility to expand data-center production capacity.",
-    "explicit_reasons": "Neither article explicitly attributes the stock's reaction to any specific factor; both report the quarter's results and estimate comparisons without stating what drove the share price.",
-    "implicit_reasons": "Net sales of $327.3 million, a record, beat the Zacks consensus by 3.12% and rose 4.9% year-over-year on strength at the BASX and AAON Coil Products segments. Diluted EPS of $0.63 beat the Zacks Consensus Estimate of $0.58 by 8.62%, even though gross margin contracted to 34.9% from 37.2% due to lower Oklahoma-segment volumes and temporary BASX inefficiencies. Backlog rose 32.0% year-over-year to $647.7 million, mostly tied to data-center equipment for 2025 delivery, exceeding both the prior-quarter and year-ago levels, though the articles give no analyst backlog estimate. The company said it would purchase a 787,000-square-foot Memphis, Tennessee facility to expand data-center production capacity, following $113.7 million of year-to-date capital expenditures. Management also said it anticipates 'a softening in overall rooftop demand in the near-term mainly due to the slower economic backdrop,' even as data-center demand remained strong.",
+    "summary_analysis": "AAON reported record third-quarter 2024 sales of $327.3 million and diluted EPS of $0.63. Zacks said revenue exceeded its consensus by 3.12% and EPS beat its $0.58 estimate by 8.62%. The company release added important context: BASX and AAON Coil Products sales grew 58.8% and 36.7%, backlog rose 32.0% year over year to $647.7 million on data-center demand, while gross margin narrowed to 34.9% from 37.2% because of lower Oklahoma volumes and temporary BASX inefficiencies. Neither retained article reported the immediate stock reaction, so the coverage supports a detailed reading of the quarter but not a source-grounded explanation of the move.",
+    "explicit_reasons": "Neither retained article explicitly explains a stock move. The articles report estimate beats, segment performance, backlog, margins and management's outlook, but they do not state how shares reacted or directly connect any item to that reaction.",
+    "implicit_reasons": "No implicit reason is assigned because the retained coverage does not report a stock reaction. The EPS and revenue beats, data-center backlog, margin pressure, planned Memphis capacity expansion and expected near-term softening in rooftop demand are all material evidence, but classifying them as drivers of an unreported move would exceed the sources.",
     "categories": {
       "Guidance": null,
-      "Order book / backlog": {
-        "direction": "positive",
-        "attribution": "implicit",
-        "text": "Backlog stood at $647.7 million at quarter-end, up 32.0% from $490.6 million a year earlier and roughly flat sequentially, with a majority tied to data-center equipment for 2025 delivery; subsequent to the quarter, the company received about $174.5 million of new orders in October for a data-center liquid cooling customer. The articles give no analyst backlog estimate; the comparison is against the year-ago and prior-quarter levels, both of which the growth exceeded."
-      },
-      "Revenue": {
-        "direction": "positive",
-        "attribution": "implicit",
-        "text": "Net sales for the third quarter rose 4.9% year-over-year to a record $327.3 million, driven by 58.8% growth at BASX and 36.7% at AAON Coil Products, partly offset by a 7.1% decline at the AAON Oklahoma segment. Zacks said the $327.25 million in revenue beat its consensus estimate by 3.12%."
-      },
+      "Order book / backlog": null,
+      "Revenue": null,
       "New Product Release / Users": null,
-      "Profits, costs and margin": {
-        "direction": "positive",
-        "attribution": "implicit",
-        "text": "Diluted EPS of $0.63 beat the Zacks Consensus Estimate of $0.58 by 8.62%, though it was roughly flat versus the adjusted $0.64 reported a year earlier. Gross margin contracted to 34.9% from 37.2% a year ago, which the company attributed to lower volumes at the AAON Oklahoma segment and temporary inefficiencies at BASX."
-      },
+      "Profits, costs and margin": null,
       "Debt, leverage and capital raise": null,
-      "Capex": {
-        "direction": "positive",
-        "attribution": "implicit",
-        "text": "The company said it entered a definitive agreement to purchase a 787,000-square-foot facility in Memphis, Tennessee to accommodate incremental data-center demand, following $38.4 million of capital expenditures in the quarter and $113.7 million year-to-date. The articles give no analyst capex estimate, only the company's own spending trend and expansion plans."
-      },
+      "Capex": null,
       "Management": null,
       "Litigation": null,
-      "Macro and micro development": {
-        "direction": "negative",
-        "attribution": "implicit",
-        "text": "Management said it anticipates 'a softening in overall rooftop demand in the near-term mainly due to the slower economic backdrop,' even as demand for data-center equipment remained strong; the articles give no analyst estimate for this outlook, only management's own characterization."
-      }
+      "Macro and micro development": null
     },
     "sources": [
       {
@@ -174,7 +151,7 @@
       {
         "title": "Aaon (AAON) Beats Q3 Earnings and Revenue Estimates",
         "published_date": "2024-11-07T18:15:26-05:00",
-        "url": "https://www.zacks.com/stock/news/2366806/aaon-aaon-beats-q3-earnings-and-revenue-estimates?cid=CS-STOCKNEWSAPI-FT-tale_of_the_tape|yseop_template_4-2366806"
+        "url": "https://www.zacks.com/stock/news/2366806/aaon-aaon-beats-q3-earnings-and-revenue-estimates"
       }
     ]
   }
