@@ -2379,7 +2379,9 @@ if st.session_state.selected_section == "Data Visualization 4":
             # Give those a neutral score of zero so every StockNews observation
             # remains visible; the hover label makes the zero-active case clear.
             category_score = category_sum / active_count if active_count else 0.0
-            market_model = abnormal_returns_lookup.get(analysis_key, {}).get("market_model") or {}
+            return_metrics = abnormal_returns_lookup.get(analysis_key, {})
+            market_model = return_metrics.get("market_model") or {}
+            market_adjusted = return_metrics.get("market_adjusted") or {}
             analysis_rows.append(
                 {
                     "note_key": analysis_key,
@@ -2391,20 +2393,36 @@ if st.session_state.selected_section == "Data Visualization 4":
                     "active_categories": active_count,
                     "positive_categories": positive_count,
                     "negative_categories": negative_count,
-                    "absolute_abnormal_return": (
-                        abs(market_model["abnormal_return_pct"])
-                        if market_model.get("abnormal_return_pct") is not None
-                        else None
-                    ),
+                    "abnormal_return_pct": market_model.get("abnormal_return_pct"),
+                    "abnormal_z_score": market_model.get("z_score"),
+                    "excess_return_pct": market_adjusted.get("excess_return_pct"),
+                    "excess_z_score": market_adjusted.get("z_score"),
                 }
             )
 
         analysis_df = pd.DataFrame(analysis_rows)
-        chart_df = analysis_df.dropna(subset=["absolute_abnormal_return"]).copy()
+
+        return_method = st.radio(
+            "Return measure",
+            ["Excess return", "Abnormal return"],
+            horizontal=True,
+            key="dv4_analysis_return_method",
+        )
+        if return_method == "Excess return":
+            z_column = "excess_z_score"
+            return_column = "excess_return_pct"
+            method_description = "market-adjusted excess return"
+        else:
+            z_column = "abnormal_z_score"
+            return_column = "abnormal_return_pct"
+            method_description = "beta-adjusted abnormal return"
+
+        chart_df = analysis_df.dropna(subset=[z_column]).copy()
+        chart_df["absolute_z_score"] = chart_df[z_column].abs()
 
         st.markdown(
             "<div class='quarter-header' style='font-size:1.5rem; text-align:center;'>"
-            "Absolute Abnormal Returns and StockNews Category Ranking</div>",
+            f"Absolute {return_method} Z-Scores and StockNews Category Ranking</div>",
             unsafe_allow_html=True,
         )
         st.markdown(
@@ -2428,12 +2446,14 @@ if st.session_state.selected_section == "Data Visualization 4":
                     row.active_categories,
                     row.positive_categories,
                     row.negative_categories,
+                    getattr(row, z_column),
+                    getattr(row, return_column),
                 ]
                 for row in ticker_points.itertuples()
             ]
             analysis_fig.add_trace(
                 go.Scatter(
-                    x=ticker_points["absolute_abnormal_return"],
+                    x=ticker_points["absolute_z_score"],
                     y=ticker_points["category_score"],
                     mode="markers",
                     name=analysis_ticker,
@@ -2442,7 +2462,9 @@ if st.session_state.selected_section == "Data Visualization 4":
                     hovertemplate=(
                         "<b>%{customdata[0]}</b><br>"
                         "Earnings: %{customdata[2]}<br>"
-                        "Absolute beta-adjusted abnormal return: %{x:.2f}%<br>"
+                        "Absolute Z-score: %{x:.2f}σ<br>"
+                        "Signed Z-score: %{customdata[7]:+.2f}σ<br>"
+                        f"{method_description.capitalize()}: %{{customdata[8]:+.2f}}%<br>"
                         "Category score: %{y:.3f} "
                         "(%{customdata[3]}/%{customdata[4]})<br>"
                         "Positive: %{customdata[5]} | Negative: %{customdata[6]}"
@@ -2452,7 +2474,7 @@ if st.session_state.selected_section == "Data Visualization 4":
             )
         analysis_fig.add_hline(y=0, line_dash="dash", line_color="rgba(214,228,240,0.45)")
         analysis_fig.update_layout(
-            xaxis_title="Absolute beta-adjusted abnormal return (%)",
+            xaxis_title=f"Absolute {method_description} Z-score (σ)",
             yaxis_title="StockNews category ranking",
             yaxis={"range": [-1.08, 1.08], "tickmode": "linear", "dtick": 0.25},
             hovermode="closest",
