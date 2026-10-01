@@ -112,6 +112,29 @@ a future outlook, separate the evidence: classify the realized result in its
 backward-looking category and the forecast in Guidance, provided each is tied to
 the stock's move under the attribution rules below.
 
+Apply this classification order before filling the table:
+  1. Determine whether the statement describes the completed quarter, an ongoing
+     condition, or a future expectation.
+  2. If it is a future expectation, place it in Guidance, even when the subject is
+     revenue, profit, margin, costs, capex, demand, management's strategy, or future
+     macro/micro conditions. The forward-looking exceptions are New Product Release
+     / Users and Litigation, which explicitly allow forward-looking developments.
+  3. Only after that temporal decision, assign backward-looking or ongoing evidence
+     to the appropriate subject category.
+
+Examples:
+  - "Gross margin decreased because material and freight costs increased" is
+    backward-looking and belongs in Profits, costs and margin.
+  - "Management expects material costs to increase next quarter" is forward-looking
+    and belongs in Guidance, not Profits, costs and margin.
+  - "Capital expenditures were $80 million in the quarter" belongs in Capex, while
+    "the company expects $400 million of capex next year" belongs in Guidance.
+  - "Currency weakness reduced reported revenue in the quarter" may be a backward-
+    looking Macro and micro development when the coverage ties that development to
+    the move; "management expects currency pressure to worsen" belongs in Guidance.
+  - "Revenue declined during the reported quarter" belongs in Revenue; "management
+    expects revenue to decline next quarter" belongs in Guidance.
+
 A category is included only if the articles attribute the stock's move to it, explicitly or implicitly. A category the articles mention without tying it to the move is omitted. Many observations will leave several categories out (Litigation, Capex, etc.) -- that is expected.
 
 Attribution:
