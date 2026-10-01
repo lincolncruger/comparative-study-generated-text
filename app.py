@@ -2441,7 +2441,27 @@ if st.session_state.selected_section == "Data Visualization 4":
             return_column = "abnormal_return_pct"
             method_description = "beta-adjusted abnormal return"
 
+        absolute_filter_col1, absolute_filter_col2, absolute_filter_col3 = st.columns([1.2, 1, 1])
+        with absolute_filter_col1:
+            absolute_filter_mode = st.radio(
+                "Absolute graph Z-score filter",
+                ["Include", "Exclude"],
+                horizontal=True,
+                key="dv4_absolute_z_filter_mode",
+            )
+        with absolute_filter_col2:
+            absolute_z_lower = st.number_input(
+                "Lower Z-score", value=-10.0, step=0.5, key="dv4_absolute_z_lower"
+            )
+        with absolute_filter_col3:
+            absolute_z_upper = st.number_input(
+                "Upper Z-score", value=10.0, step=0.5, key="dv4_absolute_z_upper"
+            )
+        absolute_z_min, absolute_z_max = sorted((absolute_z_lower, absolute_z_upper))
+
         chart_df = analysis_df.dropna(subset=[z_column]).copy()
+        absolute_inside = chart_df[z_column].between(absolute_z_min, absolute_z_max, inclusive="both")
+        chart_df = chart_df[absolute_inside if absolute_filter_mode == "Include" else ~absolute_inside].copy()
         chart_df["absolute_z_score"] = chart_df[z_column].abs()
 
         st.markdown(
@@ -2514,11 +2534,30 @@ if st.session_state.selected_section == "Data Visualization 4":
         st.plotly_chart(analysis_fig, use_container_width=True, key="dv4_category_abnormal_scatter")
         st.caption(
             f"{len(chart_df)} StockNews observations plotted. "
+            f"{absolute_filter_mode} signed Z-scores from {absolute_z_min:+.2f}σ to {absolute_z_max:+.2f}σ. "
             f"{int((analysis_df['active_categories'] == 0).sum())} observations have no active category "
             "and are assigned a neutral score of 0."
         )
 
         st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+        signed_filter_col1, signed_filter_col2, signed_filter_col3 = st.columns([1.2, 1, 1])
+        with signed_filter_col1:
+            signed_filter_mode = st.radio(
+                "Signed graph Z-score filter",
+                ["Include", "Exclude"],
+                horizontal=True,
+                key="dv4_signed_z_filter_mode",
+            )
+        with signed_filter_col2:
+            signed_z_lower = st.number_input(
+                "Lower Z-score", value=-10.0, step=0.5, key="dv4_signed_z_lower"
+            )
+        with signed_filter_col3:
+            signed_z_upper = st.number_input(
+                "Upper Z-score", value=10.0, step=0.5, key="dv4_signed_z_upper"
+            )
+        signed_z_min, signed_z_max = sorted((signed_z_lower, signed_z_upper))
+
         st.markdown(
             f"<div class='quarter-header' style='font-size:1.5rem; text-align:center;'>"
             f"Signed {return_method} Z-Scores and StockNews Category Ranking</div>",
@@ -2533,6 +2572,10 @@ if st.session_state.selected_section == "Data Visualization 4":
         )
 
         return_chart_df = analysis_df.dropna(subset=[z_column]).copy()
+        signed_inside = return_chart_df[z_column].between(signed_z_min, signed_z_max, inclusive="both")
+        return_chart_df = return_chart_df[
+            signed_inside if signed_filter_mode == "Include" else ~signed_inside
+        ].copy()
         return_fig = go.Figure()
         for analysis_ticker in sorted(return_chart_df["ticker"].unique()):
             ticker_points = return_chart_df[return_chart_df["ticker"] == analysis_ticker]
@@ -2585,7 +2628,8 @@ if st.session_state.selected_section == "Data Visualization 4":
         st.plotly_chart(return_fig, use_container_width=True, key="dv4_category_return_scatter")
         st.caption(
             f"{len(return_chart_df)} StockNews observations plotted with the signed "
-            f"{method_description} Z-score."
+            f"{method_description} Z-score. {signed_filter_mode} signed Z-scores from "
+            f"{signed_z_min:+.2f}σ to {signed_z_max:+.2f}σ."
         )
         st.stop()
 
@@ -2857,10 +2901,35 @@ if st.session_state.selected_section == "Data Visualization 5":
         g4_left, g4_right = st.columns(2, gap="large")
         with g4_left:
             st.markdown(
-                "<div style='text-align:center; font-weight:bold;'>Selected Coverage</div>",
+                "<div style='text-align:center; font-weight:bold;'>Selected Coverage</div>"
+                "<div style='text-align:center; color:#FFD166; font-size:0.9rem; margin-bottom:0.7rem;'>"
+                "StockNews API</div>",
                 unsafe_allow_html=True,
             )
-            st.write("*No selected coverage available for this observation.*")
+            g4_stocknews = stocknews_coverage_lookup.get(g4_note_key)
+            if g4_stocknews:
+                for field, heading in [
+                    ("summary_analysis", "Summary Analysis"),
+                    ("explicit_reasons", "Explicit Reasons"),
+                    ("implicit_reasons", "Implicit Reasons"),
+                ]:
+                    if g4_stocknews.get(field):
+                        st.html(
+                            f"<div class='context-heading'>{heading}</div>"
+                            f"<p style='margin-bottom:0.8rem; text-align:justify;'>"
+                            f"{render_inline_markdown(g4_stocknews[field])}</p>"
+                        )
+                g4_source_links = "".join(
+                    render_djnw_source_link_html(source) for source in g4_stocknews.get("sources", [])
+                )
+                if g4_source_links:
+                    st.html(g4_source_links)
+                if st.button(
+                    "StockNews Categories", key=f"g4_stocknews_cat_{g4_note_key}", use_container_width=True
+                ):
+                    _show_why_moved_2_categories_dialog(g4_stocknews, "StockNews API")
+            else:
+                st.write("*No validated StockNews API coverage available for this observation.*")
         with g4_right:
             st.markdown(
                 "<div style='text-align:center; font-weight:bold;'>High-Tier Coverage</div>",

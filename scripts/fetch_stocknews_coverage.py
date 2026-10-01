@@ -15,6 +15,7 @@ Run:
 Resumable: observations already in the output file are skipped, and
 progress is saved after every observation.
 """
+import argparse
 import json
 import os
 import sys
@@ -32,10 +33,15 @@ from refetch_stocknews_full_text import best_text  # noqa: E402
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 OBS_PATH = os.path.join(ROOT, "data", "earnings_241.json")
+RETURNS_PATH = os.path.join(ROOT, "Data - Returns", "earnings_returns_clean.csv")
 OUT_PATH = os.path.join(ROOT, "wsj_extracted", "stocknews_consolidated.json")
 API_URL = "https://stocknewsapi.com/api/v1"
 WINDOW_START = pd.Timestamp("2019-04-01")
 SEED = 20261001
+DATAVIZ5_TICKERS = [
+    "MTW", "SFIX", "PCTY", "MGNI", "ASO", "NGL", "REZI", "CENTA", "BSM", "METC",
+    "BA", "JNJ", "PH", "MRVL", "FTNT", "TMUS", "UBER", "VZ", "MO", "MCD",
+]
 UA = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
@@ -97,14 +103,37 @@ def fetch_articles(ticker, start, end, api_key):
     return articles
 
 
-def main():
-    api_key = load_api_key()
-    df = pd.DataFrame(json.load(open(OBS_PATH)))
-    df["earnings_date"] = pd.to_datetime(df["earnings_date"])
-    eligible = df[df["earnings_date"] >= WINDOW_START].sort_values(["ticker", "earnings_date"])
+def dataviz5_observations():
+    """Reproduce app.py's fixed Data Visualization 5 observation sample."""
+    frame = pd.read_csv(RETURNS_PATH, parse_dates=["earningsdate"])
+    frame = frame[
+        frame["ticker"].isin(DATAVIZ5_TICKERS)
+        & frame["earningsdate"].between(pd.Timestamp("2021-01-01"), pd.Timestamp("2023-12-31"))
+    ]
+    sampled = frame.groupby("ticker", group_keys=False).apply(
+        lambda group: group.sample(n=min(10, len(group)), random_state=20260928)
+    )
+    sampled = sampled.rename(columns={"earningsdate": "earnings_date", "yq": "fiscal_yearquarter"})
+    if "company_name" not in sampled:
+        sampled["company_name"] = sampled["ticker"]
+    return sampled.sort_values(["ticker", "earnings_date"]).reset_index(drop=True)
 
-    if len(sys.argv) > 1 and sys.argv[1] != "all":
-        eligible = eligible.sample(n=int(sys.argv[1]), random_state=SEED).sort_values(["ticker", "earnings_date"])
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("limit", nargs="?", default="all")
+    parser.add_argument("--section", choices=["data-viz-4", "data-viz-5"], default="data-viz-4")
+    args = parser.parse_args()
+    api_key = load_api_key()
+    if args.section == "data-viz-5":
+        eligible = dataviz5_observations()
+    else:
+        df = pd.DataFrame(json.load(open(OBS_PATH)))
+        df["earnings_date"] = pd.to_datetime(df["earnings_date"])
+        eligible = df[df["earnings_date"] >= WINDOW_START].sort_values(["ticker", "earnings_date"])
+
+    if args.limit != "all":
+        eligible = eligible.sample(n=int(args.limit), random_state=SEED).sort_values(["ticker", "earnings_date"])
 
     result = json.load(open(OUT_PATH)) if os.path.exists(OUT_PATH) else {}
     failed = []

@@ -143,7 +143,7 @@ def request(key, instructions, note_key, observation):
     packet = {note_key: observation}
     body = {
         "model": MODEL,
-        "reasoning": {"effort": "low"},
+        "reasoning": {"effort": "high"},
         "instructions": instructions,
         "input": json.dumps(packet, ensure_ascii=False),
         "text": {
@@ -176,6 +176,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--limit", type=int)
     parser.add_argument("--ticker")
+    parser.add_argument("--data-viz-5", action="store_true")
     parser.add_argument("--include-aaon", action="store_true")
     parser.add_argument("--force", action="store_true")
     args = parser.parse_args()
@@ -186,6 +187,11 @@ def main():
     audit = json.loads(AUDIT.read_text()) if AUDIT.exists() else {}
     targets = []
     for note_key, observation in observations.items():
+        if args.data_viz_5 and observation["ticker"] not in {
+            "MTW", "SFIX", "PCTY", "MGNI", "ASO", "NGL", "REZI", "CENTA", "BSM", "METC",
+            "BA", "JNJ", "PH", "MRVL", "FTNT", "TMUS", "UBER", "VZ", "MO", "MCD",
+        }:
+            continue
         if not args.include_aaon and note_key.startswith("AAON_"):
             continue
         if args.ticker and observation["ticker"] != args.ticker:
