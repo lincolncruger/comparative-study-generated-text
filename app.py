@@ -37,6 +37,7 @@ import textwrap
 from urllib.parse import quote as url_quote
 
 import pandas as pd
+import numpy as np
 import plotly.graph_objects as go
 import streamlit as st
 
@@ -2521,6 +2522,23 @@ if st.session_state.selected_section == "Data Visualization 4":
                     ),
                 )
             )
+        if len(chart_df) >= 3 and chart_df["category_score"].nunique() >= 3:
+            regression_x = np.linspace(
+                chart_df["category_score"].min(), chart_df["category_score"].max(), 200
+            )
+            regression_coefficients = np.polyfit(
+                chart_df["category_score"], chart_df["absolute_z_score"], 2
+            )
+            analysis_fig.add_trace(
+                go.Scatter(
+                    x=regression_x,
+                    y=np.polyval(regression_coefficients, regression_x),
+                    mode="lines",
+                    name="Quadratic regression",
+                    line={"color": "#FFD166", "width": 3},
+                    hovertemplate="Quadratic regression<br>Category score: %{x:.3f}<br>Predicted |Z|: %{y:.2f}σ<extra></extra>",
+                )
+            )
         analysis_fig.add_vline(x=0, line_dash="dash", line_color="rgba(214,228,240,0.45)")
         analysis_fig.update_layout(
             xaxis_title="StockNews category ranking",
@@ -2612,6 +2630,23 @@ if st.session_state.selected_section == "Data Visualization 4":
                         "Explicit: %{customdata[8]} | Implicit: %{customdata[9]}"
                         "<extra></extra>"
                     ),
+                )
+            )
+        if len(return_chart_df) >= 3 and return_chart_df["category_score"].nunique() >= 3:
+            regression_x = np.linspace(
+                return_chart_df["category_score"].min(), return_chart_df["category_score"].max(), 200
+            )
+            regression_coefficients = np.polyfit(
+                return_chart_df["category_score"], return_chart_df[z_column], 2
+            )
+            return_fig.add_trace(
+                go.Scatter(
+                    x=regression_x,
+                    y=np.polyval(regression_coefficients, regression_x),
+                    mode="lines",
+                    name="Quadratic regression",
+                    line={"color": "#FFD166", "width": 3},
+                    hovertemplate="Quadratic regression<br>Category score: %{x:.3f}<br>Predicted Z: %{y:+.2f}σ<extra></extra>",
                 )
             )
         return_fig.add_hline(y=0, line_dash="dash", line_color="rgba(214,228,240,0.45)")
