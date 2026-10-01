@@ -94,16 +94,23 @@ Order the kept articles chronologically by publication date and time, earliest f
 STEP 2 -- IDENTIFY THE CATEGORIES THAT EXPLAIN THE MOVE.
 Use exactly these 10 categories, with these definitions:
 
-  "Guidance" -- guidance on future revenue, profit, etc.
-  "Order book / backlog" -- for companies that sell products: whether the order book or backlog is growing or shrinking.
-  "Revenue" -- whether revenue beat or missed, and how segments performed. Sales figures go here even when the article names a product (e.g. "iPhone sales fell" is Revenue).
-  "New Product Release / Users" -- a product launch or unveiling (e.g. Apple unveiling a new iPhone), or user gains or losses for companies that monetize users (e.g. Facebook adding users). About the product or the users themselves, not the sales figures.
-  "Profits, costs and margin" -- anything related to profitability: EPS, net income, margins, operating costs. Also one-time accounting items such as write-downs, restructuring charges and tax hits.
-  "Debt, leverage and capital raise" -- borrowing, leverage, share issuance, buybacks and other capital-structure moves.
-  "Capex" -- capital expenditure (e.g. a company increasing capex on data centers).
-  "Management" -- management changes (e.g. a change of CEO), and management commentary, tone or strategy that the article highlights.
-  "Litigation" -- lawsuits and legal or regulatory proceedings.
-  "Macro and micro development" -- macro: economy-wide forces such as trade wars, currency moves or weather. Micro: one-time, idiosyncratic problems specific to the company or its industry, such as a supplier problem, a recall, a plant outage or a competitor's move.
+  "Guidance" -- FORWARD-LOOKING statements about what management, analysts or the article expects after the reported quarter: future revenue, profit, margins, costs, demand, capex, economic conditions or other outlook. Forward-looking commentary is classified here even when its subject would otherwise resemble another category. For example, management saying economic conditions will worsen belongs in Guidance, not Macro and micro development.
+  "Order book / backlog" -- whether the order book or backlog is growing or shrinking for companies that sell products. This category has no separate temporal classification; use the backlog or order-book comparison that the coverage ties to the move.
+  "Revenue" -- BACKWARD-LOOKING statements about revenue reported for the corresponding completed quarter: whether revenue beat or missed and how segments performed. Sales figures go here even when the article names a product (e.g. "iPhone sales fell" is Revenue). Future revenue expectations belong in Guidance.
+  "New Product Release / Users" -- BACKWARD-LOOKING, ONGOING or FORWARD-LOOKING statements about a product launch or unveiling (e.g. Apple unveiling a new iPhone), or user gains or losses for companies that monetize users (e.g. Facebook adding users). This category concerns the product or users themselves, not sales figures.
+  "Profits, costs and margin" -- BACKWARD-LOOKING statements about profitability in the corresponding completed quarter: EPS, net income, realized margins and operating costs, including one-time accounting items such as write-downs, restructuring charges and tax hits. Forecast profit, costs or margins belong in Guidance.
+  "Debt, leverage and capital raise" -- ONGOING or BACKWARD-LOOKING statements about borrowing, leverage, completed or active share issuance, buybacks and other capital-structure moves. A purely future capital-structure forecast belongs in Guidance.
+  "Capex" -- BACKWARD-LOOKING capital expenditure incurred during the corresponding completed quarter. Future capex plans or forecasts belong in Guidance.
+  "Management" -- ONGOING or BACKWARD-LOOKING management changes, actions, execution, tone or strategy that occurred during or relate to the corresponding completed quarter. Do not place a forward-looking operating or economic forecast here merely because management delivered it; classify the substance of that forecast as Guidance.
+  "Litigation" -- BACKWARD-LOOKING, ONGOING or FORWARD-LOOKING lawsuits and legal or regulatory proceedings.
+  "Macro and micro development" -- BACKWARD-LOOKING developments within the corresponding completed quarter. Macro includes economy-wide forces such as trade wars, currency moves or weather; micro includes idiosyncratic company or industry developments such as a supplier problem, recall, plant outage or competitor action. A prediction that economic, industry or company-specific conditions will improve or worsen after the quarter belongs in Guidance, not this category.
+
+Temporal routing is mandatory. Classify a statement according to both its subject
+and its time orientation. Do not duplicate one statement across Guidance and a
+backward-looking category. When a sentence combines completed-quarter facts with
+a future outlook, separate the evidence: classify the realized result in its
+backward-looking category and the forecast in Guidance, provided each is tied to
+the stock's move under the attribution rules below.
 
 A category is included only if the articles attribute the stock's move to it, explicitly or implicitly. A category the articles mention without tying it to the move is omitted. Many observations will leave several categories out (Litigation, Capex, etc.) -- that is expected.
 
@@ -186,6 +193,12 @@ Report how many observations you wrote, how many you skipped for having no quali
   stated link counts as explicit.
 - **Categories not tied to the move are omitted**: the table is about why the
   stock moved, not everything the quarter contained.
+- **Temporal routing is part of the category definition**: Guidance owns
+  forward-looking statements, including forecasts about revenue, margins,
+  capex, demand and future macro or micro conditions. Revenue, profits/costs/
+  margin, capex, and macro/micro developments describe the corresponding
+  completed quarter. A statement is never duplicated merely because its
+  subject and its time orientation point to different categories.
 - **Sales figures are Revenue, not Product**: the older category data filed
   "iPhone sales fell" under Product / Users. New Product Release / Users is
   only for launches and user numbers.
