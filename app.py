@@ -2857,24 +2857,10 @@ if st.session_state.selected_section == "Data Visualization 5":
         g4_left, g4_right = st.columns(2, gap="large")
         with g4_left:
             st.markdown(
-                "<div style='text-align:center; font-weight:bold;'>Selected Coverage</div>"
-                "<div style='text-align:center; color:#FFD166; font-size:0.9rem; margin-bottom:0.7rem;'>"
-                "ChatGPT — Massive / Benzinga</div>",
+                "<div style='text-align:center; font-weight:bold;'>Selected Coverage</div>",
                 unsafe_allow_html=True,
             )
-            g4_chatgpt = viz45_chatgpt_coverage_lookup.get(g4_note_key)
-            if g4_chatgpt:
-                st.markdown(
-                    "<div class='context-heading'>Why The Stock Moved</div>",
-                    unsafe_allow_html=True,
-                )
-                st.write(g4_chatgpt.get("final_paragraph", ""))
-                for source in g4_chatgpt.get("sources", []):
-                    source_html = render_djnw_source_link_html(source)
-                    if source_html:
-                        st.markdown(source_html, unsafe_allow_html=True)
-            else:
-                st.write("*ChatGPT pilot coverage is available for MTW, SFIX, and PCTY.*")
+            st.write("*No selected coverage available for this observation.*")
         with g4_right:
             st.markdown(
                 "<div style='text-align:center; font-weight:bold;'>High-Tier Coverage</div>",
