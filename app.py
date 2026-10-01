@@ -2504,18 +2504,18 @@ if st.session_state.selected_section == "Data Visualization 4":
         st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
         st.markdown(
             f"<div class='quarter-header' style='font-size:1.5rem; text-align:center;'>"
-            f"{return_method} and StockNews Category Ranking</div>",
+            f"Signed {return_method} Z-Scores and StockNews Category Ranking</div>",
             unsafe_allow_html=True,
         )
         st.markdown(
             "<div style='max-width:920px; margin:0 auto 1rem auto; text-align:center; "
             "color:rgba(214,228,240,0.82);'>"
-            "This graph uses the signed return percentage rather than its absolute value or Z-score. "
-            "Positive and negative market reactions therefore appear above and below zero.</div>",
+            "This graph uses the signed Z-score rather than its absolute value. Positive and negative "
+            "standardized market reactions therefore appear above and below zero.</div>",
             unsafe_allow_html=True,
         )
 
-        return_chart_df = analysis_df.dropna(subset=[return_column]).copy()
+        return_chart_df = analysis_df.dropna(subset=[z_column]).copy()
         return_fig = go.Figure()
         for analysis_ticker in sorted(return_chart_df["ticker"].unique()):
             ticker_points = return_chart_df[return_chart_df["ticker"] == analysis_ticker]
@@ -2537,7 +2537,7 @@ if st.session_state.selected_section == "Data Visualization 4":
             return_fig.add_trace(
                 go.Scatter(
                     x=ticker_points["category_score"],
-                    y=ticker_points[return_column],
+                    y=ticker_points[z_column],
                     mode="markers",
                     name=analysis_ticker,
                     customdata=customdata,
@@ -2545,8 +2545,7 @@ if st.session_state.selected_section == "Data Visualization 4":
                     hovertemplate=(
                         "<b>%{customdata[0]}</b><br>"
                         "Earnings: %{customdata[2]}<br>"
-                        f"{method_description.capitalize()}: %{{y:+.2f}}%<br>"
-                        "Signed Z-score: %{customdata[7]:+.2f}σ<br>"
+                        "Signed Z-score: %{y:+.2f}σ<br>"
                         "Category score: %{x:.3f} "
                         "(%{customdata[3]}/%{customdata[4]})<br>"
                         "Positive: %{customdata[5]} | Negative: %{customdata[6]}<br>"
@@ -2559,7 +2558,7 @@ if st.session_state.selected_section == "Data Visualization 4":
         return_fig.add_vline(x=0, line_dash="dash", line_color="rgba(214,228,240,0.45)")
         return_fig.update_layout(
             xaxis_title="StockNews category ranking",
-            yaxis_title=f"{method_description.capitalize()} (%)",
+            yaxis_title=f"Signed {method_description} Z-score (σ)",
             xaxis={"range": [-2.08, 2.08], "tickmode": "linear", "dtick": 0.5},
             hovermode="closest",
             legend_title_text="Ticker",
@@ -2567,7 +2566,10 @@ if st.session_state.selected_section == "Data Visualization 4":
             margin={"l": 65, "r": 35, "t": 35, "b": 65},
         )
         st.plotly_chart(return_fig, use_container_width=True, key="dv4_category_return_scatter")
-        st.caption(f"{len(return_chart_df)} StockNews observations plotted with signed {method_description}.")
+        st.caption(
+            f"{len(return_chart_df)} StockNews observations plotted with the signed "
+            f"{method_description} Z-score."
+        )
         st.stop()
 
     dv4_sub = dv4_rows[dv4_rows["ticker"] == dv4_ticker].reset_index(drop=True)
