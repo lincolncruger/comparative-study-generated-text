@@ -2373,8 +2373,14 @@ if st.session_state.selected_section == "Data Visualization 4":
             active_cells = [cell for cell in category_cells.values() if cell]
             positive_count = sum(cell.get("direction") == "positive" for cell in active_cells)
             negative_count = sum(cell.get("direction") == "negative" for cell in active_cells)
+            explicit_count = sum(cell.get("attribution") == "explicit" for cell in active_cells)
+            implicit_count = sum(cell.get("attribution") == "implicit" for cell in active_cells)
             active_count = len(active_cells)
-            category_sum = positive_count - negative_count
+            category_sum = sum(
+                (1 if cell.get("direction") == "positive" else -1)
+                * (2 if cell.get("attribution") == "explicit" else 1)
+                for cell in active_cells
+            )
             # Five retained observations have no category tied to the move.
             # Give those a neutral score of zero so every StockNews observation
             # remains visible; the hover label makes the zero-active case clear.
@@ -2393,6 +2399,8 @@ if st.session_state.selected_section == "Data Visualization 4":
                     "active_categories": active_count,
                     "positive_categories": positive_count,
                     "negative_categories": negative_count,
+                    "explicit_categories": explicit_count,
+                    "implicit_categories": implicit_count,
                     "abnormal_return_pct": market_model.get("abnormal_return_pct"),
                     "abnormal_z_score": market_model.get("z_score"),
                     "excess_return_pct": market_adjusted.get("excess_return_pct"),
@@ -2428,8 +2436,9 @@ if st.session_state.selected_section == "Data Visualization 4":
         st.markdown(
             "<div style='max-width:920px; margin:0 auto 1rem auto; text-align:center; "
             "color:rgba(214,228,240,0.82);'>"
-            "Category score = (positive active categories − negative active categories) "
-            "÷ total active categories. The score ranges from −1 to +1. Observations with "
+            "Category score = signed weighted category sum ÷ total active categories. "
+            "Explicit categories receive twice the numerator weight (±2) of implicit categories (±1). "
+            "The score ranges from −2 to +2. Observations with "
             "no active category are retained at 0 and identified in the hover details.</div>",
             unsafe_allow_html=True,
         )
@@ -2448,6 +2457,8 @@ if st.session_state.selected_section == "Data Visualization 4":
                     row.negative_categories,
                     getattr(row, z_column),
                     getattr(row, return_column),
+                    row.explicit_categories,
+                    row.implicit_categories,
                 ]
                 for row in ticker_points.itertuples()
             ]
@@ -2467,7 +2478,8 @@ if st.session_state.selected_section == "Data Visualization 4":
                         f"{method_description.capitalize()}: %{{customdata[8]:+.2f}}%<br>"
                         "Category score: %{x:.3f} "
                         "(%{customdata[3]}/%{customdata[4]})<br>"
-                        "Positive: %{customdata[5]} | Negative: %{customdata[6]}"
+                        "Positive: %{customdata[5]} | Negative: %{customdata[6]}<br>"
+                        "Explicit: %{customdata[9]} | Implicit: %{customdata[10]}"
                         "<extra></extra>"
                     ),
                 )
@@ -2476,7 +2488,7 @@ if st.session_state.selected_section == "Data Visualization 4":
         analysis_fig.update_layout(
             xaxis_title="StockNews category ranking",
             yaxis_title=f"Absolute {method_description} Z-score (σ)",
-            xaxis={"range": [-1.08, 1.08], "tickmode": "linear", "dtick": 0.25},
+            xaxis={"range": [-2.08, 2.08], "tickmode": "linear", "dtick": 0.5},
             hovermode="closest",
             legend_title_text="Ticker",
             height=650,
