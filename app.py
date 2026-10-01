@@ -2533,19 +2533,19 @@ if st.session_state.selected_section == "Data Visualization 4":
             fitted_y = np.polyval(regression_coefficients, chart_df["category_score"])
             residuals = np.asarray(chart_df["absolute_z_score"] - fitted_y, dtype=float)
             observed_x = np.asarray(chart_df["category_score"], dtype=float)
-            design_matrix = np.column_stack((observed_x ** 2, observed_x, np.ones_like(observed_x)))
-            grid_matrix = np.column_stack((regression_x ** 2, regression_x, np.ones_like(regression_x)))
-            residual_dof = max(1, len(observed_x) - 3)
-            residual_variance = float(np.sum(residuals ** 2) / residual_dof)
-            coefficient_covariance = residual_variance * np.linalg.pinv(design_matrix.T @ design_matrix)
-            mean_standard_error = np.sqrt(
-                np.maximum(0, np.einsum("ij,jk,ik->i", grid_matrix, coefficient_covariance, grid_matrix))
-            )
-            confidence_margin = 1.96 * mean_standard_error
+            local_x_half_window = 0.5
+            local_std = []
+            for point in regression_x:
+                local_residuals = residuals[np.abs(observed_x - point) <= local_x_half_window]
+                if len(local_residuals) < 3:
+                    nearest = np.argsort(np.abs(observed_x - point))[:min(5, len(residuals))]
+                    local_residuals = residuals[nearest]
+                local_std.append(float(np.std(local_residuals, ddof=1)))
+            local_std = np.asarray(local_std)
             analysis_fig.add_trace(
                 go.Scatter(
                     x=regression_x,
-                    y=regression_y + confidence_margin,
+                    y=regression_y + local_std,
                     mode="lines",
                     line={"width": 0},
                     hoverinfo="skip",
@@ -2556,12 +2556,12 @@ if st.session_state.selected_section == "Data Visualization 4":
             analysis_fig.add_trace(
                 go.Scatter(
                     x=regression_x,
-                    y=regression_y - confidence_margin,
+                    y=regression_y - local_std,
                     mode="lines",
                     line={"width": 0},
                     fill="tonexty",
                     fillcolor="rgba(255,209,102,0.18)",
-                    name="95% confidence interval",
+                    name="Local ±1 SD",
                     hoverinfo="skip",
                     legendgroup="absolute-regression-band",
                 )
@@ -2590,7 +2590,7 @@ if st.session_state.selected_section == "Data Visualization 4":
         st.caption(
             f"{len(chart_df)} StockNews observations plotted. "
             f"{absolute_filter_mode} signed Z-scores from {absolute_z_min:+.2f}σ to {absolute_z_max:+.2f}σ. "
-            "Regression band: 95% confidence interval for the fitted quadratic mean. "
+            "Regression band: local ±1 return SD using a ±0.5 category-ranking window. "
             f"{int((analysis_df['active_categories'] == 0).sum())} observations have no active category "
             "and are assigned a neutral score of 0."
         )
@@ -2681,19 +2681,19 @@ if st.session_state.selected_section == "Data Visualization 4":
             fitted_y = np.polyval(regression_coefficients, return_chart_df["category_score"])
             residuals = np.asarray(return_chart_df[z_column] - fitted_y, dtype=float)
             observed_x = np.asarray(return_chart_df["category_score"], dtype=float)
-            design_matrix = np.column_stack((observed_x ** 2, observed_x, np.ones_like(observed_x)))
-            grid_matrix = np.column_stack((regression_x ** 2, regression_x, np.ones_like(regression_x)))
-            residual_dof = max(1, len(observed_x) - 3)
-            residual_variance = float(np.sum(residuals ** 2) / residual_dof)
-            coefficient_covariance = residual_variance * np.linalg.pinv(design_matrix.T @ design_matrix)
-            mean_standard_error = np.sqrt(
-                np.maximum(0, np.einsum("ij,jk,ik->i", grid_matrix, coefficient_covariance, grid_matrix))
-            )
-            confidence_margin = 1.96 * mean_standard_error
+            local_x_half_window = 0.5
+            local_std = []
+            for point in regression_x:
+                local_residuals = residuals[np.abs(observed_x - point) <= local_x_half_window]
+                if len(local_residuals) < 3:
+                    nearest = np.argsort(np.abs(observed_x - point))[:min(5, len(residuals))]
+                    local_residuals = residuals[nearest]
+                local_std.append(float(np.std(local_residuals, ddof=1)))
+            local_std = np.asarray(local_std)
             return_fig.add_trace(
                 go.Scatter(
                     x=regression_x,
-                    y=regression_y + confidence_margin,
+                    y=regression_y + local_std,
                     mode="lines",
                     line={"width": 0},
                     hoverinfo="skip",
@@ -2704,12 +2704,12 @@ if st.session_state.selected_section == "Data Visualization 4":
             return_fig.add_trace(
                 go.Scatter(
                     x=regression_x,
-                    y=regression_y - confidence_margin,
+                    y=regression_y - local_std,
                     mode="lines",
                     line={"width": 0},
                     fill="tonexty",
                     fillcolor="rgba(255,209,102,0.18)",
-                    name="95% confidence interval",
+                    name="Local ±1 SD",
                     hoverinfo="skip",
                     legendgroup="signed-regression-band",
                 )
@@ -2740,7 +2740,7 @@ if st.session_state.selected_section == "Data Visualization 4":
             f"{len(return_chart_df)} StockNews observations plotted with the signed "
             f"{method_description} Z-score. {signed_filter_mode} signed Z-scores from "
             f"{signed_z_min:+.2f}σ to {signed_z_max:+.2f}σ. "
-            "Regression band: 95% confidence interval for the fitted quadratic mean."
+            "Regression band: local ±1 return SD using a ±0.5 category-ranking window."
         )
         st.stop()
 
