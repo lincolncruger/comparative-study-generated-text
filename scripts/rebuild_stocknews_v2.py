@@ -24,7 +24,7 @@ CATEGORIES = [
     "Guidance", "Order book / backlog", "Revenue",
     "New Product Release / Users", "Profits, costs and margin",
     "Debt, leverage and capital raise", "Capex", "Management",
-    "Litigation", "Macro and micro development",
+    "Litigation", "Macro and micro development", "Immediate reaction divergence",
 ]
 
 
@@ -122,8 +122,12 @@ def validate(note_key, result, observation):
         raise ValueError(f"{note_key}: category schema/order mismatch")
     if not result["sources"]:
         raise ValueError(f"{note_key}: no retained sources")
-    if not result["reaction_reported"] and any(result["categories"].values()):
+    explanatory = [result["categories"][name] for name in CATEGORIES[:-1]]
+    if not result["reaction_reported"] and any(explanatory):
         raise ValueError(f"{note_key}: categories assigned without a reported reaction")
+    divergence = result["categories"]["Immediate reaction divergence"]
+    if divergence and divergence.get("attribution") != "implicit":
+        raise ValueError(f"{note_key}: immediate-reaction divergence must be implicit")
     input_urls = {a.get("url") for a in observation["articles"] if a.get("url")}
     for source in result["sources"]:
         if source["url"] not in input_urls:

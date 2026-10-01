@@ -6,9 +6,10 @@ fetched from a news provider's API for each earnings observation, that:
 1. keeps only the quality articles,
 2. writes three paragraphs: a summary, the explicit reasons for the stock's
    move, and the implicit reasons,
-3. fills a category table saying which of 10 categories the articles tie to the
-   move, in which direction relative to expectations, and whether the link is
-   explicit or implicit.
+3. fills a category table saying which of 10 explanatory categories the articles
+   tie to the move, in which direction relative to expectations, and whether the
+   link is explicit or implicit, plus an eleventh derived category that identifies
+   a sign reversal between the article's immediate reaction and the two-day return.
 
 Explicit categories are the first-order reasons for the move; implicit ones are
 second- or third-order reasons.
@@ -76,7 +77,7 @@ Read: [input file path]
 
 It's a JSON object keyed by note_key (e.g. "TJX_2016q2"). Each entry has: ticker, company_name, fiscal_yearquarter, earnings_date, ret_1day_pct/ret_2day_pct/ret_3day_pct/ret_5day_pct (real market data -- see the critical rule below), "articles": every distinct relevant [SOURCE] article available for that earnings event after exhaustive pagination and deterministic validation, and optionally "filings": the company's 8-K / earnings press release for that quarter. Each article includes its provider ID, title, publication date/time, original URL, resolved URL, URL status, title/company/date match results, text-completeness status and article text.
 
-*** CRITICAL RULE: only present what the articles say. NEVER mention, cite, or compare against the ret_1day_pct/ret_2day_pct/ret_3day_pct/ret_5day_pct figures. They are OUR OWN computed numbers, not something any article reported, and writing them into the output makes it look like the article said something it never said. Use them only for your own background orientation. If an article states the stock's reaction (e.g. "shares fell 6% in after-hours trading"), report that, since it IS from the article. ***
+*** CRITICAL RULE: only present what the articles say. NEVER mention, cite, or compare against the ret_1day_pct/ret_2day_pct/ret_3day_pct/ret_5day_pct figures in the three prose paragraphs or in the 10 explanatory categories. They are OUR OWN computed numbers, not something any article reported, and writing them into the prose makes it look like the article said something it never said. The sole exception is the derived "Immediate reaction divergence" category defined below: use ret_2day_pct only to compare its sign with the sign of an immediate reaction explicitly reported by an article. In that category's text, state only the two directions, never the computed two-day percentage. If an article states the stock's reaction (e.g. "shares fell 6% in after-hours trading"), report that sourced reaction normally. ***
 
 The articles list is the complete evidence set for the observation. Read every article before writing. Do not select only the first few, stop after finding one plausible explanation, or ignore later follow-up coverage. Work through each observation in five steps.
 
@@ -92,7 +93,8 @@ Everything below uses ONLY the kept articles.
 Order the kept articles chronologically by publication date and time, earliest first: the articles published closest to the earnings release come first, and articles from subsequent days follow in date order. Read them in that order.
 
 STEP 2 -- IDENTIFY THE CATEGORIES THAT EXPLAIN THE MOVE.
-Use exactly these 10 categories, with these definitions:
+Use exactly these 11 categories, with these definitions. The first 10 are
+explanatory categories; the eleventh is a derived sign-divergence indicator:
 
   "Guidance" -- FORWARD-LOOKING statements about what management, analysts or the article expects after the reported quarter: future revenue, profit, margins, costs, demand, capex, economic conditions or other outlook. Forward-looking commentary is classified here even when its subject would otherwise resemble another category. For example, management saying economic conditions will worsen belongs in Guidance, not Macro and micro development.
   "Order book / backlog" -- whether the order book or backlog is growing or shrinking for companies that sell products. This category has no separate temporal classification; use the backlog or order-book comparison that the coverage ties to the move.
@@ -104,6 +106,7 @@ Use exactly these 10 categories, with these definitions:
   "Management" -- ONGOING or BACKWARD-LOOKING management changes, actions, execution, tone or strategy that occurred during or relate to the corresponding completed quarter. Do not place a forward-looking operating or economic forecast here merely because management delivered it; classify the substance of that forecast as Guidance.
   "Litigation" -- BACKWARD-LOOKING, ONGOING or FORWARD-LOOKING lawsuits and legal or regulatory proceedings.
   "Macro and micro development" -- BACKWARD-LOOKING developments within the corresponding completed quarter. Macro includes economy-wide forces such as trade wars, currency moves or weather; micro includes idiosyncratic company or industry developments such as a supplier problem, recall, plant outage or competitor action. A prediction that economic, industry or company-specific conditions will improve or worsen after the quarter belongs in Guidance, not this category.
+  "Immediate reaction divergence" -- a DERIVED indicator, not a reason for the move. Include it only when a retained article explicitly reports the stock's immediate post-release direction and that direction has the opposite sign from ret_2day_pct. Use the earliest specific post-release reaction reported after the earnings announcement; ignore vague historical performance and pre-release trading. If the article reports a positive immediate reaction but ret_2day_pct is negative, direction is "negative". If the article reports a negative immediate reaction but ret_2day_pct is positive, direction is "positive". Set attribution to "implicit" because the sign comparison is computed by this project rather than asserted by the article. In the text, report the article's sourced immediate reaction and say that the two-day return finished in the opposite direction, but do not reveal the computed ret_2day_pct value. Set this category to null when the signs agree, ret_2day_pct is zero or unavailable, no retained article reports a specific immediate reaction, or the reported reaction is flat or ambiguous.
 
 Temporal routing is mandatory. Classify a statement according to both its subject
 and its time orientation. Do not duplicate one statement across Guidance and a
@@ -135,7 +138,12 @@ Examples:
   - "Revenue declined during the reported quarter" belongs in Revenue; "management
     expects revenue to decline next quarter" belongs in Guidance.
 
-A category is included only if the articles attribute the stock's move to it, explicitly or implicitly. A category the articles mention without tying it to the move is omitted. Many observations will leave several categories out (Litigation, Capex, etc.) -- that is expected.
+A category is included only if the articles attribute the stock's move to it,
+explicitly or implicitly. A category the articles mention without tying it to the
+move is omitted. Many observations will leave several categories out (Litigation,
+Capex, etc.) -- that is expected. This causal-attribution requirement applies to
+the first 10 categories. Immediate reaction divergence follows its special sign-
+comparison rule and must never be described as a cause of the move.
 
 Attribution:
   - EXPLICIT: an article states a direct cause-and-effect link between the category and the stock's move. E.g. "shares fell because profit disappointed", "the guidance cut sent shares lower", "investors punished the stock for weak margins". A link stated by analysts or another source that the article quotes also counts as explicit (e.g. "analysts said the guidance cut drove the selloff"). Several categories can be explicit.
@@ -160,7 +168,7 @@ STEP 3 -- WRITE THREE PARAGRAPHS. Stay brief and concise on each category -- one
 3. "implicit_reasons": the implicit categories, the same way. If there are none, write one sentence saying so.
 
 STEP 4 -- FILL THE CATEGORY TABLE.
-"categories" is an object with all 10 category names as keys, in the order above. For an included category, the value is {"direction": "positive" or "negative", "attribution": "explicit" or "implicit", "text": "..."} where "text" is one to three sentences: what happened versus what was expected, with the articles' own figures or wording. For an omitted category, the value is null. The table and the paragraphs must match: every explicit category is discussed in explicit_reasons, every implicit one in implicit_reasons, and no paragraph gives a reason that isn't in the table.
+"categories" is an object with all 11 category names as keys, in the order above. For an included category, the value is {"direction": "positive" or "negative", "attribution": "explicit" or "implicit", "text": "..."} where "text" is one to three sentences: what happened versus what was expected, with the articles' own figures or wording. For an omitted category, the value is null. For the first 10 categories, the table and the paragraphs must match: every explicit category is discussed in explicit_reasons, every implicit one in implicit_reasons, and no paragraph gives a reason that isn't in the table. Immediate reaction divergence is displayed only in the table and must not be inserted into explicit_reasons or implicit_reasons because it is a derived indicator, not an explanatory reason.
 
 STEP 5 -- VERIFY EVERY CLAIM AGAINST THE COMPLETE EVIDENCE SET.
 Before writing the output, trace every reported number, expectation, quotation, stock reaction and causal statement to one or more kept articles. Reconcile apparent conflicts by checking dates, periods, GAAP versus adjusted measures, and whether an article is describing the current or a prior quarter. When reliable sources genuinely disagree, describe the disagreement and attribute each version; never silently choose one. Remove any statement that cannot be supported by the supplied text. Confirm that the synthesis reflects all material relevant coverage, not only the most convenient article.
@@ -180,16 +188,19 @@ Output: write to [output file path] -- a JSON object keyed by note_key (only for
   "summary_analysis": "...",
   "explicit_reasons": "...",
   "implicit_reasons": "...",
-  "categories": {"Guidance": {...} or null, ... all 10 ...},
+  "categories": {"Guidance": {...} or null, ... all 11 ...},
   "sources": [{"title": ..., "published_date": ..., "url": ...} for each kept article and each filing used]
 }
 
 Before finishing, check every entry:
 - the output text contains none of: "day return", "ret_", or a percentage in parentheses that isn't from the articles;
-- "categories" has exactly the 10 keys above, spelled exactly;
+- "categories" has exactly the 11 keys above, spelled exactly;
 - every included category states what was expected, or says the articles give no expectation;
 - every explicit category appears in explicit_reasons, every implicit one in implicit_reasons, and nothing else is given as a reason;
 - no category is marked explicit unless an article states the link;
+- Immediate reaction divergence is implicit, appears only when the sourced immediate
+  reaction and ret_2day_pct have opposite signs, and never exposes the computed
+  two-day percentage;
 - every numerical and causal claim can be located in at least one kept article;
 - conflicts across sources are reconciled or explicitly attributed rather than hidden;
 - every kept article and every filing used is in "sources", in chronological order (earliest first), with its validated resolved URL copied exactly from the input.
@@ -237,6 +248,10 @@ Report how many observations you wrote, how many you skipped for having no quali
 - **Quality gates before and after the prompt**: deterministic retrieval checks
   precede generation and deterministic claim/schema checks follow it.
   Observations that fail either gate are quarantined, not padded or published.
+- **Immediate reaction divergence is not causal evidence**: it captures a reversal
+  between a source-reported immediate reaction and the project's two-day return.
+  Its direction follows the two-day return, it always has implicit weight, and it
+  stays out of the explanatory paragraphs.
 
 ## Adapting per source
 
@@ -247,7 +262,7 @@ Report how many observations you wrote, how many you skipped for having no quali
   `headline`/`date`/`source`/`url`/`summary`). Adjust the input description,
   and put `url` in `sources` whenever the provider gives one so the dashboard
   can link it.
-- These 10 categories differ from the 11 in `PD_CATEGORIES` in `app.py`
+- The first 10 categories differ from the 11 in `PD_CATEGORIES` in `app.py`
   (Profits and Costs are merged, and three others are renamed). The dashboard's
   existing category table uses the old 11, so it will need updating before it
   can display output from this prompt.

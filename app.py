@@ -1054,7 +1054,7 @@ def _show_pd_categories_dialog(note_key):
 
 
 # Exact key strings of the "categories" table written by the Why Moved 2
-# prompt (see "Why Moved 2.md") -- a different, 10-category set from
+# prompt (see "Why Moved 2.md") -- a different, 11-category set from
 # PD_CATEGORIES above.
 WHY_MOVED_2_CATEGORIES = [
     "Guidance",
@@ -1067,6 +1067,7 @@ WHY_MOVED_2_CATEGORIES = [
     "Management",
     "Litigation",
     "Macro and micro development",
+    "Immediate reaction divergence",
 ]
 
 
@@ -2366,11 +2367,26 @@ if st.session_state.selected_section == "Data Visualization 4":
 
     dv4_ticker = st.session_state.selected_dv4_ticker
     if dv4_ticker == "Data Analysis":
+        selected_analysis_categories = st.multiselect(
+            "Categories included in ranking",
+            WHY_MOVED_2_CATEGORIES,
+            default=WHY_MOVED_2_CATEGORIES,
+            key="dv4_analysis_categories",
+            help=(
+                "Unselect any category to remove it from both the numerator and denominator. "
+                "Immediate reaction divergence identifies observations where the article's "
+                "immediate reaction and the computed two-day return have opposite signs."
+            ),
+        )
         analysis_rows = []
         for _, analysis_row in dv4_rows.iterrows():
             analysis_key = analysis_row["note_key"]
             category_cells = stocknews_coverage_lookup[analysis_key].get("categories", {})
-            active_cells = [cell for cell in category_cells.values() if cell]
+            active_cells = [
+                category_cells.get(category)
+                for category in selected_analysis_categories
+                if category_cells.get(category)
+            ]
             positive_count = sum(cell.get("direction") == "positive" for cell in active_cells)
             negative_count = sum(cell.get("direction") == "negative" for cell in active_cells)
             explicit_count = sum(cell.get("attribution") == "explicit" for cell in active_cells)
@@ -2438,6 +2454,7 @@ if st.session_state.selected_section == "Data Visualization 4":
             "color:rgba(214,228,240,0.82);'>"
             "Category score = signed weighted category sum ÷ total active categories. "
             "Explicit categories receive twice the numerator weight (±2) of implicit categories (±1). "
+            "Only categories selected above enter the numerator and denominator. "
             "The score ranges from −2 to +2. Observations with "
             "no active category are retained at 0 and identified in the hover details.</div>",
             unsafe_allow_html=True,
