@@ -613,7 +613,7 @@ def load_group3_band_observations(mtime_marker):
     return sampled.sort_values(["ticker", "earnings_date"]).reset_index(drop=True)
 
 
-# Data Visualization 4: 2 new market-cap bands (Small & Mid Cap and a
+# Data Visualization 5: 2 new market-cap bands (Small & Mid Cap and a
 # merged Large Cap band covering $100B-$1T -- the original 3-band split
 # had a separate Mega Cap $500B+ tier, but true mega-caps are scarce once
 # Data Viz 1/2/3's tickers are excluded, so Large and Mega were merged
@@ -676,7 +676,7 @@ def load_group4_band_observations(mtime_marker):
     return sampled.sort_values(["ticker", "earnings_date"]).reset_index(drop=True)
 
 
-# Data Visualization 5: same pattern as Data Visualization 4 -- 20 more
+# Data Visualization 6: same pattern as Data Visualization 5 -- 20 more
 # newly-selected tickers (screened via live yfinance market-cap lookups
 # against our own CUPIP dataset, excluding every ticker already used in
 # Data Viz 1/2/3/4; scripts/screen_viz5_candidates.py), same 2 bands, same
@@ -733,7 +733,7 @@ def load_group5_band_observations(mtime_marker):
     return sampled.sort_values(["ticker", "earnings_date"]).reset_index(drop=True)
 
 
-# Data Visualization 6: same pattern as Data Visualization 4/5 -- 24 more
+# Data Visualization 7: same pattern as Data Visualization 5/6 -- 24 more
 # newly-selected tickers (screened via live yfinance market-cap lookups
 # against our own CUPIP dataset, excluding every ticker already used in
 # Data Viz 1/2/3/4/5; scripts/screen_viz6_candidates.py), same 2021-2023
@@ -1812,7 +1812,7 @@ if "selected_section" not in st.session_state:
 
 sections = [
     "Data Visualization", "Data Visualization 2", "Data Visualization 3", "Data Visualization 4",
-    "Data Visualization 5", "Data Visualization 6", "Comparative Study",
+    "Data Visualization 5", "Data Visualization 6", "Data Visualization 7", "Comparative Study",
 ]
 section_cols = st.columns(len(sections))
 for col, sec in zip(section_cols, sections):
@@ -2332,6 +2332,193 @@ if st.session_state.selected_section == "Data Visualization 3":
     st.stop()
 
 if st.session_state.selected_section == "Data Visualization 4":
+    # Focused copy of Data Visualization 1: only post-March-2019 earnings
+    # observations for which the StockNews / Why Moved 2 pipeline retained at
+    # least one quality article.  The three columns preserve Data Viz 1's
+    # comparison while fixing StockNews as the coverage source.
+    dv4_rows = df[df["earnings_date"] >= pd.Timestamp("2019-04-01")].copy()
+    dv4_rows["note_key"] = dv4_rows["ticker"] + "_" + dv4_rows["fiscal_yearquarter"]
+    dv4_rows = dv4_rows[dv4_rows["note_key"].isin(stocknews_coverage_lookup)].reset_index(drop=True)
+    dv4_tickers = [ticker for ticker in tickers if ticker in set(dv4_rows["ticker"])]
+
+    if not dv4_tickers:
+        st.info("No post-March-2019 StockNews observations are available.")
+        st.stop()
+
+    if "selected_dv4_ticker" not in st.session_state or st.session_state.selected_dv4_ticker not in dv4_tickers:
+        st.session_state.selected_dv4_ticker = dv4_tickers[0]
+
+    dv4_nav_cols = st.columns(len(dv4_tickers))
+    for col, ticker in zip(dv4_nav_cols, dv4_tickers):
+        with col:
+            selected = st.session_state.selected_dv4_ticker == ticker
+            if st.button(
+                ticker,
+                key=f"dv4_navbtn_{ticker}",
+                use_container_width=True,
+                type="primary" if selected else "secondary",
+                help=ticker_labels.get(ticker, ticker),
+            ):
+                st.session_state.selected_dv4_ticker = ticker
+
+    st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+    dv4_ticker = st.session_state.selected_dv4_ticker
+    dv4_sub = dv4_rows[dv4_rows["ticker"] == dv4_ticker].reset_index(drop=True)
+    dv4_company_name = dv4_sub["company_name"].iloc[0]
+    dv4_period_start = dv4_sub["earnings_date"].min().strftime("%Y-%m-%d")
+    dv4_period_end = dv4_sub["earnings_date"].max().strftime("%Y-%m-%d")
+
+    st.markdown(
+        f"<div class='quarter-header' style='font-size:1.4rem; text-align:center;'>"
+        f"{dv4_ticker} — {dv4_company_name}</div>",
+        unsafe_allow_html=True,
+    )
+    st.markdown(
+        f"<div style='text-align:center; color:rgba(214,228,240,0.7); font-size:0.85rem;'>"
+        f"{len(dv4_sub)} StockNews observations, {dv4_period_start} to {dv4_period_end}</div>",
+        unsafe_allow_html=True,
+    )
+
+    render_price_chart(dv4_ticker, price_history, dv4_sub)
+    st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+    dv4_sp_df = None
+    if price_history is not None:
+        dv4_sp_df = pd.DataFrame(price_history["sp500"])
+        dv4_sp_df["date"] = pd.to_datetime(dv4_sp_df["date"])
+        dv4_sp_df = dv4_sp_df.sort_values("date").reset_index(drop=True)
+
+    for dv4_idx, dv4_row in dv4_sub.iterrows():
+        dv4_note_key = dv4_row["note_key"]
+        dv4_ret_pct = dv4_row["ret_2day"] * 100
+        dv4_sp_ret = sp_return_2day(dv4_sp_df, dv4_row["earnings_date"]) if dv4_sp_df is not None else None
+        dv4_sp_ret_str = f"{dv4_sp_ret:+.2f}%" if dv4_sp_ret is not None else "n/a"
+        dv4_abnormal = abnormal_returns_lookup.get(dv4_note_key, {})
+
+        st.markdown(
+            f"<div class='quarter-header' style='text-align:center;'>{dv4_row['fiscal_yearquarter'].upper()} "
+            f"&nbsp;|&nbsp; earnings {dv4_row['earnings_date'].strftime('%Y-%m-%d')}</div>"
+            f"<div class='quarter-header' style='text-align:center;'>2-day return {dv4_ret_pct:+.2f}% "
+            f"&nbsp;|&nbsp; S&amp;P 2-day return {dv4_sp_ret_str}</div>"
+            f"<div style=\"text-align:center; font-size:1.5rem; font-family:'Cormorant Garamond', serif; "
+            f"color:rgba(214,228,240,0.9); margin-bottom:0.3rem;\">"
+            f"Excess return {excess_return_str(dv4_ret_pct, dv4_sp_ret)}"
+            f"{market_adjusted_z_suffix(dv4_abnormal.get('market_adjusted'))} &nbsp;|&nbsp; "
+            f"Beta-adjusted abnormal return {abnormal_return_str(dv4_abnormal.get('market_model'))}</div>",
+            unsafe_allow_html=True,
+        )
+
+        dv4_context_summary = context_summaries_lookup.get(dv4_note_key)
+        with st.container(key=f"dv4_viz_{dv4_note_key}"):
+            dv4_toggle_id = f"dv4_viz_toggle_{dv4_note_key}"
+            st.html(
+                f"<input type='checkbox' id='{dv4_toggle_id}' class='visualize-checkbox'>"
+                f"<label for='{dv4_toggle_id}' class='visualize-label'>Visualize</label>"
+            )
+            dv4_fig = build_quarter_visualize_fig(
+                dv4_ticker, price_history, dv4_sub, dv4_idx, dv4_context_summary
+            )
+            if dv4_fig is not None:
+                st.plotly_chart(dv4_fig, use_container_width=True, key=f"dv4_chart_{dv4_note_key}")
+
+        dv4_context_col, dv4_generated_col, dv4_stocknews_col = st.columns(3, gap="large")
+        dv4_websearch_sections = websearch_long_lookup.get(dv4_note_key)
+        dv4_existing_note = notes_lookup.get(dv4_note_key, "")
+
+        with dv4_context_col:
+            st.markdown(
+                "<div style='text-align:center; font-weight:bold;'>Contextualized interpretation</div>",
+                unsafe_allow_html=True,
+            )
+            if dv4_websearch_sections:
+                st.html(format_websearch_context(dv4_websearch_sections, dv4_note_key))
+            elif dv4_existing_note:
+                st.html(format_context_text(dv4_existing_note))
+                dv4_sources = sources_lookup.get(dv4_note_key, [])
+                if dv4_sources:
+                    dv4_links = "".join(
+                        f"<a href='{source['url']}' target='_blank' rel='noopener noreferrer' "
+                        f"style='display:block; color:#4A90D9; font-size:0.82rem; "
+                        f"margin-bottom:0.4rem; text-decoration:none;'>{source['label']}</a>"
+                        for source in dv4_sources
+                    )
+                    dv4_verify_id = f"dv4_verify_{dv4_note_key}"
+                    st.html(
+                        f"<div class='verify-toggle-wrap'><input type='checkbox' id='{dv4_verify_id}'>"
+                        f"<label for='{dv4_verify_id}'>Verify</label>"
+                        f"<div class='verify-content'>{dv4_links}</div></div>"
+                    )
+            else:
+                st.write("*No interpretation written yet for this quarter.*")
+
+        with dv4_generated_col:
+            st.markdown(
+                "<div style='text-align:center; font-weight:bold;'>Generated text</div>",
+                unsafe_allow_html=True,
+            )
+            dv4_paragraph = str(dv4_row["final_paragraph"]).replace("$", "&#36;")
+            if dv4_websearch_sections:
+                dv4_spacer = (
+                    f"<div class='context-heading' style='visibility:hidden;'>"
+                    f"{dv4_websearch_sections[0]['heading']}</div>"
+                )
+            elif dv4_existing_note:
+                dv4_spacer = "<div class='context-heading' style='visibility:hidden;'>Prior Context</div>"
+            else:
+                dv4_spacer = ""
+            st.html(f"{dv4_spacer}<p style='margin:0 0 0.6rem 0; text-align:justify;'>{dv4_paragraph}</p>")
+            dv4_bullets = bullets_lookup.get((dv4_row["ticker"], dv4_row["fiscal_yearquarter"]), [])
+            if dv4_bullets:
+                st.html(
+                    "<div style='display:flex; flex-direction:column; align-items:center; margin:1.2rem 0;'>"
+                    "<div style='width:2px; height:36px; background:#FFD700;'></div>"
+                    "<div style='width:0; height:0; border-left:7px solid transparent; "
+                    "border-right:7px solid transparent; border-top:11px solid #FFD700;'></div></div>"
+                )
+                dv4_bullet_items = "".join(
+                    f"<li style='margin-bottom:0.3rem;'>{bullet.replace('$', '&#36;')}</li>"
+                    for bullet in dv4_bullets
+                )
+                st.html(
+                    f"<ul style='color:#D6E4F0; font-size:0.9rem; padding-left:1.2rem;'>"
+                    f"{dv4_bullet_items}</ul>"
+                )
+
+        with dv4_stocknews_col:
+            st.markdown(
+                "<div style='text-align:center; font-weight:bold;'>StockNews API Coverage</div>",
+                unsafe_allow_html=True,
+            )
+            dv4_stocknews = stocknews_coverage_lookup[dv4_note_key]
+            for field, heading in [
+                ("summary_analysis", "Summary Analysis"),
+                ("explicit_reasons", "Explicit Reasons"),
+                ("implicit_reasons", "Implicit Reasons"),
+            ]:
+                if dv4_stocknews.get(field):
+                    st.html(
+                        f"<div class='context-heading'>{heading}</div>"
+                        f"<p style='margin-bottom:0.8rem; text-align:justify;'>"
+                        f"{render_inline_markdown(dv4_stocknews[field])}</p>"
+                    )
+            dv4_source_links = "".join(
+                render_djnw_source_link_html(source) for source in dv4_stocknews.get("sources", [])
+            )
+            if dv4_source_links:
+                st.html(dv4_source_links)
+            if st.button(
+                "StockNews Categories",
+                key=f"dv4_stocknews_cat_{dv4_note_key}",
+                use_container_width=True,
+            ):
+                _show_why_moved_2_categories_dialog(dv4_stocknews, "StockNews API")
+
+        st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+    st.stop()
+
+if st.session_state.selected_section == "Data Visualization 5":
     # 2 subgroups, both with newly-selected tickers excluded from Data Viz
     # 1/2/3 (see GROUP4_GROUPS above): "Small & Mid Cap" ($250M-$10B) and
     # "Large Cap" ($100B-$1T, merged from the original separate Large/Mega
@@ -2474,8 +2661,8 @@ if st.session_state.selected_section == "Data Visualization 4":
 
     st.stop()
 
-if st.session_state.selected_section == "Data Visualization 5":
-    # Same pattern as Data Visualization 4: 2 subgroups, "Small & Mid Cap"
+if st.session_state.selected_section == "Data Visualization 6":
+    # Same pattern as Data Visualization 5: 2 subgroups, "Small & Mid Cap"
     # ($250M-$10B) and "Large Cap" ($100B-$1T), with 20 more newly-
     # selected tickers excluded from Data Viz 1/2/3/4 (see GROUP5_GROUPS
     # above).
@@ -2615,8 +2802,8 @@ if st.session_state.selected_section == "Data Visualization 5":
 
     st.stop()
 
-if st.session_state.selected_section == "Data Visualization 6":
-    # Same pattern as Data Visualization 4/5: 2 subgroups, "Small & Mid Cap"
+if st.session_state.selected_section == "Data Visualization 7":
+    # Same pattern as Data Visualization 5/6: 2 subgroups, "Small & Mid Cap"
     # ($250M-$10B) and "Large Cap" ($100B-$1T), with 20 more newly-
     # selected tickers excluded from Data Viz 1/2/3/4/5 (see GROUP6_GROUPS
     # above).
