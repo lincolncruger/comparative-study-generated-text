@@ -6,6 +6,7 @@ after every successful response and are not merged into the dashboard until the
 entire requested batch has passed deterministic validation.
 """
 import argparse
+import concurrent.futures
 import json
 import os
 import time
@@ -154,7 +155,10 @@ def request(key, instructions, note_key, observation):
                 "schema": schema(),
             }
         },
-        "max_output_tokens": 6000,
+        # High reasoning consumes reasoning tokens from this allowance before
+        # emitting the structured JSON.  Six thousand caused otherwise-valid
+        # requests to end without output_text, so leave ample room for both.
+        "max_output_tokens": 20000,
     }
     req = urllib.request.Request(
         API,
@@ -179,14 +183,19 @@ def main():
     parser.add_argument("--data-viz-5", action="store_true")
     parser.add_argument("--include-aaon", action="store_true")
     parser.add_argument("--force", action="store_true")
+    parser.add_argument("--workers", type=int, default=3)
+    parser.add_argument("--batch-keys", help="JSON list of note_keys to process")
     args = parser.parse_args()
 
     key = env_key("OPENAI_API_KEY")
     observations = json.loads(INPUT.read_text())
     staged = json.loads(STAGE.read_text()) if STAGE.exists() else {}
     audit = json.loads(AUDIT.read_text()) if AUDIT.exists() else {}
+    batch_keys = set(json.loads(Path(args.batch_keys).read_text())) if args.batch_keys else None
     targets = []
     for note_key, observation in observations.items():
+        if batch_keys is not None and note_key not in batch_keys:
+            continue
         if args.data_viz_5 and observation["ticker"] not in {
             "MTW", "SFIX", "PCTY", "MGNI", "ASO", "NGL", "REZI", "CENTA", "BSM", "METC",
             "BA", "JNJ", "PH", "MRVL", "FTNT", "TMUS", "UBER", "VZ", "MO", "MCD",
@@ -203,7 +212,23 @@ def main():
         targets = targets[:args.limit]
 
     instructions = prompt_core()
+    api_targets = []
     for index, (note_key, observation) in enumerate(targets, 1):
+        started = time.time()
+        if not any(article.get("full_text") for article in observation.get("articles", [])):
+            audit[note_key] = {
+                "status": "quarantined",
+                "model": MODEL,
+                "input_articles": len(observation.get("articles", [])),
+                "error": "No usable full-text article passed the publication gate",
+            }
+            print(f"[{index}/{len(targets)}] {note_key}: QUARANTINED: no usable full text", flush=True)
+            save(AUDIT, audit)
+            continue
+        api_targets.append((note_key, observation))
+
+    def generate(target):
+        note_key, observation = target
         started = time.time()
         error = None
         for attempt in range(3):
@@ -221,8 +246,7 @@ def main():
         if result is not None:
             rejected = result.pop("rejected_sources")
             reaction = result.pop("reaction_reported")
-            staged[note_key] = result
-            audit[note_key] = {
+            audit_entry = {
                 "status": "validated",
                 "model": MODEL,
                 "input_articles": len(observation["articles"]),
@@ -231,15 +255,28 @@ def main():
                 "reaction_reported": reaction,
                 "elapsed_seconds": round(time.time() - started, 2),
             }
-            print(f"[{index}/{len(targets)}] {note_key}: validated", flush=True)
         else:
-            audit[note_key] = {
+            audit_entry = {
                 "status": "quarantined", "model": MODEL,
                 "input_articles": len(observation["articles"]), "error": error,
             }
-            print(f"[{index}/{len(targets)}] {note_key}: QUARANTINED: {error}", flush=True)
-        save(STAGE, staged)
-        save(AUDIT, audit)
+        return note_key, result, audit_entry
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, args.workers)) as executor:
+        futures = {executor.submit(generate, target): target[0] for target in api_targets}
+        for index, future in enumerate(concurrent.futures.as_completed(futures), 1):
+            note_key, result, audit_entry = future.result()
+            audit[note_key] = audit_entry
+            if result is not None:
+                staged[note_key] = result
+                print(f"[{index}/{len(api_targets)}] {note_key}: validated", flush=True)
+            else:
+                print(
+                    f"[{index}/{len(api_targets)}] {note_key}: QUARANTINED: {audit_entry['error']}",
+                    flush=True,
+                )
+            save(STAGE, staged)
+            save(AUDIT, audit)
 
     print(f"staged={len(staged)} audited={len(audit)}")
 

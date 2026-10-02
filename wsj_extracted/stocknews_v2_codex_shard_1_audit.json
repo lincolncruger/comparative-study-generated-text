@@ -1,0 +1,270 @@
+{
+  "METC_2021q3": {
+    "status": "validated",
+    "model": "codex",
+    "input_articles": 3,
+    "retained_sources": 1,
+    "rejected_sources": [
+      {"title": "Ramaco Resources (METC) Q2 Earnings and Revenues Beat Estimates", "reason": "No usable full text was supplied."},
+      {"title": "Ramaco Resources: A Great Way To Benefit From Surging Met Coal Prices", "reason": "No usable full text was supplied."}
+    ],
+    "reaction_reported": false
+  },
+  "METC_2023q2": {
+    "status": "validated",
+    "model": "codex",
+    "input_articles": 4,
+    "retained_sources": 2,
+    "rejected_sources": [
+      {"title": "Major Deposits of Magnetic Rare Earth Elements Discovered at Ramaco Resources Mine in Wyoming", "reason": "No usable full text was supplied."},
+      {"title": "Ramaco Resources, Inc. (METC) Q1 2023 Earnings Call Transcript", "reason": "No usable full text was supplied."}
+    ],
+    "reaction_reported": false
+  },
+  "MGNI_2022q2": {
+    "status": "validated",
+    "model": "codex",
+    "input_articles": 3,
+    "retained_sources": 1,
+    "rejected_sources": [
+      {"title": "Magnite, Inc. (MGNI) CEO Michael Barrett on Q1 2022 Results - Earnings Call Transcript", "reason": "No usable full text was supplied."},
+      {"title": "Magnite to Present at Upcoming Financial Conferences", "reason": "No usable full text was supplied and the item is unrelated to the earnings reaction."}
+    ],
+    "reaction_reported": false
+  },
+  "NGL_2021q3": {
+    "status": "validated",
+    "model": "codex",
+    "input_articles": 3,
+    "retained_sources": 1,
+    "rejected_sources": [
+      {"title": "NGL Energy Partners LP Announces First Quarter Fiscal 2022 Financial Results", "reason": "No usable full text was supplied."},
+      {"title": "NGL Energy Partners LP (NGL) CEO Mike Krimbill on Q1 2022 Results - Earnings Call Transcript", "reason": "No usable full text was supplied."}
+    ],
+    "reaction_reported": true
+  },
+  "PCTY_2023q1": {
+    "status": "validated",
+    "model": "codex",
+    "input_articles": 4,
+    "retained_sources": 1,
+    "rejected_sources": [
+      {"title": "Paylocity Announces Second Quarter Fiscal Year 2023 Financial Results", "reason": "No usable full text was supplied."},
+      {"title": "Paylocity Holding Corporation (PCTY) Q2 2023 Earnings Call Transcript", "reason": "No usable full text was supplied."},
+      {"title": "Paylocity (PCTY) Soars 4% on Q2 Earnings Beat, Guidance Raise", "reason": "No usable full text was supplied."}
+    ],
+    "reaction_reported": false
+  },
+  "PH_2023q2": {
+    "status": "validated",
+    "model": "codex",
+    "input_articles": 8,
+    "retained_sources": 2,
+    "rejected_sources": [
+      {"title": "Should You Buy Parker Hannifin (PH) Ahead of Earnings?", "reason": "No usable full text was supplied."},
+      {"title": "Parker Reports Fiscal 2023 Third Quarter Results", "reason": "No usable full text was supplied."},
+      {"title": "5 Stocks to Buy on Dividend Hikes as Recession Fears Grow", "reason": "No usable full text was supplied and the item is not substantive earnings-reaction coverage."},
+      {"title": "Parker-Hannifin Corporation (PH) Q3 2023 Earnings Call Transcript", "reason": "No usable full text was supplied."},
+      {"title": "Parker-Hannifin (PH) Beats on Q3 Earnings, Ups Fiscal '23 View", "reason": "No usable full text was supplied."},
+      {"title": "14 Upcoming Dividend Increases, Including One Dividend King", "reason": "No usable full text was supplied and the item is not substantive earnings-reaction coverage."}
+    ],
+    "reaction_reported": false
+  },
+  "REZI_2022q3": {
+    "status": "validated",
+    "model": "codex",
+    "input_articles": 2,
+    "retained_sources": 1,
+    "rejected_sources": [
+      {"title": "Resideo Technologies, Inc.'s (REZI) CEO Jay Geldmacher on Q2 2022 Results - Earnings Call Transcript", "reason": "No usable full text was supplied."}
+    ],
+    "reaction_reported": false
+  },
+  "MRVL_2022q2": {
+    "status": "validated",
+    "model": "codex",
+    "input_articles": 3,
+    "retained_sources": 2,
+    "rejected_sources": [
+      {"title": "Marvell Achieves Industry-Leading 100,000 400G Coherent DSP Shipment Milestone", "reason": "The article concerns a product-shipment milestone before the release and does not establish earnings expectations or explain the earnings reaction."}
+    ],
+    "reaction_reported": false
+  },
+  "MRVL_2023q4": {
+    "status": "validated",
+    "model": "codex",
+    "input_articles": 5,
+    "retained_sources": 4,
+    "rejected_sources": [
+      {"title": "Marvell Technology, Inc. (MRVL) Q3 2024 Earnings Call Transcript", "reason": "No usable full text was supplied."}
+    ],
+    "reaction_reported": true
+  },
+  "MO_2021q1": {
+    "status": "validated",
+    "model": "codex",
+    "input_articles": 13,
+    "retained_sources": 2,
+    "rejected_sources": [
+      {"title": "4 Sin Stocks to Buy That May Survive a Coming Massive Market Sell-Off", "reason": "The pre-release list article does not establish quarterly expectations or explain the earnings reaction."},
+      {"title": "MO Stock: Is Marlboro Maker Altria A Buy After Q4 Earnings?", "reason": "The supplied text is a truncated, mismatched later-version fragment and is not usable earnings-reaction evidence."},
+      {"title": "Other supplied records", "reason": "The remaining records contain no usable full text."}
+    ],
+    "reaction_reported": true
+  },
+  "MO_2023q2": {
+    "status": "validated",
+    "model": "codex",
+    "input_articles": 9,
+    "retained_sources": 2,
+    "rejected_sources": [
+      {"title": "The 7 Best Stocks From Schwab's Dividend ETF", "reason": "The article predates the release and does not establish quarterly expectations or explain the earnings reaction."},
+      {"title": "Sell Any and All Bear Market Rallies and Buy These Safe-Haven Stocks With Huge Dividends", "reason": "The general market list does not substantively cover this earnings event."},
+      {"title": "Other supplied records", "reason": "The remaining records contain no usable full text."}
+    ],
+    "reaction_reported": false
+  },
+  "TMUS_2022q2": {
+    "status": "validated",
+    "model": "codex",
+    "input_articles": 16,
+    "retained_sources": 4,
+    "rejected_sources": [
+      {"title": "Other supplied records", "reason": "The remaining records contain no usable full text."}
+    ],
+    "reaction_reported": true
+  },
+  "TMUS_2023q4": {
+    "status": "validated",
+    "model": "codex",
+    "input_articles": 20,
+    "retained_sources": 4,
+    "rejected_sources": [
+      {"title": "T-Mobile Drops Plan to Shift Customer to Higher Tiers After Backlash", "reason": "The follow-up article concerns a separate pricing-test reversal and does not explain the earnings reaction."},
+      {"title": "3 Stocks Likely to Ride High in the Ailing Wireless Industry", "reason": "The industry roundup does not explain the immediate earnings reaction."},
+      {"title": "Other supplied records", "reason": "The remaining records contain no usable full text."}
+    ],
+    "reaction_reported": true
+  },
+  "VZ_2021q3": {
+    "status": "validated",
+    "model": "codex",
+    "input_articles": 27,
+    "retained_sources": 3,
+    "rejected_sources": [
+      {"title": "Is It Time to Buy the Dow's Worst-Performing Dividend Giants?", "reason": "The broad dividend-stock article is not focused on the immediate earnings reaction."},
+      {"title": "Other supplied records", "reason": "The remaining records contain no usable full text."}
+    ],
+    "reaction_reported": true
+  },
+  "VZ_2023q2": {
+    "status": "validated",
+    "model": "codex",
+    "input_articles": 29,
+    "retained_sources": 5,
+    "rejected_sources": [
+      {"title": "Verizon Reports Mixed Earnings", "reason": "The supplied article body is only a brief video introduction and contains no substantive additional analysis."},
+      {"title": "How Will Telecom ETFs Navigate Mixed Results in Q1 Earning?", "reason": "The later ETF roundup repeats the earnings figures but does not explain Verizon's immediate reaction."},
+      {"title": "Other full-text list and dividend articles", "reason": "These articles are general investment pieces rather than substantive coverage of the earnings reaction."},
+      {"title": "Other supplied records", "reason": "The remaining records contain no usable full text."}
+    ],
+    "reaction_reported": true
+  },
+  "SFIX_2021q3": {
+    "status": "validated",
+    "model": "codex",
+    "input_articles": 25,
+    "retained_sources": 10,
+    "rejected_sources": [
+      {"title": "Other supplied records", "reason": "The remaining records contain no usable full text."}
+    ],
+    "reaction_reported": true
+  },
+  "SFIX_2023q2": {
+    "status": "validated",
+    "model": "codex",
+    "input_articles": 16,
+    "retained_sources": 5,
+    "rejected_sources": [
+      {"title": "Other supplied records", "reason": "The remaining records contain no usable full text."}
+    ],
+    "reaction_reported": true
+  },
+  "FTNT_2023q1": {
+    "status": "validated",
+    "model": "codex",
+    "input_articles": 24,
+    "retained_sources": 8,
+    "rejected_sources": [
+      {"title": "General cybersecurity recommendation articles", "reason": "These broad stock-list pieces are not substantive coverage of the earnings event or its reaction."},
+      {"title": "Other supplied records", "reason": "The remaining records contain no usable full text."}
+    ],
+    "reaction_reported": true
+  },
+  "BA_2021q3": {
+    "status": "validated",
+    "model": "codex",
+    "input_articles": 40,
+    "retained_sources": 9,
+    "rejected_sources": [
+      {"title": "Starliner, donation and unrelated market articles", "reason": "These full-text stories cover separate events or mention Boeing only in passing rather than analyzing the earnings reaction."},
+      {"title": "Other supplied records", "reason": "The remaining records contain no usable full text."}
+    ],
+    "reaction_reported": true
+  },
+  "BA_2023q4": {
+    "status": "validated",
+    "model": "codex",
+    "input_articles": 39,
+    "retained_sources": 9,
+    "rejected_sources": [
+      {"title": "Later order, defense-ETF and unrelated aerospace articles", "reason": "These stories concern separate events or broader sector coverage rather than Boeing's immediate earnings reaction."},
+      {"title": "Other supplied records", "reason": "The remaining records contain no usable full text."}
+    ],
+    "reaction_reported": true
+  },
+  "JNJ_2021q4": {
+    "status": "validated",
+    "model": "codex",
+    "input_articles": 60,
+    "retained_sources": 7,
+    "rejected_sources": [
+      {"title": "Booster-authorization, vaccine-comparison and general dividend articles", "reason": "These full-text stories cover separate regulatory developments or broad investment themes rather than the earnings reaction."},
+      {"title": "Other supplied records", "reason": "The remaining records contain no usable full text."}
+    ],
+    "reaction_reported": true
+  },
+  "JNJ_2023q3": {
+    "status": "validated",
+    "model": "codex",
+    "input_articles": 34,
+    "retained_sources": 10,
+    "rejected_sources": [
+      {"title": "Kenvue-only, generic dividend and broad market articles", "reason": "These stories focus on the spun-off company, long-term recommendations or the wider market rather than explaining Johnson & Johnson's earnings reaction."},
+      {"title": "Other supplied records", "reason": "The remaining records contain no usable full text."}
+    ],
+    "reaction_reported": true
+  },
+  "MCD_2022q3": {
+    "status": "validated",
+    "model": "codex",
+    "input_articles": 45,
+    "retained_sources": 13,
+    "rejected_sources": [
+      {"title": "Industry previews, generic dividend pieces and later McPlant coverage", "reason": "These stories are broad previews, recommendations or separate product-test developments rather than substantive analysis of the earnings reaction."},
+      {"title": "Other supplied records", "reason": "The remaining records contain no usable full text."}
+    ],
+    "reaction_reported": true
+  },
+  "UBER_2022q4": {
+    "status": "validated",
+    "model": "codex",
+    "input_articles": 54,
+    "retained_sources": 14,
+    "rejected_sources": [
+      {"title": "Videos, later regulatory stories and unrelated partnership coverage", "reason": "These records have no usable article text or concern separate developments rather than the earnings reaction."},
+      {"title": "Other supplied records", "reason": "The remaining records contain no usable full text."}
+    ],
+    "reaction_reported": true
+  }
+}

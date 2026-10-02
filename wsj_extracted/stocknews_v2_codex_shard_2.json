@@ -1,0 +1,584 @@
+{
+  "CENTA_2023q3": {
+    "summary_analysis": "Central Garden & Pet reported adjusted quarterly earnings of $1.75 a share, above the $1.45 Zacks consensus, while revenue of $1.02 billion missed the consensus estimate by 0.26%; the article did not report the stock's immediate reaction. The coverage characterized estimate revisions before the release as favorable but said the durability of any immediate move would depend on management's earnings-call commentary and future expectations.",
+    "explicit_reasons": "The article does not explicitly attribute a reported stock move to any specific factor.",
+    "implicit_reasons": "The article does not report a stock reaction or present any category as an implicit reason for one.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {"title": "Central Garden (CENTA) Beats Q3 Earnings Estimates", "published_date": "2023-08-02T18:43:44-04:00", "url": "https://www.zacks.com/stock/news/2131355/central-garden-centa-beats-q3-earnings-estimates"}
+    ]
+  },
+  "METC_2022q2": {
+    "summary_analysis": "Ramaco Resources reported first-quarter adjusted earnings of $0.92 a share on revenue of $154.88 million, below Zacks consensus estimates of $1.41 and roughly $172.8 million, respectively; neither retained source reported the stock's immediate reaction. The company release said rail delays prevented roughly 20% of expected shipments and estimated that timely shipments would have added $0.38 to EPS, while management expected stronger production, lower costs and higher earnings later in 2022.",
+    "explicit_reasons": "The retained articles do not explicitly attribute a reported stock move to any specific factor.",
+    "implicit_reasons": "The retained articles do not report a stock reaction or present any category as an implicit reason for one.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {"title": "Ramaco Resources, Inc. Reports First Quarter 2022 Financial Results", "published_date": "2022-05-11T17:34:00-04:00", "url": "https://www.prnewswire.com/news-releases/ramaco-resources-inc-reports-first-quarter-2022-financial-results-301545535.html"},
+      {"title": "Ramaco Resources (METC) Q1 Earnings and Revenues Miss Estimates", "published_date": "2022-05-11T20:19:05-04:00", "url": "https://www.zacks.com/stock/news/1922993/ramaco-resources-metc-q1-earnings-and-revenues-miss-estimates"}
+    ]
+  },
+  "METC_2023q4": {
+    "summary_analysis": "Ramaco Resources reported third-quarter results showing a 64% year-over-year increase in sales volume and more than 50% sequential growth in adjusted EBITDA, although lower coal pricing and higher costs reduced cash margins; the company release did not report a stock reaction. Management said shipments and overseas demand were stronger than anticipated and raised the midpoint of full-year shipment guidance, while expecting continued inventory reductions and lower debt.",
+    "explicit_reasons": "The article does not explicitly attribute a reported stock move to any specific factor.",
+    "implicit_reasons": "The article does not report a stock reaction or present any category as an implicit reason for one.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {"title": "RAMACO RESOURCES REPORTS THIRD QUARTER 2023 RESULTS", "published_date": "2023-11-07T16:15:00-05:00", "url": "https://www.prnewswire.com/news-releases/ramaco-resources-reports-third-quarter-2023-results-301980704.html"}
+    ]
+  },
+  "MGNI_2022q4": {
+    "summary_analysis": "Magnite reported third-quarter results above expectations, and its shares were up 58.3% in afternoon trading after the release. Coverage explicitly credited the surge to better-than-expected revenue and earnings, an outlook that pleased the market, and a cooler-than-expected inflation reading that lifted the broader ad-tech sector.",
+    "explicit_reasons": "The Motley Fool explicitly tied the rise to Magnite's results and outlook: revenue excluding traffic-acquisition costs was $127.7 million versus $124.2 million expected, adjusted EPS was $0.18 versus the $0.14 consensus it cited, and fourth-quarter ex-TAC revenue guidance of $151 million to $157 million was above the $152.7 million estimate at the midpoint. It also said the stock benefited from lower-than-expected inflation because advertising is cyclical and a reduced recession risk would help the sector.",
+    "implicit_reasons": "The articles do not identify additional implicit reasons for the reaction beyond the explicitly stated drivers.",
+    "categories": {
+      "Guidance": {"direction": "positive", "attribution": "explicit", "text": "Magnite guided to fourth-quarter revenue excluding traffic-acquisition costs of $151 million to $157 million, whose midpoint exceeded the $152.7 million estimate cited by The Motley Fool. The article said this outlook pleased the market and helped lift the stock."},
+      "Order book / backlog": null,
+      "Revenue": {"direction": "positive", "attribution": "explicit", "text": "Third-quarter ex-TAC revenue of $127.7 million exceeded the $124.2 million analyst estimate cited by The Motley Fool, while Zacks reported total revenue of $145.82 million was 17.59% above its consensus. The Motley Fool explicitly included the revenue beat among the reasons the shares soared."},
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {"direction": "positive", "attribution": "explicit", "text": "Adjusted EPS was $0.18, above the $0.14 consensus cited by The Motley Fool and the $0.17 Zacks consensus. The reaction article explicitly identified the better-than-expected earnings as a driver of the rise."},
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {"direction": "positive", "attribution": "explicit", "text": "The Motley Fool said Magnite also benefited from a lower-than-expected inflation reading that lifted ad-tech stocks broadly; the expectation benchmark was the higher inflation reading the market had anticipated. It explicitly linked that macro surprise to the stock's gain."},
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {"title": "Magnite (MGNI) Q3 Earnings and Revenues Surpass Estimates", "published_date": "2022-11-09T20:19:10-05:00", "url": "https://www.zacks.com/stock/news/2016463/magnite-mgni-q3-earnings-and-revenues-surpass-estimates"},
+      {"title": "Why Magnite Stock Skyrocketed Today", "published_date": "2022-11-10T14:45:00-05:00", "url": "https://www.fool.com/investing/2022/11/10/why-magnite-stock-skyrocketed-today/"}
+    ]
+  },
+  "MTW_2022q3": {
+    "summary_analysis": "Manitowoc reported adjusted quarterly earnings of $0.21 a share and revenue of $497.2 million, missing Zacks consensus estimates of $0.36 and about $551.8 million, respectively; the article did not report the stock's immediate reaction. It characterized estimate revisions before the release as unfavorable and assigned the shares a Zacks Rank of Strong Sell.",
+    "explicit_reasons": "The article does not explicitly attribute a reported stock move to any specific factor.",
+    "implicit_reasons": "The article does not report a stock reaction or present any category as an implicit reason for one.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {"title": "The Manitowoc Company, Inc. (MTW) Q2 Earnings and Revenues Miss Estimates", "published_date": "2022-08-04T21:49:17-04:00", "url": "https://www.zacks.com/stock/news/1964448/the-manitowoc-company-inc-mtw-q2-earnings-and-revenues-miss-estimates"}
+    ]
+  },
+  "PCTY_2021q4": {
+    "summary_analysis": "Paylocity reported adjusted quarterly earnings of $0.59 a share on revenue of $181.7 million, above Zacks consensus estimates of $0.37 and roughly $174.2 million, respectively; the article did not report the stock's immediate reaction. The company had exceeded consensus EPS and revenue estimates in each of the preceding four quarters, while pre-release estimate revisions were described as mixed.",
+    "explicit_reasons": "The article does not explicitly attribute a reported stock move to any specific factor.",
+    "implicit_reasons": "The article does not report a stock reaction or present any category as an implicit reason for one.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {"title": "Paylocity (PCTY) Tops Q1 Earnings and Revenue Estimates", "published_date": "2021-11-04T19:49:04-04:00", "url": "https://www.zacks.com/stock/news/1823945/paylocity-pcty-tops-q1-earnings-and-revenue-estimates"}
+    ]
+  },
+  "PCTY_2023q4": {
+    "summary_analysis": "Paylocity reported adjusted quarterly earnings of $1.40 a share and revenue of $317.59 million, above Zacks consensus estimates of $1.09 and about $316.6 million, respectively; the article did not report the stock's immediate reaction. The company had surpassed consensus EPS and revenue estimates in each of the prior four quarters.",
+    "explicit_reasons": "The article does not explicitly attribute a reported stock move to any specific factor.",
+    "implicit_reasons": "The article does not report a stock reaction or present any category as an implicit reason for one.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {"title": "Paylocity (PCTY) Surpasses Q1 Earnings and Revenue Estimates", "published_date": "2023-11-02T19:32:23-04:00", "url": "https://www.zacks.com/stock/news/2177700/paylocity-pcty-surpasses-q1-earnings-and-revenue-estimates"}
+    ]
+  },
+  "REZI_2021q1": {
+    "summary_analysis": "Resideo reported fourth-quarter revenue of $1.5 billion, up 15% year over year, and net income of $59 million, reversing a $9 million prior-year loss; the company release did not report a stock reaction or provide analyst expectations. Gross margin increased to 28.2% from 24.0%, operating profit more than doubled to $152 million, and management projected 2021 revenue of $5.2 billion to $5.4 billion.",
+    "explicit_reasons": "The article does not explicitly attribute a reported stock move to any specific factor.",
+    "implicit_reasons": "The article does not report a stock reaction or present any category as an implicit reason for one.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {"title": "Resideo Announces Fourth Quarter and Full Year 2020 Financial Results", "published_date": "2021-02-25T06:30:00-05:00", "url": "https://www.prnewswire.com/news-releases/resideo-announces-fourth-quarter-and-full-year-2020-financial-results-301235151.html"}
+    ]
+  },
+  "REZI_2023q2": {
+    "summary_analysis": "Resideo reported first-quarter revenue of $1.55 billion, up 3% year over year, while net income fell to $57 million from $87 million and gross margin declined to 27.1% from 29.1%; the company release did not report a stock reaction or provide analyst expectations. Management said the results met its own expectations despite softer residential demand, channel inventory rebalancing and inflationary cost pressure, and expected restructuring benefits and additional savings later in 2023.",
+    "explicit_reasons": "The article does not explicitly attribute a reported stock move to any specific factor.",
+    "implicit_reasons": "The article does not report a stock reaction or present any category as an implicit reason for one.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {"title": "Resideo Announces First Quarter 2023 Financial Results", "published_date": "2023-05-03T16:05:00-04:00", "url": "https://www.prnewswire.com/news-releases/resideo-announces-first-quarter-2023-financial-results-301815028.html"}
+    ]
+  },
+  "FTNT_2023q3": {
+    "summary_analysis": "Fortinet reported mixed second-quarter results, and its shares fell 24.3% in Friday morning trading after the company lowered full-year revenue and billings guidance. Coverage said adjusted EPS of $0.38 beat the $0.34 consensus but revenue of $1.29 billion narrowly missed the $1.30 billion estimate; the decisive negatives were pushed-out enterprise deals, weaker billings visibility and reduced revenue and billings forecasts.",
+    "explicit_reasons": "The Motley Fool explicitly tied the plunge to mixed results and reduced guidance. Full-year revenue guidance fell to $5.35 billion to $5.45 billion from $5.425 billion to $5.485 billion, billings guidance fell to $6.49 billion to $6.59 billion from $6.75 billion to $6.81 billion, and quarterly revenue of $1.29 billion came in just below the $1.30 billion analysts expected.",
+    "implicit_reasons": "Coverage implicitly framed macro uncertainty and unusually high deal slippage as the operating backdrop behind the reduced outlook. Management said an unusually large volume of enterprise deals expected to close in June moved into future periods, while the stock's roughly 60% year-to-date rise before the report made profit-taking easier to understand; the articles give no numerical expectation for either factor.",
+    "categories": {
+      "Guidance": {"direction": "negative", "attribution": "explicit", "text": "Fortinet reduced full-year revenue guidance to $5.35 billion to $5.45 billion from $5.425 billion to $5.485 billion and billings guidance to $6.49 billion to $6.59 billion from $6.75 billion to $6.81 billion. The Motley Fool explicitly identified those cuts as a reason the shares plunged."},
+      "Order book / backlog": null,
+      "Revenue": {"direction": "negative", "attribution": "explicit", "text": "Second-quarter revenue was $1.29 billion, about 0.72% below the $1.30 billion Zacks consensus. The reaction coverage described the quarter as mixed relative to expectations and included the revenue miss in explaining the decline."},
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {"direction": "negative", "attribution": "implicit", "text": "Management said macro uncertainty affected contract durations and that an unusually large volume of enterprise deals expected to close in June slipped into future quarters. The articles give no numerical expectation for deal slippage, but presented it as the backdrop for weak billings and the lower outlook."},
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {"title": "Fortinet (FTNT) Tops Q2 Earnings Estimates", "published_date": "2023-08-03T18:46:46-04:00", "url": "https://www.zacks.com/stock/news/2132260/fortinet-ftnt-tops-q2-earnings-estimates"},
+      {"title": "Fortinet (FTNT) Reports Q2 Earnings: What Key Metrics Have to Say", "published_date": "2023-08-03T19:32:06-04:00", "url": "https://www.zacks.com/stock/news/2132328/fortinet-ftnt-reports-q2-earnings-what-key-metrics-have-to-say"},
+      {"title": "Why Fortinet Stock Plunged Today", "published_date": "2023-08-04T12:09:46-04:00", "url": "https://www.fool.com/investing/2023/08/04/why-fortinet-stock-plunged-today/"},
+      {"title": "3 Cheap Cybersecurity Stocks That Smart Investors Will Snap Up Now", "published_date": "2023-08-04T16:21:27-04:00", "url": "https://investorplace.com/2023/08/3-cheap-cybersecurity-stocks-that-smart-investors-will-snap-up-now/"}
+    ]
+  },
+  "MRVL_2022q4": {
+    "summary_analysis": "Marvell reported fiscal third-quarter revenue of $1.54 billion and adjusted EPS of $0.57, slightly below consensus estimates of $1.56 billion and $0.59, and its shares fell 6% in late-morning trading the next day. Reaction coverage said investors were chiefly worried that customer inventory reductions and the semiconductor slowdown were worse than anticipated, with fourth-quarter sales and earnings guidance considerably below expectations.",
+    "explicit_reasons": "The Motley Fool explicitly tied the drop to a disappointing outlook: Marvell projected fourth-quarter sales of $1.33 billion to $1.47 billion and adjusted EPS of $0.41 to $0.51, well below what the article said followers of the company had anticipated. It also said customers reduced inventories during the quarter, leaving investors concerned that the industry's slowdown could be worse than previously expected.",
+    "implicit_reasons": "The articles do not identify additional implicit reasons beyond the explicitly stated outlook and inventory-cycle concerns.",
+    "categories": {
+      "Guidance": {"direction": "negative", "attribution": "explicit", "text": "Marvell forecast fourth-quarter sales of $1.33 billion to $1.47 billion and adjusted EPS of $0.41 to $0.51, versus the pre-release consensus of $1.61 billion in revenue and $0.62 in EPS reported by Zacks. The Motley Fool explicitly said the below-anticipated outlook worried investors and drove the decline."},
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {"direction": "negative", "attribution": "explicit", "text": "Customers used the quarter to reduce inventory, especially in storage, and management said that change in demand hurt near-term results and guidance. Reaction coverage said this made investors fear the semiconductor slowdown was worse than previously expected, explicitly linking the surprise to the stock's fall."},
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {"title": "Earnings Previews: ChargePoint, Marvell Technology, UiPath", "published_date": "2022-11-30T09:56:26-05:00", "url": "https://247wallst.com/investing/2022/11/30/earnings-previews-chargepoint-marvell-technology-uipath/?utm_source=snapi"},
+      {"title": "Marvell Technology, Inc. Reports Third Quarter of Fiscal Year 2023 Financial Results", "published_date": "2022-12-01T16:05:00-05:00", "url": "https://www.prnewswire.com/news-releases/marvell-technology-inc-reports-third-quarter-of-fiscal-year-2023-financial-results-301692033.html"},
+      {"title": "Marvell Technology (MRVL) Lags Q3 Earnings and Revenue Estimates", "published_date": "2022-12-01T18:48:18-05:00", "url": "https://www.zacks.com/stock/news/2024476/marvell-technology-mrvl-lags-q3-earnings-and-revenue-estimates"},
+      {"title": "These 2 Stocks Weighed the Nasdaq Down Friday", "published_date": "2022-12-02T12:00:48-05:00", "url": "https://www.fool.com/investing/2022/12/02/these-2-stocks-weighed-the-nasdaq-down-friday/"}
+    ]
+  },
+  "TMUS_2022q4": {
+    "summary_analysis": "T-Mobile reported third-quarter revenue of $19.48 billion and EPS of $0.40, and its shares rose more than 4% after hours; Investors Business Daily later reported a 7.4% close. Coverage said the stock climbed because postpaid phone additions of 854,000 exceeded expectations and led the industry, alongside 578,000 net broadband additions.",
+    "explicit_reasons": "Investors Business Daily explicitly said T-Mobile shares climbed because the company added more postpaid phone subscribers than expected and led the industry for the first time since early 2021. The article did not supply the analyst estimate, while CNET reported 854,000 postpaid phone additions and 578,000 net internet additions.",
+    "implicit_reasons": "CNET also said shareholders fared better than the four-cent EPS expectation cited from Yahoo analysts, with reported EPS of $0.40, implicitly supporting the positive reaction. Zacks used a different consensus and characterized $0.40 as a miss against $0.53, so the sources disagree on the earnings benchmark; revenue of $19.48 billion also missed Zacks consensus by 2.99% and was not presented as a reason for the rise.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": {"direction": "positive", "attribution": "explicit", "text": "T-Mobile added 854,000 postpaid phone subscribers and 578,000 net internet customers. Investors Business Daily said the phone additions were above expectations and explicitly tied that stronger-than-expected subscriber growth to the stock's climb, although it did not state the expected count."},
+      "Profits, costs and margin": {"direction": "positive", "attribution": "implicit", "text": "Reported EPS was $0.40. CNET said this was better than the $0.04 expected by Yahoo analysts, while Zacks said it missed its own $0.53 consensus; CNET presented the lower benchmark as additional context for why shareholders still fared well, without directly calling it the cause of the rise."},
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {"title": "Earnings Previews: Amazon, Apple, Intel, T-Mobile, US Steel", "published_date": "2022-10-26T09:35:40-04:00", "url": "https://247wallst.com/investing/2022/10/26/earnings-previews-amazon-apple-intel-t-mobile-us-steel/?utm_source=snapi"},
+      {"title": "T-Mobile Earnings Beat On Strong Wireless Phone, Broadband Subscriber Growth", "published_date": "2022-10-27T16:26:49-04:00", "url": "https://www.investors.com/news/technology/tmus-stock-tmobile-earnings-tmobile-stock-q32022/"},
+      {"title": "T-Mobile Added Around Half a Million 5G Home Internet Customers", "published_date": "2022-10-27T18:17:49-04:00", "url": "https://www.cnet.com/tech/mobile/t-mobile-added-around-half-a-million-5g-home-internet-customers/"},
+      {"title": "T-Mobile (TMUS) Misses Q3 Earnings and Revenue Estimates", "published_date": "2022-10-27T18:48:53-04:00", "url": "https://www.zacks.com/stock/news/1998902/t-mobile-tmus-misses-q3-earnings-and-revenue-estimates"}
+    ]
+  },
+  "MO_2022q2": {
+    "summary_analysis": "Altria released first-quarter results, and its shares reversed a premarket decline to close up more than 0.5% as broader markets rose. Coverage said positive earnings helped the stock: revenue declined 2.4% year over year to $5.9 billion, smokeable-products operating income rose 7.9% as margin expanded to 59.5%, and another article described revenue as above Wall Street estimates without giving the estimate.",
+    "explicit_reasons": "InvestorPlace explicitly said broader market strength kept tobacco stocks elevated and that Altria's positive earnings also helped. The article gave no numerical market expectation for the earnings, while a separate article said revenue beat Wall Street estimates without stating the expected amount.",
+    "implicit_reasons": "The same coverage warned that an unexpected FDA proposal to ban menthol cigarettes and flavored cigars threatened a category accounting for more than one-third of U.S. cigarette sales. It presented that regulatory uncertainty as a restraint on confidence rather than the cause of the day's positive close; no prior expectation for the proposal was provided.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {"direction": "positive", "attribution": "explicit", "text": "InvestorPlace said Altria's recently reported positive earnings helped the shares, although it provided no numerical expectation. Separate coverage reported smokeable-products operating income grew 7.9% and margin rose to 59.5% from 57.5%, but gave no analyst profit estimate."},
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": {"direction": "negative", "attribution": "implicit", "text": "The FDA's plan to pursue a menthol-cigarette and flavored-cigar ban was presented as a major, still-unresolved threat to tobacco producers, and the article gave no indication that investors had expected the proposal. The coverage said this uncertainty could keep investor confidence low, but did not identify it as the cause of Altria's positive close."},
+      "Macro and micro development": {"direction": "positive", "attribution": "explicit", "text": "InvestorPlace said broader market forces kept tobacco shares elevated after an earlier premarket decline. It gave no numerical market expectation, but explicitly identified the positive market momentum as a reason Altria closed higher."},
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {"title": "Tobacco Stocks News: Why Are MO, PM, BTI Stocks in the Spotlight Today?", "published_date": "2022-04-28T16:44:01-04:00", "url": "https://investorplace.com/2022/04/tobacco-stocks-news-why-are-mo-pm-bti-stocks-in-the-spotlight-today-2/"},
+      {"title": "Altria Shows Once Again Why Tobacco Is a Great Defensive Stock", "published_date": "2022-05-01T07:59:00-04:00", "url": "https://www.fool.com/investing/2022/05/01/altria-shows-once-again-why-tobacco-is-a-great-def/"},
+      {"title": "3 Companies People Hate That You Should Buy", "published_date": "2022-05-01T11:30:00-04:00", "url": "https://thedogofwallstreet.com/fb/3-companies-people-hate-that-you-should-buy?utm_source=snapi"}
+    ]
+  },
+  "MO_2023q4": {
+    "summary_analysis": "Altria reported third-quarter adjusted EPS of $1.28 on net-of-excise revenue of $5.28 billion, and its shares fell 7.7% in afternoon trading after management lowered the top of its full-year earnings range. Sources disagreed on the quarter's expectation comparison: The Motley Fool cited $1.22 in EPS and $5.12 billion in revenue and called both beats, while Zacks cited $1.29 and a roughly $5.48 billion revenue consensus and called both misses; the reaction article nevertheless identified the guidance cut as the selloff's first-order cause.",
+    "explicit_reasons": "The Motley Fool explicitly said the selloff was caused by full-year adjusted EPS guidance being reduced from $4.98 to $5.03 to $4.91 to $4.98. The article said the change reflected planned investment in long-term growth, including smoke-free product research, and a dynamic external environment marked by inflation and interest-rate risks.",
+    "implicit_reasons": "The articles do not identify an additional implicit reason for the decline. Reported-quarter earnings and revenue were described as beats by The Motley Fool but misses by Zacks and Proactive, so the evidence does not support treating those conflicting comparisons as a separate directional driver.",
+    "categories": {
+      "Guidance": {"direction": "negative", "attribution": "explicit", "text": "Altria lowered the top end of full-year adjusted EPS guidance from $4.98 to $5.03 to a new range of $4.91 to $4.98. The Motley Fool explicitly said this cut led to the selloff; it also said the update reflected planned smoke-free investment and risks from inflation and rising interest rates, while giving no separate market expectation for those pressures."},
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {"title": "Marlboro owner Altria on back foot as it snips full year forecast", "published_date": "2023-10-26T09:41:27-04:00", "url": "https://www.proactiveinvestors.com/companies/news/1031104?SNAPI"},
+      {"title": "Altria (MO) Misses Q3 Earnings and Revenue Estimates", "published_date": "2023-10-26T09:48:32-04:00", "url": "https://www.zacks.com/stock/news/2172461/altria-mo-misses-q3-earnings-and-revenue-estimates"},
+      {"title": "Marlboro maker Altria reports declining revenue, citing competition from illicit e-vapor products", "published_date": "2023-10-26T10:32:17-04:00", "url": "https://www.cnbc.com/2023/10/26/marlboro-maker-altria-mo-earnings-q3-2023.html"},
+      {"title": "Why Altria Stock Was Getting Smoked Today", "published_date": "2023-10-26T16:04:27-04:00", "url": "https://www.fool.com/investing/2023/10/26/why-altria-stock-was-getting-smoked-today/"}
+    ]
+  },
+  "MCD_2021q1": {
+    "summary_analysis": "McDonald's reported adjusted fourth-quarter EPS of $1.70 on revenue of $5.31 billion, below Refinitiv expectations of $1.78 and $5.37 billion, while its shares nevertheless rose less than 1% in morning trading. Coverage described a split quarter: U.S. comparable sales rose 5.5%, international operated-market sales fell 7.4% under renewed pandemic restrictions, and management projected low-double-digit systemwide sales growth in 2021.",
+    "explicit_reasons": "The articles do not explicitly identify a single cause of the modest share-price increase.",
+    "implicit_reasons": "Coverage implicitly contrasted the earnings and revenue misses with strong U.S. demand and what GuruFocus called promising 2021 guidance. Pandemic restrictions and related costs weighed on international sales and profits, but management expected systemwide sales to rebound past 2019 levels as recovery progressed.",
+    "categories": {
+      "Guidance": {"direction": "positive", "attribution": "implicit", "text": "McDonald's expected low-double-digit 2021 systemwide sales growth and a rebound above 2019 sales, while new restaurants were projected to add about 1%. GuruFocus called the guidance promising but did not provide a separate analyst forecast or directly state that it caused the rise."},
+      "Order book / backlog": null,
+      "Revenue": {"direction": "negative", "attribution": "implicit", "text": "Fourth-quarter revenue of $5.31 billion fell short of the $5.37 billion Refinitiv expectation. Coverage emphasized that 5.5% U.S. comparable-sales growth could not fully offset international weakness, presenting the miss as a negative counterweight to the modest rise."},
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {"direction": "negative", "attribution": "implicit", "text": "Adjusted EPS of $1.70 missed the $1.78 Refinitiv estimate, with restaurant-closing costs and lower gains on restaurant sales weighing on profit. The articles described the result as disappointing but did not directly attribute the share movement to it."},
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {"direction": "negative", "attribution": "implicit", "text": "Renewed COVID-19 restrictions in Europe drove a 7.4% decline in international operated-market comparable sales, while U.S. demand was stronger. The coverage gave no numerical expectation for the restrictions but presented them as the reason international recovery and profitability lagged."},
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {"title": "Here's what to expect from McDonald's earnings", "published_date": "2021-01-28T06:36:20-05:00", "url": "https://www.cnbc.com/2021/01/28/mcdonalds-mcd-q4-2020-earnings.html"},
+      {"title": "McDonald's revenues have almost returned to pre-pandemic levels – and Q4 sales in the US were actually higher than a year earlier", "published_date": "2021-01-28T08:07:26-05:00", "url": "https://www.businessinsider.com/mcdonalds-earnings-revenue-fourth-quarter-annual-2020-income-earning-2021-1"},
+      {"title": "McDonald's sales took a hit from Covid-19 restrictions", "published_date": "2021-01-28T09:07:48-05:00", "url": "https://www.cnn.com/2021/01/28/business/mcdonalds-earnings/index.html"},
+      {"title": "McDonald's Earnings Miss, But U.S. Demand Strong", "published_date": "2021-01-28T09:37:25-05:00", "url": "https://www.investors.com/news/mcdonalds-stock-mcdonalds-earnings-q4-2020/"},
+      {"title": "McDonald's Sees US Sales Boost; Global Performance Sags", "published_date": "2021-01-28T12:03:38-05:00", "url": "https://www.pymnts.com/news/retail/2021/mcdonalds-us-sales-boost-global-performance-sags/?utm_source=snapi"},
+      {"title": "McDonald's Shares Rise Despite Earnings Miss", "published_date": "2021-01-28T12:21:06-05:00", "url": "https://www.gurufocus.com/news/1343455/mcdonalds-shares-rise-despite-earnings-miss"},
+      {"title": "McDonald's Bounces Back to Growth", "published_date": "2021-01-31T10:48:00-05:00", "url": "https://www.fool.com/investing/2021/01/31/mcdonalds-bounces-back-to-growth/"}
+    ]
+  },
+  "MCD_2023q1": {
+    "summary_analysis": "McDonald's reported fourth-quarter EPS of $2.59 and revenue of $5.93 billion, both above Wall Street expectations, but its shares fell more than 2% in morning trading. Coverage said robust traffic, menu pricing and same-store sales were overshadowed by concern that inflationary pressure would persist in 2023 and by management's forecast of recessions in the United States and Europe.",
+    "explicit_reasons": "Proactive Investors explicitly said inflationary pressure spooked investors despite the earnings beat, and the shares fell 2.6%. Management expected short-term inflation to continue during 2023, projected a mild-to-moderate U.S. recession and a deeper, longer European downturn, and said higher food and energy costs were pressuring franchisee margins and cash flow.",
+    "implicit_reasons": "The articles present the strong reported quarter as a positive counterweight rather than the cause of the decline: revenue of $5.93 billion beat estimates ranging from $5.72 billion to $5.75 billion, EPS of $2.59 beat estimates ranging from $2.44 to $2.46, and global same-store sales rose 12.6% versus an 8.6% Refinitiv estimate.",
+    "categories": {
+      "Guidance": {"direction": "negative", "attribution": "explicit", "text": "Management expected inflationary pressure to persist in 2023 and forecast a mild-to-moderate U.S. recession and a deeper, longer downturn in Europe. Proactive Investors explicitly said those future pressures worried investors and spooked the stock, while the articles gave no numerical consensus forecast for inflation or recession severity."},
+      "Order book / backlog": null,
+      "Revenue": {"direction": "positive", "attribution": "implicit", "text": "Revenue of $5.93 billion exceeded reported expectations of $5.72 billion to $5.75 billion, and global same-store sales growth of 12.6% beat the 8.6% Refinitiv estimate. Coverage presented these beats as a positive contrast to the selloff rather than a direct reason for it."},
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {"direction": "positive", "attribution": "implicit", "text": "Fourth-quarter EPS of $2.59 exceeded the $2.44 to $2.46 analyst expectations cited by the articles. The result was described as a beat, but coverage said inflation concerns outweighed it and did not attribute the decline to reported-quarter profit."},
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {"title": "McDONALD'S REPORTS FOURTH QUARTER AND FULL YEAR 2022 RESULTS", "published_date": "2023-01-31T07:00:00-05:00", "url": "https://www.prnewswire.com/news-releases/mcdonalds-reports-fourth-quarter-and-full-year-2022-results-301734277.html"},
+      {"title": "McDonald's profit grows as inflation-weary customers flock to its restaurants", "published_date": "2023-01-31T07:53:01-05:00", "url": "https://www.cnbc.com/2023/01/31/mcdonalds-mcd-q4-2022-earnings.html"},
+      {"title": "McDonald's (MCD) Tops Q4 Earnings and Revenue Estimates", "published_date": "2023-01-31T09:30:18-05:00", "url": "https://www.zacks.com/stock/news/2046836/mcdonald-s-mcd-tops-q4-earnings-and-revenue-estimates"},
+      {"title": "McDonald's beats 4Q expectations amid strong same-store sales growth but inflationary pressures spook investors", "published_date": "2023-01-31T10:46:08-05:00", "url": "https://www.proactiveinvestors.com/companies/news/1004826?SNAPI"},
+      {"title": "McDonald's sees inflation sticking around", "published_date": "2023-01-31T11:55:46-05:00", "url": "https://www.foxbusiness.com/markets/mcdonalds-sees-inflation-sticking-around"},
+      {"title": "McDonald's Q4 boosted by higher menu prices amid inflation alarms", "published_date": "2023-01-31T12:16:29-05:00", "url": "https://nypost.com/2023/01/31/mcdonalds-q4-boosted-by-higher-menu-prices-amid-inflation-alarms/"},
+      {"title": "McDonald's Leverages Rewards App to Mitigate Inflationary Trade-Down", "published_date": "2023-01-31T15:18:11-05:00", "url": "https://www.pymnts.com/earnings/2023/mcdonalds-leverages-rewards-app-to-mitigate-inflationary-trade-down/?utm_source=snapi"}
+    ]
+  },
+  "SFIX_2022q2": {
+    "summary_analysis": "Stitch Fix reported fiscal third-quarter revenue of $492.9 million and a loss of $0.72 a share, and its stock fell 16.3% after hours following a 10.5% regular-session decline. Coverage said the daytime drop followed news that the company would eliminate about 15% of salaried roles, while the after-hours selloff was driven by the wider-than-expected loss, a 5% decline in active clients and fourth-quarter revenue guidance below expectations.",
+    "explicit_reasons": "The Motley Fool explicitly identified three after-hours catalysts: the $0.72 loss versus the $0.55 analyst loss estimate, the drop in active clients to 3.9 million, and revenue guidance of $485 million to $495 million versus a $495.1 million Refinitiv estimate cited by Fox Business. It separately attributed the regular-session decline to reports of the workforce reduction, which management later confirmed.",
+    "implicit_reasons": "Coverage also presented the reversal in pandemic-era online-shopping behavior, higher supply-chain, marketing and labor costs, weak new-client onboarding and uncertain macro conditions as contributing pressure. The articles gave no numerical expectation for these conditions, but described them as the backdrop to customer losses, layoffs and deteriorating profitability.",
+    "categories": {
+      "Guidance": {"direction": "negative", "attribution": "explicit", "text": "Fiscal fourth-quarter revenue guidance of $485 million to $495 million was below the $495.1 million Refinitiv estimate cited by Fox Business and implied a 13% to 15% year-over-year decline. The Motley Fool explicitly named the disappointing guidance as a catalyst for the after-hours selloff."},
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": {"direction": "negative", "attribution": "explicit", "text": "Active clients fell 5% year over year to 3.9 million, while management had already acknowledged that client counts were below expectations and onboarding was weak. The Motley Fool explicitly identified the client decline as one of the main catalysts for the after-hours drop."},
+      "Profits, costs and margin": {"direction": "negative", "attribution": "explicit", "text": "The quarterly loss widened to $0.72 a share from $0.18 and was worse than the $0.55 loss analysts expected. The Motley Fool explicitly tied this earnings miss to the after-hours selloff."},
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": {"direction": "negative", "attribution": "explicit", "text": "Stitch Fix announced layoffs covering roughly 15% of salaried positions, or about 330 people, after reviewing the business amid weak momentum. The Motley Fool explicitly attributed the regular-session decline to reports of these cuts; the articles give no indication investors expected them."},
+      "Litigation": null,
+      "Macro and micro development": {"direction": "negative", "attribution": "implicit", "text": "Coverage said shoppers were returning to stores as pandemic restrictions eased, while Stitch Fix faced inflation, higher supply-chain, marketing and labor costs, and uncertain demand. The articles gave no numerical expectation for these completed-quarter pressures but presented them as the backdrop to declining clients and widening losses."},
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {"title": "Earnings Previews: DocuSign, Stitch Fix, Vail Resorts", "published_date": "2022-06-08T09:18:09-04:00", "url": "https://247wallst.com/investing/2022/06/08/earnings-previews-docusign-stitch-fix-vail-resorts/?utm_source=snapi"},
+      {"title": "Stitch Fix is laying off 15% of its salaried employees, internal memo says", "published_date": "2022-06-09T13:58:20-04:00", "url": "https://www.cnbc.com/2022/06/09/stitch-fix-is-laying-off-15percent-of-its-salaried-employees-internal-memo-says.html"},
+      {"title": "Stitch Fix is laying off 15% of its salaried employees", "published_date": "2022-06-09T16:36:44-04:00", "url": "https://www.cnn.com/2022/06/09/business/stitch-fix-jobs-retail/index.html"},
+      {"title": "Stitch Fix cuts jobs, revenue forecast miss sends shares plunging", "published_date": "2022-06-10T00:20:53-04:00", "url": "https://www.foxbusiness.com/markets/stitch-fix-cuts-jobs-revenue-miss-shares-plunge"},
+      {"title": "Stitch Fix Falters as Online Economy Buckles", "published_date": "2022-06-10T08:30:01-04:00", "url": "https://247wallst.com/retail/2022/06/10/stitch-fix-falters-as-online-economy-buckles/?utm_source=snapi"},
+      {"title": "Stitch Fix Cuts Workforce as Customers Leave", "published_date": "2022-06-10T09:57:44-04:00", "url": "https://www.pymnts.com/news/retail/2022/stitch-fix-cuts-workforce-customers-leave/?utm_source=snapi"},
+      {"title": "Stitch Fix Stock in Tatters on Earnings Miss, Weak Guidance, Job Cuts", "published_date": "2022-06-10T10:08:56-04:00", "url": "https://www.fool.com/investing/2022/06/10/sfix-stock-down-sfix-earnings-sfix-layoffs/"},
+      {"title": "Stitch Fix (SFIX) Stock Plummets 15% After Announcing Layoffs", "published_date": "2022-06-10T10:45:05-04:00", "url": "https://investorplace.com/2022/06/stitch-fix-sfix-stock-plummets-15-after-announcing-layoffs/"},
+      {"title": "There's nothing stopping former ‘market darlings' from going lower, Jim Cramer warns", "published_date": "2022-06-10T18:34:46-04:00", "url": "https://www.cnbc.com/2022/06/10/theres-nothing-stopping-former-market-darlings-from-going-lower-jim-cramer-warns.html"}
+    ]
+  },
+  "SFIX_2023q4": {
+    "summary_analysis": "Stitch Fix reported first-quarter revenue of $364.79 million and EPS of negative $0.22, modestly better than Zacks consensus estimates of $361.84 million and negative $0.23; neither retained article reported the stock's immediate reaction. Follow-up coverage said continuing-operations revenue was near the high end of company guidance and adjusted EBITDA exceeded guidance, but active clients fell 15% year over year and revenue per active client declined 6%.",
+    "explicit_reasons": "The retained articles do not explicitly attribute a reported stock move to any specific factor.",
+    "implicit_reasons": "The retained articles do not report a stock reaction or present any category as an implicit reason for one.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {"title": "Stitch Fix (SFIX) Reports Q1 Earnings: What Key Metrics Have to Say", "published_date": "2023-12-05T19:32:10-05:00", "url": "https://www.zacks.com/stock/news/2193859/stitch-fix-sfix-reports-q1-earnings-what-key-metrics-have-to-say"},
+      {"title": "Stitch Fix Tailors Its Style With Private Label Flair to Win Over Customers", "published_date": "2023-12-06T10:00:44-05:00", "url": "https://www.pymnts.com/news/retail/2023/stitch-fix-tailors-its-style-with-private-label-flair-to-win-over-customers/?utm_source=snapi"}
+    ]
+  },
+  "BA_2022q2": {
+    "summary_analysis": "Boeing reported a first-quarter adjusted loss of $2.75 a share and revenue of $13.99 billion, both far worse than Wall Street expected, and its shares fell as much as 10% during the session before closing down 7.5%. Coverage centered on the unusually large earnings and revenue misses, $1.2 billion of program and geopolitical charges, continuing Dreamliner delivery problems, and a further delay to the 777X passenger jet.",
+    "explicit_reasons": "InvestorPlace explicitly framed the $2.75 adjusted loss, versus a $0.27 loss estimate, and $13.99 billion of revenue, versus $16.02 billion expected, as the bad news behind the selloff. Follow-up coverage likewise said Boeing's performance fell well short of already low expectations, with the loss also burdened by $660 million for Air Force One, $367 million for the T-7A and $212 million connected to the war in Ukraine.",
+    "implicit_reasons": "Coverage presented the 777X passenger-jet delay to 2025, more than a year later than Boeing had previously forecast, and the associated $1.5 billion of abnormal costs as additional pressure. It also described halted 787 deliveries, supply-chain constraints and other production and certification problems as the operating backdrop; the articles gave no separate market expectation for those completed-quarter disruptions.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": {"direction": "negative", "attribution": "explicit", "text": "First-quarter revenue fell 8% to $13.99 billion, versus analyst estimates of about $15.83 billion to $16.02 billion. InvestorPlace explicitly presented this miss as part of the bad news driving Boeing shares lower."},
+      "New Product Release / Users": {"direction": "negative", "attribution": "implicit", "text": "Boeing postponed the first 777X passenger-jet deliveries to 2025, more than a year later than its prior forecast, and planned to pause production through 2023. Coverage presented the unexpected additional delay and $1.5 billion of abnormal costs as material pressure alongside the selloff, without stating a direct causal link."},
+      "Profits, costs and margin": {"direction": "negative", "attribution": "explicit", "text": "The adjusted loss was $2.75 a share versus a $0.27 loss estimate cited by InvestorPlace, while CNN said the $1.5 billion core operating loss compared with a $399 million forecast. InvestorPlace explicitly identified the much-wider loss as the first reason Boeing shares were taking a beating."},
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {"direction": "negative", "attribution": "implicit", "text": "The quarter included halted 787 deliveries, supply-chain constraints and program delays, plus $212 million of charges tied to the war in Ukraine. The articles gave no separate expectation for these disruptions but presented them as contributors to the unexpectedly poor reported results."},
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {"title": "Boeing misses estimates as it grapples with delays on commercial, defense programs", "published_date": "2022-04-27T07:31:06-04:00", "url": "https://www.cnbc.com/2022/04/27/boeing-ba-1q2022-earnings.html"},
+      {"title": "Boeing delays its newest jet as losses soar", "published_date": "2022-04-27T08:45:39-04:00", "url": "https://www.cnn.com/2022/04/27/investing/boeing-losses/index.html"},
+      {"title": "These 2 Industrial Giants Are Making Moves Wednesday", "published_date": "2022-04-27T09:02:58-04:00", "url": "https://www.fool.com/investing/2022/04/27/these-2-industrial-giants-are-making-moves-wednesd/"},
+      {"title": "Why Is Boeing (BA) Stock Down Today?", "published_date": "2022-04-27T10:15:21-04:00", "url": "https://investorplace.com/2022/04/why-is-boeing-ba-stock-down-today-april-27/"},
+      {"title": "Boeing stock plummets after quarterly earnings highlight production snafus", "published_date": "2022-04-27T11:54:48-04:00", "url": "https://www.proactiveinvestors.com/companies/news/980743?SNAPI"},
+      {"title": "Boeing CEO talks China crash, 737 Max jet after 1Q loss", "published_date": "2022-04-27T12:00:45-04:00", "url": "https://www.foxbusiness.com/markets/boeing-ceo-talks-china-crash-737-max-jet"},
+      {"title": "Boeing lost $1.1 billion on Trump Air Force One contract; CEO regrets deal", "published_date": "2022-04-27T14:25:19-04:00", "url": "https://www.cnbc.com/2022/04/27/boeing-lost-billion-dollars-on-trump-air-force-one-plane-deal.html"},
+      {"title": "Boeing shares plunge after Q1 loss as technical problems persist", "published_date": "2022-04-27T14:47:10-04:00", "url": "https://nypost.com/2022/04/27/boeing-shares-plunge-as-technical-problems-persist/"},
+      {"title": "Why Boeing Shares Lost Altitude This Week", "published_date": "2022-04-28T15:39:26-04:00", "url": "https://www.fool.com/investing/2022/04/28/why-boeing-shares-lost-altitude-this-week/"}
+    ]
+  },
+  "JNJ_2022q3": {
+    "summary_analysis": "Johnson & Johnson reported second-quarter revenue of $24 billion and EPS of $2.59, both above estimates, and its shares initially rose 0.65% in premarket trading before falling $2.54 during the regular session. The later coverage attributed the reversal chiefly to a reduced 2022 sales forecast as currency pressure and inflation outweighed the reported-quarter beats.",
+    "explicit_reasons": "Investor's Business Daily said the stock toppled on the trimmed outlook, while GuruFocus attributed much of the decline to the lower full-year sales forecast. Johnson & Johnson reduced expected 2022 revenue to $93.3 billion to $94.3 billion from $94.8 billion to $95.8 billion and anticipated a $4 billion negative currency impact.",
+    "implicit_reasons": "The reported quarter offered positive offsets: revenue beat expectations by $180 million, EPS beat by $0.04, and pharmaceutical sales of $13.32 billion narrowly exceeded forecasts. Coverage placed these beats beside the later decline but said the forecast reduction prevailed.",
+    "categories": {
+      "Guidance": {"direction": "negative", "attribution": "explicit", "text": "Johnson & Johnson cut 2022 revenue guidance to $93.3 billion to $94.3 billion from $94.8 billion to $95.8 billion and expected a $4 billion currency headwind. Investor's Business Daily said the stock toppled on the trimmed outlook, and GuruFocus attributed much of the decline to the cut."},
+      "Order book / backlog": null,
+      "Revenue": {"direction": "positive", "attribution": "implicit", "text": "Second-quarter revenue of $24 billion exceeded expectations by $180 million, and pharmaceutical sales of $13.32 billion narrowly topped forecasts. Coverage presented these beats as a positive offset rather than the reason for the later decline."},
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {"direction": "positive", "attribution": "implicit", "text": "EPS of $2.59 exceeded the cited estimate by $0.04. The articles reported the beat next to the stock reaction but did not identify reported-quarter profit as the cause of the decline."},
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": {"direction": "negative", "attribution": "implicit", "text": "Finbold reported that shares were up 0.65% in premarket trading after the release, while the two-day return finished in the opposite, negative direction."}
+    },
+    "sources": [
+      {"title": "Johnson & Johnson beats earnings – JNJ stock rises in premarket trading", "published_date": "2022-07-19T07:33:28-04:00", "url": "https://finbold.com/johnson-johnson-beats-earnings-jnj-stock-rises-in-premarket-trading/?utm_source=snapi"},
+      {"title": "Here's The Surprising Driver Of J&J's Second-Quarter Beat, And Why It Didn't Help", "published_date": "2022-07-19T16:06:58-04:00", "url": "https://www.investors.com/news/technology/jnj-stock-johnson-johnson-earnings-q2-2022/"},
+      {"title": "J&J Medtech Outlook Boosts Shares of Stryker, Biomet and Intuitive", "published_date": "2022-07-19T17:42:32-04:00", "url": "https://www.gurufocus.com/news/1831487/jj-medtech-outlook-boosts-shares-of-stryker-biomet-and-intuitive"}
+    ]
+  },
+  "UBER_2021q3": {
+    "summary_analysis": "Uber reported second-quarter revenue of $3.93 billion and an accounting profit driven by investment gains, but its shares fell more than 8% after hours before rebounding about 2.5% the next morning. The coverage said the revenue beat and recovery in bookings were overshadowed initially by a $509 million adjusted EBITDA loss, well above the loss analysts expected, and the costly incentives needed to restore driver supply.",
+    "explicit_reasons": "TechCrunch explicitly said the shares fell despite the revenue beat because Uber's core operations continued to lose money: the adjusted EBITDA loss was $509 million versus a $324.5 million loss expected. PYMNTS likewise tied the loss to heavy driver-recruitment spending and said analysts questioned the long-run reliability of that labor model.",
+    "implicit_reasons": "Revenue of $3.93 billion beat the $3.74 billion estimate and gross bookings reached $21.9 billion, providing a positive counterweight. Follow-up coverage said the next-day rebound and bullish analyst stance reflected Uber's reaffirmed target for fourth-quarter adjusted EBITDA profitability and management's view that temporary driver incentives had passed their peak; the articles gave no separate consensus expectation for that reaffirmation.",
+    "categories": {
+      "Guidance": {"direction": "positive", "attribution": "implicit", "text": "Uber reaffirmed its goal of adjusted EBITDA profitability in the fourth quarter and projected a third-quarter adjusted EBITDA loss of less than $100 million on $22 billion to $24 billion of bookings. Follow-up analysts treated the reaffirmation and management's statement that incentive spending had peaked as support for the rebound, but the articles gave no separate consensus figure for the target."},
+      "Order book / backlog": null,
+      "Revenue": {"direction": "positive", "attribution": "implicit", "text": "Revenue of $3.93 billion exceeded the $3.74 billion analyst estimate cited by TechCrunch, while bookings reached $21.9 billion. The articles presented the beat as a positive offset, not as the cause of the initial decline."},
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {"direction": "negative", "attribution": "explicit", "text": "Uber's adjusted EBITDA loss was $509 million versus the $324.5 million loss analysts expected, as heavy spending was required to attract drivers. TechCrunch explicitly said the shares fell despite the revenue beat as core operations remained loss-making."},
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": {"direction": "positive", "attribution": "implicit", "text": "CNBC reported that shares dipped more than 4% in after-hours trading immediately after the release, while the two-day return finished in the opposite, positive direction."}
+    },
+    "sources": [
+      {"title": "Uber beats estimates, core business lost $509 million in Q2", "published_date": "2021-08-04T16:07:52-04:00", "url": "https://www.cnbc.com/2021/08/04/uber-earnings-q2-2021.html"},
+      {"title": "Uber shares fall despite revenue beat as its core operations continue to lose money", "published_date": "2021-08-04T16:48:57-04:00", "url": "https://techcrunch.com/2021/08/04/uber-shares-fall-despite-revenue-beat-as-its-core-operations-continue-to-lose-money/"},
+      {"title": "Uber is still losing a lot of money", "published_date": "2021-08-04T17:16:02-04:00", "url": "https://www.businessinsider.com/uber-still-losing-a-lot-of-money-latest-earnings-show-2021-8"},
+      {"title": "Uber more than doubles revenues to nearly $4bn after a dismal pandemic year", "published_date": "2021-08-04T17:18:35-04:00", "url": "https://www.theguardian.com/technology/2021/aug/04/uber-revenues-delivery-service-pandemic"},
+      {"title": "Uber's Q2 Rebound Driven By Costly Re-Staffing Made Prior To COVID-Delta Concerns", "published_date": "2021-08-05T07:12:58-04:00", "url": "https://www.pymnts.com/earnings/2021/ubers-q2-rebound-driven-by-costly-re-staffing-made-prior-to-covid-delta-concerns/?utm_source=snapi"},
+      {"title": "Uber stock rebounds after earnings, analysts maintain bullish outlook", "published_date": "2021-08-05T11:49:13-04:00", "url": "https://www.freightwaves.com/news/uber-stock-rebounds-after-earnings-analysts-maintain-bullish-outlook"}
+    ]
+  },
+  "UBER_2023q2": {
+    "summary_analysis": "Uber reported first-quarter revenue of $8.82 billion, adjusted EBITDA of $761 million and a much narrower net loss, and its shares rose about 7% after the release before extending the gain during the week. Coverage explicitly credited stronger-than-expected revenue, rapidly improving profitability, robust bookings and trip growth, and above-expected forward guidance.",
+    "explicit_reasons": "CNBC said the stock popped after revenue beat expectations, while The Motley Fool attributed the rise to strong growth and a significant improvement in profitability. Revenue exceeded estimates of roughly $8.7 billion to $8.72 billion, adjusted EBITDA beat the $687 million StreetAccount estimate, monthly active customers rose 13% to 130 million, and trips rose 24% to 2.12 billion. Analyst follow-up said the favorable reaction also reflected second-quarter bookings guidance above expectations and continued margin expansion.",
+    "implicit_reasons": "Coverage presented Uber One's growing reach, stronger driver engagement, fewer incentives and a mobility recovery as reinforcing evidence. The articles gave no separate consensus expectation for Uber One's 27% share of mobility bookings or for the 13% customer increase, but analysts said these trends strengthened the platform's competitive position.",
+    "categories": {
+      "Guidance": {"direction": "positive", "attribution": "explicit", "text": "Uber forecast second-quarter bookings of $33 billion to $34 billion and adjusted EBITDA of $800 million to $850 million. Proactive Investors reported that analysts described the bookings outlook as above expectations and said shares reacted favorably to the quarter and forward guidance."},
+      "Order book / backlog": null,
+      "Revenue": {"direction": "positive", "attribution": "explicit", "text": "First-quarter revenue rose 29% to $8.82 billion, ahead of estimates of about $8.7 billion to $8.72 billion. CNBC explicitly said the shares popped after revenue beat expectations."},
+      "New Product Release / Users": {"direction": "positive", "attribution": "explicit", "text": "Monthly active platform consumers increased 13% to 130 million and trips rose 24% to 2.12 billion; the articles gave no separate consensus estimate for either measure. The Motley Fool's explanation of why the stock rose cited this broad customer and trip growth, and analyst follow-up highlighted improving consumer and driver engagement."},
+      "Profits, costs and margin": {"direction": "positive", "attribution": "explicit", "text": "Adjusted EBITDA reached $761 million versus $687 million expected, while free cash flow turned positive at $549 million and the per-share loss was slightly better than or in line with the estimates cited across sources. The Motley Fool explicitly named the significant profitability improvement as a reason the shares rose."},
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {"title": "Uber revenue beats expectations and the stock is up", "published_date": "2023-05-02T07:09:54-04:00", "url": "https://www.cnbc.com/2023/05/02/uber-q1-earnings-report-2023.html"},
+      {"title": "Uber Earnings Top Views On Strong International Growth. The Stock Is Racing Higher.", "published_date": "2023-05-02T07:34:22-04:00", "url": "https://www.investors.com/news/technology/uber-stock-uber-earnings-q12023/"},
+      {"title": "Uber's revenue climbs 29% as it continues to defy tech slump", "published_date": "2023-05-02T08:32:47-04:00", "url": "https://www.cnn.com/2023/05/02/tech/uber-earnings/index.html"},
+      {"title": "Uber zooms ahead of expectations driven by surge in 1Q bookings", "published_date": "2023-05-02T09:04:53-04:00", "url": "https://www.proactiveinvestors.com/companies/news/1013865?SNAPI"},
+      {"title": "These 2 Tech-Savvy Stocks Are on the Rise", "published_date": "2023-05-02T09:48:03-04:00", "url": "https://www.fool.com/investing/2023/05/02/these-2-tech-savvy-stocks-are-on-the-rise/"},
+      {"title": "UBER Stock Alert: Can Uber Really Surge 152% From Here?", "published_date": "2023-05-02T10:38:24-04:00", "url": "https://investorplace.com/2023/05/uber-stock-alert-can-uber-really-surge-152-from-here/"},
+      {"title": "Uber One Members Drive 27% of Mobility Platform's Gross Bookings", "published_date": "2023-05-02T11:19:07-04:00", "url": "https://www.pymnts.com/news/ridesharing/2023/uber-one-members-drive-27-percent-gross-bookings/?SNAPI&utm_source=snapi"},
+      {"title": "Why Uber Stock Was Rising Today", "published_date": "2023-05-02T11:45:47-04:00", "url": "https://www.fool.com/investing/2023/05/02/why-uber-stock-was-rising-today/"},
+      {"title": "This Is Just the Beginning for Uber", "published_date": "2023-05-02T15:11:32-04:00", "url": "https://www.gurufocus.com/news/1990254/this-is-just-the-beginning-for-uber"},
+      {"title": "Uber Eats Leverages Discounting to Maintain Aggregator Usage Amid Inflation", "published_date": "2023-05-02T15:51:59-04:00", "url": "https://www.pymnts.com/news/delivery/2023/uber-eats-leverages-discounting-to-maintain-aggregator-usage-amid-inflation/?utm_source=snapi"},
+      {"title": "3 Things About Uber Technologies That Smart Investors Know", "published_date": "2023-05-03T08:00:00-04:00", "url": "https://www.fool.com/investing/2023/05/03/3-things-about-uber-technologies-that-smart-invest/"},
+      {"title": "Uber 1Q results hailed by analysts; Wedbush and Canaccord raise price target", "published_date": "2023-05-03T12:51:07-04:00", "url": "https://www.proactiveinvestors.com/companies/news/1014060?SNAPI"},
+      {"title": "Why Uber Stock Was a Winner on Wednesday", "published_date": "2023-05-03T17:33:38-04:00", "url": "https://www.fool.com/investing/2023/05/03/why-uber-stock-was-a-winner-on-wednesday/"},
+      {"title": "Why Uber Stock Popped This Week", "published_date": "2023-05-05T07:09:00-04:00", "url": "https://www.fool.com/investing/2023/05/05/why-uber-stock-popped-this-week/"},
+      {"title": "Uber: Driving Growth With Logistics Software", "published_date": "2023-05-05T14:42:32-04:00", "url": "https://www.gurufocus.com/news/1993190/uber-driving-growth-with-logistics-software"},
+      {"title": "Uber and Pfizer Update Their Investors About How Things Are Going", "published_date": "2023-05-05T18:26:19-04:00", "url": "https://www.fool.com/investing/2023/05/05/uber-and-pfizer-update-their-investors/"}
+    ]
+  },
+  "VZ_2022q2": {
+    "summary_analysis": "Verizon reported first-quarter adjusted EPS of $1.35 and revenue of $33.6 billion, broadly in line with expectations, but its shares fell about 6%. Coverage attributed the initial selloff to a weaker full-year outlook amid inflation and competition, while a subsequent decline followed an analyst downgrade prompted by subscriber losses and concern that Verizon was ceding ground to AT&T.",
+    "explicit_reasons": "The New York Post said shares tumbled as rising inflation dented Verizon's forecast: management expected adjusted EPS and wireless service revenue growth at the low ends of their prior ranges. The Motley Fool explicitly attributed the next trading day's decline to Goldman's downgrade after Verizon lost 36,000 postpaid phone connections while AT&T added 691,000.",
+    "implicit_reasons": "The completed-quarter results were mixed. Adjusted EPS was in line with estimates and the 36,000 total monthly phone losses were better than the 49,300 loss expected, but CNET highlighted a 292,000 decline in consumer postpaid phone subscriptions and intensifying competition; the articles gave no separate expectation for that consumer-only measure.",
+    "categories": {
+      "Guidance": {"direction": "negative", "attribution": "explicit", "text": "Verizon expected adjusted EPS at the low end of its prior $5.40 to $5.55 range and wireless service revenue growth at the low end of 9% to 10%, while analysts expected $5.45 of EPS. The New York Post explicitly said the shares tumbled as inflation dented the forecast."},
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": {"direction": "negative", "attribution": "explicit", "text": "Verizon lost 36,000 postpaid phone connections versus a FactSet estimate for a 49,300 loss, but AT&T added 691,000 and Verizon lost 292,000 consumer postpaid phone subscriptions. The Motley Fool explicitly said those competitive subscriber comparisons sparked concern and drove the follow-up decline after Goldman's downgrade."},
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {"title": "Verizon Communications (VZ) Q1 Earnings Meet Estimates", "published_date": "2022-04-22T09:47:04-04:00", "url": "https://www.zacks.com/stock/news/1905195/verizon-communications-vz-q1-earnings-meet-estimates"},
+      {"title": "Verizon shows broadband gains and loses fewer phone subscribers in 1Q", "published_date": "2022-04-22T10:21:56-04:00", "url": "https://www.proactiveinvestors.com/companies/news/980350?SNAPI"},
+      {"title": "Verizon shares tumble as rising inflation dents wireless forecast", "published_date": "2022-04-22T11:50:07-04:00", "url": "https://nypost.com/2022/04/22/verizon-shares-tumble-as-rising-inflation-dents-wireless-forecast/"},
+      {"title": "Verizon Wireless Customers Flee Despite 5G Network Upgrades", "published_date": "2022-04-22T14:29:34-04:00", "url": "https://www.cnet.com/tech/mobile/verizon-wireless-customers-flee-despite-5g-network-upgrades/"},
+      {"title": "Why Verizon Stock Fell Today", "published_date": "2022-04-25T17:49:00-04:00", "url": "https://www.fool.com/investing/2022/04/25/why-verizon-stock-fell-today/"}
+    ]
+  },
+  "VZ_2023q4": {
+    "summary_analysis": "Verizon reported third-quarter adjusted EPS of $1.22, revenue of $33.34 billion and 100,000 postpaid phone net additions, and its shares closed more than 9% higher. Coverage explicitly credited the earnings and subscriber beats, stronger free cash flow and a $1 billion increase in full-year free-cash-flow guidance, while noting that published revenue comparisons disagreed slightly on whether sales narrowly beat or missed consensus.",
+    "explicit_reasons": "The Motley Fool said the shares surged after Verizon topped estimates and raised guidance, and CNBC reported EPS of $1.22 versus $1.18 expected, revenue of $33.34 billion versus $33.25 billion, and 100,000 phone net additions versus 62,000 expected. The company also raised expected 2023 free cash flow to more than $18 billion from at least $17 billion. Zacks used a different consensus and called revenue a 0.16% miss, so the revenue signal was source-dependent rather than uniformly positive.",
+    "implicit_reasons": "Follow-up coverage said Verizon's 434,000 broadband net additions, improving consumer subscriber losses and wider consumer EBITDA margin showed stabilization after years of weak market-share performance. The articles gave no separate consensus estimate for broadband additions or the margin improvement, but analysts and columnists presented them as supporting the favorable reassessment.",
+    "categories": {
+      "Guidance": {"direction": "positive", "attribution": "explicit", "text": "Verizon raised its 2023 free-cash-flow outlook by $1 billion to more than $18 billion from at least $17 billion. The Motley Fool explicitly identified the guidance increase as a reason the stock surged."},
+      "Order book / backlog": null,
+      "Revenue": {"direction": "positive", "attribution": "explicit", "text": "Revenue was $33.34 billion; CNBC compared it with a $33.25 billion estimate and called it a beat, while Zacks used a different consensus and called it a 0.16% miss. The Motley Fool included the top-line result among the estimates Verizon topped, but the sources do not agree uniformly on the revenue gap."},
+      "New Product Release / Users": {"direction": "positive", "attribution": "explicit", "text": "Verizon added 100,000 postpaid phone accounts versus the 62,000 StreetAccount consensus, and reported 434,000 broadband net additions. CNBC identified the phone-addition beat in its account of the stock's best day in almost 15 years."},
+      "Profits, costs and margin": {"direction": "positive", "attribution": "explicit", "text": "Adjusted EPS of $1.22 exceeded estimates of $1.17 to $1.18 cited by Zacks and CNBC, although it declined from $1.32 a year earlier. The Motley Fool explicitly said the stock surged after Verizon topped estimates."},
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {"title": "Verizon Earnings, Wireless Subscriber Growth Top Estimates", "published_date": "2023-10-24T07:26:07-04:00", "url": "https://www.investors.com/news/technology/vz-stock-verizon-earnings-q32023/"},
+      {"title": "Verizon ups free cash flow guidance as broadband adds mount up", "published_date": "2023-10-24T07:48:18-04:00", "url": "https://www.proactiveinvestors.com/companies/news/1030768?SNAPI"},
+      {"title": "3 Dow Jones Stocks Are Celebrating Tuesday Morning", "published_date": "2023-10-24T09:08:36-04:00", "url": "https://www.fool.com/investing/2023/10/24/3-dow-jones-stocks-are-celebrating-tuesday-morning/"},
+      {"title": "Verizon Communications (VZ) Q3 Earnings Beat Estimates", "published_date": "2023-10-24T09:46:24-04:00", "url": "https://www.zacks.com/stock/news/2170665/verizon-communications-vz-q3-earnings-beat-estimates"},
+      {"title": "Why Verizon Stock Was Soaring Today", "published_date": "2023-10-24T13:21:08-04:00", "url": "https://www.fool.com/investing/2023/10/24/why-verizon-stock-was-soaring-today/"},
+      {"title": "Verizon stock soars toward its best day in almost 15 years", "published_date": "2023-10-24T14:52:23-04:00", "url": "https://www.cnbc.com/2023/10/24/verizon-stock-soars-toward-its-best-day-in-almost-15-years.html"},
+      {"title": "Where Will Verizon Communications Stock Be in 1 Year?", "published_date": "2023-10-26T05:15:00-04:00", "url": "https://www.fool.com/investing/2023/10/26/where-will-verizon-communications-stock-be-1-year/"},
+      {"title": "Good News for Verizon Stock Investors: The Telecom Giant Is Solving Its Biggest Problem", "published_date": "2023-10-27T06:31:00-04:00", "url": "https://www.fool.com/investing/2023/10/27/good-news-for-verizon-stock-the-telecom-is-solving/"}
+    ]
+  }
+}

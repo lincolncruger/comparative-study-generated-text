@@ -1,0 +1,740 @@
+{
+  "REZI_2022q4": {
+    "summary_analysis": "REZI reported third-quarter adjusted EPS of $0.42 on revenue of $1.62 billion, and its shares were down more than 30% on Wednesday morning after the release, according to The Motley Fool. Coverage portrayed the move as a broad disappointment: earnings and revenue missed expectations, fourth-quarter sales guidance came in below forecasts, full-year revenue guidance was cut, and management described softer-than-expected orders and sales in Products & Solutions as customers normalized inventory amid macro uncertainty.",
+    "explicit_reasons": "Articles explicitly tied the selloff to weaker results and lower guidance. The Motley Fool said fourth-quarter revenue guidance of $1.55 billion to $1.60 billion was below the $1.66 billion analysts expected, and that full-year revenue guidance was reduced to $6.36 billion to $6.41 billion from $6.45 billion to $6.65 billion. The same article said third-quarter revenue of $1.62 billion missed the $1.69 billion sales expectation, while adjusted EPS of $0.42 fell short of analyst estimates that The Motley Fool put at $0.56 and Zacks put at $0.57, and it presented those misses as the reason investors sold the stock.",
+    "implicit_reasons": "Coverage also pointed to weakening demand conditions behind the miss and the cautious outlook. Management said Products & Solutions experienced softer-than-expected orders and sales as customers normalized inventory amid growing macro uncertainty, and The Motley Fool said the business was being hit by ongoing issues in the construction and renovation markets; those factors implicitly framed the negative reaction.",
+    "categories": {
+      "Guidance": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "The company projected fourth-quarter revenue of $1.55 billion to $1.60 billion, below the $1.66 billion sales expectation cited by The Motley Fool. The same article said Resideo also lowered full-year 2022 revenue guidance to $6.36 billion to $6.41 billion from $6.45 billion to $6.65 billion, and explicitly tied that weaker outlook to the selloff."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "Third-quarter revenue was $1.62 billion. The Motley Fool said that missed analyst expectations for $1.69 billion in sales, while Zacks also said revenue missed its consensus estimate, and the reaction coverage explicitly linked that shortfall to the stock's plunge."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "Adjusted EPS was $0.42, below the expectation figures reported by the articles: The Motley Fool cited $0.56 and Zacks cited $0.57. The articles give no separate margin expectation, but PRNewswire said Products & Solutions gross margin fell to 36.2% from 41.5% and segment operating profit dropped 21%, reinforcing the earnings disappointment that the reaction coverage tied to the selloff."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Management said that, as the quarter progressed, Products & Solutions saw softer-than-expected orders and sales as customers normalized inventory levels amid growing macro uncertainty. The Motley Fool also said the company was being hit by ongoing issues in the construction and renovation markets, which implicitly explained the miss and cautious outlook."
+      },
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {
+        "title": "Resideo Announces Third Quarter 2022 Financial Results",
+        "published_date": "2022-11-01T16:05:00-04:00",
+        "url": "https://www.prnewswire.com/news-releases/resideo-announces-third-quarter-2022-financial-results-301665274.html"
+      },
+      {
+        "title": "Resideo Technologies (REZI) Lags Q3 Earnings and Revenue Estimates",
+        "published_date": "2022-11-01T18:50:26-04:00",
+        "url": "https://www.zacks.com/stock/news/2012110/resideo-technologies-rezi-lags-q3-earnings-and-revenue-estimates"
+      },
+      {
+        "title": "Why Resideo Technologies Stock Is Plummeting Today",
+        "published_date": "2022-11-02T13:03:55-04:00",
+        "url": "https://www.fool.com/investing/2022/11/02/why-resideo-technologies-stock-is-plummeting-today/"
+      }
+    ]
+  },
+  "ASO_2021q4": {
+    "summary_analysis": "Academy Sports + Outdoors reported record third-quarter results, including revenue of $1.59 billion and adjusted EPS of $1.75, both above the consensus figures cited by Benzinga and Zacks, and the retained articles do not report a specific immediate stock reaction. The coverage highlighted 18.1% sales growth, 17.9% comparable-sales growth, and a higher full-year outlook, but it did not explicitly or implicitly tie any particular factor to a reported share move.",
+    "explicit_reasons": "The retained articles do not explicitly attribute any stock move to a specific factor.",
+    "implicit_reasons": "The retained articles describe revenue and earnings beats and a raised fiscal-year outlook, but they do not implicitly connect those items to a reported stock move either.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {
+        "title": "Academy Sports + Outdoors Reports Record Third Quarter 2021 Results and Raises FY 2021 Guidance",
+        "published_date": "2021-12-10T08:00:00-05:00",
+        "url": "https://www.globenewswire.com/news-release/2021/12/10/2350038/0/en/Academy-Sports-Outdoors-Reports-Record-Third-Quarter-2021-Results-and-Raises-FY-2021-Guidance.html"
+      },
+      {
+        "title": "Academy Sports And Outdoors Q3 Earnings Top Estimates",
+        "published_date": "2021-12-10T10:24:46-05:00",
+        "url": "https://www.benzinga.com/news/earnings/21/12/24545404/academy-sports-and-outdoors-q3-earnings-top-estimates?utm_source=snapi"
+      },
+      {
+        "title": "Academy Sports and Outdoors, Inc. (ASO) Q3 Earnings and Revenues Beat Estimates",
+        "published_date": "2021-12-10T11:30:17-05:00",
+        "url": "https://www.zacks.com/stock/news/1837956/academy-sports-and-outdoors-inc-aso-q3-earnings-and-revenues-beat-estimates"
+      }
+    ]
+  },
+  "ASO_2022q2": {
+    "summary_analysis": "Academy Sports & Outdoors reported fiscal first-quarter adjusted EPS of $1.73 and revenue of $1.47 billion, both above expectations, and MarketWatch said the shares rallied 5.4% in premarket trading after the release. The retained coverage pointed to stronger-than-expected profit, net sales and same-store sales as the main support for the stock, while a lowered full-year outlook tied to macroeconomic challenges acted as a partial offset.",
+    "explicit_reasons": "MarketWatch explicitly tied the positive reaction to a strong quarterly beat. Zacks said adjusted EPS was $1.73 versus a $1.40 consensus estimate, and revenue was $1.47 billion, 2.07% above the Zacks Consensus Estimate, while MarketWatch added that net sales and same-store sales also beat expectations. MarketWatch also said the company reduced its full-year outlook to reflect \"macroeconomic challenges,\" which was a negative guidance change versus its prior outlook, although the retained articles do not provide the exact revised figures.",
+    "implicit_reasons": "The retained articles do not implicitly attribute the move to any additional factor beyond the explicit earnings beat and lowered outlook.",
+    "categories": {
+      "Guidance": {
+        "direction": "negative",
+        "attribution": "explicit",
+        "text": "MarketWatch said Academy Sports & Outdoors lowered its full-year outlook to reflect \"macroeconomic challenges.\" That was weaker than the company's prior outlook, although the retained articles do not provide the exact old or new forecast figures."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Zacks said first-quarter revenue was $1.47 billion, surpassing the Zacks Consensus Estimate by 2.07%. MarketWatch also said net sales and same-store sales were better than expected, explicitly tying that sales strength to the positive share reaction."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Zacks said adjusted EPS was $1.73, above the $1.40 consensus estimate. MarketWatch explicitly presented the better-than-expected profit as part of the reason the stock rose."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {
+        "title": "Academy Sports & Outdoors stock jumps after big earnings beat offset lowered outlook",
+        "published_date": "2022-06-07T08:29:04-04:00",
+        "url": "https://www.marketwatch.com/story/academy-sports-outdoors-stock-jumps-after-big-earnings-beat-offset-lowered-outlook-2022-06-07?mod=mw_quote_news"
+      },
+      {
+        "title": "Academy Sports and Outdoors, Inc. (ASO) Surpasses Q1 Earnings and Revenue Estimates",
+        "published_date": "2022-06-07T10:32:04-04:00",
+        "url": "https://www.zacks.com/stock/news/1935475/academy-sports-and-outdoors-inc-aso-surpasses-q1-earnings-and-revenue-estimates"
+      }
+    ]
+  },
+  "ASO_2023q4": {
+    "summary_analysis": "Academy Sports and Outdoors reported third-quarter adjusted EPS of $1.38 on revenue of $1.4 billion, and the retained articles did not report a specific share-price reaction. The coverage highlighted that both EPS and revenue missed Zacks consensus expectations of $1.64 and $1.45 billion, respectively, and also noted year-over-year declines, but it did not explicitly or implicitly explain the stock's move beyond reporting those results.",
+    "explicit_reasons": "The retained articles do not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "The retained articles do not implicitly tie any category to the stock's reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {
+        "title": "Academy Sports and Outdoors, Inc. (ASO) Lags Q3 Earnings and Revenue Estimates",
+        "published_date": "2023-11-30T10:31:22-05:00",
+        "url": "https://www.zacks.com/stock/news/2191418/academy-sports-and-outdoors-inc-aso-lags-q3-earnings-and-revenue-estimates"
+      },
+      {
+        "title": "Compared to Estimates, Academy Sports and Outdoors, Inc. (ASO) Q3 Earnings: A Look at Key Metrics",
+        "published_date": "2023-11-30T23:18:03-05:00",
+        "url": "https://www.zacks.com/stock/news/2191875/compared-to-estimates-academy-sports-and-outdoors-inc-aso-q3-earnings-a-look-at-key-metrics"
+      }
+    ]
+  },
+  "BSM_2023q3": {
+    "summary_analysis": "Black Stone Minerals reported second-quarter revenue of $117 million, slightly above the $116.33 million consensus estimate, while EPS of $0.35 missed the $0.37 consensus estimate; the retained article did not report how the shares reacted. The available coverage therefore describes a mixed quarter, but it does not explicitly or implicitly explain any stock move.",
+    "explicit_reasons": "The retained article does not explicitly attribute any share-price move to a specific factor.",
+    "implicit_reasons": "The retained article reports a small revenue beat and an EPS miss, but it does not tie either item to investor reaction, so no implicit reasons can be sourced.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {
+        "title": "Black Stone Minerals (BSM) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates",
+        "published_date": "2023-07-31T21:39:26-04:00",
+        "url": "https://www.zacks.com/stock/news/2130184/black-stone-minerals-bsm-q2-earnings-how-key-metrics-compare-to-wall-street-estimates"
+      }
+    ]
+  },
+  "BSM_2023q4": {
+    "summary_analysis": "Black Stone Minerals reported third-quarter revenue of $109.8 million and EPS of $0.27, and no retained article explicitly reported the stock's reaction. The only usable coverage showed revenue missing the Zacks Consensus Estimate of $135.23 million and EPS missing the $0.44 consensus, but it did not tie those misses or any other factor to the share move.",
+    "explicit_reasons": "The retained article does not explicitly attribute the move to any specific factor.",
+    "implicit_reasons": "The retained article reported revenue and EPS below consensus, but it did not explicitly or implicitly connect those results to the stock's move, so there are no sourced implicit reasons either.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {
+        "title": "Black Stone Minerals (BSM) Reports Q3 Earnings: What Key Metrics Have to Say",
+        "published_date": "2023-10-30T21:48:04-04:00",
+        "url": "https://www.zacks.com/stock/news/2174976/black-stone-minerals-bsm-reports-q3-earnings-what-key-metrics-have-to-say"
+      }
+    ]
+  },
+  "CENTA_2022q2": {
+    "summary_analysis": "CENTA reported adjusted EPS of $1.27 per share and revenue of $954.37 million for the quarter ended March 2022, both above the cited Zacks consensus, and the retained article does not report a specific stock-price reaction. The available coverage was limited to a Zacks earnings recap that highlighted a 7.63% EPS surprise versus the $1.18 estimate and a 2.06% revenue surprise, but it did not explicitly or implicitly tie any stock move to those results.",
+    "explicit_reasons": "The retained article does not explicitly attribute any stock move to a specific factor.",
+    "implicit_reasons": "The retained article does not implicitly attribute any stock move to a specific factor.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {
+        "title": "Central Garden (CENTA) Q2 Earnings and Revenues Top Estimates",
+        "published_date": "2022-05-04T22:34:07-04:00",
+        "url": "https://www.zacks.com/stock/news/1916359/central-garden-centa-q2-earnings-and-revenues-top-estimates"
+      }
+    ]
+  },
+  "CENTA_2022q3": {
+    "summary_analysis": "Central Garden reported fiscal third-quarter adjusted EPS of $1.39 on $1.02 billion of revenue, both above the Zacks consensus estimate, and no retained article reported the stock's immediate reaction. The verified coverage highlighted that EPS beat expectations by 10.32% and revenue beat by 2.22%, while also noting that estimate revisions ahead of the release had been unfavorable and that Zacks ranked the stock #4 (Sell) after the report; however, it did not tie those points to a specific share-price move.",
+    "explicit_reasons": "The retained coverage does not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "The retained coverage also does not implicitly attribute the stock's move to any specific factor. It reported an earnings and revenue beat versus consensus and separately noted an unfavorable estimate-revision trend, but it did not connect either point to share-price action.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {
+        "title": "Central Garden (CENTA) Q3 Earnings and Revenues Beat Estimates",
+        "published_date": "2022-08-03T20:18:21-04:00",
+        "url": "https://www.zacks.com/stock/news/1963454/central-garden-centa-q3-earnings-and-revenues-beat-estimates"
+      }
+    ]
+  },
+  "CENTA_2023q2": {
+    "summary_analysis": "CENTA reported second-quarter adjusted earnings of $0.90 a share, in line with the Zacks consensus estimate, and revenue of $909 million, 1.28% above consensus; no retained article reported the stock's post-release direction. The retained coverage framed the quarter as an earnings match with a modest revenue beat, while also noting that earnings-estimate revisions heading into the report had been unfavorable and that the stock carried a Zacks Rank #4 (Sell).",
+    "explicit_reasons": "The retained article does not explicitly attribute any share-price move to a specific factor.",
+    "implicit_reasons": "The retained article does not implicitly attribute any share-price move to a specific factor either; it reports the earnings match, slight revenue beat, and unfavorable estimate-revision trend but does not connect those items to a stated stock reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {
+        "title": "Central Garden (CENTA) Q2 Earnings Match Estimates",
+        "published_date": "2023-05-03T19:46:46-04:00",
+        "url": "https://www.zacks.com/stock/news/2089480/central-garden-centa-q2-earnings-match-estimates"
+      }
+    ]
+  },
+  "ASO_2023q1": {
+    "summary_analysis": "Academy Sports and Outdoors reported fourth-quarter and fiscal 2022 results that beat consensus on revenue and earnings, and its shares traded up more than 4% in Thursday's premarket. The retained coverage suggests the positive reaction reflected the better-than-expected quarter, even though same-store sales declined and the company paired the report with downside fiscal 2024 guidance whose high end was only near consensus.",
+    "explicit_reasons": "The retained articles do not explicitly attribute the share move to any specific factor.",
+    "implicit_reasons": "Implicitly, the positive setup came from a bottom-line beat, with Zacks reporting $2.04 per share against a $1.85 consensus estimate, and from a top-line beat that 24/7 Wall St. said came despite a 5.1% same-store sales decline. Offsetting that, Academy's fiscal 2024 outlook was described as downside guidance, although the high ends of its EPS and revenue ranges were very close to consensus estimates.",
+    "categories": {
+      "Guidance": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Academy issued downside fiscal 2024 guidance, although 24/7 Wall St. said the high ends of both its EPS and revenue ranges were very close to consensus estimates. That outlook was worse than investors had hoped for and was an implicit negative factor, even if it did not outweigh the quarter's beats."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "24/7 Wall St. said Academy beat consensus on the top line. The same article said same-store sales fell 5.1% in the quarter, with traffic down 6.4% and average ticket up 1.3%; the retained articles do not provide the exact consensus revenue figure, but they frame revenue as better than expected."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Zacks said Academy earned $2.04 per share versus the $1.85 Zacks Consensus Estimate, and 24/7 Wall St. also described a bottom-line beat. That stronger-than-expected earnings result was an implicit positive factor."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {
+        "title": "Earnings Wrap: Academy Sports, Adobe, Dollar General, KE Holdings, UiPath",
+        "published_date": "2023-03-16T09:15:23-04:00",
+        "url": "https://247wallst.com/investing/2023/03/16/earnings-wrap-academy-sports-adobe-dollar-general-ke-holdings-uipath/?utm_source=snapi"
+      },
+      {
+        "title": "Academy Sports and Outdoors, Inc. (ASO) Surpasses Q4 Earnings Estimates",
+        "published_date": "2023-03-16T10:42:41-04:00",
+        "url": "https://www.zacks.com/stock/news/2066657/academy-sports-and-outdoors-inc-aso-surpasses-q4-earnings-estimates"
+      }
+    ]
+  },
+  "ASO_2021q1": {
+    "summary_analysis": "Academy Sports and Outdoors reported fourth-quarter adjusted EPS of $1.09 and revenue of $1.60 billion, both ahead of expectations cited in the coverage, and its shares rose after the release. The coverage pointed mainly to the earnings beat and to fiscal 2021 EPS guidance of $2.70 to $2.95, which was above the roughly $2.39 to $2.43 analyst consensus cited across articles.",
+    "explicit_reasons": "Guidance was the clearest stated driver. Management's fiscal 2021 EPS outlook of $2.70 to $2.95 topped the roughly $2.39 to $2.43 consensus cited in the articles, and coverage described that outlook as upbeat and a reason the stock moved higher. Profitability also surprised strongly, with adjusted fourth-quarter EPS of $1.09 versus about $0.50 to $0.52 expected, while fourth-quarter revenue of $1.60 billion was modestly above the roughly $1.58 billion consensus; articles said those strong results helped lift the shares.",
+    "implicit_reasons": "The retained articles do not implicitly attribute the move to any additional specific factor beyond the earnings beat and guidance.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Academy guided fiscal 2021 EPS to $2.70 to $2.95, above the analyst expectations cited in the coverage, which ranged from about $2.39 to $2.43. MarketWatch called the outlook upbeat, and Motley Fool said the forecast was good enough to have investors excited and send the stock higher."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Fourth-quarter revenue was $1.60 billion, slightly above the roughly $1.58 billion consensus cited by Motley Fool and GuruFocus. Articles grouped that sales beat with the broader earnings surprise as part of the reason the stock rose."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Adjusted fourth-quarter EPS was $1.09, well above the roughly $0.50 to $0.52 consensus range cited across the retained articles. Coverage said the earnings beat helped drive the rally; MarketWatch separately reported GAAP net income of $91.5 million, or $0.97 per share."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {
+        "title": "Academy Sports stock jumps after earnings beat",
+        "published_date": "2021-03-30T10:07:12-04:00",
+        "url": "https://www.marketwatch.com/story/academy-sports-stock-jumps-after-earnings-beat-2021-03-30"
+      },
+      {
+        "title": "Why Academy Sports Stock Is Higher Today",
+        "published_date": "2021-03-30T15:44:00-04:00",
+        "url": "https://www.fool.com/investing/2021/03/30/why-academy-sports-stock-is-higher-today/"
+      },
+      {
+        "title": "Academy Sports and Outdoors Has Room to Grow",
+        "published_date": "2021-03-30T15:52:46-04:00",
+        "url": "https://www.gurufocus.com/news/1390527/academy-sports-and-outdoors-has-room-to-grow"
+      }
+    ]
+  },
+  "ASO_2022q4": {
+    "summary_analysis": "Academy Sports and Outdoors reported third-quarter adjusted EPS of $1.69 on $1.49 billion of revenue, and a later follow-up article said the shares were up 14.3% for the week after the release. The retained coverage pointed mainly to an earnings beat and a stronger full-year profit outlook, with supportive commentary on inventory and promotional discipline, even though sales were down year over year and below expectations.",
+    "explicit_reasons": "The retained coverage explicitly tied the move to stronger-than-expected earnings. Adjusted EPS was $1.69, above the estimates cited by both kept articles—$1.64 in Zacks and $1.59 in Motley Fool—even though it was down from $1.75 a year earlier.",
+    "implicit_reasons": "Implicitly, the coverage also highlighted a better forward outlook and steadier execution than feared. Motley Fool said the company raised full-year earnings guidance above forecasts, and it noted Academy was less promotional than some rivals, had improved inventory, and saw strong response to brands such as Nike, Columbia Sportswear, and Carhartt despite a cautious consumer backdrop.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Motley Fool said Academy raised its full-year earnings guidance above forecasts. The article did not provide the new range or the exact consensus benchmark, but it presented the outlook lift as a supportive part of the bullish read-through from the quarter."
+      },
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "The coverage explicitly linked the move to stronger-than-expected earnings. Adjusted EPS was $1.69 versus the estimates cited by the retained articles—$1.64 in Zacks and $1.59 in Motley Fool—though it was down from $1.75 a year earlier."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Motley Fool said Academy did not feel the same pressure to be as promotional as some rivals, had improved its inventory position, and saw strong response to Nike, Columbia Sportswear, and Carhartt. The article gave no numerical expectation, but framed this as better-than-feared execution in a retail environment where many peers were leaning harder on discounts."
+      },
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {
+        "title": "Academy Sports and Outdoors, Inc. (ASO) Q3 Earnings Beat Estimates",
+        "published_date": "2022-12-07T10:32:08-05:00",
+        "url": "https://www.zacks.com/stock/news/2026221/academy-sports-and-outdoors-inc-aso-q3-earnings-beat-estimates"
+      },
+      {
+        "title": "Why Academy Sports & Outdoors Soared 14% Higher This Week",
+        "published_date": "2022-12-09T09:44:01-05:00",
+        "url": "https://www.fool.com/investing/2022/12/09/why-academy-sports-outdoors-soared-14-higher-this/"
+      }
+    ]
+  },
+  "ASO_2022q3": {
+    "summary_analysis": "ASO reported second-quarter adjusted EPS of $2.30 on $1.69 billion of revenue, and articles said the shares jumped after the release. Coverage highlighted an earnings beat, a higher full-year earnings outlook, and aggressive shareholder returns, even though revenue was described as narrowly missing expectations.",
+    "explicit_reasons": "Motley Fool explicitly said strong second-quarter earnings sent the shares higher, and Zacks and IBD showed adjusted EPS of $2.30 versus about $2.06 to $2.07 expected. The same coverage also explicitly pointed to capital returns, saying Academy had already returned $206 million through the second quarter through repurchases and dividends and that shareholders were applauding that aggressive strategy; the articles give no specific expectation for that pace of returns.",
+    "implicit_reasons": "Coverage also treated the outlook as supportive. IBD said the company revised full-year guidance upward, increasing its earnings predictions, while Motley Fool cited 2022 pretax income guidance of $725 million to $805 million; compared with the company’s earlier outlook the direction was higher, but the kept articles do not provide a detailed consensus comparison.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "IBD said ASO revised full-year guidance upward, increasing its earnings predictions, and Motley Fool cited 2022 pretax income guidance of $725 million to $805 million. Compared with the company’s earlier outlook the direction was higher, but the articles do not provide a detailed analyst consensus comparison."
+      },
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Adjusted EPS was $2.30 versus roughly $2.06 to $2.07 expected, and IBD said the company topped earnings estimates. Motley Fool explicitly said the strong second-quarter earnings sent the shares higher."
+      },
+      "Debt, leverage and capital raise": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Motley Fool said ASO returned $206 million to shareholders through the second quarter through share repurchases and dividends, or about 5.3% of its market cap, and called that an aggressive capital returns strategy being applauded by shareholders. The articles give no specific expectation for capital returns, but the coverage explicitly presented that policy as helping lift the stock."
+      },
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {
+        "title": "Academy Sports Earnings Due With ASO Stock Testing Key Support",
+        "published_date": "2022-09-06T10:48:08-04:00",
+        "url": "https://www.investors.com/news/academy-sports-earnings-aso-stock/"
+      },
+      {
+        "title": "Academy Sports and Outdoors, Inc. (ASO) Surpasses Q2 Earnings Estimates",
+        "published_date": "2022-09-07T10:32:05-04:00",
+        "url": "https://www.zacks.com/stock/news/1977385/academy-sports-and-outdoors-inc-aso-surpasses-q2-earnings-estimates"
+      },
+      {
+        "title": "Why Academy Sports and Outdoors Popped as Much as 16.4% This Week",
+        "published_date": "2022-09-08T16:54:53-04:00",
+        "url": "https://www.fool.com/investing/2022/09/08/why-academy-sports-and-outdoors-popped-as-much-as/"
+      }
+    ]
+  },
+  "ASO_2023q3": {
+    "summary_analysis": "Academy Sports + Outdoors reported fiscal second-quarter adjusted EPS of $2.09 on $1.58 billion of revenue, and its shares rose about 14% to 15% in early trading, according to Proactive and The Motley Fool. The articles said investors looked past the 6.2% sales decline because profitability and margins held up better than feared, management raised its full-year EPS outlook while holding sales guidance, and the slowdown appeared to reflect broader sector pressure rather than a company-specific breakdown.",
+    "explicit_reasons": "Articles explicitly tied the move first to better-than-expected profitability. Adjusted EPS of $2.09 beat estimates of about $2.00 to $2.02, and Motley Fool said gross margin improved to 35.6% from 35.3%, helping profits come in better than feared and lifting the shares. Coverage also explicitly pointed to guidance: Academy kept sales guidance intact and raised its full-year EPS outlook when many rivals were cutting forecasts; Proactive reported adjusted EPS guidance of $6.95 to $7.65, while Motley Fool reported a raise to $6.65 to $7.35 from $6.50 to $7.20, but both treated the outlook as stronger than expected. Motley Fool further said investors forgave the sales slowdown because it was happening across the sector, not just at Academy.",
+    "implicit_reasons": "Implicitly, revenue was weak in absolute terms but not worse than expected. Proactive said the $1.58 billion quarter was in line with analyst expectations and Zacks said it topped consensus by 0.45%, so the sales decline did not outweigh the positive margin and outlook story.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Coverage said Academy raised its full-year EPS outlook while keeping its sales outlook unchanged, which looked favorable versus peers that had been cutting forecasts. Proactive reported adjusted EPS guidance of $6.95 to $7.65, while Motley Fool reported $6.65 to $7.35 versus prior guidance of $6.50 to $7.20; despite the range discrepancy, both articles treated the guidance as better than feared and a reason the shares rose."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "implicit",
+        "text": "Second-quarter revenue was $1.58 billion, down about 6.2% year over year, but Proactive said it was in line with analyst expectations and Zacks said it beat consensus by 0.45%. The articles therefore framed sales as soft but not worse than expected."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Adjusted EPS was $2.09 versus estimates of about $2.00 to $2.02. Motley Fool said gross margin improved to 35.6% from 35.3%, and Proactive cited higher gross margin, better shrink and disciplined expenses, so profitability held up better than feared and helped drive the rally."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Motley Fool said investors were willing to forgive the slowdown because it was happening across the sector rather than being unique to Academy. The later Fool article added that consumers were trading down and comparable sales fell 7.5%, but that backdrop made Academy's results look better than feared rather than signaling a company-specific break."
+      },
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {
+        "title": "Academy Sports and Outdoors lifts FY2023 earnings guidance after mixed 2Q earnings",
+        "published_date": "2023-08-31T10:03:12-04:00",
+        "url": "https://www.proactiveinvestors.com/companies/news/1025140?SNAPI"
+      },
+      {
+        "title": "Academy Sports and Outdoors, Inc. (ASO) Tops Q2 Earnings and Revenue Estimates",
+        "published_date": "2023-08-31T10:31:50-04:00",
+        "url": "https://www.zacks.com/stock/news/2142904/academy-sports-and-outdoors-inc-aso-tops-q2-earnings-and-revenue-estimates"
+      },
+      {
+        "title": "Here's Why Academy Sports Stock Jumped Higher on Thursday",
+        "published_date": "2023-08-31T11:23:53-04:00",
+        "url": "https://www.fool.com/investing/2023/08/31/heres-why-academy-sports-stock-jumped-higher-on-th/"
+      },
+      {
+        "title": "Why Academy Sports and Outdoors Stock Jumped This Week",
+        "published_date": "2023-09-01T09:05:52-04:00",
+        "url": "https://www.fool.com/investing/2023/09/01/why-academy-sports-and-outdoors-stock-jumped-this/"
+      }
+    ]
+  },
+  "CENTA_2023q4": {
+    "summary_analysis": "Central Garden reported adjusted fourth-quarter EPS of $0.10 versus the Zacks Consensus Estimate of $0.08 and revenue of $750.15 million, about 2.51% above the Zacks estimate, and the retained article did not report the stock's reaction. The available validated coverage was sparse and limited to a results recap that emphasized the quarterly EPS and revenue beats, but it did not provide a sourced explanation tying any factor to the stock's move.",
+    "explicit_reasons": "The retained article does not explicitly attribute the stock's move to any specific factor.",
+    "implicit_reasons": "The retained article also does not implicitly link any reported metric, outlook item, or business development to the stock's move.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {
+        "title": "Central Garden (CENTA) Tops Q4 Earnings and Revenue Estimates",
+        "published_date": "2023-11-20T18:47:28-05:00",
+        "url": "https://www.zacks.com/stock/news/2186885/central-garden-centa-tops-q4-earnings-and-revenue-estimates"
+      }
+    ]
+  },
+  "FTNT_2021q4": {
+    "summary_analysis": "FTNT reported September-quarter results, and the retained article did not report a specific share-price reaction. The available coverage focused on better-than-expected adjusted EPS of $0.99 versus the $0.94 Zacks consensus estimate and revenue of $867.2 million, which the article said was 6.96% above consensus. It also noted a favorable estimate-revision trend heading into the release, but it did not explicitly or implicitly tie any particular factor to a described stock move.",
+    "explicit_reasons": "The retained article does not explicitly attribute any share-price move to a specific factor.",
+    "implicit_reasons": "The retained article also does not implicitly explain the move; it reported that Fortinet beat EPS and revenue estimates, but without linking those results or any forward expectations to a stated stock reaction.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {
+        "title": "Fortinet (FTNT) Tops Q3 Earnings and Revenue Estimates",
+        "published_date": "2021-11-04T19:49:24-04:00",
+        "url": "https://www.zacks.com/stock/news/1823910/fortinet-ftnt-tops-q3-earnings-and-revenue-estimates"
+      }
+    ]
+  },
+  "FTNT_2021q1": {
+    "summary_analysis": "Fortinet reported fourth-quarter 2020 adjusted earnings of $1.06 a share and revenue of $748 million, both described as handily above analyst estimates, and Investor's Business Daily said the shares initially rose before dipping in extended trading. The same coverage said 2021 guidance came in above expectations, so the available evidence points to a strong earnings print with a mixed immediate reaction rather than a clearly identified negative catalyst.",
+    "explicit_reasons": "The retained article does not explicitly attribute the move to any specific factor.",
+    "implicit_reasons": "The retained article also does not implicitly tie the post-release move to a specific driver; it mainly notes that earnings, revenue and 2021 guidance were above expectations even as the stock dipped in extended trading.",
+    "categories": {
+      "Guidance": null,
+      "Order book / backlog": null,
+      "Revenue": null,
+      "New Product Release / Users": null,
+      "Profits, costs and margin": null,
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": null,
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {
+        "title": "Fortinet Stock Slips As Analysts Mull Cybersecurity Firm's 2021 Outlook",
+        "published_date": "2021-02-04T17:00:03-05:00",
+        "url": "https://www.investors.com/news/technology/fortinet-stock-fortinet-earnings-ftnt-q42020/"
+      }
+    ]
+  },
+  "BA_2023q2": {
+    "summary_analysis": "BA reported first-quarter revenue of $17.9 billion and a core loss of $1.27 a share, and the coverage said its shares rose roughly 3% after the release. The articles described a mixed quarter in which sales beat expectations and management kept its 737 delivery, production and cash-flow outlook intact despite the latest 737 manufacturing problem, while earnings still missed and supply-chain, rework and 787-related costs remained a drag.",
+    "explicit_reasons": "The coverage explicitly tied the gain mainly to Boeing's unchanged outlook: after a recently disclosed 737 supplier problem, the company still said it expects to deliver 400 to 450 737s this year, raise 737 Max production to 38 a month later in 2023, and keep free-cash-flow guidance at $3 billion to $5 billion, which was better than investors appeared to fear. Coverage also explicitly pointed to a revenue beat, with first-quarter sales of $17.9 billion topping the consensus figures cited in the articles of $17.6 billion and $17.36 billion.",
+    "implicit_reasons": "The articles also showed clear offsets to that positive reaction. Boeing's $1.27 core or adjusted loss per share was worse than the analyst expectations cited in the coverage, and ongoing manufacturing and supply-chain issues continued to pressure deliveries, costs and margins, but those negatives were presented as headwinds within an otherwise better-than-feared report.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "After disclosing a 737 fuselage-fitting manufacturing issue earlier in the month, Boeing still reaffirmed plans to deliver 400 to 450 737s in 2023, raise 737 Max output to 38 a month later this year, and keep adjusted free-cash-flow guidance at $3 billion to $5 billion. CNN said those assurances on cash flow and full-year 737 deliveries helped lift the shares, and Motley Fool said investors were pleased Boeing still expected to meet delivery guidance."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "First-quarter revenue rose 28% to $17.9 billion. That topped the consensus figures cited in the retained coverage, with Proactive citing a Street estimate of $17.6 billion and Zacks citing a consensus of $17.36 billion, and Proactive explicitly framed the stock's rise as a reaction to that revenue beat along with the production increase."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Boeing reported a $1.27 core or adjusted loss per share, worse than the analyst forecasts cited in the coverage: a $1.07 loss expected by Refinitiv according to CNN and a $0.98 consensus loss according to Zacks. The quarter also included a $245 million pretax KC-46A charge and a negative 9.2% operating margin in commercial airplanes, which the articles presented as the weak side of a mixed report."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Boeing said a non-standard manufacturing process on certain 737 fuselage fittings will hurt near-term deliveries and production, while supply-chain disruption, labor instability and 787 customer compensation remained headwinds. The 737 issue had already been disclosed earlier in the month, so the articles treated it as a known overhang rather than a fresh upside surprise."
+      },
+      "Immediate reaction divergence": null
+    },
+    "sources": [
+      {
+        "title": "Boeing Reports First-Quarter Results",
+        "published_date": "2023-04-26T07:30:00-04:00",
+        "url": "https://www.prnewswire.com/news-releases/boeing-reports-first-quarter-results-301808132.html"
+      },
+      {
+        "title": "Boeing plans to boost 737 Max production to 38 planes per month despite manufacturing snag",
+        "published_date": "2023-04-26T07:35:15-04:00",
+        "url": "https://www.cnbc.com/2023/04/26/boeing-ba-earnings-q1-2023.html"
+      },
+      {
+        "title": "Boeing's problems and losses continue",
+        "published_date": "2023-04-26T08:08:34-04:00",
+        "url": "https://www.cnn.com/2023/04/26/business/boeing-losses/index.html"
+      },
+      {
+        "title": "Boeing shares take flight on 1Q revenue beat; planned production increase",
+        "published_date": "2023-04-26T08:42:05-04:00",
+        "url": "https://www.proactiveinvestors.com/companies/news/1013347?SNAPI"
+      },
+      {
+        "title": "These 2 Stocks Are Helping Microsoft Give the Dow a Lift",
+        "published_date": "2023-04-26T09:25:46-04:00",
+        "url": "https://www.fool.com/investing/2023/04/26/these-2-stocks-are-helping-microsoft-give-the-dow/"
+      },
+      {
+        "title": "Boeing (BA) Q1 Earnings: Taking a Look at Key Metrics Versus Estimates",
+        "published_date": "2023-04-26T10:40:33-04:00",
+        "url": "https://www.zacks.com/stock/news/2084946/boeing-ba-q1-earnings-taking-a-look-at-key-metrics-versus-estimates"
+      }
+    ]
+  },
+  "BA_2022q3": {
+    "summary_analysis": "Boeing reported second-quarter revenue of about $16.7 billion and a core loss of 37 cents a share, and retained articles reported an initially positive share reaction that later faded, with Fox Business saying the stock was up almost 3% in premarket trading and CNBC saying it was slightly lower by afternoon. The quarter missed on both sales and earnings, with defense charges, the 787 delivery halt and supply constraints weighing on results, but coverage said positive operating cash flow and Boeing's unchanged goal of positive free cash flow for 2022 supported the early bounce.",
+    "explicit_reasons": "The only factor the coverage explicitly tied to the stock's early strength was guidance: Boeing reiterated that it still expects positive free cash flow for 2022 after generating $81 million of operating cash flow in the quarter, and CNN said investors were likely cheered by that cash-flow outlook despite the quarterly miss.",
+    "implicit_reasons": "Implicitly, the quarter still looked weak versus expectations. Revenue was about $16.7 billion versus roughly $17.6 billion expected, adjusted loss per share was 37 cents versus an expected loss of about 13 to 14 cents, and articles said defense charges, the ongoing 787 delivery pause and supply-chain constraints limited how much stronger 737 deliveries and services demand could help.",
+    "categories": {
+      "Guidance": {
+        "direction": "positive",
+        "attribution": "explicit",
+        "text": "Boeing reiterated that it still expects positive free cash flow for 2022 after producing positive operating cash flow of $81 million in the quarter. The articles give no separate numerical consensus for that full-year outlook, but CNN explicitly said investors were likely cheered that Boeing kept that cash-flow goal despite the quarterly miss."
+      },
+      "Order book / backlog": null,
+      "Revenue": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Quarterly revenue was about $16.7 billion, below the roughly $17.6 billion analysts expected. Articles said lower defense volume and the continuing 787 delivery pause limited the benefit of higher 737 deliveries and stronger services revenue."
+      },
+      "New Product Release / Users": null,
+      "Profits, costs and margin": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Adjusted loss per share was 37 cents, worse than the roughly 13 to 14 cent loss analysts expected. Coverage said defense charges including $147 million on MQ-25 and $93 million on Starliner, plus $283 million of 787 abnormal costs, helped drive the earnings miss."
+      },
+      "Debt, leverage and capital raise": null,
+      "Capex": null,
+      "Management": null,
+      "Litigation": null,
+      "Macro and micro development": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Before the release, Zacks said recovering air travel and a 53.2% jump in Boeing's commercial shipments should help the quarter, though supply-chain disruption remained a risk. After the report, same-day coverage said lower 787 deliveries, the lack of a firm Dreamliner restart date and supply and labor constraints were still restricting output."
+      },
+      "Immediate reaction divergence": {
+        "direction": "negative",
+        "attribution": "implicit",
+        "text": "Fox Business reported that Boeing shares were up almost 3% in premarket trading after the results, but the stock finished the next two trading days in the opposite direction."
+      }
+    },
+    "sources": [
+      {
+        "title": "Aerospace & Defense Q2 Earnings Due on Jul 27: BA, GD & TDY",
+        "published_date": "2022-07-26T10:06:54-04:00",
+        "url": "https://www.zacks.com/stock/news/1957786/aerospace-defense-q2-earnings-due-on-jul-27-ba-gd-tdy"
+      },
+      {
+        "title": "Boeing Reports Second-Quarter Results",
+        "published_date": "2022-07-27T07:30:00-04:00",
+        "url": "https://www.prnewswire.com/news-releases/boeing-reports-second-quarter-results-301594262.html"
+      },
+      {
+        "title": "Boeing results fall short of estimates but manufacturer still expects to be cash flow positive this year",
+        "published_date": "2022-07-27T07:36:14-04:00",
+        "url": "https://www.cnbc.com/2022/07/27/boeing-ba-2q-2022-earnings.html"
+      },
+      {
+        "title": "Boeing profit falls as plane maker awaits approval to deliver Dreamliners",
+        "published_date": "2022-07-27T08:50:41-04:00",
+        "url": "https://www.foxbusiness.com/markets/boeing-profit-falls-plane-maker-awaits-approval-deliver-dreamliners"
+      },
+      {
+        "title": "Boeing takes additional charge for Starliner astronaut capsule, bringing cost overruns to near $700 million",
+        "published_date": "2022-07-27T09:16:38-04:00",
+        "url": "https://www.cnbc.com/2022/07/27/boeing-starliner-astronaut-capsule-charges-near-700-million.html"
+      },
+      {
+        "title": "This counts as good news for Boeing",
+        "published_date": "2022-07-27T11:08:35-04:00",
+        "url": "https://www.cnn.com/2022/07/27/business/boeing-loss/index.html"
+      },
+      {
+        "title": "Boeing falls short on earnings and revenue, reiterates expectation to be cash flow positive for 2022",
+        "published_date": "2022-07-27T12:22:48-04:00",
+        "url": "https://www.proactiveinvestors.com/companies/news/988577?SNAPI"
+      },
+      {
+        "title": "Boeing Earnings: Hope Springs Eternal",
+        "published_date": "2022-07-28T09:40:00-04:00",
+        "url": "https://www.fool.com/investing/2022/07/28/boeing-earnings-hope-springs-eternal/"
+      }
+    ]
+  }
+}

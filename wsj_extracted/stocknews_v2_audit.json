@@ -1,0 +1,973 @@
+{
+  "REZI_2022q4": {
+    "status": "validated",
+    "model": "gpt-5.4",
+    "input_articles": 4,
+    "retained_sources": 3,
+    "rejected_sources": [
+      {
+        "title": "Resideo Technologies, Inc. (REZI) Q3 2022 Earnings Call Transcript",
+        "reason": "Rejected because the supplied record has no usable full text, so it cannot be relied on as validated evidence for the analysis."
+      }
+    ],
+    "reaction_reported": true,
+    "elapsed_seconds": 71.8
+  },
+  "ASO_2021q3": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 9,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "BSM_2021q1": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 2,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "BSM_2021q2": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 2,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "BSM_2021q3": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 1,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "BSM_2021q4": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 2,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "BSM_2022q3": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 1,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "BSM_2022q4": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 2,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "BSM_2023q1": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 2,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "BSM_2023q2": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 1,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "CENTA_2021q1": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 0,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "CENTA_2021q3": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 0,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "CENTA_2021q4": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 0,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "CENTA_2022q4": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 2,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "FTNT_2021q3": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 8,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "METC_2021q1": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 2,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "MGNI_2023q4": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 1,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "MO_2021q3": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 8,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "MTW_2021q1": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 5,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "MTW_2021q2": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 4,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "MTW_2021q3": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 4,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "MTW_2022q2": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 4,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "MTW_2023q4": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 3,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "NGL_2021q1": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 3,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "NGL_2021q4": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 2,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "NGL_2022q2": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 2,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "NGL_2022q3": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 3,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "NGL_2022q4": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 1,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "NGL_2023q2": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 2,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "NGL_2023q3": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 2,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "NGL_2023q4": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 2,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "PCTY_2021q1": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 3,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "PCTY_2021q3": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 4,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "PCTY_2023q3": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 1,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "PH_2021q1": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 2,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "PH_2021q3": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 6,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "PH_2021q4": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 5,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "PH_2022q3": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 3,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "PH_2023q4": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 3,
+    "error": "No usable full-text article passed the publication gate"
+  },
+  "ASO_2021q4": {
+    "status": "validated",
+    "model": "gpt-5.4",
+    "input_articles": 9,
+    "retained_sources": 3,
+    "rejected_sources": [
+      {
+        "title": "Academy Sports's Earnings Outlook",
+        "reason": "Preview item with no usable detail in the provided text beyond the fact that earnings were upcoming."
+      },
+      {
+        "title": "Academy Sports: Q3 Earnings Insights",
+        "reason": "Brief recap with no incremental verified detail beyond the retained earnings articles."
+      },
+      {
+        "title": "Academy Sports and Outdoors, Inc. (ASO) CEO Ken Hicks on Q3 2021 Results - Earnings Call - Transcript",
+        "reason": "No transcript text was supplied in the observation, so it could not be verified or used."
+      },
+      {
+        "title": "Final Trades: GM, ASO, XLP & YOU",
+        "reason": "General market video mention rather than a sourced earnings report or reaction article about ASO."
+      },
+      {
+        "title": "Academy Sports And Outdoors Stock (ASO): $56 Price Target From UBS",
+        "reason": "Post-earnings price-target item with no usable article text supplied and no verified earnings-reaction analysis in the provided record."
+      },
+      {
+        "title": "Academy Sports & Outdoors Reports Strong Third Quarter 2021",
+        "reason": "No article text was supplied, so it could not be treated as verified coverage despite the relevant headline."
+      }
+    ],
+    "reaction_reported": false,
+    "elapsed_seconds": 79.15
+  },
+  "ASO_2022q2": {
+    "status": "validated",
+    "model": "gpt-5.4",
+    "input_articles": 11,
+    "retained_sources": 2,
+    "rejected_sources": [
+      {
+        "title": "Academy Sports + Outdoors Reports First Quarter 2022 Results",
+        "reason": "No usable article text was provided beyond a brief summary line, so it was not sufficient as verified detailed coverage."
+      },
+      {
+        "title": "Academy Sports Rises After Earnings and Sales Beat",
+        "reason": "Only a brief summary was provided and it did not add verified detail beyond the retained coverage."
+      },
+      {
+        "title": "Academy Sports: No-Brainer Rally Ahead",
+        "reason": "Opinion piece, not coverage explaining the earnings report or the earnings-driven move."
+      },
+      {
+        "title": "Academy Sports + Outdoors Outlook Is Very Strong",
+        "reason": "No usable article text was provided."
+      },
+      {
+        "title": "Inventory's up 9% from 2019, but sales are up 35% over same year, says Academy Sports CEO Ken Hicks",
+        "reason": "Video link with no transcript or usable text supplied."
+      },
+      {
+        "title": "Academy Sports and Outdoors, Inc.'s (ASO) CEO Ken Hicks on Q1 2022 Results - Earnings Call Transcript",
+        "reason": "No transcript text was provided in the input."
+      },
+      {
+        "title": "The Insiders And Analysts Buy Academy Sports + Outdoors",
+        "reason": "General follow-up commentary on insider buying and analysts, not evidence explaining the earnings move."
+      },
+      {
+        "title": "Wall Street Analysts Predict a 45% Upside in Academy Sports and Outdoors, Inc. (ASO): Here's What You Should Know",
+        "reason": "Later generic analyst price-target article, not specific evidence on why the earnings move occurred."
+      },
+      {
+        "title": "ASO vs. POOL: Which Stock Should Value Investors Buy Now?",
+        "reason": "General valuation comparison unrelated to the earnings event."
+      }
+    ],
+    "reaction_reported": true,
+    "elapsed_seconds": 88.48
+  },
+  "ASO_2023q2": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 8,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "ASO_2023q1": {
+    "status": "validated",
+    "model": "gpt-5.4",
+    "input_articles": 7,
+    "retained_sources": 2,
+    "rejected_sources": [
+      {
+        "title": "Academy Sports + Outdoors Reports Fourth Quarter and Fiscal 2022 Results",
+        "reason": "Press-release item had no usable full text in the supplied data, so it could not be verified beyond a snippet."
+      },
+      {
+        "title": "Academy Sports and Outdoors, Inc. (ASO) Q4 2022 Earnings Call Transcript",
+        "reason": "Transcript entry had no usable full text in the supplied data."
+      },
+      {
+        "title": "Academy Sports + Outdoors Year End Reflect Tight Control",
+        "reason": "Article had no usable full text in the supplied data."
+      },
+      {
+        "title": "Banking crisis differs from Texas banking crash, says Academy Sports and Outdoors' Hicks",
+        "reason": "Video interview had no transcript supplied and was not a usable written earnings-analysis source."
+      },
+      {
+        "title": "Academy Sports managing ‘when, how much to take' markdowns across inventory: CEO",
+        "reason": "Video interview had no transcript supplied and was not a usable written earnings-analysis source."
+      }
+    ],
+    "reaction_reported": true,
+    "elapsed_seconds": 124.48
+  },
+  "ASO_2021q1": {
+    "status": "validated",
+    "model": "gpt-5.4",
+    "input_articles": 11,
+    "retained_sources": 3,
+    "rejected_sources": [
+      {
+        "title": "5 Retailers Trading With Low Price-Earnings Ratios",
+        "reason": "Pre-release valuation screen; not an earnings-results or earnings-reaction article and did not establish expectations for this report."
+      },
+      {
+        "title": "Academy Sports + Outdoors Announces Record Sales and Earnings for the Fourth Quarter & Fiscal 2020",
+        "reason": "Summary-only press-release record with no usable article text in the supplied evidence."
+      },
+      {
+        "title": "ASO Stock Price Increased Over 5% Pre-Market: Why It Happened",
+        "reason": "No usable article text beyond a brief summary."
+      },
+      {
+        "title": "Academy Sports + Outdoors CEO on record earnings results",
+        "reason": "Video item with no transcript text supplied."
+      },
+      {
+        "title": "Academy Sports and Outdoors, Inc. (ASO) CEO Ken Hicks on Q4 2020 Results - Earnings Call Transcript",
+        "reason": "No transcript text supplied in the evidence set."
+      },
+      {
+        "title": "Academy Sports Is A Winner",
+        "reason": "Summary-only follow-up with no usable article text supplied."
+      },
+      {
+        "title": "Academy Sports and Outdoors, Inc. (ASO) Recently Broke Out Above the 50-Day Moving Average",
+        "reason": "Technical-trading article unrelated to the earnings report or reaction."
+      },
+      {
+        "title": "Best Earnings Reports for Week Ending April 2, 2021",
+        "reason": "General weekly roundup that mentioned ASO only briefly and added no necessary event detail beyond the retained earnings coverage."
+      }
+    ],
+    "reaction_reported": true,
+    "elapsed_seconds": 150.78
+  },
+  "ASO_2022q4": {
+    "status": "validated",
+    "model": "gpt-5.4",
+    "input_articles": 6,
+    "retained_sources": 2,
+    "rejected_sources": [
+      {
+        "title": "Academy Sports and Outdoors, Inc. (ASO) Q3 2022 Earnings Call Transcript",
+        "reason": "No usable article text; full_text is null."
+      },
+      {
+        "title": "Consumers are still buying, they're just looking for a good value, says Academy Sports CEO",
+        "reason": "Video item with no transcript or usable full text."
+      },
+      {
+        "title": "Academy Sports + Outdoors Reports Third Quarter 2022 Results",
+        "reason": "No usable article text; full_text is null."
+      },
+      {
+        "title": "Stock movers of the day: Mongodb, GameStop, Carvana, Academy Sports",
+        "reason": "Video roundup with no transcript or usable full text."
+      }
+    ],
+    "reaction_reported": true,
+    "elapsed_seconds": 153.46
+  },
+  "ASO_2022q3": {
+    "status": "validated",
+    "model": "gpt-5.4",
+    "input_articles": 9,
+    "retained_sources": 3,
+    "rejected_sources": [
+      {
+        "title": "Academy Sports + Outdoors Reports Second Quarter 2022 Results",
+        "reason": "No usable article text was supplied in the input; full_text is null."
+      },
+      {
+        "title": "Academy Sports and Outdoors, Inc. (ASO) Q2 2022 Earnings Call Transcript",
+        "reason": "Transcript text was not supplied in the input; full_text is null."
+      },
+      {
+        "title": "ASO Reports Solid 2nd Quarter Earnings",
+        "reason": "No usable article text was supplied in the input; full_text is null."
+      },
+      {
+        "title": "Healthy living trend has moved stock up over 2019, says Academy Sports CEO Ken Hicks",
+        "reason": "Video item with no usable transcript text in the input."
+      },
+      {
+        "title": "These Two Undervalued Stocks Are Ready To Rocket Higher",
+        "reason": "No usable article text was supplied in the input; full_text is null."
+      },
+      {
+        "title": "Academy Sports and Outdoors Earnings: More Upside Warranted Despite Recent Weakness",
+        "reason": "No usable article text was supplied in the input; full_text is null."
+      }
+    ],
+    "reaction_reported": true,
+    "elapsed_seconds": 162.56
+  },
+  "ASO_2023q3": {
+    "status": "validated",
+    "model": "gpt-5.4",
+    "input_articles": 13,
+    "retained_sources": 4,
+    "rejected_sources": [
+      {
+        "title": "Academy Sports + Outdoors Partners with L.L.Bean to Offer the Iconic American Brand In-Stores and Online",
+        "reason": "Pre-earnings partnership press release unrelated to the earnings report or the earnings-driven stock move."
+      },
+      {
+        "title": "Academy Sports + Outdoors Partners with Fanatics to Expand Selection of Licensed Sports Products",
+        "reason": "Pre-earnings partnership press release unrelated to the earnings report or the earnings-driven stock move."
+      },
+      {
+        "title": "7 Oversold Stocks Begging for a Spot in Your Portfolio",
+        "reason": "General opinion roundup that mentions ASO in passing rather than providing specific earnings coverage or reaction analysis."
+      },
+      {
+        "title": "Academy Sports + Outdoors Reports Second Quarter 2023 Results",
+        "reason": "Relevant headline, but the record has no usable full text to validate the report details beyond a brief snippet."
+      },
+      {
+        "title": "Academy's margin growth can be linked to its strong inventory discipline, says CEO Steve Lawrence",
+        "reason": "Video item without a transcript or usable article text."
+      },
+      {
+        "title": "Academy Sports and Outdoors, Inc. (ASO) Q2 2023 Earnings Call Transcript",
+        "reason": "Transcript record lacks usable full text in the supplied dataset."
+      },
+      {
+        "title": "Academy Sports (ASO) Collabs With Fanatics, Expands Portfolio",
+        "reason": "Partnership follow-up unrelated to the earnings move, and the supplied record has no usable full text."
+      },
+      {
+        "title": "Academy Sports and Outdoors, Inc. (ASO) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+        "reason": "Mostly duplicates headline EPS and revenue data from the earlier Zacks article, and the supplied text is truncated before the promised key metrics."
+      },
+      {
+        "title": "Academy Sports (ASO) Q2 Earnings Beat Estimates, Stock Up",
+        "reason": "Relevant headline, but the supplied record has no usable full text to support a sourced analysis."
+      }
+    ],
+    "reaction_reported": true,
+    "elapsed_seconds": 177.94
+  },
+  "ASO_2023q4": {
+    "status": "validated",
+    "model": "gpt-5.4",
+    "input_articles": 7,
+    "retained_sources": 2,
+    "rejected_sources": [
+      {
+        "title": "What Awaits Academy Sports and Outdoors (ASO) in Q3 Earnings?",
+        "reason": "Pre-earnings preview had no usable article text beyond a brief summary, so it was too snippet-like to support grounded expectations or causal analysis."
+      },
+      {
+        "title": "Academy Sports (ASO) Expands Footprint With Seven New Stores",
+        "reason": "This article was about store openings, not the Nov. 30 earnings release or the stock reaction to that event."
+      },
+      {
+        "title": "Academy Sports + Outdoors Reports Third Quarter 2023 Results",
+        "reason": "The press-release record had no usable article text in the input and no filing object was supplied, so it was not presented as verified coverage."
+      },
+      {
+        "title": "Academy Sports and Outdoors, Inc. (ASO) Q3 2023 Earnings Call Transcript",
+        "reason": "The transcript record had no usable transcript text in the input."
+      },
+      {
+        "title": "Academy Sports (ASO) Q3 Earnings & Revenues Lag Estimates",
+        "reason": "The post-release item was only a brief summary without full text, making it too snippet-like for grounded causal analysis."
+      }
+    ],
+    "reaction_reported": false,
+    "elapsed_seconds": 204.12
+  },
+  "BA_2021q3": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 40,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "BA_2021q1": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 50,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "BA_2022q2": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 43,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "BA_2021q4": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 32,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "BA_2022q3": {
+    "status": "validated",
+    "model": "gpt-5.4",
+    "input_articles": 34,
+    "retained_sources": 8,
+    "rejected_sources": [
+      {
+        "title": "Boeing cash flow on investor radar as supply disruptions shackle output",
+        "reason": "No usable full text; snippet-only pre-earnings item."
+      },
+      {
+        "title": "The 7 Best Industrial Stocks to Buy Now",
+        "reason": "General stock-picking column, not an earnings-event analysis."
+      },
+      {
+        "title": "Boeing in 'final stages' of Dreamliner restart, keeps cash flow goal",
+        "reason": "No usable full text; snippet-only duplicate of same-day earnings coverage."
+      },
+      {
+        "title": "Boeing reports wider-than-expected loss, but stock gains as FCF beat by wide margin",
+        "reason": "No usable full text beyond summary."
+      },
+      {
+        "title": "Boeing Stock Rises On Free Cash Flow Forecast Despite Wider-Than-Expected Loss",
+        "reason": "Truncated and corrupted text, not reliable usable coverage."
+      },
+      {
+        "title": "Boeing second-quarter earnings fall short of Wall Street's estimates",
+        "reason": "Video item without usable transcript text."
+      },
+      {
+        "title": "Boeing posted 'an unexpectedly good quarter,' says Jim Cramer",
+        "reason": "Video item without usable transcript text."
+      },
+      {
+        "title": "Hightower's Stephanie Link breaks down shares of Boeing, Alphabet and Meta",
+        "reason": "Video item without usable transcript text."
+      },
+      {
+        "title": "Boeing profit falls as 787 deliveries still halted",
+        "reason": "No usable full text; snippet-only item."
+      },
+      {
+        "title": "Boeing CEO Dave Calhoun weighs in on earnings, union strike",
+        "reason": "Video item without usable transcript text."
+      },
+      {
+        "title": "Boeing (BA) Q2 Earnings Miss Estimates, Revenues Decline Y/Y",
+        "reason": "No usable full text beyond summary."
+      },
+      {
+        "title": "Nigeria's newly licensed national carrier to lease Airbus, Boeing aircrafts -minister",
+        "reason": "Different event unrelated to Boeing's earnings reaction."
+      },
+      {
+        "title": "The Boeing Company (BA) CEO David Calhoun on Q2 2022 Results - Earnings Call Transcript",
+        "reason": "No usable transcript text supplied."
+      },
+      {
+        "title": "Boeing sees progress on 787 but warns on supply chain",
+        "reason": "No usable full text; snippet-only item."
+      },
+      {
+        "title": "Boeing Posts Positive Cash Flow Despite Larger-Than-Expected Quarterly Loss",
+        "reason": "No usable full text beyond summary."
+      },
+      {
+        "title": "Boeing Earnings Disappoint As 737 MAX And Defense Struggle",
+        "reason": "No usable full text beyond summary."
+      },
+      {
+        "title": "7 S&P 500 Stocks to Buy on the Dip",
+        "reason": "General stock-picking column, not an earnings-event analysis."
+      },
+      {
+        "title": "Supply disruptions cloud aerospace outlook after solid first half",
+        "reason": "No usable full text; broad industry roundup rather than validated detailed Boeing earnings coverage."
+      },
+      {
+        "title": "Boeing Recovery Is Stronger Than It Appears Because Of Write-Downs",
+        "reason": "No usable full text beyond summary."
+      },
+      {
+        "title": "Boeing Names Brian Besanceney as New Communications Chief",
+        "reason": "Different event after earnings; management-hire announcement."
+      },
+      {
+        "title": "Boeing Has Bottomed. It Could Recover Quickly.",
+        "reason": "No usable full text beyond summary."
+      },
+      {
+        "title": "Watchdog finds 'weaknesses' in FAA oversight of Boeing airplane flight manuals",
+        "reason": "Different post-earnings regulatory event."
+      },
+      {
+        "title": "U.S. approves Boeing inspection, rework plan to resume 787 deliveries",
+        "reason": "Different post-earnings event and no usable full text supplied."
+      },
+      {
+        "title": "4 Stocks That Could Put Nuclear Power on the Moon",
+        "reason": "Unrelated thematic article."
+      },
+      {
+        "title": "Boeing defense workers to vote on revised contract offer, cancel planned strike",
+        "reason": "Different post-earnings labor event."
+      },
+      {
+        "title": "US approves Boeing inspection, rework plan to resume 787 deliveries",
+        "reason": "Different post-earnings event about FAA approval rather than the earnings report itself."
+      }
+    ],
+    "reaction_reported": true,
+    "elapsed_seconds": 238.48
+  },
+  "BSM_2023q3": {
+    "status": "validated",
+    "model": "gpt-5.4",
+    "input_articles": 3,
+    "retained_sources": 1,
+    "rejected_sources": [
+      {
+        "title": "Black Stone Minerals, L.P. (BSM) Q2 2023 Earnings Call Transcript",
+        "reason": "Rejected because the supplied record has no usable full text, so it cannot serve as validated evidence."
+      },
+      {
+        "title": "Black Stone Minerals: The 11% Yield Appears Sustainable In Current Environment",
+        "reason": "Rejected because the supplied record has no usable full text, and the available metadata alone is insufficient for validated earnings-event analysis."
+      }
+    ],
+    "reaction_reported": false,
+    "elapsed_seconds": 43.42
+  },
+  "BA_2022q4": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 49,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "BSM_2023q4": {
+    "status": "validated",
+    "model": "gpt-5.4",
+    "input_articles": 2,
+    "retained_sources": 1,
+    "rejected_sources": [
+      {
+        "title": "Black Stone Minerals, L.P. (BSM) Q3 2023 Earnings Call Transcript",
+        "reason": "Rejected because the record has no usable full article text; the available snippet is only a generic transcript header and participant list, so it cannot support figures, expectations, reaction details, or reasons for the move."
+      }
+    ],
+    "reaction_reported": false,
+    "elapsed_seconds": 46.78
+  },
+  "CENTA_2022q2": {
+    "status": "validated",
+    "model": "gpt-5.4",
+    "input_articles": 1,
+    "retained_sources": 1,
+    "rejected_sources": [],
+    "reaction_reported": false,
+    "elapsed_seconds": 56.27
+  },
+  "CENTA_2022q3": {
+    "status": "validated",
+    "model": "gpt-5.4",
+    "input_articles": 2,
+    "retained_sources": 1,
+    "rejected_sources": [
+      {
+        "title": "Central Garden & Pet Announces Q3 Fiscal 2022 Results",
+        "reason": "Rejected because the record has no full article text and only a truncated summary, so it does not provide enough validated detail to use as evidence."
+      }
+    ],
+    "reaction_reported": false,
+    "elapsed_seconds": 35.71
+  },
+  "CENTA_2023q2": {
+    "status": "validated",
+    "model": "gpt-5.4",
+    "input_articles": 2,
+    "retained_sources": 1,
+    "rejected_sources": [
+      {
+        "title": "Central Garden & Pet Announces Q2 Fiscal 2023 Financial Results",
+        "reason": "Rejected because only a short summary was available and no full article text was provided, so it could not be used as verified detailed coverage."
+      }
+    ],
+    "reaction_reported": false,
+    "elapsed_seconds": 47.95
+  },
+  "BA_2023q1": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 50,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "BA_2023q3": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 45,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "BA_2023q4": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 39,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "CENTA_2023q1": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 3,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "CENTA_2023q3": {
+    "status": "quarantined",
+    "model": "gpt-5.4",
+    "input_articles": 1,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "CENTA_2023q4": {
+    "status": "validated",
+    "model": "gpt-5.4",
+    "input_articles": 3,
+    "retained_sources": 1,
+    "rejected_sources": [
+      {
+        "title": "Central Garden & Pet Announces Fourth Quarter and Fiscal Year 2023 Financial Results",
+        "reason": "Rejected because full text was unavailable and the snippet was too incomplete to support a grounded earnings and stock-move analysis."
+      },
+      {
+        "title": "Central Garden & Pet Company (CENT) Q4 2023 Earnings Call Transcript",
+        "reason": "Rejected because full text was unavailable and the metadata-only snippet did not provide usable earnings discussion or reaction analysis."
+      }
+    ],
+    "reaction_reported": false,
+    "elapsed_seconds": 38.8
+  },
+  "FTNT_2021q4": {
+    "status": "validated",
+    "model": "gpt-5.4",
+    "input_articles": 7,
+    "retained_sources": 1,
+    "rejected_sources": [
+      {
+        "title": "26 Additional Fortinet Security Fabric Solutions Earn the U.S. Department of Defense's Endorsement for its Approved Product List Certification",
+        "reason": "Rejected because it is a pre-earnings product/endorsement press release with no usable article text and does not analyze the earnings event or stock reaction."
+      },
+      {
+        "title": "Fortinet Unifies Zero Trust, Endpoint, and Network Security to Lead the Work-from-Anywhere Era",
+        "reason": "Rejected because it is a product announcement released before the earnings report, has no usable article text, and is not earnings-reaction coverage."
+      },
+      {
+        "title": "Fortinet, Inc. (FTNT) CEO Ken Xie on Q3 2021 Results - Earning Call Transcript",
+        "reason": "Rejected because the supplied record contains no transcript text, so it cannot be verified or cited."
+      },
+      {
+        "title": "Fortinet (FTNT) Beats on Q3 Earnings & Revenues, Ups '21 View",
+        "reason": "Rejected because only a brief summary was supplied and no full article text was available for verified use."
+      },
+      {
+        "title": "Best Growth StocksTo Buy Now? 5 Software Stocks For Your Watchlist",
+        "reason": "Rejected because it is a generic watchlist roundup that mentions Fortinet in passing rather than providing event-specific earnings analysis."
+      },
+      {
+        "title": "Fortinet stock prediction after topping FQ3 estimates",
+        "reason": "Rejected because only a brief summary was supplied and no full article text was available for verified use."
+      }
+    ],
+    "reaction_reported": false,
+    "elapsed_seconds": 67.81
+  },
+  "FTNT_2021q1": {
+    "status": "validated",
+    "model": "gpt-5.4",
+    "input_articles": 6,
+    "retained_sources": 1,
+    "rejected_sources": [
+      {
+        "title": "Fortinet Reports Fourth Quarter and Full Year 2020 Financial Results",
+        "reason": "No usable article text was provided; the summary was too thin to verify figures or reasons."
+      },
+      {
+        "title": "Fortinet: Q4 Earnings Insights",
+        "reason": "Snippet-only earnings brief with no full article text."
+      },
+      {
+        "title": "Fortinet, Inc. (FTNT) CEO Ken Xie on Q4 2020 Results - Earnings Call Transcript",
+        "reason": "No transcript text was provided, so it could not be used as evidence."
+      },
+      {
+        "title": "Fortinet (FTNT) Q4 Earnings & Revenues Top Estimates, Up Y/Y",
+        "reason": "Snippet-only summary without full article text."
+      },
+      {
+        "title": "Biogen, Fortinet, Kohl's, Pinterest, Snap and More Friday Afternoon Analyst Calls",
+        "reason": "General analyst-call roundup that mentioned Fortinet in passing rather than analyzing the earnings report or stock reaction."
+      }
+    ],
+    "reaction_reported": true,
+    "elapsed_seconds": 133.73
+  },
+  "BA_2023q2": {
+    "status": "validated",
+    "model": "gpt-5.4",
+    "input_articles": 31,
+    "retained_sources": 6,
+    "rejected_sources": [
+      {
+        "title": "Aerospace & Defense Stocks Q1 Earnings Due Apr 26: BA, GD & TDY",
+        "reason": "Pre-earnings multi-company sector preview; not company-specific enough to use in the final synthesis."
+      },
+      {
+        "title": "Boeing Earnings Are Coming. Don't Get Your Hopes Up.",
+        "reason": "No usable full text."
+      },
+      {
+        "title": "Boeing stock rallies after revenue and free cash flow beat expectations, while losses were wider than forecast",
+        "reason": "No usable full text."
+      },
+      {
+        "title": "Boeing Sticks With Financial Outlook After Latest 737 MAX Problem",
+        "reason": "No usable full text."
+      },
+      {
+        "title": "Boeing posts mixed Q1 earnings",
+        "reason": "Video item without usable transcript text."
+      },
+      {
+        "title": "Boeing Pares Losses, Boosts Output; BA Shares Climb",
+        "reason": "Snippet-only and incomplete text with unrelated contamination."
+      },
+      {
+        "title": "Boeing stock rises on plans to boost production, Q1 earnings beat",
+        "reason": "Video item without usable transcript text."
+      },
+      {
+        "title": "Boeing CEO on Q1 results: Gross loss related to 737 Max rework cost",
+        "reason": "Video item without usable transcript text."
+      },
+      {
+        "title": "Boeing Q1 earnings: ‘it's a very robust market'",
+        "reason": "No usable full text."
+      },
+      {
+        "title": "Aircraft Skew Durable Goods, Boeing Mixed in Q1",
+        "reason": "No usable full text."
+      },
+      {
+        "title": "Airbus Vs. Boeing: Which Aviation Stock Is Better?",
+        "reason": "Broader comparison and opinion article, not focused on the earnings event or immediate reaction."
+      },
+      {
+        "title": "Boeing's (BA) Q1 Earnings Miss Estimates, Revenues Beat",
+        "reason": "No usable full text."
+      },
+      {
+        "title": "Boeing Co (BA) Q1 2023 Earnings Call Transcript",
+        "reason": "No usable full text."
+      },
+      {
+        "title": "Boeing: No 737 MAX Crisis, Remains A Long-Term Buy",
+        "reason": "Post-earnings opinion piece without usable full text."
+      },
+      {
+        "title": "Stock Market Fiddles With Big Tech While Regional Banks Burn",
+        "reason": "General market roundup with only passing mention of Boeing."
+      },
+      {
+        "title": "Boeing boosts 737 Max output, reiterates full-year guidance",
+        "reason": "Video item without usable transcript text."
+      },
+      {
+        "title": "Jefferies analyst Sheila Kahyaoglu expects production increase in Boeing regardless of a recession",
+        "reason": "Video item without usable transcript text."
+      },
+      {
+        "title": "Avolon Commits to Ordering 40 Boeing 737 MAX Aircraft",
+        "reason": "Separate post-earnings order announcement, not the earnings event."
+      },
+      {
+        "title": "Avolon agrees $4 bln deal with Boeing for 40 737 MAX jets",
+        "reason": "Separate post-earnings order announcement with no usable full text."
+      },
+      {
+        "title": "The Fed Expects a Recession: 2 Dow Stocks to Buy Hand Over Fist and 1 to Avoid Like the Plague",
+        "reason": "General opinion article rather than analysis of the earnings event."
+      },
+      {
+        "title": "Boeing Cleared For Takeoff In Earnings Turnaround",
+        "reason": "No usable full text."
+      },
+      {
+        "title": "Boeing Expands ecoDemonstrator Flight Testing with 'Explorer' Airplanes, Announces 2023 Plan",
+        "reason": "Separate corporate announcement unrelated to the earnings release."
+      },
+      {
+        "title": "Southwest says Boeing's aircraft delays will force the airline to scale back hiring plans",
+        "reason": "Follow-up customer story, not direct earnings or stock-reaction coverage for Boeing's report."
+      },
+      {
+        "title": "Azerbaijan Airlines Expands Long-Haul Fleet, Finalizing Order for More Boeing 787 Dreamliners",
+        "reason": "Separate post-earnings order announcement unrelated to the earnings release."
+      },
+      {
+        "title": "SpaceX Has a New Customer: Europe",
+        "reason": "Unrelated industry article with only passing Boeing reference."
+      }
+    ],
+    "reaction_reported": true,
+    "elapsed_seconds": 213.76
+  }
+}

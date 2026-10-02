@@ -1,0 +1,3723 @@
+{
+  "UBER_2023q3": {
+    "status": "published",
+    "input_article_count": 60,
+    "retained_sources": 26,
+    "rejected_sources": [
+      {
+        "title": "Uber: Winner Takes All As Lyft Fades Into The Background",
+        "reason": "snippet-only opinion piece with no figures tied to earnings expectations or reaction"
+      },
+      {
+        "title": "Uber's stock has been feeling the love. Can earnings live up to the hype?",
+        "reason": "snippet-only, no substantive figures"
+      },
+      {
+        "title": "Uber likely to win a price war against Lyft, says former Uber exec Emil Michael",
+        "reason": "video, no article text"
+      },
+      {
+        "title": "Markets Up, Yum China Beats, Avis Mixed",
+        "reason": "market roundup mentioning the ticker only in passing"
+      },
+      {
+        "title": "Is Another Trillion-Dollar Stock Hiding in Plain Sight?",
+        "reason": "pre-earnings valuation thesis using prior-quarter data, not tied to this quarter's reaction"
+      },
+      {
+        "title": "The focus for Uber's earnings this quarter will pricing and its core business, says D.A. Davidson",
+        "reason": "video, no article text"
+      },
+      {
+        "title": "Uber shares rise on rosy guidance and operating profit, despite revenue miss",
+        "reason": "video, no article text"
+      },
+      {
+        "title": "Uber CEO Dara Khosrowshahi: We plan to be profitable for every quarter going forward",
+        "reason": "video, no article text"
+      },
+      {
+        "title": "Uber Turns an Operating Profit for First Time",
+        "reason": "video, no article text"
+      },
+      {
+        "title": "Dow's winning streak, Caterpillar warns of sales decline, Uber reports profit in Q2: August 1, 2023",
+        "reason": "video, no article text"
+      },
+      {
+        "title": "Uber records first ever operating profit",
+        "reason": "thin snippet duplicating figures already covered by fuller retained sources, no distinct new information"
+      },
+      {
+        "title": "Uber Technologies, Inc. (UBER) Q2 2023 Earnings Call Transcript",
+        "reason": "only call preamble/participant list captured, no substantive content"
+      },
+      {
+        "title": "Uber, Pfizer, JetBlue Beat Q2 Earnings, Miss Sales",
+        "reason": "snippet focused on other companies (AMD/Starbucks), not substantively about Uber"
+      },
+      {
+        "title": "How Uber pulled off its stunning turnaround from money pit to cash machine",
+        "reason": "snippet-only, no figures"
+      },
+      {
+        "title": "Uber shares fall despite posting operating profit, upbeat outlook",
+        "reason": "video, no article text"
+      },
+      {
+        "title": "Markets Fall at Midday as Cruise-Line Stocks Drop After Latest Earnings Reports",
+        "reason": "broad market roundup, Uber mentioned only in passing"
+      },
+      {
+        "title": "Uber CEO balks after a reporter tells him the cost of his 2.9-mile Uber ride: 'Oh my God. Wow'",
+        "reason": "unrelated human-interest anecdote, not about earnings or the stock reaction"
+      },
+      {
+        "title": "Uber reports surprise profit in Q2",
+        "reason": "thin snippet duplicating better-sourced coverage already retained"
+      },
+      {
+        "title": "Uber CEO Khosrowshahi Calls Profit a 'Seminal Moment'",
+        "reason": "video, no article text"
+      },
+      {
+        "title": "Uber CEO Khosrowshahi Is 'Comeback Kid': Wedbush's Ives",
+        "reason": "video, no article text"
+      },
+      {
+        "title": "Uber stock slumps despite first quarterly operating profit ever",
+        "reason": "video, no article text"
+      },
+      {
+        "title": "Uber CEO Khosrowshahi on Profit, Autonomous Vehicles, AI",
+        "reason": "video, no article text"
+      },
+      {
+        "title": "Uber on its way to becoming a profitable company, not just a tech company: Analyst",
+        "reason": "video, no article text"
+      },
+      {
+        "title": "Uber CEO Dara Khosrowshahi on why advertising will be its biggest growth area",
+        "reason": "video, no article text"
+      },
+      {
+        "title": "Top Calls: Uber CEO Calls Profit a 'Seminal Moment'",
+        "reason": "video, no article text"
+      },
+      {
+        "title": "Uber Posts First Quarterly Operating Profit, But Shares Fall After Revenue Miss",
+        "reason": "thin snippet duplicating figures already covered by fuller retained sources"
+      },
+      {
+        "title": "Oppenheimer's Jason Helfstein weighs in on Uber's shares sliding after earnings report",
+        "reason": "video, no article text"
+      },
+      {
+        "title": "Uber: What investors should know about buying or selling the stock",
+        "reason": "video, no article text"
+      },
+      {
+        "title": "Fitch Downgrades U.S. Rating: 5 Stocks to Buy on the Dip",
+        "reason": "unrelated macro event (sovereign rating downgrade), not about the earnings reaction"
+      },
+      {
+        "title": "UBER Swings to Earnings in Q2, Misses Revenue Estimates",
+        "reason": "thin snippet duplicating figures already covered by fuller retained sources"
+      },
+      {
+        "title": "Uber Just Reported Its First-Ever Operating Profit In Q2 Earnings Report, But Lyft Warning Sends Shares Sliding",
+        "reason": "thin snippet that does not substantiate the 'Lyft warning' claim referenced in the title"
+      },
+      {
+        "title": "Uber reported its first quarterly profit ever this week. Here's a look at how it got there.",
+        "reason": "historical/background chart piece, not focused on the earnings-day reaction"
+      },
+      {
+        "title": "Final Trades: Uber, Cisco, CVS & more",
+        "reason": "video, no article text"
+      },
+      {
+        "title": "1 Unstoppable Stock That Could Soar 1,063% to Join the $1 Trillion Club",
+        "reason": "speculative long-term valuation thesis, not tied to the earnings reaction"
+      }
+    ]
+  },
+  "JNJ_2022q4": {
+    "status": "published",
+    "input_article_count": 26,
+    "retained_sources": 13,
+    "rejected_sources": [
+      {
+        "title": "Johnson & Johnson Reports Q3 2022 Results",
+        "reason": "snippet contains only the dateline, no substantive figures captured"
+      },
+      {
+        "title": "Johnson & Johnson shares rising as earnings report shows revenue beat",
+        "reason": "video, no article text"
+      },
+      {
+        "title": "DCLA's Sarat Sethi weighs in on earnings for J&J and expectations for Goldman Sachs",
+        "reason": "video, no article text"
+      },
+      {
+        "title": "Johnson & Johnson (JNJ) Q3 2022 Earnings Call Transcript",
+        "reason": "only call preamble/participant list captured, no substantive content"
+      },
+      {
+        "title": "Johnson & Johnson reports earnings beat, lower full-year guidance",
+        "reason": "video, no article text"
+      },
+      {
+        "title": "J&J CFO on Third-Quarter, Outlook, Consumer Spinoff",
+        "reason": "video, no article text"
+      },
+      {
+        "title": "Johnson & Johnson beat on Q3 earnings despite inflationary pressures",
+        "reason": "video, no article text"
+      },
+      {
+        "title": "Johnson & Johnson Isn't Rushing into M&A",
+        "reason": "M&A strategy commentary not tied to the earnings-day reaction"
+      },
+      {
+        "title": "Jim Cramer gives Johnson & Johnson his stamp of approval",
+        "reason": "video, no article text"
+      },
+      {
+        "title": "Does J&J Have Enough Alpha to Be a Solid Low Beta Stock?",
+        "reason": "generic long-term investment thesis, not tied to the earnings reaction, no figures"
+      },
+      {
+        "title": "JNJ Beats on Q3 Earnings: ETFs in Focus",
+        "reason": "thin ETF-roundup summary contradicting better-sourced guidance reporting; not used to avoid introducing an unverified claim"
+      },
+      {
+        "title": "Jim Cramer makes the bull case for consumer goods stocks",
+        "reason": "general market commentary mentioning JNJ only as one of several examples, not substantively about its earnings reaction"
+      },
+      {
+        "title": "3 Reasons To Love Johnson & Johnson, But Buy These 2 Better Dividend Aristocrat Bargains",
+        "reason": "general dividend-stock thesis, not tied to the earnings-day reaction"
+      }
+    ]
+  },
+  "MO_2023q1": {
+    "status": "published",
+    "input_article_count": 14,
+    "retained_sources": 7,
+    "rejected_sources": [
+      {
+        "title": "Altria Reports 2022 Fourth-Quarter and Full-Year Results; Provides 2023 Full-Year Earnings Guidance; Announces New $1 Billion Share Repurchase Program",
+        "reason": "snippet contains only the dateline, no substantive figures captured"
+      },
+      {
+        "title": "Altria Unveils $1 Billion Stock Buyback as Earnings Top Estimates",
+        "reason": "duplicate/syndicated copy of an already-retained Barrons article with identical summary text"
+      },
+      {
+        "title": "Altria stock gets boost following $1 billion buyback plan",
+        "reason": "video, no article text"
+      },
+      {
+        "title": "Altria Group, Inc. (MO) Q4 2022 Earnings Call Transcript",
+        "reason": "only call preamble/participant list captured, no substantive content"
+      },
+      {
+        "title": "Altria: Like Clockwork",
+        "reason": "thin opinion-column snippet, redundant with fuller retained coverage of the earnings beat"
+      },
+      {
+        "title": "Altria Group: Buy This Ultra-High-Yield Dividend King Now And Thank Yourself Later",
+        "reason": "general long-term valuation thesis, not tied to the earnings-day reaction"
+      },
+      {
+        "title": "5 Relatively Safe And Cheap Dividend Stocks To Invest In - February 2023",
+        "reason": "broad multi-ticker roundup, Altria mentioned only in passing"
+      }
+    ]
+  },
+  "FTNT_2023q4": {
+    "status": "published",
+    "input_article_count": 13,
+    "retained_sources": 9,
+    "rejected_sources": [
+      {
+        "title": "Fortinet, Inc. (FTNT) Q3 2023 Earnings Call Transcript",
+        "reason": "only call preamble/participant list captured, no substantive content"
+      },
+      {
+        "title": "Is Congress still buying up war stocks?",
+        "reason": "unrelated congressional-trading roundup, Fortinet mentioned only in a list"
+      },
+      {
+        "title": "Cramer's Stop Trading: Fortinet",
+        "reason": "video, no article text"
+      },
+      {
+        "title": "Fortinet Stock Suffers Another Post-Earnings Collapse",
+        "reason": "thin snippet without new figures beyond fuller retained coverage"
+      }
+    ]
+  },
+  "MGNI_2023q3": {
+    "status": "published",
+    "input_article_count": 5,
+    "retained_sources": 4,
+    "rejected_sources": [
+      {
+        "title": "Attain Partners with Magnite to Introduce Real-Time Sales Measurement for Video Advertising",
+        "reason": "business-partnership announcement unrelated to the earnings report or stock reaction"
+      }
+    ]
+  },
+  "REZI_2022q2": {
+    "status": "published",
+    "input_article_count": 3,
+    "retained_sources": 2,
+    "rejected_sources": [
+      {
+        "title": "Resideo Technologies, Inc. (REZI) CEO Jay Geldmacher on Q1 2022 Results - Earnings Call Transcript",
+        "reason": "only call preamble/participant list captured, no substantive content"
+      }
+    ]
+  },
+  "REZI_2023q1": {
+    "status": "published",
+    "input_article_count": 3,
+    "retained_sources": 2,
+    "rejected_sources": [
+      {
+        "title": "Resideo Technologies, Inc. (REZI) Q4 2022 Earnings Call Transcript",
+        "reason": "full_text null and api_summary is a boilerplate call-participant listing with no substantive earnings content"
+      }
+    ]
+  },
+  "MTW_2023q3": {
+    "status": "published",
+    "input_article_count": 5,
+    "retained_sources": 2,
+    "rejected_sources": [
+      {
+        "title": "5 Mining and Construction Stocks to Buy for Stellar Returns",
+        "reason": "multi-ticker listicle mentioning MTW only in a list, not discussing its earnings specifically"
+      },
+      {
+        "title": "Manitowoc (MTW) Earnings Beat Estimates in Q2, View Raised",
+        "reason": "full_text null and api_summary is a generic boilerplate teaser with no figures, redundant with the detailed Zacks earnings-beat article already retained"
+      },
+      {
+        "title": "The Manitowoc Company Inc. (MTW) Q2 2023 Earnings Call Transcript",
+        "reason": "full_text null and api_summary is boilerplate call-participant listing with no substantive earnings content"
+      }
+    ]
+  },
+  "MRVL_2023q1": {
+    "status": "published",
+    "input_article_count": 14,
+    "retained_sources": 8,
+    "rejected_sources": [
+      {
+        "title": "Marvell Launches Industry's First 1.6 Tbps PAM4 Electro-Optics Platform for Cloud AI/ML and Data Center Networks",
+        "reason": "product-launch press release unrelated to the earnings report, results, or stock reaction"
+      },
+      {
+        "title": "Marvell Announces Cloud-Optimized 51.2 Tbps Networking Platform for AI/ML and Data Center Networks",
+        "reason": "product-launch press release unrelated to the earnings report, results, or stock reaction"
+      },
+      {
+        "title": "5 Chip Stocks to Buy for the Upturn, According to an Analyst",
+        "reason": "multi-ticker listicle mentioning MRVL only in a list; full_text null and api_summary is about Nvidia, not Marvell's earnings"
+      },
+      {
+        "title": "Marvell Technology, Inc. (MRVL) Q4 2023 Earnings Call Transcript",
+        "reason": "full_text null and api_summary is boilerplate call-participant listing with no substantive earnings content"
+      },
+      {
+        "title": "Marvell (MRVL) Q4 Earnings Match, Revenues Beat Expectations",
+        "reason": "full_text null and api_summary is a generic boilerplate teaser with no figures, redundant with other retained Zacks/earnings coverage"
+      },
+      {
+        "title": "Semi stocks off to hot start this year as ChatGTP hype spurs demand",
+        "reason": "Video type, no usable text"
+      }
+    ]
+  },
+  "MO_2023q3": {
+    "status": "published",
+    "input_article_count": 13,
+    "retained_sources": 9,
+    "rejected_sources": [
+      {
+        "title": "Only 11 Stocks' Dividends Are Impressive Now That CDs Yield 5.4%",
+        "reason": "multi-ticker dividend-yield roundup mentioning MO only in a list, not discussing its earnings"
+      },
+      {
+        "title": "Juul seeks authorization on a new vape it says can verify a user's age. Here's how it works",
+        "reason": "article content is entirely about Juul Labs and never discusses Altria's earnings, results, or stock reaction despite the MO ticker tag"
+      },
+      {
+        "title": "Altria Reports 2023 Second-Quarter and First-Half Results; Reaffirms 2023 Full-Year Earnings Guidance",
+        "reason": "full_text null and api_summary is a boilerplate press-release intro with no figures, redundant with other retained sources that report the same reaffirmed guidance with figures"
+      },
+      {
+        "title": "Buy 5 August Dividend Kings, Watch 4 More",
+        "reason": "multi-ticker dividend-yield roundup (18 tickers) mentioning MO only in a list, not discussing its earnings"
+      }
+    ]
+  },
+  "SFIX_2021q1": {
+    "status": "published",
+    "input_article_count": 27,
+    "retained_sources": 18,
+    "rejected_sources": [
+      {
+        "title": "Top Stocks To Short Today As The Rotation Into Recovery Continues",
+        "reason": "multi-ticker listicle mentioning SFIX only in a list, unrelated to the earnings report"
+      },
+      {
+        "title": "Stitch Fix Announces Second Quarter Fiscal Year 2021 Financial Results",
+        "reason": "full_text null and api_summary is a boilerplate press-release intro with no figures, redundant with other retained sources that report the same results with figures"
+      },
+      {
+        "title": "Stitch Fix reports lower than expected sales in the fiscal second quarter",
+        "reason": "full_text null and api_summary is a generic boilerplate teaser about COVID-19 case counts with no distinct figures"
+      },
+      {
+        "title": "Stitch Fix notes shipping issues prevent it from accurately showing revenue guidance",
+        "reason": "Video type, no usable text"
+      },
+      {
+        "title": "Stitch Fix, Inc.'s (SFIX) CEO Katrina Lake on Q2 2021 Results - Earnings Call Transcript",
+        "reason": "full_text null and api_summary only repeats the title with no substantive content"
+      },
+      {
+        "title": "These tech stocks have lost more than 20% of their value so far this year",
+        "reason": "multi-ticker roundup about rising bond yields and YTD tech-stock declines, not about SFIX's earnings report or reaction"
+      },
+      {
+        "title": "Stitch Fix shares fall on earnings miss and net loss due to carrier delays",
+        "reason": "Video type, no usable text"
+      },
+      {
+        "title": "Should I Buy Stitch Fix Stock on the Dip?",
+        "reason": "full_text null and api_summary is a generic boilerplate teaser with no figures, redundant with other retained Zacks and Motley Fool coverage"
+      },
+      {
+        "title": "Stitch Fix - Future Opportunities Improve After Temporary Postal Issue",
+        "reason": "full_text null and api_summary only repeats the title with no substantive content"
+      }
+    ]
+  },
+  "UBER_2021q1": {
+    "status": "published",
+    "input_article_count": 58,
+    "retained_sources": 28,
+    "rejected_sources": [
+      {
+        "title": "Smurfit Kappa to roll out finals on Wednesday, earnings from Coca-Cola, GM and Uber eyed from US",
+        "reason": "Market-wide earnings-preview roundup (Smurfit Kappa/Coca-Cola/GM/Uber) mentioning Uber only in passing, no detail on Uber itself."
+      },
+      {
+        "title": "Walgreens and Uber Join Forces to Address Barriers to COVID-19 Vaccine Equity",
+        "reason": "Walgreens vaccine-ride partnership announcement, unrelated to the earnings move."
+      },
+      {
+        "title": "Uber will offer free rides to Walgreens to expand access to Covid vaccines",
+        "reason": "Walgreens vaccine-ride partnership coverage, unrelated to the earnings move."
+      },
+      {
+        "title": "Uber, Walgreens team up to get people to COVID-19 vaccine appointments",
+        "reason": "Walgreens vaccine-ride partnership coverage, unrelated to the earnings move."
+      },
+      {
+        "title": "Uber Offers Free Rides To Walgreens For Vaccine Appointments",
+        "reason": "Walgreens vaccine-ride partnership coverage, unrelated to the earnings move."
+      },
+      {
+        "title": "Uber and Walgreens team up to offer free rides and access to the COVID-19 vaccine for underserved communities",
+        "reason": "Walgreens vaccine-ride partnership coverage, unrelated to the earnings move."
+      },
+      {
+        "title": "Why Josh Brown is adding to his Uber position",
+        "reason": "Video type, no article text available."
+      },
+      {
+        "title": "UBER Reports Earnings Today. Here's What To Expect.",
+        "reason": "Earnings preview with no usable detail (0 full text, generic teaser only)."
+      },
+      {
+        "title": "Here's Why Lyft, Uber, Twitter And Baidu Are Moving",
+        "reason": "Benzinga 'Why Is It Moving' generic feature template with no substantive detail."
+      },
+      {
+        "title": "Jason Calacanis on Uber's earnings and the future of the company",
+        "reason": "Video type, no article text available."
+      },
+      {
+        "title": "Uber misses earnings, beats revenue for Q4",
+        "reason": "Video type, no article text available."
+      },
+      {
+        "title": "'I think this is a major step in the right direction': Dan Ives on Uber",
+        "reason": "Video type, no article text available."
+      },
+      {
+        "title": "Uber Benefiting From Diversification: NYU's Sundararajan",
+        "reason": "Video type, no article text available."
+      },
+      {
+        "title": "Uber earnings miss expectations, but the Eats business soars",
+        "reason": "Video type, no article text available."
+      },
+      {
+        "title": "Markets Finish Mixed as Uber, MGM Fall Back After Hours",
+        "reason": "Market-wrap piece on a mixed overall session; Uber-specific content duplicates better-sourced after-hours-decline reporting without adding distinct figures."
+      },
+      {
+        "title": "Tilray Bought by the Reddit Crowd, Plus UBER's Q3",
+        "reason": "Headline references 'UBER's Q3' but content is about Tilray; no actual Uber earnings content in the summary (title/content mismatch)."
+      },
+      {
+        "title": "MarketWatch First Take: With plan to license its tech, is Uber extending an olive branch to rivals, or grasping at straws?",
+        "reason": "Discusses a possible tech-licensing strategy aside; not tied to the earnings reaction by any stated or implied link."
+      },
+      {
+        "title": "Uber CEO dismisses bitcoin investment, could use for transactions: CNBC",
+        "reason": "CEO bitcoin/crypto commentary, unrelated to the earnings-driven move."
+      },
+      {
+        "title": "Walgreens (WBA) and UBER Tie Up to Expand COVID Vaccine Access",
+        "reason": "Walgreens vaccine-ride partnership coverage, unrelated to the earnings move."
+      },
+      {
+        "title": "Uber CEO Says Pandemic Has Shifted Delivery Permanently",
+        "reason": "Video type, no article text available."
+      },
+      {
+        "title": "Uber won't buy bitcoin with its cash but would consider accepting it as payment, CEO says",
+        "reason": "CEO bitcoin/crypto commentary, unrelated to the earnings-driven move."
+      },
+      {
+        "title": "Uber CEO: We're looking at bitcoin and cryptocurrency as payment options",
+        "reason": "Video type, no article text available."
+      },
+      {
+        "title": "Cramer on Uber earnings: 'They're not making a lot of money'",
+        "reason": "Video type, no article text available."
+      },
+      {
+        "title": "Uber CEO on mixed Q4 results, path to profitability, growth opportunities",
+        "reason": "Video type, no article text available."
+      },
+      {
+        "title": "Uber Sees Deliveries Soar, But Sales Drop in Q4",
+        "reason": "Video type, no article text available."
+      },
+      {
+        "title": "Uber CEO says the company will consider accepting Bitcoin from customers",
+        "reason": "CEO bitcoin/crypto commentary, unrelated to the earnings-driven move."
+      },
+      {
+        "title": "Uber earnings: Analyst says the ridesharing company will bounce back",
+        "reason": "Video type, no article text available."
+      },
+      {
+        "title": "Uber Will Consider Crypto As Payment, CEO Says It's 'Good For Business'",
+        "reason": "CEO bitcoin/crypto commentary, unrelated to the earnings-driven move."
+      },
+      {
+        "title": "Uber Won't Invest In Bitcoin But Might Take It For Payments",
+        "reason": "CEO bitcoin/crypto commentary, unrelated to the earnings-driven move."
+      },
+      {
+        "title": "Former Uber Eats Exec Emil Michael Praises Eats' Growth Story",
+        "reason": "Former-executive human-interest piece on Eats' growth story; not tied to the earnings reaction by any stated or implied link."
+      }
+    ]
+  },
+  "MCD_2022q4": {
+    "status": "published",
+    "input_article_count": 27,
+    "retained_sources": 15,
+    "rejected_sources": [
+      {
+        "title": "McDonald's Q3 Earnings: What Are We Watching?",
+        "reason": "Earnings preview with no usable detail (0 full text, generic teaser only)."
+      },
+      {
+        "title": "McDonald's set to report earnings ahead of Thursday opening",
+        "reason": "Video type, no article text available."
+      },
+      {
+        "title": "McDonald's reports better-than-expected Q3 earnings",
+        "reason": "Video type, no article text available."
+      },
+      {
+        "title": "McDonald's Corporation (MCD) Q3 2022 Earnings Call Transcript",
+        "reason": "Seeking Alpha earnings-call transcript record returned only the call header/participant list, no substantive transcript body (snippet only)."
+      },
+      {
+        "title": "McDonald's earnings: 4 things to watch going into 2023",
+        "reason": "Video type, no article text available."
+      },
+      {
+        "title": "McDonald's Q3 earnings beat driven by ‘positive traffic in the U.S.,' analyst says",
+        "reason": "Video type, no article text available."
+      },
+      {
+        "title": "Three Stock Lunch CAT, MCD and NOW",
+        "reason": "Video type, no article text available."
+      },
+      {
+        "title": "How to trade Caterpillar, Northrup Grumman and McDonald's post-earnings",
+        "reason": "Video type, no article text available."
+      },
+      {
+        "title": "5 of Warren Buffett's Top Dividend Stocks Crushed Q3 Earnings Expectations",
+        "reason": "Multi-ticker Buffett-dividend-stocks roundup; MCD appears as one of five names without being tied to the day's move beyond restating the headline beat already covered by stronger sources."
+      },
+      {
+        "title": "McDonald's Stock Sizzles, but Will it Hit a New All-Time High?",
+        "reason": "Generic dividend-stocks-by-market-cap ranking; mentions MCD only as list background, not tied to the earnings move."
+      },
+      {
+        "title": "The 7 Most Popular Dividend Stocks Ranked from Biggest to Smallest",
+        "reason": "Seven-dividend-stocks ranking roundup; MCD mentioned only in passing among seven unrelated names."
+      },
+      {
+        "title": "Final Trades: MCD, SBUX, BMY & NKE",
+        "reason": "Video type, no article text available."
+      }
+    ]
+  },
+  "MO_2022q3": {
+    "status": "published",
+    "input_article_count": 15,
+    "retained_sources": 11,
+    "rejected_sources": [
+      {
+        "title": "You Can Count On This Ultra-High-Yield Dividend Stock",
+        "reason": "Generic dividend-stock investment-thesis piece reiterating known facts (Juul writedown, payout ratio, AB InBev stake) without tying anything to the earnings-day reaction."
+      },
+      {
+        "title": "Should High Yield Altria Be In Your Portfolio?",
+        "reason": "Generic 'should you own this high-yield stock' opinion piece with no earnings-move-specific detail (0 full text, thin summary)."
+      },
+      {
+        "title": "Altria Group, Inc. (MO) CEO Billy Gifford on Q2 2022 Results - Earnings Call Transcript",
+        "reason": "Seeking Alpha earnings-call transcript record returned only the call header/participant list, no substantive transcript body (snippet only)."
+      },
+      {
+        "title": "Altria: A Simple Dividend Forecast",
+        "reason": "Seeking Alpha dividend-forecast opinion column published two days after the results; dismisses Juul concerns as a thesis point but does not address the day's price reaction."
+      }
+    ]
+  },
+  "MRVL_2021q1": {
+    "status": "published",
+    "input_article_count": 13,
+    "retained_sources": 7,
+    "rejected_sources": [
+      {
+        "title": "Preview: Marvell Technology Group's Earnings",
+        "reason": "Earnings preview with no usable detail (0 full text, generic teaser only)."
+      },
+      {
+        "title": "Chip Shortage May End Semis' Perfect Storm Prematurely",
+        "reason": "Multi-ticker semiconductor-industry roundup (14 tickers); mentions Marvell only in passing within a broad chip-shortage theme piece, no Marvell-specific detail."
+      },
+      {
+        "title": "Marvell Technology Group Ltd. (MRVL) CEO Matt Murphy on Q4 2020 Results - Earnings Call Transcript",
+        "reason": "Seeking Alpha earnings-call transcript record returned only the title, no substantive transcript body (snippet only)."
+      },
+      {
+        "title": "Jim Cramer on Marvell shares falling on global chip shortage",
+        "reason": "Video type, no article text available."
+      },
+      {
+        "title": "Marvell CEO on chip shortage: May be tight supply for all of 2021",
+        "reason": "Video type, no article text available."
+      },
+      {
+        "title": "Marvell Technology Group Ltd. Declares Quarterly Dividend Payment",
+        "reason": "Routine quarterly-dividend-declaration announcement two days after earnings, not tied to the earnings-day reaction."
+      }
+    ]
+  },
+  "PH_2022q2": {
+    "status": "quarantined",
+    "input_article_count": 5,
+    "retained_sources": 0,
+    "rejected_sources": [
+      {
+        "title": "Parker Reports Fiscal 2022 Third Quarter Results",
+        "reason": "Passed the quality filter (official results release with real figures) but, like every other retained candidate for this observation, contains no report of the stock's price reaction; see quarantine_reason."
+      },
+      {
+        "title": "15 Upcoming Dividend Increases Including One King",
+        "reason": "Multi-ticker (16 tickers) upcoming-dividend-increases roundup; mentions Parker-Hannifin only in passing, no earnings-specific detail."
+      },
+      {
+        "title": "Parker-Hannifin (PH) Surpasses Q3 Earnings and Revenue Estimates",
+        "reason": "Passed the quality filter (EPS/revenue surprise figures) but contains no report of the stock's price reaction; see quarantine_reason."
+      },
+      {
+        "title": "Parker-Hannifin Corporation (PH) CEO Tom Williams on Q3 2022 Results - Earnings Call Transcript",
+        "reason": "Seeking Alpha earnings-call transcript record returned only the call header/participant list, no substantive transcript body (snippet only)."
+      },
+      {
+        "title": "Parker-Hannifin (PH) Q3 Earnings & Revenues Beat Estimates",
+        "reason": "Passed the quality filter (EPS/revenue beat, margin commentary) but contains no report of the stock's price reaction; see quarantine_reason."
+      }
+    ],
+    "quarantine_reason": "Only 5 articles were available and only 3 (the GlobeNewswire results release and two Zacks earnings-surprise summaries) passed the STEP 1 quality filter; the other 2 are a multi-ticker dividend-increase roundup that mentions Parker-Hannifin only in passing and a snippet-only earnings-call-transcript record with no body text. None of the 3 qualifying articles report or describe the stock's price reaction to the results in any way (no after-hours move, no day-of percentage change, no analyst reaction) -- the Zacks pieces contain only generic year-to-date performance boilerplate, not an earnings-day reaction. Per STEP 2, a category may be included only if the articles attribute the stock's move to it, explicitly or implicitly; with the move itself never described in any retained source, none of the 11 categories can be legitimately populated without fabricating a reaction that isn't in the evidence. Quarantined rather than publishing an observation with real earnings figures but no supportable why-moved content."
+  },
+  "REZI_2023q3": {
+    "status": "quarantined",
+    "input_article_count": 3,
+    "retained_sources": 0,
+    "rejected_sources": [
+      {
+        "title": "Resideo Announces Second Quarter 2023 Financial Results",
+        "reason": "Passed the quality filter (official results release with real figures) but, like every other retained candidate for this observation, contains no report of the stock's price reaction; see quarantine_reason."
+      },
+      {
+        "title": "Resideo Announces Share Repurchase Program",
+        "reason": "Passed the quality filter (official share-repurchase-program release) but contains no report of the stock's price reaction; see quarantine_reason."
+      },
+      {
+        "title": "Resideo Technologies (REZI) Q2 Earnings and Revenues Lag Estimates",
+        "reason": "Passed the quality filter (EPS/revenue miss figures) but contains no report of the stock's price reaction; see quarantine_reason."
+      }
+    ],
+    "quarantine_reason": "Only 3 articles were available for this observation: the company's own results release, its own share-repurchase-program release, and a Zacks earnings-surprise summary (EPS $0.34 missing a $0.46 consensus, revenue $1.6 billion missing consensus by about 0.97%). All 3 pass the STEP 1 quality filter on content grounds, but none of them report or describe the stock's price reaction to the results in any way -- the Zacks piece contains only generic year-to-date performance boilerplate, not an earnings-day reaction, and both PRNewswire releases are company-issued with no market-reaction content. Per STEP 2, a category may be included only if the articles attribute the stock's move to it, explicitly or implicitly; with the move itself never described in any retained source, none of the 11 categories can be legitimately populated without fabricating a reaction that isn't in the evidence. Quarantined rather than publishing an observation with real earnings figures but no supportable why-moved content."
+  },
+  "JNJ_2021q3": {
+    "status": "published",
+    "input_article_count": 53,
+    "retained_sources": 17,
+    "rejected_sources": [
+      {
+        "title": "Have $1,000? 2 Stocks to Buy Before the Next Market Crash",
+        "reason": "General market/ETF/stock-list roundup that only mentions JNJ in passing"
+      },
+      {
+        "title": "Johnson & Johnson (JNJ) Option Traders Ready for Positive Earnings",
+        "reason": "Snippet-only / boilerplate with no usable figures or content distinct from retained coverage"
+      },
+      {
+        "title": "Johnson & Johnson vaccine much less effective against delta variant, new study says",
+        "reason": "Video, no article text available"
+      },
+      {
+        "title": "Johnson & Johnson Vaccine Far Less Effective Against Delta Variant, Study Suggests",
+        "reason": "Different event (vaccine efficacy study, CDC/EMA safety review, FDA approval) not tied by any article to the earnings-day stock reaction"
+      },
+      {
+        "title": "The New York Post: Johnson & Johnson COVID-19 vaccine may not perform as well against Delta variant, says study",
+        "reason": "Different event (vaccine efficacy study, CDC/EMA safety review, FDA approval) not tied by any article to the earnings-day stock reaction"
+      },
+      {
+        "title": "Coronavirus tally: Global cases of COVID-19 top 191.4 million and study finds J&J vaccine less effective vs. delta variant",
+        "reason": "General market/ETF/stock-list roundup that only mentions JNJ in passing"
+      },
+      {
+        "title": "Johnson & Johnson CFO discusses earnings, profit forecast, vaccines, and talcum powder lawsuits",
+        "reason": "Video, no article text available"
+      },
+      {
+        "title": "J&J CFO: Not-for-Profit Vaccine Price Likely to End in 2021",
+        "reason": "Video, no article text available"
+      },
+      {
+        "title": "Johnson & Johnson (JNJ) on Q2 2021 Results - Earnings Call Transcript",
+        "reason": "Snippet-only / boilerplate with no usable figures or content distinct from retained coverage"
+      },
+      {
+        "title": "Today In Healthcare: Medical Devices Boost J&J Q2, Patients Prefer Docs With Better Digital Tools And Data Breaches Threaten Telehealth",
+        "reason": "General market/ETF/stock-list roundup that only mentions JNJ in passing"
+      },
+      {
+        "title": "Johnson & Johnson's COVID-19 Shot Is Less Effective Against Delta Variant: Study",
+        "reason": "Different event (vaccine efficacy study, CDC/EMA safety review, FDA approval) not tied by any article to the earnings-day stock reaction"
+      },
+      {
+        "title": "Study shows Johnson & Johnson vaccine may be less effective against Delta variant",
+        "reason": "Video, no article text available"
+      },
+      {
+        "title": "States reach $26B settlement with opioid distributors and Johnson & Johnson",
+        "reason": "Video, no article text available"
+      },
+      {
+        "title": "J&J And Other Drug Companies Strike $26 Billion Opioid Settlement With States",
+        "reason": "Snippet-only / boilerplate with no usable figures or content distinct from retained coverage"
+      },
+      {
+        "title": "J&J Shot Found to Raise Fewer Antibodies Against Delta Variant",
+        "reason": "Video, no article text available"
+      },
+      {
+        "title": "The Wall Street Journal: States announce $26 billion settlement to resolve opioid lawsuits",
+        "reason": "Duplicate coverage of the opioid settlement adding no distinct figures beyond the retained sources"
+      },
+      {
+        "title": "Fauci: Vaccines are safe and effective against delta variant",
+        "reason": "Video, no article text available"
+      },
+      {
+        "title": "4 Top Stock Trades for Thursday: SQ, JNJ, KO, CMG",
+        "reason": "General market/ETF/stock-list roundup that only mentions JNJ in passing"
+      },
+      {
+        "title": "Big 3 drug distributors, J&J reach landmark $26B opioid settlement",
+        "reason": "Duplicate coverage of the opioid settlement adding no distinct figures beyond the retained sources"
+      },
+      {
+        "title": "States announce $26 billion settlement to resolve opioid lawsuits: RPT",
+        "reason": "Video, no article text available"
+      },
+      {
+        "title": "States reach deal to settle with opioid distributors, Johnson & Johnson",
+        "reason": "Video, no article text available"
+      },
+      {
+        "title": "Johnson & Johnson: Nothing New, 7-8% Gains Per Year From Here",
+        "reason": "Snippet-only / boilerplate with no usable figures or content distinct from retained coverage"
+      },
+      {
+        "title": "What You Should Know About Johnson & Johnson's Newest COVID Vaccine Warning",
+        "reason": "Different event (vaccine efficacy study, CDC/EMA safety review, FDA approval) not tied by any article to the earnings-day stock reaction"
+      },
+      {
+        "title": "How Big of an Impact Will COVID-19 Have on the Stock Market Going Forward?",
+        "reason": "Different event (vaccine efficacy study, CDC/EMA safety review, FDA approval) not tied by any article to the earnings-day stock reaction"
+      },
+      {
+        "title": "Pre-August Billionaire Flash: 63 Stocks, 41 Dividends, 3 Buys",
+        "reason": "General market/ETF/stock-list roundup that only mentions JNJ in passing"
+      },
+      {
+        "title": "US States Get $26B Settlement Deal in Opioid Abuse Litigation",
+        "reason": "Duplicate coverage of the opioid settlement adding no distinct figures beyond the retained sources"
+      },
+      {
+        "title": "JNJ Beats on Q2 Earnings, Ups View: ETFs to Buy",
+        "reason": "Snippet-only / boilerplate with no usable figures or content distinct from retained coverage"
+      },
+      {
+        "title": "CDC says benefits of J&J Covid vaccine still outweigh risks after reports of rare neurological disorder",
+        "reason": "Different event (vaccine efficacy study, CDC/EMA safety review, FDA approval) not tied by any article to the earnings-day stock reaction"
+      },
+      {
+        "title": "Healthcare ETFs in Focus as Q2 Earnings Unfold",
+        "reason": "General market/ETF/stock-list roundup that only mentions JNJ in passing"
+      },
+      {
+        "title": "European Medicine Agency Lists Guillain-Barré Syndrome As Rare Side Effect For JNJ COVID-19 Vaccine",
+        "reason": "Different event (vaccine efficacy study, CDC/EMA safety review, FDA approval) not tied by any article to the earnings-day stock reaction"
+      },
+      {
+        "title": "Can Today's Vaccines Beat the Delta Variant?",
+        "reason": "Different event (vaccine efficacy study, CDC/EMA safety review, FDA approval) not tied by any article to the earnings-day stock reaction"
+      },
+      {
+        "title": "The Big Winner With Johnson & Johnson's Recent FDA Approval",
+        "reason": "Different event (vaccine efficacy study, CDC/EMA safety review, FDA approval) not tied by any article to the earnings-day stock reaction"
+      },
+      {
+        "title": "Stocks Headed for Weekly Wins Despite Monday's Rout",
+        "reason": "General market/ETF/stock-list roundup that only mentions JNJ in passing"
+      },
+      {
+        "title": "Peak growth may be behind us, says Schroders' Ron Insana",
+        "reason": "Video, no article text available"
+      },
+      {
+        "title": "Financials, basic materials, energy sectors are stocks Neuberger Berman's Salzmann recommends",
+        "reason": "Video, no article text available"
+      },
+      {
+        "title": "Is August a good month for buying Johnson & Johnson shares?",
+        "reason": "Speculative/unrelated trade idea or later-dated piece not tied to the earnings event"
+      }
+    ]
+  },
+  "BA_2021q4": {
+    "status": "published",
+    "input_article_count": 32,
+    "retained_sources": 13,
+    "rejected_sources": [
+      {
+        "title": "Aviation Industry Chief Technology Officers Issue Joint Call to Action to Deliver Sustainable Aviation Plans",
+        "reason": "Pre-earnings item unrelated to the earnings event (industry announcement, speculative technical trade, thin pre-earnings opinion/lawsuit item with no usable text)"
+      },
+      {
+        "title": "Boeing In Need Of Futureproof Platforms For The Long Term",
+        "reason": "Pre-earnings item unrelated to the earnings event (industry announcement, speculative technical trade, thin pre-earnings opinion/lawsuit item with no usable text)"
+      },
+      {
+        "title": "Will Boeing's (BA) Space Programs Drive Its Q3 Earnings?",
+        "reason": "Thin pre-earnings preview with no retrievable full text, redundant with the retained defense-sector preview"
+      },
+      {
+        "title": "Polish LOT sued Boeing over design flaws in 737 MAX -PAP",
+        "reason": "Pre-earnings item unrelated to the earnings event (industry announcement, speculative technical trade, thin pre-earnings opinion/lawsuit item with no usable text)"
+      },
+      {
+        "title": "Boeing Is Entering A Critical Time In The Pattern The Stock Trades In",
+        "reason": "Pre-earnings item unrelated to the earnings event (industry announcement, speculative technical trade, thin pre-earnings opinion/lawsuit item with no usable text)"
+      },
+      {
+        "title": "What Awaits Dow Jones ETFs Ahead of Big Earnings Releases?",
+        "reason": "General market/sector roundup not focused on Boeing's earnings reaction"
+      },
+      {
+        "title": "Uncertainty dogs 787 deliveries, MAX approval ahead of Boeing Q3",
+        "reason": "Pre-earnings item unrelated to the earnings event (industry announcement, speculative technical trade, thin pre-earnings opinion/lawsuit item with no usable text)"
+      },
+      {
+        "title": "Boeing Misses Q3 Analyst Earnings Target, But 737 Production Target Takes Flight",
+        "reason": "Snippet-only duplicate of a retained Benzinga article (same provider ID/content)"
+      },
+      {
+        "title": "Norwegian Air to lease 13 Boeing planes",
+        "reason": "Unrelated commercial news (aircraft lease deal) not tied to the earnings reaction"
+      },
+      {
+        "title": "Boeing CEO Dave Calhoun on Q3 results, 787 Dreamliner recovery",
+        "reason": "Video, no article text available"
+      },
+      {
+        "title": "Q3 Earnings' Smooth Sailing Continues",
+        "reason": "General market/sector roundup not focused on Boeing's earnings reaction"
+      },
+      {
+        "title": "Boeing has a 'serious management credibility problem,' says Lebenthal",
+        "reason": "Video, no article text available"
+      },
+      {
+        "title": "GM and McDonald's beat Q3 earnings expectations, Boeing misses on jet delays",
+        "reason": "Video, no article text available"
+      },
+      {
+        "title": "The Boeing Company (BA) CEO David Calhoun Q3 2021 Results - Earnings Call Transcript",
+        "reason": "Snippet-only earnings-call-transcript stub with no retrievable text"
+      },
+      {
+        "title": "Boeing sees wider-than-expected loss on top, bottom line in Q3 earnings",
+        "reason": "Video, no article text available"
+      },
+      {
+        "title": "Airbus vs. Boeing: Will Innovation or Pragmatism Win the Market?",
+        "reason": "Not tied to the earnings-day move: later-dated competitive/speculative piece"
+      },
+      {
+        "title": "Boeing, Airbus Battle Over Freighters",
+        "reason": "Not tied to the earnings-day move: later-dated competitive/speculative piece"
+      },
+      {
+        "title": "Air Travel Demand To Push Boeing Stock Higher?",
+        "reason": "Not tied to the earnings-day move: later-dated competitive/speculative piece"
+      },
+      {
+        "title": "3 Disruptive Stocks Shaping the Future of Technology",
+        "reason": "Not tied to the earnings-day move: later-dated competitive/speculative piece"
+      }
+    ]
+  },
+  "SFIX_2022q3": {
+    "status": "published",
+    "input_article_count": 15,
+    "retained_sources": 11,
+    "rejected_sources": [
+      {
+        "title": "Stitch Fix Announces Fourth Quarter and Fiscal Year 2022 Financial Results",
+        "reason": "Boilerplate press-release teaser with no figures in the retrievable text"
+      },
+      {
+        "title": "Stitch Fix, Inc. (SFIX) Q4 2022 Earnings Call Transcript",
+        "reason": "Snippet-only earnings-call-transcript stub with no retrievable text"
+      },
+      {
+        "title": "Stitch Fix stock falls on fourth-quarter revenue miss",
+        "reason": "Video, no article text available"
+      },
+      {
+        "title": "Stitch Fix misses on Q4 earnings, faces client engagement troubles",
+        "reason": "Video, no article text available"
+      }
+    ]
+  },
+  "SFIX_2023q1": {
+    "status": "published",
+    "input_article_count": 13,
+    "retained_sources": 9,
+    "rejected_sources": [
+      {
+        "title": "Stitch Fix Announces Second Quarter of Fiscal Year 2023 Financial Results: Raises Full Year FY23 Adj. EBITDA Guidance; Announces CFO Transition",
+        "reason": "Boilerplate press-release teaser with no figures in the retrievable text"
+      },
+      {
+        "title": "Stocks moving in after hours: CrowdStrike, Stitch Fix",
+        "reason": "Video, no article text available"
+      },
+      {
+        "title": "Stitch Fix, Inc. (SFIX) Q2 2023 Earnings Call Transcript",
+        "reason": "Snippet-only earnings-call-transcript stub with no retrievable text"
+      },
+      {
+        "title": "Piper Sandler analysts cite ‘foundational issues' for Stitch Fix",
+        "reason": "Video, no article text available"
+      }
+    ]
+  },
+  "PH_2023q3": {
+    "status": "published",
+    "input_article_count": 5,
+    "retained_sources": 5,
+    "rejected_sources": []
+  },
+  "METC_2023q1": {
+    "status": "quarantined",
+    "input_article_count": 2,
+    "retained_sources": 0,
+    "rejected_sources": [
+      {
+        "title": "RAMACO RESOURCES REPORTS FOURTH QUARTER AND FULL-YEAR 2022 RESULTS",
+        "reason": "Company's own press release only: reports quarter figures but never discusses the stock's price or reaction, and contains no analyst estimates/consensus against which to judge an expectations gap"
+      },
+      {
+        "title": "Ramaco Resources, Inc. (METC) Q4 2022 Earnings Call Transcript",
+        "reason": "Snippet-only earnings-call-transcript stub (no retrievable body text beyond the speaker roster)"
+      }
+    ],
+    "quarantine_reason": "Only two articles are available for this observation: Ramaco Resources' own Q4/FY2022 press release (which reports results but never mentions the stock's price, a market reaction, or any analyst estimate/consensus) and a Seeking Alpha earnings-call-transcript entry with no retrievable body text. No retained source reports the stock's reaction, provides an analyst expectation for any metric, or offers any causal interpretation of the move, so no category can be tied to the stock's reaction per the prompt's attribution rules, and the summary could not even state the direction of the move without using the project's own computed return (prohibited outside the divergence category). Publishing would produce an all-null, non-substantive entry, so this observation is quarantined rather than padded."
+  },
+  "BA_2021q1": {
+    "status": "published",
+    "input_article_count": 50,
+    "retained_sources": 22,
+    "rejected_sources": [
+      {
+        "title": "7 Robinhood Stocks To Move Into Now As Young Investors Look Long Term",
+        "reason": "multi-ticker 'Robinhood stocks' roundup that only mentions BA in passing; not about the earnings move"
+      },
+      {
+        "title": "Boeing 737 MAX: Growth Returns To The Skies",
+        "reason": "snippet-only API summary with no usable figures (Seeking Alpha teaser)"
+      },
+      {
+        "title": "Boeing Stock Faces Off With $200 Ahead of Earnings",
+        "reason": "snippet-only API summary with no usable figures (Schaeffers teaser)"
+      },
+      {
+        "title": "As Boeing Prepares Q4 Earnings, Concerns Include Workforce Cuts, New Orders, Defense Spending",
+        "reason": "snippet-only API summary with no usable figures (Forbes preview teaser)"
+      },
+      {
+        "title": "Boeing Earnings Preview",
+        "reason": "snippet-only API summary with no usable figures (Benzinga preview teaser)"
+      },
+      {
+        "title": "Alaska Airlines just took delivery of its first Boeing 737 Max, becoming the 4th in the US to fly the controversial jet",
+        "reason": "about an Alaska Airlines 737 MAX delivery, not about BA's earnings or stock reaction"
+      },
+      {
+        "title": "Boeing's Shares May Take Flight Following Results",
+        "reason": "snippet-only API summary with no usable figures (Seeking Alpha opinion teaser)"
+      },
+      {
+        "title": "Boeing 737 MAX safe to return to service in Europe, regulator says",
+        "reason": "duplicate of kept EU/UK 737 MAX clearance coverage (Guardian/CNET) with no full text or added figures"
+      },
+      {
+        "title": "Boeing 737 Max cleared for take-off by European Union regulators, ending nearly 2 years on the tarmac",
+        "reason": "duplicate of kept EU/UK 737 MAX clearance coverage with no full text or added figures"
+      },
+      {
+        "title": "Boeing's 737 Max Can Fly Again in Europe. What It Means for Airbus Stock.",
+        "reason": "duplicate of kept EU/UK 737 MAX clearance coverage with no full text or added figures"
+      },
+      {
+        "title": "Boeing to delay 777X again as it posts record annual loss",
+        "reason": "duplicate record-loss/777X-delay figures already covered by fuller kept sources, no full text or added figures"
+      },
+      {
+        "title": "Boeing reports record net loss of $11.9 billion in 2020",
+        "reason": "Video, no text"
+      },
+      {
+        "title": "Stock futures stumble as Boeing posts record loss",
+        "reason": "general market-wide roundup (Fed decision, GameStop squeeze) mentioning BA loss only in passing"
+      },
+      {
+        "title": "Boeing reports £6.15 billion of net loss in the fiscal fourth quarter",
+        "reason": "duplicate net-loss/revenue figures already covered by fuller kept sources, no full text or added figures"
+      },
+      {
+        "title": "Boeing CEO: Slow Covid vaccine rollout will prolong travel demand recovery",
+        "reason": "Video, no text"
+      },
+      {
+        "title": "Boeing CEO Dave Calhoun on fourth-quarter results and $6.5 billion charge",
+        "reason": "Video, no text"
+      },
+      {
+        "title": "Boeing (BA) Reports Staggering Q4 Loss",
+        "reason": "snippet-only API summary with no usable figures beyond what fuller kept sources provide"
+      },
+      {
+        "title": "The Boeing 777X won't be delivered to airlines until late 2023.",
+        "reason": "general 777X program-history background, not tied to the earnings reaction"
+      },
+      {
+        "title": "Hed: Boeing Hit With Record Loss As Debut Of 777X Delayed Again To 2023",
+        "reason": "boilerplate headline/deck placeholder text, no usable content"
+      },
+      {
+        "title": "Britain clears Boeing 737 MAX for return to service",
+        "reason": "duplicate UK 737 MAX clearance coverage with no full text or added figures"
+      },
+      {
+        "title": "The Boeing Company (BA) CEO David Calhoun on Q4 2020 Results - Earnings Call Transcript",
+        "reason": "earnings call transcript link with no usable text"
+      },
+      {
+        "title": "Boeing 737 Max can fly again in US, EU, UK and Canada",
+        "reason": "general 737 MAX historical explainer, not tied to the earnings reaction"
+      },
+      {
+        "title": "A Positive and Reassuring Earnings Picture",
+        "reason": "multi-company ('Positive and Reassuring Earnings Picture') roundup, snippet-only, no BA-specific figures"
+      },
+      {
+        "title": "Boeing gets U.S. govt approval to offer F-15EX to India",
+        "reason": "unrelated news (F-15EX India licence), not about earnings or stock reaction"
+      },
+      {
+        "title": "Boeing posts record annual revenue loss of $12B",
+        "reason": "Video, no text"
+      },
+      {
+        "title": "Boeing Crisis Year: $58 Billion In Value Losses",
+        "reason": "snippet-only API summary with no usable figures (title repeated)"
+      },
+      {
+        "title": "Boeing's 777X Could Still Be A Success, Eventually",
+        "reason": "snippet-only API summary with no usable figures (777X opinion teaser)"
+      },
+      {
+        "title": "Boeing is ‘COVID-19 recovery play,' Morgan Stanley says",
+        "reason": "duplicate of kept Benzinga Morgan Stanley upgrade article with no full text or added figures"
+      }
+    ]
+  },
+  "SFIX_2021q4": {
+    "status": "published",
+    "input_article_count": 33,
+    "retained_sources": 17,
+    "rejected_sources": [
+      {
+        "title": "Earnings Preview For Stitch Fix",
+        "reason": "snippet-only preview with no usable figures (Benzinga teaser)"
+      },
+      {
+        "title": "Here's How 1 Investor Decided It Was Time to Sell a Stock",
+        "reason": "Motley Fool video-transcript segment about an investor's personal decision to sell, published before the earnings report and not about the results or reaction"
+      },
+      {
+        "title": "Stitch Fix Announces First Quarter Fiscal Year 2022 Financial Results",
+        "reason": "GlobeNewswire press-release stub with no usable figures in the available text"
+      },
+      {
+        "title": "Earnings Results: Stitch Fix stock sinks on lower-than-expected forecast",
+        "reason": "duplicate of kept CNBC/Motley Fool coverage of the after-hours drop and guidance cut, no full text or added figures"
+      },
+      {
+        "title": "Stitch Fix: Q1 Earnings Insights",
+        "reason": "snippet-only API summary with no usable figures beyond what fuller kept sources provide"
+      },
+      {
+        "title": "Stitch Fix disappoints shareholders with weak guidance",
+        "reason": "duplicate of kept guidance-miss coverage with no full text or added figures"
+      },
+      {
+        "title": "Stitch Fix's (SFIX) CEO Elizabeth Spaulding on Q1 2022 Results - Earnings Call Transcript",
+        "reason": "earnings call transcript stub with no usable text"
+      },
+      {
+        "title": "Analysts Cut Stitch Fix Price Target Post Q1 Results",
+        "reason": "duplicate analyst price-target coverage already covered more fully by kept CNBC/24-7-Wall-St articles, no full text"
+      },
+      {
+        "title": "Why Stitch Fix Shares Are Tumbling Today",
+        "reason": "snippet-only API summary duplicating figures already in kept full-text sources"
+      },
+      {
+        "title": "Stocks: Stitch Fix crashes, Dave & Buster's jumps, and Roku pops on Youtube deal",
+        "reason": "video, no text"
+      },
+      {
+        "title": "Stitch Fix Stock (SFIX): Why The Price Substantially Dropped",
+        "reason": "snippet-only API summary with no usable figures (Pulse2 teaser)"
+      },
+      {
+        "title": "Stitch Fix Stock Cracks Support, Plummets",
+        "reason": "duplicate of kept Benzinga guidance-cut coverage with no full text or added figures"
+      },
+      {
+        "title": "Stitch Fix (SFIX) Shares Down 18% Despite Narrower Q1 Loss",
+        "reason": "duplicate segment-performance detail already covered by kept PYMNTS/Motley Fool sources, no full text"
+      },
+      {
+        "title": "What's Gong On With Stitch Fix Shares Today?",
+        "reason": "duplicate of kept Thursday-rebound coverage with no full text or added figures"
+      },
+      {
+        "title": "Final Trades: Stitch Fix, Apple, JPMorgan and more",
+        "reason": "video, no text"
+      },
+      {
+        "title": "7 Stocks to Buy Now for a Potential Year-End Rally",
+        "reason": "multi-stock 'stocks to buy' roundup; sampled text does not substantively discuss SFIX's earnings or reaction"
+      }
+    ]
+  },
+  "TMUS_2021q1": {
+    "status": "published",
+    "input_article_count": 18,
+    "retained_sources": 7,
+    "rejected_sources": [
+      {
+        "title": "T-Mobile (TMUS) Near Rally Highs Ahead of Earnings",
+        "reason": "snippet-only preview with no usable figures (Investopedia teaser)"
+      },
+      {
+        "title": "T-Mobile Reports Earnings on Thursday. Here's What to Expect.",
+        "reason": "snippet-only preview with no usable figures (Barrons teaser, 'analysts don't seem to know what to expect')"
+      },
+      {
+        "title": "Dividend Stock Watch List: Lanny's February 2021 Edition",
+        "reason": "multi-ticker dividend watch-list roundup; not about TMUS's earnings or reaction"
+      },
+      {
+        "title": "Happiest Customers — AGAIN! T‑Mobile & Metro Grab J.D.",
+        "reason": "unrelated J.D. Power customer-care press release, not about earnings or stock reaction"
+      },
+      {
+        "title": "T-Mobile Caps Best Year Ever in 2020 with Strong Q4 Results, Is the Only National Wireless Provider to Beat Expectations on BOTH Customer Growth and Profitability",
+        "reason": "company's own press-release stub with no figures in the available text, redundant with fuller kept results coverage"
+      },
+      {
+        "title": "T-Mobile CEO: Consumers have 'insatiable demand' for its services",
+        "reason": "video, no text"
+      },
+      {
+        "title": "T-Mobile adds another 1.7M customers and beats estimates for Q4 earnings with $20.6B in revenue",
+        "reason": "truncated snippet with no usable figures beyond what fuller kept sources provide"
+      },
+      {
+        "title": "T-Mobile Offers 'Most Bullish' 2021 Guidance",
+        "reason": "video, no text"
+      },
+      {
+        "title": "T-Mobile US, Inc. (TMUS) CEO Mike Sievert on Q4 2020 Results - Earnings Call Transcript",
+        "reason": "earnings call transcript stub with no usable text"
+      },
+      {
+        "title": "T-Mobile reports £14.83 billion of revenue in the fourth quarter",
+        "reason": "duplicate of kept Fox Business/MarketWatch merger-expense coverage, no full text or added figures"
+      },
+      {
+        "title": "T-Mobile (TMUS) Q4 Earnings, Revenues Top on Merger Synergies",
+        "reason": "duplicate 'merger synergies' framing already covered by kept sources, no full text or added figures"
+      }
+    ]
+  },
+  "SFIX_2023q3": {
+    "status": "published",
+    "input_article_count": 12,
+    "retained_sources": 8,
+    "rejected_sources": [
+      {
+        "title": "Stitch Fix Announces Fourth Quarter and Fiscal Year 2023 Financial Results",
+        "reason": "GlobeNewswire press-release stub with no figures in the available text"
+      },
+      {
+        "title": "Stitch Fix, Inc. (SFIX) Q4 2023 Earnings Call Transcript",
+        "reason": "earnings call transcript stub (only participant list), no usable content"
+      },
+      {
+        "title": "Stitch Fix reports Q4 net loss while winding down UK operations",
+        "reason": "video, no text"
+      },
+      {
+        "title": "Stitch Fix (SFIX) Loss Narrows in Q4, Revenues Decline Y/Y",
+        "reason": "duplicate 'decline in active clients' framing already covered by kept Invezz/Motley Fool sources, no full text"
+      }
+    ]
+  },
+  "METC_2021q4": {
+    "status": "published",
+    "input_article_count": 4,
+    "retained_sources": 3,
+    "rejected_sources": [
+      {
+        "title": "Ramaco Resources' (METC) CEO Randy Atkins on Q3 2021 Results - Earnings Call Transcript",
+        "reason": "earnings call transcript stub (only participant/header text), no usable content"
+      }
+    ]
+  },
+  "PCTY_2022q4": {
+    "status": "published",
+    "input_article_count": 4,
+    "retained_sources": 2,
+    "rejected_sources": [
+      {
+        "title": "Paylocity Announces First Quarter Fiscal Year 2023 Financial Results",
+        "reason": "GlobeNewswire press-release stub with no figures in the available text"
+      },
+      {
+        "title": "Paylocity Holding Corporation (PCTY) Q1 2023 Earnings Call Transcript",
+        "reason": "earnings call transcript stub (only participant/header text), no usable content"
+      }
+    ]
+  },
+  "BA_2022q4": {
+    "status": "published",
+    "input_article_count": 49,
+    "retained_sources": 18,
+    "rejected_sources": [
+      {
+        "title": "EXCLUSIVE Boeing shores up Defense unit leadership after delays",
+        "reason": "pre-earnings personnel news not tied to the earnings reaction"
+      },
+      {
+        "title": "Why Ford, Boeing, and Carnival Stocks Are Rocking",
+        "reason": "pre-earnings rally driven by unrelated Fed-rate speculation and a rival's earnings, not Boeing's own report"
+      },
+      {
+        "title": "Boeing takes $2.8 bln hit in defense business, keeps cash flow goal",
+        "reason": "snippet-only, duplicate of fuller Fox Business/CNBC coverage of the same facts"
+      },
+      {
+        "title": "Boeing Reports a Huge Loss. But Cash Flow Is More Important.",
+        "reason": "snippet-only; superseded duplicate of the same Barron's article republished later in the day"
+      },
+      {
+        "title": "Boeing Reports $3.3 Billion Loss",
+        "reason": "paywalled snippet-only teaser, duplicate of fuller coverage"
+      },
+      {
+        "title": "Alaska Air to buy another 52 Boeing 737 MAX jets, the airline's largest ever commitment for future aircraft",
+        "reason": "snippet-only duplicate of the Alaska Airlines order already covered by the PRNewswire release"
+      },
+      {
+        "title": "Alaska Airlines Orders 52 Boeing 737 MAX Jets to Further Modernize Fleet",
+        "reason": "near-duplicate press release of the same Alaska Airlines order"
+      },
+      {
+        "title": "Boeing reports Q3 loss on problems in Air Force One, tanker programs",
+        "reason": "Video, no article text"
+      },
+      {
+        "title": "Boeing's cash flow is on the right trajectory, says Hightower's Stephanie Link",
+        "reason": "Video, no article text"
+      },
+      {
+        "title": "Boeing reports $3.3 bn loss due to rising defense program costs",
+        "reason": "snippet-only, duplicate of fuller coverage with no distinct figures"
+      },
+      {
+        "title": "Boeing CEO Dave Calhoun: We will not take same investor risk with China as before",
+        "reason": "Video, no article text"
+      },
+      {
+        "title": "Boeing CEO says disappointing earnings due to ‘challenging environment'",
+        "reason": "Video, no article text"
+      },
+      {
+        "title": "Boeing says its loss widened sharply in Q3: should you sell?",
+        "reason": "snippet-only, duplicate of fuller coverage, opinion teaser"
+      },
+      {
+        "title": "Trade Losses Widen, Boeing (BA) Reports Challenging Q3",
+        "reason": "snippet-only, duplicate of EPS/loss figures already covered"
+      },
+      {
+        "title": "Boeing's Cash Flow Is Better but News About Production Is Hitting the Stock",
+        "reason": "snippet-only, duplicate of the same Barron's article's free-cash-flow figure already covered elsewhere"
+      },
+      {
+        "title": "Boeing's 737 MAX Is Selling, but Not Flying Off the Shelves",
+        "reason": "paywalled snippet-only teaser, tangential to the earnings reaction"
+      },
+      {
+        "title": "Boeing Shocks With Poor Q3 Earnings",
+        "reason": "snippet-only, duplicate of the earnings-miss theme already covered"
+      },
+      {
+        "title": "Boeing (BA) Q3 Earnings Miss Estimates, Revenues Rise Y/Y",
+        "reason": "snippet-only, duplicate of figures already covered"
+      },
+      {
+        "title": "The Boeing Company (BA) Q3 2022 Earnings Call Transcript",
+        "reason": "no usable text beyond a speaker list"
+      },
+      {
+        "title": "Boeing losses mount on troubled Air Force One program",
+        "reason": "snippet-only, superseded by fuller Business Insider coverage of the same $766 million charge"
+      },
+      {
+        "title": "Boeing Stock Running into Bear Signal Amid Poor Results",
+        "reason": "snippet-only, duplicate intraday price point already covered"
+      },
+      {
+        "title": "Seeing no China progress, Boeing eyes other prospective MAX buyers",
+        "reason": "snippet-only and not tied to the earnings reaction (China delivery/sales strategy)"
+      },
+      {
+        "title": "Three stock lunch : BA, HOG & KWEB",
+        "reason": "Video, multi-ticker roundup"
+      },
+      {
+        "title": "Boeing stock nosedives amid earnings miss",
+        "reason": "Video, no article text"
+      },
+      {
+        "title": "Raytheon Technologies a safer aerospace bet than choppy Boeing, says BofA's Ron Epstein",
+        "reason": "Video, multi-ticker comparison"
+      },
+      {
+        "title": "International Airlines Group (IAG) Shareholders Approve Boeing 737 Order",
+        "reason": "routine shareholder-approval news for a prior order, not tied to the earnings-day reaction"
+      },
+      {
+        "title": "BA parent IAG approves purchase of short-haul Boeing 737 Max aircraft",
+        "reason": "duplicate of the IAG order-approval news, not tied to the earnings reaction"
+      },
+      {
+        "title": "Airbus to Push Ahead With Production Increases as Boeing Lags",
+        "reason": "snippet-only and competitor-focused, not about Boeing's earnings reaction"
+      },
+      {
+        "title": "Final Trades: Boeing, Amazon, Regeneron & more",
+        "reason": "Video, multi-ticker roundup"
+      },
+      {
+        "title": "Boeing vs. Airbus: Which Stock Is the Better Value?",
+        "reason": "general valuation comparison piece, not tied to the specific earnings-day reaction"
+      },
+      {
+        "title": "China Southern cancels planned return of Boeing 737 MAX flights",
+        "reason": "unrelated China regulatory/airline news, not tied to the earnings reaction"
+      }
+    ]
+  },
+  "JNJ_2023q4": {
+    "status": "published",
+    "input_article_count": 34,
+    "retained_sources": 15,
+    "rejected_sources": [
+      {
+        "title": "Johnson & Johnson: A Conservative High-Yield Dividend Aristocrat Buy",
+        "reason": "pre-earnings generic dividend-stock pitch, not an earnings preview establishing expectations"
+      },
+      {
+        "title": "Johnson & Johnson beats on earnings and hikes outlook as medtech, pharmaceutical sales surge",
+        "reason": "Video, no article text"
+      },
+      {
+        "title": "Johnson & Johnson CFO Joseph Wolk on Q3 results: Very well-positioned into 2024 and beyond",
+        "reason": "Video, no article text"
+      },
+      {
+        "title": "Dividend Income Summary: Lanny's September 2023 Summary",
+        "reason": "personal-finance roundup mentioning JNJ only in a 25-ticker dividend list"
+      },
+      {
+        "title": "Johnson & Johnson raises guidance, Q3 results top estimates",
+        "reason": "Video, no article text"
+      },
+      {
+        "title": "Retail Sales Hotter at +0.7%; JNJ, BAC, GS All Beat in Q3",
+        "reason": "macro roundup mentioning JNJ only in passing alongside BAC and GS"
+      },
+      {
+        "title": "J&J Beats Profit Estimates on Pharmaceutical, Medtech Sales as COVID-19 Shot Revenue Slows",
+        "reason": "snippet-only, duplicate of figures already covered in fuller sources"
+      },
+      {
+        "title": "Johnson & Johnson (JNJ) Q3 2023 Earnings Call Transcript",
+        "reason": "no usable text beyond a speaker list"
+      },
+      {
+        "title": "J&J (JNJ) Beats Q3 Earnings & Sales Estimates Post Spin-Off",
+        "reason": "snippet-only, duplicate of the beat-and-raise figures already covered"
+      },
+      {
+        "title": "3-Stock Lunch: JNJ, GS & DLTR",
+        "reason": "Video, multi-ticker roundup"
+      },
+      {
+        "title": "Johnson & Johnson has one of the best pharma portfolios in the industry, says Jim Cramer",
+        "reason": "Video, no article text"
+      },
+      {
+        "title": "Dividend Income Update September 2023",
+        "reason": "personal-finance roundup mentioning JNJ only in a 25-ticker dividend list"
+      },
+      {
+        "title": "JNJ Beats Q3 Earnings Estimates, Raises View: ETFs in Focus",
+        "reason": "snippet-only ETF-roundup angle, not substantive JNJ analysis"
+      },
+      {
+        "title": "7 Dividend Aristocrats That Are Built to Last",
+        "reason": "listicle roundup covering 7 tickers; JNJ discussion is generic dividend-history commentary, not earnings analysis"
+      },
+      {
+        "title": "Johnson & Johnson Announces Quarterly Dividend for Fourth Quarter 2023",
+        "reason": "routine quarterly dividend declaration, not tied to the earnings reaction"
+      },
+      {
+        "title": "7 Healthcare Stocks That Can Cure a Lackluster Portfolio",
+        "reason": "listicle roundup covering 7 tickers, JNJ mentioned only briefly within the list"
+      },
+      {
+        "title": "The 7 Best Forever Stocks To Buy Now: October 2023",
+        "reason": "listicle roundup covering 8 tickers, JNJ mentioned only briefly within the list"
+      },
+      {
+        "title": "Medical device makers see limited hit from weight-loss drugs",
+        "reason": "snippet-only industry roundup tagging ABT, ISRG and JNJ together, not JNJ-specific earnings analysis"
+      },
+      {
+        "title": "Buffett's 6 Dividend Buys For October",
+        "reason": "listicle roundup covering 17 tickers, JNJ mentioned only in a table"
+      }
+    ]
+  },
+  "TMUS_2022q3": {
+    "status": "published",
+    "input_article_count": 18,
+    "retained_sources": 10,
+    "rejected_sources": [
+      {
+        "title": "Shareholder Alert: Grabar Law Office Investigates Potential Claims Against Officers and Directors of T-Mobile US, Inc. (TMUS) After Data Breach Settlement Reached Valued at Over $500 Million",
+        "reason": "plaintiff-attorney advertisement soliciting shareholders, not news analyzing the earnings reaction"
+      },
+      {
+        "title": "T-Mobile 5G Rakes in More Top Honors in Two New Reports",
+        "reason": "routine network-ranking PR, not tied to the earnings reaction"
+      },
+      {
+        "title": "T-Mobile CEO Mike Sievert: We delivered a record amount of new accounts in second-quarter",
+        "reason": "Video, no article text"
+      },
+      {
+        "title": "T-Mobile US, Inc.'s (TMUS) CEO Mike Sievert on Q2 2022 Results - Earnings Call Transcript",
+        "reason": "no usable text beyond a speaker list"
+      },
+      {
+        "title": "T-Mobile (TMUS) Beats Q2 Earnings Estimates, Raises 2022 View",
+        "reason": "snippet-only, duplicate of the beat-and-raise figures already covered in the fuller Zacks article"
+      },
+      {
+        "title": "T-Mobile Unveils New REVVL 6 5G and REVVL 6 PRO 5G Smartphones",
+        "reason": "routine budget-phone launch PR, not tied to the earnings reaction"
+      },
+      {
+        "title": "T-Mobile Takes Top Spot in Customer Care by J.D. Power for the 10th Consecutive Time",
+        "reason": "routine customer-service award PR, not tied to the earnings reaction"
+      },
+      {
+        "title": "SHAREHOLDER ALERT: Grabar Law Office Investigates Potential Claims Against Officers and Directors of T-Mobile US, Inc. (TMUS)",
+        "reason": "plaintiff-attorney advertisement soliciting shareholders, not news analyzing the earnings reaction"
+      }
+    ]
+  },
+  "FTNT_2022q4": {
+    "status": "published",
+    "input_article_count": 11,
+    "retained_sources": 5,
+    "rejected_sources": [
+      {
+        "title": "Top 5 Stocks With Solid Earnings Beat Potential",
+        "reason": "pre-earnings listicle covering 5 tickers, no FTNT-specific detail or expectations"
+      },
+      {
+        "title": "Fortinet's Latest Next-Gen Firewall Helps Customers Achieve Sustainability Goals by Consuming 80% Less Power Than Rivals",
+        "reason": "routine product-marketing PR, not tied to the earnings reaction"
+      },
+      {
+        "title": "Fortinet, Inc. (FTNT) Q3 2022 Earnings Call Transcript",
+        "reason": "no usable text beyond a speaker list"
+      },
+      {
+        "title": "Fortinet's (FTNT) Q3 Earnings and Revenues Beat Estimates",
+        "reason": "snippet-only, duplicate of the beat figures already covered in fuller sources"
+      },
+      {
+        "title": "Security-software stocks are suffering from this one forecast",
+        "reason": "snippet-only sector roundup covering 7 tickers, no FTNT-specific detail beyond what fuller sources cover"
+      },
+      {
+        "title": "The cloudburst is upon us: Cloud-software stocks suffering worst declines on record",
+        "reason": "sector-wide roundup covering 14 tickers, FTNT mentioned only in a list"
+      }
+    ]
+  },
+  "MGNI_2021q1": {
+    "status": "published",
+    "input_article_count": 5,
+    "retained_sources": 4,
+    "rejected_sources": [
+      {
+        "title": "Magnite's (MGNI) CEO Michael Barrett on Q4 2020 Results - Earnings Call Transcript",
+        "reason": "no usable text beyond a speaker/title line"
+      }
+    ]
+  },
+  "PH_2023q1": {
+    "status": "published",
+    "input_article_count": 4,
+    "retained_sources": 3,
+    "rejected_sources": [
+      {
+        "title": "Parker-Hannifin Corporation (PH) Q2 2023 Earnings Call Transcript",
+        "reason": "no usable text beyond a speaker list"
+      }
+    ]
+  },
+  "METC_2022q3": {
+    "status": "published",
+    "input_article_count": 4,
+    "retained_sources": 2,
+    "rejected_sources": [
+      {
+        "title": "Ramaco Resources, Inc. announces expansion of future production with agreement to acquire Maben Coal LLC and expansion of Elk Creek coal preparation plant",
+        "reason": "Separate same-day M&A/capacity-expansion press release, not the earnings report itself; does not discuss results or the stock reaction, and its forward production-guidance language duplicates the earnings release already retained. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Ramaco Resources, Inc. (METC) CEO Randy Atkins on Q2 2022 Results - Earnings Call Transcript",
+        "reason": "Full text unavailable (publisher blocked scraping) and the API summary contains only the call-participant roster with no substantive content; boilerplate teaser, not usable. URL as given by the API, not independently re-verified via live HTTP request."
+      }
+    ]
+  },
+  "CENTA_2023q1": {
+    "status": "quarantined",
+    "input_article_count": 3,
+    "retained_sources": 0,
+    "rejected_sources": [
+      {
+        "title": "Central Garden & Pet Announces Q1 Fiscal 2023 Financial Results",
+        "reason": "Full text unavailable; API summary is only the boilerplate dateline/company-description opening with no reported figures. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Central Garden & Pet Company (CENT) Q1 2023 Earnings Call Transcript",
+        "reason": "Full text unavailable; API summary contains only the call-participant roster, no substantive content. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Central Garden (CENTA) Reports Q1 Loss, Tops Revenue Estimates",
+        "reason": "Usable text with real figures (EPS loss of $0.16 vs. -$0.18 consensus, revenue $627.66M beating estimate by 3.64% but down from $661.4M a year ago), but it is a generic automated Zacks earnings recap that never discusses the stock reaction or offers any causal/sentiment language tying the results to a price move; no other retained source exists to corroborate or supply attribution."
+      }
+    ],
+    "quarantine_reason": "Only one of three retrieved articles contained usable, non-boilerplate text, and that article (an automated Zacks earnings recap) reports raw EPS/revenue-vs-consensus figures with no causal or reaction language whatsoever. With no article anywhere in the packet explicitly or implicitly tying any factor to the stock move, none of the 11 categories could be populated without fabricating attribution, so the observation is quarantined rather than published as a reasons-free shell."
+  },
+  "TMUS_2023q1": {
+    "status": "published",
+    "input_article_count": 14,
+    "retained_sources": 8,
+    "rejected_sources": [
+      {
+        "title": "T-Mobile Delivers Industry-Leading Customer, Postpaid Service Revenue and Cash Flow Growth in 2022, Setting Up Strong 2023 Outlook",
+        "reason": "Full text unavailable; API summary is only the dateline boilerplate with no reported figures."
+      },
+      {
+        "title": "T-Mobile Delivers Mixed Earnings. Stock Wavers.",
+        "reason": "Duplicate/earlier-headline version of the same Barron's story retained under its later headline (same story ID in the URL, identical summary text)."
+      },
+      {
+        "title": "T-Mobile US, Inc. (TMUS) Q4 2022 Earnings Call Transcript",
+        "reason": "Full text unavailable; API summary contains only the call-participant roster, no substantive content."
+      },
+      {
+        "title": "T-Mobile Unleashes the Ultimate 5G Experience on the Samsung Galaxy S23 Lineup",
+        "reason": "Unrelated product-launch press release, not about the earnings report or the stock reaction."
+      },
+      {
+        "title": "T-Mobile (TMUS) Beats on Q4 Earnings Despite Lower Revenues",
+        "reason": "Full text unavailable; thin summary duplicative of figures already covered by retained Zacks and CNET articles, adds no distinct detail."
+      },
+      {
+        "title": "Wall Street Analysts Think T-Mobile (TMUS) Is a Good Investment: Is It?",
+        "reason": "Generic recurring brokerage-recommendation piece not tied to this earnings event or its reaction."
+      }
+    ]
+  },
+  "TMUS_2023q3": {
+    "status": "published",
+    "input_article_count": 16,
+    "retained_sources": 6,
+    "rejected_sources": [
+      {
+        "title": "Score Samsung's Latest Devices for Free at T-Mobile, America's 5G Network Leader",
+        "reason": "Unrelated device-promotion press release, not about earnings or the stock reaction."
+      },
+      {
+        "title": "Should You Buy T-Mobile (TMUS) Ahead of Earnings?",
+        "reason": "Generic pre-earnings sentiment piece with no specific consensus figures or analysis beyond a vague favorable Zacks rating."
+      },
+      {
+        "title": "3 Warren Buffett Stocks That Have Doubled in Value in 5 Years",
+        "reason": "Multi-ticker listicle that mentions T-Mobile only as one of three long-term Berkshire-style picks; does not discuss this quarter's earnings."
+      },
+      {
+        "title": "T-Mobile's Ambitious Action To Build a Sustainable Future",
+        "reason": "Unrelated ESG/sustainability press release, not about earnings or the stock reaction."
+      },
+      {
+        "title": "T-Mobile CEO on state of the consumer and Q2 earnings",
+        "reason": "Video type with no text, discarded per instructions."
+      },
+      {
+        "title": "T-Mobile US, Inc. (TMUS) Q2 2023 Earnings Call Transcript",
+        "reason": "Full text unavailable; API summary contains only the dateline, no substantive content."
+      },
+      {
+        "title": "T-Mobile (TMUS) Beats on Q2 Earnings Despite Lower Revenues",
+        "reason": "Full text unavailable; thin summary duplicative of figures already covered by retained Zacks and Proactive Investors articles."
+      },
+      {
+        "title": "T-Mobile Delivers Connectivity With Less Energy Emissions",
+        "reason": "Unrelated ESG/sustainability press release, not about earnings or the stock reaction."
+      },
+      {
+        "title": "5G Stocks To Watch As Cloud, Enterprise Services Emerge",
+        "reason": "Multi-ticker sector listicle naming many companies; does not discuss T-Mobile's quarter specifically."
+      },
+      {
+        "title": "T-Mobile reports mixed earnings, CEO explains 3 things that drove results",
+        "reason": "Video type with no text, discarded per instructions."
+      }
+    ]
+  },
+  "VZ_2021q1": {
+    "status": "published",
+    "input_article_count": 34,
+    "retained_sources": 13,
+    "rejected_sources": [
+      {
+        "title": "Dividend Stock Purchase: Lanny's December 2020 Summary",
+        "reason": "Multi-ticker dividend-portfolio listicle mentioning VZ only as one of several holdings; not about this earnings event."
+      },
+      {
+        "title": "Verizon Communications to report earnings January 26, 2021",
+        "reason": "Pre-announcement notice stating only the earnings date, no figures, expectations, or analysis."
+      },
+      {
+        "title": "Verizon offers new Complete Business Bundle to aide small businesses recovery",
+        "reason": "Unrelated product-bundle press release, not about earnings or the stock reaction."
+      },
+      {
+        "title": "Verizon Prepaid Unlimited plan now offers 5G Ultra Wideband and 5G Nationwide",
+        "reason": "Unrelated product-plan press release, not about earnings or the stock reaction."
+      },
+      {
+        "title": "Verizon beats Wall Street's expectation on EPS and revenue",
+        "reason": "Video type with no text, discarded per instructions."
+      },
+      {
+        "title": "Verizon breaks record as the most awarded brand for J.D. Power Wireless Network Quality",
+        "reason": "Unrelated marketing/awards press release, not about earnings or the stock reaction."
+      },
+      {
+        "title": "3 Cheap Stocks to Buy in 2021",
+        "reason": "Multi-ticker listicle mentioning VZ as one of three picks; not about this earnings event specifically."
+      },
+      {
+        "title": "Verizon (VZ) Beats Q4 Earnings Estimates, Offers Bullish View",
+        "reason": "Full text unavailable; thin, generic summary duplicative of figures already covered by a retained Zacks article and other stronger sources."
+      },
+      {
+        "title": "Verizon CEO: Small and medium businesses are showing lower activity",
+        "reason": "Video type with no text, discarded per instructions."
+      },
+      {
+        "title": "3M post and Verizon post Q4 earnings beat",
+        "reason": "Video type with no text, discarded per instructions."
+      },
+      {
+        "title": "Is Verizon Fios down? Internet outage spanning Northeastern US",
+        "reason": "Describes a same-day but separate Fios internet outage incident; no retained source ties this operational event to the earnings reaction."
+      },
+      {
+        "title": "Verizon Fios customers report outages across the East Coast",
+        "reason": "Same separate Fios outage incident as above; not tied to the earnings reaction by any source."
+      },
+      {
+        "title": "Verizon Communications Inc. (VZ) CEO Hans Vestberg on Q4 2020 Results - Earnings Call Transcript",
+        "reason": "Full text unavailable; API summary is only the title, no substantive call content."
+      },
+      {
+        "title": "Adverty and Verizon Media announce new deal to enable a huge range of brands and audiences to access Adverty's innovative ad formats within gaming",
+        "reason": "Unrelated ad-technology partnership press release, not about earnings or the stock reaction."
+      },
+      {
+        "title": "U.S. business leaders believe 5G will aid recovery from economic impact of COVID-19",
+        "reason": "Unrelated general industry-survey press release, not specific to Verizon's results or reaction."
+      },
+      {
+        "title": "Is Verizon Stock A Buy? Spectrum Auction, New 5G Revenue Sources Key To Outlook",
+        "reason": "Retrieved page content discusses a 2027 spectrum auction and 2025-era management changes, i.e. a later, unrelated Investor's Business Daily article captured under a reused/stale URL, not the January 2021 earnings event despite the title."
+      },
+      {
+        "title": "Verizon becomes a leading corporate buyer of U.S. renewable energy",
+        "reason": "Unrelated sustainability press release, not about earnings or the stock reaction."
+      },
+      {
+        "title": "Verizon's 4.3% Dividend Yield Is Safe as 2021 Gets Underway",
+        "reason": "General dividend-safety investment thesis published two days after the event; reiterates subscriber and revenue figures already covered by stronger retained sources without adding new causal explanation of the reaction."
+      },
+      {
+        "title": "7 Safe Stocks to Buy for Solid Returns in Tumultuous Times",
+        "reason": "Multi-ticker listicle mentioning VZ as one of seven picks; not about this earnings event."
+      },
+      {
+        "title": "Verizon vs T-Mobile Stock: Which Is A Better Bet Now?",
+        "reason": "General cross-company valuation-comparison piece, not about this specific earnings event or reaction."
+      },
+      {
+        "title": "Crown Castle (CCI) Signs Small-Cell Lease Agreement With Verizon",
+        "reason": "Unrelated commercial infrastructure-lease news, not about earnings or the stock reaction."
+      }
+    ]
+  },
+  "NGL_2023q1": {
+    "status": "published",
+    "input_article_count": 4,
+    "retained_sources": 2,
+    "rejected_sources": [
+      {
+        "title": "NGL Energy Partners LP Announces Third Quarter Fiscal 2023 Financial Results",
+        "reason": "URL as given by the API, not independently re-verified via live HTTP request. Captured text is only a boilerplate dateline/intro sentence with no figures or detail; full_text unavailable (null); fails STEP 1 usable-text bar."
+      },
+      {
+        "title": "NGL Energy Partners LP (NGL) Q3 2023 Earnings Call Transcript",
+        "reason": "URL as given by the API, not independently re-verified via live HTTP request. Captured text is only the call's speaker list and opening operator greeting; no substantive analysis or figures; full_text unavailable (null)."
+      }
+    ]
+  },
+  "MRVL_2022q3": {
+    "status": "published",
+    "input_article_count": 11,
+    "retained_sources": 9,
+    "rejected_sources": [
+      {
+        "title": "Marvell Technology, Inc. (MRVL) Q2 2023 Earnings Call Transcript",
+        "reason": "URL as given by the API, not independently re-verified via live HTTP request. Captured text is only the call's speaker list and operator greeting; no substantive content; full_text unavailable (null)."
+      },
+      {
+        "title": "Marvell stock dives on softer sales forecast",
+        "reason": "Video type with no transcript/text available; discarded per instructions to drop Video articles."
+      }
+    ]
+  },
+  "TMUS_2021q4": {
+    "status": "published",
+    "input_article_count": 22,
+    "retained_sources": 9,
+    "rejected_sources": [
+      {
+        "title": "Get a New Smartphone for $50 When You Shop T-Mobile at Walmart",
+        "reason": "Promotional/marketing press release unrelated to earnings or the stock's reaction."
+      },
+      {
+        "title": "Why T-Mobile (TMUS) Might Surprise This Earnings Season",
+        "reason": "URL as given by the API, not independently re-verified via live HTTP request. Captured text is a single generic sentence (Earnings ESP mention) with no figures; full_text unavailable (null)."
+      },
+      {
+        "title": "T-Mobile US's Earnings Outlook",
+        "reason": "URL as given by the API, not independently re-verified via live HTTP request. Captured text is a generic teaser with no actual data; full_text unavailable (null)."
+      },
+      {
+        "title": "CORRECTING and REPLACING T-Mobile Has Free Smartwatches for the Whole Family",
+        "reason": "Promotional/marketing press release unrelated to earnings or the stock's reaction."
+      },
+      {
+        "title": "UGE Selected by T-Mobile to Help Source Clean Energy from New York City Solar Projects",
+        "reason": "Vendor partnership announcement unrelated to the earnings event or stock reaction."
+      },
+      {
+        "title": "T-Mobile CEO Mike Sievert discusses earnings, supply chain issues",
+        "reason": "Video type with no transcript/text available; discarded per instructions to drop Video articles."
+      },
+      {
+        "title": "All 4 Major Indexes Now at Record Highs",
+        "reason": "General market roundup mentioning TMUS only in passing alongside LYFT and MDLZ; not substantive TMUS-specific earnings analysis."
+      },
+      {
+        "title": "T-Mobile US, Inc. (TMUS) CEO Michael Sievert on Q3 2021 Results - Earnings Call Transcript",
+        "reason": "URL as given by the API, not independently re-verified via live HTTP request. Captured text is only the article title with no call content; full_text unavailable (null)."
+      },
+      {
+        "title": "T-Mobile CEO: Phone promotions are a 'once in a decade opportunity to move people from 4G to 5G'",
+        "reason": "Video type with no transcript/text available; discarded per instructions to drop Video articles."
+      },
+      {
+        "title": "3 Cyclical Stocks To Watch Ahead Of The Fed's Latest Policy Update",
+        "reason": "General macro/multi-stock roundup piece, not substantive TMUS-specific earnings analysis."
+      },
+      {
+        "title": "T-Mobile Gives Customers a Mountain of Entertainment with One Year of Paramount+ on Us!",
+        "reason": "Promotional/marketing press release unrelated to earnings or the stock's reaction."
+      },
+      {
+        "title": "T-Mobile: Unstoppable Growth In The 5G Era",
+        "reason": "URL as given by the API, not independently re-verified via live HTTP request. Captured text is only the article title; full_text unavailable (null)."
+      },
+      {
+        "title": "T-Mobile vs. Verizon: How Does The Telecom War Look?",
+        "reason": "General long-term competitive positioning comparison, not tied to the specific earnings event or its stock reaction."
+      }
+    ]
+  },
+  "MCD_2022q2": {
+    "status": "published",
+    "input_article_count": 33,
+    "retained_sources": 20,
+    "rejected_sources": [
+      {
+        "title": "What to Know Ahead of MCD's Quarterly Earnings Report",
+        "reason": "URL as given by the API, not independently re-verified via live HTTP request. Thin preview with no detail; full_text unavailable (null)."
+      },
+      {
+        "title": "McDonald's foot traffic up as consumers grapple with inflation",
+        "reason": "Video type with no transcript/text available; discarded per instructions to drop Video articles."
+      },
+      {
+        "title": "The Impact Of McDonald's Pulling Out Of Russia",
+        "reason": "Video type with no transcript/text available; discarded per instructions to drop Video articles."
+      },
+      {
+        "title": "What To Expect From McDonald's Stock After Q1?",
+        "reason": "URL as given by the API, not independently re-verified via live HTTP request. Thin preview restating the upcoming report date with no detail; full_text unavailable (null)."
+      },
+      {
+        "title": "McDonald's Stock Rises on Strong International Sales",
+        "reason": "Duplicate of the 07:33 Barron's article of the same date (identical api_summary, same story republished under a different URL slug)."
+      },
+      {
+        "title": "Beyond Meat (BYND), McDonald's News Sends Vegan Penny Stocks For A Loop",
+        "reason": "Primarily a Beyond Meat/penny-stock sympathy-trading story; mentions McDonald's only in passing, not substantive analysis of MCD's own earnings reaction."
+      },
+      {
+        "title": "We're back to looking at McDonald's as an inflation-protected staple, says Evercore's Palmer",
+        "reason": "Video type with no transcript/text available; discarded per instructions to drop Video articles."
+      },
+      {
+        "title": "McDonald's Corporation (MCD) CEO Chris Kempczinski on Q1 2022 Results - Earnings Call Transcript",
+        "reason": "URL as given by the API, not independently re-verified via live HTTP request. Captured text is only the call's speaker list and operator greeting; no substantive content; full_text unavailable (null)."
+      },
+      {
+        "title": "Q1 GDP Negative; Q1 Earnings Beats from CAT, LLY, MCD",
+        "reason": "General macro/multi-company roundup mentioning MCD only in passing alongside CAT and LLY."
+      },
+      {
+        "title": "McDonald's earnings beat Wall Street estimates as digital orders grow",
+        "reason": "Video type with no transcript/text available; discarded per instructions to drop Video articles."
+      },
+      {
+        "title": "McDonald's has made the McPlant available across the U.K. and Ireland but no word yet on the U.S.",
+        "reason": "About McPlant product rollout and its effect on Beyond Meat shares, not substantively about MCD's own earnings reaction."
+      },
+      {
+        "title": "McDonald's Left With Millions Of Dollars Of Russian Food It Can't Use. Here's Why.",
+        "reason": "Near-duplicate of the CNN Business article's coverage of the Russia/Ukraine food-waste story; explicitly cites CNN as its source and adds no independent figures."
+      },
+      {
+        "title": "3 Surefire Investments You'll Thank Yourself for Later",
+        "reason": "Generic long-term investment pitch referencing MCD's business model and dividend history; not tied to the earnings event or its stock reaction."
+      }
+    ]
+  },
+  "METC_2023q3": {
+    "status": "published",
+    "input_article_count": 3,
+    "retained_sources": 2,
+    "rejected_sources": [
+      {
+        "title": "Ramaco Resources Announces Substantial Expansion of Brook Mine Rare Earth Elements Exploration Target, Board Approval for Initial Mining in Q4 2023, and new Carbon Product Technologies",
+        "reason": "separate news event (rare earth mine exploration update) published before earnings, unrelated to the Q2 earnings report or its reaction"
+      }
+    ]
+  },
+  "FTNT_2023q2": {
+    "status": "published",
+    "input_article_count": 6,
+    "retained_sources": 4,
+    "rejected_sources": [
+      {
+        "title": "The 3 Best Tech Stocks to Buy in May",
+        "reason": "generic multi-stock listicle referencing Fortinet's prior (February) earnings report, not the Q1 2023 report covered by this observation"
+      },
+      {
+        "title": "Fortinet, Inc. (FTNT) Q1 2023 Earnings Call Transcript",
+        "reason": "snippet-only; full text unavailable and the retrieved portion is just the call's participant list with no earnings analysis or figures"
+      }
+    ]
+  },
+  "MGNI_2023q1": {
+    "status": "published",
+    "input_article_count": 6,
+    "retained_sources": 4,
+    "rejected_sources": [
+      {
+        "title": "Magnite, Inc. (MGNI) Q4 2022 Earnings Call Transcript",
+        "reason": "snippet-only; full text unavailable and the retrieved portion is just the call's participant list with no earnings analysis or figures"
+      },
+      {
+        "title": "7 Super Speculative Stocks That Could Make You Very Rich",
+        "reason": "general multi-stock roundup/listicle; its Magnite paragraph is a generic investment thesis that does not discuss the Q4 earnings report or reaction"
+      }
+    ]
+  },
+  "MRVL_2021q4": {
+    "status": "published",
+    "input_article_count": 25,
+    "retained_sources": 12,
+    "rejected_sources": [
+      {
+        "title": "Marvell Technology Group's Earnings Outlook",
+        "reason": "boilerplate preview teaser with no substantive figures or analysis"
+      },
+      {
+        "title": "Marvell Unveils Brightlane Automotive Ethernet Innovations to Accelerate the Software-Defined Vehicle Era",
+        "reason": "routine product-announcement press release unrelated to the earnings reaction"
+      },
+      {
+        "title": "Marvell Launches Industry's First 802.1AE MACsec Integrated Dual 1000BT1 and 100BT1 PHY Automotive Solutions",
+        "reason": "routine product-announcement press release unrelated to the earnings reaction"
+      },
+      {
+        "title": "Marvell Technology: Q3 Earnings Insights",
+        "reason": "boilerplate teaser with no substantive figures or analysis"
+      },
+      {
+        "title": "Investing Club: Earnings show this chip stock we own is a data center, 5G and automotive powerhouse",
+        "reason": "boilerplate teaser ('We break down the earnings results') with no figures or analysis in the retrieved text"
+      },
+      {
+        "title": "Marvell Technology, Inc. (MRVL) CEO Matt Murphy on Q3 2022 Results - Earnings Call Transcript",
+        "reason": "snippet-only; no retrievable text beyond the title"
+      },
+      {
+        "title": "A Deep Dive Into The Semiconductor Industry",
+        "reason": "broad 24-ticker industry roundup, not substantively about Marvell's earnings reaction"
+      },
+      {
+        "title": "Marvell Technology (MRVL) Stock: Why The Price Is Surging Today",
+        "reason": "boilerplate teaser that does not state the reason in the retrieved summary"
+      },
+      {
+        "title": "MRVL Stock Alert: 14 Reasons Why Marvell Technology Investors Are Feeling Marvelous Today",
+        "reason": "clickbait headline; retrieved text contains no actual reasons/analysis, only unrelated links"
+      },
+      {
+        "title": "Marvell Technology breaks away from the pack, joining the list of must-own semiconductor stocks",
+        "reason": "thematic semiconductor-sector piece, not specific to the earnings reaction"
+      },
+      {
+        "title": "Marvell Technology sees a growth opportunity in automobiles, CEO says",
+        "reason": "video, no usable article text"
+      },
+      {
+        "title": "4 Top Semiconductor Stocks To Watch In December 2021",
+        "reason": "multi-ticker listicle, not substantively about Marvell's earnings reaction"
+      },
+      {
+        "title": "Marvell Technology Stock (MRVL): $108 Price Target From Craig-Hallum",
+        "reason": "boilerplate teaser with no figures or reasoning in the retrieved summary"
+      }
+    ]
+  },
+  "UBER_2021q4": {
+    "status": "published",
+    "input_article_count": 35,
+    "retained_sources": 14,
+    "rejected_sources": [
+      {
+        "title": "Uber drivers in London get incentive to switch to a Tesla electric vehicle",
+        "reason": "routine partnership news unrelated to the earnings reaction"
+      },
+      {
+        "title": "Olo, Uber Expand Restaurant Delivery Fulfillment to Include Alcohol",
+        "reason": "routine partnership announcement unrelated to the earnings reaction"
+      },
+      {
+        "title": "Understanding Lyft's Q3 earnings ahead of Uber report",
+        "reason": "video, no usable article text"
+      },
+      {
+        "title": "Uber Earnings: What to Look For",
+        "reason": "boilerplate preview with no figures in the retrieved summary"
+      },
+      {
+        "title": "Tesla To Make Its EVs Available To Uber's London Drivers: Report",
+        "reason": "routine partnership news unrelated to the earnings reaction"
+      },
+      {
+        "title": "Lyft's Earnings Beat Gives Uber Stock a Boost",
+        "reason": "primarily about Lyft; no Uber-specific figures in the retrieved summary"
+      },
+      {
+        "title": "Uber Technologies (UBER) Stock: Why The Price Jumped Today",
+        "reason": "boilerplate teaser that does not state the reason in the retrieved summary"
+      },
+      {
+        "title": "Uber misses on earnings, beats on revenue in Q3",
+        "reason": "video, no usable article text"
+      },
+      {
+        "title": "Raymond James senior analyst on Uber's call: Want to hear about driver supply and Q4 mobility trends",
+        "reason": "video, no usable article text"
+      },
+      {
+        "title": "Regular Trading Strong Again; Some Weakness in Late Q3 Reports",
+        "reason": "multi-ticker roundup primarily about Peloton; no Uber-specific content in the retrieved summary"
+      },
+      {
+        "title": "Uber Technologies, Inc. (UBER) CEO Dara Khosrowshahi on Q3 2021 Results - Earnings Call Transcript",
+        "reason": "snippet-only; no retrievable text beyond the title"
+      },
+      {
+        "title": "Uber CEO on earnings: We expect profitability to increase in Q4",
+        "reason": "video, no usable article text"
+      },
+      {
+        "title": "Airbnb, Uber, And Square Draw Attention To Peer-To-Peer Platforms",
+        "reason": "generic thematic roundup, no Uber-specific earnings content in the retrieved summary"
+      },
+      {
+        "title": "Cramer reacts to Uber earnings: People still want at-home deliveries",
+        "reason": "video, no usable article text"
+      },
+      {
+        "title": "The Supply Chain Is Broken, but There Are Huge Opportunities in Fixing It",
+        "reason": "retrieved text is promotional filler unrelated to Uber's earnings"
+      },
+      {
+        "title": "Uber posts first profitable quarter, Airbnb posts highest revenue in history",
+        "reason": "video, no usable article text"
+      },
+      {
+        "title": "Stocks Heading Into Holiday Season With Record Highs",
+        "reason": "broad multi-ticker market roundup, no Uber-specific earnings content in the retrieved summary"
+      },
+      {
+        "title": "Here's Some Advice to Invest in America's Great Reopening: Don't!",
+        "reason": "thematic multi-company roundup; Uber mentioned only in passing"
+      },
+      {
+        "title": "Uber exploring dispatching yellow cabs",
+        "reason": "separate news event (taxi-dispatch exploration) days after earnings, unrelated to the earnings reaction"
+      },
+      {
+        "title": "The New York Post: Uber exploring dispatching New York yellow cabs",
+        "reason": "separate news event (taxi-dispatch exploration), unrelated to the earnings reaction"
+      },
+      {
+        "title": "Uber is looking at dispatching New York's yellow cabs from its app amid a driver shortage",
+        "reason": "separate news event (taxi-dispatch exploration); earnings recap is incidental and duplicative of retained sources"
+      }
+    ]
+  },
+  "BA_2023q3": {
+    "status": "published",
+    "input_article_count": 45,
+    "retained_sources": 22,
+    "rejected_sources": [
+      {
+        "title": "Troubles Mount for United Launch Alliance, While SpaceX Sets Records",
+        "reason": "about a ULA/SpaceX rocket-launch story; Boeing mentioned only as ULA's part-owner, unrelated to the earnings reaction"
+      },
+      {
+        "title": "2 Stocks Down 33% and 52% to Buy Right Now",
+        "reason": "pre-earnings long-term thesis listicle, not a quantitative earnings preview tied to the reaction"
+      },
+      {
+        "title": "U.S. Airlines to Support NASA-Boeing Sustainable Flight Demonstrator Project",
+        "reason": "routine partnership press release unrelated to the earnings reaction"
+      },
+      {
+        "title": "Boeing Forecasts Demand for 2.3 Million New Commercial Pilots, Technicians and Cabin Crew in Next 20 Years",
+        "reason": "routine industry-outlook press release unrelated to the earnings reaction"
+      },
+      {
+        "title": "3 Stocks You Better Be Buying on Each and Every Dip",
+        "reason": "multi-stock listicle with a general long-term thesis, not a quantitative earnings preview"
+      },
+      {
+        "title": "Babel Street and Boeing Intelligence & Analytics Announce Expanded Partnership to Further Enhance Think, Analyze, Connect Application with Advanced AI and Data Analytics",
+        "reason": "routine partnership press release unrelated to the earnings reaction"
+      },
+      {
+        "title": "Boeing and NASA partner with Alaska and other airlines on eco-friendly X-66A aircraft",
+        "reason": "routine partnership press release unrelated to the earnings reaction"
+      },
+      {
+        "title": "If You Can Only Buy 1 Long-Term Stock, It Better Be One of These Names",
+        "reason": "multi-stock listicle that does not substantively discuss Boeing or its earnings"
+      },
+      {
+        "title": "Boeing's quarterly results top expectations as airplane deliveries pick up pace",
+        "reason": "video, no usable article text"
+      },
+      {
+        "title": "Boeing CEO Dave Calhoun on Q2 results: A reflection of the strong demand market",
+        "reason": "video, no usable article text"
+      },
+      {
+        "title": "Boeing stock pops on Q2 earnings beat, narrowing losses",
+        "reason": "video, no usable article text"
+      },
+      {
+        "title": "US FAA tells manufacturers to disclose safety critical information after Boeing 737 MAX crashes",
+        "reason": "regulatory/safety story about past 737 MAX crashes, not tied to the Q2 earnings reaction"
+      },
+      {
+        "title": "Markets Mixed and Little Changed at Midday Ahead of Fed Decision",
+        "reason": "broad multi-ticker market roundup, no Boeing-specific earnings content in the retrieved summary"
+      },
+      {
+        "title": "Airbus Hits New Supply-Chain Hurdle in Race With Boeing",
+        "reason": "primarily about Airbus's supplier problem; not substantively about Boeing's own earnings reaction"
+      },
+      {
+        "title": "Markets Are Loving Boeing Stock After Earnings, Time To Buy?",
+        "reason": "retrieved summary is generic large-cap commentary with no earnings-specific figures or reasoning"
+      },
+      {
+        "title": "Boeing's on track for a multi-year turnaround story, says Cerity's Jim Lebenthal",
+        "reason": "video, no usable article text"
+      },
+      {
+        "title": "First delivery of Boeing 737 MAX 7 delayed to 2024 -filing",
+        "reason": "operational filing disclosure not tied by any source to the day's earnings-driven reaction"
+      },
+      {
+        "title": "Airbus and Boeing race to boost aircraft production",
+        "reason": "general industry-comparison piece, not specifically about Boeing's earnings reaction"
+      },
+      {
+        "title": "S&P 500 Gains and Losses Today: Stocks Mixed After Fed Lifts Rates",
+        "reason": "broad multi-ticker market roundup, no Boeing-specific content in the retrieved summary"
+      },
+      {
+        "title": "Dow Jones Today: Index Notches Longest Streak in 36 Years",
+        "reason": "broad multi-ticker market roundup, no Boeing-specific content in the retrieved summary"
+      },
+      {
+        "title": "Dow Jones Today: Index Rebounds on Slowing Inflation",
+        "reason": "broad multi-ticker market roundup two days after earnings, no Boeing-specific content"
+      },
+      {
+        "title": "Southwest Airlines converts some Boeing 737 MAX 7 orders to MAX 8 amid delays",
+        "reason": "separate customer/order-conversion news two days after earnings, not tied to the earnings reaction"
+      },
+      {
+        "title": "These Two Defense Titans Will Battle to Build the Nation's Next Fighter Jet",
+        "reason": "primarily about the NGAD fighter-jet competition prompted by Northrop's withdrawal; Boeing's Q2 loss is incidental background, not analysis of the earnings reaction"
+      }
+    ]
+  },
+  "MCD_2023q2": {
+    "status": "published",
+    "input_article_count": 44,
+    "retained_sources": 14,
+    "rejected_sources": [
+      {
+        "title": "Best Stock to Buy: McDonald's vs. Chipotle",
+        "reason": "listicle comparing MCD vs CMG as a stock pick, not analysis of the earnings reaction"
+      },
+      {
+        "title": "Should You Buy McDonald's (MCD) Ahead of Earnings?",
+        "reason": "pre-earnings 'ahead of earnings' piece with no usable body text (snippet only, generic ESP commentary)"
+      },
+      {
+        "title": "McDonald's Earnings Provide Opportunities For Savvy MCD Stock Options Traders",
+        "reason": "options-trading strategy piece (calendar spreads), not about earnings results or the stock's reaction"
+      },
+      {
+        "title": "McDonald's Stock Likely To Trade Lower Post Q1 Results",
+        "reason": "pre-earnings prediction with no usable body text beyond a one-sentence snippet; reasoning not retrievable"
+      },
+      {
+        "title": "3 Top Dividend Stocks For Your Late April 2023 Watchlist",
+        "reason": "general dividend-stock watchlist roundup mentioning MCD only in passing"
+      },
+      {
+        "title": "MCD Stock Has Rallied Big Over The Past Month; This Trade Will Profit From A Pullback | IBD",
+        "reason": "video article type, no usable text"
+      },
+      {
+        "title": "Three Stock Lunch: McDonald's, Medtronic and First Solar",
+        "reason": "video article type, no usable text"
+      },
+      {
+        "title": "3 High-Growth Dow Stocks with Unstoppable Momentum",
+        "reason": "general 'high-growth Dow stocks' listicle, not focused on the earnings reaction"
+      },
+      {
+        "title": "McDonalds has the best operations and execution of the restaurant stocks, says Bank of America",
+        "reason": "video article type, no usable text"
+      },
+      {
+        "title": "McDonald's beats on revenues and profits",
+        "reason": "video article type, no usable text"
+      },
+      {
+        "title": "McDonald's, PepsiCo Flex Their Pricing Power",
+        "reason": "WSJ piece with no usable body text; API summary is a generic one-line teaser with no figures"
+      },
+      {
+        "title": "Billions and Billions Earned: How McDonald's Keeps Its Edge",
+        "reason": "WSJ feature/profile piece on McDonald's competitive position, not about the earnings-day reaction"
+      },
+      {
+        "title": "Top Stocks To Invest In Right Now? 2 Consumer Stocks In Focus",
+        "reason": "general two-stock roundup (MCD, PEP) mentioning earnings only in passing"
+      },
+      {
+        "title": "McDonald's beats on Q1 earnings despite inflationary pressures",
+        "reason": "video article type, no usable text"
+      },
+      {
+        "title": "McDonald's CEO: We'll be looking at high single-digit inflation by the end of year",
+        "reason": "video article type, no usable text"
+      },
+      {
+        "title": "Case-Shiller Shrinking but Q1 Earnings Better: MCD, PEP, GE, etc.",
+        "reason": "general macro roundup (Case-Shiller index) mentioning MCD only in a list with several other tickers"
+      },
+      {
+        "title": "McDonald's (MCD) Q1 Earnings & Revenues Surpass Estimates",
+        "reason": "duplicate of other Zacks coverage with no usable body text beyond a restated headline"
+      },
+      {
+        "title": "McDonald's Corporation (MCD) Q1 2023 Earnings Call Transcript",
+        "reason": "earnings call transcript with no retrievable transcript text (snippet only)"
+      },
+      {
+        "title": "McDonald's, UPS earnings: Assessing the state of the U.S. consumer",
+        "reason": "video article type, no usable text"
+      },
+      {
+        "title": "McDonald's earnings: Q1 tops Wall Street expectations, sees strong U.S. traffic",
+        "reason": "video article type, no usable text"
+      },
+      {
+        "title": "3 Dividend Aristocrats to Buy for Consistent Income",
+        "reason": "general dividend-aristocrats listicle, not focused on the earnings reaction"
+      },
+      {
+        "title": "McDonald's will outperform peers if economy continues to fall, says KeyBanc's Eric Gonzalez",
+        "reason": "video article type, no usable text"
+      },
+      {
+        "title": "Final Trades: MO, GOOGL, MCD & AMGN",
+        "reason": "video article type, no usable text"
+      },
+      {
+        "title": "Google, Microsoft, GM, McDonald's, and more: Earnings roundup",
+        "reason": "video article type, no usable text"
+      },
+      {
+        "title": "Manhattan West Appoints Patrick McDonald as Managing Director and Financial Advisor",
+        "reason": "mismatched article: about an unrelated person named 'Patrick McDonald' joining a wealth-management firm, not the company"
+      },
+      {
+        "title": "Is McDonald's an Excellent Dividend Stock to Buy Now?",
+        "reason": "thin video-companion piece with no substantive earnings detail beyond generic dividend commentary"
+      },
+      {
+        "title": "7 Low-Risk Stocks to Buy if You Only Want to Beat Inflation",
+        "reason": "general 'low-risk stocks' listicle mentioning MCD only in passing"
+      },
+      {
+        "title": "Get Defensive with These 3 Cash Flow Producing Machines",
+        "reason": "general 'cash flow machines' listicle mentioning MCD only in passing"
+      },
+      {
+        "title": "Red-Hot McDonald's Stock Stares Down Big Week Ahead",
+        "reason": "no usable body text; API summary is a generic subscriber teaser unrelated to the earnings reaction"
+      },
+      {
+        "title": "Starbucks vs McDonald's",
+        "reason": "comparison piece (MCD vs SBUX) containing a revenue figure inconsistent with all other retained sources; not focused on this quarter's reaction"
+      }
+    ]
+  },
+  "VZ_2022q3": {
+    "status": "published",
+    "input_article_count": 37,
+    "retained_sources": 20,
+    "rejected_sources": [
+      {
+        "title": "The Top-Rated Consumer Defensive Stocks With Yield Above 3.5%",
+        "reason": "general 'consumer defensive dividend stocks' screen, not focused on the earnings reaction"
+      },
+      {
+        "title": "Verizon to report earnings July 22, 2022",
+        "reason": "press release merely announcing the earnings date, no results or reaction content"
+      },
+      {
+        "title": "Is Verizon Stock A Buy Or Sell? 5G Ramp-Up Key To Revenue Growth",
+        "reason": "no usable body text; a buy/sell framing piece about 5G ramp with no earnings-reaction detail (also a cached/stale fetch unrelated to this 2022 event)"
+      },
+      {
+        "title": "Verizon Business, VIT reach agreement for private 5G network",
+        "reason": "press release about an unrelated private-5G network deal, not about the quarterly results"
+      },
+      {
+        "title": "Verizon delivers back-to-school deals for your best year yet",
+        "reason": "promotional back-to-school marketing press release, not about the quarterly results"
+      },
+      {
+        "title": "2 Top Dividend Stocks Trading at Incredibly Cheap Valuations",
+        "reason": "general 'cheap dividend stocks' listicle mentioning Verizon only as a dividend pick"
+      },
+      {
+        "title": "Earnings Exchange looks at Snap, Verizon and American Express",
+        "reason": "video article type, no usable text"
+      },
+      {
+        "title": "2 Safe Dividend Stocks to Consider in a Recession",
+        "reason": "general 'safe dividend stocks for a recession' listicle mentioning Verizon only as a dividend pick"
+      },
+      {
+        "title": "Nearing Retirement? These Stocks Could Pay You for Life",
+        "reason": "general retirement-income stock listicle mentioning Verizon only as a dividend pick"
+      },
+      {
+        "title": "7 Seriously Undervalued Retirement Stocks to Buy Now",
+        "reason": "general 'undervalued retirement stocks' listicle mentioning Verizon only in passing"
+      },
+      {
+        "title": "Verizon stock opens lower after Q2 earnings miss",
+        "reason": "video article type, no usable text"
+      },
+      {
+        "title": "3 Tech Stocks To Watch That Reported Earnings This Week",
+        "reason": "general multi-company tech-earnings roundup (SNAP/TWTR/VZ) with no Verizon-specific detail beyond a title mention"
+      },
+      {
+        "title": "Verizon Communications Inc. (VZ) CEO Hans Vestberg on Q2 2022 Results - Earnings Call Transcript",
+        "reason": "earnings call transcript with no retrievable transcript text (snippet only, participant list only)"
+      },
+      {
+        "title": "Verizon shares fall as the stock heads for biggest loss since 2008",
+        "reason": "video article type, no usable text"
+      },
+      {
+        "title": "6 Stocks You Can't Ignore If You Want to Make Money This Year",
+        "reason": "general 'stocks you can't ignore' listicle with only generic valuation commentary on Verizon, no earnings-reaction detail"
+      },
+      {
+        "title": "Verizon may struggle for a while, but will recover, says Bahnsen Group's David Bahnsen",
+        "reason": "video article type, no usable text"
+      },
+      {
+        "title": "6 Growth Stocks That Are Bargains After Taking a Tumble",
+        "reason": "general 'growth stocks that are bargains' listicle with only generic valuation commentary on Verizon, no earnings-reaction detail"
+      }
+    ]
+  },
+  "MRVL_2023q3": {
+    "status": "published",
+    "input_article_count": 23,
+    "retained_sources": 16,
+    "rejected_sources": [
+      {
+        "title": "Marvell Delivers Industry's First 800 Gbps CDSP for Pluggable Modules, Advancing Optical Transport Networks and Data Center Interconnects",
+        "reason": "product-launch press release (800G optical module) not tied by any article to the earnings reaction"
+      },
+      {
+        "title": "Marvell Launches Industry's First 800G ZR/ZR+ Modules for Data Center Interconnects",
+        "reason": "product-launch press release (800G ZR/ZR+ modules) not tied by any article to the earnings reaction"
+      },
+      {
+        "title": "Here are 13 stocks Jim Cramer is watching, including a big retailer earnings winner",
+        "reason": "general 'stocks Jim Cramer is watching' roundup with only a passing Marvell mention, no earnings-reaction detail"
+      },
+      {
+        "title": "Marvell Technology, Ulta, Gap, Nordstrom: After-hours movers | August 24, 2023",
+        "reason": "video article type, no usable text"
+      },
+      {
+        "title": "Marvell Technology, Inc. (MRVL) Q2 2024 Earnings Call Transcript",
+        "reason": "earnings call transcript with no retrievable transcript text (snippet only, participant list only)"
+      },
+      {
+        "title": "Hawaiian Electric stock falls on dividend halt, lawsuit, while Marvell shares also slide, along with other moving stocks",
+        "reason": "multi-company roundup (Hawaiian Electric, Affirm, etc.) whose retrievable text is about Affirm, not Marvell; no Marvell-specific reaction detail"
+      },
+      {
+        "title": "Marvell CEO Matt Murphy talks earnings and AI growth",
+        "reason": "video article type, no usable text"
+      }
+    ]
+  },
+  "FTNT_2022q2": {
+    "status": "published",
+    "input_article_count": 9,
+    "retained_sources": 7,
+    "rejected_sources": [
+      {
+        "title": "5 Cybersecurity Stocks For Your May 2022 Watchlist",
+        "reason": "general cybersecurity-sector watchlist listicle, not focused on Fortinet's earnings reaction"
+      },
+      {
+        "title": "Fortinet, Inc. (FTNT) CEO Ken Xie on Q1 2022 Results - Earning Call Transcript",
+        "reason": "earnings call transcript with no retrievable transcript text (snippet only, participant list only)"
+      }
+    ]
+  },
+  "MGNI_2022q3": {
+    "status": "quarantined",
+    "input_article_count": 4,
+    "retained_sources": 0,
+    "rejected_sources": [
+      {
+        "title": "Why Magnite Stock Lost 14% in July",
+        "reason": "pre-earnings piece about July's stock decline, published before this Aug 9 report; no post-earnings reaction content"
+      },
+      {
+        "title": "Smart Money Believes Magnite Stock Can 10X in 4 Years. Can It?",
+        "reason": "pre-earnings bull-thesis piece published hours before the report; no post-earnings results or reaction content"
+      },
+      {
+        "title": "Magnite Reports Second Quarter 2022 Results",
+        "reason": "official earnings release with no retrievable body text beyond a one-line header ('Total Revenue Grows 20% Year-Over-Year'); no figures, guidance or reaction detail available"
+      },
+      {
+        "title": "Magnite, Inc's (MGNI) CEO Michael Barrett on Q2 2022 Results - Earnings Call Transcript",
+        "reason": "earnings call transcript with no retrievable transcript text (snippet only, participant list only)"
+      }
+    ],
+    "quarantine_reason": "No retained source reports the market's reaction, management's guidance/commentary, or detailed results for this specific Aug 9, 2022 report. All four supplied articles are either pre-earnings pieces published before the report, or the release/transcript with no usable body text beyond a one-line header. There is no post-earnings results or reaction coverage in the evidence packet, so a real why-it-moved write-up cannot be supported without fabricating detail."
+  },
+  "PCTY_2022q2": {
+    "status": "quarantined",
+    "input_article_count": 3,
+    "retained_sources": 0,
+    "rejected_sources": [
+      {
+        "title": "Paylocity Announces Third Quarter Fiscal Year 2022 Financial Results",
+        "reason": "official earnings release with no retrievable body text beyond a one-line header; no figures, guidance or reaction detail available"
+      },
+      {
+        "title": "Paylocity (PCTY) Surpasses Q3 Earnings and Revenue Estimates",
+        "reason": "reports bare EPS/revenue-versus-consensus figures only, with no forward guidance, segment detail, management commentary, or any mention of the stock's reaction"
+      },
+      {
+        "title": "Paylocity Holding Corporation (PCTY) CEO Steve Beauchamp on Q3 2022 Results - Earnings Call Transcript",
+        "reason": "earnings call transcript with no retrievable transcript text (snippet only, participant list only)"
+      }
+    ],
+    "quarantine_reason": "Only one of the three supplied articles has usable body text (a Zacks results summary with bare EPS/revenue-vs-consensus figures), and no article in the packet reports the stock's reaction, forward guidance, segment detail, or any qualitative explanation of the quarter. This is too thin to support a genuine why-it-moved analysis without padding or fabricating reasons for the move."
+  },
+  "JNJ_2023q2": {
+    "status": "published",
+    "input_article_count": 40,
+    "retained_sources": 21,
+    "rejected_sources": [
+      {
+        "title": "The Fed Expects a Recession: 2 Warren Buffett Stocks to Buy Now and 1 to Avoid Like the Plague",
+        "reason": "General multi-stock recession/dividend-pick listicle; JNJ mentioned only as one of several picks, no earnings or reaction detail."
+      },
+      {
+        "title": "2 Best Biotech Stocks to Buy for the Long Haul",
+        "reason": "Listicle; general long-term investment thesis, not tied to Q1 earnings or the stock's reaction."
+      },
+      {
+        "title": "How To Allocate $10,000 Among My Top 20 Dividend Stocks Of April 2023",
+        "reason": "Multi-stock portfolio-allocation roundup (20 tickers); JNJ mentioned only in a list."
+      },
+      {
+        "title": "The Fed Thinks a Recession Is More Likely: Here Are 3 Great Stocks to Buy Now",
+        "reason": "Multi-stock recession-pick listicle; JNJ mentioned only as one of three picks, no earnings detail."
+      },
+      {
+        "title": "3 Dividend Stocks to Sell Before They Get Sued by Customers",
+        "reason": "Multi-stock litigation-risk listicle; discusses talc litigation in general terms but not the Q1 earnings reaction."
+      },
+      {
+        "title": "These 10 Crummy Stocks Already Cost Investors $300 Billion",
+        "reason": "Multi-stock roundup; JNJ named only in a list of laggards, no earnings-reaction detail, and full text is truncated/paywalled boilerplate."
+      },
+      {
+        "title": "Great scientific innovation continues to produce great financial results for our company: J&J CFO",
+        "reason": "Video format with no article text; discarded per source-type rule."
+      },
+      {
+        "title": "Johnson & Johnson (JNJ) Q1 2023 Earnings Call Transcript",
+        "reason": "Earnings call transcript with only a boilerplate one-line summary and no retrievable article body; snippet only."
+      },
+      {
+        "title": "Housing Data Muted but Decent; JNJ and BAC Beat on Q1 Earnings",
+        "reason": "Multi-company roundup; summary is a generic teaser with no JNJ-specific detail beyond the headline."
+      },
+      {
+        "title": "Johnson & Johnson's Dividend: 61 And Counting",
+        "reason": "Boilerplate teaser summary with no retrievable article body; snippet only."
+      },
+      {
+        "title": "Johnson & Johnson stock declines despite Q1 earnings beat",
+        "reason": "Video format with no article text; discarded per source-type rule."
+      },
+      {
+        "title": "Three stocks making headlines today: JNJ, CTLT, LMT",
+        "reason": "Video format with no article text; discarded per source-type rule."
+      },
+      {
+        "title": "Johnson & Johnson plans to spin off consumer health business as Kenvue",
+        "reason": "Video format with no article text; discarded per source-type rule."
+      },
+      {
+        "title": "2 Buffett Stocks With Above-Average Dividend Yields to Buy Now",
+        "reason": "Multi-stock Buffett dividend-stock listicle; JNJ mentioned only as one of two picks."
+      },
+      {
+        "title": "Johnson & Johnson: U.S. Health Trends A Key Catalyst For Growth",
+        "reason": "Boilerplate teaser summary with no retrievable article body; snippet only."
+      },
+      {
+        "title": "3 of the Best Dividend Kings to Buy for the Rest of 2023",
+        "reason": "Video-sourced dividend-stock listicle; JNJ mentioned only as one of three picks."
+      },
+      {
+        "title": "3 Best Dividend Kings For The Rest Of 2023",
+        "reason": "Boilerplate teaser summary with no retrievable article body; snippet only; also a multi-stock listicle."
+      },
+      {
+        "title": "Johnson & Johnson Stock: Should You Buy Before This Big Transition?",
+        "reason": "Investment-thesis column about the planned Kenvue spinoff; does not analyze the Q1 earnings results or the stock's reaction."
+      },
+      {
+        "title": "3 Very Low-Risk Ways to Invest $1,000 Right Now",
+        "reason": "Multi-stock low-risk investment listicle; JNJ mentioned only as one of three picks."
+      }
+    ]
+  },
+  "VZ_2023q1": {
+    "status": "published",
+    "input_article_count": 38,
+    "retained_sources": 12,
+    "rejected_sources": [
+      {
+        "title": "Verizon to report earnings January 24, 2023",
+        "reason": "Bare pre-announcement notice with no earnings detail."
+      },
+      {
+        "title": "Yields Have Totally Collapsed: 7 'Strong Buy' Stocks With Huge Dividends to Grab Now",
+        "reason": "Multi-stock dividend-yield listicle; VZ mentioned only as one of seven picks."
+      },
+      {
+        "title": "20 High-Yield Dividend Stocks to Buy in 2023",
+        "reason": "Multi-stock roundup (24 tickers); VZ mentioned only in a list."
+      },
+      {
+        "title": "Start the year with savings: Switch to Verizon Home Internet and get up to 12 months of Walmart+ on us",
+        "reason": "Promotional press release unrelated to earnings."
+      },
+      {
+        "title": "3 Stocks With 5%+ Yields And 15 Consecutive Years Of Dividend Growth",
+        "reason": "Multi-stock dividend-yield listicle; VZ mentioned only as one of three picks."
+      },
+      {
+        "title": "7 Stocks to Buy as Inflation Fears Fade",
+        "reason": "Multi-stock inflation-themed listicle; VZ mentioned only as one of several picks."
+      },
+      {
+        "title": "Plexo Capital founder Lo Toney breaks down what to expect from tech earnings",
+        "reason": "Video format with no article text; discarded per source-type rule."
+      },
+      {
+        "title": "Which Wireless Stock Should You Buy in 2023?",
+        "reason": "General pre-earnings comparison column, published before the report; not about the quarter's results or reaction."
+      },
+      {
+        "title": "Verizon Adds 41,000 Retail Postpaid Subscribers in Fourth Quarter",
+        "reason": "Duplicate (same Barron's article id 51674563168), superseded by the 11:46am updated version retained as the source."
+      },
+      {
+        "title": "Verizon Adds Subscribers. Disappointing Outlook Drags It Down.",
+        "reason": "Duplicate (same Barron's article id 51674563168), superseded by the 11:46am updated version retained as the source."
+      },
+      {
+        "title": "Verizon CEO on earnings and 2023 outlook",
+        "reason": "Video format with no article text; discarded per source-type rule."
+      },
+      {
+        "title": "Verizon EPS comes in line with expectations",
+        "reason": "Video format with no article text; discarded per source-type rule."
+      },
+      {
+        "title": "Verizon Communications Inc. (VZ) Q4 2022 Earnings Call Transcript",
+        "reason": "Earnings call transcript with only a boilerplate participant-list summary and no retrievable article body; snippet only."
+      },
+      {
+        "title": "Verizon stock jumps on earnings, subscriber growth",
+        "reason": "Video format with no article text; discarded per source-type rule."
+      },
+      {
+        "title": "Dogs of the Dow 2023: 5 Dividend Stocks for Income Investors",
+        "reason": "Multi-stock 'Dogs of the Dow' listicle; VZ mentioned only as one of five picks."
+      },
+      {
+        "title": "Stocks in focus: 3M, Union Pacific, Verizon",
+        "reason": "Video format with no article text; discarded per source-type rule."
+      },
+      {
+        "title": "4 Dow Stocks Billionaire Money Managers Can't Stop Buying",
+        "reason": "Multi-stock listicle; VZ mentioned only as one of four picks."
+      },
+      {
+        "title": "Here's My Favorite Telecom Stock for 2023",
+        "reason": "General telecom-comparison column favoring a competitor; not about VZ's own quarter or reaction."
+      },
+      {
+        "title": "5 Exceptional Dividend Stocks Yielding 5% (or More) to Buy Hand Over Fist",
+        "reason": "Multi-stock dividend-yield listicle; VZ mentioned only as one of five picks."
+      },
+      {
+        "title": "1 Indicator Showcasing That Verizon's Ultra-High-Yield Dividend is on Solid Ground",
+        "reason": "Dividend/free-cash-flow sustainability analysis using full-year 2022 figures; not tied to the Jan. 24 earnings-day reaction."
+      },
+      {
+        "title": "Share the love with Verizon's buy one get one offer on select 5G phones and more",
+        "reason": "Promotional press release unrelated to earnings."
+      },
+      {
+        "title": "Dividend Harvesting Portfolio Week 99 Update: $9,900 Allocated, $766.99 In Projected Dividends",
+        "reason": "Multi-stock dividend-portfolio tracker; VZ mentioned only in a holdings list."
+      },
+      {
+        "title": "Buffett Says Make Money While You Sleep",
+        "reason": "General income-investing column; not earnings-specific."
+      },
+      {
+        "title": "Got $5,000? These 3 Dividend Stocks Are Yielding More Than 5%",
+        "reason": "Multi-stock dividend-yield listicle; VZ mentioned only as one of three picks."
+      },
+      {
+        "title": "3 Telecom Stocks That Will Be Big Winners in 2023",
+        "reason": "Multi-stock telecom listicle; not focused on the quarter's results or reaction."
+      },
+      {
+        "title": "Verizon Stock Has A Bumpy Ride After Just Meeting Expected Earnings",
+        "reason": "Boilerplate teaser summary with no retrievable article body or specific figures; snippet only."
+      }
+    ]
+  },
+  "VZ_2021q4": {
+    "status": "published",
+    "input_article_count": 26,
+    "retained_sources": 13,
+    "rejected_sources": [
+      {
+        "title": "Does Verizon Stock Look Attractive At $52?",
+        "reason": "General valuation column; not about Q3 earnings expectations or the reaction."
+      },
+      {
+        "title": "Verizon Communications to report earnings October 20, 2021",
+        "reason": "Bare pre-announcement notice with no earnings detail."
+      },
+      {
+        "title": "Earnings Preview For Verizon Communications",
+        "reason": "Generic earnings-preview notice with no specific figures or expectations."
+      },
+      {
+        "title": "Verizon awarded #1 in customer satisfaction with small businesses by J.D. Power",
+        "reason": "Unrelated press release (customer-satisfaction award)."
+      },
+      {
+        "title": "The biggest and smartest Google phone is coming to Verizon — introducing Pixel 6",
+        "reason": "Unrelated product-promo press release (Pixel 6 launch)."
+      },
+      {
+        "title": "October Billionaire Update: 37 Stocks; 20 Dividends; 1 Buy",
+        "reason": "Multi-stock billionaire-holdings roundup (15 tickers); VZ mentioned only in a list."
+      },
+      {
+        "title": "4 Top Stock Trades for Wednesday: Bitcoin, BB, VZ, FSLY",
+        "reason": "Pre-earnings technical-trading column; no financial expectations or consensus figures discussed."
+      },
+      {
+        "title": "PreMarket Prep Stock Of The Day: Verizon",
+        "reason": "Largely about sector-wide dividend-stock/rate pressure; adds no figures beyond what is already captured in retained sources."
+      },
+      {
+        "title": "Verizon Communications Inc. (VZ) CEO Hans Vestberg on Q3 2021 Results - Earnings Call Transcript",
+        "reason": "Earnings call transcript with only a boilerplate participant-list summary and no retrievable article body; snippet only."
+      },
+      {
+        "title": "Verizon, Nissan, CCTA collaborate on connected-vehicle technology for roadway safety",
+        "reason": "Unrelated press release (connected-vehicle partnership), not about earnings."
+      },
+      {
+        "title": "Got $1,000? 2 Warren Buffett Stocks to Buy",
+        "reason": "Multi-stock Buffett-pick listicle; VZ not even mentioned among the two featured picks (Apple-focused)."
+      },
+      {
+        "title": "7 of the Best Dividend Stocks for Passive Income",
+        "reason": "Multi-stock dividend listicle; VZ mentioned only as one of seven picks."
+      },
+      {
+        "title": "Connected Car Weekly: Verizon, Nissan Team on Road Safety Solutions; Tesla Rolls Out Insurance",
+        "reason": "Weekly roundup; VZ mentioned only in a partnership context, not earnings."
+      }
+    ]
+  },
+  "MGNI_2021q4": {
+    "status": "published",
+    "input_article_count": 7,
+    "retained_sources": 5,
+    "rejected_sources": [
+      {
+        "title": "Magnite, Inc. (MGNI) CEO Michael Barrett on Q3 2021 Results - Earnings Call Transcript",
+        "reason": "Earnings call transcript with only a boilerplate one-line summary and no retrievable article body; snippet only."
+      },
+      {
+        "title": "Beyond Shiba Inu: 3 Stocks That Could Deliver Better Returns",
+        "reason": "Multi-stock crypto-comparison listicle; MGNI mentioned only as one of three picks, no earnings-reaction detail."
+      }
+    ]
+  },
+  "MTW_2021q4": {
+    "status": "published",
+    "input_article_count": 6,
+    "retained_sources": 4,
+    "rejected_sources": [
+      {
+        "title": "The Manitowoc Company, Inc. (MTW) CEO Aaron Ravenscroft on Q3 2021 Results - Earnings Call Transcript",
+        "reason": "Earnings call transcript with only a boilerplate one-line summary and no retrievable article body; snippet only."
+      },
+      {
+        "title": "The Manitowoc Company to Present at Baird Virtual Industrial Conference on Wednesday, November 10, 2021",
+        "reason": "Routine investor-relations conference-appearance announcement, no earnings content."
+      }
+    ]
+  },
+  "PCTY_2023q2": {
+    "status": "published",
+    "input_article_count": 3,
+    "retained_sources": 2,
+    "rejected_sources": [
+      {
+        "title": "Paylocity Holding Corporation (PCTY) Q3 2023 Earnings Call Transcript",
+        "reason": "Earnings call transcript with only a boilerplate participant-list summary and no retrievable article body; snippet only."
+      }
+    ]
+  },
+  "JNJ_2022q2": {
+    "status": "published",
+    "input_article_count": 38,
+    "retained_sources": 14,
+    "rejected_sources": [
+      {
+        "title": "J&J settles with West Virginia on opioid litigation for $99 million",
+        "reason": "covers J&J's West Virginia opioid-litigation settlement, a different event not tied by any article to the earnings-day stock move"
+      },
+      {
+        "title": "5 Analyst Favorite Blue Chip Stocks Are Expected to Have Dividend Hikes This Week",
+        "reason": "general multi-ticker dividend-hike roundup, not substantively about this earnings event"
+      },
+      {
+        "title": "J&J (JNJ) to Set the Tone for Pharma Sector's Q1 Earnings",
+        "reason": "pre-release preview with only a one-line teaser summary and no full text or figures; not relied on"
+      },
+      {
+        "title": "Big Pharma Favorites of Hedge Funds",
+        "reason": "general multi-ticker hedge-fund-holdings roundup, not substantively about this earnings event"
+      },
+      {
+        "title": "The Safest Healthcare Stocks in the World",
+        "reason": "general multi-ticker healthcare-stocks roundup, not substantively about this earnings event"
+      },
+      {
+        "title": "Apple and JNJ are two defensive names. Which is better currently?",
+        "reason": "generic Apple-vs-JNJ comparison piece, not about the earnings reaction"
+      },
+      {
+        "title": "Best Stocks To Invest In Now? 3 Coronavirus Vaccine Stocks To Know",
+        "reason": "general multi-ticker coronavirus-vaccine-stocks roundup, not substantively about this earnings event"
+      },
+      {
+        "title": "Johnson & Johnson set to report earnings on Tuesday morning",
+        "reason": "Video type with no article text"
+      },
+      {
+        "title": "Big health care names set to report earnings",
+        "reason": "Video type with no article text"
+      },
+      {
+        "title": "J&J boosts dividend to lift implied yield to above 2.5%",
+        "reason": "duplicate of the dividend-increase facts already covered by the retained PRNewswire release; snippet-only with no full text or new figures"
+      },
+      {
+        "title": "J&J's Q1 earnings miss was because of Covid-19 vaccine, says CFO Joseph Wolk",
+        "reason": "Video type with no article text"
+      },
+      {
+        "title": "Interested in Investing in Psychedelics? Check Out This Podcast.",
+        "reason": "unrelated multi-ticker roundup about psychedelics investing, JNJ mentioned only in passing"
+      },
+      {
+        "title": "Johnson & Johnson Beats Estimates, Cuts Guidance",
+        "reason": "duplicate of the retained Barron's article (identical teaser text), no distinct figures"
+      },
+      {
+        "title": "Johnson & Johnson (JNJ) Management on Q1 2022 Results - Earnings Call Transcript",
+        "reason": "snippet-only earnings-call transcript intro listing participants, no analysis or figures"
+      },
+      {
+        "title": "J&J (JNJ) Beats on Q1 Earnings, Suspends COVID Jab Sales View",
+        "reason": "snippet-only, duplicates facts already covered in retained Zacks/CNBC articles with no new figures"
+      },
+      {
+        "title": "Workhorse Johnson & Johnson Plows New All-Time Highs",
+        "reason": "snippet-only, generic descriptive text with no specific figures beyond retained articles"
+      },
+      {
+        "title": "Earnings: Johnson & Johnson misses on revenue, suspends vaccine sales guidance",
+        "reason": "Video type with no article text"
+      },
+      {
+        "title": "Housing Data Up for March; JNJ, LMT Mixed in Q1",
+        "reason": "general multi-ticker markets roundup, thin and not specific to JNJ's results or reaction"
+      },
+      {
+        "title": "Alabama settles opioid claims against J&J, distributors for $276 million - attorney general",
+        "reason": "covers Alabama's separate opioid-litigation settlement, a different event not tied by any article to the earnings-day stock move"
+      },
+      {
+        "title": "Johnson & Johnson CFO: How inflation plays out is ‘anybody's guess'",
+        "reason": "Video type with no article text"
+      },
+      {
+        "title": "Jim Cramer names 4 stocks that can endure the Fed's 'aggressive tightening cycle'",
+        "reason": "general multi-ticker stock-picks roundup, not substantively about this earnings event"
+      },
+      {
+        "title": "J&J Sets in Motion Drug/Biotech Q1 Earnings: 3 Stocks to Buy",
+        "reason": "uses JNJ only as a bellwether for other biotech stocks' upcoming earnings, not about JNJ's own results or reaction"
+      },
+      {
+        "title": "These 12 manufacturers can help investors capitalize on the U.S. 'industrial renaissance,' Cramer says",
+        "reason": "general multi-ticker industrial-stocks roundup, not substantively about this earnings event"
+      },
+      {
+        "title": "Health care has more pricing power because demand is inelastic, says E Squared's Les Funtleyder",
+        "reason": "Video type with no article text"
+      }
+    ]
+  },
+  "UBER_2022q3": {
+    "status": "published",
+    "input_article_count": 59,
+    "retained_sources": 13,
+    "rejected_sources": [
+      {
+        "title": "The Future of Transportation Lies in Flying Cars' $10 Trillion Market",
+        "reason": "multi-ticker speculative piece about the eVTOL/flying-car industry (BA, EADSY, UBER, EADSF); mentions Uber only as a ride-cost comparison, never discusses Uber's earnings or stock reaction"
+      },
+      {
+        "title": "Why Uber (UBER) Might Surprise This Earnings Season",
+        "reason": "full_text null; api_summary is a one-line teaser about Zacks Earnings ESP with no figures or detail -- snippet only"
+      },
+      {
+        "title": "Uber Eats in focus as inflation-hit consumers rethink ordering in",
+        "reason": "full_text null; snippet-only pre-release teaser with no usable detail beyond the headline summary"
+      },
+      {
+        "title": "SHAREHOLDER ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Uber Technologies, Inc. - UBER",
+        "reason": "concerns a securities-fraud investigation tied to a July 11, 2022 Guardian expose, a distinct event roughly three weeks before the Q2 earnings release; not related to the earnings report or its market reaction"
+      },
+      {
+        "title": "Uber is incredibly diversified, says Jefferies' Brent Thill",
+        "reason": "Video type, discarded per instructions"
+      },
+      {
+        "title": "Uber Announces Results for Second Quarter 2022",
+        "reason": "full_text null; api_summary is a truncated excerpt of the press release with no analysis, fully redundant with detailed full-text articles already retained covering the same figures"
+      },
+      {
+        "title": "Uber turns cash flow positive for the first time",
+        "reason": "full_text null; snippet-only, redundant with retained full-text sources reporting the same cash-flow and guidance detail"
+      },
+      {
+        "title": "Uber stock jumps more than 10% after sales more than double to beat expectations",
+        "reason": "full_text null; snippet-only, redundant with retained sources on the same premarket revenue beat"
+      },
+      {
+        "title": "Uber Is Cash Flow Positive for First Time. The Stock Soars.",
+        "reason": "full_text null; one-sentence api_summary with no distinct detail"
+      },
+      {
+        "title": "Uber rides, delivery and revenue beat expectations",
+        "reason": "full_text null; snippet-only, redundant with retained sources on the same premarket beat"
+      },
+      {
+        "title": "Uber likely to sell 7.8% stake India's Zomato - source, document",
+        "reason": "full_text null; concerns a separate Zomato stake-sale event, not the earnings reaction"
+      },
+      {
+        "title": "Uber reports quarterly loss, but beats on revenue",
+        "reason": "Video type, discarded per instructions"
+      },
+      {
+        "title": "Uber posts quarterly loss, but revenue exceeds expectations",
+        "reason": "full_text null; generic snippet, redundant with retained full-text sources"
+      },
+      {
+        "title": "Uber Technologies (UBER) Reports Q2 Loss, Tops Revenue Estimates",
+        "reason": "superseded by the outlet's own \"(Revised)\" version published later the same day, which states the original article \"should no longer be relied upon\" due to a mistake; the revised version was retained instead"
+      },
+      {
+        "title": "Uber stock jumps premarket on revenue beat, earnings loss",
+        "reason": "Video type, discarded per instructions"
+      },
+      {
+        "title": "Uber plans to sell 7.8% stake in Indian food delivery firm Zomato",
+        "reason": "covers the separate Zomato stake-sale plan, not the earnings reaction itself"
+      },
+      {
+        "title": "Uber Second-Quarter Results Beat On Revenue, Stock Pops",
+        "reason": "thin, truncated text with unrelated trailing syndication content; adds no figures or analysis beyond the more detailed retained sources"
+      },
+      {
+        "title": "'Travel Is On Fire': Uber, Lyft Stocks Surge As Americans Splurge Despite Skyrocketing Inflation",
+        "reason": "full_text null; snippet only"
+      },
+      {
+        "title": "Uber shares soar on record second-quarter bookings",
+        "reason": "full_text present but adds no figures or analysis beyond what is already covered in more detailed retained sources (CNBC, FreightWaves, Guardian, Business Insider)"
+      },
+      {
+        "title": "Uber CEO Dara Khosrowshahi on earnings: It was a strong quarter on top and bottom lines",
+        "reason": "Video type, discarded per instructions"
+      },
+      {
+        "title": "Uber's Results Gas Up Rivals",
+        "reason": "full_text null; snippet-only, and focused on competitors' stock reactions rather than Uber's own"
+      },
+      {
+        "title": "Uber's Delivery Gains Place Platform Squarely in Amazon's 'Last Mile' Crosshairs",
+        "reason": "primarily a competitive-analysis piece about Amazon's same-day delivery expansion; its Uber-specific figures and CFO quotes duplicate more directly relevant retained sources and it does not tie the move to the stock reaction"
+      },
+      {
+        "title": "Uber Technologies, Inc. (UBER) CEO Dara Khosrowshahi on Q2 2022 Results - Earnings Call Transcript",
+        "reason": "full_text null; api_summary is a boilerplate call-participant listing with no substantive earnings content"
+      },
+      {
+        "title": "Uber Q2 results: 'on its way to build a sustainably profitable business'",
+        "reason": "full_text null; snippet only"
+      },
+      {
+        "title": "Uber Q2 earnings are the stock's 'most convincing evidence yet': Analyst",
+        "reason": "Video type, discarded per instructions"
+      },
+      {
+        "title": "Uber's stock surges on positive trends despite big Q2 loss",
+        "reason": "full_text null; snippet only"
+      },
+      {
+        "title": "Uber CEO Khosrowshahi on Pricing, India and Outlook",
+        "reason": "Video type, discarded per instructions"
+      },
+      {
+        "title": "The 'Halftime Report' investment committee debate investing in Uber after shares surge",
+        "reason": "Video type, discarded per instructions"
+      },
+      {
+        "title": "Uber beats revenue expectations, stock rises",
+        "reason": "Video type, discarded per instructions"
+      },
+      {
+        "title": "Uber Gapped Above Its August Pivot Targeting Its 200-Day Simple Moving Average. Here's How To Trade The Stock Now.",
+        "reason": "full_text null; also a technical-trading-setup piece rather than earnings analysis"
+      },
+      {
+        "title": "Why Uber Stock Surged Today",
+        "reason": "full_text present but duplicates figures and framing already captured in more detailed retained sources (e.g., airport bookings growth, EBITDA/free-cash-flow detail), with no distinct new figures or attribution"
+      },
+      {
+        "title": "What Stocks To Buy Today? 3 Travel Stocks To Watch",
+        "reason": "multi-ticker listicle (JBLU, MAR, UBER); full_text null"
+      },
+      {
+        "title": "Three Stock Lunch: Caterpillar, Uber and Pinterest",
+        "reason": "Video type and multi-ticker, discarded per instructions"
+      },
+      {
+        "title": "Uber stock surges amid second-quarter revenue beat",
+        "reason": "Video type, discarded per instructions"
+      },
+      {
+        "title": "Dara finally has Uber on the right path, says Wedbush's Ives",
+        "reason": "Video type, discarded per instructions"
+      },
+      {
+        "title": "Uber Could Be Set to Sell Stake in India's Zomato",
+        "reason": "concerns the separate Zomato stake-sale event, not the earnings reaction"
+      },
+      {
+        "title": "Uber Revenue Lifts Travel ETFs",
+        "reason": "full_text null; snippet, and focused on travel-sector ETF impact rather than Uber's own stock reaction"
+      },
+      {
+        "title": "Fraud charges in hacking case against Uber ex-security chief are dismissed",
+        "reason": "full_text null; concerns an unrelated 2016 data-breach legal case, not the earnings reaction"
+      },
+      {
+        "title": "Uber sells 7.8% stake in India's Zomato for $392 million -sources",
+        "reason": "full_text null; separate Zomato stake-sale event (Aug. 3), not the earnings reaction"
+      },
+      {
+        "title": "Uber's ride with Indian food delivery firm Zomato comes to an end",
+        "reason": "covers completion of the separate Zomato stake sale the day after earnings, not the earnings-day stock reaction"
+      },
+      {
+        "title": "Uber stock looks to extend rally after upgrade",
+        "reason": "full_text null; snippet only"
+      },
+      {
+        "title": "Stack Capital Holding Omio Announces Key Partnership With Uber",
+        "reason": "unrelated partnership press release; full_text null"
+      },
+      {
+        "title": "Uber Technologies (UBER) Q2 Earnings Miss, Stock Up 3.2%",
+        "reason": "full_text null; snippet only, and describes an Aug. 4 stock move distinct from the immediate post-earnings reaction"
+      },
+      {
+        "title": "Lyft has been a little brother to Uber, says Wedbush's Dan Ives",
+        "reason": "Video type; discusses Lyft's earnings, not Uber's"
+      },
+      {
+        "title": "Best Stocks To Buy Right Now? 4 Consumer Stocks In Focus",
+        "reason": "multi-ticker listicle (CMG, PEP, SBUX, UBER); full_text null"
+      },
+      {
+        "title": "Gig economy stocks popped this week after showing strong demand for their services",
+        "reason": "multi-company weekly roundup (Uber, Lyft, DoorDash, Airbnb); adds no figures beyond what is already captured in Uber-specific retained sources"
+      }
+    ]
+  },
+  "UBER_2023q1": {
+    "status": "published",
+    "input_article_count": 49,
+    "retained_sources": 12,
+    "rejected_sources": [
+      {
+        "title": "Evercore ISI issues bullish note on Uber stock",
+        "reason": "Video content with no article text to evaluate. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Uber CEO: We are not seeing any signs of consumer weakness at this point",
+        "reason": "Video content with no article text to evaluate. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Jim Cramer breaks down Uber and Chipotle Q4 earnings",
+        "reason": "Video content with no article text to evaluate. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Uber stock pops on impressive revenue growth, consumer resilience",
+        "reason": "Video content with no article text to evaluate. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Uber's earnings prove it's not a 'pandemic stock,' says Ritholtz's Josh Brown",
+        "reason": "Video content with no article text to evaluate. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Uber's Khosrowshahi on Growth, Hiring, Commuting Trends",
+        "reason": "Video content with no article text to evaluate. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Final Trades: Uber, Citi & Wabtec",
+        "reason": "Video content with no article text to evaluate. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Three-Stock Lunch: CMG, UBER & FTNT",
+        "reason": "Video content with no article text to evaluate. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Wedbush's Dan Ives is bullish on Uber, expects good earnings from Lyft",
+        "reason": "Video content with no article text to evaluate. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Uber earnings: Q4 'pretty good set of results' amid 'tricky operating environment,' analyst says",
+        "reason": "Video content with no article text to evaluate. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Lyft continues to maneuver through driver shortage as rival Uber boasts revenue growth",
+        "reason": "Video content with no article text to evaluate. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Uber Beats Estimates; Lyft Rider Base in Focus",
+        "reason": "Video content with no article text to evaluate. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "G Squared's Victoria Greene offers 3 buys and a bail: UBER, PEP, BUD & DEO",
+        "reason": "Video content with no article text to evaluate. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Uber, Lyft earnings highlight a tale of two rideshares",
+        "reason": "Video content with no article text to evaluate. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Uber to steal a march on Lyft in resurgent rideshare market",
+        "reason": "Full text unavailable (snippet only); API summary offers only a general revenue-growth-versus-Lyft framing with no figures beyond what retained sources already supply. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Uber Announces Results for Fourth Quarter and Full Year 2022",
+        "reason": "Full text unavailable (snippet only); this is the company's own press release, and the figures in its summary are already covered by retained third-party articles that quote them directly. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Uber Posts Higher Revenue and Adjusted Profit",
+        "reason": "Full text unavailable (paywalled/snippet only); no distinct figures or analysis beyond retained sources. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Uber sets sights on profits in 2023 as pandemic pain eases",
+        "reason": "Full text unavailable (snippet only); content duplicative of retained sources. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Uber stock rises after earnings as company gives upbeat outlook",
+        "reason": "Full text unavailable (snippet only). URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Uber Stock Climbs as Quarterly Sales Jump 49%",
+        "reason": "Full text unavailable (paywalled/snippet only). URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Uber Tests 12-Month High After Reporting ‘Strongest Quarter Ever'",
+        "reason": "Full text unavailable (snippet only). URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Uber Stock Revs Up After Impressive Quarterly Win",
+        "reason": "Full text unavailable (snippet only). URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Uber Technologies, Inc. (UBER) Q4 2022 Earnings Call Transcript",
+        "reason": "Full text unavailable; API summary is only the call-participant roster with no substantive content. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Top Stocks To Buy Now? 2 Tech Stocks For Your List",
+        "reason": "Full text unavailable (snippet only); also a generic multi-stock roundup. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Uber cost discipline pays off as demand improves in tough economy",
+        "reason": "Full text unavailable (snippet only). URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Uber reports surge in Q4 revenues, offers bullish outlook",
+        "reason": "Full text unavailable (snippet only); duplicative of figures already in retained sources. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Uber Technologies (UBER) Q4 Earnings & Revenues Beat Estimates",
+        "reason": "Full text unavailable (snippet only); duplicative of two other retained Zacks articles. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Lyft Stock Tumbles Further. Uber Price War Ramps Up.",
+        "reason": "Full text unavailable (snippet only); also primarily about Lyft's own earnings event rather than Uber's reaction. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Lyft falls as forecast exacerbates worries of falling behind Uber",
+        "reason": "Full text unavailable (snippet only); primarily about Lyft's own earnings event. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Uber: 3 Roaring Growth Engines And Undervalued",
+        "reason": "Full text unavailable (snippet only). URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Looking for Turnaround Plays? 5 EPS Reports to Watch this Week",
+        "reason": "Usable text, but a pre-earnings roundup of five unrelated companies (ENPH, CMG, HOOD, NET, UBER) that only previews Uber's upcoming report in passing, with no consensus figures or reaction detail specific to Uber. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "BBBY, UBER, GOOGL Predictions: 3 Hot Stocks for Tomorrow",
+        "reason": "Usable text, but a multi-stock technical-chart roundup (Bed Bath & Beyond squeeze, Uber chart levels, Google AI event) that mentions Uber's upcoming earnings only in passing, with no results, expectations, or reaction detail. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Uber Launches Payout Solution for Unbanked Drivers in Egypt",
+        "reason": "Usable text, but an unrelated product/partnership announcement (HSBC payout feature in Egypt), not about the earnings report or stock reaction. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Uber Eats Prioritizes Unit Economics as DoorDash Focuses on Reach",
+        "reason": "Usable text, but a competitive-positioning piece versus DoorDash; its quoted figures duplicate the same earnings call already covered by retained PYMNTS and CNBC articles, and it does not address the stock's reaction. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Lyft Stock Decline Draws Sharp Contrast to Uber's Broader Platform Strategy",
+        "reason": "Usable text, but primarily explains Lyft's separate Feb. 10 earnings-driven decline; its Uber content duplicates bookings/segment figures already in retained sources and adds no new reason for Uber's own stock reaction. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "The Latest From Chipotle, Adyen, and Uber",
+        "reason": "Usable text, but a three-company podcast transcript primarily about Chipotle and Adyen; its brief, opinion-based Uber segment duplicates profit-quality skepticism already covered by a retained source without adding a new causal link to the move. URL as given by the API, not independently re-verified via live HTTP request."
+      },
+      {
+        "title": "Uber gets repeat ‘Outperform' rating and higher price target from Wedbush analysts after 4Q results",
+        "reason": "Duplicate/syndicated copy (proactiveinvestors.ca mirror, published 2023-02-09T10:01:33) of the same Proactive Investors article, identical text, retained under its earlier-published proactiveinvestors.com URL instead. URL as given by the API, not independently re-verified via live HTTP request."
+      }
+    ]
+  },
+  "VZ_2023q3": {
+    "status": "published",
+    "input_article_count": 49,
+    "retained_sources": 13,
+    "rejected_sources": [
+      {
+        "title": "First Full Spectrum 5G Hospital at VA Palo Alto Health Care System Will Empower Unprecedented Care for Veterans",
+        "reason": "Promotional/marketing press release unrelated to earnings or the stock's reaction."
+      },
+      {
+        "title": "AT&T and Verizon Could Have an ESG Problem. It's All About Lead.",
+        "reason": "URL as given by the API, not independently re-verified via live HTTP request. full_text unavailable (null); api_summary is a thin single-sentence teaser with no figures tied to this earnings event."
+      },
+      {
+        "title": "Verizon: Two Big Issues to Watch for in Earnings",
+        "reason": "URL as given by the API, not independently re-verified via live HTTP request. full_text unavailable (null); thin pre-earnings preview teaser with no figures or detail."
+      },
+      {
+        "title": "Verizon earnings: What to expect as lead-cable concerns linger over wireless stocks",
+        "reason": "URL as given by the API, not independently re-verified via live HTTP request. full_text unavailable (null); thin pre-earnings preview with no figures."
+      },
+      {
+        "title": "3 Magnificent Stocks Being Added Hand Over Fist to Warren Buffett's Secret Portfolio",
+        "reason": "Multi-stock roundup (Berkshire 13F holdings across VZ, CVS, GOOGL); mentions VZ only in passing re: a prior-quarter 13F purchase, not this earnings event or its reaction."
+      },
+      {
+        "title": "Verizon posts surprise rise in wireless subscribers",
+        "reason": "URL as given by the API, not independently re-verified via live HTTP request. full_text unavailable (null); single-sentence teaser with no figures, redundant with richer retained subscriber coverage."
+      },
+      {
+        "title": "Verizon Promises Turnaround Amid Lull in Smartphone Upgrades",
+        "reason": "URL as given by the API, not independently re-verified via live HTTP request. full_text unavailable (null); thin single-sentence teaser with no figures or expectations."
+      },
+      {
+        "title": "Verizon earnings: Company reports surprise boost in subscribers",
+        "reason": "Video type with no transcript/text available; discarded per instructions to drop Video articles."
+      },
+      {
+        "title": "Verizon Beats Profit Expectations on Strong Subscriber Growth",
+        "reason": "URL as given by the API, not independently re-verified via live HTTP request. full_text unavailable (null); one-sentence summary adding no figures beyond what richer retained sources already cover."
+      },
+      {
+        "title": "Verizon Communications Inc. (VZ) Q2 2023 Earnings Call Transcript",
+        "reason": "URL as given by the API, not independently re-verified via live HTTP request. Captured text is only the call's speaker list and operator greeting; no substantive Q&A content; full_text unavailable (null)."
+      },
+      {
+        "title": "Verizon Foundation donates $10,000 for Vermont flood relief",
+        "reason": "Charitable-donation press release unrelated to earnings or the stock's reaction."
+      },
+      {
+        "title": "Wall Street Lunch: Big Bear Spies AI Bubble",
+        "reason": "General market/multi-stock roundup mentioning VZ only in passing."
+      },
+      {
+        "title": "Verizon announces tender offers for 14 series of debt securities",
+        "reason": "Routine capital-structure press release not tied by any article to the earnings reaction; no analysis of the move."
+      },
+      {
+        "title": "Best Dividend Stock to Buy: Verizon vs. British American Tobacco Stock",
+        "reason": "Generic long-term dividend-yield comparison, not substantive analysis of the earnings reaction; also uses pre-earnings (July 23) prices."
+      },
+      {
+        "title": "Verizon is your ticket to the best new Samsung Galaxy Foldable phones, plans and perks",
+        "reason": "Promotional/marketing press release unrelated to earnings or the stock's reaction."
+      },
+      {
+        "title": "In the stadium, at home, or on-the-go, Verizon has NFL fans covered for the 2023 season",
+        "reason": "Promotional/marketing press release unrelated to earnings or the stock's reaction."
+      },
+      {
+        "title": "Verizon continues to upgrade Richmond's best network",
+        "reason": "Promotional network-quality press release unrelated to earnings or the stock's reaction."
+      },
+      {
+        "title": "Verizon continues to upgrade Washington DC's network",
+        "reason": "Promotional network-quality press release unrelated to earnings or the stock's reaction."
+      },
+      {
+        "title": "Nothing But Upside For High-Yield Verizon?",
+        "reason": "URL as given by the API, not independently re-verified via live HTTP request. full_text unavailable (null); vague teaser with no specific earnings detail."
+      },
+      {
+        "title": "Verizon Frontline providing critical communications support to first responders nationwide",
+        "reason": "Promotional press release unrelated to earnings or the stock's reaction."
+      },
+      {
+        "title": "Verizon Earnings Report: Is the Worst Over?",
+        "reason": "Thin video-description text with no substantive figures or analysis beyond a generic teaser."
+      },
+      {
+        "title": "Verizon: Problems Plague The Wireless Business",
+        "reason": "URL as given by the API, not independently re-verified via live HTTP request. full_text unavailable (null); opinion-column teaser with no detail."
+      },
+      {
+        "title": "Has Verizon Stock Turned a Corner?",
+        "reason": "Thin video-description text with no specific figures, duplicative of richer retained free-cash-flow coverage."
+      },
+      {
+        "title": "Top JP Morgan Strategist Says the Worst May Still Be Coming: 7 Big-Dividend Blue Chips to Buy Now",
+        "reason": "General multi-stock macro roundup (ABBV, MO, CVX, C, etc.); VZ appears only in the ticker tag, not discussed as earnings-reaction analysis."
+      },
+      {
+        "title": "3 Stocks That Haven't Been This Cheap in Over a Decade",
+        "reason": "Long-term valuation/dividend-risk comparison (WBA, VZ, AAP) not tied to the earnings-day reaction specifically."
+      },
+      {
+        "title": "Dividend Harvesting Portfolio Week 125: $12,500 Allocated, $1,072.67 In Projected Dividends",
+        "reason": "URL as given by the API, not independently re-verified via live HTTP request. full_text unavailable (null); multi-holding portfolio-tracking roundup mentioning VZ only in passing."
+      },
+      {
+        "title": "Amazon Is Getting Into the Wireless Business. Are AT&T and Verizon Doomed?",
+        "reason": "About a separate Amazon/Dish competitive-threat story, not the earnings event or its reaction."
+      },
+      {
+        "title": "US EPA seeks lead-cable information from AT&T, Verizon",
+        "reason": "URL as given by the API, not independently re-verified via live HTTP request. full_text unavailable (null); separate regulatory development two days after earnings, not tied by any article to the earnings-day reaction."
+      },
+      {
+        "title": "Verizon: Legacy Businesses Are Still Out Of Fashion",
+        "reason": "URL as given by the API, not independently re-verified via live HTTP request. full_text unavailable (null); opinion-column teaser describing a longer-term share slide, not the earnings-day reaction."
+      },
+      {
+        "title": "If You Can Only Buy One Telecom Stock, It Better Be This One (Plus: 2 to Sell)",
+        "reason": "Multi-stock buy/sell investment pitch (TMUS/VZ/T); earnings-call references are tangential to the recommendation thesis and not tied to the day's reaction."
+      },
+      {
+        "title": "Dow Jones Today: Index Plunges, Ending Streak, on Concern About Rate Hikes",
+        "reason": "General Dow-index market roundup mentioning VZ only in passing."
+      },
+      {
+        "title": "Buy 5 Fortune 500 Industry Leaders In July-August And Watch 4 More",
+        "reason": "General multi-stock dividend roundup (16 tickers); VZ mentioned only in passing."
+      },
+      {
+        "title": "Is Verizon an Excellent Stock to Buy for Passive Income Investors?",
+        "reason": "Thin video-description text with no specific figures tied to the earnings event."
+      },
+      {
+        "title": "3 Blue-Chip Stocks You Better Be Buying on Each and Every Dip",
+        "reason": "General long-term valuation thesis (KO, V, VZ), not substantive analysis of the earnings-day reaction."
+      },
+      {
+        "title": "5G Stocks To Watch As Cloud, Enterprise Services Emerge",
+        "reason": "General industry-sector roundup (14 tickers); VZ mentioned only in passing."
+      },
+      {
+        "title": "Dow Jones Today: Index Rebounds on Slowing Inflation",
+        "reason": "General Dow-index market roundup mentioning VZ only in passing."
+      }
+    ]
+  },
+  "MCD_2021q3": {
+    "status": "published",
+    "input_article_count": 26,
+    "retained_sources": 7,
+    "rejected_sources": [
+      {
+        "title": "McDonald's big sales growth expected as labor crunch looms",
+        "reason": "snippet-only pre-release preview, no full text"
+      },
+      {
+        "title": "Will McDonald's Stock See Mixed Q2 Results?",
+        "reason": "snippet-only pre-release preview, no full text"
+      },
+      {
+        "title": "Domino's, Eli Lilly, McDonald's, Merck and More Tuesday Afternoon Analyst Upgrades and Downgrades",
+        "reason": "general multi-ticker analyst-ratings roundup, MCD mentioned only in passing"
+      },
+      {
+        "title": "The Halftime Report's Call of the Day: McDonald's",
+        "reason": "Video type, no article text"
+      },
+      {
+        "title": "McDonald's sales surge on BTS meal craze, easing restrictions",
+        "reason": "snippet-only, no full text"
+      },
+      {
+        "title": "McDonald's beat earnings estimates, partially driven by BTS promotion",
+        "reason": "Video type, no article text"
+      },
+      {
+        "title": "McDonald's: Q2 Earnings Insights",
+        "reason": "snippet-only, no full text"
+      },
+      {
+        "title": "McDonald's earnings beat with help from the Crispy Chicken Sandwich and BTS",
+        "reason": "snippet-only, no full text"
+      },
+      {
+        "title": "McDonald's Q2 Earnings Tops Estimates, Clocks 14.9% US Comp Sales Growth On 2-Year Basis",
+        "reason": "snippet-only, no full text"
+      },
+      {
+        "title": "McDonald's earnings beat, driven by new chicken sandwich and promotion with K-pop band BTS",
+        "reason": "duplicate of the retained 07:08 CNBC article (identical text), no distinct figures"
+      },
+      {
+        "title": "McDonald's (MCD) Q2 Earnings and Revenues Beat Estimates",
+        "reason": "snippet-only, no full text"
+      },
+      {
+        "title": "McDonald's sales soar as dining areas reopen",
+        "reason": "Video type, no article text"
+      },
+      {
+        "title": "LivaNova's (LIVN) CEO Damien McDonald on Q2 2021 Results - Earnings Call Transcript",
+        "reason": "wrong company (LivaNova CEO surname McDonald, not McDonald's Corp)"
+      },
+      {
+        "title": "McDonald's Corporation (MCD) CEO Chris Kempczinski on Q2 2021 Results - Earnings Call Transcript",
+        "reason": "snippet-only transcript intro, no analysis or figures"
+      },
+      {
+        "title": "Why Did These Billion-Dollar Companies Get Pandemic Relief as Small Restaurants Were Crushed?",
+        "reason": "general multi-ticker pandemic-relief feature, MCD mentioned only in a ticker list"
+      },
+      {
+        "title": "McDonald's next celebrity menu collaboration will be with platinum artist Saweetie",
+        "reason": "unrelated future product-promotion announcement, snippet-only, not tied to earnings reaction"
+      },
+      {
+        "title": "The Ratings Game: McDonald's riding the trend in comfort food to soaring same-store sales results",
+        "reason": "snippet-only, no full text"
+      },
+      {
+        "title": "4 Low Beta Stocks to Protect Your Portfolio Against Any Correction",
+        "reason": "general multi-ticker low-beta-stocks roundup using stale Q1 2021 figures, not about this earnings event"
+      },
+      {
+        "title": "DRAFT – Apple, Alphabet and 6 More Top Stocks Analysts Want You to Buy Now",
+        "reason": "general multi-ticker analyst-ratings roundup, MCD mentioned only in passing"
+      }
+    ]
+  },
+  "MCD_2023q4": {
+    "status": "published",
+    "input_article_count": 38,
+    "retained_sources": 10,
+    "rejected_sources": [
+      {
+        "title": "Intuitive Machines stock climbs on lunar mission plan as McDonald's edges higher ahead of results",
+        "reason": "general multi-ticker market roundup, MCD mentioned only in passing, snippet-only"
+      },
+      {
+        "title": "McDonal's stock jumps after profit, revenue and same-store sales all beat expectations",
+        "reason": "snippet-only, no full text"
+      },
+      {
+        "title": "McDonald's same store sales likely slowed in October, says Wedbush's Nick Setyan",
+        "reason": "Video type, no article text"
+      },
+      {
+        "title": "McDonald's Stock Rises. Sales Get Boost From Price Hikes.",
+        "reason": "snippet-only, no full text"
+      },
+      {
+        "title": "McDonald's revenue climbs 14% as price hikes boost U.S. sales",
+        "reason": "Video type, no article text"
+      },
+      {
+        "title": "Ronald McDonald House New York Raises $1.93M to Support Families Battling Pediatric Cancer & Other Serious Illnesses During 31st Annual Gala",
+        "reason": "unrelated charity-gala event, not about this earnings event"
+      },
+      {
+        "title": "McDonald's bottoms, plus more good news for fast food stocks",
+        "reason": "snippet-only, no full text"
+      },
+      {
+        "title": "BofA's Sara Senatore on McDonald's earnings beat: Same-store sales growth a reflection of price hike",
+        "reason": "Video type, no article text"
+      },
+      {
+        "title": "Bulls Buy Up McDonald's Stock After Quarterly Win",
+        "reason": "snippet-only, no full text"
+      },
+      {
+        "title": "McDonald's earnings top Q3 estimates, sees global sales jump",
+        "reason": "Video type, no article text"
+      },
+      {
+        "title": "McDonald's Corporation (MCD) Q3 2023 Earnings Call Transcript",
+        "reason": "snippet-only transcript intro, no analysis or figures"
+      },
+      {
+        "title": "6 Reasons to Avoid McDonald's (MCD) Stock Right Now",
+        "reason": "general bearish valuation/opinion listicle, not substantively about this earnings event or reaction"
+      },
+      {
+        "title": "McDonald's competitive position is extremely strong right now, says Evercore's David Palmer",
+        "reason": "Video type, no article text"
+      },
+      {
+        "title": "McDonald's (MCD) Stock Up on Q3 Earnings & Revenue Beat",
+        "reason": "snippet-only, no full text"
+      },
+      {
+        "title": "Higher Prices Aren't Scaring Away McDonald's Customers",
+        "reason": "Video type, no article text"
+      },
+      {
+        "title": "McDonald's CEO says earnings results prove 'difficult times' for consumers can be a good thing",
+        "reason": "snippet-only, no full text"
+      },
+      {
+        "title": "McDonald's Beats Profit and Sales Forecasts on Higher Prices, Larger Average Tickets",
+        "reason": "snippet-only, no full text"
+      },
+      {
+        "title": "McDonald's reports boom in digital sales in Q3 earnings beat",
+        "reason": "Video type, no article text"
+      },
+      {
+        "title": "McDonald's set up well for 2024 with catalysts ahead, says Wells Fargo",
+        "reason": "snippet-only, no full text"
+      },
+      {
+        "title": "Chipotle and McDonald's to Raise Prices in California After Minimum Wage Hike",
+        "reason": "duplicate of retained California minimum-wage coverage, no distinct figures or quotes"
+      },
+      {
+        "title": "Should you buy McDonald's stock after its Q3 earnings?",
+        "reason": "snippet-only, no full text"
+      },
+      {
+        "title": "McDonald's Food Prices Rise — in California",
+        "reason": "largely duplicates retained California minimum-wage coverage; cites a net-income figure inconsistent with other retained sources and adds no distinct figures or quotes"
+      },
+      {
+        "title": "McDonald's, Chipotle hiking menu prices after California raises fast-food minimum wage",
+        "reason": "duplicate of retained California minimum-wage coverage, no distinct figures or quotes"
+      },
+      {
+        "title": "Is McDonald's Stock a Bargain Buy After Shedding a Year's Worth of Gains?",
+        "reason": "opinion column focused on first-half-2023 performance and long-term valuation, not substantively about the Q3 event or reaction"
+      },
+      {
+        "title": "Top Calls: McDonald's Tops Estimates",
+        "reason": "Video type, no article text"
+      },
+      {
+        "title": "Invest in the Future: Buy & Hold Visa, McDonald's and Microsoft Forever",
+        "reason": "general multi-ticker buy-and-hold roundup, not substantively about this earnings event"
+      },
+      {
+        "title": "67 Best Dividend Stocks for Dependable Dividend Growth",
+        "reason": "general multi-ticker dividend-aristocrats roundup, not substantively about this earnings event"
+      },
+      {
+        "title": "7 Blue-Chip Stocks to Buy and Hold Forever: November Edition",
+        "reason": "general multi-ticker buy-and-hold roundup duplicating figures already in a similarly formatted companion article, not substantively about this earnings event"
+      }
+    ]
+  },
+  "MO_2021q4": {
+    "status": "quarantined",
+    "input_article_count": 11,
+    "retained_sources": 0,
+    "rejected_sources": [
+      {
+        "title": "5 Top Dividend Stocks to Buy Now Should Still Perform Well If Stagflation Bubbles Up",
+        "reason": "general multi-ticker dividend-stock roundup, MO mentioned only in passing"
+      },
+      {
+        "title": "6 High-Yield Blue-Chips That Could Triple In The Next 5 Years",
+        "reason": "snippet-only, no full text"
+      },
+      {
+        "title": "Altria Announces Election of Two Board Members and Retirement of John T. Casteen III",
+        "reason": "snippet-only, and covers a board-composition event distinct from the earnings reaction"
+      },
+      {
+        "title": "Altria Reports 2021 Third-Quarter and Nine-Months Results; Announces Expanded Share Repurchase Program; Narrows 2021 Full-Year Earnings Guidance",
+        "reason": "snippet-only, no full text (official release headline only, no body text retrieved)"
+      },
+      {
+        "title": "Altria stock slips after adjusted profit misses expectations, while revenue beat",
+        "reason": "snippet-only, no full text (only a short API summary, no article body)"
+      },
+      {
+        "title": "Altria Group, Inc. (MO) CEO Billy Gifford on Q3 2021 Results - Earnings Call Transcript",
+        "reason": "snippet-only transcript intro, no analysis or figures"
+      },
+      {
+        "title": "Altria (MO) Q3 Earnings Miss Estimates, Revenues Down Y/Y",
+        "reason": "snippet-only, no full text"
+      },
+      {
+        "title": "Altria: Investors Overreact As Volume Declines Normalized Upwards In Q3",
+        "reason": "snippet-only opinion column, no full text"
+      },
+      {
+        "title": "Dividend Aristocrats: 5 Buys And 5 Avoids For October",
+        "reason": "snippet-only, general multi-ticker dividend roundup"
+      },
+      {
+        "title": "Friday Afternoon Analyst Upgrades and Downgrades: Altria, Apple, Caterpillar, IBM and More",
+        "reason": "general multi-ticker analyst-ratings roundup; MO mentioned only in a one-line rating-change note with no earnings analysis"
+      },
+      {
+        "title": "Altria's IQOS Sales Disappear in a Puff of Smoke",
+        "reason": "covers a separate ITC patent-litigation ruling against the IQOS device, a different event not tied by any article to the Q3 earnings-day stock move"
+      }
+    ],
+    "quarantine_reason": "No retained source contains full article text that substantively reports the Q3 2021 earnings or analyzes the reaction. The company's own earnings/guidance release, the MarketWatch premarket-reaction story, the Zacks earnings-miss story and the Seeking Alpha reaction-analysis column are all snippet-only (no full_text field); the only full-text articles available are a multi-ticker dividend-stock roundup, a multi-ticker analyst-ratings roundup, and an unrelated IQOS patent-litigation story. This fails the minimum publication gate, so the observation is quarantined rather than written from snippets alone."
+  },
+  "MTW_2022q4": {
+    "status": "quarantined",
+    "input_article_count": 4,
+    "retained_sources": 0,
+    "rejected_sources": [
+      {
+        "title": "The Manitowoc Company Reports Third-Quarter 2022 Results",
+        "reason": "snippet-only, no full text (official release headline only)"
+      },
+      {
+        "title": "The Manitowoc Company, Inc. (MTW) Tops Q3 Earnings Estimates",
+        "reason": "has usable full text reporting the EPS beat and revenue miss versus Zacks consensus, but contains no mention of the stock's reaction or any sentiment language tying either figure to the move, so the causal-attribution requirement cannot be met for any category"
+      },
+      {
+        "title": "Manitowoc's (MTW) Earnings Beat Estimates in Q3, Sales Miss",
+        "reason": "snippet-only, no full text"
+      },
+      {
+        "title": "The Manitowoc Company, Inc. (MTW) Q3 2022 Earnings Call Transcript",
+        "reason": "snippet-only transcript intro, no analysis or figures"
+      }
+    ],
+    "quarantine_reason": "Only one of four articles (Zacks, 'Tops Q3 Earnings Estimates') has usable full text, and it reports the EPS beat and revenue miss against Zacks consensus without any mention of the stock's reaction or sentiment. With no article tying any of the 10 explanatory categories to the move, even implicitly, a published write-up would have an empty category table and no real explanatory content. Quarantined as too thin to support a genuine why-moved analysis rather than publishing a category-empty entry."
+  },
+  "REZI_2021q3": {
+    "status": "quarantined",
+    "input_article_count": 3,
+    "retained_sources": 0,
+    "rejected_sources": [
+      {
+        "title": "Resideo Announces Second Quarter 2021 Financial Results",
+        "reason": "the company's own press release; has full text with results and guidance figures but no analyst expectations, consensus comparisons, or any mention of the stock's reaction, so no category can be tied to the move"
+      },
+      {
+        "title": "Week 32 MDA Breakout Stocks - August 2021: Short-Term Picks To Give You An Edge",
+        "reason": "snippet-only, general multi-ticker stock-picks roundup"
+      },
+      {
+        "title": "Resideo Technologies, Inc. (REZI) CEO Jay Geldmacher on Q2 2021 Results - Earnings Call Transcript",
+        "reason": "snippet-only transcript intro, no analysis or figures"
+      }
+    ],
+    "quarantine_reason": "The only usable-text source is Resideo's own press release, which reports results and forward guidance but contains no third-party analyst expectations, consensus comparisons, or any mention of the stock's reaction; the other two articles are snippet-only. With no article establishing an expectation gap or tying any category to the stock's move, even implicitly, a publishable why-moved analysis cannot be supported without inventing expectations or padding. Quarantined rather than published."
+  }
+}
