@@ -98,6 +98,8 @@ GROUP4_STOCKNEWS_V2_REBUILD_PATH = os.path.join(HERE, "wsj_extracted", "stocknew
 GROUP4_STOCKNEWS_V2_CODEX_SHARD_PATHS = [
     os.path.join(HERE, "wsj_extracted", f"stocknews_v2_codex_shard_{i}.json") for i in range(3)
 ]
+GROUP4_WSJ_COVERAGE_PATH = os.path.join(HERE, "data", "group4_wsj_coverage.json")
+GROUP4_WSJ_STATIC_SLUG = "wsj-group4-largecap"
 VIZ45_CHATGPT_COVERAGE_PATH = os.path.join(HERE, "data", "viz45_chatgpt_coverage.json")
 VIZ2_CHATGPT_COVERAGE_PATH = os.path.join(HERE, "data", "viz2_chatgpt_coverage.json")
 GROUP_PD_CATEGORIES_PATH = os.path.join(HERE, "data", "group_pd_categories.json")
@@ -959,6 +961,19 @@ def load_group4_stocknews_v2(mtime_marker):
             with open(path) as f:
                 result.update(json.load(f))
     return result
+
+
+@st.cache_data
+def load_group4_wsj_coverage(mtime_marker):
+    """Data Visualization 5's High-Tier Coverage -- real WSJ/Dow Jones
+    Newswires/Barron's/MarketWatch articles the user manually sourced as
+    PDFs and screenshots, matched one-to-one to specific Large Cap
+    observations, written with the same Why Moved 2 (11-category) prompt
+    as the StockNews coverage above."""
+    if not os.path.exists(GROUP4_WSJ_COVERAGE_PATH):
+        return {}
+    with open(GROUP4_WSJ_COVERAGE_PATH) as f:
+        return json.load(f)
 
 
 @st.cache_data
@@ -1853,6 +1868,7 @@ group4_stocknews_v2_lookup = load_group4_stocknews_v2(
         tuple(_mtime(p) for p in GROUP4_STOCKNEWS_V2_CODEX_SHARD_PATHS),
     )
 )
+group4_wsj_coverage_lookup = load_group4_wsj_coverage(_mtime(GROUP4_WSJ_COVERAGE_PATH))
 viz45_chatgpt_coverage_lookup = load_viz45_chatgpt_coverage(
     _mtime(VIZ45_CHATGPT_COVERAGE_PATH)
 )
@@ -3570,10 +3586,36 @@ if st.session_state.selected_section == "Data Visualization 5":
                 st.write("*No validated StockNews API coverage available for this observation.*")
         with g4_right:
             st.markdown(
-                "<div style='text-align:center; font-weight:bold;'>High-Tier Coverage</div>",
+                "<div style='text-align:center; font-weight:bold;'>High-Tier Coverage</div>"
+                "<div style='text-align:center; color:#FFD166; font-size:0.9rem; margin-bottom:0.7rem;'>"
+                "WSJ / Dow Jones Newswires</div>",
                 unsafe_allow_html=True,
             )
-            st.write("*No coverage available yet for this observation.*")
+            g4_wsj = group4_wsj_coverage_lookup.get(g4_note_key)
+            if g4_wsj:
+                for field, heading in [
+                    ("summary_analysis", "Summary Analysis"),
+                    ("explicit_reasons", "Explicit Reasons"),
+                    ("implicit_reasons", "Implicit Reasons"),
+                ]:
+                    if g4_wsj.get(field):
+                        st.html(
+                            f"<div class='context-heading'>{heading}</div>"
+                            f"<p style='margin-bottom:0.8rem; text-align:justify;'>"
+                            f"{render_inline_markdown(g4_wsj[field])}</p>"
+                        )
+                g4_wsj_source_links = "".join(
+                    render_wsj_pdf_link_html(source, GROUP4_WSJ_STATIC_SLUG)
+                    for source in g4_wsj.get("sources", [])
+                )
+                if g4_wsj_source_links:
+                    st.html(g4_wsj_source_links)
+                if st.button(
+                    "High-Tier Categories", key=f"g4_wsj_cat_{g4_note_key}", use_container_width=True
+                ):
+                    _show_why_moved_2_categories_dialog(g4_wsj, "High-Tier")
+            else:
+                st.write("*No High-Tier coverage available yet for this observation.*")
 
         st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
 
