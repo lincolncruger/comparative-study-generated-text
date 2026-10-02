@@ -85,6 +85,8 @@ GROUP_ALPHANEWS_COVERAGE_PATH = os.path.join(HERE, "data", "group_alphanews_cove
 MASSIVE_BENZINGA_COVERAGE_PATH = os.path.join(HERE, "data", "massive_benzinga_coverage.json")
 MASSIVE_NEWS_COVERAGE_PATH = os.path.join(HERE, "data", "massive_news_coverage.json")
 STOCKNEWS_COVERAGE_PATH = os.path.join(HERE, "data", "stocknews_coverage.json")
+GROUP4_STOCKNEWS_V2_CLAUDE_PATH = os.path.join(HERE, "wsj_extracted", "stocknews_v2_claude.json")
+GROUP4_STOCKNEWS_V2_REBUILD_PATH = os.path.join(HERE, "wsj_extracted", "stocknews_v2_rebuild.json")
 VIZ45_CHATGPT_COVERAGE_PATH = os.path.join(HERE, "data", "viz45_chatgpt_coverage.json")
 VIZ2_CHATGPT_COVERAGE_PATH = os.path.join(HERE, "data", "viz2_chatgpt_coverage.json")
 GROUP_PD_CATEGORIES_PATH = os.path.join(HERE, "data", "group_pd_categories.json")
@@ -899,6 +901,21 @@ def load_stocknews_coverage(mtime_marker):
         return {}
     with open(STOCKNEWS_COVERAGE_PATH) as f:
         return json.load(f)
+
+
+@st.cache_data
+def load_group4_stocknews_v2(mtime_marker):
+    """Data Visualization 5's "Why Moved 2" (v2, 11-category) StockNews
+    coverage -- a deterministic, non-overlapping split between two writers
+    (Claude processed stocknews_v2_claude.json's note keys, Codex/OpenAI
+    processed stocknews_v2_rebuild.json's), so a plain dict union is safe:
+    confirmed no key collisions between the two files."""
+    result = {}
+    for path in (GROUP4_STOCKNEWS_V2_REBUILD_PATH, GROUP4_STOCKNEWS_V2_CLAUDE_PATH):
+        if os.path.exists(path):
+            with open(path) as f:
+                result.update(json.load(f))
+    return result
 
 
 @st.cache_data
@@ -1785,6 +1802,9 @@ massive_benzinga_coverage_lookup = load_massive_benzinga_coverage(
 )
 massive_news_coverage_lookup = load_massive_news_coverage(_mtime(MASSIVE_NEWS_COVERAGE_PATH))
 stocknews_coverage_lookup = load_stocknews_coverage(_mtime(STOCKNEWS_COVERAGE_PATH))
+group4_stocknews_v2_lookup = load_group4_stocknews_v2(
+    (_mtime(GROUP4_STOCKNEWS_V2_CLAUDE_PATH), _mtime(GROUP4_STOCKNEWS_V2_REBUILD_PATH))
+)
 viz45_chatgpt_coverage_lookup = load_viz45_chatgpt_coverage(
     _mtime(VIZ45_CHATGPT_COVERAGE_PATH)
 )
@@ -2941,11 +2961,12 @@ if st.session_state.selected_section == "Data Visualization 5":
     # split once Mega Cap proved too scarce a pool to fill on its own).
     # Same nav/chart/Visualize-toggle pattern and empty "Selected
     # Coverage"/"High-Tier Coverage" columns as Data Visualization 3.
+    g4_band_tabs = list(GROUP4_GROUPS.keys()) + ["Data Analysis"]
     if "selected_g4_group" not in st.session_state:
-        st.session_state.selected_g4_group = list(GROUP4_GROUPS)[0]
+        st.session_state.selected_g4_group = g4_band_tabs[0]
 
-    g4_group_cols = st.columns(len(GROUP4_GROUPS))
-    for col, g in zip(g4_group_cols, GROUP4_GROUPS.keys()):
+    g4_group_cols = st.columns(len(g4_band_tabs))
+    for col, g in zip(g4_group_cols, g4_band_tabs):
         with col:
             is_selected = st.session_state.selected_g4_group == g
             if st.button(
@@ -2955,11 +2976,413 @@ if st.session_state.selected_section == "Data Visualization 5":
                 type="primary" if is_selected else "secondary",
             ):
                 st.session_state.selected_g4_group = g
-                st.session_state.selected_g4_ticker = GROUP4_GROUPS[g][0]
+                if g in GROUP4_GROUPS:
+                    st.session_state.selected_g4_ticker = GROUP4_GROUPS[g][0]
 
     st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
 
     selected_g4_group = st.session_state.selected_g4_group
+
+    if selected_g4_group == "Data Analysis":
+        g4_cap_scope = st.radio(
+            "Market-cap scope",
+            ["Small & Mid Cap only", "Large Cap only", "Both"],
+            horizontal=True,
+            key="g4_analysis_cap_scope",
+        )
+        if g4_cap_scope == "Small & Mid Cap only":
+            g4_scope_tickers = set(GROUP4_GROUPS["Small & Mid Cap"])
+        elif g4_cap_scope == "Large Cap only":
+            g4_scope_tickers = set(GROUP4_GROUPS["Large Cap"])
+        else:
+            g4_scope_tickers = set(GROUP4_GROUPS["Small & Mid Cap"]) | set(GROUP4_GROUPS["Large Cap"])
+
+        g4_analysis_categories = st.multiselect(
+            "Categories included in ranking",
+            WHY_MOVED_2_CATEGORIES,
+            default=WHY_MOVED_2_CATEGORIES,
+            key="g4_analysis_categories",
+            help=(
+                "Unselect any category to remove it from both the numerator and denominator. "
+                "Immediate reaction divergence identifies observations where the article's "
+                "immediate reaction and the computed two-day return have opposite signs."
+            ),
+        )
+        g4_analysis_rows = []
+        g4_analysis_source = group4_band_observations[group4_band_observations["ticker"].isin(g4_scope_tickers)]
+        for _, g4_analysis_row in g4_analysis_source.iterrows():
+            g4_analysis_key = f"{g4_analysis_row['ticker']}_{g4_analysis_row['fiscal_yearquarter']}"
+            g4_stocknews_entry = group4_stocknews_v2_lookup.get(g4_analysis_key)
+            if not g4_stocknews_entry:
+                continue
+            g4_category_cells = g4_stocknews_entry.get("categories", {})
+            g4_active_cells = [
+                g4_category_cells.get(category)
+                for category in g4_analysis_categories
+                if g4_category_cells.get(category)
+            ]
+            g4_positive_count = sum(cell.get("direction") == "positive" for cell in g4_active_cells)
+            g4_negative_count = sum(cell.get("direction") == "negative" for cell in g4_active_cells)
+            g4_explicit_count = sum(cell.get("attribution") == "explicit" for cell in g4_active_cells)
+            g4_implicit_count = sum(cell.get("attribution") == "implicit" for cell in g4_active_cells)
+            g4_active_count = len(g4_active_cells)
+            g4_category_sum = sum(
+                (1 if cell.get("direction") == "positive" else -1)
+                * (2 if cell.get("attribution") == "explicit" else 1)
+                for cell in g4_active_cells
+            )
+            # Observations with no category tied to the move are retained at a
+            # neutral score of zero so every StockNews observation stays
+            # visible; the hover label makes the zero-active case clear.
+            g4_category_score = g4_category_sum / g4_active_count if g4_active_count else 0.0
+            g4_return_metrics = group4_abnormal_returns_lookup.get(g4_analysis_key, {})
+            g4_market_model = g4_return_metrics.get("market_model") or {}
+            g4_market_adjusted = g4_return_metrics.get("market_adjusted") or {}
+            g4_analysis_rows.append(
+                {
+                    "note_key": g4_analysis_key,
+                    "ticker": g4_analysis_row["ticker"],
+                    "quarter": g4_analysis_row["fiscal_yearquarter"].upper(),
+                    "earnings_date": g4_analysis_row["earnings_date"],
+                    "category_score": g4_category_score,
+                    "category_sum": g4_category_sum,
+                    "active_categories": g4_active_count,
+                    "positive_categories": g4_positive_count,
+                    "negative_categories": g4_negative_count,
+                    "explicit_categories": g4_explicit_count,
+                    "implicit_categories": g4_implicit_count,
+                    "abnormal_return_pct": g4_market_model.get("abnormal_return_pct"),
+                    "abnormal_z_score": g4_market_model.get("z_score"),
+                    "excess_return_pct": g4_market_adjusted.get("excess_return_pct"),
+                    "excess_z_score": g4_market_adjusted.get("z_score"),
+                }
+            )
+
+        g4_analysis_df = pd.DataFrame(g4_analysis_rows)
+
+        if g4_analysis_df.empty:
+            st.info("No StockNews-covered observations in this market-cap scope yet.")
+            st.stop()
+
+        g4_return_method = st.radio(
+            "Return measure",
+            ["Excess return", "Abnormal return"],
+            horizontal=True,
+            key="g4_analysis_return_method",
+        )
+        if g4_return_method == "Excess return":
+            g4_z_column = "excess_z_score"
+            g4_return_column = "excess_return_pct"
+            g4_method_description = "market-adjusted excess return"
+        else:
+            g4_z_column = "abnormal_z_score"
+            g4_return_column = "abnormal_return_pct"
+            g4_method_description = "beta-adjusted abnormal return"
+
+        g4_absolute_filter_col1, g4_absolute_filter_col2, g4_absolute_filter_col3 = st.columns([1.2, 1, 1])
+        with g4_absolute_filter_col1:
+            g4_absolute_filter_mode = st.radio(
+                "Absolute graph Z-score filter",
+                ["Include", "Exclude"],
+                horizontal=True,
+                key="g4_absolute_z_filter_mode",
+            )
+        with g4_absolute_filter_col2:
+            g4_absolute_z_lower = st.number_input(
+                "Lower Z-score", value=-10.0, step=0.5, key="g4_absolute_z_lower"
+            )
+        with g4_absolute_filter_col3:
+            g4_absolute_z_upper = st.number_input(
+                "Upper Z-score", value=10.0, step=0.5, key="g4_absolute_z_upper"
+            )
+        g4_absolute_z_min, g4_absolute_z_max = sorted((g4_absolute_z_lower, g4_absolute_z_upper))
+
+        g4_chart_df = g4_analysis_df.dropna(subset=[g4_z_column]).copy()
+        g4_absolute_inside = g4_chart_df[g4_z_column].between(g4_absolute_z_min, g4_absolute_z_max, inclusive="both")
+        g4_chart_df = g4_chart_df[
+            g4_absolute_inside if g4_absolute_filter_mode == "Include" else ~g4_absolute_inside
+        ].copy()
+        g4_chart_df["absolute_z_score"] = g4_chart_df[g4_z_column].abs()
+
+        st.markdown(
+            "<div class='quarter-header' style='font-size:1.5rem; text-align:center;'>"
+            f"Absolute {g4_return_method} Z-Scores and StockNews Category Ranking</div>",
+            unsafe_allow_html=True,
+        )
+        st.markdown(
+            "<div style='max-width:920px; margin:0 auto 1rem auto; text-align:center; "
+            "color:rgba(214,228,240,0.82);'>"
+            "Category score = signed weighted category sum ÷ total active categories. "
+            "Explicit categories receive twice the numerator weight (±2) of implicit categories (±1). "
+            "Only categories selected above enter the numerator and denominator. "
+            "The score ranges from −2 to +2. Observations with "
+            "no active category are retained at 0 and identified in the hover details.</div>",
+            unsafe_allow_html=True,
+        )
+
+        g4_analysis_fig = go.Figure()
+        for g4_analysis_ticker in sorted(g4_chart_df["ticker"].unique()):
+            g4_ticker_points = g4_chart_df[g4_chart_df["ticker"] == g4_analysis_ticker]
+            g4_customdata = [
+                [
+                    row.note_key,
+                    row.quarter,
+                    row.earnings_date.strftime("%Y-%m-%d"),
+                    row.category_sum,
+                    row.active_categories,
+                    row.positive_categories,
+                    row.negative_categories,
+                    getattr(row, g4_z_column),
+                    getattr(row, g4_return_column),
+                    row.explicit_categories,
+                    row.implicit_categories,
+                ]
+                for row in g4_ticker_points.itertuples()
+            ]
+            g4_analysis_fig.add_trace(
+                go.Scatter(
+                    x=g4_ticker_points["category_score"],
+                    y=g4_ticker_points["absolute_z_score"],
+                    mode="markers",
+                    name=g4_analysis_ticker,
+                    customdata=g4_customdata,
+                    marker={"size": 10, "opacity": 0.78, "line": {"width": 0.6, "color": "#D6E4F0"}},
+                    hovertemplate=(
+                        "<b>%{customdata[0]}</b><br>"
+                        "Earnings: %{customdata[2]}<br>"
+                        "Absolute Z-score: %{y:.2f}σ<br>"
+                        "Signed Z-score: %{customdata[7]:+.2f}σ<br>"
+                        f"{g4_method_description.capitalize()}: %{{customdata[8]:+.2f}}%<br>"
+                        "Category score: %{x:.3f} "
+                        "(%{customdata[3]}/%{customdata[4]})<br>"
+                        "Positive: %{customdata[5]} | Negative: %{customdata[6]}<br>"
+                        "Explicit: %{customdata[9]} | Implicit: %{customdata[10]}"
+                        "<extra></extra>"
+                    ),
+                )
+            )
+        if len(g4_chart_df) >= 3 and g4_chart_df["category_score"].nunique() >= 3:
+            g4_regression_x = np.linspace(
+                g4_chart_df["category_score"].min(), g4_chart_df["category_score"].max(), 200
+            )
+            g4_regression_coefficients = np.polyfit(
+                g4_chart_df["category_score"], g4_chart_df["absolute_z_score"], 2
+            )
+            g4_regression_y = np.polyval(g4_regression_coefficients, g4_regression_x)
+            g4_fitted_y = np.polyval(g4_regression_coefficients, g4_chart_df["category_score"])
+            g4_residuals = np.asarray(g4_chart_df["absolute_z_score"] - g4_fitted_y, dtype=float)
+            g4_observed_x = np.asarray(g4_chart_df["category_score"], dtype=float)
+            g4_local_x_half_window = 0.5
+            g4_local_std = []
+            for point in g4_regression_x:
+                g4_local_residuals = g4_residuals[np.abs(g4_observed_x - point) <= g4_local_x_half_window]
+                if len(g4_local_residuals) < 3:
+                    g4_nearest = np.argsort(np.abs(g4_observed_x - point))[:min(5, len(g4_residuals))]
+                    g4_local_residuals = g4_residuals[g4_nearest]
+                g4_local_std.append(float(np.std(g4_local_residuals, ddof=1)))
+            g4_local_std = np.asarray(g4_local_std)
+            g4_analysis_fig.add_trace(
+                go.Scatter(
+                    x=g4_regression_x,
+                    y=g4_regression_y + g4_local_std,
+                    mode="lines",
+                    line={"width": 0},
+                    hoverinfo="skip",
+                    showlegend=False,
+                    legendgroup="absolute-regression-band",
+                )
+            )
+            g4_analysis_fig.add_trace(
+                go.Scatter(
+                    x=g4_regression_x,
+                    y=g4_regression_y - g4_local_std,
+                    mode="lines",
+                    line={"width": 0},
+                    fill="tonexty",
+                    fillcolor="rgba(255,209,102,0.18)",
+                    name="Local ±1 SD",
+                    hoverinfo="skip",
+                    legendgroup="absolute-regression-band",
+                )
+            )
+            g4_analysis_fig.add_trace(
+                go.Scatter(
+                    x=g4_regression_x,
+                    y=g4_regression_y,
+                    mode="lines",
+                    name="Quadratic regression",
+                    line={"color": "#FFD166", "width": 3},
+                    hovertemplate="Quadratic regression<br>Category score: %{x:.3f}<br>Predicted |Z|: %{y:.2f}σ<extra></extra>",
+                )
+            )
+        g4_analysis_fig.add_vline(x=0, line_dash="dash", line_color="rgba(214,228,240,0.45)")
+        g4_analysis_fig.update_layout(
+            xaxis_title="StockNews category ranking",
+            yaxis_title=f"Absolute {g4_method_description} Z-score (σ)",
+            xaxis={"range": [-2.08, 2.08], "tickmode": "linear", "dtick": 0.5},
+            hovermode="closest",
+            legend_title_text="Ticker",
+            height=650,
+            margin={"l": 65, "r": 35, "t": 35, "b": 65},
+        )
+        st.plotly_chart(g4_analysis_fig, use_container_width=True, key="g4_category_abnormal_scatter")
+        st.caption(
+            f"{len(g4_chart_df)} StockNews observations plotted. "
+            f"{g4_absolute_filter_mode} signed Z-scores from {g4_absolute_z_min:+.2f}σ to {g4_absolute_z_max:+.2f}σ. "
+            "Regression band: local ±1 return SD using a ±0.5 category-ranking window. "
+            f"{int((g4_analysis_df['active_categories'] == 0).sum())} observations have no active category "
+            "and are assigned a neutral score of 0."
+        )
+
+        st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+        g4_signed_filter_col1, g4_signed_filter_col2, g4_signed_filter_col3 = st.columns([1.2, 1, 1])
+        with g4_signed_filter_col1:
+            g4_signed_filter_mode = st.radio(
+                "Signed graph Z-score filter",
+                ["Include", "Exclude"],
+                horizontal=True,
+                key="g4_signed_z_filter_mode",
+            )
+        with g4_signed_filter_col2:
+            g4_signed_z_lower = st.number_input(
+                "Lower Z-score", value=-10.0, step=0.5, key="g4_signed_z_lower"
+            )
+        with g4_signed_filter_col3:
+            g4_signed_z_upper = st.number_input(
+                "Upper Z-score", value=10.0, step=0.5, key="g4_signed_z_upper"
+            )
+        g4_signed_z_min, g4_signed_z_max = sorted((g4_signed_z_lower, g4_signed_z_upper))
+
+        st.markdown(
+            f"<div class='quarter-header' style='font-size:1.5rem; text-align:center;'>"
+            f"Signed {g4_return_method} Z-Scores and StockNews Category Ranking</div>",
+            unsafe_allow_html=True,
+        )
+        st.markdown(
+            "<div style='max-width:920px; margin:0 auto 1rem auto; text-align:center; "
+            "color:rgba(214,228,240,0.82);'>"
+            "This graph uses the signed Z-score rather than its absolute value. Positive and negative "
+            "standardized market reactions therefore appear above and below zero.</div>",
+            unsafe_allow_html=True,
+        )
+
+        g4_return_chart_df = g4_analysis_df.dropna(subset=[g4_z_column]).copy()
+        g4_signed_inside = g4_return_chart_df[g4_z_column].between(g4_signed_z_min, g4_signed_z_max, inclusive="both")
+        g4_return_chart_df = g4_return_chart_df[
+            g4_signed_inside if g4_signed_filter_mode == "Include" else ~g4_signed_inside
+        ].copy()
+        g4_return_fig = go.Figure()
+        for g4_analysis_ticker in sorted(g4_return_chart_df["ticker"].unique()):
+            g4_ticker_points = g4_return_chart_df[g4_return_chart_df["ticker"] == g4_analysis_ticker]
+            g4_customdata = [
+                [
+                    row.note_key,
+                    row.quarter,
+                    row.earnings_date.strftime("%Y-%m-%d"),
+                    row.category_sum,
+                    row.active_categories,
+                    row.positive_categories,
+                    row.negative_categories,
+                    getattr(row, g4_z_column),
+                    row.explicit_categories,
+                    row.implicit_categories,
+                ]
+                for row in g4_ticker_points.itertuples()
+            ]
+            g4_return_fig.add_trace(
+                go.Scatter(
+                    x=g4_ticker_points["category_score"],
+                    y=g4_ticker_points[g4_z_column],
+                    mode="markers",
+                    name=g4_analysis_ticker,
+                    customdata=g4_customdata,
+                    marker={"size": 10, "opacity": 0.78, "line": {"width": 0.6, "color": "#D6E4F0"}},
+                    hovertemplate=(
+                        "<b>%{customdata[0]}</b><br>"
+                        "Earnings: %{customdata[2]}<br>"
+                        "Signed Z-score: %{y:+.2f}σ<br>"
+                        "Category score: %{x:.3f} "
+                        "(%{customdata[3]}/%{customdata[4]})<br>"
+                        "Positive: %{customdata[5]} | Negative: %{customdata[6]}<br>"
+                        "Explicit: %{customdata[8]} | Implicit: %{customdata[9]}"
+                        "<extra></extra>"
+                    ),
+                )
+            )
+        if len(g4_return_chart_df) >= 3 and g4_return_chart_df["category_score"].nunique() >= 3:
+            g4_regression_x = np.linspace(
+                g4_return_chart_df["category_score"].min(), g4_return_chart_df["category_score"].max(), 200
+            )
+            g4_regression_coefficients = np.polyfit(
+                g4_return_chart_df["category_score"], g4_return_chart_df[g4_z_column], 2
+            )
+            g4_regression_y = np.polyval(g4_regression_coefficients, g4_regression_x)
+            g4_fitted_y = np.polyval(g4_regression_coefficients, g4_return_chart_df["category_score"])
+            g4_residuals = np.asarray(g4_return_chart_df[g4_z_column] - g4_fitted_y, dtype=float)
+            g4_observed_x = np.asarray(g4_return_chart_df["category_score"], dtype=float)
+            g4_local_x_half_window = 0.5
+            g4_local_std = []
+            for point in g4_regression_x:
+                g4_local_residuals = g4_residuals[np.abs(g4_observed_x - point) <= g4_local_x_half_window]
+                if len(g4_local_residuals) < 3:
+                    g4_nearest = np.argsort(np.abs(g4_observed_x - point))[:min(5, len(g4_residuals))]
+                    g4_local_residuals = g4_residuals[g4_nearest]
+                g4_local_std.append(float(np.std(g4_local_residuals, ddof=1)))
+            g4_local_std = np.asarray(g4_local_std)
+            g4_return_fig.add_trace(
+                go.Scatter(
+                    x=g4_regression_x,
+                    y=g4_regression_y + g4_local_std,
+                    mode="lines",
+                    line={"width": 0},
+                    hoverinfo="skip",
+                    showlegend=False,
+                    legendgroup="signed-regression-band",
+                )
+            )
+            g4_return_fig.add_trace(
+                go.Scatter(
+                    x=g4_regression_x,
+                    y=g4_regression_y - g4_local_std,
+                    mode="lines",
+                    line={"width": 0},
+                    fill="tonexty",
+                    fillcolor="rgba(255,209,102,0.18)",
+                    name="Local ±1 SD",
+                    hoverinfo="skip",
+                    legendgroup="signed-regression-band",
+                )
+            )
+            g4_return_fig.add_trace(
+                go.Scatter(
+                    x=g4_regression_x,
+                    y=g4_regression_y,
+                    mode="lines",
+                    name="Quadratic regression",
+                    line={"color": "#FFD166", "width": 3},
+                    hovertemplate="Quadratic regression<br>Category score: %{x:.3f}<br>Predicted Z: %{y:+.2f}σ<extra></extra>",
+                )
+            )
+        g4_return_fig.add_hline(y=0, line_dash="dash", line_color="rgba(214,228,240,0.45)")
+        g4_return_fig.add_vline(x=0, line_dash="dash", line_color="rgba(214,228,240,0.45)")
+        g4_return_fig.update_layout(
+            xaxis_title="StockNews category ranking",
+            yaxis_title=f"Signed {g4_method_description} Z-score (σ)",
+            xaxis={"range": [-2.08, 2.08], "tickmode": "linear", "dtick": 0.5},
+            hovermode="closest",
+            legend_title_text="Ticker",
+            height=650,
+            margin={"l": 65, "r": 35, "t": 35, "b": 65},
+        )
+        st.plotly_chart(g4_return_fig, use_container_width=True, key="g4_category_return_scatter")
+        st.caption(
+            f"{len(g4_return_chart_df)} StockNews observations plotted with the signed "
+            f"{g4_method_description} Z-score. {g4_signed_filter_mode} signed Z-scores from "
+            f"{g4_signed_z_min:+.2f}σ to {g4_signed_z_max:+.2f}σ. "
+            "Regression band: local ±1 return SD using a ±0.5 category-ranking window."
+        )
+        st.stop()
+
     g4_group_tickers = GROUP4_GROUPS[selected_g4_group]
 
     if (
@@ -3057,7 +3480,7 @@ if st.session_state.selected_section == "Data Visualization 5":
                 "StockNews API</div>",
                 unsafe_allow_html=True,
             )
-            g4_stocknews = stocknews_coverage_lookup.get(g4_note_key)
+            g4_stocknews = group4_stocknews_v2_lookup.get(g4_note_key)
             if g4_stocknews:
                 for field, heading in [
                     ("summary_analysis", "Summary Analysis"),
