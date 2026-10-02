@@ -2458,6 +2458,7 @@ if st.session_state.selected_section == "Data Visualization 4":
             ),
         )
         analysis_rows = []
+        analysis_excluded_no_category = 0
         for _, analysis_row in dv4_rows.iterrows():
             analysis_key = analysis_row["note_key"]
             category_cells = stocknews_coverage_lookup[analysis_key].get("categories", {})
@@ -2471,15 +2472,19 @@ if st.session_state.selected_section == "Data Visualization 4":
             explicit_count = sum(cell.get("attribution") == "explicit" for cell in active_cells)
             implicit_count = sum(cell.get("attribution") == "implicit" for cell in active_cells)
             active_count = len(active_cells)
+            if active_count == 0:
+                # Has StockNews coverage, but none of the selected categories
+                # were tied to the move -- excluded rather than plotted at a
+                # neutral score, since a 0.0 category score would otherwise
+                # be indistinguishable from a genuinely neutral/mixed result.
+                analysis_excluded_no_category += 1
+                continue
             category_sum = sum(
                 (1 if cell.get("direction") == "positive" else -1)
                 * (2 if cell.get("attribution") == "explicit" else 1)
                 for cell in active_cells
             )
-            # Five retained observations have no category tied to the move.
-            # Give those a neutral score of zero so every StockNews observation
-            # remains visible; the hover label makes the zero-active case clear.
-            category_score = category_sum / active_count if active_count else 0.0
+            category_score = category_sum / active_count
             return_metrics = abnormal_returns_lookup.get(analysis_key, {})
             market_model = return_metrics.get("market_model") or {}
             market_adjusted = return_metrics.get("market_adjusted") or {}
@@ -2504,6 +2509,10 @@ if st.session_state.selected_section == "Data Visualization 4":
             )
 
         analysis_df = pd.DataFrame(analysis_rows)
+
+        if analysis_df.empty:
+            st.info("No StockNews observations with an active category in the selected set.")
+            st.stop()
 
         return_method = st.radio(
             "Return measure",
@@ -2554,8 +2563,8 @@ if st.session_state.selected_section == "Data Visualization 4":
             "Category score = signed weighted category sum ÷ total active categories. "
             "Explicit categories receive twice the numerator weight (±2) of implicit categories (±1). "
             "Only categories selected above enter the numerator and denominator. "
-            "The score ranges from −2 to +2. Observations with "
-            "no active category are retained at 0 and identified in the hover details.</div>",
+            "The score ranges from −2 to +2. Observations with StockNews coverage but no active "
+            "category are excluded from both graphs.</div>",
             unsafe_allow_html=True,
         )
 
@@ -2669,8 +2678,8 @@ if st.session_state.selected_section == "Data Visualization 4":
             f"{len(chart_df)} StockNews observations plotted. "
             f"{absolute_filter_mode} signed Z-scores from {absolute_z_min:+.2f}σ to {absolute_z_max:+.2f}σ. "
             "Regression band: local ±1 return SD using a ±0.5 category-ranking window. "
-            f"{int((analysis_df['active_categories'] == 0).sum())} observations have no active category "
-            "and are assigned a neutral score of 0."
+            f"{analysis_excluded_no_category} observations have StockNews coverage but no active "
+            "category and are excluded from both graphs."
         )
 
         st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
@@ -3031,6 +3040,7 @@ if st.session_state.selected_section == "Data Visualization 5":
             ),
         )
         g4_analysis_rows = []
+        g4_analysis_excluded_no_category = 0
         g4_analysis_source = group4_band_observations[group4_band_observations["ticker"].isin(g4_scope_tickers)]
         for _, g4_analysis_row in g4_analysis_source.iterrows():
             g4_analysis_key = f"{g4_analysis_row['ticker']}_{g4_analysis_row['fiscal_yearquarter']}"
@@ -3048,15 +3058,19 @@ if st.session_state.selected_section == "Data Visualization 5":
             g4_explicit_count = sum(cell.get("attribution") == "explicit" for cell in g4_active_cells)
             g4_implicit_count = sum(cell.get("attribution") == "implicit" for cell in g4_active_cells)
             g4_active_count = len(g4_active_cells)
+            if g4_active_count == 0:
+                # Has StockNews coverage, but none of the selected categories
+                # were tied to the move -- excluded rather than plotted at a
+                # neutral score, since a 0.0 category score would otherwise
+                # be indistinguishable from a genuinely neutral/mixed result.
+                g4_analysis_excluded_no_category += 1
+                continue
             g4_category_sum = sum(
                 (1 if cell.get("direction") == "positive" else -1)
                 * (2 if cell.get("attribution") == "explicit" else 1)
                 for cell in g4_active_cells
             )
-            # Observations with no category tied to the move are retained at a
-            # neutral score of zero so every StockNews observation stays
-            # visible; the hover label makes the zero-active case clear.
-            g4_category_score = g4_category_sum / g4_active_count if g4_active_count else 0.0
+            g4_category_score = g4_category_sum / g4_active_count
             g4_return_metrics = group4_abnormal_returns_lookup.get(g4_analysis_key, {})
             g4_market_model = g4_return_metrics.get("market_model") or {}
             g4_market_adjusted = g4_return_metrics.get("market_adjusted") or {}
@@ -3137,8 +3151,8 @@ if st.session_state.selected_section == "Data Visualization 5":
             "Category score = signed weighted category sum ÷ total active categories. "
             "Explicit categories receive twice the numerator weight (±2) of implicit categories (±1). "
             "Only categories selected above enter the numerator and denominator. "
-            "The score ranges from −2 to +2. Observations with "
-            "no active category are retained at 0 and identified in the hover details.</div>",
+            "The score ranges from −2 to +2. Observations with StockNews coverage but no active "
+            "category are excluded from both graphs.</div>",
             unsafe_allow_html=True,
         )
 
@@ -3252,8 +3266,8 @@ if st.session_state.selected_section == "Data Visualization 5":
             f"{len(g4_chart_df)} StockNews observations plotted. "
             f"{g4_absolute_filter_mode} signed Z-scores from {g4_absolute_z_min:+.2f}σ to {g4_absolute_z_max:+.2f}σ. "
             "Regression band: local ±1 return SD using a ±0.5 category-ranking window. "
-            f"{int((g4_analysis_df['active_categories'] == 0).sum())} observations have no active category "
-            "and are assigned a neutral score of 0."
+            f"{g4_analysis_excluded_no_category} observations have StockNews coverage but no active "
+            "category and are excluded from both graphs."
         )
 
         st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
