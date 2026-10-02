@@ -779,6 +779,7 @@ GROUP6_COMPANY_NAMES = {
     "AMD": "Advanced Micro Devices", "DE": "Deere & Company", "CRWD": "CrowdStrike Holdings",
 }
 GROUP6_PRICE_HISTORY_PATH = os.path.join(HERE, "data", "group6_price_history.json")
+GROUP456_MARKET_CAPS_PATH = os.path.join(HERE, "data", "group456_market_caps.json")
 
 
 @st.cache_data
@@ -787,6 +788,30 @@ def load_group6_price_history(mtime_marker):
         return None
     with open(GROUP6_PRICE_HISTORY_PATH) as f:
         return json.load(f)
+
+
+@st.cache_data
+def load_group456_market_caps(mtime_marker):
+    if not os.path.exists(GROUP456_MARKET_CAPS_PATH):
+        return {}
+    with open(GROUP456_MARKET_CAPS_PATH) as f:
+        return json.load(f)
+
+
+def format_market_cap(value):
+    """Formats a raw market-cap number (dollars) as e.g. "$1.23T"/"$456.7B"/
+    "$12.3M" -- matching the scale used throughout Data Viz 5/6/7's band
+    labels ($250M-$10B, $100B-$1T)."""
+    if value is None:
+        return "n/a"
+    value = float(value)
+    if value >= 1e12:
+        return f"${value / 1e12:.2f}T"
+    if value >= 1e9:
+        return f"${value / 1e9:.1f}B"
+    if value >= 1e6:
+        return f"${value / 1e6:.1f}M"
+    return f"${value:,.0f}"
 
 
 @st.cache_data
@@ -1803,6 +1828,7 @@ group5_band_observations = load_group5_band_observations(_mtime(GROUP_RETURNS_PA
 group5_price_history = load_group5_price_history(_mtime(GROUP5_PRICE_HISTORY_PATH))
 group6_band_observations = load_group6_band_observations(_mtime(GROUP_RETURNS_PATH))
 group6_price_history = load_group6_price_history(_mtime(GROUP6_PRICE_HISTORY_PATH))
+group456_market_caps_lookup = load_group456_market_caps(_mtime(GROUP456_MARKET_CAPS_PATH))
 group_price_history = load_group_price_history(_mtime(GROUP_PRICE_HISTORY_PATH))
 group_context_lookup = load_group_context(_mtime(GROUP_CONTEXT_PATH))
 group_abnormal_returns_lookup = load_group_abnormal_returns(_mtime(GROUP_ABNORMAL_RETURNS_PATH))
@@ -3451,7 +3477,9 @@ if st.session_state.selected_section == "Data Visualization 5":
         st.stop()
 
     st.markdown(
-        f"<div class='quarter-header' style='font-size:1.4rem; text-align:center;'>{g4_ticker} — {g4_company_name}</div>",
+        f"<div class='quarter-header' style='font-size:1.4rem; text-align:center;'>{g4_ticker} — {g4_company_name}</div>"
+        f"<div style='text-align:center; color:rgba(214,228,240,0.7); font-size:0.9rem;'>"
+        f"Market cap: {format_market_cap(group456_market_caps_lookup.get(g4_ticker))}</div>",
         unsafe_allow_html=True,
     )
     g4_period_start = g4_sub["earnings_date"].min().strftime("%Y-%m-%d")
@@ -3607,7 +3635,9 @@ if st.session_state.selected_section == "Data Visualization 6":
         st.stop()
 
     st.markdown(
-        f"<div class='quarter-header' style='font-size:1.4rem; text-align:center;'>{g5_ticker} — {g5_company_name}</div>",
+        f"<div class='quarter-header' style='font-size:1.4rem; text-align:center;'>{g5_ticker} — {g5_company_name}</div>"
+        f"<div style='text-align:center; color:rgba(214,228,240,0.7); font-size:0.9rem;'>"
+        f"Market cap: {format_market_cap(group456_market_caps_lookup.get(g5_ticker))}</div>",
         unsafe_allow_html=True,
     )
     g5_period_start = g5_sub["earnings_date"].min().strftime("%Y-%m-%d")
@@ -3752,7 +3782,9 @@ if st.session_state.selected_section == "Data Visualization 7":
         st.stop()
 
     st.markdown(
-        f"<div class='quarter-header' style='font-size:1.4rem; text-align:center;'>{g6_ticker} — {g6_company_name}</div>",
+        f"<div class='quarter-header' style='font-size:1.4rem; text-align:center;'>{g6_ticker} — {g6_company_name}</div>"
+        f"<div style='text-align:center; color:rgba(214,228,240,0.7); font-size:0.9rem;'>"
+        f"Market cap: {format_market_cap(group456_market_caps_lookup.get(g6_ticker))}</div>",
         unsafe_allow_html=True,
     )
     g6_period_start = g6_sub["earnings_date"].min().strftime("%Y-%m-%d")
