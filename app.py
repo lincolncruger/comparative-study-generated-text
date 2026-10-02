@@ -87,6 +87,17 @@ MASSIVE_NEWS_COVERAGE_PATH = os.path.join(HERE, "data", "massive_news_coverage.j
 STOCKNEWS_COVERAGE_PATH = os.path.join(HERE, "data", "stocknews_coverage.json")
 GROUP4_STOCKNEWS_V2_CLAUDE_PATH = os.path.join(HERE, "wsj_extracted", "stocknews_v2_claude.json")
 GROUP4_STOCKNEWS_V2_REBUILD_PATH = os.path.join(HERE, "wsj_extracted", "stocknews_v2_rebuild.json")
+# Codex's half of the same Data Viz 5 StockNews batch -- written as 3
+# separate shard files (24 keys each, covering all 72 of Codex's assigned
+# note keys with no overlap between shards or with Claude's 62) rather
+# than into the single stocknews_v2_rebuild.json path the handoff
+# originally named -- that file is stale leftover from before the
+# Claude/Codex key split was finalized (its 19 keys don't match either
+# side's current assignment), so it's read too but contributes nothing
+# that collides with real coverage.
+GROUP4_STOCKNEWS_V2_CODEX_SHARD_PATHS = [
+    os.path.join(HERE, "wsj_extracted", f"stocknews_v2_codex_shard_{i}.json") for i in range(3)
+]
 VIZ45_CHATGPT_COVERAGE_PATH = os.path.join(HERE, "data", "viz45_chatgpt_coverage.json")
 VIZ2_CHATGPT_COVERAGE_PATH = os.path.join(HERE, "data", "viz2_chatgpt_coverage.json")
 GROUP_PD_CATEGORIES_PATH = os.path.join(HERE, "data", "group_pd_categories.json")
@@ -908,10 +919,17 @@ def load_group4_stocknews_v2(mtime_marker):
     """Data Visualization 5's "Why Moved 2" (v2, 11-category) StockNews
     coverage -- a deterministic, non-overlapping split between two writers
     (Claude processed stocknews_v2_claude.json's note keys, Codex/OpenAI
-    processed stocknews_v2_rebuild.json's), so a plain dict union is safe:
-    confirmed no key collisions between the two files."""
+    processed the 3 stocknews_v2_codex_shard_*.json files', 24 keys each),
+    so a plain dict union is safe: confirmed no key collisions across any
+    of these files. stocknews_v2_rebuild.json is read too for
+    forward-compatibility but is currently stale (see path comment above)."""
     result = {}
-    for path in (GROUP4_STOCKNEWS_V2_REBUILD_PATH, GROUP4_STOCKNEWS_V2_CLAUDE_PATH):
+    paths = (
+        [GROUP4_STOCKNEWS_V2_REBUILD_PATH]
+        + GROUP4_STOCKNEWS_V2_CODEX_SHARD_PATHS
+        + [GROUP4_STOCKNEWS_V2_CLAUDE_PATH]
+    )
+    for path in paths:
         if os.path.exists(path):
             with open(path) as f:
                 result.update(json.load(f))
@@ -1803,7 +1821,11 @@ massive_benzinga_coverage_lookup = load_massive_benzinga_coverage(
 massive_news_coverage_lookup = load_massive_news_coverage(_mtime(MASSIVE_NEWS_COVERAGE_PATH))
 stocknews_coverage_lookup = load_stocknews_coverage(_mtime(STOCKNEWS_COVERAGE_PATH))
 group4_stocknews_v2_lookup = load_group4_stocknews_v2(
-    (_mtime(GROUP4_STOCKNEWS_V2_CLAUDE_PATH), _mtime(GROUP4_STOCKNEWS_V2_REBUILD_PATH))
+    (
+        _mtime(GROUP4_STOCKNEWS_V2_CLAUDE_PATH),
+        _mtime(GROUP4_STOCKNEWS_V2_REBUILD_PATH),
+        tuple(_mtime(p) for p in GROUP4_STOCKNEWS_V2_CODEX_SHARD_PATHS),
+    )
 )
 viz45_chatgpt_coverage_lookup = load_viz45_chatgpt_coverage(
     _mtime(VIZ45_CHATGPT_COVERAGE_PATH)
