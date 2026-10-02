@@ -74,6 +74,9 @@ GROUP_COVERAGE_ACCURACY_PATH = os.path.join(HERE, "data", "group_coverage_accura
 GROUP_RETURNS_PATH = os.path.join(HERE, "Data - Returns", "earnings_returns_clean.csv")
 GROUP_PRICE_HISTORY_PATH = os.path.join(HERE, "data", "group_price_history.json")
 GROUP_ABNORMAL_RETURNS_PATH = os.path.join(HERE, "data", "group_abnormal_returns.json")
+GROUP4_ABNORMAL_RETURNS_PATH = os.path.join(HERE, "data", "group4_abnormal_returns.json")
+GROUP5_ABNORMAL_RETURNS_PATH = os.path.join(HERE, "data", "group5_abnormal_returns.json")
+GROUP6_ABNORMAL_RETURNS_PATH = os.path.join(HERE, "data", "group6_abnormal_returns.json")
 GROUP_CONTEXT_PATH = os.path.join(HERE, "data", "group_context.json")
 GROUP_WSJ_COVERAGE_PATH = os.path.join(HERE, "data", "group_wsj_coverage.json")
 GROUP_DJNW_COVERAGE_PATH = os.path.join(HERE, "data", "group_djnw_coverage.json")
@@ -807,6 +810,30 @@ def load_group_abnormal_returns(mtime_marker):
     if not os.path.exists(GROUP_ABNORMAL_RETURNS_PATH):
         return {}
     with open(GROUP_ABNORMAL_RETURNS_PATH) as f:
+        return json.load(f)
+
+
+@st.cache_data
+def load_group4_abnormal_returns(mtime_marker):
+    if not os.path.exists(GROUP4_ABNORMAL_RETURNS_PATH):
+        return {}
+    with open(GROUP4_ABNORMAL_RETURNS_PATH) as f:
+        return json.load(f)
+
+
+@st.cache_data
+def load_group5_abnormal_returns(mtime_marker):
+    if not os.path.exists(GROUP5_ABNORMAL_RETURNS_PATH):
+        return {}
+    with open(GROUP5_ABNORMAL_RETURNS_PATH) as f:
+        return json.load(f)
+
+
+@st.cache_data
+def load_group6_abnormal_returns(mtime_marker):
+    if not os.path.exists(GROUP6_ABNORMAL_RETURNS_PATH):
+        return {}
+    with open(GROUP6_ABNORMAL_RETURNS_PATH) as f:
         return json.load(f)
 
 
@@ -1744,6 +1771,9 @@ group6_price_history = load_group6_price_history(_mtime(GROUP6_PRICE_HISTORY_PAT
 group_price_history = load_group_price_history(_mtime(GROUP_PRICE_HISTORY_PATH))
 group_context_lookup = load_group_context(_mtime(GROUP_CONTEXT_PATH))
 group_abnormal_returns_lookup = load_group_abnormal_returns(_mtime(GROUP_ABNORMAL_RETURNS_PATH))
+group4_abnormal_returns_lookup = load_group4_abnormal_returns(_mtime(GROUP4_ABNORMAL_RETURNS_PATH))
+group5_abnormal_returns_lookup = load_group5_abnormal_returns(_mtime(GROUP5_ABNORMAL_RETURNS_PATH))
+group6_abnormal_returns_lookup = load_group6_abnormal_returns(_mtime(GROUP6_ABNORMAL_RETURNS_PATH))
 group_wsj_coverage_lookup = load_group_wsj_coverage(_mtime(GROUP_WSJ_COVERAGE_PATH))
 group_djnw_coverage_lookup = load_group_djnw_coverage(_mtime(GROUP_DJNW_COVERAGE_PATH))
 group_massive_benzinga_coverage_lookup = load_group_massive_benzinga_coverage(
@@ -2250,12 +2280,14 @@ if st.session_state.selected_section == "Data Visualization 3":
         ].reset_index(drop=True)
         g3_company_name = df[df["ticker"] == g3_ticker]["company_name"].iloc[0]
         g3_price_history = price_history
+        g3_abnormal_lookup = abnormal_returns_lookup
     else:
         g3_sub = group3_band_observations[
             group3_band_observations["ticker"] == g3_ticker
         ].reset_index(drop=True)
         g3_company_name = GROUP_COMPANY_NAMES.get(g3_ticker, g3_ticker)
         g3_price_history = group_price_history
+        g3_abnormal_lookup = group_abnormal_returns_lookup
 
     if g3_sub.empty:
         st.info(f"No post-2019 observations available for {g3_ticker}.")
@@ -2294,6 +2326,9 @@ if st.session_state.selected_section == "Data Visualization 3":
         )
         g3_sp_ret_str = f"{g3_sp_ret:+.2f}%" if g3_sp_ret is not None else "n/a"
         g3_excess_str = excess_return_str(g3_ret_pct, g3_sp_ret)
+        g3_abnormal_info = g3_abnormal_lookup.get(g3_note_key, {})
+        g3_abnormal_str = abnormal_return_str(g3_abnormal_info.get("market_model"))
+        g3_ma_z_suffix = market_adjusted_z_suffix(g3_abnormal_info.get("market_adjusted"))
 
         st.markdown(
             f"<div class='quarter-header' style='text-align:center;'>{g3_row['fiscal_yearquarter'].upper()} "
@@ -2301,7 +2336,8 @@ if st.session_state.selected_section == "Data Visualization 3":
             f"<div class='quarter-header' style='text-align:center;'>2-day return {g3_ret_str} "
             f"&nbsp;|&nbsp; S&amp;P 2-day return {g3_sp_ret_str}</div>"
             f"<div style=\"text-align:center; font-size:1.3rem; font-family:'Cormorant Garamond', serif; "
-            f"color:rgba(214,228,240,0.9); margin-bottom:0.3rem;\">Excess return {g3_excess_str}</div>",
+            f"color:rgba(214,228,240,0.9); margin-bottom:0.3rem;\">Excess return {g3_excess_str}{g3_ma_z_suffix} "
+            f"&nbsp;|&nbsp; Beta-adjusted abnormal return {g3_abnormal_str}</div>",
             unsafe_allow_html=True,
         )
 
@@ -2988,6 +3024,9 @@ if st.session_state.selected_section == "Data Visualization 5":
         )
         g4_sp_ret_str = f"{g4_sp_ret:+.2f}%" if g4_sp_ret is not None else "n/a"
         g4_excess_str = excess_return_str(g4_ret_pct, g4_sp_ret)
+        g4_abnormal_info = group4_abnormal_returns_lookup.get(g4_note_key, {})
+        g4_abnormal_str = abnormal_return_str(g4_abnormal_info.get("market_model"))
+        g4_ma_z_suffix = market_adjusted_z_suffix(g4_abnormal_info.get("market_adjusted"))
 
         st.markdown(
             f"<div class='quarter-header' style='text-align:center;'>{g4_row['fiscal_yearquarter'].upper()} "
@@ -2995,7 +3034,8 @@ if st.session_state.selected_section == "Data Visualization 5":
             f"<div class='quarter-header' style='text-align:center;'>2-day return {g4_ret_str} "
             f"&nbsp;|&nbsp; S&amp;P 2-day return {g4_sp_ret_str}</div>"
             f"<div style=\"text-align:center; font-size:1.3rem; font-family:'Cormorant Garamond', serif; "
-            f"color:rgba(214,228,240,0.9); margin-bottom:0.3rem;\">Excess return {g4_excess_str}</div>",
+            f"color:rgba(214,228,240,0.9); margin-bottom:0.3rem;\">Excess return {g4_excess_str}{g4_ma_z_suffix} "
+            f"&nbsp;|&nbsp; Beta-adjusted abnormal return {g4_abnormal_str}</div>",
             unsafe_allow_html=True,
         )
 
@@ -3140,6 +3180,9 @@ if st.session_state.selected_section == "Data Visualization 6":
         )
         g5_sp_ret_str = f"{g5_sp_ret:+.2f}%" if g5_sp_ret is not None else "n/a"
         g5_excess_str = excess_return_str(g5_ret_pct, g5_sp_ret)
+        g5_abnormal_info = group5_abnormal_returns_lookup.get(g5_note_key, {})
+        g5_abnormal_str = abnormal_return_str(g5_abnormal_info.get("market_model"))
+        g5_ma_z_suffix = market_adjusted_z_suffix(g5_abnormal_info.get("market_adjusted"))
 
         st.markdown(
             f"<div class='quarter-header' style='text-align:center;'>{g5_row['fiscal_yearquarter'].upper()} "
@@ -3147,7 +3190,8 @@ if st.session_state.selected_section == "Data Visualization 6":
             f"<div class='quarter-header' style='text-align:center;'>2-day return {g5_ret_str} "
             f"&nbsp;|&nbsp; S&amp;P 2-day return {g5_sp_ret_str}</div>"
             f"<div style=\"text-align:center; font-size:1.3rem; font-family:'Cormorant Garamond', serif; "
-            f"color:rgba(214,228,240,0.9); margin-bottom:0.3rem;\">Excess return {g5_excess_str}</div>",
+            f"color:rgba(214,228,240,0.9); margin-bottom:0.3rem;\">Excess return {g5_excess_str}{g5_ma_z_suffix} "
+            f"&nbsp;|&nbsp; Beta-adjusted abnormal return {g5_abnormal_str}</div>",
             unsafe_allow_html=True,
         )
 
@@ -3281,6 +3325,9 @@ if st.session_state.selected_section == "Data Visualization 7":
         )
         g6_sp_ret_str = f"{g6_sp_ret:+.2f}%" if g6_sp_ret is not None else "n/a"
         g6_excess_str = excess_return_str(g6_ret_pct, g6_sp_ret)
+        g6_abnormal_info = group6_abnormal_returns_lookup.get(g6_note_key, {})
+        g6_abnormal_str = abnormal_return_str(g6_abnormal_info.get("market_model"))
+        g6_ma_z_suffix = market_adjusted_z_suffix(g6_abnormal_info.get("market_adjusted"))
 
         st.markdown(
             f"<div class='quarter-header' style='text-align:center;'>{g6_row['fiscal_yearquarter'].upper()} "
@@ -3288,7 +3335,8 @@ if st.session_state.selected_section == "Data Visualization 7":
             f"<div class='quarter-header' style='text-align:center;'>2-day return {g6_ret_str} "
             f"&nbsp;|&nbsp; S&amp;P 2-day return {g6_sp_ret_str}</div>"
             f"<div style=\"text-align:center; font-size:1.3rem; font-family:'Cormorant Garamond', serif; "
-            f"color:rgba(214,228,240,0.9); margin-bottom:0.3rem;\">Excess return {g6_excess_str}</div>",
+            f"color:rgba(214,228,240,0.9); margin-bottom:0.3rem;\">Excess return {g6_excess_str}{g6_ma_z_suffix} "
+            f"&nbsp;|&nbsp; Beta-adjusted abnormal return {g6_abnormal_str}</div>",
             unsafe_allow_html=True,
         )
 
