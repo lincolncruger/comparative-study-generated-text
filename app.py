@@ -3915,6 +3915,12 @@ if st.session_state.selected_section == "Data Visualization 5":
             g4_compare_method_key = "market_model"
             g4_compare_method_description = "beta-adjusted abnormal return"
 
+        g4_compare_show_links = st.checkbox(
+            "Show dotted lines linking each observation's two coverage points",
+            value=True,
+            key="g4_compare_show_links",
+        )
+
         def g4_category_score(entry):
             cells = (entry or {}).get("categories", {})
             active = [cells[c] for c in WHY_MOVED_2_CATEGORIES if cells.get(c)]
@@ -4026,6 +4032,40 @@ if st.session_state.selected_section == "Data Visualization 5":
                             hovertemplate=f"{src} regression<br>Category score: %{{x:.3f}}<br>Predicted Z: %{{y:+.2f}}σ<extra></extra>",
                         )
                     )
+
+            if g4_compare_show_links and set(g4_compare_sources) == {"Selected Coverage", "High-Tier"}:
+                # One thin dotted segment per observation connecting its
+                # Selected Coverage point to its High-Tier point (same
+                # actual return -- same y -- so the segment's horizontal
+                # length is exactly the gap between the two sources'
+                # category scores for that observation). Built as a single
+                # trace with None-separated segments rather than one trace
+                # per observation, to avoid 75 separate legend entries.
+                link_x, link_y, link_customdata = [], [], []
+                for note_key, group in g4_compare_df.groupby("note_key"):
+                    sel_row = group[group["source"] == "Selected Coverage"]
+                    wsj_row = group[group["source"] == "High-Tier"]
+                    if sel_row.empty or wsj_row.empty:
+                        continue
+                    sel_row, wsj_row = sel_row.iloc[0], wsj_row.iloc[0]
+                    link_x += [sel_row["category_score"], wsj_row["category_score"], None]
+                    link_y += [sel_row["z_score"], wsj_row["z_score"], None]
+                    gap = wsj_row["category_score"] - sel_row["category_score"]
+                    link_customdata += [[note_key, sel_row["ticker"], gap]] * 2 + [[None, None, None]]
+                g4_compare_fig.add_trace(
+                    go.Scatter(
+                        x=link_x, y=link_y, mode="lines",
+                        line={"color": "rgba(214,228,240,0.5)", "width": 1.5, "dash": "dot"},
+                        name="Selected ↔ High-Tier gap",
+                        customdata=link_customdata,
+                        hovertemplate=(
+                            "<b>%{customdata[0]}</b> (%{customdata[1]})<br>"
+                            "High-Tier − Selected category score: %{customdata[2]:+.3f}"
+                            "<extra></extra>"
+                        ),
+                    )
+                )
+
             g4_compare_fig.add_hline(y=0, line_dash="dash", line_color="rgba(214,228,240,0.45)")
             g4_compare_fig.add_vline(x=0, line_dash="dash", line_color="rgba(214,228,240,0.45)")
             g4_compare_fig.update_layout(
