@@ -4167,7 +4167,11 @@ if st.session_state.selected_section == "Data Visualization 5":
         st.html("<div style='height:3px; background:#FFD700; margin:2.5rem 0 1.5rem 0; border-radius:2px;'></div>")
         st.markdown(
             "<div class='quarter-header' style='font-size:1.7rem; text-align:center; color:#FFD700;'>"
-            "Quantitative Analysis</div>",
+            "Quantitative Analysis</div>"
+            "<div style='text-align:center; font-size:0.95rem; color:rgba(214,228,240,0.75); "
+            "font-style:italic; margin-top:0.2rem;'>Goal: compare how closely each coverage source's "
+            "category score tracks the stock's actual return, to see which source is the more precise "
+            "predictor.</div>",
             unsafe_allow_html=True,
         )
         st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
@@ -4302,7 +4306,11 @@ if st.session_state.selected_section == "Data Visualization 5":
         st.html("<div style='height:3px; background:#FFD700; margin:2.5rem 0 1.5rem 0; border-radius:2px;'></div>")
         st.markdown(
             "<div class='quarter-header' style='font-size:1.7rem; text-align:center; color:#FFD700;'>"
-            "Quantitative Analysis 2.0</div>",
+            "Quantitative Analysis 2.0</div>"
+            "<div style='text-align:center; font-size:0.95rem; color:rgba(214,228,240,0.75); "
+            "font-style:italic; margin-top:0.2rem;'>Goal: test whether Selected Coverage's edge comes "
+            "from the scoring formula's explicit-attribution weighting, or from the sources "
+            "themselves.</div>",
             unsafe_allow_html=True,
         )
         st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
@@ -4466,7 +4474,11 @@ if st.session_state.selected_section == "Data Visualization 5":
         st.html("<div style='height:3px; background:#FFD700; margin:2.5rem 0 1.5rem 0; border-radius:2px;'></div>")
         st.markdown(
             "<div class='quarter-header' style='font-size:1.7rem; text-align:center; color:#FFD700;'>"
-            "Quantitative Analysis 3.0</div>",
+            "Quantitative Analysis 3.0</div>"
+            "<div style='text-align:center; font-size:0.95rem; color:rgba(214,228,240,0.75); "
+            "font-style:italic; margin-top:0.2rem;'>Goal: test whether trusting only explicit-attribution "
+            "categories -- dropping implicit ones entirely -- improves accuracy, at the cost of sample "
+            "size.</div>",
             unsafe_allow_html=True,
         )
         st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
@@ -4610,7 +4622,11 @@ if st.session_state.selected_section == "Data Visualization 5":
         st.html("<div style='height:3px; background:#FFD700; margin:2.5rem 0 1.5rem 0; border-radius:2px;'></div>")
         st.markdown(
             "<div class='quarter-header' style='font-size:1.7rem; text-align:center; color:#FFD700;'>"
-            "Quantitative Analysis 4.0</div>",
+            "Quantitative Analysis 4.0</div>"
+            "<div style='text-align:center; font-size:0.95rem; color:rgba(214,228,240,0.75); "
+            "font-style:italic; margin-top:0.2rem;'>Goal: test whether excluding \"Macro and micro "
+            "development\" -- a category that mostly restates other categories' causes -- changes the "
+            "ranking's accuracy.</div>",
             unsafe_allow_html=True,
         )
         st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
@@ -4715,7 +4731,11 @@ if st.session_state.selected_section == "Data Visualization 5":
         st.html("<div style='height:3px; background:#FFD700; margin:2.5rem 0 1.5rem 0; border-radius:2px;'></div>")
         st.markdown(
             "<div class='quarter-header' style='font-size:1.7rem; text-align:center; color:#FFD700;'>"
-            "Qualitative Analysis</div>",
+            "Qualitative Analysis</div>"
+            "<div style='text-align:center; font-size:0.95rem; color:rgba(214,228,240,0.75); "
+            "font-style:italic; margin-top:0.2rem;'>Goal: measure how often each coverage source "
+            "actually explains why a category's outcome happened, rather than just reporting the figure "
+            "and the beat/miss verdict.</div>",
             unsafe_allow_html=True,
         )
         st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
