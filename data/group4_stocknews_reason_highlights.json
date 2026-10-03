@@ -1,0 +1,1256 @@
+{
+  "BA_2021q1": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "the slow rollout of Covid-19 vaccines would push a hoped-for travel-demand rebound to mid-to-late summer and that it would take about three years for travel to return to 2019 levels"
+    },
+    "Order book / backlog": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "helped by defense-segment revenue that rose 14% to $6.8 billion even as commercial revenue fell 37% on lower deliveries"
+    },
+    "New Product Release / Users": {
+      "has_reason": true,
+      "reason_text": "citing tougher certification requirements and weak widebody demand"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Debt, leverage and capital raise": {
+      "has_reason": false
+    },
+    "Litigation": {
+      "has_reason": true,
+      "reason_text": "a $744 million pre-tax item to settle the Department of Justice's probe into the 737 MAX program"
+    },
+    "Macro and micro development": {
+      "has_reason": false
+    }
+  },
+  "BA_2021q3": {
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "Recovering domestic air travel and the return of the 737 MAX lifted deliveries and commercial-airplane revenue, while defense and services profits helped Boeing return to profitability."
+    }
+  },
+  "BA_2021q4": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "Boeing was likely to burn even more cash in the fourth quarter as the Dreamliner delivery pause may continue through year-end"
+    },
+    "Order book / backlog": {
+      "has_reason": true,
+      "reason_text": "orders for 679 737 MAX jets since the grounding ended, which has not made up for the more than 1,000 MAX orders canceled since the grounding began"
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "a $183 million charge tied to 787 Dreamliner flaws and a $185 million charge tied to the Starliner program"
+    },
+    "Debt, leverage and capital raise": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "amid a delivery suspension tied to fuselage quality flaws that has left 105 completed Dreamliners undelivered"
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "BA_2022q2": {
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "halted 787 deliveries, supply-chain constraints and program delays, plus $212 million of charges tied to the war in Ukraine"
+    }
+  },
+  "BA_2022q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "lower defense volume and the continuing 787 delivery pause limited the benefit of higher 737 deliveries and stronger services revenue"
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "defense charges including $147 million on MQ-25 and $93 million on Starliner, plus $283 million of 787 abnormal costs, helped drive the earnings miss"
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "lower 787 deliveries, the lack of a firm Dreamliner restart date and supply and labor constraints were still restricting output"
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "BA_2022q4": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "supply-chain, labor and training constraints would continue to challenge production through 2023"
+    },
+    "Order book / backlog": {
+      "has_reason": true,
+      "reason_text": "Alaska Airlines exercised an option for 52 additional 737 MAX jets on the earnings day itself"
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "driven by $2.8 billion of new charges on fixed-price defense programs (including the KC-46A tanker and the VC-25A Air Force One jets) tied to higher estimated manufacturing and supply-chain costs"
+    }
+  },
+  "BA_2023q1": {
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "labor, supply-chain problems and abnormal costs weighed on results"
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "aircraft demand rose and supply-chain issues began to resolve"
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "BA_2023q2": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "a $245 million pretax KC-46A charge and a negative 9.2% operating margin in commercial airplanes"
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "a non-standard manufacturing process on certain 737 fuselage fittings will hurt near-term deliveries and production"
+    }
+  },
+  "BA_2023q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Order book / backlog": {
+      "has_reason": true,
+      "reason_text": "bolstered by 460 net orders in the quarter including a 220-plane Air India order and a Ryanair commitment for up to 300 737 MAX jets"
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "driven by 136 commercial deliveries versus 121 a year earlier"
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "driven by roughly $514 million of defense-segment charges, including $257 million on the Starliner program, $189 million on the T-7A trainer and $68 million on the MQ-25 drone"
+    },
+    "Debt, leverage and capital raise": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "is 'reaping the benefits of a post-pandemic recovery in commercial jets'"
+    }
+  },
+  "BA_2023q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Order book / backlog": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "unfavorable defense performance included another $482 million charge on the Air Force One program"
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "A supplier-related fuselage quality issue reduced 737 deliveries and forced Boeing to cut its annual delivery target"
+    }
+  },
+  "FTNT_2022q2": {
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "aided by growth in its Security Fabric, cloud and SD-WAN offerings"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": false
+    }
+  },
+  "FTNT_2022q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": false
+    }
+  },
+  "FTNT_2022q4": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "management citing 'the greater macro uncertainty' and a shift to 'more normalized' customer buying behavior as reasons for the cautious outlook"
+    }
+  },
+  "FTNT_2023q1": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Order book / backlog": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "the increase in cloud-connected devices was boosting demand for converged networking and security"
+    }
+  },
+  "FTNT_2023q2": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "Zacks attributed the margin strength to positive pricing actions, easing supply-chain cost pressures and discounting policies in the product segment"
+    }
+  },
+  "FTNT_2023q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "macro uncertainty affected contract durations and that an unusually large volume of enterprise deals expected to close in June slipped into future quarters"
+    }
+  },
+  "FTNT_2023q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "demand strength from small enterprise customers and growth in security subscriptions"
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "experiencing slower growth as product demand returns to normal levels following two years of elevated growth"
+    }
+  },
+  "JNJ_2021q1": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "JNJ_2021q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "growth led by a 58.7% jump in Medical Devices as deferred procedures resumed, a 14.1% rise in Pharmaceutical sales and 10% growth in Consumer Health"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Litigation": {
+      "has_reason": true,
+      "reason_text": "as its share of a $26 billion multistate opioid settlement and to stop selling opioids for ten years"
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "JNJ_2021q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "attributed to COVID-19 vaccine and medical-device sales"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "JNJ_2022q2": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "due to a global supply surplus and demand uncertainty"
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "on higher R&D and other costs"
+    },
+    "Debt, leverage and capital raise": {
+      "has_reason": false
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "JNJ_2022q3": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "expected a $4 billion currency headwind"
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "JNJ_2022q4": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "because of continued dollar strength"
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "led by a nearly 30% jump in Darzalex sales"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "A strong U.S. dollar reduced J&J's reported quarterly sales growth by about six percentage points"
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "JNJ_2023q1": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "weaker Covid-19 vaccine demand and a stronger dollar"
+    }
+  },
+  "JNJ_2023q2": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "citing foreign-exchange headwinds"
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "included Covid-19 vaccine sales of $747 million that beat one Wall Street analyst's $150 million estimate"
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "after booking a $6.9 billion one-time charge tied to the proposed talc settlement and Covid-19 vaccine commitment costs"
+    },
+    "Litigation": {
+      "has_reason": true,
+      "reason_text": "J&J's proposed $8.9 billion settlement of talc-related cancer lawsuits, which the market had expected to move toward resolution after being proposed in early April, drove the quarter's net loss."
+    },
+    "Macro and micro development": {
+      "has_reason": false
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "JNJ_2023q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": true,
+      "reason_text": "recently launched medtech products were a significant factor behind the division's higher growth trajectory"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Litigation": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "Demand for nonurgent procedures rebounded as older patients returned to surgeries deferred during the pandemic, helping medtech sales rise 12.9%"
+    }
+  },
+  "JNJ_2023q4": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "citing resilient demand for Stelara and other products"
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "medtech sales growth lagged as orthopedics and abdominal-device sales softened"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "MCD_2021q1": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "5.5% U.S. comparable-sales growth could not fully offset international weakness"
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "restaurant-closing costs and lower gains on restaurant sales weighing on profit"
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "Renewed COVID-19 restrictions in Europe drove a 7.4% decline in international operated-market comparable sales"
+    }
+  },
+  "MCD_2021q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "MCD_2021q4": {
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": true,
+      "reason_text": "Celebrity meals and the crispy-chicken sandwich helped attract customers and support sales"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Management": {
+      "has_reason": true,
+      "reason_text": "McDonald's menu, pricing and digital-ordering execution for helping the chain gain share and serve customers across channels"
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "Fewer pandemic-related restaurant closures and customer acceptance of higher prices supported the quarter despite commodity and labor inflation"
+    }
+  },
+  "MCD_2022q2": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "after commodity costs roughly doubled quarter over quarter in the U.S. and Europe"
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "which Reuters attributes to price increases and a new loyalty program, helped by grocery prices rising faster than restaurant prices"
+    },
+    "New Product Release / Users": {
+      "has_reason": true,
+      "reason_text": "had grown to 26 million members by the quarter, which the New York Post and CNN describe as having helped drive the U.S. comparable-sales gain"
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "even as GAAP earnings of $1.48 per share fell 28% year over year on Russia/Ukraine and tax-related charges"
+    },
+    "Litigation": {
+      "has_reason": true,
+      "reason_text": "McDonald's reserved $500 million, or 67 cents per share, for a potential settlement of an international tax matter"
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "The war in Ukraine forced McDonald's to temporarily close its 850 Russia and 108 Ukraine restaurants, costing $127 million in the quarter"
+    }
+  },
+  "MCD_2022q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "as price increases and value offerings supported demand"
+    },
+    "New Product Release / Users": {
+      "has_reason": true,
+      "reason_text": "the digital channel and rewards program supported stable traffic and repeat visits"
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "GAAP profit was reduced by a $1.2 billion Russia-exit charge and inflationary cost pressure"
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "the Russia and Ukraine restaurant closures, adverse currency translation, food and labor inflation, and low-income customers shifting to cheaper items weighed on reported results"
+    }
+  },
+  "MCD_2022q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "helped by higher menu prices"
+    },
+    "Debt, leverage and capital raise": {
+      "has_reason": false
+    },
+    "Management": {
+      "has_reason": true,
+      "reason_text": "the 'Accelerating the Arches' strategy, marketing campaigns such as the adult Happy Meal and the McRib 'farewell tour,' and a loyalty program he said was 'driving growth and exceeding expectations.'"
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "Consolidated revenue fell 5% because of foreign-currency translation from a strong U.S. dollar (constant-currency revenue rose 2%), while the high-inflation environment was reported as driving traffic from value-seeking, including lower-income, customers toward McDonald's"
+    }
+  },
+  "MCD_2023q1": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "MCD_2023q2": {
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "customers in some markets pushed back against menu-price increases \"more than\" the company had expected and were trimming add-on items such as fries"
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "MCD_2023q3": {
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": true,
+      "reason_text": "The limited-time Grimace campaign went viral and management said it contributed to strong U.S. comparable sales"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Management": {
+      "has_reason": true,
+      "reason_text": "Management credited execution of Accelerating the Arches, marketing and delivery for double-digit comparable-sales growth"
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "Demand in China rebounded after Covid lockdowns, while value-conscious consumers continued visiting U.S. restaurants despite inflation"
+    }
+  },
+  "MCD_2023q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "benefiting from menu price increases, marketing and digital growth"
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Debt, leverage and capital raise": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "consumers earning $45,000 or less had been visiting less frequently, contributing to a dip in U.S. traffic during the quarter amid continued inflation"
+    }
+  },
+  "MO_2021q1": {
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "with the Juul and Cronos investments weighing on performance"
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "MO_2022q2": {
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Litigation": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": false
+    }
+  },
+  "MO_2022q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "after Altria recorded a roughly $1.2 billion writedown on its Juul investment"
+    },
+    "Litigation": {
+      "has_reason": true,
+      "reason_text": "after the FDA issued marketing-denial orders on Juul's vaping products in June 2022"
+    },
+    "Macro and micro development": {
+      "has_reason": false
+    }
+  },
+  "MO_2022q4": {
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "inflation, higher rates and pressure on consumers' disposable income affected tobacco purchasing behavior and contributed to weaker shipment volumes"
+    }
+  },
+  "MO_2023q1": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "missing its own consensus by 1.57% on softer volumes in both the smokeable and oral tobacco segments"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Debt, leverage and capital raise": {
+      "has_reason": false
+    }
+  },
+  "MO_2023q3": {
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "continued declines in cigarette shipment volumes, which remained a revenue headwind"
+    }
+  },
+  "MO_2023q4": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "the update reflected planned smoke-free investment and risks from inflation and rising interest rates"
+    }
+  },
+  "MRVL_2021q1": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "takes into account the U.S. Government's export restrictions on certain Chinese customers"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "MRVL_2021q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Management": {
+      "has_reason": true,
+      "reason_text": "was able to successfully navigate global supply chain bottlenecks at a time when many of its competitors are struggling"
+    }
+  },
+  "MRVL_2022q3": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "analysts see Marvell pressured near-term by persistent supply constraints even as they expect longer-term datacenter demand growth"
+    }
+  },
+  "MRVL_2022q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "Customers used the quarter to reduce inventory, especially in storage, and management said that change in demand hurt near-term results and guidance"
+    }
+  },
+  "MRVL_2023q1": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "citing inventory corrections across its end markets"
+    },
+    "Revenue": {
+      "has_reason": false
+    }
+  },
+  "MRVL_2023q2": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "Management forecast fiscal-2024 AI revenue would at least double and continue growing rapidly"
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "MRVL_2023q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "Marvell's quarter reflected customer inventory-reduction actions and a weakening enterprise market amid ongoing macroeconomic uncertainty"
+    }
+  },
+  "MRVL_2023q4": {
+    "Guidance": {
+      "has_reason": false
+    }
+  },
+  "PH_2023q3": {
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "Zacks attributed part of the growth to the contribution of the Meggitt acquisition and operational improvement"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Debt, leverage and capital raise": {
+      "has_reason": false
+    }
+  },
+  "TMUS_2021q1": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "rose 61% year over year as Sprint's results were consolidated for the first full comparable period"
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "down 31% from $0.87 a year earlier because of $686 million in Sprint-integration costs"
+    }
+  },
+  "TMUS_2021q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "the results benefited from customer growth and higher merger synergies"
+    }
+  },
+  "TMUS_2022q2": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": false
+    }
+  },
+  "TMUS_2022q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": false
+    }
+  },
+  "TMUS_2022q4": {
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "TMUS_2023q1": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "which Reuters attributed to intensifying competition as rivals used aggressive promotions to add subscribers"
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "TMUS_2023q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "TMUS_2023q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "UBER_2021q1": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "Coverage attributed Uber's Mobility weakness (bookings down 47% year-over-year, trips down 24%) to the ongoing Covid-19 pandemic restricting travel and commuting"
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "UBER_2021q3": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "management's statement that incentive spending had peaked as support for the rebound"
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "as heavy spending was required to attract drivers"
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "UBER_2021q4": {
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "which FreightWaves attributed mainly to a mark-to-market loss on Uber's investment stake in Didi"
+    },
+    "Debt, leverage and capital raise": {
+      "has_reason": false
+    }
+  },
+  "UBER_2022q2": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "largely from $5.6 billion of investment-value declines"
+    },
+    "Macro and micro development": {
+      "has_reason": false
+    }
+  },
+  "UBER_2022q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "driven by a 55%-57% jump in mobility gross bookings as travel and ride demand rebounded"
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "driven largely by $1.7 billion in markdowns on its equity stakes in Aurora, Grab and Zomato plus $470 million of stock-based compensation"
+    },
+    "Management": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "new driver sign-ups up 76% year over year as rising living costs pushed more people to drive for Uber"
+    }
+  },
+  "UBER_2022q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "Reopening cities, booming travel and a shift in consumer spending from goods toward services supported mobility growth"
+    }
+  },
+  "UBER_2023q1": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Management": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": false
+    }
+  },
+  "UBER_2023q2": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "UBER_2023q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "Freight segment revenue fell 30% year over year to $1.28 billion amid a weak freight cycle"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "UBER_2023q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "Resilient travel and return-to-office demand supported mobility growth despite inflation"
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "VZ_2021q1": {
+    "New Product Release / Users": {
+      "has_reason": true,
+      "reason_text": "as competition from T-Mobile and AT&T intensified"
+    }
+  },
+  "VZ_2021q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "VZ_2021q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "VZ_2022q2": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "as inflation dented the forecast"
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    }
+  },
+  "VZ_2022q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": true,
+      "reason_text": "management attributed the shortfall to customers pushing back against recent price increases amid high inflation"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "VZ_2022q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Management": {
+      "has_reason": true,
+      "reason_text": "Recent pricing and fee increases were blamed for at least part of the consumer subscriber losses"
+    },
+    "Macro and micro development": {
+      "has_reason": false
+    }
+  },
+  "VZ_2023q1": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "VZ_2023q2": {
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "VZ_2023q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "driven largely by a sharp decline in low-margin wireless equipment sales even as service revenue grew"
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "net income fell 10.3% to $4.8 billion on higher selling, general and administrative costs"
+    },
+    "Debt, leverage and capital raise": {
+      "has_reason": true,
+      "reason_text": "helped by first-half free cash flow that rose to $8 billion"
+    },
+    "Capex": {
+      "has_reason": true,
+      "reason_text": "as Verizon wound down its C-band 5G buildout"
+    }
+  },
+  "VZ_2023q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  }
+}

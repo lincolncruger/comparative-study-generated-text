@@ -1,0 +1,1427 @@
+{
+  "BA_2021q1": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Order book / backlog": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "because of a $6.5 billion pretax charge on the delayed 777X program"
+    },
+    "Litigation": {
+      "has_reason": true,
+      "reason_text": "as part of a previously announced $2.5 billion settlement with the Justice Department related to the 737 MAX"
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "Quality problems with the 787 Dreamliner halted deliveries since October, and the company said the pandemic was compounding its problems by sapping demand for new planes."
+    }
+  },
+  "BA_2021q3": {
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "as jetliner deliveries quadrupled from a year earlier, including 47 of the company's 737 MAX jets"
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "the company avoided the type of charges that had dogged recent earnings reports"
+    },
+    "Debt, leverage and capital raise": {
+      "has_reason": true,
+      "reason_text": "helped by delivery payments and deposits from new jetliner sales"
+    },
+    "Management": {
+      "has_reason": false
+    }
+  },
+  "BA_2021q4": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "citing labor availability as the critical watch item"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "tied to weaker-than-specified titanium parts"
+    }
+  },
+  "BA_2022q2": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "booked $212 million in costs tied to Russia sanctions"
+    }
+  },
+  "BA_2022q3": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "amid engine and parts shortages, and defense revenues continued to disappoint"
+    },
+    "Order book / backlog": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "thanks to the jump in MAX deliveries"
+    },
+    "Litigation": {
+      "has_reason": false
+    }
+  },
+  "BA_2022q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Order book / backlog": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "as 787 Dreamliner deliveries resumed in late August"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Debt, leverage and capital raise": {
+      "has_reason": true,
+      "reason_text": "helped by a roughly $1.5 billion tax refund"
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "Executives cited supply-chain disruptions, labor shortages and inflation"
+    }
+  },
+  "BA_2023q1": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Debt, leverage and capital raise": {
+      "has_reason": false
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "BA_2023q2": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "on 130 commercial-aircraft deliveries"
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "partly reflecting a $245 million charge related to its military refueling tanker program"
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "caused by an unapproved installation technique at a supplier"
+    }
+  },
+  "BA_2023q3": {
+    "Order book / backlog": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "helped by the services business as global airline flying approached 95% of pre-pandemic levels"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "including $257 million from a further delay to the first crewed Starliner mission and $257 million tied to technical and supply-chain delays on the T-7 Red Hawk trainer and MQ-25 refueling drone"
+    }
+  },
+  "BA_2023q4": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "because of the fuselage defect"
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "traced to supplier Spirit AeroSystems, cut production to roughly half of Boeing's target rate"
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "FTNT_2021q1": {
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "FTNT_2022q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "FTNT_2022q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "FTNT_2023q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "an unusually large volume of deals expected to close in June were pushed to later quarters, and macro uncertainty hurt billings"
+    }
+  },
+  "FTNT_2023q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "the cybersecurity sector is in a cyclical downturn likely to be steeper and shorter than the last one"
+    }
+  },
+  "JNJ_2021q1": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "driven by 16% growth in pharmaceutical sales including Stelara and Darzalex"
+    },
+    "New Product Release / Users": {
+      "has_reason": true,
+      "reason_text": "given its single-dose, standard-refrigeration profile"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "as people postponed elective procedures"
+    }
+  },
+  "JNJ_2021q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "helped by a 63% jump in medical-device sales and a 13% rise in consumer-health revenue"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Litigation": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "after detecting the chemical benzene in some samples"
+    }
+  },
+  "JNJ_2021q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Management": {
+      "has_reason": false
+    },
+    "Litigation": {
+      "has_reason": true,
+      "reason_text": "a tactic meant to press toward settlement of tens of thousands of lawsuits alleging its baby powder caused ovarian cancer"
+    }
+  },
+  "JNJ_2022q2": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "citing a global supply surplus and uncertain demand"
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Management": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "on supply constraints that held back skin-care and beauty-product lines"
+    }
+  },
+  "JNJ_2022q3": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "the lowered view is largely due to the stronger dollar"
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": true,
+      "reason_text": "citing a global surplus of doses"
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "partly on inflation-driven cost increases"
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "A stronger dollar and tight Covid-19 restrictions in China, which reduced hospital procedures, curbed medical-device sales"
+    }
+  },
+  "JNJ_2022q4": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "citing the continuing impact of the stronger U.S. dollar"
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Management": {
+      "has_reason": true,
+      "reason_text": "because of broader economic pressures and in connection with the planned separation of its consumer-health business (to be called Kenvue) next year"
+    }
+  },
+  "JNJ_2023q1": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "on fewer Covid-19 vaccine sales and a stronger dollar"
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "reflecting vaccine-related and consumer-health-separation costs"
+    },
+    "Management": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "staffing shortages at hospitals continued to limit growth in procedures using J&J products"
+    }
+  },
+  "JNJ_2023q2": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Litigation": {
+      "has_reason": true,
+      "reason_text": "tied to J&J's proposal to resolve tens of thousands of lawsuits related to talc-containing powders"
+    }
+  },
+  "JNJ_2023q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "A surge in heart procedures and other elective surgeries, easing hospital staffing shortages, and a recovery in J&J's medical-device business in China from pandemic-era restrictions all helped drive the quarter's gains"
+    }
+  },
+  "JNJ_2023q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "MCD_2021q1": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "as international sales fell 7.4% on tightened Covid-19 restrictions abroad"
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "as pandemic-related costs including safety equipment and marketing ate into profit"
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "Renewed Covid-19 restrictions and indoor-dining bans, particularly in Western Europe, dragged on international sales"
+    }
+  },
+  "MCD_2021q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": true,
+      "reason_text": "New crispy chicken sandwiches, a celebrity-endorsed meal tied to K-pop group BTS, and a newly launched national loyalty program all helped boost U.S. sales"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "hiring difficulties and equipment shortages tied to supply-chain snags and a computer-chip shortage"
+    }
+  },
+  "MCD_2021q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "Fewer Covid-19-related closures in markets such as Canada, France and Germany helped sales"
+    }
+  },
+  "MCD_2022q2": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "reflecting continued inflation in food, paper and labor"
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "helped by an 8% average increase in U.S. menu prices"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "a Covid-19 case surge in China dragged down same-store sales there and U.S. guest counts fell about 1% as some diners traded down to cheaper options"
+    }
+  },
+  "MCD_2022q3": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "commodity and wage inflation, plus rising energy prices, to pressure restaurant margins for the rest of the year"
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "driven by the weaker euro and the Russia exit"
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "due in part to the pretax charge from the Russia sale"
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "connected to the sale of its Russian business, officially exiting the market in May after more than three decades of operations there"
+    }
+  },
+  "MCD_2022q4": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "because of higher rates"
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "helped by U.S. menu prices up 10% on average"
+    },
+    "New Product Release / Users": {
+      "has_reason": true,
+      "reason_text": "The Cactus Plant Flea Market Box, an adult-oriented Happy Meal promotion, helped generate U.S. sales and orders"
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "partly reflecting the Russia-related charge"
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "A weaker euro, British pound and Australian dollar reduced the dollar value of overseas sales"
+    }
+  },
+  "MCD_2023q1": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": true,
+      "reason_text": "Promotions including adult-oriented Happy Meals, the returning McRib sandwich and Halloween pails helped drive the sales beat"
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "higher costs for food ingredients, fuel and labor cut into profit margins at company-operated restaurants"
+    },
+    "Management": {
+      "has_reason": true,
+      "reason_text": "as part of a broader strategic plan to simplify operations and reduce costs globally"
+    }
+  },
+  "MCD_2023q2": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "helped by higher menu prices and increased traffic"
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "for severance and lease costs tied to its corporate restructuring"
+    },
+    "Management": {
+      "has_reason": true,
+      "reason_text": "operational improvements from the company's restaurant 'revamp' were paying off in faster, more accurate orders and improved staffing"
+    }
+  },
+  "MCD_2023q3": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "there continues to be a lot of pressure on consumers' amid still-high, if moderating, inflation"
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "helped by menu price increases, more customer orders and the viral Grimace Shake trend"
+    },
+    "New Product Release / Users": {
+      "has_reason": true,
+      "reason_text": "A viral TikTok trend around a 'Grimace Shake,' tied to the 52nd birthday of the Grimace mascot, generated billions of views and boosted U.S. same-store sales"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "consumer sentiment has not rebounded to pre-pandemic levels, with some lower-income customers ordering fewer items"
+    }
+  },
+  "MCD_2023q4": {
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "on 'strategic menu price increases'"
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "helped partly by price increases"
+    }
+  },
+  "MO_2021q1": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Debt, leverage and capital raise": {
+      "has_reason": false
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "MO_2021q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "with total cigarette shipments up 1.4% to 25.31 billion sticks, Marlboro shipments up 2.5%, and oral tobacco revenue up 5.0% to $693 million"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "MO_2021q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "total cigarette shipment volume dropped 12.9%, including an 11.9% decline in Marlboro shipments"
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "on special items tied to the ABI investment and a 5-cent charge related to the Cronos Group stake"
+    }
+  },
+  "MO_2022q2": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "which the company attributed to the October 2021 sale of its wine business"
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "MO_2022q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Litigation": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": false
+    }
+  },
+  "MO_2022q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": true,
+      "reason_text": "so it can launch its own vaping brand"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "MO_2023q1": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Debt, leverage and capital raise": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "high inflation affected adult tobacco consumers' behavior in 2022, producing elevated volume declines and accelerated share growth for discount cigarettes"
+    }
+  },
+  "MO_2023q2": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": false
+    }
+  },
+  "MO_2023q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "as a nearly 1% decline in cigarette shipment volume from a year earlier was offset by price increases"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "MO_2023q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "MRVL_2021q1": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "driven by 22% growth in the networking business on strong 5G and cloud-computing demand"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "MRVL_2021q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Debt, leverage and capital raise": {
+      "has_reason": true,
+      "reason_text": "to access a $2 billion market for Ethernet switch chips inside data centers"
+    }
+  },
+  "MRVL_2021q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "MRVL_2022q2": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Management": {
+      "has_reason": false
+    }
+  },
+  "MRVL_2022q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "inventory reductions, particularly at Marvell's storage customers, are hurting near-term results and guidance"
+    }
+  },
+  "MRVL_2023q2": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "AI has emerged as a key growth driver and forecast AI revenue in fiscal 2024 to at least double from the prior year"
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "MRVL_2023q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "MRVL_2023q4": {
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "the company was seeing softening demand in certain end markets, though strong growth in AI and cloud propped up results"
+    }
+  },
+  "PH_2021q1": {
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "helped by a land sale and a 27% year-over-year cut in selling, general and administrative expenses, to $356.6 million"
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "as the broader aerospace sector was hit hard by the pandemic-driven downturn in travel"
+    }
+  },
+  "PH_2021q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "PH_2023q1": {
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "as selling and interest expenses jumped: selling, general and administrative expenses rose to $815 million from $586 million a year earlier, and interest expense rose to $147 million from $61 million"
+    }
+  },
+  "PH_2023q2": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "TMUS_2021q1": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "integrating Sprint's stores, employees and network infrastructure"
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "reflecting the consolidation of Sprint for the first time"
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "weighed down by $686 million of merger costs in the quarter"
+    }
+  },
+  "TMUS_2021q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": true,
+      "reason_text": "ahead of rivals who had only just acquired their mid-band spectrum"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "TMUS_2021q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": true,
+      "reason_text": "as a lull in new customer additions followed the company's disclosure of a data breach"
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "as merger-integration costs jumped to $955 million from $288 million a year earlier"
+    },
+    "Macro and micro development": {
+      "has_reason": false
+    }
+  },
+  "TMUS_2022q2": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "attributed to faster-than-expected realization of Sprint merger savings"
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "down 23% year-over-year on $1.1 billion of Sprint-integration costs"
+    }
+  },
+  "TMUS_2022q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "nearly $1 billion of higher costs tied to a wired-network write-down, a legal settlement and other expenses"
+    },
+    "Litigation": {
+      "has_reason": true,
+      "reason_text": "related to the 2021 theft of data on millions of current, former and potential customers"
+    },
+    "Macro and micro development": {
+      "has_reason": false
+    }
+  },
+  "TMUS_2022q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "which the finance chief attributed to dwindling leased-smartphone-plan revenue under Sprint accounts that generates sales but doesn't contribute to service revenue"
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "including $972 million of merger-related costs and an $803 million loss on selling its wireline network to Cogent Communications Holdings for $1"
+    },
+    "Debt, leverage and capital raise": {
+      "has_reason": false
+    }
+  },
+  "TMUS_2023q1": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "on lower costs tied to the Sprint merger"
+    },
+    "Litigation": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": false
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "TMUS_2023q2": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": false
+    }
+  },
+  "TMUS_2023q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Debt, leverage and capital raise": {
+      "has_reason": false
+    }
+  },
+  "TMUS_2023q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "UBER_2021q1": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": true,
+      "reason_text": "as the CEO said the pandemic had increased consumer appetite for on-demand delivery of all goods"
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "helped by roughly a quarter of staff cut and $1 billion saved in fixed expenses"
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "UBER_2021q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "ride-hailing bookings more than doubling from last year's pandemic lows"
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "because the company spent on incentives to woo drivers amid a shortage that had driven up passenger fares"
+    },
+    "Litigation": {
+      "has_reason": true,
+      "reason_text": "Didi Global's continuing regulatory troubles with authorities in China, where Uber holds an investment stake, may negatively affect Uber's net income in the third quarter"
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "a continuing driver shortage and uncertainty about how the Delta variant would affect consumer behavior"
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "UBER_2021q4": {
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "driven by a $2 billion loss on equity investments including Didi Global"
+    },
+    "Litigation": {
+      "has_reason": true,
+      "reason_text": "after Beijing initiated a regulatory probe into the company, hurting the value of Uber's investment stake"
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "as Uber added 640,000 drivers and couriers since January"
+    }
+  },
+  "UBER_2022q2": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "helped by high ride prices and record food-delivery bookings"
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "driven by losses on stakes in Didi Global, Grab Holdings and Aurora Innovation"
+    },
+    "Litigation": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": false
+    }
+  },
+  "UBER_2022q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": true,
+      "reason_text": "weighed down by a deceleration overseas"
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "driven largely by falling values of its stakes in Didi Global, Grab Holdings and Aurora Innovation"
+    },
+    "Litigation": {
+      "has_reason": true,
+      "reason_text": "driven largely by accounting adjustments reflecting falling values of Uber's stakes in Didi Global, Grab Holdings and Aurora Innovation"
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "High inflation was pushing more people to become Uber drivers to offset rising household costs"
+    }
+  },
+  "UBER_2022q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Litigation": {
+      "has_reason": true,
+      "reason_text": "driven by falling values of Uber's stakes in Didi Global, Grab Holdings and Aurora Innovation"
+    },
+    "Macro and micro development": {
+      "has_reason": false
+    }
+  },
+  "UBER_2023q1": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": true,
+      "reason_text": "an analyst said the company's subscription program helped underpin revenue and loyalty"
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "Uber's strong results reflect the reopening economy and higher prices for rides and food delivery"
+    }
+  },
+  "UBER_2023q2": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "as the company increased its number of consumers, trips and transaction value"
+    },
+    "New Product Release / Users": {
+      "has_reason": true,
+      "reason_text": "by rolling out advertising, growing its advertiser base more than 70% to over 345,000 businesses, and expanding into higher-value items like alcohol"
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "when the bottom line was hit by plummeting values of Uber's investments in other companies"
+    },
+    "Litigation": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": false
+    }
+  },
+  "UBER_2023q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "aided by continued discipline on consumer discounts and driver incentives and improved efficiency from combining deliveries"
+    },
+    "Management": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": false
+    }
+  },
+  "UBER_2023q4": {
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "VZ_2021q1": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "on strong advertising demand"
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "including a $523 million hit from severance payments, the sale of the HuffPost media business and other one-time expenses"
+    }
+  },
+  "VZ_2021q3": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": true,
+      "reason_text": "helped by aggressive promotions and retention offers that drove churn to an ultralow 0.83%"
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "a chunk of the earnings beat came from a division Verizon has already sold"
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "given how depressed switching activity was during the pandemic"
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "VZ_2021q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  },
+  "VZ_2022q2": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "citing higher consumer prices, heavier corporate expenses and rising interest costs"
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "helped by the recent TracFone acquisition"
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "reflecting lower wireless and broadband revenue and higher costs for wireless equipment such as smartphones"
+    },
+    "Macro and micro development": {
+      "has_reason": true,
+      "reason_text": "inflation at its highest level in 40 years hitting worker wages, contractor prices, electricity and fuel costs"
+    }
+  },
+  "VZ_2022q3": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "citing cash-strapped customers and stiffer competition"
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "as the company increased device subsidies and discounts to attract customers, which the CEO said was eating into profits and was not sustainable at current levels"
+    }
+  },
+  "VZ_2022q4": {
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "mostly driven by Verizon's TracFone acquisition"
+    },
+    "New Product Release / Users": {
+      "has_reason": true,
+      "reason_text": "to higher customer churn after it instituted monthly rate increases over the summer"
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "on higher overhead costs and interest expenses"
+    },
+    "Management": {
+      "has_reason": false
+    }
+  },
+  "VZ_2023q1": {
+    "Guidance": {
+      "has_reason": true,
+      "reason_text": "with rising interest rates and phone-discount costs cited as headwinds"
+    },
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Management": {
+      "has_reason": true,
+      "reason_text": "which the article calls the latest sign of the company's struggle to appeal to nonbusiness customers"
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "VZ_2023q2": {
+    "Revenue": {
+      "has_reason": false
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    },
+    "Immediate reaction divergence": {
+      "has_reason": false
+    }
+  },
+  "VZ_2023q3": {
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "driven mostly by fewer smartphone upgrades, a trend Verizon said has persisted across the industry"
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": true,
+      "reason_text": "a figure that included severance costs tied to job cuts"
+    },
+    "Litigation": {
+      "has_reason": false
+    },
+    "Macro and micro development": {
+      "has_reason": false
+    }
+  },
+  "VZ_2023q4": {
+    "Guidance": {
+      "has_reason": false
+    },
+    "Revenue": {
+      "has_reason": true,
+      "reason_text": "Verizon attributed the decline primarily to reduced wireless equipment revenue and lower postpaid upgrade activity"
+    },
+    "New Product Release / Users": {
+      "has_reason": false
+    },
+    "Profits, costs and margin": {
+      "has_reason": false
+    }
+  }
+}

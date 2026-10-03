@@ -100,6 +100,14 @@ GROUP4_STOCKNEWS_V2_CODEX_SHARD_PATHS = [
 ]
 GROUP4_WSJ_COVERAGE_PATH = os.path.join(HERE, "data", "group4_wsj_coverage.json")
 GROUP4_WSJ_STATIC_SLUG = "wsj-group4-largecap"
+# Per-category judgment of whether Data Viz 5 Large Cap's coverage gives a
+# business-level reason for why each category's outcome happened (not just
+# a figure-vs-expectation statement, and not a reason for the STOCK's
+# reaction) -- see the "Qualitative Analysis" section below. Large Cap only:
+# High-Tier coverage doesn't exist for Small & Mid Cap, so a reason-rate
+# comparison between the two sources only makes sense where both exist.
+GROUP4_WSJ_REASON_HIGHLIGHTS_PATH = os.path.join(HERE, "data", "group4_wsj_reason_highlights.json")
+GROUP4_STOCKNEWS_REASON_HIGHLIGHTS_PATH = os.path.join(HERE, "data", "group4_stocknews_reason_highlights.json")
 VIZ45_CHATGPT_COVERAGE_PATH = os.path.join(HERE, "data", "viz45_chatgpt_coverage.json")
 VIZ2_CHATGPT_COVERAGE_PATH = os.path.join(HERE, "data", "viz2_chatgpt_coverage.json")
 GROUP_PD_CATEGORIES_PATH = os.path.join(HERE, "data", "group_pd_categories.json")
@@ -977,6 +985,22 @@ def load_group4_wsj_coverage(mtime_marker):
 
 
 @st.cache_data
+def load_group4_wsj_reason_highlights(mtime_marker):
+    if not os.path.exists(GROUP4_WSJ_REASON_HIGHLIGHTS_PATH):
+        return {}
+    with open(GROUP4_WSJ_REASON_HIGHLIGHTS_PATH) as f:
+        return json.load(f)
+
+
+@st.cache_data
+def load_group4_stocknews_reason_highlights(mtime_marker):
+    if not os.path.exists(GROUP4_STOCKNEWS_REASON_HIGHLIGHTS_PATH):
+        return {}
+    with open(GROUP4_STOCKNEWS_REASON_HIGHLIGHTS_PATH) as f:
+        return json.load(f)
+
+
+@st.cache_data
 def load_viz45_chatgpt_coverage(mtime_marker):
     if not os.path.exists(VIZ45_CHATGPT_COVERAGE_PATH):
         return {}
@@ -1175,9 +1199,16 @@ WHY_MOVED_2_CATEGORIES = [
 
 
 @st.dialog(" ", width="large")
-def _show_why_moved_2_categories_dialog(entry, source_label):
+def _show_why_moved_2_categories_dialog(entry, source_label, reason_highlights=None):
     st.markdown(f"<h2 style='text-align:center;'>{source_label} Categories</h2>", unsafe_allow_html=True)
     categories = entry.get("categories") or {}
+    if reason_highlights:
+        st.markdown(
+            "<p style='text-align:center; font-size:0.82rem; opacity:0.75; margin-top:-0.4rem;'>"
+            "<span style='color:#4A90D9; font-weight:600;'>Blue</span> text is the business-level "
+            "reason given for why that category's outcome happened, if any.</p>",
+            unsafe_allow_html=True,
+        )
     header_style = "font-weight:bold; font-size:1.05rem; padding-bottom:0.4rem; border-bottom:1px solid rgba(74,144,217,0.4);"
     rows = [
         f"<div style='{header_style}'>Category</div>"
@@ -1200,11 +1231,13 @@ def _show_why_moved_2_categories_dialog(entry, source_label):
         else:
             badge = "<span style='color:#E06C6C;'>&#9679; Negative</span>"
         attribution = (cell.get("attribution") or "").capitalize()
+        reason_cell = (reason_highlights or {}).get(category)
+        text_html = render_category_text_with_reason(cell.get("text") or "", reason_cell)
         rows.append(
             f"<div style='font-weight:600;'>{category}</div>"
             f"<div>{badge}</div>"
             f"<div>{attribution}</div>"
-            f"<div style='font-size:0.92rem; line-height:1.35;'>{render_inline_markdown(cell.get('text') or '')}</div>"
+            f"<div style='font-size:0.92rem; line-height:1.35;'>{text_html}</div>"
         )
     st.markdown(
         "<div style='display:grid; grid-template-columns: 1.3fr 0.8fr 0.8fr 3fr; "
@@ -1374,6 +1407,26 @@ def render_inline_markdown(text):
     text = text.replace("$", "&#36;")
     text = _BOLD_RE.sub(r"<strong style='color:#D8B978;'>\1</strong>", text)
     return _ITALIC_RE.sub(r"<em>\1</em>", text)
+
+
+def render_category_text_with_reason(raw_text, reason_cell):
+    """Wraps the verbatim reason-text span (if any -- see the "Qualitative
+    Analysis" section and group4_{wsj,stocknews}_reason_highlights.json) in
+    a blue highlight before running render_inline_markdown, so the $-escaping
+    there runs on the whole string uniformly rather than breaking the
+    substring match (reason_text still has a literal "$", the escaped text
+    doesn't). Wrapping must happen first for that reason. Falls back to
+    plain rendering if there's no highlight data or the stored span no
+    longer matches the current text exactly."""
+    raw_text = raw_text or ""
+    reason_text = (reason_cell or {}).get("reason_text") if (reason_cell or {}).get("has_reason") else None
+    if reason_text and reason_text in raw_text:
+        raw_text = raw_text.replace(
+            reason_text,
+            f"<span style='color:#4A90D9; font-weight:600;'>{reason_text}</span>",
+            1,
+        )
+    return render_inline_markdown(raw_text)
 
 
 def _render_context_section_html(section, note_key, si):
@@ -1869,6 +1922,10 @@ group4_stocknews_v2_lookup = load_group4_stocknews_v2(
     )
 )
 group4_wsj_coverage_lookup = load_group4_wsj_coverage(_mtime(GROUP4_WSJ_COVERAGE_PATH))
+group4_wsj_reason_highlights_lookup = load_group4_wsj_reason_highlights(_mtime(GROUP4_WSJ_REASON_HIGHLIGHTS_PATH))
+group4_stocknews_reason_highlights_lookup = load_group4_stocknews_reason_highlights(
+    _mtime(GROUP4_STOCKNEWS_REASON_HIGHLIGHTS_PATH)
+)
 viz45_chatgpt_coverage_lookup = load_viz45_chatgpt_coverage(
     _mtime(VIZ45_CHATGPT_COVERAGE_PATH)
 )
@@ -4337,6 +4394,126 @@ if st.session_state.selected_section == "Data Visualization 5":
                 unsafe_allow_html=True,
             )
 
+        # ── Qualitative Analysis -- for every active category cell in each
+        # source's OWN full observation set (not restricted to the 75
+        # shared with the other source -- "both coverages for all their
+        # respective observations", per explicit instruction), whether the
+        # text gives a business-level reason for why that category's
+        # outcome happened (not just the figure + above/below-expectation
+        # verdict, and not a reason for the STOCK's reaction -- see the
+        # Fortinet-guidance worked counterexample used to calibrate this).
+        # Computed from group4_{wsj,stocknews}_reason_highlights_lookup,
+        # which were built by two separate review passes over every cell
+        # (370 WSJ, 326 StockNews), each verified by script to (a) cover
+        # every active cell with no omissions and (b) have every
+        # reason_text be an exact substring of its source text. ──
+        st.html("<div style='height:3px; background:#FFD700; margin:2.5rem 0 1.5rem 0; border-radius:2px;'></div>")
+        st.markdown(
+            "<div class='quarter-header' style='font-size:1.7rem; text-align:center; color:#FFD700;'>"
+            "Qualitative Analysis</div>",
+            unsafe_allow_html=True,
+        )
+        st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+        def g4_qual_tally(highlights_lookup):
+            total = 0
+            reasoned = 0
+            per_category = {}
+            for cats in highlights_lookup.values():
+                for cname, cell in cats.items():
+                    total += 1
+                    has_reason = bool(cell.get("has_reason"))
+                    reasoned += int(has_reason)
+                    cat_reasoned, cat_total = per_category.get(cname, (0, 0))
+                    per_category[cname] = (cat_reasoned + int(has_reason), cat_total + 1)
+            return reasoned, total, per_category
+
+        g4_qual_wsj_reasoned, g4_qual_wsj_total, g4_qual_wsj_per_cat = g4_qual_tally(
+            group4_wsj_reason_highlights_lookup
+        )
+        g4_qual_sel_reasoned, g4_qual_sel_total, g4_qual_sel_per_cat = g4_qual_tally(
+            group4_stocknews_reason_highlights_lookup
+        )
+
+        if g4_qual_wsj_total == 0 and g4_qual_sel_total == 0:
+            st.info("No reason-highlighting data is available yet.")
+        else:
+            g4_qual_wsj_rate = g4_qual_wsj_reasoned / g4_qual_wsj_total * 100 if g4_qual_wsj_total else None
+            g4_qual_sel_rate = g4_qual_sel_reasoned / g4_qual_sel_total * 100 if g4_qual_sel_total else None
+
+            g4_qual_cat_rows = ""
+            for category in WHY_MOVED_2_CATEGORIES:
+                wsj_r, wsj_t = g4_qual_wsj_per_cat.get(category, (0, 0))
+                sel_r, sel_t = g4_qual_sel_per_cat.get(category, (0, 0))
+                if wsj_t == 0 and sel_t == 0:
+                    continue
+                wsj_cell = f"{wsj_r}/{wsj_t} ({wsj_r/wsj_t*100:.0f}%)" if wsj_t else "n/a"
+                sel_cell = f"{sel_r}/{sel_t} ({sel_r/sel_t*100:.0f}%)" if sel_t else "n/a"
+                g4_qual_cat_rows += (
+                    "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                    f"<td style='padding:6px 10px;'>{category}</td>"
+                    f"<td style='text-align:center; padding:6px 10px;'>{sel_cell}</td>"
+                    f"<td style='text-align:center; padding:6px 10px;'>{wsj_cell}</td>"
+                    "</tr>"
+                )
+
+            st.markdown(
+                "<div style='max-width:760px; margin:0 auto; color:#D6E4F0;'>"
+                "<p style='text-align:justify; margin-bottom:0.8rem;'>"
+                "Every active category cell in each source's own coverage was checked for a "
+                "<strong>reason rate</strong>: does the text explain a business-level cause for why that "
+                "category's outcome happened (a demand driver, a cost, a charge, a settlement, a named "
+                "operational factor) — not just the figure and whether it beat, missed, or matched "
+                "expectations, and not a stated cause of the stock's price reaction. Where a reason is "
+                "given, the "
+                "<span style='color:#4A90D9; font-weight:600;'>exact reason clause</span> is highlighted "
+                "in blue wherever that category's text is shown elsewhere on this page (click "
+                "\"StockNews Categories\" / \"High-Tier Categories\" on any Large Cap observation above)."
+                "</p>"
+                "<div class='context-heading'>Overall reason rate</div>"
+                "<table style='width:100%; border-collapse:collapse; margin:0.6rem 0 1rem 0; font-size:0.92rem;'>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.5);'>"
+                "<th style='text-align:left; padding:6px 10px; color:#D8B978;'></th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Selected Coverage</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>High-Tier</th>"
+                "</tr>"
+                "<tr>"
+                "<td style='padding:6px 10px;'>Category cells with a business-level reason</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qual_sel_reasoned}/{g4_qual_sel_total}"
+                f" ({g4_qual_sel_rate:.0f}%)</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qual_wsj_reasoned}/{g4_qual_wsj_total}"
+                f" ({g4_qual_wsj_rate:.0f}%)</td>"
+                "</tr>"
+                "</table>"
+                "<div class='context-heading'>By category</div>"
+                "<table style='width:100%; border-collapse:collapse; margin:0.6rem 0 1rem 0; font-size:0.88rem;'>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.5);'>"
+                "<th style='text-align:left; padding:6px 10px; color:#D8B978;'>Category</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Selected Coverage</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>High-Tier</th>"
+                "</tr>"
+                + g4_qual_cat_rows
+                + "</table>"
+                "<p style='text-align:justify; margin-bottom:0;'>"
+                "The two sources land close together overall "
+                f"({g4_qual_sel_rate:.0f}% vs. {g4_qual_wsj_rate:.0f}%), despite Selected Coverage tagging "
+                "far more of its categories \"explicit\" in the Quantitative Analysis section above -- "
+                "attribution and reason-giving are different things: a category can be tagged explicit "
+                "(the article ties it to the stock's move) while still never naming the underlying "
+                "business driver, and vice versa. \"Guidance\" is the clearest case of the former in both "
+                "sources: it's one of the least-reasoned categories even though it's usually the most "
+                "explicitly tied to the stock's reaction (the Fortinet-style pattern — figure stated, "
+                "consensus comparison stated, stock move attributed to the outlook, but no driver given "
+                "for why the outlook itself came in where it did). \"Macro and micro development\" sits at "
+                "the opposite extreme in both sources, since that category is close to definitionally a "
+                "stated cause. \"Immediate reaction divergence\" never carries a reason in either source: "
+                "every cell in that category follows the same premarket-vs-two-day-return template with "
+                "no causal content."
+                "</p>"
+                "</div>",
+                unsafe_allow_html=True,
+            )
+
         st.stop()
 
     g4_group_tickers = GROUP4_GROUPS[selected_g4_group]
@@ -4459,7 +4636,11 @@ if st.session_state.selected_section == "Data Visualization 5":
                 if st.button(
                     "StockNews Categories", key=f"g4_stocknews_cat_{g4_note_key}", use_container_width=True
                 ):
-                    _show_why_moved_2_categories_dialog(g4_stocknews, "StockNews API")
+                    _show_why_moved_2_categories_dialog(
+                        g4_stocknews,
+                        "StockNews API",
+                        group4_stocknews_reason_highlights_lookup.get(g4_note_key),
+                    )
             else:
                 st.write("*No validated StockNews API coverage available for this observation.*")
         with g4_right:
@@ -4491,7 +4672,11 @@ if st.session_state.selected_section == "Data Visualization 5":
                 if st.button(
                     "High-Tier Categories", key=f"g4_wsj_cat_{g4_note_key}", use_container_width=True
                 ):
-                    _show_why_moved_2_categories_dialog(g4_wsj, "High-Tier")
+                    _show_why_moved_2_categories_dialog(
+                        g4_wsj,
+                        "High-Tier",
+                        group4_wsj_reason_highlights_lookup.get(g4_note_key),
+                    )
             else:
                 st.write("*No High-Tier coverage available yet for this observation.*")
 
