@@ -4394,6 +4394,293 @@ if st.session_state.selected_section == "Data Visualization 5":
                 unsafe_allow_html=True,
             )
 
+        # ── Quantitative Analysis 3.0 -- opposite experiment from 2.0: instead
+        # of down-weighting the explicit/implicit distinction, drop implicit
+        # categories from the active set ENTIRELY and score using only
+        # explicit-attribution categories, each weighted 1 (no need to
+        # up-weight explicit vs. implicit when implicit isn't in the set at
+        # all). Tests "if we trust only what's explicitly tied to the move,
+        # does accuracy improve -- and how much of the 75-observation sample
+        # survives, since many observations (WSJ especially) have zero
+        # explicit categories?" Same g4_wsj_analysis_source / lookups / return
+        # method as above; doesn't touch g4_category_score or the 5 charts. ──
+        def g4_category_score_explicit_only(entry):
+            cells = (entry or {}).get("categories", {})
+            active = [cells[c] for c in WHY_MOVED_2_CATEGORIES if cells.get(c)]
+            explicit = [cell for cell in active if cell.get("attribution") == "explicit"]
+            if not explicit:
+                return None
+            total = sum(1 if cell.get("direction") == "positive" else -1 for cell in explicit)
+            return total / len(explicit)
+
+        g4_qa3_rows = []
+        g4_qa3_dropped = 0
+        for _, g4_qa3_row in g4_wsj_analysis_source.iterrows():
+            g4_qa3_key = f"{g4_qa3_row['ticker']}_{g4_qa3_row['fiscal_yearquarter']}"
+            g4_qa3_wsj_entry = group4_wsj_coverage_lookup.get(g4_qa3_key)
+            g4_qa3_sel_entry = group4_stocknews_v2_lookup.get(g4_qa3_key)
+            g4_qa3_wsj_exp = g4_category_score_explicit_only(g4_qa3_wsj_entry)
+            g4_qa3_sel_exp = g4_category_score_explicit_only(g4_qa3_sel_entry)
+            g4_qa3_wsj_orig = g4_category_score(g4_qa3_wsj_entry)
+            g4_qa3_sel_orig = g4_category_score(g4_qa3_sel_entry)
+            if g4_qa3_wsj_orig is None or g4_qa3_sel_orig is None:
+                continue
+            if g4_qa3_wsj_exp is None or g4_qa3_sel_exp is None:
+                g4_qa3_dropped += 1
+                continue
+            g4_qa3_metrics = group4_abnormal_returns_lookup.get(g4_qa3_key, {}).get(g4_compare_method_key) or {}
+            g4_qa3_z = g4_qa3_metrics.get(g4_compare_z_field)
+            g4_qa3_ret = g4_qa3_metrics.get(g4_compare_return_field)
+            if g4_qa3_z is None:
+                continue
+            g4_qa3_rows.append(
+                {
+                    "note_key": g4_qa3_key,
+                    "return_pct": g4_qa3_ret,
+                    "sel_exp": g4_qa3_sel_exp,
+                    "wsj_exp": g4_qa3_wsj_exp,
+                    "sel_orig": g4_qa3_sel_orig,
+                    "wsj_orig": g4_qa3_wsj_orig,
+                }
+            )
+        g4_qa3_df = pd.DataFrame(g4_qa3_rows)
+
+        st.html("<div style='height:3px; background:#FFD700; margin:2.5rem 0 1.5rem 0; border-radius:2px;'></div>")
+        st.markdown(
+            "<div class='quarter-header' style='font-size:1.7rem; text-align:center; color:#FFD700;'>"
+            "Quantitative Analysis 3.0</div>",
+            unsafe_allow_html=True,
+        )
+        st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+        if g4_qa3_df.empty:
+            st.info("No observations have an explicit-only category score from both sources.")
+        else:
+            def g4_qa3_sign_agreement(score_col):
+                nonzero = g4_qa3_df[(g4_qa3_df[score_col] != 0) & (g4_qa3_df["return_pct"] != 0)]
+                if nonzero.empty:
+                    return None
+                return ((nonzero[score_col] > 0) == (nonzero["return_pct"] > 0)).mean() * 100
+
+            g4_qa3_corr_sel_orig = g4_qa3_df["sel_orig"].corr(g4_qa3_df["return_pct"])
+            g4_qa3_corr_wsj_orig = g4_qa3_df["wsj_orig"].corr(g4_qa3_df["return_pct"])
+            g4_qa3_corr_sel_exp = g4_qa3_df["sel_exp"].corr(g4_qa3_df["return_pct"])
+            g4_qa3_corr_wsj_exp = g4_qa3_df["wsj_exp"].corr(g4_qa3_df["return_pct"])
+
+            g4_qa3_sign_sel_orig = g4_qa3_sign_agreement("sel_orig")
+            g4_qa3_sign_wsj_orig = g4_qa3_sign_agreement("wsj_orig")
+            g4_qa3_sign_sel_exp = g4_qa3_sign_agreement("sel_exp")
+            g4_qa3_sign_wsj_exp = g4_qa3_sign_agreement("wsj_exp")
+
+            g4_qa3_sources_agree_orig = ((g4_qa3_df["sel_orig"] > 0) == (g4_qa3_df["wsj_orig"] > 0)).mean() * 100
+            g4_qa3_sources_agree_exp = ((g4_qa3_df["sel_exp"] > 0) == (g4_qa3_df["wsj_exp"] > 0)).mean() * 100
+
+            g4_qa3_winner_orig = "Selected Coverage" if g4_qa3_corr_sel_orig >= g4_qa3_corr_wsj_orig else "High-Tier"
+            g4_qa3_winner_exp = "Selected Coverage" if g4_qa3_corr_sel_exp >= g4_qa3_corr_wsj_exp else "High-Tier"
+
+            st.markdown(
+                "<div style='max-width:760px; margin:0 auto; color:#D6E4F0;'>"
+                "<p style='text-align:justify; margin-bottom:0.8rem;'>"
+                f"{len(g4_qa3_df)} of 75 observations have at least one explicit-attribution category from "
+                f"both sources ({g4_qa3_dropped} dropped for having zero explicit categories on at least one "
+                f"side) — scored using only explicit categories, weight 1 each (no implicit categories "
+                "included at all, so no need to up-weight explicit against them)."
+                "</p>"
+                "<div class='context-heading'>All categories (explicit ×2) vs. explicit-only (×1)</div>"
+                "<table style='width:100%; border-collapse:collapse; margin:0.6rem 0 1rem 0; font-size:0.92rem;'>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.5);'>"
+                "<th style='text-align:left; padding:6px 10px; color:#D8B978;'></th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>All categories</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Explicit-only</th>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Correlation — Selected Coverage vs. return</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa3_corr_sel_orig:.2f}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa3_corr_sel_exp:.2f}</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Correlation — High-Tier vs. return</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa3_corr_wsj_orig:.2f}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa3_corr_wsj_exp:.2f}</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Sign agreement — Selected Coverage</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa3_sign_sel_orig:.0f}%</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa3_sign_sel_exp:.0f}%</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Sign agreement — High-Tier</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa3_sign_wsj_orig:.0f}%</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa3_sign_wsj_exp:.0f}%</td>"
+                "</tr>"
+                "<tr>"
+                "<td style='padding:6px 10px;'>Sources agree with each other on direction</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa3_sources_agree_orig:.0f}%</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa3_sources_agree_exp:.0f}%</td>"
+                "</tr>"
+                "</table>"
+                "<div class='context-heading'>Does it change the conclusion?</div>"
+                "<p style='text-align:justify; margin-bottom:0;'>"
+                + (
+                    f"No — {g4_qa3_winner_exp} still shows the higher correlation with the actual return "
+                    f"using only explicit categories ({g4_qa3_corr_sel_exp:.2f} vs. {g4_qa3_corr_wsj_exp:.2f}), "
+                    "same as with all categories included, though on a smaller, explicit-only-covered sample."
+                    if g4_qa3_winner_orig == g4_qa3_winner_exp
+                    else
+                    f"Yes — restricting to explicit-only categories flips which source tracks the actual "
+                    f"return more closely: {g4_qa3_winner_exp} now has the higher correlation "
+                    f"({g4_qa3_corr_sel_exp:.2f} vs. {g4_qa3_corr_wsj_exp:.2f}) on this smaller, "
+                    "explicit-only-covered sample."
+                )
+                + "</p>"
+                "</div>",
+                unsafe_allow_html=True,
+            )
+
+        # ── Quantitative Analysis 4.0 -- drop "Macro and micro development"
+        # from the active-category set entirely (original explicit ×2 /
+        # implicit ×1 weighting kept for everything else, per explicit
+        # confirmation) on the theory that it mostly restates/explains other
+        # categories rather than being its own independent driver, so
+        # including it may be double-counting. Same g4_wsj_analysis_source /
+        # lookups / return method as above; doesn't touch g4_category_score
+        # or the 5 charts. ──
+        def g4_category_score_no_macro(entry):
+            cells = (entry or {}).get("categories", {})
+            active = [
+                cells[c]
+                for c in WHY_MOVED_2_CATEGORIES
+                if c != "Macro and micro development" and cells.get(c)
+            ]
+            if not active:
+                return None
+            total = sum(
+                (1 if cell.get("direction") == "positive" else -1)
+                * (2 if cell.get("attribution") == "explicit" else 1)
+                for cell in active
+            )
+            return total / len(active)
+
+        g4_qa4_rows = []
+        for _, g4_qa4_row in g4_wsj_analysis_source.iterrows():
+            g4_qa4_key = f"{g4_qa4_row['ticker']}_{g4_qa4_row['fiscal_yearquarter']}"
+            g4_qa4_wsj_entry = group4_wsj_coverage_lookup.get(g4_qa4_key)
+            g4_qa4_sel_entry = group4_stocknews_v2_lookup.get(g4_qa4_key)
+            g4_qa4_wsj_nm = g4_category_score_no_macro(g4_qa4_wsj_entry)
+            g4_qa4_sel_nm = g4_category_score_no_macro(g4_qa4_sel_entry)
+            if g4_qa4_wsj_nm is None or g4_qa4_sel_nm is None:
+                continue
+            g4_qa4_wsj_orig = g4_category_score(g4_qa4_wsj_entry)
+            g4_qa4_sel_orig = g4_category_score(g4_qa4_sel_entry)
+            g4_qa4_metrics = group4_abnormal_returns_lookup.get(g4_qa4_key, {}).get(g4_compare_method_key) or {}
+            g4_qa4_z = g4_qa4_metrics.get(g4_compare_z_field)
+            g4_qa4_ret = g4_qa4_metrics.get(g4_compare_return_field)
+            if g4_qa4_z is None:
+                continue
+            g4_qa4_rows.append(
+                {
+                    "note_key": g4_qa4_key,
+                    "return_pct": g4_qa4_ret,
+                    "sel_nm": g4_qa4_sel_nm,
+                    "wsj_nm": g4_qa4_wsj_nm,
+                    "sel_orig": g4_qa4_sel_orig,
+                    "wsj_orig": g4_qa4_wsj_orig,
+                }
+            )
+        g4_qa4_df = pd.DataFrame(g4_qa4_rows)
+
+        st.html("<div style='height:3px; background:#FFD700; margin:2.5rem 0 1.5rem 0; border-radius:2px;'></div>")
+        st.markdown(
+            "<div class='quarter-header' style='font-size:1.7rem; text-align:center; color:#FFD700;'>"
+            "Quantitative Analysis 4.0</div>",
+            unsafe_allow_html=True,
+        )
+        st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+        if g4_qa4_df.empty:
+            st.info("No observations have a usable category score from both sources with Macro/micro removed.")
+        else:
+            def g4_qa4_sign_agreement(score_col):
+                nonzero = g4_qa4_df[(g4_qa4_df[score_col] != 0) & (g4_qa4_df["return_pct"] != 0)]
+                if nonzero.empty:
+                    return None
+                return ((nonzero[score_col] > 0) == (nonzero["return_pct"] > 0)).mean() * 100
+
+            g4_qa4_corr_sel_orig = g4_qa4_df["sel_orig"].corr(g4_qa4_df["return_pct"])
+            g4_qa4_corr_wsj_orig = g4_qa4_df["wsj_orig"].corr(g4_qa4_df["return_pct"])
+            g4_qa4_corr_sel_nm = g4_qa4_df["sel_nm"].corr(g4_qa4_df["return_pct"])
+            g4_qa4_corr_wsj_nm = g4_qa4_df["wsj_nm"].corr(g4_qa4_df["return_pct"])
+
+            g4_qa4_sign_sel_orig = g4_qa4_sign_agreement("sel_orig")
+            g4_qa4_sign_wsj_orig = g4_qa4_sign_agreement("wsj_orig")
+            g4_qa4_sign_sel_nm = g4_qa4_sign_agreement("sel_nm")
+            g4_qa4_sign_wsj_nm = g4_qa4_sign_agreement("wsj_nm")
+
+            g4_qa4_sources_agree_orig = ((g4_qa4_df["sel_orig"] > 0) == (g4_qa4_df["wsj_orig"] > 0)).mean() * 100
+            g4_qa4_sources_agree_nm = ((g4_qa4_df["sel_nm"] > 0) == (g4_qa4_df["wsj_nm"] > 0)).mean() * 100
+
+            g4_qa4_winner_orig = "Selected Coverage" if g4_qa4_corr_sel_orig >= g4_qa4_corr_wsj_orig else "High-Tier"
+            g4_qa4_winner_nm = "Selected Coverage" if g4_qa4_corr_sel_nm >= g4_qa4_corr_wsj_nm else "High-Tier"
+
+            st.markdown(
+                "<div style='max-width:760px; margin:0 auto; color:#D6E4F0;'>"
+                "<p style='text-align:justify; margin-bottom:0.8rem;'>"
+                f"Same {len(g4_qa4_df)} observations, same return method ({g4_compare_method_description}), "
+                "same explicit ×2 / implicit ×1 weighting as the 5 charts above, but \"Macro and micro "
+                "development\" is dropped from the active-category set entirely before scoring -- it mostly "
+                "restates or explains other categories' outcomes rather than standing as its own independent "
+                "driver, so including it alongside them may double-count the same underlying cause."
+                "</p>"
+                "<div class='context-heading'>With Macro/micro vs. without</div>"
+                "<table style='width:100%; border-collapse:collapse; margin:0.6rem 0 1rem 0; font-size:0.92rem;'>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.5);'>"
+                "<th style='text-align:left; padding:6px 10px; color:#D8B978;'></th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>With Macro/micro</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Without</th>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Correlation — Selected Coverage vs. return</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa4_corr_sel_orig:.2f}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa4_corr_sel_nm:.2f}</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Correlation — High-Tier vs. return</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa4_corr_wsj_orig:.2f}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa4_corr_wsj_nm:.2f}</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Sign agreement — Selected Coverage</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa4_sign_sel_orig:.0f}%</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa4_sign_sel_nm:.0f}%</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Sign agreement — High-Tier</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa4_sign_wsj_orig:.0f}%</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa4_sign_wsj_nm:.0f}%</td>"
+                "</tr>"
+                "<tr>"
+                "<td style='padding:6px 10px;'>Sources agree with each other on direction</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa4_sources_agree_orig:.0f}%</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa4_sources_agree_nm:.0f}%</td>"
+                "</tr>"
+                "</table>"
+                "<div class='context-heading'>Does it change the conclusion?</div>"
+                "<p style='text-align:justify; margin-bottom:0;'>"
+                + (
+                    f"No — {g4_qa4_winner_nm} still shows the higher correlation with the actual return "
+                    f"with Macro/micro removed ({g4_qa4_corr_sel_nm:.2f} vs. {g4_qa4_corr_wsj_nm:.2f}), same "
+                    "as with it included."
+                    if g4_qa4_winner_orig == g4_qa4_winner_nm
+                    else
+                    f"Yes — removing Macro/micro flips which source tracks the actual return more closely: "
+                    f"{g4_qa4_winner_nm} now has the higher correlation "
+                    f"({g4_qa4_corr_sel_nm:.2f} vs. {g4_qa4_corr_wsj_nm:.2f})."
+                )
+                + "</p>"
+                "</div>",
+                unsafe_allow_html=True,
+            )
+
         # ── Qualitative Analysis -- for every active category cell in each
         # source's OWN full observation set (not restricted to the 75
         # shared with the other source -- "both coverages for all their
