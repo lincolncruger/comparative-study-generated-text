@@ -3570,6 +3570,42 @@ if st.session_state.selected_section == "Data Visualization 5":
         g4_wsj_analysis_source = group4_band_observations[
             group4_band_observations["ticker"].isin(GROUP4_GROUPS["Large Cap"])
         ]
+        # Small & Mid Cap's own StockNews observations -- no High-Tier
+        # counterpart exists there, so used only to check whether each
+        # Quantitative Analysis section's tested formula change affects
+        # Small & Mid Cap's Selected Coverage the same way it affects Large
+        # Cap's, not restricted to the 75 Large-Cap-with-WSJ observations.
+        g4_smallcap_source = group4_band_observations[
+            group4_band_observations["ticker"].isin(GROUP4_GROUPS["Small & Mid Cap"])
+        ]
+
+        def g4_smallcap_stats(score_fn):
+            rows = []
+            for _, row in g4_smallcap_source.iterrows():
+                key = f"{row['ticker']}_{row['fiscal_yearquarter']}"
+                score = score_fn(group4_stocknews_v2_lookup.get(key))
+                if score is None:
+                    continue
+                metrics = group4_abnormal_returns_lookup.get(key, {}).get(g4_compare_method_key) or {}
+                ret = metrics.get(g4_compare_return_field)
+                z = metrics.get(g4_compare_z_field)
+                if z is None:
+                    continue
+                rows.append({"score": score, "return_pct": ret})
+            df = pd.DataFrame(rows)
+            if df.empty:
+                return {"n": 0, "corr": None, "sign": None}
+            corr = df["score"].corr(df["return_pct"])
+            nonzero = df[(df["score"] != 0) & (df["return_pct"] != 0)]
+            sign = ((nonzero["score"] > 0) == (nonzero["return_pct"] > 0)).mean() * 100 if not nonzero.empty else None
+            return {"n": len(df), "corr": corr, "sign": sign}
+
+        def g4_fmt_corr(value):
+            return f"{value:.2f}" if value is not None else "n/a"
+
+        def g4_fmt_pct(value):
+            return f"{value:.0f}%" if value is not None else "n/a"
+
         for _, g4_wsj_analysis_row in g4_wsj_analysis_source.iterrows():
             g4_wsj_analysis_key = f"{g4_wsj_analysis_row['ticker']}_{g4_wsj_analysis_row['fiscal_yearquarter']}"
             g4_wsj_entry = group4_wsj_coverage_lookup.get(g4_wsj_analysis_key)
@@ -4176,51 +4212,117 @@ if st.session_state.selected_section == "Data Visualization 5":
         )
         st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
 
+        # Small & Mid Cap's own Selected Coverage, original weighting -- not
+        # part of the original static write-up (left untouched below per
+        # "this one to be precise"), computed live just to extend the table
+        # with a column answering "is this the same for Small & Mid Cap?"
+        g4_qa1_sm_rows = []
+        for _, g4_qa1_sm_row in g4_smallcap_source.iterrows():
+            g4_qa1_sm_key = f"{g4_qa1_sm_row['ticker']}_{g4_qa1_sm_row['fiscal_yearquarter']}"
+            g4_qa1_sm_entry = group4_stocknews_v2_lookup.get(g4_qa1_sm_key)
+            g4_qa1_sm_score = g4_category_score(g4_qa1_sm_entry)
+            if g4_qa1_sm_score is None:
+                continue
+            g4_qa1_sm_metrics = group4_abnormal_returns_lookup.get(g4_qa1_sm_key, {}).get(g4_compare_method_key) or {}
+            g4_qa1_sm_ret = g4_qa1_sm_metrics.get(g4_compare_return_field)
+            g4_qa1_sm_z = g4_qa1_sm_metrics.get(g4_compare_z_field)
+            if g4_qa1_sm_z is None:
+                continue
+            g4_qa1_sm_cells = (g4_qa1_sm_entry or {}).get("categories", {})
+            g4_qa1_sm_active = [g4_qa1_sm_cells[c] for c in WHY_MOVED_2_CATEGORIES if g4_qa1_sm_cells.get(c)]
+            g4_qa1_sm_rows.append(
+                {
+                    "score": g4_qa1_sm_score,
+                    "return_pct": g4_qa1_sm_ret,
+                    "explicit_n": sum(c.get("attribution") == "explicit" for c in g4_qa1_sm_active),
+                    "active_n": len(g4_qa1_sm_active),
+                }
+            )
+        g4_qa1_sm_df = pd.DataFrame(g4_qa1_sm_rows)
+        g4_qa1_sm_n = len(g4_qa1_sm_df)
+        if g4_qa1_sm_n:
+            g4_qa1_sm_corr = g4_qa1_sm_df["score"].corr(g4_qa1_sm_df["return_pct"])
+            g4_qa1_sm_nonzero = g4_qa1_sm_df[(g4_qa1_sm_df["score"] != 0) & (g4_qa1_sm_df["return_pct"] != 0)]
+            g4_qa1_sm_sign = (
+                ((g4_qa1_sm_nonzero["score"] > 0) == (g4_qa1_sm_nonzero["return_pct"] > 0)).mean() * 100
+                if not g4_qa1_sm_nonzero.empty
+                else None
+            )
+            g4_qa1_sm_explicit_total = int(g4_qa1_sm_df["explicit_n"].sum())
+            g4_qa1_sm_zero_explicit = int((g4_qa1_sm_df["explicit_n"] == 0).sum())
+            g4_qa1_sm_mean_active = g4_qa1_sm_df["active_n"].mean()
+        else:
+            g4_qa1_sm_corr = g4_qa1_sm_sign = None
+            g4_qa1_sm_explicit_total = g4_qa1_sm_zero_explicit = 0
+            g4_qa1_sm_mean_active = 0.0
+
         st.markdown(
             "<div style='max-width:760px; margin:0 auto; color:#D6E4F0;'>"
             "<p style='text-align:justify; margin-bottom:0.8rem;'>"
             "I ran the actual numbers rather than eyeballing the chart — they say the two sources are "
             "not broadly the same, in a specific and explainable way."
             "</p>"
-            "<div class='context-heading'>Quantitative comparison (75 shared observations)</div>"
+            "<div class='context-heading'>Quantitative comparison (75 shared observations; "
+            f"Small &amp; Mid Cap Selected Coverage: its own {g4_qa1_sm_n} observations)</div>"
             "<table style='width:100%; border-collapse:collapse; margin:0.6rem 0 1rem 0; font-size:0.92rem;'>"
             "<tr style='border-bottom:1px solid rgba(74,144,217,0.5);'>"
             "<th style='text-align:left; padding:6px 10px; color:#D8B978;'></th>"
-            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Selected Coverage (StockNews)</th>"
-            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>High-Tier (WSJ)</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Selected Coverage<br>"
+            "<span style='font-size:0.78rem; opacity:0.75;'>(Large Cap)</span></th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>High-Tier<br>"
+            "<span style='font-size:0.78rem; opacity:0.75;'>(Large Cap)</span></th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Selected Coverage<br>"
+            "<span style='font-size:0.78rem; opacity:0.75;'>(Small &amp; Mid Cap)</span></th>"
             "</tr>"
             "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
             "<td style='padding:6px 10px;'>Correlation: category score vs. actual return</td>"
             "<td style='text-align:center; padding:6px 10px;'><strong style='color:#D8B978;'>0.71</strong></td>"
             "<td style='text-align:center; padding:6px 10px;'>0.59</td>"
+            f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa1_sm_corr)}</td>"
             "</tr>"
             "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
             "<td style='padding:6px 10px;'>Sign agreement with actual move</td>"
             "<td style='text-align:center; padding:6px 10px;'><strong style='color:#D8B978;'>68%</strong></td>"
             "<td style='text-align:center; padding:6px 10px;'>51% (barely above a coin flip)</td>"
+            f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa1_sm_sign)}</td>"
             "</tr>"
             "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
             "<td style='padding:6px 10px;'>Explicit-attribution tags (total)</td>"
             "<td style='text-align:center; padding:6px 10px;'><strong style='color:#D8B978;'>140</strong></td>"
             "<td style='text-align:center; padding:6px 10px;'>73</td>"
+            f"<td style='text-align:center; padding:6px 10px;'>{g4_qa1_sm_explicit_total}</td>"
             "</tr>"
             "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
             "<td style='padding:6px 10px;'>Observations with zero explicit tags</td>"
             "<td style='text-align:center; padding:6px 10px;'>9 of 75</td>"
             "<td style='text-align:center; padding:6px 10px;'><strong style='color:#D8B978;'>38 of 75</strong></td>"
+            f"<td style='text-align:center; padding:6px 10px;'>{g4_qa1_sm_zero_explicit} of {g4_qa1_sm_n}</td>"
             "</tr>"
             "<tr>"
             "<td style='padding:6px 10px;'>Mean active categories per observation</td>"
             "<td style='text-align:center; padding:6px 10px;'>4.1</td>"
             "<td style='text-align:center; padding:6px 10px;'>4.4</td>"
+            f"<td style='text-align:center; padding:6px 10px;'>{g4_qa1_sm_mean_active:.1f}</td>"
             "</tr>"
             "</table>"
             "<ul style='padding-left:1.2rem; margin-bottom:0.8rem;'>"
-            "<li style='margin-bottom:0.3rem;'>The two sources agree on direction with each other only "
-            "<strong style='color:#D8B978;'>56%</strong> of the time, and typically differ by "
+            "<li style='margin-bottom:0.3rem;'>The two Large Cap sources agree on direction with each "
+            "other only <strong style='color:#D8B978;'>56%</strong> of the time, and typically differ by "
             "<strong style='color:#D8B978;'>0.75 points</strong> on the −2 to +2 scale — not a small gap.</li>"
-            "<li>By this scoring system, <strong style='color:#D8B978;'>Selected Coverage is the more "
-            "precise predictor</strong> of which way the stock actually moved.</li>"
+            "<li style='margin-bottom:0.3rem;'>By this scoring system, <strong style='color:#D8B978;'>"
+            "Selected Coverage is the more precise predictor</strong> of which way the stock actually "
+            "moved, for Large Cap.</li>"
+            "<li>Selected Coverage's own correlation with the actual return is "
+            f"<strong style='color:#D8B978;'>{g4_fmt_corr(g4_qa1_sm_corr)}</strong> for Small &amp; Mid Cap, "
+            "versus 0.71 for Large Cap — "
+            + (
+                "close to the same, so this isn't a Large-Cap-specific effect."
+                if g4_qa1_sm_corr is not None and abs(g4_qa1_sm_corr - 0.71) <= 0.1
+                else "a noticeably different number, so cap size may matter here too."
+                if g4_qa1_sm_corr is not None
+                else "not computable (no Small & Mid Cap observations had a usable score)."
+            )
+            + "</li>"
             "</ul>"
             "<p style='text-align:justify; margin-bottom:0.8rem;'>"
             "<strong style='color:#D8B978;'>Why</strong> — I read the biggest disagreements to find out, "
@@ -4346,13 +4448,21 @@ if st.session_state.selected_section == "Data Visualization 5":
             # so the "narrows / doesn't narrow" claim never contradicts its own numbers.
             g4_qa2_gap_narrowed = g4_qa2_meandiff_eq < g4_qa2_meandiff_orig
 
+            # Selected Coverage's own Small & Mid Cap observations, under
+            # both weighting variants -- no High-Tier/"sources agree" rows
+            # apply there (no High-Tier coverage exists for that band).
+            g4_qa2_sm_orig = g4_smallcap_stats(g4_category_score)
+            g4_qa2_sm_eq = g4_smallcap_stats(g4_category_score_eq)
+
             st.markdown(
                 "<div style='max-width:760px; margin:0 auto; color:#D6E4F0;'>"
                 "<p style='text-align:justify; margin-bottom:0.8rem;'>"
                 f"Same {len(g4_qa2_df)} observations, same return method ({g4_compare_method_description}), "
                 "but the category-score formula now weights an explicit-attribution category the same as "
                 "an implicit one (weight 1 instead of 2) — isolating how much of the original gap between "
-                "the two sources was coming from the weighting choice itself, rather than from the sources."
+                "the two sources was coming from the weighting choice itself, rather than from the sources. "
+                "Selected Coverage's Small &amp; Mid Cap rows below use its own "
+                f"{g4_qa2_sm_orig['n']} observations (no High-Tier counterpart exists there)."
                 "</p>"
                 "<div class='context-heading'>Original weighting (explicit ×2) vs. equal weighting (×1)</div>"
                 "<table style='width:100%; border-collapse:collapse; margin:0.6rem 0 1rem 0; font-size:0.92rem;'>"
@@ -4380,6 +4490,16 @@ if st.session_state.selected_section == "Data Visualization 5":
                 "<td style='padding:6px 10px;'>Sign agreement — High-Tier</td>"
                 f"<td style='text-align:center; padding:6px 10px;'>{g4_qa2_sign_wsj_orig:.0f}%</td>"
                 f"<td style='text-align:center; padding:6px 10px;'>{g4_qa2_sign_wsj_eq:.0f}%</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Correlation — Selected Coverage (Small &amp; Mid Cap)</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa2_sm_orig['corr'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa2_sm_eq['corr'])}</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Sign agreement — Selected Coverage (Small &amp; Mid Cap)</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa2_sm_orig['sign'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa2_sm_eq['sign'])}</td>"
                 "</tr>"
                 "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
                 "<td style='padding:6px 10px;'>Sources agree with each other on direction</td>"
@@ -4414,6 +4534,23 @@ if st.session_state.selected_section == "Data Visualization 5":
                     "Interestingly, the gap between the two sources does not narrow under equal weighting "
                     f"(mean score gap {g4_qa2_meandiff_orig:.2f} → {g4_qa2_meandiff_eq:.2f}), which suggests "
                     "the original gap was not purely an artifact of the explicit-attribution weighting."
+                )
+                + (
+                    " Selected Coverage's Small &amp; Mid Cap correlation moves "
+                    f"{g4_fmt_corr(g4_qa2_sm_orig['corr'])} → {g4_fmt_corr(g4_qa2_sm_eq['corr'])} under the same "
+                    "weighting change — "
+                    + (
+                        "the same direction as Large Cap's Selected Coverage move, for whatever that's worth "
+                        f"on {g4_qa2_sm_orig['n']} observations."
+                        if (g4_qa2_sm_eq['corr'] - g4_qa2_sm_orig['corr'])
+                        * (g4_qa2_corr_sel_eq - g4_qa2_corr_sel_orig)
+                        >= 0
+                        else
+                        "the opposite direction from Large Cap's Selected Coverage move, though on a much "
+                        f"smaller sample ({g4_qa2_sm_orig['n']} observations)."
+                    )
+                    if g4_qa2_sm_orig["corr"] is not None and g4_qa2_sm_eq["corr"] is not None
+                    else ""
                 )
                 + "</p>"
                 "</div>",
@@ -4508,13 +4645,18 @@ if st.session_state.selected_section == "Data Visualization 5":
             g4_qa3_winner_orig = "Selected Coverage" if g4_qa3_corr_sel_orig >= g4_qa3_corr_wsj_orig else "High-Tier"
             g4_qa3_winner_exp = "Selected Coverage" if g4_qa3_corr_sel_exp >= g4_qa3_corr_wsj_exp else "High-Tier"
 
+            g4_qa3_sm_orig = g4_smallcap_stats(g4_category_score)
+            g4_qa3_sm_exp = g4_smallcap_stats(g4_category_score_explicit_only)
+
             st.markdown(
                 "<div style='max-width:760px; margin:0 auto; color:#D6E4F0;'>"
                 "<p style='text-align:justify; margin-bottom:0.8rem;'>"
                 f"{len(g4_qa3_df)} of 75 observations have at least one explicit-attribution category from "
                 f"both sources ({g4_qa3_dropped} dropped for having zero explicit categories on at least one "
                 f"side) — scored using only explicit categories, weight 1 each (no implicit categories "
-                "included at all, so no need to up-weight explicit against them)."
+                "included at all, so no need to up-weight explicit against them). Selected Coverage's "
+                f"Small &amp; Mid Cap rows use its own {g4_qa3_sm_orig['n']} observations under the original "
+                f"formula and {g4_qa3_sm_exp['n']} under explicit-only (no High-Tier counterpart exists there)."
                 "</p>"
                 "<div class='context-heading'>All categories (explicit ×2) vs. explicit-only (×1)</div>"
                 "<table style='width:100%; border-collapse:collapse; margin:0.6rem 0 1rem 0; font-size:0.92rem;'>"
@@ -4543,6 +4685,16 @@ if st.session_state.selected_section == "Data Visualization 5":
                 f"<td style='text-align:center; padding:6px 10px;'>{g4_qa3_sign_wsj_orig:.0f}%</td>"
                 f"<td style='text-align:center; padding:6px 10px;'>{g4_qa3_sign_wsj_exp:.0f}%</td>"
                 "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Correlation — Selected Coverage (Small &amp; Mid Cap)</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa3_sm_orig['corr'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa3_sm_exp['corr'])}</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Sign agreement — Selected Coverage (Small &amp; Mid Cap)</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa3_sm_orig['sign'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa3_sm_exp['sign'])}</td>"
+                "</tr>"
                 "<tr>"
                 "<td style='padding:6px 10px;'>Sources agree with each other on direction</td>"
                 f"<td style='text-align:center; padding:6px 10px;'>{g4_qa3_sources_agree_orig:.0f}%</td>"
@@ -4561,6 +4713,13 @@ if st.session_state.selected_section == "Data Visualization 5":
                     f"return more closely: {g4_qa3_winner_exp} now has the higher correlation "
                     f"({g4_qa3_corr_sel_exp:.2f} vs. {g4_qa3_corr_wsj_exp:.2f}) on this smaller, "
                     "explicit-only-covered sample."
+                )
+                + (
+                    f" Small &amp; Mid Cap's Selected Coverage correlation moves "
+                    f"{g4_fmt_corr(g4_qa3_sm_orig['corr'])} → {g4_fmt_corr(g4_qa3_sm_exp['corr'])} "
+                    f"(n={g4_qa3_sm_orig['n']} → {g4_qa3_sm_exp['n']}) under the same restriction."
+                    if g4_qa3_sm_orig["corr"] is not None and g4_qa3_sm_exp["corr"] is not None
+                    else ""
                 )
                 + "</p>"
                 "</div>",
@@ -4656,6 +4815,9 @@ if st.session_state.selected_section == "Data Visualization 5":
             g4_qa4_winner_orig = "Selected Coverage" if g4_qa4_corr_sel_orig >= g4_qa4_corr_wsj_orig else "High-Tier"
             g4_qa4_winner_nm = "Selected Coverage" if g4_qa4_corr_sel_nm >= g4_qa4_corr_wsj_nm else "High-Tier"
 
+            g4_qa4_sm_orig = g4_smallcap_stats(g4_category_score)
+            g4_qa4_sm_nm = g4_smallcap_stats(g4_category_score_no_macro)
+
             st.markdown(
                 "<div style='max-width:760px; margin:0 auto; color:#D6E4F0;'>"
                 "<p style='text-align:justify; margin-bottom:0.8rem;'>"
@@ -4663,7 +4825,9 @@ if st.session_state.selected_section == "Data Visualization 5":
                 "same explicit ×2 / implicit ×1 weighting as the 5 charts above, but \"Macro and micro "
                 "development\" is dropped from the active-category set entirely before scoring -- it mostly "
                 "restates or explains other categories' outcomes rather than standing as its own independent "
-                "driver, so including it alongside them may double-count the same underlying cause."
+                "driver, so including it alongside them may double-count the same underlying cause. Selected "
+                f"Coverage's Small &amp; Mid Cap rows use its own {g4_qa4_sm_orig['n']} observations (no "
+                "High-Tier counterpart exists there)."
                 "</p>"
                 "<div class='context-heading'>With Macro/micro vs. without</div>"
                 "<table style='width:100%; border-collapse:collapse; margin:0.6rem 0 1rem 0; font-size:0.92rem;'>"
@@ -4692,6 +4856,16 @@ if st.session_state.selected_section == "Data Visualization 5":
                 f"<td style='text-align:center; padding:6px 10px;'>{g4_qa4_sign_wsj_orig:.0f}%</td>"
                 f"<td style='text-align:center; padding:6px 10px;'>{g4_qa4_sign_wsj_nm:.0f}%</td>"
                 "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Correlation — Selected Coverage (Small &amp; Mid Cap)</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa4_sm_orig['corr'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa4_sm_nm['corr'])}</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Sign agreement — Selected Coverage (Small &amp; Mid Cap)</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa4_sm_orig['sign'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa4_sm_nm['sign'])}</td>"
+                "</tr>"
                 "<tr>"
                 "<td style='padding:6px 10px;'>Sources agree with each other on direction</td>"
                 f"<td style='text-align:center; padding:6px 10px;'>{g4_qa4_sources_agree_orig:.0f}%</td>"
@@ -4709,6 +4883,13 @@ if st.session_state.selected_section == "Data Visualization 5":
                     f"Yes — removing Macro/micro flips which source tracks the actual return more closely: "
                     f"{g4_qa4_winner_nm} now has the higher correlation "
                     f"({g4_qa4_corr_sel_nm:.2f} vs. {g4_qa4_corr_wsj_nm:.2f})."
+                )
+                + (
+                    f" Small &amp; Mid Cap's Selected Coverage correlation moves "
+                    f"{g4_fmt_corr(g4_qa4_sm_orig['corr'])} → {g4_fmt_corr(g4_qa4_sm_nm['corr'])} with "
+                    "Macro/micro removed."
+                    if g4_qa4_sm_orig["corr"] is not None and g4_qa4_sm_nm["corr"] is not None
+                    else ""
                 )
                 + "</p>"
                 "</div>",
