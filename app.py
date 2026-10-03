@@ -4179,6 +4179,164 @@ if st.session_state.selected_section == "Data Visualization 5":
             unsafe_allow_html=True,
         )
 
+        # ── Quantitative Analysis 2.0 -- re-runs the exact same comparison
+        # above (same 75-observation universe, same return-method radio,
+        # same g4_wsj_analysis_source / coverage lookups) but with the
+        # category-score formula's explicit-attribution weight dropped
+        # from 2 to 1, i.e. explicit and implicit mentions now count
+        # equally. This answers "is Selected Coverage's edge a property of
+        # the sources, or of the scoring formula's weighting choice?"
+        # without touching g4_category_score or any of the 5 charts above,
+        # which keep using the original weight-of-2 formula untouched. ──
+        def g4_category_score_eq(entry):
+            cells = (entry or {}).get("categories", {})
+            active = [cells[c] for c in WHY_MOVED_2_CATEGORIES if cells.get(c)]
+            if not active:
+                return None
+            total = sum((1 if cell.get("direction") == "positive" else -1) for cell in active)
+            return total / len(active)
+
+        g4_qa2_rows = []
+        for _, g4_qa2_row in g4_wsj_analysis_source.iterrows():
+            g4_qa2_key = f"{g4_qa2_row['ticker']}_{g4_qa2_row['fiscal_yearquarter']}"
+            g4_qa2_wsj_entry = group4_wsj_coverage_lookup.get(g4_qa2_key)
+            g4_qa2_sel_entry = group4_stocknews_v2_lookup.get(g4_qa2_key)
+            g4_qa2_wsj_eq = g4_category_score_eq(g4_qa2_wsj_entry)
+            g4_qa2_sel_eq = g4_category_score_eq(g4_qa2_sel_entry)
+            if g4_qa2_wsj_eq is None or g4_qa2_sel_eq is None:
+                continue
+            g4_qa2_wsj_orig = g4_category_score(g4_qa2_wsj_entry)
+            g4_qa2_sel_orig = g4_category_score(g4_qa2_sel_entry)
+            g4_qa2_metrics = group4_abnormal_returns_lookup.get(g4_qa2_key, {}).get(g4_compare_method_key) or {}
+            g4_qa2_z = g4_qa2_metrics.get(g4_compare_z_field)
+            g4_qa2_ret = g4_qa2_metrics.get(g4_compare_return_field)
+            if g4_qa2_z is None:
+                continue
+            g4_qa2_rows.append(
+                {
+                    "note_key": g4_qa2_key,
+                    "return_pct": g4_qa2_ret,
+                    "sel_eq": g4_qa2_sel_eq,
+                    "wsj_eq": g4_qa2_wsj_eq,
+                    "sel_orig": g4_qa2_sel_orig,
+                    "wsj_orig": g4_qa2_wsj_orig,
+                }
+            )
+        g4_qa2_df = pd.DataFrame(g4_qa2_rows)
+
+        st.html("<div style='height:3px; background:#FFD700; margin:2.5rem 0 1.5rem 0; border-radius:2px;'></div>")
+        st.markdown(
+            "<div class='quarter-header' style='font-size:1.7rem; text-align:center; color:#FFD700;'>"
+            "Quantitative Analysis 2.0</div>",
+            unsafe_allow_html=True,
+        )
+        st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+        if g4_qa2_df.empty:
+            st.info("No observations have a usable category score from both sources under equal weighting.")
+        else:
+            def g4_qa2_sign_agreement(score_col):
+                nonzero = g4_qa2_df[(g4_qa2_df[score_col] != 0) & (g4_qa2_df["return_pct"] != 0)]
+                if nonzero.empty:
+                    return None
+                return ((nonzero[score_col] > 0) == (nonzero["return_pct"] > 0)).mean() * 100
+
+            g4_qa2_corr_sel_orig = g4_qa2_df["sel_orig"].corr(g4_qa2_df["return_pct"])
+            g4_qa2_corr_wsj_orig = g4_qa2_df["wsj_orig"].corr(g4_qa2_df["return_pct"])
+            g4_qa2_corr_sel_eq = g4_qa2_df["sel_eq"].corr(g4_qa2_df["return_pct"])
+            g4_qa2_corr_wsj_eq = g4_qa2_df["wsj_eq"].corr(g4_qa2_df["return_pct"])
+
+            g4_qa2_sign_sel_orig = g4_qa2_sign_agreement("sel_orig")
+            g4_qa2_sign_wsj_orig = g4_qa2_sign_agreement("wsj_orig")
+            g4_qa2_sign_sel_eq = g4_qa2_sign_agreement("sel_eq")
+            g4_qa2_sign_wsj_eq = g4_qa2_sign_agreement("wsj_eq")
+
+            g4_qa2_sources_agree_orig = ((g4_qa2_df["sel_orig"] > 0) == (g4_qa2_df["wsj_orig"] > 0)).mean() * 100
+            g4_qa2_sources_agree_eq = ((g4_qa2_df["sel_eq"] > 0) == (g4_qa2_df["wsj_eq"] > 0)).mean() * 100
+            g4_qa2_meandiff_orig = (g4_qa2_df["sel_orig"] - g4_qa2_df["wsj_orig"]).abs().mean()
+            g4_qa2_meandiff_eq = (g4_qa2_df["sel_eq"] - g4_qa2_df["wsj_eq"]).abs().mean()
+
+            g4_qa2_winner_orig = "Selected Coverage" if g4_qa2_corr_sel_orig >= g4_qa2_corr_wsj_orig else "High-Tier"
+            g4_qa2_winner_eq = "Selected Coverage" if g4_qa2_corr_sel_eq >= g4_qa2_corr_wsj_eq else "High-Tier"
+            # Keyed off the same mean-score-gap figure the sentence below quotes
+            # (not the correlation gap, which can move independently/oppositely)
+            # so the "narrows / doesn't narrow" claim never contradicts its own numbers.
+            g4_qa2_gap_narrowed = g4_qa2_meandiff_eq < g4_qa2_meandiff_orig
+
+            st.markdown(
+                "<div style='max-width:760px; margin:0 auto; color:#D6E4F0;'>"
+                "<p style='text-align:justify; margin-bottom:0.8rem;'>"
+                f"Same {len(g4_qa2_df)} observations, same return method ({g4_compare_method_description}), "
+                "but the category-score formula now weights an explicit-attribution category the same as "
+                "an implicit one (weight 1 instead of 2) — isolating how much of the original gap between "
+                "the two sources was coming from the weighting choice itself, rather than from the sources."
+                "</p>"
+                "<div class='context-heading'>Original weighting (explicit ×2) vs. equal weighting (×1)</div>"
+                "<table style='width:100%; border-collapse:collapse; margin:0.6rem 0 1rem 0; font-size:0.92rem;'>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.5);'>"
+                "<th style='text-align:left; padding:6px 10px; color:#D8B978;'></th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Original (×2)</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Equal weight (×1)</th>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Correlation — Selected Coverage vs. return</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa2_corr_sel_orig:.2f}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa2_corr_sel_eq:.2f}</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Correlation — High-Tier vs. return</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa2_corr_wsj_orig:.2f}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa2_corr_wsj_eq:.2f}</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Sign agreement — Selected Coverage</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa2_sign_sel_orig:.0f}%</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa2_sign_sel_eq:.0f}%</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Sign agreement — High-Tier</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa2_sign_wsj_orig:.0f}%</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa2_sign_wsj_eq:.0f}%</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Sources agree with each other on direction</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa2_sources_agree_orig:.0f}%</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa2_sources_agree_eq:.0f}%</td>"
+                "</tr>"
+                "<tr>"
+                "<td style='padding:6px 10px;'>Mean |Selected − High-Tier| score gap</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa2_meandiff_orig:.2f}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qa2_meandiff_eq:.2f}</td>"
+                "</tr>"
+                "</table>"
+                "<div class='context-heading'>Does it change the conclusion?</div>"
+                "<p style='text-align:justify; margin-bottom:0;'>"
+                + (
+                    f"No — {g4_qa2_winner_eq} still shows the higher correlation with the actual return "
+                    f"under equal weighting ({g4_qa2_corr_sel_eq:.2f} vs. {g4_qa2_corr_wsj_eq:.2f}), same as "
+                    f"under the original weighting. "
+                    if g4_qa2_winner_orig == g4_qa2_winner_eq
+                    else
+                    f"Yes — dropping the explicit weight to 1 flips which source tracks the actual return "
+                    f"more closely: {g4_qa2_winner_eq} now has the higher correlation "
+                    f"({g4_qa2_corr_sel_eq:.2f} vs. {g4_qa2_corr_wsj_eq:.2f}), reversing the original result. "
+                )
+                + (
+                    "The gap between the two sources does narrow under equal weighting (mean score gap "
+                    f"{g4_qa2_meandiff_orig:.2f} → {g4_qa2_meandiff_eq:.2f}), consistent with the original "
+                    "hypothesis that WSJ's richer implicit-attribution tagging was being penalized by the "
+                    "explicit-weight-of-2 formula — but it doesn't fully close it."
+                    if g4_qa2_gap_narrowed
+                    else
+                    "Interestingly, the gap between the two sources does not narrow under equal weighting "
+                    f"(mean score gap {g4_qa2_meandiff_orig:.2f} → {g4_qa2_meandiff_eq:.2f}), which suggests "
+                    "the original gap was not purely an artifact of the explicit-attribution weighting."
+                )
+                + "</p>"
+                "</div>",
+                unsafe_allow_html=True,
+            )
+
         st.stop()
 
     g4_group_tickers = GROUP4_GROUPS[selected_g4_group]
