@@ -3487,7 +3487,15 @@ if st.session_state.selected_section == "Data Visualization 5":
         )
         g4_wsj_analysis_rows = []
         g4_wsj_analysis_excluded_no_category = 0
-        for _, g4_wsj_analysis_row in g4_analysis_source.iterrows():
+        # High-Tier (WSJ) coverage currently only exists for the Large Cap
+        # band -- always scoped there regardless of the page-level market-
+        # cap selector above (which still governs the StockNews pair), so
+        # this section never shows an empty "no coverage" state for a
+        # selection that could never have any WSJ data to begin with.
+        g4_wsj_analysis_source = group4_band_observations[
+            group4_band_observations["ticker"].isin(GROUP4_GROUPS["Large Cap"])
+        ]
+        for _, g4_wsj_analysis_row in g4_wsj_analysis_source.iterrows():
             g4_wsj_analysis_key = f"{g4_wsj_analysis_row['ticker']}_{g4_wsj_analysis_row['fiscal_yearquarter']}"
             g4_wsj_entry = group4_wsj_coverage_lookup.get(g4_wsj_analysis_key)
             if not g4_wsj_entry:
