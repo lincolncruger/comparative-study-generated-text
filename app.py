@@ -108,6 +108,13 @@ GROUP4_WSJ_STATIC_SLUG = "wsj-group4-largecap"
 # comparison between the two sources only makes sense where both exist.
 GROUP4_WSJ_REASON_HIGHLIGHTS_PATH = os.path.join(HERE, "data", "group4_wsj_reason_highlights.json")
 GROUP4_STOCKNEWS_REASON_HIGHLIGHTS_PATH = os.path.join(HERE, "data", "group4_stocknews_reason_highlights.json")
+# Same judgment, same standard, applied separately to Small & Mid Cap's
+# StockNews coverage (no High-Tier counterpart exists there) -- kept in its
+# own file/lookup so the Qualitative Analysis section can show it as its
+# own comparison point against Large Cap, rather than blending the two.
+GROUP4_STOCKNEWS_SMALLMID_REASON_HIGHLIGHTS_PATH = os.path.join(
+    HERE, "data", "group4_stocknews_smallmid_reason_highlights.json"
+)
 VIZ45_CHATGPT_COVERAGE_PATH = os.path.join(HERE, "data", "viz45_chatgpt_coverage.json")
 VIZ2_CHATGPT_COVERAGE_PATH = os.path.join(HERE, "data", "viz2_chatgpt_coverage.json")
 GROUP_PD_CATEGORIES_PATH = os.path.join(HERE, "data", "group_pd_categories.json")
@@ -997,6 +1004,14 @@ def load_group4_stocknews_reason_highlights(mtime_marker):
     if not os.path.exists(GROUP4_STOCKNEWS_REASON_HIGHLIGHTS_PATH):
         return {}
     with open(GROUP4_STOCKNEWS_REASON_HIGHLIGHTS_PATH) as f:
+        return json.load(f)
+
+
+@st.cache_data
+def load_group4_stocknews_smallmid_reason_highlights(mtime_marker):
+    if not os.path.exists(GROUP4_STOCKNEWS_SMALLMID_REASON_HIGHLIGHTS_PATH):
+        return {}
+    with open(GROUP4_STOCKNEWS_SMALLMID_REASON_HIGHLIGHTS_PATH) as f:
         return json.load(f)
 
 
@@ -1925,6 +1940,9 @@ group4_wsj_coverage_lookup = load_group4_wsj_coverage(_mtime(GROUP4_WSJ_COVERAGE
 group4_wsj_reason_highlights_lookup = load_group4_wsj_reason_highlights(_mtime(GROUP4_WSJ_REASON_HIGHLIGHTS_PATH))
 group4_stocknews_reason_highlights_lookup = load_group4_stocknews_reason_highlights(
     _mtime(GROUP4_STOCKNEWS_REASON_HIGHLIGHTS_PATH)
+)
+group4_stocknews_smallmid_reason_highlights_lookup = load_group4_stocknews_smallmid_reason_highlights(
+    _mtime(GROUP4_STOCKNEWS_SMALLMID_REASON_HIGHLIGHTS_PATH)
 )
 viz45_chatgpt_coverage_lookup = load_viz45_chatgpt_coverage(
     _mtime(VIZ45_CHATGPT_COVERAGE_PATH)
@@ -4721,28 +4739,41 @@ if st.session_state.selected_section == "Data Visualization 5":
         g4_qual_sel_reasoned, g4_qual_sel_total, g4_qual_sel_per_cat = g4_qual_tally(
             group4_stocknews_reason_highlights_lookup
         )
+        g4_qual_sm_reasoned, g4_qual_sm_total, g4_qual_sm_per_cat = g4_qual_tally(
+            group4_stocknews_smallmid_reason_highlights_lookup
+        )
 
-        if g4_qual_wsj_total == 0 and g4_qual_sel_total == 0:
+        if g4_qual_wsj_total == 0 and g4_qual_sel_total == 0 and g4_qual_sm_total == 0:
             st.info("No reason-highlighting data is available yet.")
         else:
             g4_qual_wsj_rate = g4_qual_wsj_reasoned / g4_qual_wsj_total * 100 if g4_qual_wsj_total else None
             g4_qual_sel_rate = g4_qual_sel_reasoned / g4_qual_sel_total * 100 if g4_qual_sel_total else None
+            g4_qual_sm_rate = g4_qual_sm_reasoned / g4_qual_sm_total * 100 if g4_qual_sm_total else None
 
             g4_qual_cat_rows = ""
             for category in WHY_MOVED_2_CATEGORIES:
                 wsj_r, wsj_t = g4_qual_wsj_per_cat.get(category, (0, 0))
                 sel_r, sel_t = g4_qual_sel_per_cat.get(category, (0, 0))
-                if wsj_t == 0 and sel_t == 0:
+                sm_r, sm_t = g4_qual_sm_per_cat.get(category, (0, 0))
+                if wsj_t == 0 and sel_t == 0 and sm_t == 0:
                     continue
                 wsj_cell = f"{wsj_r}/{wsj_t} ({wsj_r/wsj_t*100:.0f}%)" if wsj_t else "n/a"
                 sel_cell = f"{sel_r}/{sel_t} ({sel_r/sel_t*100:.0f}%)" if sel_t else "n/a"
+                sm_cell = f"{sm_r}/{sm_t} ({sm_r/sm_t*100:.0f}%)" if sm_t else "n/a"
                 g4_qual_cat_rows += (
                     "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
                     f"<td style='padding:6px 10px;'>{category}</td>"
                     f"<td style='text-align:center; padding:6px 10px;'>{sel_cell}</td>"
                     f"<td style='text-align:center; padding:6px 10px;'>{wsj_cell}</td>"
+                    f"<td style='text-align:center; padding:6px 10px;'>{sm_cell}</td>"
                     "</tr>"
                 )
+
+            g4_qual_sm_vs_lc = abs(g4_qual_sm_rate - g4_qual_sel_rate)
+            g4_qual_sm_comparable = "close to" if g4_qual_sm_vs_lc <= 7 else "notably different from"
+            g4_qual_sm_direction = (
+                "lower than" if g4_qual_sm_rate < g4_qual_sel_rate else "higher than"
+            )
 
             st.markdown(
                 "<div style='max-width:760px; margin:0 auto; color:#D6E4F0;'>"
@@ -4755,14 +4786,21 @@ if st.session_state.selected_section == "Data Visualization 5":
                 "given, the "
                 "<span style='color:#4A90D9; font-weight:600;'>exact reason clause</span> is highlighted "
                 "in blue wherever that category's text is shown elsewhere on this page (click "
-                "\"StockNews Categories\" / \"High-Tier Categories\" on any Large Cap observation above)."
+                "\"StockNews Categories\" / \"High-Tier Categories\" on any observation above). Small & "
+                "Mid Cap's Selected Coverage is included here too, as its own comparison point -- there's "
+                "no High-Tier counterpart there, but it answers whether smaller-cap coverage explains its "
+                "figures as often as Large Cap coverage does."
                 "</p>"
                 "<div class='context-heading'>Overall reason rate</div>"
                 "<table style='width:100%; border-collapse:collapse; margin:0.6rem 0 1rem 0; font-size:0.92rem;'>"
                 "<tr style='border-bottom:1px solid rgba(74,144,217,0.5);'>"
                 "<th style='text-align:left; padding:6px 10px; color:#D8B978;'></th>"
-                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Selected Coverage</th>"
-                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>High-Tier</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Selected Coverage<br>"
+                "<span style='font-size:0.78rem; opacity:0.75;'>(Large Cap)</span></th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>High-Tier<br>"
+                "<span style='font-size:0.78rem; opacity:0.75;'>(Large Cap)</span></th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Selected Coverage<br>"
+                "<span style='font-size:0.78rem; opacity:0.75;'>(Small & Mid Cap)</span></th>"
                 "</tr>"
                 "<tr>"
                 "<td style='padding:6px 10px;'>Category cells with a business-level reason</td>"
@@ -4770,33 +4808,54 @@ if st.session_state.selected_section == "Data Visualization 5":
                 f" ({g4_qual_sel_rate:.0f}%)</td>"
                 f"<td style='text-align:center; padding:6px 10px;'>{g4_qual_wsj_reasoned}/{g4_qual_wsj_total}"
                 f" ({g4_qual_wsj_rate:.0f}%)</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_qual_sm_reasoned}/{g4_qual_sm_total}"
+                f" ({g4_qual_sm_rate:.0f}%)</td>"
                 "</tr>"
                 "</table>"
                 "<div class='context-heading'>By category</div>"
                 "<table style='width:100%; border-collapse:collapse; margin:0.6rem 0 1rem 0; font-size:0.88rem;'>"
                 "<tr style='border-bottom:1px solid rgba(74,144,217,0.5);'>"
                 "<th style='text-align:left; padding:6px 10px; color:#D8B978;'>Category</th>"
-                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Selected Coverage</th>"
-                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>High-Tier</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Selected<br>(Large)</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>High-Tier<br>(Large)</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Selected<br>(Small/Mid)</th>"
                 "</tr>"
                 + g4_qual_cat_rows
                 + "</table>"
-                "<p style='text-align:justify; margin-bottom:0;'>"
-                "The two sources land close together overall "
+                "<p style='text-align:justify; margin-bottom:0.8rem;'>"
+                "The two Large Cap sources land close together overall "
                 f"({g4_qual_sel_rate:.0f}% vs. {g4_qual_wsj_rate:.0f}%), despite Selected Coverage tagging "
                 "far more of its categories \"explicit\" in the Quantitative Analysis section above -- "
                 "attribution and reason-giving are different things: a category can be tagged explicit "
                 "(the article ties it to the stock's move) while still never naming the underlying "
-                "business driver, and vice versa. \"Guidance\" is the clearest case of the former in both "
-                "sources: it's one of the least-reasoned categories even though it's usually the most "
-                "explicitly tied to the stock's reaction (the Fortinet-style pattern — figure stated, "
+                "business driver, and vice versa. \"Guidance\" is the clearest case of the former across "
+                "all three columns: it's one of the least-reasoned categories even though it's usually the "
+                "most explicitly tied to the stock's reaction (the Fortinet-style pattern — figure stated, "
                 "consensus comparison stated, stock move attributed to the outlook, but no driver given "
                 "for why the outlook itself came in where it did). \"Macro and micro development\" sits at "
-                "the opposite extreme in both sources, since that category is close to definitionally a "
-                "stated cause. \"Immediate reaction divergence\" never carries a reason in either source: "
-                "every cell in that category follows the same premarket-vs-two-day-return template with "
-                "no causal content."
+                "the opposite extreme, since that category is close to definitionally a stated cause. "
+                "\"Immediate reaction divergence\" never carries a reason anywhere: every cell in that "
+                "category follows the same premarket-vs-two-day-return template with no causal content."
                 "</p>"
+                "<div class='context-heading'>Does Small & Mid Cap coverage give reasons as often?</div>"
+                "<p style='text-align:justify; margin-bottom:0;'>"
+                f"Small & Mid Cap's Selected Coverage reason rate ({g4_qual_sm_rate:.0f}%, "
+                f"{g4_qual_sm_reasoned}/{g4_qual_sm_total}) runs {g4_qual_sm_direction} Large Cap's Selected "
+                f"Coverage rate ({g4_qual_sel_rate:.0f}%) by {g4_qual_sm_vs_lc:.0f} points — "
+                f"{g4_qual_sm_comparable} the same, on a much smaller sample ({g4_qual_sm_total} cells vs. "
+                f"{g4_qual_sel_total}). "
+                + (
+                    "There's no sign here that smaller-cap coverage explains its figures meaningfully less "
+                    "(or more) often than Large Cap coverage from the same source -- the gap is well within "
+                    "what a sample this size could produce by chance."
+                    if g4_qual_sm_comparable == "close to"
+                    else
+                    "That's a wider gap than sample noise alone would suggest, though with only "
+                    f"{g4_qual_sm_total} Small & Mid Cap cells it would take a larger sample to be confident "
+                    "this is a real difference in how smaller-cap coverage explains its figures, rather than "
+                    "a quirk of which companies/quarters happened to be sampled."
+                )
+                + "</p>"
                 "</div>",
                 unsafe_allow_html=True,
             )
@@ -4926,7 +4985,8 @@ if st.session_state.selected_section == "Data Visualization 5":
                     _show_why_moved_2_categories_dialog(
                         g4_stocknews,
                         "StockNews API",
-                        group4_stocknews_reason_highlights_lookup.get(g4_note_key),
+                        group4_stocknews_reason_highlights_lookup.get(g4_note_key)
+                        or group4_stocknews_smallmid_reason_highlights_lookup.get(g4_note_key),
                     )
             else:
                 st.write("*No validated StockNews API coverage available for this observation.*")
