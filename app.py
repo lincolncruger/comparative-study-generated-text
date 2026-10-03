@@ -3875,6 +3875,177 @@ if st.session_state.selected_section == "Data Visualization 5":
             f"{g4_wsj_signed_z_min:+.2f}σ to {g4_wsj_signed_z_max:+.2f}σ. "
             "Regression band: local ±1 return SD using a ±0.5 category-ranking window."
         )
+
+        # ── 5th chart: head-to-head comparison of the two coverage
+        # sources' category scores against the SAME actual return, for the
+        # observations where both sources produced a usable score (at
+        # least one active category each) -- restricted (not padded with
+        # neutral-zero placeholders) per explicit confirmation, since a
+        # fabricated 0.0 would be visually indistinguishable from a real
+        # neutral finding. ──
+        st.html("<div style='height:3px; background:#FFD700; margin:2.5rem 0 1.5rem 0; border-radius:2px;'></div>")
+        st.markdown(
+            "<div class='quarter-header' style='font-size:1.7rem; text-align:center; color:#FFD700;'>"
+            "Coverage Comparison</div>",
+            unsafe_allow_html=True,
+        )
+        st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+        g4_compare_source_choice = st.radio(
+            "Coverage source",
+            ["Selected Coverage only", "High-Tier only", "Both"],
+            index=2,
+            horizontal=True,
+            key="g4_compare_source_choice",
+        )
+        g4_compare_return_method = st.radio(
+            "Return measure",
+            ["Excess return", "Abnormal return"],
+            horizontal=True,
+            key="g4_compare_return_method",
+        )
+        if g4_compare_return_method == "Excess return":
+            g4_compare_return_field = "excess_return_pct"
+            g4_compare_z_field = "z_score"
+            g4_compare_method_key = "market_adjusted"
+            g4_compare_method_description = "market-adjusted excess return"
+        else:
+            g4_compare_return_field = "abnormal_return_pct"
+            g4_compare_z_field = "z_score"
+            g4_compare_method_key = "market_model"
+            g4_compare_method_description = "beta-adjusted abnormal return"
+
+        def g4_category_score(entry):
+            cells = (entry or {}).get("categories", {})
+            active = [cells[c] for c in WHY_MOVED_2_CATEGORIES if cells.get(c)]
+            if not active:
+                return None
+            total = sum(
+                (1 if cell.get("direction") == "positive" else -1) * (2 if cell.get("attribution") == "explicit" else 1)
+                for cell in active
+            )
+            return total / len(active)
+
+        g4_compare_rows = []
+        for _, g4_compare_row in g4_wsj_analysis_source.iterrows():
+            g4_compare_key = f"{g4_compare_row['ticker']}_{g4_compare_row['fiscal_yearquarter']}"
+            g4_wsj_entry = group4_wsj_coverage_lookup.get(g4_compare_key)
+            g4_sel_entry = group4_stocknews_v2_lookup.get(g4_compare_key)
+            g4_wsj_score = g4_category_score(g4_wsj_entry)
+            g4_sel_score = g4_category_score(g4_sel_entry)
+            if g4_wsj_score is None or g4_sel_score is None:
+                continue
+            g4_return_metrics = group4_abnormal_returns_lookup.get(g4_compare_key, {})
+            g4_method_metrics = g4_return_metrics.get(g4_compare_method_key) or {}
+            g4_z = g4_method_metrics.get(g4_compare_z_field)
+            g4_ret = g4_method_metrics.get(g4_compare_return_field)
+            if g4_z is None:
+                continue
+            common = {
+                "note_key": g4_compare_key,
+                "ticker": g4_compare_row["ticker"],
+                "quarter": g4_compare_row["fiscal_yearquarter"].upper(),
+                "earnings_date": g4_compare_row["earnings_date"].strftime("%Y-%m-%d"),
+                "z_score": g4_z,
+                "return_pct": g4_ret,
+            }
+            g4_compare_rows.append({**common, "source": "Selected Coverage", "category_score": g4_sel_score})
+            g4_compare_rows.append({**common, "source": "High-Tier", "category_score": g4_wsj_score})
+
+        g4_compare_df = pd.DataFrame(g4_compare_rows)
+        g4_compare_n_obs = g4_compare_df["note_key"].nunique() if not g4_compare_df.empty else 0
+
+        if g4_compare_df.empty:
+            st.info("No observations have a usable category score from both coverage sources yet.")
+        else:
+            SOURCE_COLORS = {"Selected Coverage": "#4A90D9", "High-Tier": "#FFD700"}
+            g4_compare_sources = (
+                ["Selected Coverage", "High-Tier"]
+                if g4_compare_source_choice == "Both"
+                else [g4_compare_source_choice.replace(" only", "")]
+            )
+            g4_compare_fig = go.Figure()
+            for src in g4_compare_sources:
+                src_df = g4_compare_df[g4_compare_df["source"] == src]
+                color = SOURCE_COLORS[src]
+                customdata = [
+                    [row.note_key, row.quarter, row.earnings_date, row.ticker, row.z_score, row.return_pct]
+                    for row in src_df.itertuples()
+                ]
+                g4_compare_fig.add_trace(
+                    go.Scatter(
+                        x=src_df["category_score"],
+                        y=src_df["z_score"],
+                        mode="markers",
+                        name=f"{src} (points)",
+                        customdata=customdata,
+                        marker={"size": 10, "opacity": 0.75, "color": color, "line": {"width": 0.6, "color": "#D6E4F0"}},
+                        hovertemplate=(
+                            "<b>%{customdata[0]}</b> (%{customdata[3]})<br>"
+                            f"{src}<br>"
+                            "Earnings: %{customdata[2]}<br>"
+                            "Category score: %{x:.3f}<br>"
+                            "Signed Z-score: %{y:+.2f}σ<br>"
+                            f"{g4_compare_method_description.capitalize()}: %{{customdata[5]:+.2f}}%"
+                            "<extra></extra>"
+                        ),
+                    )
+                )
+                if len(src_df) >= 3 and src_df["category_score"].nunique() >= 3:
+                    rx = np.linspace(src_df["category_score"].min(), src_df["category_score"].max(), 200)
+                    coeffs = np.polyfit(src_df["category_score"], src_df["z_score"], 2)
+                    ry = np.polyval(coeffs, rx)
+                    fitted_y = np.polyval(coeffs, src_df["category_score"])
+                    residuals = np.asarray(src_df["z_score"] - fitted_y, dtype=float)
+                    observed_x = np.asarray(src_df["category_score"], dtype=float)
+                    local_std = []
+                    for point in rx:
+                        local_residuals = residuals[np.abs(observed_x - point) <= 0.5]
+                        if len(local_residuals) < 3:
+                            nearest = np.argsort(np.abs(observed_x - point))[:min(5, len(residuals))]
+                            local_residuals = residuals[nearest]
+                        local_std.append(float(np.std(local_residuals, ddof=1)))
+                    local_std = np.asarray(local_std)
+                    rgba = "rgba(74,144,217,0.15)" if src == "Selected Coverage" else "rgba(255,209,102,0.18)"
+                    g4_compare_fig.add_trace(
+                        go.Scatter(
+                            x=rx, y=ry + local_std, mode="lines", line={"width": 0},
+                            hoverinfo="skip", showlegend=False, legendgroup=f"{src}-band",
+                        )
+                    )
+                    g4_compare_fig.add_trace(
+                        go.Scatter(
+                            x=rx, y=ry - local_std, mode="lines", line={"width": 0}, fill="tonexty",
+                            fillcolor=rgba, name=f"{src} local ±1 SD", hoverinfo="skip", legendgroup=f"{src}-band",
+                        )
+                    )
+                    g4_compare_fig.add_trace(
+                        go.Scatter(
+                            x=rx, y=ry, mode="lines", name=f"{src} quadratic regression",
+                            line={"color": color, "width": 3, "dash": "solid" if src == "High-Tier" else "dash"},
+                            hovertemplate=f"{src} regression<br>Category score: %{{x:.3f}}<br>Predicted Z: %{{y:+.2f}}σ<extra></extra>",
+                        )
+                    )
+            g4_compare_fig.add_hline(y=0, line_dash="dash", line_color="rgba(214,228,240,0.45)")
+            g4_compare_fig.add_vline(x=0, line_dash="dash", line_color="rgba(214,228,240,0.45)")
+            g4_compare_fig.update_layout(
+                xaxis_title="Category ranking",
+                yaxis_title=f"Signed {g4_compare_method_description} Z-score (σ)",
+                xaxis={"range": [-2.08, 2.08], "tickmode": "linear", "dtick": 0.5},
+                hovermode="closest",
+                legend_title_text="Source",
+                height=650,
+                margin={"l": 65, "r": 35, "t": 35, "b": 65},
+            )
+            st.plotly_chart(g4_compare_fig, use_container_width=True, key="g4_compare_scatter")
+            g4_compare_plotted = len(g4_compare_df[g4_compare_df["source"].isin(g4_compare_sources)])
+            st.caption(
+                f"{g4_compare_n_obs} observations have a usable category score from both sources "
+                f"({g4_compare_plotted} points plotted at the current source selection; each observation's "
+                "actual return is identical across both sources -- only the category score differs). "
+                "Dashed line: Selected Coverage regression. Solid line: High-Tier regression."
+            )
+
         st.stop()
 
     g4_group_tickers = GROUP4_GROUPS[selected_g4_group]
