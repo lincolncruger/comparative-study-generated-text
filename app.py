@@ -3459,6 +3459,414 @@ if st.session_state.selected_section == "Data Visualization 5":
             f"{g4_signed_z_min:+.2f}σ to {g4_signed_z_max:+.2f}σ. "
             "Regression band: local ±1 return SD using a ±0.5 category-ranking window."
         )
+
+        # ── High-Tier Coverage (WSJ) analysis -- same two graphs, same
+        # controls, same exclusion/regression/filter logic as the
+        # StockNews pair above, just sourced from group4_wsj_coverage_lookup
+        # instead. A heavier divider + its own heading separates the two
+        # coverage sources rather than letting the second pair read as a
+        # continuation of the first. ──
+        st.html("<div style='height:3px; background:#FFD700; margin:2.5rem 0 1.5rem 0; border-radius:2px;'></div>")
+        st.markdown(
+            "<div class='quarter-header' style='font-size:1.7rem; text-align:center; color:#FFD700;'>"
+            "High-Tier Coverage Analysis</div>",
+            unsafe_allow_html=True,
+        )
+        st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+        g4_wsj_analysis_categories = st.multiselect(
+            "Categories included in ranking",
+            WHY_MOVED_2_CATEGORIES,
+            default=WHY_MOVED_2_CATEGORIES,
+            key="g4_wsj_analysis_categories",
+            help=(
+                "Unselect any category to remove it from both the numerator and denominator. "
+                "Immediate reaction divergence identifies observations where the article's "
+                "immediate reaction and the computed two-day return have opposite signs."
+            ),
+        )
+        g4_wsj_analysis_rows = []
+        g4_wsj_analysis_excluded_no_category = 0
+        for _, g4_wsj_analysis_row in g4_analysis_source.iterrows():
+            g4_wsj_analysis_key = f"{g4_wsj_analysis_row['ticker']}_{g4_wsj_analysis_row['fiscal_yearquarter']}"
+            g4_wsj_entry = group4_wsj_coverage_lookup.get(g4_wsj_analysis_key)
+            if not g4_wsj_entry:
+                continue
+            g4_wsj_category_cells = g4_wsj_entry.get("categories", {})
+            g4_wsj_active_cells = [
+                g4_wsj_category_cells.get(category)
+                for category in g4_wsj_analysis_categories
+                if g4_wsj_category_cells.get(category)
+            ]
+            g4_wsj_positive_count = sum(cell.get("direction") == "positive" for cell in g4_wsj_active_cells)
+            g4_wsj_negative_count = sum(cell.get("direction") == "negative" for cell in g4_wsj_active_cells)
+            g4_wsj_explicit_count = sum(cell.get("attribution") == "explicit" for cell in g4_wsj_active_cells)
+            g4_wsj_implicit_count = sum(cell.get("attribution") == "implicit" for cell in g4_wsj_active_cells)
+            g4_wsj_active_count = len(g4_wsj_active_cells)
+            if g4_wsj_active_count == 0:
+                g4_wsj_analysis_excluded_no_category += 1
+                continue
+            g4_wsj_category_sum = sum(
+                (1 if cell.get("direction") == "positive" else -1)
+                * (2 if cell.get("attribution") == "explicit" else 1)
+                for cell in g4_wsj_active_cells
+            )
+            g4_wsj_category_score = g4_wsj_category_sum / g4_wsj_active_count
+            g4_wsj_return_metrics = group4_abnormal_returns_lookup.get(g4_wsj_analysis_key, {})
+            g4_wsj_market_model = g4_wsj_return_metrics.get("market_model") or {}
+            g4_wsj_market_adjusted = g4_wsj_return_metrics.get("market_adjusted") or {}
+            g4_wsj_analysis_rows.append(
+                {
+                    "note_key": g4_wsj_analysis_key,
+                    "ticker": g4_wsj_analysis_row["ticker"],
+                    "quarter": g4_wsj_analysis_row["fiscal_yearquarter"].upper(),
+                    "earnings_date": g4_wsj_analysis_row["earnings_date"],
+                    "category_score": g4_wsj_category_score,
+                    "category_sum": g4_wsj_category_sum,
+                    "active_categories": g4_wsj_active_count,
+                    "positive_categories": g4_wsj_positive_count,
+                    "negative_categories": g4_wsj_negative_count,
+                    "explicit_categories": g4_wsj_explicit_count,
+                    "implicit_categories": g4_wsj_implicit_count,
+                    "abnormal_return_pct": g4_wsj_market_model.get("abnormal_return_pct"),
+                    "abnormal_z_score": g4_wsj_market_model.get("z_score"),
+                    "excess_return_pct": g4_wsj_market_adjusted.get("excess_return_pct"),
+                    "excess_z_score": g4_wsj_market_adjusted.get("z_score"),
+                }
+            )
+
+        g4_wsj_analysis_df = pd.DataFrame(g4_wsj_analysis_rows)
+
+        if g4_wsj_analysis_df.empty:
+            st.info("No High-Tier-covered observations in this market-cap scope yet.")
+            st.stop()
+
+        g4_wsj_return_method = st.radio(
+            "Return measure",
+            ["Excess return", "Abnormal return"],
+            horizontal=True,
+            key="g4_wsj_analysis_return_method",
+        )
+        if g4_wsj_return_method == "Excess return":
+            g4_wsj_z_column = "excess_z_score"
+            g4_wsj_return_column = "excess_return_pct"
+            g4_wsj_method_description = "market-adjusted excess return"
+        else:
+            g4_wsj_z_column = "abnormal_z_score"
+            g4_wsj_return_column = "abnormal_return_pct"
+            g4_wsj_method_description = "beta-adjusted abnormal return"
+
+        g4_wsj_absolute_filter_col1, g4_wsj_absolute_filter_col2, g4_wsj_absolute_filter_col3 = st.columns([1.2, 1, 1])
+        with g4_wsj_absolute_filter_col1:
+            g4_wsj_absolute_filter_mode = st.radio(
+                "Absolute graph Z-score filter",
+                ["Include", "Exclude"],
+                horizontal=True,
+                key="g4_wsj_absolute_z_filter_mode",
+            )
+        with g4_wsj_absolute_filter_col2:
+            g4_wsj_absolute_z_lower = st.number_input(
+                "Lower Z-score", value=-10.0, step=0.5, key="g4_wsj_absolute_z_lower"
+            )
+        with g4_wsj_absolute_filter_col3:
+            g4_wsj_absolute_z_upper = st.number_input(
+                "Upper Z-score", value=10.0, step=0.5, key="g4_wsj_absolute_z_upper"
+            )
+        g4_wsj_absolute_z_min, g4_wsj_absolute_z_max = sorted((g4_wsj_absolute_z_lower, g4_wsj_absolute_z_upper))
+
+        g4_wsj_chart_df = g4_wsj_analysis_df.dropna(subset=[g4_wsj_z_column]).copy()
+        g4_wsj_absolute_inside = g4_wsj_chart_df[g4_wsj_z_column].between(
+            g4_wsj_absolute_z_min, g4_wsj_absolute_z_max, inclusive="both"
+        )
+        g4_wsj_chart_df = g4_wsj_chart_df[
+            g4_wsj_absolute_inside if g4_wsj_absolute_filter_mode == "Include" else ~g4_wsj_absolute_inside
+        ].copy()
+        g4_wsj_chart_df["absolute_z_score"] = g4_wsj_chart_df[g4_wsj_z_column].abs()
+
+        st.markdown(
+            "<div class='quarter-header' style='font-size:1.5rem; text-align:center;'>"
+            f"Absolute {g4_wsj_return_method} Z-Scores and High-Tier Category Ranking</div>",
+            unsafe_allow_html=True,
+        )
+        st.markdown(
+            "<div style='max-width:920px; margin:0 auto 1rem auto; text-align:center; "
+            "color:rgba(214,228,240,0.82);'>"
+            "Category score = signed weighted category sum ÷ total active categories. "
+            "Explicit categories receive twice the numerator weight (±2) of implicit categories (±1). "
+            "Only categories selected above enter the numerator and denominator. "
+            "The score ranges from −2 to +2. Observations with High-Tier coverage but no active "
+            "category are excluded from both graphs.</div>",
+            unsafe_allow_html=True,
+        )
+
+        g4_wsj_analysis_fig = go.Figure()
+        for g4_wsj_analysis_ticker in sorted(g4_wsj_chart_df["ticker"].unique()):
+            g4_wsj_ticker_points = g4_wsj_chart_df[g4_wsj_chart_df["ticker"] == g4_wsj_analysis_ticker]
+            g4_wsj_customdata = [
+                [
+                    row.note_key,
+                    row.quarter,
+                    row.earnings_date.strftime("%Y-%m-%d"),
+                    row.category_sum,
+                    row.active_categories,
+                    row.positive_categories,
+                    row.negative_categories,
+                    getattr(row, g4_wsj_z_column),
+                    getattr(row, g4_wsj_return_column),
+                    row.explicit_categories,
+                    row.implicit_categories,
+                ]
+                for row in g4_wsj_ticker_points.itertuples()
+            ]
+            g4_wsj_analysis_fig.add_trace(
+                go.Scatter(
+                    x=g4_wsj_ticker_points["category_score"],
+                    y=g4_wsj_ticker_points["absolute_z_score"],
+                    mode="markers",
+                    name=g4_wsj_analysis_ticker,
+                    customdata=g4_wsj_customdata,
+                    marker={"size": 10, "opacity": 0.78, "line": {"width": 0.6, "color": "#D6E4F0"}},
+                    hovertemplate=(
+                        "<b>%{customdata[0]}</b><br>"
+                        "Earnings: %{customdata[2]}<br>"
+                        "Absolute Z-score: %{y:.2f}σ<br>"
+                        "Signed Z-score: %{customdata[7]:+.2f}σ<br>"
+                        f"{g4_wsj_method_description.capitalize()}: %{{customdata[8]:+.2f}}%<br>"
+                        "Category score: %{x:.3f} "
+                        "(%{customdata[3]}/%{customdata[4]})<br>"
+                        "Positive: %{customdata[5]} | Negative: %{customdata[6]}<br>"
+                        "Explicit: %{customdata[9]} | Implicit: %{customdata[10]}"
+                        "<extra></extra>"
+                    ),
+                )
+            )
+        if len(g4_wsj_chart_df) >= 3 and g4_wsj_chart_df["category_score"].nunique() >= 3:
+            g4_wsj_regression_x = np.linspace(
+                g4_wsj_chart_df["category_score"].min(), g4_wsj_chart_df["category_score"].max(), 200
+            )
+            g4_wsj_regression_coefficients = np.polyfit(
+                g4_wsj_chart_df["category_score"], g4_wsj_chart_df["absolute_z_score"], 2
+            )
+            g4_wsj_regression_y = np.polyval(g4_wsj_regression_coefficients, g4_wsj_regression_x)
+            g4_wsj_fitted_y = np.polyval(g4_wsj_regression_coefficients, g4_wsj_chart_df["category_score"])
+            g4_wsj_residuals = np.asarray(g4_wsj_chart_df["absolute_z_score"] - g4_wsj_fitted_y, dtype=float)
+            g4_wsj_observed_x = np.asarray(g4_wsj_chart_df["category_score"], dtype=float)
+            g4_wsj_local_x_half_window = 0.5
+            g4_wsj_local_std = []
+            for point in g4_wsj_regression_x:
+                g4_wsj_local_residuals = g4_wsj_residuals[
+                    np.abs(g4_wsj_observed_x - point) <= g4_wsj_local_x_half_window
+                ]
+                if len(g4_wsj_local_residuals) < 3:
+                    g4_wsj_nearest = np.argsort(np.abs(g4_wsj_observed_x - point))[:min(5, len(g4_wsj_residuals))]
+                    g4_wsj_local_residuals = g4_wsj_residuals[g4_wsj_nearest]
+                g4_wsj_local_std.append(float(np.std(g4_wsj_local_residuals, ddof=1)))
+            g4_wsj_local_std = np.asarray(g4_wsj_local_std)
+            g4_wsj_analysis_fig.add_trace(
+                go.Scatter(
+                    x=g4_wsj_regression_x,
+                    y=g4_wsj_regression_y + g4_wsj_local_std,
+                    mode="lines",
+                    line={"width": 0},
+                    hoverinfo="skip",
+                    showlegend=False,
+                    legendgroup="wsj-absolute-regression-band",
+                )
+            )
+            g4_wsj_analysis_fig.add_trace(
+                go.Scatter(
+                    x=g4_wsj_regression_x,
+                    y=g4_wsj_regression_y - g4_wsj_local_std,
+                    mode="lines",
+                    line={"width": 0},
+                    fill="tonexty",
+                    fillcolor="rgba(255,209,102,0.18)",
+                    name="Local ±1 SD",
+                    hoverinfo="skip",
+                    legendgroup="wsj-absolute-regression-band",
+                )
+            )
+            g4_wsj_analysis_fig.add_trace(
+                go.Scatter(
+                    x=g4_wsj_regression_x,
+                    y=g4_wsj_regression_y,
+                    mode="lines",
+                    name="Quadratic regression",
+                    line={"color": "#FFD166", "width": 3},
+                    hovertemplate="Quadratic regression<br>Category score: %{x:.3f}<br>Predicted |Z|: %{y:.2f}σ<extra></extra>",
+                )
+            )
+        g4_wsj_analysis_fig.add_vline(x=0, line_dash="dash", line_color="rgba(214,228,240,0.45)")
+        g4_wsj_analysis_fig.update_layout(
+            xaxis_title="High-Tier category ranking",
+            yaxis_title=f"Absolute {g4_wsj_method_description} Z-score (σ)",
+            xaxis={"range": [-2.08, 2.08], "tickmode": "linear", "dtick": 0.5},
+            hovermode="closest",
+            legend_title_text="Ticker",
+            height=650,
+            margin={"l": 65, "r": 35, "t": 35, "b": 65},
+        )
+        st.plotly_chart(g4_wsj_analysis_fig, use_container_width=True, key="g4_wsj_category_abnormal_scatter")
+        st.caption(
+            f"{len(g4_wsj_chart_df)} High-Tier observations plotted. "
+            f"{g4_wsj_absolute_filter_mode} signed Z-scores from {g4_wsj_absolute_z_min:+.2f}σ to "
+            f"{g4_wsj_absolute_z_max:+.2f}σ. "
+            "Regression band: local ±1 return SD using a ±0.5 category-ranking window. "
+            f"{g4_wsj_analysis_excluded_no_category} observations have High-Tier coverage but no active "
+            "category and are excluded from both graphs."
+        )
+
+        st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+        g4_wsj_signed_filter_col1, g4_wsj_signed_filter_col2, g4_wsj_signed_filter_col3 = st.columns([1.2, 1, 1])
+        with g4_wsj_signed_filter_col1:
+            g4_wsj_signed_filter_mode = st.radio(
+                "Signed graph Z-score filter",
+                ["Include", "Exclude"],
+                horizontal=True,
+                key="g4_wsj_signed_z_filter_mode",
+            )
+        with g4_wsj_signed_filter_col2:
+            g4_wsj_signed_z_lower = st.number_input(
+                "Lower Z-score", value=-10.0, step=0.5, key="g4_wsj_signed_z_lower"
+            )
+        with g4_wsj_signed_filter_col3:
+            g4_wsj_signed_z_upper = st.number_input(
+                "Upper Z-score", value=10.0, step=0.5, key="g4_wsj_signed_z_upper"
+            )
+        g4_wsj_signed_z_min, g4_wsj_signed_z_max = sorted((g4_wsj_signed_z_lower, g4_wsj_signed_z_upper))
+
+        st.markdown(
+            f"<div class='quarter-header' style='font-size:1.5rem; text-align:center;'>"
+            f"Signed {g4_wsj_return_method} Z-Scores and High-Tier Category Ranking</div>",
+            unsafe_allow_html=True,
+        )
+        st.markdown(
+            "<div style='max-width:920px; margin:0 auto 1rem auto; text-align:center; "
+            "color:rgba(214,228,240,0.82);'>"
+            "This graph uses the signed Z-score rather than its absolute value. Positive and negative "
+            "standardized market reactions therefore appear above and below zero.</div>",
+            unsafe_allow_html=True,
+        )
+
+        g4_wsj_return_chart_df = g4_wsj_analysis_df.dropna(subset=[g4_wsj_z_column]).copy()
+        g4_wsj_signed_inside = g4_wsj_return_chart_df[g4_wsj_z_column].between(
+            g4_wsj_signed_z_min, g4_wsj_signed_z_max, inclusive="both"
+        )
+        g4_wsj_return_chart_df = g4_wsj_return_chart_df[
+            g4_wsj_signed_inside if g4_wsj_signed_filter_mode == "Include" else ~g4_wsj_signed_inside
+        ].copy()
+        g4_wsj_return_fig = go.Figure()
+        for g4_wsj_analysis_ticker in sorted(g4_wsj_return_chart_df["ticker"].unique()):
+            g4_wsj_ticker_points = g4_wsj_return_chart_df[g4_wsj_return_chart_df["ticker"] == g4_wsj_analysis_ticker]
+            g4_wsj_customdata = [
+                [
+                    row.note_key,
+                    row.quarter,
+                    row.earnings_date.strftime("%Y-%m-%d"),
+                    row.category_sum,
+                    row.active_categories,
+                    row.positive_categories,
+                    row.negative_categories,
+                    getattr(row, g4_wsj_z_column),
+                    row.explicit_categories,
+                    row.implicit_categories,
+                ]
+                for row in g4_wsj_ticker_points.itertuples()
+            ]
+            g4_wsj_return_fig.add_trace(
+                go.Scatter(
+                    x=g4_wsj_ticker_points["category_score"],
+                    y=g4_wsj_ticker_points[g4_wsj_z_column],
+                    mode="markers",
+                    name=g4_wsj_analysis_ticker,
+                    customdata=g4_wsj_customdata,
+                    marker={"size": 10, "opacity": 0.78, "line": {"width": 0.6, "color": "#D6E4F0"}},
+                    hovertemplate=(
+                        "<b>%{customdata[0]}</b><br>"
+                        "Earnings: %{customdata[2]}<br>"
+                        "Signed Z-score: %{y:+.2f}σ<br>"
+                        "Category score: %{x:.3f} "
+                        "(%{customdata[3]}/%{customdata[4]})<br>"
+                        "Positive: %{customdata[5]} | Negative: %{customdata[6]}<br>"
+                        "Explicit: %{customdata[8]} | Implicit: %{customdata[9]}"
+                        "<extra></extra>"
+                    ),
+                )
+            )
+        if len(g4_wsj_return_chart_df) >= 3 and g4_wsj_return_chart_df["category_score"].nunique() >= 3:
+            g4_wsj_regression_x = np.linspace(
+                g4_wsj_return_chart_df["category_score"].min(), g4_wsj_return_chart_df["category_score"].max(), 200
+            )
+            g4_wsj_regression_coefficients = np.polyfit(
+                g4_wsj_return_chart_df["category_score"], g4_wsj_return_chart_df[g4_wsj_z_column], 2
+            )
+            g4_wsj_regression_y = np.polyval(g4_wsj_regression_coefficients, g4_wsj_regression_x)
+            g4_wsj_fitted_y = np.polyval(g4_wsj_regression_coefficients, g4_wsj_return_chart_df["category_score"])
+            g4_wsj_residuals = np.asarray(g4_wsj_return_chart_df[g4_wsj_z_column] - g4_wsj_fitted_y, dtype=float)
+            g4_wsj_observed_x = np.asarray(g4_wsj_return_chart_df["category_score"], dtype=float)
+            g4_wsj_local_x_half_window = 0.5
+            g4_wsj_local_std = []
+            for point in g4_wsj_regression_x:
+                g4_wsj_local_residuals = g4_wsj_residuals[
+                    np.abs(g4_wsj_observed_x - point) <= g4_wsj_local_x_half_window
+                ]
+                if len(g4_wsj_local_residuals) < 3:
+                    g4_wsj_nearest = np.argsort(np.abs(g4_wsj_observed_x - point))[:min(5, len(g4_wsj_residuals))]
+                    g4_wsj_local_residuals = g4_wsj_residuals[g4_wsj_nearest]
+                g4_wsj_local_std.append(float(np.std(g4_wsj_local_residuals, ddof=1)))
+            g4_wsj_local_std = np.asarray(g4_wsj_local_std)
+            g4_wsj_return_fig.add_trace(
+                go.Scatter(
+                    x=g4_wsj_regression_x,
+                    y=g4_wsj_regression_y + g4_wsj_local_std,
+                    mode="lines",
+                    line={"width": 0},
+                    hoverinfo="skip",
+                    showlegend=False,
+                    legendgroup="wsj-signed-regression-band",
+                )
+            )
+            g4_wsj_return_fig.add_trace(
+                go.Scatter(
+                    x=g4_wsj_regression_x,
+                    y=g4_wsj_regression_y - g4_wsj_local_std,
+                    mode="lines",
+                    line={"width": 0},
+                    fill="tonexty",
+                    fillcolor="rgba(255,209,102,0.18)",
+                    name="Local ±1 SD",
+                    hoverinfo="skip",
+                    legendgroup="wsj-signed-regression-band",
+                )
+            )
+            g4_wsj_return_fig.add_trace(
+                go.Scatter(
+                    x=g4_wsj_regression_x,
+                    y=g4_wsj_regression_y,
+                    mode="lines",
+                    name="Quadratic regression",
+                    line={"color": "#FFD166", "width": 3},
+                    hovertemplate="Quadratic regression<br>Category score: %{x:.3f}<br>Predicted Z: %{y:+.2f}σ<extra></extra>",
+                )
+            )
+        g4_wsj_return_fig.add_hline(y=0, line_dash="dash", line_color="rgba(214,228,240,0.45)")
+        g4_wsj_return_fig.add_vline(x=0, line_dash="dash", line_color="rgba(214,228,240,0.45)")
+        g4_wsj_return_fig.update_layout(
+            xaxis_title="High-Tier category ranking",
+            yaxis_title=f"Signed {g4_wsj_method_description} Z-score (σ)",
+            xaxis={"range": [-2.08, 2.08], "tickmode": "linear", "dtick": 0.5},
+            hovermode="closest",
+            legend_title_text="Ticker",
+            height=650,
+            margin={"l": 65, "r": 35, "t": 35, "b": 65},
+        )
+        st.plotly_chart(g4_wsj_return_fig, use_container_width=True, key="g4_wsj_category_return_scatter")
+        st.caption(
+            f"{len(g4_wsj_return_chart_df)} High-Tier observations plotted with the signed "
+            f"{g4_wsj_method_description} Z-score. {g4_wsj_signed_filter_mode} signed Z-scores from "
+            f"{g4_wsj_signed_z_min:+.2f}σ to {g4_wsj_signed_z_max:+.2f}σ. "
+            "Regression band: local ±1 return SD using a ±0.5 category-ranking window."
+        )
         st.stop()
 
     g4_group_tickers = GROUP4_GROUPS[selected_g4_group]
