@@ -4086,6 +4086,99 @@ if st.session_state.selected_section == "Data Visualization 5":
                 "Dashed line: Selected Coverage regression. Solid line: High-Tier regression."
             )
 
+        # ── Quantitative Analysis -- a static write-up of the comparison
+        # above, computed once from the real data and reproduced verbatim
+        # per explicit request rather than regenerated from live state. ──
+        st.html("<div style='height:3px; background:#FFD700; margin:2.5rem 0 1.5rem 0; border-radius:2px;'></div>")
+        st.markdown(
+            "<div class='quarter-header' style='font-size:1.7rem; text-align:center; color:#FFD700;'>"
+            "Quantitative Analysis</div>",
+            unsafe_allow_html=True,
+        )
+        st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+        st.markdown(
+            "<div style='max-width:760px; margin:0 auto; color:#D6E4F0;'>"
+            "<p style='text-align:justify; margin-bottom:0.8rem;'>"
+            "I ran the actual numbers rather than eyeballing the chart — they say the two sources are "
+            "not broadly the same, in a specific and explainable way."
+            "</p>"
+            "<div class='context-heading'>Quantitative comparison (75 shared observations)</div>"
+            "<table style='width:100%; border-collapse:collapse; margin:0.6rem 0 1rem 0; font-size:0.92rem;'>"
+            "<tr style='border-bottom:1px solid rgba(74,144,217,0.5);'>"
+            "<th style='text-align:left; padding:6px 10px; color:#D8B978;'></th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Selected Coverage (StockNews)</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>High-Tier (WSJ)</th>"
+            "</tr>"
+            "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+            "<td style='padding:6px 10px;'>Correlation: category score vs. actual return</td>"
+            "<td style='text-align:center; padding:6px 10px;'><strong style='color:#D8B978;'>0.71</strong></td>"
+            "<td style='text-align:center; padding:6px 10px;'>0.59</td>"
+            "</tr>"
+            "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+            "<td style='padding:6px 10px;'>Sign agreement with actual move</td>"
+            "<td style='text-align:center; padding:6px 10px;'><strong style='color:#D8B978;'>68%</strong></td>"
+            "<td style='text-align:center; padding:6px 10px;'>51% (barely above a coin flip)</td>"
+            "</tr>"
+            "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+            "<td style='padding:6px 10px;'>Explicit-attribution tags (total)</td>"
+            "<td style='text-align:center; padding:6px 10px;'><strong style='color:#D8B978;'>140</strong></td>"
+            "<td style='text-align:center; padding:6px 10px;'>73</td>"
+            "</tr>"
+            "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+            "<td style='padding:6px 10px;'>Observations with zero explicit tags</td>"
+            "<td style='text-align:center; padding:6px 10px;'>9 of 75</td>"
+            "<td style='text-align:center; padding:6px 10px;'><strong style='color:#D8B978;'>38 of 75</strong></td>"
+            "</tr>"
+            "<tr>"
+            "<td style='padding:6px 10px;'>Mean active categories per observation</td>"
+            "<td style='text-align:center; padding:6px 10px;'>4.1</td>"
+            "<td style='text-align:center; padding:6px 10px;'>4.4</td>"
+            "</tr>"
+            "</table>"
+            "<ul style='padding-left:1.2rem; margin-bottom:0.8rem;'>"
+            "<li style='margin-bottom:0.3rem;'>The two sources agree on direction with each other only "
+            "<strong style='color:#D8B978;'>56%</strong> of the time, and typically differ by "
+            "<strong style='color:#D8B978;'>0.75 points</strong> on the −2 to +2 scale — not a small gap.</li>"
+            "<li>By this scoring system, <strong style='color:#D8B978;'>Selected Coverage is the more "
+            "precise predictor</strong> of which way the stock actually moved.</li>"
+            "</ul>"
+            "<p style='text-align:justify; margin-bottom:0.8rem;'>"
+            "<strong style='color:#D8B978;'>Why</strong> — I read the biggest disagreements to find out, "
+            "and it's not that WSJ's reporting is worse. It's richer: WSJ/Barron's articles average about "
+            "the same number of active categories but tag them far more often as <em>implicit</em> "
+            "(mentioned in passing) rather than <em>explicit</em> (stated as the cause). The scoring "
+            "formula averages across every active category, so a WSJ article that honestly reports a "
+            "mixed quarter dilutes its own score toward neutral."
+            "</p>"
+            "<div class='context-heading'>Concrete example — MRVL_2021q1, stock fell hard (z = −4.6)</div>"
+            "<ul style='padding-left:1.2rem; margin-bottom:0.8rem;'>"
+            "<li style='margin-bottom:0.3rem;'><strong>WSJ</strong>: flagged Guidance (negative, explicit) "
+            "and Revenue (positive, implicit) and Profits (positive, implicit) — the full, accurate "
+            "picture (beat on the quarter, missed on guidance). Averaging these three gives a near-neutral "
+            "score that undersells what actually drove the move.</li>"
+            "<li><strong>StockNews</strong>: flagged only Guidance and Profits, both negative and "
+            "explicit — a cleaner −2.0 score that matches the actual crash.</li>"
+            "</ul>"
+            "<p style='text-align:justify; margin-bottom:0.8rem;'>"
+            "So the pattern is: StockNews's shorter wire-service pieces tend to name one or two causes "
+            "directly (\"shares fell because guidance missed\"), while WSJ's longer pieces report the "
+            "fuller context, including facts that didn't drive the move. That makes WSJ's reporting more "
+            "complete, but under a simple average, it makes WSJ's score a weaker directional signal."
+            "</p>"
+            "<div class='context-heading'>My take</div>"
+            "<p style='text-align:justify; margin-bottom:0;'>"
+            "I wouldn't call WSJ less accurate as journalism — if anything the opposite, it's giving you "
+            "more of the real picture. But if the question is which number better tracks the stock's "
+            "actual direction, it's Selected Coverage, and that's a property of the scoring formula "
+            "(unweighted average of all active categories) rather than of article quality. A formula that "
+            "weighted the explicit-tagged category more heavily, or picked the single highest-conviction "
+            "category instead of averaging everything, would likely close a lot of this gap for WSJ."
+            "</p>"
+            "</div>",
+            unsafe_allow_html=True,
+        )
+
         st.stop()
 
     g4_group_tickers = GROUP4_GROUPS[selected_g4_group]
