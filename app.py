@@ -3591,14 +3591,21 @@ if st.session_state.selected_section == "Data Visualization 5":
                 z = metrics.get(g4_compare_z_field)
                 if z is None:
                     continue
-                rows.append({"score": score, "return_pct": ret})
+                rows.append({"score": score, "return_pct": ret, "z_score": z})
             df = pd.DataFrame(rows)
             if df.empty:
-                return {"n": 0, "corr": None, "sign": None}
+                return {"n": 0, "corr": None, "sign": None, "corr_z": None, "sign_z": None}
             corr = df["score"].corr(df["return_pct"])
             nonzero = df[(df["score"] != 0) & (df["return_pct"] != 0)]
             sign = ((nonzero["score"] > 0) == (nonzero["return_pct"] > 0)).mean() * 100 if not nonzero.empty else None
-            return {"n": len(df), "corr": corr, "sign": sign}
+            corr_z = df["score"].corr(df["z_score"])
+            nonzero_z = df[(df["score"] != 0) & (df["z_score"] != 0)]
+            sign_z = (
+                ((nonzero_z["score"] > 0) == (nonzero_z["z_score"] > 0)).mean() * 100
+                if not nonzero_z.empty
+                else None
+            )
+            return {"n": len(df), "corr": corr, "sign": sign, "corr_z": corr_z, "sign_z": sign_z}
 
         def g4_fmt_corr(value):
             return f"{value:.2f}" if value is not None else "n/a"
@@ -4234,6 +4241,7 @@ if st.session_state.selected_section == "Data Visualization 5":
                 {
                     "score": g4_qa1_sm_score,
                     "return_pct": g4_qa1_sm_ret,
+                    "z_score": g4_qa1_sm_z,
                     "explicit_n": sum(c.get("attribution") == "explicit" for c in g4_qa1_sm_active),
                     "active_n": len(g4_qa1_sm_active),
                 }
@@ -4242,19 +4250,59 @@ if st.session_state.selected_section == "Data Visualization 5":
         g4_qa1_sm_n = len(g4_qa1_sm_df)
         if g4_qa1_sm_n:
             g4_qa1_sm_corr = g4_qa1_sm_df["score"].corr(g4_qa1_sm_df["return_pct"])
+            g4_qa1_sm_corr_z = g4_qa1_sm_df["score"].corr(g4_qa1_sm_df["z_score"])
             g4_qa1_sm_nonzero = g4_qa1_sm_df[(g4_qa1_sm_df["score"] != 0) & (g4_qa1_sm_df["return_pct"] != 0)]
             g4_qa1_sm_sign = (
                 ((g4_qa1_sm_nonzero["score"] > 0) == (g4_qa1_sm_nonzero["return_pct"] > 0)).mean() * 100
                 if not g4_qa1_sm_nonzero.empty
                 else None
             )
+            g4_qa1_sm_nonzero_z = g4_qa1_sm_df[(g4_qa1_sm_df["score"] != 0) & (g4_qa1_sm_df["z_score"] != 0)]
+            g4_qa1_sm_sign_z = (
+                ((g4_qa1_sm_nonzero_z["score"] > 0) == (g4_qa1_sm_nonzero_z["z_score"] > 0)).mean() * 100
+                if not g4_qa1_sm_nonzero_z.empty
+                else None
+            )
             g4_qa1_sm_explicit_total = int(g4_qa1_sm_df["explicit_n"].sum())
             g4_qa1_sm_zero_explicit = int((g4_qa1_sm_df["explicit_n"] == 0).sum())
             g4_qa1_sm_mean_active = g4_qa1_sm_df["active_n"].mean()
         else:
-            g4_qa1_sm_corr = g4_qa1_sm_sign = None
+            g4_qa1_sm_corr = g4_qa1_sm_sign = g4_qa1_sm_corr_z = g4_qa1_sm_sign_z = None
             g4_qa1_sm_explicit_total = g4_qa1_sm_zero_explicit = 0
             g4_qa1_sm_mean_active = 0.0
+
+        # Large Cap pair, vs. z-score -- the original static write-up only
+        # ever computed correlation against actual return % (never written
+        # live, so this needs a fresh pass over the same 75-observation
+        # restriction to get a z-score-based number to complement it with).
+        g4_qa1_lc_rows = []
+        for _, g4_qa1_lc_row in g4_wsj_analysis_source.iterrows():
+            g4_qa1_lc_key = f"{g4_qa1_lc_row['ticker']}_{g4_qa1_lc_row['fiscal_yearquarter']}"
+            g4_qa1_lc_sel_score = g4_category_score(group4_stocknews_v2_lookup.get(g4_qa1_lc_key))
+            g4_qa1_lc_wsj_score = g4_category_score(group4_wsj_coverage_lookup.get(g4_qa1_lc_key))
+            if g4_qa1_lc_sel_score is None or g4_qa1_lc_wsj_score is None:
+                continue
+            g4_qa1_lc_metrics = group4_abnormal_returns_lookup.get(g4_qa1_lc_key, {}).get(g4_compare_method_key) or {}
+            g4_qa1_lc_z = g4_qa1_lc_metrics.get(g4_compare_z_field)
+            if g4_qa1_lc_z is None:
+                continue
+            g4_qa1_lc_rows.append({"sel": g4_qa1_lc_sel_score, "wsj": g4_qa1_lc_wsj_score, "z_score": g4_qa1_lc_z})
+        g4_qa1_lc_df = pd.DataFrame(g4_qa1_lc_rows)
+        g4_qa1_lc_n = len(g4_qa1_lc_df)
+
+        def g4_qa1_sign_vs_z(score_col):
+            nonzero = g4_qa1_lc_df[(g4_qa1_lc_df[score_col] != 0) & (g4_qa1_lc_df["z_score"] != 0)]
+            if nonzero.empty:
+                return None
+            return ((nonzero[score_col] > 0) == (nonzero["z_score"] > 0)).mean() * 100
+
+        if g4_qa1_lc_n:
+            g4_qa1_lc_corr_sel_z = g4_qa1_lc_df["sel"].corr(g4_qa1_lc_df["z_score"])
+            g4_qa1_lc_corr_wsj_z = g4_qa1_lc_df["wsj"].corr(g4_qa1_lc_df["z_score"])
+            g4_qa1_lc_sign_sel_z = g4_qa1_sign_vs_z("sel")
+            g4_qa1_lc_sign_wsj_z = g4_qa1_sign_vs_z("wsj")
+        else:
+            g4_qa1_lc_corr_sel_z = g4_qa1_lc_corr_wsj_z = g4_qa1_lc_sign_sel_z = g4_qa1_lc_sign_wsj_z = None
 
         st.markdown(
             "<div style='max-width:760px; margin:0 auto; color:#D6E4F0;'>"
@@ -4324,6 +4372,37 @@ if st.session_state.selected_section == "Data Visualization 5":
             )
             + "</li>"
             "</ul>"
+            "<div class='context-heading'>Complement: same comparison, vs. abnormal return z-score (σ) "
+            "instead of raw return %</div>"
+            "<table style='width:100%; border-collapse:collapse; margin:0.6rem 0 1rem 0; font-size:0.92rem;'>"
+            "<tr style='border-bottom:1px solid rgba(74,144,217,0.5);'>"
+            "<th style='text-align:left; padding:6px 10px; color:#D8B978;'></th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Selected Coverage<br>"
+            "<span style='font-size:0.78rem; opacity:0.75;'>(Large Cap)</span></th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>High-Tier<br>"
+            "<span style='font-size:0.78rem; opacity:0.75;'>(Large Cap)</span></th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Selected Coverage<br>"
+            "<span style='font-size:0.78rem; opacity:0.75;'>(Small &amp; Mid Cap)</span></th>"
+            "</tr>"
+            "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+            "<td style='padding:6px 10px;'>Correlation: category score vs. z-score</td>"
+            f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa1_lc_corr_sel_z)}</td>"
+            f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa1_lc_corr_wsj_z)}</td>"
+            f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa1_sm_corr_z)}</td>"
+            "</tr>"
+            "<tr>"
+            "<td style='padding:6px 10px;'>Sign agreement with z-score</td>"
+            f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa1_lc_sign_sel_z)}</td>"
+            f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa1_lc_sign_wsj_z)}</td>"
+            f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa1_sm_sign_z)}</td>"
+            "</tr>"
+            "</table>"
+            "<p style='text-align:justify; margin-bottom:0.8rem; font-size:0.9rem; opacity:0.85;'>"
+            "Z-score standardizes the return against its own local volatility window, so it isn't the same "
+            "number as the raw return % used above (and not identical to what the charts' own Z-score range "
+            "filter displays on their y-axis, which is this same z-score) -- shown here as a methodological "
+            "complement, not a replacement for the correlation already reported above."
+            "</p>"
             "<p style='text-align:justify; margin-bottom:0.8rem;'>"
             "<strong style='color:#D8B978;'>Why</strong> — I read the biggest disagreements to find out, "
             "and it's not that WSJ's reporting is worse. It's richer: WSJ/Barron's articles average about "
@@ -4397,6 +4476,7 @@ if st.session_state.selected_section == "Data Visualization 5":
                 {
                     "note_key": g4_qa2_key,
                     "return_pct": g4_qa2_ret,
+                    "z_score": g4_qa2_z,
                     "sel_eq": g4_qa2_sel_eq,
                     "wsj_eq": g4_qa2_wsj_eq,
                     "sel_orig": g4_qa2_sel_orig,
@@ -4454,6 +4534,21 @@ if st.session_state.selected_section == "Data Visualization 5":
             g4_qa2_sm_orig = g4_smallcap_stats(g4_category_score)
             g4_qa2_sm_eq = g4_smallcap_stats(g4_category_score_eq)
 
+            def g4_qa2_sign_agreement_z(score_col):
+                nonzero = g4_qa2_df[(g4_qa2_df[score_col] != 0) & (g4_qa2_df["z_score"] != 0)]
+                if nonzero.empty:
+                    return None
+                return ((nonzero[score_col] > 0) == (nonzero["z_score"] > 0)).mean() * 100
+
+            g4_qa2_corr_sel_orig_z = g4_qa2_df["sel_orig"].corr(g4_qa2_df["z_score"])
+            g4_qa2_corr_wsj_orig_z = g4_qa2_df["wsj_orig"].corr(g4_qa2_df["z_score"])
+            g4_qa2_corr_sel_eq_z = g4_qa2_df["sel_eq"].corr(g4_qa2_df["z_score"])
+            g4_qa2_corr_wsj_eq_z = g4_qa2_df["wsj_eq"].corr(g4_qa2_df["z_score"])
+            g4_qa2_sign_sel_orig_z = g4_qa2_sign_agreement_z("sel_orig")
+            g4_qa2_sign_wsj_orig_z = g4_qa2_sign_agreement_z("wsj_orig")
+            g4_qa2_sign_sel_eq_z = g4_qa2_sign_agreement_z("sel_eq")
+            g4_qa2_sign_wsj_eq_z = g4_qa2_sign_agreement_z("wsj_eq")
+
             st.markdown(
                 "<div style='max-width:760px; margin:0 auto; color:#D6E4F0;'>"
                 "<p style='text-align:justify; margin-bottom:0.8rem;'>"
@@ -4510,6 +4605,45 @@ if st.session_state.selected_section == "Data Visualization 5":
                 "<td style='padding:6px 10px;'>Mean |Selected − High-Tier| score gap</td>"
                 f"<td style='text-align:center; padding:6px 10px;'>{g4_qa2_meandiff_orig:.2f}</td>"
                 f"<td style='text-align:center; padding:6px 10px;'>{g4_qa2_meandiff_eq:.2f}</td>"
+                "</tr>"
+                "</table>"
+                "<div class='context-heading'>Complement: vs. abnormal return z-score (σ) instead of "
+                "raw return %</div>"
+                "<table style='width:100%; border-collapse:collapse; margin:0.6rem 0 1rem 0; font-size:0.92rem;'>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.5);'>"
+                "<th style='text-align:left; padding:6px 10px; color:#D8B978;'></th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Original (×2)</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Equal weight (×1)</th>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Correlation — Selected Coverage vs. z-score</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa2_corr_sel_orig_z)}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa2_corr_sel_eq_z)}</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Correlation — High-Tier vs. z-score</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa2_corr_wsj_orig_z)}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa2_corr_wsj_eq_z)}</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Sign agreement — Selected Coverage</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa2_sign_sel_orig_z)}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa2_sign_sel_eq_z)}</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Sign agreement — High-Tier</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa2_sign_wsj_orig_z)}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa2_sign_wsj_eq_z)}</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Correlation — Selected Coverage (Small &amp; Mid Cap)</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa2_sm_orig['corr_z'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa2_sm_eq['corr_z'])}</td>"
+                "</tr>"
+                "<tr>"
+                "<td style='padding:6px 10px;'>Sign agreement — Selected Coverage (Small &amp; Mid Cap)</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa2_sm_orig['sign_z'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa2_sm_eq['sign_z'])}</td>"
                 "</tr>"
                 "</table>"
                 "<div class='context-heading'>Does it change the conclusion?</div>"
@@ -4600,6 +4734,7 @@ if st.session_state.selected_section == "Data Visualization 5":
                 {
                     "note_key": g4_qa3_key,
                     "return_pct": g4_qa3_ret,
+                    "z_score": g4_qa3_z,
                     "sel_exp": g4_qa3_sel_exp,
                     "wsj_exp": g4_qa3_wsj_exp,
                     "sel_orig": g4_qa3_sel_orig,
@@ -4647,6 +4782,21 @@ if st.session_state.selected_section == "Data Visualization 5":
 
             g4_qa3_sm_orig = g4_smallcap_stats(g4_category_score)
             g4_qa3_sm_exp = g4_smallcap_stats(g4_category_score_explicit_only)
+
+            def g4_qa3_sign_agreement_z(score_col):
+                nonzero = g4_qa3_df[(g4_qa3_df[score_col] != 0) & (g4_qa3_df["z_score"] != 0)]
+                if nonzero.empty:
+                    return None
+                return ((nonzero[score_col] > 0) == (nonzero["z_score"] > 0)).mean() * 100
+
+            g4_qa3_corr_sel_orig_z = g4_qa3_df["sel_orig"].corr(g4_qa3_df["z_score"])
+            g4_qa3_corr_wsj_orig_z = g4_qa3_df["wsj_orig"].corr(g4_qa3_df["z_score"])
+            g4_qa3_corr_sel_exp_z = g4_qa3_df["sel_exp"].corr(g4_qa3_df["z_score"])
+            g4_qa3_corr_wsj_exp_z = g4_qa3_df["wsj_exp"].corr(g4_qa3_df["z_score"])
+            g4_qa3_sign_sel_orig_z = g4_qa3_sign_agreement_z("sel_orig")
+            g4_qa3_sign_wsj_orig_z = g4_qa3_sign_agreement_z("wsj_orig")
+            g4_qa3_sign_sel_exp_z = g4_qa3_sign_agreement_z("sel_exp")
+            g4_qa3_sign_wsj_exp_z = g4_qa3_sign_agreement_z("wsj_exp")
 
             st.markdown(
                 "<div style='max-width:760px; margin:0 auto; color:#D6E4F0;'>"
@@ -4699,6 +4849,45 @@ if st.session_state.selected_section == "Data Visualization 5":
                 "<td style='padding:6px 10px;'>Sources agree with each other on direction</td>"
                 f"<td style='text-align:center; padding:6px 10px;'>{g4_qa3_sources_agree_orig:.0f}%</td>"
                 f"<td style='text-align:center; padding:6px 10px;'>{g4_qa3_sources_agree_exp:.0f}%</td>"
+                "</tr>"
+                "</table>"
+                "<div class='context-heading'>Complement: vs. abnormal return z-score (σ) instead of "
+                "raw return %</div>"
+                "<table style='width:100%; border-collapse:collapse; margin:0.6rem 0 1rem 0; font-size:0.92rem;'>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.5);'>"
+                "<th style='text-align:left; padding:6px 10px; color:#D8B978;'></th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>All categories</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Explicit-only</th>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Correlation — Selected Coverage vs. z-score</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa3_corr_sel_orig_z)}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa3_corr_sel_exp_z)}</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Correlation — High-Tier vs. z-score</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa3_corr_wsj_orig_z)}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa3_corr_wsj_exp_z)}</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Sign agreement — Selected Coverage</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa3_sign_sel_orig_z)}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa3_sign_sel_exp_z)}</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Sign agreement — High-Tier</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa3_sign_wsj_orig_z)}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa3_sign_wsj_exp_z)}</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Correlation — Selected Coverage (Small &amp; Mid Cap)</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa3_sm_orig['corr_z'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa3_sm_exp['corr_z'])}</td>"
+                "</tr>"
+                "<tr>"
+                "<td style='padding:6px 10px;'>Sign agreement — Selected Coverage (Small &amp; Mid Cap)</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa3_sm_orig['sign_z'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa3_sm_exp['sign_z'])}</td>"
                 "</tr>"
                 "</table>"
                 "<div class='context-heading'>Does it change the conclusion?</div>"
@@ -4770,6 +4959,7 @@ if st.session_state.selected_section == "Data Visualization 5":
                 {
                     "note_key": g4_qa4_key,
                     "return_pct": g4_qa4_ret,
+                    "z_score": g4_qa4_z,
                     "sel_nm": g4_qa4_sel_nm,
                     "wsj_nm": g4_qa4_wsj_nm,
                     "sel_orig": g4_qa4_sel_orig,
@@ -4817,6 +5007,21 @@ if st.session_state.selected_section == "Data Visualization 5":
 
             g4_qa4_sm_orig = g4_smallcap_stats(g4_category_score)
             g4_qa4_sm_nm = g4_smallcap_stats(g4_category_score_no_macro)
+
+            def g4_qa4_sign_agreement_z(score_col):
+                nonzero = g4_qa4_df[(g4_qa4_df[score_col] != 0) & (g4_qa4_df["z_score"] != 0)]
+                if nonzero.empty:
+                    return None
+                return ((nonzero[score_col] > 0) == (nonzero["z_score"] > 0)).mean() * 100
+
+            g4_qa4_corr_sel_orig_z = g4_qa4_df["sel_orig"].corr(g4_qa4_df["z_score"])
+            g4_qa4_corr_wsj_orig_z = g4_qa4_df["wsj_orig"].corr(g4_qa4_df["z_score"])
+            g4_qa4_corr_sel_nm_z = g4_qa4_df["sel_nm"].corr(g4_qa4_df["z_score"])
+            g4_qa4_corr_wsj_nm_z = g4_qa4_df["wsj_nm"].corr(g4_qa4_df["z_score"])
+            g4_qa4_sign_sel_orig_z = g4_qa4_sign_agreement_z("sel_orig")
+            g4_qa4_sign_wsj_orig_z = g4_qa4_sign_agreement_z("wsj_orig")
+            g4_qa4_sign_sel_nm_z = g4_qa4_sign_agreement_z("sel_nm")
+            g4_qa4_sign_wsj_nm_z = g4_qa4_sign_agreement_z("wsj_nm")
 
             st.markdown(
                 "<div style='max-width:760px; margin:0 auto; color:#D6E4F0;'>"
@@ -4872,6 +5077,45 @@ if st.session_state.selected_section == "Data Visualization 5":
                 f"<td style='text-align:center; padding:6px 10px;'>{g4_qa4_sources_agree_nm:.0f}%</td>"
                 "</tr>"
                 "</table>"
+                "<div class='context-heading'>Complement: vs. abnormal return z-score (σ) instead of "
+                "raw return %</div>"
+                "<table style='width:100%; border-collapse:collapse; margin:0.6rem 0 1rem 0; font-size:0.92rem;'>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.5);'>"
+                "<th style='text-align:left; padding:6px 10px; color:#D8B978;'></th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>With Macro/micro</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Without</th>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Correlation — Selected Coverage vs. z-score</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa4_corr_sel_orig_z)}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa4_corr_sel_nm_z)}</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Correlation — High-Tier vs. z-score</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa4_corr_wsj_orig_z)}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa4_corr_wsj_nm_z)}</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Sign agreement — Selected Coverage</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa4_sign_sel_orig_z)}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa4_sign_sel_nm_z)}</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Sign agreement — High-Tier</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa4_sign_wsj_orig_z)}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa4_sign_wsj_nm_z)}</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Correlation — Selected Coverage (Small &amp; Mid Cap)</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa4_sm_orig['corr_z'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(g4_qa4_sm_nm['corr_z'])}</td>"
+                "</tr>"
+                "<tr>"
+                "<td style='padding:6px 10px;'>Sign agreement — Selected Coverage (Small &amp; Mid Cap)</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa4_sm_orig['sign_z'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(g4_qa4_sm_nm['sign_z'])}</td>"
+                "</tr>"
+                "</table>"
                 "<div class='context-heading'>Does it change the conclusion?</div>"
                 "<p style='text-align:justify; margin-bottom:0;'>"
                 + (
@@ -4892,6 +5136,295 @@ if st.session_state.selected_section == "Data Visualization 5":
                     else ""
                 )
                 + "</p>"
+                "</div>",
+                unsafe_allow_html=True,
+            )
+
+        # ── Quantitative Analysis 5.0 -- sweeps the same |z|-cutoff range
+        # filter already built into the 4 scatter charts above (their
+        # "Lower/Upper Z-score" controls), but automated across many cutoff
+        # values instead of one manual setting, tracking how the score-vs-
+        # return relationship's strength evolves as the included return
+        # range narrows from the full sample down to only the smallest
+        # moves. Reports two different statistics per the explicit
+        # distinction confirmed with the project owner: Pearson r (same
+        # definition used in 1.0-4.0, against actual return %, not
+        # z-score) and R² of the degree-2 polynomial fit (same curve shape
+        # as the 5 charts' "Quadratic regression" line). Covers all 4
+        # formula variants (reusing g4_category_score / _eq / _explicit_only
+        # / _no_macro, untouched) for both Large Cap sources. ──
+        G4_QA5_FORMULAS = {
+            "Original (×2)": g4_category_score,
+            "Equal weight (×1)": g4_category_score_eq,
+            "Explicit-only": g4_category_score_explicit_only,
+            "No Macro/micro": g4_category_score_no_macro,
+        }
+        G4_QA5_FORMULA_COLORS = {
+            "Original (×2)": "#FFD700",
+            "Equal weight (×1)": "#4A90D9",
+            "Explicit-only": "#5FBF6E",
+            "No Macro/micro": "#E06C6C",
+        }
+        G4_QA5_MIN_N = 8
+
+        def g4_qa5_build(lookup, formula_fn):
+            rows = []
+            for _, row in g4_wsj_analysis_source.iterrows():
+                key = f"{row['ticker']}_{row['fiscal_yearquarter']}"
+                score = formula_fn(lookup.get(key))
+                if score is None:
+                    continue
+                metrics = group4_abnormal_returns_lookup.get(key, {}).get(g4_compare_method_key) or {}
+                ret = metrics.get(g4_compare_return_field)
+                z = metrics.get(g4_compare_z_field)
+                if z is None:
+                    continue
+                rows.append({"abs_z": abs(z), "score": score, "return_pct": ret, "z_score": z})
+            return pd.DataFrame(rows).sort_values("abs_z").reset_index(drop=True)
+
+        def g4_qa5_r2_quad(x, y):
+            if len(x) < 4 or x.nunique() < 3:
+                return None
+            coeffs = np.polyfit(x, y, 2)
+            pred = np.polyval(coeffs, x)
+            ss_res = ((y - pred) ** 2).sum()
+            ss_tot = ((y - y.mean()) ** 2).sum()
+            if ss_tot == 0:
+                return None
+            return 1 - ss_res / ss_tot
+
+        def g4_qa5_sweep(df, target="return_pct"):
+            points = []
+            for k in range(G4_QA5_MIN_N, len(df) + 1):
+                sub = df.iloc[:k]
+                r = sub["score"].corr(sub[target])
+                r2 = g4_qa5_r2_quad(sub["score"], sub[target])
+                points.append({"cutoff": sub["abs_z"].iloc[-1], "n": k, "r": r, "r2": r2})
+            return points
+
+        def g4_qa5_stabilization(points, value_key, threshold):
+            last_below = None
+            for i, p in enumerate(points):
+                v = p[value_key]
+                if v is None:
+                    continue
+                magnitude = abs(v) if value_key == "r" else v
+                if magnitude < threshold:
+                    last_below = i
+            if not points:
+                return "n/a"
+            if last_below is None:
+                return f"≤{points[0]['cutoff']:.2f} (every tested range)"
+            if last_below == len(points) - 1:
+                return "never (stays below even at full range)"
+            return f"{points[last_below + 1]['cutoff']:.2f}"
+
+        st.html("<div style='height:3px; background:#FFD700; margin:2.5rem 0 1.5rem 0; border-radius:2px;'></div>")
+        st.markdown(
+            "<div class='quarter-header' style='font-size:1.7rem; text-align:center; color:#FFD700;'>"
+            "Quantitative Analysis 5.0</div>"
+            "<div style='text-align:center; font-size:0.95rem; color:rgba(214,228,240,0.75); "
+            "font-style:italic; margin-top:0.2rem;'>Goal: find where, as the included abnormal-return "
+            "range narrows, the category score stops being a meaningful predictor of the actual return.</div>",
+            unsafe_allow_html=True,
+        )
+        st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+        g4_qa5_formulas_selected = st.multiselect(
+            "Formula variant(s)",
+            list(G4_QA5_FORMULAS.keys()),
+            default=list(G4_QA5_FORMULAS.keys()),
+            key="g4_qa5_formulas",
+        )
+        g4_qa5_sources_choice = st.radio(
+            "Source(s)",
+            ["Selected Coverage only", "High-Tier only", "Both"],
+            index=2,
+            horizontal=True,
+            key="g4_qa5_sources_choice",
+        )
+        g4_qa5_sources_selected = (
+            ["Selected Coverage", "High-Tier"]
+            if g4_qa5_sources_choice == "Both"
+            else [g4_qa5_sources_choice.replace(" only", "")]
+        )
+
+        if not g4_qa5_formulas_selected or not g4_qa5_sources_selected:
+            st.info("Select at least one formula variant and one source to see the sweep.")
+        else:
+            g4_qa5_series = {}
+            g4_qa5_series_z = {}
+            for formula_name in g4_qa5_formulas_selected:
+                formula_fn = G4_QA5_FORMULAS[formula_name]
+                for source_name in g4_qa5_sources_selected:
+                    lookup = (
+                        group4_stocknews_v2_lookup if source_name == "Selected Coverage" else group4_wsj_coverage_lookup
+                    )
+                    df = g4_qa5_build(lookup, formula_fn)
+                    points = g4_qa5_sweep(df, target="return_pct")
+                    if points:
+                        g4_qa5_series[(formula_name, source_name)] = points
+                    points_z = g4_qa5_sweep(df, target="z_score")
+                    if points_z:
+                        g4_qa5_series_z[(formula_name, source_name)] = points_z
+
+            g4_qa5_r_fig = go.Figure()
+            g4_qa5_r2_fig = go.Figure()
+            for (formula_name, source_name), points in g4_qa5_series.items():
+                color = G4_QA5_FORMULA_COLORS[formula_name]
+                dash = "solid" if source_name == "High-Tier" else "dash"
+                cutoffs = [p["cutoff"] for p in points]
+                g4_qa5_r_fig.add_trace(
+                    go.Scatter(
+                        x=cutoffs,
+                        y=[p["r"] for p in points],
+                        mode="lines",
+                        name=f"{formula_name} — {source_name}",
+                        line={"color": color, "dash": dash, "width": 2},
+                        customdata=[p["n"] for p in points],
+                        hovertemplate=(
+                            f"<b>{formula_name} — {source_name}</b><br>"
+                            "|z| cutoff: %{x:.2f}<br>r: %{y:.3f}<br>n: %{customdata}<extra></extra>"
+                        ),
+                    )
+                )
+                g4_qa5_r2_fig.add_trace(
+                    go.Scatter(
+                        x=cutoffs,
+                        y=[p["r2"] for p in points],
+                        mode="lines",
+                        name=f"{formula_name} — {source_name}",
+                        line={"color": color, "dash": dash, "width": 2},
+                        customdata=[p["n"] for p in points],
+                        hovertemplate=(
+                            f"<b>{formula_name} — {source_name}</b><br>"
+                            "|z| cutoff: %{x:.2f}<br>R²: %{y:.3f}<br>n: %{customdata}<extra></extra>"
+                        ),
+                    )
+                )
+
+            g4_qa5_r_fig.add_hline(y=0, line_dash="dash", line_color="rgba(214,228,240,0.3)")
+            g4_qa5_r_fig.add_hline(
+                y=0.2, line_dash="dot", line_color="rgba(255,215,0,0.5)",
+                annotation_text="meaningful threshold (|r|=0.2)", annotation_position="top left",
+            )
+            g4_qa5_r_fig.add_hline(y=-0.2, line_dash="dot", line_color="rgba(255,215,0,0.5)")
+            g4_qa5_r_fig.update_layout(
+                title="Pearson correlation (score vs. actual return) as the |z| range narrows",
+                xaxis_title="Included range: |z-score| ≤ x (σ)",
+                yaxis_title="Pearson r",
+                hovermode="closest",
+                height=480,
+                margin={"l": 65, "r": 35, "t": 50, "b": 65},
+                legend={"orientation": "h", "yanchor": "bottom", "y": -0.4},
+            )
+            st.plotly_chart(g4_qa5_r_fig, use_container_width=True, key="g4_qa5_r_chart")
+
+            g4_qa5_r2_fig.add_hline(
+                y=0.04, line_dash="dot", line_color="rgba(255,215,0,0.5)",
+                annotation_text="meaningful threshold (R²=0.04)", annotation_position="top left",
+            )
+            g4_qa5_r2_fig.update_layout(
+                title="R² of the quadratic fit (same curve as the 5 charts) as the |z| range narrows",
+                xaxis_title="Included range: |z-score| ≤ x (σ)",
+                yaxis_title="R² (degree-2 polynomial)",
+                hovermode="closest",
+                height=480,
+                margin={"l": 65, "r": 35, "t": 50, "b": 65},
+                legend={"orientation": "h", "yanchor": "bottom", "y": -0.4},
+            )
+            st.plotly_chart(g4_qa5_r2_fig, use_container_width=True, key="g4_qa5_r2_chart")
+
+            g4_qa5_table_rows = ""
+            for (formula_name, source_name), points in g4_qa5_series.items():
+                full = points[-1]
+                r_stab = g4_qa5_stabilization(points, "r", 0.2)
+                r2_stab = g4_qa5_stabilization(points, "r2", 0.04)
+                full_r2_str = f"{full['r2']:.2f}" if full["r2"] is not None else "n/a"
+                full_r_str = f"{full['r']:.2f}" if full["r"] is not None else "n/a"
+                g4_qa5_table_rows += (
+                    "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                    f"<td style='padding:6px 10px;'>{formula_name} — {source_name}</td>"
+                    f"<td style='text-align:center; padding:6px 10px;'>{full['n']}</td>"
+                    f"<td style='text-align:center; padding:6px 10px;'>{full_r_str}</td>"
+                    f"<td style='text-align:center; padding:6px 10px;'>{full_r2_str}</td>"
+                    f"<td style='text-align:center; padding:6px 10px;'>{r_stab}</td>"
+                    f"<td style='text-align:center; padding:6px 10px;'>{r2_stab}</td>"
+                    "</tr>"
+                )
+
+            st.markdown(
+                "<div style='max-width:860px; margin:0 auto; color:#D6E4F0;'>"
+                "<p style='text-align:justify; margin-bottom:0.8rem;'>"
+                "Each point restricts the sample to the observations with the "
+                f"{G4_QA5_MIN_N} to 75 smallest |z-scores|, i.e. \"included range\" grows from the "
+                "narrowest/calmest moves outward to the full sample (same convention as the existing "
+                "per-chart Z-score filter, automated across cutoff values instead of set once). "
+                "\"Stabilization cutoff\" is the narrowest range beyond which the statistic never dips back "
+                "below the meaningful threshold for any wider range — reading it right-to-left on the charts "
+                "above shows where the line stops being reliably above the dotted threshold line as the "
+                "range compresses."
+                "</p>"
+                "<table style='width:100%; border-collapse:collapse; margin:0.6rem 0 1rem 0; font-size:0.85rem;'>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.5);'>"
+                "<th style='text-align:left; padding:6px 10px; color:#D8B978;'>Series</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>N (full)</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>r (full)</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>R² (full)</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Stabilizes (|r|≥0.2) at</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Stabilizes (R²≥0.04) at</th>"
+                "</tr>"
+                + g4_qa5_table_rows
+                + "</table>"
+                "<p style='text-align:justify; margin-bottom:0;'>"
+                "Reading the \"stabilizes at\" columns as a cutoff in σ: below that |z| range, the "
+                "relationship between category score and actual return is no longer reliably distinguishable "
+                "from noise for that series — restricting the dashboard's other charts/filters to a narrower "
+                "range than that would mean the category ranking isn't actually predicting anything within "
+                "what's left."
+                "</p>"
+                "</div>",
+                unsafe_allow_html=True,
+            )
+
+            g4_qa5_table_rows_z = ""
+            for (formula_name, source_name), points_z in g4_qa5_series_z.items():
+                full_z = points_z[-1]
+                r_stab_z = g4_qa5_stabilization(points_z, "r", 0.2)
+                r2_stab_z = g4_qa5_stabilization(points_z, "r2", 0.04)
+                full_r2_str_z = f"{full_z['r2']:.2f}" if full_z["r2"] is not None else "n/a"
+                full_r_str_z = f"{full_z['r']:.2f}" if full_z["r"] is not None else "n/a"
+                g4_qa5_table_rows_z += (
+                    "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                    f"<td style='padding:6px 10px;'>{formula_name} — {source_name}</td>"
+                    f"<td style='text-align:center; padding:6px 10px;'>{full_z['n']}</td>"
+                    f"<td style='text-align:center; padding:6px 10px;'>{full_r_str_z}</td>"
+                    f"<td style='text-align:center; padding:6px 10px;'>{full_r2_str_z}</td>"
+                    f"<td style='text-align:center; padding:6px 10px;'>{r_stab_z}</td>"
+                    f"<td style='text-align:center; padding:6px 10px;'>{r2_stab_z}</td>"
+                    "</tr>"
+                )
+
+            st.markdown(
+                "<div style='max-width:860px; margin:0 auto; color:#D6E4F0;'>"
+                "<div class='context-heading'>Complement: same sweep, vs. abnormal return z-score (σ) "
+                "instead of raw return %</div>"
+                "<p style='text-align:justify; margin-bottom:0.8rem; font-size:0.9rem; opacity:0.85;'>"
+                "Same cutoffs, same formulas, same sources — only the predicted variable changes, from the "
+                "raw return % to its standardized z-score. The charts above stay return %-based; this table "
+                "is the z-score equivalent of the summary table above it, not a replacement."
+                "</p>"
+                "<table style='width:100%; border-collapse:collapse; margin:0.6rem 0 1rem 0; font-size:0.85rem;'>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.5);'>"
+                "<th style='text-align:left; padding:6px 10px; color:#D8B978;'>Series</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>N (full)</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>r (full)</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>R² (full)</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Stabilizes (|r|≥0.2) at</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Stabilizes (R²≥0.04) at</th>"
+                "</tr>"
+                + g4_qa5_table_rows_z
+                + "</table>"
                 "</div>",
                 unsafe_allow_html=True,
             )
