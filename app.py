@@ -6369,6 +6369,91 @@ if st.session_state.selected_section == "Data Visualization 5":
                 unsafe_allow_html=True,
             )
 
+        # ── Conclusion -- recommendations for the next prompt iteration
+        # (Data Viz 6/7), grounded directly in the real numbers established
+        # across the Quantitative/Qualitative Analysis sections above. A
+        # static write-up (like Quantitative Analysis 1.0) rather than a
+        # live computation, since it's a judgment call synthesizing many
+        # prior findings, not a fresh statistic. ──
+        st.html("<div style='height:3px; background:#FFD700; margin:2.5rem 0 1.5rem 0; border-radius:2px;'></div>")
+        st.markdown(
+            "<div class='quarter-header' style='font-size:1.7rem; text-align:center; color:#FFD700;'>"
+            "Conclusion</div>"
+            "<div style='text-align:center; font-size:0.95rem; color:rgba(214,228,240,0.75); "
+            "font-style:italic; margin-top:0.2rem;'>Goal: turn everything tested above into concrete "
+            "recommendations for the next prompt iteration, before running it on Data Viz 6 and 7.</div>",
+            unsafe_allow_html=True,
+        )
+        st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+        st.markdown(
+            "<div style='max-width:820px; margin:0 auto; color:#D6E4F0;'>"
+            "<div class='context-heading'>Your recommendation: let reasons be inferred implicitly from "
+            "context, not just stated explicitly</div>"
+            "<p style='text-align:justify; margin-bottom:0.8rem;'>"
+            "The Qualitative Analysis section's reason rate (30-38% depending on source) is a ceiling on "
+            "what's recoverable from the category text the current prompt already wrote -- it was never a "
+            "re-read of the source articles, since this round deliberately avoided re-prompting. That means "
+            "a category with no stated reason today could genuinely have none in the source, or could have "
+            "one sitting in a separate paragraph that the original prompt never pulled in because nothing "
+            "explicitly said \"this is why.\" The next prompt should explicitly allow both paths: extract a "
+            "reason when the article states it directly (\"shares rose because revenue beat the $X estimate\"), "
+            "<em>and</em> infer a plausible reason from surrounding context when the causal link is real but "
+            "unstated (a separate paragraph mentioning a mid-quarter order, a new contract, or a cost "
+            "development that a careful reader would connect to the move, even though no sentence says so "
+            "outright). This is a change to the <strong style='color:#D8B978;'>reason text</strong> "
+            "specifically -- it's independent of each category's own explicit/implicit "
+            "<strong style='color:#D8B978;'>attribution tag</strong>, which already exists in the schema and "
+            "should keep working exactly as it does now (a category can stay tagged implicit attribution "
+            "while still carrying an implicitly-inferred reason, or vice versa -- the two axes shouldn't be "
+            "conflated)."
+            "</p>"
+            "<div class='context-heading'>Additional recommendations</div>"
+            "<ul style='padding-left:1.2rem; margin-bottom:0.8rem;'>"
+            "<li style='margin-bottom:0.6rem;'><strong style='color:#D8B978;'>Push for a more decisive "
+            "explicit/implicit call on long-form sourcing.</strong> High-Tier's explicit rate is 9% of "
+            "possible slots versus Selected Coverage's 15% (Quantitative Analysis 6.0), and "
+            "<strong style='color:#D8B978;'>49% of High-Tier's Large Cap observations have zero "
+            "explicit-attribution categories at all</strong>, versus 12% for Selected Coverage. That gap "
+            "traces directly to two downstream problems: it's why High-Tier's baseline correlation with "
+            "actual return already trails Selected Coverage's (Quantitative Analysis 1.0-4.0), and it's why "
+            "the prior-expectation adjustment in Quantitative Analysis 7.0 consistently hurts High-Tier "
+            "across all 8 tested formula variants -- a near-zero score (built entirely from low-weight "
+            "implicit categories) makes \"was sentiment entering this quarter positive or negative\" close "
+            "to a coin flip. WSJ/Barron's articles shouldn't be penalized for naming more context than they "
+            "explicitly tie to the move -- the next prompt should make a more decisive explicit call whenever "
+            "the source text reasonably supports one, rather than defaulting to implicit.</li>"
+            "<li style='margin-bottom:0.6rem;'><strong style='color:#D8B978;'>Target \"Guidance\" "
+            "specifically.</strong> Across both sources, Guidance combines one of the highest rates of being "
+            "explicitly tied to the stock's reaction with one of the lowest reason rates (21% Selected Coverage, "
+            "26% High-Tier) -- the recurring pattern is \"guidance missed, shares fell\" without ever saying "
+            "why the guidance itself came in where it did. The next prompt should specifically probe for the "
+            "underlying driver behind a guidance change (demand, FX, input costs, channel inventory, a "
+            "disclosed one-time item) whenever the source material offers one.</li>"
+            "<li style='margin-bottom:0.6rem;'><strong style='color:#D8B978;'>Reconsider \"Immediate reaction "
+            "divergence\" in the score.</strong> This category has a 0% reason rate in both sources -- every "
+            "instance follows the same premarket-vs-two-day-return template with no causal content, because "
+            "it's describing price action rather than a business driver. Worth testing whether it should keep "
+            "counting toward the aggregate category score at all, versus being surfaced as separate "
+            "reaction-pattern metadata.</li>"
+            "<li style='margin-bottom:0.6rem;'><strong style='color:#D8B978;'>Adopt the prior-expectation "
+            "adjustment as a standard secondary score, conditional on the explicit-rate fix above.</strong> "
+            "Quantitative Analysis 7.0's simple flat ±0.5 shift based on prior-quarter sentiment sign "
+            "consistently improved Selected Coverage's correlation (0.60 → 0.74-0.86 depending on the "
+            "variant) at no added prompting cost, since it's computed from two already-generated scores. But "
+            "it only works if the prior-quarter score is decisive -- so it should be rolled out only after "
+            "High-Tier's explicit rate improves; otherwise it will keep degrading High-Tier for the same "
+            "structural reason documented above.</li>"
+            "<li><strong style='color:#D8B978;'>Close the loop on Data Viz 6/7.</strong> Once the next prompt "
+            "ships, re-run this same battery (the 8 Quantitative Analysis tables, the range-cutoff sweep, the "
+            "active-category and reason-rate checks) on the new output rather than assuming these changes "
+            "worked -- the whole point of building this analysis tab was to make that verifiable instead of "
+            "a guess.</li>"
+            "</ul>"
+            "</div>",
+            unsafe_allow_html=True,
+        )
+
         st.stop()
 
     g4_group_tickers = GROUP4_GROUPS[selected_g4_group]
