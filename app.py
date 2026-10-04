@@ -5679,9 +5679,19 @@ if st.session_state.selected_section == "Data Visualization 5":
 
         def g4_qa7_stats(df):
             if df.empty:
-                return {"n": 0, "corr_base": None, "corr_adj": None, "sign_base": None, "sign_adj": None}
+                return {
+                    "n": 0,
+                    "corr_base": None,
+                    "corr_adj": None,
+                    "sign_base": None,
+                    "sign_adj": None,
+                    "r2_base": None,
+                    "r2_adj": None,
+                }
             corr_base = df["baseline"].corr(df["return_pct"])
             corr_adj = df["adjusted"].corr(df["return_pct"])
+            r2_base = g4_qa5_r2_quad(df["baseline"], df["return_pct"])
+            r2_adj = g4_qa5_r2_quad(df["adjusted"], df["return_pct"])
 
             def sign_agree(col):
                 nonzero = df[(df[col] != 0) & (df["return_pct"] != 0)]
@@ -5695,6 +5705,8 @@ if st.session_state.selected_section == "Data Visualization 5":
                 "corr_adj": corr_adj,
                 "sign_base": sign_agree("baseline"),
                 "sign_adj": sign_agree("adjusted"),
+                "r2_base": r2_base,
+                "r2_adj": r2_adj,
             }
 
         g4_qa7_sel_lc_stats = g4_qa7_stats(g4_qa7_sel_lc_df)
@@ -5713,6 +5725,8 @@ if st.session_state.selected_section == "Data Visualization 5":
                 f"<td style='text-align:center; padding:6px 10px;'>{stats['n']}</td>"
                 f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(stats['corr_base'])}</td>"
                 f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(stats['corr_adj'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(stats['r2_base'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(stats['r2_adj'])}</td>"
                 f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(stats['sign_base'])}</td>"
                 f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(stats['sign_adj'])}</td>"
                 "</tr>"
@@ -5729,7 +5743,9 @@ if st.session_state.selected_section == "Data Visualization 5":
             "score from the same source — a real constraint: "
             f"{g4_qa7_sel_lc_np} Selected Coverage (Large Cap) observations were dropped because the prior "
             f"quarter wasn't in the sample at all, and {g4_qa7_sel_lc_nps} more because the prior quarter "
-            "was in the sample but had no usable score."
+            "was in the sample but had no usable score. R² is of the same degree-2 polynomial (quadratic) "
+            "fit used in the scatter charts and Quantitative Analysis 5.0, computed separately for the "
+            "baseline and adjusted score against the actual return."
             "</p>"
             "<table style='width:100%; border-collapse:collapse; margin:0.6rem 0 1rem 0; font-size:0.9rem;'>"
             "<tr style='border-bottom:1px solid rgba(74,144,217,0.5);'>"
@@ -5737,6 +5753,8 @@ if st.session_state.selected_section == "Data Visualization 5":
             "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>N</th>"
             "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Correlation (baseline)</th>"
             "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Correlation (adjusted)</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>R² (baseline)</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>R² (adjusted)</th>"
             "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Sign agreement (baseline)</th>"
             "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Sign agreement (adjusted)</th>"
             "</tr>"
