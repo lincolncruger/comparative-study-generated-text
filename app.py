@@ -5429,6 +5429,102 @@ if st.session_state.selected_section == "Data Visualization 5":
                 unsafe_allow_html=True,
             )
 
+        # ── Quantitative Analysis 6.0 -- "active categories rate": of the 11
+        # Why Moved 2 categories evaluated per observation, how many come
+        # back active (tied to the stock's move) vs. null ("Not tied to the
+        # stock's move")? This is upstream of every other Quant/Qualitative
+        # Analysis section -- a low active rate means fewer categories ever
+        # entered those sections' score computations or reason-rate checks
+        # to begin with. Computed directly from the raw coverage lookups
+        # (every observation that HAS a write-up, including the small
+        # number with zero active categories), not the reason-highlight
+        # files (which only ever listed active cells, so they can't answer
+        # "active out of how many possible"). ──
+        def g4_qa6_active_rate(lookup, tickers):
+            entries = [v for k, v in lookup.items() if k.split("_")[0] in tickers]
+            n_obs = len(entries)
+            active = sum(1 for e in entries for v in (e.get("categories") or {}).values() if v)
+            possible = n_obs * len(WHY_MOVED_2_CATEGORIES)
+            return {
+                "n_obs": n_obs,
+                "possible": possible,
+                "active": active,
+                "rate": (active / possible * 100) if possible else None,
+                "avg_active": (active / n_obs) if n_obs else None,
+            }
+
+        g4_qa6_sel_lc = g4_qa6_active_rate(group4_stocknews_v2_lookup, set(GROUP4_GROUPS["Large Cap"]))
+        g4_qa6_sel_sm = g4_qa6_active_rate(group4_stocknews_v2_lookup, set(GROUP4_GROUPS["Small & Mid Cap"]))
+        g4_qa6_wsj_lc = g4_qa6_active_rate(group4_wsj_coverage_lookup, set(GROUP4_GROUPS["Large Cap"]))
+
+        st.html("<div style='height:3px; background:#FFD700; margin:2.5rem 0 1.5rem 0; border-radius:2px;'></div>")
+        st.markdown(
+            "<div class='quarter-header' style='font-size:1.7rem; text-align:center; color:#FFD700;'>"
+            "Quantitative Analysis 6.0</div>"
+            "<div style='text-align:center; font-size:0.95rem; color:rgba(214,228,240,0.75); "
+            "font-style:italic; margin-top:0.2rem;'>Goal: measure how often coverage ties a category to "
+            "the stock's move at all, before any ranking, reason-rate, or correlation analysis happens on "
+            "top of it.</div>",
+            unsafe_allow_html=True,
+        )
+        st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+        g4_qa6_rows_html = ""
+        for label, stats in [
+            ("Selected Coverage (Large Cap)", g4_qa6_sel_lc),
+            ("Selected Coverage (Small &amp; Mid Cap)", g4_qa6_sel_sm),
+            ("High-Tier (Large Cap)", g4_qa6_wsj_lc),
+        ]:
+            g4_qa6_rows_html += (
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                f"<td style='padding:6px 10px;'>{label}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{stats['n_obs']}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{stats['possible']}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{stats['active']}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>"
+                f"<strong style='color:#D8B978;'>{stats['rate']:.0f}%</strong></td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{stats['avg_active']:.2f}</td>"
+                "</tr>"
+            )
+
+        g4_qa6_sm_vs_lc_gap = g4_qa6_sel_lc["avg_active"] - g4_qa6_sel_sm["avg_active"]
+
+        st.markdown(
+            "<div style='max-width:820px; margin:0 auto; color:#D6E4F0;'>"
+            "<p style='text-align:justify; margin-bottom:0.8rem;'>"
+            "Every observation's write-up evaluates all 11 Why Moved 2 categories; most come back null "
+            "(\"Not tied to the stock's move\") and a minority are flagged active, with a direction, "
+            "attribution, and text. \"Possible slots\" is observations × 11 — the ceiling if every category "
+            "were active for every observation."
+            "</p>"
+            "<table style='width:100%; border-collapse:collapse; margin:0.6rem 0 1rem 0; font-size:0.9rem;'>"
+            "<tr style='border-bottom:1px solid rgba(74,144,217,0.5);'>"
+            "<th style='text-align:left; padding:6px 10px; color:#D8B978;'>Series</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Observations</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Possible slots</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Active cells</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Active rate</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Avg active / obs</th>"
+            "</tr>"
+            + g4_qa6_rows_html
+            + "</table>"
+            "<p style='text-align:justify; margin-bottom:0;'>"
+            "Large Cap runs noticeably richer than Small &amp; Mid Cap for the same source: Selected "
+            f"Coverage averages <strong style='color:#D8B978;'>{g4_qa6_sel_lc['avg_active']:.2f}</strong> "
+            f"active categories per observation for Large Cap versus just "
+            f"<strong style='color:#D8B978;'>{g4_qa6_sel_sm['avg_active']:.2f}</strong> for Small &amp; Mid "
+            f"Cap — about {g4_qa6_sm_vs_lc_gap:.1f} fewer active categories per observation, consistent with "
+            "smaller-cap earnings drawing thinner wire-service coverage than mega-caps. High-Tier (WSJ, Large "
+            f"Cap only) runs the richest of the three at "
+            f"<strong style='color:#D8B978;'>{g4_qa6_wsj_lc['avg_active']:.2f}</strong> active categories per "
+            "observation, ahead even of Selected Coverage's own Large Cap number — consistent with the "
+            "Quantitative Analysis finding above that WSJ/Barron's articles tend to touch more categories "
+            "per piece, just with a higher share tagged implicit rather than explicit."
+            "</p>"
+            "</div>",
+            unsafe_allow_html=True,
+        )
+
         # ── Qualitative Analysis -- for every active category cell in each
         # source's OWN full observation set (not restricted to the 75
         # shared with the other source -- "both coverages for all their
