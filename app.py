@@ -5659,6 +5659,51 @@ if st.session_state.selected_section == "Data Visualization 5":
                 total += current_sign * base_weight * mult
             return total / len(active)
 
+        # Redo of all 4 tables above, but omitting 4 categories that tend to
+        # dilute the score without adding much predictive signal (per
+        # explicit instruction): Capex, Management, Litigation, and Macro
+        # and micro development never count as active here, even if the
+        # source flagged them -- leaving 7 of the 11 categories. Prior-
+        # quarter sign classification is still unchanged (original,
+        # unmodified g4_category_score, full 11 categories).
+        G4_QA7_EXCLUDED_CATEGORIES = {
+            "Capex",
+            "Management",
+            "Litigation",
+            "Macro and micro development",
+        }
+        G4_QA7_INCLUDED_CATEGORIES = [c for c in WHY_MOVED_2_CATEGORIES if c not in G4_QA7_EXCLUDED_CATEGORIES]
+
+        def g4_category_score_excl(entry, implicit_weight=1):
+            cells = (entry or {}).get("categories", {})
+            active = [cells[c] for c in G4_QA7_INCLUDED_CATEGORIES if cells.get(c)]
+            if not active:
+                return None
+            total = sum(
+                (1 if cell.get("direction") == "positive" else -1)
+                * (2 if cell.get("attribution") == "explicit" else implicit_weight)
+                for cell in active
+            )
+            return total / len(active)
+
+        def g4_category_score_excl_prior_adjusted(entry, prior_sign, implicit_weight=1):
+            cells = (entry or {}).get("categories", {})
+            active = [cells[c] for c in G4_QA7_INCLUDED_CATEGORIES if cells.get(c)]
+            if not active:
+                return None
+            total = 0.0
+            for cell in active:
+                base_weight = 2 if cell.get("attribution") == "explicit" else implicit_weight
+                current_sign = 1 if cell.get("direction") == "positive" else -1
+                if prior_sign == 0:
+                    mult = 1
+                elif current_sign == prior_sign:
+                    mult = 0.5
+                else:
+                    mult = 2
+                total += current_sign * base_weight * mult
+            return total / len(active)
+
         def g4_qa7_build(lookup, tickers):
             rows = []
             skipped_no_prior = 0
@@ -5688,6 +5733,16 @@ if st.session_state.selected_section == "Data Visualization 5":
                 adjusted4 = (
                     g4_category_score_prior_shift(baseline3, prior_sign) if baseline3 is not None else None
                 )
+                baseline5 = g4_category_score_excl(entry, implicit_weight=1)
+                adjusted5 = g4_category_score_excl_prior_adjusted(entry, prior_sign, implicit_weight=1)
+                adjusted6 = (
+                    g4_category_score_prior_shift(baseline5, prior_sign) if baseline5 is not None else None
+                )
+                baseline7 = g4_category_score_excl(entry, implicit_weight=0.5)
+                adjusted7 = g4_category_score_excl_prior_adjusted(entry, prior_sign, implicit_weight=0.5)
+                adjusted8 = (
+                    g4_category_score_prior_shift(baseline7, prior_sign) if baseline7 is not None else None
+                )
                 metrics = group4_abnormal_returns_lookup.get(key, {}).get(g4_compare_method_key) or {}
                 ret = metrics.get(g4_compare_return_field)
                 z = metrics.get(g4_compare_z_field)
@@ -5702,6 +5757,12 @@ if st.session_state.selected_section == "Data Visualization 5":
                         "baseline3": baseline3,
                         "adjusted3": adjusted3,
                         "adjusted4": adjusted4,
+                        "baseline5": baseline5,
+                        "adjusted5": adjusted5,
+                        "adjusted6": adjusted6,
+                        "baseline7": baseline7,
+                        "adjusted7": adjusted7,
+                        "adjusted8": adjusted8,
                         "return_pct": ret,
                         "prior_sign": prior_sign,
                     }
@@ -5731,6 +5792,13 @@ if st.session_state.selected_section == "Data Visualization 5":
         st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
 
         def g4_qa7_stats(df, adjusted_col="adjusted", baseline_col="baseline"):
+            # Drop rows where this particular baseline/adjusted variant is
+            # None -- needed for the category-exclusion columns, which can
+            # be None even when the full-category "baseline" column isn't
+            # (an observation's only active categories could all be among
+            # the 4 excluded ones).
+            if not df.empty:
+                df = df[[baseline_col, adjusted_col, "return_pct"]].dropna().astype(float)
             if df.empty:
                 return {
                     "n": 0,
@@ -5777,6 +5845,22 @@ if st.session_state.selected_section == "Data Visualization 5":
         g4_qa7_sel_lc_stats4 = g4_qa7_stats(g4_qa7_sel_lc_df, adjusted_col="adjusted4", baseline_col="baseline3")
         g4_qa7_sel_sm_stats4 = g4_qa7_stats(g4_qa7_sel_sm_df, adjusted_col="adjusted4", baseline_col="baseline3")
         g4_qa7_wsj_lc_stats4 = g4_qa7_stats(g4_qa7_wsj_lc_df, adjusted_col="adjusted4", baseline_col="baseline3")
+
+        g4_qa7_sel_lc_stats5 = g4_qa7_stats(g4_qa7_sel_lc_df, adjusted_col="adjusted5", baseline_col="baseline5")
+        g4_qa7_sel_sm_stats5 = g4_qa7_stats(g4_qa7_sel_sm_df, adjusted_col="adjusted5", baseline_col="baseline5")
+        g4_qa7_wsj_lc_stats5 = g4_qa7_stats(g4_qa7_wsj_lc_df, adjusted_col="adjusted5", baseline_col="baseline5")
+
+        g4_qa7_sel_lc_stats6 = g4_qa7_stats(g4_qa7_sel_lc_df, adjusted_col="adjusted6", baseline_col="baseline5")
+        g4_qa7_sel_sm_stats6 = g4_qa7_stats(g4_qa7_sel_sm_df, adjusted_col="adjusted6", baseline_col="baseline5")
+        g4_qa7_wsj_lc_stats6 = g4_qa7_stats(g4_qa7_wsj_lc_df, adjusted_col="adjusted6", baseline_col="baseline5")
+
+        g4_qa7_sel_lc_stats7 = g4_qa7_stats(g4_qa7_sel_lc_df, adjusted_col="adjusted7", baseline_col="baseline7")
+        g4_qa7_sel_sm_stats7 = g4_qa7_stats(g4_qa7_sel_sm_df, adjusted_col="adjusted7", baseline_col="baseline7")
+        g4_qa7_wsj_lc_stats7 = g4_qa7_stats(g4_qa7_wsj_lc_df, adjusted_col="adjusted7", baseline_col="baseline7")
+
+        g4_qa7_sel_lc_stats8 = g4_qa7_stats(g4_qa7_sel_lc_df, adjusted_col="adjusted8", baseline_col="baseline7")
+        g4_qa7_sel_sm_stats8 = g4_qa7_stats(g4_qa7_sel_sm_df, adjusted_col="adjusted8", baseline_col="baseline7")
+        g4_qa7_wsj_lc_stats8 = g4_qa7_stats(g4_qa7_wsj_lc_df, adjusted_col="adjusted8", baseline_col="baseline7")
 
         g4_qa7_rows_html = ""
         for label, stats, skipped in [
@@ -6022,6 +6106,102 @@ if st.session_state.selected_section == "Data Visualization 5":
             "</p>"
             "</div>",
             unsafe_allow_html=True,
+        )
+
+        def g4_qa7_render_table(heading, explanation, adj_label, verb, stats_sel_lc, stats_sel_sm, stats_wsj_lc):
+            rows_html = ""
+            for label, stats in [
+                ("Selected Coverage (Large Cap)", stats_sel_lc),
+                ("Selected Coverage (Small &amp; Mid Cap)", stats_sel_sm),
+                ("High-Tier (Large Cap)", stats_wsj_lc),
+            ]:
+                rows_html += (
+                    "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                    f"<td style='padding:6px 10px;'>{label}</td>"
+                    f"<td style='text-align:center; padding:6px 10px;'>{stats['n']}</td>"
+                    f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(stats['corr_base'])}</td>"
+                    f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(stats['corr_adj'])}</td>"
+                    f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(stats['r2_base'])}</td>"
+                    f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(stats['r2_adj'])}</td>"
+                    f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(stats['sign_base'])}</td>"
+                    f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(stats['sign_adj'])}</td>"
+                    "</tr>"
+                )
+            summary = " / ".join(
+                f"{label}: "
+                f"{verb + ' helps' if (s['corr_adj'] is not None and s['corr_base'] is not None and s['corr_adj'] > s['corr_base']) else verb + ' hurts' if (s['corr_adj'] is not None and s['corr_base'] is not None) else 'not enough data'} "
+                f"({g4_fmt_corr(s['corr_base'])} → {g4_fmt_corr(s['corr_adj'])})"
+                for label, s in [
+                    ("Selected Large", stats_sel_lc),
+                    ("Selected Small/Mid", stats_sel_sm),
+                    ("High-Tier Large", stats_wsj_lc),
+                ]
+            )
+            st.markdown(
+                "<div style='max-width:860px; margin:0 auto; color:#D6E4F0;'>"
+                f"<div class='context-heading'>{heading}</div>"
+                f"<p style='text-align:justify; margin-bottom:0.8rem;'>{explanation}</p>"
+                "<table style='width:100%; border-collapse:collapse; margin:0.6rem 0 1rem 0; font-size:0.9rem;'>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.5);'>"
+                "<th style='text-align:left; padding:6px 10px; color:#D8B978;'>Series</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>N</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Correlation (baseline)</th>"
+                f"<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Correlation ({adj_label})</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>R² (baseline)</th>"
+                f"<th style='text-align:center; padding:6px 10px; color:#D8B978;'>R² ({adj_label})</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Sign agreement (baseline)</th>"
+                f"<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Sign agreement ({adj_label})</th>"
+                "</tr>"
+                + rows_html
+                + "</table>"
+                f"<p style='text-align:justify; margin-bottom:0;'>{summary}.</p>"
+                "</div>",
+                unsafe_allow_html=True,
+            )
+
+        g4_qa7_excl_list_html = ", ".join(sorted(G4_QA7_EXCLUDED_CATEGORIES))
+        g4_qa7_render_table(
+            "Category-exclusion redo: per-category multiplier, original weighting (explicit ×2 / implicit ×1)",
+            "Same per-category ×0.5/×2 prior-expectation multiplier and same explicit ×2 / implicit ×1 base "
+            f"weighting as the first table, but {g4_qa7_excl_list_html} are never counted as active, even if "
+            "flagged -- only the remaining 7 categories can contribute. Prior-quarter sign is still "
+            "classified from the original, full-11-category formula.",
+            "adjusted",
+            "adjustment",
+            g4_qa7_sel_lc_stats5,
+            g4_qa7_sel_sm_stats5,
+            g4_qa7_wsj_lc_stats5,
+        )
+        g4_qa7_render_table(
+            "Category-exclusion redo: flat ±0.5 shift, original weighting (explicit ×2 / implicit ×1)",
+            "Same flat ±0.5 shift on the aggregate score as the second table, same category exclusion and "
+            "base weighting as the table directly above.",
+            "shifted",
+            "shift",
+            g4_qa7_sel_lc_stats6,
+            g4_qa7_sel_sm_stats6,
+            g4_qa7_wsj_lc_stats6,
+        )
+        g4_qa7_render_table(
+            "Category-exclusion redo: per-category multiplier, implicit weight 0.5 instead of 1",
+            "Same per-category ×0.5/×2 prior-expectation multiplier as the third table (explicit ×2 / "
+            f"implicit ×0.5 base weighting), with {g4_qa7_excl_list_html} also excluded, same as the two "
+            "tables directly above.",
+            "adjusted",
+            "adjustment",
+            g4_qa7_sel_lc_stats7,
+            g4_qa7_sel_sm_stats7,
+            g4_qa7_wsj_lc_stats7,
+        )
+        g4_qa7_render_table(
+            "Category-exclusion redo: flat ±0.5 shift, implicit weight 0.5 instead of 1",
+            "Same flat ±0.5 shift on the aggregate score as the fourth table (explicit ×2 / implicit ×0.5 "
+            f"base weighting), with {g4_qa7_excl_list_html} also excluded.",
+            "shifted",
+            "shift",
+            g4_qa7_sel_lc_stats8,
+            g4_qa7_sel_sm_stats8,
+            g4_qa7_wsj_lc_stats8,
         )
 
         # ── Qualitative Analysis -- for every active category cell in each
