@@ -5616,6 +5616,13 @@ if st.session_state.selected_section == "Data Visualization 5":
                 total += current_sign * base_weight * mult
             return total / len(active)
 
+        def g4_category_score_prior_shift(baseline, prior_sign):
+            if prior_sign > 0:
+                return baseline - 0.5
+            if prior_sign < 0:
+                return baseline + 0.5
+            return baseline
+
         def g4_qa7_build(lookup, tickers):
             rows = []
             skipped_no_prior = 0
@@ -5639,6 +5646,7 @@ if st.session_state.selected_section == "Data Visualization 5":
                     continue
                 prior_sign = 1 if prior_baseline > 0 else (-1 if prior_baseline < 0 else 0)
                 adjusted = g4_category_score_prior_adjusted(entry, prior_sign)
+                adjusted2 = g4_category_score_prior_shift(baseline, prior_sign)
                 metrics = group4_abnormal_returns_lookup.get(key, {}).get(g4_compare_method_key) or {}
                 ret = metrics.get(g4_compare_return_field)
                 z = metrics.get(g4_compare_z_field)
@@ -5649,6 +5657,7 @@ if st.session_state.selected_section == "Data Visualization 5":
                         "note_key": key,
                         "baseline": baseline,
                         "adjusted": adjusted,
+                        "adjusted2": adjusted2,
                         "return_pct": ret,
                         "prior_sign": prior_sign,
                     }
@@ -5677,7 +5686,7 @@ if st.session_state.selected_section == "Data Visualization 5":
         )
         st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
 
-        def g4_qa7_stats(df):
+        def g4_qa7_stats(df, adjusted_col="adjusted"):
             if df.empty:
                 return {
                     "n": 0,
@@ -5689,9 +5698,9 @@ if st.session_state.selected_section == "Data Visualization 5":
                     "r2_adj": None,
                 }
             corr_base = df["baseline"].corr(df["return_pct"])
-            corr_adj = df["adjusted"].corr(df["return_pct"])
+            corr_adj = df[adjusted_col].corr(df["return_pct"])
             r2_base = g4_qa5_r2_quad(df["baseline"], df["return_pct"])
-            r2_adj = g4_qa5_r2_quad(df["adjusted"], df["return_pct"])
+            r2_adj = g4_qa5_r2_quad(df[adjusted_col], df["return_pct"])
 
             def sign_agree(col):
                 nonzero = df[(df[col] != 0) & (df["return_pct"] != 0)]
@@ -5704,7 +5713,7 @@ if st.session_state.selected_section == "Data Visualization 5":
                 "corr_base": corr_base,
                 "corr_adj": corr_adj,
                 "sign_base": sign_agree("baseline"),
-                "sign_adj": sign_agree("adjusted"),
+                "sign_adj": sign_agree(adjusted_col),
                 "r2_base": r2_base,
                 "r2_adj": r2_adj,
             }
@@ -5712,6 +5721,10 @@ if st.session_state.selected_section == "Data Visualization 5":
         g4_qa7_sel_lc_stats = g4_qa7_stats(g4_qa7_sel_lc_df)
         g4_qa7_sel_sm_stats = g4_qa7_stats(g4_qa7_sel_sm_df)
         g4_qa7_wsj_lc_stats = g4_qa7_stats(g4_qa7_wsj_lc_df)
+
+        g4_qa7_sel_lc_stats2 = g4_qa7_stats(g4_qa7_sel_lc_df, adjusted_col="adjusted2")
+        g4_qa7_sel_sm_stats2 = g4_qa7_stats(g4_qa7_sel_sm_df, adjusted_col="adjusted2")
+        g4_qa7_wsj_lc_stats2 = g4_qa7_stats(g4_qa7_wsj_lc_df, adjusted_col="adjusted2")
 
         g4_qa7_rows_html = ""
         for label, stats, skipped in [
@@ -5775,6 +5788,64 @@ if st.session_state.selected_section == "Data Visualization 5":
             + ". Sample sizes here are small by construction (a deliberately conservative first test, per "
             "explicit instruction, before considering whether to widen the prior-quarter lookup beyond this "
             "page's existing sample) — read the correlation shifts as suggestive, not conclusive."
+            "</p>"
+            "</div>",
+            unsafe_allow_html=True,
+        )
+
+        g4_qa7_rows_html2 = ""
+        for label, stats in [
+            ("Selected Coverage (Large Cap)", g4_qa7_sel_lc_stats2),
+            ("Selected Coverage (Small &amp; Mid Cap)", g4_qa7_sel_sm_stats2),
+            ("High-Tier (Large Cap)", g4_qa7_wsj_lc_stats2),
+        ]:
+            g4_qa7_rows_html2 += (
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                f"<td style='padding:6px 10px;'>{label}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{stats['n']}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(stats['corr_base'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(stats['corr_adj'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(stats['r2_base'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(stats['r2_adj'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(stats['sign_base'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(stats['sign_adj'])}</td>"
+                "</tr>"
+            )
+
+        st.markdown(
+            "<div style='max-width:860px; margin:0 auto; color:#D6E4F0;'>"
+            "<div class='context-heading'>Simpler variant: flat ±0.5 shift on the aggregate score, instead "
+            "of per-category multipliers</div>"
+            "<p style='text-align:justify; margin-bottom:0.8rem;'>"
+            "Same restricted population and same prior-quarter sign as the table above, but a much simpler "
+            "adjustment: subtract 0.5 from this quarter's (baseline-formula) aggregate category score if the "
+            "prior quarter's score was positive, add 0.5 if it was negative, leave unchanged if the prior "
+            "quarter was exactly neutral. One flat nudge to the final number, not a per-category reweighting."
+            "</p>"
+            "<table style='width:100%; border-collapse:collapse; margin:0.6rem 0 1rem 0; font-size:0.9rem;'>"
+            "<tr style='border-bottom:1px solid rgba(74,144,217,0.5);'>"
+            "<th style='text-align:left; padding:6px 10px; color:#D8B978;'>Series</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>N</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Correlation (baseline)</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Correlation (shifted)</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>R² (baseline)</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>R² (shifted)</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Sign agreement (baseline)</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Sign agreement (shifted)</th>"
+            "</tr>"
+            + g4_qa7_rows_html2
+            + "</table>"
+            "<p style='text-align:justify; margin-bottom:0;'>"
+            + " / ".join(
+                f"{label}: {'shift helps' if (stats['corr_adj'] is not None and stats['corr_base'] is not None and stats['corr_adj'] > stats['corr_base']) else 'shift hurts' if (stats['corr_adj'] is not None and stats['corr_base'] is not None) else 'not enough data'} "
+                f"({g4_fmt_corr(stats['corr_base'])} → {g4_fmt_corr(stats['corr_adj'])})"
+                for label, stats in [
+                    ("Selected Large", g4_qa7_sel_lc_stats2),
+                    ("Selected Small/Mid", g4_qa7_sel_sm_stats2),
+                    ("High-Tier Large", g4_qa7_wsj_lc_stats2),
+                ]
+            )
+            + "."
             "</p>"
             "</div>",
             unsafe_allow_html=True,
