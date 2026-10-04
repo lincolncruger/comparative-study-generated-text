@@ -5623,6 +5623,42 @@ if st.session_state.selected_section == "Data Visualization 5":
                 return baseline + 0.5
             return baseline
 
+        # Redo of the two tables above, but with the current-quarter base
+        # weighting changed: implicit categories weight 0.5 instead of 1
+        # (explicit stays at 2). Prior-quarter sign is still classified via
+        # the original/unmodified g4_category_score ("as computed
+        # normally", per explicit instruction) in both new tables -- only
+        # the current quarter's own score computation changes.
+        def g4_category_score_implicit_half(entry):
+            cells = (entry or {}).get("categories", {})
+            active = [cells[c] for c in WHY_MOVED_2_CATEGORIES if cells.get(c)]
+            if not active:
+                return None
+            total = sum(
+                (1 if cell.get("direction") == "positive" else -1)
+                * (2 if cell.get("attribution") == "explicit" else 0.5)
+                for cell in active
+            )
+            return total / len(active)
+
+        def g4_category_score_implicit_half_prior_adjusted(entry, prior_sign):
+            cells = (entry or {}).get("categories", {})
+            active = [cells[c] for c in WHY_MOVED_2_CATEGORIES if cells.get(c)]
+            if not active:
+                return None
+            total = 0.0
+            for cell in active:
+                base_weight = 2 if cell.get("attribution") == "explicit" else 0.5
+                current_sign = 1 if cell.get("direction") == "positive" else -1
+                if prior_sign == 0:
+                    mult = 1
+                elif current_sign == prior_sign:
+                    mult = 0.5
+                else:
+                    mult = 2
+                total += current_sign * base_weight * mult
+            return total / len(active)
+
         def g4_qa7_build(lookup, tickers):
             rows = []
             skipped_no_prior = 0
@@ -5647,6 +5683,11 @@ if st.session_state.selected_section == "Data Visualization 5":
                 prior_sign = 1 if prior_baseline > 0 else (-1 if prior_baseline < 0 else 0)
                 adjusted = g4_category_score_prior_adjusted(entry, prior_sign)
                 adjusted2 = g4_category_score_prior_shift(baseline, prior_sign)
+                baseline3 = g4_category_score_implicit_half(entry)
+                adjusted3 = g4_category_score_implicit_half_prior_adjusted(entry, prior_sign)
+                adjusted4 = (
+                    g4_category_score_prior_shift(baseline3, prior_sign) if baseline3 is not None else None
+                )
                 metrics = group4_abnormal_returns_lookup.get(key, {}).get(g4_compare_method_key) or {}
                 ret = metrics.get(g4_compare_return_field)
                 z = metrics.get(g4_compare_z_field)
@@ -5658,6 +5699,9 @@ if st.session_state.selected_section == "Data Visualization 5":
                         "baseline": baseline,
                         "adjusted": adjusted,
                         "adjusted2": adjusted2,
+                        "baseline3": baseline3,
+                        "adjusted3": adjusted3,
+                        "adjusted4": adjusted4,
                         "return_pct": ret,
                         "prior_sign": prior_sign,
                     }
@@ -5686,7 +5730,7 @@ if st.session_state.selected_section == "Data Visualization 5":
         )
         st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
 
-        def g4_qa7_stats(df, adjusted_col="adjusted"):
+        def g4_qa7_stats(df, adjusted_col="adjusted", baseline_col="baseline"):
             if df.empty:
                 return {
                     "n": 0,
@@ -5697,9 +5741,9 @@ if st.session_state.selected_section == "Data Visualization 5":
                     "r2_base": None,
                     "r2_adj": None,
                 }
-            corr_base = df["baseline"].corr(df["return_pct"])
+            corr_base = df[baseline_col].corr(df["return_pct"])
             corr_adj = df[adjusted_col].corr(df["return_pct"])
-            r2_base = g4_qa5_r2_quad(df["baseline"], df["return_pct"])
+            r2_base = g4_qa5_r2_quad(df[baseline_col], df["return_pct"])
             r2_adj = g4_qa5_r2_quad(df[adjusted_col], df["return_pct"])
 
             def sign_agree(col):
@@ -5712,7 +5756,7 @@ if st.session_state.selected_section == "Data Visualization 5":
                 "n": len(df),
                 "corr_base": corr_base,
                 "corr_adj": corr_adj,
-                "sign_base": sign_agree("baseline"),
+                "sign_base": sign_agree(baseline_col),
                 "sign_adj": sign_agree(adjusted_col),
                 "r2_base": r2_base,
                 "r2_adj": r2_adj,
@@ -5725,6 +5769,14 @@ if st.session_state.selected_section == "Data Visualization 5":
         g4_qa7_sel_lc_stats2 = g4_qa7_stats(g4_qa7_sel_lc_df, adjusted_col="adjusted2")
         g4_qa7_sel_sm_stats2 = g4_qa7_stats(g4_qa7_sel_sm_df, adjusted_col="adjusted2")
         g4_qa7_wsj_lc_stats2 = g4_qa7_stats(g4_qa7_wsj_lc_df, adjusted_col="adjusted2")
+
+        g4_qa7_sel_lc_stats3 = g4_qa7_stats(g4_qa7_sel_lc_df, adjusted_col="adjusted3", baseline_col="baseline3")
+        g4_qa7_sel_sm_stats3 = g4_qa7_stats(g4_qa7_sel_sm_df, adjusted_col="adjusted3", baseline_col="baseline3")
+        g4_qa7_wsj_lc_stats3 = g4_qa7_stats(g4_qa7_wsj_lc_df, adjusted_col="adjusted3", baseline_col="baseline3")
+
+        g4_qa7_sel_lc_stats4 = g4_qa7_stats(g4_qa7_sel_lc_df, adjusted_col="adjusted4", baseline_col="baseline3")
+        g4_qa7_sel_sm_stats4 = g4_qa7_stats(g4_qa7_sel_sm_df, adjusted_col="adjusted4", baseline_col="baseline3")
+        g4_qa7_wsj_lc_stats4 = g4_qa7_stats(g4_qa7_wsj_lc_df, adjusted_col="adjusted4", baseline_col="baseline3")
 
         g4_qa7_rows_html = ""
         for label, stats, skipped in [
@@ -5843,6 +5895,127 @@ if st.session_state.selected_section == "Data Visualization 5":
                     ("Selected Large", g4_qa7_sel_lc_stats2),
                     ("Selected Small/Mid", g4_qa7_sel_sm_stats2),
                     ("High-Tier Large", g4_qa7_wsj_lc_stats2),
+                ]
+            )
+            + "."
+            "</p>"
+            "</div>",
+            unsafe_allow_html=True,
+        )
+
+        # ── Redo of the two tables above, with implicit categories reweighted
+        # to 0.5 instead of 1 (explicit stays at 2) for the CURRENT quarter's
+        # score only -- prior-quarter sign classification is unchanged
+        # (still the original/unmodified g4_category_score). ──
+        g4_qa7_rows_html3 = ""
+        for label, stats in [
+            ("Selected Coverage (Large Cap)", g4_qa7_sel_lc_stats3),
+            ("Selected Coverage (Small &amp; Mid Cap)", g4_qa7_sel_sm_stats3),
+            ("High-Tier (Large Cap)", g4_qa7_wsj_lc_stats3),
+        ]:
+            g4_qa7_rows_html3 += (
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                f"<td style='padding:6px 10px;'>{label}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{stats['n']}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(stats['corr_base'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(stats['corr_adj'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(stats['r2_base'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(stats['r2_adj'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(stats['sign_base'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(stats['sign_adj'])}</td>"
+                "</tr>"
+            )
+
+        st.markdown(
+            "<div style='max-width:860px; margin:0 auto; color:#D6E4F0;'>"
+            "<div class='context-heading'>Redo of the per-category multiplier table, implicit weight 0.5 "
+            "instead of 1</div>"
+            "<p style='text-align:justify; margin-bottom:0.8rem;'>"
+            "Same per-category ×0.5/×2 prior-expectation multiplier as the first table, same restricted "
+            "population, same prior-quarter sign (still from the original, unmodified formula) -- but the "
+            "current quarter's own base weight per category is now explicit ×2 / implicit ×0.5 (instead of "
+            "×1), before the prior-expectation multiplier is applied on top. \"Baseline\" below is this new "
+            "explicit ×2 / implicit ×0.5 weighting with no prior-expectation adjustment at all, so it isolates "
+            "the multiplier's effect under the new base weighting specifically."
+            "</p>"
+            "<table style='width:100%; border-collapse:collapse; margin:0.6rem 0 1rem 0; font-size:0.9rem;'>"
+            "<tr style='border-bottom:1px solid rgba(74,144,217,0.5);'>"
+            "<th style='text-align:left; padding:6px 10px; color:#D8B978;'>Series</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>N</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Correlation (baseline)</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Correlation (adjusted)</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>R² (baseline)</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>R² (adjusted)</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Sign agreement (baseline)</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Sign agreement (adjusted)</th>"
+            "</tr>"
+            + g4_qa7_rows_html3
+            + "</table>"
+            "<p style='text-align:justify; margin-bottom:0;'>"
+            + " / ".join(
+                f"{label}: {'adjustment helps' if (stats['corr_adj'] is not None and stats['corr_base'] is not None and stats['corr_adj'] > stats['corr_base']) else 'adjustment hurts' if (stats['corr_adj'] is not None and stats['corr_base'] is not None) else 'not enough data'} "
+                f"({g4_fmt_corr(stats['corr_base'])} → {g4_fmt_corr(stats['corr_adj'])})"
+                for label, stats in [
+                    ("Selected Large", g4_qa7_sel_lc_stats3),
+                    ("Selected Small/Mid", g4_qa7_sel_sm_stats3),
+                    ("High-Tier Large", g4_qa7_wsj_lc_stats3),
+                ]
+            )
+            + "."
+            "</p>"
+            "</div>",
+            unsafe_allow_html=True,
+        )
+
+        g4_qa7_rows_html4 = ""
+        for label, stats in [
+            ("Selected Coverage (Large Cap)", g4_qa7_sel_lc_stats4),
+            ("Selected Coverage (Small &amp; Mid Cap)", g4_qa7_sel_sm_stats4),
+            ("High-Tier (Large Cap)", g4_qa7_wsj_lc_stats4),
+        ]:
+            g4_qa7_rows_html4 += (
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                f"<td style='padding:6px 10px;'>{label}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{stats['n']}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(stats['corr_base'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(stats['corr_adj'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(stats['r2_base'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(stats['r2_adj'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(stats['sign_base'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(stats['sign_adj'])}</td>"
+                "</tr>"
+            )
+
+        st.markdown(
+            "<div style='max-width:860px; margin:0 auto; color:#D6E4F0;'>"
+            "<div class='context-heading'>Redo of the flat-shift table, implicit weight 0.5 instead of 1</div>"
+            "<p style='text-align:justify; margin-bottom:0.8rem;'>"
+            "Same flat ±0.5 shift on the aggregate score as the second table, same restricted population, "
+            "same prior-quarter sign -- but \"baseline\" here is the explicit ×2 / implicit ×0.5 weighted "
+            "score (same baseline as the table directly above), not the original explicit ×2 / implicit ×1 "
+            "formula."
+            "</p>"
+            "<table style='width:100%; border-collapse:collapse; margin:0.6rem 0 1rem 0; font-size:0.9rem;'>"
+            "<tr style='border-bottom:1px solid rgba(74,144,217,0.5);'>"
+            "<th style='text-align:left; padding:6px 10px; color:#D8B978;'>Series</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>N</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Correlation (baseline)</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Correlation (shifted)</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>R² (baseline)</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>R² (shifted)</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Sign agreement (baseline)</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Sign agreement (shifted)</th>"
+            "</tr>"
+            + g4_qa7_rows_html4
+            + "</table>"
+            "<p style='text-align:justify; margin-bottom:0;'>"
+            + " / ".join(
+                f"{label}: {'shift helps' if (stats['corr_adj'] is not None and stats['corr_base'] is not None and stats['corr_adj'] > stats['corr_base']) else 'shift hurts' if (stats['corr_adj'] is not None and stats['corr_base'] is not None) else 'not enough data'} "
+                f"({g4_fmt_corr(stats['corr_base'])} → {g4_fmt_corr(stats['corr_adj'])})"
+                for label, stats in [
+                    ("Selected Large", g4_qa7_sel_lc_stats4),
+                    ("Selected Small/Mid", g4_qa7_sel_sm_stats4),
+                    ("High-Tier Large", g4_qa7_wsj_lc_stats4),
                 ]
             )
             + "."
