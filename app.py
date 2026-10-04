@@ -5443,7 +5443,9 @@ if st.session_state.selected_section == "Data Visualization 5":
         def g4_qa6_active_rate(lookup, tickers):
             entries = [v for k, v in lookup.items() if k.split("_")[0] in tickers]
             n_obs = len(entries)
-            active = sum(1 for e in entries for v in (e.get("categories") or {}).values() if v)
+            cells = [v for e in entries for v in (e.get("categories") or {}).values() if v]
+            active = len(cells)
+            explicit = sum(1 for c in cells if c.get("attribution") == "explicit")
             possible = n_obs * len(WHY_MOVED_2_CATEGORIES)
             return {
                 "n_obs": n_obs,
@@ -5451,6 +5453,8 @@ if st.session_state.selected_section == "Data Visualization 5":
                 "active": active,
                 "rate": (active / possible * 100) if possible else None,
                 "avg_active": (active / n_obs) if n_obs else None,
+                "explicit": explicit,
+                "explicit_rate": (explicit / possible * 100) if possible else None,
             }
 
         g4_qa6_sel_lc = g4_qa6_active_rate(group4_stocknews_v2_lookup, set(GROUP4_GROUPS["Large Cap"]))
@@ -5484,6 +5488,9 @@ if st.session_state.selected_section == "Data Visualization 5":
                 f"<td style='text-align:center; padding:6px 10px;'>"
                 f"<strong style='color:#D8B978;'>{stats['rate']:.0f}%</strong></td>"
                 f"<td style='text-align:center; padding:6px 10px;'>{stats['avg_active']:.2f}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{stats['explicit']}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>"
+                f"<strong style='color:#4A90D9;'>{stats['explicit_rate']:.0f}%</strong></td>"
                 "</tr>"
             )
 
@@ -5495,7 +5502,9 @@ if st.session_state.selected_section == "Data Visualization 5":
             "Every observation's write-up evaluates all 11 Why Moved 2 categories; most come back null "
             "(\"Not tied to the stock's move\") and a minority are flagged active, with a direction, "
             "attribution, and text. \"Possible slots\" is observations × 11 — the ceiling if every category "
-            "were active for every observation."
+            "were active for every observation. \"Explicit rate\" uses that same possible-slots denominator "
+            "(not active cells) -- it's the share of every evaluated category, active or not, that came back "
+            "both active AND explicitly tied to the move."
             "</p>"
             "<table style='width:100%; border-collapse:collapse; margin:0.6rem 0 1rem 0; font-size:0.9rem;'>"
             "<tr style='border-bottom:1px solid rgba(74,144,217,0.5);'>"
@@ -5505,6 +5514,8 @@ if st.session_state.selected_section == "Data Visualization 5":
             "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Active cells</th>"
             "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Active rate</th>"
             "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Avg active / obs</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Explicit cells</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Explicit rate</th>"
             "</tr>"
             + g4_qa6_rows_html
             + "</table>"
@@ -5520,6 +5531,27 @@ if st.session_state.selected_section == "Data Visualization 5":
             "observation, ahead even of Selected Coverage's own Large Cap number — consistent with the "
             "Quantitative Analysis finding above that WSJ/Barron's articles tend to touch more categories "
             "per piece, just with a higher share tagged implicit rather than explicit."
+            "</p>"
+            "<p style='text-align:justify; margin-bottom:0; margin-top:0.8rem;'>"
+            "That implicit-heavy pattern shows up directly here: High-Tier's explicit rate "
+            f"(<strong style='color:#4A90D9;'>{g4_qa6_wsj_lc['explicit_rate']:.0f}%</strong> of possible "
+            f"slots, {g4_qa6_wsj_lc['explicit']} of {g4_qa6_wsj_lc['active']} active cells) trails Selected "
+            f"Coverage Large Cap's (<strong style='color:#4A90D9;'>{g4_qa6_sel_lc['explicit_rate']:.0f}%</strong> "
+            f"of possible slots, {g4_qa6_sel_lc['explicit']} of {g4_qa6_sel_lc['active']} active cells) despite "
+            "High-Tier having the higher active rate overall -- so High-Tier activates more categories per "
+            "observation, but a smaller share of them are stated as the explicit cause. Small &amp; Mid Cap's "
+            f"explicit rate (<strong style='color:#4A90D9;'>{g4_qa6_sel_sm['explicit_rate']:.1f}%</strong>, "
+            f"{g4_qa6_sel_sm['explicit']} of {g4_qa6_sel_sm['active']} active cells) and High-Tier's "
+            f"(<strong style='color:#4A90D9;'>{g4_qa6_wsj_lc['explicit_rate']:.1f}%</strong>) round to the same "
+            "whole-percent figure but aren't actually tied: on the unrounded numbers, "
+            + (
+                f"High-Tier's is the lowest of the three"
+                if g4_qa6_wsj_lc["explicit_rate"] < g4_qa6_sel_sm["explicit_rate"]
+                else "Small &amp; Mid Cap's is the lowest of the three"
+            )
+            + " -- Selected Coverage Large Cap is clearly the highest regardless, at roughly "
+            f"{g4_qa6_sel_lc['explicit_rate'] / min(g4_qa6_sel_sm['explicit_rate'], g4_qa6_wsj_lc['explicit_rate']):.1f}x "
+            "the other two."
             "</p>"
             "</div>",
             unsafe_allow_html=True,
