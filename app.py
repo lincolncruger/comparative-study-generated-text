@@ -5557,6 +5557,191 @@ if st.session_state.selected_section == "Data Visualization 5":
             unsafe_allow_html=True,
         )
 
+        # ── Quantitative Analysis 7.0 -- integrates prior investor
+        # expectation into the category score: a category's weight this
+        # quarter is additionally multiplied depending on whether its
+        # direction matches or contradicts the PRIOR quarter's overall
+        # category score sign (computed with the original/baseline formula,
+        # no recursion). Matching the prior sign = expected/already priced
+        # in = dampened ×0.5. Contradicting the prior sign = a reversal =
+        # amplified ×2. Applies symmetrically to positive and negative
+        # categories alike, confirmed explicitly. Restricted to observations
+        # whose immediately preceding fiscal quarter is ALSO present in the
+        # existing ~100-observation Data Viz 5 sample (not fetched from
+        # outside it) AND has a usable baseline score from the same source
+        # -- an explicit, deliberately conservative scope for a first test. ──
+        def g4_qa7_prior_quarter(fiscal_yearquarter):
+            year, q = int(fiscal_yearquarter[:4]), int(fiscal_yearquarter[5])
+            return f"{year - 1}q4" if q == 1 else f"{year}q{q - 1}"
+
+        g4_qa7_sample_pairs = set(
+            zip(group4_band_observations["ticker"], group4_band_observations["fiscal_yearquarter"])
+        )
+
+        def g4_category_score_prior_adjusted(entry, prior_sign):
+            cells = (entry or {}).get("categories", {})
+            active = [cells[c] for c in WHY_MOVED_2_CATEGORIES if cells.get(c)]
+            if not active:
+                return None
+            total = 0.0
+            for cell in active:
+                base_weight = 2 if cell.get("attribution") == "explicit" else 1
+                current_sign = 1 if cell.get("direction") == "positive" else -1
+                if prior_sign == 0:
+                    mult = 1
+                elif current_sign == prior_sign:
+                    mult = 0.5
+                else:
+                    mult = 2
+                total += current_sign * base_weight * mult
+            return total / len(active)
+
+        def g4_qa7_build(lookup, tickers):
+            rows = []
+            skipped_no_prior = 0
+            skipped_no_prior_score = 0
+            subset = group4_band_observations[group4_band_observations["ticker"].isin(tickers)]
+            for _, row in subset.iterrows():
+                ticker, fq = row["ticker"], row["fiscal_yearquarter"]
+                key = f"{ticker}_{fq}"
+                entry = lookup.get(key)
+                baseline = g4_category_score(entry)
+                if baseline is None:
+                    continue
+                prior_fq = g4_qa7_prior_quarter(fq)
+                if (ticker, prior_fq) not in g4_qa7_sample_pairs:
+                    skipped_no_prior += 1
+                    continue
+                prior_entry = lookup.get(f"{ticker}_{prior_fq}")
+                prior_baseline = g4_category_score(prior_entry)
+                if prior_baseline is None:
+                    skipped_no_prior_score += 1
+                    continue
+                prior_sign = 1 if prior_baseline > 0 else (-1 if prior_baseline < 0 else 0)
+                adjusted = g4_category_score_prior_adjusted(entry, prior_sign)
+                metrics = group4_abnormal_returns_lookup.get(key, {}).get(g4_compare_method_key) or {}
+                ret = metrics.get(g4_compare_return_field)
+                z = metrics.get(g4_compare_z_field)
+                if z is None:
+                    continue
+                rows.append(
+                    {
+                        "note_key": key,
+                        "baseline": baseline,
+                        "adjusted": adjusted,
+                        "return_pct": ret,
+                        "prior_sign": prior_sign,
+                    }
+                )
+            return pd.DataFrame(rows), skipped_no_prior, skipped_no_prior_score
+
+        g4_qa7_sel_lc_df, g4_qa7_sel_lc_np, g4_qa7_sel_lc_nps = g4_qa7_build(
+            group4_stocknews_v2_lookup, set(GROUP4_GROUPS["Large Cap"])
+        )
+        g4_qa7_sel_sm_df, g4_qa7_sel_sm_np, g4_qa7_sel_sm_nps = g4_qa7_build(
+            group4_stocknews_v2_lookup, set(GROUP4_GROUPS["Small & Mid Cap"])
+        )
+        g4_qa7_wsj_lc_df, g4_qa7_wsj_lc_np, g4_qa7_wsj_lc_nps = g4_qa7_build(
+            group4_wsj_coverage_lookup, set(GROUP4_GROUPS["Large Cap"])
+        )
+
+        st.html("<div style='height:3px; background:#FFD700; margin:2.5rem 0 1.5rem 0; border-radius:2px;'></div>")
+        st.markdown(
+            "<div class='quarter-header' style='font-size:1.7rem; text-align:center; color:#FFD700;'>"
+            "Quantitative Analysis 7.0</div>"
+            "<div style='text-align:center; font-size:0.95rem; color:rgba(214,228,240,0.75); "
+            "font-style:italic; margin-top:0.2rem;'>Goal: test whether weighting each category by how "
+            "it compares to prior-quarter investor expectation (dampened if expected, amplified if a "
+            "reversal) makes the ranking a better predictor of the actual return.</div>",
+            unsafe_allow_html=True,
+        )
+        st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+        def g4_qa7_stats(df):
+            if df.empty:
+                return {"n": 0, "corr_base": None, "corr_adj": None, "sign_base": None, "sign_adj": None}
+            corr_base = df["baseline"].corr(df["return_pct"])
+            corr_adj = df["adjusted"].corr(df["return_pct"])
+
+            def sign_agree(col):
+                nonzero = df[(df[col] != 0) & (df["return_pct"] != 0)]
+                if nonzero.empty:
+                    return None
+                return ((nonzero[col] > 0) == (nonzero["return_pct"] > 0)).mean() * 100
+
+            return {
+                "n": len(df),
+                "corr_base": corr_base,
+                "corr_adj": corr_adj,
+                "sign_base": sign_agree("baseline"),
+                "sign_adj": sign_agree("adjusted"),
+            }
+
+        g4_qa7_sel_lc_stats = g4_qa7_stats(g4_qa7_sel_lc_df)
+        g4_qa7_sel_sm_stats = g4_qa7_stats(g4_qa7_sel_sm_df)
+        g4_qa7_wsj_lc_stats = g4_qa7_stats(g4_qa7_wsj_lc_df)
+
+        g4_qa7_rows_html = ""
+        for label, stats, skipped in [
+            ("Selected Coverage (Large Cap)", g4_qa7_sel_lc_stats, g4_qa7_sel_lc_np + g4_qa7_sel_lc_nps),
+            ("Selected Coverage (Small &amp; Mid Cap)", g4_qa7_sel_sm_stats, g4_qa7_sel_sm_np + g4_qa7_sel_sm_nps),
+            ("High-Tier (Large Cap)", g4_qa7_wsj_lc_stats, g4_qa7_wsj_lc_np + g4_qa7_wsj_lc_nps),
+        ]:
+            g4_qa7_rows_html += (
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                f"<td style='padding:6px 10px;'>{label}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{stats['n']}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(stats['corr_base'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(stats['corr_adj'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(stats['sign_base'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(stats['sign_adj'])}</td>"
+                "</tr>"
+            )
+
+        st.markdown(
+            "<div style='max-width:860px; margin:0 auto; color:#D6E4F0;'>"
+            "<p style='text-align:justify; margin-bottom:0.8rem;'>"
+            "For each category this quarter: weight ×0.5 if its direction matches the sign of the prior "
+            "quarter's (baseline-formula) category score — expected, already priced in — or ×2 if it "
+            "contradicts it — a reversal, more surprising. Applied on top of the existing explicit ×2 / "
+            "implicit ×1 weight, to both positive and negative categories. Restricted to observations whose "
+            "immediately preceding fiscal quarter is also in this page's existing sample and has a usable "
+            "score from the same source — a real constraint: "
+            f"{g4_qa7_sel_lc_np} Selected Coverage (Large Cap) observations were dropped because the prior "
+            f"quarter wasn't in the sample at all, and {g4_qa7_sel_lc_nps} more because the prior quarter "
+            "was in the sample but had no usable score."
+            "</p>"
+            "<table style='width:100%; border-collapse:collapse; margin:0.6rem 0 1rem 0; font-size:0.9rem;'>"
+            "<tr style='border-bottom:1px solid rgba(74,144,217,0.5);'>"
+            "<th style='text-align:left; padding:6px 10px; color:#D8B978;'>Series</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>N</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Correlation (baseline)</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Correlation (adjusted)</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Sign agreement (baseline)</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Sign agreement (adjusted)</th>"
+            "</tr>"
+            + g4_qa7_rows_html
+            + "</table>"
+            "<p style='text-align:justify; margin-bottom:0;'>"
+            + (
+                " / ".join(
+                    f"{label}: {'adjustment helps' if (stats['corr_adj'] is not None and stats['corr_base'] is not None and stats['corr_adj'] > stats['corr_base']) else 'adjustment hurts' if (stats['corr_adj'] is not None and stats['corr_base'] is not None) else 'not enough data'} "
+                    f"({g4_fmt_corr(stats['corr_base'])} → {g4_fmt_corr(stats['corr_adj'])})"
+                    for label, stats in [
+                        ("Selected Large", g4_qa7_sel_lc_stats),
+                        ("Selected Small/Mid", g4_qa7_sel_sm_stats),
+                        ("High-Tier Large", g4_qa7_wsj_lc_stats),
+                    ]
+                )
+            )
+            + ". Sample sizes here are small by construction (a deliberately conservative first test, per "
+            "explicit instruction, before considering whether to widen the prior-quarter lookup beyond this "
+            "page's existing sample) — read the correlation shifts as suggestive, not conclusive."
+            "</p>"
+            "</div>",
+            unsafe_allow_html=True,
+        )
+
         # ── Qualitative Analysis -- for every active category cell in each
         # source's OWN full observation set (not restricted to the 75
         # shared with the other source -- "both coverages for all their
