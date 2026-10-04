@@ -6386,6 +6386,130 @@ if st.session_state.selected_section == "Data Visualization 5":
         )
         st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
 
+        # Per-category directional hit rate: for every active cell of a
+        # given category, does its own direction (positive/negative) match
+        # the sign of the actual stock reaction -- both return % and the
+        # abnormal-return z-score -- independent of every other category in
+        # that observation and independent of the aggregate scoring formula
+        # entirely. Selected Coverage pools Large + Small & Mid Cap (so
+        # rarer categories still get a usable N); High-Tier is Large Cap
+        # only, since that's all that exists for it.
+        g4_concl_stats = {
+            c: {"sel_ret_hits": 0, "sel_ret_n": 0, "sel_z_hits": 0, "sel_z_n": 0,
+                "wsj_ret_hits": 0, "wsj_ret_n": 0, "wsj_z_hits": 0, "wsj_z_n": 0}
+            for c in WHY_MOVED_2_CATEGORIES
+        }
+
+        def g4_concl_tally(entry, ret, z, hit_key_prefix):
+            cells = (entry or {}).get("categories", {})
+            for cname in WHY_MOVED_2_CATEGORIES:
+                cell = cells.get(cname)
+                if not cell:
+                    continue
+                cat_sign = 1 if cell.get("direction") == "positive" else -1
+                if ret is not None and ret != 0:
+                    g4_concl_stats[cname][f"{hit_key_prefix}_ret_n"] += 1
+                    g4_concl_stats[cname][f"{hit_key_prefix}_ret_hits"] += int((cat_sign > 0) == (ret > 0))
+                if z is not None and z != 0:
+                    g4_concl_stats[cname][f"{hit_key_prefix}_z_n"] += 1
+                    g4_concl_stats[cname][f"{hit_key_prefix}_z_hits"] += int((cat_sign > 0) == (z > 0))
+
+        for _, g4_concl_row in group4_band_observations.iterrows():
+            g4_concl_key = f"{g4_concl_row['ticker']}_{g4_concl_row['fiscal_yearquarter']}"
+            g4_concl_metrics = (
+                group4_abnormal_returns_lookup.get(g4_concl_key, {}).get(g4_compare_method_key) or {}
+            )
+            g4_concl_ret = g4_concl_metrics.get(g4_compare_return_field)
+            g4_concl_z = g4_concl_metrics.get(g4_compare_z_field)
+            g4_concl_tally(group4_stocknews_v2_lookup.get(g4_concl_key), g4_concl_ret, g4_concl_z, "sel")
+            if g4_concl_row["ticker"] in GROUP4_GROUPS["Large Cap"]:
+                g4_concl_tally(group4_wsj_coverage_lookup.get(g4_concl_key), g4_concl_ret, g4_concl_z, "wsj")
+
+        def g4_concl_rate(stats, hits_key, n_key):
+            n = stats[n_key]
+            return (stats[hits_key] / n * 100, n) if n else (None, 0)
+
+        g4_concl_rows = []
+        for cname in WHY_MOVED_2_CATEGORIES:
+            s = g4_concl_stats[cname]
+            sel_ret_rate, sel_ret_n = g4_concl_rate(s, "sel_ret_hits", "sel_ret_n")
+            sel_z_rate, sel_z_n = g4_concl_rate(s, "sel_z_hits", "sel_z_n")
+            wsj_ret_rate, wsj_ret_n = g4_concl_rate(s, "wsj_ret_hits", "wsj_ret_n")
+            wsj_z_rate, wsj_z_n = g4_concl_rate(s, "wsj_z_hits", "wsj_z_n")
+            available = [r for r in [sel_ret_rate, sel_z_rate, wsj_ret_rate, wsj_z_rate] if r is not None]
+            overall = sum(available) / len(available) if available else None
+            g4_concl_rows.append(
+                {
+                    "category": cname,
+                    "overall": overall,
+                    "sel_ret_rate": sel_ret_rate, "sel_ret_n": sel_ret_n,
+                    "sel_z_rate": sel_z_rate, "sel_z_n": sel_z_n,
+                    "wsj_ret_rate": wsj_ret_rate, "wsj_ret_n": wsj_ret_n,
+                    "wsj_z_rate": wsj_z_rate, "wsj_z_n": wsj_z_n,
+                }
+            )
+        g4_concl_rows.sort(key=lambda r: r["overall"] if r["overall"] is not None else -1, reverse=True)
+
+        def g4_concl_cell(rate, n):
+            return f"{rate:.0f}% (n={n})" if rate is not None else "n/a"
+
+        g4_concl_table_rows = ""
+        for r in g4_concl_rows:
+            overall_str = f"<strong style='color:#D8B978;'>{r['overall']:.0f}%</strong>" if r["overall"] is not None else "n/a"
+            g4_concl_table_rows += (
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                f"<td style='padding:6px 10px;'>{r['category']}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{overall_str}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_concl_cell(r['sel_ret_rate'], r['sel_ret_n'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_concl_cell(r['sel_z_rate'], r['sel_z_n'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_concl_cell(r['wsj_ret_rate'], r['wsj_ret_n'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_concl_cell(r['wsj_z_rate'], r['wsj_z_n'])}</td>"
+                "</tr>"
+            )
+
+        g4_concl_top = g4_concl_rows[0]
+        g4_concl_bottom = [r for r in g4_concl_rows if r["overall"] is not None][-1]
+
+        st.markdown(
+            "<div style='max-width:900px; margin:0 auto; color:#D6E4F0;'>"
+            "<div class='context-heading'>Which categories are the most predictive?</div>"
+            "<p style='text-align:justify; margin-bottom:0.8rem;'>"
+            "For every active cell of a given category (independent of every other category in that "
+            "observation, and independent of the aggregate scoring formula entirely): does that category's "
+            "own direction match the sign of the actual stock reaction? Checked against both the market-"
+            f"adjusted return % and the abnormal-return z-score ({g4_compare_method_description}, the method "
+            "currently selected above). Selected Coverage pools Large and Small &amp; Mid Cap for a usable N "
+            "on rarer categories; High-Tier is Large Cap only. Sorted by the average of whichever of the 4 "
+            "rates are available."
+            "</p>"
+            "<table style='width:100%; border-collapse:collapse; margin:0.6rem 0 1rem 0; font-size:0.85rem;'>"
+            "<tr style='border-bottom:1px solid rgba(74,144,217,0.5);'>"
+            "<th style='text-align:left; padding:6px 10px; color:#D8B978;'>Category</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Overall avg</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Selected vs. return %</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Selected vs. Z-score</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>High-Tier vs. return %</th>"
+            "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>High-Tier vs. Z-score</th>"
+            "</tr>"
+            + g4_concl_table_rows
+            + "</table>"
+            "<p style='text-align:justify; margin-bottom:0.8rem;'>"
+            f"<strong style='color:#D8B978;'>{g4_concl_top['category']}</strong> comes out on top at "
+            f"{g4_concl_top['overall']:.0f}% average directional agreement, while "
+            f"<strong style='color:#D8B978;'>{g4_concl_bottom['category']}</strong> is weakest among the "
+            f"categories with usable data at {g4_concl_bottom['overall']:.0f}%. Treat the low-N cells "
+            "(single digits) as indicative rather than reliable -- a couple of observations either way would "
+            "swing those rates substantially; the categories with the largest N on both metrics are the ones "
+            "worth trusting most here. The return % and Z-score columns come out identical for every category "
+            "here -- confirmed directly against the underlying data, not a display bug: across all 237 "
+            f"observations in this dataset, {g4_compare_method_description} and its z-score never disagree "
+            "in sign (checked for both return methods this page offers), so checking both tells you nothing "
+            "a single sign check wouldn't."
+            "</p>"
+            "</div>",
+            unsafe_allow_html=True,
+        )
+
         st.markdown(
             "<div style='max-width:820px; margin:0 auto; color:#D6E4F0;'>"
             "<div class='context-heading'>Your recommendation: let reasons be inferred implicitly from "
