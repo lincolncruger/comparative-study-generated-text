@@ -3314,6 +3314,7 @@ if st.session_state.selected_section == "Data Visualization 5":
                     ),
                 )
             )
+        g4_abs_r2 = None
         if len(g4_chart_df) >= 3 and g4_chart_df["category_score"].nunique() >= 3:
             g4_regression_x = np.linspace(
                 g4_chart_df["category_score"].min(), g4_chart_df["category_score"].max(), 200
@@ -3324,6 +3325,8 @@ if st.session_state.selected_section == "Data Visualization 5":
             g4_regression_y = np.polyval(g4_regression_coefficients, g4_regression_x)
             g4_fitted_y = np.polyval(g4_regression_coefficients, g4_chart_df["category_score"])
             g4_residuals = np.asarray(g4_chart_df["absolute_z_score"] - g4_fitted_y, dtype=float)
+            g4_ss_tot = float(((g4_chart_df["absolute_z_score"] - g4_chart_df["absolute_z_score"].mean()) ** 2).sum())
+            g4_abs_r2 = 1 - float((g4_residuals ** 2).sum()) / g4_ss_tot if g4_ss_tot else None
             g4_observed_x = np.asarray(g4_chart_df["category_score"], dtype=float)
             g4_local_x_half_window = 0.5
             g4_local_std = []
@@ -3383,7 +3386,8 @@ if st.session_state.selected_section == "Data Visualization 5":
             f"{len(g4_chart_df)} StockNews observations plotted. "
             f"{g4_absolute_filter_mode} signed Z-scores from {g4_absolute_z_min:+.2f}σ to {g4_absolute_z_max:+.2f}σ. "
             "Regression band: local ±1 return SD using a ±0.5 category-ranking window. "
-            f"{g4_analysis_excluded_no_category} observations have StockNews coverage but no active "
+            + (f"Quadratic regression R²: {g4_abs_r2:.3f}. " if g4_abs_r2 is not None else "")
+            + f"{g4_analysis_excluded_no_category} observations have StockNews coverage but no active "
             "category and are excluded from both graphs."
         )
 
@@ -3462,6 +3466,7 @@ if st.session_state.selected_section == "Data Visualization 5":
                     ),
                 )
             )
+        g4_signed_r2 = None
         if len(g4_return_chart_df) >= 3 and g4_return_chart_df["category_score"].nunique() >= 3:
             g4_regression_x = np.linspace(
                 g4_return_chart_df["category_score"].min(), g4_return_chart_df["category_score"].max(), 200
@@ -3472,6 +3477,8 @@ if st.session_state.selected_section == "Data Visualization 5":
             g4_regression_y = np.polyval(g4_regression_coefficients, g4_regression_x)
             g4_fitted_y = np.polyval(g4_regression_coefficients, g4_return_chart_df["category_score"])
             g4_residuals = np.asarray(g4_return_chart_df[g4_z_column] - g4_fitted_y, dtype=float)
+            g4_ss_tot = float(((g4_return_chart_df[g4_z_column] - g4_return_chart_df[g4_z_column].mean()) ** 2).sum())
+            g4_signed_r2 = 1 - float((g4_residuals ** 2).sum()) / g4_ss_tot if g4_ss_tot else None
             g4_observed_x = np.asarray(g4_return_chart_df["category_score"], dtype=float)
             g4_local_x_half_window = 0.5
             g4_local_std = []
@@ -3533,6 +3540,7 @@ if st.session_state.selected_section == "Data Visualization 5":
             f"{g4_method_description} Z-score. {g4_signed_filter_mode} signed Z-scores from "
             f"{g4_signed_z_min:+.2f}σ to {g4_signed_z_max:+.2f}σ. "
             "Regression band: local ±1 return SD using a ±0.5 category-ranking window."
+            + (f" Quadratic regression R²: {g4_signed_r2:.3f}." if g4_signed_r2 is not None else "")
         )
 
         # ── High-Tier Coverage (WSJ) analysis -- same two graphs, same
@@ -3766,6 +3774,7 @@ if st.session_state.selected_section == "Data Visualization 5":
                     ),
                 )
             )
+        g4_wsj_abs_r2 = None
         if len(g4_wsj_chart_df) >= 3 and g4_wsj_chart_df["category_score"].nunique() >= 3:
             g4_wsj_regression_x = np.linspace(
                 g4_wsj_chart_df["category_score"].min(), g4_wsj_chart_df["category_score"].max(), 200
@@ -3776,6 +3785,10 @@ if st.session_state.selected_section == "Data Visualization 5":
             g4_wsj_regression_y = np.polyval(g4_wsj_regression_coefficients, g4_wsj_regression_x)
             g4_wsj_fitted_y = np.polyval(g4_wsj_regression_coefficients, g4_wsj_chart_df["category_score"])
             g4_wsj_residuals = np.asarray(g4_wsj_chart_df["absolute_z_score"] - g4_wsj_fitted_y, dtype=float)
+            g4_wsj_ss_tot = float(
+                ((g4_wsj_chart_df["absolute_z_score"] - g4_wsj_chart_df["absolute_z_score"].mean()) ** 2).sum()
+            )
+            g4_wsj_abs_r2 = 1 - float((g4_wsj_residuals ** 2).sum()) / g4_wsj_ss_tot if g4_wsj_ss_tot else None
             g4_wsj_observed_x = np.asarray(g4_wsj_chart_df["category_score"], dtype=float)
             g4_wsj_local_x_half_window = 0.5
             g4_wsj_local_std = []
@@ -3838,7 +3851,8 @@ if st.session_state.selected_section == "Data Visualization 5":
             f"{g4_wsj_absolute_filter_mode} signed Z-scores from {g4_wsj_absolute_z_min:+.2f}σ to "
             f"{g4_wsj_absolute_z_max:+.2f}σ. "
             "Regression band: local ±1 return SD using a ±0.5 category-ranking window. "
-            f"{g4_wsj_analysis_excluded_no_category} observations have High-Tier coverage but no active "
+            + (f"Quadratic regression R²: {g4_wsj_abs_r2:.3f}. " if g4_wsj_abs_r2 is not None else "")
+            + f"{g4_wsj_analysis_excluded_no_category} observations have High-Tier coverage but no active "
             "category and are excluded from both graphs."
         )
 
@@ -3919,6 +3933,7 @@ if st.session_state.selected_section == "Data Visualization 5":
                     ),
                 )
             )
+        g4_wsj_signed_r2 = None
         if len(g4_wsj_return_chart_df) >= 3 and g4_wsj_return_chart_df["category_score"].nunique() >= 3:
             g4_wsj_regression_x = np.linspace(
                 g4_wsj_return_chart_df["category_score"].min(), g4_wsj_return_chart_df["category_score"].max(), 200
@@ -3929,6 +3944,10 @@ if st.session_state.selected_section == "Data Visualization 5":
             g4_wsj_regression_y = np.polyval(g4_wsj_regression_coefficients, g4_wsj_regression_x)
             g4_wsj_fitted_y = np.polyval(g4_wsj_regression_coefficients, g4_wsj_return_chart_df["category_score"])
             g4_wsj_residuals = np.asarray(g4_wsj_return_chart_df[g4_wsj_z_column] - g4_wsj_fitted_y, dtype=float)
+            g4_wsj_ss_tot = float(
+                ((g4_wsj_return_chart_df[g4_wsj_z_column] - g4_wsj_return_chart_df[g4_wsj_z_column].mean()) ** 2).sum()
+            )
+            g4_wsj_signed_r2 = 1 - float((g4_wsj_residuals ** 2).sum()) / g4_wsj_ss_tot if g4_wsj_ss_tot else None
             g4_wsj_observed_x = np.asarray(g4_wsj_return_chart_df["category_score"], dtype=float)
             g4_wsj_local_x_half_window = 0.5
             g4_wsj_local_std = []
@@ -3992,6 +4011,7 @@ if st.session_state.selected_section == "Data Visualization 5":
             f"{g4_wsj_method_description} Z-score. {g4_wsj_signed_filter_mode} signed Z-scores from "
             f"{g4_wsj_signed_z_min:+.2f}σ to {g4_wsj_signed_z_max:+.2f}σ. "
             "Regression band: local ±1 return SD using a ±0.5 category-ranking window."
+            + (f" Quadratic regression R²: {g4_wsj_signed_r2:.3f}." if g4_wsj_signed_r2 is not None else "")
         )
 
         # ── 5th chart: head-to-head comparison of the two coverage
