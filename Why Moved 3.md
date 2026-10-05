@@ -16,10 +16,11 @@ be sourced, plus two new second-order source types:
   paragraphs later (or in a different article, or in the transcript), the
   evidence describes a mid-quarter order that boosted revenue, without that
   source itself linking the order back to the beat. Why Moved 3 uses that order
-  as the reason. The same reach-across-the-evidence-set approach applies to
-  Guidance specifically: when the articles don't explain why guidance moved,
-  read management's own commentary in the earnings call transcript (and the
-  8-K, if it adds relevant color) for the underlying driver.
+  as the reason, regardless of which source it came from. This applies to every
+  category equally -- it just tends to matter most for Guidance in practice,
+  since management's own commentary on the earnings call is often the clearest
+  account of why guidance moved; an article that already explains it works
+  just as well.
 - This changes what a category's reason text can draw on. It does **not**
   change the explicit/implicit ATTRIBUTION rule: a category is still tagged
   explicit only when some source states the causal link directly, and implicit
@@ -176,15 +177,20 @@ cause of the move.
 
 Reason sourcing is not limited to the sentence next to the figure, or to the
 single source that reports the figure at all: read the complete evidence set
-(articles, transcript, filing) for the observation, and connect a reason to a
-category whenever the evidence genuinely supports the connection, even if no
-single source states it as directly as "X caused Y." The worked example at the
-top of this document (a profit beat reported in one place, a mid-quarter order
-explaining it reported separately, with no source linking the two) is the
-general pattern: use the order as the reason. This reach-across-the-evidence
-approach is REQUIRED for Guidance specifically whenever the articles state that
-guidance moved without saying why -- check the transcript (management's own
-comments and the Q&A) and the filing before leaving the reason unexplained.
+(articles, transcript, filing, with no priority order between them) for the
+observation, and connect a reason to a category whenever the evidence genuinely
+supports the connection, even if no single source states it as directly as
+"X caused Y." The worked example at the top of this document (a profit beat
+reported in one place, a mid-quarter order explaining it reported separately,
+with no source linking the two) is the general pattern -- use the order as the
+reason, and it makes no difference whether that order was mentioned in an
+article, the transcript or the filing. This applies to every category, same as
+in Why Moved 2's original reading of the articles; it's simply worth knowing
+that for Guidance in particular, the reason is often in the transcript, because
+that's where management explains their own forward-looking numbers most often
+-- not because the transcript is a required or privileged source for Guidance
+specifically. If an article already explains it, that's just as valid as the
+transcript; read whichever evidence has the answer.
 
 Attribution:
   - EXPLICIT: a source (article, transcript or filing) states a direct cause-and-effect link between the category and the stock's move. E.g. "shares fell because profit disappointed", "the guidance cut sent shares lower", "investors punished the stock for weak margins", or a CEO on the earnings call saying "we raised guidance because of the order backlog we built this quarter." A link stated by analysts or another source that an article quotes also counts as explicit (e.g. "analysts said the guidance cut drove the selloff"). Several categories can be explicit.
@@ -198,7 +204,7 @@ Expectations: stocks move on the gap between results and expectations, not on ev
   - If the articles give no expectation at all for an included category, say so in its text ("the articles give no expectation for this").
   - "direction" follows the gap, not the raw number: revenue up 10% against 15% expected is negative. Where the articles give no expectation, direction follows how the articles say the category affected the stock.
 
-Filings and transcripts (8-K / press release / earnings call transcript), when provided, are second-order sources: use them to confirm or correct reported figures, same as Why Moved 2, AND to find or validate the REASON a category beat or missed -- this is the Why Moved 3 addition. This applies to every category, and especially to Guidance: when the articles don't explain why guidance moved, read management's commentary in the transcript (and the filing, if it adds relevant color) for the underlying driver, and use it when found. Expectations (the consensus/estimate a result is judged against) still come only from the articles; the transcript and filing are not used to supply an expectation figure, only to find or support the causal reason once an article has already established what happened and what was expected.
+Filings and transcripts (8-K / press release / earnings call transcript), when provided, are second-order sources: use them to confirm or correct reported figures, same as Why Moved 2, AND to find or validate the REASON a category beat or missed -- this is the Why Moved 3 addition. This applies to every category equally; it tends to matter most for Guidance in practice, since management's own commentary on the call is often the clearest account of why guidance moved, but an article that already explains it works just as well -- there's no required order or preference between articles, transcript and filing, just read whichever evidence has the answer. Expectations (the consensus/estimate a result is judged against) still come only from the articles; the transcript and filing are not used to supply an expectation figure, only to find or support the causal reason once an article has already established what happened and what was expected.
 
 STEP 3 -- WRITE THREE PARAGRAPHS. Stay brief and concise on each category -- one or two sentences each -- while always keeping the "what happened compared to what was expected" structure.
 
