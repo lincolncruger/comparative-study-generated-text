@@ -5704,6 +5704,36 @@ if st.session_state.selected_section == "Data Visualization 5":
                 total += current_sign * base_weight * mult
             return total / len(active)
 
+        # Quantitative Analysis 8.0's formula -- per-CATEGORY, not per-
+        # observation: for each category active this quarter, check that
+        # SAME category's status last quarter. If it was explicit and
+        # positive last quarter, subtract 0.5 from this quarter's weighted
+        # value for that category. If it was explicit and negative last
+        # quarter, add 0.5 -- regardless of this quarter's own direction for
+        # that category. A category with no explicit history last quarter
+        # (absent, implicit, or no prior observation available) keeps its
+        # original explicit ×2 / implicit ×1 weighted value unchanged.
+        def g4_category_score_prior_category_shift(entry, prior_entry):
+            cells = (entry or {}).get("categories", {})
+            prior_cells = (prior_entry or {}).get("categories", {})
+            active = [c for c in WHY_MOVED_2_CATEGORIES if cells.get(c)]
+            if not active:
+                return None
+            total = 0.0
+            for cname in active:
+                cell = cells[cname]
+                base_weight = 2 if cell.get("attribution") == "explicit" else 1
+                current_sign = 1 if cell.get("direction") == "positive" else -1
+                value = current_sign * base_weight
+                prior_cell = prior_cells.get(cname)
+                if prior_cell and prior_cell.get("attribution") == "explicit":
+                    if prior_cell.get("direction") == "positive":
+                        value -= 0.5
+                    elif prior_cell.get("direction") == "negative":
+                        value += 0.5
+                total += value
+            return total / len(active)
+
         def g4_qa7_build(lookup, tickers):
             rows = []
             skipped_no_prior = 0
@@ -5743,6 +5773,7 @@ if st.session_state.selected_section == "Data Visualization 5":
                 adjusted8 = (
                     g4_category_score_prior_shift(baseline7, prior_sign) if baseline7 is not None else None
                 )
+                adjusted_qa8 = g4_category_score_prior_category_shift(entry, prior_entry)
                 metrics = group4_abnormal_returns_lookup.get(key, {}).get(g4_compare_method_key) or {}
                 ret = metrics.get(g4_compare_return_field)
                 z = metrics.get(g4_compare_z_field)
@@ -5763,6 +5794,7 @@ if st.session_state.selected_section == "Data Visualization 5":
                         "baseline7": baseline7,
                         "adjusted7": adjusted7,
                         "adjusted8": adjusted8,
+                        "adjusted_qa8": adjusted_qa8,
                         "return_pct": ret,
                         "prior_sign": prior_sign,
                     }
@@ -6203,6 +6235,94 @@ if st.session_state.selected_section == "Data Visualization 5":
             g4_qa7_sel_sm_stats8,
             g4_qa7_wsj_lc_stats8,
         )
+
+        # ── Quantitative Analysis 8.0 -- a per-CATEGORY prior-expectation
+        # adjustment, distinct from Quantitative Analysis 7.0's per-
+        # observation (aggregate-score) adjustment above. For each category
+        # active this quarter, look up that SAME category's status last
+        # quarter (same ticker, same source). If it was explicit and
+        # positive last quarter, subtract 0.5 from this quarter's weighted
+        # value for that category; if explicit and negative, add 0.5 --
+        # regardless of this quarter's own direction for that category. A
+        # category with no explicit history last quarter is left at its
+        # original explicit ×2 / implicit ×1 weighted value. Reuses
+        # g4_qa7_build's restricted population (prior quarter must be in
+        # the sample and scored) and g4_qa7_stats. Three separate per-series
+        # tables, per explicit instruction, rather than one combined table. ──
+        g4_qa8_sel_lc_stats = g4_qa7_stats(g4_qa7_sel_lc_df, adjusted_col="adjusted_qa8", baseline_col="baseline")
+        g4_qa8_sel_sm_stats = g4_qa7_stats(g4_qa7_sel_sm_df, adjusted_col="adjusted_qa8", baseline_col="baseline")
+        g4_qa8_wsj_lc_stats = g4_qa7_stats(g4_qa7_wsj_lc_df, adjusted_col="adjusted_qa8", baseline_col="baseline")
+
+        st.html("<div style='height:3px; background:#FFD700; margin:2.5rem 0 1.5rem 0; border-radius:2px;'></div>")
+        st.markdown(
+            "<div class='quarter-header' style='font-size:1.7rem; text-align:center; color:#FFD700;'>"
+            "Quantitative Analysis 8.0</div>"
+            "<div style='text-align:center; font-size:0.95rem; color:rgba(214,228,240,0.75); "
+            "font-style:italic; margin-top:0.2rem;'>Goal: test a per-category (rather than per-observation) "
+            "prior-expectation adjustment -- does a category's own explicit history last quarter predict "
+            "this quarter's return better than treating every quarter independently?</div>",
+            unsafe_allow_html=True,
+        )
+        st.markdown("<hr class='quarter-divider'/>", unsafe_allow_html=True)
+
+        st.markdown(
+            "<div style='max-width:760px; margin:0 auto; color:#D6E4F0;'>"
+            "<p style='text-align:justify; margin-bottom:0.8rem;'>"
+            "Same restricted population as Quantitative Analysis 7.0 (prior quarter must be in this page's "
+            "existing sample and scored from the same source), same explicit ×2 / implicit ×1 base weighting "
+            "-- but the adjustment now looks at each category's own history rather than last quarter's "
+            "overall score. For a category active this quarter, check that same category last quarter: if "
+            "it was explicit and positive, subtract 0.5 from this quarter's weighted value for that category; "
+            "if explicit and negative, add 0.5 -- regardless of this quarter's own direction for that "
+            "category. A category with no explicit history last quarter (absent, implicit, or no prior "
+            "observation) keeps its original weighted value. One table per series below, each its own "
+            "baseline-vs-adjusted comparison."
+            "</p>"
+            "</div>",
+            unsafe_allow_html=True,
+        )
+
+        def g4_qa8_render_series_table(label, stats):
+            n_str = str(stats["n"]) if stats["n"] else "0"
+            rows_html = (
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>N</td>"
+                f"<td style='text-align:center; padding:6px 10px;' colspan='2'>{n_str}</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>Correlation vs. return</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(stats['corr_base'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(stats['corr_adj'])}</td>"
+                "</tr>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.2);'>"
+                "<td style='padding:6px 10px;'>R² (quadratic fit)</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(stats['r2_base'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_corr(stats['r2_adj'])}</td>"
+                "</tr>"
+                "<tr>"
+                "<td style='padding:6px 10px;'>Sign agreement (directional)</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(stats['sign_base'])}</td>"
+                f"<td style='text-align:center; padding:6px 10px;'>{g4_fmt_pct(stats['sign_adj'])}</td>"
+                "</tr>"
+            )
+            st.markdown(
+                "<div style='max-width:560px; margin:0 auto 1.5rem auto; color:#D6E4F0;'>"
+                f"<div class='context-heading' style='text-align:center;'>{label}</div>"
+                "<table style='width:100%; border-collapse:collapse; margin:0.4rem 0; font-size:0.9rem;'>"
+                "<tr style='border-bottom:1px solid rgba(74,144,217,0.5);'>"
+                "<th style='text-align:left; padding:6px 10px; color:#D8B978;'>Stat</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Baseline</th>"
+                "<th style='text-align:center; padding:6px 10px; color:#D8B978;'>Adjusted</th>"
+                "</tr>"
+                + rows_html
+                + "</table>"
+                "</div>",
+                unsafe_allow_html=True,
+            )
+
+        g4_qa8_render_series_table("Selected Coverage -- Large Cap", g4_qa8_sel_lc_stats)
+        g4_qa8_render_series_table("Selected Coverage -- Small &amp; Mid Cap", g4_qa8_sel_sm_stats)
+        g4_qa8_render_series_table("High-Tier Coverage -- Large Cap", g4_qa8_wsj_lc_stats)
 
         # ── Qualitative Analysis -- for every active category cell in each
         # source's OWN full observation set (not restricted to the 75
