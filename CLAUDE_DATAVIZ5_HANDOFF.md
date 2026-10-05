@@ -4,7 +4,7 @@ Process only the observations in `data/dataviz5_claude_evidence.json`. This is
 the Claude half of a deterministic, non-overlapping split; Codex is processing
 the note keys in `data/dataviz5_openai_batch_keys.json`.
 
-Use the complete reusable prompt inside the fenced block in `Why Moved 2.md`.
+Use the complete reusable prompt inside the fenced block in `Prompt 2.md`.
 Substitute `StockNews API and validated linked sources` for `[SOURCE]`. Read
 every article in each observation. Do not use Gemini or the OpenAI API.
 
@@ -14,7 +14,7 @@ by note_key. Each successful value must contain exactly:
 - `summary_analysis`
 - `explicit_reasons`
 - `implicit_reasons`
-- `categories` with all 11 keys from `Why Moved 2.md`
+- `categories` with all 11 keys from `Prompt 2.md`
 - `sources`, with URLs copied exactly from the evidence packet
 
 Write a separate `wsj_extracted/stocknews_v2_claude_audit.json`. For every

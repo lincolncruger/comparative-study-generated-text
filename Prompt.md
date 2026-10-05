@@ -1,4 +1,4 @@
-# "Why Moved" summarization prompt template
+# "Prompt" summarization prompt template
 
 Reusable prompt template for having an agent read raw news-article text (from any
 provider — WSJ, DJNW, Massive/Benzinga, StockNews, etc.) and write grounded

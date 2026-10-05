@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Fetch StockNews API articles for Data Visualization 1 observations dated
-April 2019 onward, as input for the "Why Moved 2" prompt.
+April 2019 onward, as input for the "Prompt 2" prompt.
 
 Per observation: one StockNews call for the window from the day before the
 earnings date to three days after, articles sorted oldest first. The API

@@ -1,6 +1,6 @@
-# "Why Moved 2" summarization prompt template
+# "Prompt 2" summarization prompt template
 
-Builds on `Why Moved.md` (which stays unchanged). One prompt, run on the articles
+Builds on `Prompt.md` (which stays unchanged). One prompt, run on the articles
 fetched from a news provider's API for each earnings observation, that:
 
 1. keeps only the quality articles,
@@ -211,7 +211,7 @@ Report how many observations you wrote, how many you skipped for having no quali
 
 ## Why these rules exist (don't drop them when editing)
 
-- **Only what the articles say**: carried over from `Why Moved.md`. An early
+- **Only what the articles say**: carried over from `Prompt.md`. An early
   WSJ pass leaked our own computed returns into the text, making it look like
   the article said something it never said. This is still the single most
   important rule.

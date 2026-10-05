@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regenerate Data Visualization 4 StockNews coverage with Why Moved 2.
+"""Regenerate Data Visualization 4 StockNews coverage with Prompt 2.
 
 Each observation is sent as one self-contained request. Results are checkpointed
 after every successful response and are not merged into the dashboard until the
@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 INPUT = ROOT / "wsj_extracted" / "stocknews_consolidated.json"
 STAGE = ROOT / "wsj_extracted" / "stocknews_v2_rebuild.json"
 AUDIT = ROOT / "wsj_extracted" / "stocknews_v2_audit.json"
-PROMPT = ROOT / "Why Moved 2.md"
+PROMPT = ROOT / "Prompt 2.md"
 API = "https://api.openai.com/v1/responses"
 MODEL = "gpt-5.4"
 CATEGORIES = [

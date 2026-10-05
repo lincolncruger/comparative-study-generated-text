@@ -958,7 +958,7 @@ def load_stocknews_coverage(mtime_marker):
 
 @st.cache_data
 def load_group4_stocknews_v2(mtime_marker):
-    """Data Visualization 5's "Why Moved 2" (v2, 11-category) StockNews
+    """Data Visualization 5's "Prompt 2" (v2, 11-category) StockNews
     coverage -- a deterministic, non-overlapping split between two writers
     (Claude processed stocknews_v2_claude.json's note keys, Codex/OpenAI
     processed the 3 stocknews_v2_codex_shard_*.json files', 24 keys each),
@@ -983,7 +983,7 @@ def load_group4_wsj_coverage(mtime_marker):
     """Data Visualization 5's High-Tier Coverage -- real WSJ/Dow Jones
     Newswires/Barron's/MarketWatch articles the user manually sourced as
     PDFs and screenshots, matched one-to-one to specific Large Cap
-    observations, written with the same Why Moved 2 (11-category) prompt
+    observations, written with the same Prompt 2 (11-category) prompt
     as the StockNews coverage above."""
     if not os.path.exists(GROUP4_WSJ_COVERAGE_PATH):
         return {}
@@ -1195,8 +1195,8 @@ def _show_pd_categories_dialog(note_key):
     )
 
 
-# Exact key strings of the "categories" table written by the Why Moved 2
-# prompt (see "Why Moved 2.md") -- a different, 11-category set from
+# Exact key strings of the "categories" table written by the Prompt 2
+# prompt (see "Prompt 2.md") -- a different, 11-category set from
 # PD_CATEGORIES above.
 WHY_MOVED_2_CATEGORIES = [
     "Guidance",
@@ -2530,7 +2530,7 @@ if st.session_state.selected_section == "Data Visualization 3":
 
 if st.session_state.selected_section == "Data Visualization 4":
     # Focused copy of Data Visualization 1: only post-March-2019 earnings
-    # observations for which the StockNews / Why Moved 2 pipeline retained at
+    # observations for which the StockNews / Prompt 2 pipeline retained at
     # least one quality article.  The three columns preserve Data Viz 1's
     # comparison while fixing StockNews as the coverage source.
     dv4_rows = df[df["earnings_date"] >= pd.Timestamp("2019-04-01")].copy()
@@ -5450,7 +5450,7 @@ if st.session_state.selected_section == "Data Visualization 5":
             )
 
         # ── Quantitative Analysis 6.0 -- "active categories rate": of the 11
-        # Why Moved 2 categories evaluated per observation, how many come
+        # Prompt 2 categories evaluated per observation, how many come
         # back active (tied to the stock's move) vs. null ("Not tied to the
         # stock's move")? This is upstream of every other Quant/Qualitative
         # Analysis section -- a low active rate means fewer categories ever
@@ -5519,7 +5519,7 @@ if st.session_state.selected_section == "Data Visualization 5":
         st.markdown(
             "<div style='max-width:820px; margin:0 auto; color:#D6E4F0;'>"
             "<p style='text-align:justify; margin-bottom:0.8rem;'>"
-            "Every observation's write-up evaluates all 11 Why Moved 2 categories; most come back null "
+            "Every observation's write-up evaluates all 11 Prompt 2 categories; most come back null "
             "(\"Not tied to the stock's move\") and a minority are flagged active, with a direction, "
             "attribution, and text. \"Possible slots\" is observations × 11 — the ceiling if every category "
             "were active for every observation. \"Explicit rate\" uses that same possible-slots denominator "
@@ -7636,7 +7636,7 @@ for idx, row in sub.iterrows():
         }
         source_entry = third_column_lookups[third_column_source].get(note_key)
         if third_column_source == "StockNews API":
-            # Written with the Why Moved 2 prompt: summary + explicit and
+            # Written with the Prompt 2 prompt: summary + explicit and
             # implicit reasons, plus a category table shown in a dialog.
             if source_entry:
                 for field, heading in [

@@ -1,13 +1,13 @@
-# "Why Moved 3" summarization prompt template
+# "Prompt 3" summarization prompt template
 
-Builds on `Why Moved 2.md` (which stays unchanged). Same inputs, same three
+Builds on `Prompt 2.md` (which stays unchanged). Same inputs, same three
 paragraphs, same 11-category table -- one change to how a category's REASON may
 be sourced, plus two new second-order source types:
 
-- **Why Moved 2** only ever wrote a category's reason when some article stated
+- **Prompt 2** only ever wrote a category's reason when some article stated
   the figure and its explanation together, close enough for the model to quote
   both in the same breath.
-- **Why Moved 3** reads the complete evidence set for the observation -- every
+- **Prompt 3** reads the complete evidence set for the observation -- every
   kept article, the earnings call transcript, and the 8-K / press release, when
   available -- and may draw a category's reason from anywhere in that evidence,
   even when no single source explicitly ties it back to the beat or miss, as
@@ -15,7 +15,7 @@ be sourced, plus two new second-order source types:
   article's opening sentence reports profit above the expected figure; three
   paragraphs later (or in a different article, or in the transcript), the
   evidence describes a mid-quarter order that boosted revenue, without that
-  source itself linking the order back to the beat. Why Moved 3 uses that order
+  source itself linking the order back to the beat. Prompt 3 uses that order
   as the reason, regardless of which source it came from. This applies to every
   category equally -- it just tends to matter most for Guidance in practice,
   since management's own commentary on the earnings call is often the clearest
@@ -28,7 +28,7 @@ be sourced, plus two new second-order source types:
   by itself, promote that category to explicit -- the two are independent axes.
 - Earnings call transcripts and 8-K / press-release filings are now standard
   second-order sources, fetched for every observation when a configured
-  provider has them (Why Moved 2 treated the filing as optional and limited it
+  provider has them (Prompt 2 treated the filing as optional and limited it
   to confirming figures only; see the Filings section below).
 
 Explicit categories are the first-order reasons for the move; implicit ones are
@@ -185,7 +185,7 @@ reported in one place, a mid-quarter order explaining it reported separately,
 with no source linking the two) is the general pattern -- use the order as the
 reason, and it makes no difference whether that order was mentioned in an
 article, the transcript or the filing. This applies to every category, same as
-in Why Moved 2's original reading of the articles; it's simply worth knowing
+in Prompt 2's original reading of the articles; it's simply worth knowing
 that for Guidance in particular, the reason is often in the transcript, because
 that's where management explains their own forward-looking numbers most often
 -- not because the transcript is a required or privileged source for Guidance
@@ -204,7 +204,7 @@ Expectations: stocks move on the gap between results and expectations, not on ev
   - If the articles give no expectation at all for an included category, say so in its text ("the articles give no expectation for this").
   - "direction" follows the gap, not the raw number: revenue up 10% against 15% expected is negative. Where the articles give no expectation, direction follows how the articles say the category affected the stock.
 
-Filings and transcripts (8-K / press release / earnings call transcript), when provided, are second-order sources: use them to confirm or correct reported figures, same as Why Moved 2, AND to find or validate the REASON a category beat or missed -- this is the Why Moved 3 addition. This applies to every category equally; it tends to matter most for Guidance in practice, since management's own commentary on the call is often the clearest account of why guidance moved, but an article that already explains it works just as well -- there's no required order or preference between articles, transcript and filing, just read whichever evidence has the answer. Expectations (the consensus/estimate a result is judged against) still come only from the articles; the transcript and filing are not used to supply an expectation figure, only to find or support the causal reason once an article has already established what happened and what was expected.
+Filings and transcripts (8-K / press release / earnings call transcript), when provided, are second-order sources: use them to confirm or correct reported figures, same as Prompt 2, AND to find or validate the REASON a category beat or missed -- this is the Prompt 3 addition. This applies to every category equally; it tends to matter most for Guidance in practice, since management's own commentary on the call is often the clearest account of why guidance moved, but an article that already explains it works just as well -- there's no required order or preference between articles, transcript and filing, just read whichever evidence has the answer. Expectations (the consensus/estimate a result is judged against) still come only from the articles; the transcript and filing are not used to supply an expectation figure, only to find or support the causal reason once an article has already established what happened and what was expected.
 
 STEP 3 -- WRITE THREE PARAGRAPHS. Stay brief and concise on each category -- one or two sentences each -- while always keeping the "what happened compared to what was expected" structure.
 
@@ -258,19 +258,19 @@ Report how many observations you wrote, how many you skipped for having no quali
 
 ## Why these rules exist (don't drop them when editing)
 
-- **Only what the evidence set says**: carried over from `Why Moved.md`. An
+- **Only what the evidence set says**: carried over from `Prompt.md`. An
   early WSJ pass leaked our own computed returns into the text, making it look
   like the article said something it never said. This is still the single most
-  important rule -- Why Moved 3 widens the evidence set to include the
+  important rule -- Prompt 3 widens the evidence set to include the
   transcript and filing, but the rule itself is unchanged: never write
   anything the evidence set doesn't support.
 - **Reasons may be drawn from across the evidence set, not just the sentence
-  next to the figure**: the Why Moved 2 reason rate (measured later, on the
+  next to the figure**: the Prompt 2 reason rate (measured later, on the
   dashboard) showed most active categories across both tested sources state
   the figure and the beat/miss verdict without ever explaining why -- not
   necessarily because the source material doesn't have the reason, but
-  because Why Moved 2 only ever captured it when a single sentence stated the
-  figure and the explanation together. Why Moved 3 reads the full evidence
+  because Prompt 2 only ever captured it when a single sentence stated the
+  figure and the explanation together. Prompt 3 reads the full evidence
   set and connects a reason to a category whenever the connection is
   genuinely supported, even across separate sentences, separate articles, or
   the transcript. This changes only what the reason text can draw on --
@@ -300,7 +300,7 @@ Report how many observations you wrote, how many you skipped for having no quali
   only for launches and user numbers.
 - **Filings and transcripts can now source reasons, never expectations**: Why
   Moved 2 limited an 8-K/press release to confirming figures, because a filing
-  is factual but doesn't say what was expected. Why Moved 3 also lets the
+  is factual but doesn't say what was expected. Prompt 3 also lets the
   filing, and now the earnings call transcript, supply or support a category's
   reason (management's own words on the call are often the clearest account
   of why guidance moved). Expectations still come only from the articles --
@@ -338,5 +338,5 @@ Report how many observations you wrote, how many you skipped for having no quali
   schema. Keep it in sync if that schema changes.
 - `filing` and `transcript` availability depends on the configured provider for
   that batch; not every provider carries both. When neither is available for an
-  observation, proceed on articles alone, the same as Why Moved 2 -- these are
+  observation, proceed on articles alone, the same as Prompt 2 -- these are
   second-order sources, not a publication gate.
